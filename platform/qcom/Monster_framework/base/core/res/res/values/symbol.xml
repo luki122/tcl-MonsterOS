@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     This file defines the base public resources exported by the
+     platform, which must always exist.
+-->
+<resources>
+
+    <!--
+       We don't want to publish private symbols in com.mst.R as part of the
+       SDK.  Instead, put them here.
+    -->
+    <private-symbols package="com.mst.internal" />
+
+    <!-- <java-symbol name="btn_check_buttonless_off" type="id" /> -->
+
+    <java-symbol name="btn_check_buttonless_off" type="drawable" />
+    <java-symbol name="btn_check_buttonless_on" type="drawable" />
+    <java-symbol name="btn_erase_default" type="drawable" />
+    <java-symbol name="btn_erase_pressed" type="drawable" />
+    <java-symbol name="btn_erase_selected" type="drawable" />
+    <java-symbol name="textfield_activated_mtrl_alpha" type="drawable" />
+    <java-symbol name="textfield_default_mtrl_alpha" type="drawable" />
+    <java-symbol name="btn_radio_to_off_mtrl_000" type="drawable" />
+    <java-symbol name="btn_radio_to_off_mtrl_001" type="drawable" />
+    <java-symbol name="btn_radio_to_off_mtrl_002" type="drawable" />
+    <java-symbol name="btn_radio_to_off_mtrl_003" type="drawable" />
+    <java-symbol name="btn_radio_to_off_mtrl_004" type="drawable" />
+    <java-symbol name="btn_radio_to_off_mtrl_005" type="drawable" />
+    <java-symbol name="btn_radio_to_off_mtrl_006" type="drawable" />
+    <java-symbol name="btn_radio_to_off_mtrl_007" type="drawable" />
+    <java-symbol name="btn_radio_to_off_mtrl_008" type="drawable" />
+    <java-symbol name="btn_radio_to_off_mtrl_009" type="drawable" />
+    <java-symbol name="btn_radio_to_off_mtrl_010" type="drawable" />
+    <java-symbol name="btn_radio_to_off_mtrl_011" type="drawable" />
+    <java-symbol name="btn_radio_to_off_mtrl_012" type="drawable" />
+    <java-symbol name="btn_radio_to_off_mtrl_013" type="drawable" />
+    <java-symbol name="btn_radio_to_off_mtrl_014" type="drawable" />
+    <java-symbol name="btn_radio_to_off_mtrl_015" type="drawable" />
+    <java-symbol name="btn_radio_to_on_mtrl_000" type="drawable" />
+    <java-symbol name="btn_radio_to_on_mtrl_001" type="drawable" />
+    <java-symbol name="btn_radio_to_on_mtrl_002" type="drawable" />
+    <java-symbol name="btn_radio_to_on_mtrl_003" type="drawable" />
+    <java-symbol name="btn_radio_to_on_mtrl_004" type="drawable" />
+    <java-symbol name="btn_radio_to_on_mtrl_005" type="drawable" />
+    <java-symbol name="btn_radio_to_on_mtrl_006" type="drawable" />
+    <java-symbol name="btn_radio_to_on_mtrl_007" type="drawable" />
+    <java-symbol name="btn_radio_to_on_mtrl_008" type="drawable" />
+    <java-symbol name="btn_radio_to_on_mtrl_009" type="drawable" />
+    <java-symbol name="btn_radio_to_on_mtrl_010" type="drawable" />
+    <java-symbol name="btn_radio_to_on_mtrl_011" type="drawable" />
+    <java-symbol name="btn_radio_to_on_mtrl_012" type="drawable" />
+    <java-symbol name="btn_radio_to_on_mtrl_013" type="drawable" />
+    <java-symbol name="btn_radio_to_on_mtrl_014" type="drawable" />
+    <java-symbol name="btn_radio_to_on_mtrl_015" type="drawable" />
+    <java-symbol name="btn_switch_to_off_mtrl_00001" type="drawable" />
+    <java-symbol name="btn_switch_to_off_mtrl_00002" type="drawable" />
+    <java-symbol name="btn_switch_to_off_mtrl_00003" type="drawable" />
+    <java-symbol name="btn_switch_to_off_mtrl_00004" type="drawable" />
+    <java-symbol name="btn_switch_to_off_mtrl_00005" type="drawable" />
+    <java-symbol name="btn_switch_to_off_mtrl_00006" type="drawable" />
+    <java-symbol name="btn_switch_to_off_mtrl_00007" type="drawable" />
+    <java-symbol name="btn_switch_to_off_mtrl_00008" type="drawable" />
+    <java-symbol name="btn_switch_to_off_mtrl_00009" type="drawable" />
+    <java-symbol name="btn_switch_to_off_mtrl_00010" type="drawable" />
+    <java-symbol name="btn_switch_to_off_mtrl_00011" type="drawable" />
+    <java-symbol name="btn_switch_to_off_mtrl_00012" type="drawable" />
+    <java-symbol name="btn_switch_to_on_mtrl_00001" type="drawable" />
+    <java-symbol name="btn_switch_to_on_mtrl_00002" type="drawable" />
+    <java-symbol name="btn_switch_to_on_mtrl_00003" type="drawable" />
+    <java-symbol name="btn_switch_to_on_mtrl_00004" type="drawable" />
+    <java-symbol name="btn_switch_to_on_mtrl_00005" type="drawable" />
+    <java-symbol name="btn_switch_to_on_mtrl_00006" type="drawable" />
+    <java-symbol name="btn_switch_to_on_mtrl_00007" type="drawable" />
+    <java-symbol name="btn_switch_to_on_mtrl_00008" type="drawable" />
+    <java-symbol name="btn_switch_to_on_mtrl_00009" type="drawable" />
+    <java-symbol name="btn_switch_to_on_mtrl_00010" type="drawable" />
+    <java-symbol name="btn_switch_to_on_mtrl_00011" type="drawable" />
+    <java-symbol name="btn_switch_to_on_mtrl_00012" type="drawable" />
+    <java-symbol name="editbox_dropdown_background_dark" type="drawable" />
+    <java-symbol name="list_section_divider_mtrl_alpha" type="drawable" />
+    <java-symbol name="popup_inline_error_above_holo_light_am" type="drawable" />
+    <java-symbol name="popup_inline_error_holo_light_am" type="drawable" />
+    <java-symbol name="popup_bottom_bright" type="drawable" />
+    <java-symbol name="popup_bottom_dark" type="drawable" />
+    <java-symbol name="popup_bottom_medium" type="drawable" />
+    <java-symbol name="popup_center_bright" type="drawable" />
+    <java-symbol name="popup_center_dark" type="drawable" />
+    <java-symbol name="popup_full_bright" type="drawable" />
+    <java-symbol name="popup_full_dark" type="drawable" />
+    <java-symbol name="popup_top_bright" type="drawable" />
+    <java-symbol name="popup_top_dark" type="drawable" />
+    <java-symbol name="indexbar_star_normal_holo_light" type="drawable" />
+    <java-symbol name="ic_back" type="drawable" />
+
+    <!-- bool -->
+    <java-symbol name="allow_stacked_button_bar" type="bool" />
+
+    <!-- layout -->
+
+    <java-symbol name="list_content_simple" type="layout" />
+    <java-symbol name="time_picker_legacy" type="layout" />
+    <java-symbol name="date_picker_legacy" type="layout" />
+    <java-symbol name="screen_simple_overlay" type="layout" />
+    <java-symbol name="slider_button" type="layout" />
+    <java-symbol name="popup_dialog" type="layout" />
+    <java-symbol name="wrap_dialog_material" type="layout" />
+    <java-symbol name="floating_popup_container" type="layout" />
+
+    <!-- string -->
+    <java-symbol name="time_picker_dialog_title" type="string" />
+    <java-symbol name="date_picker_dialog_title" type="string" />
+    <java-symbol name="date_time_set" type="string" />
+    <java-symbol name="date_time_done" type="string" />
+    <java-symbol name="pattern_date_format" type="string" />
+
+    <!-- dimen -->
+    <java-symbol name="datepicker_middle_margin_left" type="dimen" />
+    <java-symbol name="datepicker_middle_margin_right" type="dimen" />
+
+    <java-symbol name="wrapdialog_padding_left" type="dimen" />
+    <java-symbol name="wrapdialog_padding_top" type="dimen" />
+    <java-symbol name="wrapdialog_padding_right" type="dimen" />
+    <java-symbol name="wrapdialog_padding_bottom" type="dimen" />
+    <java-symbol name="toolbar_subtitle_margin_top" type="dimen" />
+	
+	<!-- style -->
+    <java-symbol name="MstIndexBar_popup_anim" type="style" />
+    <java-symbol name="popup_dialog_anim" type="style" />
+    <java-symbol name="Mst.Material.WrapDialog" type="style" />
+
+    <!-- color -->
+    <java-symbol name="indexbar_letter_color" type="color" />
+	
+
+    <!-- IDS -->
+    <java-symbol name="dialog_button_divider1" type="id" />
+    <java-symbol name="dialog_button_divider2" type="id" />
+    <java-symbol name="space1" type="id" />
+<!--     <java-symbol name="bottom_navigation_img_parent" type="id" />
+    <java-symbol name="bottom_navigation_btn_parent" type="id" /> -->
+    
+    <!-- menu -->
+    <java-symbol name="edit_mode_menu" type="menu" />
+</resources>

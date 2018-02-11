@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="logo_marginTop">98dp</dimen>
+    <dimen name="check_view_marginTop">83dp</dimen>
+    <dimen name="loading_box_horizontal_margin">166dp</dimen>
+    <dimen name="version_view_marginTop">118dp</dimen>
+    <dimen name="new_version_arrow_marginLeft">6dp</dimen>
+    <dimen name="version_info_marginTop">6dp</dimen>
+    <dimen name="button_height">37dp</dimen>
+    <dimen name="start_update_horizontal_margin">91dp</dimen>
+    <dimen name="start_update_marginTop">30dp</dimen>
+    <dimen name="download_view_marginTop">81dp</dimen>
+    <dimen name="download_progressbar_horizontal_margin">96dp</dimen>
+    <dimen name="download_button_margin_top">76dp</dimen>
+    <dimen name="download_button_margin_sides">20dp</dimen>
+    <dimen name="download_button_margin_center">9dp</dimen>
+    <dimen name="install_button_margin_sides">91dp</dimen>
+    <dimen name="version_detail_button_margin">20dp</dimen>
+
+    <dimen name="textSize_12sp">12sp</dimen>
+    <dimen name="textSize_14sp">14sp</dimen>
+    <dimen name="textSize_15sp">15sp</dimen>
+
+
+    <dimen name="stroke_width">31dp</dimen>
+    <dimen name="corner_radius">4dp</dimen>
+    <dimen name="layer_padding">3dp</dimen>
+
+    <integer name="rect_index_fix">13</integer>
+
+</resources>

@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2015 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:title="@string/application_info_label">
+    <com.monster.appmanager.applications.LayoutPreference
+        android:key="header_view"
+        android:layout="@layout/installed_app_details"
+        android:selectable="false" />
+    
+    <PreferenceCategory
+        android:layout="@layout/preference_appdetail_storage_sum"
+        android:title="@string/total_size_label"
+        android:key="storage_category">
+	    <Preference
+            android:key="app_size"
+            android:layout="@layout/preference_appdetail_item"
+            android:selectable="false"
+            android:title="@string/application_size_label" />
+        <com.monster.appmanager.viewhelp.ButtonPreference
+            android:key="data_size"
+	        android:layout="@layout/preference_appdetail_item_with_button"
+            android:selectable="false"
+            android:title="@string/data_size_label" />
+	    <com.monster.appmanager.viewhelp.ButtonPreference
+	        android:key="cache_size"
+	        android:layout="@layout/preference_appdetail_item_with_button"
+	        android:selectable="false"
+	        android:title="@string/cache_size_label" />
+         <com.monster.appmanager.applications.SpacePreference
+	        android:layout_height="7dp" />
+	    <Preference
+	        android:layout="@layout/app_detail_item_seperator"
+	        android:selectable="false" />
+    </PreferenceCategory>
+    
+    <PreferenceCategory
+        android:layout="@layout/preference_appdetail_category"
+        android:title="@string/pref_title_notification"
+        android:key="notification_category">
+	    <com.monster.appmanager.applications.CommonPreference
+            android:key="notification_brief"
+            android:layout="@layout/preference_appdetail_item_arrow"
+            android:selectable="true" />
+	    <SwitchPreference
+	        android:title="@string/receive_notification"
+            android:selectable="true"
+	        android:key="notification_receive" />
+         <com.monster.appmanager.applications.SpacePreference
+	        android:layout_height="14dp" />
+	    <Preference
+	        android:layout="@layout/app_detail_item_seperator"
+	        android:selectable="false" />
+    </PreferenceCategory>
+    
+    <PreferenceCategory
+        android:layout="@layout/preference_appdetail_category"
+        android:title="@string/pref_title_data"
+        android:key="data_category">
+	    <Preference
+            android:key="data_total"
+            android:layout="@layout/preference_appdetail_item"
+	        android:title="@string/app_detail_data_title_total"
+            android:selectable="false" />
+	    <Preference
+            android:key="data_wifi_total"
+            android:layout="@layout/preference_appdetail_item"
+	        android:title="@string/app_detail_data_title_wifi_total"
+            android:selectable="false" />
+	    <SwitchPreference
+	        android:title="@string/data_switch_toggle"
+            android:selectable="true"
+	        android:key="data_switch_toggle" />
+	    <Preference
+	        android:layout="@layout/app_detail_item_seperator"
+	        android:selectable="false" />
+    </PreferenceCategory>
+    
+    <PreferenceCategory
+        android:layout="@layout/preference_appdetail_category"
+        android:title="@string/pref_title_resource"
+        android:key="resource_category">
+	    <com.monster.appmanager.applications.CommonPreference
+            android:layout="@layout/preference_appdetail_item_arrow"
+            android:key="resource_usage"
+	        android:title="@string/resource_usage"
+            android:selectable="false" />
+	    <SwitchPreference
+	        android:title="@string/switch_autostart"
+            android:selectable="true"
+	        android:key="switch_autostart" />
+	    <Preference
+	        android:layout="@layout/app_detail_item_seperator"
+	        android:selectable="false" />
+    </PreferenceCategory>
+    
+    <PreferenceCategory
+        android:layout="@layout/preference_appdetail_category"
+        android:title="@string/pref_title_auth"
+        android:key="auth_category">
+	    <com.monster.appmanager.applications.CommonPreference
+            android:key="auth_usage"
+            android:layout="@layout/preference_appdetail_item_arrow"
+            android:selectable="true" />
+<!-- 	    <com.monster.appmanager.viewhelp.ButtonPreference
+	        android:key="auth_optimize"
+	        android:layout="@layout/preference_appdetail_item_with_button"
+	        android:selectable="false"
+	        android:title="@string/sensible_auth" /> -->
+         <com.monster.appmanager.applications.SpacePreference
+	        android:layout_height="7dp" />
+	    <Preference
+	        android:layout="@layout/app_detail_item_seperator"
+	        android:selectable="false" />
+    </PreferenceCategory>
+    
+    <PreferenceCategory
+        android:layout="@layout/preference_appdetail_category"
+        android:title="@string/pref_title_others"
+        android:key="others_category">
+	    <SwitchPreference
+	        android:title="@string/app_detail_overlay_window"
+            android:selectable="true"
+	        android:key="switch_overlay_window" />
+	    <com.monster.appmanager.viewhelp.ButtonPreference
+	        android:key="btn_shortcut"
+	        android:layout="@layout/preference_appdetail_item_with_button"
+	        android:selectable="false"
+	        android:title="@string/app_detail_shortcut" />
+	    <com.monster.appmanager.viewhelp.ButtonPreference
+	        android:key="btn_default_app"
+	        android:layout="@layout/preference_appdetail_item_with_button"
+	        android:selectable="false"
+	        android:title="@string/app_detail_default_app" />
+         <com.monster.appmanager.applications.SpacePreference
+	        android:layout_height="7dp" />
+	    <Preference
+	        android:layout="@layout/app_detail_item_seperator"
+	        android:selectable="false" />
+    </PreferenceCategory>
+    
+<!--     <com.monster.appmanager.applications.CommonPreference
+        android:key="control_button_panel"
+        android:layout="@layout/two_button_layout"
+        android:selectable="false" /> -->
+    
+    
+    
+    
+    <PreferenceCategory
+        android:layout="@layout/preference_appdetail_category"
+        android:title="@string/pref_title_others"
+        android:key="original_category">
+	    
+    <Preference
+        android:key="storage_settings"
+        android:title="@string/storage_settings"
+        android:selectable="true" />
+
+    <Preference
+        android:key="data_settings"
+        android:title="@string/data_usage_summary_title"
+        android:selectable="true" />
+
+    <Preference
+        android:key="permission_settings"
+        android:title="@string/permissions_label"
+        android:selectable="true" />
+
+    <Preference
+        android:key="notification_settings"
+        android:title="@string/notifications_label"
+        android:selectable="true" />
+
+    <Preference
+        android:key="preferred_settings"
+        android:title="@string/launch_by_default"
+        android:selectable="true" />
+
+    <Preference
+        android:key="battery"
+        android:title="@string/power_usage_summary_title"
+        android:selectable="true" />
+
+    <Preference
+        android:key="memory"
+        android:title="@string/memory_settings_title"
+        android:enabled="false"
+        android:selectable="true" />
+        
+    </PreferenceCategory>
+
+</PreferenceScreen>

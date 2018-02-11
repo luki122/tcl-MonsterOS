@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <CheckBoxPreference
+        android:key="key_test_mode"
+        android:summary=""
+        android:title="@string/title_test_mode" />
+
+    <Preference
+        android:key="test_crash"
+        android:summary=""
+        android:title="@string/title_test_crash" >
+    </Preference>
+
+    <EditTextPreference
+        android:dialogTitle="@string/dialog_title_enter_ref"
+        android:key="key_test_ref"
+        android:summary=""
+        android:title="@string/dialog_title_enter_ref" />
+    <EditTextPreference
+        android:dialogTitle="@string/dialog_title_enter_imei"
+        android:key="key_test_imei"
+        android:summary=""
+        android:title="@string/dialog_title_enter_imei" />
+    <EditTextPreference
+        android:dialogTitle="@string/dialog_title_enter_version"
+        android:key="key_test_version"
+        android:summary=""
+        android:title="@string/dialog_title_enter_version" />
+
+    <Preference
+        android:key="test_uploadlog"
+        android:summary=""
+        android:title="@string/title_test_uploadlog" >
+    </Preference>
+    
+    <PreferenceCategory android:title="@string/title_information" >
+        <Preference
+            android:key="key_information"
+            android:summary=""
+            android:title="@null" >
+        </Preference>
+    </PreferenceCategory>
+
+</PreferenceScreen>

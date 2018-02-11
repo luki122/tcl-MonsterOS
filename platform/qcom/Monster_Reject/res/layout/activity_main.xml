@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mst="http://schemas.android.com/apk/res/com.mst"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <!-- <mst.widget.toolbar.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="?android:attr/colorPrimary"
+        android:elevation="4dp" /> -->
+    <mst.widget.toolbar.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="?android:attr/colorPrimary"/>
+
+    <mst.widget.tab.TabLayout
+        android:id="@+id/tab_layout"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="?android:attr/colorPrimary" >
+    </mst.widget.tab.TabLayout>
+
+    <!-- <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:animateLayoutChanges="true" /> -->
+
+    <com.monster.interception.activity.InterceptionViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.0"
+        android:animateLayoutChanges="true">
+    </com.monster.interception.activity.InterceptionViewPager>
+
+    <!-- <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="96.7dip"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="90.7dip"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/calls"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6.7dip"
+                android:layout_weight="1.0"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/call"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:duplicateParentState="true"
+                    android:src="@drawable/call_selector" />
+
+                <LinearLayout
+                    android:id="@+id/linear1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:duplicateParentState="true"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/text1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dip"
+                        android:duplicateParentState="true"
+                        android:gravity="center"
+                        android:text="@string/tab1"
+                        android:textColor="@color/main_menu"
+                        android:textSize="14sp" />
+
+                    <ImageView
+                        android:id="@+id/circle1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="4dip"
+                        android:layout_marginTop="10dip"
+                        android:src="@drawable/circle"
+                        android:visibility="gone" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/smss"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6.7dip"
+                android:layout_weight="1.0"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/sms"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:duplicateParentState="true"
+                    android:src="@drawable/sms_selector" />
+
+                <LinearLayout
+                    android:id="@+id/linear2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:duplicateParentState="true"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/text2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dip"
+                        android:duplicateParentState="true"
+                        android:gravity="center"
+                        android:text="@string/tab2"
+                        android:textColor="@color/main_menu"
+                        android:textSize="14sp" />
+
+                    <ImageView
+                        android:id="@+id/circle2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="4dip"
+                        android:layout_marginTop="10dip"
+                        android:src="@drawable/circle"
+                        android:visibility="gone" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/cursor"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:scaleType="matrix"
+            android:src="@drawable/tab_scroll" />
+    </RelativeLayout> -->
+
+    <mst.view.menu.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxHeight="50dp"
+        android:visibility="gone"
+        mst:menu="@menu/bottom_menu_mark" />
+
+</LinearLayout>

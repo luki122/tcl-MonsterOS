@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_nodata"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="160dp"
+            android:src="@drawable/icon_no_record" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="9dp"
+            android:textColor="#000000"
+            android:alpha="0.3"
+            android:text="@string/downloadman_nodata" />
+
+        <Button
+            android:id="@+id/btn_goto"
+            android:layout_width="136dp"
+            android:layout_height="36dp"
+            android:layout_marginTop="46dp"
+            android:gravity="center"
+            android:text="@string/downloadman_go_shopping" />
+    </LinearLayout>
+
+    <com.monster.market.views.stickylistheaders.StickyListHeadersListView
+        android:id="@+id/mListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/rl_edit_delete"
+        android:layout_below="@+id/ll_nodata" />
+
+    <RelativeLayout
+        android:id="@+id/rl_edit_delete"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:clickable="true"
+        android:background="@drawable/download_manager_delete_selector"
+        android:visibility="gone"
+        android:layout_height="44dp">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#e6e6e6" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/icon_delete"/>
+
+        </RelativeLayout>
+
+</RelativeLayout>

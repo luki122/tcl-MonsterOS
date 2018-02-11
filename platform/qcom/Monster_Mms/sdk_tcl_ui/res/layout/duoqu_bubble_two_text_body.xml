@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/duoqu_normal_padding_left"
+    android:paddingEnd="@dimen/duoqu_normal_padding_right">
+
+    <TextView
+        android:id="@+id/duoqu_bubble_generalone_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/duoqu_vertify_img_height"
+        android:textColor="@color/duoqu_theme_color_4010"
+        android:textSize="@dimen/duoqu_table_body_genralone_hint_text_size"/>
+        
+ 	<TextView
+ 	    android:id="@+id/duoqu_bubble_generalone_content"
+ 	    android:layout_width="match_parent"
+ 	    android:layout_height="wrap_content"
+ 	    android:layout_below="@id/duoqu_bubble_generalone_title"
+ 	    android:layout_marginTop="@dimen/duoqu_bubble_generalone_content_margin_top"
+ 	    android:textColor="@color/duoqu_theme_color_4010"
+ 	    android:textSize="@dimen/duoqu_table_body_genralone_main_text_size"
+ 	    android:maxLines="2"
+ 	    android:ellipsize="end"/>
+
+</RelativeLayout>

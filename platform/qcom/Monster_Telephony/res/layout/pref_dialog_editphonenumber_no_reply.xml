@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- No Delay option for Call Forward unanswered.
+| **********|**********************|**********************|******************* |
+|10/11/2014|     biyu.fu          |       PR-796079     |[Call]The contact    |
+|           |                      |                      |icon of forward|
+|           |                      |                      |when unanswered is not clear.|
+| **********|**********************|**********************|******************* |
+================================================================================
+ //[BUGFIX]-Add-BEGIN TSCD.yuning.zhou,09/17/2014,PR-788545, No Delay option for Call Forward unanswered.
+ -->
+<!-- Layout used as the dialog's content View for CallForwardEditPreference. -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content" android:layout_height="wrap_content"
+    android:padding="5dip" android:orientation="vertical">
+    <TextView android:id="@+android:id/message" style="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:textColor="?android:attr/textColorPrimary" android:paddingTop="5dip"
+        android:paddingLeft="10dip" android:paddingRight="10dip" />
+    <LinearLayout android:id="@+id/number_field"
+        android:layout_width="match_parent" android:layout_height="0dip"
+        android:layout_weight="1.0" android:addStatesFromChildren="true"
+        android:gravity="center_vertical" android:baselineAligned="false"
+        android:paddingLeft="10dip" android:paddingRight="10dip">
+        <!-- The EditText field in the dialog is now created programmatically.
+            We're replacing the field in this layout with a container to attach the EditText
+            field. -->
+        <LinearLayout android:id="@+id/edit_container"
+            android:layout_width="0dip" android:layout_weight="1"
+            android:layout_height="wrap_content" />
+<!--[BUGFIX]-Mod-BEGIN by TSCD,biyu.fu,10/11/2014,PR- 796079, -->
+        <ImageButton android:id="@+id/select_contact"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:padding="10dip"
+            android:src="@drawable/ic_see_contacts_holo_dark"
+            android:contentDescription="@string/selectContact" />
+<!--[BUGFIX]-Mod-BEGIN by TSCD,biyu.fu,10/11/2014,PR- 796079, -->
+    </LinearLayout>
+    <TextView style="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:textColor="?android:attr/textColorPrimary" android:paddingTop="5dip"
+        android:paddingLeft="10dip" android:paddingRight="10dip"
+        android:text="@string/delay_messageCFNRy" />
+    <Spinner android:id="@+id/no_reply_delay_spinner"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:paddingLeft="10dip" android:paddingRight="10dip"
+        android:drawSelectorOnTop="true" />
+</LinearLayout>
+

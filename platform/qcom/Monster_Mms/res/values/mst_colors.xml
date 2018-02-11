@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="normal_status_bar_color">#00FFFFFF</color>
+    <color name="alphbetIndexView_prompt_section_light">#FF666666</color>
+    <color name="alphbetIndexView_enable_section_light">#FF888888</color>
+    <color name="alphbetIndexView_disable_section_light">#FFCCCCCC</color>
+    <color name="alphbetIndexView_showing_section_light">#0ebc7d</color>
+    <color name="alphbetIndexView_prompt_section_dark">#FFFF9000</color>
+    <color name="alphbetIndexView_enable_section_dark">#FF999999</color>
+    <color name="alphbetIndexView_disable_section_dark">#FF444444</color>
+    <color name="alphbetIndexView_showing_section_dark">#FFFF9000</color>
+    <color name="mst_contact_alphabet_letter_color">#808080</color>
+    <color name="promptviewbg_color">#0ebc7d</color>
+    <color name="contact_listview_header_text">#D8B2B5B8</color>
+    <color name="contact_listview_header_background">#FFFFFF</color>
+    <color name="contact_listview_background">#FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="selected">#0ebc7d</color>
+    <color name="hightlight_color">#4CB6AC</color>
+    <color name="toolbar_background_color">#f2f2f2</color>
+    <color name="searchview_background_color">#f2f2f2</color>
+
+    <!-- Text color of the search box text as entered by user  -->
+    <color name="searchbox_text_color">#DB121313</color>
+    <!-- Background color of the search box -->
+    <color name="searchbox_background_color">#ffffff</color>
+    
+     <!-- tangyisen 4C 30%   99 60%  FF 100%-->
+    <color name="message_send_progress_circle_color_one">#4CB4B4B4</color>
+    <color name="message_send_progress_circle_color_two">#99B4B4B4</color>
+    <color name="message_send_progress_circle_color_three">#E5B4B4B4</color>
+    
+    <color name="message_list_item_recv_mst_background">#FFF1F1F1</color>
+    <color name="message_list_item_send_mst_background">#FF627CB3</color>
+
+    <!-- 4C = 76, 76/255 = 30% (just 30% Opacity and 70% transparent) -->
+    <!-- 2E = 46, 46/255 = 18% (just 18% Opacity and 82% transparent) -->
+    <color name="empty_text_color">#2E000000</color>
+
+    <color name="search_hightlight_color">#19A8AE</color>
+    <!-- tangyisen -->
+    <color name="half_alpha_black">#7F000000</color>
+    <color name="recipients_edit_hightlight">#FF19A8AE</color>
+
+    <color name="floating_button_background_color">#FF507CC0</color>
+    <!-- tangyisen add -->
+    <color name="message_send_btn_enable_background">#FF6280B3</color>
+    <color name="message_send_btn_disable_background">#FFCDCDCD</color>
+    <drawable name="recipients_editor_dropdown_bg">#00ffffff</drawable>
+    <color name="color_black">#FF000000</color>
+    <color name="recipients_text_color">#FF19A8AE</color>
+    <color name="recipients_hightlight_color_bg">#4C19A8AE</color>
+    <color name="recipients_hightlight_text_color">#DE000000</color>
+    <color name="recipients_hightlight_dot_hightlight">#00FFFFFF</color>
+    <color name="cursor_color">#FF19A8AE</color>
+
+    <color name="prefix_text_color_red">#FFB23C3B</color>
+
+    <!-- #fff05353 -->
+    <color name="unread_msg_count_bg_color_red">#FFB23C3B</color>
+    <color name="mst_searchview_hint_text_color">#B5B5B5</color>
+    <color name="mst_toolbar_icon_normal_color">#DD000000</color>
+</resources>

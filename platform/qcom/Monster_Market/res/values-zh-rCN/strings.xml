@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">应用商店</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- 公有 -->
+    <string name="dialog_confirm">确定</string>
+    <string name="dialog_cancel">取消</string>
+    <string name="dialog_prompt">提示</string>
+    <string name="no_network_download_toast">无网络，请打开网络连接</string>
+    <string name="dialog_wifi_disconnect_download_tip">WIFI网络已断开，是否使用移动网络继续下载？</string>
+
+    <!-- 下载管理 -->
+    <string name="downloadman_downloading">下载中</string>
+    <string name="downloadman_downloaded">已下载</string>
+    <string name="downloadman_no_install">未安装</string>
+    <string name="downloadman_installed">已安装</string>
+    <string name="downloadman_install_failed">安装失败</string>
+    <string name="downloadman_install_success">安装成功</string>
+    <string name="downloadman_installing">正在安装...</string>
+    <string name="downloadman_open">打开</string>
+    <string name="downloadman_continue">继续</string>
+    <string name="downloadman_pause">暂停</string>
+    <string name="downloadman_paused">已暂停</string>
+    <string name="downloadman_retry">重试</string>
+    <string name="downloadman_down_fail">下载失败</string>
+    <string name="downloadman_install">安装</string>
+    <string name="donwloadman_update">更新</string>
+    <string name="donwloadman_download">下载</string>
+    <string name="downloadman_connecting">正在连接</string>
+    <string name="downloadman_wait_download">等待下载</string>
+    <string name="downloadman_wait_wifi">等待WI-FI网络</string>
+    <string name="downloadman_no_network">暂无网络</string>
+    <string name="downloadman_show_more">全部展开</string>
+    <string name="downloadman_nodata">暂无下载任务</string>
+    <string name="downloadman_go_shopping">去逛逛</string>
+    <string name="downloadman_select_all">全选</string>
+    <string name="downloadman_reverse_selection">反选</string>
+    <string name="downloadman_cancel">取消</string>
+    <string name="downloadman_dlg_delete_confirm">删除确认</string>
+    <string name="downloadman_also_delete_apk">同时删除安装包</string>
+    <string name="downloadman_delete_the_record">是否删除该下载记录？</string>
+    <string name="downloadman_delete_the_task">是否删除该下载任务？</string>
+    <string name="downloadman_delete_select_task_and_record">是否删除选中的任务和记录？</string>
+    <string name="downloadman_clear_record">是否清空所有下载记录？</string>
+    <string name="downloadman_no_select">未选择删除任务</string>
+    <string name="downloadman_noakkfile_redownload">没有检测到安装包，是否重新下载？</string>
+    <string name="downloadman_continue_download_by_mobile">是否使用移动网络继续下载？</string>
+    
+     <!-- 通知栏 -->
+    <string name="notification_status_dis_download">个应用正在下载</string>
+    <string name="notification_status_dis_install">个应用正在安装</string>
+    <string name="notification_status_dis_installed">个应用安装成功</string>
+    <string name="notification_status_dis_installfailed">个应用安装失败</string>
+    <string name="notification_status_installed">安装成功</string>
+    <string name="notification_status_installfailed">安装失败</string>
+    <string name="notification_status_update">可更新</string>
+    <string name="notification_status_dis_update">个应用可更新</string>
+    <string name="notification_status_click_dis">点击查看</string>
+    <string name="notification_status_click_update">一键升级</string>
+    <string name="notification_status_dis_auto_upate">为你自动升级%1$d个应用</string>
+
+    <!-- page loading -->
+    <string name="page_loading_network_error">网络错误</string>
+    <string name="page_loading_no_network">无网络</string>
+    <string name="page_loading_retry">重试</string>
+    <string name="page_loading_set_network">设置网络</string>
+    <string name="page_empty_update">暂无可更新应用</string>
+    <string name="page_empty_ignore_upate">暂无忽略更新的应用，更新列表项左滑可对应用进行忽略。</string>
+    <string name="page_empty_search">暂无匹配结果，换个关键词试试</string>
+    <string name="search_check_query">搜索关键词不能为空</string>
+    <string name="app_updating_info">正在更新</string>
+
+    <!-- refresh -->
+    <string name="refresh">刷新</string>
+    <string name="loading">正在加载...</string>
+
+    <!-- App Item项 -->
+    <string name="item_download">下载</string>
+    <string name="item_open">打开</string>
+    <string name="item_download_count_str">%1$s人下载</string>
+    <string name="item_delete">删除</string>
+
+    <!-- 网络异常 -->
+    <string name="no_wifi_download_message">"你已开启仅Wi-Fi下载,是否关闭该选项?"</string>
+
+    <!-- 首页 -->
+    <string name="tab_new">新品</string>
+    <string name="tab_topic">专题</string>
+    <string name="tab_award">优选</string>
+    <string name="tab_ranking">排行</string>
+    <string name="tab_category">分类</string>
+    <string name="tab_topic_detail">专题详情</string>
+    <string name="tab_essential">必备</string>
+    <string name="search_app">搜索应用</string>
+    <string name="exit_comfirm">退出确认</string>
+    <string name="exit_tip_message">还有%1$d个任务正在下载，确定退出？</string>
+
+    <!-- 排行页 -->
+    <string name="app_ranking">应用排行</string>
+    <string name="game_ranking">游戏排行</string>
+
+    <!-- 必备页 -->
+    <string name="app_essential">必备应用</string>
+    <string name="game_essential">必备游戏</string>
+
+    <!-- 分类页 -->
+    <string name="app_category">应用分类</string>
+    <string name="game_category">游戏分类</string>
+
+    <!-- 专题页 -->
+    <string name="topic_app_count">共%1$d款</string>
+
+    <!-- 搜索页 -->
+    <string name="clear_search_history">清空搜索纪录</string>
+
+    <!-- 图片浏览器 -->
+    <string name="picview_loading">图片信息加载中...</string>
+
+    <!-- 更新页 -->
+    <string name="no_app_upgrade">没有应用更新</string>
+    <string name="ignore">忽略</string>
+    <string name="key_update">一键更新</string>
+    <string name="key_update_with_size">一键更新%1$s</string>
+    <string name="can_update_count">可更新(%1$d个)</string>
+    <string name="update_setting">更新设置</string>
+
+    <!-- 忽略更新页 -->
+    <string name="no_app_ignore">暂无忽略的应用，更新列表项左滑可对应用进行忽略</string>
+    <string name="recovery_update">恢复更新</string>
+    <string name="ignore_count">已忽略(%1$d个)</string>
+    <string name="recovery_all">全部恢复更新</string>
+    <string name="recovery_all_tip">是否确定全部恢复更新？</string>
+
+    <!-- Market Manager Page -->
+    <string name="market_manager_page">管理</string>
+    <string name="app_update_check_pref">应用更新</string>
+    <string name="download_manager_pref">下载管理</string>
+    <string name="app_manager_pref">应用管理</string>
+    <string name="settings_pref">设置</string>
+    <string name="version_update_pref">版本更新</string>
+
+    <!-- Settings Page -->
+    <string name="update_settings_pref">更新设置</string>
+    <string name="wifi_download_pref">仅Wi-Fi下载</string>
+    <string name="none_download_pic_pref">移动网络不加载图片</string>
+    <string name="hold_app_pref">保留应用安装包</string>
+
+    <!-- Update Settings Page -->
+    <string name="wifi_auto_upgrade">Wi-Fi下自动升级</string>
+    <string name="software_auto_update_tip">软件更新提醒</string>
+    <string name="apps_update_ignored">已忽略更新应用</string>
+    <string name="wifi_auto_upgrade_open_tip">打开该选项后系统会在锁屏且Wi-Fi的状态下自动将可更新的应用升级到最新版，是否确认打开？</string>
+
+    <!-- 详情页 -->
+    <string name="app_detail_title">应用详情</string>
+    <string name="app_download">安装</string>
+    <string name="app_installing">正在安装...</string>
+    <string name="app_install_finish">安装完成</string>
+    <string name="app_install">安装</string>
+    <string name="download_process_tip">下载中...%1$d</string>
+    <string name="download_process_pause">暂停中...%1$d</string>
+    <string name="download_process_download_finish">下载完成...%1$d</string>
+    <string name="download_process_update">更新</string>
+    <string name="download_process_wait">等待下载中...</string>
+    <string name="download_process_connecting">正在连接中...</string>
+    <string name="download_process_sign">&#037;</string>
+    <string name="app_introduce">软件介绍</string>
+    <string name="app_version_info">版本信息</string>
+    <string name="app_like">大家也喜欢</string>
+    <string name="app_version_str">版本号: %1$s</string>
+    <string name="app_author_str">开发者: %1$s</string>
+    <string name="app_update_time_str">更新时间: %1$s</string>
+    <string name="app_type_str">应用类型: %1$s</string>
+    <string name="app_detail_recommend_text">装这个应用的人还会装</string>
+
+</resources>

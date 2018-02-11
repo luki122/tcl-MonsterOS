@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <!-- TCL BaiYuan Begin on 2016.10.28 -->
+    <!-- Original: --><!-- mst_photopage_control_edit_disabled --><!-- mst_photopage_control_edit_pressed --><!-- mst_photopage_control_edit_normal -->
+    <!-- 
+    <item android:state_enabled="false"  android:drawable="@com.mst:drawable/ic_edit" android:tint="#ff0000"/> 
+    <item android:state_pressed="true" android:drawable="@com.mst:drawable/ic_edit" android:tint="#00ff00"/> 
+    <item android:drawable="@com.mst:drawable/ic_edit" /> 
+    -->
+    <!-- Modify To: -->
+    <item android:state_enabled="false"   android:drawable="@drawable/mst_photopage_edit_forbidden">
+    </item>
+    <item android:state_pressed="true"  android:drawable="@drawable/mst_photopage_edit_normal"> 
+    </item>
+    <item  android:drawable="@drawable/mst_photopage_edit_normal">
+    </item> 
+    <!-- TCL BaiYuan Begin on 2016.10.28 -->
+</selector>

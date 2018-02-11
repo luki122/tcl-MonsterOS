@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (C) 2014 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Theme" parent="@android:style/Theme.Material.Light.NoActionBar.Fullscreen">
+        <item name="android:colorPrimary">@android:color/transparent</item>
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:windowSoftInputMode">stateAlwaysHidden</item>
+        <item name="android:colorPrimaryDark">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="Theme.Calculator">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:layoutDirection">ltr</item>
+        
+    </style>
+
+    <style name="Theme.Licenses">
+        <item name="android:title">@string/menu_licenses</item>
+    </style>
+
+    <style name="DisplayTextStyle" parent="@android:style/Widget.Material.Light.TextView">
+        <item name="android:background">@android:color/white</item>
+        <item name="android:cursorVisible">false</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:gravity">bottom|end</item>
+        <item name="android:textAlignment">viewEnd</item>
+    </style>
+
+    <style name="PadButtonStyle" parent="@android:style/Widget.Material.Light.Button.Borderless">
+        <item name="android:layout_width">0dip</item>
+        <item name="android:layout_height">0dip</item>
+        <item name="android:layout_rowWeight">1</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:layout_gravity">fill</item>
+        <item name="android:background">@drawable/pad_button_background</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:gravity">center</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:minWidth">0dip</item>
+        <item name="android:minHeight">0dip</item>
+        <item name="android:onClick">onButtonClick</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/pad_button_text_color</item>
+    </style>
+
+    <style name="PadLayoutStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <!-- 以下是新增的style zouxu -->
+
+
+    <style name="TCLGrayLine_V">
+        <item name="android:layout_width">1px</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/tcl_grayline_color</item>
+    </style>
+
+    <style name="TCLGrayLine_H">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1px</item>
+        <item name="android:background">@color/tcl_grayline_color</item>
+    </style>
+
+    <style name="DisplayTextStyle.Number">
+        <item name="android:paddingTop">8dip</item>
+        <item name="android:paddingBottom">24dip</item>
+        <item name="android:paddingStart">16dip</item>
+        <item name="android:paddingEnd">16dip</item>
+        <item name="android:textSize">38sp</item>
+    </style>
+
+    <style name="Theme.Exchange">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:layoutDirection">ltr</item>
+    </style>
+
+    <style name="ExchangeCalculator_Height">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+    </style>
+
+    <style name="TCLExchangeCalculator_Number">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:onClick">onButtonClick</item>
+        
+        <item name="android:background">@drawable/tcl_calculator_background</item>
+        <item name="android:textColor">@color/tcl_pad_button_text_color</item>
+    </style>
+
+    <style name="TCLExchangeCalculator_Operator">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:onClick">onButtonClick</item>
+        
+        <item name="android:background">@drawable/tcl_calculator_background</item>
+        <item name="android:textColor">@color/tcl_pad_button_text_color</item>
+    </style>
+
+    <style name="TCLDriverGrayLine_H">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1px</item>
+        <item name="android:background">@color/tcl_grayline_color</item>
+    </style>
+
+    <style name="DisplayTextChinese">
+        <item name="android:paddingTop">8dip</item>
+        <item name="android:paddingBottom">24dip</item>
+        <item name="android:paddingStart">16dip</item>
+        <item name="android:paddingEnd">16dip</item>
+        <item name="android:textSize">38sp</item>
+    </style>
+
+    <style name="Theme.MstActivity" parent="@com.mst:style/Theme.Mst.Material.Light">
+        <item name="com.mst:windowLayoutStyle">@style/Style.MstActivity</item>
+        <item name="android:toolbarStyle">@style/Style.MstActivity.ToolbarStyle</item>
+        <item name="com.mst:actionPositiveText">select_all</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="com.mst:actionNagativeText">@com.mst:string/cancel</item>
+    </style>
+    <style name="Theme.FullScreenMstActivity" parent="@com.mst:style/Theme.Mst.Material.Light">
+        <item name="com.mst:windowLayoutStyle">@style/Style.MstActivity</item>
+        <item name="android:toolbarStyle">@style/Style.MstActivity.ToolbarStyle</item>
+        <item name="com.mst:actionPositiveText">select_all</item>
+        <item name="com.mst:actionNagativeText">@com.mst:string/cancel</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+
+    <style name="Style.MstActivity" parent="com.mst:WindowStyle.Light">
+        <item name="com.mst:hasBackIcon">true</item>
+    </style>
+
+    <style name="Style.MstActivity.ToolbarStyle" parent="com.mst:style/ToolbarStyle">
+        <item name="com.mst:title">@string/change_currency</item>
+    </style>
+    
+<style name="TCLCalculatorStyle_Advance">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:onClick">onButtonClick</item>
+        
+        <item name="android:background">@drawable/tcl_calculator_advance_background</item>
+        <item name="android:textColor">@color/tcl_pad_button_text_color</item>
+    </style>
+</resources>

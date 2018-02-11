@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/tcl_pad_white_bg_color"
+    android:orientation="vertical" >
+
+    <View style="@style/TCLGrayLine_H" />
+
+    <LinearLayout
+        style="@style/TCLCalculator_Height"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/toggle_inv"
+            style="@style/TCLCalculatorStyle_Advance"
+            android:layout_weight="1"
+            android:visibility="gone"
+            android:text="@string/inv" />
+        <TextView
+            android:id="@+id/fun_10pow"
+            style="@style/TCLCalculatorStyle_Advance"
+            android:layout_weight="1"
+            android:text="@string/fun_10pow" />
+
+        <View style="@style/TCLGrayLine_V" />
+
+        <TextView
+            android:id="@+id/toggle_mode"
+            style="@style/TCLCalculatorStyle_Advance"
+            android:layout_weight="1"
+            android:text="@string/mode_deg"
+            />
+
+        <View style="@style/TCLGrayLine_V" />
+
+        <TextView
+            android:id="@+id/op_sqr"
+            style="@style/TCLCalculatorStyle_Advance"
+            android:layout_weight="1"
+            android:text="@string/op_sqr" />
+
+        <TextView
+            android:id="@+id/fun_arctan"
+            style="@style/TCLCalculatorStyle_Advance"
+            android:layout_weight="1"
+            android:text="@string/fun_arctan"
+            android:visibility="gone" />
+
+        <View style="@style/TCLGrayLine_V" />
+    </LinearLayout>
+
+    <View style="@style/TCLGrayLine_H" />
+
+    <LinearLayout
+        style="@style/TCLCalculator_Height"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/fun_sin"
+            style="@style/TCLCalculatorStyle_Advance"
+            android:layout_weight="1"
+            android:text="@string/fun_sin" />
+
+        <TextView
+            android:id="@+id/fun_arcsin"
+            style="@style/TCLCalculatorStyle_Advance"
+            android:layout_weight="1"
+            android:text="@string/fun_arcsin"
+            android:visibility="gone" />
+
+        <View style="@style/TCLGrayLine_V" />
+
+        <TextView
+            android:id="@+id/fun_cos"
+            style="@style/TCLCalculatorStyle_Advance"
+            android:layout_weight="1"
+            android:text="@string/fun_cos" />
+
+        <TextView
+            android:id="@+id/fun_arccos"
+            style="@style/TCLCalculatorStyle_Advance"
+            android:layout_weight="1"
+            android:text="@string/fun_arccos"
+            android:visibility="gone" />
+
+        <View style="@style/TCLGrayLine_V" />
+
+        <TextView
+            android:id="@+id/fun_tan"
+            style="@style/TCLCalculatorStyle_Advance"
+            android:layout_weight="1"
+            android:text="@string/fun_tan" />
+        
+        <View style="@style/TCLGrayLine_V" />
+    </LinearLayout>
+
+    <View style="@style/TCLGrayLine_H" />
+
+    <LinearLayout
+        style="@style/TCLCalculator_Height"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/fun_ln"
+            style="@style/TCLCalculatorStyle_Advance"
+            android:layout_weight="1"
+            android:text="@string/fun_ln" />
+
+        <View style="@style/TCLGrayLine_V" />
+
+        <TextView
+            android:id="@+id/fun_log"
+            style="@style/TCLCalculatorStyle_Advance"
+            android:layout_weight="1"
+            android:text="@string/fun_log" />
+
+
+        <View style="@style/TCLGrayLine_V" />
+
+        <TextView
+            android:id="@+id/op_fact"
+            style="@style/TCLCalculatorStyle_Advance"
+            android:layout_weight="1"
+            android:text="@string/op_fact" />
+
+        <View style="@style/TCLGrayLine_V" />
+    </LinearLayout>
+
+    <View style="@style/TCLGrayLine_H" />
+
+    <LinearLayout
+        style="@style/TCLCalculator_Height"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/const_pi"
+            style="@style/TCLCalculatorStyle_Advance"
+            android:layout_weight="1"
+            android:text="@string/const_pi" />
+
+        <View style="@style/TCLGrayLine_V" />
+
+        <TextView
+            android:id="@+id/const_e"
+            style="@style/TCLCalculatorStyle_Advance"
+            android:layout_weight="1"
+            android:text="@string/const_e" />
+
+        <View style="@style/TCLGrayLine_V" />
+
+        <TextView
+            android:id="@+id/op_pow"
+            style="@style/TCLCalculatorStyle_Advance"
+            android:layout_weight="1"
+            android:text="@string/op_pow" />
+
+        <View style="@style/TCLGrayLine_V" />
+    </LinearLayout>
+
+    <View style="@style/TCLGrayLine_H" />
+
+    <LinearLayout
+        style="@style/TCLCalculator_Height"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/lparen"
+            style="@style/TCLCalculatorStyle_Advance"
+            android:layout_weight="1"
+            android:text="@string/lparen" />
+
+        <View style="@style/TCLGrayLine_V" />
+
+        <TextView
+            android:id="@+id/rparen"
+            style="@style/TCLCalculatorStyle_Advance"
+            android:layout_weight="1"
+            android:text="@string/rparen" />
+
+        <View style="@style/TCLGrayLine_V" />
+
+        <TextView
+            android:id="@+id/op_sqrt"
+            style="@style/TCLCalculatorStyle_Advance"
+            android:layout_weight="1"
+            android:text="@string/op_sqrt" />
+
+        <View style="@style/TCLGrayLine_V" />
+    </LinearLayout>
+
+</LinearLayout>

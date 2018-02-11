@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2012 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<!--
+     <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@drawable/filtershow_button_background"
+    android:id="@+id/filtershow_done"
+    android:textAllCaps="true"
+    android:text="@string/save"
+    android:gravity="center_vertical"
+    android:textSize="14sp"
+    android:drawableLeft="@drawable/menu_save_photo"
+    android:drawablePadding="8dip" />
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/crop_back"
+        style="?android:attr/actionButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_back" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/actionbar_title_magin"
+        android:text="@string/crop"
+        android:textSize="@dimen/actionbar_title_size"
+        android:gravity="center_vertical"
+        android:textColor="@color/actionbar_title_color"
+        android:textStyle="bold"
+        android:singleLine="true"
+        android:layout_toRightOf="@+id/crop_back">
+    </TextView>
+
+    <ImageView
+        android:id="@+id/crop_save"
+        style="?android:attr/actionButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/ic_save" />
+
+</RelativeLayout>

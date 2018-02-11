@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Fri Jan 16 10:13:55 CST 2015
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+<!-- AsciiString def_jrdfota_auto_check_interval - default auto check interval for fota. "0":user manually check the new firmware from servel, "18":Automaticly check new firmware every 18 hours, "1":Automaticly check new firmware every day, "7":Automaticly check new firmware once a week, "14":Automaticly check new firmware every two week, "30":Automaticly check new firmware every one month, -->
+    <string name="def_jrdfota_auto_check_interval">"7"</string>
+
+<!-- eBOOLEAN def_jrdfota_is_auto_download_on_wifi - (0x01: enable download only when wifi is connected, 0x00: enable download no matter what kind of network connection) -->
+    <bool name="def_jrdfota_is_auto_download_on_wifi">true</bool>
+
+<!-- eBOOLEAN def_jrdfota_is_auto_install - (if true,the fota will auto install when download complete ,0x01:is, 0x00:not) -->
+    <bool name="def_jrdfota_is_auto_install">false</bool>
+
+<!-- eBOOLEAN def_jrdfota_root_upgrade - (if true, allow root upgrade, eigher not ,0x01:is, 0x00:not) -->
+    <bool name="def_jrdfota_root_upgrade">true</bool>
+
+<!-- eBOOLEAN def_jrdfota_is_clear_status - (if true, allow clear notification, eigher not, 0x01:is, 0x00:not) -->
+    <bool name="def_jrdfota_is_clear_status">false</bool>
+
+<!-- AsciiString def_jrdfota_custom_version - default custom_version-->
+    <string name="def_jrdfota_custom_version">" "</string>
+</resources>

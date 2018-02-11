@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (C) 2015 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+
+<resources>
+
+    <!-- Default background color for the status bar. -->
+    <color name="calculator_accent_color">#4cb6ac</color>
+
+    <!-- Color to indicate an error has occured. -->
+    <color name="calculator_error_color">#F40056</color>
+
+    <!-- Background color of the calculator display. -->
+    <color name="display_background_color">#343639</color>
+
+    <!-- Text color for the formula in the calculator display. -->
+    <color name="display_formula_text_color">#66FFFFFF</color>
+
+    <!-- Text color for the result in the calculator display. -->
+    <color name="display_result_text_color">#E5FFFFFF</color>
+
+    <!-- Lighter color for exponent while scrolling. -->
+    <color name="display_result_exponent_text_color">#E5FFFFFF</color>
+
+    <!-- Background color for the numeric pad. -->
+    <color name="pad_numeric_background_color">#434343</color>
+
+    <!-- Background color for the operator pad. -->
+    <color name="pad_operator_background_color">#636363</color>
+
+    <!-- Background color for the advanced pad. -->
+    <color name="pad_advanced_background_color">#1DE9B6</color>
+
+    <!-- Text color for a button in a pad. -->
+    <color name="pad_button_text_color">#FFF</color>
+
+    <!-- Text color for a button in the advanced pad. -->
+    <color name="pad_button_advanced_text_color">#99000000</color>
+
+    <!-- Ripple color when a button is pressed in a pad. -->
+    <color name="pad_button_ripple_color">#33FFFFFF</color>
+
+    <!-- Ripple color when a button is pressed in a pad. -->
+    <color name="pad_button_advanced_ripple_color">#1A000000</color>
+    <!-- 新增的颜色 -->
+    <color name="tcl_pad_white_bg_color">#FFFFFF</color>
+    <color name="tcl_pad_button_text_color">#e5000000</color>
+    <color name="tcl_grayline_color">#f2f2f2</color>
+    <color name="tcl_button_bg_color_normal">#FFFFFF</color>
+    <color name="tcl_button_bg_color_press">#f2f2f2</color>
+    <color name="tcl_main_bg_color">#FFFFFF</color>
+    <color name="exchange_main_bg_color">#99FFFFFF</color>
+    <color name="exchange_hint_text_color">#55000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="tcl_driver_grayline_color">#33888888</color>
+    <color name="text_color_black">#333333</color>
+    <color name="exchange_text_formula">#8b8d8f</color>
+    <color name="currency_full_name">#8b8d8f</color>
+    <color name="currency_select">#2c2e30</color>
+    <color name="currency_not_select">#343639</color>
+    <color name="calculator_green_clolor">#4cb6ac</color>
+    <color name="calculator_green_press_clolor">#994cb6ac</color>
+    <color name="currency_update_text">#66ffffff</color>
+    <color name="currency_fav_head">#8b8d8f</color>
+    <color name="currency_head">#bfc1c4</color>
+    <color name="currency_cell">#2e2e2e</color>
+    <color name="black">#000000</color>
+    <color name="tcl_grayline_color_black">#40434a</color>
+    <color name="tcl_button_bg_color_black_normal">#505359</color>
+    <color name="tcl_button_bg_color_black_press">#535663</color>
+    <color name="transparent">#00000000</color>
+    <color name="tcl_advance_button_bg_color_normal">#fafafa</color>
+        <color name="slide_green_clolor">#19a8ae</color>
+    <color name="slide_green_press_clolor">#0e9298</color>
+    
+</resources>

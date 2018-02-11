@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From TCT BEGIN-->
+    <integer name="custom_seekbar_right_deviation">85</integer>
+	<integer name="custom_seekbar_left_deviation">5</integer>
+    <!-- From TCT END-->
+    
+    <!-- DIMEN FOR PHOTO DETAIL DIALOG START -->
+    <dimen name="custome_dialog_detail_title">66dp</dimen>
+    <!-- DIMEN FOR PHOTO DETAIL DIALOG END -->
+    
+</resources>

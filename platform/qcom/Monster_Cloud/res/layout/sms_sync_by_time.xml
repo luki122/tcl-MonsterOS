@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:attr/colorPrimary"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            
+            <RelativeLayout
+                android:id="@+id/last_month_layout"
+                android:layout_width="match_parent"
+                android:layout_height="57dp"
+                android:background="@drawable/my_ripple">
+                <RadioButton
+                    android:id="@+id/radio_bt_last_month"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:textColor="@color/text_black_db"
+                    android:layout_toRightOf="@id/radio_bt_last_month"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="16sp"
+                    android:text="@string/last_month"
+                    />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/last_three_month_layout"
+                android:layout_width="match_parent"
+                android:layout_height="57dp"
+                android:background="@drawable/my_ripple">
+                <RadioButton
+                    android:id="@+id/radio_bt_last_three_month"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:textColor="@color/text_black_db"
+                    android:layout_toRightOf="@id/radio_bt_last_three_month"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="16sp"
+                    android:text="@string/last_three_month"
+                    />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/last_half_a_year_layout"
+                android:layout_width="match_parent"
+                android:layout_height="57dp"
+                android:background="@drawable/my_ripple">
+                <RadioButton
+                    android:id="@+id/radio_bt_half_a_year"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:textColor="@color/text_black_db"
+                    android:layout_toRightOf="@id/radio_bt_half_a_year"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="16sp"
+                    android:text="@string/last_half_a_year"
+                    />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/last_year_layout"
+                android:layout_width="match_parent"
+                android:layout_height="57dp"
+                android:background="@drawable/my_ripple">
+                <RadioButton
+                    android:id="@+id/radio_bt_last_year"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:textColor="@color/text_black_db"
+                    android:layout_toRightOf="@id/radio_bt_last_year"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="16sp"
+                    android:text="@string/last_year"
+                    />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/all_layout"
+                android:layout_width="match_parent"
+                android:layout_height="57dp"
+                android:background="@drawable/my_ripple">
+                <RadioButton
+                    android:id="@+id/radio_bt_all"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:textColor="@color/text_black_db"
+                    android:layout_toRightOf="@id/radio_bt_all"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="16sp"
+                    android:text="@string/all"
+                    />
+
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/sync_now"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/line_bt_selector">
+
+        <TextView
+            android:id="@+id/text_sync_now"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_black_db"
+            android:textSize="14sp"
+            android:text="@string/sync_to_cloud"
+            android:layout_centerInParent="true"
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>

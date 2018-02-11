@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:swipe="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/calllog_list_header_background_color"
+    android:layout_gravity="center">
+    <mst.widget.MstListView
+        android:id="@+id/phone_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        android:layout_marginTop = "5dp"
+        android:drawSelectorOnTop="false"
+        android:fadingEdgeLength="16dip"
+        android:fastScrollEnabled="true"
+        android:scrollbars="vertical"
+        android:divider="@null"
+         />
+    <TextView
+        android:id="@+id/phone_empty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"   
+        android:text="@string/no_intercept"
+        android:gravity="center"
+        android:singleLine="true"
+        android:visibility="gone"  />
+</FrameLayout>
+

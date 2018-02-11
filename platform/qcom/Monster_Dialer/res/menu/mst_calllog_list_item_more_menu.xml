@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/call_log_action_details"
+        android:title="@string/call_log_action_details"/>
+    <item
+        android:id="@+id/call_log_action_send_message"
+        android:title="@string/call_log_action_send_message"/>
+    <item
+        android:id="@+id/mst_add_to_contact"
+        android:title="@string/mst_add_to_contact"/>
+    <item
+        android:id="@+id/mst_add_to_exist_contact"
+        android:title="@string/mst_add_to_exist_contact"/>
+
+</menu>

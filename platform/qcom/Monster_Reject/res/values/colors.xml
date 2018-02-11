@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="primary_text_color">#414142</color>
+    <!-- 透明度60%：99 -->
+    <!-- <color name="secondary_text_color">#99414142</color> -->
+    <color name="secondary_text_color">#66000000</color>
+    <!-- 透明度30%：5D -->
+    <color name="secondary2_text_color">#5D000000</color>
+    <!-- 透明度9%：17 -->
+    <color name="list_divider_color">#17000000</color>
+    <color name="unread_text_color">#ff0000</color>
+    <color name="textColor">#dbdbdb</color>
+    <color name="textColor_selected">#ffffff</color>
+    <color name="textColor_unselected">#d3d9eb</color>
+    <color name="phone_textColor_unselected">#383838</color>
+    <color name="phone_textColor_selected">#868686</color>
+    <color name="editor_item_gap_color">#1A000000</color>
+    <color name="actionbar_normal">#8498cb</color>
+    <color name="actionbar_disable">#b7b7b7</color>
+    <color name="actionbar_title">#ffffff</color>
+    <color name="actionbar_title_press">#019c73</color>
+    <color name="tab_title_text_color">#616467</color>
+    <color name="calllog_list_header_background_color">#f2f2f2</color>
+    <!-- tangyisen -->
+    <color name="hint_text_color">#66000000</color>
+    <color name="list_item_text_color">#DB000000</color>
+
+</resources>

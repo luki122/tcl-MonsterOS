@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="ringtone_none">none</string>
+    <string name="required_permission_disabled">You have disabled required permission.</string>
+    <string name="time_out_of_range">Time is out of range</string>
+
+    <!-- event edit -->
+    <string name="have_no_event">No Event</string>
+    <string name="create_event">Create Event</string>
+    <string name="edit_event">Edit Event</string>
+    <string name="event_created">Event created</string>
+    <string name="event_saved">Event saved</string>
+    <string name="edit_repeat_event">This is a recurring event, do edit will change all events about to.</string>
+    <string name="edit_repeat_event_ok">I Know</string>
+
+    <string name="event_edit_hint_title">Event Title</string>
+    <string name="event_edit_hint_description">Remark</string>
+
+    <string name="event_repeat_label">Cycle</string>
+    <string name="event_no_repeat">Does not repeat</string>
+    <string name="event_daily">Daily</string>
+    <string name="event_every_weekday">Every weekday</string>
+    <string name="event_weekly">Weekly (<xliff:g id="DAYS_OF_WEEK">%s</xliff:g>)</string>
+    <string name="event_monthly_on_day_count">Monthly (the <xliff:g id="ORDINAL_NUMBER">%1$s</xliff:g> <xliff:g id="DAY_OF_WEEK">%2$s</xliff:g>)</string>
+
+    <string name="event_edit_cancel">Exit</string>
+    <string name="event_edit_cancel_info">Discard the changes and exit?</string>
+    <string name="event_edit_save_no_title">Enter a Event title</string>
+
+    <string name="event_info_no_description">(No remark)</string>
+
+    <!-- calendar setting -->
+    <string name="calendar_filter">Calendar Display Filter</string>
+    <string name="week_start_day">Week starts on</string>
+    <string name="reminder_settings">Reminder Settings</string>
+    <string name="events_reminder">Remind In Advance</string>
+    <string name="reminder_ringtone">Reminder Ringtone</string>
+    <string name="ringtone_default">Default</string>
+
+    <string name="festival_holiday">Holidays</string>
+    <string name="holiday_workday">Holiday Plan</string>
+    <string name="lunar_date">Lunar Calendar</string>
+    <string name="event_tag">Event Mark</string>
+
+    <!-- month view -->
+    <string name="legal_holiday">Holiday</string>
+    <string name="legal_workday">Workday</string>
+    <string name="term_qingming">Tomb Sweeping Day</string>
+
+    <string name="birthday_reminder">Birthday Reminder</string>
+    <string name="birthday_reminder_summary">Import birthday infos from Contacts</string>
+    <string name="birthday_only_one"><xliff:g id="NAME">%s</xliff:g>\&apos;s birthday today</string>
+    <string name="birthday_have_other">Birthday of <xliff:g id="NAME">%s</xliff:g>, <xliff:g id="NUMBER">%d</xliff:g> in total</string>
+    <string name="birthday_wish">Click to send a warm blessing</string>
+    <string name="wish_birthday">Birthday Wishes</string>
+    <string name="happy_birthday">Happy Birthday</string>
+    <string name="event_reminder_open">Reminder turned on</string>
+    <string name="event_reminder_close">Reminder turned off</string>
+
+    <!-- birthday info -->
+    <string name="birthday_info">Birthday Details</string>
+    <string name="birthday_today">on birthday today</string>
+    <string name="birthday_notice">You have <xliff:g id="NUMBER">%d</xliff:g> friend(s) in total</string>
+    <string name="birthday_content"><xliff:g id="NUMBER">%d</xliff:g>-year-old birthday</string>
+
+    <!-- select calendars -->
+    <string name="local_calendar">Local Calendar</string>
+
+    <!-- delete event -->
+    <string name="delete_recurring_event">This is a recurring event, do delete will delete all events about to.</string>
+    <string name="delete">Delete</string>
+
+    <string name="foreign_mother_day" translatable="false">母亲节</string>
+    <string name="foreign_father_day" translatable="false">父亲节</string>
+    <string name="foreign_thanksgiving_day" translatable="false">感恩节</string>
+
+    <string name="lunar_fest_laba" translatable="false">腊八节</string>
+    <string name="lunar_fest_xiaonian" translatable="false">小年</string>
+
+    <string name="lunar_fest_chunjie" translatable="false">春节</string>
+    <string name="lunar_fest_duanwu" translatable="false">端午节</string>
+    <string name="lunar_fest_zhongqiu" translatable="false">中秋节</string>
+    <string name="lunar_fest_yuandan" translatable="false">元旦</string>
+    <string name="lunar_fest_laodong" translatable="false">劳动节</string>
+    <string name="lunar_fest_guoqing" translatable="false">国庆节</string>
+    <string name="lunar_fest_yuanxiao" translatable="false">元宵节</string>
+    <string name="lunar_fest_qixi" translatable="false">七夕</string>
+    <string name="lunar_fest_chongyang" translatable="false">重阳节</string>
+    <string name="lunar_fest_qingnian" translatable="false">青年节</string>
+    <string name="lunar_fest_qingren" translatable="false">情人节</string>
+    <string name="lunar_fest_funv" translatable="false">妇女节</string>
+    <string name="lunar_fest_zhishu" translatable="false">植树节</string>
+    <string name="lunar_fest_yuren" translatable="false">愚人节</string>
+    <string name="lunar_fest_ertong" translatable="false">儿童节</string>
+    <string name="lunar_fest_jiandang" translatable="false">建党节</string>
+    <string name="lunar_fest_jianjun" translatable="false">建军节</string>
+    <string name="lunar_fest_jiaoshi" translatable="false">教师节</string>
+    <string name="lunar_fest_shengdan" translatable="false">圣诞节</string>
+
+    <!-- #lunar -->
+    <string name="lunar_date_formatter">yyyy年MM月dd日</string>
+    <string name="lunar_leap" translatable="false">闰</string>
+    <string name="lunar_tenth_day" translatable="false">初十</string>
+    <string name="lunar_twentieth_day" tanslatable="false">二十</string>
+    <string name="lunar_thirtieth_day" translatable="false">三十</string>
+    <string name="lunar_year" translatable="false">年</string>
+    <string name="lunar_month" translatable="false">月</string>
+    <string name="lunar_day" translatable="false">日</string>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/duoqu_vertify_head_width"
+    android:layout_height="wrap_content" 
+    android:paddingBottom="@dimen/duoqu_horiz_first_context_padding_bottom">
+    
+    <TextView 
+        android:id="@+id/duoqu_horiz_table_title_sec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/duoqu_ui_part_air_hori_title_size"
+        android:textColor="@color/duoqu_hori_title_color"/>
+    
+    <TextView 
+        android:id="@+id/duoqu_horiz_table_content_sec"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="3"
+        android:ellipsize="end"
+        android:textSize="@dimen/duoqu_ui_part_air_hori_title_content"
+        android:layout_toEndOf="@id/duoqu_horiz_table_title_sec"
+        android:layout_marginStart="@dimen/duoqu_horiz_content_margin_left"
+        android:textColor="@color/duoqu_hori_content_color"/>
+
+</RelativeLayout>

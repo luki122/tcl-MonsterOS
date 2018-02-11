@@ -1,0 +1,81 @@
+<VAR_DEV>
+<TABLE_HISTORY>
+<HISTORY>2016-08-11: Add def_Quick_Response_Via_SMS_For_FRANCE_Orange by chuanjun.chen for Solution-2455894</HISTORY>
+<HISTORY>2016-08-15: Add def_Phone_ECT_for_Germany_Telekom by chuanjun.chen for Solution-2470079 and Task-2720014</HISTORY>
+<HISTORY>2016-01-07: add tty_enabled by huan_liu for defect-1246376 </HISTORY>
+<HISTORY>2016-08-27: Add def_directly_to_voicenum_setup_on by chuanjun.chen for solution-2812433 and Task-2781391</HISTORY>
+
+</TABLE_HISTORY>
+<MOD>
+<NAME>ANDROID</NAME>
+<SDM_AREA>
+<DSA_TITLE>INIT DATA OF ANDROID Settings</DSA_TITLE>
+<MACRO_NAME>CUSTOM_JRDC_PARAM</MACRO_NAME>
+<C_NAME>custom_jrdc_dsc</C_NAME>
+<C_TYPE>CUSTOM_JRDC_DSC</C_TYPE>
+<IDA>CUSTOM_JRDC_INIT_RDM</IDA>
+<IS_IN_DSA>Yes</IS_IN_DSA>
+<TABLE_VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_Quick_Response_Via_SMS_For_FRANCE_Orange</SDMID>
+<C_NAME>def_Quick_Response_Via_SMS_For_FRANCE_Orange</C_NAME>
+<C_TYPE>eBOOLEAN</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Phone</FEATURE>
+<DESC>whether the index of response text should removed for Orange or not,
+(0x00: should not removed,0x01: should removed, default 0x00) </DESC>
+<VALUE>0x00</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_Phone_ECT_for_Germany_Telekom</SDMID>
+<C_NAME>def_Phone_ECT_for_Deutsche_Telekom</C_NAME>
+<C_TYPE>eBOOLEAN</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Phone</FEATURE>
+<DESC>ECT function is use MMI 4+send,and Germany Telecom also want to use MMI *70#+send ,default value is 0x00 </DESC>
+<VALUE>0x00</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>tty_enabled</SDMID>
+<C_NAME>tty_enabled</C_NAME>
+<C_TYPE>eBOOLEAN</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Phone</FEATURE>
+<DESC>whether enable TTY: vaule0x01, enabled; 0x00, disabled. default value:0x01</DESC>
+<VALUE>0x01</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_directly_to_voicenum_setup_on</SDMID>
+<C_NAME>def_directly_to_voicenum_setup_on</C_NAME>
+<C_TYPE>eBOOLEAN</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Phone</FEATURE>
+<DESC>whether directly to voicenum setup when long press num one in dialpad (0x00:not directly,0x01:directly  default 0x00).</DESC>
+<VALUE>0x00</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+</TABLE_VAR>
+</SDM_AREA>
+</MOD>
+</VAR_DEV>

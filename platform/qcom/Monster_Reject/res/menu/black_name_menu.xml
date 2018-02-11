@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/black_call"
+        android:title="@string/black_call">
+    </item>
+    <item
+        android:id="@+id/black_sms"
+        android:title="@string/black_sms">
+    </item>
+    <item
+        android:id="@+id/black_edit"
+        android:title="@string/black_edit">
+    </item>
+    <item
+        android:id="@+id/black_remove"
+        android:title="@string/black_remove">
+    </item> 
+
+</menu>

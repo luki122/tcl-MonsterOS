@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+        <!-- Set Subscription screen: label sub 1 -->
+    <string name="sub_1">SIM卡1</string>
+    <!-- Set Subscription screen: label sub 2 -->
+    <string name="sub_2">SIM卡2</string>
+    <string name="callforward_title">来电转接</string>
+    <string name="other_settings">"其它通话设置"</string>
+    <string name="overturn_mute_title">翻转静音</string>
+    <string name="incoming_touch_title">来电防误触</string>
+     <string name="ringer_title">智能响铃</string>
+    <string name="ringer_summary">铃声渐强，拿起手机后铃声减弱</string>
+     <string name="call_waiting_settings">呼叫等待</string>
+     
+     <string-array name="mst_operator_name">        
+        <item>中国移动</item>
+        <item>中国联通</item>
+        <item>中国移动</item>
+        <item>中国电信</item>
+        <item>中国移动</item>
+        <item>中国联通</item>
+    </string-array>
+</resources>

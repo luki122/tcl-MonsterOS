@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="mst_dialpad_height">342dp</dimen>
+    <dimen name="divider_width">0.33dp</dimen>
+    <dimen name="mst_dialpad_key_padding_top">10dp</dimen>
+    <dimen name="mst_dialpad_key_padding_bottom">9dp</dimen>
+    <!-- Length of dialpad's shadows in dialer. -->
+    <dimen name="shadow_length">2dp</dimen>
+</resources>

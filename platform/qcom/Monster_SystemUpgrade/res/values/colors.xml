@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#FFFFFF</color>
+    <color name="blue_pressed">@android:color/holo_blue_dark</color>
+    <color name="blue_normal">@android:color/holo_blue_light</color>
+
+    <color name="text_color_db_black">#db000000</color>
+    <color name="text_color_version_info">#7f000000</color>
+    <color name="text_color_gradient_end">#00000000</color>
+    <color name="text_color_no_version_detail">#4c000000</color>
+
+</resources>

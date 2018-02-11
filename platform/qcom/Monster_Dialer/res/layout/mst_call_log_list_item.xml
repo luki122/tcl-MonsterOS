@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+
+<!--
+     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mst="http://schemas.android.com/apk/res/com.mst"
+    android:id="@+id/call_log_list_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+-->
+
+
+<!--
+         Day group heading. Used to show a "today", "yesterday", "last week" or "other" heading
+         above a group of call log entries.
+-->
+
+
+<!--
+         <TextView
+        android:id="@+id/call_log_day_group_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginEnd="@dimen/call_log_outer_margin"
+        android:layout_marginStart="@dimen/call_log_start_margin"
+        android:fontFamily="sans-serif-medium"
+        android:paddingBottom="@dimen/call_log_day_group_padding_bottom"
+        android:paddingTop="@dimen/call_log_day_group_padding_top"
+        android:textColor="?attr/call_log_secondary_text_color"
+        android:textSize="@dimen/call_log_secondary_text_size"
+        android:text="@string/test_header"
+        android:layout_alignParentTop="true" />
+-->
+
+
+<!--
+         <TextView
+        android:id="@+id/call_log_day_group_label"
+        style="@style/mst_contacts_listview_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="@string/mst_useful_number"
+        android:textColor="#A58B8D8F"
+        android:textSize="10sp"
+        android:visibility="gone" />
+-->
+
+<mst.widget.SliderView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mst="http://schemas.android.com/apk/res/com.mst"
+    android:id="@+id/slider_view1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    mst:layout="@layout/mst_call_log_list_item_slider" />
+
+<!-- </RelativeLayout> -->

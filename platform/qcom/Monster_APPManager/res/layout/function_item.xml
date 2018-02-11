@@ -1,0 +1,10 @@
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:drawablePadding="6dp"
+    android:padding="6dp"
+    android:clickable="true"
+    android:background="@drawable/dashboard_tile_background"
+    android:textColor="@color/info_text_color"/>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.android.contacts.editor.MstRingtoneEditorView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/editor_min_line_item_height"
+    android:paddingStart="20dp"
+    android:paddingEnd="20dp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+	<TextView 
+	    android:id="@+id/kind_title"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/mst_ringtone"
+	    android:visibility="gone" />
+	
+	<TextView 
+	    android:id="@+id/kind_message"
+	    android:layout_weight="1"
+	    android:layout_width="0dp"
+	    android:layout_height="wrap_content"
+	    android:textColor="#db000000"
+	    android:textSize="@dimen/editor_form_text_size"
+	    android:text="@string/mst_ringtone_default" />
+	
+	<ImageView
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:contentDescription="@null"
+	    android:src="@drawable/mst_ringtone_editor_icon" />
+
+</com.android.contacts.editor.MstRingtoneEditorView>

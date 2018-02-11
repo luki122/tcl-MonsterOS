@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (C) 2014 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+
+<resources>
+
+    <dimen name="main_page_text_margin_top">8dp</dimen>
+    <dimen name="main_page_padding">9dp</dimen>
+    <dimen name="main_page_padding_top">16dp</dimen>
+    <dimen name="main_page_image_height">296dp</dimen>
+    <dimen name="desktop_wallpaper_icon_preview_margin_bottom">48dp</dimen>
+    <dimen name="keyguard_list_image_height">259dp</dimen>
+    <dimen name="keyguard_list_title_height">80dp</dimen>
+    <dimen name="menu_add_icon_size">20dp</dimen>
+    <dimen name="wallpaper_crop_bottom_controls_height">92dp</dimen>
+    <dimen name="keyguard_wallpaper_list_item_spacer">6dp</dimen>
+    <dimen name="toolbar_height_with_transparent_statusbar">48dp</dimen>
+    <dimen name="toolbar_padding_top_with_transparent_statusbar">25dp</dimen>
+    <dimen name="default_circle_indicator_radius">3dp</dimen>
+    <dimen name="default_circle_indicator_stroke_width">0dp</dimen>
+    <dimen name="preview_time_bottom">74dp</dimen>
+    
+    <dimen name="lock_screen_time_size">86dp</dimen>
+    <dimen name="lock_screen_date_size">16sp</dimen>
+    <dimen name="lock_screen_week_size">16sp</dimen>
+    <dimen name="lock_screen_week_width">49dip</dimen>
+    <dimen name="preview_date_top">16dp</dimen>
+    
+    <dimen name="text_size_main_page_text">14dp</dimen>
+    <dimen name="size_desktop_wallpaper_item_height">164dp</dimen>
+    <dimen name="size_keyguard_list_item_applied">28dp</dimen>
+    <dimen name="space_desktop_wallpaper_item">8dp</dimen>
+    <dimen name="keyguard_list_item_padding_bottom">11dp</dimen>
+    <dimen name="keyguard_list_item_padding_top">15dp</dimen>
+    <dimen name="keyguard_list_item_padding_left">10dp</dimen>
+    <dimen name="keyguard_list_image_space">2dp</dimen>
+    <dimen name="layout_main_padding">20dp</dimen>
+    <dimen name="keyguard_preview_first_image_width">160dp</dimen>
+    <dimen name="navigation_bar_height">44dp</dimen>
+    <dimen name="icon_preview_size_small">26.3dp</dimen>
+
+</resources>

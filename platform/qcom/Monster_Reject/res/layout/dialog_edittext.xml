@@ -1,0 +1,14 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="25dip"
+    android:paddingRight="25dip"
+    android:paddingBottom="25dip"
+    android:paddingLeft="25dip">
+    <EditText
+        android:id="@+id/mark_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:singleLine="true"/>
+</FrameLayout>

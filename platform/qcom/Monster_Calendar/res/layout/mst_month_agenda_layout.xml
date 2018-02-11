@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/agenda_field_bg_color"
+    android:orientation="vertical" >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="11dip"
+        android:background="@null" />
+
+    <TextView
+        android:id="@+id/no_agenda_prompt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="60dip"
+        android:background="@color/month_day_bg_color"
+        android:text="@string/have_no_event"
+        android:textColor="@color/month_day_no_agenda_color"
+        android:textSize="20sp" />
+
+    <com.android.calendar.mst.MonthAgendaListView
+        android:id="@+id/month_agenda_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

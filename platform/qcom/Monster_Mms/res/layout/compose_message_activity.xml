@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (C) 2008 Esmertec AG.
+ * Copyright (C) 2008 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mst="http://schemas.android.com/apk/res/com.mst"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#ffffffff" >
+
+    <!-- <mst.widget.toolbar.Toolbar -->
+    <com.android.mms.ui.MmsToolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?android:attr/actionBarSize"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/ic_toolbar_bg"
+        android:gravity="top"
+        mst:navigationIcon="@com.mst:drawable/ic_back" >
+    </com.android.mms.ui.MmsToolbar>
+
+    <mst.view.menu.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:maxHeight="50dp"
+        android:visibility="gone"
+        mst:itemTextColor="@drawable/menu_text_color_selector"
+        mst:menu="@menu/message_multi_select_menu_mst" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottom_navigation_view"
+        android:layout_below="@id/my_toolbar"
+        android:gravity="bottom"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1.0"
+            android:gravity="top"
+            android:orientation="vertical" >
+
+            <view
+                android:id="@+id/history"
+                style="?android:attr/listViewWhiteStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="1dip"
+                class="com.android.mms.ui.MessageListView"
+                android:cacheColorHint="@android:color/white"
+                android:divider="#FFFFFFFF"
+                android:dividerHeight="@dimen/compose_message_listview_divider_height"
+                android:fadingEdge="none"
+                android:listSelector="#00000000"
+                android:paddingBottom="@dimen/input_text_height_adjusted"
+                android:scrollbarAlwaysDrawVerticalTrack="false"
+                android:scrollbarStyle="insideOverlay"
+                android:smoothScrollbar="false"
+                android:stackFromBottom="true"
+                android:transcriptMode="normal"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/bottom_container_top_divider"
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:background="@drawable/ic_cm_divider_bg" />
+
+        <LinearLayout
+            android:id="@+id/bottom_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ScrollView
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/attachment_editor_scroll_view"
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_marginTop="23dp"
+                android:layout_weight="1.0" >
+
+                <view
+                    android:id="@+id/attachment_editor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    class="com.android.mms.ui.AttachmentEditor"
+                    android:orientation="vertical" >
+
+                    <ViewStub
+                        android:id="@+id/image_attachment_view_stub"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout="@layout/image_attachment_view" />
+
+                    <ViewStub
+                        android:id="@+id/video_attachment_view_stub"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout="@layout/video_attachment_view" />
+
+                    <ViewStub
+                        android:id="@+id/audio_attachment_view_stub"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout="@layout/audio_attachment_view" />
+
+                    <ViewStub
+                        android:id="@+id/vcard_attachment_view_stub"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout="@layout/vcard_attachment_view" />
+
+                    <ViewStub
+                        android:id="@+id/slideshow_attachment_view_stub"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout="@layout/slideshow_attachment_view" />
+                </view>
+            </ScrollView>
+
+            <LinearLayout
+                android:id="@+id/bottom_panel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:gravity="bottom"
+                android:orientation="horizontal"
+                android:visibility="gone" >
+
+                <ImageButton
+                    android:id="@+id/add_attachment_first"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="64dp"
+                    android:layout_height="61dp"
+                    android:layout_gravity="bottom"
+                    android:background="?android:attr/selectableItemBackgroundBorderless"
+                    android:contentDescription="@string/add_attachment"
+                    android:gravity="center"
+                    android:nextFocusLeft="@+id/embedded_text_editor"
+                    android:src="@drawable/ic_attach" />
+
+                <!-- xiaoyuan sdk add begin -->
+                <View
+                    android:id="@+id/duoqu_button_menu"
+                    android:layout_width="@dimen/duoqu_menu_left_img_width"
+                    android:layout_height="@dimen/duoqu_menu_left_img_height"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginEnd="@dimen/duoqu_menu_left_margin_right"
+                    android:layout_marginStart="@dimen/duoqu_menu_left_margin_left"
+                    android:background="@drawable/duoqu_btn_menu"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:visibility="gone" />
+
+                <com.android.mms.ui.EditTextHelper
+                    android:id="@+id/embedded_text_editor"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_weight="1.0"
+                    android:adjustViewBounds="true"
+                    android:autoText="true"
+                    android:background="@null"
+                    android:capitalize="sentences"
+                    android:hint="@string/type_to_compose_text_enter_to_send"
+                    android:imeOptions="actionSend|flagNoEnterAction"
+                    android:inputType="textShortMessage|textAutoCorrect|textCapSentences|textMultiLine|textNoSuggestions"
+                    android:lineSpacingExtra="5dp"
+                    android:maxEms="13"
+                    android:maxHeight="@dimen/input_text_height_max"
+                    android:minHeight="@dimen/input_text_height_min"
+                    android:nextFocusRight="@+id/send_button"
+                    android:paddingBottom="20dip"
+                    android:paddingTop="21dip"
+                    android:scrollbars="vertical"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:id="@+id/button_with_counter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/text_counter"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal|bottom"
+                        android:paddingBottom="3dip"
+                        android:textColor="#cc333333"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:visibility="gone" />
+
+                    <ImageButton
+                        android:id="@+id/floating_action_send_button_sms"
+                        android:layout_width="38dp"
+                        android:layout_height="38dp"
+                        android:layout_marginBottom="12dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginStart="20dp"
+                        android:background="?android:attr/selectableItemBackgroundBorderless"
+                        android:nextFocusLeft="@+id/embedded_text_editor"
+                        android:src="@drawable/ic_send_disabled_holo_light" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:id="@+id/attachment_divider"
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#FFE8E6E6"
+                android:visibility="gone" />
+
+            <FrameLayout
+                android:id="@+id/attachments_selector"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:orientation="vertical"
+                android:paddingBottom="17dp"
+                android:paddingTop="17dp"
+                android:visibility="gone" >
+
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/attachments_selector_pager"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </FrameLayout>
+
+            <!-- xiaoyuan sdk add begin -->
+
+            <ViewStub
+                android:id="@+id/duoqu_menu_layout_stub"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/duoqu_menu_customeu_height"
+                android:layout="@layout/duoqu_compose_message_menu"
+                android:visibility="gone" />
+            <!-- xiaoyuan sdk add end -->
+        </LinearLayout>
+    </LinearLayout>
+
+    <!--
+         <ViewStub
+        android:id="@+id/floating_action_send_button_stub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout="@layout/compose_floating_send_button_stub" />
+    -->
+    <mst.widget.FloatingActionButton
+        android:id="@+id/floating_action_send_button_sms2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="76dp"
+        android:layout_marginEnd="20dp"
+        android:background="#ffB66175"
+        android:visibility="gone"
+        mst:centerImage="@drawable/ic_send_sim2_icon"
+        mst:size="38dp" />
+
+    <mst.widget.FloatingActionButton
+        android:id="@+id/floating_action_send_button_sms1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/floating_action_send_button_sms2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="20dp"
+        android:background="#ff667BC0"
+        android:visibility="gone"
+        mst:centerImage="@drawable/ic_send_sim1_icon"
+        mst:size="38dp" />
+
+</RelativeLayout>

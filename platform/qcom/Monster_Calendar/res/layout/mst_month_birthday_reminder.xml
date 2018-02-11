@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="75dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingBottom="19dp">
+
+    <TextView 
+        android:id="@+id/birthday_reminder_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:minWidth="283dp"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:textColor="@color/agenda_item_title_text_color"
+        android:textSize="14sp"
+        android:text="@string/birthday_reminder" />
+
+    <TextView
+        android:id="@+id/birthday_reminder_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="1dp"
+        android:layout_alignParentBottom="true"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:textColor="@color/agenda_item_summary_text_color"
+        android:textSize="10sp" />
+
+    <ImageView
+        android:id="@+id/birthday_reminder_wish"
+        android:layout_width="37dp"
+        android:layout_height="37dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:background="?android:attr/selectableItemBackgroundBorderless"
+        android:scaleType="center" 
+        android:src="@drawable/mst_birthday_icon" />
+
+</RelativeLayout>

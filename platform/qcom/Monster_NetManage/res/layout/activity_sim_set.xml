@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/lay_dataplan_set"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        layout="@layout/item_set" />
+
+    <include
+        android:id="@+id/lay_pass_warning_set"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/lay_data_set_divider"
+        layout="@layout/item_set" />
+
+    <LinearLayout
+        android:id="@+id/lay_warn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:minHeight="?android:attr/listPreferredItemHeight"
+        android:orientation="vertical"
+        android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
+        android:paddingStart="?android:attr/listPreferredItemPaddingStart" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/tv_warn_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/data_warning_value"
+                android:textAppearance="?android:attr/textAppearanceListItemSmall" />
+
+            <TextView
+                android:id="@+id/tv_warn_rate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/color_warn_data_text"
+                android:textSize="@dimen/tv_warn_data_size" />
+        </RelativeLayout>
+
+        <SeekBar
+            android:id="@+id/sbar_warn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:progress="85" />
+    </LinearLayout>
+
+    <include
+        android:id="@+id/lay_orient_app"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/lay_data_set_divider"
+        layout="@layout/item_set" />
+
+    <include
+        android:id="@+id/lay_auto_set"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/lay_data_set_divider"
+        layout="@layout/item_set" />
+
+    <include
+        android:id="@+id/lay_man_set"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/lay_data_set_divider"
+        layout="@layout/item_set" />
+
+    <include
+        android:id="@+id/lay_data_clean"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/lay_data_set_divider"
+        layout="@layout/item_set" />
+
+</LinearLayout>

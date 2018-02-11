@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* //device/apps/common/assets/res/any/colors.xml
+**
+** Copyright 2008, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License"); 
+** you may not use this file except in compliance with the License. 
+** You may obtain a copy of the License at 
+**
+**     http://www.apache.org/licenses/LICENSE-2.0 
+**
+** Unless required by applicable law or agreed to in writing, software 
+** distributed under the License is distributed on an "AS IS" BASIS, 
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+** See the License for the specific language governing permissions and 
+** limitations under the License.
+*/
+-->
+<resources>
+    <!-- The color tints to apply to the text and drag view when hovering
+         over the delete target or the info target -->
+    <color name="launcher_accent_color">#FFC1C1C1</color>
+    <color name="delete_target_hover_tint">#FFC1C1C1</color>
+    <color name="uninstall_target_hover_tint">#FFC1C1C1</color>
+    <color name="info_target_hover_tint">#FFC1C1C1</color>
+    <color name="cling_scrim_background">#80000000</color>
+    <color name="location_target_hover_tint">#FFC1C1C1</color>
+    <color name="dismmiss_folder_target_hover_tint">#FFC1C1C1</color>
+
+    <color name="focused_background">#80c6c5c5</color>
+
+    <color name="workspace_icon_text_color">#FFF</color>
+
+    <color name="workspace_edge_effect_color">#FFFFFFFF</color>
+    <color name="folder_edge_effect_color">#FF757575</color>
+
+    <!-- modify by xiangzx from FF666666 to FFFFFFFF-->
+    <color name="quantum_panel_text_color">#FFFFFFFF</color>
+    <color name="quantum_panel_bg_color">#FFF5F5F5</color>
+    <color name="quantum_panel_bg_color_dark">#FF374248</color>
+
+    <color name="outline_color">#FFFFFFFF</color>
+
+    <!-- Containers -->
+    <color name="container_fastscroll_thumb_inactive_color">#7FE1E1E1</color>
+    <color name="container_fastscroll_thumb_active_color">#7FE1E1E1</color>
+    <color name="container_fastscroll_popup_text_color">#FFFFFF</color>
+    <color name="container_searchbar_hint_color_black">#99000000</color>
+    <color name="container_searchbar_hint_color_white">#99FFFFFF</color>
+
+    <!-- All Apps -->
+    <!-- modify by xiangzx from 009688 to BCFFFFFF-->
+    <color name="all_apps_grid_section_text_color">#BCFFFFFF</color>
+    <color name="all_apps_search_market_button_focused_bg_color">#DDDDDD</color>
+    <color name="all_apps_sectionname_color_black">#99000000</color>
+    <color name="all_apps_sectionname_color_white">#99FFFFFF</color>
+    <color name="all_apps_index_color_click_black">#cc000000</color>
+    <color name="all_apps_index_color_click_white">#ccFFFFFF</color>
+    <color name="all_apps_index_color_black">#66000000</color>
+    <color name="all_apps_index_color_white">#66FFFFFF</color>
+    <color name="all_apps_market_border_color_black">#33000000</color>
+    <color name="all_apps_market_border_color_white">#33FFFFFF</color>
+    <color name="all_apps_market_background_color_black">#19000000</color>
+    <color name="all_apps_market_background_color_white">#19FFFFFF</color>
+    <color name="all_apps_market_color_black">#99000000</color>
+    <color name="all_apps_market_color_white">#99FFFFFF</color>
+
+
+    <!-- Widgets view -->
+    <color name="widgets_view_section_text_color">#FFFFFF</color>
+    <color name="widgets_view_item_text_color">#C4C4C4</color>
+    <color name="widgets_cell_color">#263238</color>
+
+
+    <!-- M:liuzuo DynamicIcon -->
+    <color name="calendar_text">#FFFFFF</color>
+    <color name="icon_check_background">#21ACD0</color>
+    <color name="icon_check_circle">#FFFFFF</color>
+    <color name="buttonDropTarget_bg_color">#7FD6D6D6</color>
+    <color name="folder_background">#E1DED7</color>
+    <color name="folder_background_launcher">#B2000000</color>
+    <color name="folder_content_bg">#33FFFFFF</color>
+    <color name="desk_widget_edit_color_black">#7F000000</color>
+    <color name="desk_widget_edit_color_white">#7FFFFFFF</color>
+    <color name="desk_widget_text_color_black">#BF000000</color>
+    <color name="desk_widget_text_color_white">#BFFFFFFF</color>
+    <color name="desk_widget_background">#F6F6F6</color>
+    <color name="desk_widget_text_color_default">#D8000000</color>
+    <color name="desk_widget_text_color_check">#19A3C6</color>
+    <color name="desk_widget_text_color_check_delete">#4C000000</color>
+    <color name="desk_widget_text_background_color">#EBEBEB</color>
+    <color name="desk_widget_text_background_stroke">#D9D9D9</color>
+    <!-- lijun add for pageIndicatorCube -->
+    <color name="celllayout_frame_nail_background_color_light">#3fffffff</color>
+    <color name="celllayout_frame_nail_background_color_dark">#26000000</color>
+    <color name="celllayout_frame_nail_background_color_translate">#00000000</color>
+    <color name="celllayout_frame_nail_background_color_target">#ff19B4BB</color>
+    <color name="celllayout_frame_nail_background_color_normal_outline_dark">#26000000</color>
+    <color name="celllayout_frame_nail_background_color_normal_outline_light">#66ffffff</color>
+
+    <!-- lijun add for WidgetsCell -->
+    <color name="widget_cell_bg_color_dark">#59b2b2b2</color>
+    <color name="widget_cell_bg_color_light">#59b2b2b2</color>
+
+    <color name="item_font_color_light">#E5FFFFFF</color>
+    <color name="item_font_color_black">#E5000000</color>
+
+    <!-- lijun add for unread -->
+    <color name="unread_bg_color">#FFDD6060</color>
+    <color name="unread_inner_dot_color">#FFFFFFFF</color>
+</resources>

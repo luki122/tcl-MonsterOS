@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2010 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<!-- tangyisen modify -->
+<!-- <menu xmlns:android="http://schemas.android.com/apk/res/android"> -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+    <!-- <item
+            android:id="@+id/msg_copy"
+            android:icon="@drawable/btn_copy_selector"
+            android:showAsAction="never|withText"
+            android:title="@string/menu_copy"
+    />
+    <item
+            android:id="@+id/msg_forward"
+            android:icon="@drawable/btn_forward_selector"
+            android:showAsAction="always|withText"
+            android:title="@string/menu_forward"
+    />
+    <item
+            android:id="@+id/msg_delete"
+            android:icon="@drawable/btn_delete_selector"
+            android:showAsAction="always|withText"
+            android:title="@string/menu_delete_msg"
+    /> -->
+    <item
+            android:id="@+id/msg_copy"
+            android:icon="@com.mst:drawable/ic_copy"
+    />
+    <item
+            android:id="@+id/msg_forward"
+            android:icon="@com.mst:drawable/ic_share"
+    />
+    <item
+            android:id="@+id/msg_delete"
+            android:icon="@com.mst:drawable/ic_delete"
+    /> 
+    <!--
+    <item
+            android:id="@+id/msg_copy_to_sim"
+            android:icon="@drawable/ic_menu_forward"
+            android:showAsAction="never|withText"
+            android:title="@string/operation_to_card_memory"
+    />
+    -->
+    <!--  <item
+         android:id="@+id/msg_lock"
+         android:showAsAction="never|withText"
+         android:title="@string/menu_lock"
+         />  -->
+    <!-- <item
+         android:id="@+id/msg_resend"
+         android:showAsAction="never|withText"
+         android:title="@string/menu_resend"
+         /> -->
+    <!-- <item
+         android:id="@+id/msg_detail"
+         android:showAsAction="never|withText"
+         android:title="@string/message_detail"
+         /> -->
+    <!-- <item
+         android:id="@+id/msg_report"
+         android:showAsAction="never|withText"
+         android:title="@string/view_delivery_report"
+         /> -->
+    <!--<item
+        android:id="@+id/msg_save_attachment"
+        android:showAsAction="never|withText"
+        android:title="@string/copy_to_sdcard"
+        /> -->
+
+</menu>

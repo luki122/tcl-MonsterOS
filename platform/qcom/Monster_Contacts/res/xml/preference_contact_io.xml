@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+ 
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+ 	<PreferenceCategory
+        android:key="in_preference"
+        android:title="@string/mst_contact_import" >
+	    <Preference
+	        android:key="mst_sim_to_phone"
+	        android:title="@string/mst_sim_to_phone" >
+	    </Preference>
+	    
+<!--	     <Preference
+	        android:key="mst_sim0_to_phone"
+	        android:title="@string/mst_sim0_to_phone" >
+	    </Preference>
+	    
+ 	    <Preference
+	        android:key="mst_sim1_to_phone"
+	        android:title="@string/mst_sim1_to_phone" >
+	    </Preference> -->
+	    
+	    <Preference
+	        android:key="mst_sd_to_phone"
+	        android:title="@string/mst_sd_to_phone"
+	        android:summary="@string/mst_sd_to_phone_subtitle" >
+	    </Preference>
+    </PreferenceCategory>
+    
+ 	<PreferenceCategory
+        android:key="out_preference"
+        android:title="@string/mst_contact_export" >
+	    <Preference
+	        android:key="mst_phone_to_sim"
+	        android:title="@string/mst_phone_to_sim" >
+	    </Preference>
+	    
+<!--	    <Preference
+	        android:key="mst_phone_to_sim0"
+	        android:title="@string/mst_phone_to_sim0" >
+	    </Preference>
+	    
+ 	    <Preference
+	        android:key="mst_phone_to_sim1"
+	        android:title="@string/mst_phone_to_sim1" >
+	    </Preference> -->
+	    
+	    <Preference
+	        android:key="mst_phone_to_sd"
+	        android:title="@string/mst_phone_to_sd"
+	        android:summary="@string/mst_phone_to_sd_subtitle" >
+	    </Preference>
+	    
+	    <Preference
+	        android:key="mst_delete_sim_contacts"
+	        android:title="@string/mst_delete_sim_contacts"
+	        android:summary="@string/mst_delete_sim_contacts" >
+	    </Preference>
+	    
+	    <Preference
+	        android:key="mst_part_delete_sim_contacts"
+	        android:title="@string/mst_part_delete_sim_contacts"
+	        android:summary="@string/mst_part_delete_sim_contacts" >
+	    </Preference>
+    </PreferenceCategory>
+
+</PreferenceScreen>

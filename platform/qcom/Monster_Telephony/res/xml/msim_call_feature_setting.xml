@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2008 The Android Open Source Project
+     Copyright (c) 2012-2013, The Linux Foundation. All rights reserved.
+
+     Not a Contribution.
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:phone="http://schemas.android.com/apk/res/com.android.phone"
+    android:title="@string/call_settings" >
+
+    <PreferenceCategory
+        android:icon="@drawable/ic_multi_sim"
+        android:key="sim_category_key0"
+        android:persistent="false"
+        android:title="@string/sub_1" >
+        <PreferenceScreen
+            android:key="button_cf_expand_key0"
+            android:persistent="false"
+            android:title="@string/callforward_title" >
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.android.phone.GsmUmtsCallForwardOptions"
+                android:targetPackage="com.android.phone" />
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:key="button_more_expand_key0"
+            android:persistent="false"
+            android:title="@string/labelCW" >
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.android.phone.GsmUmtsAdditionalCallOptions"
+                android:targetPackage="com.android.phone" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:icon="@drawable/ic_multi_sim"
+        android:key="sim_category_key1"
+        android:persistent="false"
+        android:title="@string/sub_2" >
+        <PreferenceScreen
+            android:key="button_cf_expand_key1"
+            android:persistent="false"
+            android:title="@string/callforward_title" >
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.android.phone.GsmUmtsCallForwardOptions"
+                android:targetPackage="com.android.phone" />
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:key="button_more_expand_key1"
+            android:persistent="false"
+            android:title="@string/labelCW" >
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.android.phone.GsmUmtsAdditionalCallOptions"
+                android:targetPackage="com.android.phone" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="button_misc_category_key"
+        android:persistent="false"
+        android:title="@string/other_settings" >
+        <SwitchPreference
+            android:defaultValue="@bool/def_overturn_to_mute"
+            android:key="overturn_to_mute"
+            android:persistent="false"
+            android:title="@string/overturn_mute_title" />
+        <SwitchPreference
+            android:defaultValue="@bool/def_anti_touch"
+            android:key="anti_touch"
+            android:persistent="false"
+            android:title="@string/incoming_touch_title" />
+        <SwitchPreference
+            android:defaultValue="@bool/def_smart_ringer"
+            android:key="smart_ringer"
+            android:persistent="false"
+            android:summary="@string/ringer_summary"
+            android:title="@string/ringer_title" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

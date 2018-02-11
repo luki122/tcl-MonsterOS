@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="40dp"
+    android:viewportHeight="120"
+    android:viewportWidth="120"
+    android:width="40dp" >
+
+    <group
+        android:name="Phone-通话中"
+        android:translateX="-775.000000"
+        android:translateY="-1077.000000" >
+        <group
+            android:name="2"
+            android:translateY="-3.000000" >
+            <group
+                android:translateX="179.000000"
+                android:translateY="841.000000" >
+                <group
+                    android:name="添加铜壶"
+                    android:translateX="596.000000"
+                    android:translateY="239.000000" >
+                    <group
+                        android:name="Page-1"
+                        android:translateX="36.000000"
+                        android:translateY="35.000000" >
+                        <path
+                            android:name="Stroke-1"
+                            android:fillType="evenOdd"
+                            android:pathData="M 34.8193407 11.4803806 L 24.6340973 0.630601617 L 14.448854 11.4803806 "
+                            android:strokeColor="@color/icon_pressed_color"
+                            android:strokeLineCap="round"
+                            android:strokeLineJoin="round"
+                            android:strokeWidth="3" />
+                        <path
+                            android:name="Stroke-3"
+                            android:fillType="evenOdd"
+                            android:pathData="M24.5735636,4.68992129 L24.5735636,26.7805305 C24.5735636,40.0636571
+13.8533124,50.8314415 0.627566719,50.8314415 L0.627566719,50.8314415"
+                            android:strokeColor="@color/icon_pressed_color"
+                            android:strokeLineCap="round"
+                            android:strokeWidth="3" />
+                        <path
+                            android:name="Stroke-5"
+                            android:fillType="evenOdd"
+                            android:pathData="M24.6545055,2.43721402 L24.5942229,26.7807827 C24.5942229,40.0639094
+35.3144741,50.8316938 48.5389639,50.8316938 L48.5389639,50.8316938"
+                            android:strokeColor="@color/icon_pressed_color"
+                            android:strokeLineCap="round"
+                            android:strokeWidth="3" />
+                    </group>
+                </group>
+            </group>
+        </group>
+    </group>
+
+</vector>

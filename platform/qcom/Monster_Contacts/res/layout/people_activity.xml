@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mst="http://schemas.android.com/apk/res/com.mst"
+    android:id="@+id/list_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+
+    <!--
+         <include
+        android:id="@+id/toolbar_parent"
+        layout="@layout/people_activity_toolbar" />
+    -->
+
+
+    <!--
+        ViewPager for swiping between tabs.  We put StrequentContactListFragment,
+        DefaultContactBrowseListFragment and GroupBrowseListFragment at runtime.
+
+        (Adding them directly as the children of this view is not recommended.  ViewPager should
+        be treated like a ListView, which doesn't expect children to be added from the layout.)
+    -->
+    <!--
+         <android.support.v4.view.ViewPager
+        android:id="@+id/tab_pager"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_below="@id/toolbar_parent"
+        />
+    -->
+
+    <FrameLayout
+        android:id="@+id/tab_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <FrameLayout
+        android:id="@+id/contacts_unavailable_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" >
+
+        <FrameLayout
+            android:id="@+id/contacts_unavailable_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </FrameLayout>
+
+    <!-- <include layout="@layout/floating_action_button" /> -->
+
+    <mst.widget.FloatingActionButton
+        android:id="@+id/floating_action_button_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="@dimen/mst_floating_action_button_margin_bottom"
+        android:layout_marginEnd="@dimen/mst_floating_action_button_margin_right"
+        android:background="@color/contact_fab_background_color"
+        mst:centerImage="@drawable/mst_ic_person_add"
+        mst:size="large" />
+
+    <mst.widget.MstIndexBar
+        android:id="@+id/index_bar"
+        android:layout_width="@dimen/index_bar_width"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="@dimen/index_bar_margin_top"
+        android:layout_marginRight="@dimen/index_bar_margin_right"
+        android:layout_marginBottom="@dimen/index_bar_margin_bottom"
+        android:visibility="gone"
+        mst:balloonLeft="@dimen/index_bar_balloon_left"
+        mst:balloonTop="@dimen/index_bar_balloon_top"
+        />
+
+    <mst.view.menu.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:maxHeight="50dp"
+        android:visibility="gone"
+        mst:menu="@menu/mst_contact_bottom_menu" />
+
+</RelativeLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- voice recorder -->
+    <string name="str_db_playlist_name">My recordings</string>
+    <string name="alert_device_error">Error occurred on audio device</string>
+    <string name="ext_media_badremoval_notification_title">SD card unexpectedly removed</string>
+    <string name="error_sdcard_access">Unable to access SD card</string>
+    <string name="confirm_device_info_full">SD card is out of space, the recording has been saved.</string>
+    <string name="confirm_save_info_saved">The recording has been saved</string>
+    <string name="confirm_save_info_saved_to">The recording has been saved to</string>
+    <string name="onscreenRecordText">Record</string>
+    <string name="delete_record_item">Delete Record</string>
+    <string name="delete_all_record_item">Delete All Record</string>
+    <string name="unselect_all">UnSelect all</string>
+    <string name="select_all">Select all</string>
+    <string name="cancel">Cancel</string>
+    <string name="selected_total_num">Selected <xliff:g id="total">%d</xliff:g> items</string>
+    <string name="no_call_record_history">No record</string>
+    <string name="call_record_detail_title">Record Details</string>
+    <string name="call_record_message_time">Time：</string>
+    <string name="call_record_message_size">Size：</string>
+    <string name="call_record_message_path">Location：Storage/Internal/Storage/PhoneRecord/</string>
+    <string name="call_record_delete_title">Delete record</string>
+    <string name="call_record_delete_all_title">Delete All record</string>
+    <string name="call_record_delete_message">Are you sure to delete the selected record(s)?</string>
+    <string name="call_record_delete_all_message">Are you sure to delete all record(s)?</string>
+    <string name="call_record">&quot;Call recording&quot;</string>
+    <string name="auto_record">&quot;Auto recording&quot;</string>
+    <string name="record_history">&quot;Records&quot;</string>
+    <string name="record_close">Close</string>
+    <string name="record_all_contacts">&quot;All&quot;</string>
+    <string name="record_select_contact">&quot;Selected contacts&quot;</string>
+    <string name="auto_recording">&quot;Adding, please wait&quot;</string>
+    <string name="auto_recording_remove">&quot;Removing, please wait&quot;</string>
+
+    <!-- Menu item used to edit a specific contact -->
+    <string name="menu_editContact">Edit</string>
+    <string name="clear_all">Clear</string>
+    <string name="end_call_waiting">REJECT</string>
+    <string name="answer_call_waiting_hold">Hold and answer</string>
+    <string name="answer_call_waiting_hangup">Hangup and answer</string>
+    <string name="record_button_off">Start Record</string>
+    <string name="record_button_on">close Recording</string>
+    <string name="endcall">end call</string>
+    <string name="endcall_dtmf">end call</string>
+    <string name="hide_dtmf">hide pad</string>
+    
+    <string-array name="auto_record_choices" translatable="false">
+        <item>@string/record_close</item>
+        <item>@string/record_all_contacts</item>
+        <item>@string/record_select_contact</item>
+    </string-array>
+    <string-array name="auto_record_values" translatable="false">
+        <item>"0"</item>
+        <item>"1"</item>
+        <item>"2"</item>
+    </string-array>
+    
+    <string name="mark_count">marked by <xliff:g id="COUNT">%s</xliff:g></string>
+    
+    <string name="hold_and_answer">HOLD CURRENT AND  ANSWER</string>
+    <string name="end_and_answer">END CURRENT AND ANSWER</string>
+    <string name="reject_waiting">REJCT</string>
+    <string name="incall_app_label">InCallUI</string>
+    <string name="return_to_incall">Return to InCallScreen</string>
+    <string name="no_music_activity">There is no Music app</string>
+     <!-- "Respond via SMS": Confirmation message shown after sending
+        a text response. [CHAR LIMIT=40] -->
+    <string name="respond_via_sms_confirmation_format">Message sent to <xliff:g id="phone_number">%s</xliff:g>.</string>
+    
+    <string name="mark_by_user">Marked By User</string>
+    <string name="slide_delete_record_title">Are you sure to delete this record ?</string>
+    <string name="delete">Delete</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/mst_remove"
+        android:checked="true"
+        android:icon="@com.mst:drawable/ic_delete" />
+
+</menu>

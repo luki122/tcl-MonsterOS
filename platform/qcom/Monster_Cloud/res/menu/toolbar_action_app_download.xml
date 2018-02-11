@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/menu_app_download"
+        android:title="app_download_manager"
+        android:checked="true"
+        android:icon="@drawable/toolbar_download_normal"
+        android:showAsAction="ifRoom" />
+</menu>

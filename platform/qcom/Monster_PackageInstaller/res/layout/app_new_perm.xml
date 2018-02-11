@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imgView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="162dip"
+        android:src="@drawable/app_no_perm" />
+
+    <TextView
+        android:id="@+id/txtView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dip"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/imgView"
+        android:textColor="#db000000"
+        android:textSize="12sp"
+        android:text="@string/lbl_new_perm001" />
+    
+     <TextView
+         android:id="@+id/txtprompt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dip"
+        android:layout_centerHorizontal="true"
+        android:textColor="#4c000000"
+        android:layout_below="@+id/txtView"
+        android:textSize="12sp"
+        android:text="@string/lbl_new_perm002" />
+
+</RelativeLayout>

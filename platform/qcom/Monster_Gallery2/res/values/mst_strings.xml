@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mst_gallery">Gallery</string>
+    <string name="mst_enter_album">All Albums</string>
+    <string name="mst_select_all">Select All</string>
+    <string name="mst_de_select_all">Deselect All</string>
+    <string name="mst_more">More</string>
+    
+    <plurals name="mst_number_of_items_selected">
+        <item quantity="zero">%1$d selected</item>
+        <item quantity="one">%1$d selected</item>
+        <item quantity="other">%1$d selected</item>
+    </plurals>
+    
+    <string name="month_1">壹</string>
+    <string name="month_2">贰</string>
+    <string name="month_3">叁</string>
+    <string name="month_4">肆</string>
+    <string name="month_5">伍</string>
+    <string name="month_6">陆</string>
+    <string name="month_7">柒</string>
+    <string name="month_8">捌</string>
+    <string name="month_9">玖</string>
+    <string name="month_10">拾</string>
+    <string name="month_11">拾壹</string>
+    <string name="month_12">拾贰</string>
+    
+    <!-- From TCT BEGIN -->
+    <string name="filtershow_none">None</string>
+    <string name="filtershow_frame">Frame</string>
+    <!-- <string name="edit_save_message">"Overwrite Original Or Save As A Copy?"</string> -->
+    <string name="edit_save_message">"Save Modifications?"</string>
+    <string name="filtershow_save_button_overwrite">"Overwrite Original"</string>
+    <string name="filtershow_save_button_copy">"Save As A Copy"</string>
+    <string name="filtershow_save">"Save"</string>
+    <string name="filtershow_auto_edit">"Auto Edit"</string>
+    <string name="trim_title">"Discard changes?"</string>
+    <string name="trim_message">"Your changes are not saved, discard?"</string>
+    <string name="trim_discard">"Discard"</string>
+    
+    <!-- From TCT End -->
+    
+    <string name="crop_7_5">"7:5"</string>
+    <string name="crop_4_3">"4:3"</string>
+    <string name="crop_1_1">"1:1"</string>
+    <string name="crop_9_16">"9:16"</string>
+    <string name="crop_5_7">"5:7"</string>
+    
+    <string name="mst_rotate_left">"Rotate Left"</string>
+    <string name="mst_rotate_right">"Rotate Right"</string>
+    <string name="mst_rotate_vertical">"Rotate Vertically"</string>
+    <string name="mst_rotate_horizontal">"Rotate Horizontally"</string>
+    
+    <string name="mst_cancel">"Cancel"</string>
+    <string name="mst_cancel_apply">"Cancel"</string>
+    <string name="mst_apply">"Apply"</string>
+    <string name="mst_save">"Save"</string>
+    <string name="mst_reset">"Reset"</string>
+    
+    <string name="mst_default_seekbar_value">"0"</string>
+    
+    <!-- STRING FOR PHOTO DETAIL DIALOG START -->
+    <string name="details_title_new">Detail</string>
+    <!--  STRING FOR PHOTO DETAIL DIALOG END -->
+    
+  <string name="delete_photo_selection">Do you really want to delete %s ?</string>
+  <string name="delete_multi_item">%s items</string>
+  <string name="delete_picture_item">%s images</string>
+  <string name="delete_video_item">%s videos</string>
+  <string name="empty_page_tip">No picture here.</string>
+    
+</resources>

@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="com.mst:Theme.Mst.Material.Light">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="Theme.LocalTheme.Light" parent="AppTheme">
+        <item name="com.mst:windowLayoutStyle">@style/LocalThemeActivity.WindowToolbar</item>
+        <item name="android:toolbarStyle">@style/LocalThemeActivity.ToolbarStyle</item>
+    </style>
+
+    <style name="Theme.ThemeManager.PreviewImageTranslucent" parent="com.mst:Theme.Mst.Material.Light">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+         <item name="android:windowAnimationStyle">@style/WindowNoAnimationStyle</item>
+    </style>
+
+</resources>

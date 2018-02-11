@@ -1,0 +1,38 @@
+<resources>
+
+    <style name="BaseAppTheme" parent="@com.mst:style/Theme.Mst.Material.Light">
+        <item name = "android:statusBarColor">?android:attr/colorPrimary</item>
+        <item name = "android:windowLightStatusBar">true</item>
+        <item name = "android:colorPrimary">#FFFFFFFF</item>
+    
+    </style>
+
+    <style name="AutoManagerActivityTheme" parent="@style/BaseAppTheme">
+        <item name="com.mst:windowLayoutStyle">@style/Style.AutoManagerActivity</item>
+        <item name="android:toolbarStyle">@style/Style.AutoManagerActivity.ToolbarStyle</item>
+    </style>
+
+    <style name="AddAutoAppsActivityTheme" parent="@style/BaseAppTheme">
+        <item name="com.mst:windowLayoutStyle">@style/Style.AddAutoAppsActivity</item>
+        <item name="android:toolbarStyle">@style/Style.AddAutoAppsActivity.ToolbarStyle</item>
+    </style>
+
+    <style name="Style.AutoManagerActivity" parent="com.mst:WindowStyle.Light">
+        <item name="com.mst:hasBackIcon">true</item>
+    </style>
+
+    <style name="Style.AddAutoAppsActivity" parent="com.mst:WindowStyle.Light">
+        <item name="com.mst:hasBackIcon">true</item>
+    </style>
+
+    <style name="Style.AutoManagerActivity.ToolbarStyle" parent="com.mst:style/ToolbarStyle">
+        <item name="com.mst:title">@string/app_name</item>
+        <item name = "android:elevation">1px</item>
+    </style>
+
+    <style name="Style.AddAutoAppsActivity.ToolbarStyle" parent="com.mst:style/ToolbarStyle">
+        <item name="com.mst:title">@string/str_add_auto_apps_title</item>
+        <item name = "android:elevation">1px</item>
+    </style>
+
+</resources>

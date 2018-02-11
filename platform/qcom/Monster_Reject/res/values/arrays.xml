@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="calllog_menu">
+        <item>@string/call_back</item>
+        <item>@string/sms_back</item>
+        <item>@string/no_reject</item>
+        <item>@string/menu_view</item>
+        <item>@string/menu_delete</item>
+    </string-array>
+    
+    <string-array name="calllog_menu_rubbish">
+        <item>@string/call_back</item>
+        <item>@string/sms_back</item>
+        <item>@string/menu_view</item>
+        <item>@string/menu_delete</item>
+    </string-array>
+    
+    <string-array name="black_name_menu">
+        <item>@string/black_call</item>
+        <item>@string/black_sms</item>
+        <item>@string/black_edit</item>
+        <item>@string/black_remove</item>
+    </string-array>
+    
+    <string-array name="black_name_menu_mul">
+        <item>@string/sim_one_black_call</item>
+        <item>@string/sim_two_black_call</item>
+        <item>@string/black_sms</item>
+        <item>@string/black_edit</item>
+        <item>@string/black_remove</item>
+    </string-array>
+    
+    <string-array name="mark_menu">
+        <item>@string/edit</item>
+        <item>@string/del</item>
+    </string-array>
+</resources>

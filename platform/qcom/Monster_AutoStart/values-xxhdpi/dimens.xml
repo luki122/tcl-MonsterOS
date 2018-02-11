@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+
+    <!-- Activity -->
+    <dimen name="activity_main_tv_total_count_margin_left">20dp</dimen>
+    <dimen name="activity_main_tv_total_count_margin_top">18dp</dimen>
+    <dimen name="activity_main_tv_total_count_text_size">12sp</dimen>
+    <dimen name="activity_main_image_hints_margin_top">194dp</dimen>
+    <dimen name="activity_main_tv1_hints_margin_top">4dp</dimen>
+    <dimen name="activity_main_tv2_hints_margin_top">2dp</dimen>
+    <dimen name="activity_main_tv1_hints_text_size">12sp</dimen>
+    <dimen name="activity_main_tv2_hints_text_size">12sp</dimen>
+
+    <!-- Adapter -->
+    <dimen name="adapter_item_add_img_icon_width">40dp</dimen>
+    <dimen name="adapter_item_add_img_icon_height">40dp</dimen>
+    <dimen name="adapter_item_add_img_icon_margin_left">20dp</dimen>
+    <dimen name="adapter_item_add_tv_size">14sp</dimen>
+    <dimen name="adapter_item_add_tv_margin_left">20dp</dimen>
+    <dimen name="adapter_item_add_tv1_width">53dp</dimen>
+    <dimen name="adapter_item_add_tv1_height">24dp</dimen>
+    <dimen name="adapter_item_add_tv1_size">12sp</dimen>
+    <dimen name="adapter_item_add_tv1_margin_right">20dp</dimen>
+
+</resources>

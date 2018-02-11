@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2008 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/preferences_title">
+
+    <Preference
+        android:key="calendar_filter"
+        android:title="@string/calendar_filter">
+        <intent
+            android:targetClass="com.android.calendar.mst.CalendarFilterSettingsActivity"
+            android:targetPackage="com.android.calendar" />
+    </Preference>
+
+    <ListPreference
+        android:key="preferences_week_start_day"
+        android:defaultValue="@string/preferences_week_start_day_default"
+        android:title="@string/week_start_day"
+        android:entries="@array/preferences_week_start_day_labels"
+        android:entryValues="@array/preferences_week_start_day_values"
+        android:dialogTitle="@string/week_start_day" />
+
+    <PreferenceCategory
+        android:title="@string/reminder_settings">
+
+        <SwitchPreference
+            android:key="birthday_reminder"
+            android:title="@string/birthday_reminder"
+            android:summary="@string/birthday_reminder_summary"
+            android:defaultValue="true" />
+
+        <ListPreference
+            android:key="preferences_default_reminder"
+            android:defaultValue="@string/preferences_default_reminder_default"
+            android:title="@string/events_reminder"
+            android:entries="@array/mst_reminder_minutes_labels"
+            android:entryValues="@array/mst_reminder_minutes_values"
+            android:dialogTitle="@string/events_reminder" />
+
+        <RingtonePreference
+            android:layout="?android:attr/preferenceLayoutChild"
+            android:key="preferences_alerts_ringtone"
+            android:title="@string/reminder_ringtone"
+            android:ringtoneType="notification"
+            android:showDefault="false"
+            android:defaultValue="content://settings/system/notification_sound" />
+     </PreferenceCategory>
+
+</PreferenceScreen>

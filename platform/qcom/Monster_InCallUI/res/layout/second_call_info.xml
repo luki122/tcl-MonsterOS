@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/second_call_info"
+    android:layout_width="match_parent"
+    android:layout_height="70dp" >
+
+    <TextView
+        android:id="@+id/second_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="15dp"
+        android:ellipsize="marquee"
+        android:fontFamily="monster-normal"
+        android:gravity="center_vertical|start"
+        android:maxWidth="200dp"
+        android:singleLine="true"
+        android:textColor="#DB000000"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/second_sim_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/second_name"
+        android:layout_marginRight="9dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/sim_icon_1"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/second_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/second_name"
+        android:layout_marginTop="3.5dp"
+        android:layout_toRightOf="@id/second_sim_icon"
+        android:ellipsize="marquee"
+        android:fontFamily="monster-normal"
+        android:gravity="center_vertical|start"
+        android:maxWidth="200dp"
+        android:singleLine="true"
+        android:textColor="#66000000"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/swap_button"
+        android:layout_width="47dp"
+        android:layout_height="28dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/call_waiting_ripple"
+        android:gravity="center"
+        android:text="@string/onscreenSwapCallsText"
+        android:textColor="#DB000000"
+        android:textSize="20dp"  />
+
+</RelativeLayout>

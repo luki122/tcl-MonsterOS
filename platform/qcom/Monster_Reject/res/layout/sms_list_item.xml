@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
+    android:paddingStart="?android:attr/listPreferredItemPaddingStart" -->
+<mst.widget.SliderView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mst="http://schemas.android.com/apk/res/com.mst"
+    android:id="@+id/swipe_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart = "20dp"
+    android:paddingEnd = "20dp"
+    mst:handleEventInParent="true"
+    mst:layout="@layout/sms_list_item_content" >
+
+</mst.widget.SliderView>

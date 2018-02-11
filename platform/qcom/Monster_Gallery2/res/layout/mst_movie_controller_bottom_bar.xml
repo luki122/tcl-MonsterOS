@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- TCL BaiYuan Begin on 2016.10.18 -->
+<!-- Oringinal: -->
+<!-- android:layout_gravity="bottom" -->
+<!-- 
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/mst_movie_bottom_bar_height" > 
+    
+
+    <ImageView android:id="@+id/mst_movie_play_pause_button"
+                                    android:layout_width="32dp"
+                                    android:layout_height="32dp"
+                                    android:layout_marginStart="30dp"
+                                    android:layout_marginEnd="16dp"
+                                    android:src="@drawable/mst_movie_pause"
+                                    android:background="@null"
+                                    android:layout_alignParentStart="true"
+                                    android:contentDescription="@null"
+                                    android:layout_centerVertical="true"/>
+
+
+    
+    <com.android.gallery3d.app.MovieTimeBar android:id="@+id/mst_movie_time_bar" 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toEndOf="@id/mst_movie_play_pause_button"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="16dp">
+    </com.android.gallery3d.app.MovieTimeBar>
+
+</RelativeLayout>
+-->
+
+<!-- Modify To: -->
+    
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:background="@color/video_bar_bg"
+	android:layout_height="@dimen/mst_movie_bottom_bar_height" >
+    
+        <ImageView android:id="@+id/mst_movie_play_pause_button"
+                                android:layout_width="32dp"
+                                android:layout_height="32dp"
+                                android:layout_marginLeft="16dp"
+                                android:layout_marginRight="16dp"
+                                android:layout_marginTop="19dp"
+                                android:layout_marginBottom="19dp"
+                                android:src="@drawable/mst_video_pause"
+                                android:background="@null"
+                                android:layout_alignParentStart="true"
+                                android:contentDescription="@null"
+                                android:layout_centerVertical="true"/>
+        
+            <com.android.gallery3d.app.MovieTimeBar android:id="@+id/mst_movie_time_bar" 
+		        android:layout_width="match_parent"
+		        android:layout_height="match_parent"
+		        android:layout_toRightOf="@id/mst_movie_play_pause_button"
+		        android:layout_centerVertical="true"
+		        android:layout_marginStart="0dp">
+		    </com.android.gallery3d.app.MovieTimeBar>
+
+</RelativeLayout>
+
+<!-- TCL BaiYuan End on 2016.10.18 -->

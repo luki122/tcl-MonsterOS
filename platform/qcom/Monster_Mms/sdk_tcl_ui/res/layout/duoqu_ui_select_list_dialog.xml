@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/duoqu_navi_list_top_bot"
+    android:orientation="vertical" >
+
+    <TextView android:id="@+id/bottom_sept_show_text"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:gravity="center"
+        android:text="@string/duoqu_ui_dialog_select_cart"
+        android:textColor="@color/duoqu_ui_3011"
+        android:textSize="@dimen/duoqu_ui_dialog_select_cart_text_size" />
+
+    <View
+        android:id="@+id/bottom_sept_line"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#26000000" />
+
+    <LinearLayout
+        android:id="@+id/item_roots"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#26000000" />
+
+    <LinearLayout
+        android:id="@+id/bottom_items"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp" >
+
+        <TextView
+            android:id="@+id/duoqu_select_dialog_left"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_marginEnd="6dp"
+            android:layout_weight="1"
+            android:background="@drawable/duoqu_ui_table_dialog_button"
+            android:gravity="center"
+            android:text="@string/duoqu_ui_cancel"
+            android:textColor="@color/duoqu_ui_3011"
+            android:textSize="@dimen/duoqu_ui_select_dialog_left_text_size" />
+
+        <TextView
+            android:id="@+id/duoqu_select_dialog_right"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_weight="1"
+            android:layout_marginStart="6dp"
+            android:background="@drawable/duoqu_ui_table_dialog_button"
+            android:gravity="center"
+            android:text="@string/duoqu_ui_confirm"
+            android:textColor="@color/duoqu_ui_3011"
+            android:textSize="@dimen/duoqu_ui_select_dialog_right_text_size" />
+    </LinearLayout>
+
+</LinearLayout>

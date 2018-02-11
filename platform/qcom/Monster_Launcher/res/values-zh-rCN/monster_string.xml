@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="confirm_action">"确定"</string>
+    <string name="cancel_action">"取消"</string>
+
+    <string name="allapps_recent_apps">最近使用</string>
+    <string name="allapps_market_title">应用商店</string>
+
+    <string name="location_target_label">定位图标</string>
+    <string name="location_failed_hint">定位失败</string>
+
+    <string name="dismiss_folder_title">解散</string>
+    <string name="dismiss_folder_msg">是否解散该文件夹？</string>
+    <string name="dismiss_folder_confirm">解散</string>
+    <string name="dismmiss_folder_target_label">解散</string>
+    <string name="folder_importmode_button">添加到文件夹(<xliff:g id="count">%d</xliff:g>)</string>
+    <string name="folder_importmode_hint">请选择要移入文件夹的应用</string>
+
+    <string name="notification_receiver">MonsterLauncher</string>
+    <string name="show_unread">显示角标</string>
+
+    <string name="unread_notification_access_setting_title">提示</string>
+    <string name="unread_notification_access_setting_ok">确定</string>
+    <string name="unread_notification_access_setting_cancel">取消</string>
+    <string name="unread_notification_access_setting_content">您需要设置通知权限方可显示角标，点击确认进入到设置</string>
+    <string name="menu_unread_label">未读角标设置</string>
+
+    <string name="folder_importmode_addicon">添加应用</string>
+
+    <string name="icons_arrange_btn_restore">恢复原样</string>
+    <string name="icons_arrange_btn_commit">立即使用</string>
+    <string name="icons_arrange_screen_check">桌面少于两页，不予整理</string>
+    <string name="icons_arrange_install_check">等待桌面数据库处理完毕</string>
+
+    <string name="menu_arrange_label">图标整理</string>
+    <string name="menu_arrange_finish_hint">图标整理已经完成</string>
+    <string name="menu_clearup_label">图标对齐</string>
+    <string name="menu_arrange_dialog_title">图标整理</string>
+    <string name="menu_arrange_dialog_msg">是否进行桌面图标整理？</string>
+    <string name="menu_clearup_dialog_title">图标对齐</string>
+    <string name="menu_clearup_dialog_msg">是否对齐桌面图标？</string>
+
+    <string name="activity_desk_widget_chose">选择文案</string>
+    <string name="activity_desk_widget_defined">自定义</string>
+    <string name="activity_desk_widget_toast">字数超过上限</string>
+    <string name="appwidget_load_text">加载中..</string>
+    <string name="appwidget_label">桌面日历</string>
+    <string name="folder_str_tools">Toll</string>
+    <string-array name="activity_widget_default_text">
+        　　<item>\n自定义</item>
+        　　<item>摘下怀恋\n记住美妙</item>
+        　　<item>迎着风的\n记住美妙</item>
+        　　<item>执子之手\n记住美妙</item>
+        　　<item>老骥伏枥\n记住美妙</item>
+        　　<item>房产兴邦\n记住美妙</item>
+    </string-array>
+
+
+</resources>

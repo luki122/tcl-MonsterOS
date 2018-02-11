@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="confirm_action">"Yes"</string>
+    <string name="cancel_action">"No"</string>
+
+    <string name="allapps_recent_apps">Recent Apps</string>
+    <string name="allapps_market_title">Apps Store</string>
+
+    <string name="location_target_label">Locate Icon</string>
+    <string name="location_failed_hint">Locate failed</string>
+
+    <string name="dismiss_folder_title">Dismiss</string>
+    <string name="dismiss_folder_msg">Dismiss the folder or not</string>
+    <string name="dismiss_folder_confirm">Dismiss</string>
+    <string name="dismmiss_folder_target_label">Dismiss</string>
+    <string name="folder_importmode_button">Add to the folder(<xliff:g id="count">%d</xliff:g>)</string>
+    <string name="folder_importmode_hint">Select the app shift into the folder </string>
+
+    <string name="notification_receiver">MonsterLauncher</string>
+    <string name="show_unread">Display Label</string>
+
+    <string name="unread_notification_access_setting_title">Notification</string>
+    <string name="unread_notification_access_setting_ok">Yes</string>
+    <string name="unread_notification_access_setting_cancel">No</string>
+    <string name="unread_notification_access_setting_content">You need to set notification authority for label display,click Yes enter settings </string>
+    <string name="menu_unread_label">Unread Label Settings </string>
+
+    <string name="folder_importmode_addicon">Add Apps</string>
+
+    <string name="icons_arrange_btn_restore">Restore</string>
+    <string name="icons_arrange_btn_commit">Commit</string>
+    <string name="icons_arrange_screen_check">桌面少于两页，不予整理</string>
+    <string name="icons_arrange_install_check">等待桌面数据库处理完毕</string>
+
+    <string name="menu_arrange_label">Arrange Icons</string>
+    <string name="menu_arrange_finish_hint">Finished Icons Arrangement</string>
+    <string name="menu_clearup_label">Aline Icons</string>
+    <string name="menu_arrange_dialog_title">Arrange Icons</string>
+    <string name="menu_arrange_dialog_msg">Arrange desktop icons or not？</string>
+    <string name="menu_clearup_dialog_title">Icon Aline</string>
+    <string name="menu_clearup_dialog_msg">Aline desktop icons or not？</string>
+
+    <string name="activity_desk_widget_chose">Select Copy</string>
+    <string name="activity_desk_widget_defined">Customize</string>
+    <string name="activity_desk_widget_toast">Words over limits</string>
+    <string name="appwidget_load_text">Loading..</string>
+    <string name="appwidget_label">Desktop Calendar</string>
+    <string name="folder_str_tools">Toll</string>
+    <string-array name="activity_widget_default_text">
+        　　<item>\nCustomize</item>
+        　　<item>Easy come\neasy go</item>
+        　　<item>There is a will\nhere is a way</item>
+        　　<item>more haste\nless speed</item>
+        　　<item>better late\nthan never</item>
+        　　<item>Nothing seek\nnothing find</item>
+    </string-array>
+
+
+</resources>

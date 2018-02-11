@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+unreadType MonsterUnreadLoader : UNREAD_TYPE_NORMAL,UNREAD_TYPE_PHONE,UNREAD_TYPE_MMS,UNREAD_TYPE_EMAIL,UNREAD_TYPE_CALENDAR
+-->
+<unreadshortcuts
+    xmlns:launcher="http://schemas.android.com/apk/res-auto">
+    <!--<unreadshortcut
+        launcher:unreadPackageName="com.android.contacts"
+        launcher:unreadClassName="com.android.dialer.DialtactsActivity"
+        launcher:unreadType="1"
+     />
+     <unreadshortcut
+        launcher:unreadPackageName="com.android.mms"
+        launcher:unreadClassName="com.android.mms.ui.ConversationList"
+        launcher:unreadType="2"
+     />
+     <unreadshortcut
+        launcher:unreadPackageName="com.android.email"
+        launcher:unreadClassName="com.android.email.activity.Welcome"
+        launcher:unreadType="3"
+     />
+     <unreadshortcut
+        launcher:unreadPackageName="com.android.calendar"
+        launcher:unreadClassName="com.android.calendar.AllInOneActivity"
+        launcher:unreadType="4"
+     />-->
+</unreadshortcuts>

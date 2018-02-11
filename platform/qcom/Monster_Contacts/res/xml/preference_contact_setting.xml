@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+ 
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+ 
+    <!-- <Preference
+        android:key="preference_accounts"
+        android:title="@string/mst_preference_accounts" >
+    </Preference> -->
+    
+    <Preference
+        android:key="preference_contactio"
+        android:title="@string/mst_preference_contactio" >
+    </Preference>
+
+</PreferenceScreen>

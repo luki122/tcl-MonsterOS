@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+**
+** Copyright 2012, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License")
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+
+<com.android.keyguard.KeyguardDigitView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:androidprv="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/keyguard_digit_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:contentDescription="@string/keyguard_accessibility_pin_unlock"
+    android:orientation="vertical"
+    androidprv:layout_maxHeight="@dimen/keyguard_security_max_height"
+    androidprv:layout_maxWidth="@dimen/keyguard_security_width">
+
+    <LinearLayout
+        android:id="@+id/row0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="30dp">
+
+        <include
+            layout="@layout/keyguard_message_area"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/digitEntry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center_horizontal"
+            android:background="@null"
+            android:clickable="false"
+            android:cursorVisible="false"
+            android:editable="true"
+            android:gravity="center"
+            android:imeOptions="flagForceAscii|actionDone"
+            android:singleLine="true"
+            android:textColor="#00000000"
+            android:textSize="5sp" />
+
+        <include
+            android:id="@+id/show_digit_view"
+            layout="@layout/show_digit_view" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layoutDirection="ltr"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/row1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <com.android.keyguard.NumPadKey
+                android:id="@+id/key1"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                androidprv:digit="1"
+                androidprv:textView="@+id/digitEntry" />
+
+            <com.android.keyguard.NumPadKey
+                android:id="@+id/key2"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                androidprv:digit="2"
+                androidprv:textView="@+id/digitEntry" />
+
+            <com.android.keyguard.NumPadKey
+                android:id="@+id/key3"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                androidprv:digit="3"
+                androidprv:textView="@+id/digitEntry" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/row2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <com.android.keyguard.NumPadKey
+                android:id="@+id/key4"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                androidprv:digit="4"
+                androidprv:textView="@+id/digitEntry" />
+
+            <com.android.keyguard.NumPadKey
+                android:id="@+id/key5"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                androidprv:digit="5"
+                androidprv:textView="@+id/digitEntry" />
+
+            <com.android.keyguard.NumPadKey
+                android:id="@+id/key6"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                androidprv:digit="6"
+                androidprv:textView="@+id/digitEntry" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/row3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <com.android.keyguard.NumPadKey
+                android:id="@+id/key7"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                androidprv:digit="7"
+                androidprv:textView="@+id/digitEntry" />
+
+            <com.android.keyguard.NumPadKey
+                android:id="@+id/key8"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                androidprv:digit="8"
+                androidprv:textView="@+id/digitEntry" />
+
+            <com.android.keyguard.NumPadKey
+                android:id="@+id/key9"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                androidprv:digit="9"
+                androidprv:textView="@+id/digitEntry" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/row4"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <com.android.keyguard.EmergencyButton
+                android:id="@+id/emergency_call_button"
+                style="@style/Widget.TextView.Keyguard.CarrierText"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/ripple_drawable"
+                android:gravity="center"
+                android:text="@*android:string/lockscreen_emergency_call"
+                android:textAllCaps="@bool/kg_use_all_caps"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                 />
+
+            <com.android.keyguard.NumPadKey
+                android:id="@+id/key0"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                androidprv:digit="0"
+                androidprv:textView="@+id/digitEntry" />
+
+            <Button
+                android:id="@+id/delete_button"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/ripple_drawable"
+                android:clickable="true"
+                android:contentDescription="@string/keyboardview_keycode_delete"
+                android:gravity="center"
+                android:text="@string/kg_bouncer_control_cancel"
+                android:textAllCaps="@bool/kg_use_all_caps"
+                style="@style/Widget.TextView.Keyguard.CarrierText" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <include
+        android:id="@+id/keyguard_selector_fade_container"
+        layout="@layout/keyguard_eca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="gone" />
+
+</com.android.keyguard.KeyguardDigitView>

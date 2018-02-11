@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/display_background_color"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp" >
+
+        <TextView
+            android:id="@+id/text_update_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:gravity="center_vertical"
+            android:textColor="@color/currency_update_text"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/bt_back"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="right"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/head_jsq_selector"
+            android:onClick="onButtonClick" />
+    </RelativeLayout>
+
+    <mst.widget.MstListView
+        android:id="@+id/my_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@null"
+        android:fadingEdge="none"
+        android:scrollbars="none" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <View style="@style/TCLGrayLine_H" />
+
+        <LinearLayout
+            style="@style/ExchangeCalculator_Height"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/digit_7"
+                style="@style/TCLExchangeCalculator_Number"
+                android:layout_weight="1"
+                android:text="@string/digit_7" />
+
+            <View style="@style/TCLGrayLine_V" />
+
+            <TextView
+                android:id="@+id/digit_8"
+                style="@style/TCLExchangeCalculator_Number"
+                android:layout_weight="1"
+                android:text="@string/digit_8" />
+
+            <View style="@style/TCLGrayLine_V" />
+
+            <TextView
+                android:id="@+id/digit_9"
+                style="@style/TCLExchangeCalculator_Number"
+                android:layout_weight="1"
+                android:text="@string/digit_9" />
+
+            <View style="@style/TCLGrayLine_V" />
+
+            <TextView
+                android:id="@+id/txt_del"
+                style="@style/TCLExchangeCalculator_Number"
+                android:layout_weight="1"
+                android:text="@string/str_del"
+                android:visibility="gone" />
+
+            <ImageButton
+                android:id="@+id/del"
+                style="@style/TCLExchangeCalculator_Number"
+                android:layout_weight="1"
+                android:src="@drawable/calculator_arrow"
+                android:text="@string/str_del" />
+        </LinearLayout>
+
+        <View style="@style/TCLGrayLine_H" />
+
+        <LinearLayout
+            style="@style/ExchangeCalculator_Height"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/digit_4"
+                style="@style/TCLExchangeCalculator_Number"
+                android:layout_weight="1"
+                android:text="@string/digit_4" />
+
+            <View style="@style/TCLGrayLine_V" />
+
+            <TextView
+                android:id="@+id/digit_5"
+                style="@style/TCLExchangeCalculator_Number"
+                android:layout_weight="1"
+                android:text="@string/digit_5" />
+
+            <View style="@style/TCLGrayLine_V" />
+
+            <TextView
+                android:id="@+id/digit_6"
+                style="@style/TCLExchangeCalculator_Number"
+                android:layout_weight="1"
+                android:text="@string/digit_6" />
+
+            <View style="@style/TCLGrayLine_V" />
+
+            <TextView
+                android:id="@+id/op_div"
+                style="@style/TCLExchangeCalculator_Operator"
+                android:layout_weight="1"
+                android:text="@string/op_div" />
+        </LinearLayout>
+
+        <View style="@style/TCLGrayLine_H" />
+
+        <LinearLayout
+            style="@style/ExchangeCalculator_Height"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/digit_1"
+                style="@style/TCLExchangeCalculator_Number"
+                android:layout_weight="1"
+                android:text="@string/digit_1" />
+
+            <View style="@style/TCLGrayLine_V" />
+
+            <TextView
+                android:id="@+id/digit_2"
+                style="@style/TCLExchangeCalculator_Number"
+                android:layout_weight="1"
+                android:text="@string/digit_2" />
+
+            <View style="@style/TCLGrayLine_V" />
+
+            <TextView
+                android:id="@+id/digit_3"
+                style="@style/TCLExchangeCalculator_Number"
+                android:layout_weight="1"
+                android:text="@string/digit_3" />
+
+            <View style="@style/TCLGrayLine_V" />
+
+            <TextView
+                android:id="@+id/op_mul"
+                style="@style/TCLExchangeCalculator_Operator"
+                android:layout_weight="1"
+                android:text="@string/op_mul" />
+        </LinearLayout>
+
+        <View style="@style/TCLGrayLine_H" />
+
+        <LinearLayout
+            style="@style/ExchangeCalculator_Height"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/digit_0"
+                style="@style/TCLExchangeCalculator_Number"
+                android:layout_weight="1"
+                android:text="@string/digit_0" />
+
+            <View style="@style/TCLGrayLine_V" />
+
+            <TextView
+                android:id="@+id/dec_point"
+                style="@style/TCLExchangeCalculator_Number"
+                android:layout_weight="1"
+                android:text="@string/dec_point" />
+
+            <View style="@style/TCLGrayLine_V" />
+
+            <TextView
+                android:id="@+id/op_add"
+                style="@style/TCLExchangeCalculator_Operator"
+                android:layout_weight="1"
+                android:text="@string/op_add" />
+
+            <View style="@style/TCLGrayLine_V" />
+
+            <TextView
+                android:id="@+id/op_sub"
+                style="@style/TCLExchangeCalculator_Operator"
+                android:layout_weight="1"
+                android:text="@string/op_sub" />
+        </LinearLayout>
+
+        <View style="@style/TCLGrayLine_H" />
+    </LinearLayout>
+
+</LinearLayout>

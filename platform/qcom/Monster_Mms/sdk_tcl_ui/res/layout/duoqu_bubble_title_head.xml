@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/duoqu_code_head_layout"
+        android:layout_width="@dimen/duoqu_vertify_head_width"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/duoqu_title_head_min_height"
+        android:paddingEnd="@dimen/duoqu_title_head_padding"
+        android:paddingStart="@dimen/duoqu_title_head_padding" >
+
+        <ImageView
+            android:id="@+id/duoqu_code_head_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/duoqu_title_head_logo_height"
+            android:layout_centerVertical="true"
+             />
+
+        <TextView
+            android:id="@+id/duoqu_head_main_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="7dp"
+            android:layout_toEndOf="@id/duoqu_code_head_logo"
+            android:paddingTop="1dp"
+            android:includeFontPadding="false"
+            android:singleLine="true"
+            android:textColor="@color/duoqu_theme_color_4010"
+            android:textSize="@dimen/duoqu_title_head_title_size"
+        />
+
+        <LinearLayout
+            android:id="@+id/duoqu_head_list_select_linear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:id="@+id/duoqu_head_list_select"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxWidth="@dimen/duoqu_title_head_max_width"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:textColor="@color/duoqu_theme_color_4010"
+                android:textSize="@dimen/duoqu_title_head_number_text_size"
+                android:layout_marginTop="1dp"
+            />
+
+            <ImageView
+                android:id="@+id/duoqu_head_list_select_iction"
+                android:layout_width="@dimen/duoqu_title_head_select_icon_width"
+                android:layout_height="@dimen/duoqu_title_head_select_icon_height"
+                android:layout_marginLeft="1dp"
+            />
+        </LinearLayout>
+    </RelativeLayout>

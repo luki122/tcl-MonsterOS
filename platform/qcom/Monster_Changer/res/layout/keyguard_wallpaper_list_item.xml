@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mst.widget.SliderLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mst="http://schemas.android.com/apk/res/com.mst"
+    android:id="@+id/swipe_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    mst:dragEdge="right"
+    mst:dragMode="same_layer" >
+
+    <FrameLayout
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        android:background="@color/slide_delete_backgroud" >
+
+        <Button
+            android:id="@+id/keyguard_wallpaper_item_delete_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@android:color/transparent"
+            android:clickable="true"
+            android:text="@string/delete"
+            android:textColor="@android:color/white" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <include layout="@layout/keyguard_wallpaper_list_item_title" />
+
+        <include layout="@layout/keyguard_wallpaper_list_item_image" />
+    </LinearLayout>
+
+</mst.widget.SliderLayout>

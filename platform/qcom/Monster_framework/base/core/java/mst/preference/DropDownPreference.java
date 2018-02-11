@@ -1,0 +1,128 @@
+package mst.preference;
+
+import android.content.Context;
+import android.util.AttributeSet;
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
+import android.widget.MstSpinner;
+import android.widget.AdapterView.OnItemSelectedListener;
+import com.mst.R;
+
+/**
+ * A version of {@link ListPreference} that presents the options in a
+ * drop down menu rather than a dialog.
+ */
+public class DropDownPreference extends ListPreference {
+
+    private final Context mContext;
+    private final ArrayAdapter<String> mAdapter;
+
+    private MstSpinner mSpinner;
+
+    public DropDownPreference(Context context) {
+        this(context, null);
+    }
+
+    public DropDownPreference(Context context, AttributeSet attrs) {
+        this(context, attrs, R.attr.dropdownPreferenceStyle);
+    }
+
+    public DropDownPreference(Context context, AttributeSet attrs, int defStyle) {
+        this(context, attrs, defStyle, 0);
+    }
+
+    public DropDownPreference(Context context, AttributeSet attrs, int defStyleAttr,
+            int defStyleRes) {
+        super(context, attrs, defStyleAttr, defStyleRes);
+        mContext = context;
+        mAdapter = createAdapter();
+
+        updateEntries();
+    }
+
+    @Override
+    protected void onClick() {
+        mSpinner.performClick();
+    }
+
+    @Override
+    public void setEntries(CharSequence[] entries) {
+        super.setEntries(entries);
+        updateEntries();
+    }
+
+
+    /**
+     * By default, this class uses a simple {@link android.widget.ArrayAdapter}. But if you need
+     * a more complicated {@link android.widget.ArrayAdapter}, this method can be overriden to
+     * create a custom one.
+     * <p> Note: This method is called from the constructor. So, overriden methods will get called
+     * before any subclass initialization.
+     *
+     * @return The custom {@link android.widget.ArrayAdapter} that needs to be used with this class.
+     */
+    protected ArrayAdapter createAdapter() {
+        return new ArrayAdapter<>(mContext, com.mst.R.layout.simple_spinner_dropdown_item);
+    }
+
+    private void updateEntries() {
+        mAdapter.clear();
+        if (getEntries() != null) {
+            for (CharSequence c : getEntries()) {
+                mAdapter.add(c.toString());
+            }
+        }
+    }
+
+    public void setValueIndex(int index) {
+        setValue(getEntryValues()[index].toString());
+    }
+
+    /**
+     * @hide
+     */
+    public int findSpinnerIndexOfValue(String value) {
+        CharSequence[] entryValues = getEntryValues();
+        if (value != null && entryValues != null) {
+            for (int i = entryValues.length - 1; i >= 0; i--) {
+                if (entryValues[i].equals(value)) {
+                    return i;
+                }
+            }
+        }
+        return MstSpinner.INVALID_POSITION;
+    }
+
+    @Override
+    protected void notifyChanged() {
+        super.notifyChanged();
+        mAdapter.notifyDataSetChanged();
+    }
+
+    @Override
+    public void onBindView(View view) {
+        mSpinner = (MstSpinner) view.findViewById(R.id.spinner);
+        mSpinner.setAdapter(mAdapter);
+        mSpinner.setOnItemSelectedListener(mItemSelectedListener);
+        mSpinner.setSelection(findSpinnerIndexOfValue(getValue()));
+        super.onBindView(view);
+    }
+
+    private final OnItemSelectedListener mItemSelectedListener = new OnItemSelectedListener() {
+        @Override
+        public void onItemSelected(AdapterView<?> parent, View v, int position, long id) {
+            if (position >= 0) {
+                String value = getEntryValues()[position].toString();
+                if (!value.equals(getValue()) && callChangeListener(value)) {
+                    setValue(value);
+                }
+            }
+        }
+
+        @Override
+        public void onNothingSelected(AdapterView<?> parent) {
+            // noop
+        }
+    };
+}

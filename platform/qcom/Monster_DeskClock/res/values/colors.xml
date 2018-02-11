@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2015 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+
+    <color name="ampm_off">#ff404040</color>
+    <color name="ampm_on">#ffffffff</color>
+    <color name="time_text_color">#E6FFFFFF</color>
+    <color name="ampm_text_color_deskclock">#99FFFFFF</color>
+    <color name="screen_saver_color">#FF006688</color>
+    <color name="screen_saver_dim_color">#FF001634</color>
+    <color name="action_bar_button_text_color">#FFFFFF</color>
+    <color name="dialog_gray">#28ffffff</color>
+    <color name="pressed_state_color">#33999999</color>
+    <color name="black">#ff000000</color>
+    <color name="black_87p">#de000000</color>
+    <color name="black_54p">#8a000000</color>
+    <color name="black_16p">#28000000</color>
+    <color name="white">#ffffff</color>
+    <color name="white_69p">#B1FFFFFF</color>
+    <color name="blackish_selected">#0cffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="color_accent">#DA4336</color>
+    <color name="hairline">#28ffffff</color>
+    <color name="bright_foreground_light_disabled">#80000000</color>
+    <color name="clock_white">#fff1f1f1</color>
+    <color name="clock_gray">#5c000000</color>
+    <color name="default_background">#1A237E</color>
+    <color name="status_bar">#ffffff</color>
+    <color name="time_picker_gray">#212121</color>
+    <color name="roundRec_text_color">#60000000</color>
+    <color name="world_gray_text_color">#5c000000</color>
+
+    <!-- Values for custom notification -->
+    <color name="notif_text_grey">#9c9c9c</color>
+    <color name="control_highlight_color">#42ffffff</color>
+    <color name="notification_bg">#181818</color>
+    <color name="notification_icon_bg">#1C3742</color>
+    <color name="notification_pressed">#333333</color>
+    <color name="notification_divider">#272727</color>
+    <color name="tab_text_select_color">#DA4336</color>
+    <color name="tab_text_normal_color">#8c8c8c</color>
+    <color name="text_black">#333333</color>
+    <color name="text_gray">#888888</color>
+    <color name="text_gray_33">#33888888</color>
+    <color name="white_background">#eeeeee</color>
+    <color name="repeat_select_color">#DA4336</color>
+    <color name="gray_round">#eeeeee</color>
+    <color name="gray_line">#dbdbdb</color>
+    <color name="main_color">#f2f2f2</color>
+    <color name="clock_blue">#7782b3</color>
+    <color name="clock_text_green">#43ae5d</color>
+    <color name="clock_text_stop">#f24931</color>
+    <color name="alarm_clock_clolor">#db000000</color>
+    <color name="clock_lab_clolor">#8a000000</color>
+    <color name="picker_select_clolor">#ff9f5555</color>
+    <color name="picker_normal_clolor">#4d000000</color>
+    <color name="picker_min_clolor">#1f000000</color>
+    <color name="text_normal_black">#de000000</color>
+    <color name="text_normal_gray">#5c000000</color>
+    <color name="text_5c_gray">#5c000000</color>
+    <color name="text_b7_gray">#b7000000</color>
+    <color name="text_ok_color">#ff9f5555</color>
+    <color name="text_black_color_b8">#b8000000</color>
+    <color name="text_black_color_5c">#5c000000</color>
+    <color name="empty_alarm_bg_color">#fafafa</color>
+    <color name="text_red">#fff24931</color>
+    <color name="calculator_green_clolor">#4cb6ac</color>
+    <color name="currency_head">#bfc1c4</color>
+    <color name="mian_color_press_ripple">#cccccc</color>
+    <color name="clock_float_bt_color">#ff484848</color>
+    <color name="clock_red">#ffb23c3c</color>
+    <color name="clock_half_gray">#fff1f1f1</color>
+    <color name="text_black_color_db">#db000000</color>
+    <color name="color_dot_gray">#ffc0c0c0</color>
+    <color name="color_two_dot_gray">#ff888888</color>
+    <color name="alert_blue">#ff19a8ae</color>
+    <color name="text_black_66">#66000000</color>
+    
+</resources>

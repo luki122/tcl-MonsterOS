@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="actionbar_count_tip">已选择 <xliff:g id="total">%d</xliff:g> 项</string>
+	<string name="menu_view">查看详情</string>
+	<string name="menu_delete">删除本条纪录</string>
+    <string name="app_name">骚扰拦截</string>
+    <string name="action_settings">设置</string>
+    <string name="contact">从联系人添加</string>
+    <string name="phone">从通话记录添加</string>
+    <string name="sms">从短信列表添加</string>
+    <string name="manually">手动添加</string>
+    <string name="setting">设置</string>
+    <string name="intercept_phone">拦截来电</string>
+    <string name="intercept_sms">拦截短信</string>
+    <string name="select_all">全选</string>
+    <string name="deselect_all">反选</string>
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+    <string name="give_up">舍弃内容</string>
+    <string name="is_give_up">此黑名单未保存，退出编辑？</string>
+    <string name="reject">骚扰拦截</string>
+    <string name="refresh">刷新中，请稍候...</string>
+    <string name="black">黑名单</string>
+    <string name="no_black">无黑名单</string>
+    <string name="name">名称(选填)</string>
+    <string name="number">号码</string>
+    <string name="reject_sms">拦截垃圾短信</string>
+    <string name="reject_notification">拦截通知</string>
+    <string name="black_manage">黑名单管理</string>
+    <string name="mark_manage">来电标记词管理</string>
+    <string name="tab1">来电拦截</string>
+    <string name="tab2">短信拦截</string>
+    <string name="no_intercept">无拦截记录</string>
+    <string name="call_back">回电话</string>
+    <string name="sms_back">回短信</string>
+    <string name="no_reject">取消拦截</string>
+    <string name="release_reject">不再拦截</string>
+    <string name="marks_manage">标记词管理</string>
+    <string name="no_mark">无标记词</string>
+    <string name="edit">编辑</string>
+    <string name="del">删除</string>
+    <string name="del_mark">删除标记词</string>
+    <string name="is_confirm_del">对应的号码标记将被取消，确定删除此标记词吗？</string>
+    <string name="add_mark">新增标记词</string>
+    <string name="edit_mark">修改标记词</string>
+    <string name="black_call">打电话</string>
+    <string name="black_sms">发短信</string>
+    <string name="black_edit">编辑</string>
+    <string name="black_remove">移出黑名单</string>
+    <string name="confirm_remove">将此号码移出黑名单？</string>
+    <string name="confirm_removes">将所选的号码移出黑名单？</string>
+    <string name="recover_black_phone">同时恢复通话记录和信息</string>
+    <string name="black_number_exist">你所添加的黑名单号码已存在！</string>
+    <string name="mark_content_exist">你所添加的标记词已存在！</string>
+    <string name="recover_sms">恢复短信</string>
+    <string name="confirm_recover_sms">恢复选中的短信到收件箱？</string>
+    <string name="del_sms_record">删除记录</string>
+    <string name="confirm_del_sms_record">确定删除选中的短信拦截记录吗？</string>
+    <string name="del_phone_record">删除记录</string>
+    <string name="confirm_del_phone_record">确定删除选中的来电拦截记录吗？</string>
+    <string name="confirm_no_reject">不再拦截此号码？</string>
+    <string name="local_number">本地号码</string>
+    <string name="service_number">服务号码</string>
+    <string name="at_least_one"> 请至少勾选一项</string>
+    <string name="no_number"> 请输入号码</string> 
+    <string name="no_marks"> 请输入标记词</string>
+    <string name="no_content">请填写内容！</string>
+    <string name="no_sub">无主题</string>
+    <string name="mars">来自火星</string>
+    <string name="format">号码格式不对</string>
+    <string name="dels">正在删除...</string>
+    <string name="removing">正在移出...</string>
+    <string name="recovery">正在恢复...</string>
+    <string name="item">个</string>
+    <string name="no_calllog">无通话记录</string>
+    <string name="save_title">"正在保存"</string>
+    <string name="sogou_init_toast">正在初始化，请稍候重试</string>
+    <string name="select_more_toast">"选择上限100人，请减少勾选人数"</string>
+    <string name="mark_error">名称格式异常</string>
+    <string name="sim_one_black_call">SIM1呼叫</string>
+    <string name="sim_two_black_call">SIM2呼叫</string>
+    <string name="sys_auth_dlg_title">"使用骚扰拦截，需要允许以下权限"</string>
+    <string name="sys_auth_dlg_text">"• 读取联系人\n• 读取信息\n• 读取通话记录"</string>
+    <string name="sys_auth_dlg_no_more_prompt">"不再提示"</string>
+    <string name="exit">"退出"</string>
+
+    <string name="exit_confirm">"退出"</string>
+    <string name="del_confirm">"删除"</string>
+
+    <string name="remove_one_bn">"将此号码移出黑名单？"</string>
+    <string name="remove_multi_bn">"将所选的<xliff:g id="count">%d</xliff:g>个号码移出黑名单？"</string>
+    <string name="remove_all_bn">"将全部号码移出黑名单？"</string>
+    <string name="remove_confirm">"移出"</string>
+
+    <string name="remove_one_conv_bn">"删除此会话拦截记录？"</string>
+    <string name="remove_multi_conv_bn">"删除所选的<xliff:g id="count">%d</xliff:g>个会话拦截记录？"</string>
+    <string name="remove_all_conv_bn">"删除全部会话拦截记录？"</string>
+    <string name="remove_conv_confirm">"删除"</string>
+
+    <string name="resume_one_conv_bn">"恢复此会话拦截记录？"</string>
+    <string name="resume_multi_conv_bn">"恢复所选的<xliff:g id="count">%d</xliff:g>个会话拦截记录？"</string>
+    <string name="resume_all_conv_bn">"恢复全部会话拦截记录？"</string>
+    <string name="resume_conv_confirm">"恢复"</string>
+
+    <string name="remove_one_dial_bn">"删除此来电拦截记录？"</string>
+    <string name="remove_multi_dial_bn">"删除所选的<xliff:g id="count">%d</xliff:g>个来电拦截记录？"</string>
+    <string name="remove_all_dial_bn">"删除全部来电拦截记录？"</string>
+    <string name="remove_dial_confirm">"删除"</string>
+    <string name="selected_total_num">选中 <xliff:g id="total">%d</xliff:g> 项</string>
+    <!-- tangyisen -->
+    <string name="tab_phone_reject_title">"来电拦截"</string>
+    <string name="tab_sms_reject_title">"短信拦截"</string>
+    <string name="reject_title">"防打扰"</string>
+    <string name="settings_intelligent_reject_title">"智能拦截"</string>
+    <string name="settings_intelligent_reject_subtitle">"根据第三方库拦截垃圾短信"</string>
+    <string name="black_list_empty">"暂无黑名单"</string>
+    <string name="new_mark">新增标记词</string>
+    <string name="up_mark">标记将上传，帮助其他人识别号码</string>
+    <string name="add_to_black_over">已加入黑名单</string>
+    <string name="add_black_title">骚扰拦截</string>
+    <string name="add_black_content">点击可将 <xliff:g id="BLACK_NAME">%s</xliff:g> 加入黑名单</string>
+    <string name="hangup_black_many_content">有<xliff:g id="BLACK_TIMES">%s</xliff:g>条新的拦截记录，点击查看</string>
+
+    <string name="black_add_manually_discard_title">"舍弃内容"</string>
+    <string name="black_add_manually_discard_content">"内容已更改，确定舍弃吗？"</string>
+    <string name="black_remove_dialog_title">"确定将选中的号码移出黑名单吗？"</string>
+    <string name="black_remove_dialog_message">"确定将此号码移出黑名单吗？"</string>
+    <string name="recove_reject_record">"同时恢复拦截记录"</string>
+    <string name="delete_reject">"删除记录"</string>
+    <string name="delete_sms_reject_dialg_msg">"确定删除此短信拦截记录吗？"</string>
+    <string name="delete_calllog_reject_dialg_msg">"确定删除此来电拦截记录吗？"</string>
+    <string name="multi_delete_calllog_reject_dialg_msg">"确定删除选中的来电拦截记录吗？"</string>
+    <string name="multi_delete_sms_reject_dialg_msg">"确定删除选中的短信拦截记录吗？"</string>
+    <string name="multi_recover_sms_reject_dialg_msg">"确定将选中的拦截记录恢复到短信收件箱吗？"</string>
+    <string name="recover_sms_dlg_title">"恢复短信"</string>
+    <string name="no_reject_success_toast">取消拦截成功</string>
+</resources>

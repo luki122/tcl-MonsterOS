@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2011 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:minHeight="72dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:gravity="top"
+    android:columnCount="3"
+    android:duplicateParentState="true">
+
+    <mst.widget.CycleImageView
+			android:id="@android:id/icon"
+	        android:layout_width="40dp"
+	        android:layout_height="40dp"
+			android:layout_gravity="center"
+	        android:scaleType="fitXY"
+	        android:layout_marginEnd="16dip"
+	        android:contentDescription="@null"
+	        android:duplicateParentState="true" />
+    
+    <!-- <ImageView
+        android:id="@android:id/icon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:scaleType="fitXY"
+        android:layout_marginEnd="16dip"
+        android:contentDescription="@null"
+        android:duplicateParentState="true" /> -->
+
+    <TextView
+        android:id="@android:id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@android:id/icon"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+		android:gravity="center_vertical|start"
+		android:textAppearance="?android:attr/textAppearanceListItem"
+		android:textColor="?android:attr/textColorAlertDialogListItem" 
+        android:textAlignment="viewStart"
+        android:duplicateParentState="true" />
+
+    <TextView
+        android:id="@android:id/summary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="6dip"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:duplicateParentState="true" 
+		android:gravity="center_vertical|start"
+		android:textAppearance="?android:attr/textAppearanceListItemSecondary" />
+
+    <FrameLayout
+        android:id="@android:id/widget_frame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_toEndOf="@android:id/icon"
+        android:layout_below="@android:id/title"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="fill_horizontal|top"
+        android:duplicateParentState="true" />
+    
+    <Button
+        android:id="@+id/btn_kill"
+        android:layout_width="54dp"
+        android:layout_height="24dp"
+        android:paddingTop="0dp"
+        android:paddingBottom="0dp"
+        android:visibility="gone"
+        style="@style/ButtonStyle"
+        android:text="@string/service_stop"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true" />
+    
+    <RelativeLayout 
+        android:id="@+id/widget_frame2"
+	    android:layout_width="wrap_content"
+	    android:layout_height="match_parent"
+	    android:visibility="gone"
+	    android:layout_alignParentRight="true"
+	    android:layout_centerVertical="true" >
+        
+            <ImageView
+                android:id="@+id/right_arrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/right_img"
+                android:scaleType="centerInside" />
+            
+	        <TextView
+		        android:id="@+id/widget_text3"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_centerVertical="true"
+		        android:layout_toLeftOf="@id/right_arrow"
+		        android:layout_marginRight="10dp"
+		        android:layout_gravity="fill_horizontal|top"
+				android:textAppearance="?android:attr/textAppearanceListItemSecondary"
+		        android:textColor="?android:attr/textColorSecondary"
+		        android:textAlignment="viewStart"
+		        android:singleLine="true"
+		        android:ellipsize="marquee"
+		        android:duplicateParentState="true" />
+    </RelativeLayout>
+
+</RelativeLayout>

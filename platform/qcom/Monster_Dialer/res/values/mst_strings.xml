@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="test_name">李先生</string>
+    <string name="test_header">今天</string>
+    <string name="test_number">155 0759 2166</string>
+    <string name="test_area">广东 深圳</string>
+    <string name="test_time">1分钟前</string>
+
+<string name="mst_calllog_searchview_hint">搜索通话记录、联系人</string>
+
+<string name="test_note">朋友聚会认识的</string>
+ <string name="record_settings_label">通话录音</string>
+  <string name="no_music_activity">There is no Music app</string>
+  
+    <string name="confirm_remove">确定将此号码移出黑名单吗？</string>
+    <string name="recover_black_phone">同时恢复拦截记录</string>
+    <string name="add_number_mark">标记此号码为</string>
+    <string name="edit_number_mark">修改号码标记</string>
+    <string name="add_number_mark_menu">标记此号码</string>
+    <string name="add_to_black">"加入黑名单"</string>
+    <string name="remove_from_black">"移出黑名单"</string>
+    <string name="black_remove">移出黑名单</string>
+    <string name="reject_marks">"人标记"</string>
+    
+    <string name="slide_delete_calllog_title">"删除通话记录"</string>        
+    <string name="slide_delete_calllog_message">"确定要删除此号码所有通话记录吗？"</string>
+    <string name="reject_call_detail_title">来电拦截详情</string>
+</resources>

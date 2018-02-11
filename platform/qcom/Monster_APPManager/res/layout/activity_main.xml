@@ -1,0 +1,166 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.monster.appmanager.MainActivity" >
+
+    <LinearLayout
+        android:id="@+id/fullscreen_content_controls"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        android:orientation="vertical"
+        tools:ignore="UselessParent" >
+        
+<!--         <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/title_height"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:text="@string/app_manager"
+            android:textColor="@color/title_text_color"
+            android:textSize="@dimen/title_size" /> -->
+        <!--
+        <TextView
+            android:id="@+id/app_count"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:background="#33ffffff"
+            android:clickable="true"
+            android:gravity="center"
+            android:textColor="@color/app_count_text_color"
+            android:textSize="@dimen/app_count_text_size" />
+        -->
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+
+            <LinearLayout 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                >
+                
+	            <LinearLayout
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_gravity="center"
+	                android:orientation="horizontal" >
+	
+	                <ListView
+	                    android:id="@+id/baiwei"
+	                    android:layout_width="@dimen/number_width"
+	                    android:layout_height="@dimen/number_height"
+	                    android:divider="@null"
+	                    android:scrollbars="none" />
+	
+	                <ListView
+	                    android:id="@+id/shiwei"
+	                    android:layout_width="@dimen/number_width"
+	                    android:layout_height="@dimen/number_height"
+	                    android:divider="@null"
+	                    android:scrollbars="none" />
+	
+	                <ListView
+	                    android:id="@+id/gewei"
+	                    android:layout_width="@dimen/number_width"
+	                    android:layout_height="@dimen/number_height"
+	                    android:divider="@null"
+	                    android:scrollbars="none" />
+	                
+	                <TextView 
+	                    android:id="@+id/all_count"
+	                    style="@style/AppCountStyle"
+	                    android:visibility="gone"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:layout_gravity="bottom" />
+	            </LinearLayout>
+		        <TextView 
+		            android:id="@+id/all_count_below"
+		            android:textColor="@color/app_count_color"
+		            android:textSize="17sp"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_marginTop="6dp"
+		            android:text="@string/main_page_app_count"
+		            android:drawableRight="@drawable/home_arrow_right"
+		            android:layout_gravity="center_horizontal" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/app_count"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+		android:layout_margin="50dp"
+                android:clickable="true" />
+        </FrameLayout>
+        
+        <Button
+                android:id="@+id/one_key_scan"
+                android:layout_width="148dp"
+                android:layout_height="37dp"
+                android:layout_gravity="center"
+                android:text="@string/one_key_scan"
+                android:layout_marginBottom="6dp"
+                android:textSize="16sp" />
+        
+        <Space
+                android:layout_width="match_parent"
+                android:layout_height="165dp" />
+    </LinearLayout>
+    
+    <LinearLayout
+	    android:id="@+id/gallery_image_view_content"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="bottom"
+	    android:layout_marginBottom="71dp"
+	    android:orientation="vertical"
+	    android:visibility="gone" >
+	
+	    <FrameLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="88dp" >
+	
+	        <com.monster.appmanager.widget.HorizontalListView
+	            android:id="@+id/gallery_image_view"
+	            android:layout_width="match_parent"
+	            android:layout_height="@dimen/thumnail_default_height"
+	            android:layout_gravity="center_vertical"
+	            android:layout_marginBottom="10dp"
+	            android:layout_marginTop="10dp"
+	            android:clipToPadding="true" />
+			<com.monster.appmanager.widget.ScanParent
+			    android:clickable="true"
+			    android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:id="@+id/scan_img_parent"/>
+	    </FrameLayout>
+	    	
+	    <TextView
+	        android:id="@+id/scaning"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center_horizontal"
+	        android:layout_marginTop="47dp"
+	        android:layout_marginBottom="5dp"
+	        android:textColor="@color/scan_text_color"
+	        android:textSize="14sp"
+	        android:text="@string/scaning" />
+	</LinearLayout>
+
+    <TextView 
+        android:id="@+id/virus_app_count"
+        android:visibility="gone"
+        android:textColor="@color/app_count_color"
+        android:textSize="16sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="35dp"
+        android:layout_gravity="bottom|center_horizontal" />
+</FrameLayout>

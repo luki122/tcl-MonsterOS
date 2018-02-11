@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/place_call"
+        android:title="@string/call_back">
+    </item>
+     <item
+        android:id="@+id/send_sms"
+        android:title="@string/sms_back">
+    </item>
+    <item
+        android:id="@+id/remove_black"
+        android:title="@string/release_reject">
+    </item>
+    <!-- <item
+        android:id="@+id/view_call_detail"
+        android:title="@string/menu_view">
+    </item>
+    <item
+        android:id="@+id/delete_calllog"
+        android:title="@string/menu_delete">
+    </item> -->
+
+</menu>

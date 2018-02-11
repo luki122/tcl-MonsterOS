@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mst_contact_list_footer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="20dp"
+    android:paddingTop="20dp"
+    android:background="#FFFFFF"
+    android:gravity="center" >
+
+    <TextView
+        android:id="@+id/mst_contact_list_footer_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#7F2E2E2E"
+        android:textSize="14dp"
+        android:visibility="gone" />
+
+</LinearLayout>

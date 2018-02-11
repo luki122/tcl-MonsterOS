@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:background="@color/duoqu_white"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:id="@+id/pop_item_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:textColor="@color/duoqu_ui_menu_text"
+        android:textSize="13dp" />
+
+    <View
+        android:id="@+id/pop_item_line"
+        android:layout_width="match_parent"
+        android:layout_height="0.0005dip"
+        android:background="@color/duoqu_border_color" />
+
+</LinearLayout>

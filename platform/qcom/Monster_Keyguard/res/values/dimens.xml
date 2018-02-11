@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* //device/apps/common/assets/res/any/dimens.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources>
+
+    <!-- Size of the generic status lines keyguard's status view  -->
+    <dimen name="kg_status_line_font_size">16sp</dimen>
+	
+    <dimen name="kg_emergency_carrier_font_size">14sp</dimen>
+
+    <!-- Width of the sliding KeyguardSecurityContainer (includes 2x keyguard_security_view_margin) -->
+    <dimen name="keyguard_security_width">320dp</dimen>
+    
+    <dimen name="keyguard_security_max_width">320dp</dimen>
+
+    <!-- Height of the sliding KeyguardSecurityContainer (includes 2x keyguard_security_view_margin) -->
+    <dimen name="keyguard_security_height">500dp</dimen>
+
+    <!-- Max Height of the sliding KeyguardSecurityContainer (includes 2x keyguard_security_view_margin) -->
+    <dimen name="keyguard_security_max_height">500dp</dimen>
+
+    <!-- Margin around the various security views -->
+    <dimen name="keyguard_security_view_margin">8dp</dimen>
+
+    <!-- EmergencyCarrierArea overlap - amount to overlap the emergency button and carrier text.
+         Should be 0 on devices with plenty of room (e.g. tablets) -->
+    <dimen name="eca_overlap">-10dip</dimen>
+
+    <!-- Default clock parameters -->
+    <dimen name="bottom_text_spacing_digital">8dp</dimen>
+    <dimen name="top_text_spacing_digital">30dp</dimen>
+    <dimen name="widget_label_font_size">15sp</dimen>
+    <dimen name="widget_big_font_size">86dp</dimen>
+
+    <!-- The y translation to apply at the start in appear animations. -->
+    <dimen name="appear_y_translation_start">32dp</dimen>
+
+    <!-- The size of the dots in the PIN unlock method. -->
+    <dimen name="password_dot_size">9dp</dimen>
+
+    <!-- The padding between chars of the password view. -->
+    <dimen name="password_char_padding">8dp</dimen>
+
+    <!-- The vertical margin between the date and the owner info. -->
+    <dimen name="date_owner_info_margin">6dp</dimen>
+
+    <!-- The translation for disappearing security views after having solved them. -->
+    <dimen name="disappear_y_translation">-32dp</dimen>
+    
+    <!-- Mst: tangjun add for KeyguardDigitView begin-->
+     <dimen name="lock_pwd_digit_entry_width">222.0dip</dimen>
+    <dimen name="lock_pwd_digit_entry_height">51.0dip</dimen>
+    <dimen name="lock_pwd_digit_entry_margin_top">156.0dip</dimen>
+    <dimen name="lock_pwd_digit_entry_margin_left">69.0dip</dimen>
+    <dimen name="lock_pwd_digit_entry_text_size">24.0dip</dimen>
+    <dimen name="lock_pwd_digit_pwd_dot_icon_padding">9.5dip</dimen>
+    <!-- Mst: tangjun add for KeyguardDigitView end-->
+    
+    <!-- kth add for bouncer layout 20160902 begin-->
+    <dimen name="bouncer_control_margin_bottom">4.0dip</dimen>
+    <dimen name="bouncer_security_container_margin_bottom">20.0dip</dimen>
+    <dimen name="kg_message_area_padding_bottom">16.0dip</dimen>
+    <!-- kth add for bouncer layout 20160902 end-->
+
+    <!--TCL Monster: kth add for emc ripple 20161101-->
+    <dimen name="kg_emc_emergency_min_width">107.0dip</dimen>
+
+    <!--TCL Monster: kth add for relayout am pm 20161102-->
+    <dimen name="kg_status_am_pm_margin_left">6.0dp</dimen>
+    <dimen name="kg_carrier_text_size_normal">15sp</dimen>
+
+</resources>

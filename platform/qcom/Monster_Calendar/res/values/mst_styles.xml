@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="MstCalendarTheme" parent="@com.mst:style/Theme.Mst.Material.Light">
+        <item name="android:endYear">2036</item>
+        <item name="android:startYear">1970</item>
+    </style>
+
+    <style name="MstCalendarTheme.WithBackIcon" parent="@com.mst:style/Theme.Mst.Material.Light">
+        <!-- <item name="android:toolbarStyle">@style/ToolbarStyle</item> -->
+        <item name="com.mst:windowLayoutStyle">@style/WindowStyle.WithBackIcon</item>
+    </style>
+
+    <style name="ToolbarStyle" parent="com.mst:ToolbarStyle">
+        <item name="android:elevation">0dp</item>
+        <item name="android:paddingLeft">12dp</item>
+    </style>
+
+    <style name="WindowStyle.WithBackIcon" parent="com.mst:WindowStyle.Light">
+        <item name="com.mst:hasBackIcon">true</item>
+    </style>
+
+    <style name="TextAppearance.TextView_Title" parent="@com.mst:style/TextAppearance.Mst.Material.Body1">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#db000000</item>
+    </style>
+
+    <style name="TextAppearance.TextView_Summary" parent="@com.mst:style/TextAppearance.Mst.Material.Body1">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#66000000</item>
+    </style>
+
+    <style name="TextAppearance.MonthView_MstDayLabel" parent="@com.mst:style/TextAppearance.Mst.Material.Body1">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/month_header_text_color</item>
+    </style>
+
+    <style name="TextAppearance.EditEvent_Title" parent="TextAppearance.TextView_Title">
+        <item name="android:background">@android:color/white</item>
+        <item name="android:layout_marginRight">15dip</item>
+        <item name="android:layout_marginLeft">15dip</item>
+        <item name="android:padding">15dip</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColorHint">#66000000</item>
+    </style>
+
+</resources>

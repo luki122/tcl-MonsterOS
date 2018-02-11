@@ -1,0 +1,1038 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:androidprv="http://schemas.android.com/apk/prv/res/android"
+    coreApp="true"
+    package="com.monster.appmanager"
+    android:sharedUserId="android.uid.system"
+    android:versionCode="161121001"
+    android:versionName="v1.0.1.0204.1">
+
+    <!--  -->
+    <uses-sdk android:minSdkVersion="23" />
+
+    <original-package android:name="com.monster.appmanager" />
+
+    <uses-permission android:name="android.permission.WRITE_MEDIA_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
+    <uses-permission android:name="android.permission.DEVICE_POWER" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH_PRIVILEGED" />
+    <uses-permission android:name="android.permission.HARDWARE_TEST" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.MASTER_CLEAR" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="com.google.android.googleapps.permission.GOOGLE_AUTH" />
+    <uses-permission android:name="android.permission.ACCESS_DOWNLOAD_MANAGER" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIMAX_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIMAX_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="com.android.certinstaller.INSTALL_AS_USER" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CLEAR_APP_USER_DATA" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.MODIFY_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_APN_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_CHECKIN_PROPERTIES" />
+    <uses-permission android:name="android.permission.READ_USER_DICTIONARY" />
+    <uses-permission android:name="android.permission.WRITE_USER_DICTIONARY" />
+    <uses-permission android:name="android.permission.FORCE_STOP_PACKAGES" />
+    <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS" />
+    <uses-permission android:name="android.permission.BATTERY_STATS" />
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.MOVE_PACKAGE" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.BACKUP" />
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_SYNC_STATS" />
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.STATUS_BAR" />
+    <uses-permission android:name="android.permission.MANAGE_USB" />
+    <uses-permission android:name="android.permission.SET_POINTER_SPEED" />
+    <uses-permission android:name="android.permission.SET_KEYBOARD_LAYOUT" />
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL" />
+    <uses-permission android:name="android.permission.COPY_PROTECTED_DATA" />
+    <uses-permission android:name="android.permission.MANAGE_USERS" />
+    <uses-permission android:name="android.permission.MANAGE_PROFILE_AND_DEVICE_OWNERS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.CONFIGURE_WIFI_DISPLAY" />
+    <uses-permission android:name="android.permission.SET_TIME" />
+    <uses-permission android:name="android.permission.ACCESS_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.REBOOT" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.MANAGE_DEVICE_ADMINS" />
+    <uses-permission android:name="android.permission.READ_SEARCH_INDEXABLES" />
+    <uses-permission android:name="android.permission.OEM_UNLOCK_STATE" />
+    <uses-permission android:name="android.permission.OVERRIDE_WIFI_CONFIG" />
+    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+    <uses-permission android:name="android.permission.MANAGE_FINGERPRINT" />
+    <uses-permission android:name="android.permission.USER_ACTIVITY" />
+    <uses-permission android:name="android.permission.CHANGE_APP_IDLE_STATE" />
+    <uses-permission android:name="android.permission.PEERS_MAC_ADDRESS" />
+
+    <application
+        android:name=".AppManagerApplication"
+        android:allowBackup="false"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher_settings"
+        android:label="@string/app_manager"
+        android:requiredForAllUsers="true"
+        android:supportsRtl="true"
+        android:taskAffinity=""
+        android:theme="@style/Theme.Settings"
+        android:usesCleartextTraffic="true" >
+
+        <!-- Settings -->
+
+        <activity
+            android:name="com.monster.appmanager.Settings"
+            android:label="@string/settings_label_launcher"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.monster.appmanager" >
+        </activity>
+
+        <!-- Alias for launcher activity only, as this belongs to each profile. -->
+        <activity-alias
+            android:name="Settings"
+            android:label="@string/settings_label_launcher"
+            android:launchMode="singleTask"
+            android:targetActivity="Settings"
+            android:taskAffinity="com.monster.appmanager" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <!--
+                     <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                -->
+            </intent-filter>
+        </activity-alias>
+
+        <activity
+            android:name="com.monster.appmanager.SubSettings"
+            android:parentActivityName="Settings"
+            android:taskAffinity="com.monster.appmanager" >
+        </activity>
+        <activity
+            android:name="com.monster.appmanager.Settings$RunningservicesSettingsActivity"
+            android:label="@string/runningservices_settings_title"
+            android:taskAffinity="" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.QUICK_CLOCK" />
+
+                <category android:name="android.intent.category.VOICE_LAUNCH" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="com.monster.appmanager.FRAGMENT_CLASS"
+                android:value="com.monster.appmanager.RunningservicesSettings" />
+            <meta-data
+                android:name="com.monster.appmanager.PRIMARY_PROFILE_CONTROLLED"
+                android:value="true" />
+        </activity>
+        <activity
+            android:name="com.monster.appmanager.Settings$ZenModeSettingsActivity"
+            android:exported="true"
+            android:label="@string/zen_mode_settings_title"
+            android:taskAffinity="" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="com.monster.appmanager.SHORTCUT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="com.monster.appmanager.FRAGMENT_CLASS"
+                android:value="com.monster.appmanager.notification.ZenModeSettings" />
+            <meta-data
+                android:name="com.monster.appmanager.TOP_LEVEL_HEADER_ID"
+                android:resource="@id/notification_settings" />
+            <meta-data
+                android:name="com.monster.appmanager.PRIMARY_PROFILE_CONTROLLED"
+                android:value="true" />
+        </activity>
+        <activity
+            android:name="com.monster.appmanager.Settings$ZenModePrioritySettingsActivity"
+            android:exported="true"
+            android:label="@string/zen_mode_priority_settings_title"
+            android:taskAffinity="" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="com.monster.appmanager.SHORTCUT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="com.monster.appmanager.FRAGMENT_CLASS"
+                android:value="com.monster.appmanager.notification.ZenModePrioritySettings" />
+            <meta-data
+                android:name="com.monster.appmanager.TOP_LEVEL_HEADER_ID"
+                android:resource="@id/notification_settings" />
+            <meta-data
+                android:name="com.monster.appmanager.PRIMARY_PROFILE_CONTROLLED"
+                android:value="true" />
+        </activity>
+        <activity
+            android:name="com.monster.appmanager.Settings$ZenModeAutomationSettingsActivity"
+            android:exported="true"
+            android:label="@string/zen_mode_automation_settings_title"
+            android:taskAffinity="" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="com.monster.appmanager.SHORTCUT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="com.monster.appmanager.FRAGMENT_CLASS"
+                android:value="com.monster.appmanager.notification.ZenModeAutomationSettings" />
+            <meta-data
+                android:name="com.monster.appmanager.TOP_LEVEL_HEADER_ID"
+                android:resource="@id/notification_settings" />
+            <meta-data
+                android:name="com.monster.appmanager.PRIMARY_PROFILE_CONTROLLED"
+                android:value="true" />
+        </activity>
+        <activity
+            android:name="com.monster.appmanager.Settings$ZenModeScheduleRuleSettingsActivity"
+            android:exported="true"
+            android:taskAffinity="" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="com.monster.appmanager.FRAGMENT_CLASS"
+                android:value="com.monster.appmanager.notification.ZenModeScheduleRuleSettings" />
+            <meta-data
+                android:name="com.monster.appmanager.TOP_LEVEL_HEADER_ID"
+                android:resource="@id/notification_settings" />
+            <meta-data
+                android:name="com.monster.appmanager.PRIMARY_PROFILE_CONTROLLED"
+                android:value="true" />
+        </activity>
+        <activity
+            android:name="com.monster.appmanager.Settings$ZenModeEventRuleSettingsActivity"
+            android:exported="true"
+            android:taskAffinity="" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="com.monster.appmanager.FRAGMENT_CLASS"
+                android:value="com.monster.appmanager.notification.ZenModeEventRuleSettings" />
+            <meta-data
+                android:name="com.monster.appmanager.TOP_LEVEL_HEADER_ID"
+                android:resource="@id/notification_settings" />
+            <meta-data
+                android:name="com.monster.appmanager.PRIMARY_PROFILE_CONTROLLED"
+                android:value="true" />
+        </activity>
+        <activity
+            android:name="com.monster.appmanager.Settings$ZenModeExternalRuleSettingsActivity"
+            android:exported="true"
+            android:taskAffinity="" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="com.monster.appmanager.FRAGMENT_CLASS"
+                android:value="com.monster.appmanager.notification.ZenModeExternalRuleSettings" />
+            <meta-data
+                android:name="com.monster.appmanager.TOP_LEVEL_HEADER_ID"
+                android:resource="@id/notification_settings" />
+            <meta-data
+                android:name="com.monster.appmanager.PRIMARY_PROFILE_CONTROLLED"
+                android:value="true" />
+        </activity>
+        <activity
+            android:name="com.monster.appmanager.Settings$ManageApplicationsActivity"
+            android:label="@string/applications_settings"
+            android:taskAffinity="" >
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_APP_LIST" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.VOICE_LAUNCH" />
+                <category android:name="com.monster.appmanager.SHORTCUT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="com.monster.appmanager.FRAGMENT_CLASS"
+                android:value="com.monster.appmanager.applications.ManageApplications" />
+            <meta-data
+                android:name="com.monster.appmanager.TOP_LEVEL_HEADER_ID"
+                android:resource="@id/application_settings" />
+            <meta-data
+                android:name="com.monster.appmanager.PRIMARY_PROFILE_CONTROLLED"
+                android:value="true" />
+        </activity>
+        <activity
+            android:name="com.monster.appmanager.Settings$MemorySettingsActivity"
+            android:label="@string/memory_settings_title"
+            android:taskAffinity="" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.monster.appmanager.SHORTCUT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="com.monster.appmanager.FRAGMENT_CLASS"
+                android:value="com.monster.appmanager.applications.ProcessStatsSummary" />
+            <meta-data
+                android:name="com.monster.appmanager.TOP_LEVEL_HEADER_ID"
+                android:resource="@id/manage_memory" />
+        </activity>
+        <activity
+            android:name="com.monster.appmanager.Settings$AllApplicationsActivity"
+            android:label="@string/applications_settings"
+            android:taskAffinity="" >
+            <meta-data
+                android:name="com.monster.appmanager.FRAGMENT_CLASS"
+                android:value="com.monster.appmanager.applications.ManageApplications" />
+            <meta-data
+                android:name="com.monster.appmanager.TOP_LEVEL_HEADER_ID"
+                android:resource="@id/application_settings" />
+            <meta-data
+                android:name="com.monster.appmanager.PRIMARY_PROFILE_CONTROLLED"
+                android:value="true" />
+        </activity>
+        <activity
+            android:name="com.monster.appmanager.Settings$ManagePermissionsActivity"
+            android:label="@string/permissions_title"
+            android:taskAffinity="" >
+
+            <meta-data
+                android:name="com.monster.appmanager.FRAGMENT_CLASS"
+                android:value="com.monster.appmanager.applications.ManageApplications" />
+            <meta-data
+                android:name="com.monster.appmanager.TOP_LEVEL_HEADER_ID"
+                android:resource="@id/permissions_settings" />
+            <meta-data
+                android:name="com.monster.appmanager.PRIMARY_PROFILE_CONTROLLED"
+                android:value="true" />
+        </activity>
+        <activity
+            android:name="com.monster.appmanager.Settings$HighPowerApplicationsActivity"
+            android:label="@string/high_power_apps"
+            android:taskAffinity="" >
+            <meta-data
+                android:name="com.monster.appmanager.FRAGMENT_CLASS"
+                android:value="com.monster.appmanager.applications.ManageApplications" />
+            <meta-data
+                android:name="com.monster.appmanager.PRIMARY_PROFILE_CONTROLLED"
+                android:value="true" />
+        </activity>
+        <activity
+            android:name="com.monster.appmanager.fuelgauge.RequestIgnoreBatteryOptimizations"
+            android:label="@string/high_power_apps"
+            android:taskAffinity=""
+            android:theme="@*android:style/Theme.Material.Light.Dialog.Alert" >
+        </activity>
+
+        <!-- Keep compatibility with old shortcuts. -->
+        <activity-alias
+            android:name=".applications.ManageApplications"
+            android:exported="true"
+            android:label="@string/applications_settings"
+            android:targetActivity="Settings$ManageApplicationsActivity" >
+            <meta-data
+                android:name="com.monster.appmanager.FRAGMENT_CLASS"
+                android:value="com.monster.appmanager.applications.ManageApplications" />
+            <meta-data
+                android:name="com.monster.appmanager.TOP_LEVEL_HEADER_ID"
+                android:resource="@id/application_settings" />
+        </activity-alias>
+
+        <!-- Keep compatibility with old shortcuts. Pre-gingerbread. -->
+        <activity-alias
+            android:name=".ManageApplications"
+            android:exported="true"
+            android:label="@string/manageapplications_settings_title"
+            android:targetActivity="Settings$ManageApplicationsActivity" >
+        </activity-alias>
+
+        <!--
+             Provide direct entry into manage apps showing running services.
+             This is for compatibility with old shortcuts.
+        -->
+        <activity-alias
+            android:name=".RunningServices"
+            android:exported="true"
+            android:label="@string/runningservices_settings_title"
+            android:targetActivity="Settings$ManageApplicationsActivity" >
+            <meta-data
+                android:name="com.monster.appmanager.FRAGMENT_CLASS"
+                android:value="com.monster.appmanager.applications.ManageApplications" />
+            <meta-data
+                android:name="com.monster.appmanager.TOP_LEVEL_HEADER_ID"
+                android:resource="@id/application_settings" />
+        </activity-alias>
+
+        <!--
+             Provide direct entry into manage apps showing storage usage for apps.
+             This is for compatibility with old shortcuts.
+        -->
+        <activity-alias
+            android:name=".applications.StorageUse"
+            android:exported="true"
+            android:label="@string/storageuse_settings_title"
+            android:targetActivity="Settings$ManageApplicationsActivity" >
+            <meta-data
+                android:name="com.monster.appmanager.FRAGMENT_CLASS"
+                android:value="com.monster.appmanager.applications.ManageApplications" />
+            <meta-data
+                android:name="com.monster.appmanager.TOP_LEVEL_HEADER_ID"
+                android:resource="@id/application_settings" />
+        </activity-alias>
+
+        <!--
+             Still need a top-level activity for showing app details.  Aliasing
+             trick is so the code that is now a fragment can still be called
+             InstalledAppDetails.
+        -->
+        <activity
+            android:name="com.monster.appmanager.applications.InstalledAppDetailsTop"
+            android:exported="true"
+            android:label="@string/application_info_label"
+            android:parentActivityName="Settings$ManageApplicationsActivity"
+            android:taskAffinity="" >
+        </activity>
+
+        <!-- Keep compatibility with old shortcuts. -->
+        <activity-alias
+            android:name=".applications.InstalledAppDetails"
+            android:exported="true"
+            android:label="@string/application_info_label"
+            android:targetActivity=".applications.InstalledAppDetailsTop" >
+            <intent-filter android:priority="1" >
+                <action android:name="com.monster.appmanager.APPLICATION_DETAILS_SETTINGS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </activity-alias>
+
+        <!-- Provide direct entry into manage apps showing running services. -->
+        <activity
+            android:name="com.monster.appmanager.Settings$RunningServicesActivity"
+            android:label="@string/runningservices_settings_title"
+            android:parentActivityName="Settings"
+            android:taskAffinity="com.monster.appmanager" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.MONKEY" />
+                <category android:name="android.intent.category.VOICE_LAUNCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="com.monster.appmanager.FRAGMENT_CLASS"
+                android:value="com.monster.appmanager.applications.ManageApplications" />
+            <meta-data
+                android:name="com.monster.appmanager.TOP_LEVEL_HEADER_ID"
+                android:resource="@id/application_settings" />
+            <meta-data
+                android:name="com.monster.appmanager.PRIMARY_PROFILE_CONTROLLED"
+                android:value="true" />
+        </activity>
+
+        <!-- Provide direct entry into manage apps showing storage usage of apps. -->
+        <activity
+            android:name="com.monster.appmanager.Settings$StorageUseActivity"
+            android:label="@string/storageuse_settings_title"
+            android:parentActivityName="Settings"
+            android:taskAffinity="" >
+<!--             <intent-filter android:priority="1" >
+                <action android:name="android.intent.action.MANAGE_PACKAGE_STORAGE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter> -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.MONKEY" />
+                <category android:name="android.intent.category.VOICE_LAUNCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="com.monster.appmanager.FRAGMENT_CLASS"
+                android:value="com.monster.appmanager.applications.ManageApplications" />
+            <meta-data
+                android:name="com.monster.appmanager.TOP_LEVEL_HEADER_ID"
+                android:resource="@id/application_settings" />
+            <meta-data
+                android:name="com.monster.appmanager.PRIMARY_PROFILE_CONTROLLED"
+                android:value="true" />
+        </activity>
+        <activity
+            android:name="com.monster.appmanager.Settings$NotificationStationActivity"
+            android:label="@string/notification_log_title"
+            android:taskAffinity=""
+            android:theme="@style/Theme.NotificationStation" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="com.monster.appmanager.SHORTCUT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="com.monster.appmanager.FRAGMENT_CLASS"
+                android:value="com.monster.appmanager.notification.NotificationStation" />
+        </activity>
+        <activity
+            android:name="com.monster.appmanager.notification.ZenModeVoiceActivity"
+            android:label="@string/zen_mode_settings_title"
+            android:theme="@android:style/Theme.Material.Light.Dialog.NoActionBar" >
+        </activity>
+        <activity
+            android:name="Settings$AppOpsSummaryActivity"
+            android:enabled="true"
+            android:label="@string/app_ops_settings"
+            android:taskAffinity="" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.VOICE_LAUNCH" />
+                <category android:name="com.monster.appmanager.SHORTCUT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="com.monster.appmanager.FRAGMENT_CLASS"
+                android:value="com.monster.appmanager.applications.AppOpsSummary" />
+            <meta-data
+                android:name="com.monster.appmanager.TOP_LEVEL_HEADER_ID"
+                android:resource="@id/application_settings" />
+        </activity>
+        <activity
+            android:name="com.monster.appmanager.notification.RedactionSettingsStandalone"
+            android:exported="true" >
+        </activity>
+
+        <!-- Runs in the phone process since it needs access to the Phone object -->
+        <activity
+            android:name="com.monster.appmanager.Settings$StorageSettingsActivity"
+            android:label="@string/storage_settings_title"
+            android:parentActivityName="Settings"
+            android:taskAffinity="com.monster.appmanager" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.VOICE_LAUNCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="com.monster.appmanager.FRAGMENT_CLASS"
+                android:value="com.monster.appmanager.deviceinfo.StorageSettings" />
+            <meta-data
+                android:name="com.monster.appmanager.TOP_LEVEL_HEADER_ID"
+                android:resource="@id/storage_settings" />
+            <meta-data
+                android:name="com.monster.appmanager.PRIMARY_PROFILE_CONTROLLED"
+                android:value="true" />
+        </activity>
+        <activity
+            android:name="com.monster.appmanager.Settings$ManageDefaultAppsActivity"
+            android:label="@string/default_apps_title"
+            android:parentActivityName="Settings"
+            android:taskAffinity="com.monster.appmanager" >
+            <meta-data
+                android:name="com.monster.appmanager.FRAGMENT_CLASS"
+                android:value="com.monster.appmanager.applications.ManageDefaultApps" />
+            <meta-data
+                android:name="com.monster.appmanager.TOP_LEVEL_HEADER_ID"
+                android:resource="@id/default_app_settings" />
+        </activity>
+        <activity
+            android:name="com.monster.appmanager.Settings$PrivateVolumeSettingsActivity"
+            android:label="@string/storage_settings_title"
+            android:parentActivityName="Settings$StorageSettingsActivity"
+            android:taskAffinity="com.monster.appmanager" >
+            <meta-data
+                android:name="com.monster.appmanager.FRAGMENT_CLASS"
+                android:value="com.monster.appmanager.deviceinfo.PrivateVolumeSettings" />
+            <meta-data
+                android:name="com.monster.appmanager.TOP_LEVEL_HEADER_ID"
+                android:resource="@id/storage_settings" />
+        </activity>
+        <activity
+            android:name="com.monster.appmanager.Settings$HomeSettingsActivity"
+            android:label="@string/home_settings"
+            android:taskAffinity="" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.VOICE_LAUNCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="com.monster.appmanager.FRAGMENT_CLASS"
+                android:value="com.monster.appmanager.HomeSettings" />
+            <meta-data
+                android:name="com.monster.appmanager.TOP_LEVEL_HEADER_ID"
+                android:resource="@id/home_settings" />
+            <meta-data
+                android:name="com.monster.appmanager.PRIMARY_PROFILE_CONTROLLED"
+                android:value="true" />
+        </activity>
+        <activity
+            android:name="com.monster.appmanager.Settings$PublicVolumeSettingsActivity"
+            android:label="@string/storage_settings_title"
+            android:parentActivityName="Settings$StorageSettingsActivity"
+            android:taskAffinity="com.monster.appmanager" >
+            <intent-filter>
+                <action android:name="android.provider.action.DOCUMENT_ROOT_SETTINGS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data
+                    android:host="com.android.externalstorage.documents"
+                    android:mimeType="vnd.android.document/root"
+                    android:scheme="content" />
+            </intent-filter>
+
+            <meta-data
+                android:name="com.monster.appmanager.FRAGMENT_CLASS"
+                android:value="com.monster.appmanager.deviceinfo.PublicVolumeSettings" />
+            <meta-data
+                android:name="com.monster.appmanager.TOP_LEVEL_HEADER_ID"
+                android:resource="@id/storage_settings" />
+        </activity>
+        <activity
+            android:name="com.monster.appmanager.Settings$PrivateVolumeForgetActivity"
+            android:exported="true"
+            android:label="@string/storage_settings_title"
+            android:parentActivityName="Settings$StorageSettingsActivity"
+            android:permission="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
+            android:taskAffinity="com.monster.appmanager" >
+            <meta-data
+                android:name="com.monster.appmanager.FRAGMENT_CLASS"
+                android:value="com.monster.appmanager.deviceinfo.PrivateVolumeForget" />
+            <meta-data
+                android:name="com.monster.appmanager.TOP_LEVEL_HEADER_ID"
+                android:resource="@id/storage_settings" />
+        </activity>
+
+        <!-- Exported for SystemUI to launch into -->
+        <activity
+            android:name="com.monster.appmanager.deviceinfo.StorageWizardInit"
+            android:exported="true"
+            android:permission="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
+            android:taskAffinity="com.monster.appmanager.storage_wizard"
+            android:theme="@style/SuwThemeMaterial.Light" />
+        <activity
+            android:name="com.monster.appmanager.deviceinfo.StorageWizardFormatConfirm"
+            android:exported="false"
+            android:taskAffinity="com.monster.appmanager.storage_wizard" />
+        <activity
+            android:name="com.monster.appmanager.deviceinfo.StorageWizardFormatProgress"
+            android:exported="false"
+            android:taskAffinity="com.monster.appmanager.storage_wizard" />
+        <activity
+            android:name="com.monster.appmanager.deviceinfo.StorageWizardMigrate"
+            android:exported="false"
+            android:taskAffinity="com.monster.appmanager.storage_wizard" />
+        <activity
+            android:name="com.monster.appmanager.deviceinfo.StorageWizardMigrateConfirm"
+            android:exported="false"
+            android:taskAffinity="com.monster.appmanager.storage_wizard" />
+        <activity
+            android:name="com.monster.appmanager.deviceinfo.StorageWizardMigrateProgress"
+            android:exported="true"
+            android:permission="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
+            android:taskAffinity="com.monster.appmanager.storage_wizard" />
+        <activity
+            android:name="com.monster.appmanager.deviceinfo.StorageWizardReady"
+            android:exported="true"
+            android:permission="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
+            android:taskAffinity="com.monster.appmanager.storage_wizard" />
+        <activity
+            android:name="com.monster.appmanager.deviceinfo.StorageWizardMoveConfirm"
+            android:exported="false"
+            android:taskAffinity="com.monster.appmanager.storage_wizard" />
+        <activity
+            android:name="com.monster.appmanager.deviceinfo.StorageWizardMoveProgress"
+            android:exported="true"
+            android:permission="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
+            android:taskAffinity="com.monster.appmanager.storage_wizard" />
+
+        <!-- Exported for SystemUI to trigger -->
+        <receiver
+            android:name="com.monster.appmanager.deviceinfo.StorageUnmountReceiver"
+            android:exported="true"
+            android:permission="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+
+        <activity
+            android:name="com.monster.appmanager.UsageStatsActivity"
+            android:label="@string/usage_stats_label"
+            android:parentActivityName="Settings"
+            android:taskAffinity="com.monster.appmanager" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEVELOPMENT_PREFERENCE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.monster.appmanager.Settings$PowerUsageSummaryActivity"
+            android:label="@string/power_usage_summary_title"
+            android:taskAffinity="" >
+            <intent-filter android:priority="1" >
+                <action android:name="android.intent.action.POWER_USAGE_SUMMARY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="com.monster.appmanager.SHORTCUT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="com.monster.appmanager.FRAGMENT_CLASS"
+                android:value="com.monster.appmanager.fuelgauge.PowerUsageSummary" />
+            <meta-data
+                android:name="com.monster.appmanager.TOP_LEVEL_HEADER_ID"
+                android:resource="@id/battery_settings" />
+        </activity>
+
+        <!-- Keep compatibility with old shortcuts. -->
+        <activity-alias
+            android:name=".fuelgauge.PowerUsageSummary"
+            android:exported="true"
+            android:label="@string/power_usage_summary_title"
+            android:targetActivity="Settings$PowerUsageSummaryActivity" >
+            <meta-data
+                android:name="com.monster.appmanager.FRAGMENT_CLASS"
+                android:value="com.monster.appmanager.fuelgauge.PowerUsageSummary" />
+            <meta-data
+                android:name="com.monster.appmanager.TOP_LEVEL_HEADER_ID"
+                android:resource="@id/battery_settings" />
+        </activity-alias>
+
+        <activity
+            android:name="com.monster.appmanager.Settings$BatterySaverSettingsActivity"
+            android:label="@string/battery_saver"
+            android:taskAffinity="" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="com.monster.appmanager.SHORTCUT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="com.monster.appmanager.FRAGMENT_CLASS"
+                android:value="com.monster.appmanager.fuelgauge.BatterySaverSettings" />
+            <meta-data
+                android:name="com.monster.appmanager.TOP_LEVEL_HEADER_ID"
+                android:resource="@id/battery_settings" />
+            <meta-data
+                android:name="com.monster.appmanager.PRIMARY_PROFILE_CONTROLLED"
+                android:value="true" />
+        </activity>
+        <activity
+            android:name="com.monster.appmanager.fuelgauge.BatterySaverModeVoiceActivity"
+            android:exported="true"
+            android:label="@string/power_usage_summary_title"
+            android:theme="@android:style/Theme.Material.Light.Voice" >
+        </activity>
+        <activity
+            android:name="com.monster.appmanager.Settings$DataUsageSummaryActivity"
+            android:label="@string/data_usage_summary_title"
+            android:taskAffinity="" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="com.monster.appmanager.SHORTCUT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="com.monster.appmanager.FRAGMENT_CLASS"
+                android:value="com.monster.appmanager.DataUsageSummary" />
+        </activity>
+        <activity
+            android:name="com.monster.appmanager.SmsDefaultDialog"
+            android:excludeFromRecents="true"
+            android:label="@string/sms_application_title"
+            android:theme="@*android:style/Theme.Material.Light.Dialog.Alert" >
+<!--             <intent-filter android:priority="1" >
+                <action android:name="android.provider.Telephony.ACTION_CHANGE_DEFAULT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter> -->
+        </activity>
+        <activity
+            android:name="com.monster.appmanager.Settings$NotificationAccessSettingsActivity"
+            android:label="@string/manage_notification_access_title"
+            android:taskAffinity="" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="com.monster.appmanager.FRAGMENT_CLASS"
+                android:value="com.monster.appmanager.notification.NotificationAccessSettings" />
+            <meta-data
+                android:name="com.monster.appmanager.TOP_LEVEL_HEADER_ID"
+                android:resource="@id/notification_settings" />
+        </activity>
+        <activity
+            android:name="com.monster.appmanager.Settings$ZenAccessSettingsActivity"
+            android:label="@string/manage_zen_access_title"
+            android:taskAffinity="" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="com.monster.appmanager.FRAGMENT_CLASS"
+                android:value="com.monster.appmanager.notification.ZenAccessSettings" />
+            <meta-data
+                android:name="com.monster.appmanager.TOP_LEVEL_HEADER_ID"
+                android:resource="@id/notification_settings" />
+        </activity>
+        <activity
+            android:name="com.monster.appmanager.Settings$NotificationSettingsActivity"
+            android:exported="true"
+            android:label="@string/notification_settings"
+            android:taskAffinity="" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="com.monster.appmanager.SHORTCUT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="com.monster.appmanager.FRAGMENT_CLASS"
+                android:value="com.monster.appmanager.notification.NotificationSettings" />
+            <meta-data
+                android:name="com.monster.appmanager.TOP_LEVEL_HEADER_ID"
+                android:resource="@id/notification_settings" />
+            <meta-data
+                android:name="com.monster.appmanager.PRIMARY_PROFILE_CONTROLLED"
+                android:value="true" />
+        </activity>
+
+        <!-- Show apps for which application-level notification settings are applicable -->
+        <activity
+            android:name="com.monster.appmanager.Settings$NotificationAppListActivity"
+            android:exported="true"
+            android:label="@string/app_notifications_title"
+            android:taskAffinity="" >
+            <meta-data
+                android:name="com.monster.appmanager.FRAGMENT_CLASS"
+                android:value="com.monster.appmanager.applications.ManageApplications" />
+            <meta-data
+                android:name="com.monster.appmanager.TOP_LEVEL_HEADER_ID"
+                android:resource="@id/notification_settings" />
+        </activity>
+
+        <!-- Show application-level notification settings (app passed in as extras) -->
+        <activity
+            android:name="com.monster.appmanager.Settings$AppNotificationSettingsActivity"
+            android:exported="true"
+            android:label="@string/app_notifications_title" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="com.monster.appmanager.FRAGMENT_CLASS"
+                android:value="com.monster.appmanager.notification.AppNotificationSettings" />
+            <meta-data
+                android:name="com.monster.appmanager.TOP_LEVEL_HEADER_ID"
+                android:resource="@id/notification_settings" />
+        </activity>
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.monster.appmanager.files"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <activity
+            android:name="com.monster.appmanager.Settings$OverlaySettingsActivity"
+            android:label="@string/draw_overlay_title"
+            android:taskAffinity="" >
+            <meta-data
+                android:name="com.monster.appmanager.FRAGMENT_CLASS"
+                android:value="com.monster.appmanager.applications.ManageApplications" />
+        </activity>
+        <activity
+            android:name="com.monster.appmanager.Settings$AppDrawOverlaySettingsActivity"
+            android:label="@string/draw_overlay_title"
+            android:taskAffinity="" >
+            <intent-filter android:priority="1" >
+                <action android:name="com.monster.appmanager.MANAGE_OVERLAY_PERMISSION" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+
+            <meta-data
+                android:name="com.monster.appmanager.FRAGMENT_CLASS"
+                android:value="com.monster.appmanager.applications.DrawOverlayDetails" />
+        </activity>
+        <activity
+            android:name="com.monster.appmanager.Settings$WriteSettingsActivity"
+            android:label="@string/write_settings_title"
+            android:taskAffinity="" >
+
+            <meta-data
+                android:name="com.monster.appmanager.FRAGMENT_CLASS"
+                android:value="com.monster.appmanager.applications.ManageApplications" />
+        </activity>
+        <activity
+            android:name="com.monster.appmanager.Settings$AppWriteSettingsActivity"
+            android:label="@string/write_settings_title"
+            android:taskAffinity="" >
+
+            <meta-data
+                android:name="com.monster.appmanager.FRAGMENT_CLASS"
+                android:value="com.monster.appmanager.applications.WriteSettingsDetails" />
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_manager"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".virusscan.VirusScanMain"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/advertising_interception"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".virusscan.ScannerActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/virus_scan"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".virusscan.VirusInfoActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/virus_info"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".virusscan.MainScanResultActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_manager"
+            android:screenOrientation="portrait">
+        </activity>
+        
+        <activity
+            android:name=".virusscan.AdScanningActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/advertising_interception"
+            android:screenOrientation="portrait">
+        </activity>
+        
+        <activity
+            android:name=".virusscan.OptimizeResultActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_manager"
+            android:screenOrientation="portrait">
+        </activity>
+        
+        <!-- 必须定义一个继承自TMSService的Service -->
+        <service android:name=".SecureService" />
+
+        <!-- 必须定义一个继承自TMSBootReceiver的BroadcastReceiver，并定义捕获开机事件 -->
+        <receiver android:name=".TmsBootReceiver" >
+            <intent-filter android:priority="2147483647" >
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <receiver android:name="com.monster.appmanager.virusscan.AppUnInstalledReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+        
+        <provider
+            android:name="com.monster.appmanager.db.MulwareProvider"
+            android:authorities="com.monster.appmanager.db.MulwareProvider" />
+        
+        
+        <activity android:name="com.monster.permission.ui.ManagePermissionsInfoActivity"
+                  android:configChanges="orientation|keyboardHidden|screenSize"
+                  android:excludeFromRecents="true"
+                  android:label="@string/app_permissions"
+                  android:permission="android.permission.GRANT_RUNTIME_PERMISSIONS">
+              	<intent-filter>
+                <action android:name="android.permission.action.MANAGE_PERMISSIONS" />
+                <action android:name="android.permission.action.MANAGE_APP_PERMISSIONS" />
+                <action android:name="android.permission.action.MANAGE_PERMISSION_APPS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.monster.permission.ui.OverlayWarningDialog"
+                android:excludeFromRecents="true" />
+    </application>
+
+</manifest>

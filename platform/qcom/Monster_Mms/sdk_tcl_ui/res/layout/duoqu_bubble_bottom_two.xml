@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.com.xy.sms.sdk.ui.popu.widget.DuoquRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:duoqu="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/duoqu_bubble_bottom_two"
+    android:layout_width="@dimen/duoqu_ui_part_bubble_bottom_with"
+    android:layout_height="@dimen/duoqu_ui_part_bubble_bottom_height"
+    android:padding="@dimen/duoqu_ui_part_bubble_bottom_padding"
+    android:layout_centerHorizontal="true"
+    android:layout_gravity="center_horizontal|bottom"
+    android:gravity="center_horizontal" 
+    android:orientation="horizontal"
+    android:minHeight="@dimen/duoqu_ui_part_bubble_bottom_minheight"  >
+
+    <View
+        android:id="@+id/duoqu_bottom_split_line"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:background="@color/duoqu_split_line_bg" />
+ 
+    <ImageView
+        android:id="@+id/duoqu_btn_split_line"
+        android:layout_width="@dimen/duoqu_ui_part_bubble_bottom_img_width"
+        android:layout_height="@dimen/duoqu_ui_part_bubble_bottom_img_height"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@color/duoqu_split_line_bg"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/duoqu_btn_2"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bubble_ui_part_bottom_two_height"
+        android:layout_below="@+id/duoqu_bottom_split_line"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/duoqu_btn_split_line"
+        android:gravity="center_vertical"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/duoqu_btn_text_2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/duoqu_theme_color_3010"
+            android:textSize="@dimen/duoqu_ui_part_bubble_bottom_right_size" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/duoqu_btn_1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bubble_ui_part_bottom_two_height"
+        android:layout_below="@+id/duoqu_bottom_split_line"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/duoqu_btn_split_line"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/duoqu_btn_text_1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/duoqu_theme_color_3010"
+            android:textSize="@dimen/duoqu_ui_part_bubble_bottom_left_size" />
+    </RelativeLayout>
+
+</cn.com.xy.sms.sdk.ui.popu.widget.DuoquRelativeLayout>

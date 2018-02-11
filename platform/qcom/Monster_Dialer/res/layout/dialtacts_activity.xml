@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2013 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mst="http://schemas.android.com/apk/res/com.mst"
+    android:id="@+id/dialtacts_mainlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mst_dialpad_listview_bg_color"
+    android:clipChildren="false"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+     >
+
+    <FrameLayout
+        android:id="@+id/dialtacts_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipChildren="false" >
+
+        <FrameLayout
+            android:id="@+id/dialtacts_frame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipChildren="false" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/digits_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/mst_dialpad_listview_bg_color"
+        android:clipChildren="false"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="6dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="17dp" >
+
+            <view
+                xmlns:ex="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/digits"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                class="com.android.phone.common.dialpad.DigitsEditText"
+                android:cursorVisible="false"
+                android:focusableInTouchMode="true"
+                android:freezesText="true"
+                android:gravity="center"
+                android:maxLength="32"
+                android:maxLines="1"
+                android:scrollHorizontally="true"
+                android:singleLine="true"
+                android:textColor="@color/dialpad_digits_text_color"
+                android:textCursorDrawable="@null"
+                android:textSize="@dimen/dialpad_digits_adjustable_text_size"
+                ex:resizing_text_min_size="@dimen/dialpad_digits_text_min_size"
+                android:fontFamily="HelveticaNeue-Light" />
+
+            <EditText
+                android:id="@+id/recipients"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginLeft="8dip"
+                android:layout_weight="1"
+                android:autoText="true"
+                android:hint="@string/to_hint"
+                android:maxLength="2000"
+                android:maxLines="3"
+                android:minHeight="48dip"
+                android:textColor="@color/dialpad_digits_text_color"
+                android:textSize="33sp"
+                android:visibility="gone" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5.3dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/area_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:textColor="#66000000"
+                    android:textSize="12dp"                    
+                    android:fontFamily="monster-normal" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+
+    <mst.widget.FloatingActionButton
+        android:id="@+id/floating_action_button_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="@dimen/floating_action_button_margin_bottom"
+        android:background="@color/mst_fab_bg_dialbutton"
+        mst:centerImage="@drawable/mst_fab_ic_dial"
+        mst:size="large" />
+
+    <!--
+    <LinearLayout
+        android:id="@+id/floating_action_button_container"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/floating_action_button_height"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="@dimen/floating_action_button_margin_bottom"
+        android:background="@drawable/fab_blue" >
+
+        <ImageButton
+            android:id="@+id/floating_action_button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom|left"
+            android:layout_weight="1"
+            android:background="@drawable/floating_action_button"
+            android:contentDescription="@string/action_menu_dialpad_button"
+            android:src="@drawable/fab_ic_dial" />
+
+        <ImageButton
+            android:id="@+id/dialConferenceButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom|right"
+            android:layout_weight="1"
+            android:background="@drawable/floating_action_button"
+            android:contentDescription="@string/action_menu_dialpad_button"
+            android:src="@drawable/ic_add_group_holo_dark"
+            android:visibility="gone" />
+    </LinearLayout>
+    -->
+    <!-- Host container for the contact tile drag shadow -->
+
+    <FrameLayout
+        android:id="@+id/activity_overlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ImageView
+            android:id="@+id/contact_tile_drag_shadow_overlay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:importantForAccessibility="no"
+            android:visibility="gone" />
+    </FrameLayout>
+
+    <mst.view.menu.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:maxHeight="50dp"
+        android:visibility="gone"
+        mst:menu="@menu/mst_calllog_bottom_menu" />
+
+</FrameLayout>

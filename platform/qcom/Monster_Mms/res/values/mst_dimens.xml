@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2011 Google Inc.
+All Rights Reserved. -->
+<resources>
+    <dimen name="message_item_margin">100dip</dimen>
+
+    <dimen name="tab_elevation">0dp</dimen>
+    
+    <!-- tangyisen -->
+    <dimen name="message_send_progress_circle_diameter">5dp</dimen>
+    <dimen name="message_send_progress_circle_interval">4dp</dimen>
+    <dimen name="message_send_progress_circle_margin_right">18dp</dimen>
+
+    <dimen name="conversation_list_title_max_width">205dp</dimen>
+    <dimen name="conversation_list_summary_max_width">260dp</dimen>
+
+    <!-- tangyisen 16-13=3dp -->
+    <dimen name="compose_message_listview_divider_height">3dp</dimen>
+    <dimen name="compose_message_title_textsize">6sp</dimen>
+    <dimen name="compose_message_attachment_margin_start">66dp</dimen>
+    <dimen name="compose_message_attachment_height">135dp</dimen>
+    <dimen name="compose_message_body_text_linespace">5dp</dimen>
+    <dimen name="compose_message_edit_vertical_offset">1dp</dimen>
+
+    <dimen name="mst_floating_action_button_margin_right">20dp</dimen>
+    <dimen name="mst_floating_action_button_margin_bottom">20dp</dimen>
+    <dimen name="compose_message_title_size">15dp</dimen>
+
+    <dimen name="compose_message_video_width">200dp</dimen>
+    <dimen name="compose_message_video_height">120dp</dimen>
+
+</resources>

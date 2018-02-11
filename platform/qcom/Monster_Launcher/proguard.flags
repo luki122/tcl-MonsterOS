@@ -1,0 +1,80 @@
+-keep class com.monster.launcher.allapps.AllAppsBackgroundDrawable {
+  public void setAlpha(int);
+  public int getAlpha();
+}
+
+-keep class com.monster.launcher.BaseRecyclerViewFastScrollBar {
+  public void setThumbWidth(int);
+  public int getThumbWidth();
+  public void setTrackWidth(int);
+  public int getTrackWidth();
+}
+
+-keep class com.monster.launcher.BaseRecyclerViewFastScrollPopup {
+  public void setAlpha(float);
+  public float getAlpha();
+}
+
+-keep class com.monster.launcher.BubbleTextView {
+  public void setFastScrollFocus(float);
+  public float getFastScrollFocus();
+}
+
+-keep class com.monster.launcher.ButtonDropTarget {
+  public int getTextColor();
+  public float getRadius();
+  public void setRadius(float);
+  public float getAniAlpha();
+  public void setAniAlpha(float);
+}
+
+-keep class com.monster.launcher.CellLayout {
+  public float getBackgroundAlpha();
+  public void setBackgroundAlpha(float);
+}
+
+-keep class com.monster.launcher.CellLayout$LayoutParams {
+  public void setWidth(int);
+  public int getWidth();
+  public void setHeight(int);
+  public int getHeight();
+  public void setX(int);
+  public int getX();
+  public void setY(int);
+  public int getY();
+}
+
+-keep class com.monster.launcher.DragLayer$LayoutParams {
+  public void setWidth(int);
+  public int getWidth();
+  public void setHeight(int);
+  public int getHeight();
+  public void setX(int);
+  public int getX();
+  public void setY(int);
+  public int getY();
+}
+
+-keep class com.monster.launcher.FastBitmapDrawable {
+  public int getBrightness();
+  public void setBrightness(int);
+}
+
+-keep class com.monster.launcher.MemoryDumpActivity {
+  *;
+}
+
+-keep class com.monster.launcher.PreloadIconDrawable {
+  public float getAnimationProgress();
+  public void setAnimationProgress(float);
+}
+
+-keep class com.monster.launcher.Workspace {
+  public float getBackgroundAlpha();
+  public void setBackgroundAlpha(float);
+}
+-libraryjars libs/recyclerview-v7-23.4.0.jar
+-keepattributes Exceptions,InnerClasses,Signature,Deprecated,SourceFile,LineNumberTable,*Annotation*,EnclosingMethod
+-dontwarn android.support.annotation.**
+-dontwarn android.support.*.*.**
+

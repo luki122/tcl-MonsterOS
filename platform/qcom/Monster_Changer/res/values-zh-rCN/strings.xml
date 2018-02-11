@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+  Copyright (C) 2014 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+   -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" msgid="8095131950334945205">壁纸</string>
+    <string name="wallpaper">桌面壁纸</string>
+    <string name="confirm_ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="confirm_cancel">取消</string>
+    <string name="main_page_title">壁纸</string>
+    <string name="keyguard_wallpaper">锁屏壁纸</string>
+    <string name="image_loading">图片加载中...</string>
+    <string name="image_too_small">所选的图片像素太低，不适合作为壁纸</string>
+    <string name="image_load_failed">图片加载失败，请重新选择</string>
+    <string name="wallpaper_setting">正在设置壁纸...</string>
+    <string name="wallpaper_set_success">壁纸应用成功</string>
+    <string name="wallpaper_set_failed">壁纸应用失败</string>
+    <string name="set_wallpaper">设置壁纸</string>
+    <string name="wallpaper_crop_title">移动或缩放壁纸</string>
+    <string name="wallpaper_crop_ok">保存</string>
+    <string name="wallpaper_crop_del">删除</string>
+    <string name="wallpaper_crop_custom_name">自定义</string>
+    <string name="wallpaper_crop_cancel_title">提示</string>
+    <string name="wallpaper_crop_cancel_msg">确认放弃所做的裁剪吗？</string>
+    <string name="wallpaper_crop_del_msg">确认删除所选壁纸</string>
+    <string name="wallpaper_select_max_toast">锁屏壁纸最多支持12张</string>
+    <string name="wallpaper_crop_sdcard_error">SD card 异常,请检查</string>
+    <string name="set_wallpaper_dialog_title">壁纸</string>
+    <string name="setting_wallpaper">保存中...</string>
+    <string name="wallpaper_keyguard_set_success">成功应用锁屏壁纸 </string>
+    <string name="wallpaper_crop">壁纸裁剪</string>
+    <string name="set_wallpaper_title">壁纸裁剪</string>
+    <string name="delete_dialog_title">删除</string>
+    <string name="delete_desktop_wallpaper_msg">确认删除选中的<xliff:g id="selected_count">%1$d</xliff:g>张壁纸？</string>
+    <string name="delete_keyguard_wallpaper_msg">确认删除选中的<xliff:g id="selected_count">%1$d</xliff:g>套壁纸？</string>
+    <string name="delete_keyguard_current_wallpaper_msg">确认删除当前壁纸吗？</string>
+    <string name="select_all">全选</string>
+    <string name="cancel_select_all">取消全选</string>
+    <string name="tip_applied_wallpaper_not_delete">不能删除已应用壁纸</string>
+    <string name="tip_system_wallpaper_not_delete">不能删除系统壁纸</string>
+    <string name="tip_current_wallpaper_is_applied">当前壁纸已应用</string>
+    <string name="tip_apply_wallpaper_success">壁纸应用成功</string>
+    <string name="tip_apply_wallpaper_failed">壁纸应用失败</string>
+    <string name="tip_unknown_wallpaper">不支持的壁纸格式</string>
+    <string name="tip_select_wallpaper">请选择需要删除的壁纸</string>
+    <string name="delete">删除</string>
+    <string name="msg_apply_keyguard_wallpaper">应用锁屏壁纸</string>
+</resources>

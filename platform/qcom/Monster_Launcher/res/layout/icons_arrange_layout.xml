@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <Button
+        android:id="@+id/btn_restore"
+        android:layout_width="@dimen/icons_arrange_btn_width"
+        android:layout_height="@dimen/icons_arrange_btn_height"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_weight="1"
+        android:text="@string/icons_arrange_btn_restore"
+        android:textSize="15sp"
+		android:layout_marginLeft="@dimen/icons_arrange_btn_left_right"
+        />
+    
+    <Button
+       android:id="@+id/btn_commit"
+        android:layout_width="@dimen/icons_arrange_btn_width"
+        android:layout_height="@dimen/icons_arrange_btn_height"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_weight="1"
+        android:text="@string/icons_arrange_btn_commit"
+        android:textSize="15sp"
+        android:layout_marginLeft="@dimen/icons_arrange_btn_gap"
+		android:layout_marginRight="@dimen/icons_arrange_btn_left_right"
+        />
+</LinearLayout>

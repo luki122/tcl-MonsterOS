@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- xiaoyuan/songzhirong 20150523 start -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_bottom_menu"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/duoqu_menu_customeu_height"
+  
+    android:orientation="horizontal"
+    android:visibility="gone" >
+
+    <LinearLayout
+        android:id="@+id/layout_exchange"
+        android:layout_width="wrap_content"
+        android:layout_marginStart="@dimen/duoqu_menu_left_margin_left"
+        android:layout_marginEnd="@dimen/duoqu_menu_left_margin_right"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <!--android:background="@drawable/duoqu_btn_menu"-->
+        <TextView
+            android:layout_width="@dimen/duoqu_menu_left_img_width"
+            android:layout_height="@dimen/duoqu_menu_left_img_height"
+            android:background="@drawable/duoqu_btn_sms"
+              />
+    </LinearLayout>
+
+ 	<View
+        android:layout_width="@dimen/duoqu_menu_left_line_width"
+        android:layout_height="@dimen/duoqu_menu_left_line_height"
+        android:layout_gravity="center_vertical"
+        android:background="@color/duoqu_menu_divider_color" />
+    <LinearLayout
+        android:id="@+id/layout_menu"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+    </LinearLayout>
+<!-- xiaoyuan/songzhirong 20150523 start -->
+</LinearLayout>

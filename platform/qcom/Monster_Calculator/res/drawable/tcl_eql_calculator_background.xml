@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@color/slide_green_clolor" android:state_pressed="false"/>
+    <item android:drawable="@color/slide_green_press_clolor" android:state_pressed="true"/>
+
+</selector>

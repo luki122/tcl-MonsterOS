@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2013 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/top"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:visibility="visible" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+                android:id="@+id/controlArea"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:visibility="visible">
+                
+            <!-- 
+            <ImageView android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:minWidth="10dp"
+                                        android:minHeight="10dp"
+                                        android:src="@drawable/mst_seek_bar_left_right_dot"
+                                        android:layout_gravity="start"
+                                        android:contentDescription="@null"/>
+
+            <ImageView android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:minWidth="10dp"
+                                        android:minHeight="10dp"
+                                        android:src="@drawable/mst_seek_bar_left_right_dot"
+                                        android:layout_gravity="end"
+                                        android:contentDescription="@null"/>
+             -->
+            
+            <com.android.gallery3d.ui.CustomSeekBar
+                    android:id="@+id/primarySeekBar"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:background="@null"
+                    android:orientation="vertical"/>
+            
+        </FrameLayout>
+
+        <!--//[BUGFIX]-Add by TCTNJ,jian.pan1, 2015-01-28,PR910005 Begin -->
+        <LinearLayout
+                android:id="@+id/control_center"
+                android:layout_below="@+id/controlArea"
+                android:layout_width="match_parent"
+                android:layout_height="50dip"
+                android:background="@color/background_main_toolbar"
+                android:orientation="horizontal"
+                android:baselineAligned="false"
+                android:visibility="visible"
+                android:layout_marginTop="2dp">
+            <!--//[BUGFIX]-Add by TCTNJ,jian.pan1, 2015-01-28,PR910005 End -->
+            
+            <!--//[BUGFIX]-Add by TCTNJ,jian.pan1, 2015-01-28,PR910005 Begin -->
+            <!-- TCL ShenQianfeng Begin on 2016.08.29 -->
+            <!-- Annotated Below: -->
+            <!-- 
+            <ImageButton
+                    android:id="@+id/cancelFilter"
+                    android:layout_width="35dp"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="left|center_vertical"
+                    android:background="@android:color/transparent"
+                    android:layout_weight=".1"
+                    android:gravity="center"
+                    android:src="@drawable/ic_edit_cancel"
+                    android:textSize="18dip"/>
+             -->
+             <!-- TCL ShenQianfeng End on 2016.08.29 -->
+
+            <!--//[BUGFIX]-Add by TCTNJ,jian.pan1, 2015-01-28,PR910005 End -->
+
+            <!-- TCL ShenQianfeng Begin on 2016.08.29 -->
+            <!-- Annotated Below: -->
+            <!-- 
+            <ImageView
+                    android:layout_width="2dp"
+                    android:layout_height="fill_parent"
+                    android:background="@android:color/black"/>
+             -->
+             <!-- TCL ShenQianfeng End on 2016.08.29 -->
+
+            <LinearLayout
+                    android:id="@+id/panelAccessoryViewList"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:visibility="visible">
+                
+                <!-- android:drawableEnd="@drawable/filtershow_menu_marker_rtl" -->
+                <com.android.gallery3d.filtershow.editors.SwapButton
+                        android:id="@+id/applyEffect"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:background="@color/mst_editor_panel_bottom_bg"
+                        android:text="@string/apply_effect"
+                        android:textSize="14sp"
+                        android:textColor="@color/mst_editor_panel_bottom_text"
+                        android:textAllCaps="false"/>
+
+            </LinearLayout>
+
+            <!-- TCL ShenQianfeng Begin on 2016.08.29 -->
+            <!-- Annotated Below: -->
+            <!-- 
+            <ImageView
+                    android:layout_width="2dp"
+                    android:layout_height="fill_parent"
+                    android:background="@android:color/black"/>
+             -->
+             <!-- TCL ShenQianfeng End on 2016.08.29 -->
+             
+            <!--//[BUGFIX]-Add by TCTNJ,jian.pan1, 2015-01-28,PR910005 Begin -->
+
+            <!-- TCL ShenQianfeng Begin on 2016.08.29 -->
+            <!-- Annotated Below: -->
+            <!-- 
+            <ImageButton
+                    android:id="@+id/applyFilter"
+                    android:layout_width="35dp"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="right|center_vertical"
+                    android:layout_weight=".1"
+                    android:background="@android:color/transparent"
+                    android:gravity="center"
+                    android:src="@drawable/ic_edit_approve"
+                    android:textSize="18dip"/>
+             -->
+             <!-- TCL ShenQianfeng End on 2016.08.29 -->
+             
+            <!--//[BUGFIX]-Add by TCTNJ,jian.pan1, 2015-01-28,PR910005 End -->
+        </LinearLayout>
+
+        <FrameLayout android:id="@+id/state_panel_container" 
+                    android:layout_below="@+id/control_center"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:visibility="visible" />
+
+    </RelativeLayout>
+
+</LinearLayout>

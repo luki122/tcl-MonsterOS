@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="HintEditText">
+        <attr name="floatingHintTextAppearance" format="reference" />
+        <attr name="floatingHintSidePadding" format="reference|dimension" />
+        <attr name="floatingHintInAnimation" format="reference" />
+        <attr name="floatingHintOutAnimation" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="GradientTextView">
+        <attr name="startColor" format="color" />
+        <attr name="middleClolor" format="color" />
+        <attr name="endColor" format="color" />
+    </declare-styleable>
+</resources>

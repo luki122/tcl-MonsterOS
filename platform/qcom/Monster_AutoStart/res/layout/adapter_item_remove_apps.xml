@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="57dp" >
+
+    <ImageView
+        android:id="@+id/item_icon"
+        android:layout_width="@dimen/adapter_item_add_img_icon_width"
+        android:layout_height="@dimen/adapter_item_add_img_icon_height"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/adapter_item_add_img_icon_margin_left" />
+
+    <TextView
+        android:id="@+id/item_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/adapter_item_add_tv_margin_left"
+        android:layout_toRightOf="@+id/item_icon"
+        android:textColor="@color/adapter_textview_color"    
+        android:textSize="@dimen/adapter_item_add_tv_size" />
+
+    <TextView
+        android:id="@+id/item_add"
+        android:layout_width="@dimen/adapter_item_add_tv1_width"
+        android:layout_height="@dimen/adapter_item_add_tv1_height"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/adapter_item_add_tv1_margin_right"
+        android:background="@drawable/button"
+        android:text="@string/str_item_add_auto_apps"
+        android:textColor="@color/adapter_textview_color"
+        android:textSize="@dimen/adapter_item_add_tv1_size"
+        android:gravity="center_horizontal|center_vertical"
+         />
+
+</RelativeLayout>

@@ -1,0 +1,36 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="AppBaseTheme" parent="android:Theme.Light"></style>
+
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="android:actionBarSize">50dp</item>
+    </style>
+
+    <style name="ShareDialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimAmount">0.37</item>
+    </style>
+     
+    <style name="popwin_anim_style">
+        <item name="android:windowEnterAnimation">@anim/menu_show</item>
+        <item name="android:windowExitAnimation">@anim/menu_hide</item>
+    </style>
+<style name="duoqu_bubble_body_hint_text_style_color">
+<item name="android:textSize">@dimen/duoqu_table_body_genralone_hint2_text_size</item>
+<item name="android:textColor">@color/duoqu_theme_color_5010</item>
+</style>
+<style name="duoqu_bubble_body_hint_text_style">
+<item name="android:textSize">@dimen/duoqu_table_body_genralone_hint2_text_size</item>
+</style>
+<style name="duoqu_bubble_body_main_text_style_color">
+<item name="android:textSize">@dimen/duoqu_table_body_genralone_main_text_size</item>
+<item name="android:textColor">@color/duoqu_black2</item>
+</style>
+<style name="duoqu_bubble_body_main_text_style">
+<item name="android:textSize">@dimen/duoqu_table_body_genralone_main_text_size</item>
+</style>
+<style name="duoqu_ui_part_popwin_anim_style">
+<item name="android:windowEnterAnimation">@anim/menu_show</item>
+<item name="android:windowExitAnimation">@anim/menu_hide</item>
+</style>
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="67dp"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/large_icon"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="13.3dp"
+        android:src = "@drawable/icon_headset" />
+
+    <LinearLayout
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="13dp"
+        android:layout_toRightOf="@id/large_icon"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/headset_plugin_title"
+            android:includeFontPadding="false"
+            android:textColor="#FFFFFFFF"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="9dp"
+            android:includeFontPadding="false"
+            android:textColor="#FFFFFFFF"
+            android:text="@string/headset_plugin_message"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/left_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/headset_notification_bg"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="22dp"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        android:textColor="#FFFFFFFF"
+        android:layout_marginBottom="25dp"
+        android:text="@string/not_show_agin" 
+        android:textSize="13sp"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory>
+
+        <com.monster.market.views.NumPreference
+            android:key="app_update_check_key"
+            android:title="@string/app_update_check_pref" />
+        <com.monster.market.views.NumPreference
+            android:key="download_manager_key"
+            android:title="@string/download_manager_pref" />
+        <PreferenceScreen
+            android:key="app_manager_key"
+            android:title="@string/app_manager_pref" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory>
+        <PreferenceScreen
+            android:key="settings_key"
+            android:title="@string/settings_pref" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

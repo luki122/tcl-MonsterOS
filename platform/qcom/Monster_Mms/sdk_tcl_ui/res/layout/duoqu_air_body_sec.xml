@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:duoqu="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/content_area"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/duoqu_air_body_sec_padding"
+    android:paddingRight="@dimen/duoqu_air_body_sec_padding" >
+
+    <TextView
+        android:id="@+id/duoqu_air_body_sec_dapart_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="@dimen/duoqu_air_body_sec_ad_date_margin_top"
+        android:singleLine="true"
+        android:textColor="@color/duoqu_theme_color_5010"
+        android:textSize="@dimen/duoqu_air_body_sec_ad_date_size"/>
+
+    <TextView
+        android:id="@+id/duoqu_air_body_sec_arrive_date"
+        android:layout_width="86dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="@dimen/duoqu_air_body_sec_ad_date_margin_top"
+        android:gravity="right"
+        android:singleLine="true"
+        android:textColor="@color/duoqu_theme_color_5010"
+        android:textSize="@dimen/duoqu_air_body_sec_ad_date_size" />
+
+    <RelativeLayout
+        android:id="@+id/duoqu_air_body_sec_main_area"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/duoqu_air_body_sec_dapart_date"
+        android:layout_marginTop="@dimen/duoqu_air_body_sec_main_mt">
+
+        <TextView
+            android:id="@+id/duoqu_air_body_sec_dapart_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxWidth="110dp"
+            android:layout_centerVertical="true"
+            android:singleLine="true"
+            android:textColor="@color/duoqu_theme_color_3011"
+            android:textSize="@dimen/duoqu_air_body_sec_ad_time_size"/>
+
+        <TextView
+            android:id="@+id/duoqu_air_body_sec_arrive_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxWidth="110dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="right"
+            android:singleLine="true"
+            android:textColor="@color/duoqu_theme_color_3011"
+            android:textSize="@dimen/duoqu_air_body_sec_ad_time_size" />
+
+        <ImageView
+            android:id="@+id/duoqu_air_body_sec_center_icon"
+            android:layout_width="@dimen/duoqu_air_body_sec_centre_icon_width"
+            android:layout_height="@dimen/duoqu_air_body_sec_centre_icon_height"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/duoqu_air_body_sec_centre_icon_mt"
+            android:background="@drawable/duoqu_air" />
+
+        <TextView
+            android:id="@+id/duoqu_air_body_sec_state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/duoqu_air_body_sec_center_icon"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/duoqu_air_body_sec_state_mt"
+            android:gravity="right"
+            android:singleLine="true"
+            android:textColor="@color/duoqu_theme_color_4010"
+            android:textSize="@dimen/duoqu_air_body_sec_state_size" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/duoqu_air_body_sec_depart_adress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/duoqu_air_body_sec_main_area"
+        android:layout_marginTop="@dimen/duoqu_air_body_sec_ad_adress_mt"
+        android:maxWidth="@dimen/duoqu_air_body_sec_ad_adress_max_width"
+        android:singleLine="true"
+        android:textColor="@color/duoqu_theme_color_3010"
+        android:textSize="@dimen/duoqu_air_body_sec_ad_adress_size" />
+
+    <TextView
+        android:id="@+id/duoqu_air_body_sec_arrive_adress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/duoqu_air_body_sec_main_area"
+        android:layout_marginTop="@dimen/duoqu_air_body_sec_ad_adress_mt"
+        android:maxWidth="@dimen/duoqu_air_body_sec_ad_adress_max_width"
+        android:singleLine="true"
+        android:textColor="@color/duoqu_theme_color_3010"
+        android:textSize="@dimen/duoqu_air_body_sec_ad_adress_size" />
+
+    <TextView
+        android:id="@+id/duoqu_air_body_sec_info_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/duoqu_air_body_sec_depart_adress"
+        android:layout_marginTop="@dimen/duoqu_air_body_sec_seat_mt"
+        android:textColor="@color/duoqu_theme_color_5010"
+        android:textSize="@dimen/duoqu_air_body_sec_ad_adress_size" />
+
+    <TextView
+        android:id="@+id/duoqu_air_body_sec_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/duoqu_air_body_sec_depart_adress"
+        android:layout_marginStart="@dimen/duoqu_air_body_sec_seatinfo_ms"
+        android:layout_marginTop="@dimen/duoqu_air_body_sec_seat_mt"
+        android:layout_toRightOf="@id/duoqu_air_body_sec_info_title"
+        android:textColor="@color/duoqu_theme_color_3010"
+        android:textSize="@dimen/duoqu_air_body_sec_ad_adress_size" />
+</RelativeLayout>

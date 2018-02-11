@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
+    android:paddingStart="?android:attr/listPreferredItemPaddingStart"
+    android:layout_height="49dp"
+    android:minHeight="49dp"
+    android:gravity="center_vertical" >
+
+    <ImageView
+        android:id="@+id/mst_shortcut_image"
+        android:layout_width="24dp"
+        android:layout_height="24dp" />
+
+    <TextView
+        android:id="@+id/mst_shortcut_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp" 
+        android:textColor="@color/mst_list_main_text_color"
+        android:textSize="15dp"/>
+
+</LinearLayout>

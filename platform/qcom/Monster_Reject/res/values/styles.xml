@@ -1,0 +1,61 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="@com.mst:style/Theme.Mst.Material.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <style name="Theme.Interception" parent="@com.mst:style/Theme.Mst.Material.Light">
+        <item name="android:statusBarColor">?android:attr/colorPrimary</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="com.mst:windowLayoutStyle">@style/WindowLayoutStyle</item>
+        <item name="com.mst:actionPositiveText">@string/select_all</item>
+        <item name="com.mst:actionNagativeText">@string/cancel</item>
+        <item name="android:toolbarStyle">@style/ToolbarStyle</item>
+    </style>
+
+    <style name="WindowLayoutStyle" parent="com.mst:WindowStyle.Light">
+        <item name="com.mst:hasBackIcon">true</item>
+    </style>
+
+    <style name="WindowLayoutStyle.NoArrow" parent="com.mst:WindowStyle.Light">
+        <item name="com.mst:hasBackIcon">false</item>
+    </style>
+
+    <style name="ToolbarStyle" parent="com.mst:style/ToolbarStyle">
+        <item name="com.mst:title">@string/app_name</item>
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+    <style name="calllog_list_header_style">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">#8d8d8e</item>
+    </style>
+    
+    <style name="list_primary_text_style">
+        <item name="android:textSize">@dimen/primary_text_size</item>
+        <item name="android:textColor">@color/primary_text_color</item>
+    </style>
+    
+    <style name="list_secondary_text_style">
+        <item name="android:textSize">@dimen/secondary_text_size</item>
+        <item name="android:textColor">@color/secondary_text_color</item>
+    </style>
+    
+    <style name="list_secondary2_text_style">
+        <item name="android:textSize">@dimen/date_text_size</item>
+        <item name="android:textColor">@color/secondary2_text_color</item>
+    </style>
+
+</resources>

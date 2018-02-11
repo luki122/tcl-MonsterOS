@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/duoqu_bubble_bottom_two"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/bubble_bottom_two_height"
+    android:layout_gravity="center_horizontal|bottom"
+    android:gravity="center_horizontal" >
+
+    <View
+        android:id="@+id/duoqu_bottom_split_line"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_alignParentTop="true"
+        android:background="#26000000"/>
+
+    <ImageView
+        android:id="@+id/duoqu_btn_split_line"
+        android:layout_width="1px"
+        android:layout_height="16dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="#4D000000" />
+
+    <RelativeLayout
+        android:id="@+id/duoqu_btn_2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/duoqu_bottom_split_line"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@id/duoqu_btn_split_line"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/duoqu_btn_text_2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:background="@null"
+            android:drawablePadding="2dp"
+            android:gravity="center"
+            android:textColor="@color/duoqu_bubble_bottom_text_color"
+            android:textSize="@dimen/duoqu_bubble_bottom_text_size" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/duoqu_btn_1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/duoqu_bottom_split_line"
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@id/duoqu_btn_split_line"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/duoqu_btn_text_1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/duoqu_bubble_bottom_text_color"
+            android:textSize="@dimen/duoqu_bubble_bottom_text_size" />
+    </RelativeLayout>
+
+</RelativeLayout>

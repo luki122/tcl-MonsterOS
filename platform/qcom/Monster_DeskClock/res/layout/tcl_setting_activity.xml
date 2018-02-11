@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/main_color"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/text_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:background="@drawable/my_main_color_round_ripple"
+            android:gravity="center"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text="@string/cancle"
+            android:textColor="@color/clock_blue"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/text_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/str_set_alarm"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="16dp"
+            android:text="@string/alarm_vol"
+            android:textColor="@color/text_normal_black"
+            android:textSize="16sp" />
+
+        <SeekBar
+            android:id="@+id/my_seekbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:theme="@com.mst:style/Widget.Mst.Material.Light.SeekBar" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/vibrate_layout"
+        android:layout_width="match_parent"
+        android:background="@drawable/my_ripple" 
+        android:layout_height="56dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:text="@string/alarm_vibrate"
+            android:textColor="@color/text_normal_black"
+            android:textSize="16sp" />
+
+        <Switch
+            android:id="@+id/vibrate_onoff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="16dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/interference_free_layout"
+        android:layout_width="match_parent"
+        android:background="@drawable/my_ripple" 
+        android:layout_height="56dp" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:text="@string/str_interference_free_alarm"
+                android:textColor="@color/text_normal_black"
+                android:textSize="16sp" />
+                        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:text="@string/str_interference_free_des"
+                android:textColor="@color/text_normal_gray"
+                android:textSize="12sp" />
+            
+        </LinearLayout>
+
+
+        <Switch
+            android:id="@+id/interference_free_onoff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="16dp" />
+    </RelativeLayout>
+
+</LinearLayout>

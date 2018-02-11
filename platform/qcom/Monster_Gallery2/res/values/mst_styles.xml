@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <!-- com.mst:Theme.Mst.Material.Light -->
+    <style name="GalleryAppTheme" parent="com.mst:Theme.Mst.Material.Light"> <!--     @android:style/Theme.Holo.Light-->
+        <!-- 
+        <item name="android:actionBarSize">48dp</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:actionMenuTextColor">#FF0000</item>
+        <item name="android:actionBarStyle">@style/MyActionBarStyle</item>
+        <item name="android:actionModeStyle">@style/MyActionModeStyle</item>
+        <item name="android:actionModeCloseButtonStyle">@style/ActionBarNoDoneButtonStyle</item>
+         -->
+        <item name="android:colorPrimary">@color/mst_color_primary_for_toolbar</item> <!--  -->
+        <item name="com.mst:windowLayoutStyle">@style/WindowLayoutStyle</item>
+        <!-- <item name="android:windowContentOverlay">@null</item> -->
+        <!-- <item name="android:windowTranslucentStatus">true</item> -->
+    </style>
+    
+    <style name="MovieActivityTheme" parent="com.mst:Theme.Mst.Material.Light">
+        <item name="android:colorPrimary">@color/mst_movie_toolbar_bg</item>
+        <item name="com.mst:windowLayoutStyle">@style/WindowLayoutStyle</item>
+        <item name="android:toolbarStyle">@com.mst:style/ToolbarStyle</item> <!-- get rid of white seperator -->
+    </style>
+    
+    <style name="CropActivityTheme" parent="com.mst:Theme.Mst.Material.Light"> 
+        <item name="android:colorPrimary">@color/mst_color_primary_for_toolbar</item> <!--  -->
+    </style>
+    
+    <style name="FilterShowTheme" parent="com.mst:Theme.Mst.Material.Light"> <!--     @android:style/Theme.Holo.Light  android:Theme.Holo -->
+         <!-- 
+         <item name="android:windowBackground">@color/filtershow_categoryview_background</item>
+         <item name="android:colorPrimary">@android:color/white</item>
+        <item name="android:windowContentOverlay">@null</item>
+         -->
+    </style>
+    
+    
+    <style name="WindowLayoutStyle"  parent="com.mst:WindowStyle.Light">
+        <item name="com.mst:toolbarOverlay">true</item>
+    </style>
+    
+    <style name="MyActionBarTitleTextStyle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">#CC000000</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+    
+    <style name="MyActionBarStyle" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@android:color/white</item> <!-- @drawable/area_bottom_separator -->
+        <item name="android:displayOptions">showTitle</item><!-- useLogo|showHome| -->
+        <item name="android:titleTextStyle">@style/MyActionBarTitleTextStyle</item>
+    </style>
+    
+    <style name="MyActionModeStyle" parent="@android:style/Widget.Holo.Light.ActionMode">
+        <!-- <item name="android:actionModeBackground">@drawable/area_bottom_separator</item> -->
+        <!-- <item name="android:backgroundSplit">@drawable/area_bottom_separator</item> -->
+        <item name="android:background">@null</item>
+    </style>
+
+    <style name="ActionBarNoDoneButtonStyle" parent="@android:style/Widget.ActionButton.CloseMode">
+        <item name="android:visibility">gone</item>
+    </style>
+
+    <style name="SelectDeletePopupWindowAnim"> <!-- parent="@android:style/Animation.Translucent" -->  
+        <item name="android:windowEnterAnimation">@anim/on_screen_hint_enter</item>  
+        <item name="android:windowExitAnimation">@anim/on_screen_hint_exit</item>  
+    </style>  
+    
+	
+	
+	<!--//[BUGFIX]-Add by TCTNJ,jian.pan1, 2015-03-06,PR929635 Begin -->
+    <style name="CustomSeekBarStyle" parent="@android:style/Widget.SeekBar">
+        <item name="android:progressDrawable">@drawable/custom_progress_seekbar_bg</item>
+        <item name="android:thumb">@drawable/mst_seekbar_thumb</item>
+        <item name="android:maxHeight">1dp</item>
+    </style>
+    <!--//[BUGFIX]-Add by TCTNJ,jian.pan1, 2015-03-06,PR929635 End -->
+    
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    android:versionCode="161117001"
+    android:versionName="v1.0.1.0202.9"
+    package="com.monster.launcher.theme">
+    <uses-sdk android:minSdkVersion="16" android:targetSdkVersion="23" />
+    <application
+        android:allowBackup="true"
+        android:label="@string/theme_name">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <!--<category android:name="android.intent.category.LAUNCHER"/>-->
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.monster.launcher.icon" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

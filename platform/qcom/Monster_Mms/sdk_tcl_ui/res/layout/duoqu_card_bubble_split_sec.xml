@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/duoqu_card_body_bottom"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="30dp"
+    android:paddingStart="@dimen/duoqu_vertify_head_padding"
+    android:paddingEnd="@dimen/duoqu_vertify_head_padding">
+
+
+    <TextView
+        android:id="@+id/duoqu_call_name_sec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:textSize="@dimen/duoqu_tel_card_height"/>
+    
+    <ImageView
+        android:id="@+id/duoqu_tel_card_sec"
+        android:layout_width="@dimen/duoqu_tel_card_width"
+        android:layout_height="@dimen/duoqu_tel_card_height"
+        android:layout_marginEnd="@dimen/duoqu_tel_card_margin"
+        android:layout_toStartOf="@id/duoqu_call_name"
+        android:layout_centerVertical="true" />
+
+</RelativeLayout>

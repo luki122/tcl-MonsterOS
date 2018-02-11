@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_data_range"
+        android:checked="true"
+        android:title="@string/data_range"/>
+    <item
+        android:id="@+id/menu_sim_set"
+        android:checked="true"
+        android:title="@string/set"/>
+
+</menu>

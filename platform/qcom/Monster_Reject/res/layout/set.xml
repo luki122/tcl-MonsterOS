@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:key="pref_key_sms_settings"
+        android:title="" >
+
+        <!-- <SwitchPreference
+            android:defaultValue="true"
+            android:key="sms"
+            android:summary=""
+            android:title="@string/reject_sms" /> -->
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="sms"
+            android:summary="@string/settings_intelligent_reject_subtitle"
+            android:title="@string/settings_intelligent_reject_title" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="intercept"
+            android:summary=""
+            android:title="@string/reject_notification" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="pref_key_mms_settings"
+        android:title="" >
+
+        <Preference
+            android:key="black_name"
+            android:summary=""
+            android:title="@string/black_manage" />
+
+       
+    </PreferenceCategory>
+    
+     <PreferenceCategory
+        android:key="pref_key_phone_settings"
+        android:title="" >
+        <Preference
+            android:key="mark"
+            android:summary=""
+            android:title="@string/mark_manage" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

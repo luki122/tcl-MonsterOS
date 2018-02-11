@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/first_call_info"
+    android:layout_width="match_parent"
+    android:layout_height="70dp" >
+
+    <TextView
+        android:id="@+id/first_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="15dp"
+        android:ellipsize="marquee"
+        android:fontFamily="monster-normal"
+        android:gravity="center_vertical|start"
+        android:maxWidth="200dp"
+        android:singleLine="true"
+        android:textColor="#DB000000"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/first_sim_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/first_name"
+        android:layout_marginRight="9dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/sim_icon_1"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/first_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/first_name"
+        android:layout_marginTop="3.5dp"
+        android:layout_toRightOf="@id/first_sim_icon"
+        android:ellipsize="marquee"
+        android:fontFamily="monster-normal"
+        android:gravity="center_vertical|start"
+        android:maxWidth="200dp"
+        android:singleLine="true"
+        android:textColor="#66000000"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/first_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:clickable="false"
+        android:focusable="false"
+        android:fontFamily="monster-normal"
+        android:textColor="#DB000000"
+        android:textSize="20sp" />
+
+</RelativeLayout>

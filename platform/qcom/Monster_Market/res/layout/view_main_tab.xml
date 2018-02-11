@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android_custom="http://schemas.android.com/apk/res/com.monster.market"
+    android:background="@android:color/white"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:background="@android:color/white"
+        android:orientation="horizontal" >
+
+        <com.monster.market.views.MainTabItemView
+            android:id="@+id/mtiv_new"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android_custom:tab_img="@drawable/main_tab_essential_normal"
+            android_custom:tab_text="@string/tab_essential" />
+
+        <com.monster.market.views.MainTabItemView
+            android:id="@+id/mtiv_ranking"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android_custom:tab_img="@drawable/main_tab_ranking_normal"
+            android_custom:tab_text="@string/tab_ranking" />
+
+        <com.monster.market.views.MainTabItemView
+            android:id="@+id/mtiv_topic"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android_custom:tab_img="@drawable/main_tab_award_normal"
+            android_custom:tab_text="@string/tab_award" />
+
+        <com.monster.market.views.MainTabItemView
+            android:id="@+id/mtiv_category"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android_custom:tab_img="@drawable/main_tab_category_normal"
+            android_custom:tab_text="@string/tab_category" />
+    </LinearLayout>
+    
+    <View
+        android:id="@+id/bottom_line"
+        android:layout_width="match_parent"
+        android:background="#000000"
+        android:alpha="0.03"
+        android:layout_height="7dp" />
+
+</LinearLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="40dp"
+    android:viewportHeight="120"
+    android:viewportWidth="120"
+    android:width="40dp" >
+
+    <group
+        android:name="Phone-通话中"
+        android:translateX="-185.000000"
+        android:translateY="-838.000000" >
+        <group
+            android:name="2"
+            android:translateY="-3.000000" >
+            <group
+                android:translateX="179.000000"
+                android:translateY="841.000000" >
+                <group
+                    android:name="静音"
+                    android:translateX="6.000000" >
+                    <group
+                        android:translateX="36.000000"
+                        android:translateY="29.000000" >
+                        <path
+                            android:name="Stroke-1"
+                            android:fillAlpha="0.66"
+                            android:fillType="evenOdd"
+                            android:pathData="M16.2866854,36.8688259 C15.4127683,35.2575827 14.915471,33.4116151
+14.915471,31.4489485 L14.915471,12.045071 C14.915471,5.75923315
+20.0117737,0.66293045 26.2976115,0.66293045 L26.2976115,0.66293045
+C32.5834494,0.66293045 37.6797521,5.75923315 37.6797521,12.045071
+L37.6797521,16.0592548"
+                            android:strokeAlpha="0.66"
+                            android:strokeColor="@color/button_disable_color"
+                            android:strokeLineCap="round"
+                            android:strokeWidth="3" />
+                        <path
+                            android:name="Stroke-3"
+                            android:fillAlpha="0.66"
+                            android:fillType="evenOdd"
+                            android:pathData="M23.7445535,42.543187 C24.5654256,42.7314969 25.4194508,42.8309564
+26.2973463,42.8309564 L26.2973463,42.8309564 C32.5845103,42.8309564
+37.6794868,37.7346537 37.6794868,31.4488159 L37.6794868,28.2528519"
+                            android:strokeAlpha="0.66"
+                            android:strokeColor="@color/button_disable_color"
+                            android:strokeLineCap="round"
+                            android:strokeWidth="3" />
+                        <path
+                            android:name="Stroke-5"
+                            android:fillAlpha="0.66"
+                            android:fillType="evenOdd"
+                            android:pathData="M47.3793038,28.7671236 L47.3793038,31.9272822 C47.3793038,43.5693434
+37.9412641,53.0087092 26.2978768,53.0087092 L26.2978768,53.0087092
+C22.4653723,53.0087092 18.8715705,51.9849398 15.7750659,50.1973218"
+                            android:strokeAlpha="0.66"
+                            android:strokeColor="@color/button_disable_color"
+                            android:strokeLineCap="round"
+                            android:strokeWidth="3" />
+                        <path
+                            android:name="Stroke-7"
+                            android:fillAlpha="0.66"
+                            android:fillType="evenOdd"
+                            android:pathData="M5.21631712,28.7671236 L5.21631712,31.9272822 C5.21631712,36.2928894
+6.54376937,40.3495092 8.81674955,43.7138912"
+                            android:strokeAlpha="0.66"
+                            android:strokeColor="@color/button_disable_color"
+                            android:strokeLineCap="round"
+                            android:strokeWidth="3" />
+                        <path
+                            android:name="Stroke-9"
+                            android:fillAlpha="0.66"
+                            android:fillType="evenOdd"
+                            android:pathData="M26.2978768,53.8314378 L26.2978768,61.9950703"
+                            android:strokeAlpha="0.66"
+                            android:strokeColor="@color/button_disable_color"
+                            android:strokeLineCap="round"
+                            android:strokeWidth="3" />
+                        <path
+                            android:name="Stroke-11"
+                            android:fillAlpha="0.66"
+                            android:fillType="evenOdd"
+                            android:pathData="M47.8434479,7.13535423 L0.662532613,54.3162695"
+                            android:strokeAlpha="0.66"
+                            android:strokeColor="@color/button_disable_color"
+                            android:strokeLineCap="round"
+                            android:strokeWidth="3" />
+                    </group>
+                </group>
+            </group>
+        </group>
+    </group>
+
+</vector>

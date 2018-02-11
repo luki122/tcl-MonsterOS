@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2013 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License
+-->
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/answer_fragment_height" >
+
+    <com.android.incallui.GlowPadWrapper
+        xmlns:dc="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/glow_pad_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/answer_fragment_height"
+        android:background="#00000000"
+        android:focusable="true"
+        android:gravity="center"
+        dc:allowScaling="false"
+        dc:directionDescriptions="@array/incoming_call_widget_audio_with_sms_direction_descriptions"
+        dc:feedbackCount="1"
+        dc:glowRadius="@dimen/glowpadview_glow_radius"
+        dc:handleDrawable="@drawable/ic_incall_audio_handle_mst"
+        dc:innerRadius="@dimen/glowpadview_inner_radius"
+        dc:outerRadius="@dimen/glowpadview_target_placement_radius_mst"
+        dc:outerRingDrawable="@drawable/ic_lockscreen_outerring_mst"
+        dc:pointDrawable="@drawable/ic_incall_audio_handle_mst"
+        dc:snapMargin="@dimen/glowpadview_snap_margin"
+        dc:targetDescriptions="@array/mst_incoming_call_widget_audio_with_sms_target_descriptions"
+        dc:targetDrawables="@array/mst_incoming_call_widget_audio_with_sms_targets"
+        dc:vibrationDuration="20" />
+
+    <LinearLayout
+        android:id="@+id/call_waiting_line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="123dp"
+        android:background="#00000000"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <Button
+            android:id="@+id/answer_callwaiting_hold"
+            style="@style/CallWaitingStyle"
+            android:text="@string/hold_and_answer" />
+
+        <Button
+            android:id="@+id/answer_callwaiting_hangup"
+            style="@style/CallWaitingStyle"
+            android:layout_marginTop="26dp"
+            android:text="@string/end_and_answer" />
+
+        <Button
+            android:id="@+id/answer_callwaiting_reject"
+            style="@style/CallWaitingStyle"
+            android:layout_marginTop="26dp"
+            android:text="@string/reject_waiting" />
+    </LinearLayout>
+
+</FrameLayout>

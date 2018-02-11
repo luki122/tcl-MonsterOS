@@ -1,0 +1,20 @@
+<resources>
+    <dimen name="tab_cursor_height">2dp</dimen>
+    <dimen name="date_to_left">8dp</dimen>
+    <dimen name="primary_text_size">16sp</dimen>
+    <dimen name="secondary_text_size">14sp</dimen>
+    <dimen name="date_text_size">10sp</dimen>
+    <dimen name="twoline_height">68dp</dimen>
+    <dimen name="item_header_height">30dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="list_item_delete_back_width">49dp</dimen>
+    <dimen name="sys_auth_dlg_content_padding_bottom">15dp</dimen>
+    <dimen name="sys_auth_dlg_content_padding_top">18dp</dimen>
+    <dimen name="sys_auth_dlg_content_msg_linespacingextra">5dp</dimen>
+    <dimen name="sys_auth_dlg_checkbox_margin_top">15dp</dimen>
+    <dimen name="calllog_popupwindow_margin_right">8dp</dimen>
+    <dimen name="more_popupwindow_margin_top">28dp</dimen>
+    <dimen name="permission_dialog_margin">13dip</dimen>
+</resources>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="cancel">Cancel</string>
+    <string name="selected_total_num">Selected <xliff:g id="total">%d</xliff:g> items</string>
+    <string name="menu_copy">Copy</string>
+    <string name="toast_text_copied">Text copied</string>
+
+    <string name="set_smsc_fewer_then_4">Enter fewer than 4 characters.</string>
+
+    <string name="retract">^retract</string>
+    <string name="spread">more</string>
+
+    <string name="menu_create_new_contacts">Create new contact</string>
+    <string name="menu_add_to_existing_contacts">Added to existing contacts</string>
+
+    <string name="prefix_send_failure">【Sending failed】</string>
+
+    <string name="none_matched_message">None matched messages</string>
+
+    <string name="no_sim_card">Unable to send, there is no SIM card!</string>
+
+    <string name="add_contacts">Add</string>
+
+    <string name="message_expand">View full text</string>
+
+    <string name="message_and_more_recipients">及其他<xliff:g id="COUNT">%d</xliff:g>位...</string>
+
+    <string name="comma_delimiter">"、"</string>
+    <string name="message_and_more_recipients_one"> and the other 1...</string>
+    <string name="message_send_fail_recipients">Failed to send to:</string>
+    <string name="message_send_fail_resend">Resend</string>
+    <string name="message_delete_title">Prompts</string>
+    <string name="confirm_delete_selected_messages_one">Delete this message?</string>
+    <string name="confirm_delete_selected_messages_more">Delete these <xliff:g id="COUNT">%d</xliff:g> messages ?</string>
+    <string name="confirm_mark_selected_messages_title">Mark as read?</string>
+    <string name="confirm_mark_selected_messages">Whether mark selected messages as read?</string>
+
+    <string name="recipients_editor_contacts_count"><xliff:g id="COUNT">%d</xliff:g>人</string>
+    <string name="not_found_activity_start">No such type of application</string>
+
+    <string name="mst_total_conversation_count">Total of <xliff:g id="COUNT">%d</xliff:g> conversations</string>
+    <string name="mst_total_sim_messages_count">Total of <xliff:g id="COUNT">%d</xliff:g> messages</string>
+    <string name="mst_searched_messages_count">Total of <xliff:g id="COUNT">%d</xliff:g> matches</string>
+
+    <string name="no_unread_messages_selected">No unread messages selected</string>
+
+    <string name="mst_messages_count"><xliff:g id="COUNT">%d</xliff:g> messages</string>
+
+    <string name="get_recipients_failed" msgid="4573835601024786416">Get recipients failed</string>
+    <string name="get_recipient_number_failed" msgid="4573835601024786416">Get recipient number failed</string>
+
+    <string name="replace_current_attachment_dlg">Be sure to replace the attachment？</string>
+    
+    <string name="notification_sim_divider" translatable="false">&#183;&#160;</string>
+    <string name="notification_sim_info">SIM</string>
+
+    <string name="conversations_delete_completed">Delete has been completed</string>
+    <string name="messages_delete_completed">Delete has been completed</string>
+
+    <string name="permission_no_storage">Please open the storage permissions.</string>
+    <string name="permission_no_location">Please open the location permissions.</string>
+    <string name="permission_no_record">Please open the record permissions."</string>
+    <string name="permission_no_sms">Please open the storage permissions."</string>
+    <string name="permission_no_calllog" >Please open the calllog permissions."</string>
+    <string name="permission_no_contacts">Please open the contacts permissions."</string>
+    <string name="missing_required_permission">You have disabled a required permission.</string>
+    <string name="confirm_delete_conversation_one">Delete this conversation ?</string>
+    <string name="confirm_delete_conversation_other">Delete these <xliff:g id="COUNT">%d</xliff:g> conversations ?</string>
+    <string name="mst_delivery_toast_body">"Messages delivered"</string>
+    <string name="only_add_one_image">"Only can add one picture"</string>
+    <string name="message_audio_file_text">"audio file"</string>
+    <string name="recipient_category">Recipient category</string>
+    <string name="message_category">Message category</string>
+    <string name="remove_duplicate_contact">"Duplicate number removed"</string>
+    <string name="deleting_messages">"Deleting messages\u2026"</string>
+    <string name="toast_contact_no_number">"the contact has no number"</string>
+</resources>

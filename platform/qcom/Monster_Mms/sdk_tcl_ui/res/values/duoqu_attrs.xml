@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="duoqu_attr">
+        <attr name="duoqu_height" format="dimension" />
+        <attr name="duoqu_width" format="dimension" />
+    </declare-styleable>
+
+<declare-styleable name="duoqu_table_attr">
+<attr name="title_textsize" format="dimension" />
+<attr name="content_textsize" format="dimension" />
+<attr name="title_textcolor" format="reference" />
+<attr name="content_textcolor" format="reference" />
+<attr name="first_title_paddingtop" format="dimension" />
+<attr name="title_paddingtop" format="dimension" />
+<attr name="title_paddingleft" format="dimension" />
+<attr name="content_paddingtop" format="dimension" />
+<attr name="content_paddingleft" format="dimension" />
+<attr name="content_paddingbottom" format="dimension" />
+<attr name="single_line" format="string" />
+<attr name="line_spacing" format="dimension" />
+<attr name="margin_top" format="dimension" />
+<attr name="margin_left" format="dimension" />
+<attr name="margin_right" format="dimension" />
+<attr name="margin_bottom" format="dimension" />
+<attr name="round_point_size" format="dimension" />
+<attr name="text_paddingtop" format="dimension" />
+<attr name="text_paddingleft" format="dimension" />
+<attr name="text_paddingbottom" format="dimension" />
+<attr name="round_point_width" format="dimension" />
+<attr name="round_point_height" format="dimension" />
+<attr name="round_point_margin_right" format="dimension" />
+</declare-styleable>
+<attr name="borderRadius" format="dimension" />
+<attr name="type">
+</attr>
+<declare-styleable name="RoundImageView">
+<attr name="borderRadius" />
+<attr name="type" />
+</declare-styleable>
+<declare-styleable name="duoqu_table_attr_two_rows">
+<attr name="duoqu_tb_top_width" format="dimension" />
+<attr name="duoqu_tb_bottom_width" format="dimension" />
+<attr name="duoqu_tb_top_row_height" format="dimension" />
+<attr name="duoqu_tb_bottom_row_height" format="dimension" />
+<attr name="duoqu_tb_top_bottom_left_padleft" format="dimension" />
+<attr name="duoqu_tb_top_row_textsize" format="dimension" />
+<attr name="duoqu_tb_bottom_row_textsize" format="dimension" />
+<attr name="duoqu_tb_top_row_textcolor" format="dimension" />
+<attr name="duoqu_tb_bottom_row_textcolor" format="dimension" />
+<attr name="duoqu_tb_need_top_row_bg" format="string" />
+<attr name="duoqu_tb_need_bottom_row_bg" format="string" />
+<attr name="duoqu_tb_table_min_height" format="dimension" />
+<attr name="duoqu_tb_table_row_spacing" format="dimension" />
+</declare-styleable>
+</resources>

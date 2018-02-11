@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mst_gallery">Gallery</string>
+    <string name="mst_enter_album">All Albums</string>
+    <string name="mst_select_all">Select All</string>
+    <string name="mst_de_select_all">Deselect All</string>
+    <string name="mst_more">More</string>
+    
+    <plurals name="mst_number_of_items_selected">
+        <item quantity="zero">%1$d selected</item>
+        <item quantity="one">%1$d selected</item>
+        <item quantity="other">%1$d selected</item>
+    </plurals>
+    
+    <!-- From TCT BEGIN -->
+    <string name="filtershow_none">None</string>
+    <string name="filtershow_frame">Frame</string>
+    <!-- <string name="edit_save_message">"Overwrite Original Or Save As A Copy?"</string> -->
+    <string name="edit_save_message">"Save Modifications?"</string>
+    <string name="filtershow_save_button_overwrite">"Overwrite Original"</string>
+    <string name="filtershow_save_button_copy">"Save As A Copy"</string>
+    <string name="filtershow_save">"Save"</string>
+    <string name="filtershow_auto_edit">"Auto Edit"</string>
+    <string name="trim_title">"Discard changes?"</string>
+    <string name="trim_message">"Your changes are not saved"</string>
+    <string name="trim_discard">"Discard"</string>
+    
+    <!-- From TCT End -->
+    
+    <string name="mst_rotate_left">"Rotate Left"</string>
+    <string name="mst_rotate_right">"Rotate Right"</string>
+    <string name="mst_rotate_vertical">"Rotate Vertically"</string>
+    <string name="mst_rotate_horizontal">"Rotate Horizontally"</string>
+    
+    <string name="mst_cancel">"Cancel"</string>
+    <string name="mst_cancel_apply">"Cancel"</string>
+    <string name="mst_apply">"Apply"</string>
+    <string name="mst_save">"Save"</string>
+    <string name="mst_reset">"Reset"</string>
+    
+</resources>

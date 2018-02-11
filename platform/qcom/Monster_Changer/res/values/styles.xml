@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (C) 2014 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppTheme" parent="@com.mst:style/Theme.Mst.Material.Light">
+        <item name="android:statusBarColor">?android:attr/colorPrimary</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="com.mst:actionPositiveText">@string/select_all</item>
+        <item name="com.mst:actionNagativeText">@string/cancel</item>
+    </style>
+
+    <style name="AppTheme.DarkStatusBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <style name="Theme.Wallpaper.ListActivity" parent="AppTheme">
+        <item name="com.mst:windowLayoutStyle">@style/WindowLayout.Wallpaper.ListActivity</item>
+    </style>
+
+    <style name="WindowLayout.Wallpaper.ListActivity" parent="com.mst:WindowStyle.Light">
+        <item name="com.mst:hasBackIcon">true</item>
+    </style>
+
+    <style name="Theme.Wallpaper.Preview" parent="@com.mst:style/Theme.Mst.Material.Light">
+        <item name="android:actionBarSize">@dimen/toolbar_height_with_transparent_statusbar</item>
+        <item name="com.mst:colorToolbarIcon">#ffffff</item>
+        <item name="android:toolbarStyle">@com.mst:style/ToolbarStyle</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+    </style>
+
+    <style name="Theme.Wallpaper.Preview.SetDesktopWallpaper">
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
+
+    <style name="Theme.Wallpaper.Preview.SetKeyguardWallpaper">
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
+
+    <style name="Theme.Wallpaper.SetWallpaper" parent="@com.mst:style/Theme.Mst.Material.Light"></style>
+
+    <style name="Theme.MainActivity" parent="AppTheme">
+        <item name="android:toolbarStyle">@style/Style.Main.Toolbar</item>
+        <item name="com.mst:windowLayoutStyle">@style/WindowLayout.Wallpaper.MainActivity</item>
+    </style>
+
+    <style name="WindowLayout.Wallpaper.MainActivity" parent="com.mst:WindowStyle.Light">
+        <item name="com.mst:hasBackIcon">true</item>
+    </style>
+
+    <style name="Style.Main.Toolbar" parent="com.mst:ToolbarStyle">
+        <item name="com.mst:title">@string/main_page_title</item>
+    </style>
+
+    <style name="TextAppearance.MainPageText" parent="">
+        <item name="android:textSize">@dimen/text_size_main_page_text</item>
+        <item name="android:textColor">@color/text_color_main_page_text</item>
+    </style>
+
+    <style name="TextAppearance.KeyguardWallpaperListItem" parent="com.mst:style/TextAppearance.Mst.Material.Body2">
+        <item name="android:textColor">#cc000000</item>
+    </style>
+
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="100" android:drawable="@drawable/cloud_frame_0"/>
+    <item android:duration="100" android:drawable="@drawable/cloud_frame_1"/>
+    <item android:duration="100" android:drawable="@drawable/cloud_frame_2"/>
+    <item android:duration="100" android:drawable="@drawable/cloud_frame_3"/>
+    <item android:duration="100" android:drawable="@drawable/cloud_frame_4"/>
+    <item android:duration="100" android:drawable="@drawable/cloud_frame_5"/>
+    <item android:duration="100" android:drawable="@drawable/cloud_frame_6"/>
+    <item android:duration="100" android:drawable="@drawable/cloud_frame_7"/>
+    <item android:duration="100" android:drawable="@drawable/cloud_frame_8"/>
+    <item android:duration="100" android:drawable="@drawable/cloud_frame_9"/>
+    <item android:duration="100" android:drawable="@drawable/cloud_frame_10"/>
+    <item android:duration="100" android:drawable="@drawable/cloud_frame_11"/>
+    <item android:duration="100" android:drawable="@drawable/cloud_frame_12"/>
+    <item android:duration="100" android:drawable="@drawable/cloud_frame_13"/>
+    <item android:duration="100" android:drawable="@drawable/cloud_frame_14"/>
+    <item android:duration="100" android:drawable="@drawable/cloud_frame_15"/>
+    <item android:duration="100" android:drawable="@drawable/cloud_frame_16"/>
+    <item android:duration="100" android:drawable="@drawable/cloud_frame_17"/>
+    <item android:duration="100" android:drawable="@drawable/cloud_frame_18"/>
+    <item android:duration="100" android:drawable="@drawable/cloud_frame_19"/>
+    <item android:duration="100" android:drawable="@drawable/cloud_frame_20"/>
+    <item android:duration="100" android:drawable="@drawable/cloud_frame_21"/>
+    <item android:duration="100" android:drawable="@drawable/cloud_frame_22"/>
+    <item android:duration="100" android:drawable="@drawable/cloud_frame_23"/>
+    <item android:duration="100" android:drawable="@drawable/cloud_frame_24"/>
+    <item android:duration="100" android:drawable="@drawable/cloud_frame_25"/>
+    <item android:duration="100" android:drawable="@drawable/cloud_frame_26"/>
+    <item android:duration="100" android:drawable="@drawable/cloud_frame_27"/>
+    <item android:duration="100" android:drawable="@drawable/cloud_frame_28"/>
+    <item android:duration="100" android:drawable="@drawable/cloud_frame_29"/>
+    <item android:duration="100" android:drawable="@drawable/cloud_frame_30"/>
+    <item android:duration="100" android:drawable="@drawable/cloud_frame_31"/>
+    <item android:duration="100" android:drawable="@drawable/cloud_frame_32"/>
+    <item android:duration="100" android:drawable="@drawable/cloud_frame_33"/>
+</animation-list>

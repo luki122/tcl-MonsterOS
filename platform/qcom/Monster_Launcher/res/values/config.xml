@@ -1,0 +1,117 @@
+<resources>
+<!-- Dynamic Grid -->
+    <!-- Out of 100, the percent of space the overview bar should try and take vertically. -->
+    <integer name="config_dynamic_grid_overview_icon_zone_percentage">15</integer>
+
+<!-- Miscellaneous -->
+    <bool name="config_largeHeap">false</bool>
+    <bool name="is_tablet">false</bool>
+    <bool name="is_large_tablet">false</bool>
+    <bool name="allow_rotation">false</bool>
+
+    <!-- Max number of page indicators to show -->
+    <integer name="config_maxNumberOfPageIndicatorsToShow">21</integer>
+    <!-- lijun add :Max number of page indicators of Cube to show -->
+    <integer name="config_maxNumberOfPageIndicatorsToShow_Cube">6</integer>
+
+    <!-- App data backup and restore. To enble backup, register with an android backup service.
+         http://developer.android.com/guide/topics/data/backup.html#BackupKey -->
+    <bool name="enable_backup">false</bool>
+
+<!-- DragController -->
+    <integer name="config_flingToDeleteMinVelocity">-1500</integer>
+    <item type="id" name="drag_event_parity" />
+
+<!-- AllApps & Launcher transitions -->
+    <!-- The alpha of the AppsCustomize bg in spring loaded mode -->
+    <integer name="config_workspaceScrimAlpha">55</integer>
+    <integer name="config_allAppsTransitionTime">100</integer>
+    <integer name="config_overviewTransitionTime">250</integer>
+
+    <!-- Out of 100, the percent to shrink the workspace during spring loaded mode. -->
+    <integer name="config_workspaceSpringLoadShrinkPercentage">95</integer>
+    <!-- Out of 100, the percent to shrink the workspace during overview mode. -->
+    <integer name="config_workspaceOverviewShrinkPercentage">89</integer>
+    <integer name="config_workspaceNormalDragShrinkPercentage">95</integer>
+
+    <!-- Fade/zoom in/out duration & scale in a Launcher overlay transition.
+         Note: This should be less than the config_overlayTransitionTime as they happen together. -->
+    <integer name="config_overlayRevealTime">220</integer>
+    <integer name="config_overlayTransitionTime">300</integer>
+    <integer name="config_overlayItemsAlphaStagger">60</integer>
+
+    <!-- This constant stores the ratio of the all apps button drawable which
+         is used for internal (baked-in) padding -->
+    <integer name="config_allAppsButtonPaddingPercent">17</integer>
+
+    <integer name="config_workspaceDefaultScreen">0</integer>
+
+<!-- Workspace -->
+    <!-- The duration (in ms) of the fade animation on the object outlines, used when
+         we are dragging objects around on the home screen. -->
+    <integer name="config_dragOutlineFadeTime">2000</integer>
+
+    <!-- The alpha value at which to show the most recent drop visualization outline. -->
+    <integer name="config_dragOutlineMaxAlpha">128</integer>
+
+    <!-- Parameters controlling the animation for when an item is dropped on the home screen,
+         and it animates from its old position to the new one. -->
+    <integer name="config_dropAnimMinDuration">100</integer>
+    <integer name="config_dropAnimMaxDuration">500</integer>
+
+    <!-- The duration of the UserFolder opening and closing animation -->
+    <integer name="config_folderExpandDuration">200</integer><!--liuzuo 120>>200-->
+    <integer name="config_materialFolderExpandDuration">240</integer>
+    <integer name="config_materialFolderExpandStagger">60</integer>
+
+    <!-- The distance at which the animation should take the max duration -->
+    <integer name="config_dropAnimMaxDist">800</integer>
+
+<!-- Hotseat -->
+    <bool name="hotseat_transpose_layout_with_orientation">true</bool>
+
+    <!-- Memory debugging, including a memory dump icon -->
+    <bool name="debug_memory_enabled">false</bool>
+
+    <!-- Name of a subclass of AppFilter used to
+         filter the activities shown in the launcher. Can be empty. -->
+    <string name="app_filter_class" translatable="false"></string>
+
+    <!-- Name of a subclass of BuildInfo used to
+         get build information. Can be empty. -->
+    <string name="build_info_class" translatable="false"></string>
+
+    <!-- View ID to use for QSB widget -->
+    <item type="id" name="qsb_widget" />
+
+<!-- Accessibility actions -->
+    <item type="id" name="action_remove" />
+    <item type="id" name="action_uninstall" />
+    <item type="id" name="action_info" />
+    <item type="id" name="action_add_to_workspace" />
+    <item type="id" name="action_move" />
+    <item type="id" name="action_move_to_workspace" />
+    <item type="id" name="action_move_screen_backwards" />
+    <item type="id" name="action_move_screen_forwards" />
+    <item type="id" name="action_resize" />
+
+
+
+<!--ButtonDropTarget Animation liuzuo-->
+    <integer name="button_drop_target_radius_duration" >300</integer>
+    <integer name="button_drop_target_radius_startDelay" >80</integer>
+
+    <!--Folder Animation liuzuo-->
+    <integer name="folder_blur_background_duration" >350</integer>
+    <integer name="folder_blur_background_startDelay" >60</integer>
+    <integer name="folder_import_button_startDelay" >160</integer>
+    <integer name="folder_snap_to_page_duration" >350</integer>
+    <integer name="folder_import_icon_duration" >800</integer>
+    <integer name="folder_add_icon_duration" >200</integer>
+    <integer name="folder_add_icon_remove_duration" >200</integer>
+    <integer name="folder_import_icon_delay" >60</integer>
+    <integer name="folder_import_icon_radius" >31</integer>
+    <integer name="folder_max_page_num" >5</integer>
+    <integer name="folder_icon_alpha" >40</integer>
+    <integer name="folder_icon_animation_interval" >40</integer>
+</resources>

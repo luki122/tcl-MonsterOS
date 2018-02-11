@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">自启管理</string>
+    <string name="str_no_auto_apps">暂无自启动应用</string>
+    <string name="str_no_auto_apps_note">可通过右上角“+”进行添加</string>
+	<string name="str_add_auto_apps_title">添加自启应用</string>
+	<string name="str_item_add_auto_apps">禁用</string>
+	<string name="str_item_remove_auto_apps">添加</string>
+	<string name="str_menu_add_auto">添加自启动</string>
+	<string name="str_auto_app_count">自启动应用（%1$d个）</string>  
+	<string name="str_already_add">已添加</string>
+	<string name="str_dialog_ok">确定</string>	
+	<string name="str_dialog_cancel">取消</string>
+	<string name="str_dialog_attention">提示</string>
+</resources>

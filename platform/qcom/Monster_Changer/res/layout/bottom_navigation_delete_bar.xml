@@ -1,0 +1,9 @@
+<mst.view.menu.bottomnavigation.BottomNavigationView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mst="http://schemas.android.com/apk/res/com.mst"
+    android:id="@+id/bottom_navigation"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:maxHeight="50dp"
+    android:visibility="gone"
+    mst:menu="@menu/bottom_menu_delete_wallpaper" />

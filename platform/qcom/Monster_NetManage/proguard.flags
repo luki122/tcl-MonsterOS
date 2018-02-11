@@ -1,0 +1,33 @@
+-dontskipnonpubliclibraryclasses
+
+-keep class android.** {
+    <fields>;
+    <methods>;
+}
+-keep class com.android.** {
+    <fields>;
+    <methods>;
+}
+-keep class com.google.** {
+    <fields>;
+    <methods>;
+}
+-keepclasseswithmembernames class * {
+    native <methods>;
+}
+-keep public class com.tencent.** {
+    <fields>;
+    <methods>;
+}
+-keep public class com.qq.** {
+    <fields>;
+    <methods>;
+}
+-keep public class tmsdk.** {
+    <fields>;
+    <methods>;
+}
+-keep public class tmsdkobf.** {
+    <fields>;
+    <methods>;
+}

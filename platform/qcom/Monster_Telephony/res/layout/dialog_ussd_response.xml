@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2008 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<!-- Layout used as the dialog's content View for the USSD dialog.
+     The message field is actually contained within the AlertDialog's
+     scrollView ScrollView, in the contentPanel LinearLayout, so it
+     does not need to be replaced here.  For now, all we have is the
+     input_field EditText to display user data entry. -->
+<!-- [SOLUTION]-Add-BEGIN by TCTNB.(JiangLong Pan), 08/12/2016, SOLUTION-2466214 -->
+<!-- [HOMO][MSRU][IOT2][USSD] USSD menu which have internal menu not works -->
+<!--[BUGFIX]-Modify-END by TSNJ.LI.YU, 10/13/2014, FR-736789-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/scroll"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:paddingLeft="7dip"
+            android:paddingRight="7dip" >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:paddingBottom="4dip"
+        android:paddingRight="15dip"
+        android:paddingTop="10dip" >
+
+        <TextView
+            android:id="@+id/msg"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium">
+        </TextView>
+
+        <TextView
+            android:id="@+id/ussd_update"
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:singleLine="true" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/input_field"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:autoText="true"
+            android:inputType="textCapSentences" ><!--PR-915106-wei-gao-001-->
+        </EditText>
+    </LinearLayout>
+
+</ScrollView>
+    <!--[BUGFIX]-Modify-END by TSNJ.LI.YU, 10/13/2014, FR-736789-->
+<!-- [SOLUTION]-Add-END by TCTNB.(JiangLong Pan) -->

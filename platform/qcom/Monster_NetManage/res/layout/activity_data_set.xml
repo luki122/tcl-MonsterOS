@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mst="http://schemas.android.com/apk/res/com.mst"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/lay_sim1_set"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/lay_sim_set_height"
+        layout="@layout/item_set" />
+
+    <include
+        android:id="@+id/lay_sim2_set"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/lay_sim_set_height"
+        android:layout_marginTop="@dimen/lay_sim_set_divider"
+        layout="@layout/item_set" />
+
+</LinearLayout>

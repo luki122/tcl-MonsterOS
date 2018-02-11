@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="FolderTextView">
+        <attr name="foldline" format="integer" />
+    </declare-styleable>
+
+    <!-- tangyisen 0 is send,1 is recv -->
+    <declare-styleable name="StretchyTextView">
+        <attr name="strtype">
+            <enum name="send" value="0" />
+            <enum name="recv" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="CircleImageView">
+        <!-- 源图片 -->
+        <attr name="src" format="reference"></attr>
+        <!-- 圆角大小 -->
+        <attr name="radius" format="dimension"></attr>
+    </declare-styleable>
+    <!-- tangyisen -->
+    <declare-styleable name="MaxHeightScrollView">
+        <attr name="android:maxHeight" />
+    </declare-styleable>
+
+</resources>

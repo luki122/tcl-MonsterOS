@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <com.android.keyguard.EmergencyButton
+        android:id="@+id/emergency_call_button"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:text="@*android:string/lockscreen_emergency_call"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        style="@style/Widget.TextView.Keyguard.CarrierText"
+        android:textAllCaps="@bool/kg_use_all_caps" 
+        android:layout_marginBottom="@dimen/bouncer_control_margin_bottom"
+        android:background="@drawable/ripple_drawable"
+        />
+        
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        />
+
+    <Button
+        android:id="@+id/bouncer_control_cancel"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent" 
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textAllCaps="@bool/kg_use_all_caps"
+        style="@style/Widget.TextView.Keyguard.CarrierText"
+        android:text="@string/kg_bouncer_control_cancel"
+        android:layout_marginBottom="@dimen/bouncer_control_margin_bottom"
+        android:background="@drawable/ripple_drawable"
+        />
+
+</LinearLayout>

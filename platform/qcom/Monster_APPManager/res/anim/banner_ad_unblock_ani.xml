@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="25" android:drawable="@drawable/banner_ad_reverse_ani_0" />
+    <item android:duration="25" android:drawable="@drawable/banner_ad_reverse_ani_1" />
+    <item android:duration="25" android:drawable="@drawable/banner_ad_reverse_ani_2" />
+    <item android:duration="25" android:drawable="@drawable/banner_ad_reverse_ani_3" />
+    <item android:duration="25" android:drawable="@drawable/banner_ad_reverse_ani_4" />
+    <item android:duration="25" android:drawable="@drawable/banner_ad_reverse_ani_5" />
+    <item android:duration="25" android:drawable="@drawable/banner_ad_reverse_ani_6" />
+    <item android:duration="25" android:drawable="@drawable/banner_ad_reverse_ani_7" />
+    <item android:duration="25" android:drawable="@drawable/banner_ad_reverse_ani_8" />
+    <item android:duration="25" android:drawable="@drawable/banner_ad_reverse_ani_9" />
+    <item android:duration="25" android:drawable="@drawable/banner_ad_reverse_ani_10" />
+    <item android:duration="25" android:drawable="@drawable/banner_ad_reverse_ani_11" />
+    <item android:duration="25" android:drawable="@drawable/banner_ad_reverse_ani_12" />
+    <item android:duration="25" android:drawable="@drawable/banner_ad_reverse_ani_13" />
+    <item android:duration="25" android:drawable="@drawable/banner_ad_reverse_ani_14" />
+</animation-list>

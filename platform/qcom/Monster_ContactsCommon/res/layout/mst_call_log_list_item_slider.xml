@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/primary_action_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground"
+    android:descendantFocusability="blocksDescendants"
+    android:paddingStart="?android:attr/listPreferredItemPaddingStart" >
+
+    <CheckBox
+        android:id="@android:id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/list_item_text_margin"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:gravity="center_vertical"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/call_log_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/mst_call_log_secondline_marginbottom"
+        android:layout_marginTop="@dimen/mst_call_log_firstline_margintop"
+        android:layout_toRightOf="@android:id/button1"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/call_log_first_list"
+            android:layout_width="@dimen/mst_call_log_leftline_width"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:maxWidth="240dp"
+                android:textColor="@color/mst_list_main_text_color"
+                android:textSize="@dimen/mst_call_log_name_textsize" />
+
+            <TextView
+                android:id="@+id/call_type_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:singleLine="true"
+                android:textColor="@color/mst_list_main_text_color"
+                android:textSize="@dimen/mst_call_log_name_textsize" />
+
+            <TextView
+                android:id="@+id/voicemail_transcription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="marquee"
+                android:singleLine="true"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/call_log_second_list"
+            android:layout_width="@dimen/mst_call_log_leftline_width"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/mst_call_log_secondline_margintop"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <!--
+                 <view
+                android:id="@+id/call_type_icons"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_gravity="center_vertical"
+                class="com.android.dialer.calllog.CallTypeIconsView"
+                android:visibility="gone" />
+            -->
+
+            <ImageView
+                android:id="@+id/call_type_icon"
+                android:layout_width="9dp"
+                android:layout_height="12dp"
+                android:layout_marginRight="@dimen/mst_call_log_second_line_margin_right1"
+                android:background="@drawable/mst_out_call_icon" />
+
+            <ImageView
+                android:id="@+id/sim_icon"
+                android:layout_width="10dp"
+                android:layout_height="12dp"
+                android:layout_marginRight="@dimen/mst_call_log_second_line_margin_right1" />
+
+            <TextView
+                android:id="@+id/number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:textColor="@color/call_log_area_color"
+                android:textSize="@dimen/mst_call_secondline_textsize"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/call_location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/mst_call_log_second_line_margin_right2"
+                android:singleLine="true"
+                android:textColor="@color/call_log_area_color"
+                android:textSize="@dimen/mst_call_secondline_textsize" />
+
+            <TextView
+                android:id="@+id/call_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:textColor="@color/call_log_datetime_color"
+                android:textSize="@dimen/mst_call_secondline_textsize" />
+
+            <TextView
+                android:id="@+id/call_account_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:visibility="gone" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/item_more"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:background="?android:attr/selectableItemBackgroundBorderless"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
+        android:paddingStart="@dimen/mst_call_log_detail_icon_marginleft" >
+
+        <ImageView
+            android:id="@+id/primary_action_button"
+            android:layout_width="@dimen/mst_call_log_detail_icon_size"
+            android:layout_height="@dimen/mst_call_log_detail_icon_size"
+            android:layout_centerVertical="true"
+            android:background="@drawable/mst_call_detail_icon"
+            android:clickable="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false" />
+    </RelativeLayout>
+
+</RelativeLayout>

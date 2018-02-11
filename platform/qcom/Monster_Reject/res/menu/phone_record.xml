@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/call_back_record"
+        android:title="@string/call_back">
+    </item>
+    <item
+        android:id="@+id/sms_back_record"
+        android:title="@string/sms_back">
+    </item>
+ 
+
+</menu>

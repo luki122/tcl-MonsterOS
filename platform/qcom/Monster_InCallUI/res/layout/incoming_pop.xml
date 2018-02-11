@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 360 86 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parent_container"
+    android:background="@drawable/float_incoming_bg"
+    android:layout_width="360dp"
+    android:layout_height="206dp" >
+
+    <LinearLayout
+        android:id="@+id/incoming_pop"
+        android:layout_width="344dp"
+        android:layout_height="130dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:paddingLeft="22dp"
+        android:paddingRight="22dp"
+        android:paddingTop="20dp" 
+        android:layout_marginTop="8dp">
+
+        <RelativeLayout
+            android:id="@+id/main_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:fontFamily="monster-medium"
+                android:includeFontPadding="false"
+                android:maxWidth="200dp"
+                android:singleLine="true"
+                android:textColor="#DB000000"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:id="@+id/NumberAndArea"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/name"
+                android:layout_marginTop="4dp"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/sim_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginEnd="12dp"
+                    android:src="@drawable/sim_icon_1"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/number"
+                    style="@com.mst:style/TextAppearance.Mst.Material.Body1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="12dp"
+                    android:includeFontPadding="false"
+                    android:maxWidth="150dp"
+                    android:singleLine="true"
+                    android:textColor="#DB000000"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/area"
+                    style="@com.mst:style/TextAppearance.Mst.Material.Body1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:includeFontPadding="false"
+                    android:singleLine="true"
+                    android:textColor="#DB000000"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/photo_image"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#17000000" />
+
+        <LinearLayout
+            android:id="@+id/action_container"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:elevation="6dp" >
+
+            <ImageButton
+                android:id="@+id/hangup"
+                android:layout_width="104dp"
+                android:layout_height="36dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="25dp"
+                android:background="#00000000"
+                android:src="@drawable/pop_reject" />
+
+            <ImageButton
+                android:id="@+id/answer"
+                android:layout_width="104dp"
+                android:layout_height="36dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="42dp"
+                android:background="#00000000"
+                android:src="@drawable/pop_answer" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

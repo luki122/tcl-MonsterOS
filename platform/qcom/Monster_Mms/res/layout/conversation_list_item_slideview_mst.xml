@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mst.widget.SliderView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mst="http://schemas.android.com/apk/res/com.mst"
+    android:id="@+id/slider_view1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    mst:handleEventInParent="true"
+    mst:layout="@layout/conversation_list_item" />

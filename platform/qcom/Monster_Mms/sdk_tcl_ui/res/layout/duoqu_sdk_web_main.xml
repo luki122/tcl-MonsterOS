@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/duoqu_menu_white"
+    android:fitsSystemWindows="true"
+    android:clipToPadding="true"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/duoqu_header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/duoqu_header_height" >
+        
+        <LinearLayout 
+            android:id="@+id/duoqu_header_back"
+            android:layout_width="@dimen/duoqu_header_back_height"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:gravity="center">
+            
+            <ImageView
+            android:layout_width="@dimen/duoqu_header_back_img_width"
+            android:layout_height="@dimen/duoqu_header_back_img_height"
+            android:src="@drawable/duoqu_actionbar_back" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/duoqu_title_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="@dimen/duoqu_title_name_margin_left"
+            android:layout_marginRight="@dimen/duoqu_title_name_margin_right"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textColor="@color/duoqu_action_bar_title_text_color"
+            android:textSize="@dimen/duoqu_title_name_text_size" />
+        
+        <LinearLayout 
+            android:id="@+id/duoqu_header_menu"
+            android:layout_width="@dimen/duoqu_header_menu_width"
+            android:layout_height="@dimen/duoqu_header_menu_height"
+            android:layout_alignParentRight="true"
+            android:gravity="center">
+            
+            <ImageView
+            android:layout_width="@dimen/duoqu_header_menu_img_width"
+            android:layout_height="@dimen/duoqu_header_menu_img_height"
+            android:src="@drawable/duoqu_actionbar_more" />
+        </LinearLayout>
+
+        
+    </RelativeLayout>
+	
+    <RelativeLayout
+        android:id="@+id/duoqu_webview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/duoqu_header"
+        android:visibility="visible" >
+    </RelativeLayout>
+ <ProgressBar
+        android:id="@+id/duoqu_progressbar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/duoqu_progressbar_height"
+        android:indeterminate="false"
+        android:indeterminateOnly="false"
+        android:progressDrawable="@drawable/duoqu_progress_bar_states"
+        android:layout_below="@id/duoqu_header"
+        android:visibility="gone" />
+   <!--  <RelativeLayout
+        android:id="@+id/duoqu_progressbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/duoqu_header"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:visibility="gone" >
+
+        <ProgressBar
+            android:id="@+id/duoqu_bar"
+            style="@style/myProgressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:indeterminateOnly="true" />
+
+        
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/duoqu_bar"
+            android:text="@string/duoqu_loading"
+            android:textSize="13sp"
+            />
+       
+    </RelativeLayout> -->
+
+    <RelativeLayout
+        android:id="@+id/duoqu_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/duoqu_header"
+        android:visibility="gone" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/duoqu_error_page"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/duoqu_header"
+        android:background="@color/duoqu_menu_white"
+        android:visibility="gone" >
+
+        <RelativeLayout
+            android:id="@+id/duoqu_network_setting"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/duoqu_network_setting_height"
+            android:background="@color/duoqu_menu_white" >
+
+            <ImageView
+                android:id="@+id/duoqu_img_woring"
+                android:layout_width="@dimen/duoqu_network_img_woring_width"
+                android:layout_height="@dimen/duoqu_network_img_woring_height"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/duoqu_network_img_woring_margin_left"
+                android:layout_marginTop="@dimen/duoqu_network_img_woring_margin_right"
+                android:src="@drawable/duoqu_nonetwork" />
+
+            <TextView
+                android:id="@+id/duoqu_error_lable1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/duoqu_img_woring"
+                android:text="@string/duoqu_web_network_fail"
+                android:textColor="@color/duoqu_error_lable1"
+                android:textSize="@dimen/duoqu_error_label1_text_size" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/duoqu_error_lable1"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:paddingRight="@dimen/duoqu_web_network_setting_padding_right"
+                android:text="@string/duoqu_web_network_setting"
+                android:textColor="@color/duoqu_web_network_setting"
+                android:textSize="@dimen/duoqu_web_network_setting_text_size" />
+
+            <ImageView
+                android:id="@+id/duoqu_img_next"
+                android:layout_width="@dimen/duoqu_img_next_width"
+                android:layout_height="@dimen/duoqu_img_next_height"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/duoqu_img_next_margin_left"
+                android:layout_marginTop="@dimen/duoqu_img_next_margin_top"
+                android:src="@drawable/duoqu_networksetting" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/duoqu_action_bar_split_height"
+            android:layout_marginTop="@dimen/duoqu_action_bar_margin_top"
+            android:background="@color/duoqu_split_color" />
+    </RelativeLayout>
+
+</RelativeLayout>

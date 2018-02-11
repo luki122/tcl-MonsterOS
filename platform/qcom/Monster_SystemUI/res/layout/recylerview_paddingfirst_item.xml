@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<View xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/mst_recent_task_item_first_right_see_padding"
+    android:layout_height="match_parent"
+	android:background="#00ff0000">
+</View>

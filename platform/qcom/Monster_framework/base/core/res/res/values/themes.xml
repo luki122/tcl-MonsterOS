@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Light Material Base Theme -->
+    <style name="Theme.Mst.Material.Light" parent="android:Theme.Material.Light">
+        <item name="android:colorForeground">@color/foreground_material_light</item>
+        <item name="android:colorForegroundInverse">@color/foreground_material_dark</item>
+        <item name="android:colorBackground">@color/background_material_light</item>
+        <item name="android:colorBackgroundFloating">@color/background_floating_material_light</item>
+        <item name="android:colorBackgroundCacheHint">@color/background_cache_hint_selector_material_light</item>
+        <item name="android:disabledAlpha">@dimen/disabled_alpha_material_light</item>
+        <item name="android:backgroundDimAmount">0.6</item>
+
+        <!-- Text selection handle attributes -->
+        <!-- <item name="android:textSelectHandleLeft">@drawable/text_select_handle_left_material</item>
+        <item name="android:textSelectHandleRight">@drawable/text_select_handle_right_material</item>
+        <item name="android:textSelectHandle">@drawable/text_select_handle_middle_material</item>
+        <item name="android:textSelectHandleWindowStyle">@style/Widget.Material.TextSelectHandle</item>
+        <item name="android:textSuggestionsWindowStyle">@style/Widget.Material.Light.TextSuggestionsPopupWindow</item>
+        <item name="android:textCursorDrawable">@drawable/text_cursor_material</item> -->
+        <item name="android:textSelectHandle">@drawable/text_select_handle_middle_mst</item>
+        <item name="android:textSelectHandleLeft">@drawable/text_select_handle_left_mst</item>
+        <item name="android:textSelectHandleRight">@drawable/text_select_handle_right_mst</item>
+
+        <!-- Text styles -->
+        <!--
+        Inverse means different from normal,
+        eg. textAppearanceInverse and textAppearance
+        -->
+        <item name="android:textAppearance">@style/TextAppearance.Mst.Material</item>
+        <item name="android:textAppearanceInverse">@style/TextAppearance.Mst.Material.Inverse</item>
+        <item name="android:textColorPrimary">@color/primary_text_material_light</item>
+        <item name="android:textColorPrimaryInverse">@color/primary_text_material_dark</item>
+        <item name="textColorPrimaryActivated">@color/primary_text_inverse_when_activated_material</item>
+        <item name="android:textColorSecondary">@color/secondary_text_material_light</item>
+        <item name="android:textColorSecondaryInverse">@color/secondary_text_material_dark</item>
+        <item name="textColorSecondaryActivated">@color/secondary_text_inverse_when_activated_material</item>
+        <item name="android:textColorTertiary">@color/secondary_text_material_light</item>
+        <item name="android:textColorTertiaryInverse">@color/secondary_text_material_dark</item>
+        <item name="android:textColorPrimaryDisableOnly">@color/primary_text_disable_only_material_light</item>
+        <item name="android:textColorPrimaryInverseDisableOnly">@color/primary_text_disable_only_material_dark</item>
+        <item name="android:textColorHint">@color/hint_foreground_material_light</item>
+        <item name="android:textColorHintInverse">@color/hint_foreground_material_dark</item>
+        <item name="android:textColorHighlight">@color/highlighted_text_material</item>
+        <item name="android:textColorHighlightInverse">@color/highlighted_text_material</item>
+        <item name="android:textColorLink">?android:attr/colorAccent</item>
+        <item name="android:textColorLinkInverse">?android:attr/colorAccent</item>
+        <item name="android:textColorAlertDialogListItem">@color/primary_text_material_light</item>
+        <item name="android:textAppearanceLarge">@style/TextAppearance.Mst.Material.Large</item>
+        <item name="android:textAppearanceLargeInverse">@style/TextAppearance.Mst.Material.Large.Inverse</item>
+        <item name="android:textAppearanceMedium">@style/TextAppearance.Mst.Material.Medium</item>
+        <item name="android:textAppearanceMediumInverse">@style/TextAppearance.Mst.Material.Medium.Inverse</item>
+        <item name="android:textAppearanceSmall">@style/TextAppearance.Mst.Material.Small</item>
+        <item name="android:textAppearanceSmallInverse">@style/TextAppearance.Mst.Material.Small.Inverse</item>
+        <item name="android:textAppearanceButton">@style/TextAppearance.Mst.Material.Button.black</item>
+        <item name="android:editTextColor">?android:attr/textColorPrimary</item>
+        <item name="android:editTextBackground">@null</item>
+        <item name="android:textCheckMark">@drawable/indicator_check_mark_light</item>
+        <item name="android:textCheckMarkInverse">@drawable/indicator_check_mark_dark</item>
+        <item name="android:textAppearanceLargePopupMenu">@style/TextAppearance.Mst.Material.Widget.PopupMenu.Large</item>
+        <item name="android:textAppearanceSmallPopupMenu">@style/TextAppearance.Mst.Material.Widget.PopupMenu.Small</item>
+        <item name="android:searchViewStyle">@style/Widget.Mst.Material.SearchView</item>
+        <!-- Button styles -->
+        <item name="android:buttonStyle">@style/Widget.Mst.Material.Button.New</item>
+        <item name="android:buttonStyleSmall">@style/Widget.Mst.Material.Light.Button.Small</item>
+        <item name="android:buttonStyleInset">@style/Widget.Mst.Material.Light.Button.Inset</item>
+        <item name="android:switchStyle">@style/Widget.Mst.Material.CompoundButton.Switch</item>
+        <item name="android:selectableItemBackground">@drawable/item_background_material</item>
+        <item name="android:selectableItemBackgroundBorderless">@drawable/item_background_borderless_material</item>
+        <item name="android:borderlessButtonStyle">@style/Widget.Mst.Material.Light.Button.Borderless</item>
+
+        <!-- List attributes -->
+        <item name="android:listPreferredItemHeight">64dip</item>
+        <item name="android:listPreferredItemHeightSmall">56dip</item>
+        <item name="android:listPreferredItemHeightLarge">74dip</item>
+        <item name="android:textAppearanceListItem">@style/TextAppearance.Mst.Material.Subhead</item>
+        <item name="android:textAppearanceListItemSmall">@style/TextAppearance.Mst.Material.Subhead</item>
+        <item name="android:textAppearanceListItemSecondary">@style/TextAppearance.Mst.Material.Caption</item>
+        <item name="android:listPreferredItemPaddingLeft">@dimen/list_item_padding_horizontal_material</item>
+        <item name="android:listPreferredItemPaddingRight">@dimen/list_item_padding_horizontal_material</item>
+        <item name="android:listPreferredItemPaddingStart">@dimen/list_item_padding_horizontal_material</item>
+        <item name="android:listPreferredItemPaddingEnd">@dimen/list_item_padding_horizontal_material</item>
+        <item name="dropdownListPreferredItemHeight">?android:attr/listPreferredItemHeightSmall</item>
+        <item name="searchResultListItemHeight">58dp</item>
+
+        <!-- @hide -->
+        <item name="android:listDivider">@drawable/list_divider_material</item>
+        <item name="android:listSeparatorTextViewStyle">@style/Widget.Mst.Material.Light.TextView.ListSeparator</item>
+        <item name="android:listChoiceIndicatorSingle">@drawable/btn_radio_material_anim</item>
+        <item name="android:listChoiceIndicatorMultiple">@drawable/btn_check_material_anim</item>
+        <item name="android:listChoiceBackgroundIndicator">@drawable/list_choice_background_material</item>
+        <item name="android:activatedBackgroundIndicator">@drawable/activated_background_material</item>
+        <item name="android:listDividerAlertDialog">@null</item>
+        <item name="android:expandableListPreferredItemPaddingLeft">40dip</item>
+        <item name="android:expandableListPreferredChildPaddingLeft">?android:attr/expandableListPreferredItemPaddingLeft</item>
+        <item name="android:expandableListPreferredItemIndicatorLeft">3dip</item>
+        <item name="android:expandableListPreferredItemIndicatorRight">0dip</item>
+        <item name="android:expandableListPreferredChildIndicatorLeft">?android:attr/expandableListPreferredItemIndicatorLeft</item>
+        <item name="android:expandableListPreferredChildIndicatorRight">?android:attr/expandableListPreferredItemIndicatorRight</item>
+
+        <!-- Window attributes -->
+        <item name="android:windowBackground">?android:attr/colorBackground</item>
+        <item name="android:windowClipToOutline">true</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowOverscan">false</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowShowWallpaper">false</item>
+        <item name="android:windowTitleSize">@dimen/action_bar_default_height_material</item>
+        <!-- <item name="android:windowAnimationStyle">@style/Animation.Mst.Material.Activity</item> -->
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustUnspecified</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowActionModeOverlay">false</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <!-- <item name="android:windowActionBarFullscreenDecorLayout">@layout/screen_toolbar</item> -->
+        <item name="android:statusBarColor">?android:attr/colorPrimary</item>
+        <item name="android:navigationBarColor">@color/navigation_bar_color</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowEnterTransition">@transition/fade</item>
+        <item name="android:windowSharedElementEnterTransition">@transition/move</item>
+        <item name="android:windowSharedElementExitTransition">@transition/move</item>
+        <item name="android:windowContentTransitions">false</item>
+        <item name="android:windowActivityTransitions">true</item>
+         <!-- Scrollbar attributes -->
+        <item name="android:scrollbarSize">10dp</item>
+        <item name="android:scrollbarThumbHorizontal">@drawable/scrollbar_handle_material</item>
+        <item name="android:scrollbarThumbVertical">@drawable/scrollbar_handle_material</item>
+
+        <!-- Dialog attributes -->
+        <item name="android:dialogTheme">@style/ThemeOverlay.Mst.Material.Dialog</item>
+        <item name="dialogTitleIconsDecorLayout">@layout/dialog_title_icons_material</item>
+        <item name="dialogCustomTitleDecorLayout">@layout/dialog_custom_title_material</item>
+        <item name="dialogTitleDecorLayout">@layout/dialog_title_material</item>
+        <item name="android:dialogPreferredPadding">@dimen/dialog_padding_material</item>
+
+        <!-- AlertDialog attributes -->
+        <item name="android:alertDialogTheme">@style/ThemeOverlay.Mst.Material.Dialog.Alert</item>
+        <item name="android:alertDialogStyle">@style/AlertDialog.Mst.Material.Light</item>
+        <item name="alertDialogCenterButtons">true</item>
+        <item name="android:alertDialogIcon">@drawable/ic_dialog_alert_material</item>
+
+        <!-- Widget styles -->
+        <item name="android:checkboxStyle">@style/Widget.Mst.Material.Light.CompoundButton.CheckBox</item>
+        <item name="android:checkedTextViewStyle">@style/Widget.Mst.Material.Light.CheckedTextView</item>
+        <item name="android:dropDownListViewStyle">@style/Widget.Mst.Material.ListView.DropDown</item>
+        <item name="android:editTextStyle">@style/Widget.Mst.Material.Light.EditText</item>
+        <item name="android:listViewStyle">@style/Widget.Mst.Material.Light.ListView</item>
+        <item name="android:popupWindowStyle">@style/Widget.Mst.Material.Light.PopupWindow</item>
+        <item name="android:progressBarStyle">@style/Widget.Mst.Material.Light.ProgressBar</item>
+        <item name="android:progressBarStyleHorizontal">@style/Widget.Mst.Material.Light.ProgressBar.Horizontal</item>
+        <item name="android:progressBarStyleSmall">@style/Widget.Mst.Material.Light.ProgressBar.Small</item>
+        <item name="android:progressBarStyleSmallTitle">@style/Widget.Mst.Material.Light.ProgressBar.Small.Title</item>
+        <item name="android:progressBarStyleLarge">@style/Widget.Mst.Material.Light.ProgressBar.Large</item>
+        <item name="android:progressBarStyleInverse">@style/Widget.Mst.Material.Light.ProgressBar.Inverse</item>
+        <item name="android:progressBarStyleSmallInverse">@style/Widget.Mst.Material.Light.ProgressBar.Small.Inverse</item>
+        <item name="android:progressBarStyleLargeInverse">@style/Widget.Mst.Material.Light.ProgressBar.Large.Inverse</item>
+        <item name="android:seekBarStyle">@style/Widget.Mst.Material.Light.SeekBar</item>
+        <item name="android:radioButtonStyle">@style/Widget.Mst.Material.Light.CompoundButton.RadioButton</item>
+        <item name="android:spinnerStyle">?android:attr/dropDownSpinnerStyle</item>
+        <item name="android:dropDownSpinnerStyle">@style/Widget.Mst.Material.Light.Spinner.DropDown</item>
+        <item name="android:tabWidgetStyle">@style/Widget.Mst.Material.Light.TabWidget</item>
+        <item name="android:textViewStyle">@style/Widget.Material.Light.TextView</item>
+        <item name="android:dropDownItemStyle">@style/Widget.Mst.Material.Light.DropDownItem</item>
+        <item name="android:spinnerDropDownItemStyle">@style/Widget.Mst.Material.Light.DropDownItem.Spinner</item>
+        <item name="android:spinnerItemStyle">@style/Widget.Mst.Material.TextView.SpinnerItem</item>
+        <item name="android:dropDownHintAppearance">@style/TextAppearance.Mst.Material.Widget.DropDownHint</item>
+        <item name="android:popupTheme">@style/ToolBarPopupTheme</item>
+
+        <!-- Preference styles -->
+        <item name="preferenceScreenStyle">@style/Preference.Mst.Material.PreferenceScreen</item>
+        <item name="preferenceActivityStyle">@style/PreferenceActivity.Mst.Material</item>
+        <item name="preferenceFragmentStyle">@style/PreferenceFragment.Mst.Material</item>
+        <item name="preferenceCategoryStyle">@style/Preference.Mst.Material.Category</item>
+        <item name="preferenceStyle">@style/Preference.Mst.Material</item>
+        <item name="preferenceInformationStyle">@style/Preference.Mst.Material.Information</item>
+        <item name="checkBoxPreferenceStyle">@style/Preference.Mst.Material.CheckBoxPreference</item>
+        <item name="switchPreferenceStyle">@style/Preference.Mst.Material.SwitchPreference</item>
+        <item name="seekBarPreferenceStyle">@style/Preference.Mst.Material.SeekBarPreference</item>
+        <item name="yesNoPreferenceStyle">@style/Preference.Mst.Material.DialogPreference.YesNoPreference</item>
+        <item name="dialogPreferenceStyle">@style/Preference.Mst.Material.DialogPreference</item>
+        <item name="seekBarDialogPreferenceStyle">@style/Preference.Mst.Material.DialogPreference.SeekBarPreference</item>
+        <item name="editTextPreferenceStyle">@style/Preference.Mst.Material.DialogPreference.EditTextPreference</item>
+        <item name="ringtonePreferenceStyle">@style/Preference.Mst.Material.RingtonePreference</item>
+        <item name="preferenceLayoutChild">@layout/preference_child_material</item>
+        <item name="preferencePanelStyle">@style/PreferencePanel.Mst.Material</item>
+        <item name="preferenceHeaderPanelStyle">@style/PreferenceHeaderPanel.Mst.Material</item>
+        <item name="preferenceListStyle">@style/PreferenceHeaderList.Mst.Material</item>
+        <item name="preferenceFragmentListStyle">@style/PreferenceFragmentList.Mst.Material</item>
+        <item name="preferenceFragmentPaddingSide">@dimen/preference_fragment_padding_side_material</item>
+        <item name="android:detailsElementBackground">?android:attr/colorBackground</item>
+        <item name="dropdownPreferenceStyle">@style/Preference.Mst.Material.DropDown</item>
+		<item name="android:windowTitleStyle">@style/DialogWindowTitle.Mst.Material</item>
+        <!-- PreferenceFrameLayout attributes -->
+        <item name="preferenceFrameLayoutStyle">@style/Widget.Mst.Material.PreferenceFrameLayout</item>
+
+        <!-- Search widget styles -->
+
+        <item name="android:dividerVertical">?android:attr/listDivider</item>
+        <item name="android:dividerHorizontal">?android:attr/listDivider</item>
+        <item name="android:buttonBarStyle">@style/Widget.Mst.Material.Light.ButtonBar.AlertDialog</item>
+        <item name="android:buttonBarButtonStyle">@style/Widget.Mst.Material.Light.Button.ButtonBar.AlertDialog</item>
+
+        <!-- Color palette -->
+        <item name="android:colorPrimaryDark">@color/primary_dark_material_light</item>
+        <item name="android:colorPrimary">@color/primary_material_light</item>
+        <item name="android:colorAccent">@color/accent_material_light</item>
+        <item name="android:colorEdgeEffect">?android:attr/colorPrimary</item>
+        <item name="android:colorControlNormal">#0D000000</item>
+        <item name="android:colorControlActivated">?android:attr/colorAccent</item>
+        <item name="android:colorControlHighlight">@color/ripple_material_light</item>
+        <item name="android:colorButtonNormal">@color/btn_default_material_light</item>
+        <item name="colorSwitchThumbNormal">@color/switch_thumb_material_light</item>
+        <item name="floatActionButtonStyle">@style/FloatingActionButton</item>
+        <item name="floatingActionButtonHint">@color/floating_action_button_background</item>
+        <item name="CardViewStyle">@style/CardView</item>
+        <!-- Toolbar -->
+        <item name="android:actionBarSize">@dimen/action_bar_default_height</item>
+        <item name="android:toolbarStyle">@style/ToolbarStyle.ShowBottomDivider.Grey</item>
+        <item name="android:actionOverflowButtonStyle">@style/Widget.Mst.Material.Light.OverFlowMenuButton</item>
+        <item name="android:actionButtonStyle">@style/Widget.Mst.Material.Light.ActionButton</item>
+        <item name="colorToolbarIcon">#ff000000</item>
+        <item name="popupMenuItemHeight">48dp</item>
+        <item name="popupTheme">@style/ToolBarPopupTheme</item>
+        <item name="menuViewStyle">@style/ListMenuViewStyle</item>
+        <item name="navigationStyle">@style/Widget.NavigationView</item>
+        <item name="actionModeStyle">@style/ActionMode.Light</item>
+        <item name="windowLayoutStyle">@style/WindowStyle.Light</item>
+        <item name="*android:actionModePopupWindowStyle">@style/Widget.Mst.Material.PopupWindow.ActionMode</item>
+		<item name="actionTextAppearance">@style/TextAppearance.Widget.ActionModeAction</item>
+        <item name="actionTitleAppearance">@style/TextAppearance.Widget.ActionModeTitle</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_toolbar_back</item>
+        <!-- NumberPicker -->
+        <item name="numberPickerStyle">@style/Widget.Mst.Material.Light.NumberPicker</item>
+        <!-- TimePicker -->
+        <item name="timePickerStyle">@style/Widget.Mst.Material.TimePicker</item>
+        <!-- DatePicker -->
+        <item name="datePickerStyle">@style/Widget.Mst.Material.DatePicker</item>
+        <item name="dateTimePickerStyle">@style/Widget.Mst.Material.DateTimePicker</item>
+        <!-- TimePicker dialog theme -->
+        <item name="timePickerDialogTheme">@style/Dialog.Spinner</item>
+
+        <!-- DatePicker dialog theme -->
+        <item name="datePickerDialogTheme">@style/Dialog.Spinner</item>
+    </style>
+    
+    <style name="Theme.Mst.Material.Light.WhiteActionBar">
+        <item name="android:colorPrimary">@color/toolbar_background_white</item>
+        <item name="android:toolbarStyle">@style/ToolbarStyle.ShowBottomDivider.White</item>
+     </style>
+
+    <!-- Resolver Activity Theme -->
+    <style name="Theme.Mst.Resolver" parent="android:Theme.Material.Light">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:colorControlActivated">?android:attr/colorControlHighlight</item>
+        <item name="android:listPreferredItemPaddingStart">?android:attr/dialogPreferredPadding</item>
+        <item name="android:listPreferredItemPaddingEnd">?android:attr/dialogPreferredPadding</item>
+        <item name="android:windowAnimationStyle">@style/Animation.Material.Activity.Share</item>
+    </style>
+
+    <style name="Theme.Material.Light.BaseChooseActivity" parent="Theme.Mst.Material.Light">
+        <!--<item name="android:colorBackground">?android:attr/colorBackgroundFloating</item>-->
+
+        <item name="android:windowFrame">@null</item>
+        <!--<item name="android:windowTitleStyle">@android:style/DialogWindowTitle.Material.Light</item>-->
+        <!--<item name="android:windowTitleBackgroundStyle">@android:style/DialogWindowTitleBackground.Material.Light</item>-->
+        <!--<item name="android:windowBackground">@android:drawable/dialog_background_material</item>-->
+        <item name="android:windowElevation">16dp</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowOverscan">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <!--<item name="android:windowAnimationStyle">@android:style/Animation.Material.Dialog</item>-->
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowActionModeOverlay">false</item>
+        <!--<item name="android:windowCloseOnTouchOutside">@android:bool/config_closeDialogWhenTouchOutside</item>-->
+        <item name="android:alertDialogStyle">@style/AlertActivity.Mst.Material.Light</item>
+
+        <item name="android:colorBackgroundCacheHint">@null</item>
+
+        <item name="android:listPreferredItemPaddingLeft">14dip</item>
+        <item name="android:listPreferredItemPaddingRight">14dip</item>
+        <item name="android:listPreferredItemPaddingStart">14dip</item>
+        <item name="android:listPreferredItemPaddingEnd">14dip</item>
+
+        <item name="android:listDivider">@null</item>
+
+        <item name="android:checkboxStyle">@style/Widget.Mst.Material.Light.CompoundButton.CheckBox</item>
+        <item name="android:switchStyle">@style/Widget.Mst.Material.CompoundButton.Switch1</item>
+        <item name="android:radioButtonStyle">@style/Widget.Mst.Material.Light.CompoundButton.RadioButton</item>
+
+        <!--<item name="android:preferencePanelStyle">@android:style/PreferencePanel.Dialog</item>-->
+    </style>
+
+    <style name="Theme.Mst.Material.AlertActivity" parent="Theme.Mst.Material.Light">
+        <item name="android:alertDialogTheme">@style/ThemeOverlay.Mst.Material.Dialog.Alert</item>
+        <item name="android:alertDialogStyle">@style/AlertDialog.Mst.Material.Light</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:colorBackground">?android:attr/colorBackgroundFloating</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowTitleStyle">@style/DialogWindowTitle.Mst.Material</item>
+        <item name="android:windowTitleBackgroundStyle">@style/DialogWindowTitleBackground.Mst.Material</item>
+        <item name="android:windowBackground">@drawable/dialog_background_material</item>
+        <item name="android:windowElevation">@dimen/floating_window_z</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@style/Animation.Mst.Material.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowCloseOnTouchOutside">@bool/config_closeDialogWhenTouchOutside</item>
+        <item name="android:listPreferredItemPaddingLeft">?android:attr/dialogPreferredPadding</item>
+        <item name="android:listPreferredItemPaddingRight">?android:attr/dialogPreferredPadding</item>
+        <item name="android:listPreferredItemPaddingStart">?android:attr/dialogPreferredPadding</item>
+        <item name="android:listPreferredItemPaddingEnd">?android:attr/dialogPreferredPadding</item>
+        <item name="android:listDivider">@null</item>
+        <item name="preferencePanelStyle">@style/PreferencePanel.Dialog</item>
+        <item name="android:windowMinWidthMajor">@dimen/dialog_min_width_major</item>
+        <item name="android:windowMinWidthMinor">@dimen/dialog_min_width_minor</item>
+    </style>
+    
+    <style name="poweroffDialog" parent="@android:style/Theme.Holo.DialogWhenLarge">
+        <item name="android:windowNoTitle">true</item> 
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@color/transparent_background</item>
+        <item name="android:windowIsTranslucent">true</item> 
+    </style>
+    
+</resources>
