@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.camera.ui.PreferenceLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/preference_main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/settings_listview_background_color">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mode_header_height"
+        android:clickable="true"
+        android:background="@android:color/transparent">
+
+        <ImageView
+            android:id="@+id/setting_close"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="@dimen/mode_manager_disp_margin_start"
+            android:src="@drawable/ic_mode_overview_close" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/mode_settings"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/mode_overview_header_text_size" />
+    </RelativeLayout>
+
+    <ListView android:id="@+id/preference_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbarStyle="outsideOverlay"
+        android:clipToPadding="false"
+        android:drawSelectorOnTop="false"
+        android:cacheColorHint="@android:color/transparent"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:divider="@null"
+        android:fadingEdge="none"
+        android:scrollbars="none"/>
+</com.android.camera.ui.PreferenceLayout>

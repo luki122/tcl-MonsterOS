@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.camera.ui.StereoRotateTextView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/stereo_text"
+	android:paddingLeft="@dimen/bottom_bar_title_padding"
+    android:paddingTop="@dimen/bottom_bar_scroller_margin"
+	android:paddingRight="@dimen/bottom_bar_title_padding"
+    android:paddingBottom="@dimen/bottom_bar_title_padding_bottom"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	style="@style/ModeNameText">
+</com.android.camera.ui.StereoRotateTextView>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#0f000000"/>
+
+    <ImageView
+        android:id="@+id/big_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/big_image"
+        android:background="#FAFAFA"/>
+
+    <ScrollView
+        android:layout_below="@id/big_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="25dp"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ListView
+                android:id="@+id/listView"
+                android:layout_width="match_parent"
+                android:layout_height="224dp"
+                android:layout_marginBottom="15dp"
+                />
+
+            <TextView
+                android:id="@+id/texthint"
+                android:layout_marginLeft="10dp"
+                android:layout_below="@id/listView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:text="@string/recover_data"/>
+
+            <RelativeLayout
+                android:id="@+id/one_key_recovery"
+                android:layout_below="@id/texthint"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/img_cloud"
+                    android:layout_marginLeft="25dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/recover"/>
+
+                <TextView
+                    android:layout_toRightOf="@id/img_cloud"
+                    android:layout_marginLeft="25dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/download_to_local_qq"
+                    android:layout_centerVertical="true"
+                    android:gravity="center_vertical"
+                    android:layout_marginRight="20dp"
+                    android:drawableRight="@com.mst:drawable/ic_next_page"/>
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="162dp"
+        android:src="@drawable/cloud_frame_0"/>
+
+    <ImageView
+        android:id="@+id/cloud_anim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="162dp"
+        android:src="@anim/cloud_animation"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/btn_update"
+        android:layout_marginTop="235dp"
+        android:layout_marginRight="12dp"
+        android:layout_alignParentRight="true"
+        android:layout_width="64dp"
+        android:layout_height="63dp"
+        android:src="@drawable/main_page_update_btn"/>
+
+</RelativeLayout>

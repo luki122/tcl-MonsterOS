@@ -1,0 +1,18 @@
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="@com.mst:style/Theme.Mst.Material.Light">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="button_style" parent="@android:style/Widget.Material.Button.Borderless">
+        <item name="android:layout_width">240dp</item>
+        <item name="android:layout_height">34dp</item>
+        <item name="android:fontFamily">monster-normal</item>
+        <item name="android:textColor">#FF000000</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:background">@drawable/button_drawable</item>
+    </style>
+
+</resources>

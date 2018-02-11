@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#FFFFFF</color> <!-- 白色 -->
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="list_item_press">#f0f0f0</color>
+
+    <color name="tab_bottom_linecolor">#000000</color> <!-- Tab底部线颜色 -->
+
+    <color name="line_grey">#EAEAEA</color>
+
+    <color name="google_blue">#4285F4</color>
+    <color name="google_red">#EA4335</color>
+    <color name="google_green">#34A853</color>
+    <color name="google_yellow">#FBBC05</color>
+
+    <color name="slider_bg">#FE6E6E</color>
+
+    <!-- ProgressBtn View -->
+    <color name="progressRoundColor">#000000</color>
+    <color name="progressRoundGreenColor">#00aa88</color>
+    <color name="progressRoundGreyColor">#CCCCCC</color>
+    <color name="progressGrey_light">#9e9e9e</color>
+    <color name="progressGrey_dark">#dcdcdc</color>
+    <color name="progressGreen_light">#000000</color>
+    <color name="progressGreen_dark">#9e9e9e</color>
+    <color name="focus_btn_text_color">#DB000000</color>
+
+    <!-- 下载管理列表项 -->
+    <color name="down_man_item_speed_text">#0ec16f</color>
+    <color name="down_man_item_status_text">#9e9e9e</color>
+
+    <color name="black_p50">#7f000000</color>
+
+    <color name="link">#ff0083cd</color>
+
+</resources>

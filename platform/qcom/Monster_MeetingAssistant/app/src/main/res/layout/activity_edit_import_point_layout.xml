@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_background"
+    android:orientation="vertical">
+
+    <cn.tcl.meetingassistant.view.RecordVoiceTitleBar
+        android:id="@+id/voice_record_title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+    </cn.tcl.meetingassistant.view.RecordVoiceTitleBar>
+
+    <LinearLayout
+        android:id="@+id/edit_import_title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:translationZ="10dp"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="65dp"
+            android:orientation="vertical"
+            android:background="@color/app_background"
+            android:visibility="visible">
+
+            <TextView
+                android:id="@+id/edit_import_meeting_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="@dimen/layout_common_20dp"
+                android:textColor="@color/black_86opacity"
+                android:textSize="15sp"
+                android:maxLines="1"
+                android:fontFamily="monster-normal"
+                android:maxWidth="250dp"
+                android:ellipsize="end"/>
+
+            <TextView
+                android:layout_below="@+id/edit_import_meeting_name"
+                android:id="@+id/edit_meeting_info_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/layout_common_20dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/edit_meeting_info"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:textSize="@dimen/font_size_12sp"
+                android:fontFamily="monster-normal"
+                android:drawablePadding="9dp"
+                android:drawableLeft="@mipmap/ic_edit_meeting"
+                android:textColor="@color/black_50opacity"
+                android:visibility="visible" />
+
+            <ScrollView
+                android:layout_below="@+id/edit_import_meeting_name"
+                android:id="@+id/edit_import_meeting_info_table_scroll"
+                android:layout_marginTop="4dp"
+                android:visibility="gone"
+                android:background="@android:color/transparent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <cn.tcl.meetingassistant.view.CollapseView
+                    android:id="@+id/edit_import_meeting_info_table"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"/>
+            </ScrollView>
+
+            <ImageButton
+                android:id="@+id/edit_import_meeting_more_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:translationZ="200dp"
+                android:layout_marginRight="@dimen/layout_common_20dp"
+                android:layout_marginTop="@dimen/layout_common_12dp"
+                android:background="?android:attr/selectableItemBackgroundBorderless"
+                android:src="@mipmap/more_icon" />
+
+            <ImageButton
+                android:id="@+id/edit_import_meeting_voice_btn"
+                android:layout_toLeftOf="@id/edit_import_meeting_more_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:translationZ="20000dp"
+                android:layout_marginRight="29dp"
+                android:layout_marginTop="@dimen/layout_common_12dp"
+                android:background="?android:attr/selectableItemBackgroundBorderless"
+                android:src="@mipmap/microphone_icon"
+                />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/layout_common_0.66dp"
+            android:background="#ececec"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/edit_import_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="65dp"
+        android:orientation="vertical">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/edit_import_list"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+
+        </android.support.v7.widget.RecyclerView>
+
+        <LinearLayout
+            android:id="@+id/edit_import_meeting_buttons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical">
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/layout_common_0.66dp"
+                android:background="#ececec"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/layout_common_48dp"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/scan_decision_btn"
+                        android:text="@string/number_decision"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:theme="?android:attr/buttonStyle"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:textSize="@dimen/font_size_16sp"
+                        android:textColor="@color/black_86opacity"/>
+
+                    <View
+                        android:id="@+id/divide_line_between_btn"
+                        android:layout_width="@dimen/layout_common_0.66dp"
+                        android:layout_height="match_parent"
+                        android:background="#ececec"
+                        />
+
+                    <Button
+                        android:text="@string/write_decision"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/edit_decision_btn"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:textSize="@dimen/font_size_16sp"
+                        android:textColor="@color/black_86opacity"/>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/layout_common_0.66dp"
+                    android:background="#ececec"
+                    />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/layout_common_0.66dp"
+                android:background="#ececec"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

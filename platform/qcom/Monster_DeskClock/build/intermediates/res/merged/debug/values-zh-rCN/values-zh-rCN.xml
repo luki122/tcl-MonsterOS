@@ -1,0 +1,923 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="alarm_set">
+        <item msgid="6450913786084215050">"闹钟时间已设为不到1分钟后。"</item>
+        <item msgid="6002066367368421848">"闹钟时间已设为<ns1:g id="DAYS">%1$s</ns1:g>后。"</item>
+        <item msgid="8824719306247973774">"闹钟时间已设为<ns1:g id="HOURS">%2$s</ns1:g>后。"</item>
+        <item msgid="8182406852935468862">"闹钟时间已设为<ns1:g id="DAYS">%1$s</ns1:g><ns1:g id="HOURS">%2$s</ns1:g>后。"</item>
+        <item msgid="2532279224777213194">"闹钟时间已设为<ns1:g id="MINUTES">%3$s</ns1:g>后。"</item>
+        <item msgid="5936557894247187717">"闹钟时间已设为<ns1:g id="DAYS">%1$s</ns1:g><ns1:g id="MINUTES">%3$s</ns1:g>后。"</item>
+        <item msgid="9115697840826129603">"闹钟时间已设为<ns1:g id="HOURS">%2$s</ns1:g><ns1:g id="MINUTES">%3$s</ns1:g>后。"</item>
+        <item msgid="2332583385137381060">"闹钟时间已设为<ns1:g id="DAYS">%1$s</ns1:g><ns1:g id="HOURS">%2$s</ns1:g><ns1:g id="MINUTES">%3$s</ns1:g>后。"</item>
+    </string-array>
+    <string-array name="auto_silence_entries">
+        <item msgid="3024545954917711306">"1 分钟"</item>
+        <item msgid="5431906692406316549">"5 分钟"</item>
+        <item msgid="7742728812068919959">"10 分钟"</item>
+        <item msgid="2855948657259647629">"15 分钟"</item>
+        <item msgid="6330196381284475079">"20 分钟"</item>
+        <item msgid="7809240121716151904">"25 分钟"</item>
+        <item msgid="4278641338024561333">"不停歇"</item>
+    </string-array>
+    <string-array name="cities_names">
+    <item msgid="4653806289288974388">"A<ns1:g id="SEPARATOR">=</ns1:g>阿比让"</item>
+    <item msgid="4864167603178202155">"A<ns1:g id="SEPARATOR">=</ns1:g>阿克拉"</item>
+    <item msgid="6478898553803167749">"Y<ns1:g id="SEPARATOR">=</ns1:g>亚的斯亚贝巴"</item>
+    <item msgid="5618029992528436448">"A<ns1:g id="SEPARATOR">=</ns1:g>阿尔及尔"</item>
+    <item msgid="2906834750114790793">"B<ns1:g id="SEPARATOR">=</ns1:g>布兰太尔"</item>
+    <item msgid="8153571933836629863">"B<ns1:g id="SEPARATOR">=</ns1:g>布拉柴维尔"</item>
+    <item msgid="3703129580594640833">"K<ns1:g id="SEPARATOR">=</ns1:g>开罗"</item>
+    <item msgid="2300915410194647320">"K<ns1:g id="SEPARATOR">=</ns1:g>卡萨布兰卡"</item>
+    <item msgid="1217039002304887948">"K<ns1:g id="SEPARATOR">=</ns1:g>科纳克里"</item>
+    <item msgid="8775104707806220928">"D<ns1:g id="SEPARATOR">=</ns1:g>达喀尔"</item>
+    <item msgid="5948764589113643811">"D<ns1:g id="SEPARATOR">=</ns1:g>达累斯萨拉姆"</item>
+    <item msgid="6306254507715416077">"J<ns1:g id="SEPARATOR">=</ns1:g>吉布提"</item>
+    <item msgid="4286108029159501866">"F<ns1:g id="SEPARATOR">=</ns1:g>弗里敦"</item>
+    <item msgid="4514786733035528116">"H<ns1:g id="SEPARATOR">=</ns1:g>哈博罗内"</item>
+    <item msgid="7367496854968219671">"H<ns1:g id="SEPARATOR">=</ns1:g>哈拉雷"</item>
+    <item msgid="6837746379726020288">"Y<ns1:g id="SEPARATOR">=</ns1:g>约翰内斯堡"</item>
+    <item msgid="6284185156591171506">"K<ns1:g id="SEPARATOR">=</ns1:g>坎帕拉"</item>
+    <item msgid="3299518884693668985">"K<ns1:g id="SEPARATOR">=</ns1:g>喀土穆"</item>
+    <item msgid="4614879508966043969">"J<ns1:g id="SEPARATOR">=</ns1:g>基加利"</item>
+    <item msgid="8878437043772547732">"J<ns1:g id="SEPARATOR">=</ns1:g>金沙萨"</item>
+    <item msgid="6325601635544067909">"L<ns1:g id="SEPARATOR">=</ns1:g>拉各斯"</item>
+    <item msgid="6094357506290323524">"M<ns1:g id="SEPARATOR">=</ns1:g>马塞卢"</item>
+    <item msgid="7270525814400329098">"M<ns1:g id="SEPARATOR">=</ns1:g>摩加迪沙"</item>
+    <item msgid="353110101402547540">"N<ns1:g id="SEPARATOR">=</ns1:g>内罗毕"</item>
+    <item msgid="1688121892646984549">"S<ns1:g id="SEPARATOR">=</ns1:g>圣多美"</item>
+    <item msgid="3642219084651687800">"T<ns1:g id="SEPARATOR">=</ns1:g>廷巴克图"</item>
+    <item msgid="7287513493631179463">"D<ns1:g id="SEPARATOR">=</ns1:g>的黎波里"</item>
+    <item msgid="5052614613671591560">"T<ns1:g id="SEPARATOR">=</ns1:g>突尼斯"</item>
+    <item msgid="7976303179193839859">"A<ns1:g id="SEPARATOR">=</ns1:g>安克雷奇"</item>
+    <item msgid="193703779380497120">"M<ns1:g id="SEPARATOR">=</ns1:g>门多萨"</item>
+    <item msgid="5448884981082519628">"A<ns1:g id="SEPARATOR">=</ns1:g>阿鲁巴"</item>
+    <item msgid="1577938273323914773">"Y<ns1:g id="SEPARATOR">=</ns1:g>亚松森"</item>
+    <item msgid="5617155978105010520">"B<ns1:g id="SEPARATOR">=</ns1:g>巴巴多斯"</item>
+    <item msgid="3600025702357376322">"B<ns1:g id="SEPARATOR">=</ns1:g>伯利兹"</item>
+    <item msgid="2847679817118467051">"B<ns1:g id="SEPARATOR">=</ns1:g>波哥大"</item>
+    <item msgid="9029003541681282929">"B<ns1:g id="SEPARATOR">=</ns1:g>布宜诺斯艾利斯"</item>
+    <item msgid="2338367960332622522">"K<ns1:g id="SEPARATOR">=</ns1:g>坎昆"</item>
+    <item msgid="4339797536047170278">"J<ns1:g id="SEPARATOR">=</ns1:g>加拉加斯"</item>
+    <item msgid="9199080438977757863">"K<ns1:g id="SEPARATOR">=</ns1:g>开曼群岛"</item>
+    <item msgid="1993203473281589891">"Z<ns1:g id="SEPARATOR">=</ns1:g>芝加哥"</item>
+    <item msgid="7990342776303470263">"G<ns1:g id="SEPARATOR">=</ns1:g>哥斯达黎加"</item>
+    <item msgid="5676109900908808628">"K<ns1:g id="SEPARATOR">=</ns1:g>库拉索"</item>
+    <item msgid="5519120432577564812">"D<ns1:g id="SEPARATOR">=</ns1:g>道森克里克"</item>
+    <item msgid="2126228972377380680">"D<ns1:g id="SEPARATOR">=</ns1:g>丹佛"</item>
+    <item msgid="3298410632922319193">"D<ns1:g id="SEPARATOR">=</ns1:g>底特律"</item>
+    <item msgid="2819032085688382805">"D<ns1:g id="SEPARATOR">=</ns1:g>多米尼加"</item>
+    <item msgid="6170433208654553821">"A<ns1:g id="SEPARATOR">=</ns1:g>埃德蒙顿"</item>
+    <item msgid="795461860173291499">"S<ns1:g id="SEPARATOR">=</ns1:g>萨尔瓦多"</item>
+    <item msgid="7872196528637597794">"F<ns1:g id="SEPARATOR">=</ns1:g>福塔雷萨"</item>
+    <item msgid="5801558418916235541">"D<ns1:g id="SEPARATOR">=</ns1:g>大特克"</item>
+    <item msgid="2103759276235503048">"G<ns1:g id="SEPARATOR">=</ns1:g>格林纳达"</item>
+    <item msgid="1490069759176391533">"W<ns1:g id="SEPARATOR">=</ns1:g>危地马拉"</item>
+    <item msgid="525959305652046261">"G<ns1:g id="SEPARATOR">=</ns1:g>圭亚那"</item>
+    <item msgid="7565596629973190931">"H<ns1:g id="SEPARATOR">=</ns1:g>哈利法克斯"</item>
+    <item msgid="3811169155065582644">"H<ns1:g id="SEPARATOR">=</ns1:g>哈瓦那"</item>
+    <item msgid="3733555435078090201">"Y<ns1:g id="SEPARATOR">=</ns1:g>印第安纳波利斯"</item>
+    <item msgid="226982663848410981">"N<ns1:g id="SEPARATOR">=</ns1:g>诺克斯"</item>
+    <item msgid="3815293080342229459">"M<ns1:g id="SEPARATOR">=</ns1:g>马伦戈"</item>
+    <item msgid="6594853515451547389">"S<ns1:g id="SEPARATOR">=</ns1:g>圣彼得堡"</item>
+    <item msgid="6091571889213283534">"T<ns1:g id="SEPARATOR">=</ns1:g>特尔城"</item>
+    <item msgid="3089369312058696669">"W<ns1:g id="SEPARATOR">=</ns1:g>韦韦"</item>
+    <item msgid="1334860422444068943">"F<ns1:g id="SEPARATOR">=</ns1:g>樊尚"</item>
+    <item msgid="7775105082093691756">"W<ns1:g id="SEPARATOR">=</ns1:g>威纳马克"</item>
+    <item msgid="4043335541899184547">"J<ns1:g id="SEPARATOR">=</ns1:g>金斯敦"</item>
+    <item msgid="1063757593477259280">"L<ns1:g id="SEPARATOR">=</ns1:g>拉巴斯"</item>
+    <item msgid="349901732062388869">"L<ns1:g id="SEPARATOR">=</ns1:g>利马"</item>
+    <item msgid="4977592519316837842">"L<ns1:g id="SEPARATOR">=</ns1:g>洛杉矶"</item>
+    <item msgid="7713051790509638572">"L<ns1:g id="SEPARATOR">=</ns1:g>路易维尔"</item>
+    <item msgid="8460620935898405225">"M<ns1:g id="SEPARATOR">=</ns1:g>马那瓜"</item>
+    <item msgid="8328345293081464192">"M<ns1:g id="SEPARATOR">=</ns1:g>马提尼克"</item>
+    <item msgid="8010357327448619637">"M<ns1:g id="SEPARATOR">=</ns1:g>门多萨"</item>
+    <item msgid="2046777213916219253">"M<ns1:g id="SEPARATOR">=</ns1:g>梅特拉卡特拉"</item>
+    <item msgid="2227885609632709258">"M<ns1:g id="SEPARATOR">=</ns1:g>墨西哥城"</item>
+    <item msgid="9089629663998569289">"M<ns1:g id="SEPARATOR">=</ns1:g>蒙特雷"</item>
+    <item msgid="2782276175306930748">"M<ns1:g id="SEPARATOR">=</ns1:g>蒙得维的亚"</item>
+    <item msgid="4942386959622269480">"M<ns1:g id="SEPARATOR">=</ns1:g>蒙特利尔"</item>
+    <item msgid="3068203952968918165">"N<ns1:g id="SEPARATOR">=</ns1:g>拿骚"</item>
+    <item msgid="4234515454127289962">"N<ns1:g id="SEPARATOR">=</ns1:g>纽约"</item>
+    <item msgid="1660551302087304308">"B<ns1:g id="SEPARATOR">=</ns1:g>比尤拉"</item>
+    <item msgid="415823390775449071">"S<ns1:g id="SEPARATOR">=</ns1:g>森特"</item>
+    <item msgid="6644186958433380884">"X<ns1:g id="SEPARATOR">=</ns1:g>新塞勒姆"</item>
+    <item msgid="6408587617047971798">"B<ns1:g id="SEPARATOR">=</ns1:g>巴拿马"</item>
+    <item msgid="5576899364199447991">"F<ns1:g id="SEPARATOR">=</ns1:g>菲尼克斯"</item>
+    <item msgid="5541266909095409447">"X<ns1:g id="SEPARATOR">=</ns1:g>西班牙港"</item>
+    <item msgid="6417519313622785932">"T<ns1:g id="SEPARATOR">=</ns1:g>太子港"</item>
+    <item msgid="2078589249210571366">"B<ns1:g id="SEPARATOR">=</ns1:g>波多黎各"</item>
+    <item msgid="8522030474373927681">"S<ns1:g id="SEPARATOR">=</ns1:g>圣多明戈"</item>
+    <item msgid="4763853453317431594">"S<ns1:g id="SEPARATOR">=</ns1:g>圣保罗"</item>
+    <item msgid="2713153284784311646">"S<ns1:g id="SEPARATOR">=</ns1:g>圣约翰斯"</item>
+    <item msgid="8252666620333105271">"S<ns1:g id="SEPARATOR">=</ns1:g>圣基茨岛"</item>
+    <item msgid="4851597775036027515">"S<ns1:g id="SEPARATOR">=</ns1:g>圣卢西亚"</item>
+    <item msgid="2395485473100271503">"S<ns1:g id="SEPARATOR">=</ns1:g>圣托马斯"</item>
+    <item msgid="4148037555658225145">"D<ns1:g id="SEPARATOR">=</ns1:g>蒂华纳"</item>
+    <item msgid="3491199166042475853">"D<ns1:g id="SEPARATOR">=</ns1:g>多伦多"</item>
+    <item msgid="1506838283840737263">"W<ns1:g id="SEPARATOR">=</ns1:g>温哥华"</item>
+    <item msgid="8935386104773857399">"W<ns1:g id="SEPARATOR">=</ns1:g>温尼伯"</item>
+    <item msgid="1132634022412399582">"N<ns1:g id="SEPARATOR">=</ns1:g>南极"</item>
+    <item msgid="4076962667198039206">"L<ns1:g id="SEPARATOR">=</ns1:g>朗伊尔城"</item>
+    <item msgid="3784788073896028355">"A<ns1:g id="SEPARATOR">=</ns1:g>阿拉木图"</item>
+    <item msgid="7895695236056852523">"A<ns1:g id="SEPARATOR">=</ns1:g>安曼"</item>
+    <item msgid="1795426532295280371">"A<ns1:g id="SEPARATOR">=</ns1:g>阿纳德尔"</item>
+    <item msgid="7194236926158343552">"A<ns1:g id="SEPARATOR">=</ns1:g>阿克套"</item>
+    <item msgid="4796350130854360870">"B<ns1:g id="SEPARATOR">=</ns1:g>巴格达"</item>
+    <item msgid="4020105434451091851">"B<ns1:g id="SEPARATOR">=</ns1:g>巴林"</item>
+    <item msgid="3895868797052686484">"B<ns1:g id="SEPARATOR">=</ns1:g>巴库"</item>
+    <item msgid="228001522630057957">"M<ns1:g id="SEPARATOR">=</ns1:g>曼谷"</item>
+    <item msgid="5555647809114820537">"B<ns1:g id="SEPARATOR">=</ns1:g>贝鲁特"</item>
+    <item msgid="2960873998178478784">"J<ns1:g id="SEPARATOR">=</ns1:g>加尔各答"</item>
+    <item msgid="8765555959722950691">"D<ns1:g id="SEPARATOR">=</ns1:g>大马士革"</item>
+    <item msgid="4979709428925196546">"D<ns1:g id="SEPARATOR">=</ns1:g>达卡"</item>
+    <item msgid="310419600200885308">"D<ns1:g id="SEPARATOR">=</ns1:g>迪拜"</item>
+    <item msgid="1203379132329159260">"J<ns1:g id="SEPARATOR">=</ns1:g>加沙"</item>
+    <item msgid="2359068282340162319">"X<ns1:g id="SEPARATOR">=</ns1:g>希伯伦"</item>
+    <item msgid="6223396610551759129">"H<ns1:g id="SEPARATOR">=</ns1:g>胡志明市"</item>
+    <item msgid="4731022818651322736">"X<ns1:g id="SEPARATOR">=</ns1:g>香港"</item>
+    <item msgid="8104778702069607166">"Y<ns1:g id="SEPARATOR">=</ns1:g>伊斯坦布尔"</item>
+    <item msgid="758800913783999425">"Y<ns1:g id="SEPARATOR">=</ns1:g>雅加达"</item>
+    <item msgid="8956406398692698126">"Y<ns1:g id="SEPARATOR">=</ns1:g>耶路撒冷"</item>
+    <item msgid="1664426577433326419">"K<ns1:g id="SEPARATOR">=</ns1:g>喀布尔"</item>
+    <item msgid="7700349511508357396">"K<ns1:g id="SEPARATOR">=</ns1:g>卡拉奇"</item>
+    <item msgid="5273241794521591984">"J<ns1:g id="SEPARATOR">=</ns1:g>加德满都"</item>
+    <item msgid="4754850915168634158">"J<ns1:g id="SEPARATOR">=</ns1:g>吉隆坡"</item>
+    <item msgid="5187849635785055693">"K<ns1:g id="SEPARATOR">=</ns1:g>科威特"</item>
+    <item msgid="2923385979252179376">"A<ns1:g id="SEPARATOR">=</ns1:g>澳门"</item>
+    <item msgid="722458682107911739">"M<ns1:g id="SEPARATOR">=</ns1:g>马尼拉"</item>
+    <item msgid="6033964325069060422">"M<ns1:g id="SEPARATOR">=</ns1:g>马斯喀特"</item>
+    <item msgid="6077458941399984780">"J<ns1:g id="SEPARATOR">=</ns1:g>金边"</item>
+    <item msgid="935474308903572975">"P<ns1:g id="SEPARATOR">=</ns1:g>平壤"</item>
+    <item msgid="5336632319992664889">"K<ns1:g id="SEPARATOR">=</ns1:g>卡塔尔"</item>
+    <item msgid="1667243110545095146">"Y<ns1:g id="SEPARATOR">=</ns1:g>仰光"</item>
+    <item msgid="4460370766685855731">"L<ns1:g id="SEPARATOR">=</ns1:g>利雅得"</item>
+    <item msgid="4229224905931739201">"X<ns1:g id="SEPARATOR">=</ns1:g>西贡"</item>
+    <item msgid="8705359848250215620">"S<ns1:g id="SEPARATOR">=</ns1:g>首尔"</item>
+    <item msgid="583367295371395814">"S<ns1:g id="SEPARATOR">=</ns1:g>上海"</item>
+    <item msgid="1422156732794771136">"X<ns1:g id="SEPARATOR">=</ns1:g>新加坡"</item>
+    <item msgid="1972491729911039207">"T<ns1:g id="SEPARATOR">=</ns1:g>台北"</item>
+    <item msgid="5563193560935461106">"D<ns1:g id="SEPARATOR">=</ns1:g>德黑兰"</item>
+    <item msgid="8629402941285674273">"T<ns1:g id="SEPARATOR">=</ns1:g>特拉维夫"</item>
+    <item msgid="8499164674454654525">"D<ns1:g id="SEPARATOR">=</ns1:g>东京"</item>
+    <item msgid="1705804745888992744">"W<ns1:g id="SEPARATOR">=</ns1:g>乌兰巴托"</item>
+    <item msgid="2028626988021468640">"B<ns1:g id="SEPARATOR">=</ns1:g>百慕大"</item>
+    <item msgid="4527109966513690429">"J<ns1:g id="SEPARATOR">=</ns1:g>加那利"</item>
+    <item msgid="4886308317040330383">"F<ns1:g id="SEPARATOR">=</ns1:g>佛得角"</item>
+    <item msgid="1003307362164178007">"L<ns1:g id="SEPARATOR">=</ns1:g>雷克雅未克"</item>
+    <item msgid="6742010412815268657">"S<ns1:g id="SEPARATOR">=</ns1:g>斯坦利"</item>
+    <item msgid="5659389449738592757">"A<ns1:g id="SEPARATOR">=</ns1:g>阿德莱德"</item>
+    <item msgid="4567804576346784523">"B<ns1:g id="SEPARATOR">=</ns1:g>布里斯班"</item>
+    <item msgid="8730590400362815585">"K<ns1:g id="SEPARATOR">=</ns1:g>堪培拉"</item>
+    <item msgid="6416990927714140153">"D<ns1:g id="SEPARATOR">=</ns1:g>达尔文"</item>
+    <item msgid="3073969292696516135">"M<ns1:g id="SEPARATOR">=</ns1:g>墨尔本"</item>
+    <item msgid="1719286228375722176">"X<ns1:g id="SEPARATOR">=</ns1:g>新南威尔士"</item>
+    <item msgid="3663940748056976266">"P<ns1:g id="SEPARATOR">=</ns1:g>珀斯"</item>
+    <item msgid="3383881736858438153">"K<ns1:g id="SEPARATOR">=</ns1:g>昆士兰"</item>
+    <item msgid="971889339240879138">"X<ns1:g id="SEPARATOR">=</ns1:g>悉尼"</item>
+    <item msgid="5542803438162180311">"W<ns1:g id="SEPARATOR">=</ns1:g>维多利亚"</item>
+    <item msgid="11828841481838883">"N<ns1:g id="SEPARATOR">=</ns1:g>纽芬兰"</item>
+    <item msgid="1734331918410561807">"S<ns1:g id="SEPARATOR">=</ns1:g>萨斯喀彻温"</item>
+    <item msgid="9184412695613864979">"F<ns1:g id="SEPARATOR">=</ns1:g>复活节岛"</item>
+    <item msgid="1014282454239014527">"A<ns1:g id="SEPARATOR">=</ns1:g>阿姆斯特丹"</item>
+    <item msgid="4928363054269791193">"A<ns1:g id="SEPARATOR">=</ns1:g>安道尔"</item>
+    <item msgid="912290900213826368">"Y<ns1:g id="SEPARATOR">=</ns1:g>雅典"</item>
+    <item msgid="6097000352459209495">"B<ns1:g id="SEPARATOR">=</ns1:g>贝尔法斯特"</item>
+    <item msgid="3285885824311481790">"B<ns1:g id="SEPARATOR">=</ns1:g>贝尔格莱德"</item>
+    <item msgid="911055049821251982">"B<ns1:g id="SEPARATOR">=</ns1:g>柏林"</item>
+    <item msgid="9099244516556291111">"B<ns1:g id="SEPARATOR">=</ns1:g>布拉迪斯拉发"</item>
+    <item msgid="158977749726480076">"B<ns1:g id="SEPARATOR">=</ns1:g>布鲁塞尔"</item>
+    <item msgid="8875102297676173346">"B<ns1:g id="SEPARATOR">=</ns1:g>布加勒斯特"</item>
+    <item msgid="804451569472542912">"B<ns1:g id="SEPARATOR">=</ns1:g>布达佩斯"</item>
+    <item msgid="6827506774445509939">"J<ns1:g id="SEPARATOR">=</ns1:g>基希讷乌"</item>
+    <item msgid="487345893088732797">"G<ns1:g id="SEPARATOR">=</ns1:g>哥本哈根"</item>
+    <item msgid="7760953471297773537">"D<ns1:g id="SEPARATOR">=</ns1:g>都柏林"</item>
+    <item msgid="323414429034825249">"Z<ns1:g id="SEPARATOR">=</ns1:g>直布罗陀"</item>
+    <item msgid="1785566206078328830">"H<ns1:g id="SEPARATOR">=</ns1:g>赫尔辛基"</item>
+    <item msgid="5938185647271923359">"M<ns1:g id="SEPARATOR">=</ns1:g>马恩岛"</item>
+    <item msgid="5974864320735263245">"Y<ns1:g id="SEPARATOR">=</ns1:g>伊斯坦布尔"</item>
+    <item msgid="3567775364750772947">"J<ns1:g id="SEPARATOR">=</ns1:g>基辅"</item>
+    <item msgid="540344101798867007">"L<ns1:g id="SEPARATOR">=</ns1:g>里斯本"</item>
+    <item msgid="5091062403792923657">"L<ns1:g id="SEPARATOR">=</ns1:g>伦敦"</item>
+    <item msgid="7075006205000490364">"L<ns1:g id="SEPARATOR">=</ns1:g>卢森堡"</item>
+    <item msgid="4901781246584739451">"M<ns1:g id="SEPARATOR">=</ns1:g>马德里"</item>
+    <item msgid="9047080834315777144">"M<ns1:g id="SEPARATOR">=</ns1:g>马耳他"</item>
+    <item msgid="8200456520732452034">"M<ns1:g id="SEPARATOR">=</ns1:g>明斯克"</item>
+    <item msgid="5452744619736513383">"M<ns1:g id="SEPARATOR">=</ns1:g>摩纳哥"</item>
+    <item msgid="3513517408062322298">"M<ns1:g id="SEPARATOR">=</ns1:g>莫斯科"</item>
+    <item msgid="7917103295878081674">"A<ns1:g id="SEPARATOR">=</ns1:g>奥斯陆"</item>
+    <item msgid="4245547231693746977">"B<ns1:g id="SEPARATOR">=</ns1:g>巴黎"</item>
+    <item msgid="3778652900196715557">"B<ns1:g id="SEPARATOR">=</ns1:g>布拉格"</item>
+    <item msgid="1827175423974383675">"L<ns1:g id="SEPARATOR">=</ns1:g>里加"</item>
+    <item msgid="2095130417232677930">"L<ns1:g id="SEPARATOR">=</ns1:g>罗马"</item>
+    <item msgid="7631654618289353520">"S<ns1:g id="SEPARATOR">=</ns1:g>圣马力诺"</item>
+    <item msgid="7219835179107610398">"S<ns1:g id="SEPARATOR">=</ns1:g>萨拉热窝"</item>
+    <item msgid="7199868165463282240">"X<ns1:g id="SEPARATOR">=</ns1:g>辛菲罗波尔"</item>
+    <item msgid="2786395006682246794">"S<ns1:g id="SEPARATOR">=</ns1:g>斯科普里"</item>
+    <item msgid="4706927178872100023">"S<ns1:g id="SEPARATOR">=</ns1:g>索非亚"</item>
+    <item msgid="1982417589953195308">"S<ns1:g id="SEPARATOR">=</ns1:g>斯德哥尔摩"</item>
+    <item msgid="1596083919400921960">"T<ns1:g id="SEPARATOR">=</ns1:g>塔林"</item>
+    <item msgid="3079313598974879114">"F<ns1:g id="SEPARATOR">=</ns1:g>梵帝冈"</item>
+    <item msgid="6516636001856910888">"W<ns1:g id="SEPARATOR">=</ns1:g>维也纳"</item>
+    <item msgid="6377314532157945456">"W<ns1:g id="SEPARATOR">=</ns1:g>维尔纽斯"</item>
+    <item msgid="3427175235616698721">"H<ns1:g id="SEPARATOR">=</ns1:g>华沙"</item>
+    <item msgid="8404354243761332922">"S<ns1:g id="SEPARATOR">=</ns1:g>萨格勒布"</item>
+    <item msgid="1457280242717152391">"S<ns1:g id="SEPARATOR">=</ns1:g>苏黎世"</item>
+    <item msgid="1065940089741359291">"T<ns1:g id="SEPARATOR">=</ns1:g>塔那那利佛"</item>
+    <item msgid="5176181880014090003">"M<ns1:g id="SEPARATOR">=</ns1:g>马尔代夫"</item>
+    <item msgid="8281854645557426433">"M<ns1:g id="SEPARATOR">=</ns1:g>毛里求斯"</item>
+    <item msgid="2686249517389816420">"A<ns1:g id="SEPARATOR">=</ns1:g>奥克兰"</item>
+    <item msgid="279925671775807392">"F<ns1:g id="SEPARATOR">=</ns1:g>斐济"</item>
+    <item msgid="7971492669765264840">"G<ns1:g id="SEPARATOR">=</ns1:g>关岛"</item>
+    <item msgid="889371273355762733">"T<ns1:g id="SEPARATOR">=</ns1:g>檀香山"</item>
+    <item msgid="5516500578074269817">"K<ns1:g id="SEPARATOR">=</ns1:g>克里斯马斯"</item>
+    <item msgid="2740704911915073056">"N<ns1:g id="SEPARATOR">=</ns1:g>努美阿"</item>
+    <item msgid="8732832728949672807">"S<ns1:g id="SEPARATOR">=</ns1:g>萨摩亚群岛"</item>
+    <item msgid="6489500698846864993">"T<ns1:g id="SEPARATOR">=</ns1:g>塔希提岛"</item>
+    <item msgid="3983121625709442324">"A<ns1:g id="SEPARATOR">=</ns1:g>安提瓜"</item>
+    <item msgid="2650510570709806322">"A<ns1:g id="SEPARATOR">=</ns1:g>奥斯汀"</item>
+    <item msgid="5257283506227357911">"B<ns1:g id="SEPARATOR">=</ns1:g>波士顿"</item>
+    <item msgid="6326368958641850267">"K<ns1:g id="SEPARATOR">=</ns1:g>卡尔加里"</item>
+    <item msgid="8830116365016232583">"G<ns1:g id="SEPARATOR">=</ns1:g>哥伦布"</item>
+    <item msgid="6986556538341883811">"D<ns1:g id="SEPARATOR">=</ns1:g>达拉斯"</item>
+    <item msgid="836479352500251902">"N<ns1:g id="SEPARATOR">=</ns1:g>诺克斯维尔"</item>
+    <item msgid="8495291458467378851">"M<ns1:g id="SEPARATOR">=</ns1:g>孟菲斯"</item>
+    <item msgid="2788807207554683122">"M<ns1:g id="SEPARATOR">=</ns1:g>迈阿密"</item>
+    <item msgid="3984640407077208471">"M<ns1:g id="SEPARATOR">=</ns1:g>明尼阿波利斯"</item>
+    <item msgid="6997305266329324161">"W<ns1:g id="SEPARATOR">=</ns1:g>渥太华"</item>
+    <item msgid="5191741145278683016">"F<ns1:g id="SEPARATOR">=</ns1:g>费城"</item>
+    <item msgid="5898032730733441936">"B<ns1:g id="SEPARATOR">=</ns1:g>波特兰"</item>
+    <item msgid="9070160716002203069">"S<ns1:g id="SEPARATOR">=</ns1:g>圣地亚哥"</item>
+    <item msgid="1829944133410079040">"J<ns1:g id="SEPARATOR">=</ns1:g>旧金山"</item>
+    <item msgid="8407905318529692654">"Y<ns1:g id="SEPARATOR">=</ns1:g>盐湖城"</item>
+    <item msgid="3091392589347990898">"S<ns1:g id="SEPARATOR">=</ns1:g>圣何塞"</item>
+    <item msgid="7080627414383807284">"S<ns1:g id="SEPARATOR">=</ns1:g>圣萨尔瓦多"</item>
+    <item msgid="3430371213266252049">"X<ns1:g id="SEPARATOR">=</ns1:g>西雅图"</item>
+    <item msgid="9177491393818757071">"S<ns1:g id="SEPARATOR">=</ns1:g>圣路易斯"</item>
+    <item msgid="6234359686676312837">"H<ns1:g id="SEPARATOR">=</ns1:g>华盛顿特区"</item>
+    <item msgid="4325057056005132331">"X<ns1:g id="SEPARATOR">=</ns1:g>休斯顿"</item>
+    <item msgid="38148255938075867">"S<ns1:g id="SEPARATOR">=</ns1:g>圣安东尼奥"</item>
+    <item msgid="3601481860893666763">"J<ns1:g id="SEPARATOR">=</ns1:g>杰克逊维尔"</item>
+    <item msgid="3987471437354665534">"B<ns1:g id="SEPARATOR">=</ns1:g>巴尔的摩"</item>
+    <item msgid="3389674262267006887">"N<ns1:g id="SEPARATOR">=</ns1:g>纳什维尔"</item>
+    <item msgid="7521690366448637309">"M<ns1:g id="SEPARATOR">=</ns1:g>密尔沃基"</item>
+    <item msgid="2231069593975740859">"E<ns1:g id="SEPARATOR">=</ns1:g>俄克拉荷马城"</item>
+    <item msgid="1970008262236914770">"L<ns1:g id="SEPARATOR">=</ns1:g>拉斯维加斯"</item>
+    <item msgid="7113811028304266017">"A<ns1:g id="SEPARATOR">=</ns1:g>阿尔伯克基"</item>
+    <item msgid="6481469458896644678">"T<ns1:g id="SEPARATOR">=</ns1:g>图森"</item>
+    <item msgid="5970857542995467466">"S<ns1:g id="SEPARATOR">=</ns1:g>萨克拉门托"</item>
+    <item msgid="1999267306329214429">"Y<ns1:g id="SEPARATOR">=</ns1:g>亚特兰大"</item>
+    <item msgid="8761847787537443648">"K<ns1:g id="SEPARATOR">=</ns1:g>克利夫兰"</item>
+    <item msgid="2987455647692324208">"X<ns1:g id="SEPARATOR">=</ns1:g>新奥尔良"</item>
+    <item msgid="8104109426412705845">"T<ns1:g id="SEPARATOR">=</ns1:g>坦帕"</item>
+    <item msgid="1410067233842240795">"P<ns1:g id="SEPARATOR">=</ns1:g>匹兹堡"</item>
+    <item msgid="3339955740367374442">"X<ns1:g id="SEPARATOR">=</ns1:g>辛辛那提"</item>
+    <item msgid="6091407424772799978">"M<ns1:g id="SEPARATOR">=</ns1:g>芒廷维尤"</item>
+    <item msgid="150299708499753555">"L<ns1:g id="SEPARATOR">=</ns1:g>里诺"</item>
+    <item msgid="9155068631060038769">"H<ns1:g id="SEPARATOR">=</ns1:g>黑岩城"</item>
+    <item msgid="8498761319928979900">"D<ns1:g id="SEPARATOR">=</ns1:g>多哈"</item>
+    <item msgid="8307897251088048641">"B<ns1:g id="SEPARATOR">=</ns1:g>北京"</item>
+    <item msgid="8605970953750147428">"M<ns1:g id="SEPARATOR">=</ns1:g>孟买"</item>
+    <item msgid="6668274273067049125">"D<ns1:g id="SEPARATOR">=</ns1:g>德里"</item>
+    <item msgid="2933410189478233292">"D<ns1:g id="SEPARATOR">=</ns1:g>大阪"</item>
+    <item msgid="9011026093638055579">"L<ns1:g id="SEPARATOR">=</ns1:g>拉合尔"</item>
+    <item msgid="1448378291805481500">"S<ns1:g id="SEPARATOR">=</ns1:g>萨那"</item>
+    <item msgid="5233119846682408301">"B<ns1:g id="SEPARATOR">=</ns1:g>巴塞罗那"</item>
+    <item msgid="9146746514265554721">"M<ns1:g id="SEPARATOR">=</ns1:g>慕尼黑"</item>
+    <item msgid="157866084892734979">"M<ns1:g id="SEPARATOR">=</ns1:g>米兰"</item>
+    <item msgid="2787346322341414963">"F<ns1:g id="SEPARATOR">=</ns1:g>法兰克福"</item>
+    <item msgid="8407511504088696581">"H<ns1:g id="SEPARATOR">=</ns1:g>河内"</item>
+    <item msgid="5184417944073499453">"A<ns1:g id="SEPARATOR">=</ns1:g>安卡拉"</item>
+    <item msgid="4028784954452197920">"B<ns1:g id="SEPARATOR">=</ns1:g>班加罗尔"</item>
+    <item msgid="190152483600862776">"B<ns1:g id="SEPARATOR">=</ns1:g>巴西利亚"</item>
+    <item msgid="8009516135735104388">"K<ns1:g id="SEPARATOR">=</ns1:g>开普敦"</item>
+    <item msgid="6057191797622953016">"Y<ns1:g id="SEPARATOR">=</ns1:g>伊斯兰堡"</item>
+    <item msgid="2702029416591153210">"L<ns1:g id="SEPARATOR">=</ns1:g>里约热内卢"</item>
+    <item msgid="1753927312634708098">"A<ns1:g id="SEPARATOR">=</ns1:g>安娜堡"</item>
+    <item msgid="4225721108475278979">"B<ns1:g id="SEPARATOR">=</ns1:g>波尔得"</item>
+    <item msgid="6393177386755796069">"J<ns1:g id="SEPARATOR">=</ns1:g>剑桥"</item>
+    <item msgid="759409010285366934">"K<ns1:g id="SEPARATOR">=</ns1:g>柯克兰"</item>
+    <item msgid="6308007059287569663">"M<ns1:g id="SEPARATOR">=</ns1:g>麦迪逊"</item>
+    <item msgid="6971636434858330021">"G<ns1:g id="SEPARATOR">=</ns1:g>广州"</item>
+    <item msgid="1185109514180068650">"H<ns1:g id="SEPARATOR">=</ns1:g>海得拉巴"</item>
+    <item msgid="3032295682584784261">"L<ns1:g id="SEPARATOR">=</ns1:g>雷斯顿"</item>
+    <item msgid="7722837296297332268">"B<ns1:g id="SEPARATOR">=</ns1:g>贝洛奥里藏特"</item>
+    <item msgid="3593516299122577780">"S<ns1:g id="SEPARATOR">=</ns1:g>圣地亚哥"</item>
+    <item msgid="2293331653589266583">"M<ns1:g id="SEPARATOR">=</ns1:g>蒙罗维亚"</item>
+    <item msgid="7899128359620301710">"K<ns1:g id="SEPARATOR">=</ns1:g>科伦坡"</item>
+    <item msgid="5294489752262543829">"Q<ns1:g id="SEPARATOR">=</ns1:g>奇瓦瓦"</item>
+    <item msgid="8066356061184206341">"S<ns1:g id="SEPARATOR">=</ns1:g>萨尔瓦多"</item>
+    <item msgid="4806867741334453982">"G<ns1:g id="SEPARATOR">=</ns1:g>古尔冈"</item>
+    <item msgid="2585780177649876827">"M<ns1:g id="SEPARATOR">=</ns1:g>曼彻斯特"</item>
+    <item msgid="234104953526248139">"J<ns1:g id="SEPARATOR">=</ns1:g>基辅"</item>
+    <item msgid="5245429461217350012">"S<ns1:g id="SEPARATOR">=</ns1:g>圣彼得堡"</item>
+    <item msgid="6738531308006017215">"K<ns1:g id="SEPARATOR">=</ns1:g>克拉科夫"</item>
+    <item msgid="8972702613339139467">"F<ns1:g id="SEPARATOR">=</ns1:g>弗罗茨瓦夫"</item>
+    <item msgid="187278924459096566">"H<ns1:g id="SEPARATOR">=</ns1:g>汉堡"</item>
+    <item msgid="6173267862207394917">"A<ns1:g id="SEPARATOR">=</ns1:g>奥卢"</item>
+    <item msgid="5639324478037405990">"H<ns1:g id="SEPARATOR">=</ns1:g>海法"</item>
+    <item msgid="3157180661352354058">"S<ns1:g id="SEPARATOR">=</ns1:g>圣胡安"</item>
+    <item msgid="6995939579417282715">"T<ns1:g id="SEPARATOR">=</ns1:g>特古西加尔巴"</item>
+    <item msgid="1641840677391275004">"P<ns1:g id="SEPARATOR">=</ns1:g>帕拉马里博"</item>
+    <item msgid="7317049454800260290">"J<ns1:g id="SEPARATOR">=</ns1:g>基多"</item>
+    <item msgid="4524380876433343244">"L<ns1:g id="SEPARATOR">=</ns1:g>卢布尔雅那"</item>
+  </string-array>
+    <string-array name="clock_style_entries">
+        <item msgid="917900462224167608">"指针"</item>
+        <item msgid="8483930821046925592">"数字"</item>
+    </string-array>
+    <string-array name="sw_lap_number_set">
+        <item msgid="2816627565030953899">"# <ns1:g id="NUMBER">%d</ns1:g>"</item>
+        <item msgid="316923361931627987">"# <ns1:g id="NUMBER">%02d</ns1:g>"</item>
+    </string-array>
+    <string-array name="sw_share_strings">
+        <item msgid="842841032273927988">"您简直就像闪电侠。"</item>
+        <item msgid="6332879039890727169">"享受一下您大汗淋漓的成果吧。"</item>
+        <item msgid="815382761274660130">"Android 以速度快著称，但还跟不上您！"</item>
+        <item msgid="7916250650982813737">"哇噻！"</item>
+        <item msgid="6836603904515182333">"果然是高手。"</item>
+        <item msgid="7508085100680861631">"迅雷不及掩耳之势。"</item>
+        <item msgid="5961245252909589573">"再来一次吧。"</item>
+        <item msgid="5211891900854545940">"小菜一碟。"</item>
+        <item msgid="9071353477103826053">"您简直比得上飞毛腿。"</item>
+        <item msgid="3785193933691117181">"冲击光速！"</item>
+    </string-array>
+    <string-array name="timer_notifications">
+        <item msgid="7760558912503484257">"还剩不到1分钟"</item>
+        <item msgid="83197792732433351">"还剩<ns1:g id="HOURS">%1$s</ns1:g>"</item>
+        <item msgid="8919698220200894252">"还剩<ns1:g id="MINUTES">%2$s</ns1:g>"</item>
+        <item msgid="8458069283817013813">"还剩<ns1:g id="HOURS">%1$s</ns1:g><ns1:g id="MINUTES">%2$s</ns1:g>"</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item msgid="5495601234086197399">"马绍尔群岛"</item>
+        <item msgid="4196408495909011020">"中途岛"</item>
+        <item msgid="1414384194857730006">"夏威夷"</item>
+        <item msgid="2687091371581931926">"阿拉斯加"</item>
+        <item msgid="1922100269679049660">"太平洋时间"</item>
+        <item msgid="7156402158716866161">"蒂华纳"</item>
+        <item msgid="1144117502254612241">"亚利桑那"</item>
+        <item msgid="101284182011722637">"奇瓦瓦"</item>
+        <item msgid="689121094232986897">"山区时间"</item>
+        <item msgid="5445331923942302756">"中美洲"</item>
+        <item msgid="2749806434052452351">"中部时间"</item>
+        <item msgid="3997138870229703753">"墨西哥城"</item>
+        <item msgid="5425567073027744888">"萨斯喀彻温"</item>
+        <item msgid="2877342865396629368">"波哥大"</item>
+        <item msgid="568682398893899670">"东部时间"</item>
+        <item msgid="668135984541863866">"委内瑞拉"</item>
+        <item msgid="3737474220861486223">"大西洋时间（巴巴多斯）"</item>
+        <item msgid="6279116051273436870">"大西洋时间（加拿大）"</item>
+        <item msgid="8513382867172014244">"马瑙斯"</item>
+        <item msgid="7776299003105932407">"圣地亚哥"</item>
+        <item msgid="8636989494746218677">"纽芬兰"</item>
+        <item msgid="4402541016410147505">"巴西利亚"</item>
+        <item msgid="2251184440733164084">"布宜诺斯艾利斯"</item>
+        <item msgid="6202926618569004969">"格陵兰岛"</item>
+        <item msgid="2355275037115290628">"蒙得维的亚"</item>
+        <item msgid="1377549694711708945">"大西洋中部地区"</item>
+        <item msgid="3457671272126347981">"亚述尔群岛"</item>
+        <item msgid="3659315141063710840">"佛得角群岛"</item>
+        <item msgid="1260941741802367635">"卡萨布兰卡"</item>
+        <item msgid="8275203689687954762">"伦敦、都柏林"</item>
+        <item msgid="5970179539479320905">"阿姆斯特丹、柏林"</item>
+        <item msgid="5396319478750517962">"贝尔格莱德"</item>
+        <item msgid="8688787475056663004">"布鲁塞尔"</item>
+        <item msgid="3415827874921681622">"萨拉热窝"</item>
+        <item msgid="402008965928320066">"温得和克"</item>
+        <item msgid="6436942724959275569">"西非时间"</item>
+        <item msgid="954536568417204026">"安曼、约旦"</item>
+        <item msgid="8932745482008902551">"雅典、伊斯坦布尔"</item>
+        <item msgid="320025725949024510">"贝鲁特、黎巴嫩"</item>
+        <item msgid="7242083112551905970">"开罗"</item>
+        <item msgid="7241520146011450419">"赫尔辛基"</item>
+        <item msgid="2717065017510546526">"耶路撒冷"</item>
+        <item msgid="8698556287741466553">"明斯克"</item>
+        <item msgid="1797598357342084506">"哈拉雷"</item>
+        <item msgid="5169119919905066998">"巴格达"</item>
+        <item msgid="2615788116201065182">"莫斯科"</item>
+        <item msgid="9084354867885584646">"科威特"</item>
+        <item msgid="1351570519986178268">"奈洛比"</item>
+        <item msgid="7094569580635877460">"德黑兰"</item>
+        <item msgid="3953138772617909704">"巴库"</item>
+        <item msgid="2868893113598800752">"第比利斯"</item>
+        <item msgid="7088581865802476373">"埃里温"</item>
+        <item msgid="1941122257623887992">"迪拜"</item>
+        <item msgid="9194797225058249720">"喀布尔"</item>
+        <item msgid="6486569254364577332">"伊斯兰堡、卡拉奇"</item>
+        <item msgid="5487724896895412089">"乌拉尔斯克"</item>
+        <item msgid="364906869710826982">"叶卡捷琳堡"</item>
+        <item msgid="2106505051751383358">"加尔各答"</item>
+        <item msgid="6851586621581501447">"斯里兰卡"</item>
+        <item msgid="800438544128213134">"加德满都"</item>
+        <item msgid="6173621471007643021">"阿斯塔纳"</item>
+        <item msgid="8645125891971581128">"仰光"</item>
+        <item msgid="2886407505119737794">"克拉斯诺亚尔斯克"</item>
+        <item msgid="3408222398188107090">"曼谷"</item>
+        <item msgid="4441612937172851228">"北京"</item>
+        <item msgid="4936715789028996930">"香港"</item>
+        <item msgid="4261031143777385525">"伊尔库茨克"</item>
+        <item msgid="3538060959338191835">"吉隆坡"</item>
+        <item msgid="1438847562643099201">"珀斯"</item>
+        <item msgid="3063913827688244383">"台北"</item>
+        <item msgid="3502757135046564209">"首尔"</item>
+        <item msgid="6107588684519111669">"东京、大阪"</item>
+        <item msgid="4350769099755608471">"雅库茨克"</item>
+        <item msgid="2422707004533526462">"阿德莱德"</item>
+        <item msgid="1292192084554134339">"达尔文"</item>
+        <item msgid="1320883699470001716">"布里斯班"</item>
+        <item msgid="5137198806146386527">"霍巴特"</item>
+        <item msgid="5920063686933941174">"悉尼、堪培拉"</item>
+        <item msgid="615906039696009425">"海参崴"</item>
+        <item msgid="7738680449356275374">"关岛"</item>
+        <item msgid="2882915026380778227">"马加丹"</item>
+        <item msgid="8255615641810148152">"奥克兰"</item>
+        <item msgid="3027153773466391728">"斐济"</item>
+        <item msgid="5911600083231840181">"汤加"</item>
+        <item msgid="5176858645450908751">"雅加达"</item>
+    </string-array>
+    <string-array name="volume_button_setting_entries">
+        <item msgid="7972756698723318690">"暂停"</item>
+        <item msgid="3450979320164769576">"关闭"</item>
+        <item msgid="6302517608411378024">"不进行任何操作"</item>
+    </string-array>
+    <string-array name="week_start_entries">
+        <item msgid="9010198173394482639">"星期六"</item>
+        <item msgid="3993530639455360921">"星期日"</item>
+        <item msgid="8594709368683324282">"星期一"</item>
+    </string-array>
+    <dimen name="actionbar_tab_padding">0dip</dimen>
+    <dimen name="actionbar_title_font_size">18sp</dimen>
+    <dimen name="alarm_alert_display_width">304dip</dimen>
+    <dimen name="alarm_alert_hint_padding">32dip</dimen>
+    <dimen name="alarm_clock_vertical_margin">12dip</dimen>
+    <dimen name="alarm_info_font_size">36sp</dimen>
+    <dimen name="alarm_label_padding">8dip</dimen>
+    <dimen name="alarm_label_size">14sp</dimen>
+    <dimen name="alarm_lockscreen_alarm_horizontal_padding">16dp</dimen>
+    <dimen name="alarm_lockscreen_alarm_vertical_padding">48dp</dimen>
+    <dimen name="alarm_lockscreen_bottom_margin">40dp</dimen>
+    <dimen name="alarm_lockscreen_pulse_radius">128dp</dimen>
+    <dimen name="alarm_min_distance">2dp</dimen>
+    <dimen name="alarm_picker_dialog_horizontal_margin">30dp</dimen>
+    <dimen name="alarm_picker_dialog_vertical_margin">20dp</dimen>
+    <dimen name="alarm_picker_margin_bottom">10dp</dimen>
+    <dimen name="alarm_side_padding">12dip</dimen>
+    <dimen name="alarm_text_font_size">16sp</dimen>
+    <dimen name="alarm_text_padding">15dp</dimen>
+    <dimen name="alarm_time_font_size">64sp</dimen>
+    <dimen name="alarm_undo_bar_horizontal_margin">8dp</dimen>
+    <dimen name="alert_dialog_title_height">64dip</dimen>
+    <dimen name="ampm_text_size">20dip</dimen>
+    <dimen name="analog_clock_margin">60dp</dimen>
+    <dimen name="big_font_size">60sp</dimen>
+    <dimen name="body_font_padding">4dp</dimen>
+    <dimen name="body_font_size">18sp</dimen>
+    <dimen name="bottom_text_size">16sp</dimen>
+    <dimen name="bottom_text_spacing_analog">14dp</dimen>
+    <dimen name="bottom_text_spacing_analog_small">6dp</dimen>
+    <dimen name="bottom_text_spacing_digital">-8dp</dimen>
+    <dimen name="button_font_size">24sp</dimen>
+    <dimen name="button_footer_height">96dip</dimen>
+    <dimen name="button_footer_height_neg">-48dip</dimen>
+    <dimen name="circle_margin">32dp</dimen>
+    <dimen name="circle_margin_top">16dp</dimen>
+    <dimen name="circle_size">280dp</dimen>
+    <dimen name="circletimer_circle_size">2dip</dimen>
+    <dimen name="circletimer_dot_size">8dip</dimen>
+    <dimen name="circletimer_gray_circle_size">1px</dimen>
+    <dimen name="circletimer_marker_size">16dip</dimen>
+    <dimen name="cities_list_item_height">56dip</dimen>
+    <dimen name="clock_fragment_end_padding">12dip</dimen>
+    <dimen name="clock_side_padding">12dip</dimen>
+    <dimen name="clock_side_padding_reduced">0dip</dimen>
+    <dimen name="collapse_expand_height">72dip</dimen>
+    <dimen name="date_text_size">15sp</dimen>
+    <dimen name="day_button_font_size">18sp</dimen>
+    <dimen name="delete_height">56dp</dimen>
+    <dimen name="dialog_button_font_size">16sp</dimen>
+    <dimen name="dialpad_digit_padding">22dip</dimen>
+    <dimen name="dialpad_font_size">36sp</dimen>
+    <dimen name="digital_widget_city_margin_bottom">10dp</dimen>
+    <dimen name="digital_widget_list_margin_top">20dp</dimen>
+    <dimen name="digital_widget_list_min_fixed_height">12dp</dimen>
+    <dimen name="digital_widget_list_min_scaled_height">162dp</dimen>
+    <dimen name="dotPading">8dip</dimen>
+    <dimen name="fab_bt_margin_bt">20dp</dimen>
+    <dimen name="fastscroll_preview_padding">8dp</dimen>
+    <dimen name="fastscroll_thumb_height">48dp</dimen>
+    <dimen name="fastscroll_thumb_width">8dp</dimen>
+    <dimen name="fastscroll_track_width">8dp</dimen>
+    <dimen name="footer_button_layout_margin">16dip</dimen>
+    <dimen name="footer_button_size">56dip</dimen>
+    <dimen name="hairline_height">1dip</dimen>
+    <dimen name="header_font_size">24sp</dimen>
+    <dimen name="label_font_size">16sp</dimen>
+    <dimen name="label_margin_big">4dp</dimen>
+    <dimen name="label_margin_small">2dp</dimen>
+    <dimen name="label_text_size">14sp</dimen>
+    <dimen name="left_right_margin">20dp</dimen>
+    <dimen name="main_ampm_font_size">32sp</dimen>
+    <dimen name="main_clock_padding">34dp</dimen>
+    <dimen name="medium_font_padding">12dp</dimen>
+    <dimen name="medium_font_size">56sp</dimen>
+    <dimen name="medium_space_bottom">12dp</dimen>
+    <dimen name="medium_space_top">22dp</dimen>
+    <dimen name="min_digital_widget_height">129dip</dimen>
+    <dimen name="min_digital_widget_width">206dip</dimen>
+    <dimen name="next_alarm_text_size">15sp</dimen>
+    <dimen name="no_alarm_font_size">16sp</dimen>
+    <dimen name="notification_icon_size">64dip</dimen>
+    <dimen name="notification_text_size">14dp</dimen>
+    <dimen name="notification_title_text_size">18dp</dimen>
+    <dimen name="roundRec_h">9dip</dimen>
+    <dimen name="roundRec_padding_left">2dip</dimen>
+    <dimen name="roundRec_r">2dip</dimen>
+    <dimen name="roundRec_strokeSize">1px</dimen>
+    <dimen name="roundRec_text_size">7dip</dimen>
+    <dimen name="roundRec_w">20dip</dimen>
+    <dimen name="screensaver_margin">16dip</dimen>
+    <dimen name="small_font_size">32sp</dimen>
+    <dimen name="small_space">16dp</dimen>
+    <dimen name="stopwatch_list_bottom_spacing">72dip</dimen>
+    <dimen name="style_label_space">4dip</dimen>
+    <dimen name="sw_item_space">16dip</dimen>
+    <dimen name="sw_padding_end">32dp</dimen>
+    <dimen name="time_margin_top">32dip</dimen>
+    <dimen name="time_text_size">120dip</dimen>
+    <dimen name="timer_cancel_end_margin">116dip</dimen>
+    <dimen name="timer_circle_margin">32dp</dimen>
+    <dimen name="timer_divider_height">24dip</dimen>
+    <dimen name="timer_list_padding_bottom">88dip</dimen>
+    <dimen name="timer_padding_left">16dip</dimen>
+    <dimen name="timer_setup_button_size">24sp</dimen>
+    <dimen name="timer_setup_delete_padding">12dip</dimen>
+    <dimen name="timer_setup_delete_start_margin">28sp</dimen>
+    <dimen name="timer_setup_font_size">56sp</dimen>
+    <dimen name="timer_setup_label_size">18sp</dimen>
+    <dimen name="toast_bar_bottom_margin_in_conversation">24dip</dimen>
+    <dimen name="top_text_spacing_digital">4dp</dimen>
+    <dimen name="touch_target_min_size">48dip</dimen>
+    <dimen name="widget_24_medium_font_size">40sp</dimen>
+    <dimen name="widget_big_font_size">75dp</dimen>
+    <dimen name="widget_big_time_margin_right">10dip</dimen>
+    <dimen name="widget_label_font_size">14dp</dimen>
+    <dimen name="widget_medium_font_size">32sp</dimen>
+    <dimen name="widget_medium_time_margin_right">5dip</dimen>
+    <dimen name="world_clock_analog_size">70dip</dimen>
+    <dimen name="world_clock_margin">32dp</dimen>
+    <dimen name="world_dot_size">4dip</dimen>
+    <plurals formatted="false" msgid="4539186407746763655" name="Nhours_description">
+        <item quantity="other"><ns1:g id="NUMBER">%d</ns1:g> 小时</item>
+        <item quantity="one">1 小时</item>
+    </plurals>
+    <plurals formatted="false" msgid="6373760365221990859" name="Nminutes_description">
+        <item quantity="other"><ns1:g id="NUMBER">%d</ns1:g> 分钟</item>
+        <item quantity="one">1 分钟</item>
+    </plurals>
+    <plurals formatted="false" msgid="6456500168536594889" name="Nseconds_description">
+        <item quantity="other"><ns1:g id="NUMBER">%d</ns1:g> 秒</item>
+        <item quantity="one">1 秒</item>
+    </plurals>
+    <plurals formatted="false" msgid="7844300009062867865" name="alarm_alert_snooze_duration">
+        <item quantity="other"><ns1:g id="NUMBER">%d</ns1:g> 分钟</item>
+        <item quantity="one">1 分钟</item>
+    </plurals>
+    <plurals formatted="false" msgid="3212729193036041768" name="alarm_alert_snooze_set">
+        <item quantity="other">暂停 <ns1:g id="MINUTES">%d</ns1:g> 分钟。</item>
+        <item quantity="one">暂停 1 分钟。</item>
+    </plurals>
+    <plurals formatted="false" msgid="3591262014329613293" name="alarm_delete_confirmation">
+        <item quantity="other">要删除所选闹钟吗？</item>
+        <item quantity="one">要删除所选闹钟吗？</item>
+    </plurals>
+    <plurals formatted="false" msgid="6579258788774360396" name="auto_silence_summary">
+        <item quantity="other"><ns1:g id="FORMATTED_NUMBER">%s</ns1:g> 分钟</item>
+        <item quantity="one">1 分钟</item>
+    </plurals>
+    <plurals formatted="false" msgid="3706846447285206235" name="days">
+        <item quantity="other"><ns1:g id="NUMBER">%s</ns1:g> 天</item>
+        <item quantity="one">1 天</item>
+    </plurals>
+    <plurals formatted="false" msgid="3871283109767171655" name="hours">
+        <item quantity="other"><ns1:g id="NUMBER">%s</ns1:g> 小时</item>
+        <item quantity="one">1 小时</item>
+    </plurals>
+    <plurals formatted="false" msgid="5484431721696058697" name="minutes">
+        <item quantity="other"><ns1:g id="NUMBER">%s</ns1:g> 分钟</item>
+        <item quantity="one">1 分钟</item>
+    </plurals>
+    <plurals formatted="false" msgid="3112918131095248271" name="snooze_duration">
+        <item quantity="other"><ns1:g id="NUMBER">%s</ns1:g> 分钟</item>
+        <item quantity="one">1 分钟</item>
+    </plurals>
+    <plurals formatted="false" msgid="322739253661747732" name="snooze_picker_label">
+        <item quantity="other">分钟</item>
+        <item quantity="one">分钟</item>
+    </plurals>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"转到主屏幕"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s：%2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s - %2$s：%3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"转到上一层级"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"更多选项"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"完成"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"查看全部"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"选择应用"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"关闭"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"开启"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"搜索…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"清除查询"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"搜索查询"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"搜索"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"提交查询"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"语音搜索"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"分享方式"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"通过%s分享"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"收起"</string>
+    <string msgid="5976616107390962899" name="add_alarm">"添加闹钟"</string>
+    <string msgid="3272183025444682500" name="alarm_alert_dismiss_now_text">"立即关闭"</string>
+    <string msgid="4942914605480888820" name="alarm_alert_dismiss_text">"取消"</string>
+    <string msgid="2459925305288819812" name="alarm_alert_off_action_text">"关闭"</string>
+    <string msgid="4472073417593915002" name="alarm_alert_off_text">"闹钟已关闭"</string>
+    <string msgid="5723945586913705445" name="alarm_alert_predismiss_title">"预定的闹钟"</string>
+    <string msgid="1774416052207651584" name="alarm_alert_snooze_text">"暂停"</string>
+    <string msgid="6958013659168344550" name="alarm_alert_snooze_until">"闹钟已暂停，将于<ns1:g id="TIME">%s</ns1:g>再响"</string>
+    <string msgid="7064642998528766113" name="alarm_alert_snoozed_text">"已暂停"</string>
+    <string msgid="6790780716498252583" name="alarm_alert_wake_up">"醒醒！"</string>
+    <string msgid="740283647046258651" name="alarm_button_description">"闹钟"</string>
+    <string msgid="8810520940995307437" name="alarm_cant_be_dismissed_still_more_than_24_hours_away">"距离 <ns1:g id="ALARM_TIME">%s</ns1:g> 的闹钟还有 24 小时以上，因此无法关闭此闹钟"</string>
+    <string msgid="6131529309389084785" name="alarm_deleted">"闹钟已删除"</string>
+    <string msgid="5509897230565826642" name="alarm_is_dismissed">"已关闭 <ns1:g id="ALARM_TIME">%s</ns1:g> 的闹钟"</string>
+    <string msgid="5503226382620011088" name="alarm_is_set">"已设置 <ns1:g id="ALARM_TIME">%s</ns1:g> 的闹钟"</string>
+    <string msgid="7044644119744928846" name="alarm_is_snoozed">"<ns1:g id="ALARM_TIME">%s</ns1:g> 的闹钟已延后 10 分钟"</string>
+    <string msgid="2147506334302260256" name="alarm_klaxon_service_desc">"在“时钟”内设置的闹钟铃声播放服务。"</string>
+    <string msgid="7589940465292950600" name="alarm_list_title">"闹钟"</string>
+    <string msgid="6585658367289194023" name="alarm_missed_text">"<ns1:g id="ALARM_TIME">%s</ns1:g> - <ns1:g id="ALARM_LABEL">%s</ns1:g>"</string>
+    <string msgid="3828345099754063392" name="alarm_missed_title">"错过的闹钟"</string>
+    <string msgid="5404083762646377829" name="alarm_notify_snooze_label">"<ns1:g id="LABEL">%s</ns1:g>（已暂停）"</string>
+    <string msgid="4819324081410990368" name="alarm_notify_snooze_text">"闹钟时间已设为<ns1:g id="TIME">%s</ns1:g>后。触摸可取消。"</string>
+    <string msgid="4891014685945904766" name="alarm_notify_text">"暂停或关闭闹钟。"</string>
+    <string msgid="7242985466344233206" name="alarm_repeat">"重复"</string>
+    <string msgid="2947147071388290814" name="alarm_settings">"闹钟"</string>
+    <string msgid="7873594221106531654" name="alarm_today">"今天"</string>
+    <string msgid="131356848787643420" name="alarm_tomorrow">"明天"</string>
+    <string msgid="5710042601177655254" name="alarm_undo">"撤消"</string>
+    <string msgid="3476686921490362230" name="alarm_vibrate">"振动"</string>
+    <string name="alarm_vol">闹钟音量</string>
+    <string msgid="8506245173912428522" name="alarm_volume_title">"闹钟音量"</string>
+    <string msgid="1075308195332888260" name="alarms_selected">"已选择<ns1:g id="ALARMS">%d</ns1:g>个"</string>
+    <string msgid="6506982899651975645" name="alert">"闹钟铃声"</string>
+    <string name="alert_stopwatch_hint">计时结束</string>
+    <string msgid="278532320068394600" name="all_timers_stopped_notif">"触摸可查看您的计时器"</string>
+    <string msgid="1670505720837152766" name="analog_gadget">"指针时钟"</string>
+    <string msgid="6674495003718166674" name="app_label">"时钟"</string>
+    <string msgid="4821982647348750809" name="auto_silence_never">"不停歇"</string>
+    <string msgid="2012754009554434544" name="auto_silence_title">"闹铃时长"</string>
+    <string msgid="6274174710735449252" name="automatic_home_clock">"自动显示家中时间"</string>
+    <string msgid="6020476321040807273" name="automatic_home_clock_summary">"在其他时区旅行时显示家中时间"</string>
+    <string msgid="3907838219512538763" name="button_alarms">"添加闹钟"</string>
+    <string msgid="4555761857494501363" name="button_cities">"城市"</string>
+    <string msgid="6050484561842120282" name="button_menu">"更多选项"</string>
+    <string name="cancle">取消</string>
+    <string msgid="8552462751129256730" name="cities_activity_title">"城市"</string>
+    <string msgid="1335509457349179514" name="city_added">"已添加<ns1:g id="CITY_NAME">%s</ns1:g>"</string>
+    <string msgid="1783441538785676299" name="city_delete_confirmation">"是否删除此城市？"</string>
+    <string msgid="3935141305276867838" name="city_deleted">"已删除<ns1:g id="CITY_NAME">%s</ns1:g>"</string>
+    <string msgid="2656876819515011590" name="clock_instructions">"选择时钟"</string>
+    <string name="clock_setting">闹钟设置</string>
+    <string msgid="8317286807280600391" name="clock_settings">"时钟"</string>
+    <string msgid="2265011060429742344" name="clock_style">"样式"</string>
+    <string msgid="3561772046433483980" name="collapse_alarm">"折叠闹钟"</string>
+    <string msgid="2194676418924016327" name="control_set_alarm">"设置闹钟"</string>
+    <string name="custom">自定义</string>
+    <string msgid="3477418548382111184" name="custom_ringtone">"自定义铃声"</string>
+    <string msgid="971998564991636532" name="day_concat">", "</string>
+    <string msgid="3968620852217927702" name="day_picker_description">"按月份划分的日期网格"</string>
+    <string msgid="5590025289805630372" name="default_label">"闹钟"</string>
+    <string msgid="4549726190682964245" name="default_ringtone_setting_title">"设置默认铃声"</string>
+    <string msgid="5732434972457000541" name="delete">"删除闹钟"</string>
+    <string msgid="3457780990646206817" name="delete_alarm">"删除闹钟"</string>
+    <string msgid="6578572637340860840" name="delete_alarm_confirm">"要删除此闹钟吗？"</string>
+    <string name="delete_alarm_hint">确定删除该闹钟？</string>
+    <string name="delete_this_alarm">删除该闹钟？</string>
+    <string msgid="6908431551612331381" name="deleted_key">"已删除 <ns1:g id="KEY">%1$s</ns1:g>"</string>
+    <string msgid="1220848140260509437" name="deleted_message">"已删除"</string>
+    <string msgid="1841309486023845685" name="description_direction_both">"向左滑动可暂停，向右滑动可关闭"</string>
+    <string msgid="7448141043674998679" name="description_direction_left">"向左滑动可暂停闹钟"</string>
+    <string msgid="5709209043267548985" name="description_direction_right">"向右滑动可关闭闹钟"</string>
+    <string msgid="4207371097361657274" name="desk_clock_button_description">"时钟显示"</string>
+    <string msgid="2326954556720571358" name="digital_gadget">"数字时钟"</string>
+    <string msgid="5889378670229554109" name="disable_alarm">"停用闹钟"</string>
+    <string msgid="7204593078688533541" name="dismiss_alarm">"关闭闹钟"</string>
+    <string msgid="6509722361933858451" name="done">"完成"</string>
+    <string msgid="7007948707597430919" name="done_label">"完成"</string>
+    <string name="early_local_time">快</string>
+    <string name="edit">编辑</string>
+    <string msgid="1834599140632142536" name="enable_alarm">"启用闹钟"</string>
+    <string msgid="4100909974923444602" name="every_day">"每天"</string>
+    <string msgid="7392616528943305020" name="expand_alarm">"展开闹钟"</string>
+    <string msgid="1151743663255257668" name="gallery_button_description">"图库"</string>
+    <string msgid="7786263119482654015" name="help">"帮助"</string>
+    <string msgid="3217727306480505694" name="hide_clock">"隐藏时钟"</string>
+    <string msgid="3383859096809056157" name="home_button_description">"启动器"</string>
+    <string msgid="4436139365695453870" name="home_label">"家"</string>
+    <string msgid="9199730676287974501" name="home_time_zone">"家中时区"</string>
+    <string msgid="807894493443834624" name="home_time_zone_title">"家中时区"</string>
+    <string name="hour_hint">时</string>
+    <string msgid="7586639618712934060" name="hour_picker_description">"小时转盘"</string>
+    <string msgid="3393478155635368097" name="hours_label">"小时"</string>
+    <string msgid="8652842524970971830" name="hours_label_description">"小时"</string>
+    <string msgid="2782334750243998633" name="invalid_time">"时间无效：<ns1:g id="INVALID_AMPM">%s</ns1:g> <ns1:g id="INVALID_HOUR">%d</ns1:g>:<ns1:g id="INVALID_MINUTES">%d</ns1:g>"</string>
+    <string msgid="3104567893212932487" name="invalid_timer_length">"计时器时长无效"</string>
+    <string msgid="2674929164900463786" name="item_is_selected">"已选择 <ns1:g id="ITEM">%1$s</ns1:g>"</string>
+    <string msgid="162189613902857319" name="label">"标签"</string>
+    <string msgid="8736179296142915727" name="label_description">"标签"</string>
+    <string name="late_local_time">慢</string>
+    <string msgid="6523322777415268044" name="loading_ringtone">"正在加载铃声..."</string>
+    <string name="local_time">本地时间</string>
+    <string msgid="4772010125376647519" name="menu_alarm">"闹钟"</string>
+    <string msgid="5612760670606829805" name="menu_clock">"时钟"</string>
+    <string msgid="3241995064554071588" name="menu_desk_clock">"座钟"</string>
+    <string msgid="7204602994918829751" name="menu_edit_alarm">"修改闹钟设置"</string>
+    <string msgid="4570953476186849841" name="menu_item_help">"帮助"</string>
+    <string msgid="3486930302245398975" name="menu_item_night_mode">"夜间模式"</string>
+    <string msgid="1413723516369078665" name="menu_item_settings">"设置"</string>
+    <string msgid="3120860422682721706" name="menu_item_sort_by_gmt_offset">"按时间排序"</string>
+    <string msgid="1762931290495104106" name="menu_item_sort_by_name">"按名称排序"</string>
+    <string msgid="3396117705293574701" name="menu_stopwatch">"秒表"</string>
+    <string msgid="6459070074762877114" name="menu_timer">"计时器"</string>
+    <string name="minute_hint">分</string>
+    <string msgid="6024811202872705251" name="minute_picker_description">"分钟转盘"</string>
+    <string msgid="3568098128251438588" name="minutes_label">"分"</string>
+    <string msgid="965686733490357796" name="minutes_label_description">"分钟"</string>
+    <string msgid="5295473204045979335" name="missed_alarm_has_been_deleted">"错过的闹钟已删除"</string>
+    <string name="mon_to_fir">周一至周五</string>
+    <string msgid="6722110840279707462" name="multiple_timers_available">"有多个相符的计时器，因而无法完成您的请求"</string>
+    <string msgid="1626593420810117999" name="music_button_description">"音乐"</string>
+    <string msgid="2650244835760747046" name="next_alarm_description">"下次闹钟时间：<ns1:g id="ALARM_TIME">%s</ns1:g>"</string>
+    <string msgid="6136454740115613653" name="next_timer_notif">"下一个计时器：<ns1:g id="TIME_REMAINING">%s</ns1:g>"</string>
+    <string msgid="1017350187324162631" name="night_mode_summary">"将屏幕亮度调至非常低（适合光线昏暗的环境）"</string>
+    <string msgid="5983813889469616299" name="night_mode_title">"夜间模式"</string>
+    <string msgid="990894208217576381" name="nightmode_button_description">"调暗"</string>
+    <string msgid="8140632482969193119" name="no_alarm_at">"未设置 <ns1:g id="ALARM_TIME_HOUR">%d</ns1:g>:<ns1:g id="ALARM_TIME_MINUTES">%d</ns1:g> 的闹钟"</string>
+    <string msgid="4463069177414482818" name="no_alarm_scheduled_for_this_time">"未设置这个时间的闹钟"</string>
+    <string msgid="6429431324842022917" name="no_alarms">"没有闹钟"</string>
+    <string msgid="4887558279496044764" name="no_alarms_set">"未设置闹钟"</string>
+    <string msgid="6250998794542941665" name="no_alarms_with_label">"没有闹钟包含此标签"</string>
+    <string msgid="1007596865203283741" name="no_city_selected">"未选择任何城市"</string>
+    <string msgid="4986161963178722289" name="no_firing_alarms">"目前没有正在响铃的闹钟"</string>
+    <string msgid="2008482054428460626" name="no_label_specified">"未指定任何标签"</string>
+    <string msgid="2115420148192753534" name="no_scheduled_alarms">"未设置任何闹钟"</string>
+    <string msgid="3326365650863016606" name="no_timer_set">"未设置任何计时器"</string>
+    <string msgid="2889840988069436254" name="no_upcoming_alarms">"没有预定的闹钟"</string>
+    <string name="no_work_day">法定节假日</string>
+    <string name="no_work_day_dec">法定节假日（智能跳过工作日）</string>
+    <string name="ok">确定</string>
+    <string name="one_time">只响一次</string>
+    <string msgid="5408769235866082896" name="pick_alarm_to_dismiss">"请选择要关闭的闹钟"</string>
+    <string name="power_on_no_text">"否"</string>
+    <string name="power_on_text">"开机"</string>
+    <string name="power_on_yes_text">"是"</string>
+    <string name="remark">备注</string>
+    <string name="remark_hint">闹钟</string>
+    <string name="remind_later">稍后提醒</string>
+    <string msgid="9100911171235162926" name="revert">"还原"</string>
+    <string msgid="9110746249688559579" name="ringtone">"铃声"</string>
+    <string msgid="7580922112921069925" name="ringtone_description">"铃声"</string>
+    <string msgid="7013450738357352801" name="screensaver_settings">"互动式屏保设置"</string>
+    <string name="search_no_data">没有搜索结果</string>
+    <string name="second_hint">秒</string>
+    <string msgid="124655952824003246" name="seconds_label">"秒"</string>
+    <string msgid="3821620053141299692" name="seconds_label_description">"秒"</string>
+    <string msgid="3973338219107019769" name="select_day">"选择月份和日期"</string>
+    <string msgid="7651068754188418859" name="select_hours">"选择小时"</string>
+    <string msgid="8327182090226828481" name="select_minutes">"选择分钟"</string>
+    <string msgid="2603330600102539372" name="select_year">"选择年份"</string>
+    <string msgid="3607479399424246605" name="selected_cities_label">"所选城市"</string>
+    <string msgid="9148359866152726808" name="set_alarm">"设置闹钟"</string>
+    <string msgid="5849739030579520686" name="settings">"设置"</string>
+    <string msgid="8358759982675616915" name="show_clock">"显示时钟"</string>
+    <string msgid="8605302849408279221" name="silent_alarm_summary">"静音"</string>
+    <string msgid="2077577763821006919" name="slash">"/"</string>
+    <string msgid="1097309861110780483" name="snooze_duration_title">"暂停时长"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="stop_alarm_hint">向上滑动关闭闹钟</string>
+    <string name="stop_timer_hint">向上滑动关闭闹钟</string>
+    <string name="stop_watch_hint">向上滑动关闭计时</string>
+    <string msgid="6598258908106423672" name="stopwatch_already_running">"秒表已在计时"</string>
+    <string msgid="5713134605500796186" name="stopwatch_cant_be_reset_because_is_running">"秒表正在运行，因此无法重置"</string>
+    <string msgid="7147219965448204727" name="stopwatch_isnt_running">"秒表目前未运行"</string>
+    <string msgid="5844686448815550482" name="stopwatch_lapped">"秒表已分圈计时"</string>
+    <string msgid="7585914953721021042" name="stopwatch_reset">"秒表已重置"</string>
+    <string msgid="8416624630388063996" name="stopwatch_service_desc">"使用秒表服务执行通知功能。"</string>
+    <string msgid="7843882246387176304" name="stopwatch_started">"秒表已开始"</string>
+    <string msgid="6927081018816192999" name="stopwatch_stopped">"秒表已停止"</string>
+    <string name="str_alarm_disable">未开启</string>
+    <string name="str_alarm_set">闹钟设置</string>
+    <string name="str_choose_clock">选择世界时间</string>
+    <string name="str_delete">删除</string>
+    <string name="str_friday">周五</string>
+    <string name="str_friday_short">五</string>
+    <string name="str_have_select">已选择%1$d项</string>
+    <string name="str_interference_free_alarm">免扰闹钟</string>
+    <string name="str_interference_free_des">关闭声音并加强震动</string>
+    <string name="str_local">本地</string>
+    <string name="str_monday">周一</string>
+    <string name="str_monday_short">一</string>
+    <string name="str_no_alarms">没有闹钟</string>
+    <string name="str_not_select_all">全不选</string>
+    <string name="str_pause">暂停</string>
+    <string name="str_rec">恢复</string>
+    <string name="str_remark_limit_hint">输入不能超过10个字</string>
+    <string name="str_saturday">周六</string>
+    <string name="str_saturday_short">六</string>
+    <string name="str_search_hint">搜索城市</string>
+    <string name="str_select_all">全选</string>
+    <string name="str_set_alarm">设置闹钟</string>
+    <string name="str_set_time_first">请先设置时间</string>
+    <string name="str_sleep1">手机摇一摇即可贪睡</string>
+    <string name="str_sleep2">再摇一摇继续贪睡</string>
+    <string name="str_sleep3">不能再贪睡了，快起床吧！</string>
+    <string name="str_sleep_toast">分钟后再响！</string>
+    <string name="str_stopwatch_reset">重置</string>
+    <string name="str_stopwatch_setcount">计次</string>
+    <string name="str_stopwatch_start">启动</string>
+    <string name="str_stopwatch_stop">停止</string>
+    <string name="str_sunday">周日</string>
+    <string name="str_sunday_short">日</string>
+    <string name="str_thursday">周四</string>
+    <string name="str_thursday_short">四</string>
+    <string name="str_timesup_to">计时间结束时</string>
+    <string name="str_tuesday">周二</string>
+    <string name="str_tuesday_short">二</string>
+    <string name="str_wednesday">周三</string>
+    <string name="str_wednesday_short">三</string>
+    <string name="str_week">周 </string>
+    <string msgid="6992264696039004233" name="sw_lap_button">"一圈"</string>
+    <string msgid="3535420316052647126" name="sw_notification_lap_number">"第<ns1:g id="NUMBER">%d</ns1:g>圈"</string>
+    <string msgid="6616804728322906117" name="sw_reset_button">"重置"</string>
+    <string msgid="2569360966002022248" name="sw_resume_button">"继续"</string>
+    <string msgid="4478648110382859382" name="sw_share_button">"分享"</string>
+    <string msgid="614390674795945007" name="sw_share_laps">"各圈时间："</string>
+    <string msgid="7703563468204234405" name="sw_share_main">"我的时间：<ns1:g id="TIME">%s</ns1:g>"</string>
+    <string msgid="8373422516681242270" name="sw_start_button">"开始"</string>
+    <string msgid="8322958613123274451" name="sw_stop_button">"停止"</string>
+    <string msgid="783124901663086172" name="swn_stopped">"已停止"</string>
+    <string name="tcl_timer_cancle">取消</string>
+    <string name="tcl_timer_pause">暂停</string>
+    <string name="tcl_timer_start">开始</string>
+    <string name="text_return">返回</string>
+    <string name="text_time">１０分钟后开始响铃</string>
+    <string msgid="3799050213771793020" name="the_city_already_added">"已添加过该城市"</string>
+    <string msgid="1753597460426454543" name="the_city_you_specified_is_not_available">"数据库中没有您指定的城市"</string>
+    <string msgid="8067216534232296518" name="time">"时间"</string>
+    <string msgid="1619464909892545536" name="time_format_12_mode">"ahh:mm"</string>
+    <string name="time_format_12_mode_tcl">"ahh:mm"</string>
+    <string msgid="7998512313148074539" name="time_format_24_mode">"k:mm"</string>
+    <string msgid="6001006474735281911" name="time_picker_00_label">":00"</string>
+    <string msgid="1027250857384838129" name="time_picker_30_label">":30"</string>
+    <string msgid="6754113715199751083" name="time_picker_ampm_label">"--"</string>
+    <string msgid="7437106489606013077" name="time_picker_cancel">"取消"</string>
+    <string msgid="331153175471468051" name="time_picker_set">"确定"</string>
+    <string msgid="7484926510054777041" name="time_picker_time_seperator">":"</string>
+    <string msgid="862733633862574752" name="timer_add_timer">"添加计时器"</string>
+    <string msgid="1259351124772803097" name="timer_already_running">"计时器已在计时"</string>
+    <string msgid="8865820275829449054" name="timer_already_stopped">"计时器之前已停止"</string>
+    <string msgid="3572868404230815644" name="timer_cancel">"取消"</string>
+    <string msgid="7880015473706806640" name="timer_cant_be_reset_because_its_running">"计时器仍在计时，无法重置。停止计时器即可重置。"</string>
+    <string msgid="4381027137335885547" name="timer_created">"已创建计时器"</string>
+    <string msgid="8699122001991909302" name="timer_delete">"删除"</string>
+    <string msgid="2815524107015816453" name="timer_delete_confirmation">"是否删除此计时器？"</string>
+    <string msgid="9110322362460029392" name="timer_deleted">"已删除计时器"</string>
+    <string msgid="8794915342760383536" name="timer_descriptive_delete">"删除 <ns1:g id="NUMBER_STRING">%s</ns1:g>"</string>
+    <string msgid="2375990511982914051" name="timer_done">"完成"</string>
+    <string name="timer_hour">小时</string>
+    <string name="timer_min">分钟</string>
+    <string msgid="4933184831583137249" name="timer_notification_label">"计时器"</string>
+    <string msgid="8645224089494875062" name="timer_plus_1_min">"加上1分钟"</string>
+    <string msgid="6631211310420106116" name="timer_plus_one">"增加1分钟"</string>
+    <string msgid="7848424809190171640" name="timer_reset">"重置"</string>
+    <string msgid="2620214305660322415" name="timer_ring_service_desc">"用于“时钟”内设置的计时器的音效播放服务。"</string>
+    <string name="timer_sec">秒</string>
+    <string msgid="6158486445614356442" name="timer_start">"开始"</string>
+    <string msgid="6715582052946641641" name="timer_started">"已启动计时器"</string>
+    <string msgid="3361154678667736722" name="timer_stop">"停止"</string>
+    <string msgid="2730331837832462008" name="timer_stopped">"计时器已停止"</string>
+    <string msgid="9190440395938519009" name="timer_times_up">"时间到"</string>
+    <string msgid="6495796785185062631" name="timer_was_reset">"已重置计时器"</string>
+    <string msgid="5570729467344408506" name="timers_in_use">"<ns1:g id="NUMBER">%d</ns1:g>个计时器"</string>
+    <string msgid="9140022846793903813" name="timers_max_count_reached">"最多只能设置4个计时器"</string>
+    <string msgid="2393640808691864520" name="timers_stopped">"<ns1:g id="NUMBER">%d</ns1:g>个计时器已停止"</string>
+    <string name="today_lab">今天</string>
+    <string name="tomorrow_lab">明天</string>
+    <string msgid="8768042543750036853" name="volume_button_dialog_title">"按钮的作用"</string>
+    <string msgid="6937131248843413357" name="volume_button_setting_title">"音量按钮"</string>
+    <string msgid="3425804832021006835" name="weather_fetch_failure">"目前无法提供天气信息。"</string>
+    <string msgid="4268917518596832096" name="week_start_title">"一周的第一天"</string>
+    <string msgid="8648842975829470646" name="weekday_time_format_12_mode">"EEEa h:mm"</string>
+    <string msgid="152964494051478631" name="weekday_time_format_24_mode">"EEE k:mm"</string>
+    <string name="work_day">法定工作日</string>
+    <string name="work_day_dec">法定工作日（智能跳过节假日）</string>
+    <string msgid="5911196322328341288" name="world_day_of_week_label">"/ <ns1:g id="LABEL">%s</ns1:g>"</string>
+    <string msgid="6963340404644587098" name="year_picker_description">"年份列表"</string>
+    <string name="yestoday_lab">昨天</string>
+    <string msgid="7102083421938355017" name="zero">"0"</string>
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.com.xy.sms.sdk.ui.popu.widget.DuoquVerticalItemTable xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:duoqu="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/duoqu_horiz_list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/duoqu_vert_padding_bottom"
+    android:paddingLeft="@dimen/duoqu_vert_normal_padding_left"
+    android:paddingRight="@dimen/duoqu_vert_normal_padding_right"
+    android:paddingTop="@dimen/duoqu_vert_padding_top"
+    duoqu:content_paddingleft="@dimen/duoqu_vert_content_padding_left"
+    duoqu:content_paddingtop="@dimen/duoqu_vert_content_padding_top"
+    duoqu:content_textsize="@dimen/duoqu_vert_content_textsize"
+    duoqu:content_textcolor="@color/duoqu_theme_color_4010"
+    duoqu:line_spacing="@dimen/duoqu_horz_line_spacing"
+    duoqu:round_point_height="@dimen/duoqu_vert_img_height"
+    duoqu:round_point_margin_right="@dimen/duoqu_vert_img_mar_right"
+    duoqu:round_point_width="@dimen/duoqu_vert_img_width"
+    duoqu:text_paddingleft="@dimen/duoqu_vert_text_padding_left"
+    duoqu:title_paddingleft="@dimen/duoqu_vert_content_padding_left"
+    duoqu:title_textsize="@dimen/duoqu_vert_textsize"
+    duoqu:title_textcolor="@color/duoqu_vertical_table_title"
+    duoqu:title_paddingtop = "@dimen/duoqu_vert_title_padding_top"
+    duoqu:first_title_paddingtop = "@dimen/duoqu_vert_first_title_padding_top" >
+
+</cn.com.xy.sms.sdk.ui.popu.widget.DuoquVerticalItemTable>

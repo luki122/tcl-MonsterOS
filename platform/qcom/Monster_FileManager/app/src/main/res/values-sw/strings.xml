@@ -1,0 +1,814 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="sort">"Panga"</string>
+	<!---->
+	<string name="sort_by_name">"Jina"</string>
+	<!---->
+	<string name="sort_by_date">"Tarehe ya marekebisho"</string>
+	<!---->
+	<string name="sort_by_time">"Tarehe"</string>
+	<!---->
+	<string name="sort_by_type">"Aina"</string>
+	<!---->
+	<string name="sort_by_size">"Ukubwa"</string>
+	<!---->
+	<string name="copy">"Nakili"</string>
+	<!---->
+	<string name="create_folder">"Unda"</string>
+	<!---->
+	<string name="cut">"Kata"</string>
+	<!---->
+	<string name="delete">"Futa"</string>
+	<!---->
+	<string name="delete_confirm">"Thibitisha ufutaji"</string>
+	<!---->
+	<string name="deselect_all">"Tengua uteuzi wa zote"</string>
+	<!---->
+	<string name="select_all">"Chagua zote"</string>
+	<!---->
+	<string name="show_file">"Onyesha faili zilizofichwa"</string>
+	<!---->
+	<string name="hide_file">"Ficha faili zilizofichwa"</string>
+	<!---->
+	<string name="paste">"Bandika"</string>
+	<!---->
+	<string name="rename">"Badilisha jina"</string>
+	<!---->
+	<string name="share">"Shiriki"</string>
+	<!---->
+	<string name="viewby_list">"Tazama kwa orodha"</string>
+	<!---->
+	<string name="viewby_grid">"Tazama kwa gridi"</string>
+	<!---->
+	<string name="alert_delete_message">"Futa"</string>
+	<!---->
+	<string name="multi_alert_delete_message">"Je, ungependa kufuta vipengele vilivyochaguliwa?"</string>
+	<!-- no translation found for multi_alert_delete_message_cn -->
+	<skip />
+	<!-- no translation found for delete_folder_message -->
+	<skip />
+	<!---->
+	<string name="category_pictures">"Picha"</string>
+	<!---->
+	<string name="category_vedios">"Video"</string>
+	<!---->
+	<string name="category_music">"Muziki"</string>
+	<!---->
+	<string name="category_download">"Daunlodi"</string>
+	<!---->
+	<string name="category_bluetooth">"Bluetooth"</string>
+	<!-- no translation found for app_name -->
+	<skip />
+	<!-- no translation found for theme_name -->
+	<skip />
+	<!---->
+	<string name="apk_name">"Faili"</string>
+	<!---->
+	<string name="new_folder">"Unda folda mpya"</string>
+	<!---->
+	<string name="confirm_rename">"Thibitisha jina"</string>
+	<!---->
+	<string name="warning">"Upeo wa ukubwa wa faili"</string>
+	<!---->
+	<string name="share_warning">"Huwezi kushiriki zaidi ya faili 100."</string>
+	<!---->
+	<string name="loading">"Inapakiza..."</string>
+	<!---->
+	<string name="deleting">"kufuta"</string>
+	<!---->
+	<string name="alert_delete_multiple">"Faili zilizochaguliwa zitafutwa."</string>
+	<!---->
+	<string name="name">"Jina"</string>
+	<!---->
+	<string name="size">"Ukubwa"</string>
+	<!---->
+	<string name="modified_time">"Imerekebishwa"</string>
+	<!---->
+	<string name="msg_rename_ext">"Mkondo wa faili utabadilishwa. Huenda faili isitambulike. Unataka kuendelea?"</string>
+	<!---->
+	<string name="wait">"Tafadhali subiri..."</string>
+	<!---->
+	<string name="done">"Kamilika"</string>
+	<!-- no translation found for enable -->
+	<skip />
+	<!-- no translation found for enable_cn -->
+	<skip />
+	<!---->
+	<string name="cancel">"Ghairi"</string>
+	<!---->
+	<string name="no">"Hapana"</string>
+	<!---->
+	<string name="ok">"SAWA"</string>
+	<!---->
+	<string name="yes">"Ndiyo"</string>
+	<!---->
+	<string name="details">"Maelezo ya faili"</string>
+	<!---->
+	<string name="drawer_open">"Fungua"</string>
+	<!---->
+	<string name="unknown">"isiyojulikana"</string>
+	<!-- no translation found for unit_B -->
+	<skip />
+	<!-- no translation found for unit_KB -->
+	<skip />
+	<!-- no translation found for unit_MB -->
+	<skip />
+	<!-- no translation found for unit_GB -->
+	<skip />
+	<!-- no translation found for unit_TB -->
+	<skip />
+	<!---->
+	<string name="send_file">"Shiriki faili kupitia"</string>
+	<!---->
+	<string name="default_search_text">"Tafuta Faili"</string>
+	<!---->
+	<string name="free_space">"Inapatikana"</string>
+	<!---->
+	<string name="total_space">"Jumla ya nafasi"</string>
+	<!---->
+	<string name="drawer_category">"Kategoria"</string>
+	<!---->
+	<string name="phone_storage">"Hifadhi ya simu"</string>
+	<!---->
+	<string name="phone_storage_cn">"Hifadhi ya simu"</string>
+	<!---->
+	<string name="sd_card">"Kadi ya kumbukumbu"</string>
+	<!---->
+	<string name="draw_left_phone_storage">"Hifadhi ya simu"</string>
+	<!---->
+	<string name="draw_left_sd_card">"Kadi ya kumbukumbu"</string>
+	<!-- no translation found for menu_settings -->
+	<skip />
+	<!---->
+	<string name="no_search_result">"Faili 0 zimapatikana kwa \"%1$s\""</string>
+	<!---->
+	<string name="copy_deny">"Hakuna ruhusa ya kunakili."</string>
+	<!---->
+	<string name="cut_deny">"Hakuna ruhusa ya kukata."</string>
+	<!---->
+	<string name="delete_deny">"Hakuna ruhusa ya kufuta."</string>
+	<!---->
+	<string name="insufficient_memory">"Hakuna nafasi ya kutosha"</string>
+	<!---->
+	<string name="insufficient_message">"Haikuweza kunakili baadhi ya faili kwa sababu hakuna nafasi ya kutosha"</string>
+	<!---->
+	<string name="invalid_empty_name">"Jina la faili haliwezi kuwachwa tupu."</string>
+	<!---->
+	<string name="paste_same_folder">"Haikuweza kunakili: folda ya chanzo na inapohamishwa ni sawa."</string>
+	<!---->
+	<string name="invalid_char_prompt">"Umecharaza herufi isiyo halali."</string>
+	<!---->
+	<string name="msg_unable_open_file">"Umbizo wa faili haukubaliki."</string>
+	<!---->
+	<string name="paste_sub_folder">"Huwezi kubandika kwenye folda ndogo."</string>
+	<!---->
+	<string name="operation_fail">"Utendaji fulani wa faili haujafaulu."</string>
+	<!---->
+	<string name="search_result">"Matokeo ya %2$d kwa \"%1$s\""</string>
+	<!---->
+	<string name="already_exists">"Tayari %1$s inatumika."</string>
+	<!---->
+	<string name="unmounted">"%1$s imechomolewa"</string>
+	<!---->
+	<string name="create_hidden_file">"Faili itafichwa ikiwa jina lake kinaanza na \'.\'."</string>
+	<!---->
+	<string name="file_name_too_long">"Jina lililoingizwa ni refu sana."</string>
+	<!---->
+	<string name="some_paste_fail">"Utendaji fulani wa ubandikaji haujafaulu."</string>
+	<!---->
+	<string name="delete_fail">"Haikuweza kufuta"</string>
+	<!---->
+	<string name="some_delete_fail">"Utendaji fulani wa ufutaji haukufaulu."</string>
+	<!---->
+	<string name="msg_unable_open_file_in_app">"Hakuna programu ya kufungua faili"</string>
+	<!---->
+	<string name="drm_forwardforbidden_title">"Hakuna Usambazaji"</string>
+	<!---->
+	<string name="drm_forwardforbidden_message">"Faili ya DRM haiwezi kusambazwa."</string>
+	<!---->
+	<string name="drm_no_valid_right">"Faili haina mamlaka halali ya DRM"</string>
+	<!---->
+	<string name="drm_current_count">"Hesabu la sasa:"</string>
+	<!---->
+	<string name="unlimited_usage">"Matumizi bila kikomo"</string>
+	<!---->
+	<string name="drm_current_right">"Kikwazo cha sasa:"</string>
+	<!---->
+	<string name="not_available">"Haipatikani"</string>
+	<!---->
+	<string name="right_url">"URL ya Mtoa Leseni:"</string>
+	<!---->
+	<string name="use_times">"Tumia mara %s"</string>
+	<!---->
+	<string name="valid_after">"Halali baada ya"</string>
+	<!---->
+	<string name="valid_until">"Halali hadi"</string>
+	<!---->
+	<string name="drm_wifidisplay_title">"Faili zilizolindwa zisinakiliwe"</string>
+	<!---->
+	<string name="drm_wifidisplay_message">"Faili iliyolindwa isinakiliwe haiwezi kusambazwa."</string>
+	<!---->
+	<string name="drm_wifidisplay_cancel_btn">"Zima Wi-Fi Display"</string>
+	<!---->
+	<string name="drm_wifidisplay_ok">"SAWA"</string>
+	<!---->
+	<string name="tv_link_close_toast">"Wi-Fi Display limefungwa"</string>
+	<!---->
+	<string name="usbotg">"Hifadhi ya USB ya nje"</string>
+	<!---->
+	<string name="show">"Onyesha faili za mfumo"</string>
+	<!---->
+	<string name="hide">"Ficha faili za mfumo"</string>
+	<!---->
+	<string name="action_menu_create_folder_button">"Unda folda"</string>
+	<!---->
+	<string name="searchResult">"Matokeo ya utafutaji"</string>
+	<!---->
+	<string name="default_folder_name">"Jina la folda"</string>
+	<!---->
+	<string name="drm_protection_status">"Hali ya ulinzi:"</string>
+	<!---->
+	<string name="drm_can_forward">"Inaweza kusambazwa."</string>
+	<!---->
+	<string name="drm_can_not_forward">"Haiwezi kusambazwa"</string>
+	<!---->
+	<string name="drm_no_license">"Hakuna leseni ya DRM inapatikana."</string>
+	<!---->
+	<string name="drm_interval">"Halali kwa %s baada ya matumizi ya mara ya kwanza"</string>
+	<!---->
+	<string name="drm_begin">"Anza:"</string>
+	<!---->
+	<string name="drm_no_limitation">"Hakuna kikomo"</string>
+	<!---->
+	<string name="drm_end">"Mwisho:"</string>
+	<!---->
+	<string name="drm_use_left">"Inayosalia:"</string>
+	<!---->
+	<string name="drm_no_crop">"Faili ya %s" hairuhusiwi kupogolewa kwa sababu imelindwa na DRM."</string>
+	<!---->
+	<string name="file_copy">"Faili imenakiliwa"</string>
+	<!---->
+	<string name="choice_file">"Chagua mpokezi"</string>
+	<!---->
+	<string name="alert_delete_single">"Faili iliyochaguliwa itafutwa."</string>
+	<!---->
+	<string name="pasting">"Kubandika"</string>
+	<!---->
+	<string name="readable">"Inasomeka:"</string>
+	<!---->
+	<string name="executable">"Programu:"</string>
+	<!---->
+	<string name="writable">"Inayoweza kuandikika:"</string>
+	<!---->
+	<string name="add_favorite">"Ongeza kwenye folda ya vipendwa"</string>
+	<!---->
+	<string name="del_favorite">"Futa kutoka kwenye folda ya vipendwa"</string>
+	<!---->
+	<string name="favourite">"Ongeza kwenye vibwedo"</string>
+	<!---->
+	<string name="viewby_details">"Tazama kwa maelezo"</string>
+	<!---->
+	<string name="view_by">"Tazama kama"</string>
+	<!---->
+	<string name="show_hide">"Onyesha\\Ficha"</string>
+	<!---->
+	<string name="sort_by">"Panga kulingana na"</string>
+	<!---->
+	<string name="more">"Zaidi"</string>
+	<!-- no translation found for used -->
+	<skip />
+	<!---->
+	<string name="category_archives">"Jalada"</string>
+	<!---->
+	<string name="category_favorite">"Vipendwa"</string>
+	<!---->
+	<string name="category_ringtones">"Milio"</string>
+	<!---->
+	<string name="category_recordings">"Rekodi"</string>
+	<!---->
+	<string name="category_safebox">"Kisanduku salama"</string>
+	<!---->
+	<string name="category_apks">"APK"</string>
+	<!---->
+	<string name="search">"Tafuta"</string>
+	<!---->
+	<string name="sort_type">"Panga kwa aina"</string>
+	<!---->
+	<string name="sort_name">"Panga kwa jina (A-Z)"</string>
+	<!---->
+	<string name="sort_size">"Panga kwa ukubwa (kubwa-ndogo)"</string>
+	<!---->
+	<string name="sort_time">"Panga kwa muda (mpya-zamani)"</string>
+	<!---->
+	<string name="selected">"Teuliwa"</string>
+	<!---->
+	<string name="save">"Hifadhi"</string>
+	<!---->
+	<string name="category_docs">"Nyaraka"</string>
+	<!---->
+	<string name="category_files">"Faili"</string>
+	<!---->
+	<string name="view_as_grid">"Tazama kama gridi"</string>
+	<!---->
+	<string name="view_as_list">"Tazama kama orodha"</string>
+	<!---->
+	<string name="detail_path">"Mahali:"</string>
+	<!---->
+	<string name="detail_name">"Jina:"</string>
+	<!---->
+	<string name="detail_size">"Ukubwa:"</string>
+	<!---->
+	<string name="detail_time">"Ilirekebishwa mwisho:"</string>
+	<!---->
+	<string name="empty_msg">"(Folda Tupu)"</string>
+	<!---->
+	<string name="search_files">"Tafuta Faili"</string>
+	<!-- no translation found for search_result_count -->
+	<skip />
+	<!---->
+	<string name="drawer_settings">"MIPANGILIO"</string>
+	<!---->
+	<string name="search_text_empty">"Lazima uga wa maudhui ya utafitaji ujazwe."</string>
+	<!---->
+	<string name="search_result_title">"Matokeo ya utafutaji"</string>
+	<!---->
+	<string name="path_not_exists">"%1$s haiko"</string>
+	<!---->
+	<string name="modify_hidden_file">"Faili haitafichwa ikiwa jina lake halianzi na \'.\'."</string>
+	<!---->
+	<string name="paste_fail">"Haikuweza kubandika"</string>
+	<!---->
+	<string name="search_empty">"Lazima uga wa maudhui ya utafitaji ujazwe."</string>
+	<!---->
+	<string name="search_setting_description">"Faili na folda za ndani"</string>
+	<!---->
+	<string name="change_mode">"Chagua faili au folda"</string>
+	<!-- no translation found for drm_protectioninfo_title -->
+	<skip />
+	<!---->
+	<string name="draw_favourite">"kipendwa"</string>
+	<!---->
+	<string name="unfavourite">"Ondoa kutoka kwa vipendwa"</string>
+	<!---->
+	<string name="drm_toast_license_expired">"Muda wa kutumika kwa leseni ya DRM imekwisha"</string>
+	<!-- no translation found for sdstroge -->
+	<skip />
+	<!-- no translation found for phonestorage -->
+	<skip />
+	<!-- no translation found for title_activity_main -->
+	<skip />
+	<!-- no translation found for hello_world -->
+	<skip />
+	<!-- no translation found for action_settings -->
+	<skip />
+	<!-- no translation found for unlock_video -->
+	<skip />
+	<!---->
+	<string name="readable_m">"Inasomeka"</string>
+	<!---->
+	<string name="executable_m">"Programu"</string>
+	<!---->
+	<string name="writable_m">"Inayoweza kuandikika"</string>
+	<!---->
+	<string name="main_recents">"Hivi karibuni"</string>
+	<!-- no translation found for main_recents_cn -->
+	<skip />
+	<!---->
+	<string name="main_installers">"Kisakinishi"</string>
+	<!---->
+	<string name="main_document">"Nyaraka"</string>
+	<!---->
+	<string name="detail_path_m">"Eneo"</string>
+	<!-- no translation found for detail_path_m_cn -->
+	<skip />
+	<!---->
+	<string name="detail_name_m">"Jina"</string>
+	<!---->
+	<string name="detail_size_m">"Ukubwa"</string>
+	<!---->
+	<string name="detail_time_m">"Ilirekebishwa mwisho"</string>
+	<!---->
+	<string name="main_photo">"Picha"</string>
+	<!---->
+	<string name="main_sd_storage">"Hifadhi ya SD"</string>
+	<!---->
+	<string name="main_external_storage">"Hifadhi ya Nje"</string>
+	<!---->
+	<string name="main_home">"Nyumbani"</string>
+	<!-- no translation found for main_home_cn -->
+	<skip />
+	<!---->
+	<string name="main_nava_home">"Nyumbani"</string>
+	<!---->
+	<string name="menu_select">"Chagua"</string>
+	<!-- no translation found for go_up -->
+	<skip />
+	<!---->
+	<string name="no_folder">"Folda hii ni tupu"</string>
+	<!---->
+	<string name="no_category">"Kategoria hii ni tupu"</string>
+	<!-- no translation found for no_folder_cn -->
+	<skip />
+	<!-- no translation found for no_category_cn -->
+	<skip />
+	<!---->
+	<string name="pasted">"Faili imebandikwa"</string>
+	<!---->
+	<string name="deleted">"Faili imefutwa"</string>
+	<!---->
+	<string name="deleted_cn">"Faili imefutwa"</string>
+	<!---->
+	<string name="view_list">"Mwonekano orodha"</string>
+	<!---->
+	<string name="view_grid">"Mwonekano gridi"</string>
+	<!---->
+	<string name="create_new_folder">"Unda folda"</string>
+	<!-- no translation found for add_folder -->
+	<skip />
+	<!---->
+	<string name="detail">"Maelezo"</string>
+	<!-- no translation found for menu_detail -->
+	<skip />
+	<!---->
+	<string name="migrate">"Hama"</string>
+	<!---->
+	<string name="permission_welcome_title">"Ruhusu inahitajika"</string>
+	<!-- no translation found for permission_msg -->
+	<skip />
+	<!---->
+	<string name="permission_setting_title">"Ruhusu ufikivu"</string>
+	<!---->
+	<string name="permission_setting_content">"Badilisha ruhusa katika mipangilio ya programu ya kifaa chako. Ruhusu Kidhibiti Faili kufikia hifadhi."</string>
+	<!---->
+	<string name="permission_exit_btn">"Toka"</string>
+	<!---->
+	<string name="dialog_close_btn">"Funga"</string>
+	<!-- no translation found for dialog_close_btn_cn -->
+	<skip />
+	<!---->
+	<string name="shortcut_item">"Ongeza mkato"</string>
+	<!-- no translation found for shortcut_item_cn -->
+	<skip />
+	<!---->
+	<string name="shortcut_no_exist">"Folda iliyoitishwa haipo"</string>
+	<!-- no translation found for shortcut_success -->
+	<skip />
+	<!---->
+	<string name="no_search_result_m">"Hakuna matokeo yamepatikana ya \"%1$s\""</string>
+	<!---->
+	<string name="draw_left_phone_storage_m">"Simu"</string>
+	<!---->
+	<string name="category_audio">"Sauti"</string>
+	<!---->
+	<string name="usbotg_m">"Ya nje"</string>
+	<!-- no translation found for sd_m -->
+	<skip />
+	<!---->
+	<string name="freeof_m">"Haijatumika"</string>
+	<!---->
+	<string name="permission_settings">"Mipangilio"</string>
+	<!---->
+	<string name="safe_first_dialog_title">"Kategoria ya kisanduku salama"</string>
+	<!---->
+	<string name="safe_first_dialog_content">"Faili zinazohamishwa kwenye kategoria hii zinahitaji uhalalishaji wa nenosiri. Ongeza faili kwenye kategoria hii kwa kybonyeza “Hamisha kwenye kisanduku salama” kutoka kwenye menyu ya faili."</string>
+	<!-- no translation found for safe_first_dialog_content_cn -->
+	<skip />
+	<!---->
+	<string name="safe_storage_local">"Hifadhi ya ndani"</string>
+	<!---->
+	<string name="set_password_pass">"Nenosiri"</string>
+	<!---->
+	<string name="set_password_first">"Weka nenosiri: Tarakimu 4-12"</string>
+	<!-- no translation found for input_new_password_hint -->
+	<skip />
+	<!---->
+	<string name="set_password_again">"Thibitisha nenosiri"</string>
+	<!---->
+	<string name="set_password_show">"Onyesha nenosiri"</string>
+	<!---->
+	<string name="set_password_safe_question">"Maswali ya usalama"</string>
+	<!---->
+	<string name="set_password_safe_question_answer">"Jibu"</string>
+	<!---->
+	<string name="set_password_safe_forget_pass">"Kumbuka majibu ya maswali ya usalama. Ukisahau nenosiri lako, unaweza kuliweka upya kwa kujibu maswali ya usalama."</string>
+	<!---->
+	<string name="choose_safe">"Chagua kisanduku salama"</string>
+	<!-- no translation found for choose_safe_cn -->
+	<skip />
+	<!---->
+	<string name="create_safe">"Unda kisanduku salama"</string>
+	<!---->
+	<string name="create_safe_to">"Unda kisanduku salama kwenye"</string>
+	<!-- no translation found for create_safe_to_cn -->
+	<skip />
+	<!---->
+	<string name="set_password">"Weka nenosiri"</string>
+	<!-- no translation found for add_file_safe -->
+	<skip />
+	<!-- no translation found for safe_set -->
+	<skip />
+	<!---->
+	<string name="safe_set_title">"Mipangilio ya kisanduku salama"</string>
+	<!-- no translation found for safe_set_title_cn -->
+	<skip />
+	<!---->
+	<string name="update_password">"Sasisha nenosiri"</string>
+	<!---->
+	<string name="modify_password">"Rekebisha nenosiri"</string>
+	<!---->
+	<string name="security_question">"Sasisha swali la usalama"</string>
+	<!-- no translation found for modify_security_question -->
+	<skip />
+	<!---->
+	<string name="safe_set_change_safe">"Badilisha kisanduku salama"</string>
+	<!---->
+	<string name="safe_set_location_safe">"Eneo ya kisanduku salama"</string>
+	<!-- no translation found for safe_set_location_safe_cn -->
+	<skip />
+	<!---->
+	<string name="update_password_original">"Ingiza nenosiri asili"</string>
+	<!---->
+	<string name="update_password_original_cn">"Ingiza nenosiri asili"</string>
+	<!---->
+	<string name="destory_safe">"Haribu kisanduku salama"</string>
+	<!-- no translation found for destory_safe_cn -->
+	<skip />
+	<!-- no translation found for destory -->
+	<skip />
+	<!---->
+	<string name="use_password">"Tumia nenosiri"</string>
+	<!---->
+	<string name="input_password">"Ingiza nenosiri"</string>
+	<!---->
+	<string name="forget_password">"Sahau nenosiri"</string>
+	<!-- no translation found for others -->
+	<skip />
+	<!---->
+	<string name="password_empty">"Nenosiri haliwezi kuwachwa tupu."</string>
+	<!---->
+	<string name="password_consistent">"Manenosiri hayalingani."</string>
+	<!---->
+	<string name="password_length_error">"Kuna hitilafu ya urefu wa nenosiri"</string>
+	<!---->
+	<string name="answer_empty">"Jiba haliwezi kuwachwa tupu."</string>
+	<!-- no translation found for safe_box_name_empty -->
+	<skip />
+	<!---->
+	<string name="update_success">"Usasisho umefaulu."</string>
+	<!---->
+	<string name="update_fail">"Usasisho haujafaulu"</string>
+	<!---->
+	<string name="password_mistake">"Nenosiri sio sahihi. Liingize tena."</string>
+	<!---->
+	<string name="move_safe">"Hamisha kwenye kisanduku salama"</string>
+	<!---->
+	<string name="fingerprint_check">"Alama za vidole zilizounganishwa, tafadhali tumia kihisio cha alama ya kidole kwa uthibitisho."</string>
+	<!---->
+	<string name="in_use">"Vinavyotumika"</string>
+	<!---->
+	<string name="created">"Imeundwa"</string>
+	<!---->
+	<string name="choose_files">"Chagua faili"</string>
+	<!---->
+	<string name="move_out">"Hama"</string>
+	<!---->
+	<string name="remove_to">"Hamisha katika"</string>
+	<!---->
+	<string name="default_location">"Eneo chaguo-msingi"</string>
+	<!---->
+	<string name="specified_location">"Eneo lililobainishwa"</string>
+	<!-- no translation found for open_dir -->
+	<skip />
+	<!-- no translation found for default_location_cn -->
+	<skip />
+	<!-- no translation found for specified_location_cn -->
+	<skip />
+	<!-- no translation found for specified_location_content_cn -->
+	<skip />
+	<!-- no translation found for category_safe -->
+	<skip />
+	<!-- no translation found for category_safe_cn -->
+	<skip />
+	<!---->
+	<string name="add_safe_size_limited">"Haiwezi kuongeza faili kubwa zaidi ya GB 2.0"</string>
+	<!-- no translation found for add_safe_drm_limited -->
+	<skip />
+	<!---->
+	<string name="fingerprint_relative_dialog">"Unataka kushirikisha kisanduku salama na alama ya kidole?"</string>
+	<!-- no translation found for fingerprint_relative_dialog_cn -->
+	<skip />
+	<!-- no translation found for fingerprint_relative_dialog_ok -->
+	<skip />
+	<!-- no translation found for fingerprint_relative_dialog_ok_cn -->
+	<skip />
+	<!---->
+	<string name="fingerprint_relative_dialog_cancel">"Baadaye"</string>
+	<!-- no translation found for fingerprint_relative_dialog_cancel_cn -->
+	<skip />
+	<!---->
+	<string name="safe_location_current">"Eneo ya kisanduku salama:"</string>
+	<!-- no translation found for safe_location_current_cn -->
+	<skip />
+	<!---->
+	<string name="safe_location_content">"Usitumie kwenye folda ya faili ili uepuke kuharibu data iliyofichamishwa"</string>
+	<!-- no translation found for safe_location_content_cn -->
+	<skip />
+	<!---->
+	<string name="destory_safe_dialog_message">"Faili zote zilizo katika kisanduku salama na nenosiri zitafutwa. Unataka kuziharibu sasa hivi?"</string>
+	<!---->
+	<string name="destory_safe_dialog_checkbox">"Unataka kuondoa faili wakati huo huo?"</string>
+	<!-- no translation found for destory_safe_dialog_checkbox_cn -->
+	<skip />
+	<!---->
+	<string name="open_safe_dialog">"Wezesha kisanduku salama"</string>
+	<!-- no translation found for open_safe_dialog_cn -->
+	<skip />
+	<!---->
+	<string name="open_safe_dialog_message">"Kuwezesha kisanduku salama kutahamisha faili kwenye kisanduku salama. Unataka kukiwezesha sasa hivi?"</string>
+	<!-- no translation found for open_safe_dialog_message_cn -->
+	<skip />
+	<!---->
+	<string name="open_safe_dialog_ok">"Fungua mara moja"</string>
+	<!---->
+	<string name="category_private_string">"Kisanduku salama"</string>
+	<!---->
+	<string name="opening">"Kufungua"</string>
+	<!-- no translation found for space_clear -->
+	<skip />
+	<!-- no translation found for unselected -->
+	<skip />
+	<!-- no translation found for select -->
+	<skip />
+	<!-- no translation found for finish -->
+	<skip />
+	<!---->
+	<string name="senior_title">"Mkuu"</string>
+	<!-- no translation found for no_files_for_add_to_safebox -->
+	<skip />
+	<!-- no translation found for finger_print_relation -->
+	<skip />
+	<!-- no translation found for duplicate_file_name_tip -->
+	<skip />
+	<!---->
+	<string name="searchview_hint">"Tafuta Faili"</string>
+	<!-- no translation found for safe_box_name_tip -->
+	<skip />
+	<!-- no translation found for toast_update_safe_box_name_sucess -->
+	<skip />
+	<!-- no translation found for toast_update_safe_box_name_fail -->
+	<skip />
+	<!-- no translation found for toast_safe_box_name_empty -->
+	<skip />
+	<!-- no translation found for cut_single_fail_tip -->
+	<skip />
+	<!-- no translation found for delete_single_fail_tip -->
+	<skip />
+	<!-- no translation found for copy_single_fail_tip -->
+	<skip />
+	<!-- no translation found for copy_multi_fail_tip -->
+	<skip />
+	<!-- no translation found for delete_multi_fail_tip -->
+	<skip />
+	<!-- no translation found for cut_multi_fail_tip -->
+	<skip />
+	<!-- no translation found for copy_all_fail_tip -->
+	<skip />
+	<!-- no translation found for delete_all_fail_tip -->
+	<skip />
+	<!-- no translation found for cut_all_fail_tip -->
+	<skip />
+	<!-- no translation found for past_multi_fail_tip -->
+	<skip />
+	<!-- no translation found for past_single_fail_tip -->
+	<skip />
+	<!-- no translation found for past_all_fail_tip -->
+	<skip />
+	<!-- no translation found for chip_encryption -->
+	<skip />
+	<!---->
+	<string name="safe_name_title">"Jina"</string>
+	<!---->
+	<string name="update_name">"Sasisha jina"</string>
+	<!-- no translation found for fingerprint_relate -->
+	<skip />
+	<!-- no translation found for insufficient_message_cn -->
+	<skip />
+	<!-- no translation found for add_success -->
+	<skip />
+	<!---->
+	<string name="pasted_cn">"Faili imebandikwa"</string>
+	<!-- no translation found for no_search_result_cn -->
+	<skip />
+	<!-- no translation found for detail_time_cn -->
+	<skip />
+	<!-- no translation found for rename_limit -->
+	<skip />
+	<!-- no translation found for fingerprint_fail -->
+	<skip />
+	<!-- no translation found for answer_mistake -->
+	<skip />
+	<!-- no translation found for answer_empty_tip -->
+	<skip />
+	<!-- no translation found for new_safe -->
+	<skip />
+	<!-- no translation found for dialog_confirm -->
+	<skip />
+	<!-- no translation found for move_in_success -->
+	<skip />
+	<!-- no translation found for move_in_count -->
+	<skip />
+	<!-- no translation found for message_security_fingerprint_lockout -->
+	<skip />
+	<!-- no translation found for use_password_auth -->
+	<skip />
+	<!-- no translation found for storage_details -->
+	<skip />
+	<!-- no translation found for total_memory -->
+	<skip />
+	<!-- no translation found for system -->
+	<skip />
+	<!-- no translation found for category_fragment_title -->
+	<skip />
+	<!-- no translation found for storage -->
+	<skip />
+	<!-- no translation found for choice -->
+	<skip />
+	<!-- no translation found for view_tag_key -->
+	<skip />
+	<!-- no translation found for view_tag_key2 -->
+	<skip />
+	<!-- no translation found for finish_percent -->
+	<skip />
+	<!---->
+	<string name="select_pic">"Chagua picha"</string>
+	<!-- no translation found for brackets_double -->
+	<skip />
+	<!-- no translation found for selected_pick -->
+	<skip />
+	<!-- no translation found for most_selected -->
+	<skip />
+	<!-- no translation found for finish_ready -->
+	<skip />
+	<!-- no translation found for select_pic_data -->
+	<skip />
+	<!-- no translation found for delete_determine_selected -->
+	<skip />
+	<!-- no translation found for delete_document -->
+	<skip />
+	<!-- no translation found for delete_folder -->
+	<skip />
+	<!-- no translation found for delete_folder_and -->
+	<skip />
+	<!-- no translation found for deselect_all_item -->
+	<skip />
+	<!-- no translation found for edit -->
+	<skip />
+	<!-- no translation found for storage_phone -->
+	<skip />
+	<!-- no translation found for storage_sdcard -->
+	<skip />
+	<!-- no translation found for storage_otg -->
+	<skip />
+	<!-- no translation found for storage_slash -->
+	<skip />
+	<!-- no translation found for welcome_security -->
+	<skip />
+	<!-- no translation found for welcome_security_info -->
+	<skip />
+	<!-- no translation found for welcome_convenient -->
+	<skip />
+	<!-- no translation found for welcome_convenient_info -->
+	<skip />
+	<!-- no translation found for welcome_depth -->
+	<skip />
+	<!-- no translation found for welcome_depth_info -->
+	<skip />
+	<!-- no translation found for welcome_add -->
+	<skip />
+	<!-- no translation found for welcome_add_info -->
+	<skip />
+	<!-- no translation found for welcome_dialog_title -->
+	<skip />
+	<!-- no translation found for welcome_dialog_info -->
+	<skip />
+	<!-- no translation found for welcome_dialog_verify_btn -->
+	<skip />
+	<!-- no translation found for welcome_dialog_verify_pwd -->
+	<skip />
+	<!-- no translation found for welcome_start_use -->
+	<skip />
+	<!-- no translation found for welcome_not_use -->
+	<skip />
+	<!-- no translation found for welcome_ok -->
+	<skip />
+	<!-- no translation found for encrypt_files_success -->
+	<skip />
+	<!-- no translation found for delete_direct -->
+	<skip />
+	<!-- no translation found for delete_file -->
+	<skip />
+</resources>

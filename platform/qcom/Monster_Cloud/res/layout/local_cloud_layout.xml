@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/background_fafafa"
+    >
+    <RelativeLayout
+        android:layout_width="77dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="78dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="84dp">
+
+        <ImageView
+            android:id="@+id/img_phone"
+            android:layout_width="77dp"
+            android:layout_height="77dp"
+            android:src="@drawable/icon_phone" />
+
+        <TextView
+            android:id="@+id/local_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/img_phone"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="7dp"
+            android:textColor="@color/count_text_color"
+            android:textSize="@dimen/contacts_count_text_size" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="77dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="78dp"
+        android:layout_marginRight="39dp"
+        android:layout_marginTop="84dp">
+
+        <ImageView
+            android:id="@+id/img_cloud"
+            android:layout_width="77dp"
+            android:layout_height="77dp"
+            android:src="@drawable/icon_cloud" />
+
+        <TextView
+            android:id="@+id/cloud_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/img_cloud"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="7dp"
+            android:textColor="@color/count_text_color"
+            android:textSize="@dimen/contacts_count_text_size" />
+
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/icon_sync" />
+
+</RelativeLayout>

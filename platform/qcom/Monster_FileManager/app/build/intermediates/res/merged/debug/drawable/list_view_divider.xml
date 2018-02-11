@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<!--
+================================================================================
+|                                                                 Date:03/2014 |
+|                                 PRESENTATION                                 |
+|                                                                              |
+|        Copyright 2014 TCL Communication Technology Holdings Limited.         |
+|                                                                              |
+| This material is company confidential, cannot be reproduced in any form      |
+| without the written permission of TCL Communication Technology Holdings      |
+| Limited.                                                                     |
+|                                                                              |
+| **************************************************************************** |
+|  Author :  Fan.Hu                                                            |
+|  Email  :   fan.hu@tct.com                                                   |
+|  Role   :                                                                    |
+|  Reference documents :                                                       |
+| **************************************************************************** |
+|  Comments :                                                                  |
+|  File     :                                                                  |
+|  Labels   :                                                                  |
+| **************************************************************************** |
+| ============================================================================ |
+|      Modifications on Features list / Changes Request / Problems Report      |
+| **************************************************************************** |
+|    date   |        author        |         Key          |      comment       |
+| **********|**********************|**********************|******************* |
+| 03/17/2014|        Fan.Hu        |      wave3-dev       |first version       |
+| **********|**********************|**********************|******************* |
+================================================================================
+-->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+	<item
+		android:left="@dimen/list_item_margin_left_right"
+		android:right="@dimen/list_item_margin_left_right">
+		<shape android:shape="line" >
+			<stroke android:color="#FFB2B2B2" />
+
+			<size android:height="1px" />
+		</shape>
+	</item>
+
+</layer-list>

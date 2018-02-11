@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cannot_specify_an_empty_name_for_playlist">"Nama daftar putar tidak boleh kosong"</string>
+    <string name="cross_dj_saturated_storage_not_enough_free_space_to_record_your_mix">"Memori tidak cukup untuk merekam campuran Anda."</string>
+    <string name="cross_dj_saturated_storage_your_recording_might_stop_soon_because_no_more_free_space_is_available">"Rekaman Anda akan segera dihentikan karena memori hampir habis."</string>
+    <string name="extraCharge_warning_title">"Gunakan data seluler?"</string>
+    <string name="invalid_drm_file">"File tidak memiliki otoritas DRM yang valid!"</string>
+    <string name="mobiledata_turnoff_btn">"Nonaktifkan"</string>
+    <string name="never_show_it_again">"Jangan tampilkan lagi"</string>
+    <string name="no_error">"Tidak ada kesalahan"</string>
+    <string name="recording_reached_max_duration">"Rekaman telah mencapai durasi maksimal. Periksa preferensi Anda."</string>
+    <string name="recording_soon_to_reach_max_duration">"Rekaman hampir mencapai durasi maksimal. Periksa preferensi Anda."</string>
+    <string name="scratching_is_disabled_in_no_mix_mode">"Anda hanya dapat menggaruk saat di mode DJ."</string>
+    <string name="sign_up">"Daftar"</string>
+    <string name="the_external_memory_storage_is_not_mounted">"Memori eksternal tidak dipasang. Anda harus menonaktifkan Memori USB."</string>
+    <string name="there_s_not_enough_space_in_your_internal_storage_try_to_do_some_clean_up">"Sisa memori internal tidak cukup (cobalah mengosongkan sebagian ruang memori)"</string>
+</resources>

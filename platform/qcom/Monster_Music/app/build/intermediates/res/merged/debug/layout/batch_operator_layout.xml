@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="39dp"
+    android:id="@+id/play_all_title"
+    android:visibility="visible">
+
+    <RelativeLayout
+        android:layout_alignParentTop="true"
+        android:id="@+id/batch_process_status"
+        android:layout_width="match_parent"
+        android:layout_height="38dp">
+
+    <ImageView
+        android:id="@+id/play_all_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_centerVertical="true"
+        android:src="@drawable/picto_play_all_download_off"
+        android:background="?android:attr/actionBarItemBackground"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/play_all"
+        android:layout_width="wrap_content"
+        android:layout_height="56dp"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/play_all_image"
+        android:text="@string/playing_all"
+        style="@style/textview_white_13sp_87"
+        android:background="?android:attr/selectableItemBackground"
+        android:textColor="@color/base_title_unselect_color"
+        android:gravity="center_vertical"/>
+
+    <TextView
+        android:id="@+id/batch_operate"
+        android:layout_width="wrap_content"
+        android:layout_height="56dp"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentRight="true"
+        style="@style/textview_white_13sp_87"
+        android:text="@string/batch_operation"
+        android:background="?android:attr/selectableItemBackground"
+        android:textColor="@color/base_title_unselect_color"
+        android:gravity="center_vertical"/>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="360dp"
+        android:layout_height="1dp"
+        android:id="@+id/separator"
+        android:layout_below="@id/batch_process_status"
+        android:background="@color/list_divider"/>
+
+</RelativeLayout>

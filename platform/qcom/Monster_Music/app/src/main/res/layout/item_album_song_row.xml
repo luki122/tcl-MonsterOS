@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.tcl.music.view.ColoredRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="@dimen/item_detail_height"
+                                                android:paddingTop="10dp"
+                                                android:paddingBottom="10dp"
+                                                android:descendantFocusability="blocksDescendants"
+                                                android:background="?android:attr/selectableItemBackground"
+                                                android:id="@id/item_view"
+                                                android:scrollbars="none"
+                                                android:paddingLeft="12dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_delete"
+            android:layout_width="64dp"
+            android:layout_height="93dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="1px"
+            android:layout_toRightOf="@+id/layout_content"
+            android:background="@drawable/btn_click_red_havebackground"
+            android:gravity="center"
+            android:textColor="#DDFFFFFF"
+            android:visibility="gone"/>
+
+        <RelativeLayout
+            android:id="@+id/layout_content_live_song"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/num"
+                style="@style/textview_white_14sp_54"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:contentDescription="@string/artwork"
+                android:gravity="center"
+                android:textColor="@color/base_title_unselect_color"
+                />
+
+            <!-- [BUGFIX]-ADD by yanjia.li, 2016-06-20,BUG-2197064 begin -->
+            <ImageView
+                android:id="@id/play_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:paddingLeft="16dp"
+                android:paddingRight="48dp"
+                android:src="@drawable/music_04"
+                android:visibility="invisible"/>
+            <!-- [BUGFIX]-ADD by yanjia.li, 2016-06-20,BUG-2197064 end -->
+
+            <cn.tcl.music.view.ImageMenuButton
+                android:id="@id/item_menu_image_button"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@color/transparent"
+                android:contentDescription="@string/menu"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:layout_marginRight="16dp"
+                android:src="@drawable/item_menu"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="12dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginStart="20dp"
+                android:layout_toLeftOf="@id/item_menu_image_button"
+                android:layout_toRightOf="@id/num"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@id/title_text_view"
+                    android:layout_width="204dp"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@id/item_info_text_block"
+                    android:layout_marginStart="16dp"
+                    android:layout_toEndOf="@id/artwork_image_view"
+                    android:layout_toStartOf="@id/play_view"
+                    android:layout_marginBottom="5dp"
+                    android:ellipsize="end"
+                    android:gravity="start|center"
+                    android:singleLine="true"
+                    android:textAlignment="gravity"
+                    android:textColor="#000000"
+                    android:alpha="0.86"
+                    android:textIsSelectable="false"
+                    android:textSize="15sp"
+                    />
+
+                <TextView
+                    android:id="@id/subtitle_text_view"
+                    style="@style/textview_white_12sp_54"
+                    android:layout_width="204dp"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/artwork_image_view"
+                    android:layout_toStartOf="@id/play_view"
+                    android:layout_above="@id/item_info_text_block"
+                    android:layout_marginStart="16dp"
+                    android:ellipsize="end"
+                    android:gravity="start|center"
+                    android:singleLine="true"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/base_title_unselect_color"
+                    android:textIsSelectable="false"
+                    android:alpha="0.40"
+                    android:textSize="12sp"
+                    />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</cn.tcl.music.view.ColoredRelativeLayout>

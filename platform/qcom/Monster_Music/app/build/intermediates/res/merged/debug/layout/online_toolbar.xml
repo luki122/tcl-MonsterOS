@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/music_theme_color"
+              android:gravity="center"
+              android:paddingLeft="16dp">
+
+    <TextView
+        android:id="@+id/second_header_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawableLeft="@drawable/back"
+        android:drawablePadding="16dp"
+        android:text="本地音乐"
+        android:textColor="@color/base_title_unselect_color"
+        android:textSize="16sp"/>
+
+    <ImageView
+        android:id="@+id/header_search_linear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/local_search"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="16dp"
+        android:src="@drawable/local_setting"/>
+
+</LinearLayout>

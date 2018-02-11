@@ -1,0 +1,117 @@
+{
+  "start": "first_swipe",
+  "name": "quad_swipe",
+  "state": [
+    {
+      "id": "first_swipe",
+      "transition": [
+        {
+          "to": "second_swipe",
+          "notify": {
+            "text": "first_swipe"
+          },
+          "criteria": [
+            {
+              "swipe":{
+                "direction": "any"
+              }
+            }
+          ]
+        },
+        {
+          "to": "first_swipe",
+          "notify": {
+            "text": "wave_lost"
+          }
+        }
+      ]
+    },
+    {
+      "id": "second_swipe",
+      "transition": [
+        {
+          "to": "third_swipe",
+          "notify": {
+            "text": "second_swipe"
+          },
+          "criteria": [
+            {
+              "swipe":{
+                "direction": "any"
+              }
+            }
+          ]
+        },
+        {
+          "to": "first_swipe",
+          "notify": {
+            "text": "wave_lost"
+          },
+          "criteria": [
+            {
+              "timeout": 1000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "third_swipe",
+      "transition": [
+        {
+          "to": "fourth_swipe",
+          "notify": {
+            "text": "third_swipe"
+          },
+          "criteria": [
+            {
+              "swipe":{
+                "direction": "any"
+              }
+            }
+          ]
+        },
+        {
+          "to": "first_swipe",
+          "notify": {
+            "text": "wave_lost"
+          },
+          "criteria": [
+            {
+              "timeout": 1000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fourth_swipe",
+      "transition": [
+        {
+          "to": "fourth_swipe",
+          "notify": {
+            "text": "fourth_swipe"
+          },
+          "criteria": [
+            {
+              "swipe":{
+                "direction": "any"
+              }
+            }
+          ]
+        },
+        {
+          "to": "first_swipe",
+          "notify": {
+            "text": "wave_lost"
+          },
+          "criteria": [
+            {
+              "timeout": 1000
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

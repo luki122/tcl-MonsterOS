@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="MeetingAssistant">"會議助手"</string>
+	<!---->
+	<string name="edit_decision">"編輯決定"</string>
+	<!---->
+	<string name="edit_owener">"編輯所有人"</string>
+	<!---->
+	<string name="edit_deadline">"編輯截止日期"</string>
+	<!---->
+	<string name="Confirm">"確定"</string>
+	<!---->
+	<string name="cancel">"取消"</string>
+	<!---->
+	<string name="share">"共享"</string>
+	<!---->
+	<string name="save_to_local_storage">"保存為本地儲存空間"</string>
+	<!---->
+	<string name="highlight">"強調顯示"</string>
+	<!---->
+	<string name="conference_key_note">"話題"</string>
+	<!---->
+	<string name="person">"參加者"</string>
+	<!---->
+	<string name="to">"至"</string>
+	<!---->
+	<string name="time">"時間"</string>
+	<!---->
+	<string name="meet_location">"位置"</string>
+	<!---->
+	<string name="edit_meeting_info">"編輯會議"</string>
+	<!---->
+	<string name="meeting">"會議"</string>
+	<!---->
+	<string name="meeting_time">"時間"</string>
+	<!---->
+	<string name="please_enter_title">"在此輸入標題。"</string>
+	<!---->
+	<string name="decision">"決定"</string>
+	<!---->
+	<string name="deadline">"期限"</string>
+	<!---->
+	<string name="add_decision">"儲存"</string>
+	<!---->
+	<string name="owner">"所有者"</string>
+	<!---->
+	<string name="write_decision">"寫入決定"</string>
+	<!---->
+	<string name="number_decision">"決定"</string>
+	<!---->
+	<string name="enter_person">"enter_person"</string>
+	<!---->
+	<string name="enter_address">"編輯地址"</string>
+	<!---->
+	<string name="not_filled">"未填寫"</string>
+	<!---->
+	<string name="location">"位置"</string>
+	<!---->
+	<string name="take_a_photo">"拍攝相片"</string>
+	<!---->
+	<string name="get_pic_from_gallery">"從圖片庫中獲取圖片"</string>
+	<!---->
+	<string name="delete">"刪除"</string>
+	<!---->
+	<string name="edit_picture">"編輯圖片"</string>
+	<!---->
+	<string name="left_rotate">"左轉"</string>
+	<!---->
+	<string name="right_rotate">"右轉"</string>
+	<!---->
+	<string name="meetings_none">"無會議"</string>
+	<!---->
+	<string name="meetings_no_search_result">"無搜尋結果"</string>
+	<!---->
+	<string name="delete_pic_msg">"是否刪除此圖片？"</string>
+	<!---->
+	<string name="voice_to_text">"從點選中轉化的文本"</string>
+	<!---->
+	<string name="smart_crop">"智慧裁剪"</string>
+	<!---->
+	<string name="full_image">"全圖"</string>
+	<!---->
+	<string name="edit">"編輯"</string>
+	<!---->
+	<string name="save">"儲存"</string>
+	<!---->
+	<string name="stop_save_voice">"是否停止錄製並儲存？"</string>
+	<!---->
+	<string name="save_voice_file_error">"儲存語音檔案失敗"</string>
+	<!---->
+	<string name="save_voice_file_successful">"錄音保存成功"</string>
+	<!---->
+	<string name="edit_meeting_point">"編輯會議要點，並按輸入鍵添加一行"</string>
+	<!---->
+	<string name="edit_meeting_topic">"編輯會議主題，並按輸入鍵添加一行"</string>
+	<!---->
+	<string name="share_meeting_as_picture">"以圖片共享"</string>
+	<!---->
+	<string name="export_meeting_as_picture">"以圖片匯出"</string>
+	<!---->
+	<string name="share_meeting_as_pdf">"以 PDF 共享"</string>
+	<!---->
+	<string name="export_meeting_as_pdf">"以 PDF 匯出"</string>
+	<!---->
+	<string name="file_exporting">"正在匯出檔案..."</string>
+	<!---->
+	<string name="audio">"音效"</string>
+	<!---->
+	<string name="no_file">"沒有檔案"</string>
+	<!---->
+	<string name="file_creating">"正在創建....."</string>
+	<!---->
+	<string name="successful_exporting">"成功匯入"</string>
+	<!---->
+	<string name="Failure_to_export">"無法導出"</string>
+	<!---->
+	<string name="audio_converting">"正在轉化音頻，請停止當前轉換或稍等。"</string>
+	<!---->
+	<string name="audio_converting_to_text">"正在將語音轉文字"</string>
+	<!---->
+	<string name="start_to_convert">"開始轉換......"</string>
+	<!---->
+	<string name="delete_meeting">"是否刪除此會議？"</string>
+	<!---->
+	<string name="choose_all">"選擇所有"</string>
+	<!---->
+	<string name="delete_meeting_decision">"是否刪除此決定？"</string>
+	<!---->
+	<string name="delete_sound_record">"是否刪除此錄音？"</string>
+	<!---->
+	<string name="delete_sound_record_and_word">"是否刪除已轉化的文字和音頻錄製？"</string>
+	<!---->
+	<string name="dialog_battery_10">"低於 10% 電量，請停止錄製並避免錄製數據損失。"</string>
+	<!---->
+	<string name="dialog_space_50m_start">"儲存空間低於 50MB，所以您無法開始錄製，請及時清理"</string>
+	<!---->
+	<string name="dialog_space_100m">"儲存空間低於 100MB，請及時清理以避免錄製資料損失。"</string>
+	<!---->
+	<string name="dialog_back_msg">"未停止錄製，並且退出會停止錄製並儲存所有內容，是否立即退出？"</string>
+	<!---->
+	<string name="delete_meeting_point">"是否刪除此會議要點？"</string>
+	<!---->
+	<string name="dialog_battery_5">"低於 5% 電量，錄製已停止"</string>
+	<!---->
+	<string name="dialog_back_title">"提示"</string>
+	<!---->
+	<string name="dialog_i_know">"我知道"</string>
+	<!---->
+	<string name="dialog_start_battery_10">"電量低，容易導致錄製資料丟失，是否開始錄製？"</string>
+	<!---->
+	<string name="dialog_space_clear">"清理"</string>
+	<!---->
+	<string name="dialog_ignore">"略過"</string>
+	<!---->
+	<string name="dialog_stop">"停止"</string>
+	<!---->
+	<string name="dialog_space_50m_stop">"儲存空間不足，錄製已中止。"</string>
+	<!---->
+	<string name="dialog_start_battery_5">"無法開始錄製，請保持電源高於 5%"</string>
+	<!---->
+	<string name="notification_battery_low">"電源電量低，請停止錄製"</string>
+	<!---->
+	<string name="notification_battery_low_stop">"低電源電量，錄製已停止"</string>
+	<!---->
+	<string name="notification_pause_record">"錄製已中止"</string>
+	<!---->
+	<string name="notification_recording">"正在錄音..."</string>
+	<!---->
+	<string name="notification_space_not_enough">"儲存空間不足，請清理空間或停止錄製"</string>
+	<!---->
+	<string name="notification_space_not_enough_stop">"儲存空間不足，錄製已中止"</string>
+	<!---->
+	<string name="cannot_open_internet">"無法開啟網路"</string>
+	<!---->
+	<string name="internet_problem">"在網路環境中的問題"</string>
+	<!---->
+	<string name="no_open_internet">"您的收集無法打開網路設定"</string>
+	<!---->
+	<string name="try_to_refresh">"try_to_refresh"</string>
+	<!---->
+	<string name="audio_to_text_offline">"離線轉換成訊息"</string>
+	<!---->
+	<string name="audio_to_text_online">"在線轉換成訊息"</string>
+	<!---->
+	<string name="audio_to_text_order_result">"訂單和結果"</string>
+	<!---->
+	<string name="saved_last_one_decision">"已儲存上一個決定"</string>
+	<!---->
+	<string name="choose_others">"選擇其他"</string>
+	<!---->
+	<string name="delete_all_meeting_msg">"刪除所有會議訊息"</string>
+	<!---->
+	<string name="choose_owner">"選擇所有者"</string>
+	<!---->
+	<string name="meeting_title_not_be_empty">"會議話題不得為空！"</string>
+	<!---->
+	<string name="expand">"展開"</string>
+	<!---->
+	<string name="collapse">"摺疊"</string>
+	<!---->
+	<string name="choose_time">"選擇時間"</string>
+	<!---->
+	<string name="delete_audio_to_text">"是否確定刪除文字嗎？"</string>
+	<!---->
+	<string name="enter_decision_content">"請輸入決策內容。"</string>
+</resources>

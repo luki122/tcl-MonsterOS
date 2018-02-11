@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cannot_specify_an_empty_name_for_playlist">"A lejászási lista névmezője nem lehet üres!"</string>
+    <string name="cross_dj_saturated_storage_not_enough_free_space_to_record_your_mix">"Nincs elegendő szabad hely a mixe rögzítéséhez."</string>
+    <string name="cross_dj_saturated_storage_your_recording_might_stop_soon_because_no_more_free_space_is_available">"Elképzelhető, hogy az aktuális felvétel a kevés rendelkezésre álló szabad hely miatt hamarosan le fog állni."</string>
+    <string name="invalid_drm_file">"A fájl nem rendelkezik érvényes DRM jogosultsággal!"</string>
+    <string name="mobiledata_turnoff_btn">"Letilt"</string>
+    <string name="never_show_it_again">"Ne mutassa többször"</string>
+    <string name="no_error">"Nincs hiba"</string>
+    <string name="recording_reached_max_duration">"A felvétel elérte a maximális időtartamot. Ellenőrizze a beállításokat."</string>
+    <string name="recording_soon_to_reach_max_duration">"A felvétel hamarosan eléri a maximális időtartamot. Ellenőrizze a beállításokat."</string>
+    <string name="scratching_is_disabled_in_no_mix_mode">"A szkreccselés kizárólag DJ üzemmódban lehetséges."</string>
+    <string name="sign_up">"Regisztrálás"</string>
+    <string name="the_external_memory_storage_is_not_mounted">"Nincs csatlakoztatva a külső memória. Lehetséges, hogy le kell tiltania az USB-memóriát."</string>
+    <string name="there_s_not_enough_space_in_your_internal_storage_try_to_do_some_clean_up">"Nincs elegendő hely a belső tárhelyen (próbáljon meg helyet felszabadítani)"</string>
+</resources>

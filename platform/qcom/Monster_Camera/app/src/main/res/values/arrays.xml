@@ -1,0 +1,979 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Camera Preferences Video Quality entries -->
+    <string-array name="pref_video_quality_entries" translatable="false">
+        <item>@string/pref_camera_picturesize_entry_large</item>
+        <item>@string/pref_camera_picturesize_entry_medium</item>
+        <item>@string/pref_camera_picturesize_entry_small</item>
+   </string-array>
+
+    <string-array name="pref_video_quality_entryvalues" translatable="false">
+        <item>@string/pref_video_quality_large</item>
+        <item>@string/pref_video_quality_medium</item>
+        <item>@string/pref_video_quality_small</item>
+    </string-array>
+
+    <!-- Camera Preferences Picture size dialog box entries -->
+    <string-array name="pref_camera_picturesize_entries" translatable="false">
+        <item>@string/pref_camera_picturesize_entry_large</item>
+        <item>@string/pref_camera_picturesize_entry_medium</item>
+        <item>@string/pref_camera_picturesize_entry_small</item>
+    </string-array>
+
+    <!-- When launching the camera app first time, we will set the picture
+         size to the first one in the list that is also supported by the
+         driver -->
+    <string-array name="pref_camera_picturesize_entryvalues" translatable="false">
+        <item>@string/pref_camera_picturesize_default</item>
+        <item>medium</item>
+        <item>small</item>
+    </string-array>
+
+    <!-- Camera Preferences focus mode dialog box entries -->
+    <string-array name="pref_camera_focusmode_entries" translatable="false">
+        <item>@string/pref_camera_focusmode_entry_auto</item>
+        <item>@string/pref_camera_focusmode_entry_infinity</item>
+        <item>@string/pref_camera_focusmode_entry_macro</item>
+    </string-array>
+
+    <string-array name="pref_camera_focusmode_entryvalues" translatable="false">
+        <item>auto</item>
+        <item>infinity</item>
+        <item>macro</item>
+    </string-array>
+
+    <string-array name="pref_camera_focusmode_labels" translatable="false">
+        <item>@string/pref_camera_focusmode_label_auto</item>
+        <item>@string/pref_camera_focusmode_label_infinity</item>
+        <item>@string/pref_camera_focusmode_label_macro</item>
+    </string-array>
+
+    <!-- Camera Preferences flash mode dialog box entries -->
+    <string-array name="pref_camera_flashmode_entries" translatable="false">
+        <item>@string/pref_camera_flashmode_entry_on</item>
+        <item>@string/pref_camera_flashmode_entry_auto</item>
+        <item>@string/pref_camera_flashmode_entry_off</item>
+    </string-array>
+
+    <string-array name="pref_camera_flashmode_labels" translatable="false">
+        <item>@string/pref_camera_flashmode_label_off</item>
+        <item>@string/pref_camera_flashmode_label_auto</item>
+        <item>@string/pref_camera_flashmode_label_on</item>
+    </string-array>
+
+    <string-array name="pref_camera_flashmode_entryvalues" translatable="false">
+        <item>@string/pref_camera_flashmode_on</item>
+        <item>@string/pref_camera_flashmode_auto</item>
+        <item>@string/pref_camera_flashmode_off</item>
+    </string-array>
+
+    <string-array name="pref_camera_hdr_plus_flashmode_entryvalues" translatable="false">
+        <item>off</item>
+        <item>auto</item>
+        <item>on</item>
+    </string-array>
+
+    <array name="camera_flashmode_icons" translatable="false">
+        <item>@drawable/ic_flash_on</item>
+        <item>@drawable/ic_flash_auto</item>
+        <item>@drawable/ic_flash_off</item>
+    </array>
+
+    <array name="camera_flash_descriptions" translatable="false">
+        <item>@string/flash_on_desc</item>
+      <item>@string/flash_auto_desc</item>
+        <item>@string/flash_off_desc</item>
+    </array>
+
+    <array name="hdr_plus_flash_descriptions" translatable="false">
+      <item>@string/hdr_plus_flash_off_desc</item>
+      <item>@string/hdr_plus_flash_auto_desc</item>
+      <item>@string/hdr_plus_flash_on_desc</item>
+    </array>
+
+    <array name="camera_flashmode_largeicons" translatable="false">
+        <item>@drawable/ic_flash_off</item>
+        <item>@drawable/ic_flash_auto</item>
+        <item>@drawable/ic_flash_on</item>
+    </array>
+
+    <array name="camera_flashmode_indicator_icons" translatable="false">
+        <item>@drawable/ic_flash_off_indicator</item>
+        <item>@drawable/ic_flash_auto_indicator</item>
+        <item>@drawable/ic_flash_on_indicator</item>
+    </array>
+
+    <!-- Videocamera Preferences flash mode dialog box entries -->
+    <string-array name="pref_camera_video_flashmode_entries" translatable="false">
+        <item>@string/pref_camera_flashmode_entry_on</item>
+        <item>@string/pref_camera_flashmode_entry_off</item>
+    </string-array>
+
+    <string-array name="pref_camera_video_flashmode_labels" translatable="false">
+        <item>@string/pref_camera_flashmode_label_on</item>
+        <item>@string/pref_camera_flashmode_label_off</item>
+    </string-array>
+
+    <string-array name="pref_camera_video_flashmode_entryvalues" translatable="false">
+        <item>torch</item>
+        <item>off</item>
+    </string-array>
+
+    <array name="video_flashmode_icons" translatable="false">
+        <item>@drawable/ic_flash_on</item>
+        <item>@drawable/ic_flash_off</item>
+    </array>
+
+    <array name="video_flashmode_largeicons" translatable="false">
+        <item>@drawable/ic_flash_on</item>
+        <item>@drawable/ic_flash_off</item>
+    </array>
+
+    <array name="video_flash_descriptions" translatable="false">
+      <item>@string/torch_on_desc</item>
+      <item>@string/torch_off_desc</item>
+    </array>
+
+    <array name="video_flashmode_indicator_icons" translatable="false">
+        <item>@drawable/ic_flash_on_indicator</item>
+        <item>@drawable/ic_flash_off_indicator</item>
+    </array>
+
+    <string-array name="pref_camera_scenemode_entryvalues" translatable="false">
+        <item>auto</item>
+        <item>hdr</item>
+    </string-array>
+
+    <array name="camera_id_entries" translatable="false">
+        <item>@string/pref_camera_id_entry_back</item>
+        <item>@string/pref_camera_id_entry_front</item>
+    </array>
+
+    <array name="camera_id_entryvalues" translatable="false">
+        <item>@string/pref_camera_id_entry_back_value</item>
+        <item>@string/pref_camera_id_entry_front_value</item>
+    </array>
+
+    <array name="camera_id_labels" translatable="false">
+        <item>@string/pref_camera_id_label_back</item>
+        <item>@string/pref_camera_id_label_front</item>
+    </array>
+
+    <array name="camera_id_icons" translatable="false">
+        <item>@drawable/ic_switch_camera_back</item>
+        <item>@drawable/ic_switch_camera_front</item>
+    </array>
+
+    <array name="camera_id_icons_vdf" translatable="false">
+        <item>@drawable/ic_switch_camera_back_vdf</item>
+        <item>@drawable/ic_switch_camera_front_vdf</item>
+    </array>
+
+    <array name="camera_id_descriptions" translatable="false">
+      <item>@string/camera_id_back_desc</item>
+      <item>@string/camera_id_front_desc</item>
+    </array>
+
+
+    <array name="camera_id_largeicons" translatable="false">
+        <item>@drawable/ic_switch_camera_back</item>
+        <item>@drawable/ic_switch_camera_front</item>
+    </array>
+
+    <string-array name="pref_video_effect_entries" translatable="false">
+        <item>@string/effect_none</item>
+        <item>@string/effect_goofy_face_squeeze</item>
+        <item>@string/effect_goofy_face_big_eyes</item>
+        <item>@string/effect_goofy_face_big_mouth</item>
+        <item>@string/effect_goofy_face_small_mouth</item>
+        <item>@string/effect_goofy_face_big_nose</item>
+        <item>@string/effect_goofy_face_small_eyes</item>
+        <item>@string/effect_backdropper_space</item>
+        <item>@string/effect_backdropper_sunset</item>
+        <item>@string/effect_backdropper_gallery</item>
+    </string-array>
+
+    <string-array name="pref_video_effect_entryvalues" translatable="false">
+        <item>@string/pref_video_effect_default</item>
+        <item>goofy_face/squeeze</item>
+        <item>goofy_face/big_eyes</item>
+        <item>goofy_face/big_mouth</item>
+        <item>goofy_face/small_mouth</item>
+        <item>goofy_face/big_nose</item>
+        <item>goofy_face/small_eyes</item>
+        <item>backdropper/file:///system/media/video/AndroidInSpace.480p.mp4</item>
+        <item>backdropper/file:///system/media/video/Sunset.480p.mp4</item>
+        <item>backdropper/gallery</item>
+    </string-array>
+
+    <array name="video_effect_icons" translatable="false">
+        <item>@drawable/ic_effects_holo_light</item>
+        <item>@drawable/ic_video_effects_faces_squeeze_holo_dark</item>
+        <item>@drawable/ic_video_effects_faces_big_eyes_holo_dark</item>
+        <item>@drawable/ic_video_effects_faces_big_mouth_holo_dark</item>
+        <item>@drawable/ic_video_effects_faces_small_mouth_holo_dark</item>
+        <item>@drawable/ic_video_effects_faces_big_nose_holo_dark</item>
+        <item>@drawable/ic_video_effects_faces_small_eyes_holo_dark</item>
+        <item>@drawable/ic_video_effects_background_intergalactic_holo</item>
+        <item>@drawable/ic_video_effects_background_fields_of_wheat_holo</item>
+        <item>@drawable/ic_video_effects_background_normal_holo_dark</item>
+    </array>
+
+    <string-array name="pref_camera_hdr_plus_entries" translatable="false">
+        <item>@string/setting_off</item>
+        <item>@string/setting_on</item>
+    </string-array>
+
+    <string-array name="pref_camera_hdr_plus_labels" translatable="false">
+        <item>@string/pref_camera_scenemode_entry_turn_hdr_plus_on</item>
+        <item>@string/pref_camera_scenemode_entry_turn_hdr_plus_off</item>
+    </string-array>
+
+    <array name="pref_camera_hdr_plus_icons" translatable="false">
+        <item>@drawable/ic_hdr_plus_off</item>
+        <item>@drawable/ic_hdr_plus_on</item>
+    </array>
+
+    <array name="hdr_plus_descriptions" translatable="false">
+      <item>@string/hdr_plus_off_desc</item>
+      <item>@string/hdr_plus_on_desc</item>
+    </array>
+
+    <array name="pref_camera_hdr_icons" translatable="false">
+        <item>@drawable/ic_hdr_off</item>
+        <item>@drawable/ic_hdr_on</item>
+    </array>
+
+    <array name="hdr_descriptions" translatable="false">
+      <item>@string/hdr_off_desc</item>
+      <item>@string/hdr_on_desc</item>
+    </array>
+
+    <array name="pref_camera_hdr_plus_indicator_icons" translatable="false">
+        <item>@drawable/ic_hdr_plus_off_indicator</item>
+        <item>@drawable/ic_hdr_plus_on_indicator</item>
+    </array>
+
+    <array name="pref_camera_hdr_indicator_icons" translatable="false">
+        <item>@drawable/ic_hdr_off_indicator</item>
+        <item>@drawable/ic_hdr_on_indicator</item>
+    </array>
+
+    <string-array name="pref_camera_hdr_plus_entryvalues" translatable="false">
+        <item>@string/setting_off_value</item>
+        <item>@string/setting_on_value</item>
+    </string-array>
+
+    <string-array name="pref_camera_hdr_entries" translatable="false">
+        <item>@string/setting_off</item>
+        <item>@string/setting_on</item>
+    </string-array>
+
+    <string-array name="pref_camera_hdr_entryvalues_with_auto" translatable="false">
+        <item>@string/pref_camera_hdr_off</item>
+        <item>@string/pref_camera_hdr_auto</item>
+    </string-array>
+
+    <string-array name="pref_camera_hdr_labels" translatable="false">
+        <item>@string/pref_camera_scenemode_entry_turn_hdr_on</item>
+        <item>@string/pref_camera_scenemode_entry_turn_hdr_off</item>
+    </string-array>
+
+    <string-array name="pref_camera_hdr_entryvalues" translatable="false">
+        <item>@string/setting_off_value</item>
+        <item>@string/setting_on_value</item>
+    </string-array>
+
+    <string-array name="pref_camera_timer_sound_entries" translatable="false">
+        <item>@string/setting_off</item>
+        <item>@string/setting_on</item>
+    </string-array>
+
+    <string-array name="pref_camera_timer_sound_entryvalues" translatable="false">
+        <item>@string/setting_off_value</item>
+        <item>@string/setting_on_value</item>
+    </string-array>
+
+    <!-- Default focus mode setting.-->
+    <string-array name="pref_camera_focusmode_default_array" translatable="false">
+        <item>continuous-picture</item>
+        <item>auto</item>
+    </string-array>
+
+    <!-- Icons for exposure compensation -->
+    <array name="pref_camera_exposure_icons" translatable="false">
+        <item>@drawable/ic_exposure_n3</item>
+        <item>@drawable/ic_exposure_n2</item>
+        <item>@drawable/ic_exposure_n1</item>
+        <item>@drawable/ic_exposure_0</item>
+        <item>@drawable/ic_exposure_p1</item>
+        <item>@drawable/ic_exposure_p2</item>
+        <item>@drawable/ic_exposure_p3</item>
+    </array>
+
+    <!--  Labels for Countdown timer -->
+    <string-array name="pref_camera_countdown_labels" translatable="false">
+        <item>@string/pref_camera_countdown_label_off</item>
+        <item>@string/pref_camera_countdown_label_one</item>
+        <item>@string/pref_camera_countdown_label_three</item>
+        <item>@string/pref_camera_countdown_label_ten</item>
+        <item>@string/pref_camera_countdown_label_fifteen</item>
+    </string-array>
+
+    <string-array name="pref_camera_jpeg_quality_entryvalues" translatable="false">
+      <item>@string/pref_camera_jpeg_quality_normal</item>
+      <item>@string/pref_camera_jpeg_quality_fine</item>
+      <item>@string/pref_camera_jpeg_quality_superfine</item>
+    </string-array>
+
+    <string-array name="pref_camera_gridlines_entryvalues" translatable="false">
+      <item>@string/setting_off_value</item>
+      <item>@string/setting_on_value</item>
+    </string-array>
+
+    <array name="grid_lines_icons" translatable="false">
+      <item>@drawable/ic_grid_off</item>
+      <item>@drawable/ic_grid_on</item>
+    </array>
+
+    <array name="grid_lines_indicator_icons" translatable="false">
+      <item>@drawable/ic_grid_off_indicator</item>
+      <item>@drawable/ic_grid_on_indicator</item>
+    </array>
+
+    <array name="grid_lines_descriptions" translatable="false">
+      <item>@string/grid_lines_off_desc</item>
+      <item>@string/grid_lines_on_desc</item>
+    </array>
+
+    <array name="countdown_duration_descriptions" translatable="false">
+        <item>@string/countdown_timer_off</item>
+        <item>@string/countdown_timer_duration_2s</item>
+        <item>@string/countdown_timer_duration_5s</item>
+        <item>@string/countdown_timer_duration_10s</item>
+    </array>
+
+    <string-array name="pref_camera_pano_orientation_entryvalues" translatable="false">
+      <item>@string/pano_orientation_horizontal</item>
+      <item>@string/pano_orientation_vertical</item>
+      <item>@string/pano_orientation_wide</item>
+      <item>@string/pano_orientation_fisheye</item>
+    </string-array>
+
+    <array name="settings_toggle_icons" translatable="false">
+      <item>@drawable/ic_options_active</item>
+      <item>@drawable/ic_options</item>
+    </array>
+
+    <array name="settings_toggle_descriptions" translatable="false">
+      <item>@string/settings_open_desc</item>
+      <item>@string/settings_close_desc</item>
+    </array>
+
+    <array name="countdown_duration_icons" translatable="false">
+        <item>@drawable/ic_timer_off</item>
+        <item>@drawable/ic_timer_2s</item>
+        <!--<item>@drawable/ic_timer_3s</item>-->
+        <item>@drawable/ic_timer_5s</item>
+        <!--<item>@drawable/ic_timer_8s</item>-->
+        <item>@drawable/ic_timer_10s</item>
+    </array>
+
+    <array name="pref_camera_countdown_indicators" translatable="false">
+        <item>@drawable/ic_timer_off_indicator</item>
+        <item>@drawable/ic_timer_3s_indicator</item>
+        <item>@drawable/ic_timer_3s_indicator</item> <!-- No indicator for 5s-->
+        <item>@drawable/ic_timer_10s_indicator</item>
+    </array>
+
+    <integer-array name="pref_countdown_duration" translatable="false">
+        <item>0</item>
+        <!-- <item>3</item>-->
+        <item>2</item>
+        <item>5</item>
+        <!--<item>8</item>-->
+        <item>10</item>
+    </integer-array>
+
+    <array name="vdf_countdown_duration_icons" translatable="false">
+        <item>@drawable/ic_timer_off</item>
+        <item>@drawable/ic_timer_2s</item>
+        <!--<item>@drawable/ic_timer_3s</item>-->
+        <item>@drawable/ic_timer_5s</item>
+        <!--<item>@drawable/ic_timer_8s</item>-->
+        <item>@drawable/ic_timer_10s</item>
+    </array>
+
+    <integer-array name="vdf_pref_countdown_duration" translatable="false">
+        <item>0</item>
+        <item>2</item>
+        <item>5</item>
+        <item>10</item>
+    </integer-array>
+
+    <array name="vdf_countdown_duration_descriptions" translatable="false">
+        <item>@string/countdown_timer_off</item>
+        <item>@string/countdown_timer_duration_2s</item>
+        <item>@string/countdown_timer_duration_5s</item>
+        <item>@string/countdown_timer_duration_10s</item>
+    </array>
+
+    <!--Index of camera modes. -->
+    <integer name="camera_mode_manual" translatable="false">0</integer>
+    <integer name="camera_mode_pano" translatable="false">1</integer>
+    <integer name="camera_mode_photo" translatable="false">2</integer>
+    <integer name="camera_mode_video" translatable="false">3</integer>
+    <integer name="camera_mode_refocus" translatable="false">4</integer>
+    <integer name="camera_mode_photosphere" translatable="false">5</integer>
+    <integer name="camera_mode_panorama" translatable="false">6</integer>
+    <integer name="camera_mode_gcam" translatable="false">7</integer>
+    <integer name="camera_mode_slowmotion" translatable="false">8</integer>
+    <integer name="camera_mode_video_capture" translatable="false">9</integer>
+    <integer name="camera_mode_micro_video" translatable="false">10</integer>
+    <integer name="camera_mode_parallax" translatable="false">11</integer>
+    <integer name="camera_mode_360_photo" translatable="false">12</integer>
+    <integer name="camera_mode_filter" translatable="false">13</integer>
+    <integer name="camera_mode_videofilter" translatable="false">14</integer>
+    <integer name="camera_mode_contacts_intent" translatable="false">15</integer>
+
+    <!-- Ordered list of all camera modes. -->
+    <integer-array name="camera_modes" translatable="false">
+        <item>@integer/camera_mode_manual</item>
+        <item>@integer/camera_mode_pano</item>
+        <item>@integer/camera_mode_photo</item>
+        <item>@integer/camera_mode_video</item>
+        <item>@integer/camera_mode_refocus</item>
+        <item>@integer/camera_mode_photosphere</item>
+        <item>@integer/camera_mode_panorama</item>
+        <item>@integer/camera_mode_gcam</item>
+        <item>@integer/camera_mode_slowmotion</item>
+        <item>@integer/camera_mode_video_capture</item>
+        <item>@integer/camera_mode_micro_video</item>
+        <item>@integer/camera_mode_parallax</item>
+        <item>@integer/camera_mode_360_photo</item>
+        <item>@integer/camera_mode_filter</item>
+        <item>@integer/camera_mode_videofilter</item>
+        <item>@integer/camera_mode_contacts_intent</item>
+    </integer-array>
+
+    <!-- An array of camera mode indices in the sequence of their appearance
+    in the mode drawer. -->
+    <integer-array name="camera_modes_in_nav_drawer_if_supported" translatable="false">
+        <item>@integer/camera_mode_photosphere</item>
+        <item>@integer/camera_mode_panorama</item>
+        <item>@integer/camera_mode_refocus</item>
+        <item>@integer/camera_mode_photo</item>
+        <item>@integer/camera_mode_video</item>
+        <item>@integer/camera_mode_manual</item>
+    </integer-array>
+
+    <!-- Camera modes that each supported mode is nested in in nav drawer. -->
+    <integer-array name="camera_mode_nested_in_nav_drawer" translatable="false">
+        <item>@integer/camera_mode_manual</item>
+        <item>@integer/camera_mode_pano</item>
+        <item>@integer/camera_mode_photo</item>
+        <item>@integer/camera_mode_video</item>
+        <item>@integer/camera_mode_refocus</item>
+        <item>@integer/camera_mode_photosphere</item>
+        <item>@integer/camera_mode_panorama</item>
+        <item>@integer/camera_mode_photo</item>
+        <item>@integer/camera_mode_video</item><!--Slow motion-->
+        <item>@integer/camera_mode_video_capture</item><!--Video capture intent-->
+        <item>@integer/camera_mode_micro_video</item>
+        <item>@integer/camera_mode_parallax</item>
+        <item>@integer/camera_mode_360_photo</item>
+        <item>@integer/camera_mode_filter</item>
+        <item>@integer/camera_mode_videofilter</item>
+        <item>@integer/camera_mode_contacts_intent</item>
+    </integer-array>
+
+    <!-- An array of camera mode indices that should always be visible in mode drawer. -->
+    <integer-array name="camera_modes_always_visible" translatable="false">
+        <item>@integer/camera_mode_photo</item>
+    </integer-array>
+
+    <array name="camera_mode_theme_color" translatable="false">
+        <item>@color/camera_mode_color</item><!-- Manual mode color -->
+        <item>@color/camera_mode_color</item><!-- Pano mode color -->
+        <item>@color/camera_mode_color</item>
+        <item>@color/video_mode_color</item>
+        <item>@color/refocus_mode_color</item>
+        <item>@color/photosphere_mode_color</item>
+        <item>@color/panorama_mode_color</item>
+        <item>@color/camera_mode_color</item>
+        <item>@color/video_mode_color</item><!--Slow motion color-->
+        <item>@color/video_mode_color</item><!--Video capture intent color-->
+        <item>@color/camera_mode_color</item><!-- Micro video color -->
+        <item>@color/camera_mode_color</item><!-- Parallax mode color -->
+        <item>@color/camera_mode_color</item><!-- 360 Photo mode color -->
+        <item>@color/camera_mode_color</item><!-- Filter mode color -->
+        <item>@color/camera_mode_color</item><!-- Video Filter mode color -->
+        <item>@color/camera_mode_color</item><!-- camera_mode_contacts_intent corlor -->
+    </array>
+
+    <string-array name="camera_mode_text" translatable="false">
+        <item>@string/mode_manual</item>
+        <item>@string/mode_pano</item>
+        <item>@string/mode_camera</item>
+        <item>@string/mode_video</item>
+        <item>@string/mode_refocus</item>
+        <item>@string/mode_photosphere</item>
+        <item>@string/mode_panorama</item>
+        <item>""</item>
+        <item>@string/mode_slow_motion</item>
+        <item>@string/mode_video</item><!--Video capture intent text-->
+        <item>@string/mode_micro_video</item>
+        <item>@string/mode_parallax</item>
+        <item>@string/mode_360_photo</item>
+        <item>@string/mode_camera</item><!--Filter mode name , not important-->
+        <item>@string/mode_camera</item><!--Video Filter mode name , not important-->
+        <item>@string/mode_camera</item>
+    </string-array>
+
+    <string-array name="camera_mode_content_description" translatable="false">
+        <item>@string/mode_manual_desc</item>
+        <item>@string/mode_pano_desc</item>
+        <item>@string/mode_camera_desc</item>
+        <item>@string/mode_video_desc</item>
+        <item>@string/mode_refocus_desc</item>
+        <item>@string/mode_photosphere_desc</item>
+        <item>@string/mode_panorama_desc</item>
+        <item>""</item>
+        <item>@string/mode_slow_motion_desc</item>
+        <item>@string/mode_video_desc</item><!--Video capture intent-->
+        <item>@string/mode_micro_video_desc</item>
+        <item>@string/mode_parallax</item>
+        <item>@string/mode_360_photo</item>
+        <item>@string/mode_camera_desc</item><!--Filter desc-->
+        <item>@string/mode_video_desc</item><!--Video Filter desc-->
+        <item>@string/mode_camera</item>
+    </string-array>
+
+    <array name="camera_mode_cover_icon" translatable="false">
+        <item>@drawable/ic_camera_blanket</item><!-- Manual mode -->
+        <item>@drawable/ic_camera_blanket</item><!-- Pano mode-->
+        <item>@drawable/ic_camera_blanket</item>
+        <item>@drawable/ic_video_blanket</item>
+        <item>@drawable/ic_refocus_blanket</item>
+        <item>@drawable/ic_photosphere_blanket</item>
+        <item>@drawable/ic_pano_blanket</item>
+        <item>@drawable/ic_camera_blanket</item>
+        <item>@drawable/ic_video_blanket</item><!--Slow motion-->
+        <item>@drawable/ic_video_blanket</item><!--Video capture intent-->
+        <item>@drawable/ic_camera_blanket</item><!-- Micro video -->
+        <item>@drawable/ic_camera_blanket</item><!-- Parallax mode-->
+        <item>@drawable/ic_camera_blanket</item><!-- 360 Photo mode -->
+        <item>@drawable/ic_camera_blanket</item><!-- Filter mode-->
+        <item>@drawable/ic_camera_blanket</item><!-- Video Filter mode-->
+        <item>@drawable/ic_camera_blanket</item>
+    </array>
+
+    <array name="camera_mode_icon" translatable="false">
+        <item>@drawable/ic_camera_normal</item>
+        <item>@drawable/ic_camera_normal</item>
+        <item>@drawable/ic_camera_normal</item>
+        <item>@drawable/ic_video_normal</item>
+        <item>@drawable/ic_refocus_normal</item>
+        <item>@drawable/ic_photosphere_normal</item>
+        <item>@drawable/ic_panorama_normal</item>
+        <item>@drawable/ic_camera_normal</item>
+        <item>@drawable/ic_camera_normal</item><!-- Slow motion icon -->
+        <item>@drawable/ic_video_normal</item><!--Vide capture module icon-->
+        <item>@drawable/ic_camera_normal</item>
+        <item>@drawable/ic_camera_normal</item>
+        <item>@drawable/ic_camera_normal</item><!-- 360 Photo mode -->
+        <item>@drawable/ic_camera_normal</item><!--Filter mode icon-->
+        <item>@drawable/ic_camera_normal</item>
+    </array>
+
+    <array name="camera_mode_shutter_icon" translatable="false">
+        <item>@drawable/ic_manual</item><!-- Manual mode icon -->
+        <item>@drawable/ic_capture</item><!-- Pano mode icon -->
+        <item>@drawable/ic_capture</item>
+        <item>@drawable/ic_video</item>
+        <item>@drawable/ic_capture_refocus</item>
+        <item>@null</item>
+        <item>@drawable/ic_capture_panorama</item>
+        <item>@drawable/ic_capture_camera</item>
+        <item>@drawable/ic_slomo</item><!-- Slow motion icon -->
+        <item>@drawable/ic_video</item><!--Video capture intent-->
+        <item>@drawable/ic_micro_video</item><!-- Micro video icon -->
+        <item>@drawable/ic_parallax</item><!-- Parallax mode icon -->
+        <item>@drawable/ic_capture</item><!-- 360 Photo mode -->
+        <item>@drawable/ic_capture</item><!--Filter mode icon-->
+        <item>@drawable/ic_video</item><!--Video filter mode icon-->
+        <item>@drawable/ic_contacts_capture</item>
+    </array>
+
+    <array name="camera_mode_shutter_normal_state_icon" translatable="false">
+        <item>@drawable/ic_manual_normal</item><!-- Manual mode icon -->
+        <item>@drawable/ic_pano_normal</item><!-- Pano mode icon -->
+        <item>@drawable/ic_camera_normal</item>
+        <item>@drawable/ic_camera_normal</item>
+        <item>@drawable/ic_capture_refocus</item>
+        <item>@null</item>
+        <item>@drawable/ic_capture_pano</item>
+        <item>@drawable/ic_capture_camera_normal</item>
+        <item>@drawable/ic_slomo_normal</item><!-- Slow motion icon -->
+        <item>@drawable/ic_video_record_normal</item><!--Video capture intent-->
+        <item>@drawable/ic_microvideo_normal</item><!-- Micro video icon -->
+        <item>@drawable/ic_parallax_normal</item><!-- Parallax mode icon -->
+        <item>@drawable/ic_pano_normal</item><!-- 360 Photo mode icon -->
+        <item>@drawable/ic_camera_normal</item><!-- Filter mode icon -->
+        <item>@drawable/ic_camera_normal</item><!-- Video Filter mode icon -->
+        <item>@drawable/ic_camera_normal</item>
+    </array>
+
+    <!-- These must correspond in order to the entries in CameraProfile. -->
+    <array name="camcorder_profile_names" translatable="false">
+        <item>@string/pref_video_quality_entry_low</item>
+        <item>@string/pref_video_quality_entry_high</item>
+        <item>@string/pref_video_quality_entry_qcif_notrans</item>
+        <item>@string/pref_video_quality_entry_cif_notrans</item>
+        <item>@string/pref_video_quality_entry_480p_notrans</item>
+        <item>@string/pref_video_quality_entry_720p_notrans</item>
+        <item>@string/pref_video_quality_entry_1080p_notrans</item>
+        <item>@string/pref_video_quality_entry_qvga_notrans</item>
+        <item>@string/pref_video_quality_entry_2160p_notrans</item>
+    </array>
+
+    <array name="pref_default_boolean_entryvalues" translatable="false">
+        <item>@string/pref_boolean_false</item>
+        <item>@string/pref_boolean_true</item>
+    </array>
+
+    <array name="shutter_button_backgrounds" translatable="false">
+        <item>@drawable/shutter_button_background_still</item><!-- Manual mode -->
+        <item>@drawable/shutter_button_background_still</item><!-- Pano mode -->
+        <item>@drawable/shutter_button_background_still</item>
+        <item>@drawable/shutter_button_background_video</item>
+        <item>@drawable/shutter_button_background_refocus</item>
+        <item>@drawable/shutter_button_background_still</item>
+        <item>@drawable/shutter_button_background_still</item>
+        <item>@drawable/shutter_button_background_still</item>
+        <item>@drawable/shutter_button_background_still</item><!--Slow motion background-->
+        <item>@drawable/shutter_button_background_video</item><!--Video capture intent-->
+        <item>@drawable/shutter_button_background_still</item><!-- Micro video background -->
+        <item>@drawable/shutter_button_background_still</item><!-- Parallax mode -->
+        <item>@drawable/shutter_button_background_still</item><!-- Filter mode -->
+        <item>@drawable/shutter_button_background_still</item><!-- Video Filter mode -->
+        <item>@drawable/shutter_button_background_still</item>
+    </array>
+
+    <string-array name="pref_camera_savepath_entries" translatable="false">
+        <item>@string/pref_camera_savepath_entry_0</item>
+        <item>@string/pref_camera_savepath_entry_1</item>
+    </string-array>
+
+    <string-array name="pref_camera_savepath_entryvalues" translatable="false">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    <string-array name="exposure_time_string" translatable="false">
+        <item>1/8000</item>
+        <item>1/4000</item>
+        <item>1/2000</item>
+        <item>1/1000</item>
+        <item>1/500</item>
+        <item>1/250</item>
+        <item>1/125</item>
+        <item>1/60</item>
+        <item>1/30</item>
+        <item>1/15</item>
+        <item>1/8</item>
+        <item>1/4</item>
+        <item>1/2</item>
+        <item>1</item>
+    </string-array>
+
+    <string-array name="exposure_time_double" translatable="false">
+        <item>0.125</item>
+        <item>0.25</item>
+        <item>0.5</item>
+        <item>1</item>
+        <item>2</item>
+        <item>4</item>
+        <item>8</item>
+        <item>16.666666666666</item>
+        <item>33.3333333333333333</item>
+        <item>66.6666666666666667</item>
+        <item>125</item>
+        <item>250</item>
+        <item>500</item>
+        <item>1000</item>
+    </string-array>
+
+    <string-array name="exposure_time_string_mtk" translatable="false">
+        <item>1/1000</item>
+        <item>1/500</item>
+        <item>1/250</item>
+        <item>1/125</item>
+        <item>1/50</item>
+        <item>1/30</item>
+        <item>1/15</item>
+        <item>1/8</item>
+        <item>1/4</item>
+        <item>1/2</item>
+        <item>1</item>
+    </string-array>
+
+    <string-array name="exposure_time_double_mtk" translatable="false">
+        <item>1</item>
+        <item>2</item>
+        <item>4</item>
+        <item>8</item>
+        <item>20</item>
+        <item>33.3333333333333333</item>
+        <item>66.6666666666666667</item>
+        <item>125</item>
+        <item>250</item>
+        <item>500</item>
+        <item>1000</item>
+    </string-array>
+
+    <array name="lowlight_descriptions" translatable="false">
+        <item>@string/lowlight_off_desc</item>
+        <item>@string/lowlight_on_desc</item>
+    </array>
+
+    <array name="lowlight_icons" translatable="false">
+        <item>@drawable/ic_night_off</item>
+        <item>@drawable/ic_night_on</item>
+    </array>
+
+    <integer-array name="camera_iso_values" translatable="false">
+        <item>100</item>
+        <item>200</item>
+        <item>250</item>
+        <item>400</item>
+        <item>600</item>
+        <item>800</item>
+        <item>1200</item>
+        <item>1600</item>
+    </integer-array>
+
+    <integer-array name="camera_iso_values_mtk" translatable="false">
+        <item>100</item>
+        <item>200</item>
+        <item>400</item>
+        <item>600</item>
+        <item>800</item>
+        <item>1200</item>
+        <item>1600</item>
+    </integer-array>
+
+    <integer-array name="camera_launching_times_for_micro_tip" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </integer-array>
+
+    <integer-array name="camera_launching_times_for_hdr_toast" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </integer-array>
+
+    <integer-array name="camera_launching_times_for_night_toast" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </integer-array>
+
+    <string-array name="white_balance_values" translatable="false">
+        <item>twilight</item>
+        <item>incandescent</item>
+        <item>warm-fluorescent</item>
+        <item>fluorescent</item>
+        <item>daylight</item>
+        <item>shade</item>
+        <item>cloudy-daylight</item>
+    </string-array>
+    <string-array name="white_balance_strings" translatable="false">
+        <item>2000k</item>
+        <item>2300k</item>
+        <item>4000k</item>
+        <item>4500k</item>
+        <item>6000k</item>
+        <item>7500k</item>
+        <item>8500k</item>
+    </string-array>
+
+    <string-array name="pref_camera_antibanding_entries" translatable="false">
+        <item>@string/pref_camera_antibanding_entry_3</item>
+        <item>@string/pref_camera_antibanding_entry_1</item>
+        <item>@string/pref_camera_antibanding_entry_2</item>
+        <item>@string/pref_camera_antibanding_entry_0</item>
+    </string-array>
+
+    <string-array name="pref_camera_antibanding_entryvalues" translatable="false">
+        <item>"auto"</item>
+        <item>"50hz"</item>
+        <item>"60hz"</item>
+        <item>"off"</item>
+    </string-array>
+
+    <array name="woman_pose_style_icon" translatable="false">
+        <item>@drawable/woman_style1</item>
+        <item>@drawable/woman_style2</item>
+        <item>@drawable/woman_style3</item>
+        <item>@drawable/woman_style4</item>
+        <item>@drawable/woman_style5</item>
+        <item>@drawable/woman_style6</item>
+        <item>@drawable/woman_style7</item>
+        <item>@drawable/woman_style8</item>
+        <item>@null</item>
+
+    </array>
+
+    <array name="man_pose_style_icon" translatable="false">
+        <item>@drawable/man_style1</item>
+        <item>@drawable/man_style2</item>
+        <item>@drawable/man_style3</item>
+        <item>@drawable/man_style4</item>
+        <item>@drawable/man_style5</item>
+        <item>@drawable/man_style6</item>
+        <item>@drawable/man_style7</item>
+        <item>@drawable/man_style8</item>
+        <item>@null</item>
+    </array>
+
+    <array name="all_pose_style_icon" translatable="false">
+        <item>@drawable/all_style1</item>
+        <item>@drawable/all_style2</item>
+        <item>@drawable/all_style3</item>
+        <item>@drawable/all_style4</item>
+        <item>@drawable/all_style5</item>
+        <item>@drawable/all_style6</item>
+        <item>@drawable/all_style7</item>
+        <item>@drawable/all_style8</item>
+        <item>@null</item>
+    </array>
+
+    <array name="woman_pose_thumb_icon" translatable="false">
+        <item>@drawable/woman1</item>
+        <item>@drawable/woman2</item>
+        <item>@drawable/woman3</item>
+        <item>@drawable/woman4</item>
+        <item>@drawable/woman5</item>
+        <item>@drawable/woman6</item>
+        <item>@drawable/woman7</item>
+        <item>@drawable/woman8</item>
+        <item>@null</item>
+
+    </array>
+
+    <array name="woman_tw_pose_thumb_icon" translatable="false">
+        <item>@drawable/womanh1</item>
+        <item>@drawable/womanh2</item>
+        <item>@drawable/womanh3</item>
+        <item>@drawable/womanh4</item>
+        <item>@drawable/womanh5</item>
+        <item>@drawable/womanh6</item>
+        <item>@drawable/womanh7</item>
+        <item>@drawable/womanh8</item>
+        <item>@null</item>
+    </array>
+
+    <array name="man_pose_thumb_icon" translatable="false">
+        <item>@drawable/man1</item>
+        <item>@drawable/man2</item>
+        <item>@drawable/man3</item>
+        <item>@drawable/man4</item>
+        <item>@drawable/man5</item>
+        <item>@drawable/man6</item>
+        <item>@drawable/man7</item>
+        <item>@drawable/man8</item>
+        <item>@null</item>
+    </array>
+
+    <array name="man_tw_pose_thumb_icon" translatable="false">
+        <item>@drawable/men_01</item>
+        <item>@drawable/men_02</item>
+        <item>@drawable/men_03</item>
+        <item>@drawable/men_04</item>
+        <item>@drawable/men_05</item>
+        <item>@drawable/men_06</item>
+        <item>@drawable/men_07</item>
+        <item>@drawable/men_08</item>
+        <item>@null</item>
+    </array>
+
+    <array name="all_pose_thumb_icon" translatable="false">
+        <item>@drawable/all1</item>
+        <item>@drawable/all2</item>
+        <item>@drawable/all3</item>
+        <item>@drawable/all4</item>
+        <item>@drawable/all5</item>
+        <item>@drawable/all6</item>
+        <item>@drawable/all7</item>
+        <item>@drawable/all8</item>
+        <item>@null</item>
+    </array>
+
+    <array name="all_tw_pose_thumb_icon" translatable="false">
+        <item>@drawable/all_h1</item>
+        <item>@drawable/all_h2</item>
+        <item>@drawable/all_h3</item>
+        <item>@drawable/all_h4</item>
+        <item>@drawable/all_h5</item>
+        <item>@drawable/all_h6</item>
+        <item>@drawable/all_h7</item>
+        <item>@drawable/all_h8</item>
+        <item>@null</item>
+    </array>
+
+    <array name="compose_thumb_icon" translatable="false">
+        <item>@drawable/gs1</item>
+        <item>@drawable/gs2</item>
+        <item>@drawable/gs3</item>
+        <item>@drawable/gs4</item>
+        <item>@drawable/gs5</item>
+        <item>@drawable/gs6</item>
+        <item>@drawable/gs7</item>
+        <item>@drawable/gs8</item>
+        <item>@drawable/gs9</item>
+    </array>
+
+    <array name="compose_tw_thumb_icon" translatable="false">
+        <item>@drawable/gs_tw1</item>
+        <item>@drawable/gs_tw2</item>
+        <item>@drawable/gs_tw3</item>
+        <item>@drawable/gs_tw4</item>
+        <item>@drawable/gs_tw5</item>
+        <item>@drawable/gs_tw6</item>
+        <item>@drawable/gs_tw7</item>
+        <item>@drawable/gs_tw8</item>
+        <item>@drawable/gs_tw9</item>
+    </array>
+
+
+    <array name="compose_style_icon" translatable="false">
+        <item>@drawable/g1</item>
+        <item>@drawable/g2</item>
+        <item>@drawable/g3</item>
+        <item>@drawable/g4</item>
+        <item>@drawable/g5</item>
+        <item>@drawable/g6</item>
+        <item>@drawable/g7</item>
+        <item>@drawable/g8</item>
+        <item>@drawable/g9</item>
+    </array>
+
+    <array name="audio_record_icons" translatable="false">
+        <item>@drawable/ic_audio_record_off</item>
+        <item>@drawable/ic_audio_record_on</item>
+    </array>
+
+    <array name="audio_record_descriptions" translatable="false">
+        <item>@string/audio_record_off_desc</item>
+        <item>@string/audio_record_on_desc</item>
+    </array>
+</resources>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/manual_item_height"
+    android:gravity="center"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/manual_progress_view"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="invisible" >
+        <com.android.camera.ui.RotateLayout
+            android:id="@+id/rotateauto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+
+            <!--
+            <TextView
+                android:id="@+id/auto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/manual_gridview_circle_bg"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:paddingEnd="8dp"
+                android:paddingStart="8dp"
+                android:singleLine="true"
+                android:textStyle="bold"
+                android:text="A" />
+                -->
+
+            <LinearLayout
+                android:id="@+id/auto_layout"
+                android:layout_width="@dimen/automatic_button_size"
+                android:layout_height="@dimen/automatic_button_size"
+                android:gravity="center">
+                <ImageView
+                    android:id="@+id/auto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:src="@drawable/ic_manual_auto_normal"/>
+            </LinearLayout>
+
+        </com.android.camera.ui.RotateLayout>
+
+        <com.android.camera.ui.CustomSeekBar
+            android:id="@+id/seekbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <com.android.camera.ui.RotateLayout
+        android:id="@+id/manul_mode_rotatelayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="top|left"
+        android:gravity="center" >
+
+        <LinearLayout
+            android:id="@+id/item_root"
+	        android:layout_width="@dimen/manual_item_height"
+	        android:layout_height="@dimen/manual_item_height"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:scaleType="fitCenter" >
+
+            <ImageView
+                android:id="@+id/item_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:scaleType="centerInside"
+                android:textColor="#4fffffff"/>
+
+            <TextView
+                android:id="@+id/description_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:gravity="center"
+                android:textColor="#ffffffff"
+                android:textSize="14dp" />
+        </LinearLayout>
+    </com.android.camera.ui.RotateLayout>
+
+</merge>

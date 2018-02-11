@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <!-- <RelativeLayout -->
+    <!-- android:id="@+id/lay_dataplan" -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:minHeight="?android:attr/listPreferredItemHeight" -->
+    <!-- android:paddingEnd="?android:attr/listPreferredItemPaddingEnd" -->
+    <!-- android:paddingStart="?android:attr/listPreferredItemPaddingStart" > -->
+
+
+    <!-- <TextView -->
+    <!-- android:id="@+id/tv_dataplan" -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_centerVertical="true" -->
+    <!-- android:text="@string/dataplan_used" -->
+    <!-- android:textAppearance="?android:attr/textAppearanceListItemSmall" /> -->
+
+
+    <!-- <TextView -->
+    <!-- android:id="@+id/tv_unit" -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_alignParentRight="true" -->
+    <!-- android:layout_centerVertical="true" -->
+    <!-- android:text="@string/data_unit" -->
+    <!-- android:textAppearance="?android:attr/textAppearanceListItemSmall" -->
+    <!-- android:textColor="@color/color_data_total_text" /> -->
+
+
+    <!-- <EditText -->
+    <!-- android:id="@+id/edt_dataplan_total" -->
+    <!-- android:layout_width="@dimen/edt_man_correct_width" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_centerVertical="true" -->
+    <!-- android:layout_marginRight="@dimen/edt_man_correct_margin_right" -->
+    <!-- android:layout_toLeftOf="@id/tv_unit" -->
+    <!-- android:gravity="right" -->
+    <!-- android:inputType="number" -->
+    <!-- android:maxLength="4" -->
+    <!-- android:maxLines="1" -->
+    <!-- android:textAppearance="?android:attr/textAppearanceListItemSmall" -->
+    <!-- android:textColor="@color/color_data_total_text" /> -->
+    <!-- </RelativeLayout> -->
+
+
+    <!-- <RelativeLayout -->
+    <!-- android:id="@+id/lay_data_free" -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_marginTop="@dimen/lay_data_set_divider" -->
+    <!-- android:minHeight="?android:attr/listPreferredItemHeight" -->
+    <!-- android:paddingEnd="?android:attr/listPreferredItemPaddingEnd" -->
+    <!-- android:paddingStart="?android:attr/listPreferredItemPaddingStart" > -->
+
+
+    <!-- <TextView -->
+    <!-- android:id="@+id/tv_data_free" -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_centerVertical="true" -->
+    <!-- android:text="@string/data_free_used" -->
+    <!-- android:textAppearance="?android:attr/textAppearanceListItemSmall" /> -->
+
+
+    <!-- <TextView -->
+    <!-- android:id="@+id/tv_data_unit" -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_alignParentRight="true" -->
+    <!-- android:layout_centerVertical="true" -->
+    <!-- android:text="@string/data_unit" -->
+    <!-- android:textAppearance="?android:attr/textAppearanceListItemSmall" -->
+    <!-- android:textColor="@color/color_data_total_text" /> -->
+
+
+    <!-- <EditText -->
+    <!-- android:id="@+id/edt_free_total" -->
+    <!-- android:layout_width="@dimen/edt_man_correct_width" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_centerVertical="true" -->
+    <!-- android:layout_marginRight="@dimen/edt_man_correct_margin_right" -->
+    <!-- android:layout_toLeftOf="@id/tv_data_unit" -->
+    <!-- android:gravity="right" -->
+    <!-- android:inputType="number" -->
+    <!-- android:maxLength="4" -->
+    <!-- android:maxLines="1" -->
+    <!-- android:textAppearance="?android:attr/textAppearanceListItemSmall" -->
+    <!-- android:textColor="@color/color_data_total_text" /> -->
+    <!-- </RelativeLayout> -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+        <include
+            android:id="@+id/lay_dataplan"
+            layout="@layout/lay_edit_preference" />
+
+        <include
+            android:id="@+id/lay_datafree"
+            layout="@layout/lay_edit_preference" />
+    </LinearLayout>
+
+</LinearLayout>

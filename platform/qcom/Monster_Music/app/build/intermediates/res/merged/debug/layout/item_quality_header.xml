@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:gravity="center"
+                android:paddingEnd="@dimen/dp_20"
+                android:paddingStart="@dimen/dp_20">
+
+    <TextView
+        android:id="@+id/quality_header_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/quantify_title"
+        android:alpha="0.4"
+        android:textColor="@color/black"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="24dp"
+        android:textSize="@dimen/sp_12"/>
+
+</RelativeLayout>

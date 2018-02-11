@@ -1,0 +1,11 @@
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/ab_search"
+        android:checked="true"
+        android:orderInCategory="80"
+        android:title="action_search"
+        android:icon="@com.mst:drawable/ic_search"
+        android:actionViewClass="android.widget.MstSearchView"
+        android:showAsAction="always"/>
+</menu>

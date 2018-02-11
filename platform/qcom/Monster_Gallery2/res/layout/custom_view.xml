@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView 
+        android:id="@+id/filtershow_back"
+        style="?android:attr/actionButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_back"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/actionbar_title_magin"
+        android:layout_toRightOf="@+id/filtershow_back"
+        android:gravity="center_vertical"
+        android:singleLine="true"
+        android:text="@string/edit"
+        android:textColor="@color/actionbar_title_color"
+        android:textSize="@dimen/actionbar_title_size"
+        android:textStyle="bold" >
+    </TextView>
+
+</RelativeLayout>

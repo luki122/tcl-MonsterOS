@@ -1,0 +1,814 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="sort">"Klasifiko"</string>
+	<!---->
+	<string name="sort_by_name">"Emri"</string>
+	<!---->
+	<string name="sort_by_date">"Datë e modifikuar"</string>
+	<!---->
+	<string name="sort_by_time">"Data"</string>
+	<!---->
+	<string name="sort_by_type">"Lloji"</string>
+	<!---->
+	<string name="sort_by_size">"Përmasa"</string>
+	<!---->
+	<string name="copy">"Kopjo"</string>
+	<!---->
+	<string name="create_folder">"Krijo"</string>
+	<!---->
+	<string name="cut">"Pres"</string>
+	<!---->
+	<string name="delete">"Fshij"</string>
+	<!---->
+	<string name="delete_confirm">"Konfirmo fshirjen"</string>
+	<!---->
+	<string name="deselect_all">"Ç\'shënoji të gjitha"</string>
+	<!---->
+	<string name="select_all">"Përzgjidhni të gjitha"</string>
+	<!---->
+	<string name="show_file">"Shfaq skedarët e fshehur"</string>
+	<!---->
+	<string name="hide_file">"Fshih skedarët e fshehur"</string>
+	<!---->
+	<string name="paste">"Ngjit"</string>
+	<!---->
+	<string name="rename">"Riemëro"</string>
+	<!---->
+	<string name="share">"Shpërndaj"</string>
+	<!---->
+	<string name="viewby_list">"Shfaqni sipas listës"</string>
+	<!---->
+	<string name="viewby_grid">"Shfaqni sipas rrjetit"</string>
+	<!---->
+	<string name="alert_delete_message">"FSHI"</string>
+	<!---->
+	<string name="multi_alert_delete_message">"Fshij artikujtë e përzgjedhur?"</string>
+	<!---->
+	<string name="multi_alert_delete_message_cn">"Fshij artikujt e përzgjedhur?"</string>
+	<!-- no translation found for delete_folder_message -->
+	<skip />
+	<!---->
+	<string name="category_pictures">"Fotografitë"</string>
+	<!---->
+	<string name="category_vedios">"Videot"</string>
+	<!---->
+	<string name="category_music">"Muzikë"</string>
+	<!---->
+	<string name="category_download">"Shkarkimet"</string>
+	<!---->
+	<string name="category_bluetooth">"Bluetooth"</string>
+	<!-- no translation found for app_name -->
+	<skip />
+	<!-- no translation found for theme_name -->
+	<skip />
+	<!---->
+	<string name="apk_name">"Skedarë"</string>
+	<!---->
+	<string name="new_folder">"Krijo dosje e re"</string>
+	<!---->
+	<string name="confirm_rename">"Konfirmo emrin"</string>
+	<!---->
+	<string name="warning">"Shuma maksimale e skedarit"</string>
+	<!---->
+	<string name="share_warning">"Nuk mund të ndani më shumë se 100 skedarë."</string>
+	<!---->
+	<string name="loading">"Duke ngarkuar..."</string>
+	<!---->
+	<string name="deleting">"Duke fshirë"</string>
+	<!---->
+	<string name="alert_delete_multiple">"Skedarët i zgjedhur do të fshihet."</string>
+	<!---->
+	<string name="name">"Emri"</string>
+	<!---->
+	<string name="size">"Përmasa"</string>
+	<!---->
+	<string name="modified_time">"Modifikuar"</string>
+	<!---->
+	<string name="msg_rename_ext">"Po ndryshoni zgjatimin e skedarit, që mund të çojë në mosnjohje të skedarit. Vazhdoni?"</string>
+	<!---->
+	<string name="wait">"Ju lutem prisni..."</string>
+	<!---->
+	<string name="done">"U krye"</string>
+	<!-- no translation found for enable -->
+	<skip />
+	<!-- no translation found for enable_cn -->
+	<skip />
+	<!---->
+	<string name="cancel">"Anulo"</string>
+	<!---->
+	<string name="no">"Jo"</string>
+	<!---->
+	<string name="ok">"OK"</string>
+	<!---->
+	<string name="yes">"Po"</string>
+	<!---->
+	<string name="details">"Detaje të skedarit"</string>
+	<!---->
+	<string name="drawer_open">"Hape"</string>
+	<!---->
+	<string name="unknown">"E panjohur"</string>
+	<!-- no translation found for unit_B -->
+	<skip />
+	<!-- no translation found for unit_KB -->
+	<skip />
+	<!-- no translation found for unit_MB -->
+	<skip />
+	<!-- no translation found for unit_GB -->
+	<skip />
+	<!-- no translation found for unit_TB -->
+	<skip />
+	<!---->
+	<string name="send_file">"Shpërndani skedar(ët) me"</string>
+	<!---->
+	<string name="default_search_text">"Kërko skedarë"</string>
+	<!---->
+	<string name="free_space">"I disponueshëm"</string>
+	<!---->
+	<string name="total_space">"Hapësira totale"</string>
+	<!---->
+	<string name="drawer_category">"Kategoritë"</string>
+	<!---->
+	<string name="phone_storage">"Kujtesë e celularit"</string>
+	<!---->
+	<string name="phone_storage_cn">"Kujtesa e celularit"</string>
+	<!---->
+	<string name="sd_card">"Karta SD"</string>
+	<!---->
+	<string name="draw_left_phone_storage">"Kujtesa e celularit"</string>
+	<!---->
+	<string name="draw_left_sd_card">"Kartë SD"</string>
+	<!-- no translation found for menu_settings -->
+	<skip />
+	<!---->
+	<string name="no_search_result">"0 rezultat(e) për \"%1$s\"</string>
+	<!---->
+	<string name="copy_deny">"Asnjë leje për të kopjuar."</string>
+	<!---->
+	<string name="cut_deny">"Asnjë leje për të prerë."</string>
+	<!---->
+	<string name="delete_deny">"Asnjë leje për të fshirë."</string>
+	<!---->
+	<string name="insufficient_memory">"Hapësirë e pamjaftueshme."</string>
+	<!---->
+	<string name="insufficient_message">"Nuk mund të kopjojë disa skedarë për shkak të hapësirës së pamjaftueshme"</string>
+	<!---->
+	<string name="invalid_empty_name">"Skedari ose emri i dosjes nuk mund të jetë bosh"</string>
+	<!---->
+	<string name="paste_same_folder">"Kopjim i pasuksesshëm: burimi dhe destinacioni janë të nëjtë."</string>
+	<!---->
+	<string name="invalid_char_prompt">"Ju keni futur karakter invalid."</string>
+	<!---->
+	<string name="msg_unable_open_file">"Formati i skedarit nuk është mbështetur."</string>
+	<!---->
+	<string name="paste_sub_folder">"Nuk mund të ngjisë në nën skedar"</string>
+	<!---->
+	<string name="operation_fail">"Disa veprime skedarësh dështuan."</string>
+	<!---->
+	<string name="search_result">"%2$d rezultate për \"%1$s\"</string>
+	<!---->
+	<string name="already_exists">"%1$s është në përdorim tashmë."</string>
+	<!---->
+	<string name="unmounted">"%1$s është i pa montuar"</string>
+	<!---->
+	<string name="create_hidden_file">"Skedari do të fshihet nëse emri i tij fillon me \'.\'."</string>
+	<!---->
+	<string name="file_name_too_long">"Emri hyrës është tepër i gjatë."</string>
+	<!---->
+	<string name="some_paste_fail">"Disa veprime ngjitjeje dështuan."</string>
+	<!---->
+	<string name="delete_fail">"Nuk mund të fshihet"</string>
+	<!---->
+	<string name="some_delete_fail">"Disa veprime fshirjeje dështuan."</string>
+	<!---->
+	<string name="msg_unable_open_file_in_app">"Asnjë aplikacion për të hapur skedarin"</string>
+	<!---->
+	<string name="drm_forwardforbidden_title">"Mos Përcillni"</string>
+	<!---->
+	<string name="drm_forwardforbidden_message">"Skedari DRM nuk mund të përcillej."</string>
+	<!---->
+	<string name="drm_no_valid_right">"Skedari nuk ka autoritet të vlefshëm DRM."</string>
+	<!---->
+	<string name="drm_current_count">"Llogari aktuale:"</string>
+	<!---->
+	<string name="unlimited_usage">"Përdorim i pakufizuar"</string>
+	<!---->
+	<string name="drm_current_right">"Kufizim aktual:"</string>
+	<!---->
+	<string name="not_available">"E padisponueshme"</string>
+	<!---->
+	<string name="right_url">"URL e lëshuesit të licencave:"</string>
+	<!---->
+	<string name="use_times">"Përdorni %s herë"</string>
+	<!---->
+	<string name="valid_after">"I vlefshëm pas"</string>
+	<!---->
+	<string name="valid_until">"I vlefshëm deri"</string>
+	<!---->
+	<string name="drm_wifidisplay_title">"Skedarë të mbrojtur"</string>
+	<!---->
+	<string name="drm_wifidisplay_message">"Skedari i mbrojtur nuk mund të shpërndahet."</string>
+	<!---->
+	<string name="drm_wifidisplay_cancel_btn">"Fik Wi-Fi pamjen"</string>
+	<!---->
+	<string name="drm_wifidisplay_ok">"OK"</string>
+	<!---->
+	<string name="tv_link_close_toast">"Pamja Wi-Fi është mbyllur"</string>
+	<!---->
+	<string name="usbotg">"Kujtesa USB e jashtme"</string>
+	<!---->
+	<string name="show">"Trego skedarët e sistemit"</string>
+	<!---->
+	<string name="hide">"Fshih skedarët e sistemit"</string>
+	<!---->
+	<string name="action_menu_create_folder_button">"Krijo dosje"</string>
+	<!---->
+	<string name="searchResult">"RezultatKërkimi"</string>
+	<!---->
+	<string name="default_folder_name">"Emri i dosjes"</string>
+	<!---->
+	<string name="drm_protection_status">"Statusi i mbrojtjes:"</string>
+	<!---->
+	<string name="drm_can_forward">"Nuk mund të devijohet"</string>
+	<!---->
+	<string name="drm_can_not_forward">"Nuk mund të devijohet."</string>
+	<!---->
+	<string name="drm_no_license">"Nuk ka licenca DRM të përdorshme."</string>
+	<!---->
+	<string name="drm_interval">"Valide për %s pas herës së parë të përdorimit"</string>
+	<!---->
+	<string name="drm_begin">"Fillo:"</string>
+	<!---->
+	<string name="drm_no_limitation">"Nuk ka kufizime"</string>
+	<!---->
+	<string name="drm_end">"Fund:"</string>
+	<!---->
+	<string name="drm_use_left">"Të mbetur:"</string>
+	<!---->
+	<string name="drm_no_crop">"Skedari "%s" nuk mund të pritet sepse skedari është i mbrojtur nga DRM."</string>
+	<!---->
+	<string name="file_copy">"Skedari u kopjua"</string>
+	<!---->
+	<string name="choice_file">"Zgjidhni destinacion"</string>
+	<!---->
+	<string name="alert_delete_single">"Skedari i zgjedhur do të fshihet."</string>
+	<!---->
+	<string name="pasting">"Duke ngjitur"</string>
+	<!---->
+	<string name="readable">"I lexueshëm:"</string>
+	<!---->
+	<string name="executable">"Aplikacioni:"</string>
+	<!---->
+	<string name="writable">"E shkruajtshme:"</string>
+	<!---->
+	<string name="add_favorite">"Shto në dosjen e preferuar"</string>
+	<!---->
+	<string name="del_favorite">"Fshi nga dosja e preferuar"</string>
+	<!---->
+	<string name="favourite">"Shto te të Preferuar"</string>
+	<!---->
+	<string name="viewby_details">"Shfaqni sipas detajeve"</string>
+	<!---->
+	<string name="view_by">"Rendit"</string>
+	<!---->
+	<string name="show_hide">"Shfaqni\\Fshihni"</string>
+	<!---->
+	<string name="sort_by">"Klasifiko sipas"</string>
+	<!---->
+	<string name="more">"Më shumë"</string>
+	<!-- no translation found for used -->
+	<skip />
+	<!---->
+	<string name="category_archives">"Arkivat"</string>
+	<!---->
+	<string name="category_favorite">"Të preferuarat"</string>
+	<!---->
+	<string name="category_ringtones">"Meloditë"</string>
+	<!---->
+	<string name="category_recordings">"Regjistrime"</string>
+	<!---->
+	<string name="category_safebox">"Kasafortë"</string>
+	<!---->
+	<string name="category_apks">"APKs"</string>
+	<!---->
+	<string name="search">"Kërko"</string>
+	<!---->
+	<string name="sort_type">"Rendit sipas tipit"</string>
+	<!---->
+	<string name="sort_name">"Rendit sipas emrit (A-Z)"</string>
+	<!---->
+	<string name="sort_size">"Rendit sipas madhësisë (i madh-i vogël)"</string>
+	<!---->
+	<string name="sort_time">"Rendit sipas kohës (i ri-i vjetër)"</string>
+	<!---->
+	<string name="selected">"Zgjedhur"</string>
+	<!---->
+	<string name="save">"Ruaj"</string>
+	<!---->
+	<string name="category_docs">"Dokumentet"</string>
+	<!---->
+	<string name="category_files">"Skedarë"</string>
+	<!---->
+	<string name="view_as_grid">"Shiko si rrjetë"</string>
+	<!---->
+	<string name="view_as_list">"Shiko si listë"</string>
+	<!---->
+	<string name="detail_path">"Vendndodhje"</string>
+	<!---->
+	<string name="detail_name">"Emri:"</string>
+	<!---->
+	<string name="detail_size">"Përmasa"</string>
+	<!---->
+	<string name="detail_time">"Modifikim i fundit:"</string>
+	<!---->
+	<string name="empty_msg">"(Dosje e Zbrazët)"</string>
+	<!---->
+	<string name="search_files">"Kërko skedarë"</string>
+	<!-- no translation found for search_result_count -->
+	<skip />
+	<!---->
+	<string name="drawer_settings">"konfigurimet"</string>
+	<!---->
+	<string name="search_text_empty">"Përmbajtja e kërkimit nuk duhet të jenë bosh."</string>
+	<!---->
+	<string name="search_result_title">"Kërkoni rezultat(e)"</string>
+	<!---->
+	<string name="path_not_exists">"%1$s nuk ekziston."</string>
+	<!---->
+	<string name="modify_hidden_file">"Skedari nuk do të fshihet nëse emri i tij nuk fillon me \'.\'."</string>
+	<!---->
+	<string name="paste_fail">"Nuk mund të ngjitet"</string>
+	<!---->
+	<string name="search_empty">"Përmbajtja e kërkimit nuk duhet të jetë bosh."</string>
+	<!---->
+	<string name="search_setting_description">"Skedarë dhe dosje lokale"</string>
+	<!---->
+	<string name="change_mode">"Përzgjidh skedar ose dosje"</string>
+	<!-- no translation found for drm_protectioninfo_title -->
+	<skip />
+	<!---->
+	<string name="draw_favourite">"të preferuara"</string>
+	<!---->
+	<string name="unfavourite">"Hiq nga të preferuarat"</string>
+	<!---->
+	<string name="drm_toast_license_expired">"DRM licenca ka skaduar."</string>
+	<!-- no translation found for sdstroge -->
+	<skip />
+	<!-- no translation found for phonestorage -->
+	<skip />
+	<!-- no translation found for title_activity_main -->
+	<skip />
+	<!-- no translation found for hello_world -->
+	<skip />
+	<!-- no translation found for action_settings -->
+	<skip />
+	<!-- no translation found for unlock_video -->
+	<skip />
+	<!---->
+	<string name="readable_m">"Lexueshëm"</string>
+	<!---->
+	<string name="executable_m">"Aplikacion"</string>
+	<!---->
+	<string name="writable_m">"E shkruajtshme:"</string>
+	<!---->
+	<string name="main_recents">"Të fundit"</string>
+	<!-- no translation found for main_recents_cn -->
+	<skip />
+	<!---->
+	<string name="main_installers">"Instaluesit"</string>
+	<!---->
+	<string name="main_document">"Dokumentet"</string>
+	<!---->
+	<string name="detail_path_m">"Lokacion"</string>
+	<!-- no translation found for detail_path_m_cn -->
+	<skip />
+	<!---->
+	<string name="detail_name_m">"Emri"</string>
+	<!---->
+	<string name="detail_size_m">"Madhësia"</string>
+	<!---->
+	<string name="detail_time_m">"Modifikim i fundit:"</string>
+	<!---->
+	<string name="main_photo">"Imazhe"</string>
+	<!---->
+	<string name="main_sd_storage">"Kujtesa SD"</string>
+	<!---->
+	<string name="main_external_storage">"Kujtesa e jashtme"</string>
+	<!---->
+	<string name="main_home">"Kreu"</string>
+	<!-- no translation found for main_home_cn -->
+	<skip />
+	<!---->
+	<string name="main_nava_home">"Kreu"</string>
+	<!---->
+	<string name="menu_select">"Zgjidh"</string>
+	<!-- no translation found for go_up -->
+	<skip />
+	<!---->
+	<string name="no_folder">"Dosje është e zbrazët"</string>
+	<!---->
+	<string name="no_category">"Kjo kategori është bosh."</string>
+	<!-- no translation found for no_folder_cn -->
+	<skip />
+	<!-- no translation found for no_category_cn -->
+	<skip />
+	<!---->
+	<string name="pasted">"Skedari u ngjit"</string>
+	<!---->
+	<string name="deleted">"Doja e fshirë"</string>
+	<!---->
+	<string name="deleted_cn">"Doja e fshirë"</string>
+	<!---->
+	<string name="view_list">"Pamje listë"</string>
+	<!---->
+	<string name="view_grid">"Pamje rrjetë"</string>
+	<!---->
+	<string name="create_new_folder">"Krijo dosje"</string>
+	<!-- no translation found for add_folder -->
+	<skip />
+	<!---->
+	<string name="detail">"Detaje"</string>
+	<!-- no translation found for menu_detail -->
+	<skip />
+	<!---->
+	<string name="migrate">"Migroni"</string>
+	<!---->
+	<string name="permission_welcome_title">"Nevojitet autorizim"</string>
+	<!---->
+	<string name="permission_msg">"Shërbim më i mirë për ty"</string>
+	<!---->
+	<string name="permission_setting_title">"Jepni qasje"</string>
+	<!---->
+	<string name="permission_setting_content">"Ndryshoni autorizimet te cilësimet e aplikacionit të pajisjes tuaj. Jepini Menaxherit të Skedarit qasje te kujtesa."</string>
+	<!---->
+	<string name="permission_exit_btn">"Dalje"</string>
+	<!---->
+	<string name="dialog_close_btn">"Mbyll"</string>
+	<!-- no translation found for dialog_close_btn_cn -->
+	<skip />
+	<!---->
+	<string name="shortcut_item">"Shto shkurtesë"</string>
+	<!-- no translation found for shortcut_item_cn -->
+	<skip />
+	<!---->
+	<string name="shortcut_no_exist">"Skedari i kërkuar nuk ekziston"</string>
+	<!-- no translation found for shortcut_success -->
+	<skip />
+	<!---->
+	<string name="no_search_result_m">"Asnjë rezultat nuk u gjet për \"%1$s\""</string>
+	<!---->
+	<string name="draw_left_phone_storage_m">"Celular"</string>
+	<!---->
+	<string name="category_audio">"Audio"</string>
+	<!---->
+	<string name="usbotg_m">"E jashtme"</string>
+	<!-- no translation found for sd_m -->
+	<skip />
+	<!---->
+	<string name="freeof_m">"E lirë"</string>
+	<!---->
+	<string name="permission_settings">"Cilësimet"</string>
+	<!---->
+	<string name="safe_first_dialog_title">"Kategoria e kasafortës"</string>
+	<!---->
+	<string name="safe_first_dialog_content">"Skedarët e zhvendosur në këtë kategori kërkojnë vërtetim me fjalëkalim. Shtoji skedarët në këtë kategori duke shtypur "Zhvendos në kasafortë" nga menyja e skedarit."</string>
+	<!-- no translation found for safe_first_dialog_content_cn -->
+	<skip />
+	<!---->
+	<string name="safe_storage_local">"Memoria vendore"</string>
+	<!---->
+	<string name="set_password_pass">"Fjalëkalim"</string>
+	<!---->
+	<string name="set_password_first">"Vendosni fjalëkalimin: 4-12 shifra"</string>
+	<!-- no translation found for input_new_password_hint -->
+	<skip />
+	<!---->
+	<string name="set_password_again">"Konfirmoni fjalëkalim"</string>
+	<!---->
+	<string name="set_password_show">"Shfaq fjalëkalim"</string>
+	<!---->
+	<string name="set_password_safe_question">"Pyetjet e sigurisë"</string>
+	<!---->
+	<string name="set_password_safe_question_answer">"Përgjigje"</string>
+	<!---->
+	<string name="set_password_safe_forget_pass">"Kujtoji përgjigjet e pyetjeve të sigurisë. Nëse harron fjalëkalimin, mund ta rivendosësh duke iu përgjigjur pyetjeve të sigurisë."</string>
+	<!---->
+	<string name="choose_safe">"Zgjidh kasafortë"</string>
+	<!-- no translation found for choose_safe_cn -->
+	<skip />
+	<!---->
+	<string name="create_safe">"Krijo kasafortë"</string>
+	<!---->
+	<string name="create_safe_to">"Krijo kasafortë për"</string>
+	<!-- no translation found for create_safe_to_cn -->
+	<skip />
+	<!---->
+	<string name="set_password">"Vendosni fjalëkalim"</string>
+	<!-- no translation found for add_file_safe -->
+	<skip />
+	<!---->
+	<string name="safe_set">"Cilësimet"</string>
+	<!---->
+	<string name="safe_set_title">"Cilësimet e kasafortës"</string>
+	<!-- no translation found for safe_set_title_cn -->
+	<skip />
+	<!---->
+	<string name="update_password">"Përditëso fjalëkalimin"</string>
+	<!---->
+	<string name="modify_password">"Modifiko fjalëkalimin"</string>
+	<!---->
+	<string name="security_question">"Përditëso pyetjen e sigurisë"</string>
+	<!-- no translation found for modify_security_question -->
+	<skip />
+	<!---->
+	<string name="safe_set_change_safe">"Ndrysho kasafortën"</string>
+	<!---->
+	<string name="safe_set_location_safe">"Vendndodhja e kasafortës"</string>
+	<!-- no translation found for safe_set_location_safe_cn -->
+	<skip />
+	<!---->
+	<string name="update_password_original">"Vendosni fjalëkalimin origjinal"</string>
+	<!---->
+	<string name="update_password_original_cn">"Vendosni fjalëkalimin origjinal"</string>
+	<!---->
+	<string name="destory_safe">"Shkatërro kasafortën"</string>
+	<!-- no translation found for destory_safe_cn -->
+	<skip />
+	<!-- no translation found for destory -->
+	<skip />
+	<!---->
+	<string name="use_password">"Përdor fjalëkalimin"</string>
+	<!---->
+	<string name="input_password">"Fus fjalëkalim"</string>
+	<!---->
+	<string name="forget_password">"Harroni fjalëkalimin"</string>
+	<!-- no translation found for others -->
+	<skip />
+	<!---->
+	<string name="password_empty">"Fjalëkalimi nuk mund të jetë bosh."</string>
+	<!---->
+	<string name="password_consistent">"Fjalëkalimet nuk përputhen"</string>
+	<!---->
+	<string name="password_length_error">"Gabim në gjatësinë e fjalëkalimit"</string>
+	<!---->
+	<string name="answer_empty">"Përgjigjja nuk mund të jetë bosh."</string>
+	<!-- no translation found for safe_box_name_empty -->
+	<skip />
+	<!---->
+	<string name="update_success">"Përditësim i suksesshëm"</string>
+	<!---->
+	<string name="update_fail">"Përmirësimi i pasuksesshëm."</string>
+	<!---->
+	<string name="password_mistake">"Fjalëkalimi i gabuar Vendoseni atë sërisht"</string>
+	<!---->
+	<string name="move_safe">"Zhvendos në kasafortë"</string>
+	<!---->
+	<string name="fingerprint_check">"Shenjat e lidhura të gishtave, përdor sensorin e shenjës së gishtit për verifikim."</string>
+	<!---->
+	<string name="in_use">"Në përdorim"</string>
+	<!---->
+	<string name="created">"I krijuar"</string>
+	<!---->
+	<string name="choose_files">"Zgjidhni skedarin(rët)"</string>
+	<!---->
+	<string name="move_out">"Largohuni"</string>
+	<!---->
+	<string name="remove_to">"Zhvendos në"</string>
+	<!---->
+	<string name="default_location">"Vendndodhje e paracaktuar"</string>
+	<!---->
+	<string name="specified_location">"Vendodhje e specifikuar"</string>
+	<!-- no translation found for open_dir -->
+	<skip />
+	<!-- no translation found for default_location_cn -->
+	<skip />
+	<!-- no translation found for specified_location_cn -->
+	<skip />
+	<!-- no translation found for specified_location_content_cn -->
+	<skip />
+	<!-- no translation found for category_safe -->
+	<skip />
+	<!-- no translation found for category_safe_cn -->
+	<skip />
+	<!---->
+	<string name="add_safe_size_limited">"Nuk është në gjendje të shtojë skedarë më të mëdhenj se 2.0GB"</string>
+	<!-- no translation found for add_safe_drm_limited -->
+	<skip />
+	<!---->
+	<string name="fingerprint_relative_dialog">"Të shoqërohet kasaforta me shenjë gishti?"</string>
+	<!-- no translation found for fingerprint_relative_dialog_cn -->
+	<skip />
+	<!-- no translation found for fingerprint_relative_dialog_ok -->
+	<skip />
+	<!-- no translation found for fingerprint_relative_dialog_ok_cn -->
+	<skip />
+	<!---->
+	<string name="fingerprint_relative_dialog_cancel">"Më vonë"</string>
+	<!-- no translation found for fingerprint_relative_dialog_cancel_cn -->
+	<skip />
+	<!---->
+	<string name="safe_location_current">"Vendndodhja e kasafortës:"</string>
+	<!-- no translation found for safe_location_current_cn -->
+	<skip />
+	<!---->
+	<string name="safe_location_content">"Mos e ngacmo dosjen e skedarëve për të shmangur dëmtimin e të dhënave të enkriptuara"</string>
+	<!-- no translation found for safe_location_content_cn -->
+	<skip />
+	<!---->
+	<string name="destory_safe_dialog_message">"Skedarët në kasafortë dhe fjalëkalimi do të fshihen të gjitha. Të shkatërrohen tani?"</string>
+	<!---->
+	<string name="destory_safe_dialog_checkbox">"Fshijeni skedarin në të njëjtën kohë?"</string>
+	<!-- no translation found for destory_safe_dialog_checkbox_cn -->
+	<skip />
+	<!---->
+	<string name="open_safe_dialog">"Aktivizo kasafortën"</string>
+	<!-- no translation found for open_safe_dialog_cn -->
+	<skip />
+	<!---->
+	<string name="open_safe_dialog_message">"Aktivizimi i kasafortës do t\'i zhvendosë skedarët në kasafortë. Të aktivizohet tani?"</string>
+	<!-- no translation found for open_safe_dialog_message_cn -->
+	<skip />
+	<!---->
+	<string name="open_safe_dialog_ok">"Hapeni menjëherë"</string>
+	<!---->
+	<string name="category_private_string">"Kasaforta"</string>
+	<!---->
+	<string name="opening">"Duke u hapur"</string>
+	<!-- no translation found for space_clear -->
+	<skip />
+	<!-- no translation found for unselected -->
+	<skip />
+	<!-- no translation found for select -->
+	<skip />
+	<!-- no translation found for finish -->
+	<skip />
+	<!---->
+	<string name="senior_title">"Zotëri"</string>
+	<!-- no translation found for no_files_for_add_to_safebox -->
+	<skip />
+	<!-- no translation found for finger_print_relation -->
+	<skip />
+	<!-- no translation found for duplicate_file_name_tip -->
+	<skip />
+	<!---->
+	<string name="searchview_hint">"Kërko skedarë"</string>
+	<!-- no translation found for safe_box_name_tip -->
+	<skip />
+	<!-- no translation found for toast_update_safe_box_name_sucess -->
+	<skip />
+	<!-- no translation found for toast_update_safe_box_name_fail -->
+	<skip />
+	<!-- no translation found for toast_safe_box_name_empty -->
+	<skip />
+	<!-- no translation found for cut_single_fail_tip -->
+	<skip />
+	<!-- no translation found for delete_single_fail_tip -->
+	<skip />
+	<!-- no translation found for copy_single_fail_tip -->
+	<skip />
+	<!-- no translation found for copy_multi_fail_tip -->
+	<skip />
+	<!-- no translation found for delete_multi_fail_tip -->
+	<skip />
+	<!-- no translation found for cut_multi_fail_tip -->
+	<skip />
+	<!-- no translation found for copy_all_fail_tip -->
+	<skip />
+	<!-- no translation found for delete_all_fail_tip -->
+	<skip />
+	<!-- no translation found for cut_all_fail_tip -->
+	<skip />
+	<!-- no translation found for past_multi_fail_tip -->
+	<skip />
+	<!-- no translation found for past_single_fail_tip -->
+	<skip />
+	<!-- no translation found for past_all_fail_tip -->
+	<skip />
+	<!-- no translation found for chip_encryption -->
+	<skip />
+	<!---->
+	<string name="safe_name_title">"Emri"</string>
+	<!---->
+	<string name="update_name">"Përditëso emrin"</string>
+	<!-- no translation found for fingerprint_relate -->
+	<skip />
+	<!-- no translation found for insufficient_message_cn -->
+	<skip />
+	<!-- no translation found for add_success -->
+	<skip />
+	<!---->
+	<string name="pasted_cn">"Skedari u ngjit"</string>
+	<!-- no translation found for no_search_result_cn -->
+	<skip />
+	<!---->
+	<string name="detail_time_cn">"Kohë e modifikuar"</string>
+	<!-- no translation found for rename_limit -->
+	<skip />
+	<!-- no translation found for fingerprint_fail -->
+	<skip />
+	<!-- no translation found for answer_mistake -->
+	<skip />
+	<!-- no translation found for answer_empty_tip -->
+	<skip />
+	<!-- no translation found for new_safe -->
+	<skip />
+	<!-- no translation found for dialog_confirm -->
+	<skip />
+	<!-- no translation found for move_in_success -->
+	<skip />
+	<!-- no translation found for move_in_count -->
+	<skip />
+	<!-- no translation found for message_security_fingerprint_lockout -->
+	<skip />
+	<!-- no translation found for use_password_auth -->
+	<skip />
+	<!-- no translation found for storage_details -->
+	<skip />
+	<!---->
+	<string name="total_memory">"Kujtesa totale"</string>
+	<!-- no translation found for system -->
+	<skip />
+	<!-- no translation found for category_fragment_title -->
+	<skip />
+	<!-- no translation found for storage -->
+	<skip />
+	<!-- no translation found for choice -->
+	<skip />
+	<!-- no translation found for view_tag_key -->
+	<skip />
+	<!-- no translation found for view_tag_key2 -->
+	<skip />
+	<!-- no translation found for finish_percent -->
+	<skip />
+	<!---->
+	<string name="select_pic">"Zgjidh foto"</string>
+	<!---->
+	<string name="brackets_double">"(%1$s)"</string>
+	<!-- no translation found for selected_pick -->
+	<skip />
+	<!-- no translation found for most_selected -->
+	<skip />
+	<!-- no translation found for finish_ready -->
+	<skip />
+	<!-- no translation found for select_pic_data -->
+	<skip />
+	<!-- no translation found for delete_determine_selected -->
+	<skip />
+	<!-- no translation found for delete_document -->
+	<skip />
+	<!-- no translation found for delete_folder -->
+	<skip />
+	<!-- no translation found for delete_folder_and -->
+	<skip />
+	<!---->
+	<string name="deselect_all_item">"Çshënoji të gjitha"</string>
+	<!-- no translation found for edit -->
+	<skip />
+	<!-- no translation found for storage_phone -->
+	<skip />
+	<!-- no translation found for storage_sdcard -->
+	<skip />
+	<!-- no translation found for storage_otg -->
+	<skip />
+	<!-- no translation found for storage_slash -->
+	<skip />
+	<!-- no translation found for welcome_security -->
+	<skip />
+	<!-- no translation found for welcome_security_info -->
+	<skip />
+	<!-- no translation found for welcome_convenient -->
+	<skip />
+	<!-- no translation found for welcome_convenient_info -->
+	<skip />
+	<!-- no translation found for welcome_depth -->
+	<skip />
+	<!-- no translation found for welcome_depth_info -->
+	<skip />
+	<!-- no translation found for welcome_add -->
+	<skip />
+	<!-- no translation found for welcome_add_info -->
+	<skip />
+	<!-- no translation found for welcome_dialog_title -->
+	<skip />
+	<!-- no translation found for welcome_dialog_info -->
+	<skip />
+	<!-- no translation found for welcome_dialog_verify_btn -->
+	<skip />
+	<!-- no translation found for welcome_dialog_verify_pwd -->
+	<skip />
+	<!-- no translation found for welcome_start_use -->
+	<skip />
+	<!-- no translation found for welcome_not_use -->
+	<skip />
+	<!---->
+	<string name="welcome_ok">"OK"</string>
+	<!-- no translation found for encrypt_files_success -->
+	<skip />
+	<!-- no translation found for delete_direct -->
+	<skip />
+	<!---->
+	<string name="delete_file">"Fshij skedarin?"</string>
+</resources>

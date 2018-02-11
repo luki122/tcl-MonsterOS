@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/wallpaper_preview_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants"
+    android:duplicateParentState="true"
+     android:background="#000000"
+    android:orientation="vertical" >
+    <mst.widget.ViewPager
+        android:id="@+id/wallpaper_preview_pager"
+        android:duplicateParentState="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    </mst.widget.ViewPager>
+	
+    <include 
+        android:id="@+id/wallpaper_preview_show"
+        layout="@layout/wallpaper_icon_preview_big" 
+        />
+    
+    
+</RelativeLayout>

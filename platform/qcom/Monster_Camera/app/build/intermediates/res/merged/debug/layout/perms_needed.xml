@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.camera.widget.FractionFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/permissions_dialog_background_color">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/perms_intro_title_marginHor"
+        android:layout_marginTop="@dimen/perms_intro_title_marginTop"
+        android:layout_marginEnd="@dimen/perms_intro_title_marginHor"
+        android:text="@string/permissions_needed"
+        android:textSize="@dimen/perms_intro_title_text_size"
+        android:textColor="@color/permissions_dialog_text_color"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/perms_intro_bg_marginHor"
+        android:layout_marginTop="@dimen/perms_intro_bg_marginTop"
+        android:layout_marginEnd="@dimen/perms_intro_bg_marginHor"
+        android:src="@drawable/bg_permission_intro"/>
+
+</com.android.camera.widget.FractionFrameLayout>

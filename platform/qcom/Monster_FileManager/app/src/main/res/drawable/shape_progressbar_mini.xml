@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@android:id/background">
+        <shape >
+            <corners android:radius="0dip"/>
+            <gradient
+                android:endColor="#45D8D8D8"
+                android:startColor="#45D8D8D8" />
+        </shape>
+    </item>
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape>
+                <corners android:radius="0dip" />
+                <gradient
+                    android:endColor="#70B5B8"
+                    android:startColor="#70B5B8" />
+            </shape>
+        </clip>
+    </item>
+</layer-list>

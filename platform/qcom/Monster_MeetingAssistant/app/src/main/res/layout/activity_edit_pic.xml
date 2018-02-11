@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/cut_pic_page_toolbar"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:background="@color/cut_pic_toolbar_bg"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingRight="@dimen/layout_common_20dp">
+
+
+            <LinearLayout
+                android:id="@+id/cut_pic_page_back_btn_linear"
+                android:clickable="true"
+                android:layout_centerVertical="true"
+                android:layout_width="40dp"
+                android:layout_height="50dp">
+                <ImageButton
+                android:id="@+id/cut_pic_page_back_btn"
+                android:layout_centerVertical="true"
+                android:background="?android:attr/selectableItemBackgroundBorderless"
+                android:layout_width="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_arrow_back_white_24dp" />
+            </LinearLayout>
+            <TextView
+                android:fontFamily="monster-normal"
+                android:layout_toRightOf="@id/cut_pic_page_back_btn_linear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/layout_common_20dp"
+                android:textSize="@dimen/top_tool_bar_text_size"
+                android:textColor="@color/cut_pic_title_text_color"
+                android:text="@string/edit" />
+            <LinearLayout
+                android:id="@+id/cut_pic_page_confirm_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:background="?android:attr/selectableItemBackgroundBorderless"
+                android:layout_marginLeft="@dimen/layout_common_20dp">
+                <TextView
+                    android:fontFamily="monster-normal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/layout_common_10dp"
+                    android:layout_marginRight="@dimen/layout_common_10dp"
+                    android:layout_gravity="center_vertical"
+                    android:textSize="@dimen/top_tool_bar_text_size"
+                    android:textColor="@color/cut_pic_title_text_color"
+                    android:text="@string/Confirm" />
+            </LinearLayout>
+
+        </RelativeLayout>
+    </android.support.v7.widget.Toolbar>
+
+    <FrameLayout
+        android:layout_below="@id/cut_pic_page_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/cut_pic_page_bottom_toolbar">
+
+        <cn.tcl.meetingassistant.view.CropView
+            android:id="@+id/preView"
+            android:layout_gravity="center"
+            android:layout_width="@dimen/cut_view_width"
+            android:layout_height="@dimen/cut_view_height" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@id/cut_pic_page_bottom_toolbar"
+        android:layout_alignParentBottom="true"
+        android:background="@color/cut_pic_toolbar_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/exchanged"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/smart_exchange"
+                    android:clickable="false"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:background="@null"
+                    android:src="@drawable/ic_full_image" />
+
+                <TextView
+                    android:fontFamily="monster-normal"
+                    android:id="@+id/smart_exchange_text"
+                    android:clickable="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/cut_pic_bottom_text_color"
+                    android:gravity="center"
+                    android:layout_marginTop="@dimen/cut_pic_bottom_gap"
+                    android:text="@string/full_image"
+                    android:textSize="@dimen/bottom_tool_bar_text_size" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/rotate_to_left"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/left_rotate"
+                    android:clickable="false"
+                    android:background="@null"
+                    android:src="@drawable/ic_left_rotate"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp" />
+
+                <TextView
+                    android:fontFamily="monster-normal"
+                    android:layout_width="wrap_content"
+                    android:clickable="false"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="@dimen/cut_pic_bottom_gap"
+                    android:textColor="@color/cut_pic_bottom_text_color"
+                    android:text="@string/left_rotate"
+                    android:textSize="@dimen/bottom_tool_bar_text_size" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/rotate_to_right"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/right_rotate"
+                    android:clickable="false"
+                    android:background="@null"
+                    android:src="@drawable/ic_right_rotate"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp" />
+
+                <TextView
+                    android:fontFamily="monster-normal"
+                    android:layout_width="wrap_content"
+                    android:clickable="false"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="@dimen/cut_pic_bottom_gap"
+                    android:textColor="@color/cut_pic_bottom_text_color"
+                    android:text="@string/right_rotate"
+                    android:textSize="@dimen/bottom_tool_bar_text_size" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

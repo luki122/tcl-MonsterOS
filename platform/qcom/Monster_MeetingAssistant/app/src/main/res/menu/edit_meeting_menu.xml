@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+    <menu xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+        <item android:id="@+id/menu_edit_meeting"
+            android:title="@string/edit_meeting_info"
+            />
+        <item android:id="@+id/menu_share"
+            android:title="@string/share"
+            />
+        <item android:id="@+id/menu_export_to_local"
+            android:title="@string/save_to_local_storage"
+            />
+    </menu>
+
+

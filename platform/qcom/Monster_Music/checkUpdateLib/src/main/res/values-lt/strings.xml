@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="tip_network_error">Tinklo klaida</string>
+    <string name="check_new">Tikrinti, ar yra naujinių</string>
+    <string name="update_download_fail">Nepavyko atsisiųsti</string>
+    <string name="update_ask_tip">Turite atnaujinti į naujausią versiją</string>
+    <string name="update_no_need">Tai naujausia versija</string>
+    <string name="downloaded_finish">Atsisiuntimas baigtas</string>
+    <string name="notification_downloading">Atsiunčiama</string>
+    <string name="update_notification_tips">Kad naudoti būtų patogiau, atnaujinkite į naujausią versiją.</string>
+    <string name="update_notification_title">Pranešimas apie naujinimą</string>
+    <string name="update">Dabar</string>
+    <string name="try_later">Vėliau</string>
+    <string name="versionDesc">Versijos informacija:</string>
+    <string name="update_available">Galima atnaujinti</string>
+    <string name="downloading">Atsisiunčiama...</string>
+    
+    <string name="update_notify_tip">Yra nauja versija. Naujinti dabar?</string>
+    <string name="update_detail_prefix">Naujinimo informacija:</string>
+    <string name="update_not_now">Ne dabar</string>
+    <string name="update_now">Naujinti</string>
+    <string name="network_error_tip">Tinklo klaida. Patikrinkite tinklo ryšį ir bandykite dar kartą.</string>
+    <string name="update_force_nofity_tip">Rekomenduojame atnaujinti programą į naujausią versiją.</string>
+    <string name="update_no_updates">Nėra naujinimų</string>
+    <string name="update_no_updates_tip">Nėra naujinimų</string>
+    <string name="update_confirm">Gerai</string>
+
+</resources>

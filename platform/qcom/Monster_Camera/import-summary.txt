@@ -1,0 +1,250 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .classpath~
+* .gitignore
+* .idea/
+* .idea/.name
+* .idea/Camera2.iml
+* .idea/compiler.xml
+* .idea/copyright/
+* .idea/copyright/profiles_settings.xml
+* .idea/misc.xml
+* .idea/modules.xml
+* .idea/vcs.xml
+* .idea/workspace.xml
+* Android.mk
+* CleanSpec.mk
+* proguard-project.txt
+* proguard.flags
+* res_p/
+* res_p/drawable-hdpi/
+* res_p/drawable-hdpi/ic_pano_blanket.png
+* res_p/drawable-hdpi/ic_panorama_disabled.png
+* res_p/drawable-hdpi/ic_panorama_normal.png
+* res_p/drawable-hdpi/ic_photosphere_blanket.png
+* res_p/drawable-hdpi/ic_photosphere_disabled.png
+* res_p/drawable-hdpi/ic_photosphere_normal.png
+* res_p/drawable-hdpi/ic_refocus_blanket.png
+* res_p/drawable-hdpi/ic_refocus_disabled.png
+* res_p/drawable-hdpi/ic_refocus_normal.png
+* res_p/drawable-mdpi/
+* res_p/drawable-mdpi/ic_pano_blanket.png
+* res_p/drawable-mdpi/ic_panorama_disabled.png
+* res_p/drawable-mdpi/ic_panorama_normal.png
+* res_p/drawable-mdpi/ic_photosphere_blanket.png
+* res_p/drawable-mdpi/ic_photosphere_disabled.png
+* res_p/drawable-mdpi/ic_photosphere_normal.png
+* res_p/drawable-mdpi/ic_refocus_blanket.png
+* res_p/drawable-mdpi/ic_refocus_disabled.png
+* res_p/drawable-mdpi/ic_refocus_normal.png
+* res_p/drawable-xhdpi/
+* res_p/drawable-xhdpi/ic_pano_blanket.png
+* res_p/drawable-xhdpi/ic_panorama_disabled.png
+* res_p/drawable-xhdpi/ic_panorama_normal.png
+* res_p/drawable-xhdpi/ic_photosphere_blanket.png
+* res_p/drawable-xhdpi/ic_photosphere_disabled.png
+* res_p/drawable-xhdpi/ic_photosphere_normal.png
+* res_p/drawable-xhdpi/ic_refocus_blanket.png
+* res_p/drawable-xhdpi/ic_refocus_disabled.png
+* res_p/drawable-xhdpi/ic_refocus_normal.png
+* res_p/drawable-xxhdpi/
+* res_p/drawable-xxhdpi/ic_pano_blanket.png
+* res_p/drawable-xxhdpi/ic_panorama_disabled.png
+* res_p/drawable-xxhdpi/ic_panorama_normal.png
+* res_p/drawable-xxhdpi/ic_photosphere_blanket.png
+* res_p/drawable-xxhdpi/ic_photosphere_disabled.png
+* res_p/drawable-xxhdpi/ic_photosphere_normal.png
+* res_p/drawable-xxhdpi/ic_refocus_blanket.png
+* res_p/drawable-xxhdpi/ic_refocus_disabled.png
+* res_p/drawable-xxhdpi/ic_refocus_normal.png
+* res_p/mipmap-hdpi/
+* res_p/mipmap-hdpi/ic_launcher_gallery.png
+* res_p/mipmap-hdpi/logo_camera_color_44in48dp.png
+* res_p/mipmap-mdpi/
+* res_p/mipmap-mdpi/ic_launcher_gallery.png
+* res_p/mipmap-mdpi/logo_camera_color_44in48dp.png
+* res_p/mipmap-xhdpi/
+* res_p/mipmap-xhdpi/ic_launcher_gallery.png
+* res_p/mipmap-xhdpi/logo_camera_color_44in48dp.png
+* res_p/mipmap-xxhdpi/
+* res_p/mipmap-xxhdpi/logo_camera_color_44in48dp.png
+* res_p/mipmap-xxxhdpi/
+* res_p/mipmap-xxxhdpi/logo_camera_color_44in48dp.png
+* res_p/values/
+* res_p/values/strings.xml
+* resource_transfer.sh
+* sounds/
+* sounds/shutter.wav
+* sounds/staged_shot_complete.wav
+* sounds/timer_final_second.wav
+* sounds/timer_increment.wav
+* tests/
+* tests/.classpath
+* tests/.project
+* tests/.settings/
+* tests/.settings/org.eclipse.jdt.core.prefs
+* tests/Android.mk
+* tests/bin/
+* tests/bin/AndroidManifest.xml
+* tests/bin/classes/
+* tests/bin/classes/com/
+* tests/bin/classes/com/android/
+* tests/bin/classes/com/android/camera/
+* tests/bin/classes/com/android/camera/CameraTestRunner.class
+* tests/bin/classes/com/android/camera/StressTests.class
+* tests/bin/classes/com/android/camera/functional/
+* tests/bin/classes/com/android/camera/functional/CameraTest.class
+* tests/bin/classes/com/android/camera/functional/ImageCaptureIntentTest.class
+* tests/bin/classes/com/android/camera/functional/VideoCaptureIntentTest.class
+* tests/bin/classes/com/android/camera/stress/
+* tests/bin/classes/com/android/camera/stress/CameraLatency.class
+* tests/bin/classes/com/android/camera/stress/CameraStartUp.class
+* tests/bin/classes/com/android/camera/stress/CameraStressTestRunner.class
+* tests/bin/classes/com/android/camera/stress/ImageCapture.class
+* tests/bin/classes/com/android/camera/stress/ShotToShotLatency.class
+* tests/bin/classes/com/android/camera/stress/SwitchPreview.class
+* tests/bin/classes/com/android/camera/stress/TestUtil.class
+* tests/bin/classes/com/android/camera/stress/VideoCapture.class
+* tests/bin/classes/com/android/camera/tests/
+* tests/bin/classes/com/android/camera/tests/BuildConfig.class
+* tests/bin/classes/com/android/camera/tests/R$attr.class
+* tests/bin/classes/com/android/camera/tests/R$raw.class
+* tests/bin/classes/com/android/camera/tests/R$xml.class
+* tests/bin/classes/com/android/camera/tests/R.class
+* tests/bin/classes/com/android/camera/unittest/
+* tests/bin/classes/com/android/camera/unittest/CameraUnitTest.class
+* tests/exiftool_parser/
+* tests/exiftool_parser/parser.py
+* tests/gen/
+* tests/gen/com/
+* tests/gen/com/android/
+* tests/gen/com/android/camera/
+* tests/gen/com/android/camera/tests/
+* tests/gen/com/android/camera/tests/BuildConfig.java
+* tests/gen/com/android/camera/tests/R.java
+* tests_camera/
+* tests_camera/.classpath
+* tests_camera/.project
+* tests_camera/.settings/
+* tests_camera/.settings/org.eclipse.jdt.core.prefs
+* tests_camera/AndroidManifest.xml
+* tests_camera/bin/
+* tests_camera/bin/AndroidManifest.xml
+* tests_camera/bin/classes/
+* tests_camera/bin/classes/com/
+* tests_camera/bin/classes/com/android/
+* tests_camera/bin/classes/com/android/camera/
+* tests_camera/bin/classes/com/android/camera/CameraLaunchPerformance.class
+* tests_camera/bin/classes/com/android/camera/CameraTestRunner.class
+* tests_camera/bin/classes/com/android/camera/StressTests.class
+* tests_camera/bin/classes/com/android/camera/UnitTests.class
+* tests_camera/bin/classes/com/android/camera/activity/
+* tests_camera/bin/classes/com/android/camera/activity/CameraActivityTest.class
+* tests_camera/bin/classes/com/android/camera/activity/CameraTestCase$AutoFocusCallable.class
+* tests_camera/bin/classes/com/android/camera/activity/CameraTestCase$TakePictureCallable.class
+* tests_camera/bin/classes/com/android/camera/activity/CameraTestCase.class
+* tests_camera/bin/classes/com/android/camera/functional/
+* tests_camera/bin/classes/com/android/camera/functional/CameraTest.class
+* tests_camera/bin/classes/com/android/camera/functional/ImageCaptureIntentTest.class
+* tests_camera/bin/classes/com/android/camera/functional/VideoCaptureIntentTest.class
+* tests_camera/bin/classes/com/android/camera/power/
+* tests_camera/bin/classes/com/android/camera/power/ImageAndVideoCapture.class
+* tests_camera/bin/classes/com/android/camera/stress/
+* tests_camera/bin/classes/com/android/camera/stress/CameraLatency.class
+* tests_camera/bin/classes/com/android/camera/stress/CameraStartUp.class
+* tests_camera/bin/classes/com/android/camera/stress/CameraStressTestRunner.class
+* tests_camera/bin/classes/com/android/camera/stress/ImageCapture.class
+* tests_camera/bin/classes/com/android/camera/stress/ShotToShotLatency.class
+* tests_camera/bin/classes/com/android/camera/stress/SwitchPreview.class
+* tests_camera/bin/classes/com/android/camera/stress/TestUtil.class
+* tests_camera/bin/classes/com/android/camera/stress/VideoCapture.class
+* tests_camera/bin/classes/com/android/camera/tests/
+* tests_camera/bin/classes/com/android/camera/tests/BuildConfig.class
+* tests_camera/bin/classes/com/android/camera/unittest/
+* tests_camera/bin/classes/com/android/camera/unittest/CameraUnitTest.class
+* tests_camera/gen/
+* tests_camera/gen/com/
+* tests_camera/gen/com/android/
+* tests_camera/gen/com/android/camera/
+* tests_camera/gen/com/android/camera/tests/
+* tests_camera/gen/com/android/camera/tests/BuildConfig.java
+* tests_camera/src/
+* tests_camera/src/com/
+* tests_camera/src/com/android/
+* tests_camera/src/com/android/camera/
+* tests_camera/src/com/android/camera/CameraLaunchPerformance.java
+* tests_camera/src/com/android/camera/CameraTestRunner.java
+* tests_camera/src/com/android/camera/StressTests.java
+* tests_camera/src/com/android/camera/UnitTests.java
+* tests_camera/src/com/android/camera/activity/
+* tests_camera/src/com/android/camera/activity/CameraActivityTest.java
+* tests_camera/src/com/android/camera/activity/CameraTestCase.java
+* tests_camera/src/com/android/camera/functional/
+* tests_camera/src/com/android/camera/functional/CameraTest.java
+* tests_camera/src/com/android/camera/functional/ImageCaptureIntentTest.java
+* tests_camera/src/com/android/camera/functional/VideoCaptureIntentTest.java
+* tests_camera/src/com/android/camera/power/
+* tests_camera/src/com/android/camera/power/ImageAndVideoCapture.java
+* tests_camera/src/com/android/camera/stress/
+* tests_camera/src/com/android/camera/stress/CameraLatency.java
+* tests_camera/src/com/android/camera/stress/CameraStartUp.java
+* tests_camera/src/com/android/camera/stress/CameraStressTestRunner.java
+* tests_camera/src/com/android/camera/stress/ImageCapture.java
+* tests_camera/src/com/android/camera/stress/ShotToShotLatency.java
+* tests_camera/src/com/android/camera/stress/SwitchPreview.java
+* tests_camera/src/com/android/camera/stress/TestUtil.java
+* tests_camera/src/com/android/camera/stress/VideoCapture.java
+* tests_camera/src/com/android/camera/unittest/
+* tests_camera/src/com/android/camera/unittest/CameraUnitTest.java
+* version.mk
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:21.0.3
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* assets/ => app/src/main/assets/
+* jni/ => app/src/main/jni/
+* libs/glide-3.6.0.jar => app/libs/glide-3.6.0.jar
+* libs/xmpcore-5.1.2.jar => app/libs/xmpcore-5.1.2.jar
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+* src_pd/ => app/src/main/java/
+* src_pd_gcam/ => app/src/main/java/
+* tests/res/ => app/src/androidTest/res/
+* tests/src/ => app/src/androidTest/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

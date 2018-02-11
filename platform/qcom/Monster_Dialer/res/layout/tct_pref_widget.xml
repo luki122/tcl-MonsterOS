@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="right|center_vertical"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/pref_tv_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:maxWidth="200dp"
+        android:singleLine="true"
+        android:textColor="#969696"
+        android:textSize="12sp"/>
+
+    <ImageView
+        android:id="@+id/pref_image_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/arrow_right"/>
+</LinearLayout>

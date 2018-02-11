@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pinch_zoom_dialog"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/help_tip_arrow"
+        android:layout_width="@dimen/help_tip_dialog_arrow_width"
+        android:layout_height="@dimen/help_tip_dialog_arrow_height"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:background="@drawable/help_tip_arrow_up" />
+
+    <include layout="@layout/help_tip_pinch_zoom_dialog" />
+
+</LinearLayout>

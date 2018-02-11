@@ -1,0 +1,814 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="sort">"Zoradiť"</string>
+	<!---->
+	<string name="sort_by_name">"Názov"</string>
+	<!---->
+	<string name="sort_by_date">"Upravený dátum"</string>
+	<!---->
+	<string name="sort_by_time">"Dátum"</string>
+	<!---->
+	<string name="sort_by_type">"Typ"</string>
+	<!---->
+	<string name="sort_by_size">"Veľkosť"</string>
+	<!---->
+	<string name="copy">"Kopírovať"</string>
+	<!---->
+	<string name="create_folder">"Vytvoriť"</string>
+	<!---->
+	<string name="cut">"Vystrihnúť"</string>
+	<!---->
+	<string name="delete">"Odstr."</string>
+	<!---->
+	<string name="delete_confirm">"Potvrdiť odstránenie"</string>
+	<!---->
+	<string name="deselect_all">"Zrušiť výber všetkých"</string>
+	<!---->
+	<string name="select_all">"Vybrať všetko"</string>
+	<!---->
+	<string name="show_file">"Zobraziť skryté súbory"</string>
+	<!---->
+	<string name="hide_file">"Skryť skryté súbory"</string>
+	<!---->
+	<string name="paste">"Prilepiť"</string>
+	<!---->
+	<string name="rename">"Premenovať"</string>
+	<!---->
+	<string name="share">"Zdieľať"</string>
+	<!---->
+	<string name="viewby_list">"Zobraziť zoznam"</string>
+	<!---->
+	<string name="viewby_grid">"Zobraziť do bloku"</string>
+	<!---->
+	<string name="alert_delete_message">"Odstrániť"</string>
+	<!---->
+	<string name="multi_alert_delete_message">"Vymazať vybrané položky?"</string>
+	<!---->
+	<string name="multi_alert_delete_message_cn">"Vymazať vybrané položky?"</string>
+	<!-- no translation found for delete_folder_message -->
+	<skip />
+	<!---->
+	<string name="category_pictures">"Obrázky"</string>
+	<!---->
+	<string name="category_vedios">"Videá"</string>
+	<!---->
+	<string name="category_music">"Hudba"</string>
+	<!---->
+	<string name="category_download">"Prevzaté súbory"</string>
+	<!---->
+	<string name="category_bluetooth">"Bluetooth"</string>
+	<!-- no translation found for app_name -->
+	<skip />
+	<!-- no translation found for theme_name -->
+	<skip />
+	<!---->
+	<string name="apk_name">"Súbory"</string>
+	<!---->
+	<string name="new_folder">"Zadať názov priečinka"</string>
+	<!---->
+	<string name="confirm_rename">"Potvrdiť meno"</string>
+	<!---->
+	<string name="warning">"Maximálny počet súborov"</string>
+	<!---->
+	<string name="share_warning">"Nemôžete zdieľať viac ako 100 súborov."</string>
+	<!---->
+	<string name="loading">"Načítava sa..."</string>
+	<!---->
+	<string name="deleting">"Odstraňuje sa"</string>
+	<!---->
+	<string name="alert_delete_multiple">"Vybrané súbory sa odstránia."</string>
+	<!---->
+	<string name="name">"Názov"</string>
+	<!---->
+	<string name="size">"Veľkosť"</string>
+	<!---->
+	<string name="modified_time">"Upravené"</string>
+	<!---->
+	<string name="msg_rename_ext">"Prípona súboru sa zmení. Súbor nemusí byť možné rozoznať. Pokračovať?"</string>
+	<!---->
+	<string name="wait">"Čakajte, prosím..."</string>
+	<!---->
+	<string name="done">"Hotovo"</string>
+	<!-- no translation found for enable -->
+	<skip />
+	<!-- no translation found for enable_cn -->
+	<skip />
+	<!---->
+	<string name="cancel">"Zrušiť"</string>
+	<!---->
+	<string name="no">"Nie"</string>
+	<!---->
+	<string name="ok">"OK"</string>
+	<!---->
+	<string name="yes">"Áno"</string>
+	<!---->
+	<string name="details">"Podrobnosti"</string>
+	<!---->
+	<string name="drawer_open">"Otvoriť"</string>
+	<!---->
+	<string name="unknown">"Neznáme"</string>
+	<!-- no translation found for unit_B -->
+	<skip />
+	<!-- no translation found for unit_KB -->
+	<skip />
+	<!-- no translation found for unit_MB -->
+	<skip />
+	<!-- no translation found for unit_GB -->
+	<skip />
+	<!-- no translation found for unit_TB -->
+	<skip />
+	<!---->
+	<string name="send_file">"Zdieľať súbor(y) cez"</string>
+	<!---->
+	<string name="default_search_text">"Vyhľadať súbory"</string>
+	<!---->
+	<string name="free_space">"Dostupný"</string>
+	<!---->
+	<string name="total_space">"Celková pamäť"</string>
+	<!---->
+	<string name="drawer_category">"Kategórie"</string>
+	<!---->
+	<string name="phone_storage">"Pamäť telefónu"</string>
+	<!---->
+	<string name="phone_storage_cn">"Pamäť telefónu"</string>
+	<!---->
+	<string name="sd_card">"Karta SD"</string>
+	<!---->
+	<string name="draw_left_phone_storage">"Pamäť telefónu"</string>
+	<!---->
+	<string name="draw_left_sd_card">"Karta SD"</string>
+	<!-- no translation found for menu_settings -->
+	<skip />
+	<!---->
+	<string name="no_search_result">"0 výsledkov pre \"%1$s\""</string>
+	<!---->
+	<string name="copy_deny">"Nemáte oprávnenie na kopírovanie."</string>
+	<!---->
+	<string name="cut_deny">"Nemáte oprávnenie na odstrihnutie."</string>
+	<!---->
+	<string name="delete_deny">"Nemáte oprávnenie na odstránenie."</string>
+	<!---->
+	<string name="insufficient_memory">"Nedostatok miesta."</string>
+	<!---->
+	<string name="insufficient_message">"Niektoré súbory nebolo možné skopírovať kvôli nedostatku voľného miesta"</string>
+	<!---->
+	<string name="invalid_empty_name">"Názov súboru alebo priečinka nesmie byť prázdny"</string>
+	<!---->
+	<string name="paste_same_folder">"Nepodarilo sa kopírovať: zdrojový aj cieľový priečinok sú totožné."</string>
+	<!---->
+	<string name="invalid_char_prompt">"Zadali ste neplatný znak."</string>
+	<!---->
+	<string name="msg_unable_open_file">"Tento formát súboru nie je podporovaný."</string>
+	<!---->
+	<string name="paste_sub_folder">"Nie je možné skopírovať súbor do podpriečinka"</string>
+	<!---->
+	<string name="operation_fail">"Práca s niektorými súbormi zlyhala."</string>
+	<!---->
+	<string name="search_result">"%2$d výsledkov pre \"%1$s\""</string>
+	<!---->
+	<string name="already_exists">"%1$s sa už používa"</string>
+	<!---->
+	<string name="unmounted">"%1$s nie je namontovaný"</string>
+	<!---->
+	<string name="create_hidden_file">"Súbor bude skrytý, ak jeho názov začína s \'.\'"</string>
+	<!---->
+	<string name="file_name_too_long">"Zadaný názov je príliš dlhý."</string>
+	<!---->
+	<string name="some_paste_fail">"Úkony kopírovania zlyhali."</string>
+	<!---->
+	<string name="delete_fail">"Nepodarilo sa odstrániť"</string>
+	<!---->
+	<string name="some_delete_fail">"Niektoré úkony mazania zlyhali."</string>
+	<!---->
+	<string name="msg_unable_open_file_in_app">"Žiadna aplikácia na otvorenie súboru."</string>
+	<!---->
+	<string name="drm_forwardforbidden_title">"Neposielať ďalej"</string>
+	<!---->
+	<string name="drm_forwardforbidden_message">"Súbor DRM nie je možné preposlať."</string>
+	<!---->
+	<string name="drm_no_valid_right">"Tento súbor nemá platnú licenciu DRM."</string>
+	<!---->
+	<string name="drm_current_count">"Momentálny počet："</string>
+	<!---->
+	<string name="unlimited_usage">"Neobmedzené používanie"</string>
+	<!---->
+	<string name="drm_current_right">"Aktuálne obmedzenie："</string>
+	<!---->
+	<string name="not_available">"Nedostupný údaj"</string>
+	<!---->
+	<string name="right_url">"Adresa URL vydavateľa licencií:："</string>
+	<!---->
+	<string name="use_times">"Použiť %s-krát"</string>
+	<!---->
+	<string name="valid_after">"Platné po"</string>
+	<!---->
+	<string name="valid_until">"Platné do"</string>
+	<!---->
+	<string name="drm_wifidisplay_title">"Súbory chránené pred kopírovaním"</string>
+	<!---->
+	<string name="drm_wifidisplay_message">"Súbor chránený pred kopírovaním sa nemôže distribuovať."</string>
+	<!---->
+	<string name="drm_wifidisplay_cancel_btn">"Vypnúť Wi-Fi Display"</string>
+	<!---->
+	<string name="drm_wifidisplay_ok">"OK"</string>
+	<!---->
+	<string name="tv_link_close_toast">"Wi-Fi Display bol ukončený"</string>
+	<!---->
+	<string name="usbotg">"Externá pamäť USB"</string>
+	<!---->
+	<string name="show">"Zobraziť systémové súbory"</string>
+	<!---->
+	<string name="hide">"Skryť systémové súbory"</string>
+	<!---->
+	<string name="action_menu_create_folder_button">"Vytvoriť priečinok"</string>
+	<!---->
+	<string name="searchResult">"VýsledokVyhľadávania"</string>
+	<!---->
+	<string name="default_folder_name">"Názov priečinka"</string>
+	<!---->
+	<string name="drm_protection_status">"Stav ochrany:"</string>
+	<!---->
+	<string name="drm_can_forward">"Môžete poslať ďalej."</string>
+	<!---->
+	<string name="drm_can_not_forward">"Nemôžete poslať ďalej."</string>
+	<!---->
+	<string name="drm_no_license">"Žiadna licencia DRM nie je dostupná."</string>
+	<!---->
+	<string name="drm_interval">"Platné %s od prvého použitia"</string>
+	<!---->
+	<string name="drm_begin">"Začiatok:"</string>
+	<!---->
+	<string name="drm_no_limitation">"Žiadne obmedzenie."</string>
+	<!---->
+	<string name="drm_end">"Koniec:"</string>
+	<!---->
+	<string name="drm_use_left">"Zostáva:"</string>
+	<!---->
+	<string name="drm_no_crop">"Súbor „%s“ nie je povolené orezať, pretože je chránený ochranou DRM."</string>
+	<!---->
+	<string name="file_copy">"Súbor bol skopírovaný"</string>
+	<!---->
+	<string name="choice_file">"Zvoliť cieľ"</string>
+	<!---->
+	<string name="alert_delete_single">"Zvolený súbor bude odstránený."</string>
+	<!---->
+	<string name="pasting">"Prebieha prilepenie"</string>
+	<!---->
+	<string name="readable">"Čitateľný："</string>
+	<!---->
+	<string name="executable">"Aplikácia:"</string>
+	<!---->
+	<string name="writable">"Zapisovateľný："</string>
+	<!---->
+	<string name="add_favorite">"Pridať do priečinka s obľúbenými položkami"</string>
+	<!---->
+	<string name="del_favorite">"Vymazať z priečinka s obľúbenými položkami"</string>
+	<!---->
+	<string name="favourite">"Pridať do Obľúbených"</string>
+	<!---->
+	<string name="viewby_details">"Zobraziť podľa detailov"</string>
+	<!---->
+	<string name="view_by">"Zob.ako"</string>
+	<!---->
+	<string name="show_hide">"Zobraziť\\Skryť"</string>
+	<!---->
+	<string name="sort_by">"Zoradiť podľa"</string>
+	<!---->
+	<string name="more">"Viac"</string>
+	<!-- no translation found for used -->
+	<skip />
+	<!---->
+	<string name="category_archives">"Archívy"</string>
+	<!---->
+	<string name="category_favorite">"Obľúbené"</string>
+	<!---->
+	<string name="category_ringtones">"Zvonenia"</string>
+	<!---->
+	<string name="category_recordings">"Nahrávky"</string>
+	<!---->
+	<string name="category_safebox">"Bezpečnostná skrinka"</string>
+	<!---->
+	<string name="category_apks">"Súbory APK"</string>
+	<!---->
+	<string name="search">"Hľadať"</string>
+	<!---->
+	<string name="sort_type">"Zoradiť podľa druhu"</string>
+	<!---->
+	<string name="sort_name">"Zoradiť podľa názvu (A-Z)"</string>
+	<!---->
+	<string name="sort_size">"Zoradiť podľa veľkosti (veľké-malé)"</string>
+	<!---->
+	<string name="sort_time">"Zoradiť podľa času (nové-staré)"</string>
+	<!---->
+	<string name="selected">"Vybrané"</string>
+	<!---->
+	<string name="save">"Uložiť"</string>
+	<!---->
+	<string name="category_docs">"Dokumenty"</string>
+	<!---->
+	<string name="category_files">"Súbory"</string>
+	<!---->
+	<string name="view_as_grid">"Zobraziť do bloku"</string>
+	<!---->
+	<string name="view_as_list">"Prikaži kao listu"</string>
+	<!---->
+	<string name="detail_path">"Poloha:"</string>
+	<!---->
+	<string name="detail_name">"Názov:"</string>
+	<!---->
+	<string name="detail_size">"Veľkosť:"</string>
+	<!---->
+	<string name="detail_time">"Naposledy upravené:"</string>
+	<!---->
+	<string name="empty_msg">"(Prázdny priečinok)"</string>
+	<!---->
+	<string name="search_files">"Vyhľadať súbory"</string>
+	<!-- no translation found for search_result_count -->
+	<skip />
+	<!---->
+	<string name="drawer_settings">"Nastavenia"</string>
+	<!---->
+	<string name="search_text_empty">"Obsah vyhľadávania by nemal byť prázdny."</string>
+	<!---->
+	<string name="search_result_title">"Výsledky vyhľadávania"</string>
+	<!---->
+	<string name="path_not_exists">"%1$s neexistuje"</string>
+	<!---->
+	<string name="modify_hidden_file">"Súbor nebude skrytý, ak sa jeho názov nezačína na \'.\'."</string>
+	<!---->
+	<string name="paste_fail">"Nepodarilo sa prilepiť"</string>
+	<!---->
+	<string name="search_empty">"Obsah vyhľadávania by nemal byť prázdny."</string>
+	<!---->
+	<string name="search_setting_description">"Miestne súbory a priečinky"</string>
+	<!---->
+	<string name="change_mode">"Zvoliť súbor alebo priečinok"</string>
+	<!-- no translation found for drm_protectioninfo_title -->
+	<skip />
+	<!---->
+	<string name="draw_favourite">"obľúbené"</string>
+	<!---->
+	<string name="unfavourite">"Odstrániť z Obľúbených"</string>
+	<!---->
+	<string name="drm_toast_license_expired">"Licencia DRM vypršala."</string>
+	<!-- no translation found for sdstroge -->
+	<skip />
+	<!-- no translation found for phonestorage -->
+	<skip />
+	<!-- no translation found for title_activity_main -->
+	<skip />
+	<!-- no translation found for hello_world -->
+	<skip />
+	<!-- no translation found for action_settings -->
+	<skip />
+	<!-- no translation found for unlock_video -->
+	<skip />
+	<!---->
+	<string name="readable_m">"Čitateľný"</string>
+	<!---->
+	<string name="executable_m">"Aplikácia"</string>
+	<!---->
+	<string name="writable_m">"Zapisovateľný"</string>
+	<!---->
+	<string name="main_recents">"Nedávne"</string>
+	<!-- no translation found for main_recents_cn -->
+	<skip />
+	<!---->
+	<string name="main_installers">"Inštalátory"</string>
+	<!---->
+	<string name="main_document">"Dokumenty"</string>
+	<!---->
+	<string name="detail_path_m">"Miesto"</string>
+	<!-- no translation found for detail_path_m_cn -->
+	<skip />
+	<!---->
+	<string name="detail_name_m">"Názov"</string>
+	<!---->
+	<string name="detail_size_m">"Veľkosť"</string>
+	<!---->
+	<string name="detail_time_m">"Posledná zmena"</string>
+	<!---->
+	<string name="main_photo">"Fotografie"</string>
+	<!---->
+	<string name="main_sd_storage">"Pamäť SD"</string>
+	<!---->
+	<string name="main_external_storage">"Externá pamäť"</string>
+	<!---->
+	<string name="main_home">"Domov"</string>
+	<!-- no translation found for main_home_cn -->
+	<skip />
+	<!---->
+	<string name="main_nava_home">"Domov"</string>
+	<!---->
+	<string name="menu_select">"Vybrať"</string>
+	<!-- no translation found for go_up -->
+	<skip />
+	<!---->
+	<string name="no_folder">"Tento priečinok je prázdny"</string>
+	<!---->
+	<string name="no_category">"Táto kategória je prázdna."</string>
+	<!-- no translation found for no_folder_cn -->
+	<skip />
+	<!-- no translation found for no_category_cn -->
+	<skip />
+	<!---->
+	<string name="pasted">"Súbor bol prilepený"</string>
+	<!---->
+	<string name="deleted">"Súbor odstránený"</string>
+	<!---->
+	<string name="deleted_cn">"Súbor odstránený"</string>
+	<!---->
+	<string name="view_list">"Zobrazenie zoznamu"</string>
+	<!---->
+	<string name="view_grid">"Zobrazenie v mriežke"</string>
+	<!---->
+	<string name="create_new_folder">"Vytvoriť priečinok"</string>
+	<!-- no translation found for add_folder -->
+	<skip />
+	<!---->
+	<string name="detail">"Podrobnosti"</string>
+	<!-- no translation found for menu_detail -->
+	<skip />
+	<!---->
+	<string name="migrate">"Migrovať"</string>
+	<!---->
+	<string name="permission_welcome_title">"Je potrebné oprávnenie"</string>
+	<!---->
+	<string name="permission_msg">"Lepšie služby pre vás"</string>
+	<!---->
+	<string name="permission_setting_title">"Udeliť prístup"</string>
+	<!---->
+	<string name="permission_setting_content">"Oprávnenia zmeňte v nastaveniach aplikácií svojho zariadenia. Udeľte aplikácii Správca súborov prístup k úložisku."</string>
+	<!---->
+	<string name="permission_exit_btn">"Ukončiť"</string>
+	<!---->
+	<string name="dialog_close_btn">"Zatvoriť"</string>
+	<!-- no translation found for dialog_close_btn_cn -->
+	<skip />
+	<!---->
+	<string name="shortcut_item">"Pridať odkaz"</string>
+	<!-- no translation found for shortcut_item_cn -->
+	<skip />
+	<!---->
+	<string name="shortcut_no_exist">"Požadovaný priečinok neexistuje"</string>
+	<!-- no translation found for shortcut_success -->
+	<skip />
+	<!---->
+	<string name="no_search_result_m">"Pre \"%1$s\" sa nenašli žiadne výsledky"</string>
+	<!---->
+	<string name="draw_left_phone_storage_m">"Telefón"</string>
+	<!---->
+	<string name="category_audio">"Zvuk"</string>
+	<!---->
+	<string name="usbotg_m">"Externé"</string>
+	<!-- no translation found for sd_m -->
+	<skip />
+	<!---->
+	<string name="freeof_m">"Voľné"</string>
+	<!---->
+	<string name="permission_settings">"Nastavenia"</string>
+	<!---->
+	<string name="safe_first_dialog_title">"Kategória bezpečnostnej schránky"</string>
+	<!---->
+	<string name="safe_first_dialog_content">"Súbory presunuté do tejto kategórie vyžadujú overenie pomocou hesla. Ak chcete do tejto kategórie pridať súbory, vyberte v ponuke Súbor možnosť „Presunúť do bezpečnostnej schránky“."</string>
+	<!-- no translation found for safe_first_dialog_content_cn -->
+	<skip />
+	<!---->
+	<string name="safe_storage_local">"Úložisko telefónu"</string>
+	<!---->
+	<string name="set_password_pass">"Heslo"</string>
+	<!---->
+	<string name="set_password_first">"Nastavte heslo: 4 – 12 číslic"</string>
+	<!-- no translation found for input_new_password_hint -->
+	<skip />
+	<!---->
+	<string name="set_password_again">"Potvrdiť heslo"</string>
+	<!---->
+	<string name="set_password_show">"Zobraziť heslo"</string>
+	<!---->
+	<string name="set_password_safe_question">"Problémy so zabezpečením"</string>
+	<!---->
+	<string name="set_password_safe_question_answer">"Odpoveď"</string>
+	<!---->
+	<string name="set_password_safe_forget_pass">"Zapamätajte si odpovede na bezpečnostné otázky. Pokiaľ zabudnete heslo, môžete ho obnoviť pomocou odpovedí na bezpečnostné otázky."</string>
+	<!---->
+	<string name="choose_safe">"Vybrať bezpečnostnú schránku"</string>
+	<!-- no translation found for choose_safe_cn -->
+	<skip />
+	<!---->
+	<string name="create_safe">"Vytvoriť bezpečnostnú schránku"</string>
+	<!---->
+	<string name="create_safe_to">"Vytvoriť bezpečnostnú schránku v"</string>
+	<!-- no translation found for create_safe_to_cn -->
+	<skip />
+	<!---->
+	<string name="set_password">"Nastaviť heslo"</string>
+	<!-- no translation found for add_file_safe -->
+	<skip />
+	<!---->
+	<string name="safe_set">"Nastavenia"</string>
+	<!---->
+	<string name="safe_set_title">"Nastavenia bezpečnostnej schránky"</string>
+	<!-- no translation found for safe_set_title_cn -->
+	<skip />
+	<!---->
+	<string name="update_password">"Aktualizovať heslo"</string>
+	<!---->
+	<string name="modify_password">"Upraviť heslo"</string>
+	<!---->
+	<string name="security_question">"Problém so zabezpečením aktualizácií"</string>
+	<!-- no translation found for modify_security_question -->
+	<skip />
+	<!---->
+	<string name="safe_set_change_safe">"Zmeniť bezpečnostnú schránku"</string>
+	<!---->
+	<string name="safe_set_location_safe">"Umiestnenie bezpečnostnej schránky"</string>
+	<!-- no translation found for safe_set_location_safe_cn -->
+	<skip />
+	<!---->
+	<string name="update_password_original">"Zadajte pôvodné heslo"</string>
+	<!---->
+	<string name="update_password_original_cn">"Zadajte pôvodné heslo"</string>
+	<!---->
+	<string name="destory_safe">"Odstrániť bezpečnostnú schránku"</string>
+	<!-- no translation found for destory_safe_cn -->
+	<skip />
+	<!-- no translation found for destory -->
+	<skip />
+	<!---->
+	<string name="use_password">"Použite heslo"</string>
+	<!---->
+	<string name="input_password">"Zadajte heslo"</string>
+	<!---->
+	<string name="forget_password">"Zabudnuté heslo"</string>
+	<!-- no translation found for others -->
+	<skip />
+	<!---->
+	<string name="password_empty">"Heslo musí byť vyplnené."</string>
+	<!---->
+	<string name="password_consistent">"Heslá sa nezhodujú."</string>
+	<!---->
+	<string name="password_length_error">"Chybná dĺžka hesla"</string>
+	<!---->
+	<string name="answer_empty">"Odpoveď musí byť vyplnená."</string>
+	<!-- no translation found for safe_box_name_empty -->
+	<skip />
+	<!---->
+	<string name="update_success">"Aktualizácia sa podarila."</string>
+	<!---->
+	<string name="update_fail">"Aktualizácia neúspešná"</string>
+	<!---->
+	<string name="password_mistake">"Nesprávne heslo. Zadajte heslo znova."</string>
+	<!---->
+	<string name="move_safe">"Presunúť do bezpečnostnej schránky"</string>
+	<!---->
+	<string name="fingerprint_check">"Sú pripojené údaje o odtlačkoch prstov, vykonajte overenie pomocou snímača odtlačkov prsta."</string>
+	<!---->
+	<string name="in_use">"Používa sa"</string>
+	<!---->
+	<string name="created">"Vytvorené"</string>
+	<!---->
+	<string name="choose_files">"Vyberte súbor/y"</string>
+	<!---->
+	<string name="move_out">"Vysunúť"</string>
+	<!---->
+	<string name="remove_to">"Presunúť do"</string>
+	<!---->
+	<string name="default_location">"Predvolené umiestnenie"</string>
+	<!---->
+	<string name="specified_location">"Zvolené umiestnenie"</string>
+	<!-- no translation found for open_dir -->
+	<skip />
+	<!-- no translation found for default_location_cn -->
+	<skip />
+	<!-- no translation found for specified_location_cn -->
+	<skip />
+	<!-- no translation found for specified_location_content_cn -->
+	<skip />
+	<!-- no translation found for category_safe -->
+	<skip />
+	<!-- no translation found for category_safe_cn -->
+	<skip />
+	<!---->
+	<string name="add_safe_size_limited">"Nie je možné pridať súbory väčšie než 2 GB"</string>
+	<!-- no translation found for add_safe_drm_limited -->
+	<skip />
+	<!---->
+	<string name="fingerprint_relative_dialog">"Priradiť bezpečnostnú schránku k odtlačku prsta?"</string>
+	<!-- no translation found for fingerprint_relative_dialog_cn -->
+	<skip />
+	<!-- no translation found for fingerprint_relative_dialog_ok -->
+	<skip />
+	<!-- no translation found for fingerprint_relative_dialog_ok_cn -->
+	<skip />
+	<!---->
+	<string name="fingerprint_relative_dialog_cancel">"Neskôr"</string>
+	<!-- no translation found for fingerprint_relative_dialog_cancel_cn -->
+	<skip />
+	<!---->
+	<string name="safe_location_current">"Umiestnenie bezpečnostnej schránky:"</string>
+	<!-- no translation found for safe_location_current_cn -->
+	<skip />
+	<!---->
+	<string name="safe_location_content">"Ak chcete predísť poškodeniu šifrovaných dát, nemanipulujte so zložkou súborov"</string>
+	<!-- no translation found for safe_location_content_cn -->
+	<skip />
+	<!---->
+	<string name="destory_safe_dialog_message">"Súbory v bezpečnostnej schránke a aktuálne heslo budú odstránené. Odstrániť teraz?"</string>
+	<!---->
+	<string name="destory_safe_dialog_checkbox">"Chcete súbor súčasne aj odstrániť?"</string>
+	<!-- no translation found for destory_safe_dialog_checkbox_cn -->
+	<skip />
+	<!---->
+	<string name="open_safe_dialog">"Povoliť bezpečnostnú schránku"</string>
+	<!-- no translation found for open_safe_dialog_cn -->
+	<skip />
+	<!---->
+	<string name="open_safe_dialog_message">"Pokiaľ povolíte bezpečnostnú schránku, budú do nej presunuté súbory. Povoliť teraz?"</string>
+	<!-- no translation found for open_safe_dialog_message_cn -->
+	<skip />
+	<!---->
+	<string name="open_safe_dialog_ok">"Okamžite otvoriť"</string>
+	<!---->
+	<string name="category_private_string">"Bezpečnostná schránka"</string>
+	<!---->
+	<string name="opening">"Otvára sa"</string>
+	<!---->
+	<string name="space_clear">"Vymazať miesto"</string>
+	<!-- no translation found for unselected -->
+	<skip />
+	<!-- no translation found for select -->
+	<skip />
+	<!-- no translation found for finish -->
+	<skip />
+	<!---->
+	<string name="senior_title">"Senior"</string>
+	<!-- no translation found for no_files_for_add_to_safebox -->
+	<skip />
+	<!-- no translation found for finger_print_relation -->
+	<skip />
+	<!-- no translation found for duplicate_file_name_tip -->
+	<skip />
+	<!---->
+	<string name="searchview_hint">"Vyhľadať súbory"</string>
+	<!-- no translation found for safe_box_name_tip -->
+	<skip />
+	<!-- no translation found for toast_update_safe_box_name_sucess -->
+	<skip />
+	<!-- no translation found for toast_update_safe_box_name_fail -->
+	<skip />
+	<!-- no translation found for toast_safe_box_name_empty -->
+	<skip />
+	<!-- no translation found for cut_single_fail_tip -->
+	<skip />
+	<!-- no translation found for delete_single_fail_tip -->
+	<skip />
+	<!-- no translation found for copy_single_fail_tip -->
+	<skip />
+	<!-- no translation found for copy_multi_fail_tip -->
+	<skip />
+	<!-- no translation found for delete_multi_fail_tip -->
+	<skip />
+	<!-- no translation found for cut_multi_fail_tip -->
+	<skip />
+	<!-- no translation found for copy_all_fail_tip -->
+	<skip />
+	<!-- no translation found for delete_all_fail_tip -->
+	<skip />
+	<!-- no translation found for cut_all_fail_tip -->
+	<skip />
+	<!-- no translation found for past_multi_fail_tip -->
+	<skip />
+	<!-- no translation found for past_single_fail_tip -->
+	<skip />
+	<!-- no translation found for past_all_fail_tip -->
+	<skip />
+	<!-- no translation found for chip_encryption -->
+	<skip />
+	<!---->
+	<string name="safe_name_title">"Názov"</string>
+	<!---->
+	<string name="update_name">"Aktualizovať názov"</string>
+	<!-- no translation found for fingerprint_relate -->
+	<skip />
+	<!-- no translation found for insufficient_message_cn -->
+	<skip />
+	<!-- no translation found for add_success -->
+	<skip />
+	<!---->
+	<string name="pasted_cn">"Súbor bol prilepený"</string>
+	<!-- no translation found for no_search_result_cn -->
+	<skip />
+	<!---->
+	<string name="detail_time_cn">"Upravený čas"</string>
+	<!-- no translation found for rename_limit -->
+	<skip />
+	<!-- no translation found for fingerprint_fail -->
+	<skip />
+	<!-- no translation found for answer_mistake -->
+	<skip />
+	<!-- no translation found for answer_empty_tip -->
+	<skip />
+	<!-- no translation found for new_safe -->
+	<skip />
+	<!-- no translation found for dialog_confirm -->
+	<skip />
+	<!-- no translation found for move_in_success -->
+	<skip />
+	<!-- no translation found for move_in_count -->
+	<skip />
+	<!-- no translation found for message_security_fingerprint_lockout -->
+	<skip />
+	<!-- no translation found for use_password_auth -->
+	<skip />
+	<!-- no translation found for storage_details -->
+	<skip />
+	<!---->
+	<string name="total_memory">"Celková pamäť"</string>
+	<!-- no translation found for system -->
+	<skip />
+	<!-- no translation found for category_fragment_title -->
+	<skip />
+	<!-- no translation found for storage -->
+	<skip />
+	<!-- no translation found for choice -->
+	<skip />
+	<!-- no translation found for view_tag_key -->
+	<skip />
+	<!-- no translation found for view_tag_key2 -->
+	<skip />
+	<!-- no translation found for finish_percent -->
+	<skip />
+	<!---->
+	<string name="select_pic">"Vybrať obrázok"</string>
+	<!---->
+	<string name="brackets_double">"(%1$s)"</string>
+	<!-- no translation found for selected_pick -->
+	<skip />
+	<!-- no translation found for most_selected -->
+	<skip />
+	<!-- no translation found for finish_ready -->
+	<skip />
+	<!-- no translation found for select_pic_data -->
+	<skip />
+	<!-- no translation found for delete_determine_selected -->
+	<skip />
+	<!-- no translation found for delete_document -->
+	<skip />
+	<!-- no translation found for delete_folder -->
+	<skip />
+	<!-- no translation found for delete_folder_and -->
+	<skip />
+	<!---->
+	<string name="deselect_all_item">"Zrušiť výber všetkých"</string>
+	<!-- no translation found for edit -->
+	<skip />
+	<!-- no translation found for storage_phone -->
+	<skip />
+	<!-- no translation found for storage_sdcard -->
+	<skip />
+	<!-- no translation found for storage_otg -->
+	<skip />
+	<!-- no translation found for storage_slash -->
+	<skip />
+	<!-- no translation found for welcome_security -->
+	<skip />
+	<!-- no translation found for welcome_security_info -->
+	<skip />
+	<!-- no translation found for welcome_convenient -->
+	<skip />
+	<!-- no translation found for welcome_convenient_info -->
+	<skip />
+	<!-- no translation found for welcome_depth -->
+	<skip />
+	<!-- no translation found for welcome_depth_info -->
+	<skip />
+	<!-- no translation found for welcome_add -->
+	<skip />
+	<!-- no translation found for welcome_add_info -->
+	<skip />
+	<!-- no translation found for welcome_dialog_title -->
+	<skip />
+	<!-- no translation found for welcome_dialog_info -->
+	<skip />
+	<!-- no translation found for welcome_dialog_verify_btn -->
+	<skip />
+	<!-- no translation found for welcome_dialog_verify_pwd -->
+	<skip />
+	<!-- no translation found for welcome_start_use -->
+	<skip />
+	<!-- no translation found for welcome_not_use -->
+	<skip />
+	<!---->
+	<string name="welcome_ok">"OK"</string>
+	<!-- no translation found for encrypt_files_success -->
+	<skip />
+	<!-- no translation found for delete_direct -->
+	<skip />
+	<!---->
+	<string name="delete_file">"Odstrániť tento súbor?"</string>
+</resources>

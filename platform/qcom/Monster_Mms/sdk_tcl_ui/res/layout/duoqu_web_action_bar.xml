@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/duoqu_header"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/duoqu_header_back_height" >
+
+    <ImageView
+        android:id="@+id/duoqu_header_back"
+        android:layout_width="@dimen/duoqu_header_back_height"
+        android:layout_height="@dimen/duoqu_header_back_height"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/duoqu_actionbar_back" />
+
+    <TextView
+        android:id="@+id/duoqu_title_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="@dimen/duoqu_title_name_margin_left"
+        android:layout_marginRight="@dimen/duoqu_title_name_margin_right"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textColor="@color/duoqu_action_bar_title_text_color"
+        android:textSize="@dimen/duoqu_title_name_text_size" />
+
+    <ImageView
+        android:id="@+id/duoqu_header_menu"
+        android:layout_width="@dimen/duoqu_header_menu_width"
+        android:layout_height="@dimen/duoqu_header_menu_height"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/duoqu_actionbar_more"
+        android:visibility="invisible" />
+
+</RelativeLayout>

@@ -1,0 +1,718 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="alarm_set">
+    <item msgid="6450913786084215050">"បាន​កំណត់​សំឡេង​រោទ៍​តិច​ជាង​១​នាទី គិត​ចាប់ពី​ឥឡូវ។"</item>
+    <item msgid="6002066367368421848">"បាន​កំណត់​សំឡេង​រោទ៍​ក្នុង​រយៈពេល <ns1:g id="DAYS">%1$s</ns1:g> ទៀត។"</item>
+    <item msgid="8824719306247973774">"បាន​កំណត់​សំឡេង​រោទ៍​ក្នុង​រយៈពេល <ns1:g id="HOURS">%2$s</ns1:g> ទៀត។"</item>
+    <item msgid="8182406852935468862">"បាន​កំណត់​សំឡេង​រោទ៍​ក្នុង​រយៈពេល <ns1:g id="DAYS">%1$s</ns1:g> និង <ns1:g id="HOURS">%2$s</ns1:g> ទៀត។"</item>
+    <item msgid="2532279224777213194">"បាន​កំណត់​សំឡេង​រោទ៍​ក្នុង​រយៈពេល <ns1:g id="MINUTES">%3$s</ns1:g> ទៀត។"</item>
+    <item msgid="5936557894247187717">"បាន​កំណត់​សំឡេង​រោទ៍​ក្នុង​រយៈពេល <ns1:g id="DAYS">%1$s</ns1:g> និង <ns1:g id="MINUTES">%3$s</ns1:g> ទៀត។"</item>
+    <item msgid="9115697840826129603">"បាន​កំណត់​សំឡេង​រោទ៍​ក្នុង​រយៈពេល <ns1:g id="HOURS">%2$s</ns1:g> និង <ns1:g id="MINUTES">%3$s</ns1:g> ទៀត។"</item>
+    <item msgid="2332583385137381060">"បាន​កំណត់​សំឡេង​រោទ៍​ក្នុង​រយៈពេល <ns1:g id="DAYS">%1$s</ns1:g>, <ns1:g id="HOURS">%2$s</ns1:g>, និង <ns1:g id="MINUTES">%3$s</ns1:g> ទៀត។"</item>
+  </string-array>
+    <string-array name="auto_silence_entries">
+    <item msgid="3024545954917711306">"១​នាទី"</item>
+    <item msgid="5431906692406316549">"៥ នាទី"</item>
+    <item msgid="7742728812068919959">"១០ នាទី"</item>
+    <item msgid="2855948657259647629">"១៥ នាទី"</item>
+    <item msgid="6330196381284475079">"២០ នាទី"</item>
+    <item msgid="7809240121716151904">"២៥ នាទី"</item>
+    <item msgid="4278641338024561333">"កុំ"</item>
+  </string-array>
+    <string-array name="cities_names">
+    <item msgid="4653806289288974388">"អ<ns1:g id="SEPARATOR">=</ns1:g>អាប៊ីហ្សង់"</item>
+    <item msgid="4864167603178202155">"អ<ns1:g id="SEPARATOR">=</ns1:g>អាក្រា"</item>
+    <item msgid="6478898553803167749">"អ<ns1:g id="SEPARATOR">=</ns1:g>អាឌីអាបេបា"</item>
+    <item msgid="5618029992528436448">"អ<ns1:g id="SEPARATOR">=</ns1:g>អាល់ហ្សេ"</item>
+    <item msgid="2906834750114790793">"ប<ns1:g id="SEPARATOR">=</ns1:g>ប្លាន់ទីរ៉េ"</item>
+    <item msgid="8153571933836629863">"ប<ns1:g id="SEPARATOR">=</ns1:g>ប្រាសាវីល"</item>
+    <item msgid="3703129580594640833">"ក<ns1:g id="SEPARATOR">=</ns1:g>គែរ"</item>
+    <item msgid="2300915410194647320">"ក<ns1:g id="SEPARATOR">=</ns1:g>កាសាប្លាំងកា"</item>
+    <item msgid="1217039002304887948">"ក<ns1:g id="SEPARATOR">=</ns1:g>កុណាគីរី"</item>
+    <item msgid="8775104707806220928">"ដ<ns1:g id="SEPARATOR">=</ns1:g>ដាកា"</item>
+    <item msgid="5948764589113643811">"ដ<ns1:g id="SEPARATOR">=</ns1:g>ដាអេសសាឡឹម"</item>
+    <item msgid="6306254507715416077">"ហ<ns1:g id="SEPARATOR">=</ns1:g>ហ្ស៊ីបូទី"</item>
+    <item msgid="4286108029159501866">"ហ<ns1:g id="SEPARATOR">=</ns1:g>ហ្វ្រីថោន"</item>
+    <item msgid="4514786733035528116">"ហ<ns1:g id="SEPARATOR">=</ns1:g>ហ្គាបូរ៉ូន"</item>
+    <item msgid="7367496854968219671">"ហ<ns1:g id="SEPARATOR">=</ns1:g>ហារ៉ារ៉េ"</item>
+    <item msgid="6837746379726020288">"ច<ns1:g id="SEPARATOR">=</ns1:g>ចូហានីសប៊ឺហ្គ"</item>
+    <item msgid="6284185156591171506">"ក<ns1:g id="SEPARATOR">=</ns1:g>កាំប៉ាឡា"</item>
+    <item msgid="3299518884693668985">"ខ<ns1:g id="SEPARATOR">=</ns1:g>ខាទុំ"</item>
+    <item msgid="4614879508966043969">"គ<ns1:g id="SEPARATOR">=</ns1:g>គីហ្គាលី"</item>
+    <item msgid="8878437043772547732">"គ<ns1:g id="SEPARATOR">=</ns1:g>គីនស្ហាសា"</item>
+    <item msgid="6325601635544067909">"ឡ<ns1:g id="SEPARATOR">=</ns1:g>ឡាហ្គូស"</item>
+    <item msgid="6094357506290323524">"ម<ns1:g id="SEPARATOR">=</ns1:g>ម៉ាសេរុយ"</item>
+    <item msgid="7270525814400329098">"ម<ns1:g id="SEPARATOR">=</ns1:g>ម៉ូហ្គាឌីស្យូ"</item>
+    <item msgid="353110101402547540">"ណ<ns1:g id="SEPARATOR">=</ns1:g>ណៃរ៉ូប៊ី"</item>
+    <item msgid="1688121892646984549">"ស<ns1:g id="SEPARATOR">=</ns1:g>សៅតូមេ"</item>
+    <item msgid="3642219084651687800">"ទ<ns1:g id="SEPARATOR">=</ns1:g>ទីមបុកទុ"</item>
+    <item msgid="7287513493631179463">"ទ<ns1:g id="SEPARATOR">=</ns1:g>ទ្រីប៉ូលី"</item>
+    <item msgid="5052614613671591560">"ទ<ns1:g id="SEPARATOR">=</ns1:g>ទុយនីស"</item>
+    <item msgid="7976303179193839859">"អ<ns1:g id="SEPARATOR">=</ns1:g>អាន់ចូរេ"</item>
+    <item msgid="193703779380497120">"ម<ns1:g id="SEPARATOR">=</ns1:g>មិនដូសា"</item>
+    <item msgid="5448884981082519628">"អ<ns1:g id="SEPARATOR">=</ns1:g>អារុបា"</item>
+    <item msgid="1577938273323914773">"អ<ns1:g id="SEPARATOR">=</ns1:g>អាសាំងសុន"</item>
+    <item msgid="5617155978105010520">"ប<ns1:g id="SEPARATOR">=</ns1:g>បារបាដូស"</item>
+    <item msgid="3600025702357376322">"ប<ns1:g id="SEPARATOR">=</ns1:g>បេលីស"</item>
+    <item msgid="2847679817118467051">"ប<ns1:g id="SEPARATOR">=</ns1:g>បូកូតា"</item>
+    <item msgid="9029003541681282929">"ប<ns1:g id="SEPARATOR">=</ns1:g>ប៊ុយណូស៊ែ"</item>
+    <item msgid="2338367960332622522">"ខ<ns1:g id="SEPARATOR">=</ns1:g>ខានឃូន"</item>
+    <item msgid="4339797536047170278">"ក<ns1:g id="SEPARATOR">=</ns1:g>ការ៉ាកាស"</item>
+    <item msgid="9199080438977757863">"ក<ns1:g id="SEPARATOR">=</ns1:g>កៃម៉ែន"</item>
+    <item msgid="1993203473281589891">"ជ<ns1:g id="SEPARATOR">=</ns1:g>ជីកាហ្គោ"</item>
+    <item msgid="7990342776303470263">"ក<ns1:g id="SEPARATOR">=</ns1:g>កូស្តារីកា"</item>
+    <item msgid="5676109900908808628">"ខ<ns1:g id="SEPARATOR">=</ns1:g>ខ្យួរ៉ាសៅ"</item>
+    <item msgid="5519120432577564812">"ដ<ns1:g id="SEPARATOR">=</ns1:g>ដសុនគ្រីក"</item>
+    <item msgid="2126228972377380680">"ឌ<ns1:g id="SEPARATOR">=</ns1:g>ឌីនវើ"</item>
+    <item msgid="3298410632922319193">"ឌ<ns1:g id="SEPARATOR">=</ns1:g>ឌិត្រុត"</item>
+    <item msgid="2819032085688382805">"ដ<ns1:g id="SEPARATOR">=</ns1:g>ដូមីនីកា"</item>
+    <item msgid="6170433208654553821">"អ<ns1:g id="SEPARATOR">=</ns1:g>អិដម៉ុនតុន"</item>
+    <item msgid="795461860173291499">"អ<ns1:g id="SEPARATOR">=</ns1:g>អែលសាល់វ៉ាឌ័រ"</item>
+    <item msgid="7872196528637597794">"ហ<ns1:g id="SEPARATOR">=</ns1:g>ហ្វតាល់លេសា"</item>
+    <item msgid="5801558418916235541">"ហ<ns1:g id="SEPARATOR">=</ns1:g>ហ្គ្រេនទួក"</item>
+    <item msgid="2103759276235503048">"ហ<ns1:g id="SEPARATOR">=</ns1:g>ហ្គ្រើណាដ"</item>
+    <item msgid="1490069759176391533">"ហ<ns1:g id="SEPARATOR">=</ns1:g>ហ្គាតេម៉ាឡា"</item>
+    <item msgid="525959305652046261">"ហ<ns1:g id="SEPARATOR">=</ns1:g>ហ្គុយ៉ាណា"</item>
+    <item msgid="7565596629973190931">"ហ<ns1:g id="SEPARATOR">=</ns1:g>ហាលីហ្វាក់"</item>
+    <item msgid="3811169155065582644">"ហ<ns1:g id="SEPARATOR">=</ns1:g>ហាវ៉ាណា"</item>
+    <item msgid="3733555435078090201">"អ<ns1:g id="SEPARATOR">=</ns1:g>អ៊ីនដ្យាណាប៉ូលី"</item>
+    <item msgid="226982663848410981">"ណ<ns1:g id="SEPARATOR">=</ns1:g>ណុក"</item>
+    <item msgid="3815293080342229459">"ម<ns1:g id="SEPARATOR">=</ns1:g>ម៉ារិនហ្គោ"</item>
+    <item msgid="6594853515451547389">"ប<ns1:g id="SEPARATOR">=</ns1:g>ប៉េទ័រសប៊ើក"</item>
+    <item msgid="6091571889213283534">"ទ<ns1:g id="SEPARATOR">=</ns1:g>ទីក្រុងថែល"</item>
+    <item msgid="3089369312058696669">"វ<ns1:g id="SEPARATOR">=</ns1:g>វិវ៉ាយ"</item>
+    <item msgid="1334860422444068943">"វ<ns1:g id="SEPARATOR">=</ns1:g>វីនសេនីស"</item>
+    <item msgid="7775105082093691756">"វ<ns1:g id="SEPARATOR">=</ns1:g>វីណាម៉ាក"</item>
+    <item msgid="4043335541899184547">"ឃ<ns1:g id="SEPARATOR">=</ns1:g>ឃីងស្តូន"</item>
+    <item msgid="1063757593477259280">"ញ<ns1:g id="SEPARATOR">=</ns1:g>ញូវស្ត្រាសេណូរ៉ាឌឹឡាប៉ាស"</item>
+    <item msgid="349901732062388869">"ល<ns1:g id="SEPARATOR">=</ns1:g>លីម៉ា"</item>
+    <item msgid="4977592519316837842">"ឡ<ns1:g id="SEPARATOR">=</ns1:g>ឡូសអាន់ជឺឡេស"</item>
+    <item msgid="7713051790509638572">"ល<ns1:g id="SEPARATOR">=</ns1:g>ល្វីសវីល"</item>
+    <item msgid="8460620935898405225">"ម<ns1:g id="SEPARATOR">=</ns1:g>ម៉ាណាវ៉ា"</item>
+    <item msgid="8328345293081464192">"ម<ns1:g id="SEPARATOR">=</ns1:g>ម៉ាទីនីក"</item>
+    <item msgid="8010357327448619637">"ម<ns1:g id="SEPARATOR">=</ns1:g>មិនដូសា"</item>
+    <item msgid="2046777213916219253">"ម<ns1:g id="SEPARATOR">=</ns1:g>មេថ្លាកាថ្លា"</item>
+    <item msgid="2227885609632709258">"ទ<ns1:g id="SEPARATOR">=</ns1:g>ទីក្រុងម៉ិកស៊ិក"</item>
+    <item msgid="9089629663998569289">"ម<ns1:g id="SEPARATOR">=</ns1:g>ម៉ុងតេរី"</item>
+    <item msgid="2782276175306930748">"ម<ns1:g id="SEPARATOR">=</ns1:g>ម៉ុងតេវីដេអូ"</item>
+    <item msgid="4942386959622269480">"ម<ns1:g id="SEPARATOR">=</ns1:g>ម៉ុងត្រេអាល់"</item>
+    <item msgid="3068203952968918165">"ណ<ns1:g id="SEPARATOR">=</ns1:g>ណែសឹ"</item>
+    <item msgid="4234515454127289962">"ញ<ns1:g id="SEPARATOR">=</ns1:g>ញូវយ៉ក"</item>
+    <item msgid="1660551302087304308">"ប<ns1:g id="SEPARATOR">=</ns1:g>បូឡា"</item>
+    <item msgid="415823390775449071">"ស<ns1:g id="SEPARATOR">=</ns1:g>សិនធ័រ"</item>
+    <item msgid="6644186958433380884">"ញ<ns1:g id="SEPARATOR">=</ns1:g>ញូវសាឡិម"</item>
+    <item msgid="6408587617047971798">"ប<ns1:g id="SEPARATOR">=</ns1:g>ប៉ាណាម៉ា"</item>
+    <item msgid="5576899364199447991">"ហ<ns1:g id="SEPARATOR">=</ns1:g>ហ្វូនីក"</item>
+    <item msgid="5541266909095409447">"ព<ns1:g id="SEPARATOR">=</ns1:g>ព័រអេស្ប៉ាញ"</item>
+    <item msgid="6417519313622785932">"ព<ns1:g id="SEPARATOR">=</ns1:g>ព័រអូប្រាំង"</item>
+    <item msgid="2078589249210571366">"ព<ns1:g id="SEPARATOR">=</ns1:g>ព័រតូរីកូ"</item>
+    <item msgid="8522030474373927681">"ស<ns1:g id="SEPARATOR">=</ns1:g>សាន់តូដូមីងកូ"</item>
+    <item msgid="4763853453317431594">"ស<ns1:g id="SEPARATOR">=</ns1:g>សៅប៉ូឡូ"</item>
+    <item msgid="2713153284784311646">"ស<ns1:g id="SEPARATOR">=</ns1:g>សាំងចន"</item>
+    <item msgid="8252666620333105271">"ស<ns1:g id="SEPARATOR">=</ns1:g>សាំងឃីត"</item>
+    <item msgid="4851597775036027515">"ស<ns1:g id="SEPARATOR">=</ns1:g>សាំងលូស្យា"</item>
+    <item msgid="2395485473100271503">"ស<ns1:g id="SEPARATOR">=</ns1:g>សាំងថូម៉ាស"</item>
+    <item msgid="4148037555658225145">"ទ<ns1:g id="SEPARATOR">=</ns1:g>ទីយ្យូអាណា"</item>
+    <item msgid="3491199166042475853">"ត<ns1:g id="SEPARATOR">=</ns1:g>តូរ៉ន់តូ"</item>
+    <item msgid="1506838283840737263">"វ<ns1:g id="SEPARATOR">=</ns1:g>វ៉ានខូវើ"</item>
+    <item msgid="8935386104773857399">"វ<ns1:g id="SEPARATOR">=</ns1:g>វីនីផេក"</item>
+    <item msgid="1132634022412399582">"ប<ns1:g id="SEPARATOR">=</ns1:g>ប៉ូលខាងត្បូង"</item>
+    <item msgid="4076962667198039206">"ឡ<ns1:g id="SEPARATOR">=</ns1:g>ឡុងយាប្យេន"</item>
+    <item msgid="3784788073896028355">"អ<ns1:g id="SEPARATOR">=</ns1:g>អាល់ម៉ាទី"</item>
+    <item msgid="7895695236056852523">"អ<ns1:g id="SEPARATOR">=</ns1:g>អាម៉ាន"</item>
+    <item msgid="1795426532295280371">"អ<ns1:g id="SEPARATOR">=</ns1:g>អាណាឌី"</item>
+    <item msgid="7194236926158343552">"អ<ns1:g id="SEPARATOR">=</ns1:g>អាក់ទូ"</item>
+    <item msgid="4796350130854360870">"ប<ns1:g id="SEPARATOR">=</ns1:g>បាកដាដ"</item>
+    <item msgid="4020105434451091851">"ប<ns1:g id="SEPARATOR">=</ns1:g>បារ៉ែន"</item>
+    <item msgid="3895868797052686484">"ប<ns1:g id="SEPARATOR">=</ns1:g>បាគូ"</item>
+    <item msgid="228001522630057957">"ប<ns1:g id="SEPARATOR">=</ns1:g>បាងកក"</item>
+    <item msgid="5555647809114820537">"ប<ns1:g id="SEPARATOR">=</ns1:g>បេរូត"</item>
+    <item msgid="2960873998178478784">"ក<ns1:g id="SEPARATOR">=</ns1:g>កុលកាតា"</item>
+    <item msgid="8765555959722950691">"ដ<ns1:g id="SEPARATOR">=</ns1:g>ដាម៉ាស"</item>
+    <item msgid="4979709428925196546">"ដ<ns1:g id="SEPARATOR">=</ns1:g>ដាក្កា"</item>
+    <item msgid="310419600200885308">"ឌ<ns1:g id="SEPARATOR">=</ns1:g>ឌូបៃ"</item>
+    <item msgid="1203379132329159260">"ក<ns1:g id="SEPARATOR">=</ns1:g>កាហ្សា"</item>
+    <item msgid="2359068282340162319">"ហ<ns1:g id="SEPARATOR">=</ns1:g>ហេប្រន"</item>
+    <item msgid="6223396610551759129">"ហ<ns1:g id="SEPARATOR">=</ns1:g>ហូជីមីញ"</item>
+    <item msgid="4731022818651322736">"ហ<ns1:g id="SEPARATOR">=</ns1:g>ហុងកុង"</item>
+    <item msgid="8104778702069607166">"អ<ns1:g id="SEPARATOR">=</ns1:g>អ៊ីស្តង់ប៊ុល"</item>
+    <item msgid="758800913783999425">"ហ<ns1:g id="SEPARATOR">=</ns1:g>ហ្សាការតា"</item>
+    <item msgid="8956406398692698126">"យ<ns1:g id="SEPARATOR">=</ns1:g>យេរូសាឡឹម"</item>
+    <item msgid="1664426577433326419">"ក<ns1:g id="SEPARATOR">=</ns1:g>កាប៊ុល"</item>
+    <item msgid="7700349511508357396">"ក<ns1:g id="SEPARATOR">=</ns1:g>ការ៉ាជី"</item>
+    <item msgid="5273241794521591984">"ក<ns1:g id="SEPARATOR">=</ns1:g>កដ្ឋមណ្ឌូ"</item>
+    <item msgid="4754850915168634158">"គ<ns1:g id="SEPARATOR">=</ns1:g>គូឡាឡាំពួ"</item>
+    <item msgid="5187849635785055693">"គ<ns1:g id="SEPARATOR">=</ns1:g>គុយវ៉ែត"</item>
+    <item msgid="2923385979252179376">"ម<ns1:g id="SEPARATOR">=</ns1:g>ម៉ាកាវ"</item>
+    <item msgid="722458682107911739">"ម<ns1:g id="SEPARATOR">=</ns1:g>ម៉ានីល"</item>
+    <item msgid="6033964325069060422">"ម<ns1:g id="SEPARATOR">=</ns1:g>ម៉ាស្កាត"</item>
+    <item msgid="6077458941399984780">"ភ<ns1:g id="SEPARATOR">=</ns1:g>ភ្នំពេញ"</item>
+    <item msgid="935474308903572975">"ព<ns1:g id="SEPARATOR">=</ns1:g>ព្យុងយ៉ាង"</item>
+    <item msgid="5336632319992664889">"ក<ns1:g id="SEPARATOR">=</ns1:g>កាតា"</item>
+    <item msgid="1667243110545095146">"រ<ns1:g id="SEPARATOR">=</ns1:g>រ៉ង់ហ្គូន"</item>
+    <item msgid="4460370766685855731">"រ<ns1:g id="SEPARATOR">=</ns1:g>រីយ៉ាដ"</item>
+    <item msgid="4229224905931739201">"ស<ns1:g id="SEPARATOR">=</ns1:g>សៃហ្គន"</item>
+    <item msgid="8705359848250215620">"ស<ns1:g id="SEPARATOR">=</ns1:g>សេអ៊ូល"</item>
+    <item msgid="583367295371395814">"ស<ns1:g id="SEPARATOR">=</ns1:g>សៀងហៃ"</item>
+    <item msgid="1422156732794771136">"ស<ns1:g id="SEPARATOR">=</ns1:g>សិង្ហបុរី"</item>
+    <item msgid="1972491729911039207">"ត<ns1:g id="SEPARATOR">=</ns1:g>តៃប៉ិ"</item>
+    <item msgid="5563193560935461106">"ត<ns1:g id="SEPARATOR">=</ns1:g>តេហេរ៉ង់"</item>
+    <item msgid="8629402941285674273">"ត<ns1:g id="SEPARATOR">=</ns1:g>តែលអាវី"</item>
+    <item msgid="8499164674454654525">"ត<ns1:g id="SEPARATOR">=</ns1:g>តូក្យូ"</item>
+    <item msgid="1705804745888992744">"អ<ns1:g id="SEPARATOR">=</ns1:g>អ៊ូឡង់បាទ័រ"</item>
+    <item msgid="2028626988021468640">"ប<ns1:g id="SEPARATOR">=</ns1:g>ប៊ឺមុយដា"</item>
+    <item msgid="4527109966513690429">"ក<ns1:g id="SEPARATOR">=</ns1:g>កាណារី"</item>
+    <item msgid="4886308317040330383">"ក<ns1:g id="SEPARATOR">=</ns1:g>កាប់វែរ"</item>
+    <item msgid="1003307362164178007">"រ<ns1:g id="SEPARATOR">=</ns1:g>រីក្យាវីក"</item>
+    <item msgid="6742010412815268657">"ស<ns1:g id="SEPARATOR">=</ns1:g>ស្តេនលី"</item>
+    <item msgid="5659389449738592757">"អ<ns1:g id="SEPARATOR">=</ns1:g>អាឌីឡៃ"</item>
+    <item msgid="4567804576346784523">"ប<ns1:g id="SEPARATOR">=</ns1:g>ប្រ៊ីសបេន"</item>
+    <item msgid="8730590400362815585">"ក<ns1:g id="SEPARATOR">=</ns1:g>កង់បេរ៉ា"</item>
+    <item msgid="6416990927714140153">"ដ<ns1:g id="SEPARATOR">=</ns1:g>ដាវីន"</item>
+    <item msgid="3073969292696516135">"ម<ns1:g id="SEPARATOR">=</ns1:g>ម៉ែលប៊ើន"</item>
+    <item msgid="1719286228375722176">"ញ<ns1:g id="SEPARATOR">=</ns1:g>ញូសៅវែល"</item>
+    <item msgid="3663940748056976266">"ភ<ns1:g id="SEPARATOR">=</ns1:g>ភើធ"</item>
+    <item msgid="3383881736858438153">"ឃ<ns1:g id="SEPARATOR">=</ns1:g>ឃ្វីនលែន"</item>
+    <item msgid="971889339240879138">"ស<ns1:g id="SEPARATOR">=</ns1:g>ស៊ីដនី"</item>
+    <item msgid="5542803438162180311">"វ<ns1:g id="SEPARATOR">=</ns1:g>វិចតូរីយ៉ា"</item>
+    <item msgid="11828841481838883">"ញ<ns1:g id="SEPARATOR">=</ns1:g>ញូហ្វោនលែន"</item>
+    <item msgid="1734331918410561807">"ស<ns1:g id="SEPARATOR">=</ns1:g>សាសកាត់ឆេវ៉ាន"</item>
+    <item msgid="9184412695613864979">"ក<ns1:g id="SEPARATOR">=</ns1:g>កោះអ៊ីស្ទឺ"</item>
+    <item msgid="1014282454239014527">"អ<ns1:g id="SEPARATOR">=</ns1:g>អាំស្ទែដាំ"</item>
+    <item msgid="4928363054269791193">"អ<ns1:g id="SEPARATOR">=</ns1:g>អង់ដូរ៉ា"</item>
+    <item msgid="912290900213826368">"អ<ns1:g id="SEPARATOR">=</ns1:g>អាតែន"</item>
+    <item msgid="6097000352459209495">"ប<ns1:g id="SEPARATOR">=</ns1:g>បែលហ្វាស"</item>
+    <item msgid="3285885824311481790">"ប<ns1:g id="SEPARATOR">=</ns1:g>បែលក្រាដ"</item>
+    <item msgid="911055049821251982">"ប<ns1:g id="SEPARATOR">=</ns1:g>បែរឡាំង"</item>
+    <item msgid="9099244516556291111">"ប<ns1:g id="SEPARATOR">=</ns1:g>ប្រាទីស្លាវ៉ា"</item>
+    <item msgid="158977749726480076">"ព<ns1:g id="SEPARATOR">=</ns1:g>ព្រុចសែល"</item>
+    <item msgid="8875102297676173346">"ប<ns1:g id="SEPARATOR">=</ns1:g>ប៊ុយការ៉េស"</item>
+    <item msgid="804451569472542912">"ប<ns1:g id="SEPARATOR">=</ns1:g>ប៊ុយដាប៉ែស"</item>
+    <item msgid="6827506774445509939">"ជ<ns1:g id="SEPARATOR">=</ns1:g>ជីស៊ីណូ"</item>
+    <item msgid="487345893088732797">"ក<ns1:g id="SEPARATOR">=</ns1:g>កូប៉ិនហាក"</item>
+    <item msgid="7760953471297773537">"ឌ<ns1:g id="SEPARATOR">=</ns1:g>ឌុយប្លាំង"</item>
+    <item msgid="323414429034825249">"ហ<ns1:g id="SEPARATOR">=</ns1:g>ហ្គីប្រាលតា"</item>
+    <item msgid="1785566206078328830">"ហ<ns1:g id="SEPARATOR">=</ns1:g>ហែលស៊ិនគី"</item>
+    <item msgid="5938185647271923359">"អ<ns1:g id="SEPARATOR">=</ns1:g>អែលអុហ្វមែន"</item>
+    <item msgid="5974864320735263245">"អ<ns1:g id="SEPARATOR">=</ns1:g>អ៊ីស្តង់ប៊ុល"</item>
+    <item msgid="3567775364750772947">"ក<ns1:g id="SEPARATOR">=</ns1:g>កៀវ"</item>
+    <item msgid="540344101798867007">"ល<ns1:g id="SEPARATOR">=</ns1:g>លីសបោន"</item>
+    <item msgid="5091062403792923657">"ឡ<ns1:g id="SEPARATOR">=</ns1:g>ឡុងដ៍"</item>
+    <item msgid="7075006205000490364">"ល<ns1:g id="SEPARATOR">=</ns1:g>លុចសំបួរ"</item>
+    <item msgid="4901781246584739451">"ម<ns1:g id="SEPARATOR">=</ns1:g>ម៉ាឌ្រីដ"</item>
+    <item msgid="9047080834315777144">"ម<ns1:g id="SEPARATOR">=</ns1:g>ម៉ាល់តា"</item>
+    <item msgid="8200456520732452034">"ម<ns1:g id="SEPARATOR">=</ns1:g>មីនស្កិ៍"</item>
+    <item msgid="5452744619736513383">"ម<ns1:g id="SEPARATOR">=</ns1:g>ម៉ូណាកូ"</item>
+    <item msgid="3513517408062322298">"ម<ns1:g id="SEPARATOR">=</ns1:g>មូស្គូ"</item>
+    <item msgid="7917103295878081674">"អ<ns1:g id="SEPARATOR">=</ns1:g>អូស្លូ"</item>
+    <item msgid="4245547231693746977">"ប<ns1:g id="SEPARATOR">=</ns1:g>ប៉ារីស"</item>
+    <item msgid="3778652900196715557">"ប<ns1:g id="SEPARATOR">=</ns1:g>ប្រាក"</item>
+    <item msgid="1827175423974383675">"រ<ns1:g id="SEPARATOR">=</ns1:g>រីហ្គា"</item>
+    <item msgid="2095130417232677930">"រ<ns1:g id="SEPARATOR">=</ns1:g>រ៉ូម"</item>
+    <item msgid="7631654618289353520">"ស<ns1:g id="SEPARATOR">=</ns1:g>សង់ម៉ារីណូ"</item>
+    <item msgid="7219835179107610398">"ស<ns1:g id="SEPARATOR">=</ns1:g>សារ៉ាយ៉េវ៉ូ"</item>
+    <item msgid="7199868165463282240">"ស<ns1:g id="SEPARATOR">=</ns1:g>ស៊ីមហ្វើរ៉ុប៉ូល"</item>
+    <item msgid="2786395006682246794">"ស<ns1:g id="SEPARATOR">=</ns1:g>ស្កុបជេ"</item>
+    <item msgid="4706927178872100023">"ស<ns1:g id="SEPARATOR">=</ns1:g>សូហ៊្វីយ៉ា"</item>
+    <item msgid="1982417589953195308">"ស<ns1:g id="SEPARATOR">=</ns1:g>ស្តុកខុល"</item>
+    <item msgid="1596083919400921960">"ត<ns1:g id="SEPARATOR">=</ns1:g>តាលិន"</item>
+    <item msgid="3079313598974879114">"វ<ns1:g id="SEPARATOR">=</ns1:g>វ៉ាទីកង់"</item>
+    <item msgid="6516636001856910888">"វ<ns1:g id="SEPARATOR">=</ns1:g>វីយែន"</item>
+    <item msgid="6377314532157945456">"វ<ns1:g id="SEPARATOR">=</ns1:g>វីលនីញូស"</item>
+    <item msgid="3427175235616698721">"វ<ns1:g id="SEPARATOR">=</ns1:g>វ៉ាសូវី"</item>
+    <item msgid="8404354243761332922">"ស<ns1:g id="SEPARATOR">=</ns1:g>សាគ្រែប"</item>
+    <item msgid="1457280242717152391">"ហ<ns1:g id="SEPARATOR">=</ns1:g>ហ្ស៊ូរីច"</item>
+    <item msgid="1065940089741359291">"អ<ns1:g id="SEPARATOR">=</ns1:g>អង់តាណាណារីវ៉ូ"</item>
+    <item msgid="5176181880014090003">"ម<ns1:g id="SEPARATOR">=</ns1:g>ម៉ាល់ឌីវ"</item>
+    <item msgid="8281854645557426433">"ម<ns1:g id="SEPARATOR">=</ns1:g>ម៉ូរីស"</item>
+    <item msgid="2686249517389816420">"អ<ns1:g id="SEPARATOR">=</ns1:g>អក់ឡែន"</item>
+    <item msgid="279925671775807392">"ហ<ns1:g id="SEPARATOR">=</ns1:g>ហ្វីជី"</item>
+    <item msgid="7971492669765264840">"ហ<ns1:g id="SEPARATOR">=</ns1:g>ហ្គាំ"</item>
+    <item msgid="889371273355762733">"ហ<ns1:g id="SEPARATOR">=</ns1:g>ហូណូលូលូ"</item>
+    <item msgid="5516500578074269817">"គ<ns1:g id="SEPARATOR">=</ns1:g>គីរីទីម៉ាទី"</item>
+    <item msgid="2740704911915073056">"ន<ns1:g id="SEPARATOR">=</ns1:g>នូមា"</item>
+    <item msgid="8732832728949672807">"ស<ns1:g id="SEPARATOR">=</ns1:g>សាម៉ៅ"</item>
+    <item msgid="6489500698846864993">"ត<ns1:g id="SEPARATOR">=</ns1:g>តាហិទី"</item>
+    <item msgid="3983121625709442324">"អ<ns1:g id="SEPARATOR">=</ns1:g>អង់ទីហ្គា"</item>
+    <item msgid="2650510570709806322">"អ<ns1:g id="SEPARATOR">=</ns1:g>អូស្ទីន"</item>
+    <item msgid="5257283506227357911">"ប<ns1:g id="SEPARATOR">=</ns1:g>បូស្តុន"</item>
+    <item msgid="6326368958641850267">"ក<ns1:g id="SEPARATOR">=</ns1:g>កាល់ការី"</item>
+    <item msgid="8830116365016232583">"ក<ns1:g id="SEPARATOR">=</ns1:g>កូឡុំប៊ូស"</item>
+    <item msgid="6986556538341883811">"ដ<ns1:g id="SEPARATOR">=</ns1:g>ដាឡាស"</item>
+    <item msgid="836479352500251902">"ណ<ns1:g id="SEPARATOR">=</ns1:g>ណុក្សវីល"</item>
+    <item msgid="8495291458467378851">"ម<ns1:g id="SEPARATOR">=</ns1:g>មិមហ្វីស"</item>
+    <item msgid="2788807207554683122">"ម<ns1:g id="SEPARATOR">=</ns1:g>ម៉ៃអាមី"</item>
+    <item msgid="3984640407077208471">"ម<ns1:g id="SEPARATOR">=</ns1:g>មីនៀប៉ូលី"</item>
+    <item msgid="6997305266329324161">"អ<ns1:g id="SEPARATOR">=</ns1:g>អូតាវ៉ា"</item>
+    <item msgid="5191741145278683016">"ហ<ns1:g id="SEPARATOR">=</ns1:g>ហ្វីឡាដេហ្វីយ៉ា"</item>
+    <item msgid="5898032730733441936">"ផ<ns1:g id="SEPARATOR">=</ns1:g>ផតឡែន"</item>
+    <item msgid="9070160716002203069">"ស<ns1:g id="SEPARATOR">=</ns1:g>សាន់ឌីអេហ្គូ"</item>
+    <item msgid="1829944133410079040">"ស<ns1:g id="SEPARATOR">=</ns1:g>សាន់ហ្វ្រាន់ស៊ីស្កូ"</item>
+    <item msgid="8407905318529692654">"ទ<ns1:g id="SEPARATOR">=</ns1:g>ទីក្រុងសលឡេក"</item>
+    <item msgid="3091392589347990898">"ស<ns1:g id="SEPARATOR">=</ns1:g>សាន់ហ្សូស៊េ"</item>
+    <item msgid="7080627414383807284">"ស<ns1:g id="SEPARATOR">=</ns1:g>សាន់សាល់វ៉ាឌ័រ"</item>
+    <item msgid="3430371213266252049">"ស<ns1:g id="SEPARATOR">=</ns1:g>ស៊ីថល"</item>
+    <item msgid="9177491393818757071">"ស<ns1:g id="SEPARATOR">=</ns1:g>សាំងល្វី"</item>
+    <item msgid="6234359686676312837">"វ<ns1:g id="SEPARATOR">=</ns1:g>វ៉ាស៊ីនតោន"</item>
+    <item msgid="4325057056005132331">"ហ<ns1:g id="SEPARATOR">=</ns1:g>ហូស្តុន"</item>
+    <item msgid="38148255938075867">"ស<ns1:g id="SEPARATOR">=</ns1:g>សាន់អង់តូនីញ៉ូ"</item>
+    <item msgid="3601481860893666763">"ជ<ns1:g id="SEPARATOR">=</ns1:g>ជែកសុនវីល"</item>
+    <item msgid="3987471437354665534">"ប<ns1:g id="SEPARATOR">=</ns1:g>បាលទីម័រ"</item>
+    <item msgid="3389674262267006887">"ណ<ns1:g id="SEPARATOR">=</ns1:g>ណាសវីល"</item>
+    <item msgid="7521690366448637309">"ម<ns1:g id="SEPARATOR">=</ns1:g>មីលវូគី"</item>
+    <item msgid="2231069593975740859">"ទ<ns1:g id="SEPARATOR">=</ns1:g>ទីក្រុងអូក្លាហូម៉ា"</item>
+    <item msgid="1970008262236914770">"ឡ<ns1:g id="SEPARATOR">=</ns1:g>ឡាសវេហ្កា"</item>
+    <item msgid="7113811028304266017">"អ<ns1:g id="SEPARATOR">=</ns1:g>អាល់ប៊ូគើក"</item>
+    <item msgid="6481469458896644678">"ទ<ns1:g id="SEPARATOR">=</ns1:g>ទូសុន"</item>
+    <item msgid="5970857542995467466">"ស<ns1:g id="SEPARATOR">=</ns1:g>សាក្រាមិនតូ"</item>
+    <item msgid="1999267306329214429">"អ<ns1:g id="SEPARATOR">=</ns1:g>អាត្លង់តា"</item>
+    <item msgid="8761847787537443648">"ក<ns1:g id="SEPARATOR">=</ns1:g>ក្លេវិលែន"</item>
+    <item msgid="2987455647692324208">"ញ<ns1:g id="SEPARATOR">=</ns1:g>ញូវអូលីន"</item>
+    <item msgid="8104109426412705845">"ត<ns1:g id="SEPARATOR">=</ns1:g>តាមប៉ា"</item>
+    <item msgid="1410067233842240795">"ភ<ns1:g id="SEPARATOR">=</ns1:g>ភីធស្បឺគ"</item>
+    <item msgid="3339955740367374442">"ស<ns1:g id="SEPARATOR">=</ns1:g>ស៊ីនស៊ីណាទី"</item>
+    <item msgid="6091407424772799978">"ម<ns1:g id="SEPARATOR">=</ns1:g>ម៉ោនធីនវីយូ"</item>
+    <item msgid="150299708499753555">"រ<ns1:g id="SEPARATOR">=</ns1:g>រីណូ"</item>
+    <item msgid="9155068631060038769">"ទ<ns1:g id="SEPARATOR">=</ns1:g>ទីក្រុងប្លេករ៉ុក"</item>
+    <item msgid="8498761319928979900">"ដ<ns1:g id="SEPARATOR">=</ns1:g>ដូហា"</item>
+    <item msgid="8307897251088048641">"ប<ns1:g id="SEPARATOR">=</ns1:g>ប៉េកាំង"</item>
+    <item msgid="8605970953750147428">"ម<ns1:g id="SEPARATOR">=</ns1:g>ម៉ុមបៃ"</item>
+    <item msgid="6668274273067049125">"ដ<ns1:g id="SEPARATOR">=</ns1:g>ដេលី"</item>
+    <item msgid="2933410189478233292">"អ<ns1:g id="SEPARATOR">=</ns1:g>អូសាកា"</item>
+    <item msgid="9011026093638055579">"ឡ<ns1:g id="SEPARATOR">=</ns1:g>ឡាហ័រ"</item>
+    <item msgid="1448378291805481500">"ស<ns1:g id="SEPARATOR">=</ns1:g>សាណាអា"</item>
+    <item msgid="5233119846682408301">"ប<ns1:g id="SEPARATOR">=</ns1:g>បាសេឡូណា"</item>
+    <item msgid="9146746514265554721">"ម<ns1:g id="SEPARATOR">=</ns1:g>មុយនិច"</item>
+    <item msgid="157866084892734979">"ម<ns1:g id="SEPARATOR">=</ns1:g>មីលែន"</item>
+    <item msgid="2787346322341414963">"ហ<ns1:g id="SEPARATOR">=</ns1:g>ហ្វ្រង់ហ្វើត"</item>
+    <item msgid="8407511504088696581">"ហ<ns1:g id="SEPARATOR">=</ns1:g>ហាណូយ"</item>
+    <item msgid="5184417944073499453">"អ<ns1:g id="SEPARATOR">=</ns1:g>អង់ការា"</item>
+    <item msgid="4028784954452197920">"ប<ns1:g id="SEPARATOR">=</ns1:g>បេងហ្គាឡូ"</item>
+    <item msgid="190152483600862776">"ប<ns1:g id="SEPARATOR">=</ns1:g>ប្រាស៊ីលីយ៉ា"</item>
+    <item msgid="8009516135735104388">"ខ<ns1:g id="SEPARATOR">=</ns1:g>ខេបថោន"</item>
+    <item msgid="6057191797622953016">"អ<ns1:g id="SEPARATOR">=</ns1:g>អ៊ីស្លាម៉ាបាដ"</item>
+    <item msgid="2702029416591153210">"រ<ns1:g id="SEPARATOR">=</ns1:g>រីអូឌឹជិនីរ៉ូ"</item>
+    <item msgid="1753927312634708098">"អ<ns1:g id="SEPARATOR">=</ns1:g>អាន់អាប័រ"</item>
+    <item msgid="4225721108475278979">"ប<ns1:g id="SEPARATOR">=</ns1:g>បូលឌ័រ"</item>
+    <item msgid="6393177386755796069">"ខ<ns1:g id="SEPARATOR">=</ns1:g>ខេមប្រីដ"</item>
+    <item msgid="759409010285366934">"ឃ<ns1:g id="SEPARATOR">=</ns1:g>ឃើកឡែន"</item>
+    <item msgid="6308007059287569663">"ម<ns1:g id="SEPARATOR">=</ns1:g>ម៉ាឌីសុន"</item>
+    <item msgid="6971636434858330021">"ក<ns1:g id="SEPARATOR">=</ns1:g>ក្វាងចូវ"</item>
+    <item msgid="1185109514180068650">"អ<ns1:g id="SEPARATOR">=</ns1:g>អ៊ីឌើរ៉ាបាដ"</item>
+    <item msgid="3032295682584784261">"រ<ns1:g id="SEPARATOR">=</ns1:g>រីស្តូន"</item>
+    <item msgid="7722837296297332268">"ប<ns1:g id="SEPARATOR">=</ns1:g>បេឡូរីហ្សូនធ៍"</item>
+    <item msgid="3593516299122577780">"ស<ns1:g id="SEPARATOR">=</ns1:g>សាន់ឌីអេហ្គូ"</item>
+    <item msgid="2293331653589266583">"ម<ns1:g id="SEPARATOR">=</ns1:g>ម៉ុនរ៉ូវីយ៉ា"</item>
+    <item msgid="7899128359620301710">"ក<ns1:g id="SEPARATOR">=</ns1:g>កូឡុំបូ"</item>
+    <item msgid="5294489752262543829">"ជ<ns1:g id="SEPARATOR">=</ns1:g>ជីហួហួ"</item>
+    <item msgid="8066356061184206341">"ស<ns1:g id="SEPARATOR">=</ns1:g>សាវ៉ាឌ័រ"</item>
+    <item msgid="4806867741334453982">"ហ<ns1:g id="SEPARATOR">=</ns1:g>ហ្គូហ្គោណ"</item>
+    <item msgid="2585780177649876827">"ម<ns1:g id="SEPARATOR">=</ns1:g>មេនឆេស្ទ័រ"</item>
+    <item msgid="234104953526248139">"ក<ns1:g id="SEPARATOR">=</ns1:g>កៀវ"</item>
+    <item msgid="5245429461217350012">"ស<ns1:g id="SEPARATOR">=</ns1:g>សាំងភីធឺបឺរ"</item>
+    <item msgid="6738531308006017215">"ក<ns1:g id="SEPARATOR">=</ns1:g>ក្រាគូវ"</item>
+    <item msgid="8972702613339139467">"វ<ns1:g id="SEPARATOR">=</ns1:g>វ៉រ៉ូល័រ"</item>
+    <item msgid="187278924459096566">"ហ<ns1:g id="SEPARATOR">=</ns1:g>ហាមបឺរ"</item>
+    <item msgid="6173267862207394917">"អ<ns1:g id="SEPARATOR">=</ns1:g>អ៊ូឡូ"</item>
+    <item msgid="5639324478037405990">"ហ<ns1:g id="SEPARATOR">=</ns1:g>ហ្វៃហ្វា"</item>
+    <item msgid="3157180661352354058">"ស<ns1:g id="SEPARATOR">=</ns1:g>សាំងហ្សង់"</item>
+    <item msgid="6995939579417282715">"ត<ns1:g id="SEPARATOR">=</ns1:g>តេហ្គូស៊ីហ្កាល់ប៉ា"</item>
+    <item msgid="1641840677391275004">"ប<ns1:g id="SEPARATOR">=</ns1:g>ប៉ារ៉ាម៉ារីបូ"</item>
+    <item msgid="7317049454800260290">"គ<ns1:g id="SEPARATOR">=</ns1:g>គីតូ"</item>
+    <item msgid="4524380876433343244">"ជ<ns1:g id="SEPARATOR">=</ns1:g>ជូបហ្សាណា"</item>
+  </string-array>
+    <string-array name="clock_style_entries">
+    <item msgid="917900462224167608">"អាណាឡូក"</item>
+    <item msgid="8483930821046925592">"ឌីជីថល"</item>
+  </string-array>
+    <string-array name="sw_lap_number_set">
+    <item msgid="2816627565030953899">"# <ns1:g id="NUMBER">%d</ns1:g>"</item>
+    <item msgid="316923361931627987">"# <ns1:g id="NUMBER">%02d</ns1:g>"</item>
+  </string-array>
+    <string-array name="sw_share_strings">
+    <item msgid="842841032273927988">"អ្នក​កំពុង​ស្ថិត​ក្នុង​ល្បឿន​ដ៏​អស្ចារ្យ។"</item>
+    <item msgid="6332879039890727169">"រីករាយ​ជាមួយ​លទ្ធផល​ការងារ​របស់​អ្នក។"</item>
+    <item msgid="815382761274660130">"Androids គឺ​លឿន ប៉ុន្តែ​មិន​លឿន​ដូច​អ្នក​ទេ!"</item>
+    <item msgid="7916250650982813737">"ធុញ!"</item>
+    <item msgid="6836603904515182333">"L33t ដង។"</item>
+    <item msgid="7508085100680861631">"ល្បឿន​ដ៏​អស្ចារ្យ។"</item>
+    <item msgid="5961245252909589573">"តោះ!​ប្ដូរ​ពេលវេលា​ម្ដងទៀត។"</item>
+    <item msgid="5211891900854545940">"លោត​ទៅ​ឆ្វេង។"</item>
+    <item msgid="9071353477103826053">"អ្នក​មាន​ក្ដារ​សម្រាប់​ល្បឿន។"</item>
+    <item msgid="3785193933691117181">"ល្បឿន​ពន្លឺ។"</item>
+  </string-array>
+    <string-array name="timer_notifications">
+    <item msgid="7760558912503484257">"នៅសល់​តិច​ជាង​មួយ​នាទី"</item>
+    <item msgid="83197792732433351">"នៅសល់ <ns1:g id="HOURS">%1$s</ns1:g>"</item>
+    <item msgid="8919698220200894252">"នៅសល់ <ns1:g id="MINUTES">%2$s</ns1:g>"</item>
+    <item msgid="8458069283817013813">"នៅសល់ <ns1:g id="HOURS">%1$s</ns1:g> <ns1:g id="MINUTES">%2$s</ns1:g>"</item>
+  </string-array>
+    <string-array name="timezone_labels">
+    <item msgid="5495601234086197399">"កោះម៉ាសាល"</item>
+    <item msgid="4196408495909011020">"កោះ​មីតវ៉េ"</item>
+    <item msgid="1414384194857730006">"ហាវ៉ៃ"</item>
+    <item msgid="2687091371581931926">"អាឡាស្កា"</item>
+    <item msgid="1922100269679049660">"ម៉ោង​ប៉ាស៊ីហ្វិក"</item>
+    <item msgid="7156402158716866161">"ទីយ្យូអាណា"</item>
+    <item msgid="1144117502254612241">"អារីហ្សូណា"</item>
+    <item msgid="101284182011722637">"ជីហួហួ"</item>
+    <item msgid="689121094232986897">"ម៉ោង​តំបន់​ភ្នំ"</item>
+    <item msgid="5445331923942302756">"អាមេរិក​កណ្ដាល"</item>
+    <item msgid="2749806434052452351">"ម៉ោង​ភាគ​កណ្ដាល"</item>
+    <item msgid="3997138870229703753">"ទីក្រុង​ម៉ិចស៊ីកូ"</item>
+    <item msgid="5425567073027744888">"សាសកាតជិវ៉ាន"</item>
+    <item msgid="2877342865396629368">"បូហ្គោតា"</item>
+    <item msgid="568682398893899670">"ម៉ោង​ភាគ​ខាងកើត"</item>
+    <item msgid="668135984541863866">"វ៉េណេស៊ុយអេឡា"</item>
+    <item msgid="3737474220861486223">"ម៉ោង​អាត្លង់ទិក (បាបាដុស)"</item>
+    <item msgid="6279116051273436870">"ម៉ោង​អាត្លង់ទិក (កាណាដា)"</item>
+    <item msgid="8513382867172014244">"ម៉ាណាអ៊ួស"</item>
+    <item msgid="7776299003105932407">"សាន់ទីអេហ្គោ"</item>
+    <item msgid="8636989494746218677">"ញូហ្វោនឡែន"</item>
+    <item msgid="4402541016410147505">"ប្រាស៊ីលីយ៉ា"</item>
+    <item msgid="2251184440733164084">"ប៊ុយណូស៊ែ"</item>
+    <item msgid="6202926618569004969">"ហ្គ្រោអង់ឡង់"</item>
+    <item msgid="2355275037115290628">"ម៉ុងតេវីដេអូ"</item>
+    <item msgid="1377549694711708945">"អាត្លង់ទិកកណ្តាល"</item>
+    <item msgid="3457671272126347981">"អាសូរ៉េស"</item>
+    <item msgid="3659315141063710840">"កោះ​កាបវែរ"</item>
+    <item msgid="1260941741802367635">"កាសាប្លាំងកា"</item>
+    <item msgid="8275203689687954762">"ឡុងដ៍, ឌុយប្លាំង"</item>
+    <item msgid="5970179539479320905">"អាំស្ទែរដាំ, បែរឡាំង"</item>
+    <item msgid="5396319478750517962">"បែលក្រាដ"</item>
+    <item msgid="8688787475056663004">"ព្រុចសែល"</item>
+    <item msgid="3415827874921681622">"សារ៉ាយ៉េវ៉ូ"</item>
+    <item msgid="402008965928320066">"វីនដុក"</item>
+    <item msgid="6436942724959275569">"ម៉ោង​អាហ្វ្រិក​ខាងលិច"</item>
+    <item msgid="954536568417204026">"អាម៉ាន់, ហ្ស៊កដានី"</item>
+    <item msgid="8932745482008902551">"អាថែន, អ៊ីស្តង់ប៊ុល"</item>
+    <item msgid="320025725949024510">"បេរូត, លីបង់"</item>
+    <item msgid="7242083112551905970">"គែរ"</item>
+    <item msgid="7241520146011450419">"ហែលស៊ិនគី"</item>
+    <item msgid="2717065017510546526">"ហ្ស៊េរុយសាឡិម"</item>
+    <item msgid="8698556287741466553">"មីនស្កិ៍"</item>
+    <item msgid="1797598357342084506">"ហារ៉ារ៉េ"</item>
+    <item msgid="5169119919905066998">"បាកដាដ​"</item>
+    <item msgid="2615788116201065182">"មូស្គូ"</item>
+    <item msgid="9084354867885584646">"គុយវ៉ែត"</item>
+    <item msgid="1351570519986178268">"ណៃរ៉ូប៊ី"</item>
+    <item msgid="7094569580635877460">"តេហេរ៉ង់"</item>
+    <item msgid="3953138772617909704">"បាគូ"</item>
+    <item msgid="2868893113598800752">"ប៊ីលីស៊ី"</item>
+    <item msgid="7088581865802476373">"យ៉េរ៉េវ៉ាន់"</item>
+    <item msgid="1941122257623887992">"ឌុយបៃ"</item>
+    <item msgid="9194797225058249720">"កាប៊ុល"</item>
+    <item msgid="6486569254364577332">"អ៊ីស្លាម៉ាបាដ, ការ៉ាជី"</item>
+    <item msgid="5487724896895412089">"អ៊ុយរ៉ាលស្កិ៍"</item>
+    <item msgid="364906869710826982">"យ៉េកាធឺរិនប៊ើក"</item>
+    <item msgid="2106505051751383358">"កុលកាតា"</item>
+    <item msgid="6851586621581501447">"ស្រីលង្កា"</item>
+    <item msgid="800438544128213134">"កដ្ឋមណ្ឌូ"</item>
+    <item msgid="6173621471007643021">"អាស្តាណា"</item>
+    <item msgid="8645125891971581128">"យ៉ង់ហ្គូន"</item>
+    <item msgid="2886407505119737794">"ក្រាសនុយ៉ាក"</item>
+    <item msgid="3408222398188107090">"បាងកក​"</item>
+    <item msgid="4441612937172851228">"ប៉េកាំង"</item>
+    <item msgid="4936715789028996930">"ហុងកុង"</item>
+    <item msgid="4261031143777385525">"អ៊ីឃឺត"</item>
+    <item msgid="3538060959338191835">"គូឡាឡាំពួ​"</item>
+    <item msgid="1438847562643099201">"ភឺធ"</item>
+    <item msgid="3063913827688244383">"តៃប៉ិ"</item>
+    <item msgid="3502757135046564209">"សេអ៊ូល"</item>
+    <item msgid="6107588684519111669">"តូក្យូ, អូសាកា"</item>
+    <item msgid="4350769099755608471">"យ៉ាកូត"</item>
+    <item msgid="2422707004533526462">"អាឌីឡៃ"</item>
+    <item msgid="1292192084554134339">"ដាវីន"</item>
+    <item msgid="1320883699470001716">"ប្រីសបាណេ"</item>
+    <item msgid="5137198806146386527">"ហូបាត"</item>
+    <item msgid="5920063686933941174">"ស៊ីដនី, កង់បេរ៉ា"</item>
+    <item msgid="615906039696009425">"វ័រលាដីវ៉ូស្តុក"</item>
+    <item msgid="7738680449356275374">"ហ្គាំ"</item>
+    <item msgid="2882915026380778227">"ម៉ាហ្គាដាន"</item>
+    <item msgid="8255615641810148152">"អក់ឡែន"</item>
+    <item msgid="3027153773466391728">"ហ្វីជី​"</item>
+    <item msgid="5911600083231840181">"តុងហ្គា"</item>
+    <item msgid="5176858645450908751">"ហ្សាការតា"</item>
+  </string-array>
+    <string-array name="volume_button_setting_entries">
+    <item msgid="7972756698723318690">"ផ្អាក"</item>
+    <item msgid="3450979320164769576">"បោះបង់"</item>
+    <item msgid="6302517608411378024">"មិន​ធ្វើ"</item>
+  </string-array>
+    <string-array name="week_start_entries">
+    <item msgid="9010198173394482639">"សៅរ៍"</item>
+    <item msgid="3993530639455360921">"អាទិត្យ"</item>
+    <item msgid="8594709368683324282">"ច័ន្ទ"</item>
+  </string-array>
+    <plurals formatted="false" msgid="4539186407746763655" name="Nhours_description">
+      <item quantity="other"><ns1:g id="NUMBER">%d</ns1:g> ម៉ោង</item>
+      <item quantity="one">1 ម៉ោង</item>
+    </plurals>
+    <plurals formatted="false" msgid="6373760365221990859" name="Nminutes_description">
+      <item quantity="other"><ns1:g id="NUMBER">%d</ns1:g> នាទី</item>
+      <item quantity="one">1 នាទី</item>
+    </plurals>
+    <plurals formatted="false" msgid="6456500168536594889" name="Nseconds_description">
+      <item quantity="other"><ns1:g id="NUMBER">%d</ns1:g> វិនាទី</item>
+      <item quantity="one">1 វិនាទី</item>
+    </plurals>
+    <plurals formatted="false" msgid="7844300009062867865" name="alarm_alert_snooze_duration">
+      <item quantity="other"><ns1:g id="NUMBER">%d</ns1:g> នាទី</item>
+      <item quantity="one">1 នាទី</item>
+    </plurals>
+    <plurals formatted="false" msgid="3212729193036041768" name="alarm_alert_snooze_set">
+      <item quantity="other">ផ្អាក <ns1:g id="MINUTES">%d</ns1:g> នាទី។</item>
+      <item quantity="one">ផ្អាក 1 នាទី</item>
+    </plurals>
+    <plurals formatted="false" msgid="3591262014329613293" name="alarm_delete_confirmation">
+      <item quantity="other">លុបសម្លេងរោទិ៍ដែលបានជ្រើស?</item>
+      <item quantity="one">លុបសម្លេងរោទិ៍ដែលបានជ្រើស?</item>
+    </plurals>
+    <plurals formatted="false" msgid="6579258788774360396" name="auto_silence_summary">
+      <item quantity="other"><ns1:g id="FORMATTED_NUMBER">%s</ns1:g> នាទី</item>
+      <item quantity="one">1 នាទី</item>
+    </plurals>
+    <plurals formatted="false" msgid="3706846447285206235" name="days">
+      <item quantity="other"><ns1:g id="NUMBER">%s</ns1:g> ថ្ងៃ</item>
+      <item quantity="one">1 ថ្ងៃ</item>
+    </plurals>
+    <plurals formatted="false" msgid="3871283109767171655" name="hours">
+      <item quantity="other"><ns1:g id="NUMBER">%s</ns1:g> ម៉ោង</item>
+      <item quantity="one">1 ម៉ោង</item>
+    </plurals>
+    <plurals formatted="false" msgid="5484431721696058697" name="minutes">
+      <item quantity="other"><ns1:g id="NUMBER">%s</ns1:g> នាទី</item>
+      <item quantity="one">1 នាទី</item>
+    </plurals>
+    <plurals formatted="false" msgid="3112918131095248271" name="snooze_duration">
+      <item quantity="other"><ns1:g id="NUMBER">%s</ns1:g> នាទី</item>
+      <item quantity="one">1 នាទី</item>
+    </plurals>
+    <plurals formatted="false" msgid="322739253661747732" name="snooze_picker_label">
+      <item quantity="other">នាទី</item>
+      <item quantity="one">នាទី</item>
+    </plurals>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"រកមើល​ទៅ​ដើម"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"រកមើល​ឡើងលើ"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"ជម្រើស​ច្រើន​ទៀត"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"រួចរាល់"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"មើល​ទាំងអស់"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"ជ្រើស​កម្មវិធី​​"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"បិទ"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"បើក"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"ស្វែងរក…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"សម្អាត​សំណួរ"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"ស្វែងរក​សំណួរ"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"ស្វែងរក"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"ដាក់​​​ស្នើ​សំណួរ"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"ការស្វែងរក​សំឡេង"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"ចែករំលែក​ជាមួយ"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"ចែករំលែក​ជាមួយ %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"បង្រួម"</string>
+    <string msgid="5976616107390962899" name="add_alarm">"បន្ថែម​សំឡេង​រោទ៍"</string>
+    <string msgid="3272183025444682500" name="alarm_alert_dismiss_now_text">"បដិសេធ​ឥឡូវ"</string>
+    <string msgid="4942914605480888820" name="alarm_alert_dismiss_text">"បោះបង់"</string>
+    <string msgid="2459925305288819812" name="alarm_alert_off_action_text">"បិទ"</string>
+    <string msgid="4472073417593915002" name="alarm_alert_off_text">"បិទសំឡេងរោទ៍"</string>
+    <string msgid="5723945586913705445" name="alarm_alert_predismiss_title">"ការ​ជូនដំណឹង​ដែល​នឹង​កើត​ឡើង"</string>
+    <string msgid="1774416052207651584" name="alarm_alert_snooze_text">"ផ្អាក"</string>
+    <string msgid="6958013659168344550" name="alarm_alert_snooze_until">"ផ្អាក​រហូតដល់ <ns1:g id="TIME">%s</ns1:g>"</string>
+    <string msgid="7064642998528766113" name="alarm_alert_snoozed_text">"បាន​ផ្អាក"</string>
+    <string msgid="6790780716498252583" name="alarm_alert_wake_up">"ភ្ញាក់!"</string>
+    <string msgid="740283647046258651" name="alarm_button_description">"សំឡេង​រោទ៍"</string>
+    <string msgid="8810520940995307437" name="alarm_cant_be_dismissed_still_more_than_24_hours_away">"មិនអាចបដិសេធម៉ោងរោទិ៍ <ns1:g id="ALARM_TIME">%s</ns1:g> បាននៅឡើយទេ នៅសល់ជាង 24 ម៉ោងទៀត"</string>
+    <string msgid="6131529309389084785" name="alarm_deleted">"បានលុបម៉ោងរោទិ៍"</string>
+    <string msgid="5509897230565826642" name="alarm_is_dismissed">"បានបដិសេធម៉ោងរោទិ៍ <ns1:g id="ALARM_TIME">%s</ns1:g>"</string>
+    <string msgid="5503226382620011088" name="alarm_is_set">"ម៉ោងរោទ៍ត្រូវបានកំណត់នៅ <ns1:g id="ALARM_TIME">%s</ns1:g>"</string>
+    <string msgid="7044644119744928846" name="alarm_is_snoozed">"បានផ្អាកម៉ោងរោទិ៍ <ns1:g id="ALARM_TIME">%s</ns1:g> រយៈពេល 10 នាទី"</string>
+    <string msgid="2147506334302260256" name="alarm_klaxon_service_desc">"បាន​កំណត់​សេវាកម្ម​បន្លឺ​សំឡេង​រោទ៍​នៅ​ក្នុង​នាឡិកា។"</string>
+    <string msgid="7589940465292950600" name="alarm_list_title">"សំឡេង​រោទ៍"</string>
+    <string msgid="6585658367289194023" name="alarm_missed_text">"<ns1:g id="ALARM_TIME">%s</ns1:g> - <ns1:g id="ALARM_LABEL">%s</ns1:g>"</string>
+    <string msgid="3828345099754063392" name="alarm_missed_title">"​ខកខាន​ការ​ជូនដំណឹង"</string>
+    <string msgid="5404083762646377829" name="alarm_notify_snooze_label">"<ns1:g id="LABEL">%s</ns1:g> (បាន​ផ្អាក)"</string>
+    <string msgid="4819324081410990368" name="alarm_notify_snooze_text">"បាន​កំណត់​សំឡេង​រោទ៍​ក្នុង​រយៈពេល <ns1:g id="TIME">%s</ns1:g> ទៀត។  ប៉ះ​ដើម្បី​បោះបង់។"</string>
+    <string msgid="4891014685945904766" name="alarm_notify_text">"ផ្អាក ឬ​បោះបង់​សំឡេង​រោទ៍។"</string>
+    <string msgid="7242985466344233206" name="alarm_repeat">"ធ្វើ​ម្ដងទៀត"</string>
+    <string msgid="2947147071388290814" name="alarm_settings">"សំឡេង​រោទ៍"</string>
+    <string msgid="7873594221106531654" name="alarm_today">"ថ្ងៃនេះ"</string>
+    <string msgid="131356848787643420" name="alarm_tomorrow">"ថ្ងៃស្អែក"</string>
+    <string msgid="5710042601177655254" name="alarm_undo">"​មិន​​ធ្វើ​វិញ"</string>
+    <string msgid="3476686921490362230" name="alarm_vibrate">"ញ័រ"</string>
+    <string msgid="8506245173912428522" name="alarm_volume_title">"កម្រិត​សំឡេង​រោទ៍"</string>
+    <string msgid="1075308195332888260" name="alarms_selected">"បាន​ជ្រើស <ns1:g id="ALARMS">%d</ns1:g>"</string>
+    <string msgid="6506982899651975645" name="alert">"សំឡេង​រោទ៍"</string>
+    <string msgid="278532320068394600" name="all_timers_stopped_notif">"ប៉ះ​ដើម្បី​មើល​កម្មវិធី​កំណត់​ពេល​របស់​អ្នក"</string>
+    <string msgid="1670505720837152766" name="analog_gadget">"នាឡិកា​អាណាឡូក"</string>
+    <string msgid="6674495003718166674" name="app_label">"នាឡិកា"</string>
+    <string msgid="4821982647348750809" name="auto_silence_never">"កុំ"</string>
+    <string msgid="2012754009554434544" name="auto_silence_title">"បិទ​សំឡេង​បន្ទាប់ពី"</string>
+    <string msgid="6274174710735449252" name="automatic_home_clock">"នាឡិកា​ផ្ទះ​ស្វ័យប្រវត្តិ"</string>
+    <string msgid="6020476321040807273" name="automatic_home_clock_summary">"ពេល​ធ្វើ​ដំណើរ​ទៅ​តំបន់​ដែល​មាន​ម៉ោង​ខុសគ្នា, បន្ថែម​នាឡិកា​សម្រាប់​ផ្ទះ"</string>
+    <string msgid="3907838219512538763" name="button_alarms">"បន្ថែម​សំឡេង​រោទ៍"</string>
+    <string msgid="4555761857494501363" name="button_cities">"ទីក្រុង"</string>
+    <string msgid="6050484561842120282" name="button_menu">"ជម្រើសបន្ថែម"</string>
+    <string msgid="8552462751129256730" name="cities_activity_title">"ទីក្រុង"</string>
+    <string msgid="1335509457349179514" name="city_added">"បានបន្ថែម <ns1:g id="CITY_NAME">%s</ns1:g>"</string>
+    <string msgid="1783441538785676299" name="city_delete_confirmation">"លុប​ទីក្រុង​នេះ?"</string>
+    <string msgid="3935141305276867838" name="city_deleted">"បានលុប <ns1:g id="CITY_NAME">%s</ns1:g>"</string>
+    <string msgid="2656876819515011590" name="clock_instructions">"ជ្រើស​នាឡិកា"</string>
+    <string msgid="8317286807280600391" name="clock_settings">"នាឡិកា"</string>
+    <string msgid="2265011060429742344" name="clock_style">"រចនាប័ទ្ម"</string>
+    <string msgid="3561772046433483980" name="collapse_alarm">"បង្រួម​សំឡេង​រោទ៍"</string>
+    <string msgid="2194676418924016327" name="control_set_alarm">"កំណត់​សំឡេង​រោទ៍"</string>
+    <string msgid="3477418548382111184" name="custom_ringtone">"សំឡេងរោទិ៍ផ្ទាល់ខ្លួន"</string>
+    <string msgid="971998564991636532" name="day_concat">", "</string>
+    <string msgid="3968620852217927702" name="day_picker_description">"ក្រឡាចត្រង្គ​ខែ​នៃ​ថ្ងៃ"</string>
+    <string msgid="5590025289805630372" name="default_label">"សំឡេង​រោទ៍"</string>
+    <string msgid="4549726190682964245" name="default_ringtone_setting_title">"កំណត់​សំឡេង​រោទ៍​លំនាំដើម"</string>
+    <string msgid="5732434972457000541" name="delete">"លុប"</string>
+    <string msgid="3457780990646206817" name="delete_alarm">"លុប​សំឡេង​រោទ៍"</string>
+    <string msgid="6578572637340860840" name="delete_alarm_confirm">"លុប​សំឡេង​រោទ៍​នេះ?"</string>
+    <string msgid="6908431551612331381" name="deleted_key">"បាន​លុប <ns1:g id="KEY">%1$s</ns1:g>"</string>
+    <string msgid="1220848140260509437" name="deleted_message">"បាន​លុប"</string>
+    <string msgid="1841309486023845685" name="description_direction_both">"អូសទៅឆ្វេងដើម្បីផ្អាក ឬទៅស្តាំដើម្បីបញ្ឈប់"</string>
+    <string msgid="7448141043674998679" name="description_direction_left">"អូស​ទៅ​ឆ្វេង​ដើម្បី​ផ្អាក"</string>
+    <string msgid="5709209043267548985" name="description_direction_right">"អូស​ទៅ​ស្ដាំ​ដើម្បី​បដិសេធ"</string>
+    <string msgid="4207371097361657274" name="desk_clock_button_description">"ការ​បង្ហា្ញញ​នាឡិកា"</string>
+    <string msgid="2326954556720571358" name="digital_gadget">"នាឡិកា​ឌីជីថល"</string>
+    <string msgid="5889378670229554109" name="disable_alarm">"បិទ​សំឡេង​រោទ៍"</string>
+    <string msgid="7204593078688533541" name="dismiss_alarm">"បដិសេធម៉ោងរោទិ៍"</string>
+    <string msgid="6509722361933858451" name="done">"ធ្វើ​រួច"</string>
+    <string msgid="7007948707597430919" name="done_label">"ធ្វើ​រួច"</string>
+    <string msgid="1834599140632142536" name="enable_alarm">"បើក​សំឡេង​រោទ៍"</string>
+    <string msgid="4100909974923444602" name="every_day">"រាល់ថ្ងៃ"</string>
+    <string msgid="7392616528943305020" name="expand_alarm">"ពង្រីក​សំឡេង​រោទ៍"</string>
+    <string msgid="1151743663255257668" name="gallery_button_description">"វិចិត្រ​សាល"</string>
+    <string msgid="7786263119482654015" name="help">"ជំនួយ"</string>
+    <string msgid="3217727306480505694" name="hide_clock">"លាក់​នាឡិកា"</string>
+    <string msgid="3383859096809056157" name="home_button_description">"កម្មវិធី​ចាប់ផ្ដើម"</string>
+    <string msgid="4436139365695453870" name="home_label">"ដើម"</string>
+    <string msgid="9199730676287974501" name="home_time_zone">"តំបន់​ពេលវេលា​ដើម"</string>
+    <string msgid="807894493443834624" name="home_time_zone_title">"តំបន់​ពេលវេលា​ដើម"</string>
+    <string msgid="7586639618712934060" name="hour_picker_description">"គ្រាប់​រំកិល​រង្វង់​ម៉ោង"</string>
+    <string msgid="3393478155635368097" name="hours_label">"ម៉ោង"</string>
+    <string msgid="8652842524970971830" name="hours_label_description">"ម៉ោង"</string>
+    <string msgid="2782334750243998633" name="invalid_time">"ម៉ោងមិនត្រឹមត្រូវ <ns1:g id="INVALID_HOUR">%d</ns1:g>:<ns1:g id="INVALID_MINUTES">%d</ns1:g> <ns1:g id="INVALID_AMPM">%s</ns1:g>"</string>
+    <string msgid="3104567893212932487" name="invalid_timer_length">"រយៈពេលសម្រាប់ឧបករណ៍កំណត់ពេលមិនត្រឹមត្រូវ"</string>
+    <string msgid="2674929164900463786" name="item_is_selected">"បាន​ជ្រើស <ns1:g id="ITEM">%1$s</ns1:g>"</string>
+    <string msgid="162189613902857319" name="label">"ស្លាក"</string>
+    <string msgid="8736179296142915727" name="label_description">"ស្លាក"</string>
+    <string msgid="6523322777415268044" name="loading_ringtone">"កំពុង​ផ្ទុក​សំឡេង​រោទ៍…"</string>
+    <string msgid="4772010125376647519" name="menu_alarm">"ការ​ជូនដំណឹង"</string>
+    <string msgid="5612760670606829805" name="menu_clock">"នាឡិកា"</string>
+    <string msgid="3241995064554071588" name="menu_desk_clock">"នាឡិកា​រោទ៍"</string>
+    <string msgid="7204602994918829751" name="menu_edit_alarm">"កែ​សំឡេង​រោទ៍"</string>
+    <string msgid="4570953476186849841" name="menu_item_help">"ជំនួយ"</string>
+    <string msgid="3486930302245398975" name="menu_item_night_mode">"របៀប​រាត្រី"</string>
+    <string msgid="1413723516369078665" name="menu_item_settings">"ការ​កំណត់"</string>
+    <string msgid="3120860422682721706" name="menu_item_sort_by_gmt_offset">"តម្រៀប​តាម​ពេល"</string>
+    <string msgid="1762931290495104106" name="menu_item_sort_by_name">"តម្រៀប​តាម​ឈ្មោះ"</string>
+    <string msgid="3396117705293574701" name="menu_stopwatch">"នាឡិកា​បញ្ឈប់"</string>
+    <string msgid="6459070074762877114" name="menu_timer">"កម្មវិធី​កំណត់​ពេល"</string>
+    <string msgid="6024811202872705251" name="minute_picker_description">"គ្រាប់​រំកិល​រង្វង់​នាទី"</string>
+    <string msgid="3568098128251438588" name="minutes_label">"នាទី"</string>
+    <string msgid="965686733490357796" name="minutes_label_description">"នាទី"</string>
+    <string msgid="5295473204045979335" name="missed_alarm_has_been_deleted">"ការ​ខកខាន​ជូនដំណឹង​របស់​​អ្នក​ត្រូវ​បាន​លុប"</string>
+    <string msgid="6722110840279707462" name="multiple_timers_available">"មិនអាចបញ្ចប់សំណើរបស់អ្នកបានទេ ព្រោះមានកម្មវិធីកំណត់ម៉ោងច្រើន"</string>
+    <string msgid="1626593420810117999" name="music_button_description">"តន្ត្រី"</string>
+    <string msgid="2650244835760747046" name="next_alarm_description">"សំឡេង​រោទ៍​បន្ទាប់៖ <ns1:g id="ALARM_TIME">%s</ns1:g>"</string>
+    <string msgid="6136454740115613653" name="next_timer_notif">"កម្មវិធី​កំណត់​ពេល​បន្ទាប់៖ <ns1:g id="TIME_REMAINING">%s</ns1:g>"</string>
+    <string msgid="1017350187324162631" name="night_mode_summary">"ការ​បង្ហាញ​យ៉ាង​ស្រអាប់ (សម្រាប់​បន្ទប់​ងងឹត)"</string>
+    <string msgid="5983813889469616299" name="night_mode_title">"របៀប​រាត្រី"</string>
+    <string msgid="990894208217576381" name="nightmode_button_description">"ស្រអាប់"</string>
+    <string msgid="8140632482969193119" name="no_alarm_at">"គ្មានម៉ោងរោទិ៍នៅ <ns1:g id="ALARM_TIME_HOUR">%d</ns1:g>:<ns1:g id="ALARM_TIME_MINUTES">%d</ns1:g>"</string>
+    <string msgid="4463069177414482818" name="no_alarm_scheduled_for_this_time">"គ្មានការកំណត់ម៉ោងរោទិ៍សម្រាប់ពេលនេះទេ"</string>
+    <string msgid="6429431324842022917" name="no_alarms">"គ្មាន​ការ​ជូនដំណឹង"</string>
+    <string msgid="4887558279496044764" name="no_alarms_set">"មិនមានសំឡេងរោទ៍"</string>
+    <string msgid="6250998794542941665" name="no_alarms_with_label">"គ្មានម៉ោងរោទិ៍ដែលមានស្លាកទេ"</string>
+    <string msgid="1007596865203283741" name="no_city_selected">"មិនបានជ្រើសទីក្រុងទេ"</string>
+    <string msgid="4986161963178722289" name="no_firing_alarms">"គ្មានម៉ោងរោទិ៍បន្លឺឡើងទេ"</string>
+    <string msgid="2008482054428460626" name="no_label_specified">"គ្មានការបញ្ជាក់ស្លាកទេ"</string>
+    <string msgid="2115420148192753534" name="no_scheduled_alarms">"គ្មានម៉ោងរោទិ៍បានកំណត់ទេ"</string>
+    <string msgid="3326365650863016606" name="no_timer_set">"គ្មានការកំណត់កម្មវិធីកំណត់ពេលទេ"</string>
+    <string msgid="2889840988069436254" name="no_upcoming_alarms">"គ្មាន​ការ​ជូនដំណឹង​ដែល​នឹង​កើត​ឡើង"</string>
+    <string msgid="5408769235866082896" name="pick_alarm_to_dismiss">"រើសម៉ោងរោទិ៍ដែលត្រូវលុប"</string>
+    <string msgid="9100911171235162926" name="revert">"ត្រឡប់​ទៅ​ដើម"</string>
+    <string msgid="9110746249688559579" name="ringtone">"សំឡេង​រោទ៍"</string>
+    <string msgid="7580922112921069925" name="ringtone_description">"សំឡេង​រោទ៍"</string>
+    <string msgid="7013450738357352801" name="screensaver_settings">"ការ​កំណត់​ស្រមើ​​ស្រមៃ"</string>
+    <string msgid="124655952824003246" name="seconds_label">"វិនាទី"</string>
+    <string msgid="3821620053141299692" name="seconds_label_description">"វិនាទី"</string>
+    <string msgid="3973338219107019769" name="select_day">"ជ្រើស​ខែ និង​ថ្ងៃ"</string>
+    <string msgid="7651068754188418859" name="select_hours">"ជ្រើស​ម៉ោង"</string>
+    <string msgid="8327182090226828481" name="select_minutes">"ជ្រើស​នាទី"</string>
+    <string msgid="2603330600102539372" name="select_year">"ជ្រើស​ឆ្នាំ"</string>
+    <string msgid="3607479399424246605" name="selected_cities_label">"ទីក្រុង​បាន​ជ្រើស"</string>
+    <string msgid="9148359866152726808" name="set_alarm">"កំណត់​សំឡេង​រោទ៍"</string>
+    <string msgid="5849739030579520686" name="settings">"ការ​កំណត់"</string>
+    <string msgid="8358759982675616915" name="show_clock">"បង្ហាញ​នាឡិកា"</string>
+    <string msgid="8605302849408279221" name="silent_alarm_summary">"ស្ងាត់"</string>
+    <string msgid="2077577763821006919" name="slash">"/"</string>
+    <string msgid="1097309861110780483" name="snooze_duration_title">"រយៈពេល​ផ្អាក"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="6598258908106423672" name="stopwatch_already_running">"នាឡិកាបញ្ឈប់កំពុងដំណើរហើយ"</string>
+    <string msgid="5713134605500796186" name="stopwatch_cant_be_reset_because_is_running">"មិនអាចកំណត់នាឡិកាបញ្ឈប់ឡើងវិញបានទេព្រោះវាកំពុងដំណើរការ"</string>
+    <string msgid="7147219965448204727" name="stopwatch_isnt_running">"នាឡិកាបញ្ឈប់មិនដំណើរការទេ"</string>
+    <string msgid="5844686448815550482" name="stopwatch_lapped">"បានកំណត់ជុំនាឡិកាបញ្ឈប់"</string>
+    <string msgid="7585914953721021042" name="stopwatch_reset">"កំណត់នាឡិកាបញ្ឈប់ឡើងវិញ"</string>
+    <string msgid="8416624630388063996" name="stopwatch_service_desc">"សេវាកម្ម​នាឡិកា​បញ្ឈប់​ដើម្បី​ដំណើរការ​ការ​ជូនដំណឹង។"</string>
+    <string msgid="7843882246387176304" name="stopwatch_started">"បានចាប់ផ្តើមនាឡិកាបញ្ឈប់"</string>
+    <string msgid="6927081018816192999" name="stopwatch_stopped">"បានបញ្ឈប់នាឡិកាបញ្ឈប់"</string>
+    <string msgid="6992264696039004233" name="sw_lap_button">"ជាន់​គ្នា"</string>
+    <string msgid="3535420316052647126" name="sw_notification_lap_number">"ជាន់​គ្នា <ns1:g id="NUMBER">%d</ns1:g>"</string>
+    <string msgid="6616804728322906117" name="sw_reset_button">"កំណត់​ឡើងវិញ"</string>
+    <string msgid="2569360966002022248" name="sw_resume_button">"បន្ត"</string>
+    <string msgid="4478648110382859382" name="sw_share_button">"ចែករំលែក​"</string>
+    <string msgid="614390674795945007" name="sw_share_laps">"រយៈពេល​ជាន់​គ្នា៖"</string>
+    <string msgid="7703563468204234405" name="sw_share_main">"ពេលវេលា​របស់​ខ្ញុំ​គឺ <ns1:g id="TIME">%s</ns1:g>"</string>
+    <string msgid="8373422516681242270" name="sw_start_button">"ចាប់ផ្ដើម​"</string>
+    <string msgid="8322958613123274451" name="sw_stop_button">"ឈប់"</string>
+    <string msgid="783124901663086172" name="swn_stopped">"បាន​ឈប់"</string>
+    <string msgid="3799050213771793020" name="the_city_already_added">"បានបន្ថែមទីក្រុងនោះរួចហើយ"</string>
+    <string msgid="1753597460426454543" name="the_city_you_specified_is_not_available">"ទីក្រុងដែលអ្នកបានបញ្ជាក់មិនមានទេ"</string>
+    <string msgid="8067216534232296518" name="time">"ពេលវេលា"</string>
+    <string msgid="1619464909892545536" name="time_format_12_mode">"h:mm a"</string>
+    <string msgid="7998512313148074539" name="time_format_24_mode">"k:mm"</string>
+    <string msgid="6001006474735281911" name="time_picker_00_label">":០០"</string>
+    <string msgid="1027250857384838129" name="time_picker_30_label">":៣០"</string>
+    <string msgid="6754113715199751083" name="time_picker_ampm_label">"--"</string>
+    <string msgid="7437106489606013077" name="time_picker_cancel">"បោះ​បង់​"</string>
+    <string msgid="331153175471468051" name="time_picker_set">"យល់​ព្រម​"</string>
+    <string msgid="7484926510054777041" name="time_picker_time_seperator">":"</string>
+    <string msgid="862733633862574752" name="timer_add_timer">"បន្ថែម​កម្មវិធី​កំណត់​ពេល"</string>
+    <string msgid="1259351124772803097" name="timer_already_running">"កម្មវិធីកំណត់ពេលកំពុងដំណើរការហើយ"</string>
+    <string msgid="8865820275829449054" name="timer_already_stopped">"កម្មវិធីកំណត់ពេលបានឈប់ហើយ"</string>
+    <string msgid="3572868404230815644" name="timer_cancel">"បោះ​បង់​"</string>
+    <string msgid="7880015473706806640" name="timer_cant_be_reset_because_its_running">"មិនអាចកំណត់កម្មវិធីកំណត់ពេលឡើងវិញបានទេ វាកំពុងដំណើរការនៅឡើយ។ សូមបញ្ឈប់កម្មវិធីកំណត់ពេលដើម្បីកំណត់ឡើងវិញ។"</string>
+    <string msgid="4381027137335885547" name="timer_created">"បានបង្កើតឧបករណ៍កំណត់ពេល"</string>
+    <string msgid="8699122001991909302" name="timer_delete">"លុប"</string>
+    <string msgid="2815524107015816453" name="timer_delete_confirmation">"លុប​កម្មវិធី​កំណត់​ពេល?"</string>
+    <string msgid="9110322362460029392" name="timer_deleted">"បានលុបកម្មវិធីកំណត់ពេល"</string>
+    <string msgid="8794915342760383536" name="timer_descriptive_delete">"លុប <ns1:g id="NUMBER_STRING">%s</ns1:g>"</string>
+    <string msgid="2375990511982914051" name="timer_done">"រួចរាល់"</string>
+    <string msgid="4933184831583137249" name="timer_notification_label">"កម្មវិធី​កំណត់​ពេល"</string>
+    <string msgid="8645224089494875062" name="timer_plus_1_min">"បន្ថែម ១​នាទី"</string>
+    <string msgid="6631211310420106116" name="timer_plus_one">"បន្ថែម ១ នាទី"</string>
+    <string msgid="7848424809190171640" name="timer_reset">"កំណត់​ឡើងវិញ"</string>
+    <string msgid="2620214305660322415" name="timer_ring_service_desc">"បាន​កំណត់​សេវាកម្ម​បន្លឺ​សំឡេង​រោទ៍​នៅ​ក្នុង​នាឡិកា។"</string>
+    <string msgid="6158486445614356442" name="timer_start">"ចាប់ផ្ដើម"</string>
+    <string msgid="6715582052946641641" name="timer_started">"​​ចាប់ផ្ដើមកម្មវិធីកំណត់ពេល"</string>
+    <string msgid="3361154678667736722" name="timer_stop">"ឈប់"</string>
+    <string msgid="2730331837832462008" name="timer_stopped">"កម្មវិធី​កំណត់​ពេល​បាន​ឈប់"</string>
+    <string msgid="9190440395938519009" name="timer_times_up">"ដល់​ម៉ោង"</string>
+    <string msgid="6495796785185062631" name="timer_was_reset">"កំណត់កម្មវិធីកំណត់ពេលឡើងវិញ"</string>
+    <string msgid="5570729467344408506" name="timers_in_use">"<ns1:g id="NUMBER">%d</ns1:g> កម្មវិធី​កំណត់​ពេល"</string>
+    <string msgid="9140022846793903813" name="timers_max_count_reached">"ច្រើន​បំផុត​កម្មវិធី​កំណត់​ម៉ោង ៤"</string>
+    <string msgid="2393640808691864520" name="timers_stopped">"<ns1:g id="NUMBER">%d</ns1:g> កម្មវិធី​កំណត់​ពេល​បាន​ឈប់"</string>
+    <string msgid="8768042543750036853" name="volume_button_dialog_title">"បែបផែន​ប៊ូតុង"</string>
+    <string msgid="6937131248843413357" name="volume_button_setting_title">"ប៊ូតុង​កម្រិត​សំឡេង"</string>
+    <string msgid="3425804832021006835" name="weather_fetch_failure">"ថា​តើ​បច្ចុប្បន្ន​មិន​មាន​ព័ត៌មាន។"</string>
+    <string msgid="4268917518596832096" name="week_start_title">"ចាប់ផ្តើមសប្តាហ៍នៅថ្ងៃ"</string>
+    <string msgid="8648842975829470646" name="weekday_time_format_12_mode">"EEE, h:mm a"</string>
+    <string msgid="152964494051478631" name="weekday_time_format_24_mode">"EEE, k:mm"</string>
+    <string msgid="5911196322328341288" name="world_day_of_week_label">"/ <ns1:g id="LABEL">%s</ns1:g>"</string>
+    <string msgid="6963340404644587098" name="year_picker_description">"បញ្ជី​ឆ្នាំ"</string>
+    <string msgid="7102083421938355017" name="zero">"០"</string>
+</resources>

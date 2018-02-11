@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/keyguard_list_image_parent"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/keyguard_list_image_height"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/keyguard_list_item_left_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:scaleType="centerCrop" />
+
+    <Space
+        android:layout_width="@dimen/keyguard_list_image_space"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:id="@+id/keyguard_list_item_right"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/keyguard_list_item_top_right_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/keyguard_list_image_space"
+            android:layout_weight="0.32"
+            android:scaleType="centerCrop" />
+
+        <LinearLayout
+            android:id="@+id/keyguard_list_item_bottom_right_parent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.68"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/keyguard_list_item_right_bottom_image1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginRight="1dp"
+                android:scaleType="centerCrop" />
+
+            <ImageView
+                android:id="@+id/keyguard_list_item_right_bottom_image2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="1dp"
+                android:layout_weight="1"
+                android:scaleType="centerCrop" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2014 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<com.android.contacts.widget.TouchlessScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/content_scroller"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/card_margin_color"
+    android:fillViewport="true" >
+
+    <!-- All the cards should be inserted into this LinearLayout -->
+
+    <LinearLayout
+        android:id="@+id/card_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="70dp"
+        android:orientation="vertical" >
+
+        <com.android.contacts.quickcontact.ExpandingEntryCardView
+            android:id="@+id/no_contact_data_card"
+            style="@style/ExpandingEntryCardStyle"
+            android:visibility="gone"
+            cardview:cardCornerRadius="@dimen/expanding_entry_card_card_corner_radius" />
+
+        <com.android.contacts.quickcontact.PhoneExpandingEntryCardView
+            android:id="@+id/communication_card"
+            style="@style/ExpandingEntryCardStyle"
+            android:layout_marginBottom="@dimen/first_card_marginTop"
+            android:visibility="gone"
+            cardview:cardCornerRadius="@dimen/expanding_entry_card_card_corner_radius" />
+        <!--
+        <TextView 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:text="@string/mst_cancel"/>
+        -->
+
+        <com.android.contacts.quickcontact.ExpandingEntryCardView
+            android:id="@+id/recent_card"
+            style="@style/ExpandingEntryCardStyle"
+            android:visibility="gone"
+            cardview:cardCornerRadius="@dimen/expanding_entry_card_card_corner_radius" />
+
+        <com.android.contacts.quickcontact.ExpandingEntryCardView
+            android:id="@+id/about_card"
+            style="@style/ExpandingEntryCardStyle"
+            android:visibility="gone"
+            cardview:cardCornerRadius="@dimen/expanding_entry_card_card_corner_radius" />
+    </LinearLayout>
+
+</com.android.contacts.widget.TouchlessScrollView>

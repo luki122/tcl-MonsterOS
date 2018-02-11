@@ -1,0 +1,560 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:2:1-279:12
+	package
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:3:11-33
+		INJECTED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml
+		INJECTED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml
+		INJECTED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml
+		INJECTED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.BLUETOOTH
+ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:5:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:6:5-73
+	android:name
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:6:22-71
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:7:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:8:5-80
+	android:name
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:8:22-78
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:9:5-78
+	android:name
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:9:22-76
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:10:5-70
+	android:name
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:10:22-68
+uses-permission#android.permission.INTERNET
+ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:11:5-66
+	android:name
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:11:22-64
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:12:5-75
+	android:name
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:12:22-73
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:13:5-72
+	android:name
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:13:22-70
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:14:5-77
+	android:name
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:14:22-75
+uses-permission#android.permission.WRITE_MEDIA_STORAGE
+ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:15:5-77
+	android:name
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:15:22-75
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:16:5-78
+	android:name
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:16:22-76
+uses-permission#android.permission.INSTALL_PACKAGES
+ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:17:5-74
+	android:name
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:17:22-72
+permission#android.permission.MEDIA_CONTENT_CONTROL
+ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:19:5-74
+	android:name
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:19:17-72
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:21:5-80
+	android:name
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:21:22-78
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:22:5-67
+	android:name
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:22:22-65
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:23:5-74
+	android:name
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:23:22-72
+uses-permission#android.permission.DISABLE_KEYGUARD
+ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:24:5-74
+	android:name
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:24:22-72
+uses-permission#android.permission.FORCE_STOP_PACKAGES
+ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:25:5-77
+	android:name
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:25:22-75
+application
+ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:27:5-277:19
+MERGED from [com.android.support:design:23.1.0] /home/ximoon/document/git/Monster_Music/app/build/intermediates/exploded-aar/com.android.support/design/23.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.1.0] /home/ximoon/document/git/Monster_Music/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.github.clans:fab:1.6.4] /home/ximoon/document/git/Monster_Music/app/build/intermediates/exploded-aar/com.github.clans/fab/1.6.4/AndroidManifest.xml:12:5-20
+MERGED from [com.android.support:support-v4:23.1.0] /home/ximoon/document/git/Monster_Music/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:31:9-41
+	android:supportsRtl
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:32:9-35
+	android:allowBackup
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:29:9-35
+	android:icon
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:30:9-43
+	android:theme
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:33:9-40
+	android:name
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:28:9-45
+meta-data#APP_KEY
+ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:35:9-37:38
+	android:value
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:37:13-35
+	android:name
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:36:13-35
+meta-data#CHANNEL
+ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:39:9-41:43
+	android:value
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:41:9-41
+	android:name
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:40:9-31
+meta-data#SERVER_DOMAIN
+ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:43:9-45:36
+	android:value
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:45:13-33
+	android:name
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:44:13-41
+activity#cn.tcl.music.activities.MusicMainActivity
+ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:47:9-60:20
+	android:screenOrientation
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:52:13-49
+	android:label
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:50:13-45
+	android:launchMode
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:51:13-43
+	android:windowSoftInputMode
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:54:13-64
+	android:configChanges
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:49:13-57
+	android:theme
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:53:13-53
+	android:name
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:48:13-57
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:55:13-59:29
+action#android.intent.action.MAIN
+ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:56:17-68
+	android:name
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:56:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:58:17-76
+	android:name
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:58:27-74
+activity#cn.tcl.music.activities.MusicWelcomeActivity
+ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:61:9-66:55
+	android:screenOrientation
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:65:13-49
+	android:launchMode
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:64:13-43
+	android:configChanges
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:63:13-57
+	android:theme
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:66:13-53
+	android:name
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:62:13-60
+activity#cn.tcl.music.activities.CheckPermissonActivity
+ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:67:9-70:62
+	android:screenOrientation
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:69:13-49
+	android:theme
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:70:13-60
+	android:name
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:68:13-62
+activity#cn.tcl.music.activities.LocalMusicActivity
+ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:71:9-78:20
+	android:screenOrientation
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:75:13-49
+	android:launchMode
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:74:13-43
+	android:windowSoftInputMode
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:77:13-64
+	android:configChanges
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:73:13-57
+	android:theme
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:76:13-53
+	android:name
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:72:13-58
+activity#cn.tcl.music.activities.MyFavouriteMusicActivity
+ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:79:9-86:20
+	android:screenOrientation
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:83:13-49
+	android:launchMode
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:82:13-43
+	android:windowSoftInputMode
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:85:13-64
+	android:configChanges
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:81:13-57
+	android:theme
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:84:13-53
+	android:name
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:80:13-64
+activity#cn.tcl.music.activities.RecentlyPlayActivity
+ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:87:9-93:66
+	android:screenOrientation
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:91:13-49
+	android:launchMode
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:90:13-43
+	android:windowSoftInputMode
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:93:13-64
+	android:configChanges
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:89:13-57
+	android:theme
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:92:13-53
+	android:name
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:88:13-60
+activity#cn.tcl.music.activities.PlaylistDetailActivity
+ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:94:9-101:20
+	android:screenOrientation
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:98:13-49
+	android:launchMode
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:97:13-43
+	android:windowSoftInputMode
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:100:13-64
+	android:configChanges
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:96:13-57
+	android:theme
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:99:13-53
+	android:name
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:95:13-62
+activity#cn.tcl.music.activities.ScenesDetailActivity
+ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:102:9-109:20
+	android:screenOrientation
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:106:13-49
+	android:launchMode
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:105:13-43
+	android:windowSoftInputMode
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:108:13-64
+	android:configChanges
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:104:13-57
+	android:theme
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:107:13-53
+	android:name
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:103:13-60
+activity#cn.tcl.music.activities.SearchActivity
+ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:110:9-117:20
+	android:screenOrientation
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:114:13-49
+	android:launchMode
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:113:13-43
+	android:windowSoftInputMode
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:116:13-64
+	android:configChanges
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:112:13-57
+	android:theme
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:115:13-53
+	android:name
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:111:13-54
+activity#cn.tcl.music.activities.LocalAlbumListActivity
+ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:118:9-125:20
+	android:screenOrientation
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:122:13-49
+	android:launchMode
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:121:13-43
+	android:windowSoftInputMode
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:124:13-64
+	android:configChanges
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:120:13-57
+	android:theme
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:123:13-53
+	android:name
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:119:13-62
+activity#cn.tcl.music.activities.LocalAlbumDetailActivity
+ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:126:9-133:20
+	android:screenOrientation
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:130:13-49
+	android:launchMode
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:129:13-43
+	android:windowSoftInputMode
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:132:13-64
+	android:configChanges
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:128:13-57
+	android:theme
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:131:13-53
+	android:name
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:127:13-64
+activity#cn.tcl.music.activities.live.AlbumDetailActivity
+ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:134:9-141:20
+	android:screenOrientation
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:138:13-49
+	android:launchMode
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:137:13-43
+	android:windowSoftInputMode
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:140:13-64
+	android:configChanges
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:136:13-57
+	android:theme
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:139:13-53
+	android:name
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:135:13-64
+activity#cn.tcl.music.activities.FolderDetailActivity
+ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:142:9-149:20
+	android:screenOrientation
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:146:13-49
+	android:launchMode
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:145:13-43
+	android:windowSoftInputMode
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:148:13-64
+	android:configChanges
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:144:13-57
+	android:theme
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:147:13-53
+	android:name
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:143:13-60
+activity#cn.tcl.music.activities.SettingsActivity
+ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:150:9-157:20
+	android:screenOrientation
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:154:13-49
+	android:launchMode
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:153:13-43
+	android:windowSoftInputMode
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:156:13-64
+	android:configChanges
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:152:13-57
+	android:theme
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:155:13-53
+	android:name
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:151:13-56
+activity#cn.tcl.music.activities.IgnoreActivity
+ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:158:9-164:20
+	android:screenOrientation
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:162:13-49
+	android:launchMode
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:161:13-43
+	android:configChanges
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:160:13-57
+	android:theme
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:163:13-53
+	android:name
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:159:13-54
+activity#cn.tcl.music.activities.PlayingActivity
+ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:165:9-172:20
+	android:screenOrientation
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:169:13-49
+	android:launchMode
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:168:13-43
+	android:windowSoftInputMode
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:171:13-64
+	android:configChanges
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:167:13-57
+	android:theme
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:170:13-53
+	android:name
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:166:13-55
+activity#cn.tcl.music.activities.DownloadManagerActivity
+ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:173:9-180:20
+	android:screenOrientation
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:177:13-49
+	android:launchMode
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:176:13-43
+	android:windowSoftInputMode
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:179:13-64
+	android:configChanges
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:175:13-57
+	android:theme
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:178:13-53
+	android:name
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:174:13-63
+activity#cn.tcl.music.activities.live.FragmentContainerActivityV2
+ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:181:9-187:66
+	android:screenOrientation
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:185:13-49
+	android:launchMode
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:184:13-43
+	android:windowSoftInputMode
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:187:13-64
+	android:configChanges
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:183:13-57
+	android:theme
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:186:13-53
+	android:name
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:182:13-72
+activity#cn.tcl.music.activities.live.RankDetailActivity
+ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:188:9-194:66
+	android:screenOrientation
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:192:13-49
+	android:launchMode
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:191:13-43
+	android:windowSoftInputMode
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:194:13-64
+	android:configChanges
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:190:13-57
+	android:theme
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:193:13-53
+	android:name
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:189:13-63
+activity#cn.tcl.music.activities.live.NetworkBatchActivity
+ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:195:9-201:66
+	android:screenOrientation
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:199:13-49
+	android:launchMode
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:198:13-43
+	android:windowSoftInputMode
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:201:13-64
+	android:configChanges
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:197:13-57
+	android:theme
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:200:13-53
+	android:name
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:196:13-65
+activity#cn.tcl.music.activities.live.HotMusicRecommendActivity
+ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:202:9-208:66
+	android:screenOrientation
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:206:13-49
+	android:launchMode
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:205:13-43
+	android:windowSoftInputMode
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:208:13-64
+	android:configChanges
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:204:13-57
+	android:theme
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:207:13-64
+	android:name
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:203:13-70
+activity#cn.tcl.music.activities.live.SingerDetailActivity
+ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:209:9-213:51
+	android:screenOrientation
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:213:13-49
+	android:configChanges
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:211:13-57
+	android:theme
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:212:13-53
+	android:name
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:210:13-65
+activity#cn.tcl.music.activities.live.OnlinePlayListDetailActivity
+ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:214:9-220:66
+	android:screenOrientation
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:218:13-49
+	android:launchMode
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:217:13-43
+	android:windowSoftInputMode
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:220:13-64
+	android:configChanges
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:216:13-57
+	android:theme
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:219:13-53
+	android:name
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:215:13-73
+activity#cn.tcl.music.activities.live.ScenesDetailActivity
+ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:221:9-227:66
+	android:screenOrientation
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:225:13-49
+	android:launchMode
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:224:13-43
+	android:windowSoftInputMode
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:227:13-64
+	android:configChanges
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:223:13-57
+	android:theme
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:226:13-53
+	android:name
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:222:13-65
+activity#cn.tcl.music.activities.SelectSongsActivity
+ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:228:9-233:20
+	android:screenOrientation
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:231:13-49
+	android:configChanges
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:230:13-57
+	android:theme
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:232:13-53
+	android:name
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:229:13-59
+provider#cn.tcl.music.database.MediaContentProvider
+ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:234:9-237:38
+	android:authorities
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:236:13-78
+	android:exported
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:237:13-36
+	android:name
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:235:13-58
+service#cn.tcl.music.service.MusicPlayBackService
+ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:238:9-239:39
+	android:exported
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:239:13-37
+	android:name
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:238:18-62
+meta-data#TCL_SDK_DOMAIN_VERSION
+ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:241:9-243:39
+	android:value
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:243:13-36
+	android:name
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:242:13-50
+meta-data#TCL_SDK_BRAND
+ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:246:9-248:35
+	android:value
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:248:13-32
+	android:name
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:247:13-41
+meta-data#TCL_APPID
+ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:251:9-253:40
+	android:value
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:253:13-37
+	android:name
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:252:13-37
+meta-data#REDIRECT_URI
+ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:255:9-257:69
+	android:value
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:257:13-66
+	android:name
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:256:13-40
+activity#com.tcl.account.sdk.activity.WebActivity
+ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:259:9-270:20
+	android:hardwareAccelerated
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:263:13-48
+	android:windowSoftInputMode
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:265:13-55
+	android:configChanges
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:262:13-90
+	android:alwaysRetainTaskState
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:261:13-49
+	android:theme
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:264:13-53
+	android:name
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:260:13-68
+intent-filter#android.intent.category.DEFAULT+com.tcl.account.sdk.intent.web
+ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:266:13-269:29
+action#com.tcl.account.sdk.intent.web
+ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:267:17-73
+	android:name
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:267:25-70
+category#android.intent.category.DEFAULT
+ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:268:17-76
+	android:name
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:268:27-73
+activity#com.xiami.sdk.account.XMLoginActivity
+ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:271:9-275:52
+	android:screenOrientation
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:275:13-49
+	android:launchMode
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:274:13-42
+	android:configChanges
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:273:13-57
+	android:theme
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:272:19-59
+	android:name
+		ADDED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml:271:19-71
+uses-sdk
+INJECTED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [Monster_Music:cnLib:unspecified] /home/ximoon/document/git/Monster_Music/app/build/intermediates/exploded-aar/Monster_Music/cnLib/unspecified/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:multidex:1.0.1] /home/ximoon/document/git/Monster_Music/app/build/intermediates/exploded-aar/com.android.support/multidex/1.0.1/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:design:23.1.0] /home/ximoon/document/git/Monster_Music/app/build/intermediates/exploded-aar/com.android.support/design/23.1.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.1.0] /home/ximoon/document/git/Monster_Music/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.1.0] /home/ximoon/document/git/Monster_Music/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.0/AndroidManifest.xml:20:5-43
+MERGED from [com.github.clans:fab:1.6.4] /home/ximoon/document/git/Monster_Music/app/build/intermediates/exploded-aar/com.github.clans/fab/1.6.4/AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:support-v4:23.1.0] /home/ximoon/document/git/Monster_Music/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		INJECTED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml
+		INJECTED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml
+		INJECTED from /home/ximoon/document/git/Monster_Music/app/src/main/AndroidManifest.xml

@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2008 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mst="http://schemas.android.com/apk/res/com.mst"
+    android:id="@+id/rlyt_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <!-- Launch and close buttons. -->
+
+    <LinearLayout
+        android:id="@+id/buttons_panel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+         >
+
+        <!-- android:divider="?android:attr/dividerHorizontal" -->
+
+        <LinearLayout
+            style="?android:attr/buttonBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="77dip"
+            android:measureWithLargestChild="true"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:padding="20dip" >
+
+            <LinearLayout
+                android:id="@+id/leftSpacer"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.25"
+                android:orientation="horizontal"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/cxsm_button"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="0dip"
+                android:layout_height="37dip"
+                android:layout_gravity="start"
+                android:layout_marginRight="5dip"
+                android:layout_weight="1"
+                android:background="@drawable/more_btn_selector"
+                android:maxLines="2"
+                android:text="@string/lbl_cxsm"
+                android:textColor="@color/lb_dialog_text_black"
+                android:textSize="14sp"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/done_button"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="0dip"
+                android:layout_height="37dip"
+                android:layout_gravity="start"
+                android:layout_marginRight="5dip"
+                android:layout_weight="1"
+                android:background="@drawable/more_btn_selector"
+                android:maxLines="2"
+                android:text="@string/done"
+                android:textColor="@color/lb_dialog_text_black"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/yh_button"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="0dip"
+                android:layout_height="37dip"
+                android:layout_gravity="start"
+                android:layout_marginRight="5dip"
+                android:layout_weight="1"
+                android:background="@drawable/more_btn_selector"
+                android:maxLines="2"
+                android:text="@string/lbl_yh"
+                android:textColor="@color/lb_dialog_text_black"
+                android:textSize="14sp"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/launch_button"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="0dip"
+                android:layout_height="37dip"
+                android:layout_gravity="end"
+                android:layout_marginLeft="5dip"
+                android:layout_weight="1"
+                android:background="@drawable/more_btn_selector"
+                android:maxLines="2"
+                android:text="@string/launch"
+                android:textColor="@color/lb_dialog_text_black"
+                android:textSize="14sp" />
+            
+            <Button
+                android:id="@+id/jx_button"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="0dip"
+                android:layout_height="37dip"
+                android:layout_gravity="start"
+                android:layout_marginRight="5dip"
+                android:layout_weight="1"
+                android:background="@drawable/more_btn_selector"
+                android:maxLines="2"
+                android:text="@string/lbl_jx"
+                android:textColor="@color/lb_dialog_text_black"
+                android:textSize="14sp"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/xz_button"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="0dip"
+                android:layout_height="37dip"
+                android:layout_gravity="end"
+                android:layout_marginLeft="5dip"
+                android:layout_weight="1"
+                android:background="@drawable/more_btn_selector"
+                android:maxLines="2"
+                android:text="@string/lbl_xz"
+                android:textColor="@color/lb_dialog_text_black"
+                android:textSize="14sp" 
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@+id/rightSpacer"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.25"
+                android:orientation="horizontal"
+                android:visibility="gone" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <include
+        android:id="@+id/app_snippet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        layout="@layout/app_details" />
+    
+    <FrameLayout
+        android:id="@+id/top_divider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/app_snippet"
+        android:paddingStart="20dip"
+        android:paddingEnd="20dip"
+        android:paddingTop="15dip" >
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            style="@com.mst:style/Widget.Mst.Material.Light.ProgressBar.Horizontal" 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- style="@com.mst:style/Widget.Mst.Material.Light.ProgressBar.Horizontal" -->
+        
+        <!--  style="?android:attr/progressBarStyleHorizontal" -->
+    </FrameLayout>
+    
+
+    <TextView
+        android:id="@+id/center_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/top_divider"
+        android:gravity="start"
+        android:paddingEnd="20dip"
+        android:paddingStart="20dip"
+        android:paddingTop="2dip"
+        android:text="@string/installing"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="16sp" />
+
+    <!-- This explanation text is shown only after the progress bar below goes away. -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/buttons_panel"
+        android:layout_alignParentTop="true" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <include
+                android:id="@+id/llty_app_complete"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                layout="@layout/app_new_complete"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/center_explanation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/llty_app_complete"
+                android:gravity="center_horizontal"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:visibility="gone" />
+            
+            <TextView android:id="@+id/explanation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <include
+                android:id="@+id/app_optimization"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/center_explanation"
+                layout="@layout/app_optimization"
+                android:visibility="gone" />
+            
+            <include
+                android:id="@+id/app_yh_complete"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/center_explanation"
+                layout="@layout/app_yh_complete"
+                android:visibility="gone" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,1225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TextAppearance.Mst.Material" parent="android:TextAppearance.Material">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textColorHint">?android:attr/textColorHint</item>
+        <item name="android:textColorHighlight">?android:attr/textColorHighlight</item>
+        <item name="android:textColorLink">?android:attr/textColorLink</item>
+        <item name="android:textSize">@dimen/text_size_body_1_material</item>
+        <item name="android:fontFamily">@string/font_family_body_1_material</item>
+    </style>
+
+    <style name="TextAppearance.Mst.Material.Inverse">
+        <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
+        <item name="android:textColorHint">?android:attr/textColorHintInverse</item>
+        <item name="android:textColorHighlight">?android:attr/textColorHighlightInverse</item>
+        <item name="android:textColorLink">?android:attr/textColorLinkInverse</item>
+    </style>
+
+    <style name="TextAppearance.Mst.Material.Large">
+        <item name="android:textSize">@dimen/text_size_large_material</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="TextAppearance.Mst.Material.Large.Inverse">
+        <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
+        <item name="android:textColorHint">?android:attr/textColorHintInverse</item>
+        <item name="android:textColorHighlight">?android:attr/textColorHighlightInverse</item>
+        <item name="android:textColorLink">?android:attr/textColorLinkInverse</item>
+    </style>
+
+    <style name="TextAppearance.Mst.Material.Medium">
+        <item name="android:textSize">@dimen/text_size_medium_material</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+
+    <style name="TextAppearance.Mst.Material.Medium.Inverse">
+        <item name="android:textColor">?android:attr/textColorSecondaryInverse</item>
+        <item name="android:textColorHint">?android:attr/textColorHintInverse</item>
+        <item name="android:textColorHighlight">?android:attr/textColorHighlightInverse</item>
+        <item name="android:textColorLink">?android:attr/textColorLinkInverse</item>
+    </style>
+
+    <style name="TextAppearance.Mst.Material.Small">
+        <item name="android:textSize">@dimen/text_size_small_material</item>
+        <item name="android:textColor">?android:attr/textColorTertiary</item>
+    </style>
+
+    <style name="TextAppearance.Mst.Material.Small.Inverse">
+        <item name="android:textColor">?android:attr/textColorTertiaryInverse</item>
+        <item name="android:textColorHint">?android:attr/textColorHintInverse</item>
+        <item name="android:textColorHighlight">?android:attr/textColorHighlightInverse</item>
+        <item name="android:textColorLink">?android:attr/textColorLinkInverse</item>
+    </style>
+
+    <style name="TextAppearance.Mst.Material.Widget" />
+    <!-- Button -->
+    <style name="TextAppearance.Mst.Material.Button">
+        <item name="android:textSize">@dimen/text_size_button_material</item>
+        <item name="android:fontFamily">@string/font_family_button_material</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="TextAppearance.Mst.Material.Button.black"  parent="TextAppearance.Mst.Material.Button">
+        <item name="android:textColor">@color/btn_text_color_black_selector</item>
+    </style>    
+    
+    <style name="TextAppearance.Mst.Material.Button.white"  parent="TextAppearance.Mst.Material.Button">
+        <item name="android:textColor">@color/btn_text_color_white_selector</item>
+    </style>    
+    
+    <style name="TextAppearance.Mst.Material.Widget.Button" parent="TextAppearance.Mst.Material.Button" />
+
+    <style name="TextAppearance.Mst.Material.Widget.Button.Inverse">
+        <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
+    </style>
+
+    <!-- Menu -->
+    <style name="TextAppearance.Mst.Material.Menu">
+        <item name="android:textSize">@dimen/text_size_menu_material</item>
+        <item name="android:fontFamily">@string/font_family_menu_material</item>
+    </style>
+
+    <style name="TextAppearance.Mst.Material.Widget.PopupMenu" />
+
+    <style name="TextAppearance.Mst.Material.Widget.PopupMenu.Large" parent="TextAppearance.Mst.Material.Menu" />
+
+    <style name="TextAppearance.Mst.Material.Widget.PopupMenu.Small" parent="TextAppearance.Mst.Material.Menu" />
+
+    <!-- Widget -->
+    <style name="Widget.Mst.Material" parent="android:Widget.Material" />
+
+    <style name="Widget.Mst.Material.Light" parent="Widget.Mst.Material" />
+    <!-- Bordered ink button -->
+    <style name="Widget.Mst.Material.Button">
+        <item name="android:background">@drawable/btn_default_material</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceButton</item>
+        <item name="android:minHeight">48dip</item>
+        <item name="android:minWidth">88dip</item>
+        <item name="android:stateListAnimator">@anim/button_state_list_anim_material</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+    </style>
+
+    <style name="Widget.Mst.Material.Button.New">
+        <item name="android:background">@drawable/btn_background_material</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceButton</item>
+        <item name="android:minHeight">29dp</item>
+        <item name="android:minWidth">47dp</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:focusable">true</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="Widget.Mst.Material.Button.Black">
+        <item name="android:background">@null</item>
+        <item name="android:textAppearance">@style/TextAppearance.Mst.Material.Button.white</item>
+        <item name="android:minHeight">29dp</item>
+        <item name="android:minWidth">47dp</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:textAlignment">center</item>
+    </style>    
+    
+    <style name="Widget.Mst.Material.PreferenceFrameLayout">
+        <item name="borderTop">0dip</item>
+        <item name="borderBottom">@dimen/preference_fragment_padding_bottom</item>
+        <item name="borderLeft">?attr/preferenceFragmentPaddingSide</item>
+        <item name="borderRight">?attr/preferenceFragmentPaddingSide</item>
+    </style>
+
+    <style name="Widget.Mst.Material.AutoCompleteTextView" parent="android:Widget.AutoCompleteTextView">
+        <item name="android:dropDownSelector">?android:attr/listChoiceBackgroundIndicator</item>
+        <item name="android:popupBackground">@drawable/popup_background_material</item>
+        <item name="android:popupElevation">@dimen/floating_window_z</item>
+    </style>
+
+    <style name="TextAppearance.Mst.Material.Widget.TabWidget" parent="TextAppearance.Mst.Material.Button">
+        <item name="android:textColor">@color/tab_indicator_text_material</item>
+    </style>
+
+    <style name="Widget.Mst.Material.TabWidget">
+        <item name="android:textAppearance">@style/TextAppearance.Mst.Material.Widget.TabWidget</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:tabStripLeft">@empty</item>
+        <item name="android:tabStripRight">@empty</item>
+        <item name="android:tabStripEnabled">false</item>
+        <item name="android:divider">?android:attr/dividerVertical</item>
+        <item name="android:gravity">fill_horizontal|center_vertical</item>
+        <item name="android:showDividers">none</item>
+        <item name="android:dividerPadding">8dip</item>
+        <item name="android:measureWithLargestChild">true</item>
+        <!-- replace android's tabLayout -->
+        <item name="tabLayout">@layout/tab_indicator_material</item>
+    </style>
+
+    <style name="Widget.Mst.Material.Tab" parent="android:Widget.Material.ActionBar.TabView">
+        <item name="android:background">@drawable/tab_indicator_material</item>
+        <item name="android:layout_width">0dip</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:minWidth">80dip</item>
+    </style>
+
+    <style name="Widget.Mst.Material.TabText" parent="android:Widget.Material.ActionBar.TabText">
+        <item name="android:textAppearance">@style/TextAppearance.Mst.Material.Widget.TabWidget</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:maxWidth">180dip</item>
+    </style>
+
+    <!-- ListView -->
+    <style name="Widget.Mst.Material.ListView" parent="android:Widget.ListView">
+        <item name="android:divider">?android:attr/listDivider</item>
+        <item name="android:listSelector">?android:attr/listChoiceBackgroundIndicator</item>
+    </style>
+
+    <style name="Widget.Mst.Material.ListView.DropDown">
+        <item name="android:divider">@null</item>
+    </style>
+
+    <style name="TextAppearance.Mst.Material.Display4">
+        <item name="android:textSize">@dimen/text_size_display_4_material</item>
+        <item name="android:fontFamily">@string/font_family_display_4_material</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+
+    <style name="TextAppearance.Mst.Material.Display3">
+        <item name="android:textSize">@dimen/text_size_display_3_material</item>
+        <item name="android:fontFamily">@string/font_family_display_3_material</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+
+    <style name="TextAppearance.Mst.Material.Display2">
+        <item name="android:textSize">@dimen/text_size_display_2_material</item>
+        <item name="android:fontFamily">@string/font_family_display_2_material</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+
+    <style name="TextAppearance.Mst.Material.Display1">
+        <item name="android:textSize">@dimen/text_size_display_1_material</item>
+        <item name="android:fontFamily">@string/font_family_display_1_material</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+
+    <style name="TextAppearance.Mst.Material.Headline">
+        <item name="android:textSize">@dimen/text_size_headline_material</item>
+        <item name="android:fontFamily">@string/font_family_headline_material</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="TextAppearance.Mst.Material.Title">
+        <item name="android:textSize">@dimen/text_size_title_material</item>
+        <item name="android:fontFamily">@string/font_family_title_material</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="TextAppearance.Mst.Material.Title.Inverse">
+        <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
+        <item name="android:textColorHint">?android:attr/textColorHintInverse</item>
+        <item name="android:textColorHighlight">?android:attr/textColorHighlightInverse</item>
+        <item name="android:textColorLink">?android:attr/textColorLinkInverse</item>
+    </style>
+
+    <style name="TextAppearance.Mst.Material.Subhead">
+        <item name="android:textSize">@dimen/text_size_subhead_material</item>
+        <item name="android:fontFamily">@string/font_family_subhead_material</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="TextAppearance.Mst.Material.Subhead.Inverse">
+        <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
+        <item name="android:textColorHint">?android:attr/textColorHintInverse</item>
+        <item name="android:textColorHighlight">?android:attr/textColorHighlightInverse</item>
+        <item name="android:textColorLink">?android:attr/textColorLinkInverse</item>
+    </style>
+
+    <style name="TextAppearance.Mst.Material.Body2">
+        <item name="android:textSize">@dimen/text_size_body_2_material</item>
+        <item name="android:fontFamily">@string/font_family_body_2_material</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="TextAppearance.Mst.Material.Body1">
+        <item name="android:textSize">@dimen/text_size_body_1_material</item>
+        <item name="android:fontFamily">@string/font_family_body_1_material</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="TextAppearance.Mst.Material.Caption">
+        <item name="android:textSize">@dimen/text_size_caption_material</item>
+        <item name="android:fontFamily">@string/font_family_caption_material</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+
+    <style name="TextAppearance.Mst.Material.Caption2">
+        <item name="android:textSize">@dimen/text_size_caption_material2</item>
+        <item name="android:fontFamily">@string/font_family_caption_material</item>
+        <item name="android:textColor">@color/text_default_color_light_caption2</item>
+    </style>
+
+    <style name="TextAppearance.Mst.Material.Menu.Inverse">
+        <item name="android:textColor">?android:attr/textColorSecondaryInverse</item>
+        <item name="android:textColorHint">?android:attr/textColorHintInverse</item>
+        <item name="android:textColorHighlight">?android:attr/textColorHighlightInverse</item>
+        <item name="android:textColorLink">?android:attr/textColorLinkInverse</item>
+    </style>
+
+    <style name="TextAppearance.Mst.Material.Widget.Switch" parent="TextAppearance.Mst.Material.Button" />
+
+    <style name="TextAppearance.Mst.Material.Widget.DropDownItem" parent="TextAppearance.Mst.Material.Menu">
+        <item name="android:textColor">?android:attr/textColorPrimaryDisableOnly</item>
+    </style>
+
+    <!-- Small bordered ink button -->
+    <style name="Widget.Mst.Material.Button.Small">
+        <item name="android:minHeight">48dip</item>
+        <item name="android:minWidth">48dip</item>
+    </style>
+
+    <!-- Borderless ink button -->
+    <style name="Widget.Mst.Material.Button.Borderless">
+        <item name="android:background">?android:attr/selectableItemBackground</item>
+        <item name="android:stateListAnimator">@null</item>
+    </style>
+
+    <!-- Colored borderless ink button -->
+    <style name="Widget.Mst.Material.Button.Borderless.Colored">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@string/font_family_button_material</item>
+        <item name="android:padding">0dp</item>
+    </style>
+
+    <!-- Alert dialog button bar button -->
+    <style name="Widget.Mst.Material.Button.ButtonBar.AlertDialog" parent="Widget.Mst.Material.Button.Borderless.Colored">
+        <item name="android:minWidth">64dp</item>
+        <item name="android:minHeight">@dimen/alert_dialog_button_bar_height</item>
+    </style>
+
+    <!-- Small borderless ink button -->
+    <style name="Widget.Mst.Material.Button.Borderless.Small">
+        <item name="android:minHeight">48dip</item>
+        <item name="android:minWidth">48dip</item>
+    </style>
+
+    <style name="Widget.Mst.Material.Button.Inset">
+        <item name="android:background">@drawable/button_inset</item>
+    </style>
+
+    <style name="Widget.Mst.Material.ButtonBar">
+        <item name="android:background">?android:attr/selectableItemBackground</item>
+        <item name="android:stateListAnimator">@null</item>
+    </style>
+
+    <style name="Widget.Mst.Material.ButtonBar.AlertDialog" />
+
+    <style name="Widget.Mst.Material.SearchView">
+        <item name="android:layout">@layout/search_view</item>
+        <item name="android:queryBackground">@android:color/transparent</item>
+        <item name="android:submitBackground">@drawable/textfield_search_material</item>
+        <item name="android:closeIcon">@drawable/ic_clear_material</item>
+        <item name="android:searchIcon">@drawable/ic_toolbar_search</item>
+        <item name="android:searchHintIcon">@drawable/ic_search_api_material</item>
+        <item name="android:goIcon">@drawable/ic_go_search_api_material</item>
+        <item name="android:voiceIcon">@drawable/ic_voice_search_api_material</item>
+        <item name="android:commitIcon">@drawable/ic_commit_search_api_material</item>
+        <item name="android:suggestionRowLayout">@layout/search_dropdown_item_icons_2line</item>
+    </style>
+
+    <style name="Widget.Mst.Material.CompoundButton" parent="android:Widget.CompoundButton" />
+
+    <style name="Widget.Mst.Material.CompoundButton.CheckBox" parent="android:Widget.CompoundButton.CheckBox">
+        <item name="android:background">@null</item>
+    </style>
+
+    <style name="Widget.Mst.Material.CompoundButton.RadioButton" parent="android:Widget.CompoundButton.RadioButton">
+        <item name="android:background">@null</item>
+    </style>
+
+    <style name="Widget.Mst.Material.CompoundButton.Switch">
+        <item name="android:track">@drawable/switch_track_material</item>
+        <item name="android:thumb">@drawable/switch_thumb_material_anim</item>
+        <item name="android:switchTextAppearance">@style/TextAppearance.Mst.Material.Widget.Switch</item>
+        <item name="android:textOn">@string/capital_on</item>
+        <item name="android:textOff">@string/capital_off</item>
+        <item name="android:background">@null</item>
+        <item name="android:showText">false</item>
+    </style>
+
+    <style name="Widget.Mst.Material.CompoundButton.Switch1">
+        <item name="android:button">@drawable/switch_track_material1</item>
+        <item name="android:switchTextAppearance">@style/TextAppearance.Mst.Material.Widget.Switch</item>
+        <item name="android:textOn">@string/capital_on</item>
+        <item name="android:textOff">@string/capital_off</item>
+        <item name="android:background">@drawable/control_background_40dp_material</item>
+        <item name="android:showText">false</item>
+    </style>
+
+    <style name="Widget.Mst.TextView.ListSeparator" parent="android:Widget.TextView">
+        <item name="android:background">@*android:drawable/dark_header_dither</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingStart">8dip</item>
+    </style>
+
+    <style name="Widget.Mst.Material.TextView.ListSeparator" parent="Widget.Mst.TextView.ListSeparator">
+        <item name="android:background">@drawable/list_section_divider_material</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="TextAppearance.Mst.Material.Widget.TextView.SpinnerItem" parent="TextAppearance.Mst.Material.Menu" />
+
+    <style name="Widget.Mst.Material.TextView.SpinnerItem" parent="android:Widget.TextView.SpinnerItem">
+        <item name="android:textAppearance">@style/TextAppearance.Mst.Material.Widget.TextView.SpinnerItem</item>
+        <item name="android:paddingStart">8dp</item>
+        <item name="android:paddingEnd">8dp</item>
+    </style>
+
+    <style name="TextAppearance.Mst.Material.Widget.DropDownHint" parent="TextAppearance.Mst.Material.Menu" />
+
+    <style name="Widget.Mst.Material.Spinner" parent="android:Widget.Spinner.DropDown">
+        <item name="android:background">@drawable/spinner_background_material</item>
+        <item name="android:dropDownSelector">?android:attr/listChoiceBackgroundIndicator</item>
+        <item name="android:popupBackground">@drawable/popup_background_material</item>
+        <item name="android:popupElevation">@dimen/floating_window_z</item>
+        <item name="android:popupAnimationStyle">@empty</item>
+        <item name="popupEnterTransition">@transition/popup_window_enter</item>
+        <item name="popupExitTransition">@transition/popup_window_exit</item>
+        <item name="android:dropDownVerticalOffset">0dip</item>
+        <item name="android:dropDownHorizontalOffset">0dip</item>
+        <item name="android:overlapAnchor">true</item>
+        <item name="android:dropDownWidth">wrap_content</item>
+        <item name="popupPromptView">@layout/simple_dropdown_hint</item>
+        <item name="android:gravity">start|center_vertical</item>
+        <item name="disableChildrenWhenDisabled">true</item>
+    </style>
+
+    <style name="Widget.Mst.Material.Spinner.DropDown" />
+
+    <style name="Widget.Mst.Material.Spinner.DropDown.ActionBar" parent="android:Widget.Material.PopupMenu.Overflow">
+        <item name="android:dropDownVerticalOffset">15dip</item>
+        <item name="android:dropDownHorizontalOffset">-48dip</item>
+    </style>
+
+    <style name="Widget.Mst.Material.Spinner.Underlined">
+        <item name="android:background">@drawable/spinner_textfield_background_material</item>
+    </style>
+
+    <!-- Style for the small popup windows that contain text selection anchors. -->
+    <style name="Widget.Mst.TextSelectHandle" parent="android:Widget">
+        <item name="android:popupAnimationStyle">@*android:style/Animation.TextSelectHandle</item>
+    </style>
+
+    <!-- Style for the popup window that contains text suggestions. -->
+    <style name="Widget.Mst.TextSuggestionsPopupWindow" parent="android:Widget">
+        <item name="android:dropDownSelector">@android:drawable/list_selector_background</item>
+        <item name="android:popupBackground">@*android:drawable/text_edit_suggestions_window</item>
+        <item name="android:dropDownWidth">wrap_content</item>
+    </style>
+
+    <style name="Widget.Mst.Material.TextSuggestionsPopupWindow" parent="Widget.Mst.TextSuggestionsPopupWindow" />
+
+    <style name="Widget.Mst.Material.TextSelectHandle" parent="Widget.Mst.TextSelectHandle" />
+
+    <style name="Widget.Mst.Material.Light.CompoundButton" parent="Widget.Mst.Material.CompoundButton" />
+
+    <style name="Widget.Mst.Material.Light.CompoundButton.CheckBox" parent="Widget.Mst.Material.CompoundButton.CheckBox" />
+
+    <style name="Widget.Mst.Material.Light.CompoundButton.RadioButton" parent="Widget.Mst.Material.CompoundButton.RadioButton" />
+
+    <style name="Widget.Mst.Material.Light.CompoundButton.Switch" parent="Widget.Mst.Material.CompoundButton.Switch" />
+
+    <style name="Widget.Mst.Material.Light.Button" parent="Widget.Mst.Material.Button" />
+
+    <style name="Widget.Mst.Material.Light.Button.Small" parent="Widget.Mst.Material.Button.Small" />
+
+    <style name="Widget.Mst.Material.Light.Button.Borderless" parent="Widget.Mst.Material.Button.Borderless" />
+
+    <style name="Widget.Mst.Material.Light.Button.Borderless.Colored" parent="Widget.Mst.Material.Button.Borderless.Colored" />
+
+    <style name="Widget.Mst.Material.Light.Button.ButtonBar.AlertDialog" parent="Widget.Mst.Material.Button.ButtonBar.AlertDialog" />
+
+    <style name="Widget.Mst.Material.Light.Button.Borderless.Small" parent="Widget.Mst.Material.Button.Borderless.Small" />
+
+    <style name="Widget.Mst.Material.Light.Button.Inset" parent="Widget.Mst.Material.Button.Inset" />
+
+    <style name="Widget.Mst.Material.Light.ButtonBar" parent="Widget.Mst.Material.ButtonBar" />
+
+    <style name="Widget.Mst.Material.Light.ButtonBar.AlertDialog" parent="Widget.Mst.Material.ButtonBar.AlertDialog" />
+
+    <style name="Widget.Mst.Material.Light.SearchView" parent="Widget.Mst.Material.SearchView" />
+
+    <style name="Widget.Mst.Material.Light.TextView" parent="android:Widget.Material.TextView" />
+
+    <style name="Widget.Mst.Material.Light.TextView.ListSeparator" parent="Widget.Mst.Material.TextView.ListSeparator" />
+
+    <style name="Widget.Mst.Material.Light.TextView.SpinnerItem" parent="Widget.Mst.Material.TextView.SpinnerItem" />
+
+    <style name="Widget.Mst.Material.Light.CheckedTextView" parent="android:Widget.Material.CheckedTextView" />
+
+    <style name="Widget.Mst.Material.Light.TextSelectHandle" parent="Widget.Mst.Material.TextSelectHandle" />
+
+    <style name="Widget.Mst.Material.Light.TextSuggestionsPopupWindow" parent="Widget.Mst.Material.TextSuggestionsPopupWindow" />
+
+    <style name="Widget.Mst.Material.Light.ListView.DropDown" parent="Widget.Mst.Material.ListView.DropDown" />
+
+    <style name="Widget.Mst.Material.Light.EditText" parent="android:Widget.Material.EditText" />
+
+    <style name="Widget.Mst.Material.Light.Spinner" parent="Widget.Mst.Material.Spinner" />
+
+    <style name="Widget.Mst.Material.Light.Spinner.DropDown" parent="Widget.Mst.Material.Spinner.DropDown" />
+
+    <style name="Widget.Mst.Material.Light.Spinner.DropDown.ActionBar" parent="Widget.Mst.Material.Spinner.DropDown.ActionBar" />
+
+    <style name="Widget.Mst.Material.Light.Spinner.Underlined" parent="Widget.Mst.Material.Spinner.Underlined" />
+
+    <style name="Widget.Mst.Material.Light.ListView" parent="android:Widget.Material.ListView">
+        <item name="android:divider">?android:attr/listDivider</item>
+        <item name="android:listSelector">?android:attr/listChoiceBackgroundIndicator</item>
+    </style>
+
+    <style name="Widget.Mst.Material.Light.PopupWindow" parent="android:Widget.Material.PopupWindow">
+        <item name="android:popupBackground">@drawable/editbox_dropdown_background_dark</item>
+        <item name="android:popupAnimationStyle">@*android:style/Animation.PopupWindow</item>
+    </style>
+
+    <style name="Widget.Mst.Material.Light.ProgressBar" parent="android:Widget.Material.ProgressBar">
+        <item name="android:indeterminateDrawable">@drawable/progress_medium_material</item>
+    </style>
+
+    <style name="Widget.Mst.Material.Light.ProgressBar.Horizontal" parent="android:Widget.Material.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progress_horizontal_material</item>
+        <item name="android:indeterminateDrawable">@drawable/progress_indeterminate_horizontal_material</item>
+        <item name="android:minHeight">16dip</item>
+        <item name="android:maxHeight">16dip</item>
+    </style>
+
+    <style name="Widget.Mst.Material.Light.ProgressBar.Small" parent="android:Widget.Material.ProgressBar.Small">
+        <item name="android:indeterminateDrawable">@drawable/progress_small_material</item>
+    </style>
+
+    <style name="Widget.Mst.Material.Light.ProgressBar.Small.Title" />
+
+    <style name="Widget.Mst.Material.Light.ProgressBar.Large" parent="android:Widget.Material.ProgressBar.Large">
+        <item name="android:indeterminateDrawable">@drawable/progress_large_material</item>
+    </style>
+
+    <style name="Widget.Mst.Material.Light.ProgressBar.Inverse" />
+
+    <style name="Widget.Mst.Material.Light.ProgressBar.Small.Inverse" />
+
+    <style name="Widget.Mst.Material.Light.ProgressBar.Large.Inverse" />
+
+    <style name="Widget.Mst.Material.Light.SeekBar" parent="android:Widget.Material.SeekBar">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/seekbar_track_material</item>
+        <item name="android:indeterminateDrawable">@drawable/seekbar_track_material</item>
+        <item name="android:splitTrack">true</item>
+        <item name="android:thumb">@drawable/seekbar_thumb_unpressed_to_pressed</item>
+        <item name="android:focusable">true</item>
+        <item name="android:paddingStart">16dip</item>
+        <item name="android:paddingEnd">16dip</item>
+        <item name="android:mirrorForRtl">true</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="Widget.Mst.Material.Light.TabWidget" parent="Widget.Mst.Material.TabWidget" />
+
+    <style name="Widget.Material.Light.TextView" parent="android:Widget.Material.TextView">
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:textSelectHandleLeft">?android:attr/textSelectHandleLeft</item>
+        <item name="android:textSelectHandleRight">?android:attr/textSelectHandleRight</item>
+        <item name="android:textSelectHandle">?android:attr/textSelectHandle</item>
+        <item name="android:textEditPasteWindowLayout">?android:attr/textEditPasteWindowLayout</item>
+        <item name="android:textEditNoPasteWindowLayout">?android:attr/textEditNoPasteWindowLayout</item>
+        <item name="android:textEditSidePasteWindowLayout">?android:attr/textEditSidePasteWindowLayout</item>
+        <item name="android:textEditSideNoPasteWindowLayout">?android:attr/textEditSideNoPasteWindowLayout</item>
+        <item name="android:textEditSuggestionItemLayout">?android:attr/textEditSuggestionItemLayout</item>
+        <item name="android:textCursorDrawable">?android:attr/textCursorDrawable</item>
+        <item name="android:breakStrategy">high_quality</item>
+        <item name="android:hyphenationFrequency">normal</item>
+    </style>
+
+    <style name="Widget.Mst.Material.Light.DropDownItem" parent="android:Widget.Material.DropDownItem">
+        <item name="android:textAppearance">@style/TextAppearance.Mst.Material.Widget.DropDownItem</item>
+        <item name="android:paddingStart">8dp</item>
+        <item name="android:paddingEnd">8dp</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="Widget.Mst.Material.DropDownItem">
+        <item name="android:textAppearance">@style/TextAppearance.Mst.Material.Widget.DropDownItem</item>
+        <item name="android:paddingStart">18dp</item>
+        <item name="android:paddingEnd">18dp</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="Widget.Mst.Material.DropDownItem.Spinner" />
+
+    <style name="Widget.Mst.Material.Light.DropDownItem.Spinner" parent="Widget.Mst.Material.DropDownItem.Spinner" />
+
+    <!-- Window Title -->
+    <style name="TextAppearance.Mst.Material.WindowTitle" parent="TextAppearance.Mst.Material.Title" />
+
+    <style name="Animation.Mst.Material.Activity" parent="android:Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/activity_open_enter</item>
+        <item name="android:activityOpenExitAnimation">@anim/activity_open_exit</item>
+        <item name="android:activityCloseEnterAnimation">@anim/activity_close_enter</item>
+        <item name="android:activityCloseExitAnimation">@anim/activity_close_exit</item>
+        <item name="android:taskOpenEnterAnimation">@anim/task_open_enter</item>
+        <item name="android:taskOpenExitAnimation">@anim/task_open_exit</item>
+        <item name="android:launchTaskBehindTargetAnimation">@anim/launch_task_behind_target</item>
+        <item name="android:launchTaskBehindSourceAnimation">@anim/launch_task_behind_source</item>
+        <item name="android:taskCloseEnterAnimation">@anim/task_close_enter</item>
+        <item name="android:taskCloseExitAnimation">@anim/task_close_exit</item>
+        <item name="android:taskToFrontEnterAnimation">@anim/task_open_enter</item>
+        <item name="android:taskToFrontExitAnimation">@anim/task_open_exit</item>
+        <item name="android:taskToBackEnterAnimation">@anim/task_close_enter</item>
+        <item name="android:taskToBackExitAnimation">@anim/task_close_exit</item>
+        <item name="android:wallpaperOpenEnterAnimation">@anim/wallpaper_open_enter</item>
+        <item name="android:wallpaperOpenExitAnimation">@anim/wallpaper_open_exit</item>
+        <item name="android:wallpaperCloseEnterAnimation">@anim/wallpaper_close_enter</item>
+        <item name="android:wallpaperCloseExitAnimation">@anim/wallpaper_close_exit</item>
+        <item name="android:wallpaperIntraOpenEnterAnimation">@anim/wallpaper_intra_open_enter</item>
+        <item name="android:wallpaperIntraOpenExitAnimation">@anim/wallpaper_intra_open_exit</item>
+        <item name="android:wallpaperIntraCloseEnterAnimation">@anim/wallpaper_intra_close_enter</item>
+        <item name="android:wallpaperIntraCloseExitAnimation">@anim/wallpaper_intra_close_exit</item>
+        <item name="android:fragmentOpenEnterAnimation">@animator/fragment_open_enter</item>
+        <item name="android:fragmentOpenExitAnimation">@animator/fragment_open_exit</item>
+        <item name="android:fragmentFadeEnterAnimation">@animator/fragment_fade_enter</item>
+        <item name="android:fragmentFadeExitAnimation">@animator/fragment_fade_exit</item>
+    </style>
+
+    <!-- Dialog styles -->
+
+    <style name="Animation.Mst.Material.Dialog" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/popup_enter_material</item>
+        <item name="android:windowExitAnimation">@anim/popup_exit_material</item>
+    </style>
+
+    <style name="TextAppearance.Mst.Material.DialogWindowTitle" parent="TextAppearance.Mst.Material.Title" >
+        <item name="android:textSize">17sp</item>
+        <item name="android:fontFamily">@string/font_family_dialog_title_material</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="DialogWindowTitle" />
+
+    <style name="DialogWindowTitle.Mst" />
+
+    <style name="DialogWindowTitle.Mst.Material">
+        <item name="android:maxLines">1</item>
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:textAppearance">@style/TextAppearance.Mst.Material.DialogWindowTitle</item>
+    </style>
+
+    <style name="DialogWindowTitleBackground" />
+
+    <style name="DialogWindowTitleBackground.Mst" />
+
+    <style name="DialogWindowTitleBackground.Mst.Material">
+        <item name="android:background">@null</item>
+        <item name="android:paddingStart">?android:attr/dialogPreferredPadding</item>
+        <item name="android:paddingEnd">?android:attr/dialogPreferredPadding</item>
+        <item name="android:paddingTop">@dimen/dialog_padding_top_material</item>
+    </style>
+
+    <!-- Theme overlay that overrides window properties to display as a dialog. -->
+    <style name="ThemeOverlay.Mst.Material.Dialog" parent="android:ThemeOverlay.Material.Dialog">
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:colorBackground">?android:attr/colorBackgroundFloating</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowTitleStyle">@style/DialogWindowTitle.Mst.Material</item>
+        <item name="android:windowTitleBackgroundStyle">@style/DialogWindowTitleBackground.Mst.Material</item>
+        <item name="android:windowBackground">@drawable/dialog_background_material</item>
+        <item name="android:windowElevation">@dimen/floating_window_z</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@style/Animation.Mst.Material.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowCloseOnTouchOutside">@bool/config_closeDialogWhenTouchOutside</item>
+        <item name="android:listPreferredItemPaddingLeft">?android:attr/dialogPreferredPadding</item>
+        <item name="android:listPreferredItemPaddingRight">?android:attr/dialogPreferredPadding</item>
+        <item name="android:listPreferredItemPaddingStart">?android:attr/dialogPreferredPadding</item>
+        <item name="android:listPreferredItemPaddingEnd">?android:attr/dialogPreferredPadding</item>
+        <item name="android:listDivider">@null</item>
+        <item name="preferencePanelStyle">@style/PreferencePanel.Dialog</item>
+    </style>
+
+    <style name="Mst.Material.WrapDialog" parent="android:ThemeOverlay.Material.Dialog">
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:colorBackground">?android:attr/colorBackgroundFloating</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowTitleStyle">@style/DialogWindowTitle.Mst.Material</item>
+        <item name="android:windowTitleBackgroundStyle">@style/DialogWindowTitleBackground.Mst.Material</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:windowElevation">@dimen/floating_window_z</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@style/Animation.Mst.Material.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowCloseOnTouchOutside">@bool/config_closeDialogWhenTouchOutside</item>
+        <item name="android:listPreferredItemPaddingLeft">?android:attr/dialogPreferredPadding</item>
+        <item name="android:listPreferredItemPaddingRight">?android:attr/dialogPreferredPadding</item>
+        <item name="android:listPreferredItemPaddingStart">?android:attr/dialogPreferredPadding</item>
+        <item name="android:listPreferredItemPaddingEnd">?android:attr/dialogPreferredPadding</item>
+        <item name="android:listDivider">@null</item>
+        <item name="preferencePanelStyle">@style/PreferencePanel.Dialog</item>
+    </style>
+
+    <style name="ThemeOverlay.Mst.Material.Dialog.Alert">
+        <item name="android:windowMinWidthMajor">@dimen/dialog_min_width_major</item>
+        <item name="android:windowMinWidthMinor">@dimen/dialog_min_width_minor</item>
+    </style>
+
+    <style name="AlertDialog" />
+
+    <style name="AlertDialog.Mst" />
+
+    <style name="AlertDialog.Mst.Material">
+        <item name="fullDark">@empty</item>
+        <item name="topDark">@empty</item>
+        <item name="centerDark">@empty</item>
+        <item name="bottomDark">@empty</item>
+        <item name="fullBright">@empty</item>
+        <item name="topBright">@empty</item>
+        <item name="centerBright">@empty</item>
+        <item name="bottomBright">@empty</item>
+        <item name="bottomMedium">@empty</item>
+        <item name="centerMedium">@empty</item>
+        <item name="layout">@layout/alert_dialog_material</item>
+        <item name="listLayout">@layout/select_dialog_material</item>
+        <item name="progressLayout">@layout/progress_dialog_material</item>
+        <item name="horizontalProgressLayout">@layout/alert_dialog_progress_material</item>
+        <item name="listItemLayout">@layout/select_dialog_item_material</item>
+        <item name="multiChoiceItemLayout">@layout/select_dialog_multichoice_material</item>
+        <item name="singleChoiceItemLayout">@layout/select_dialog_singlechoice_material</item>
+        <item name="needsDefaultBackgrounds">false</item>
+    </style>
+
+    <style name="AlertDialog.Mst.Material.Light" />
+
+    <style name="AlertActivity.Mst.Material.Light" parent="AlertDialog.Mst.Material">
+        <item name="layout">@layout/alert_activity_material</item>
+        <item name="noTitleBar">true</item>
+        <item name="noNavigationBar">false</item>
+        <item name="hasScrollIndicators">false</item>
+        <item name="singleChoiceItemLayout">@layout/select_activity_singlechoice_material</item>
+    </style>
+
+    <!-- Preference styles -->
+
+    <style name="Preference">
+        <item name="android:layout">@layout/preference_material</item>
+    </style>
+
+    <style name="PreferenceFragment"></style>
+
+    <style name="PreferenceActivity"></style>
+
+    <style name="PreferencePanel"></style>
+    <!-- No margins or background by default. Could be different for x-large screens -->
+
+
+    <!--
+         The attributes are overridden here because the x-large or large resources may have
+         changed the margins and background in the parent PreferencePanel style.
+    -->
+    <style name="PreferencePanel.Dialog">
+        <item name="android:layout_marginStart">0dip</item>
+        <item name="android:layout_marginEnd">0dip</item>
+        <item name="android:layout_marginTop">0dip</item>
+        <item name="android:layout_marginBottom">0dip</item>
+        <item name="android:background">@null</item>
+    </style>
+
+    <style name="PreferenceHeaderPanel">
+        <item name="android:layout_marginStart">@dimen/preference_screen_side_margin</item>
+        <item name="android:layout_marginEnd">@dimen/preference_screen_side_margin_negative</item>
+        <item name="android:paddingTop">@dimen/preference_screen_header_vertical_padding</item>
+        <item name="android:paddingBottom">@dimen/preference_screen_header_vertical_padding</item>
+    </style>
+
+    <style name="PreferenceHeaderList">
+        <item name="android:paddingStart">@dimen/preference_screen_header_padding_side</item>
+        <item name="android:paddingEnd">@dimen/preference_screen_header_padding_side</item>
+        <item name="android:scrollbarStyle">@integer/preference_screen_header_scrollbarStyle</item>
+    </style>
+
+    <style name="PreferenceFragmentList">
+        <item name="android:paddingStart">@dimen/preference_fragment_padding_side</item>
+        <item name="android:paddingEnd">@dimen/preference_fragment_padding_side</item>
+    </style>
+
+    <style name="PreferencePanel.Mst" />
+
+    <style name="PreferenceHeaderPanel.Mst" />
+
+    <style name="PreferenceHeaderList.Mst" />
+
+    <style name="PreferenceFragmentList.Mst" />
+
+    <style name="Preference.Mst" />
+
+    <style name="PreferenceFragment.Mst" />
+
+    <style name="PreferenceActivity.Mst" />
+
+    <style name="Preference.Mst.Material">
+        <item name="android:layout">@layout/preference_material</item>
+    </style>
+
+    <style name="PreferenceFragment.Mst.Material">
+        <item name="android:layout">@layout/preference_list_fragment_material</item>
+        <item name="android:paddingStart">@dimen/preference_fragment_padding_side_material</item>
+        <item name="android:paddingEnd">@dimen/preference_fragment_padding_side_material</item>
+    </style>
+
+    <style name="PreferenceActivity.Mst.Material">
+        <item name="android:layout">@layout/preference_list_content_material</item>
+        <item name="headerLayout">@layout/preference_header_item_material</item>
+        <item name="headerRemoveIconIfEmpty">true</item>
+    </style>
+
+    <style name="Preference.Mst.Material.Information">
+        <item name="android:layout">@layout/preference_information_material</item>
+        <item name="android:enabled">false</item>
+        <item name="android:shouldDisableView">false</item>
+    </style>
+
+    <style name="Preference.Mst.Material.Category">
+        <item name="android:layout">@layout/preference_category_material</item>
+        <!-- The title should not dim if the category is disabled, instead only the preference children should dim. -->
+        <item name="android:shouldDisableView">false</item>
+        <item name="android:selectable">false</item>
+    </style>
+
+    <style name="Preference.Mst.Material.CheckBoxPreference">
+        <item name="android:widgetLayout">@layout/preference_widget_checkbox</item>
+    </style>
+
+    <style name="Preference.Mst.Material.SwitchPreference">
+        <item name="android:widgetLayout">@layout/preference_widget_switch</item>
+        <item name="android:switchTextOn">@string/capital_on</item>
+        <item name="android:switchTextOff">@string/capital_off</item>
+    </style>
+
+    <style name="Preference.Mst.Material.SeekBarPreference">
+        <item name="android:layout">@layout/preference_widget_seekbar_material</item>
+    </style>
+
+    <style name="Preference.Mst.Material.PreferenceScreen" >
+     <item name="android:widgetLayout">@layout/preference_widget_next_page</item>
+     </style>
+
+    <style name="Preference.Mst.Material.DialogPreference">
+        <item name="android:positiveButtonText">@string/ok</item>
+        <item name="android:negativeButtonText">@string/cancel</item>
+        <item name="needsDefaultBackgrounds">false</item>
+    </style>
+
+    <style name="Preference.Mst.Material.DialogPreference.YesNoPreference">
+        <item name="android:positiveButtonText">@string/yes</item>
+        <item name="android:negativeButtonText">@string/no</item>
+    </style>
+
+    <style name="Preference.Mst.Material.DialogPreference.SeekBarPreference">
+        <item name="android:dialogLayout">@layout/preference_dialog_seekbar_material</item>
+    </style>
+
+    <style name="Preference.Mst.Material.DialogPreference.EditTextPreference">
+        <item name="android:dialogLayout">@layout/preference_dialog_edittext_material</item>
+    </style>
+
+    <style name="Preference.Mst.Material.RingtonePreference">
+        <item name="android:ringtoneType">ringtone</item>
+        <item name="android:showSilent">true</item>
+        <item name="android:showDefault">true</item>
+    </style>
+
+    <!-- No margins or background by default. Could be different for x-large screens -->
+    <style name="PreferencePanel.Mst.Material">
+        <item name="android:layout_marginStart">0dip</item>
+        <item name="android:layout_marginEnd">0dip</item>
+    </style>
+    
+    <style name="Preference.Mst.Material.DropDown">
+        <item name="android:layout">@layout/preference_dropdown_material</item>
+    </style>
+
+    <!--
+         The attributes are overridden here because the x-large or large resources may have
+         changed the margins and background in the parent PreferencePanel style.
+    -->
+    <style name="PreferencePanel.Mst.Material.Dialog">
+        <item name="android:layout_marginStart">0dip</item>
+        <item name="android:layout_marginEnd">0dip</item>
+        <item name="android:layout_marginTop">0dip</item>
+        <item name="android:layout_marginBottom">0dip</item>
+        <item name="android:background">@null</item>
+    </style>
+
+    <style name="PreferenceHeaderPanel.Mst.Material">
+        <item name="android:layout_marginStart">@dimen/preference_screen_side_margin_material</item>
+        <item name="android:layout_marginEnd">@dimen/preference_screen_side_margin_negative_material</item>
+        <item name="android:paddingTop">@dimen/preference_screen_header_vertical_padding_material</item>
+        <item name="android:paddingBottom">@dimen/preference_screen_header_vertical_padding_material</item>
+    </style>
+
+    <style name="PreferenceHeaderList.Mst.Material">
+        <item name="android:paddingStart">@dimen/preference_screen_header_padding_side_material</item>
+        <item name="android:paddingEnd">@dimen/preference_screen_header_padding_side_material</item>
+        <item name="android:scrollbarStyle">@integer/preference_screen_header_scrollbarStyle</item>
+    </style>
+
+    <style name="PreferenceFragmentList.Mst.Material">
+        <item name="android:paddingStart">@dimen/preference_fragment_padding_side_material</item>
+        <item name="android:paddingEnd">@dimen/preference_fragment_padding_side_material</item>
+    </style>
+
+    <style name="ToolBarPopupTheme">
+        <item name="android:popupElevation">0dp</item>
+    </style>
+
+    <style name="ListMenuViewStyle">
+        <item name="itemTextAppearance">@style/actionMenuItemTextStyle</item>
+    </style>
+
+    <style name="actionMenuItemTextStyle" parent="TextAppearance.Mst.Material.Menu">
+    </style>
+
+    <style name="Widget.Toolbar.Button.Navigation" parent="android:Widget">
+        <item name="android:background">?android:attr/selectableItemBackgroundBorderless</item>
+        <item name="android:minWidth">24dp</item>
+        <item name="android:maxWidth">24dp</item>
+        <item name="android:minHeight">24dp</item>
+        <item name="android:maxHeight">24dp</item>
+        <item name="android:scaleType">center</item>
+    </style>
+
+    <style name="ToolbarStyle">
+        <item name="titleTextAppearance">@style/TextAppearance.Widget.Toolbar</item>
+        <item name="subtitleTextAppearance">@style/TextAppearance.Widget.Toolbar.SubTitle</item>
+        <item name="android:minHeight">?android:attr/actionBarSize</item>
+        <item name="titleMargins">4dp</item>
+        <item name="titleMarginStart">20dp</item>
+        <item name="maxButtonHeight">56dp</item>
+        <item name="buttonGravity">top</item>
+        <item name="navigationButtonStyle">@style/Widget.Toolbar.Button.Navigation</item>
+        <item name="collapseIcon">?android:attr/homeAsUpIndicator</item>
+        <item name="contentInsetStart">0dp</item>
+        <item name="android:elevation">@dimen/action_bar_elevation_material</item>
+        <item name="android:paddingLeft">20dp</item>
+        <!-- <item name="android:paddingRight">20dp</item> -->
+    </style>
+    
+    <style name="ToolbarStyle.ShowBottomDivider">
+        <item name="showBottomDivider">true</item>
+    </style>
+    
+    <style name="ToolbarStyle.ShowBottomDivider.White" >
+        <item name="bottomDividerColor">@color/toolbar_bottom_divider_white</item>
+    </style>
+        <style name="ToolbarStyle.ShowBottomDivider.Grey" >
+        <item name="bottomDividerColor">@color/toolbar_bottom_divider_grey</item>
+    </style>
+	
+    <style name="TextAppearance.Widget.Toolbar" parent="TextAppearance.Mst.Material.Title" />
+
+    <style name="TextAppearance.Widget.Toolbar.Title" />
+
+    <style name="TextAppearance.Widget.Toolbar.SubTitle">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#7f000000</item>
+    </style>
+
+    <style name="FloatingActionButton">
+        <item name="size">large</item>
+        <item name="android:background">@drawable/ic_fab_background_material</item>
+        <item name="centerImage">@drawable/ic_fab_add_material</item>
+        <item name="android:elevation">4dp</item>
+        <item name="android:foreground">?android:attr/selectableItemBackgroundBorderless</item>
+    </style>
+
+    <style name="CardView">
+        <item name="cardBackgroundColor">@color/cardview_light_background</item>
+        <item name="cardCornerRadius">@dimen/cardview_default_radius</item>
+        <item name="cardElevation">@dimen/cardview_default_elevation</item>
+        <item name="cardMaxElevation">@dimen/cardview_default_elevation</item>
+        <item name="cardUseCompatPadding">false</item>
+        <item name="cardPreventCornerOverlap">true</item>
+    </style>
+
+    <style name="CardView.Light">
+        <item name="cardBackgroundColor">@color/cardview_light_background</item>
+    </style>
+
+    <style name="CardView.Dark">
+        <item name="cardBackgroundColor">@color/cardview_dark_background</item>
+    </style>
+
+    <style name="Theme_IconMenu"></style>
+
+    <style name="Widget.TabLayout" parent="TabLayoutStyle">
+        <item name="tabGravity">fill</item>
+        <item name="tabMode">fixed</item>
+    </style>
+
+    <style name="TabLayoutStyle" parent="android:Widget">
+        <item name="tabMaxWidth">@dimen/tab_max_width</item>
+        <item name="tabIndicatorColor">@color/tab_indicator_color</item>
+        <item name="tabIndicatorHeight">2dp</item>
+        <item name="tabPaddingStart">12dp</item>
+        <item name="tabPaddingEnd">12dp</item>
+        <item name="tabBackground">?android:attr/selectableItemBackground</item>
+        <item name="tabTextAppearance">@style/TextAppearance.Tab</item>
+        <item name="tabSelectedTextColor">@color/tab_selected_text_color</item>
+    </style>
+
+    <style name="TextAppearance.Tab" parent="android:TextAppearance">
+        <item name="android:textSize">@dimen/tab_text_size</item>
+        <item name="android:textColor">@color/tab_unselected_text_color</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="Widget.ScrimInsetsFrameLayout" parent="">
+        <item name="insetForeground">#4000</item>
+    </style>
+
+    <style name="Widget.NavigationView" parent="">
+        <item name="android:elevation">@dimen/navigation_elevation</item>
+        <item name="android:background">?android:attr/windowBackground</item>
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="android:maxWidth">@dimen/navigation_max_width</item>
+    </style>
+
+    <style name="Widget.CoordinatorLayout" parent="android:Widget">
+        <item name="statusBarBackground">?android:attr/colorPrimaryDark</item>
+    </style>
+
+    <style name="Widget.AppBarLayout" parent="android:Widget">
+        <item name="android:elevation">@dimen/appbar_elevation</item>
+        <item name="android:background">?android:attr/colorPrimary</item>
+    </style>
+
+    <style name="Widget.CollapsingToolbar" parent="android:Widget">
+        <item name="expandedTitleMargin">32dp</item>
+        <item name="statusBarScrim">?android:attr/colorPrimaryDark</item>
+    </style>
+
+    <!-- Toolbar's OverFlowMenuButton Style -->
+    <style name="Widget.Mst.Material.Light.OverFlowMenuButton" parent="android:Widget.Material.ActionButton.Overflow">
+        <item name="android:src">@drawable/ic_menu_moreoverflow_material</item>
+        <item name="android:minWidth">@dimen/action_button_min_width_overflow_material</item>
+        <item name="android:minHeight">@dimen/action_button_min_height_material</item>
+        <item name="android:paddingStart">@dimen/action_bar_overflow_padding_start_material</item>
+        <item name="android:paddingEnd">@dimen/action_bar_overflow_padding_end_material</item>
+    </style>
+
+    <style name="Widget.Mst.Material.Light.ActionButton" parent="@android:Widget.Material.ActionButton">
+        <item name="android:paddingStart">0dp</item>
+        <item name="android:paddingEnd">0dp</item>
+        <item name="android:minWidth">@dimen/action_button_min_width_material</item>
+        <item name="android:minHeight">@dimen/action_button_min_height_material</item>
+        <item name="android:gravity">center</item>
+        <item name="android:scaleType">center</item>
+        <item name="android:maxLines">2</item>
+    </style>
+
+    <style name="TextAppearance.CollapsingToolbar.Expanded" parent="android:TextAppearance">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="TextAppearance.CollapsingToolbar.CollapseAppreance" parent="android:TextAppearance">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="TextAppearance.Snackbar.Message" parent="android:TextAppearance">
+        <item name="android:textSize">@dimen/snackbar_text_size</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+
+    <style name="Widget.Snackbar" parent="android:Widget">
+        <item name="android:minWidth">@dimen/snackbar_min_width</item>
+        <item name="android:maxWidth">@dimen/snackbar_max_width</item>
+        <item name="android:background">@drawable/snackbar_background</item>
+        <item name="android:paddingLeft">@dimen/snackbar_padding_horizontal</item>
+        <item name="android:paddingRight">@dimen/snackbar_padding_horizontal</item>
+        <item name="android:elevation">@dimen/snackbar_elevation</item>
+        <item name="maxActionInlineWidth">@dimen/snackbar_action_inline_max_width</item>
+    </style>
+
+    <style name="Widget.TextInputLayout" parent="android:Widget">
+        <item name="hintTextAppearance">@style/TextAppearance.Design.Hint</item>
+        <item name="errorTextAppearance">@style/TextAppearance.Design.Error</item>
+        <item name="counterTextAppearance">@style/TextAppearance.Design.Counter</item>
+        <item name="counterOverflowTextAppearance">@style/TextAppearance.Design.Counter.Overflow</item>
+    </style>
+
+    <style name="TextAppearance.Design.Hint" parent="android:TextAppearance.Material.Caption">
+        <item name="android:textColor">?android:attr/colorControlActivated</item>
+    </style>
+
+    <style name="TextAppearance.Design.Error" parent="android:TextAppearance.Material.Caption">
+        <item name="android:textColor">@color/textinput_error_color</item>
+    </style>
+
+    <style name="TextAppearance.Design.Counter" parent="android:TextAppearance.Material.Caption" />
+
+    <style name="TextAppearance.Design.Counter.Overflow" parent="android:TextAppearance.Material.Caption">
+        <item name="android:textColor">@color/textinput_error_color</item>
+    </style>
+
+    <style name="Widget.BottomNavigationView" parent="">
+        <item name="android:elevation">@dimen/navigation_elevation</item>
+        <item name="android:background">?android:attr/colorPrimary</item>
+        <item name="itemTextAppearance">@android:style/TextAppearance.Material.Menu</item>
+        <item name="itemIconTint">@color/public_icon_color_tint</item>
+        <item name="itemTextColor">@color/public_icon_color_tint</item>
+    </style>
+
+    <style name="TextAppearance.Widget.ActionModeAction" parent="TextAppearance.Mst.Material.Title">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="TextAppearance.Widget.ActionModeTitle" parent="TextAppearance.Mst.Material.Title">
+        <item name="android:textSize">@dimen/action_mode_title_textsize</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+
+    <style name="ActionMode.Light" parent="">
+        <item name="android:background">?android:attr/colorPrimary</item>
+        <item name="android:paddingStart">20dp</item>
+        <item name="android:paddingEnd">20dp</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingBottom">0dp</item>
+    </style>
+
+    <style name="WindowStyle.Light" parent="">
+        <item name="windowHasToolbar">true</item>
+        <item name="windowLayout">@layout/screen_simple</item>
+        <item name="toolbarOverlay">false</item>
+    </style>
+
+    <style name="Dialog.Spinner" parent="Theme.Mst.Material.Light">
+        <item name="android:windowEnterAnimation">@anim/popup_dialog_in</item>
+        <item name="android:windowExitAnimation">@anim/popup_dialog_out</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowShowWallpaper">false</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="Widget.Mst.Material.Light.NumberPicker">
+        <item name="internalLayout">@layout/number_picker_material</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:fadingEdge">vertical</item>
+        <item name="android:fadingEdgeLength">50dip</item>
+        <item name="solidColor">@android:color/transparent</item>
+        <item name="selectionDivider">@drawable/number_picker_divider_material</item>
+        <item name="selectionDividerHeight">2dp</item>
+        <item name="selectionDividersDistance">48dp</item>
+        <item name="internalMinWidth">110dp</item>
+        <item name="internalMaxHeight">184dp</item>
+        <item name="internalMinHeight">184dp</item>
+        <item name="virtualButtonPressedDrawable">?android:attr/selectableItemBackground</item>
+        <item name="normalTextSize">18dp</item>
+        <item name="secondTextSize">19dp</item>
+        <item name="selectionTextSize">24dp</item>
+        <item name="selectionTextColor">#cc000000</item>
+        <item name="secondTextColor">#4c000000</item>
+        <item name="android:fontFamily">monster-normal</item>
+        <item name="android:textStyle">normal</item>
+        <item name="labelFontFamily">monster-normal</item>
+        <item name="labelTextStyle">normal</item>
+        <item name="selectionLabelTextSize">14dp</item>
+        <item name="selectionLabelTextColor">@color/label_text_color</item>
+        <item name="labelspace">3dp</item>
+    </style>
+
+    <style name="Widget.Mst.Material.TimePicker">
+        <item name="timePickerMode">spinner</item>
+        <item name="legacyLayout">@layout/time_picker_legacy</item>
+    </style>
+
+    <style name="Widget.Mst.Material.DatePicker">
+        <item name="datePickerMode">spinner</item>
+        <item name="legacyLayout">@layout/date_picker_legacy</item>
+        <item name="calendarViewShown">false</item>
+    </style>
+
+    <style name="Widget.Mst.Material.DateTimePicker">
+        <item name="datePickerMode">spinner</item>
+        <item name="legacyLayout">@layout/date_time_legacy</item>
+        <item name="calendarViewShown">false</item>
+    </style>
+
+    <style name="Widget.MstIndexBar" parent="android:Widget">
+        <item name="shareBackground">@null</item>
+        <item name="letterColor">@color/indexbar_letter_color</item>
+        <item name="balloonLeft">149dp</item>
+        <item name="balloonTop">183dp</item>
+        <item name="letterTextSize">9dp</item>
+        <item name="subTextSize">11dp</item>
+        <item name="fontWeight">0.5</item>
+        <item name="subGap">16dp</item>
+        <item name="balloonGap">5dp</item>
+        <item name="balloonLayerColor">@array/balloon_layer_colors</item>
+        <item name="balloonFocusColor">@array/balloon_focus_colors</item>
+        <item name="balloonDiameter">61dp</item>
+        <item name="balloonDispersion">1</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+	
+	<style name="MstIndexBar_popup_anim">
+         <item name="android:windowExitAnimation">@anim/mstindexbar_popup_out</item>
+    </style>
+
+    <style name="popup_dialog_anim">
+        <item name="android:windowEnterAnimation">@anim/popup_dialog_in</item>
+        <item name="android:windowExitAnimation">@anim/popup_dialog_out</item>
+    </style>
+    
+    
+    
+    <style name="Widget.Mst.Material.PopupWindow" parent="android:Widget.PopupWindow"/>
+
+    <style name="Widget.Mst.Material.PopupWindow.ActionMode">
+        <item name="android:popupBackground">?android:attr/colorPrimary</item>
+        <item name="android:popupElevation">0dp</item>
+        <item name="android:popupAnimationStyle">@style/Animation.Mst.PopupWindow.ActionMode</item>
+    </style>
+      <!-- Window animations used for action mode UI in overlay mode. -->
+    <style name="Animation.Mst.PopupWindow.ActionMode" parent="">
+        <item name="android:windowEnterAnimation">@anim/slide_top_in</item>
+        <item name="android:windowExitAnimation">@anim/slide_top_out</item>
+    </style>
+    
+    <style name="Animation.Material.Activity.Share" parent="android:Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/activity_open_enter</item>
+        <item name="android:activityOpenExitAnimation">@anim/activity_open_exit</item>
+        <item name="android:activityCloseEnterAnimation">@anim/activity_close_enter</item>
+        <item name="android:activityCloseExitAnimation">@anim/activity_close_exit</item>
+    </style>
+
+
+</resources>

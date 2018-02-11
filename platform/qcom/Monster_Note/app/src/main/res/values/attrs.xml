@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<resources>
+
+    <declare-styleable name="MatrixImageView">
+        <attr name="matrix_paddingTop" format="dimension" />
+        <attr name="matrix_paddingBottom" format="dimension" />
+    </declare-styleable>
+</resources>

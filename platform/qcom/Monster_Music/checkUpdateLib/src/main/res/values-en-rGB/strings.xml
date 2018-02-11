@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="tip_network_error">"Network error"</string>
+	<!---->
+	<string name="check_new">"Check for update"</string>
+	<!---->
+	<string name="update_download_fail">"Download failed"</string>
+	<!---->
+	<string name="update_ask_tip">"You need to update to the latest version"</string>
+	<!---->
+	<string name="update_no_need">"Already the latest version"</string>
+	<!---->
+	<string name="downloaded_finish">"Download complete"</string>
+	<!---->
+	<string name="notification_downloading">"Downloading"</string>
+	<!---->
+	<string name="update_notification_tips">"You couldn\'t use the app until update to the latest version."</string>
+	<!---->
+	<string name="update_notification_title">"Update notification"</string>
+	<!---->
+	<string name="update">"Now"</string>
+	<!---->
+	<string name="try_later">"Later"</string>
+	<!---->
+	<string name="versionDesc">"Version info\n"</string>
+	<!---->
+	<string name="retry">"retry"</string>
+	<!---->
+	<string name="update_available">"Update available"</string>
+	<!---->
+	<string name="downloading">"Downloading..."</string>
+	<!---->
+	<string name="update_notify_tip">"New version available. Update now?"</string>
+	<!---->
+	<string name="update_detail_prefix">"Latest version V%1$s. Update details show below:"</string>
+	<!---->
+	<string name="update_not_now">"Not now"</string>
+	<!---->
+	<string name="update_now">"Update"</string>
+	<!---->
+	<string name="network_error_tip">"Network error. Check your Internet connection and try again."</string>
+	<!---->
+	<string name="update_force_nofity_tip">"It is recommended that you update your application to the latest version."</string>
+	<!---->
+	<string name="update_no_updates">"No updates"</string>
+	<!---->
+	<string name="update_no_updates_tip">"No updates available."</string>
+	<!---->
+	<string name="update_confirm">"OK"</string>
+</resources>

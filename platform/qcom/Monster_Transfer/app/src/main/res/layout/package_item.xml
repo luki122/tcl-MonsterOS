@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="64dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <ImageView
+        android:id="@+id/selected"
+        style="@style/checkIconStyle"
+        android:layout_marginRight="20dp"
+        android:src="@drawable/checked"/>
+
+    <ImageView
+        android:id="@+id/package_icon"
+        style="@style/appIconStyle"
+        android:src="@drawable/checked"
+        android:layout_toRightOf="@id/selected"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="20dp"/>
+
+    <TextView
+        android:id="@+id/title"
+        style="@style/appNameStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/package_icon"
+        />
+
+    <!--<LinearLayout-->
+        <!--android:id="@+id/content"-->
+        <!--android:orientation="vertical"-->
+        <!--android:layout_toRightOf="@id/package_icon"-->
+        <!--android:layout_toLeftOf="@id/expand"-->
+        <!--android:layout_weight="0.7"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content">-->
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="New Text"-->
+            <!--android:id="@+id/title"/>-->
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="New Text"-->
+            <!--android:id="@+id/summary"/>-->
+    <!--</LinearLayout>-->
+
+</RelativeLayout>

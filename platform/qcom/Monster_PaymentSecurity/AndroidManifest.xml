@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:tools="http://schemas.android.com/tools"
+    package="com.monster.paymentsecurity"
+          xmlns:android="http://schemas.android.com/apk/res/android"
+          android:sharedUserId="android.uid.system"
+          android:versionCode="161227002"
+          android:versionName="v1.0.1.0201.6"
+    tools:ignore="GradleOverrides">
+
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.REAL_GET_TASKS"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.UPDATE_APP_OPS_STATS"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <!-- 系统优化 -->
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.RESTART_PACKAGES"/>
+    <uses-permission android:name="android.permission.GET_PACKAGE_SIZE"/>
+    <uses-permission android:name="android.permission.CLEAR_APP_CACHE"/>
+
+    <uses-permission android:name="android.permission.STATUS_BAR"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS"
+        tools:ignore="ProtectedPermissions"/>
+
+    <uses-sdk
+        android:minSdkVersion="24"
+        android:targetSdkVersion="24"
+        tools:ignore="GradleOverrides,OldTargetApi" />
+
+    <application
+        android:name=".MyApplication"
+        android:fullBackupContent="true"
+        android:allowBackup="true"
+        android:supportsRtl="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".ScanActivity"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTask"
+            android:theme="@style/style.ScanActivity">
+
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW"/>
+            </intent-filter>
+
+        </activity>
+
+        <activity
+            android:name=".PayListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+        </activity>
+
+        <activity
+            android:name=".WhiteListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+
+        </activity>
+
+        <activity
+            android:name=".SettingPreferenceActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+
+        </activity>
+
+        <activity
+            android:name=".PayAppRiskActivity"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait"
+            android:theme="@style/Style.TransparentActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+
+        <service
+            android:name=".detection.WindowChangeDetectingService"
+            android:label="@string/accessibility_service_name"
+            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE"
+            android:process=":remote">
+            <intent-filter>
+                <action android:name="android.accessibilityservice.AccessibilityService"/>
+            </intent-filter>
+            <meta-data
+                android:name="android.accessibilityservice"
+                android:resource="@xml/accessibilityservice"/>
+        </service>
+
+        <service android:name=".detection.PackageWatchService"
+            android:label="@string/package_install_scan_service"
+            android:exported="false"/>
+
+        <receiver android:name=".receiver.PackageReceiver">
+            <intent-filter android:priority="2147483647">
+                <action android:name="android.intent.action.PACKAGE_ADDED"/>
+                <action android:name="android.intent.action.PACKAGE_REPLACED"/>
+                <action android:name="android.intent.action.PACKAGE_REMOVED"/>
+                <action android:name="android.intent.action.PACKAGE_CHANGED"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+        </receiver>
+
+        <receiver android:name=".receiver.SystemUpdateReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.tcl.monster.fota.GET_NEW_FIRMWARE"/>
+            </intent-filter>
+        </receiver>
+
+        <receiver android:name=".receiver.WiFiNetworkStateReceiver">
+            <intent-filter>
+                <action android:name="android.net.wifi.STATE_CHANGE"/>
+            </intent-filter>
+        </receiver>
+
+        <service android:name=".tmsdk.TMSDKUpdateService"
+            android:label="@string/tm_sdk_update_service"
+            android:exported="false" />
+
+
+        <!-- 必须定义一个继承自TMSService的Service -->
+        <service android:name=".tmsdk.PaymentSecureService" android:exported="false" />
+
+        <!-- 必须定义一个继承自TMSBootReceiver的BroadcastReceiver，并定义捕获开机事件 -->
+        <receiver android:name=".tmsdk.PaymentSecureBootReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Mon Sep 29 17:03:47 CST 2014
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"Manajer Berkas"</string>
+	<!---->
+	<string name="new_folder">"Map baru"</string>
+	<!---->
+	<string name="confirm_rename">"Konfirmasi perubahan nama"</string>
+	<!---->
+	<string name="warning">"Peringatan"</string>
+	<!---->
+	<string name="share_warning">"File yang akan dibagikan tidak boleh melebihi 100."</string>
+	<!---->
+	<string name="pasting">"Menempel"</string>
+	<!---->
+	<string name="loading">"Memuat…"</string>
+	<!---->
+	<string name="deleting">"Menghapus"</string>
+	<!---->
+	<string name="alert_delete_multiple">"Berkas yang dipilih akan dihapus!"</string>
+	<!-- no translation found for alert_delete_single -->
+	<skip />
+	<!---->
+	<string name="name">"Nama"</string>
+	<!---->
+	<string name="size">"Ukuran"</string>
+	<!---->
+	<string name="modified_time">"Diubah"</string>
+	<!---->
+	<string name="readable">"Bisa dibaca"</string>
+	<!---->
+	<string name="executable">"Bisa-eksekusi"</string>
+	<!---->
+	<string name="writable">"Bisa ditulisi"</string>
+	<!---->
+	<string name="msg_rename_ext">"Anda mengubah ekstensi berkas, yang mungkin menyebabkan berkas tidak dikenali. Anda yakin ingin melakukan ini?"</string>
+	<!---->
+	<string name="wait">"Harap tunggu…"</string>
+	<!-- no translation found for add_favorite -->
+	<skip />
+	<!-- no translation found for del_favorite -->
+	<skip />
+	<!-- no translation found for done -->
+	<skip />
+	<!---->
+	<string name="cancel">"Batal"</string>
+	<!---->
+	<string name="no">"Tidak"</string>
+	<!---->
+	<string name="ok">"OK"</string>
+	<!---->
+	<string name="yes">"Ya"</string>
+	<!---->
+	<string name="sort_by">"Urutkan berdasarkan"</string>
+	<!---->
+	<string name="copy">"Salin"</string>
+	<!-- no translation found for create_folder -->
+	<skip />
+	<!---->
+	<string name="cut">"Potong"</string>
+	<!---->
+	<string name="delete">"hapus"</string>
+	<!---->
+	<string name="favourite">"Favorit"</string>
+	<!---->
+	<string name="details">"Detail"</string>
+	<!---->
+	<string name="paste">"Tempel"</string>
+	<!---->
+	<string name="rename">"Ganti nama"</string>
+	<!---->
+	<string name="view_by">"Lihat berdasarkan"</string>
+	<!-- no translation found for show_hide -->
+	<skip />
+	<!---->
+	<string name="deselect_all">"Batal-pilih semua"</string>
+	<!---->
+	<string name="select_all">"Pilih semua"</string>
+	<!---->
+	<string name="share">"Bagikan"</string>
+	<!---->
+	<string name="sort">"Urutkan"</string>
+	<!---->
+	<string name="more">"Lainnya"</string>
+	<!---->
+	<string name="search">"Cari"</string>
+	<!-- no translation found for show_file -->
+	<skip />
+	<!-- no translation found for hide_file -->
+	<skip />
+	<!---->
+	<string name="drawer_open">"Buka"</string>
+	<!---->
+	<string name="viewby_list">"Tampilkan dengan daftar"</string>
+	<!-- no translation found for viewby_grid -->
+	<skip />
+	<!-- no translation found for viewby_details -->
+	<skip />
+	<!-- no translation found for sort_type -->
+	<skip />
+	<!---->
+	<string name="sort_name">"Urut berdasar nama"</string>
+	<!---->
+	<string name="sort_size">"Urutkan brdsrkn ukuran"</string>
+	<!---->
+	<string name="sort_time">"Urutkan per waktu"</string>
+	<!---->
+	<string name="unknown">"Tidak dikenali"</string>
+	<!---->
+	<string name="selected">"dipilih"</string>
+	<!---->
+	<string name="save">"Simpan"</string>
+	<!---->
+	<string name="send_file">"Kirim berkas"</string>
+	<!---->
+	<string name="empty_msg">"(Map Kosong)"</string>
+	<!-- no translation found for default_search_text -->
+	<skip />
+	<!---->
+	<string name="free_space">"Tersedia"</string>
+	<!---->
+	<string name="total_space">"Jumlah ruang"</string>
+	<!-- no translation found for search_files -->
+	<skip />
+	<!-- no translation found for search_result_count -->
+	<skip />
+	<!---->
+	<string name="drawer_category">"Kategori"</string>
+	<!---->
+	<string name="phone_storage">"Penyimpanan ponsel"</string>
+	<!---->
+	<string name="sd_card">"Kartu SD"</string>
+	<!---->
+	<string name="drawer_settings">"Pengaturan"</string>
+	<!---->
+	<string name="menu_settings">"Pengaturan"</string>
+	<!-- no translation found for no_search_result -->
+	<skip />
+	<!---->
+	<string name="category_pictures">"Gambar"</string>
+	<!---->
+	<string name="category_vedios">"Video"</string>
+	<!---->
+	<string name="category_music">"Musik"</string>
+	<!---->
+	<string name="category_docs">"Dokumen"</string>
+	<!-- no translation found for category_apks -->
+	<skip />
+	<!-- no translation found for category_archives -->
+	<skip />
+	<!-- no translation found for category_download -->
+	<skip />
+	<!---->
+	<string name="category_favorite">"Favorit"</string>
+	<!---->
+	<string name="category_bluetooth">"Bluetooth"</string>
+	<!---->
+	<string name="category_ringtones">"Nada dering"</string>
+	<!-- no translation found for category_recordings -->
+	<skip />
+	<!-- no translation found for category_safebox -->
+	<skip />
+	<!---->
+	<string name="copy_deny">"Tidak ada izin untuk menyalin"</string>
+	<!---->
+	<string name="cut_deny">"Tidak ada izin untuk memotong"</string>
+	<!---->
+	<string name="delete_deny">"Tidak ada izin untuk menghapus"</string>
+	<!---->
+	<string name="insufficient_memory">"Ruang tidak cukup."</string>
+	<!---->
+	<string name="invalid_empty_name">"Nama berkas atau map tidak boleh kosong"</string>
+	<!---->
+	<string name="paste_same_folder">"Tidak dapat menempel ke direktori yang sama"</string>
+	<!---->
+	<string name="invalid_char_prompt">"Anda memasukkan karakter yang tidak valid"</string>
+	<!---->
+	<string name="msg_unable_open_file">"Format berkas tidak didukung."</string>
+	<!---->
+	<string name="search_text_empty">"Konten pencarian wajib diisi."</string>
+	<!---->
+	<string name="paste_sub_folder">"Tidak dapat menempel berkas ke submap"</string>
+	<!-- no translation found for operation_fail -->
+	<skip />
+	<!-- no translation found for search_result_title -->
+	<skip />
+	<!---->
+	<string name="search_result">"%2$d hasil untuk \"%1$s\""</string>
+	<!---->
+	<string name="already_exists">"%1$s sudah digunakan"</string>
+	<!---->
+	<string name="path_not_exists">"%1$s tidak ada"</string>
+	<!---->
+	<string name="unmounted">"%1$s dilepas"</string>
+	<!---->
+	<string name="create_hidden_file">"Berkas akan disembunyikan jika namanya dimulai dengan \'.\'"</string>
+	<!-- no translation found for modify_hidden_file -->
+	<skip />
+	<!---->
+	<string name="file_name_too_long">"Nama masukan terlalu panjang"</string>
+	<!---->
+	<string name="paste_fail">"Gagal ditempel."</string>
+	<!---->
+	<string name="delete_fail">"Gagal dihapus."</string>
+	<!---->
+	<string name="some_paste_fail">"Operasi penempelan gagal"</string>
+	<!-- no translation found for some_delete_fail -->
+	<skip />
+	<!---->
+	<string name="search_empty">"Konten pencarian wajib diisi."</string>
+	<!---->
+	<string name="search_setting_description">"Berkas dan map lokal"</string>
+	<!---->
+	<string name="change_mode">"Pilih berkas atau map"</string>
+	<!---->
+	<string name="msg_unable_open_file_in_app">"Tdk ada aplikasi utk mmbuka file."</string>
+	<!-- no translation found for drm_protectioninfo_title -->
+	<skip />
+	<!-- no translation found for drm_forwardforbidden_title -->
+	<skip />
+	<!-- no translation found for drm_forwardforbidden_message -->
+	<skip />
+	<!---->
+	<string name="drm_no_valid_right">"File tidak memiliki otoritas DRM yang valid!"</string>
+	<!---->
+	<string name="drm_current_count">"Jumlah sekarang"</string>
+	<!---->
+	<string name="unlimited_usage">"Penggunaan tak terbatas"</string>
+	<!---->
+	<string name="drm_current_right">"Batasan Saat Ini"</string>
+	<!---->
+	<string name="not_available">"Tidak tersedia"</string>
+	<!---->
+	<string name="right_url">"URL Penerbit Lisensi:"</string>
+	<!---->
+	<string name="use_times">"Gunakan %s kali"</string>
+	<!---->
+	<string name="valid_after">"Valid setelah"</string>
+	<!---->
+	<string name="valid_until">"Valid sampai"</string>
+</resources>

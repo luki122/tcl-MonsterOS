@@ -1,0 +1,33 @@
+<VAR_DEV>
+<TABLE_HISTORY>
+<HISTORY>This files contains Android Settings customize variables</HISTORY>
+</TABLE_HISTORY>
+<MOD>
+<NAME>ANDROID</NAME>
+<SDM_AREA>
+<DSA_TITLE>INIT DATA OF ANDROID Settings</DSA_TITLE>
+<MACRO_NAME>CUSTOM_JRDC_PARAM</MACRO_NAME>
+<C_NAME>custom_jrdc_dsc</C_NAME>
+<C_TYPE>CUSTOM_JRDC_DSC</C_TYPE>
+<IDA>CUSTOM_JRDC_INIT_RDM</IDA>
+<IS_IN_DSA>Yes</IS_IN_DSA>
+<TABLE_VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_musiccn_statistics_function_enable</SDMID>
+<C_NAME>def_musiccn_statistics_function_enable</C_NAME>
+<C_TYPE>eBOOLEAN</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>MusicCN</FEATURE>
+<DESC>the value is control statistics function, 0x00:turn off, 0x01:turn on, default value is 0x00</DESC>
+<VALUE>0x00</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+</TABLE_VAR>
+</SDM_AREA>
+</MOD>
+</VAR_DEV>

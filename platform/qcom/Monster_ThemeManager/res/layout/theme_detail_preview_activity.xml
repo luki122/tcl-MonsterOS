@@ -1,0 +1,20 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mst.thememanager.MainActivity"
+     >
+
+    <com.mst.thememanager.views.PreviewAnimationImageView
+        android:id="@+id/preview_init_image"
+        android:layout_width="@dimen/theme_detail_preview_img_width"
+        android:layout_height="@dimen/theme_detail_preview_img_width"
+        android:scaleType="fitXY" />
+    <mst.widget.ViewPager
+        android:id="@+id/preview_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible"
+        />
+
+</FrameLayout>

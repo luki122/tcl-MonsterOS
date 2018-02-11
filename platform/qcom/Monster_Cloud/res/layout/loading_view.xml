@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_load_page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:gravity="center"
+    android:minHeight="440dp"
+    android:orientation="vertical">
+
+    <mst.widget.FoldProgressBar
+        android:id="@+id/load_iv_loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:id="@+id/load_ll_error"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/load_iv_icon"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginTop="169dp" />
+
+        <TextView
+            android:id="@+id/load_tv_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/load_btn"
+            android:layout_width="155dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="24dp"
+            android:gravity="center"
+            android:stateListAnimator="@null"
+            android:textColor="#DB000000"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</LinearLayout>

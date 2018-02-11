@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#0f000000" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/background_fafafa"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/recovery_finish"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal"
+            android:textSize="12sp"
+            android:textColor="@color/text_gray_66"
+            android:layout_marginBottom="12dp"
+            android:text="@string/str_login_qq_success"/>
+
+    </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/auto_sync_head_layout"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:background="@drawable/my_ripple"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_black_db"
+            android:textSize="16sp"
+            android:text="@string/str_auto_sync_head"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            />
+
+        <ImageView
+            android:id="@+id/img_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="30dp"
+            android:src="@drawable/arrow_down"/>
+
+    </RelativeLayout>
+
+
+
+    <ScrollView
+        android:id="@+id/sync_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:visibility="invisible"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:id="@+id/contact_layout"
+                android:layout_width="match_parent"
+                android:layout_height="57dp"
+                android:background="@drawable/my_ripple">
+
+                <ImageView
+                    android:id="@+id/img_contact"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/contact"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginLeft="25dp"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/img_contact"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/contacts"
+                        android:textSize="16sp"
+                        android:textColor="@color/black"
+                        android:alpha="0.86"
+                        />
+                    <TextView
+                        android:id="@+id/contact_sync_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/never_sync"
+                        android:textSize="12sp"
+                        android:textColor="@color/black"
+                        android:alpha="0.3"
+                        />
+
+                </LinearLayout>
+
+                <Switch
+                    android:id="@+id/contact_switch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="20dp"
+                    />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/sms_layout"
+                android:layout_width="match_parent"
+                android:layout_height="57dp"
+                android:background="@drawable/my_ripple">
+
+                <ImageView
+                    android:id="@+id/img_sms"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/message"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginLeft="25dp"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/img_sms"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sms"
+                        android:textSize="16sp"
+                        android:textColor="@color/black"
+                        android:alpha="0.86"
+                        />
+                    <TextView
+                        android:id="@+id/sms_sync_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/never_sync"
+                        android:textSize="12sp"
+                        android:textColor="@color/black"
+                        android:alpha="0.3"
+                        />
+
+                </LinearLayout>
+
+                <Switch
+                    android:id="@+id/sms_switch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="20dp"
+                    />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/calllog_layout"
+                android:layout_width="match_parent"
+                android:layout_height="57dp"
+                android:background="@drawable/my_ripple">
+
+                <ImageView
+                    android:id="@+id/img_calllog"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/contact"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginLeft="25dp"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/img_calllog"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/call_log"
+                        android:textSize="16sp"
+                        android:textColor="@color/black"
+                        android:alpha="0.86"
+                        />
+                    <TextView
+                        android:id="@+id/calllog_sync_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/never_sync"
+                        android:textSize="12sp"
+                        android:textColor="@color/black"
+                        android:alpha="0.3"
+                        />
+
+                </LinearLayout>
+
+                <Switch
+                    android:id="@+id/calllog_switch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="20dp"
+                    />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/app_layout"
+                android:layout_width="match_parent"
+                android:layout_height="57dp"
+                android:background="@drawable/my_ripple">
+
+                <ImageView
+                    android:id="@+id/img_app"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/app_list"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginLeft="25dp"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/img_app"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/app_list"
+                        android:textSize="16sp"
+                        android:textColor="@color/black"
+                        android:alpha="0.86"
+                        />
+                    <TextView
+                        android:id="@+id/app_sync_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/never_sync"
+                        android:textSize="12sp"
+                        android:textColor="@color/black"
+                        android:alpha="0.3"
+                        />
+
+                </LinearLayout>
+
+                <Switch
+                    android:id="@+id/app_switch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="20dp"
+                    />
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/start_recovery_layout"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
+        android:background="@drawable/line_bt_selector">
+
+        <TextView
+            android:id="@+id/text_start_revovery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:alpha="0.85"
+            android:text="@string/start_recovery"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

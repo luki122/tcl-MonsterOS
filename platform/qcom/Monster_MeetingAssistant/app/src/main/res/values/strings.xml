@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- common string -->
+    <string name="MeetingAssistant">"MeetingAssistant"</string>
+    <string name="edit_decision">"Edit decision"</string>
+    <string name="edit_owener">"Edit owner"</string>
+    <string name="edit_deadline">"Edit deadline"</string>
+    <string name="Confirm">"OK"</string>
+    <string name="cancel">"cancel"</string>
+    <string name="share">"share"</string>
+    <string name="save_to_local_storage">"save to local storage"</string>
+    <string name="highlight">"Highlight"</string>
+
+    <!-- meeting_edit -->
+    <string name="conference_key_note">"topic"</string>
+    <!--<string name="objectives">topics</string>-->
+    <string name="person">"attendee"</string>
+    <string name="to">"to"</string>
+
+    <string name="time">"time"</string>
+    <string name="meet_location">"location"</string>
+    <string name="edit_meeting_info">"Edit meeting"</string>
+    <string name="meeting">"Meeting"</string>
+    <string name="meeting_time">"time"</string>
+    <string name="please_enter_title">"Enter title here."</string>
+
+    <!-- decision edit -->
+    <string name="decision">"decision"</string>
+    <string name="deadline">"deadline"</string>
+    <string name="add_decision">"save"</string>
+    <string name="owner">"owner"</string>
+    <string name="write_decision">"write decision"</string>
+    <string name="number_decision">"decisions"</string>
+    <string name="enter_person">"Enter person"</string>
+    <string name="enter_address">"Enter address"</string>
+    <string name="not_filled">"Not filled"</string>
+    <string name="location">"location"</string>
+    <string name="take_a_photo">"Take a photo"</string>
+    <string name="get_pic_from_gallery">"Get pic from gallery"</string>
+    <string name="delete">"delete"</string>
+    <string name="edit_picture">"Edit picture"</string>
+    <string name="left_rotate">"Left rotate"</string>
+    <string name="right_rotate">"Right rotate"</string>
+    <string name="meetings_none">"No meeting"</string>
+    <string name="meetings_no_search_result">"No search result"</string>
+    <string name="delete_pic_msg">"Delete this picture?"</string>
+    <string name="voice_to_text">"Text transformed from tap"</string>
+    <string name="smart_crop">"Smart crop"</string>
+    <string name="full_image">"Full image"</string>
+    <string name="edit">"Edit"</string>
+    <string name="save">"Save"</string>
+    <string name="stop_save_voice">"Stop recording and save it?"</string>
+    <string name="save_voice_file_error">"Saving voice file failed"</string>
+    <string name="save_voice_file_successful">"Save voice file successful"</string>
+    <string name="edit_meeting_point">"Edit meeting points, press enter add a line"</string>
+    <string name="edit_meeting_topic">"Edit meeting topics, and press enter to add a line"</string>
+
+    <string name="share_meeting_as_picture">"Share as picture"</string>
+    <string name="export_meeting_as_picture">"Export as picture"</string>
+
+    <string name="share_meeting_as_pdf">"Share as PDF"</string>
+    <string name="export_meeting_as_pdf">"Export as PDF"</string>
+
+    <string name="audio">"Audio"</string>
+    <string name="no_file">"No files"</string>
+    <string name="successful_exporting">"Successfully exported to directory MeetingAssistant"</string>
+    <string name="Failure_to_export">"Fail to export"</string>
+    <string name="audio_converting">"Audio converting, please stop current converting or wait for a moment."</string>
+    <string name="audio_converting_to_text">"Audio converting to text"</string>
+    <string name="start_to_convert">"Start to convert......"</string>
+
+
+    <string name="delete_meeting">"Delete this meeting?"</string>
+    <string name="choose_all">"Choose all"</string>
+    <string name="delete_meeting_decision">"Delete this decision?"</string>
+    <string name="delete_sound_record">"Delete this record?"</string>
+    <string name="delete_sound_record_and_word">"Delete the transformed word, and the sound record?"</string>
+    <string name="dialog_battery_10">"Less than 10% of the battery, please stop recording to avoid the loss of the recording data."</string>
+    <string name="dialog_space_50m_start">"Storage space is less than 50MB, so you can\'t start recording, please promptly clean up"</string>
+    <string name="dialog_space_100m">"Storage space is less than 100MB, please clean up in time to avoid the loss of recording data."</string>
+
+    <string name="dialog_back_msg">"The record doesn\'t stop, and exit will stop recording and save all the content, quit now?"</string>
+    <string name="delete_meeting_point">"Delete this meeting point?"</string>
+    <string name="dialog_battery_5">"Less than 5% of battery, recording has stopped"</string>
+    <string name="dialog_back_title">"Tips"</string>
+    <string name="dialog_i_know">"I know"</string>
+    <string name="dialog_start_battery_10">"Power is low, and it\'s easy to cause loss of recording data, start recording?"</string>
+    <string name="dialog_space_clear">"Clean up"</string>
+    <string name="dialog_ignore">"Ignore"</string>
+    <string name="dialog_stop">"Stop"</string>
+    <string name="dialog_space_50m_stop">"Storage space isn\'t enough, recording has stopped."</string>
+    <string name="dialog_start_battery_5">"Unable to start recording, please hold power above 5%"</string>
+
+    <string name="notification_battery_low">"Low battery, please stop recording"</string>
+    <string name="notification_battery_low_stop">"Low power, recording has stopped"</string>
+
+    <string name="notification_pause_record">"The recording has been paused"</string>
+    <string name="notification_recording">"Recording..."</string>
+    <string name="notification_space_not_enough">"Storage space is insufficient, please clean up the space or stop recording"</string>
+    <string name="notification_space_not_enough_stop">"Storage space isn\'t enough, and recording has stopped"</string>
+
+    <!-- iflytek -->
+    <string name="cannot_open_internet">"Can\'t open internet"</string>
+    <string name="internet_problem">"Problems in the network environment"</string>
+    <string name="no_open_internet">"Your phone doesn\'t open the network settings"</string>
+    <string name="try_to_refresh">"Try to refresh?"</string>
+
+    <!-- iflytek menu title-->
+    <string name="audio_to_text_offline">"Convert to text offline"</string>
+    <string name="audio_to_text_online">"Convert to text online"</string>
+    <string name="audio_to_text_order_result">"Order and result"</string>
+
+    <string name="saved_last_one_decision">"saved last one decision"</string>
+    <string name="choose_others">"choose others"</string>
+    <string name="delete_all_meeting_msg">"delete all meeting msg"</string>
+
+    <string name="choose_owner">"Choose owner"</string>
+
+    <string name="meeting_title_not_be_empty">"Meeting topic must not be empty!"</string>
+
+    <string name="expand">"Expand"</string>
+
+    <string name="collapse">"Collapse"</string>
+
+    <string name="choose_time">"Choose time"</string>
+
+    <string name="delete_audio_to_text">"Are you sure to delete the text?"</string>
+
+    <string name="enter_decision_content">"Please enter decision content."</string>
+
+    <string name="home_search_hint">"Please enter the search content"</string>
+
+    <string name="export_meeting">"exported meeting"</string>
+
+    <string name="please_wait">"Please wait..."</string>
+
+    <string name="saved_decision">"Saved decision"</string>
+
+    <string name="meeting_chosen_number">"Selected %d items"</string>
+
+</resources>

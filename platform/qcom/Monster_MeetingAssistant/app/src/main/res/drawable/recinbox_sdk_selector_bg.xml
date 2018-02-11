@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true"
+        android:drawable="@drawable/ic_recinbox_sdk_btn_nowork_press" />
+    <item android:state_focused="true"
+        android:drawable="@drawable/ic_recinbox_sdk_btn_nowork_press" />
+    <item android:drawable="@drawable/ic_recinbox_sdk_btn_nowork_nor" />
+</selector>

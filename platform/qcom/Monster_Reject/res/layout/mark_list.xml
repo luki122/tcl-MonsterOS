@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:mst="http://schemas.android.com/apk/res/com.mst"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center" >
+
+    <!-- <mst.widget.toolbar.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:layout_alignParentTop="true"
+        android:background="?android:attr/colorPrimary"
+        android:elevation="4dp" /> -->
+
+    <mst.view.menu.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:maxHeight="50dp"
+        android:visibility="gone"
+        mst:menu="@menu/bottom_menu_mark" />
+
+    <mst.widget.MstListView
+        android:id="@+id/mark_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottom_navigation_view"
+        android:layout_marginTop = "5dp"
+        android:drawSelectorOnTop="false"
+        android:fadingEdgeLength="16dip"
+        android:fastScrollEnabled="true"
+        android:scrollbars="vertical"
+        android:divider="@null" />
+
+    <TextView
+        android:id="@+id/mark_empty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="@string/no_mark"
+        android:visibility="gone" />
+
+</RelativeLayout>

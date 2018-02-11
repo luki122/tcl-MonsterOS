@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <mst.widget.MstListView
+        android:id="@+id/list_view"
+        android:clipToPadding="false"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusable="false"
+        android:divider="@null" />
+
+    <LinearLayout
+        android:id="@+id/list_no_search_result"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/a_119" />
+
+        <TextView
+            android:id="@+id/list_no_result_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/no_search_view_margin"
+            android:layout_marginStart="@dimen/no_search_view_margin"
+            android:layout_marginTop="@dimen/no_search_view_margin"
+            android:fontFamily="monster-normal"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="@string/no_search_result"
+            android:textColor="@color/grid_time_text_color"
+            android:textSize="@dimen/no_folder_font_size" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/list_no_folder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:src="@drawable/empty_icon" />
+
+        <TextView
+            android:id="@+id/list_no_folder_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="monster-normal"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="@string/no_folder_cn"
+            android:layout_marginTop ="@dimen/no_folder_margin_top"
+            android:textColor="@color/grid_time_text_color"
+            android:textSize="@dimen/no_folder_font_size" />
+    </LinearLayout>
+
+</FrameLayout>

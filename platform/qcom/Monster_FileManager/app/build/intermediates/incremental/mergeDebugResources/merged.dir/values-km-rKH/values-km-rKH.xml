@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"រកមើល​ទៅ​ដើម"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"រកមើល​ឡើងលើ"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"ជម្រើស​ច្រើន​ទៀត"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"រួចរាល់"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"មើល​ទាំងអស់"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"ជ្រើស​កម្មវិធី​​"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"បិទ"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"បើក"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"ស្វែងរក…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"សម្អាត​សំណួរ"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"ស្វែងរក​សំណួរ"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"ស្វែងរក"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"ដាក់​​​ស្នើ​សំណួរ"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"ការស្វែងរក​សំឡេង"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"ចែករំលែក​ជាមួយ"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"ចែករំលែក​ជាមួយ %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"បង្រួម"</string>
+    <string name="action_menu_create_folder_button">"បង្កើតសឺមី"</string>
+    <string name="add_favorite">"បន្ថែមទៅកាន់សឺមីសំណព្វ"</string>
+    <string name="alert_delete_message">"លុបចោល"</string>
+    <string name="alert_delete_multiple">"របស់ទាំងនេះនឹងត្រូវលុបចេញ"</string>
+    <string name="alert_delete_single">"ឯកសារដែលបានជ្រើសយកនឹងត្រូវបានលុប!"</string>
+    <string name="already_exists">"%1$s កំពុង​ត្រូវ​បាន​ប្រើ​ហើយ"</string>
+    <string name="cancel">"លើកលែង"</string>
+    <string name="category_apks">"APKs"</string>
+    <string name="category_archives">"កាលប្បវតិ្ត"</string>
+    <string name="category_audio">"អូឌីអូ"</string>
+    <string name="category_bluetooth">"ប្ល៊ូធូស"</string>
+    <string name="category_docs">"ឯកសារ"</string>
+    <string name="category_download">"ទាញយក"</string>
+    <string name="category_favorite">"ចូលចិត្ត"</string>
+    <string name="category_music">"តន្រ្តី"</string>
+    <string name="category_pictures">"រូបភាព"</string>
+    <string name="category_recordings">"សំឡេងថត"</string>
+    <string name="category_ringtones">"សម្លេងរោទ៍"</string>
+    <string name="category_safebox">"ប្រអប់សុវត្ថិភាព"</string>
+    <string name="category_vedios">"វីដេអូ"</string>
+    <string name="change_mode">"ជ្រើសរើសឯកសារ ឫសឺមី"</string>
+    <string name="confirm_rename">"បញ្ញាក់ការដាក់ឈ្មោះថ្មី"</string>
+    <string name="copy">"ចម្លង"</string>
+    <string name="copy_deny">"មិនមានការអនុញ្ញាតដើម្បីចម្លង"</string>
+    <string name="create_folder">"បង្កើត"</string>
+    <string name="create_hidden_file">"ឯកសារនឹងត្រូវបានលាក់ ប្រសិនបើឈ្មោះរបស់វាចាប់ផ្តើមដោយ \'.\'"</string>
+    <string name="create_new_folder">"បង្កើតសឺមី"</string>
+    <string name="cut">"កាត់"</string>
+    <string name="cut_deny">"មិនមានការអនុញ្ញាតដើម្បីកាត់"</string>
+    <string name="default_folder_name">"ឈ្មោះ​សឺមី"</string>
+    <string name="default_search_text">"រាវរកឯកសារ"</string>
+    <string name="del_favorite">"លុបពីសឺមីសំណព្វ"</string>
+    <string name="delete">"លុបចោល"</string>
+    <string name="delete_deny">"មិនមានការអនុញ្ញាតដើម្បីលុបចោល"</string>
+    <string name="delete_fail">"លុបចោលមិនបានទទួលជោគជ័យទេ!"</string>
+    <string name="deleting">"កំពុងលុបចោល"</string>
+    <string name="deselect_all">"មិនជ្រើសរើសទាំងអស់"</string>
+    <string name="deselect_all_item">"មិនជ្រើសរើសទាំងអស់"</string>
+    <string name="detail">"ព័ត៌មានលំអិត"</string>
+    <string name="detail_name">"ឈ្មោះហ្វៃល៍៖"</string>
+    <string name="detail_name_m">"ឈ្មោះ"</string>
+    <string name="detail_path_m">"ទីតាំង"</string>
+    <string name="detail_size">"ទំហំឯកសារ :"</string>
+    <string name="detail_size_m">"ទំហំ"</string>
+    <string name="details">"ព័ត៌មានលំអិត"</string>
+    <string name="dialog_close_btn">"បិទ"</string>
+    <string name="done">"បានធ្វើរួច"</string>
+    <string name="draw_left_phone_storage">"ការផ្ទុកឯកសារក្នុងទូរស័ព្ទ"</string>
+    <string name="draw_left_phone_storage_m">"ទូរស័ព្ទ"</string>
+    <string name="draw_left_sd_card">"កាត SD"</string>
+    <string name="drawer_open">"បើក"</string>
+    <string name="drawer_settings">"ការកំណត់"</string>
+    <string name="drm_current_count">"ការរាប់បច្ចុប្បន្ន："</string>
+    <string name="drm_current_right">"ឧបសគ្គនាពេលបច្ចុប្បន្ន："</string>
+    <string name="drm_forwardforbidden_message">"ឯកសារ DRMមិនអាចបញ្ចូនត"</string>
+    <string name="drm_forwardforbidden_title">"មិន បានបញ្ចូនត"</string>
+    <string name="drm_no_crop">"ឯកសារ %s មិន​ទទួល​ការអនុញ្ញាត​ឲ្យ​ច្រឹប​ឡើយ ដោយសារ​ឯកសារ​នេះ​ត្រូវ​បាន​ការពារ​ដោយ DRM."</string>
+    <string name="drm_no_valid_right">"ឯកសារនេះពុំមានការអនុញ្ញាតសិទ្ធិ DRM ត្រឹមត្រូវឡើយ!"</string>
+    <string name="drm_toast_license_expired">"អាជ្ញាប័ណ្ណ DRM បានផុតកំណត់ហើយ ។"</string>
+    <string name="drm_wifidisplay_message">"ឯកសាការពារថតចម្លងមិនអាចចែកចាយ ។"</string>
+    <string name="drm_wifidisplay_ok">"យល់ព្រម"</string>
+    <string name="empty_msg">"(សឺមីទទេ)"</string>
+    <string name="executable">"អាចប្រតិបត្តិបាន："</string>
+    <string name="favourite">"ចូលចិត្ត"</string>
+    <string name="file_name_too_long">"ឈ្មោះដែលអ្នកវាយបញ្ចូលវែងពេក"</string>
+    <string name="fingerprint_relative_dialog_cancel">"ពេលក្រោយ"</string>
+    <string name="free_space">"ទំនេរ"</string>
+    <string name="freeof_m">"ម៉ូដសេរី"</string>
+    <string name="hide">"លាក់"</string>
+    <string name="hide_file">"លាក់ឯកសារដែលបានលាក់"</string>
+    <string name="insufficient_memory">"កន្លែងផ្ទុកមិនគ្រប់គ្រាន់"</string>
+    <string name="invalid_char_prompt">"អ្នកបានបញ្ចូលតួអក្សរដែលមិនមានសុពលភាព"</string>
+    <string name="invalid_empty_name">"ឈ្មោះឯកសារ​ ឬសឺមីមិនអាចទទេបានឡើយ"</string>
+    <string name="loading">"កំពុងឡូត..."</string>
+    <string name="main_sd_storage">"ឧបករណ៍ផ្ទុក SD"</string>
+    <string name="menu_select">"សូមជ្រើសរើស"</string>
+    <string name="modified_time">"បានកែសម្រួល"</string>
+    <string name="modify_hidden_file">"ឯកសារនឹងមិនត្រូវបានលាក់ ប្រសិនបើឈ្មោះរបស់វាមិនចាប់ផ្តើមដោយ \'.\' ។"</string>
+    <string name="more">"ច្រើន"</string>
+    <string name="msg_rename_ext">"អ្នកកំពុងតែប្តូរកន្ទុយរបស់ឈ្មោះឯកសារ ដែលអាចធ្វើឲ្យឯកសារមិនត្រូវបានទទួលស្គាល់ ។ តើអ្នកពិតជាចង់ប្តូរវាមែនទេ?"</string>
+    <string name="msg_unable_open_file">"ទ្រង់ទ្រាយរបស់ឯកសារមិនអាចប្រើបានទេ ។"</string>
+    <string name="msg_unable_open_file_in_app">"គ្មាន​កម្មវិធី​ដើម្បី​បើក​ឯកសារ"</string>
+    <string name="multi_alert_delete_message">"លុបវត្ថុដែលបានជ្រើសរើសចោលទេ?"</string>
+    <string name="multi_alert_delete_message_cn">"លុបវត្ថុដែលបានជ្រើសរើសចោលទេ?"</string>
+    <string name="name">"ឈ្មោះ"</string>
+    <string name="new_folder">"ដាក់បញ្ចូលឈ្មោះប្រអប់ឯកសារ"</string>
+    <string name="no">"ទេ"</string>
+    <string name="no_folder">"សឺមីនេះទទេ"</string>
+    <string name="no_search_result">"លទ្ធផល 0 ចំពោះ\"%1$s\""</string>
+    <string name="not_available">"មិនទំនេរ"</string>
+    <string name="ok">"យល់ព្រម"</string>
+    <string name="operation_fail">"ប្រតិបត្តិការឯកសារមួយចំនួនបានបរាជ័យ។"</string>
+    <string name="paste">"បិត"</string>
+    <string name="paste_fail">"បរាជ័យក្នុងការបិត"</string>
+    <string name="paste_same_folder">"មិនអាចដាក់ក្នុងសឺមីតែមួយបានទេ"</string>
+    <string name="paste_sub_folder">"មិនអាចដាក់ក្នុងសឺមីរងបានទេ ។"</string>
+    <string name="pasting">"កំពុងបិត"</string>
+    <string name="path_not_exists">"%1$sមិនមាន"</string>
+    <string name="permission_exit_btn">"ចាកចេញ"</string>
+    <string name="permission_settings">"ការសិត"</string>
+    <string name="phone_storage">"កន្លែងរក្សាទុកទិន្នន័យរបស់ទូរសព័្ទ"</string>
+    <string name="phone_storage_cn">"ការផ្ទុកឯកសារក្នុងទូរស័ព្ទ"</string>
+    <string name="readable">"អាចអានបាន："</string>
+    <string name="remove_to">"ផ្លាស់ទីទៅ"</string>
+    <string name="rename">"ដាក់ឈ្មោះថ្មី"</string>
+    <string name="right_url">"អ្នកចេញអាជ្ញាប័ណ្ណ URL៖："</string>
+    <string name="safe_set">"ការសិត"</string>
+    <string name="save">"រក្សាទុក"</string>
+    <string name="sd_card">"កាត SD"</string>
+    <string name="search">"រាវរក"</string>
+    <string name="search_empty">"មាតិការសម្រាប់រាវរកមិនត្រូវទទេឡើយ ។"</string>
+    <string name="search_files">"រាវរកឯកសារ"</string>
+    <string name="search_result">"%2$d លទ្ធផលសម្រាប់ \"%1$s\""</string>
+    <string name="search_result_title">"លទ្ធផលស្វែងរក"</string>
+    <string name="search_setting_description">"ឯកសារ និងសឺមីក្នុងម៉ាស៊ីន"</string>
+    <string name="search_text_empty">"មាតិការសម្រាប់រាវរកមិនត្រូវទទេឡើយ ។"</string>
+    <string name="searchview_hint">"រាវរកឯកសារ"</string>
+    <string name="select_all">"ជ្រើសយកទាំងអស់"</string>
+    <string name="selected">"បានជ្រើសរើស"</string>
+    <string name="send_file">"ផ្ញើរឯកសារ"</string>
+    <string name="share">"ចែករំលែក"</string>
+    <string name="share_warning">"ឯកសារដែលត្រូវចែករំលែកមិនត្រូវឱ្យលើសពី 100 ឡើយ."</string>
+    <string name="shortcut_item">"បន្ថែមទៅក្នុងពាក្យបញ្ជាផ្លូវកាត់"</string>
+    <string name="show_file">"បង្ហាញឯកសារដែលបានលាក់"</string>
+    <string name="show_hide">"បង្ហាញ\\លាក់"</string>
+    <string name="size">"ទំហំ"</string>
+    <string name="some_delete_fail">"ប្រតិបត្តិការដែលបានលុបមួយចំនួនបានបរាជ័យ។"</string>
+    <string name="some_paste_fail">"ប្រតិបត្តិការដាក់បញ្ចូលខ្លះត្រូវបរាជ័យ"</string>
+    <string name="sort">"តម្រៀប"</string>
+    <string name="sort_by">"រៀបចំតាម"</string>
+    <string name="sort_by_name">"ឈ្មោះ"</string>
+    <string name="sort_by_size">"ទំហំ"</string>
+    <string name="sort_by_time">"កាលបរិច្ឆេទ"</string>
+    <string name="sort_by_type">"ប្រភេទ"</string>
+    <string name="sort_name">"រៀបតាមឈ្មោះ"</string>
+    <string name="sort_size">"រៀបតាមទំហំ"</string>
+    <string name="sort_time">"តម្រៀប​តាម​ម៉ោង"</string>
+    <string name="sort_type">"តម្រៀបតាមប្រភេទ"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="total_space">"ទំហំផ្ទុកសរុប"</string>
+    <string name="unknown">"មិនស្គាល់"</string>
+    <string name="unlimited_usage">"ការប្រើមិនកំណត់"</string>
+    <string name="unmounted">"%1$s ត្រូវបានបិទ"</string>
+    <string name="usbotg">"ការផ្ទុកឯកសារក្នុងឧបករណ៍ USB ខាងក្រៅ"</string>
+    <string name="use_times">"ប្រើប្រាស់ %s ដង"</string>
+    <string name="valid_after">"មានសុពលភាពក្រោយពី"</string>
+    <string name="valid_until">"មានសុពលភាពរហូតដល់"</string>
+    <string name="view_by">"មើលដោយ"</string>
+    <string name="view_grid">"មើលជាក្រឡា"</string>
+    <string name="viewby_details">"បង្ហាញតាមព័ត៌មានលម្អិត"</string>
+    <string name="viewby_grid">"បង្ហាញតាមក្រឡាចត្រង្គ"</string>
+    <string name="viewby_list">"បង្ហាញតាមរយៈបញ្ជី"</string>
+    <string name="wait">"សូមរង់ចាំ..."</string>
+    <string name="warning">"ព្រមាន"</string>
+    <string name="welcome_ok">"យល់​ហើយ"</string>
+    <string name="writable">"អាចសរសេរបាន："</string>
+    <string name="yes">"បាទ"</string>
+</resources>

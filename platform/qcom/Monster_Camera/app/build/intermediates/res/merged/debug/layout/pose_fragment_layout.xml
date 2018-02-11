@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true">
+
+    <LinearLayout
+        android:id="@+id/pose_show_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/default_background"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/close_pose_image_size">
+
+            <FrameLayout
+                android:id="@+id/close_pose_layout"
+                android:layout_width="@dimen/close_pose_image_size"
+                android:layout_height="@dimen/close_pose_image_size"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/close_pose_image_margin_right">
+
+                <ImageView
+                    android:id="@+id/close_pose_image"
+                    android:layout_width="@dimen/pose_image_size"
+                    android:layout_height="@dimen/pose_image_size"
+                    android:layout_gravity="center"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/clear" />
+            </FrameLayout>
+
+            <LinearLayout
+                android:id="@+id/pose_title_layout"
+                android:layout_width="@dimen/pose_title_layout_width"
+                android:layout_height="@dimen/pose_title_height"
+                android:layout_centerInParent="true"
+                android:background="@drawable/woman_title"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/women_pose_btn"
+                    android:layout_width="@dimen/pose_text_view_width"
+                    android:layout_height="match_parent" />
+
+                <TextView
+                    android:id="@+id/men_pose_btn"
+                    android:layout_width="@dimen/pose_text_view_width"
+                    android:layout_height="match_parent" />
+
+                <TextView
+                    android:id="@+id/all_pose_btn"
+                    android:layout_width="@dimen/pose_text_view_width"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <com.android.camera.PoseViewPager
+            android:id="@+id/pose_viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/gridview_height" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/pose_display_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/pose_display_image_margin_bottom"
+            android:layout_marginTop="@dimen/pose_display_image_margin_top">
+
+            <com.android.camera.ui.RotateLayout
+                android:id="@+id/display_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true">
+
+                <ImageView
+                    android:id="@+id/detail_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitCenter" />
+
+            </com.android.camera.ui.RotateLayout>
+        </RelativeLayout>
+
+        <FrameLayout
+            android:id="@+id/back_layout"
+            android:layout_width="@dimen/back_compose_layout_size"
+            android:layout_height="@dimen/back_compose_layout_size"
+            android:layout_gravity="bottom|right"
+            android:layout_marginRight="@dimen/back_compose_layout_margin_right"
+            android:layout_marginBottom="@dimen/back_compose_layout_margin_bottom">
+
+            <com.android.camera.ui.RotateImageView
+                android:id="@+id/back_image"
+                android:layout_width="@dimen/pose_image_size"
+                android:layout_height="@dimen/pose_image_size"
+                android:layout_gravity="center"
+                android:scaleType="fitCenter"
+                android:src="@drawable/back" />
+        </FrameLayout>
+
+    </FrameLayout>
+</FrameLayout>

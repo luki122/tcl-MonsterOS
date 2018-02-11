@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mst="http://schemas.android.com/apk/res/com.mst"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="20dip"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:text="@string/lbl_optimization"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="12sp"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/rlyt_advertisement"
+        android:layout_width="match_parent"
+        android:layout_height="56dip"
+        android:paddingStart="22dip"
+        android:paddingEnd="22dip"
+        android:layout_marginRight="10dip" >
+
+        <ImageView
+            android:id="@+id/img_advertisement"
+            android:layout_width="24dip"
+            android:layout_height="24dip"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dip"
+            android:visibility="gone"
+            android:src="@drawable/advertisement_bg" />
+
+        <TextView
+            android:id="@+id/tv_advertisement"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/ck_advertisement"
+            android:text="@string/lbl_advertisement"
+            android:layout_marginLeft="20dip"
+            android:textColor="@color/black_86"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/ck_advertisement"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:checked="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlyt_permission"
+        android:layout_width="match_parent"
+        android:layout_height="56dip"
+        android:paddingStart="22dip"
+        android:paddingEnd="22dip">
+
+        <ImageView
+            android:id="@+id/img_permission"
+            android:layout_width="24dip"
+            android:layout_height="24dip"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dip"
+            android:visibility="gone"
+            android:src="@drawable/jurisdiction_bg" />
+
+        <TextView
+            android:id="@+id/tv_permission"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/ck_permissions"
+            android:text="@string/lbl_permissions"
+            android:layout_marginLeft="20dip"
+             android:textColor="@color/black_86"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/ck_permissions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:checked="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlyt_quick"
+        android:layout_width="match_parent"
+        android:layout_height="56dip"
+        android:paddingStart="22dip"
+        android:paddingEnd="22dip">
+
+        <ImageView
+            android:id="@+id/img_quick"
+            android:layout_width="24dip"
+            android:layout_height="24dip"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dip"
+            android:visibility="gone"
+            android:src="@drawable/shortcut_method_bg" />
+
+        <TextView
+            android:id="@+id/tv_quick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/ck_quick"
+            android:text="@string/lbl_quick"
+            android:layout_marginLeft="20dip"
+             android:textColor="@color/black_86"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/ck_quick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:checked="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlyt_suspension_window"
+        android:layout_width="match_parent"
+        android:layout_height="56dip"
+        android:paddingStart="22dip"
+        android:paddingEnd="22dip" >
+
+        <ImageView
+            android:id="@+id/img_suspension_window"
+            android:layout_width="24dip"
+            android:layout_height="24dip"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dip"
+            android:visibility="gone"
+            android:src="@drawable/suspension_window_bg" />
+
+        <TextView
+            android:id="@+id/tv_suspension_window"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/ck_suspension_window"
+            android:layout_marginLeft="20dip"
+             android:textColor="@color/black_86"
+            android:text="@string/lbl_suspension_window" />
+
+        <CheckBox
+            android:id="@+id/ck_suspension_window"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:checked="true" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="check_new">Otsi värskendust</string>
+    <string name="downloaded_finish">Allalaadimine on lõpetatud</string>
+    <string name="downloading">Allalaadimine ...</string>
+    <string name="network_error_tip">Võrgutõrge. Kontrollige võrguühendust ja proovige uuesti.</string>
+    <string name="notification_downloading">Allalaadimine</string>
+    <string name="tip_network_error">Võrgutõrge</string>
+    <string name="try_later">Hiljem</string>
+    <string name="update">Nüüd</string>
+    <string name="update_ask_tip">Te peate värskendama uusimale versioonile</string>
+    <string name="update_available">Saadaval värskendus</string>
+    <string name="update_confirm">OK</string>
+    <string name="update_detail_prefix">Värskenduse üksikasjad:</string>
+    <string name="update_download_fail">Allalaadimine ebaõnnestus</string>
+    <string name="update_force_nofity_tip">Soovitame teil värskendada rakendus uusimale versioonile.</string>
+    <string name="update_no_need">Praegune versioon on uusim</string>
+    <string name="update_no_updates">Värskendusi pole</string>
+    <string name="update_no_updates_tip">Värskendusi pole</string>
+    <string name="update_not_now">Mitte praegu</string>
+    <string name="update_notification_tips">Parima kogemuse saamiseks värskendage uusimale versioonile.</string>
+    <string name="update_notification_title">Värskenduse teavitus</string>
+    <string name="update_notify_tip">Uus versioon on saadaval. Kas värskendada kohe?</string>
+    <string name="update_now">Uuenda</string>
+    <string name="versionDesc">Versiooni teave:</string>
+</resources>

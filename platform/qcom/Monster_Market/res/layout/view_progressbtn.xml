@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android_custom="http://schemas.android.com/apk/res/com.monster.market"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btn_backup"
+        android:layout_width="@dimen/app_item_down_btn_width"
+        android:layout_height="@dimen/app_item_down_btn_height"
+        android:layout_gravity="center"
+        android:background="@android:color/transparent"
+        android:stateListAnimator="@null"
+        android:clickable="false"
+        android:gravity="center"
+        android:text="@string/item_download"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/progressBtnTextSize" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="@dimen/app_item_down_btn_width"
+        android:layout_height="@dimen/app_item_down_btn_height"
+        android:layout_gravity="center"
+        android:background="@drawable/button_default_selector"
+        android:stateListAnimator="@null"
+        android:gravity="center"
+        android:elevation="0dp"
+        android:translationZ="0dp"
+        android:text="@string/item_download"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/progressBtnTextSize" />
+
+    <com.monster.market.views.ToCircleView
+        android:id="@+id/tcv_toProgress"
+        android:layout_width="@dimen/app_item_down_btn_width"
+        android:layout_height="@dimen/app_item_down_btn_height"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/progress_btn"
+        android:layout_width="@dimen/progressBtnWidth"
+        android:layout_height="@dimen/progressBtnHeight"
+        android:layout_gravity="center"
+        android:background="@drawable/button_stop_selector"
+        android:stateListAnimator="@null"
+        android:visibility="gone" />
+
+    <com.monster.market.views.RoundProgressView
+        android:id="@+id/round_progress_view"
+        android:layout_width="@dimen/progressBtnWidth"
+        android:layout_height="@dimen/progressBtnWidth"
+        android:layout_gravity="center"
+        android:stateListAnimator="@null"
+        android_custom:roundProgressColor="@color/progressRoundColor"
+        android_custom:roundWidth="@dimen/progressRoundWidth" />
+
+    <ImageView
+        android:id="@+id/iv_progress1"
+        android:layout_width="@dimen/progressBtnWidth"
+        android:layout_height="@dimen/progressBtnWidth"
+        android:layout_gravity="center"
+        android:src="@drawable/icon_install_ing1"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/iv_progress2"
+        android:layout_width="@dimen/progressBtnWidth"
+        android:layout_height="@dimen/progressBtnWidth"
+        android:layout_gravity="center"
+        android:src="@drawable/icon_install_ing2"
+        android:visibility="gone" />
+
+    <com.monster.market.views.GlassView
+        android:id="@+id/agv1"
+        android:layout_width="@dimen/progressBtnWidth"
+        android:layout_height="@dimen/progressBtnWidth"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android_custom:big_radius="@dimen/progressBtnBigRadius"
+        android_custom:dark_color="@color/progressGrey_dark"
+        android_custom:dot_radius="@dimen/progressBtnDotRadius"
+        android_custom:light_color="@color/progressGrey_light" />
+
+    <com.monster.market.views.GlassView
+        android:id="@+id/agv2"
+        android:layout_width="@dimen/progressBtnWidth"
+        android:layout_height="@dimen/progressBtnWidth"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android_custom:big_radius="@dimen/progressBtnBigRadius"
+        android_custom:dark_color="@color/progressGrey_dark"
+        android_custom:dot_radius="@dimen/progressBtnDotRadius"
+        android_custom:light_color="@color/progressGrey_light" />
+
+    <com.monster.market.views.ToCircleView
+        android:id="@+id/tcv_toRect"
+        android:layout_width="@dimen/app_item_down_btn_width"
+        android:layout_height="@dimen/app_item_down_btn_height"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/fouceBtn"
+        android:layout_width="@dimen/app_item_down_btn_width"
+        android:layout_height="@dimen/app_item_down_btn_height"
+        android:layout_gravity="center"
+        android:background="@drawable/button_focus_selector"
+        android:stateListAnimator="@null"
+        android:gravity="center"
+        android:text="@string/item_open"
+        android:textColor="@color/focus_btn_text_color"
+        android:textSize="@dimen/progressBtnTextSize"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/fouceBtn_backup"
+        android:layout_width="@dimen/app_item_down_btn_width"
+        android:layout_height="@dimen/app_item_down_btn_height"
+        android:layout_gravity="center"
+        android:background="@android:color/transparent"
+        android:stateListAnimator="@null"
+        android:clickable="false"
+        android:gravity="center"
+        android:text="@string/item_open"
+        android:textColor="@color/focus_btn_text_color"
+        android:textSize="@dimen/progressBtnTextSize"
+        android:visibility="gone" />
+
+</FrameLayout>

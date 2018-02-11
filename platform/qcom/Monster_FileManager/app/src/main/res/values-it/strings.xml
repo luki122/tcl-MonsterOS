@@ -1,0 +1,814 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="sort">"Ordina"</string>
+	<!---->
+	<string name="sort_by_name">"Nome"</string>
+	<!---->
+	<string name="sort_by_date">"Data modificata"</string>
+	<!---->
+	<string name="sort_by_time">"Data"</string>
+	<!---->
+	<string name="sort_by_type">"Tipo"</string>
+	<!---->
+	<string name="sort_by_size">"Dimens."</string>
+	<!---->
+	<string name="copy">"Copia"</string>
+	<!---->
+	<string name="create_folder">"Crea"</string>
+	<!---->
+	<string name="cut">"Taglia"</string>
+	<!---->
+	<string name="delete">"Elimina"</string>
+	<!---->
+	<string name="delete_confirm">"Conferma eliminazione"</string>
+	<!---->
+	<string name="deselect_all">"Deseleziona tutto"</string>
+	<!---->
+	<string name="select_all">"Seleziona tutto"</string>
+	<!---->
+	<string name="show_file">"Mostra file nascosti"</string>
+	<!---->
+	<string name="hide_file">"Nascondi file nascosti"</string>
+	<!---->
+	<string name="paste">"Incolla"</string>
+	<!---->
+	<string name="rename">"Rinomina"</string>
+	<!---->
+	<string name="share">"Condividi"</string>
+	<!---->
+	<string name="viewby_list">"Visualizza elenco"</string>
+	<!---->
+	<string name="viewby_grid">"Visualizza in griglia"</string>
+	<!---->
+	<string name="alert_delete_message">"Elimina"</string>
+	<!---->
+	<string name="multi_alert_delete_message">"Eliminare gli elementi selezionati?"</string>
+	<!---->
+	<string name="multi_alert_delete_message_cn">"Eliminare gli elementi selezionati?"</string>
+	<!-- no translation found for delete_folder_message -->
+	<skip />
+	<!---->
+	<string name="category_pictures">"Immagini"</string>
+	<!---->
+	<string name="category_vedios">"Video"</string>
+	<!---->
+	<string name="category_music">"Musica"</string>
+	<!---->
+	<string name="category_download">"Download"</string>
+	<!---->
+	<string name="category_bluetooth">"Bluetooth"</string>
+	<!-- no translation found for app_name -->
+	<skip />
+	<!-- no translation found for theme_name -->
+	<skip />
+	<!---->
+	<string name="apk_name">"File"</string>
+	<!---->
+	<string name="new_folder">"Immetti nome cartella"</string>
+	<!---->
+	<string name="confirm_rename">"Conferma nome"</string>
+	<!---->
+	<string name="warning">"Quantità massima di file"</string>
+	<!---->
+	<string name="share_warning">"Impossibile condividere più di 100 file."</string>
+	<!---->
+	<string name="loading">"Caricamento..."</string>
+	<!---->
+	<string name="deleting">"Eliminazione"</string>
+	<!---->
+	<string name="alert_delete_multiple">"I file selezionati verranno eliminati."</string>
+	<!---->
+	<string name="name">"Nome"</string>
+	<!---->
+	<string name="size">"Dimens."</string>
+	<!---->
+	<string name="modified_time">"Modificato"</string>
+	<!---->
+	<string name="msg_rename_ext">"L\'estensione file sarà modificata. Il file potrebbe non essere riconosciuto. Continuare?"</string>
+	<!---->
+	<string name="wait">"Attendi..."</string>
+	<!---->
+	<string name="done">"Operazione completata"</string>
+	<!-- no translation found for enable -->
+	<skip />
+	<!-- no translation found for enable_cn -->
+	<skip />
+	<!---->
+	<string name="cancel">"Annulla"</string>
+	<!---->
+	<string name="no">"No"</string>
+	<!---->
+	<string name="ok">"OK"</string>
+	<!---->
+	<string name="yes">"Sì"</string>
+	<!---->
+	<string name="details">"Dettagli"</string>
+	<!---->
+	<string name="drawer_open">"Apri"</string>
+	<!---->
+	<string name="unknown">"Sconosciuto"</string>
+	<!-- no translation found for unit_B -->
+	<skip />
+	<!-- no translation found for unit_KB -->
+	<skip />
+	<!-- no translation found for unit_MB -->
+	<skip />
+	<!-- no translation found for unit_GB -->
+	<skip />
+	<!-- no translation found for unit_TB -->
+	<skip />
+	<!---->
+	<string name="send_file">"Condividi file tramite"</string>
+	<!---->
+	<string name="default_search_text">"Cerca nei file"</string>
+	<!---->
+	<string name="free_space">"Disponibile"</string>
+	<!---->
+	<string name="total_space">"Spazio totale"</string>
+	<!---->
+	<string name="drawer_category">"Categorie"</string>
+	<!---->
+	<string name="phone_storage">"Memoria telefono"</string>
+	<!---->
+	<string name="phone_storage_cn">"Archiviazione su telefono"</string>
+	<!---->
+	<string name="sd_card">"Scheda SD"</string>
+	<!---->
+	<string name="draw_left_phone_storage">"Archiviazione su telefono"</string>
+	<!---->
+	<string name="draw_left_sd_card">"Scheda SD"</string>
+	<!-- no translation found for menu_settings -->
+	<skip />
+	<!---->
+	<string name="no_search_result">"0 risultati per \"%1$s\""</string>
+	<!---->
+	<string name="copy_deny">"Nessuna autorizzazione per copiare"</string>
+	<!---->
+	<string name="cut_deny">"No autorizz per tagliare"</string>
+	<!---->
+	<string name="delete_deny">"No autorizz per eliminare"</string>
+	<!---->
+	<string name="insufficient_memory">"Spazio insufficiente."</string>
+	<!---->
+	<string name="insufficient_message">"Impossibile copiare alcuni file perché lo spazio è insufficiente"</string>
+	<!---->
+	<string name="invalid_empty_name">"È necessario specificare un nome del file o della cartella"</string>
+	<!---->
+	<string name="paste_same_folder">"Impossibile copiare: cartella di origine e cartella di destinazione identiche."</string>
+	<!---->
+	<string name="invalid_char_prompt">"È stato immesso un carattere non valido"</string>
+	<!---->
+	<string name="msg_unable_open_file">"Formato file non supportato."</string>
+	<!---->
+	<string name="paste_sub_folder">"Impossibile incollare il file nella sottocartella"</string>
+	<!---->
+	<string name="operation_fail">"Impossibile eseguire alcune operazioni con il file."</string>
+	<!---->
+	<string name="search_result">"%2$d risultato/i per \"%1$s\""</string>
+	<!---->
+	<string name="already_exists">"%1$s è già in uso"</string>
+	<!---->
+	<string name="unmounted">"%1$s non è montato/a"</string>
+	<!---->
+	<string name="create_hidden_file">"Il file verrà nascosto, se il suo nome inizia per \'.\'"</string>
+	<!---->
+	<string name="file_name_too_long">"Il nome di input è troppo lungo"</string>
+	<!---->
+	<string name="some_paste_fail">"Impossibile completare l\'esecuzione del comando Incolla con alcuni file."</string>
+	<!---->
+	<string name="delete_fail">"Impossibile eliminare"</string>
+	<!---->
+	<string name="some_delete_fail">"Impossibile eseguire alcune operazioni di eliminazione."</string>
+	<!---->
+	<string name="msg_unable_open_file_in_app">"Nessuna applicazione presente è in grado di aprire il file"</string>
+	<!---->
+	<string name="drm_forwardforbidden_title">"Non inoltrato"</string>
+	<!---->
+	<string name="drm_forwardforbidden_message">"Impossibile inoltrare il file DRM."</string>
+	<!---->
+	<string name="drm_no_valid_right">"Il file non dispone di un\'autorizzazione DRM valida."</string>
+	<!---->
+	<string name="drm_current_count">"Conteggio corrente："</string>
+	<!---->
+	<string name="unlimited_usage">"Uso illimitato"</string>
+	<!---->
+	<string name="drm_current_right">"Limite corrente："</string>
+	<!---->
+	<string name="not_available">"Non disponibile"</string>
+	<!---->
+	<string name="right_url">"URL Emittente di licenze:："</string>
+	<!---->
+	<string name="use_times">"Utilizza %s volte"</string>
+	<!---->
+	<string name="valid_after">"Valido dopo"</string>
+	<!---->
+	<string name="valid_until">"Valido fino a"</string>
+	<!---->
+	<string name="drm_wifidisplay_title">"File protetti da copia"</string>
+	<!---->
+	<string name="drm_wifidisplay_message">"Non è possibile distribuire il file protetto da copia."</string>
+	<!---->
+	<string name="drm_wifidisplay_cancel_btn">"Disattiva display Wi-Fi"</string>
+	<!---->
+	<string name="drm_wifidisplay_ok">"OK"</string>
+	<!---->
+	<string name="tv_link_close_toast">"Display Wi-Fi è stato chiuso"</string>
+	<!---->
+	<string name="usbotg">"Dispositivo di archiviazione USB esterno"</string>
+	<!---->
+	<string name="show">"Mostrare i file di sistema"</string>
+	<!---->
+	<string name="hide">"Nascondere i file di sistema"</string>
+	<!---->
+	<string name="action_menu_create_folder_button">"Crea cartella"</string>
+	<!---->
+	<string name="searchResult">"Risultato ricerca"</string>
+	<!---->
+	<string name="default_folder_name">"Nome cartella"</string>
+	<!---->
+	<string name="drm_protection_status">"Stato di protezione:"</string>
+	<!---->
+	<string name="drm_can_forward">"Può essere inoltrato."</string>
+	<!---->
+	<string name="drm_can_not_forward">"Non può essere inoltrato."</string>
+	<!---->
+	<string name="drm_no_license">"Nessuna licenza DRM disponibile."</string>
+	<!---->
+	<string name="drm_interval">"Valido per %s dopo il primo utilizzo"</string>
+	<!---->
+	<string name="drm_begin">"Inizio:"</string>
+	<!---->
+	<string name="drm_no_limitation">"Nessuna limitazione."</string>
+	<!---->
+	<string name="drm_end">"Fine:"</string>
+	<!---->
+	<string name="drm_use_left">"Rimanente:"</string>
+	<!---->
+	<string name="drm_no_crop">"Non è possibile ritagliare il file "%s" in quanto è protetto da DRM."</string>
+	<!---->
+	<string name="file_copy">"File copiato"</string>
+	<!---->
+	<string name="choice_file">"Scegli destinazione"</string>
+	<!---->
+	<string name="alert_delete_single">"Il file selezionato verrà eliminato."</string>
+	<!---->
+	<string name="pasting">"Incollamento in corso"</string>
+	<!---->
+	<string name="readable">"Leggibile："</string>
+	<!---->
+	<string name="executable">"Applicazione:"</string>
+	<!---->
+	<string name="writable">"Scrivibile："</string>
+	<!---->
+	<string name="add_favorite">"Aggiungi alla cartella dei preferiti"</string>
+	<!---->
+	<string name="del_favorite">"Elimina dalla cartella dei preferiti"</string>
+	<!---->
+	<string name="favourite">"Aggiungi a preferiti"</string>
+	<!---->
+	<string name="viewby_details">"Visualizza in elenco"</string>
+	<!---->
+	<string name="view_by">"Vedi per"</string>
+	<!---->
+	<string name="show_hide">"Mostra/Nasc"</string>
+	<!---->
+	<string name="sort_by">"Ordina per"</string>
+	<!---->
+	<string name="more">"Altro"</string>
+	<!-- no translation found for used -->
+	<skip />
+	<!---->
+	<string name="category_archives">"Archivi"</string>
+	<!---->
+	<string name="category_favorite">"Preferiti"</string>
+	<!---->
+	<string name="category_ringtones">"Suonerie"</string>
+	<!---->
+	<string name="category_recordings">"Registrazioni"</string>
+	<!---->
+	<string name="category_safebox">"Safebox"</string>
+	<!---->
+	<string name="category_apks">"APK"</string>
+	<!---->
+	<string name="search">"Cerca"</string>
+	<!---->
+	<string name="sort_type">"Ordina per tipo"</string>
+	<!---->
+	<string name="sort_name">"Ordina per nome (A-Z)"</string>
+	<!---->
+	<string name="sort_size">"Ordina per dimensione (grande-piccolo)"</string>
+	<!---->
+	<string name="sort_time">"Ordina per ora (nuovo-vecchio)"</string>
+	<!---->
+	<string name="selected">"selezionato"</string>
+	<!---->
+	<string name="save">"Salva"</string>
+	<!---->
+	<string name="category_docs">"Documenti"</string>
+	<!---->
+	<string name="category_files">"File"</string>
+	<!---->
+	<string name="view_as_grid">"Visualizza come griglia"</string>
+	<!---->
+	<string name="view_as_list">"Vista elenco"</string>
+	<!---->
+	<string name="detail_path">"Posizione:"</string>
+	<!---->
+	<string name="detail_name">"Nome:"</string>
+	<!---->
+	<string name="detail_size">"Dimens.:"</string>
+	<!---->
+	<string name="detail_time">"Ultima modifica:"</string>
+	<!---->
+	<string name="empty_msg">"(Cartella vuota)"</string>
+	<!---->
+	<string name="search_files">"Cerca nei file"</string>
+	<!-- no translation found for search_result_count -->
+	<skip />
+	<!---->
+	<string name="drawer_settings">"Impostazioni"</string>
+	<!---->
+	<string name="search_text_empty">"Il contenuto della ricerca non dovrebbe essere vuoto."</string>
+	<!---->
+	<string name="search_result_title">"Risultati di ricerca"</string>
+	<!---->
+	<string name="path_not_exists">"%1$s non esiste"</string>
+	<!---->
+	<string name="modify_hidden_file">"Il file non viene nascosto se il nome non inizia con \'.\'"</string>
+	<!---->
+	<string name="paste_fail">"Impossibile incollare"</string>
+	<!---->
+	<string name="search_empty">"Il contenuto della ricerca non dovrebbe essere vuoto."</string>
+	<!---->
+	<string name="search_setting_description">"File e cartelle locali"</string>
+	<!---->
+	<string name="change_mode">"Seleziona file o cartella"</string>
+	<!-- no translation found for drm_protectioninfo_title -->
+	<skip />
+	<!---->
+	<string name="draw_favourite">"preferito"</string>
+	<!---->
+	<string name="unfavourite">"Rimuovi dai preferiti"</string>
+	<!---->
+	<string name="drm_toast_license_expired">"La licenza DRM è scaduta."</string>
+	<!-- no translation found for sdstroge -->
+	<skip />
+	<!-- no translation found for phonestorage -->
+	<skip />
+	<!-- no translation found for title_activity_main -->
+	<skip />
+	<!-- no translation found for hello_world -->
+	<skip />
+	<!-- no translation found for action_settings -->
+	<skip />
+	<!-- no translation found for unlock_video -->
+	<skip />
+	<!---->
+	<string name="readable_m">"Leggibile"</string>
+	<!---->
+	<string name="executable_m">"Applicazione"</string>
+	<!---->
+	<string name="writable_m">"Scrivibile"</string>
+	<!---->
+	<string name="main_recents">"Recenti"</string>
+	<!-- no translation found for main_recents_cn -->
+	<skip />
+	<!---->
+	<string name="main_installers">"Programmi di installazione"</string>
+	<!---->
+	<string name="main_document">"Documenti"</string>
+	<!---->
+	<string name="detail_path_m">"Luogo"</string>
+	<!-- no translation found for detail_path_m_cn -->
+	<skip />
+	<!---->
+	<string name="detail_name_m">"Nome"</string>
+	<!---->
+	<string name="detail_size_m">"Dimensione"</string>
+	<!---->
+	<string name="detail_time_m">"Ultima modifica"</string>
+	<!---->
+	<string name="main_photo">"Foto"</string>
+	<!---->
+	<string name="main_sd_storage">"Memoria SD"</string>
+	<!---->
+	<string name="main_external_storage">"Memoria esterna"</string>
+	<!---->
+	<string name="main_home">"Home"</string>
+	<!-- no translation found for main_home_cn -->
+	<skip />
+	<!---->
+	<string name="main_nava_home">"Home"</string>
+	<!---->
+	<string name="menu_select">"Seleziona"</string>
+	<!-- no translation found for go_up -->
+	<skip />
+	<!---->
+	<string name="no_folder">"La cartella è vuota"</string>
+	<!---->
+	<string name="no_category">"La categoria è vuota."</string>
+	<!-- no translation found for no_folder_cn -->
+	<skip />
+	<!-- no translation found for no_category_cn -->
+	<skip />
+	<!---->
+	<string name="pasted">"File incollato"</string>
+	<!---->
+	<string name="deleted">"File eliminato"</string>
+	<!---->
+	<string name="deleted_cn">"File eliminato"</string>
+	<!---->
+	<string name="view_list">"Visualizzazione elenco"</string>
+	<!---->
+	<string name="view_grid">"Vista griglia"</string>
+	<!---->
+	<string name="create_new_folder">"Crea cartella"</string>
+	<!-- no translation found for add_folder -->
+	<skip />
+	<!---->
+	<string name="detail">"Dettagli"</string>
+	<!-- no translation found for menu_detail -->
+	<skip />
+	<!---->
+	<string name="migrate">"Migra"</string>
+	<!---->
+	<string name="permission_welcome_title">"Autorizzazione necessaria"</string>
+	<!---->
+	<string name="permission_msg">"Miglior servizio per l\'utente"</string>
+	<!---->
+	<string name="permission_setting_title">"Consenti accesso"</string>
+	<!---->
+	<string name="permission_setting_content">"Modificare le autorizzazioni nelle impostazioni per le applicazioni del dispositivo. Consentire a File Manager l\'accesso all\'archivio."</string>
+	<!---->
+	<string name="permission_exit_btn">"Esci"</string>
+	<!---->
+	<string name="dialog_close_btn">"Chiudi"</string>
+	<!-- no translation found for dialog_close_btn_cn -->
+	<skip />
+	<!---->
+	<string name="shortcut_item">"Aggiungi collegamento"</string>
+	<!-- no translation found for shortcut_item_cn -->
+	<skip />
+	<!---->
+	<string name="shortcut_no_exist">"Cartella richiesta inesistente"</string>
+	<!-- no translation found for shortcut_success -->
+	<skip />
+	<!---->
+	<string name="no_search_result_m">"Nessun risultato trovato per \"%1$s\""</string>
+	<!---->
+	<string name="draw_left_phone_storage_m">"Telefono"</string>
+	<!---->
+	<string name="category_audio">"Audio"</string>
+	<!---->
+	<string name="usbotg_m">"Esterna"</string>
+	<!-- no translation found for sd_m -->
+	<skip />
+	<!---->
+	<string name="freeof_m">"Memoria disponibile"</string>
+	<!---->
+	<string name="permission_settings">"Impostazioni"</string>
+	<!---->
+	<string name="safe_first_dialog_title">"Categoria SafeBox"</string>
+	<!---->
+	<string name="safe_first_dialog_content">"I file spostati in questa categoria richiedono l\'autenticazione con password. Aggiungere file a questa categoria premendo "Sposta su SafeBox" dal menu del file."</string>
+	<!-- no translation found for safe_first_dialog_content_cn -->
+	<skip />
+	<!---->
+	<string name="safe_storage_local">"Memoria locale"</string>
+	<!---->
+	<string name="set_password_pass">"Password"</string>
+	<!---->
+	<string name="set_password_first">"Imposta la password: 4-12 cifre"</string>
+	<!-- no translation found for input_new_password_hint -->
+	<skip />
+	<!---->
+	<string name="set_password_again">"Conferma password"</string>
+	<!---->
+	<string name="set_password_show">"Mostrare la password"</string>
+	<!---->
+	<string name="set_password_safe_question">"Domande di sicurezza"</string>
+	<!---->
+	<string name="set_password_safe_question_answer">"Risposta"</string>
+	<!---->
+	<string name="set_password_safe_forget_pass">"Ricordare le risposte alle domande di sicurezza. Se si dimentica la password, è possibile reimpostarla rispondendo alle domande di sicurezza."</string>
+	<!---->
+	<string name="choose_safe">"Seleziona SafeBox"</string>
+	<!-- no translation found for choose_safe_cn -->
+	<skip />
+	<!---->
+	<string name="create_safe">"Crea SafeBox"</string>
+	<!---->
+	<string name="create_safe_to">"Crea SafeBox in"</string>
+	<!-- no translation found for create_safe_to_cn -->
+	<skip />
+	<!---->
+	<string name="set_password">"Imposta password"</string>
+	<!-- no translation found for add_file_safe -->
+	<skip />
+	<!---->
+	<string name="safe_set">"Impostazioni"</string>
+	<!---->
+	<string name="safe_set_title">"Impostazioni SafeBox"</string>
+	<!-- no translation found for safe_set_title_cn -->
+	<skip />
+	<!---->
+	<string name="update_password">"Aggiorna password"</string>
+	<!---->
+	<string name="modify_password">"Modifica password"</string>
+	<!---->
+	<string name="security_question">"Aggiorna domanda di sicurezza"</string>
+	<!-- no translation found for modify_security_question -->
+	<skip />
+	<!---->
+	<string name="safe_set_change_safe">"Modifica SafeBox"</string>
+	<!---->
+	<string name="safe_set_location_safe">"Posizione SafeBox"</string>
+	<!-- no translation found for safe_set_location_safe_cn -->
+	<skip />
+	<!---->
+	<string name="update_password_original">"Inserire la password originale"</string>
+	<!---->
+	<string name="update_password_original_cn">"Inserire la password originale"</string>
+	<!---->
+	<string name="destory_safe">"Elimina SafeBox"</string>
+	<!-- no translation found for destory_safe_cn -->
+	<skip />
+	<!-- no translation found for destory -->
+	<skip />
+	<!---->
+	<string name="use_password">"Utilizza password"</string>
+	<!---->
+	<string name="input_password">"Immetti la password"</string>
+	<!---->
+	<string name="forget_password">"Password dimenticata"</string>
+	<!-- no translation found for others -->
+	<skip />
+	<!---->
+	<string name="password_empty">"La password non può essere vuota."</string>
+	<!---->
+	<string name="password_consistent">"Le password non corrispondono."</string>
+	<!---->
+	<string name="password_length_error">"Errore lunghezza password"</string>
+	<!---->
+	<string name="answer_empty">"La risposta non può essere vuota."</string>
+	<!-- no translation found for safe_box_name_empty -->
+	<skip />
+	<!---->
+	<string name="update_success">"Aggiornamento riuscito."</string>
+	<!---->
+	<string name="update_fail">"Aggiornamento non riuscito"</string>
+	<!---->
+	<string name="password_mistake">"Password errata. Inserirla di nuovo."</string>
+	<!---->
+	<string name="move_safe">"Sposta su SafeBox"</string>
+	<!---->
+	<string name="fingerprint_check">"Impronte digitali collegate. Utilizzare l\'apposito sensore per la verifica."</string>
+	<!---->
+	<string name="in_use">"In uso"</string>
+	<!---->
+	<string name="created">"Creato"</string>
+	<!---->
+	<string name="choose_files">"Seleziona file"</string>
+	<!---->
+	<string name="move_out">"Sposta fuori"</string>
+	<!---->
+	<string name="remove_to">"Sposta in"</string>
+	<!---->
+	<string name="default_location">"Posizione predefinita"</string>
+	<!---->
+	<string name="specified_location">"Posizione specificata"</string>
+	<!-- no translation found for open_dir -->
+	<skip />
+	<!-- no translation found for default_location_cn -->
+	<skip />
+	<!-- no translation found for specified_location_cn -->
+	<skip />
+	<!-- no translation found for specified_location_content_cn -->
+	<skip />
+	<!-- no translation found for category_safe -->
+	<skip />
+	<!-- no translation found for category_safe_cn -->
+	<skip />
+	<!---->
+	<string name="add_safe_size_limited">"Impossibile aggiungere file superiori a 2,0 GB"</string>
+	<!-- no translation found for add_safe_drm_limited -->
+	<skip />
+	<!---->
+	<string name="fingerprint_relative_dialog">"Associare SafeBox all\'impronta digitale?"</string>
+	<!-- no translation found for fingerprint_relative_dialog_cn -->
+	<skip />
+	<!-- no translation found for fingerprint_relative_dialog_ok -->
+	<skip />
+	<!-- no translation found for fingerprint_relative_dialog_ok_cn -->
+	<skip />
+	<!---->
+	<string name="fingerprint_relative_dialog_cancel">"In seguito"</string>
+	<!-- no translation found for fingerprint_relative_dialog_cancel_cn -->
+	<skip />
+	<!---->
+	<string name="safe_location_current">"Posizione SafeBox:"</string>
+	<!-- no translation found for safe_location_current_cn -->
+	<skip />
+	<!---->
+	<string name="safe_location_content">"Non eseguire operazioni sulla cartella del file per evitare di danneggiare i dati crittografati"</string>
+	<!-- no translation found for safe_location_content_cn -->
+	<skip />
+	<!---->
+	<string name="destory_safe_dialog_message">"Tutti i file e le password contenuti in SafeBox verranno eliminati. Eliminare adesso?"</string>
+	<!---->
+	<string name="destory_safe_dialog_checkbox">"Rimuovere contemporaneamente il file?"</string>
+	<!-- no translation found for destory_safe_dialog_checkbox_cn -->
+	<skip />
+	<!---->
+	<string name="open_safe_dialog">"Attiva SafeBox"</string>
+	<!-- no translation found for open_safe_dialog_cn -->
+	<skip />
+	<!---->
+	<string name="open_safe_dialog_message">"Attivando SafeBox, i file verranno spostati in SafeBox. Attivare adesso?"</string>
+	<!-- no translation found for open_safe_dialog_message_cn -->
+	<skip />
+	<!---->
+	<string name="open_safe_dialog_ok">"Apri subito"</string>
+	<!---->
+	<string name="category_private_string">"SafeBox"</string>
+	<!---->
+	<string name="opening">"Apertura in corso"</string>
+	<!-- no translation found for space_clear -->
+	<skip />
+	<!-- no translation found for unselected -->
+	<skip />
+	<!-- no translation found for select -->
+	<skip />
+	<!-- no translation found for finish -->
+	<skip />
+	<!---->
+	<string name="senior_title">"Senior"</string>
+	<!-- no translation found for no_files_for_add_to_safebox -->
+	<skip />
+	<!-- no translation found for finger_print_relation -->
+	<skip />
+	<!-- no translation found for duplicate_file_name_tip -->
+	<skip />
+	<!---->
+	<string name="searchview_hint">"Cerca nei file"</string>
+	<!-- no translation found for safe_box_name_tip -->
+	<skip />
+	<!-- no translation found for toast_update_safe_box_name_sucess -->
+	<skip />
+	<!-- no translation found for toast_update_safe_box_name_fail -->
+	<skip />
+	<!-- no translation found for toast_safe_box_name_empty -->
+	<skip />
+	<!-- no translation found for cut_single_fail_tip -->
+	<skip />
+	<!-- no translation found for delete_single_fail_tip -->
+	<skip />
+	<!-- no translation found for copy_single_fail_tip -->
+	<skip />
+	<!-- no translation found for copy_multi_fail_tip -->
+	<skip />
+	<!-- no translation found for delete_multi_fail_tip -->
+	<skip />
+	<!-- no translation found for cut_multi_fail_tip -->
+	<skip />
+	<!-- no translation found for copy_all_fail_tip -->
+	<skip />
+	<!-- no translation found for delete_all_fail_tip -->
+	<skip />
+	<!-- no translation found for cut_all_fail_tip -->
+	<skip />
+	<!-- no translation found for past_multi_fail_tip -->
+	<skip />
+	<!-- no translation found for past_single_fail_tip -->
+	<skip />
+	<!-- no translation found for past_all_fail_tip -->
+	<skip />
+	<!-- no translation found for chip_encryption -->
+	<skip />
+	<!---->
+	<string name="safe_name_title">"Nome"</string>
+	<!---->
+	<string name="update_name">"Aggiorna nome"</string>
+	<!-- no translation found for fingerprint_relate -->
+	<skip />
+	<!-- no translation found for insufficient_message_cn -->
+	<skip />
+	<!-- no translation found for add_success -->
+	<skip />
+	<!---->
+	<string name="pasted_cn">"File incollato"</string>
+	<!-- no translation found for no_search_result_cn -->
+	<skip />
+	<!---->
+	<string name="detail_time_cn">"Ora modificata"</string>
+	<!-- no translation found for rename_limit -->
+	<skip />
+	<!-- no translation found for fingerprint_fail -->
+	<skip />
+	<!-- no translation found for answer_mistake -->
+	<skip />
+	<!-- no translation found for answer_empty_tip -->
+	<skip />
+	<!-- no translation found for new_safe -->
+	<skip />
+	<!-- no translation found for dialog_confirm -->
+	<skip />
+	<!-- no translation found for move_in_success -->
+	<skip />
+	<!-- no translation found for move_in_count -->
+	<skip />
+	<!-- no translation found for message_security_fingerprint_lockout -->
+	<skip />
+	<!-- no translation found for use_password_auth -->
+	<skip />
+	<!-- no translation found for storage_details -->
+	<skip />
+	<!---->
+	<string name="total_memory">"Memoria totale"</string>
+	<!-- no translation found for system -->
+	<skip />
+	<!-- no translation found for category_fragment_title -->
+	<skip />
+	<!-- no translation found for storage -->
+	<skip />
+	<!-- no translation found for choice -->
+	<skip />
+	<!-- no translation found for view_tag_key -->
+	<skip />
+	<!-- no translation found for view_tag_key2 -->
+	<skip />
+	<!-- no translation found for finish_percent -->
+	<skip />
+	<!---->
+	<string name="select_pic">"Seleziona foto"</string>
+	<!---->
+	<string name="brackets_double">"(%1$s)"</string>
+	<!-- no translation found for selected_pick -->
+	<skip />
+	<!-- no translation found for most_selected -->
+	<skip />
+	<!-- no translation found for finish_ready -->
+	<skip />
+	<!-- no translation found for select_pic_data -->
+	<skip />
+	<!-- no translation found for delete_determine_selected -->
+	<skip />
+	<!-- no translation found for delete_document -->
+	<skip />
+	<!-- no translation found for delete_folder -->
+	<skip />
+	<!-- no translation found for delete_folder_and -->
+	<skip />
+	<!---->
+	<string name="deselect_all_item">"Deseleziona tutto"</string>
+	<!-- no translation found for edit -->
+	<skip />
+	<!-- no translation found for storage_phone -->
+	<skip />
+	<!-- no translation found for storage_sdcard -->
+	<skip />
+	<!-- no translation found for storage_otg -->
+	<skip />
+	<!-- no translation found for storage_slash -->
+	<skip />
+	<!-- no translation found for welcome_security -->
+	<skip />
+	<!-- no translation found for welcome_security_info -->
+	<skip />
+	<!-- no translation found for welcome_convenient -->
+	<skip />
+	<!-- no translation found for welcome_convenient_info -->
+	<skip />
+	<!-- no translation found for welcome_depth -->
+	<skip />
+	<!-- no translation found for welcome_depth_info -->
+	<skip />
+	<!-- no translation found for welcome_add -->
+	<skip />
+	<!-- no translation found for welcome_add_info -->
+	<skip />
+	<!-- no translation found for welcome_dialog_title -->
+	<skip />
+	<!-- no translation found for welcome_dialog_info -->
+	<skip />
+	<!-- no translation found for welcome_dialog_verify_btn -->
+	<skip />
+	<!-- no translation found for welcome_dialog_verify_pwd -->
+	<skip />
+	<!-- no translation found for welcome_start_use -->
+	<skip />
+	<!-- no translation found for welcome_not_use -->
+	<skip />
+	<!---->
+	<string name="welcome_ok">"OK"</string>
+	<!-- no translation found for encrypt_files_success -->
+	<skip />
+	<!-- no translation found for delete_direct -->
+	<skip />
+	<!---->
+	<string name="delete_file">"Eliminare questo file?"</string>
+</resources>

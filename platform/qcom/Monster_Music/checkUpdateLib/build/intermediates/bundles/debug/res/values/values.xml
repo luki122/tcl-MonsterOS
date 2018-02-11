@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="action_bar_bg">#ff2b3238</color>
+    <color name="base_bg">#f0f1f2</color>
+    <color name="black">#000000</color>
+    <color name="blue_main">#5BB2CD</color>
+    <color name="dark_highlight_text">#414241</color>
+    <color name="dialog_bg">#e9e9e9</color>
+    <color name="dialog_desc_bg">#f2f2f2</color>
+    <color name="dialog_text">#333333</color>
+    <color name="dialog_text_gray">#999999</color>
+    <color name="dialog_title">#d4000000</color>
+    <color name="dialog_tv">#81000000</color>
+    <color name="disable_spec_btn">#e6e6e6</color>
+    <color name="gray_highlight_text">#6d6d6d</color>
+    <color name="grey_line">#E4E4E4</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#ffffff</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <string name="check_new">Check for update</string>
+    <string name="downloaded_finish">Download completed</string>
+    <string name="downloading">Downloading...</string>
+    <string name="network_error_tip">Network error, please check your internet connection and  try again.</string>
+    <string name="notification_downloading">Downloading</string>
+    <string name="retry">Retry</string>
+    <string name="tip_network_error">Network error</string>
+    <string name="try_later">Later</string>
+    <string name="update">Now</string>
+    <string name="update_ask_tip">You need to update to the latest version</string>
+    <string name="update_available">Update Available</string>
+    <string name="update_confirm">OK</string>
+    <string name="update_detail_prefix">Update details:</string>
+    <string name="update_download_fail">Download failed</string>
+    <string name="update_force_nofity_tip">It is recommended that you update your application to the latest version.</string>
+    <string name="update_no_need">This is the latest version</string>
+    <string name="update_no_updates">No updates</string>
+    <string name="update_no_updates_tip">There are no updates available.</string>
+    <string name="update_not_now">Not now</string>
+    <string name="update_notification_tips">For better experience, please update to the latest version.</string>
+    <string name="update_notification_title">Update notification</string>
+    <string name="update_notify_tip">There is a newer version available.\n Update now?</string>
+    <string name="update_now">Update</string>
+    <string name="versionDesc">Version Info:</string>
+    <style name="AlertDialogTheme" parent="android:Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item> 
+        <item name="android:windowNoTitle">true</item><!--除去title-->
+        <item name="android:windowContentOverlay">@null</item> 
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>  
+        <item name="android:background">@android:color/transparent</item>  
+        <item name="android:backgroundDimAmount">0.1</item>
+	</style>
+    <style name="ProgressBar_Blue" parent="@android:style/Widget.ProgressBar.Large">  
+       <item name="android:maxHeight">50dip</item>  
+       <item name="android:minHeight">20dip</item>  
+       <item name="android:indeterminateOnly">false</item>  
+       <item name="android:progressDrawable">@drawable/progressbar_blue</item>  
+   </style>
+    <style name="loading_dialog" parent="android:style/Theme.Dialog">  
+        <item name="android:windowFrame">@null</item>  
+        <item name="android:windowNoTitle">true</item>   
+        <item name="android:windowBackground">@color/transparent</item>  
+        <item name="android:windowIsFloating">true</item>  
+        <item name="android:windowContentOverlay">@null</item>  
+    </style>
+</resources>

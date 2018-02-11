@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tcl.monster.fota"
+    android:sharedUserId="android.uid.system"
+    android:versionCode="161129002"
+    android:versionName="v1.0.1.0204.k">
+
+    <uses-sdk
+        android:minSdkVersion="23"
+        android:targetSdkVersion="24" />
+
+    <permission
+        android:name="android.permission.ACCESS_OTA_DATA"
+        android:label="@string/permission_access_ota"
+        android:protectionLevel="normal" />
+
+    <uses-permission android:name="android.permission.ACCESS_OTA_DATA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.WRITE_MEDIA_STORAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.REBOOT" />
+    <uses-permission android:name="android.permission.ACCESS_CACHE_FILESYSTEM" />
+    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR" />
+    <uses-permission android:name="android.permission.RECOVERY" />
+    <uses-permission android:name="android.permission.DELETE_CACHE_FILES" />
+    <uses-permission android:name="android.permission.ACCESS_DOWNLOAD_MANAGER" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.ACCESS_KEYGUARD_SECURE_STORAGE" />
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS" />
+    <uses-permission android:name="android.permission.MANAGE_USERS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true" />
+
+    <application
+        android:name=".FotaApp"
+        android:configChanges="orientation"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/ic_launcher_fota"
+        android:label="@string/app_name"
+        android:screenOrientation="portrait"
+        android:resizeableActivity="false"
+        android:supportsRtl="true">
+        <activity
+            android:name=".FotaMainActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Fota"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.tcl.monster.fota.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".FotaVersionDetailActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.FotaDetail" >
+        </activity>
+        <activity
+            android:name="AdvancedModeActivity"
+            android:label="@string/advancedmode"
+            android:launchMode="singleTop"
+            android:permission="com.tcl.ota.permission.CALL_CORE_SERVICE"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AdavnceMode" >
+        </activity>
+
+        <service
+            android:name=".service.FotaCheckService"
+            android:permission="com.tcl.fota.permission.CALL_CORE_SERVICE" />
+        <service
+            android:name=".service.FotaUpdateService"
+            android:permission="com.tcl.fota.permission.CALL_CORE_SERVICE" />
+        <service
+            android:name=".service.DownloadService"
+            android:permission="com.tcl.fota.permission.CALL_CORE_SERVICE" />
+        <service
+            android:name=".service.LogService"
+            android:permission="com.tcl.fota.permission.CALL_CORE_SERVICE" />
+        <service
+            android:name=".service.LogUploadService"
+            android:permission="com.tcl.fota.permission.CALL_CORE_SERVICE" />
+        <service
+            android:name=".service.LogReportService"
+            android:permission="com.tcl.fota.permission.CALL_CORE_SERVICE">
+        </service>
+
+        <receiver android:name=".receiver.BootCompletedReceiver">
+            <intent-filter android:priority="1000">
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".receiver.WifiChangeReceiver">
+            <intent-filter android:priority="1000">
+                <action android:name="android.net.wifi.WIFI_STATE_CHANGED" />
+                <action android:name="android.net.wifi.STATE_CHANGE" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".receiver.NotificationClickReceiver">
+            <intent-filter>
+                <action android:name="com.tcl.fota.action.UPDATE_NOTIFICATION_CLICKED" />
+                <action android:name="com.tcl.fota.action.DOWNLOAD_NOTIFICATION_CLICKED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".receiver.ActionReceiver"
+            android:permission="com.tcl.fota.permission.CALL_CORE_SERVICE">
+            <intent-filter>
+                <action android:name="com.tcl.ota.action.AUTO_CHECK" />
+                <action android:name="com.tcl.ota.action.LOCATION_INFO" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".receiver.FotaResetReceiver">
+            <intent-filter android:priority="89">
+                <action android:name="android.intent.action.LAUNCH_DEVICE_RESET" />
+            </intent-filter>
+        </receiver>
+
+        <provider
+            android:name=".provider.FotaProvider"
+            android:authorities="com.tcl.monster.fota"
+            android:exported="true">
+        </provider>
+    </application>
+
+</manifest>

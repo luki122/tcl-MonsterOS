@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingLeft="24.7dp">
+
+    <ImageView
+        android:id="@+id/city_weather_symbol_minus"
+        android:layout_width="@dimen/px_60"
+        android:layout_height="match_parent"
+        android:paddingRight="5dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/symbol_minus" />
+
+    <cn.tcl.weather.view.TclCustomTextView
+        android:id="@+id/city_weather_temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="15"
+        android:textColor="@color/clr_b8000000"
+        android:textSize="@dimen/tx_sp_70" />
+
+    <ImageView
+        android:id="@+id/city_weather_symbol_degree"
+        android:layout_width="@dimen/px_33"
+        android:layout_height="@dimen/px_33"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="14dp"
+        android:src="@drawable/symbol_degree" />
+</LinearLayout>

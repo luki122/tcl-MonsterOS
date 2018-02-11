@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    	<string name="tip_network_error">Eroare de rețea</string>
+    	<string name="check_new">Căutați actualizare</string>
+    	<string name="update_download_fail">Descărcare nereușită</string>
+    	<string name="update_ask_tip">Trebuie să treceți la cea mai recentă versiune</string>
+    	<string name="update_no_need">Aceasta este cea mai recentă versiune</string>
+    	<string name="downloaded_finish">Descărcare finalizată</string>
+    	<string name="notification_downloading">Se descarcă</string>
+    	<string name="update_notification_tips">Pentru o experiență mai bună, treceți la cea mai recentă versiune.</string>
+    	<string name="update_notification_title">Notificare de actualizare</string>
+    	<string name="update">Acum</string>
+    	<string name="try_later">Mai târziu</string>
+    	<string name="versionDesc">Informații despre versiune:</string>
+    	
+    	<string name="update_available">Actualizare disponibilă</string>
+    	<string name="downloading">Se descarcă...</string>
+    	<string name="update_notify_tip">Este disponibilă o versiune nouă. Actualizați acum?</string>
+    	<string name="update_detail_prefix">Detalii despre actualizare:</string>
+    	<string name="update_not_now">Nu acum</string>
+    	<string name="update_now">Actualizați</string>
+    	<string name="network_error_tip">Eroare de rețea. Verificați conexiunea la rețea și încercați din nou.</string>
+    	<string name="update_force_nofity_tip">Vă recomandăm să actualizați aplicația la cea mai nouă versiune.</string>
+    	<string name="update_no_updates">Nu există actualizări</string>
+    	<string name="update_no_updates_tip">Nu există actualizări</string>
+    	<string name="update_confirm">OK</string>
+</resources>

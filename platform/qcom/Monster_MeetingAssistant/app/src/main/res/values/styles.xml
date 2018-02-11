@@ -1,0 +1,115 @@
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="@com.mst:style/Theme.Mst.Material.Light">
+        <item name="colorAccent">@color/cursor_color</item>
+        <item name="com.mst:windowLayoutStyle">@style/WindowLayoutStyle</item>
+        <item name="com.mst:colorToolbarIcon">@color/black_86opacity</item>
+    </style>
+
+    <style name="Theme.MstActivity" parent="@com.mst:style/Theme.Mst.Material.Light">
+        <item name="com.mst:windowLayoutStyle">@style/Style.MstActivity</item>
+        <item name="android:toolbarStyle">@style/Style.MstActivity.ToolbarStyle</item>
+    </style>
+
+    <style name="Theme.MstActivity.MeetingList" parent="@com.mst:style/Theme.Mst.Material.Light">
+        <item name="com.mst:actionPositiveText">@string/choose_all</item>
+        <item name="com.mst:actionNagativeText">@com.mst:string/cancel</item>
+        <item name="com.mst:hasBackIcon">true</item>
+        <item name="android:toolbarStyle">@style/ToolbarStyle</item>
+    </style>
+
+    <style name="Theme.MstActivity.Edit" parent="@style/Theme.MstActivity">
+        <item name="com.mst:actionPositiveText">@string/Confirm</item>
+        <item name="com.mst:actionNagativeText">@com.mst:string/cancel</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="Style.MstActivity" parent="com.mst:WindowStyle.Light">
+        <item name="com.mst:hasBackIcon">true</item>
+    </style>
+    <style name="Style.MstActivity.ToolbarStyle" parent="com.mst:style/ToolbarStyle">
+        <item name="com.mst:title">@string/MeetingAssistant</item>
+    </style>
+
+    <style name="Theme.Translucent" parent="@com.mst:style/Theme.Mst.Material.Light">
+        <item name="android:toolbarStyle">@style/Style.MstActivity.ToolbarStyle</item>
+        <item name="com.mst:windowLayoutStyle">@style/Style.MstActivity</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <!--item name="android:windowEnterAnimation">@anim/slide_in_bottom</item-->
+        <!--item name="android:windowExitAnimation">@anim/slide_out_bottom</item-->
+    </style>
+
+
+    <style name="AppTheme.ToolBar" parent="com.mst:style/ToolbarStyle">
+        <item name="com.mst:title">@string/MeetingAssistant</item>
+    </style>
+
+    <style name="ToolbarStyle" parent="com.mst:style/ToolbarStyle">
+        <item name="com.mst:title">@string/MeetingAssistant</item>
+        <item name="com.mst:titleMarginStart">0dp</item>
+    </style>
+
+    <style name="WindowLayoutStyle" parent="com.mst:WindowStyle.Light">
+        <item name="com.mst:hasBackIcon">true</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar" parant="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">false</item>
+    </style>
+
+    <style name="AppTheme.NoTitleBar" parent="Theme.AppCompat">
+        <item name="windowNoTitle">true</item>
+        <item name="colorAccent">@color/bullet_color</item>
+        <item name="android:textColorHint">@color/black_40opacity</item>
+        <item name="android:textColor">@color/black_86opacity</item>
+    </style>
+    <style name="AppTheme.ShareStyle" parent="@com.mst:style/Theme.Mst.Material.Light">
+        <item name="windowNoTitle">true</item>
+        <item name="colorAccent">@color/bullet_color</item>
+        <item name="android:textColorHint">@color/black_40opacity</item>
+        <item name="android:textColor">@color/black_86opacity</item>
+    </style>
+
+
+    <style name="meetingExpandTextStyle">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/black_36opacity</item>
+        <item name="android:lineSpacingExtra">5dp</item>
+        <item name="android:maxWidth">250dp</item>
+    </style>
+
+    <style name="progress_dialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="Dialog.NoTitle" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@style/AnimationPicker</item>
+    </style>
+
+    <style name="AnimationPicker" mce_bogus="1" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/slide_in_bottom</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_bottom</item>
+    </style>
+
+    <style name="MyDialogStyle" parent="@com.mst:style/Theme.Mst.Material.Light">
+        <item name="android:windowBackground">@color/back_ground_transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+</resources>

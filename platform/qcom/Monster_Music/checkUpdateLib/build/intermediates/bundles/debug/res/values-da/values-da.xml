@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="check_new">Søg efter opdatering</string>
+    <string name="downloaded_finish">Download fuldført</string>
+    <string name="downloading">Downloader...</string>
+    <string name="network_error_tip">Netværksfejl. Tjek din internetforbindelse, og prøv igen.</string>
+    <string name="notification_downloading">Downloader</string>
+    <string name="tip_network_error">Netværksfejl</string>
+    <string name="try_later">Senere</string>
+    <string name="update">Nu</string>
+    <string name="update_ask_tip">Du skal opdatere til den seneste version</string>
+    <string name="update_available">Opdatering tilgængelig</string>
+    <string name="update_confirm">OK</string>
+    <string name="update_detail_prefix">Detaljer om opdatering:</string>
+    <string name="update_download_fail">Download mislykkedes</string>
+    <string name="update_force_nofity_tip">Det anbefales at opdatere applikationen til den nyeste version.</string>
+    <string name="update_no_need">Dette er den seneste version</string>
+    <string name="update_no_updates">Ingen opdateringer</string>
+    <string name="update_no_updates_tip">Ingen opdateringer</string>
+    <string name="update_not_now">Ikke nu</string>
+    <string name="update_notification_tips">Opdater til den seneste version for at få en bedre oplevelse.</string>
+    <string name="update_notification_title">Meddelelse om opdatering</string>
+    <string name="update_notify_tip">Ny version er tilgængelig. Opdater nu?</string>
+    <string name="update_now">Opdater</string>
+    <string name="versionDesc">Versionsoplysninger:</string>
+</resources>

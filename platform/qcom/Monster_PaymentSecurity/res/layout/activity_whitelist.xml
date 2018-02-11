@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+
+    <mst.widget.recycleview.RecyclerView android:id="@+id/recycler_view"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.33dp"
+            android:background="@android:color/black"
+            android:alpha="0.06"/>
+
+        <Button
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:id="@+id/btn_remove"
+            android:layout_width="319dp"
+            android:layout_height="37dp"
+            android:text="@string/action_remove"
+            android:enabled="false"
+            android:textSize="14sp"
+            android:theme="?android:attr/buttonStyle"
+            android:alpha="0.86"/>
+    </FrameLayout>
+
+</LinearLayout>

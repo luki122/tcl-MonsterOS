@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="check_new">Buscar actualización</string>
+    <string name="downloaded_finish">Descarga completada</string>
+    <string name="downloading">Descargando...</string>
+    <string name="network_error_tip">Erro de rede Comprobe a conexión de rede e ténteo de novo.</string>
+    <string name="notification_downloading">Descargando</string>
+    <string name="tip_network_error">Erro de rede</string>
+    <string name="try_later">Máis tarde</string>
+    <string name="update">Agora</string>
+    <string name="update_ask_tip">Precisa actualizar á versión máis recente</string>
+    <string name="update_available">Actualización dispoñible</string>
+    <string name="update_confirm">Aceptar</string>
+    <string name="update_detail_prefix">Detalles da actualización:</string>
+    <string name="update_download_fail">Fallou a descarga</string>
+    <string name="update_force_nofity_tip">Recoméndase actualizar a aplicación á versión máis recente.</string>
+    <string name="update_no_need">Esta xa é a versión máis recente.</string>
+    <string name="update_no_updates">Non hai actualizacións.</string>
+    <string name="update_no_updates_tip">Non hai actualizacións.</string>
+    <string name="update_not_now">Agora non</string>
+    <string name="update_notification_tips">Para unha mellor experiencia, actualice á versión máis recente.</string>
+    <string name="update_notification_title">Notificación de actualización</string>
+    <string name="update_notify_tip">Hai una nova versión dispoñible. Actualizar agora?</string>
+    <string name="update_now">Actualizar</string>
+    <string name="versionDesc">Información da versión:</string>
+</resources>

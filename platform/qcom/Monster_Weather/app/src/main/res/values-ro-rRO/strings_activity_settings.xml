@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!-- no translation found for pref_header_data_sync -->
+	<skip />
+	<!---->
+	<string name="pref_title_sync_frequency">"Sincronizare frecvenţă"</string>
+	<string-array name="pref_sync_frequency_titles">
+		<item>"15 minute"</item>
+		<item>"30 de minute"</item>
+		<item>"1 oră"</item>
+		<item>"3 ore"</item>
+		<item>"6 ore"</item>
+		<item>"Niciodată"</item>
+	</string-array>
+	<!-- no translation found for pref_sync_frequency_values -->
+	<skip />
+	<!---->
+	<string name="pref_title_system_sync_settings">"Setări de sincronizare a sistemului"</string>
+	<!-- no translation found for pref_auto_update_values -->
+	<skip />
+	<!-- no translation found for pref_temp_unit_values -->
+	<skip />
+	<!-- no translation found for pref_distance_unit_values -->
+	<skip />
+</resources>

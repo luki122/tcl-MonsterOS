@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/viewby_list"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/viewby_list"/>
+    <item
+        android:id="@+id/viewby_grid"
+        android:orderInCategory="200"
+        android:showAsAction="never"
+        android:title="@string/viewby_grid"/>
+
+</menu>

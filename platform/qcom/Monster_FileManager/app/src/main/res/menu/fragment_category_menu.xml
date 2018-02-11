@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--<item-->
+        <!--android:id="@+id/global_search_btn"-->
+        <!--android:title="@string/search"-->
+        <!--app:showAsAction="always|withText" />-->
+    <item
+        android:id="@+id/space_clear"
+        android:title="@string/space_clear"
+        android:icon="@drawable/btn_space_clear"
+        android:showAsAction="always|withText" />
+
+    <item
+        android:id="@+id/global_search_image"
+        android:title="@string/search"
+        android:icon="@drawable/btn_search"
+        android:showAsAction="always"
+        >
+    </item>
+
+</menu>

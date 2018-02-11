@@ -1,0 +1,31 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="LocalThemeActivity.WindowToolbar" parent="com.mst:WindowStyle.Light">
+        <item name="com.mst:hasBackIcon">true</item>
+    </style>
+
+    <style name="LocalThemeActivity.ToolbarStyle" parent="com.mst:style/ToolbarStyle">
+        <item name="com.mst:title">@string/local_theme</item>
+    </style>
+
+    <style name="TextAppearance.ThemeManager" parent="@com.mst:style/TextAppearance.Mst.Material.Body2"></style>
+
+    <style name="TextAppearance.ThemeManager.Title">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#dd000000</item>
+    </style>
+
+    <style name="TextAppearance.ThemeManager.ThemeDescription">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#dd000000</item>
+        
+    </style>
+    
+    <style name="TextAppearance.ThemeManager.DetailPageOptionButton">
+       <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#dd000000</item>
+    </style>
+    
+    <style name="WindowNoAnimationStyle" />
+
+</resources>

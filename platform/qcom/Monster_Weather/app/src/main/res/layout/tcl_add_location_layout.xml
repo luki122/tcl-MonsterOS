@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:Toolbar="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/location_activity_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFFFF"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true">
+
+    <RelativeLayout
+        android:id="@+id/recommand_city_viewgroup"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="48dp"
+        android:background="#FFFFFFFF"
+        android:orientation="horizontal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <mst.widget.toolbar.Toolbar
+            android:layout_height="48dp"
+            android:layout_width="match_parent"
+            android:id="@+id/toolbar"
+            android:background="#FFFFFF"
+            android:focusableInTouchMode="true"
+            Toolbar:showBottomDivider="true"
+            style="@style/MstToolbar"
+            >
+
+            <MstSearchView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/search"
+                >
+            </MstSearchView>
+        </mst.widget.toolbar.Toolbar>
+
+        <ListView
+            android:id="@+id/search_citylist"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFFFF"
+            >
+        </ListView>
+
+    </LinearLayout>
+</FrameLayout>

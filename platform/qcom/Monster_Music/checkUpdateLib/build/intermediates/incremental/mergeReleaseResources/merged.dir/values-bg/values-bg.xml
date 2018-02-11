@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="check_new">Проверка за актуализации</string>
+    <string name="downloaded_finish">Изтеглянето завърши</string>
+    <string name="downloading">Изтегляне...</string>
+    <string name="network_error_tip">Мрежова грешка. Моля, проверете вашата мрежова връзка и опитайте отново.</string>
+    <string name="notification_downloading">Изтегляне</string>
+    <string name="tip_network_error">Мрежова грешка</string>
+    <string name="try_later">По-късно</string>
+    <string name="update">Сега</string>
+    <string name="update_ask_tip">Нуждаете се от актуализиране към последната версия</string>
+    <string name="update_available">Има достъпна актуализация</string>
+    <string name="update_confirm">OK</string>
+    <string name="update_detail_prefix">Подробности за актуализирането:</string>
+    <string name="update_download_fail">Неуспешно изтегляне</string>
+    <string name="update_force_nofity_tip">Препоръчва се да актуализирате приложението до последната версия.</string>
+    <string name="update_no_need">Това е най-новата версия</string>
+    <string name="update_no_updates">Няма актуализации</string>
+    <string name="update_no_updates_tip">Няма актуализации</string>
+    <string name="update_not_now">Не в момента</string>
+    <string name="update_notification_tips">Моля, актуализирайте към последната версия за по-добър опит.</string>
+    <string name="update_notification_title">Известяване за актуализация</string>
+    <string name="update_notify_tip">Има нова версия. Актуализиране сега?</string>
+    <string name="update_now">Актуализиране</string>
+    <string name="versionDesc">Информация за версията:</string>
+</resources>

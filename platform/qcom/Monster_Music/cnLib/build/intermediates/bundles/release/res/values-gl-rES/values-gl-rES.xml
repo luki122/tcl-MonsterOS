@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cannot_specify_an_empty_name_for_playlist">"O nome da lista de reprodución non pode estar baleiro."</string>
+    <string name="cross_dj_saturated_storage_not_enough_free_space_to_record_your_mix">"Non hai espazo dabondo para gravar a mestura."</string>
+    <string name="cross_dj_saturated_storage_your_recording_might_stop_soon_because_no_more_free_space_is_available">"Seica a gravación finalizará en breve porque non hai espazo dispoñible."</string>
+    <string name="invalid_drm_file">"Berkas tidak memiliki otoritas DRM yang valid!"</string>
+    <string name="mobiledata_turnoff_btn">"Desactivar"</string>
+    <string name="never_show_it_again">"Non volver amosar"</string>
+    <string name="no_error">"Non hai erros"</string>
+    <string name="recording_reached_max_duration">"A gravación acadou a duración máxima. Comprobe as súas preferencias."</string>
+    <string name="recording_soon_to_reach_max_duration">"A gravación está a piques de atinxir a duración máxima. Comprobe as súas preferencias."</string>
+    <string name="scratching_is_disabled_in_no_mix_mode">"Só pode facer scratch no modo DJ."</string>
+    <string name="sign_up">"Iniciar sesión"</string>
+    <string name="the_external_memory_storage_is_not_mounted">"A almacenaxe externa non está montada. Cómpre desactivar a almacenaxe USB."</string>
+    <string name="there_s_not_enough_space_in_your_internal_storage_try_to_do_some_clean_up">"Non hai espazo dabondo na almacenaxe interna (tente liberar espazo)"</string>
+</resources>

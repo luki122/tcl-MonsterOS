@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"設定嚮導"</string>
+	<!---->
+	<string name="loading_net_waiting">"載入中, 請稍後......"</string>
+	<!---->
+	<string name="language_title">"選擇語言"</string>
+	<!---->
+	<string name="sim_set_title">"偵測 SIM 卡。"</string>
+	<!---->
+	<string name="sim_set_prompt">"請插入您的 SIM 卡"</string>
+	<!---->
+	<string name="sim_card">"SIM 卡"</string>
+	<!---->
+	<string name="sim_card_enabled">"已插入 SIM 卡 <xliff:g id="count">%s</xliff:g>。"</string>
+	<!---->
+	<string name="sim_card_disabled">"未插入 SIM 卡<xliff:g id="count">%s</xliff:g>。"</string>
+	<!---->
+	<string name="china_mobile">"中國移動"</string>
+	<!---->
+	<string name="china_unicom">"中國聯通"</string>
+	<!---->
+	<string name="china_telecom">"中國電信"</string>
+	<!---->
+	<string name="mobile_network">"移動數據網路"</string>
+	<!---->
+	<string name="mobile_network_description">"在無線網絡無法連線的情況下，系統使用移動數據網路存取網路"</string>
+	<!---->
+	<string name="default_network_card">"默認網路卡"</string>
+	<!---->
+	<string name="wifi_title">"選擇無線網路"</string>
+	<!---->
+	<string name="wifi_advanced_setup">"高級設定"</string>
+	<!---->
+	<string name="wifi_dialog_hint">"請輸入密碼......"</string>
+	<!---->
+	<string name="wifi_dialog_hint2">"重新輸入密碼"</string>
+	<!---->
+	<string name="wifi_connect_fail">"無法連線至 Wi-Fi，請再次嘗試"</string>
+	<!---->
+	<string name="wifi_loading_prompt">"正在搜尋 WLAN 網路..."</string>
+	<!---->
+	<string name="user_terms_title">"使用條款"</string>
+	<!---->
+	<string name="user_terms_license">"使用許可證"</string>
+	<!---->
+	<string name="user_terms_privacy">"隱私條款"</string>
+	<!---->
+	<string name="user_terms_prompt">"除非您同意使用\"TCL 服務\""</string>
+	<!---->
+	<string name="other_service_title">"其他服務"</string>
+	<!---->
+	<string name="other_service_location">"位置服務"</string>
+	<!---->
+	<string name="other_service_location_description">"位置服務允許其他應用程式使用 Wi-Fi 網路和數據位置。"</string>
+	<!---->
+	<string name="other_service_experience">"開放使用者體驗"</string>
+	<!---->
+	<string name="other_service_experience_description">"我們會依賴您的產品功能使用，以便提高產品和服務質量。在全過程中，我們會嚴格遵守我們的私隱政策。"</string>
+	<!---->
+	<string name="fingerprint_title">"輸入指紋"</string>
+	<!---->
+	<string name="fingerprint_prompt">"輸入指紋之後，您可以使用指紋解鎖裝置。"</string>
+	<!---->
+	<string name="fingerprint_unsupported">"您的裝置不支援指紋，請單擊\"跳過\""</string>
+	<!---->
+	<string name="fingerprint_begin">"開始輸入"</string>
+	<!---->
+	<string name="fingerprint_other">"輸入其他指紋"</string>
+	<!---->
+	<string name="finish_prompt">"歡迎使用 MOS，點擊進入系統"</string>
+	<!---->
+	<string name="enjoy">"盡情享用"</string>
+	<!---->
+	<string name="cancel_title">"取消"</string>
+	<!---->
+	<string name="connect_title">"連線"</string>
+	<!---->
+	<string name="continue_title">"繼續"</string>
+	<!---->
+	<string name="skip_title">"略過"</string>
+	<!---->
+	<string name="agreed_continue">"同意並繼續"</string>
+	<!---->
+	<string name="begin_title">"開始"</string>
+	<!-- no translation found for privacy_content -->
+	<skip />
+</resources>

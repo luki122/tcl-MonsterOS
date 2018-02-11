@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:colorBackground">
+
+    <ImageView
+        android:id="@+id/app_icon"
+        tools:ignore="ContentDescription"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/app_desc"
+        android:layout_alignTop="@id/app_icon"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@id/app_icon"
+        android:gravity="top"
+        android:maxLines="1"
+        android:textColor="@color/text_color_dark"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/app_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/app_icon"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="8dp"
+        android:layout_toRightOf="@id/app_icon"
+        android:maxLines="1"
+        android:paddingBottom="1dp"
+        android:text="@string/the_package_containing_virus_recommended_to_clean"
+        android:textColor="@color/text_category_title_color"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/btn_clean_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@id/app_desc"
+        android:gravity="center"
+        android:maxLines="1"
+        android:text="@string/clean_up"
+        android:textColor="@color/text_color_dark"
+        android:textSize="12sp" />
+
+</RelativeLayout>

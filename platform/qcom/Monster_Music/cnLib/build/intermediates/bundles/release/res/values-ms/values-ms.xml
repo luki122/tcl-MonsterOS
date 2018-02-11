@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cannot_specify_an_empty_name_for_playlist">"Nama senarai main tidak boleh kosong"</string>
+    <string name="cross_dj_saturated_storage_not_enough_free_space_to_record_your_mix">"Ruang tidak mencukupi untuk merakamkan adunan anda."</string>
+    <string name="cross_dj_saturated_storage_your_recording_might_stop_soon_because_no_more_free_space_is_available">"Rakaman anda mungkin dihentikan sebentar lagi kerana tiada lagi ruang yang tersedia."</string>
+    <string name="extraCharge_warning_title">"Gunakan data mudah alih?"</string>
+    <string name="invalid_drm_file">"Fail tidak mempunyai autoriti DRM yang sah!"</string>
+    <string name="mobiledata_turnoff_btn">"Nyahdaya"</string>
+    <string name="never_show_it_again">"Jangan paparkannya lagi"</string>
+    <string name="no_error">"Tiada ralat"</string>
+    <string name="recording_reached_max_duration">"Rakaman telah mencapai tempoh maksimumnya. Sila semak keutamaan anda."</string>
+    <string name="recording_soon_to_reach_max_duration">"Tidak lama lagi rakaman akan mencapai tempoh maksimumnya. Sila semak keutamaan anda."</string>
+    <string name="scratching_is_disabled_in_no_mix_mode">"Anda hanya boleh menggores semasa dalam mod DJ."</string>
+    <string name="sign_up">"Mendaftarkan diri"</string>
+    <string name="the_external_memory_storage_is_not_mounted">"Storan memori dalaman tidak dilekapkan. Anda mungkin perlu menyahdayakan Storan Memori USB."</string>
+    <string name="there_s_not_enough_space_in_your_internal_storage_try_to_do_some_clean_up">"Tiada ruang yang mencukupi dalam storan dalaman anda (cuba kosongkan sedikit ruang)"</string>
+</resources>

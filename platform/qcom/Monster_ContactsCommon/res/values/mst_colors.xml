@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="alphbetIndexView_prompt_section_light">#FF666666</color>
+    <color name="alphbetIndexView_enable_section_light">#FF888888</color>
+    <color name="alphbetIndexView_disable_section_light">#FFCCCCCC</color>
+    <color name="alphbetIndexView_showing_section_light">#0ebc7d</color>
+    <color name="alphbetIndexView_prompt_section_dark">#FFFF9000</color>
+    <color name="alphbetIndexView_enable_section_dark">#FF999999</color>
+    <color name="alphbetIndexView_disable_section_dark">#FF444444</color>
+    <color name="alphbetIndexView_showing_section_dark">#FFFF9000</color>
+    <color name="mst_contact_alphabet_letter_color">#808080</color>
+    <color name="promptviewbg_color">#0ebc7d</color>
+    <color name="contact_listview_header_text">#D8B2B5B8</color>
+    <color name="contact_listview_header_background">#FFFFFF</color>
+    <color name="contact_main_background">#FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="selected">#0ebc7d</color>
+    <color name="hightlight_color">#4CB6AC</color>
+    <color name="searchview_background_color">#f2f2f2</color>
+    <color name="divider_background_color">#07000000</color>
+    <color name="normal_status_bar_color">#00FFFFFF</color>
+    <color name="contact_header_title_text_color">#D8B2B5B8</color>
+    <color name="contact_header_item_name_text_color">#6B6B6B</color>
+    <color name="contact_fab_background_color">#19A8AE</color>
+    <color name="listview_item_header_devider_color">#F2F2F2</color>
+    <color name="group_detail_bg">#F7F7F7</color>
+    <color name="mst_list_main_text_color">#DB000000</color>
+    <color name="mst_no_contacts_text_color">#59000000</color>
+    <color name="mst_hightlight_color">#19A8AE</color>
+    <color name="mst_missed_calllog_text_color">#E85D53</color>
+    <color name="mst_color_toolbar_icon">#AAAAAA</color>
+    <color name="mst_toolbar_icon_normal_color">#DD000000</color>
+    <color name="mst_unavailable_text_color">#2D000000</color>
+    <color name="toolbar_background_color">#ffffff</color>
+    <color name="call_log_area_color">#66000000</color>
+    <color name="call_log_datetime_color">#66000000</color>
+    <color name="call_log_missed_call_color">#E85D53</color>
+
+    <color name="mst_searchview_hint_text_color">#B5B5B5</color>
+    <color name="mst_toolbar_background_color">#F7F7F7</color>
+    <color name="mst_no_items_text_color">#2D000000</color>
+</resources>

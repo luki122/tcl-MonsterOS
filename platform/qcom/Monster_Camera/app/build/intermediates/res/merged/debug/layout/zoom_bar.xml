@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.camera.ui.ZoomBar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/zoom_bar"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/zoom_bar_height"
+    android:layout_marginTop="@dimen/zoom_bar_marginTop"
+    android:background="@color/button_group_background"
+    android:visibility="invisible">
+
+    <LinearLayout
+        android:id="@+id/zoom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/zoom_out"
+            android:src="@drawable/ic_zoom_out"
+            android:layout_height="@dimen/zoom_bar_button_size"
+            android:layout_width="@dimen/zoom_bar_button_size"
+            android:layout_margin="@dimen/zoom_bar_button_padding"
+            android:layout_gravity="center"/>
+        <com.android.camera.widget.ZoomScalesBar
+            android:id="@+id/zoom_seek"
+            android:layout_gravity="center"
+            android:layout_width="@dimen/zoom_scale_bar_width"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:id="@+id/zoom_in"
+            android:src="@drawable/ic_zoom_in"
+            android:layout_height="@dimen/zoom_bar_button_size"
+            android:layout_width="@dimen/zoom_bar_button_size"
+            android:layout_margin="@dimen/zoom_bar_button_padding"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+</com.android.camera.ui.ZoomBar>

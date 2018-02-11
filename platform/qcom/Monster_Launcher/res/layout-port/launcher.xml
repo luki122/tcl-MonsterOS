@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<!-- Full screen view projects under the status bar and contains the background -->
+<com.monster.launcher.LauncherRootView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:launcher="http://schemas.android.com/apk/res-auto"
+
+    android:id="@+id/launcher"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <com.monster.launcher.DragLayer
+        android:id="@+id/drag_layer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.monster.launcher.FocusIndicatorView
+            android:id="@+id/focus_indicator"
+            android:layout_width="52dp"
+            android:layout_height="52dp" />
+
+        <!-- The workspace contains 5 screens of cells -->
+        <!-- DO NOT CHANGE THE ID -->
+        <com.monster.launcher.Workspace
+            android:id="@+id/workspace"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            launcher:defaultScreen="@integer/config_workspaceDefaultScreen"
+            launcher:pageIndicator="@+id/page_indicator"
+            launcher:pageIndicator_cube="@+id/page_indicator_cube"><!-- lijun add page_indicator_cube -->
+        </com.monster.launcher.Workspace>
+
+        <!-- DO NOT CHANGE THE ID -->
+        <include layout="@layout/hotseat"
+            android:id="@+id/hotseat"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <include layout="@layout/overview_panel"
+            android:id="@+id/overview_panel"
+            android:visibility="gone" />
+
+        <!-- Keep these behind the workspace so that they are not visible when
+             we go into AllApps -->
+        <include
+            android:id="@+id/page_indicator"
+            layout="@layout/page_indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal" />
+
+        <!-- lijun add begin -->
+        <include
+            android:id="@+id/page_indicator_cube"
+            layout="@layout/page_indicator_cube"
+            android:visibility="invisible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal" />
+
+        <com.monster.launcher.PageIndicatorDiagitalImagview
+            android:id="@+id/page_indicator_digital"
+            android:visibility="gone"
+            android:layout_width="@dimen/pageIndicator_diagital_imagview_size"
+            android:layout_height="@dimen/pageIndicator_diagital_imagview_size"
+            android:clickable="false"
+            android:layout_gravity="center" />
+        <!-- lijun add end -->
+
+        <!-- lijun add for Widgets Container begin -->
+        <FrameLayout
+            android:id="@+id/widgets_container_panel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|bottom"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="@dimen/widgets_panel_bottom_margin"
+            android:visibility="gone">
+            <ImageView
+                android:id="@+id/widgets_container_left_indicator"
+                android:layout_width="@dimen/widgets_panel_left_indicator_width"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|left"
+                android:layout_marginRight="@dimen/widget_indicator_padding"
+                android:layout_marginTop="@dimen/widget_indicator_top_padding"
+                android:src="@drawable/ic_widgets_left_indicator"/>
+            <com.monster.launcher.WidgetsContainerPageView
+                android:id="@+id/widgets_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="@dimen/widgets_panel_left_padding"
+                android:layout_marginRight="@dimen/widgets_panel_left_padding" />
+            <ImageView
+                android:id="@+id/widgets_container_right_indicator"
+                android:layout_width="@dimen/widgets_panel_left_indicator_width"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|right"
+                android:layout_marginLeft="@dimen/widget_indicator_padding"
+                android:layout_marginTop="@dimen/widget_indicator_top_padding"
+                android:src="@drawable/ic_widgets_right_indicator"/>
+        </FrameLayout>
+        <!-- lijun add for Widgets Container end -->
+
+        <include
+            android:id="@+id/search_drop_target_bar"
+            layout="@layout/search_drop_target_bar" />
+
+        <!--<include layout="@layout/widgets_view"
+            android:id="@+id/widgets_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="invisible" />-->
+
+        <include layout="@layout/all_apps"
+            android:id="@+id/apps_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="invisible" />
+
+        <!--Begin add by xiangzx -->
+        <com.monster.launcher.AppSearchView
+            android:id="@+id/appsearchview"
+            android:layout_width="@dimen/app_search_view_width"
+            android:layout_height="wrap_content"
+            android:scaleType="fitCenter"
+            android:layout_marginRight="@dimen/app_search_view_margin_right"
+            android:layout_marginBottom="@dimen/app_search_view_bottom"
+            android:layout_gravity="bottom|right"
+            android:src="@drawable/apps_search"
+            >
+        </com.monster.launcher.AppSearchView>
+
+        <include layout="@layout/icons_arrange_layout"
+            android:id="@+id/icons_arrange_layout"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginBottom="35dp"
+            />
+
+        <LinearLayout
+                android:id="@+id/icons_loading_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                launcher:layout_ignoreInsets="true"
+                android:background="#99000000"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:visibility="gone"
+                >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:paddingLeft="16dp"
+                android:paddingTop="8dp"
+                android:paddingRight="24dp"
+                android:paddingBottom="8dp"
+                android:background="#ffffffff"
+                >
+                <ImageView
+                    android:id="@+id/loadingfold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/fold_progress_light"
+                    android:layout_marginRight="6dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FF2E2E2E"
+                    android:textSize="14sp"
+                    android:text="@string/icons_arrange_restore_loading"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!--End add by xiangzx -->
+
+        <!--liuzuo MONSTER-START::open folder backgroud begin -->
+        <ImageView android:id="@+id/folder_blur_backgroud"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   launcher:layout_ignoreInsets="true"
+                   android:visibility="gone" />
+        <!--liuzuo MONSTER-END::open folder backgroud end-->
+
+        <!--liuzuo MONSTER-START:add  the folderImportMode begin begin -->
+
+        <LinearLayout
+            android:id="@+id/folder_importMode_hint_container"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/folder_import_hint_container_height"
+            android:layout_marginTop="@dimen/folder_import_hint_container_marginBottom"
+            android:gravity="center"
+            android:visibility="gone">
+            <TextView
+                android:id="@+id/folder_importMode_hint"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/folder_importmode_hint"
+                android:fontFamily="sans-serif-light"
+                android:textColor="#ffffff"
+                android:letterSpacing="0.05"
+                android:textSize="@dimen/folder_import_hint_textSize"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/folder_importMode_button_container"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/folder_import_button_height"
+            android:layout_gravity="center_horizontal|bottom"
+            android:gravity="center"
+            android:layout_marginBottom="@dimen/folder_import_button_container_marginBottom"
+            android:visibility="gone">
+            <Button
+                android:id="@+id/folder_importMode_button"
+                android:text="@string/folder_importmode_button"
+                android:textSize="@dimen/folder_import_button_textSize"
+                android:fontFamily="sans-serif-light"
+                android:textColor="#000000"
+                android:layout_height="@dimen/folder_import_button_height"
+                android:layout_width="@dimen/folder_import_button_width"
+                android:background="@drawable/folder_importmode_background"
+                style="?android:attr/borderlessButtonStyle"
+                />
+        </LinearLayout>
+        <!--liuzuo MONSTER-START:add  the folderImportMode begin end -->
+    </com.monster.launcher.DragLayer>
+
+    <ViewStub
+        android:id="@+id/launcher_overlay_stub"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:inflatedId="@+id/launcher_overlay"
+        android:layout="@layout/launcher_overlay" />
+</com.monster.launcher.LauncherRootView>

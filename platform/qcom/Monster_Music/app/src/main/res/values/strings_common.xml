@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- 不需要翻译的字符串 -->
+    <string name="sign_in">"Sign In"</string>
+    <string name="add_to_deezer_playlist">"Add to Deezer\'s playlist"</string>
+    <string name="fx">"FX"</string>
+    <string name="preference_dj">"DJ"</string>
+    <string name="xiami">虾米</string>
+    <string name="xiami2">大虾</string>
+    <string name="rank_filter1">Hito 中文排行榜</string>
+    <string name="rank_filter2">音乐风云榜</string>
+</resources>

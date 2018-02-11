@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle" >
+
+    <corners
+        android:bottomLeftRadius="@dimen/duoqu_notification_radius_bottom_left"
+        android:bottomRightRadius="@dimen/duoqu_notification_radius_bottom_right"
+        android:topLeftRadius="@dimen/duoqu_notification_radius_top_left"
+        android:topRightRadius="@dimen/duoqu_notification_radius_top_right" />
+
+    <solid android:color="@color/duoqu_notification_body_bg_color" />
+
+</shape>

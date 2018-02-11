@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Visa startsidan"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Navigera uppåt"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Fler alternativ"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Klart"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Visa alla"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Välj en app"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"AV"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"PÅ"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Sök …"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Ta bort frågan"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Sökfråga"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Sök"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Skicka fråga"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Röstsökning"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Dela med"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Dela med %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Komprimera"</string>
+    <string name="action_menu_create_folder_button">"Skapa mapp"</string>
+    <string name="add_favorite">"Lägg till i mappen favoriter"</string>
+    <string name="alert_delete_multiple">"Markerade filer kommer att tas bort!"</string>
+    <string name="alert_delete_single">"Vill du ta bort den valda filen?"</string>
+    <string name="already_exists">"%1$s används redan"</string>
+    <string name="app_name">"Filhanterare"</string>
+    <string name="cancel">"Avbryt"</string>
+    <string name="category_apks">"APK-filer"</string>
+    <string name="category_archives">"Arkiv"</string>
+    <string name="category_bluetooth">"Bluetooth"</string>
+    <string name="category_docs">"Dokument"</string>
+    <string name="category_download">"Hämtningar"</string>
+    <string name="category_favorite">"Favoriter"</string>
+    <string name="category_music">"Musik"</string>
+    <string name="category_pictures">"Bilder"</string>
+    <string name="category_recordings">"Inspelningar"</string>
+    <string name="category_ringtones">"Ringsignaler"</string>
+    <string name="category_safebox">"Safebox"</string>
+    <string name="category_vedios">"Videor"</string>
+    <string name="change_mode">"Välj fil eller mapp"</string>
+    <string name="confirm_rename">"Bekräfta nytt namn"</string>
+    <string name="copy">"Kopiera"</string>
+    <string name="copy_deny">"Ingen behörighet att kopiera"</string>
+    <string name="create_folder">"Skapa"</string>
+    <string name="create_hidden_file">"Filen döljs om namnet börjar med ".""</string>
+    <string name="cut">"Klipp ut"</string>
+    <string name="cut_deny">"Ingen behörighet att klippa ut"</string>
+    <string name="default_folder_name">"Mappnamn"</string>
+    <string name="default_search_text">"Sök filer"</string>
+    <string name="del_favorite">"Ta bort från mappen favoriter"</string>
+    <string name="delete">"ta bort"</string>
+    <string name="delete_deny">"Ingen behörighet att ta bort"</string>
+    <string name="delete_fail">"Borttagning misslyckades."</string>
+    <string name="deleting">"Tar bort"</string>
+    <string name="deselect_all">"Avmarkera alla"</string>
+    <string name="detail_name">"Filnamn:"</string>
+    <string name="detail_path">"Plats:"</string>
+    <string name="detail_size">"Filstorlek:"</string>
+    <string name="detail_time">"Ändrad tid:"</string>
+    <string name="details">"Redigera händelse"</string>
+    <string name="done">"Färdig"</string>
+    <string name="draw_favourite">"favorit"</string>
+    <string name="draw_left_phone_storage">"Telefonlagring"</string>
+    <string name="draw_left_sd_card">"SD-kort"</string>
+    <string name="drawer_category">"Kategori"</string>
+    <string name="drawer_open">"Öppna"</string>
+    <string name="drawer_settings">"Inställningar"</string>
+    <string name="drm_current_count">"Aktuellt antal："</string>
+    <string name="drm_current_right">"Aktuell restriktion："</string>
+    <string name="drm_forwardforbidden_message">"DRM-filen kan inte vidarebefordras."</string>
+    <string name="drm_forwardforbidden_title">"Vidarebefordra inte"</string>
+    <string name="drm_no_valid_right">"Filen har ingen giltig DRM-auktoritet!"</string>
+    <string name="drm_wifidisplay_cancel_btn">"Stäng av Wi-Fi Display"</string>
+    <string name="drm_wifidisplay_message">"Den kopieringsskyddade filen kan inte delas ut."</string>
+    <string name="drm_wifidisplay_ok">"OK"</string>
+    <string name="drm_wifidisplay_title">"Kopieringsskyddade filer"</string>
+    <string name="empty_msg">"(Tom mapp)"</string>
+    <string name="executable">"Körbar:"</string>
+    <string name="favourite">"Lägg till i Favoriter"</string>
+    <string name="file_name_too_long">"Inmatningsnamnet är för långt"</string>
+    <string name="free_space">"Tillgänglig"</string>
+    <string name="hide">"Dölj systemfiler"</string>
+    <string name="hide_file">"Dölj dolda filer"</string>
+    <string name="insufficient_memory">"Otillräckligt utrymme."</string>
+    <string name="invalid_char_prompt">"Du har matat in ett ogiltigt tecken"</string>
+    <string name="invalid_empty_name">"Fil- eller mappnamn kan inte vara tomt"</string>
+    <string name="loading">"Hämtar…"</string>
+    <string name="menu_settings">"Inställningar"</string>
+    <string name="modified_time">"Ändrat"</string>
+    <string name="modify_hidden_file">"Filen visas om namnet inte börjar med \'.\'."</string>
+    <string name="more">"Mer"</string>
+    <string name="msg_rename_ext">"Du ändrar filtillägget, vilken kan innebära att filen inte känns igen. Är du säker på att du vill göra det här?"</string>
+    <string name="msg_unable_open_file">"Filformatet stöds inte"</string>
+    <string name="msg_unable_open_file_in_app">"Inget program för att öppna filen."</string>
+    <string name="name">"Namn"</string>
+    <string name="new_folder">"Namn på inmatningsmapp"</string>
+    <string name="new_folder_name">"Nytt mappnamn"</string>
+    <string name="no">"Nej"</string>
+    <string name="no_search_result">"0 resultat för \"%1$s\""</string>
+    <string name="not_available">"Inte tillgänglig"</string>
+    <string name="ok">"OK"</string>
+    <string name="operation_fail">"Vissa filåtgärder misslyckades."</string>
+    <string name="paste">"Klistra in"</string>
+    <string name="paste_fail">"Klistra in misslyckades."</string>
+    <string name="paste_same_folder">"Kan inte klistra in i samma katalog"</string>
+    <string name="paste_sub_folder">"Kan inte klistra in fil i underkatalog"</string>
+    <string name="pasting">"Klistrar in"</string>
+    <string name="path_not_exists">"%1$s finns inte"</string>
+    <string name="phone_storage">"Telefonlagring"</string>
+    <string name="readable">"Läsbar："</string>
+    <string name="rename">"Byt namn"</string>
+    <string name="right_url">"URL till licensutgivare:："</string>
+    <string name="save">"Spara"</string>
+    <string name="sd_card">"SD-kort"</string>
+    <string name="search">"Sök"</string>
+    <string name="searchResult">"Sökresultat"</string>
+    <string name="search_empty">"Sökinnehåll ska inte vara tomt."</string>
+    <string name="search_files">"Sök filer"</string>
+    <string name="search_result">"%2$d resultat för \"%1$s\""</string>
+    <string name="search_result_count">"hittat"</string>
+    <string name="search_result_title">"Sökresultat"</string>
+    <string name="search_setting_description">"Lokala filer och mappar"</string>
+    <string name="search_text_empty">"Sökinnehåll ska inte vara tomt."</string>
+    <string name="select_all">"Välj alla"</string>
+    <string name="selected">"Markerad"</string>
+    <string name="send_file">"Skicka fil"</string>
+    <string name="share">"Dela"</string>
+    <string name="share_warning">"Inte fler än 100 filer kan delas."</string>
+    <string name="show">"Visa systemfiler"</string>
+    <string name="show_file">"Visa dolda filer"</string>
+    <string name="show_hide">"Visa/dölj"</string>
+    <string name="size">"Storlek"</string>
+    <string name="some_delete_fail">"Vissa borttagningsåtgärder misslyckades."</string>
+    <string name="some_paste_fail">"Klistra in-åtgärd misslyckades"</string>
+    <string name="sort">"Sortera"</string>
+    <string name="sort_by">"Sortera efter"</string>
+    <string name="sort_by_date">"Ändrad datum"</string>
+    <string name="sort_by_name">"Namn"</string>
+    <string name="sort_by_size">"Vänta…"</string>
+    <string name="sort_by_type">"Typ"</string>
+    <string name="sort_name">"Sortera på namn"</string>
+    <string name="sort_size">"Sortera på storlek (stor-liten)"</string>
+    <string name="sort_time">"Sortera på tid (ny-gammal)"</string>
+    <string name="sort_type">"Sortera efter typ"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">">999"</string>
+    <string name="total_space">"Totalt utrymme"</string>
+    <string name="tv_link_close_toast">"Wi-Fi Display har stängts"</string>
+    <string name="unfavourite">"Ta bort från Favoriter"</string>
+    <string name="unknown">"Okänd"</string>
+    <string name="unlimited_usage">"Obegränsad användning"</string>
+    <string name="unmounted">"%1$s är avmonterad"</string>
+    <string name="usbotg">"Extern USB-lagring"</string>
+    <string name="use_times">"Använd %s gånger"</string>
+    <string name="valid_after">"Giltig efter"</string>
+    <string name="valid_until">"Giltig till"</string>
+    <string name="view_as_grid">"Visa som rutnät"</string>
+    <string name="view_as_list">"view_as_list"</string>
+    <string name="view_by">"Visa efter"</string>
+    <string name="viewby_details">"Visa efter information"</string>
+    <string name="viewby_grid">"Visa som rutnät"</string>
+    <string name="viewby_list">"Visa som lista"</string>
+    <string name="wait">"Vänta …"</string>
+    <string name="warning">"Varning"</string>
+    <string name="writable">"Skrivbar："</string>
+    <string name="yes">"Ja"</string>
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/voice_item_title_play"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/voice_item_status_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="15dp">
+
+        <ImageButton
+            android:id="@+id/voice_item_play_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_click"
+            android:src="@drawable/selector_play_btn" />
+
+        <ImageButton
+            android:id="@+id/voice_item_pause_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:background="@drawable/bg_click"
+            android:src="@drawable/ic_voice_pause" />
+    </FrameLayout>
+
+    <ImageButton
+        android:id="@+id/voice_item_stop_btn"
+        android:layout_toRightOf="@id/voice_item_status_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:visibility="gone"
+        android:background="@drawable/bg_click"
+        android:src="@drawable/ic_record_voice_stop_pressed"
+        android:layout_marginLeft="11dp" />
+
+    <TextView
+        android:fontFamily="monster-normal"
+        android:id="@+id/voice_item_file_name"
+        android:layout_toRightOf="@id/voice_item_stop_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:textColor="@color/black_86opacity"
+        android:textSize="@dimen/font_size_14sp"
+        android:maxLength="25"
+        android:layout_marginLeft="11dp" />
+
+    <ImageButton
+        android:id="@+id/voice_item_toText_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/bg_click"
+        android:src="@drawable/ic_voice_text"
+        android:layout_marginRight="16dp" />
+</RelativeLayout>

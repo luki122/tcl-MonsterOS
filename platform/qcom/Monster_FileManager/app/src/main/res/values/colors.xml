@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<resources>
+    <color name="title_text_color">#666666</color>
+    <color name="list_title_text_color">#757575</color>
+    <color name="list_time_text_color">#BFBFBF</color>
+    <color name="grid_title_text_color">#757575</color>
+    <color name="transparent_background">#0000</color>
+    <color name="drawer_background">#DFDFDF</color>
+    <color name="category_count_text_color">#8a000000</color>
+    <color name="dna_color">#f7b400</color>
+    <color name="drawer_click">#c3c3c3</color>
+    <color name="tab_text_color">#ffffff</color>
+    <color name="drawer_list_item_text_color">#222222</color>
+    <color name="category_sdcard_text_color">#3f51b5</color>
+    <color name="category_item_name_color">#de000000</color>
+    <color name="category_item_count_color">#969696</color>
+    <color name="filemanager_theme_color">#0288d1</color>
+    <color name="filemanager_theme_color_dark">#303F9F</color>
+    <color name="action_bar_color">#3F51B5</color>
+    <color name="actionbar_background_color">@color/primary_color</color>
+    <color name="actionbar_background_color_dark">@color/primary_color_dark</color>
+    <color name="actionbar_text_color">#ffffff</color>
+    <color name="main_item_num_color">#d0d0d0</color>
+    <color name="main_item_mes_color">#35000000</color>
+    <color name="actionbar_icon_color">#ffffff</color>
+    <color name="filermanager_accent_color">#FFFFFF</color>
+    <color name="floating_action_button_icon_color">@color/filermanager_accent_color</color>
+    <color name="draw_select_color">#03a9f4</color>
+    <color name="indicate_file_title_color">#000000</color>
+    <color name="detail_value_color">#000000</color>
+    <color name="percentage_bar_bg">#e0e0e0</color>
+    <color name="radio_button_false">#99000000</color>
+    <color name="bg_color">#f8f8f8</color>
+    <color name="search_indicate_color">#b2ebf2</color>
+    <color name="main_global_search">#EFEFEF</color>
+
+    <!-- main_color start-->
+    <color name="main_recent_color">#E91E63</color>
+    <color name="main_recent_item_color">#EE799F</color>
+    <color name="main_install_color">#9C27B0</color>
+    <color name="main_install_item_color">#8B008B</color>
+    <color name="main_bluetooth_color">#673AB7</color>
+    <color name="main_bluetooth_item_color">#8968CD</color>
+    <color name="main_document_color">#2196F3</color>
+    <color name="main_document_item_color">#436EEE</color>
+    <color name="main_down_color">#03A9F4</color>
+    <color name="main_down_item_color">#6495ED</color>
+    <color name="main_music_color">#00BCD4</color>
+    <color name="main_music_item_color">#48D1CC</color>
+    <color name="main_photo_color">#009688</color>
+    <color name="main_photo_item_color">#76EEC6</color>
+    <color name="main_picture_color">#4CAF50</color>
+    <color name="main_picture_item_color">#00CD00</color>
+    <color name="main_video_color">#FFC107</color>
+    <color name="main_video_item_color">#EEC900</color>
+    <color name="main_bac_color">#FFFFFF</color>
+    <color name="category_phone_text_color">#3F51B5</color>
+    <color name="primary_color_dark">#0277bd</color>
+    <color name="primary_color">#0288d1</color>
+    <color name="main_nava_item_light">#757575</color>
+    <color name="main_nava_item_default">#BFBFBF</color>
+    <color name="main_nava_item_bg">#f2f2f2</color>
+    <color name="search_view_color">#FFFFFF</color>
+    <color name="seach_layout_bg">#EFEFEF</color>
+    <color name="search_line_color">#F2F2F2</color>
+    <color name="snackbar_color">#323232</color>
+    <color name="main_grid_item_color">#000000</color>
+    <color name="phone_used_space_color">#F0F8FF</color>
+    <color name="actionbar_search_text_color">#BABABA</color>
+    <color name="action_search_mes_color">#212121</color>
+    <color name="search_message_color">#BABABA</color>
+    <!-- main_color end-->
+    <!-- list item -->
+    <color name="grid_item_color">#FFFFFF</color>
+    <color name="gird_item_name_bg">#FFF2F2F2</color>
+    <color name="grid_time_text_color">#A6A6A6</color>
+    <color name="grid_item_name_color">#DE000000</color>
+    <color name="grid_item_selcet_color">#FFEBEBEB</color>
+    <!-- list_item -->
+
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="dialog_ok">#E91E63</color>
+    <color name="main_home_folder_bg">#FFFFFFFF</color>
+    <color name="main_home_folder_name_bg">#4CFFFFFF</color>
+    <color name="main_home_folder_name_color">#DE000000</color>
+
+<!--FileManager CN_start ==================================-->
+
+    <color name="text_general_color">#333333</color>
+    <color name="progress_phone_percent_text_color">#b1c8d5</color>
+    <color name="progress_sd_percent_text_color">#bcdcdb</color>
+    <color name="progress_external_percent_text_color">#c2a6bc</color>
+   <color name="textColorPrimary">#333333</color>
+    <color name="textGrayColor">#969696</color>
+    <color name="file_path_layout_bg">#eeeff0</color>
+    <color name="positive_color">#97bd46</color>
+    <color name="negative_color">#c1c1c1</color>
+    <color name="action_button_touch_tint">#80777777</color>
+
+    <color name="positive_text_color">#45A142</color>
+    <color name="negative_text_color">#C5672E</color>
+    <color name="disable_text_color">#c1c1c1</color>
+    <color name="positive_background_color">#97BD46</color>
+    <color name="negative_background_color">#d7592d</color>
+    <color name="permission_bg">#f9f9f9</color>
+    <color name="peimission_text_color">#3e3e3e</color>
+    <!-- Pictures view fragment start -->
+    <color name="pictures_file_name_bg">#78000000</color>
+    <!-- Pictures view fragment end -->
+
+    <color name="picture_color">#93A8CE</color>
+    <color name="system_color">#70B5B8</color>
+    <color name="other_color">#DBB386</color>
+    <color name="apk_color">#99CA8E</color>
+    <color name="music_color">#C37373</color>
+    <color name="available_color">#D8D8D8</color>
+    <color name="video_color">#9687B7</color>
+    <color name="btn_open">#505051</color>
+    <color name="btn_close">#c5c5c7</color>
+
+    <color name="first_color">#000000</color>
+    <color name="progressbar_background">#919191</color>
+    <color name="progressbar_progress">#03959c</color>
+</resources>

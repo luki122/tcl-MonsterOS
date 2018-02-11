@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    	<string name="tip_network_error">Ağ hatası</string>
+    	<string name="check_new">Güncelleme denetle</string>
+    	<string name="update_download_fail">İndirme başarısız</string>
+    	<string name="update_ask_tip">Son sürüme güncellemeniz gerekiyor</string>
+    	<string name="update_no_need">Bu en son sürümdür.</string>
+    	<string name="downloaded_finish">İndirme tamamlandı</string>
+    	<string name="notification_downloading">İndiriliyor</string>
+    	<string name="update_notification_tips">Daha iyi bir deneyim için lütfen son sürüme güncelleyin.</string>
+    	<string name="update_notification_title">Güncelleme bildirimi</string>
+    	<string name="update">Şimdi</string>
+    	<string name="try_later">Daha sonra</string>
+    	<string name="versionDesc">Sürüm Bilgisi:</string>
+    	
+    	<string name="update_available">Güncelleme Var</string>
+    	<string name="downloading">İndiriliyor...</string>
+    	<string name="update_notify_tip">Yeni sürüm mevcut. Şimdi güncellensin mi?</string>
+    	<string name="update_detail_prefix">Güncelleme ayrıntıları.</string>
+    	<string name="update_not_now">Şimdi değil</string>
+    	<string name="update_now">Güncel</string>
+    	<string name="network_error_tip">Ağ hatası. Lütfen ağ bağlantınızı kontrol edip tekrar deneyin.</string>
+    	<string name="update_force_nofity_tip">Uygulamayı en son sürüme güncellemeniz önerilir.</string>
+    	<string name="update_no_updates">Güncelleme yok.</string>
+    	<string name="update_no_updates_tip">Güncelleme yok.</string>
+    	<string name="update_confirm">Tamam</string>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cannot_specify_an_empty_name_for_playlist">"Имя плейлиста не может быть пустым"</string>
+    <string name="cross_dj_saturated_storage_not_enough_free_space_to_record_your_mix">"Недостаточно свободного места для записи вашего микса."</string>
+    <string name="cross_dj_saturated_storage_your_recording_might_stop_soon_because_no_more_free_space_is_available">"Ваша запись может остановиться потому что больше нет свободного места."</string>
+    <string name="invalid_drm_file">"Данный файл не имеет действительных разрешений DRM."</string>
+    <string name="mobiledata_turnoff_btn">"ВЫКЛ"</string>
+    <string name="never_show_it_again">"Не показывать снова."</string>
+    <string name="no_error">"Нет ошибок"</string>
+    <string name="recording_reached_max_duration">"Запись достигла своей максимальной продолжительности. Пожалуйста, проверьте ваши настройки."</string>
+    <string name="recording_soon_to_reach_max_duration">"Запись скоро достигнет максимальной продолжительности. Пожалуйста, проверьте ваши настройки."</string>
+    <string name="scratching_is_disabled_in_no_mix_mode">"Вы можете делать скретчи только в DJ-режиме."</string>
+    <string name="sign_up">"Регистрация"</string>
+    <string name="the_external_memory_storage_is_not_mounted">"Внешняя память для хранения данных не подключена. Возможно, вам придется отключить USB-накопитель."</string>
+    <string name="there_s_not_enough_space_in_your_internal_storage_try_to_do_some_clean_up">"Не хватает места во внутренней памяти (попробуйте очистить немного места)"</string>
+</resources>

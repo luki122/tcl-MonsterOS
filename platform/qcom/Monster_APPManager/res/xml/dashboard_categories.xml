@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2014 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<dashboard-categories
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- WIRELESS and NETWORKS -->
+    <dashboard-category
+            android:id="@+id/wireless_section"
+            android:key="@string/category_key_wireless"
+            android:title="@string/header_category_wireless_networks" >
+
+        <!-- SIM Cards -->
+        <dashboard-tile
+                android:id="@+id/sim_settings"
+                android:title="@string/sim_settings_title"
+                android:fragment="com.monster.appmanager.sim.SimSettings"
+                android:icon="@drawable/ic_settings_sim"
+                />
+
+        <!-- Data Usage -->
+        <dashboard-tile
+                android:id="@+id/data_usage_settings"
+                android:title="@string/data_usage_summary_title"
+                android:fragment="com.monster.appmanager.DataUsageSummary"
+                android:icon="@drawable/ic_settings_data_usage"
+                />
+    </dashboard-category>
+
+    <!-- DEVICE -->
+    <dashboard-category
+            android:id="@+id/device_section"
+            android:key="@string/category_key_device"
+            android:title="@string/header_category_device" >
+
+        <!-- Notifications -->
+        <dashboard-tile
+                android:id="@+id/notification_settings"
+                android:title="@string/notification_settings"
+                android:fragment="com.monster.appmanager.notification.NotificationSettings"
+                android:icon="@drawable/ic_settings_notifications"
+                />
+
+        <!-- Application Settings -->
+        <dashboard-tile
+                android:id="@+id/permissions_settings"
+                android:title="@string/applications_settings"
+                android:fragment="com.monster.appmanager.applications.ManageApplications"
+                android:icon="@drawable/ic_settings_applications"
+                />
+        <dashboard-tile
+                android:id="@+id/application_settings"
+                android:title="@string/permissions_title"
+                android:fragment="com.monster.appmanager.applications.ManageApplications"
+                android:icon="@drawable/ic_settings_applications"
+                />
+        <dashboard-tile
+                android:id="@+id/default_app_settings"
+                android:title="@string/default_apps_title"
+                android:fragment="com.monster.appmanager.applications.ManageDefaultApps"
+                android:icon="@drawable/ic_settings_applications"
+                />
+        <!-- Storage -->
+        <dashboard-tile
+                android:id="@+id/storage_settings"
+                android:title="@string/storage_usb_settings"
+                android:fragment="com.monster.appmanager.deviceinfo.StorageSettings"
+                android:icon="@drawable/ic_settings_storage"
+                />
+
+        <!-- Battery -->
+        <dashboard-tile
+                android:id="@+id/battery_settings"
+                android:title="@string/power_usage_summary_title"
+                android:fragment="com.monster.appmanager.fuelgauge.PowerUsageSummary"
+                android:icon="@drawable/ic_settings_battery"
+                />
+
+        <!-- Memory -->
+        <dashboard-tile
+                android:id="@+id/manage_memory"
+                android:title="@string/memory_settings_title"
+                android:fragment="com.monster.appmanager.applications.ProcessStatsSummary"
+                android:icon="@drawable/ic_settings_memory"
+                />
+    </dashboard-category>
+
+    <!-- SYSTEM -->
+    <dashboard-category
+        android:id="@+id/system_section"
+        android:key="@string/category_key_system"
+        android:title="@string/header_category_system" >
+
+        <!-- Home -->
+        <dashboard-tile
+                android:id="@+id/home_settings"
+                android:title="@string/home_settings"
+                android:fragment="com.monster.appmanager.HomeSettings"
+                android:icon="@drawable/ic_settings_home"
+                />
+        
+        <!-- Date & Time -->
+        <dashboard-tile
+                android:id="@+id/runningservices"
+                android:title="@string/runningservices_settings_title"
+                android:fragment="com.monster.appmanager.applications.ManageApplications"
+                android:icon="@drawable/ic_settings_home"
+                />
+
+    </dashboard-category>
+
+</dashboard-categories>

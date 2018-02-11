@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_backgound_color"
+    android:fitsSystemWindows="true" >
+
+    <ListView
+        android:id="@+id/add_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:divider="#00ffffff" >
+    </ListView>
+
+    <RelativeLayout
+        android:id="@+id/rel_add_apps_content_mask"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" >
+
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/activity_main_image_hints_margin_top"
+            android:src="@drawable/noting" />
+
+        <TextView
+            android:id="@+id/tips_add_apps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img2"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="@dimen/activity_main_tv1_hints_margin_top"
+            android:text="@string/str_no_auto_apps"
+            android:textColor="@color/adapter_textview_color"
+            android:textSize="@dimen/activity_main_tv1_hints_text_size" />
+    </RelativeLayout>
+
+    <mst.widget.FoldProgressBar
+        android:id="@+id/tips_widget_progressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_centerInParent="true"
+        />
+
+</RelativeLayout>

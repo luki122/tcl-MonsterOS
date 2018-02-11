@@ -1,0 +1,53 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory>
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="install_detection"
+            android:persistent="true"
+            android:summary="@string/summary_install_monitor"
+            android:title="@string/settings_install_monitor"
+            />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="scan_cloud"
+            android:persistent="true"
+            android:summary="@string/summary_scan_cloud"
+            android:title="@string/settings_scan_cloud"
+            />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="update_virus_lib"
+            android:persistent="true"
+            android:summary="@string/summary_update_virus_lib"
+            android:title="@string/settings_update_virus_lib"
+            />
+    </PreferenceCategory>
+
+    <PreferenceCategory>
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="pay_app_monitor"
+            android:persistent="true"
+            android:summary="@string/accessibility_service_description"
+            android:title="@string/accessibility_service_name"
+            />
+
+        <PreferenceScreen
+            android:key="white_list"
+            android:summary="@string/summary_white_list"
+            android:title="@string/settings_white_list"
+            />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="pay_list_category">
+        <com.monster.paymentsecurity.views.PayListPreference
+            android:visible="false"
+            android:key="pay_list"
+            android:title="@string/applist_protecting"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

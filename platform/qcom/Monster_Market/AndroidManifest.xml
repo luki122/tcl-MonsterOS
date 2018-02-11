@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.monster.market"
+    android:sharedUserId="android.uid.system"
+    android:versionName="v1.0.1.0206.n"
+    android:versionCode="161216001" >
+
+    <uses-sdk
+        android:minSdkVersion="23"
+        android:targetSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <uses-permission android:name="android.permission.INSTALL_PACKAGES" />
+
+    <application
+        android:name=".MarketApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/MarketActivityTheme">
+        <activity
+            android:name=".activity.MainActivity"
+            android:hardwareAccelerated="true"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.monster.market.activity.TestHttpActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".activity.AppListActivity"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/BackActivityTheme" />
+
+        <activity
+            android:name=".activity.AppRankingActivity"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/BackActivityTheme" />
+
+        <activity
+            android:name=".activity.CategoryActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/BackActivityTheme" />
+
+        <activity
+            android:name=".activity.EssentialActivity"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/BackActivityTheme" />
+
+        <activity
+            android:name=".activity.AppDetailActivity"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/ThemeSwipeBackTransparent" />
+
+        <activity
+            android:name=".activity.PictureViewActivity"
+            android:configChanges="screenSize"
+            android:launchMode="singleTop"
+            android:screenOrientation="nosensor"
+            android:theme="@style/picture" />
+
+        <activity
+            android:name=".activity.ManagerPreferenceActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/BackActivityTheme" />
+
+        <activity
+            android:name=".activity.DownloadManagerActivity"
+            android:hardwareAccelerated="true"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/ManagerActivityTheme" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+                <action android:name="com.monster.market.downloadmanager" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activity.SettingPreferenceActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/BackActivityTheme" />
+
+        <activity
+            android:name=".activity.UpdateSettingsPreferenceActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/BackActivityTheme" />
+
+        <activity
+            android:name=".activity.TopicActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/BackActivityTheme" />
+
+        <activity
+            android:name=".activity.SearchActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/BackActivityTheme">
+
+            <intent-filter>
+
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="search"
+                    android:scheme="market" />
+
+            </intent-filter>
+
+        </activity>
+
+        <activity
+            android:name=".activity.AppUpgradeActivity"
+            android:screenOrientation="portrait"
+            android:hardwareAccelerated="true"
+            android:launchMode="singleTop"
+            android:theme="@style/BackActivityTheme" />
+
+        <activity
+            android:name=".activity.AppIgnoreActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/BackActivityTheme" />
+
+        <activity
+            android:name=".activity.WifiBlockDialogActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ThemeSwipeBackTransparent" />
+
+        <!-- 下载服务 -->
+        <service android:name=".download.AppDownloadService"
+            android:exported="true" >
+        </service>
+        <!-- 安装服务 -->
+        <service android:name=".install.AppInstallService" />
+
+        <!-- 包接收器 -->
+        <receiver android:name=".receiver.PackageReceiver">
+            <intent-filter android:priority="2147483647">
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_REPLACED" />
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+                <action android:name="android.intent.action.PACKAGE_CHANGED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+
+        <!-- 关机监听 -->
+        <receiver android:name=".receiver.ShutdownReceiver">
+            <intent-filter android:priority="2147483647">
+                <action android:name="android.intent.action.ACTION_SHUTDOWN" />
+            </intent-filter>
+        </receiver>
+
+        <!-- 网络改变监听 -->
+        <receiver android:name=".receiver.NetworkChangeReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+        <receiver android:name=".install.CleanUpIntent">
+            <intent-filter>
+                <action android:name="notification_installed_cancelled" />
+                <action android:name="notification_installed_one" />
+                <action android:name="notification_failed_cancelled" />
+                <action android:name="notification_update_installed_cancelled" />
+                <action android:name="notification_update_installed_one" />
+                <action android:name="notification_update_failed_cancelled" />
+            </intent-filter>
+        </receiver>
+
+        <provider
+            android:name=".provider.DownloadInfoProvider"
+            android:authorities="com.monster.market.provider"
+            android:exported="true" />
+
+    </application>
+
+</manifest>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"SetupWizard"</string>
+	<!---->
+	<string name="loading_net_waiting">"Loading, please wait..."</string>
+	<!---->
+	<string name="language_title">"Select language"</string>
+	<!---->
+	<string name="sim_set_title">"Detect SIM card"</string>
+	<!---->
+	<string name="sim_set_prompt">"Please insert your SIM card"</string>
+	<!---->
+	<string name="sim_card">"SIM card"</string>
+	<!---->
+	<string name="sim_card_enabled">"SIM card <xliff:g id="count">%s</xliff:g> inserted"</string>
+	<!---->
+	<string name="sim_card_disabled">"SIM card <xliff:g id="count">%s</xliff:g> not inserted"</string>
+	<!---->
+	<string name="china_mobile">"China Mobile"</string>
+	<!---->
+	<string name="china_unicom">"China Unicom"</string>
+	<!---->
+	<string name="china_telecom">"China Telecom"</string>
+	<!---->
+	<string name="mobile_network">"Cellular data network"</string>
+	<!---->
+	<string name="mobile_network_description">"In the case of wireless networks aren\'t connected, the system will use the cellular data network to access the Internet"</string>
+	<!---->
+	<string name="default_network_card">"The default network card"</string>
+	<!---->
+	<string name="wifi_title">"Select a wireless network"</string>
+	<!---->
+	<string name="wifi_advanced_setup">"Advanced setup"</string>
+	<!---->
+	<string name="wifi_dialog_hint">"Enter the password..."</string>
+	<!---->
+	<string name="wifi_dialog_hint2">"Retype the password"</string>
+	<!---->
+	<string name="wifi_connect_fail">"Can\'t connect to Wi-Fi, try again"</string>
+	<!---->
+	<string name="wifi_loading_prompt">"Searching for Wi-Fi networks..."</string>
+	<!---->
+	<string name="user_terms_title">"Terms of Use"</string>
+	<!---->
+	<string name="user_terms_license">"Use licence"</string>
+	<!---->
+	<string name="user_terms_privacy">"Privacy policy"</string>
+	<!---->
+	<string name="user_terms_prompt">"Only if you agreed to use \"TCL service\"</string>
+	<!---->
+	<string name="other_service_title">"Other services"</string>
+	<!---->
+	<string name="other_service_location">"Location service"</string>
+	<!---->
+	<string name="other_service_location_description">"Location service allows other applications to use the Wi-Fi network and data location."</string>
+	<!---->
+	<string name="other_service_experience">"User experience"</string>
+	<!---->
+	<string name="other_service_experience_description">"We\'ll count up your usage of product features in order to improve the quality of our products and services. During the whole process, we will strictly comply with our privacy policy."</string>
+	<!---->
+	<string name="fingerprint_title">"Input fingerprint"</string>
+	<!---->
+	<string name="fingerprint_prompt">"After inputting fingerprint, you can use the fingerprint to unlock the device."</string>
+	<!---->
+	<string name="fingerprint_unsupported">"Your device doesn\'t support fingerprints, please click the \"skip\"."</string>
+	<!---->
+	<string name="fingerprint_begin">"Start input"</string>
+	<!---->
+	<string name="fingerprint_other">"Input other finger"</string>
+	<!-- no translation found for finish_prompt -->
+	<skip />
+	<!---->
+	<string name="enjoy">"Enjoy"</string>
+	<!---->
+	<string name="cancel_title">"Cancel"</string>
+	<!---->
+	<string name="connect_title">"Connect"</string>
+	<!---->
+	<string name="continue_title">"Continue"</string>
+	<!---->
+	<string name="skip_title">"Skip"</string>
+	<!---->
+	<string name="agreed_continue">"Agree and continue"</string>
+	<!---->
+	<string name="begin_title">"Start"</string>
+	<!-- no translation found for privacy_content -->
+	<skip />
+</resources>

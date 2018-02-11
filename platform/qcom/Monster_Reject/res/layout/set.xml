@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:key="pref_key_sms_settings"
+        android:title="" >
+
+        <!-- <SwitchPreference
+            android:defaultValue="true"
+            android:key="sms"
+            android:summary=""
+            android:title="@string/reject_sms" /> -->
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="sms"
+            android:summary="@string/settings_intelligent_reject_subtitle"
+            android:title="@string/settings_intelligent_reject_title" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="intercept"
+            android:summary=""
+            android:title="@string/reject_notification" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="pref_key_mms_settings"
+        android:title="" >
+
+        <PreferenceScreen
+            android:key="black_name"
+            android:summary=""
+            android:title="@string/black_manage" />
+
+       
+    </PreferenceCategory>
+    
+     <PreferenceCategory
+        android:key="pref_key_phone_settings"
+        android:title="" >
+        <!-- <com.monster.interception.activity.CountAndNarrowPreference
+            android:key="mark"
+            android:summary=""
+            android:title="@string/mark_manage"
+            android:widgetLayout="@layout/count_narrow_preference_view"  /> -->
+        <PreferenceScreen
+            android:key="mark"
+            android:title="@string/mark_manage" >
+    </PreferenceScreen>
+    </PreferenceCategory>
+
+</PreferenceScreen>

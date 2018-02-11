@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cn.tcl.setupwizard.ui.AccountActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="ifContentScrolls">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp" >
+
+            <!-- 头像 -->
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="48dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical"
+                    android:text="Head portrait" />
+
+                <TextView
+                    android:id="@+id/head_icon"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical"
+                    android:text="Not filled" />
+            </LinearLayout>
+
+            <!-- 用户名-->
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="48dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical"
+                    android:text="Username" />
+
+                <TextView
+                    android:id="@+id/username"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical"
+                    android:text="Not filled" />
+            </LinearLayout>
+            <!-- 昵称 -->
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="48dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical"
+                    android:text="Nickname" />
+
+                <TextView
+                    android:id="@+id/nick_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical"
+                    android:text="Not filled" />
+            </LinearLayout>
+            <!-- 手机号 -->
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="48dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical"
+                    android:text="Phone number (Chinese only)" />
+
+                <TextView
+                    android:id="@+id/phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical"
+                    android:text="Not filled" />
+            </LinearLayout>
+            <!-- 邮箱 -->
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="48dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical"
+                    android:text="Mailbox" />
+
+                <TextView
+                    android:id="@+id/mail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical"
+                    android:text="Not filled" />
+            </LinearLayout>
+            <!-- ID -->
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="48dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical"
+                    android:text="ID" />
+
+                <TextView
+                    android:id="@+id/id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical"
+                    android:text="Not filled" />
+            </LinearLayout>
+
+            <!-- token -->
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="48dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical"
+                    android:text="Token" />
+
+                <TextView
+                    android:id="@+id/token"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical"
+                    android:singleLine="true"
+                    android:text="Not filled" />
+            </LinearLayout>
+            <!-- 状态 -->
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="48dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Status" />
+
+                <TextView
+                    android:id="@+id/status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical"
+                    android:text="Not filled" />
+            </LinearLayout>
+
+            <!-- 状态 -->
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="48dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Activation" />
+
+                <TextView
+                    android:id="@+id/activated"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical"
+                    android:text="Not filled" />
+            </LinearLayout>
+
+            <!-- 最近更新时间 -->
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="48dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Last refresh time" />
+
+                <TextView
+                    android:id="@+id/lastRefresh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical"
+                    android:text="Not filled" />
+            </LinearLayout>
+
+            <!-- 有效时间 -->
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="48dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Expiration Time" />
+
+                <TextView
+                    android:id="@+id/expires"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical"
+                    android:text="Not filled" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical" >
+                <Button
+                    android:id="@+id/getUserInfo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="getUserInfo" />
+
+                <Button
+                    android:id="@+id/requestssoauth"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="requestSSOAuth" />
+
+                <Button
+                    android:id="@+id/requestssoauth_email_only"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="requestSSOAuth_EMAIL_ONLY" />
+
+                <Button
+                    android:id="@+id/requestssoauth_phone_only"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="requestSSOAuth_PHONE_ONLY" />
+
+                <Button
+                    android:id="@+id/requestssoauth_email_phone_only"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="requestSSOAuth_EMAIL_PHONE_ONLY"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/requestssoauth_active"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="requestSSOAuth_ACTIVATE"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/request_no_ui_auth"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="requestNO_UI_AUTH" />
+
+                <Button
+                    android:id="@+id/request_no_ui_email_only_auth"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="requestNO_UI_EMAIL_ONLY_AUTH" />
+
+                <Button
+                    android:id="@+id/request_no_ui_phone_only_auth"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="requestNO_UI_PHONE_ONLY_AUTH" />
+
+                <Button
+                    android:id="@+id/request_no_ui_activate_auth"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="requestNO_UI_ACTIVATE_AUTH"
+                    android:visibility="gone"/>
+
+                <Button
+                    android:id="@+id/cleanCache"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="cleanCache" />
+
+                <Button
+                    android:id="@+id/validateAuth"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ssoValidateAuth" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/validateAuthstatus"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical"
+                android:text="Not filled" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

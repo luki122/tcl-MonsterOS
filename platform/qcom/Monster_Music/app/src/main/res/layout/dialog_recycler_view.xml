@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="310dp"
+                android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/add_playlist_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:alpha="0.86"
+        android:background="?android:attr/selectableItemBackground"
+        android:gravity="center_horizontal"
+        android:text="@string/add_to_my_playlist"
+        android:textColor="#000000"
+        android:textSize="15sp"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="183dp"
+        android:layout_below="@id/add_playlist_title"
+        android:layout_marginTop="9dp"/>
+
+</RelativeLayout>

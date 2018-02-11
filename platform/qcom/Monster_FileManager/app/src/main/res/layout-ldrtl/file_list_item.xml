@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:minHeight="@dimen/file_list_item_minheight"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/edit_adapter_img"
+        android:layout_width="@dimen/nail_size"
+        android:layout_height="@dimen/nail_size"
+        android:layout_gravity="center"
+        android:layout_marginEnd="@dimen/nail_padding"
+        android:layout_marginStart="@dimen/list_item_margin_left_right"
+        android:scaleType="center" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+ >
+
+        <LinearLayout
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_marginEnd="@dimen/file_list_item_layout_margin"
+            android:layout_marginStart="@dimen/file_list_item_layout_margin"
+            android:layout_height="wrap_content" >
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    android:id="@+id/file_list_item_file_name"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/file_list_item_layout_margin"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:textSize="@dimen/list_title_text_size" />
+
+                <TextView
+                    android:id="@+id/edit_adapter_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/file_list_item_file_name"
+                    android:layout_marginEnd="@dimen/file_list_item_layout_margin"
+                    android:textColor="@color/textGrayColor"
+                    android:textSize="@dimen/list_time_text_size" />
+
+                <TextView
+                    android:id="@+id/edit_adapter_size"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/file_list_item_file_name"
+                    android:layout_marginEnd="@dimen/file_list_item_layout_margin"
+                    android:textColor="@color/textGrayColor"
+                    android:textSize="@dimen/list_time_text_size" />
+            </RelativeLayout>
+
+        </LinearLayout>
+           <!--<LinearLayout-->
+                <!--android:layout_gravity="center"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_alignParentLeft="true"-->
+                <!--android:paddingLeft="5dp"-->
+                <!--android:gravity="end" >-->
+
+                <!--&lt;!&ndash;-->
+             <!--<CheckBox-->
+            <!--android:id="@+id/edit_checkbox"-->
+            <!--style="@style/CustomCheckboxTheme"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginEnd="16dp"-->
+            <!--android:clickable="false"-->
+            <!--android:focusable="false"-->
+            <!--android:visibility="gone" />-->
+                <!--&ndash;&gt;-->
+
+                <!--&lt;!&ndash;<ImageView&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:id="@+id/edit_moreMenu"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_width="@dimen/file_list_more_width"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:scaleType="centerInside"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_height="match_parent"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_gravity="center"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:src="@drawable/ic_file_overflow" />&ndash;&gt;-->
+            <!--</LinearLayout>-->
+        <TextView
+            android:layout_marginStart="@dimen/file_list_item_layout_margin"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/search_line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/search_line_color" />
+    </RelativeLayout>
+
+</LinearLayout>

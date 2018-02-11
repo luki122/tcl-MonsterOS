@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="2dp" >
+
+    <com.android.mms.ui.CheckOverSizeTextView
+        android:id="@+id/content_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra = "@dimen/compose_message_body_text_linespace"
+        android:maxLines = "15"
+        android:layout_marginBottom="@dimen/message_item_text_padding_bottom"
+        android:layout_marginEnd="@dimen/message_item_text_padding_end"
+        android:layout_marginStart="@dimen/message_item_text_padding_start"
+        android:layout_marginTop="@dimen/message_item_text_padding_top"
+        android:ellipsize="end"
+        android:gravity="start"
+        android:autoLink="all"
+        android:linksClickable="true"
+        android:maxWidth="@dimen/stretchy_item_text_max_width"
+        android:textColor="#FF000000"
+        android:textSize="15sp" />
+
+    <LinearLayout
+        android:id="@+id/bottom_text_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/bottom_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="21dp"
+            android:layout_marginEnd="@dimen/message_item_text_padding_end"
+            android:layout_marginTop="4dp"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textColor="#FF19A8AE"
+            android:textSize="15dp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</LinearLayout>

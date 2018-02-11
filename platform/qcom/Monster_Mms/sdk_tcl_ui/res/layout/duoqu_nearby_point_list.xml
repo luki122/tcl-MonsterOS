@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:background="@color/duoqu_menu_black2" >
+
+        <ImageView
+            android:id="@+id/duoqu_header_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/duoqu_title_left_icon_back_light" />
+
+        <TextView
+            android:id="@+id/duoqu_title_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="51dp"
+            android:layout_marginRight="51dp"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textColor="@color/duoqu_action_bar_title_text_color"
+            android:textSize="18dp" />
+
+        <ImageView
+            android:id="@+id/duoqu_header_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="0dp"
+            android:src="@drawable/duoqu_web_header_close"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <!-- 附近网点加载中... -->
+
+    <LinearLayout
+        android:id="@+id/duoqu_ll_nearby_point_loading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/duoqu_menu_white"
+        android:gravity="center_vertical|center"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="16dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/duoqu_nearby_point_origin" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/duoqu_tip_nearby_point_loading"
+            android:textColor="@color/duoqu_nearby_point_gray"
+            android:textSize="14dp" />
+    </LinearLayout>
+
+    <!-- 没有找到相关结果 -->
+
+    <LinearLayout
+        android:id="@+id/duoqu_ll_nearby_point_not_find"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/duoqu_menu_white"
+        android:gravity="center_vertical|center"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <ImageView
+            android:layout_width="16dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/duoqu_nearby_point_search_result" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/duoqu_tip_nearby_point_not_find"
+            android:textColor="@color/duoqu_nearby_point_gray"
+            android:textSize="14dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/duoqu_tip_nearby_point_refresh"
+            android:textColor="@color/duoqu_nearby_point_hyper_link"
+            android:textSize="14dp" />
+    </LinearLayout>
+
+    <!-- 网络出错 -->
+
+    <LinearLayout
+        android:id="@+id/duoqu_ll_nearby_point_network_lose"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/duoqu_menu_white"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/duoqu_nearby_point_network_lose" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/duoqu_tip_nearby_point_network_lose"
+            android:textColor="@color/duoqu_nearby_point_gray"
+            android:textSize="14dp" />
+    </LinearLayout>
+	 <!-- gps出错 -->
+
+    <LinearLayout
+        android:id="@+id/duoqu_gps_closed_error"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/duoqu_menu_white"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/duoqu_nearby_point_network_lose" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/duoqu_tip_gps_closed_error"
+            android:textColor="@color/duoqu_nearby_point_gray"
+            android:textSize="14dp" />
+    </LinearLayout>
+    <!-- 附近网点列表 -->
+
+    <LinearLayout
+        android:id="@+id/duoqu_ll_nearby_point_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/duoqu_menu_white"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <ListView
+            android:id="@+id/duoqu_lv_nearby_point"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:overScrollMode="never"
+            android:scrollbars="none" >
+        </ListView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:orientation="vertical" >
+            <!-- UIX-143 lianghailun 20160503 start -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"
+                android:paddingTop="12dp"
+                android:paddingBottom="12dp"
+                android:text="@string/duoqu_tip_services_provide"
+                android:textColor="@color/duoqu_nearby_point_gray"
+                android:textSize="9dp" />
+            <!-- UIX-143 lianghailun 20160503 end -->
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/duoqu_nearby_point_error_page"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/duoqu_menu_white"
+        android:visibility="gone" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/duoqu_errortext" />
+    </RelativeLayout>
+
+</LinearLayout>

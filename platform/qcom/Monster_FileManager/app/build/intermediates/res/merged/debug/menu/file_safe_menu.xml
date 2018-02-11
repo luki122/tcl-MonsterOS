@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/create_safe_box"
+        android:icon="@drawable/add_safe"
+        android:showAsAction="always"
+        android:title="@string/new_safe"
+        />
+
+
+</menu>

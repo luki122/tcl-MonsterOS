@@ -1,0 +1,814 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="sort">"Sordi"</string>
+	<!---->
+	<string name="sort_by_name">"Nimi"</string>
+	<!---->
+	<string name="sort_by_date">"Muutmiskuupäev"</string>
+	<!---->
+	<string name="sort_by_time">"Kuupäev"</string>
+	<!---->
+	<string name="sort_by_type">"Tüüp"</string>
+	<!---->
+	<string name="sort_by_size">"Suurus"</string>
+	<!---->
+	<string name="copy">"Kopeeri"</string>
+	<!---->
+	<string name="create_folder">"Loo"</string>
+	<!---->
+	<string name="cut">"Lõika"</string>
+	<!---->
+	<string name="delete">"Kustuta"</string>
+	<!---->
+	<string name="delete_confirm">"Kinnita kustutamine"</string>
+	<!---->
+	<string name="deselect_all">"Tühista kõik valikud"</string>
+	<!---->
+	<string name="select_all">"Vali kõik"</string>
+	<!---->
+	<string name="show_file">"Kuva varjatud faile"</string>
+	<!---->
+	<string name="hide_file">"Varja varjatud failid"</string>
+	<!---->
+	<string name="paste">"Kleebi"</string>
+	<!---->
+	<string name="rename">"Nimeta ümber"</string>
+	<!---->
+	<string name="share">"Jaga"</string>
+	<!---->
+	<string name="viewby_list">"Vaata loendina"</string>
+	<!---->
+	<string name="viewby_grid">"Kuva ruudustiku järgi"</string>
+	<!---->
+	<string name="alert_delete_message">"kustuta"</string>
+	<!---->
+	<string name="multi_alert_delete_message">"Kas kustutada valitud üksused?"</string>
+	<!---->
+	<string name="multi_alert_delete_message_cn">"Kas kustutada valitud üksused?"</string>
+	<!-- no translation found for delete_folder_message -->
+	<skip />
+	<!---->
+	<string name="category_pictures">"Pildid"</string>
+	<!---->
+	<string name="category_vedios">"Videod"</string>
+	<!---->
+	<string name="category_music">"Muusika"</string>
+	<!---->
+	<string name="category_download">"Allalaadimised"</string>
+	<!---->
+	<string name="category_bluetooth">"Bluetooth"</string>
+	<!-- no translation found for app_name -->
+	<skip />
+	<!-- no translation found for theme_name -->
+	<skip />
+	<!---->
+	<string name="apk_name">"Failid"</string>
+	<!---->
+	<string name="new_folder">"Uue kausta loomine"</string>
+	<!---->
+	<string name="confirm_rename">"Kinnita nimi"</string>
+	<!---->
+	<string name="warning">"Failide maksimaalne arv"</string>
+	<!---->
+	<string name="share_warning">"Te ei saa jagada üle 100 faili."</string>
+	<!---->
+	<string name="loading">"Laadimine ..."</string>
+	<!---->
+	<string name="deleting">"Kustutamine"</string>
+	<!---->
+	<string name="alert_delete_multiple">"Valitud failid kustutatakse."</string>
+	<!---->
+	<string name="name">"Nimi"</string>
+	<!---->
+	<string name="size">"Suurus"</string>
+	<!---->
+	<string name="modified_time">"Muudetud"</string>
+	<!---->
+	<string name="msg_rename_ext">"Faili laiendit muudetakse. Faili ei pruugita ära tunda. Kas jätkata?"</string>
+	<!---->
+	<string name="wait">"Oodake ..."</string>
+	<!---->
+	<string name="done">"Valmis"</string>
+	<!-- no translation found for enable -->
+	<skip />
+	<!-- no translation found for enable_cn -->
+	<skip />
+	<!---->
+	<string name="cancel">"Tühista"</string>
+	<!---->
+	<string name="no">"Ei"</string>
+	<!---->
+	<string name="ok">"OK"</string>
+	<!---->
+	<string name="yes">"Jah"</string>
+	<!---->
+	<string name="details">"Faili üksikasjad"</string>
+	<!---->
+	<string name="drawer_open">"Ava"</string>
+	<!---->
+	<string name="unknown">"Tundmatu"</string>
+	<!-- no translation found for unit_B -->
+	<skip />
+	<!-- no translation found for unit_KB -->
+	<skip />
+	<!-- no translation found for unit_MB -->
+	<skip />
+	<!-- no translation found for unit_GB -->
+	<skip />
+	<!-- no translation found for unit_TB -->
+	<skip />
+	<!---->
+	<string name="send_file">"Jaga faili (faile) järgmise üksuse kaudu:"</string>
+	<!---->
+	<string name="default_search_text">"Otsi faile"</string>
+	<!---->
+	<string name="free_space">"Saadaval"</string>
+	<!---->
+	<string name="total_space">"Kogu ruum"</string>
+	<!---->
+	<string name="drawer_category">"Kategooriad"</string>
+	<!---->
+	<string name="phone_storage">"Sisemälu"</string>
+	<!---->
+	<string name="phone_storage_cn">"Sisemälu"</string>
+	<!---->
+	<string name="sd_card">"SD-kaart"</string>
+	<!---->
+	<string name="draw_left_phone_storage">"Sisemälu"</string>
+	<!---->
+	<string name="draw_left_sd_card">"SD-kaart"</string>
+	<!-- no translation found for menu_settings -->
+	<skip />
+	<!---->
+	<string name="no_search_result">"0 faili leiti otsingule \"%1$s\""</string>
+	<!---->
+	<string name="copy_deny">"Kopeerimisluba pole."</string>
+	<!---->
+	<string name="cut_deny">"Lõikamisluba pole."</string>
+	<!---->
+	<string name="delete_deny">"Kustutamisluba pole."</string>
+	<!---->
+	<string name="insufficient_memory">"Ruumi pole piisavalt."</string>
+	<!---->
+	<string name="insufficient_message">"Ei saanud ruumipuudusel kõiki faile kopeerida"</string>
+	<!---->
+	<string name="invalid_empty_name">"Faili või kausta nimi ei saa olla tühi."</string>
+	<!---->
+	<string name="paste_same_folder">"Ei saanud kopeerida: lähte- ja sihtkaust on samad."</string>
+	<!---->
+	<string name="invalid_char_prompt">"Sisestasite sobimatu märgi."</string>
+	<!---->
+	<string name="msg_unable_open_file">"Seda failivormingut ei toetata."</string>
+	<!---->
+	<string name="paste_sub_folder">"Alamkausta ei saa kleepida."</string>
+	<!---->
+	<string name="operation_fail">"Mõni failitoiming ebaõnnestus."</string>
+	<!---->
+	<string name="search_result">"%2$d tulemust otsingule \"%1$s\"</string>
+	<!---->
+	<string name="already_exists">"%1$s on juba kasutusel."</string>
+	<!---->
+	<string name="unmounted">"%1$s on lahti ühendatud"</string>
+	<!---->
+	<string name="create_hidden_file">"Märgiga \.\ algava nimega failid peidetakse."</string>
+	<!---->
+	<string name="file_name_too_long">"Sisestatud nimi on liiga pikk."</string>
+	<!---->
+	<string name="some_paste_fail">"Mõni kleepimistoiming ebaõnnestus."</string>
+	<!---->
+	<string name="delete_fail">"Kustutamine ebaõnnestus"</string>
+	<!---->
+	<string name="some_delete_fail">"Mõni kustutamistoiming ebaõnnestus."</string>
+	<!---->
+	<string name="msg_unable_open_file_in_app">"Faili avamiseks ei ole rakendust"</string>
+	<!---->
+	<string name="drm_forwardforbidden_title">"Ei edastata"</string>
+	<!---->
+	<string name="drm_forwardforbidden_message">"DRM-faili ei saa edastada."</string>
+	<!---->
+	<string name="drm_no_valid_right">"Failil ei ole kehtivat DRM-i volitust."</string>
+	<!---->
+	<string name="drm_current_count">"Praegune arv:"</string>
+	<!---->
+	<string name="unlimited_usage">"Piiramatu kasutus"</string>
+	<!---->
+	<string name="drm_current_right">"Praegune piirang:"</string>
+	<!---->
+	<string name="not_available">"Ei ole saadaval"</string>
+	<!---->
+	<string name="right_url">"Litsentside väljastaja URL:"</string>
+	<!---->
+	<string name="use_times">"Kasuta %s korda"</string>
+	<!---->
+	<string name="valid_after">"Kehtiv alates"</string>
+	<!---->
+	<string name="valid_until">"Kehtiv kuni"</string>
+	<!---->
+	<string name="drm_wifidisplay_title">"Kopeerimiskaitstud failid"</string>
+	<!---->
+	<string name="drm_wifidisplay_message">"Kopeerimiskaitstud faili ei saa jagada."</string>
+	<!---->
+	<string name="drm_wifidisplay_cancel_btn">"Lülita Wi-Fi-kuva välja"</string>
+	<!---->
+	<string name="drm_wifidisplay_ok">"OK"</string>
+	<!---->
+	<string name="tv_link_close_toast">"Wi-Fi-kuva on kinni pandud"</string>
+	<!---->
+	<string name="usbotg">"Väline USB-salvestusruum"</string>
+	<!---->
+	<string name="show">"Kuva süsteemifailid"</string>
+	<!---->
+	<string name="hide">"Varja süsteemifaile"</string>
+	<!---->
+	<string name="action_menu_create_folder_button">"Loo kaust"</string>
+	<!---->
+	<string name="searchResult">"Otsingutulemus"</string>
+	<!---->
+	<string name="default_folder_name">"Kausta nimi"</string>
+	<!---->
+	<string name="drm_protection_status">"Kaitstuse olek:"</string>
+	<!---->
+	<string name="drm_can_forward">"Saab edastada."</string>
+	<!---->
+	<string name="drm_can_not_forward">"Ei saa edastada."</string>
+	<!---->
+	<string name="drm_no_license">"DRM-i litsents ei ole saadaval."</string>
+	<!---->
+	<string name="drm_interval">"Kehtib %s pärast esimest kasutust"</string>
+	<!---->
+	<string name="drm_begin">"Algus:"</string>
+	<!---->
+	<string name="drm_no_limitation">"Piirangut ei ole."</string>
+	<!---->
+	<string name="drm_end">"Lõpp:"</string>
+	<!---->
+	<string name="drm_use_left">"Jääk:"</string>
+	<!---->
+	<string name="drm_no_crop">"Faili %s ei saa kärpida, sest sel on DRM-i kaitse."</string>
+	<!---->
+	<string name="file_copy">"Fail kopeeritud"</string>
+	<!---->
+	<string name="choice_file">"Vali sihtpunkt"</string>
+	<!---->
+	<string name="alert_delete_single">"Valitud fail kustutatakse."</string>
+	<!---->
+	<string name="pasting">"Kleepimine"</string>
+	<!---->
+	<string name="readable">"Loetav:"</string>
+	<!---->
+	<string name="executable">"Rakendus:"</string>
+	<!---->
+	<string name="writable">"Kirjutatav:"</string>
+	<!---->
+	<string name="add_favorite">"Lisa lemmikute kausta"</string>
+	<!---->
+	<string name="del_favorite">"Kustuta lemmikute kaustast"</string>
+	<!---->
+	<string name="favourite">"Lisa lemmikutesse"</string>
+	<!---->
+	<string name="viewby_details">"Kuva üksikasjade järgi"</string>
+	<!---->
+	<string name="view_by">"Kuv. alus"</string>
+	<!---->
+	<string name="show_hide">"Kuva\/peida"</string>
+	<!---->
+	<string name="sort_by">"Sortimisalus:"</string>
+	<!---->
+	<string name="more">"Rohkem"</string>
+	<!-- no translation found for used -->
+	<skip />
+	<!---->
+	<string name="category_archives">"Arhiivid"</string>
+	<!---->
+	<string name="category_favorite">"Lemmikud"</string>
+	<!---->
+	<string name="category_ringtones">"Helinad"</string>
+	<!---->
+	<string name="category_recordings">"Salvestised"</string>
+	<!---->
+	<string name="category_safebox">"Safebox"</string>
+	<!---->
+	<string name="category_apks">"APK-d"</string>
+	<!---->
+	<string name="search">"Otsing"</string>
+	<!---->
+	<string name="sort_type">"Sordi tüübi alusel"</string>
+	<!---->
+	<string name="sort_name">"Sordi nime järgi (A–Ü)"</string>
+	<!---->
+	<string name="sort_size">"Sordi suuruse järgi (suur–väike)"</string>
+	<!---->
+	<string name="sort_time">"Sordi aja järgi (uus–vana)"</string>
+	<!---->
+	<string name="selected">"Valitud"</string>
+	<!---->
+	<string name="save">"Salvesta"</string>
+	<!---->
+	<string name="category_docs">"Dokumendid"</string>
+	<!---->
+	<string name="category_files">"Failid"</string>
+	<!---->
+	<string name="view_as_grid">"Kuva ruudustikuna"</string>
+	<!---->
+	<string name="view_as_list">"Kuva loendina"</string>
+	<!---->
+	<string name="detail_path">"Asukoht:"</string>
+	<!---->
+	<string name="detail_name">"Nimi:"</string>
+	<!---->
+	<string name="detail_size">"Suurus:"</string>
+	<!---->
+	<string name="detail_time">"Viimati muudetud:"</string>
+	<!---->
+	<string name="empty_msg">"(Tühi kaust)"</string>
+	<!---->
+	<string name="search_files">"Otsi faile"</string>
+	<!-- no translation found for search_result_count -->
+	<skip />
+	<!---->
+	<string name="drawer_settings">"Seaded"</string>
+	<!---->
+	<string name="search_text_empty">"Otsingu sisu ei tohi tühi olla."</string>
+	<!---->
+	<string name="search_result_title">"Otsingutulemus(ed)"</string>
+	<!---->
+	<string name="path_not_exists">"Üksust %1$s pole olemas"</string>
+	<!---->
+	<string name="modify_hidden_file">"Faili ei peideta, kui nime alguses ei ole märki \'.\'."</string>
+	<!---->
+	<string name="paste_fail">"Ei saanud kleepida"</string>
+	<!---->
+	<string name="search_empty">"Otsingu sisu ei tohi tühi olla."</string>
+	<!---->
+	<string name="search_setting_description">"Kohalikud failid ja kaustad"</string>
+	<!---->
+	<string name="change_mode">"Valige fail või kaust"</string>
+	<!-- no translation found for drm_protectioninfo_title -->
+	<skip />
+	<!---->
+	<string name="draw_favourite">"lemmik"</string>
+	<!---->
+	<string name="unfavourite">"Eemalda lemmikutest"</string>
+	<!---->
+	<string name="drm_toast_license_expired">"DRM-i litsents on aegunud."</string>
+	<!-- no translation found for sdstroge -->
+	<skip />
+	<!-- no translation found for phonestorage -->
+	<skip />
+	<!-- no translation found for title_activity_main -->
+	<skip />
+	<!-- no translation found for hello_world -->
+	<skip />
+	<!-- no translation found for action_settings -->
+	<skip />
+	<!-- no translation found for unlock_video -->
+	<skip />
+	<!---->
+	<string name="readable_m">"Loetav"</string>
+	<!---->
+	<string name="executable_m">"Rakendus"</string>
+	<!---->
+	<string name="writable_m">"Kirjutatav"</string>
+	<!---->
+	<string name="main_recents">"Hiljutised"</string>
+	<!-- no translation found for main_recents_cn -->
+	<skip />
+	<!---->
+	<string name="main_installers">"Installijad"</string>
+	<!---->
+	<string name="main_document">"Dokumendid"</string>
+	<!---->
+	<string name="detail_path_m">"Asukoht"</string>
+	<!-- no translation found for detail_path_m_cn -->
+	<skip />
+	<!---->
+	<string name="detail_name_m">"Nimi"</string>
+	<!---->
+	<string name="detail_size_m">"Suurus"</string>
+	<!---->
+	<string name="detail_time_m">"Viimati muudetud"</string>
+	<!---->
+	<string name="main_photo">"Fotod"</string>
+	<!---->
+	<string name="main_sd_storage">"SD-mäluseade"</string>
+	<!---->
+	<string name="main_external_storage">"Väline salvestusseade"</string>
+	<!---->
+	<string name="main_home">"Kodu"</string>
+	<!-- no translation found for main_home_cn -->
+	<skip />
+	<!---->
+	<string name="main_nava_home">"Kodu"</string>
+	<!---->
+	<string name="menu_select">"Vali"</string>
+	<!-- no translation found for go_up -->
+	<skip />
+	<!---->
+	<string name="no_folder">"See kaust on tühi"</string>
+	<!---->
+	<string name="no_category">"See kategooria on tühi."</string>
+	<!-- no translation found for no_folder_cn -->
+	<skip />
+	<!-- no translation found for no_category_cn -->
+	<skip />
+	<!---->
+	<string name="pasted">"Fail kleebitud"</string>
+	<!---->
+	<string name="deleted">"Fail kustutatud"</string>
+	<!---->
+	<string name="deleted_cn">"Fail kustutatud"</string>
+	<!---->
+	<string name="view_list">"Loendikuva"</string>
+	<!---->
+	<string name="view_grid">"Ruudustikvaade"</string>
+	<!---->
+	<string name="create_new_folder">"Loo kaust"</string>
+	<!-- no translation found for add_folder -->
+	<skip />
+	<!---->
+	<string name="detail">"Üksikasjad"</string>
+	<!-- no translation found for menu_detail -->
+	<skip />
+	<!---->
+	<string name="migrate">"Vii andmed üle"</string>
+	<!---->
+	<string name="permission_welcome_title">"Vajalik luba"</string>
+	<!---->
+	<string name="permission_msg">"Parem teenindus"</string>
+	<!---->
+	<string name="permission_setting_title">"Anna luba"</string>
+	<!---->
+	<string name="permission_setting_content">"Muuda oma seadme rakenduste seadetes luba. Anna failihaldurile ligipääsuluba mäluruumile."</string>
+	<!---->
+	<string name="permission_exit_btn">"Välju"</string>
+	<!---->
+	<string name="dialog_close_btn">"Sulge"</string>
+	<!-- no translation found for dialog_close_btn_cn -->
+	<skip />
+	<!---->
+	<string name="shortcut_item">"Lisa otsetee"</string>
+	<!-- no translation found for shortcut_item_cn -->
+	<skip />
+	<!---->
+	<string name="shortcut_no_exist">"Otsitavat kausta ei ole."</string>
+	<!-- no translation found for shortcut_success -->
+	<skip />
+	<!---->
+	<string name="no_search_result_m">"\"%1$s\" kohta ei ole tulemusi"</string>
+	<!---->
+	<string name="draw_left_phone_storage_m">"Telefon"</string>
+	<!---->
+	<string name="category_audio">"Heli"</string>
+	<!---->
+	<string name="usbotg_m">"Väline"</string>
+	<!-- no translation found for sd_m -->
+	<skip />
+	<!---->
+	<string name="freeof_m">"Vaba"</string>
+	<!---->
+	<string name="permission_settings">"Seaded"</string>
+	<!---->
+	<string name="safe_first_dialog_title">"Seifi kategooria"</string>
+	<!---->
+	<string name="safe_first_dialog_content">"Sellese kategooriasse failide teisaldamiseks on vaja salasõna autentida. Lisa sellesse kategooriasse, vajutades failimenüüs käsule Teisalda seifi."</string>
+	<!-- no translation found for safe_first_dialog_content_cn -->
+	<skip />
+	<!---->
+	<string name="safe_storage_local">"Kohalik salvesti"</string>
+	<!---->
+	<string name="set_password_pass">"Parool"</string>
+	<!---->
+	<string name="set_password_first">"Määra salasõna: 4-12kohaline arv"</string>
+	<!-- no translation found for input_new_password_hint -->
+	<skip />
+	<!---->
+	<string name="set_password_again">"Kinnita salasõna"</string>
+	<!---->
+	<string name="set_password_show">"Kuva parool"</string>
+	<!---->
+	<string name="set_password_safe_question">"Turvaküsimused"</string>
+	<!---->
+	<string name="set_password_safe_question_answer">"Vasta"</string>
+	<!---->
+	<string name="set_password_safe_forget_pass">"Ära unusta oma vastuseid turvaküsimustele. Kui salasõna unustad, saad selle lähtestada, vastates turvaküsimusele."</string>
+	<!---->
+	<string name="choose_safe">"Vali seif"</string>
+	<!-- no translation found for choose_safe_cn -->
+	<skip />
+	<!---->
+	<string name="create_safe">"Loo seif"</string>
+	<!---->
+	<string name="create_safe_to">"Loo seif"</string>
+	<!-- no translation found for create_safe_to_cn -->
+	<skip />
+	<!---->
+	<string name="set_password">"Määra parool"</string>
+	<!-- no translation found for add_file_safe -->
+	<skip />
+	<!---->
+	<string name="safe_set">"Seaded"</string>
+	<!---->
+	<string name="safe_set_title">"Seifi sätted"</string>
+	<!-- no translation found for safe_set_title_cn -->
+	<skip />
+	<!---->
+	<string name="update_password">"Värskenda salasõna"</string>
+	<!---->
+	<string name="modify_password">"Muuda salasõna"</string>
+	<!---->
+	<string name="security_question">"Uuenda turvaküsimust"</string>
+	<!-- no translation found for modify_security_question -->
+	<skip />
+	<!---->
+	<string name="safe_set_change_safe">"Muuda seifi"</string>
+	<!---->
+	<string name="safe_set_location_safe">"Seifi asukoht"</string>
+	<!-- no translation found for safe_set_location_safe_cn -->
+	<skip />
+	<!---->
+	<string name="update_password_original">"Sisesta algne salasõna"</string>
+	<!---->
+	<string name="update_password_original_cn">"Sisesta algne salasõna"</string>
+	<!---->
+	<string name="destory_safe">"Hävita seif"</string>
+	<!-- no translation found for destory_safe_cn -->
+	<skip />
+	<!-- no translation found for destory -->
+	<skip />
+	<!---->
+	<string name="use_password">"Kasuta salasõna"</string>
+	<!---->
+	<string name="input_password">"Sisendsalasõna"</string>
+	<!---->
+	<string name="forget_password">"Unusta parool"</string>
+	<!-- no translation found for others -->
+	<skip />
+	<!---->
+	<string name="password_empty">"Salasõna ei tohi olla tühi."</string>
+	<!---->
+	<string name="password_consistent">"Salasõnad ei kattu."</string>
+	<!---->
+	<string name="password_length_error">"Salasõna pikkuse viga."</string>
+	<!---->
+	<string name="answer_empty">"Vastus ei tohi olla tühi."</string>
+	<!-- no translation found for safe_box_name_empty -->
+	<skip />
+	<!---->
+	<string name="update_success">"Värskendamine õnnestus."</string>
+	<!---->
+	<string name="update_fail">"Värskendamine ebaõnnestus"</string>
+	<!---->
+	<string name="password_mistake">"Vale salasõna. Sisesta uuesti."</string>
+	<!---->
+	<string name="move_safe">"Teisalda seifi"</string>
+	<!---->
+	<string name="fingerprint_check">"Seonduvad sõrmejäljed, kasuta kinnitamiseks sõrmejälgede sensorit."</string>
+	<!---->
+	<string name="in_use">"Kasutusel"</string>
+	<!---->
+	<string name="created">"Loodud"</string>
+	<!---->
+	<string name="choose_files">"Vali fail(id)"</string>
+	<!---->
+	<string name="move_out">"Liigu välja"</string>
+	<!---->
+	<string name="remove_to">"Teisalda:"</string>
+	<!---->
+	<string name="default_location">"Vaikimisi asukoht"</string>
+	<!---->
+	<string name="specified_location">"Täpsustatud asukoht"</string>
+	<!-- no translation found for open_dir -->
+	<skip />
+	<!-- no translation found for default_location_cn -->
+	<skip />
+	<!-- no translation found for specified_location_cn -->
+	<skip />
+	<!-- no translation found for specified_location_content_cn -->
+	<skip />
+	<!-- no translation found for category_safe -->
+	<skip />
+	<!-- no translation found for category_safe_cn -->
+	<skip />
+	<!---->
+	<string name="add_safe_size_limited">"Ei leia suuremaid faile kui 2 GB"</string>
+	<!-- no translation found for add_safe_drm_limited -->
+	<skip />
+	<!---->
+	<string name="fingerprint_relative_dialog">"Kas siduda seif sõrmejäljega?"</string>
+	<!-- no translation found for fingerprint_relative_dialog_cn -->
+	<skip />
+	<!-- no translation found for fingerprint_relative_dialog_ok -->
+	<skip />
+	<!-- no translation found for fingerprint_relative_dialog_ok_cn -->
+	<skip />
+	<!---->
+	<string name="fingerprint_relative_dialog_cancel">"Hiljem"</string>
+	<!-- no translation found for fingerprint_relative_dialog_cancel_cn -->
+	<skip />
+	<!---->
+	<string name="safe_location_current">"Seifi asukoht:"</string>
+	<!-- no translation found for safe_location_current_cn -->
+	<skip />
+	<!---->
+	<string name="safe_location_content">"Ära failikausta kasuta, et vältida krüptitud andmete kahjustamist"</string>
+	<!-- no translation found for safe_location_content_cn -->
+	<skip />
+	<!---->
+	<string name="destory_safe_dialog_message">"Seifis olevad failid ja salasõnad kustutatakse. Kas hävitada kohe?"</string>
+	<!---->
+	<string name="destory_safe_dialog_checkbox">"Kas ühtlasi fail eemaldada?"</string>
+	<!-- no translation found for destory_safe_dialog_checkbox_cn -->
+	<skip />
+	<!---->
+	<string name="open_safe_dialog">"Luba seif"</string>
+	<!-- no translation found for open_safe_dialog_cn -->
+	<skip />
+	<!---->
+	<string name="open_safe_dialog_message">"Seifi lubamisel teisaldatakse failid seifi. Kas lubada kohe?"</string>
+	<!-- no translation found for open_safe_dialog_message_cn -->
+	<skip />
+	<!---->
+	<string name="open_safe_dialog_ok">"Ava kohe"</string>
+	<!---->
+	<string name="category_private_string">"Seif"</string>
+	<!---->
+	<string name="opening">"Avamine"</string>
+	<!-- no translation found for space_clear -->
+	<skip />
+	<!-- no translation found for unselected -->
+	<skip />
+	<!-- no translation found for select -->
+	<skip />
+	<!-- no translation found for finish -->
+	<skip />
+	<!---->
+	<string name="senior_title">"Pensionär"</string>
+	<!-- no translation found for no_files_for_add_to_safebox -->
+	<skip />
+	<!-- no translation found for finger_print_relation -->
+	<skip />
+	<!-- no translation found for duplicate_file_name_tip -->
+	<skip />
+	<!---->
+	<string name="searchview_hint">"Otsi faile"</string>
+	<!-- no translation found for safe_box_name_tip -->
+	<skip />
+	<!-- no translation found for toast_update_safe_box_name_sucess -->
+	<skip />
+	<!-- no translation found for toast_update_safe_box_name_fail -->
+	<skip />
+	<!-- no translation found for toast_safe_box_name_empty -->
+	<skip />
+	<!-- no translation found for cut_single_fail_tip -->
+	<skip />
+	<!-- no translation found for delete_single_fail_tip -->
+	<skip />
+	<!-- no translation found for copy_single_fail_tip -->
+	<skip />
+	<!-- no translation found for copy_multi_fail_tip -->
+	<skip />
+	<!-- no translation found for delete_multi_fail_tip -->
+	<skip />
+	<!-- no translation found for cut_multi_fail_tip -->
+	<skip />
+	<!-- no translation found for copy_all_fail_tip -->
+	<skip />
+	<!-- no translation found for delete_all_fail_tip -->
+	<skip />
+	<!-- no translation found for cut_all_fail_tip -->
+	<skip />
+	<!-- no translation found for past_multi_fail_tip -->
+	<skip />
+	<!-- no translation found for past_single_fail_tip -->
+	<skip />
+	<!-- no translation found for past_all_fail_tip -->
+	<skip />
+	<!-- no translation found for chip_encryption -->
+	<skip />
+	<!---->
+	<string name="safe_name_title">"Nimi"</string>
+	<!---->
+	<string name="update_name">"Uuendage nime"</string>
+	<!-- no translation found for fingerprint_relate -->
+	<skip />
+	<!-- no translation found for insufficient_message_cn -->
+	<skip />
+	<!-- no translation found for add_success -->
+	<skip />
+	<!---->
+	<string name="pasted_cn">"Fail kleebitud"</string>
+	<!-- no translation found for no_search_result_cn -->
+	<skip />
+	<!---->
+	<string name="detail_time_cn">"Muutmise aeg"</string>
+	<!-- no translation found for rename_limit -->
+	<skip />
+	<!-- no translation found for fingerprint_fail -->
+	<skip />
+	<!-- no translation found for answer_mistake -->
+	<skip />
+	<!-- no translation found for answer_empty_tip -->
+	<skip />
+	<!-- no translation found for new_safe -->
+	<skip />
+	<!-- no translation found for dialog_confirm -->
+	<skip />
+	<!-- no translation found for move_in_success -->
+	<skip />
+	<!-- no translation found for move_in_count -->
+	<skip />
+	<!-- no translation found for message_security_fingerprint_lockout -->
+	<skip />
+	<!-- no translation found for use_password_auth -->
+	<skip />
+	<!-- no translation found for storage_details -->
+	<skip />
+	<!---->
+	<string name="total_memory">"Kogumälu"</string>
+	<!-- no translation found for system -->
+	<skip />
+	<!-- no translation found for category_fragment_title -->
+	<skip />
+	<!-- no translation found for storage -->
+	<skip />
+	<!-- no translation found for choice -->
+	<skip />
+	<!-- no translation found for view_tag_key -->
+	<skip />
+	<!-- no translation found for view_tag_key2 -->
+	<skip />
+	<!-- no translation found for finish_percent -->
+	<skip />
+	<!---->
+	<string name="select_pic">"Valige pilt"</string>
+	<!---->
+	<string name="brackets_double">"(%1$s)"</string>
+	<!-- no translation found for selected_pick -->
+	<skip />
+	<!-- no translation found for most_selected -->
+	<skip />
+	<!-- no translation found for finish_ready -->
+	<skip />
+	<!-- no translation found for select_pic_data -->
+	<skip />
+	<!-- no translation found for delete_determine_selected -->
+	<skip />
+	<!-- no translation found for delete_document -->
+	<skip />
+	<!-- no translation found for delete_folder -->
+	<skip />
+	<!-- no translation found for delete_folder_and -->
+	<skip />
+	<!---->
+	<string name="deselect_all_item">"Tühista kõik valikud"</string>
+	<!-- no translation found for edit -->
+	<skip />
+	<!-- no translation found for storage_phone -->
+	<skip />
+	<!-- no translation found for storage_sdcard -->
+	<skip />
+	<!-- no translation found for storage_otg -->
+	<skip />
+	<!-- no translation found for storage_slash -->
+	<skip />
+	<!-- no translation found for welcome_security -->
+	<skip />
+	<!-- no translation found for welcome_security_info -->
+	<skip />
+	<!-- no translation found for welcome_convenient -->
+	<skip />
+	<!-- no translation found for welcome_convenient_info -->
+	<skip />
+	<!-- no translation found for welcome_depth -->
+	<skip />
+	<!-- no translation found for welcome_depth_info -->
+	<skip />
+	<!-- no translation found for welcome_add -->
+	<skip />
+	<!-- no translation found for welcome_add_info -->
+	<skip />
+	<!-- no translation found for welcome_dialog_title -->
+	<skip />
+	<!-- no translation found for welcome_dialog_info -->
+	<skip />
+	<!-- no translation found for welcome_dialog_verify_btn -->
+	<skip />
+	<!-- no translation found for welcome_dialog_verify_pwd -->
+	<skip />
+	<!-- no translation found for welcome_start_use -->
+	<skip />
+	<!-- no translation found for welcome_not_use -->
+	<skip />
+	<!---->
+	<string name="welcome_ok">"SALVESTATUD"</string>
+	<!-- no translation found for encrypt_files_success -->
+	<skip />
+	<!-- no translation found for delete_direct -->
+	<skip />
+	<!---->
+	<string name="delete_file">"Kas kustutada see fail?"</string>
+</resources>

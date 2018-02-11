@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <cn.tcl.filemanager.view.PathProgressLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/first_size_parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:percent_textColor="@color/progress_phone_percent_text_color"
+        app:path_name="@string/draw_left_phone_storage"
+        app:path_icon="@drawable/ic_phone" />
+</merge>

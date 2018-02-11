@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="FileManagerBaseTheme" parent="@com.mst:style/Theme.Mst.Material.Light">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:toolbarStyle">@style/ToolbarStyle</item>
+    </style>
+
+
+    <style name="ListViewStyle" parent="@android:style/Widget.Material.Light.ListView">
+        <item name="android:overScrollMode">always</item>
+    </style>
+
+    <style name="FileManagerRadioButton" parent="@android:style/Widget.CompoundButton.RadioButton">
+        <item name="android:button">@drawable/radiobutton</item>
+    </style>
+
+    <!-- Action bar overflow menu icon. -->
+    <style name="FileManagerActionBarOverflowQP" parent="@android:style/Widget.ActionButton.Overflow">
+        <!-- <item name="android:paddingStart">6dp</item> -->
+    </style>
+
+    <style name="FileManagerActionBarbutton" parent="@android:style/Widget.ActionButton.Overflow">
+        <item name="android:paddingEnd">0dp</item>
+        <item name="android:paddingStart">0dp</item>
+    </style>
+
+    <style name="FileManagerActionBarEditbutton" parent="@android:style/Widget.Material.ActionButton">
+        <!--
+        <item name="android:paddingStart">@dimen/action_bar_btn_padding_start</item>
+        <item name="android:paddingEnd">@dimen/action_bar_btn_padding_end</item>
+        -->
+    </style>
+
+    <style name="ContactsActionBarStyle" parent="@android:style/Widget.Material.ActionBar">
+        <item name="android:background">@color/action_bar_color</item>
+        <item name="android:titleTextStyle">@style/ContactsActionBarTitleText</item>
+        <item name="android:backgroundStacked">@color/action_bar_color</item>
+        <!-- Empty icon -->
+        <!-- <item name="android:icon">@android:color/transparent</item> -->
+    </style>
+
+    <style name="ContactsActionBarTitleText" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Title">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="filemanager_action_button" parent="@android:style/Widget.ActionButton">
+
+        <!-- <item name="android:paddingStart">0dp</item> -->
+        <item name="android:background">@color/action_bar_color</item>
+    </style>
+
+    <style name="FileManagerAlertDialogTheme" parent="@android:style/Theme.Material.Light.Dialog">
+        <item name="android:colorPrimary">@color/action_bar_color</item>
+        <item name="android:colorPrimaryDark">@color/filemanager_theme_color_dark</item>
+        <item name="android:colorAccent">@color/dialog_ok</item>
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="CustomCheckboxTheme" parent="@android:style/Widget.Material.Light.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/checkbox</item>
+    </style>
+
+    <style name="FileManagerTextView" parent="@android:style/Widget.TextView">
+        <item name="android:textCursorDrawable">@drawable/text_cursor_material</item>
+    </style>
+
+    <style name="FileManagerTheme" parent="@android:style/Theme.DeviceDefault.Light">
+        <item name="android:listViewStyle">@style/ListViewStyle</item>
+        <item name="android:actionModeBackground">@color/action_bar_color</item>
+        <item name="android:actionOverflowButtonStyle">@android:style/Widget.ActionButton.Overflow</item>
+        <item name="android:colorPrimary">@color/bg_color</item>
+        <item name="android:colorPrimaryDark">@color/bg_color</item>
+        <item name="android:textColorPrimary">@color/text_general_color</item>
+        <item name="android:colorAccent">@color/category_item_name_color</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:alertDialogTheme">@style/FileManagerAlertDialogTheme</item>
+        <item name="android:radioButtonStyle">@style/FileManagerRadioButton</item>
+        <item name="android:textSelectHandleLeft">@drawable/text_select_handle_left_mtrl_alpha
+        </item>
+        <item name="android:textSelectHandleRight">@drawable/text_select_handle_right_mtrl_alpha
+        </item>
+        <item name="android:textSelectHandle">@drawable/text_select_handle_middle_mtrl_alpha</item>
+        <item name="android:textCursorDrawable">@drawable/text_cursor_material_all</item>
+        <item name="android:actionBarStyle">@style/FileManager.ActionBar</item>
+        <item name="android:windowEnableSplitTouch">false</item>
+        <item name="android:splitMotionEvents">false</item>
+    </style>
+
+    <style name="FileManager.ActionBar" parent="@android:style/Widget.DeviceDefault.Light.ActionBar.Solid">
+        <item name="android:displayOptions">showTitle</item>
+    </style>
+
+</resources>

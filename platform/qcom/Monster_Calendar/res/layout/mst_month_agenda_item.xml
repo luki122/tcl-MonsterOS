@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="75dp"
+    android:paddingStart="20dp"
+    android:paddingEnd="15dp"
+    android:paddingBottom="19dp">
+
+    <TextView 
+        android:id="@+id/month_agenda_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:maxWidth="277dp"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:textColor="@color/agenda_item_title_text_color"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/month_agenda_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:textColor="@color/agenda_item_summary_text_color"
+        android:textSize="10sp" />
+
+    <ImageView
+        android:id="@+id/month_agenda_reminder"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="5dp"
+        android:background="?android:attr/selectableItemBackgroundBorderless"
+        android:scaleType="center" />
+
+</RelativeLayout>

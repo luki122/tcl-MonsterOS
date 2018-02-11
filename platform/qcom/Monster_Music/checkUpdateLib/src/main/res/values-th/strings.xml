@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    	<string name="tip_network_error">ข้อผิดพลาดของเครือข่าย</string>
+    	<string name="check_new">ตรวจสอบการอัปเดต</string>
+    	<string name="update_download_fail">ดาวน์โหลดล้มเหลว</string>
+    	<string name="update_ask_tip">คณจำเป็นต้องอัปเดตเป็นเวอร์ชันล่าสุด</string>
+    	<string name="update_no_need">นี่เป็นเวอร์ชันล่าสุด</string>
+    	<string name="downloaded_finish">ดาวน์โหลดเสร็จสมบูรณ์</string>
+    	<string name="notification_downloading">กำลังดาวน์โหลด</string>
+    	<string name="update_notification_tips">เพื่อการใช้งานที่ดีกว่า กรุณาอัปเดตเป็นเวอร์ชันล่าสุด</string>
+    	<string name="update_notification_title">การแจ้งเตือนอัพเดต</string>
+    	<string name="update">เดี๋ยวนี้</string>
+    	<string name="try_later">ภายหลัง</string>
+    	<string name="versionDesc">รายละเอียดเวอร์ชั่น</string>
+    	
+    	<string name="update_available">มีอัปเดตให้บริการแล้ว</string>
+    	<string name="downloading">กำลังดาวน์โหลด...</string>
+    	<string name="update_notify_tip">มีรุ่นใหม่ให้บริการแล้ว อัปเดตเลยไหม?</string>
+    	<string name="update_detail_prefix">รายละเอียดการอัปเดต</string>
+    	<string name="update_not_now">ยังไม่ต้อง</string>
+    	<string name="update_now">อัปเดต</string>
+    	<string name="network_error_tip">เครือข่ายเกิดข้อผิดพลาด โปรดตรวจสอบการเชื่อมต่อเครือข่ายของคุณแล้วลองอีกครั้ง</string>
+    	<string name="update_force_nofity_tip">แนะนำให้คุณอัปเดตแอปเป็นเวอร์ชั่นล่าสุด</string>
+    	<string name="update_no_updates">ไม่มีการอัปเดต</string>
+    	<string name="update_no_updates_tip">ไม่มีการอัปเดต</string>
+    	<string name="update_confirm">ตกลง</string>
+</resources>

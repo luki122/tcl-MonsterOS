@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">"Note"</string>
+    <string name="audio_record">"record"</string>
+    <string name="audio_get_app">"Add audio from Sound Record"</string>
+    <string name="dialog_cancel">"Cancel"</string>
+    <string name="dialog_del_audio_msg">"Delete the audio?"</string>
+    <string name="dialog_del_img_msg">"Delete the picture?"</string>
+    <string name="dialog_del_title">"Delete"</string>
+    <string name="dialog_ok">"OK"</string>
+    <string name="img_cut">"Cut"</string>
+    <string name="pic_get_album">"Album"</string>
+    <string name="pic_take_camera">"Camera"</string>
+    <string name="toast_audio_cannot_play">"Copying the recording file, please try again later."</string>
+    <string name="toast_audio_max">"Reached the limit of the number of recordings"</string>
+    <string name="toast_img_max">"Reached the limit of the number of picture"</string>
+    <string name="toast_no_space">"Storage space isn\'t enough to be added"</string>
+    <string name="toolbar_share">"Preview"</string>
+    <string name="toolbar_theme">"Theme"</string>
+    <string name="dialog_back_msg">"The record doesn\'t stop, and exit will stop recording and save all the content, quit now?"</string>
+    <string name="dialog_back_title">"Tips"</string>
+    <string name="dialog_battery_10">"Less than 10% of the battery, please stop recording to avoid the loss of the recording data."</string>
+    <string name="dialog_battery_5">"Less than 5% of battery, recording has stopped"</string>
+    <string name="dialog_i_know">"I know"</string>
+    <string name="dialog_ignore">"Ignore"</string>
+    <string name="dialog_space_100m">"Storage space is less than 100MB, please clean up in time to avoid the loss of recording data."</string>
+    <string name="dialog_space_50m_start">"Storage space is less than 50MB, and you can\'t start recording, please promptly clean up"</string>
+    <string name="dialog_space_50m_stop">"Storage space isn\'t enough, recording has stopped."</string>
+    <string name="dialog_space_clear">"Go to Clean"</string>
+    <string name="dialog_start_battery_10">"Power is low, and it\'s easy to cause loss of recording data, start recording?"</string>
+    <string name="dialog_start_battery_5">"Unable to start recording, please hold power above 5%"</string>
+    <string name="dialog_start_record">"Record"</string>
+    <string name="dialog_stop">"Stop"</string>
+    <string name="share_save_album">"Had saved to Note folder"</string>
+    <string name="notification_battery_low">"Low battery, please stop recording"</string>
+    <string name="notification_battery_low_stop">"Low power, recording has stopped"</string>
+    <string name="notification_pause_record">"The recording has been paused"</string>
+    <string name="notification_recording">"Recording..."</string>
+    <string name="notification_space_not_enough">"Storage space is insufficient, please clean up the space or stop recording"</string>
+    <string name="notification_space_not_enough_stop">"Storage space isn\'t enough, recording has stopped"</string>
+    <string name="share_save_album_fail">"Saving failed, please try again"</string>
+    <string name="share_tcl_flag">"From TCL\'s Note"</string>
+    <string name="toast_audio_bad_play">"The recording file is corrupt and can\'t be played."</string>
+    <string name="home_search">"Search"</string>
+    <string name="audio_lose">"Audio had lost"</string>
+    <string name="dialog_del_note_msg">"Delete the note?"</string>
+    <string name="home_all_selection">"Check all"</string>
+
+    <string name="home_no_data">"No note"</string>
+    <string name="search_no_data">"No search results"</string>
+    <string name="preset_note_first">"Slide left to delete this note"</string>
+    <string name="preset_note_second">"See the pictures and recording in a Note from the FileManager, or search the Note file from phone storage, or also go directly into the file to view."</string>
+    <string name="un_select_all">"uncheck all"</string>
+    <string name="dialog_return_title">"Warn"</string>
+    <string name="home_default_line_audio">"[%1$d audio]"</string>
+    <string name="home_default_line_img">"[%1$d pictures]"</string>
+    <string name="home_search_hint">"Please enter the search content"</string>
+    <string name="save_img_name">"ExportNote"</string>
+    <string name="share_wait">Please wait</string>
+
+    <string name="action_mode_title">Selected %d item</string>
+    <string name="Recording_error">Audio resources are playing to start recording</string>
+</resources>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.CategoryListActivity"
+    android:background="@color/colorPrimary">
+
+    <RelativeLayout
+        android:id="@+id/bg"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="#fcfcfc"
+        android:layout_height="242dp">
+
+        <ImageView
+            android:src="@drawable/caculate_bg"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="242dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:paddingTop="46dp"
+            android:orientation="horizontal"
+            android:background="@color/transparent">
+            <TextView
+                android:gravity="center"
+                android:text="@string/totally"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:fontFamily="monster-normal"
+                android:textColor="@color/common_text_color"
+                android:background="@color/transparent"
+                />
+
+
+            <TextView
+                android:id="@+id/first_text"
+                android:gravity="center"
+                android:text="0"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="80sp"
+                android:textColor="#db000000"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:fontFamily="monster-thin"
+                android:background="@color/transparent"/>
+
+            <TextView
+                android:id="@+id/size_unit"
+                android:gravity="center"
+                android:text="GB"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:fontFamily="monster-normal"
+                android:textColor="@color/common_text_color"
+                android:background="@color/transparent"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/secondary_text"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="34dp"
+            android:text="@string/calculate_size"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:textSize="12sp"
+            android:fontFamily="monster-normal"
+            android:textColor="#4c000000"
+            android:background="@color/transparent"/>
+
+    </RelativeLayout>
+
+
+    <Button
+        android:id="@+id/send"
+        android:text="@string/button_send"
+        style="@style/bottomBtnStyle"
+        />
+
+    <cn.tcl.transfer.activity.LockableScrollView
+        android:id="@+id/scroll"
+        android:layout_below="@id/bg"
+        android:layout_above="@id/send"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <include android:id="@+id/sys_view" layout="@layout/category_item"/>
+            <include android:id="@+id/app_view" layout="@layout/category_item"/>
+            <include android:id="@+id/image_view" layout="@layout/category_item"/>
+            <include android:id="@+id/video_view" layout="@layout/category_item"/>
+            <include android:id="@+id/audio_view" layout="@layout/category_item"/>
+            <include android:id="@+id/doc_view" layout="@layout/category_item"/>
+        </LinearLayout>
+
+    </cn.tcl.transfer.activity.LockableScrollView>
+
+</RelativeLayout>

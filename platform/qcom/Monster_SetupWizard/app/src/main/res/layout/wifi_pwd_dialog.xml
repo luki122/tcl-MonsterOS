@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/ssid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="monster-normal"
+        android:textColor="#DB000000"
+        android:textSize="17sp"/>
+
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp">
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:paddingEnd="30dp"
+            android:background="@com.mst:drawable/edit_text_material"
+            android:hint="@string/wifi_dialog_hint"
+            android:textColorHint="@color/password_hint_color"
+            android:fontFamily="monster-normal"
+            android:textSize="14sp"
+            android:inputType="textPassword"
+            android:singleLine="true"/>
+        <ImageView
+            android:id="@+id/displayOrHide_password"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:padding="5dp"
+            android:clickable="true"
+            android:src="@com.mst:drawable/ic_see"
+            android:tint="@color/password_hint_color"
+            android:layout_alignRight="@id/password"/>
+    </RelativeLayout>
+</LinearLayout>

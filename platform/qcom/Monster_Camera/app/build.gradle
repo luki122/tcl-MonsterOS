@@ -1,0 +1,40 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 24
+    buildToolsVersion "24.0.2"
+    defaultConfig {
+        applicationId 'com.tct.camera'
+        minSdkVersion 19
+        targetSdkVersion 24
+        versionCode Integer.valueOf("061611151")
+        versionName "v7.0.1.0608.0"
+
+        testApplicationId "com.android.camera.tests"
+        testInstrumentationRunner "com.tct.camera.InstrumentationTestRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+    productFlavors {
+    }
+    android {
+        lintOptions {
+            checkReleaseBuilds false
+            // Or, if you prefer, you can continue to check for errors in release builds,
+            // but continue the build even when errors are found:
+            abortOnError false
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:23.0.0'
+    compile 'com.android.support:design:23.0.0'
+    compile files('libs/glide-3.6.0.jar')
+    compile files('libs/framework_intermediates_classes.jar')
+    compile files('libs/xmpcore-5.1.2.jar')
+}

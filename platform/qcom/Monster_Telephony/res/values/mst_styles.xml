@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+
+    <style name="Theme.MstSetting" parent="@com.mst:style/Theme.Mst.Material.Light.WhiteActionBar">
+        <item name="android:toolbarStyle">@style/MyToolbarStyle</item>
+        <item name="android:windowBackground">@color/dtmf_dialer_display_text</item>
+    </style>
+
+    <style name="MyToolbarStyle" parent="com.mst:style/ToolbarStyle.ShowBottomDivider.Grey"></style>
+    
+    <style name="MstEmergencyDialerTheme" parent="@com.mst:style/Theme.Mst.Material.Light">
+    </style>
+    
+    <style name="Mst_Dialpad_Light">
+        <item name="dialpad_text_color">@color/dialpad_digits_text_color</item>
+        <item name="dialpad_text_color_primary">@color/dialpad_primary_text_color</item>
+        <item name="dialpad_text_color_secondary">@color/dialpad_secondary_text_color</item>
+        <item name="dialpad_icon_tint">@color/dialpad_icon_tint</item>
+        <item name="dialpad_voicemail_tint">@color/dialpad_voicemail_tint</item>
+        <item name="dialpad_background">@color/background_dialpad</item>
+    </style>
+
+</resources>

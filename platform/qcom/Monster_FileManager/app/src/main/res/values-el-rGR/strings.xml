@@ -1,0 +1,814 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="sort">"Ταξινόμ."</string>
+	<!---->
+	<string name="sort_by_name">"Όνομα"</string>
+	<!---->
+	<string name="sort_by_date">"Ημερομ. τροποπ."</string>
+	<!---->
+	<string name="sort_by_time">"Ημερομηνία"</string>
+	<!---->
+	<string name="sort_by_type">"Τύπος"</string>
+	<!---->
+	<string name="sort_by_size">"Μέγεθ."</string>
+	<!---->
+	<string name="copy">"Αντιγρ."</string>
+	<!---->
+	<string name="create_folder">"Δημ."</string>
+	<!---->
+	<string name="cut">"Αποκ."</string>
+	<!---->
+	<string name="delete">"Διαγρ."</string>
+	<!---->
+	<string name="delete_confirm">"Επιβεβαίωση διαγραφής"</string>
+	<!---->
+	<string name="deselect_all">"Αποεπιλογή όλων"</string>
+	<!---->
+	<string name="select_all">"Επιλογή όλων"</string>
+	<!---->
+	<string name="show_file">"Εμφάνιση κρυφών αρχείων"</string>
+	<!---->
+	<string name="hide_file">"Απόκρυψη κρυφών αρχείων"</string>
+	<!---->
+	<string name="paste">"Επικόλλ."</string>
+	<!---->
+	<string name="rename">"Μετον."</string>
+	<!---->
+	<string name="share">"Μοίρ."</string>
+	<!---->
+	<string name="viewby_list">"Προβολή ανά λίστα"</string>
+	<!---->
+	<string name="viewby_grid">"Προβολή κατά πλέγμα"</string>
+	<!---->
+	<string name="alert_delete_message">"Διαγραφή"</string>
+	<!---->
+	<string name="multi_alert_delete_message">"Να διαγραφούν τα επιλεγμένα στοιχεία;"</string>
+	<!---->
+	<string name="multi_alert_delete_message_cn">"Να διαγραφούν τα επιλεγμένα στοιχεία;"</string>
+	<!-- no translation found for delete_folder_message -->
+	<skip />
+	<!---->
+	<string name="category_pictures">"Εικόνες"</string>
+	<!---->
+	<string name="category_vedios">"Βίντεο"</string>
+	<!---->
+	<string name="category_music">"Μουσ."</string>
+	<!---->
+	<string name="category_download">"Λήψεις"</string>
+	<!---->
+	<string name="category_bluetooth">"Bluetooth"</string>
+	<!-- no translation found for app_name -->
+	<skip />
+	<!-- no translation found for theme_name -->
+	<skip />
+	<!---->
+	<string name="apk_name">"Αρχεία"</string>
+	<!---->
+	<string name="new_folder">"Εισαγωγή ονόματος φακέλου"</string>
+	<!---->
+	<string name="confirm_rename">"Επιβεβαίωση ονόματος"</string>
+	<!---->
+	<string name="warning">"Μέγιστος αριθμός αρχείων"</string>
+	<!---->
+	<string name="share_warning">"Δεν είναι δυνατή η κοινή χρήση περισσότερων από 100 αρχείων."</string>
+	<!---->
+	<string name="loading">"Φόρτωση..."</string>
+	<!---->
+	<string name="deleting">"Διαγραφή"</string>
+	<!---->
+	<string name="alert_delete_multiple">"Το επιλεγμένων αρχείων θα διαγραφεί."</string>
+	<!---->
+	<string name="name">"Όνομα"</string>
+	<!---->
+	<string name="size">"Μέγεθ."</string>
+	<!---->
+	<string name="modified_time">"Τροποποιήθ."</string>
+	<!---->
+	<string name="msg_rename_ext">"Η επέκταση αρχείου θα αλλάξει. Το αρχείο ενδέχεται να μην αναγνωρίζεται. Θέλετε να συνεχίσετε;"</string>
+	<!---->
+	<string name="wait">"Περιμένετε..."</string>
+	<!---->
+	<string name="done">"Τέλος"</string>
+	<!-- no translation found for enable -->
+	<skip />
+	<!-- no translation found for enable_cn -->
+	<skip />
+	<!---->
+	<string name="cancel">"Ακύρωση"</string>
+	<!---->
+	<string name="no">"Όχι"</string>
+	<!---->
+	<string name="ok">"OK"</string>
+	<!---->
+	<string name="yes">"Ναι"</string>
+	<!---->
+	<string name="details">"Λεπτομέρειες"</string>
+	<!---->
+	<string name="drawer_open">"Άνοιγμα"</string>
+	<!---->
+	<string name="unknown">"Άγνωστο"</string>
+	<!-- no translation found for unit_B -->
+	<skip />
+	<!-- no translation found for unit_KB -->
+	<skip />
+	<!-- no translation found for unit_MB -->
+	<skip />
+	<!-- no translation found for unit_GB -->
+	<skip />
+	<!-- no translation found for unit_TB -->
+	<skip />
+	<!---->
+	<string name="send_file">"Αποστολή αρχείου"</string>
+	<!---->
+	<string name="default_search_text">"Αναζήτηση αρχείων"</string>
+	<!---->
+	<string name="free_space">"Διαθέσιμος/η"</string>
+	<!---->
+	<string name="total_space">"Συνολικός χώρος"</string>
+	<!---->
+	<string name="drawer_category">"Κατηγορίες"</string>
+	<!---->
+	<string name="phone_storage">"Χώρος αποθήκευσης τηλεφώνου"</string>
+	<!---->
+	<string name="phone_storage_cn">"Χώρος αποθήκ. τηλεφών."</string>
+	<!---->
+	<string name="sd_card">"Καρ. SD"</string>
+	<!---->
+	<string name="draw_left_phone_storage">"Χώρος αποθήκ. τηλεφών."</string>
+	<!---->
+	<string name="draw_left_sd_card">"Κάρτα SD"</string>
+	<!-- no translation found for menu_settings -->
+	<skip />
+	<!---->
+	<string name="no_search_result">"0 αποτελέσματα για \"%1$s\""</string>
+	<!---->
+	<string name="copy_deny">"Δεν υπάρχει άδεια αντιγραφής"</string>
+	<!---->
+	<string name="cut_deny">"Δεν υπάρχει άδεια αποκοπής"</string>
+	<!---->
+	<string name="delete_deny">"Δεν υπάρχει άδεια διαγραφής"</string>
+	<!---->
+	<string name="insufficient_memory">"Ο χώρος δεν επαρκεί."</string>
+	<!---->
+	<string name="insufficient_message">"Δεν ήταν δυνατή η αντιγραφή ορισμένων αρχείων λόγω ανεπαρκούς χώρου"</string>
+	<!---->
+	<string name="invalid_empty_name">"Το όνομα αρχείου ή φακέλου δεν μπορεί να είναι κενό"</string>
+	<!---->
+	<string name="paste_same_folder">"Δεν ήταν δυνατή η αντιγραφή: οι φάκελοι προέλευσης και προορισμού είναι ίδιοι."</string>
+	<!---->
+	<string name="invalid_char_prompt">"Καταχωρήσατε μη έγκυρο χαρακτήρα"</string>
+	<!---->
+	<string name="msg_unable_open_file">"Η μορφή αρχείου δεν υποστηρίζεται."</string>
+	<!---->
+	<string name="paste_sub_folder">"Δεν είναι δυνατή η επικόλληση του αρχείου σε υποφάκελο"</string>
+	<!---->
+	<string name="operation_fail">"Απέτυχε κάποια λειτουργία αρχείου."</string>
+	<!---->
+	<string name="search_result">"%2$d αποτελέσματα για \"%1$s\""</string>
+	<!---->
+	<string name="already_exists">"Το στοιχείο %1$s χρησιμοποιείται ήδη"</string>
+	<!---->
+	<string name="unmounted">"Έγινε κατάργηση της προσάρτησης του στοιχείου %1$s"</string>
+	<!---->
+	<string name="create_hidden_file">"Θα γίνεται απόκρυψη των αρχείων αν το όνομά τους ξεκινά με \'.\'"</string>
+	<!---->
+	<string name="file_name_too_long">"Το όνομα εισόδου είναι υπερβολικά μεγάλο"</string>
+	<!---->
+	<string name="some_paste_fail">"Οι λειτουργίες επικόλλησης απέτυχαν"</string>
+	<!---->
+	<string name="delete_fail">"Δεν ήταν δυνατή η διαγραφή"</string>
+	<!---->
+	<string name="some_delete_fail">"Απέτυχαν κάποιες λειτουργίες διαγραφής."</string>
+	<!---->
+	<string name="msg_unable_open_file_in_app">"Δεν υπάρχει εφαρμογή για άνοιγμα του αρχείου."</string>
+	<!---->
+	<string name="drm_forwardforbidden_title">"Χωρίς προώθηση"</string>
+	<!---->
+	<string name="drm_forwardforbidden_message">"Δεν είναι δυνατή η προώθηση από το αρχείο DRM."</string>
+	<!---->
+	<string name="drm_no_valid_right">"Το αρχείο δεν έχει δεν έχει έγκυρη αρχή έκδοσης DRM!"</string>
+	<!---->
+	<string name="drm_current_count">"Τρέχουσα μέτρησηTrenutni seštevek："</string>
+	<!---->
+	<string name="unlimited_usage">"Απεριόριστη χρήση"</string>
+	<!---->
+	<string name="drm_current_right">"Τρέχων περιορ.:"</string>
+	<!---->
+	<string name="not_available">"Μη διαθέσιμο"</string>
+	<!---->
+	<string name="right_url">"URL εκδότη αδειών:URL izdajatelja licenc:："</string>
+	<!---->
+	<string name="use_times">"Χρήση %s φορές"</string>
+	<!---->
+	<string name="valid_after">"Έγκυρο μετά από"</string>
+	<!---->
+	<string name="valid_until">"Έγκυρο έως"</string>
+	<!---->
+	<string name="drm_wifidisplay_title">"Τα αρχεία προστατεύονται από αντιγραφή"</string>
+	<!---->
+	<string name="drm_wifidisplay_message">"Δεν είναι δυνατή η διανομή ενός αρχείου που προστατεύεται από αντιγραφή."</string>
+	<!---->
+	<string name="drm_wifidisplay_cancel_btn">"Απενεργοποίηση Wi-Fi Display"</string>
+	<!---->
+	<string name="drm_wifidisplay_ok">"OK"</string>
+	<!---->
+	<string name="tv_link_close_toast">"Η Οθόνη Wi-Fi έκλεισε"</string>
+	<!---->
+	<string name="usbotg">"Εξωτερικη συσκευη αποθηκευσης USB"</string>
+	<!---->
+	<string name="show">"Εμφάνιση αρχείων συστήματος"</string>
+	<!---->
+	<string name="hide">"Απόκρυψη αρχείων συστήματος"</string>
+	<!---->
+	<string name="action_menu_create_folder_button">"Δημιουργία φακέλου"</string>
+	<!---->
+	<string name="searchResult">"Αποτέλεσμα αναζήτησης"</string>
+	<!---->
+	<string name="default_folder_name">"Όνομα φακέλου"</string>
+	<!---->
+	<string name="drm_protection_status">"Κατάσταση προστασίας:"</string>
+	<!---->
+	<string name="drm_can_forward">"Μπορεί να προωθηθεί."</string>
+	<!---->
+	<string name="drm_can_not_forward">"Δεν μπορεί να προωθηθεί."</string>
+	<!---->
+	<string name="drm_no_license">"Δεν υπάρχει διαθέσιμη άδεια χρήσης DRM."</string>
+	<!---->
+	<string name="drm_interval">"Σε ισχύ για %s μετά την πρώτη χρήση"</string>
+	<!---->
+	<string name="drm_begin">"Έναρξη:"</string>
+	<!---->
+	<string name="drm_no_limitation">"Δεν υπάρχουν περιορισμοί."</string>
+	<!---->
+	<string name="drm_end">"Λήξη:"</string>
+	<!---->
+	<string name="drm_use_left">"Υπολείπεται:"</string>
+	<!---->
+	<string name="drm_no_crop">"Δεν επιτρέπεται η περικοπή του αρχείου "%s" διότι διαθέτει προστασία DRM."</string>
+	<!---->
+	<string name="file_copy">"Αντιγράφηκε το αρχείο"</string>
+	<!---->
+	<string name="choice_file">"Επιλογή προορισμού"</string>
+	<!---->
+	<string name="alert_delete_single">"Το επιλεγμένο αρχείο θα διαγραφεί."</string>
+	<!---->
+	<string name="pasting">"Γίνεται επικόλληση"</string>
+	<!---->
+	<string name="readable">"Αναγνώσιμο:"</string>
+	<!---->
+	<string name="executable">"Εκτελέσιμο:"</string>
+	<!---->
+	<string name="writable">"Εγγράψιμο:"</string>
+	<!---->
+	<string name="add_favorite">"Προσθήκη στον φάκελο αγαπημένων"</string>
+	<!---->
+	<string name="del_favorite">"Διαγραφή από τον φάκελο αγαπημένων"</string>
+	<!---->
+	<string name="favourite">"Προσθήκη στα Αγαπ."</string>
+	<!---->
+	<string name="viewby_details">"Προβολή κατά λεπτομέρειες"</string>
+	<!---->
+	<string name="view_by">"Προβ."</string>
+	<!---->
+	<string name="show_hide">"Εμφ./απόκρ."</string>
+	<!---->
+	<string name="sort_by">"Ταξ. με"</string>
+	<!---->
+	<string name="more">"Περισ."</string>
+	<!-- no translation found for used -->
+	<skip />
+	<!---->
+	<string name="category_archives">"Αρχεία"</string>
+	<!---->
+	<string name="category_favorite">"Αγαπημένα"</string>
+	<!---->
+	<string name="category_ringtones">"Ήχοι κλήσης"</string>
+	<!---->
+	<string name="category_recordings">"Ηχογραφήσεις"</string>
+	<!---->
+	<string name="category_safebox">"Safebox"</string>
+	<!---->
+	<string name="category_apks">"APK"</string>
+	<!---->
+	<string name="search">"Αναζήτ."</string>
+	<!---->
+	<string name="sort_type">"Ταξινόμηση κατά τύπο"</string>
+	<!---->
+	<string name="sort_name">"Ταξινόμηση κατά όνομα (A-Z)"</string>
+	<!---->
+	<string name="sort_size">"Ταξινόμηση κατά μέγεθος (μεγάλα-μικρά)"</string>
+	<!---->
+	<string name="sort_time">"Ταξινόμηση κατά ώρα (νέα-παλιά)"</string>
+	<!---->
+	<string name="selected">"επιλεγμένο"</string>
+	<!---->
+	<string name="save">"Αποθήκ."</string>
+	<!---->
+	<string name="category_docs">"Έγγρ."</string>
+	<!---->
+	<string name="category_files">"Αρχεία"</string>
+	<!---->
+	<string name="view_as_grid">"Προβ. ως πλ."</string>
+	<!---->
+	<string name="view_as_list">"προβ ως λίσ."</string>
+	<!---->
+	<string name="detail_path">"Τοποθεσία:"</string>
+	<!---->
+	<string name="detail_name">"Όνομα:"</string>
+	<!---->
+	<string name="detail_size">"Μέγεθ.:"</string>
+	<!---->
+	<string name="detail_time">"Τελευταία τροποπ.:"</string>
+	<!---->
+	<string name="empty_msg">"(Κενός φάκελος)"</string>
+	<!---->
+	<string name="search_files">"Αναζήτηση αρχείων"</string>
+	<!-- no translation found for search_result_count -->
+	<skip />
+	<!---->
+	<string name="drawer_settings">"Ρυθμίσεις"</string>
+	<!---->
+	<string name="search_text_empty">"Τα περιεχόμενα αναζήτησης δεν πρέπει να είναι κενά."</string>
+	<!---->
+	<string name="search_result_title">"Αποτελέσματα αναζήτησης"</string>
+	<!---->
+	<string name="path_not_exists">"Το στοιχείο %1$s δεν υπάρχει"</string>
+	<!---->
+	<string name="modify_hidden_file">"Το αρχείο δεν θα είναι κρυφό εάν το όνομά του δεν αρχίζει από \'.\'"</string>
+	<!---->
+	<string name="paste_fail">"Δεν ήταν δυνατή η επικόλληση"</string>
+	<!---->
+	<string name="search_empty">"Τα περιεχόμενα αναζήτησης δεν πρέπει να είναι κενά."</string>
+	<!---->
+	<string name="search_setting_description">"Τοπικά αρχεία και φάκελοι"</string>
+	<!---->
+	<string name="change_mode">"Επιλογή αρχείου ή φακέλου"</string>
+	<!-- no translation found for drm_protectioninfo_title -->
+	<skip />
+	<!---->
+	<string name="draw_favourite">"αγαπημένο"</string>
+	<!---->
+	<string name="unfavourite">"Κατάργηση από τα Αγαπημένα"</string>
+	<!---->
+	<string name="drm_toast_license_expired">"Η άδεια χρήσης DRM έχει λήξει."</string>
+	<!-- no translation found for sdstroge -->
+	<skip />
+	<!-- no translation found for phonestorage -->
+	<skip />
+	<!-- no translation found for title_activity_main -->
+	<skip />
+	<!-- no translation found for hello_world -->
+	<skip />
+	<!-- no translation found for action_settings -->
+	<skip />
+	<!-- no translation found for unlock_video -->
+	<skip />
+	<!---->
+	<string name="readable_m">"Αναγνώσιμο"</string>
+	<!---->
+	<string name="executable_m">"Εφαρμογή"</string>
+	<!---->
+	<string name="writable_m">"Εγγράψιμο"</string>
+	<!---->
+	<string name="main_recents">"Πρόσφατα στοιχεία"</string>
+	<!-- no translation found for main_recents_cn -->
+	<skip />
+	<!---->
+	<string name="main_installers">"Προγράμματα εγκατάστασης"</string>
+	<!---->
+	<string name="main_document">"Έγγραφα"</string>
+	<!---->
+	<string name="detail_path_m">"Τοποθεσία"</string>
+	<!-- no translation found for detail_path_m_cn -->
+	<skip />
+	<!---->
+	<string name="detail_name_m">"Όνομα"</string>
+	<!---->
+	<string name="detail_size_m">"Μέγεθος"</string>
+	<!---->
+	<string name="detail_time_m">"Τελευταία τροποποίηση"</string>
+	<!---->
+	<string name="main_photo">"Φωτογραφίες"</string>
+	<!---->
+	<string name="main_sd_storage">"Χώρος αποθήκευσης SD"</string>
+	<!---->
+	<string name="main_external_storage">"Εξωτερικός χώρος αποθήκευσης"</string>
+	<!---->
+	<string name="main_home">"Αρχική οθόνη"</string>
+	<!-- no translation found for main_home_cn -->
+	<skip />
+	<!---->
+	<string name="main_nava_home">"Αρχική οθόνη"</string>
+	<!---->
+	<string name="menu_select">"Επιλογή"</string>
+	<!-- no translation found for go_up -->
+	<skip />
+	<!---->
+	<string name="no_folder">"Αυτός ο φάκελος είναι κενός"</string>
+	<!---->
+	<string name="no_category">"Αυτή η κατηγορία είναι κενή."</string>
+	<!-- no translation found for no_folder_cn -->
+	<skip />
+	<!-- no translation found for no_category_cn -->
+	<skip />
+	<!---->
+	<string name="pasted">"Το αρχείο επικολλήθηκε"</string>
+	<!---->
+	<string name="deleted">"Το αρχείο διαγράφηκε"</string>
+	<!---->
+	<string name="deleted_cn">"Το αρχείο διαγράφηκε"</string>
+	<!---->
+	<string name="view_list">"Προβολή λίστας"</string>
+	<!---->
+	<string name="view_grid">"Προβολή πλέγματος"</string>
+	<!---->
+	<string name="create_new_folder">"Δημιουργία φακέλου"</string>
+	<!-- no translation found for add_folder -->
+	<skip />
+	<!---->
+	<string name="detail">"Λεπτομέρειες"</string>
+	<!-- no translation found for menu_detail -->
+	<skip />
+	<!---->
+	<string name="migrate">"Μετεγκατάσταση"</string>
+	<!---->
+	<string name="permission_welcome_title">"Απαιτείται άδεια"</string>
+	<!---->
+	<string name="permission_msg">"Καλύτερη υπηρεσία για εσάς"</string>
+	<!---->
+	<string name="permission_setting_title">"Εκχώρηση πρόσβασης"</string>
+	<!---->
+	<string name="permission_setting_content">"Αλλάξτε τα δικαιώματα στις ρυθμίσεις εφαρμογής της συσκευής σας. Εκχωρήστε στη Διαχείριση αρχείων πρόσβαση στο χώρο αποθήκευσης."</string>
+	<!---->
+	<string name="permission_exit_btn">"Έξοδος"</string>
+	<!---->
+	<string name="dialog_close_btn">"Κλείσιμο"</string>
+	<!-- no translation found for dialog_close_btn_cn -->
+	<skip />
+	<!---->
+	<string name="shortcut_item">"Προσθήκη συντόμευσης"</string>
+	<!-- no translation found for shortcut_item_cn -->
+	<skip />
+	<!---->
+	<string name="shortcut_no_exist">"Ο ζητούμενος φάκελος δεν υπάρχει"</string>
+	<!-- no translation found for shortcut_success -->
+	<skip />
+	<!---->
+	<string name="no_search_result_m">"Δεν βρέθηκαν αποτελέσματα για \"%1$s\""</string>
+	<!---->
+	<string name="draw_left_phone_storage_m">"Τηλέφωνο"</string>
+	<!---->
+	<string name="category_audio">"Ήχος"</string>
+	<!---->
+	<string name="usbotg_m">"Εξωτερικός"</string>
+	<!-- no translation found for sd_m -->
+	<skip />
+	<!---->
+	<string name="freeof_m">"Ελεύθερη"</string>
+	<!---->
+	<string name="permission_settings">"Ρυθμίσεις"</string>
+	<!---->
+	<string name="safe_first_dialog_title">"Κατηγορία safe box"</string>
+	<!---->
+	<string name="safe_first_dialog_content">"Τα αρχεία που μεταφέρθηκαν σε αυτήν την κατηγορία απαιτούν έλεγχο ταυτότητας μέσω κωδικού πρόσβασης. Προσθέστε αρχεία σε αυτήν την κατηγορία, επιλέγοντας "Μεταφορά στο safe box" από το μενού αρχείων."</string>
+	<!-- no translation found for safe_first_dialog_content_cn -->
+	<skip />
+	<!---->
+	<string name="safe_storage_local">"Τοπικός χώρος αποθήκευσης"</string>
+	<!---->
+	<string name="set_password_pass">"Κωδικός πρόσβασης"</string>
+	<!---->
+	<string name="set_password_first">"Ορίστε τον κωδικό πρόσβασης: 4-12 ψηφία"</string>
+	<!-- no translation found for input_new_password_hint -->
+	<skip />
+	<!---->
+	<string name="set_password_again">"Επιβεβαίωση κωδικού πρόσβασης"</string>
+	<!---->
+	<string name="set_password_show">"Εμφάνιση κωδικού πρόσβασης"</string>
+	<!---->
+	<string name="set_password_safe_question">"Ζητήματα ασφάλειας"</string>
+	<!---->
+	<string name="set_password_safe_question_answer">"Απάντηση"</string>
+	<!---->
+	<string name="set_password_safe_forget_pass">"Να θυμάστε τις απαντήσεις των ζητημάτων ασφάλειας. Εάν ξεχάσετε τον κωδικό πρόσβασης, μπορείτε να τον επαναφέρετε απαντώντας στα ζητήματα ασφάλειας."</string>
+	<!---->
+	<string name="choose_safe">"Επιλογή safe box"</string>
+	<!-- no translation found for choose_safe_cn -->
+	<skip />
+	<!---->
+	<string name="create_safe">"Δημιουργία safe box"</string>
+	<!---->
+	<string name="create_safe_to">"Δημιουργία safe box σε"</string>
+	<!-- no translation found for create_safe_to_cn -->
+	<skip />
+	<!---->
+	<string name="set_password">"Ορισμός κωδικού πρόσβασης"</string>
+	<!-- no translation found for add_file_safe -->
+	<skip />
+	<!---->
+	<string name="safe_set">"Ρυθμίσεις"</string>
+	<!---->
+	<string name="safe_set_title">"Ρυθμίσεις του safe box"</string>
+	<!-- no translation found for safe_set_title_cn -->
+	<skip />
+	<!---->
+	<string name="update_password">"Ενημέρωση κωδικού πρόσβασης"</string>
+	<!---->
+	<string name="modify_password">"Τροποποίηση κωδικού πρόσβασης"</string>
+	<!---->
+	<string name="security_question">"Ενημέρωση ζητήματος ασφάλειας"</string>
+	<!-- no translation found for modify_security_question -->
+	<skip />
+	<!---->
+	<string name="safe_set_change_safe">"Αλλαγή του safe box"</string>
+	<!---->
+	<string name="safe_set_location_safe">"Θέση του safe box"</string>
+	<!-- no translation found for safe_set_location_safe_cn -->
+	<skip />
+	<!---->
+	<string name="update_password_original">"Καταχωρίστε τον αρχικό κωδικό πρόσβασης"</string>
+	<!---->
+	<string name="update_password_original_cn">"Καταχωρίστε τον αρχικό κωδικό πρόσβασης"</string>
+	<!---->
+	<string name="destory_safe">"Καταστροφή του safe box"</string>
+	<!-- no translation found for destory_safe_cn -->
+	<skip />
+	<!-- no translation found for destory -->
+	<skip />
+	<!---->
+	<string name="use_password">"Χρήση κωδικού πρόσβασης"</string>
+	<!---->
+	<string name="input_password">"Καταχώρηση κωδικού πρόσβασης"</string>
+	<!---->
+	<string name="forget_password">"Ξέχασα τον κωδικό πρόσβασης"</string>
+	<!-- no translation found for others -->
+	<skip />
+	<!---->
+	<string name="password_empty">"Ο κωδικός πρόσβασης δεν μπορεί να είναι κενός."</string>
+	<!---->
+	<string name="password_consistent">"Οι κωδικοί πρόσβασης δεν συμφωνούν."</string>
+	<!---->
+	<string name="password_length_error">"Σφάλμα μήκους κωδικού πρόσβασης"</string>
+	<!---->
+	<string name="answer_empty">"Η απάντηση δεν μπορεί να είναι κενή."</string>
+	<!-- no translation found for safe_box_name_empty -->
+	<skip />
+	<!---->
+	<string name="update_success">"Η ενημέρωση ολοκληρώθηκε με επιτυχία."</string>
+	<!---->
+	<string name="update_fail">"Η ενημέρωση απέτυχε"</string>
+	<!---->
+	<string name="password_mistake">"Ο κωδικός πρόσβασης δεν είναι σωστός. Καταχωρίστε τον ξανά."</string>
+	<!---->
+	<string name="move_safe">"Μεταφορά στο safe box"</string>
+	<!---->
+	<string name="fingerprint_check">"Υπάρχουν συνδεδεμένα δαχτυλικά αποτυπώματα. Χρησιμοποιήστε τον αισθητήρα δαχτυλικών αποτυπωμάτων για επαλήθευση."</string>
+	<!---->
+	<string name="in_use">"Σε χρήση"</string>
+	<!---->
+	<string name="created">"Δημιουργήθηκε"</string>
+	<!---->
+	<string name="choose_files">"Επιλογή αρχείων"</string>
+	<!---->
+	<string name="move_out">"Μετακίνηση εκτός"</string>
+	<!---->
+	<string name="remove_to">"Μετακίνηση σε"</string>
+	<!---->
+	<string name="default_location">"Προεπιλεγμένη τοποθεσία"</string>
+	<!---->
+	<string name="specified_location">"Καθορισμένη τοποθεσία"</string>
+	<!-- no translation found for open_dir -->
+	<skip />
+	<!-- no translation found for default_location_cn -->
+	<skip />
+	<!-- no translation found for specified_location_cn -->
+	<skip />
+	<!-- no translation found for specified_location_content_cn -->
+	<skip />
+	<!-- no translation found for category_safe -->
+	<skip />
+	<!-- no translation found for category_safe_cn -->
+	<skip />
+	<!---->
+	<string name="add_safe_size_limited">"Δεν είναι δυνατή η προσθήκη αρχείων που υπερβαίνουν τα 2,0 GB"</string>
+	<!-- no translation found for add_safe_drm_limited -->
+	<skip />
+	<!---->
+	<string name="fingerprint_relative_dialog">"Να συσχετιστεί το safe box με το δαχτυλικό αποτύπωμα;"</string>
+	<!-- no translation found for fingerprint_relative_dialog_cn -->
+	<skip />
+	<!-- no translation found for fingerprint_relative_dialog_ok -->
+	<skip />
+	<!-- no translation found for fingerprint_relative_dialog_ok_cn -->
+	<skip />
+	<!---->
+	<string name="fingerprint_relative_dialog_cancel">"Αργότερα"</string>
+	<!-- no translation found for fingerprint_relative_dialog_cancel_cn -->
+	<skip />
+	<!---->
+	<string name="safe_location_current">"Θέση του safe box:"</string>
+	<!-- no translation found for safe_location_current_cn -->
+	<skip />
+	<!---->
+	<string name="safe_location_content">"Μην τροποποιείτε τον φάκελο αρχείων για να αποφύγετε τυχόν καταστροφή των κρυπτογραφημένων δεδομένων"</string>
+	<!-- no translation found for safe_location_content_cn -->
+	<skip />
+	<!---->
+	<string name="destory_safe_dialog_message">"Τα αρχεία στο safe box και ο κωδικός πρόσβασης θα διαγραφούν. Καταστροφή τώρα;"</string>
+	<!---->
+	<string name="destory_safe_dialog_checkbox">"Να καταργηθεί ταυτόχρονα το αρχείο;"</string>
+	<!-- no translation found for destory_safe_dialog_checkbox_cn -->
+	<skip />
+	<!---->
+	<string name="open_safe_dialog">"Ενεργοποίηση του safe box"</string>
+	<!-- no translation found for open_safe_dialog_cn -->
+	<skip />
+	<!---->
+	<string name="open_safe_dialog_message">"Με την ενεργοποίηση του safe box τα αρχεία θα μεταφερθούν στο safe box. Ενεργοποίηση τώρα;"</string>
+	<!-- no translation found for open_safe_dialog_message_cn -->
+	<skip />
+	<!---->
+	<string name="open_safe_dialog_ok">"Άμεσο άνοιγμα"</string>
+	<!---->
+	<string name="category_private_string">"Safe box"</string>
+	<!---->
+	<string name="opening">"Άνοιγμα"</string>
+	<!-- no translation found for space_clear -->
+	<skip />
+	<!-- no translation found for unselected -->
+	<skip />
+	<!-- no translation found for select -->
+	<skip />
+	<!-- no translation found for finish -->
+	<skip />
+	<!---->
+	<string name="senior_title">"Παλαιότερο"</string>
+	<!-- no translation found for no_files_for_add_to_safebox -->
+	<skip />
+	<!-- no translation found for finger_print_relation -->
+	<skip />
+	<!-- no translation found for duplicate_file_name_tip -->
+	<skip />
+	<!---->
+	<string name="searchview_hint">"Αναζήτηση αρχείων"</string>
+	<!-- no translation found for safe_box_name_tip -->
+	<skip />
+	<!-- no translation found for toast_update_safe_box_name_sucess -->
+	<skip />
+	<!-- no translation found for toast_update_safe_box_name_fail -->
+	<skip />
+	<!-- no translation found for toast_safe_box_name_empty -->
+	<skip />
+	<!-- no translation found for cut_single_fail_tip -->
+	<skip />
+	<!-- no translation found for delete_single_fail_tip -->
+	<skip />
+	<!-- no translation found for copy_single_fail_tip -->
+	<skip />
+	<!-- no translation found for copy_multi_fail_tip -->
+	<skip />
+	<!-- no translation found for delete_multi_fail_tip -->
+	<skip />
+	<!-- no translation found for cut_multi_fail_tip -->
+	<skip />
+	<!-- no translation found for copy_all_fail_tip -->
+	<skip />
+	<!-- no translation found for delete_all_fail_tip -->
+	<skip />
+	<!-- no translation found for cut_all_fail_tip -->
+	<skip />
+	<!-- no translation found for past_multi_fail_tip -->
+	<skip />
+	<!-- no translation found for past_single_fail_tip -->
+	<skip />
+	<!-- no translation found for past_all_fail_tip -->
+	<skip />
+	<!-- no translation found for chip_encryption -->
+	<skip />
+	<!---->
+	<string name="safe_name_title">"Όνομα"</string>
+	<!---->
+	<string name="update_name">"Ενημέρωση ονόματος"</string>
+	<!-- no translation found for fingerprint_relate -->
+	<skip />
+	<!-- no translation found for insufficient_message_cn -->
+	<skip />
+	<!-- no translation found for add_success -->
+	<skip />
+	<!---->
+	<string name="pasted_cn">"Το αρχείο επικολλήθηκε"</string>
+	<!-- no translation found for no_search_result_cn -->
+	<skip />
+	<!---->
+	<string name="detail_time_cn">"Ώρα τροποποίησης"</string>
+	<!-- no translation found for rename_limit -->
+	<skip />
+	<!-- no translation found for fingerprint_fail -->
+	<skip />
+	<!-- no translation found for answer_mistake -->
+	<skip />
+	<!-- no translation found for answer_empty_tip -->
+	<skip />
+	<!-- no translation found for new_safe -->
+	<skip />
+	<!-- no translation found for dialog_confirm -->
+	<skip />
+	<!-- no translation found for move_in_success -->
+	<skip />
+	<!-- no translation found for move_in_count -->
+	<skip />
+	<!-- no translation found for message_security_fingerprint_lockout -->
+	<skip />
+	<!-- no translation found for use_password_auth -->
+	<skip />
+	<!-- no translation found for storage_details -->
+	<skip />
+	<!---->
+	<string name="total_memory">"Συνολική μνήμη"</string>
+	<!-- no translation found for system -->
+	<skip />
+	<!-- no translation found for category_fragment_title -->
+	<skip />
+	<!-- no translation found for storage -->
+	<skip />
+	<!-- no translation found for choice -->
+	<skip />
+	<!-- no translation found for view_tag_key -->
+	<skip />
+	<!-- no translation found for view_tag_key2 -->
+	<skip />
+	<!-- no translation found for finish_percent -->
+	<skip />
+	<!---->
+	<string name="select_pic">"Επιλογή εικόνας"</string>
+	<!---->
+	<string name="brackets_double">"(%1$s)"</string>
+	<!-- no translation found for selected_pick -->
+	<skip />
+	<!-- no translation found for most_selected -->
+	<skip />
+	<!-- no translation found for finish_ready -->
+	<skip />
+	<!-- no translation found for select_pic_data -->
+	<skip />
+	<!-- no translation found for delete_determine_selected -->
+	<skip />
+	<!-- no translation found for delete_document -->
+	<skip />
+	<!-- no translation found for delete_folder -->
+	<skip />
+	<!-- no translation found for delete_folder_and -->
+	<skip />
+	<!---->
+	<string name="deselect_all_item">"Αποεπιλογή όλων"</string>
+	<!-- no translation found for edit -->
+	<skip />
+	<!-- no translation found for storage_phone -->
+	<skip />
+	<!-- no translation found for storage_sdcard -->
+	<skip />
+	<!-- no translation found for storage_otg -->
+	<skip />
+	<!-- no translation found for storage_slash -->
+	<skip />
+	<!-- no translation found for welcome_security -->
+	<skip />
+	<!-- no translation found for welcome_security_info -->
+	<skip />
+	<!-- no translation found for welcome_convenient -->
+	<skip />
+	<!-- no translation found for welcome_convenient_info -->
+	<skip />
+	<!-- no translation found for welcome_depth -->
+	<skip />
+	<!-- no translation found for welcome_depth_info -->
+	<skip />
+	<!-- no translation found for welcome_add -->
+	<skip />
+	<!-- no translation found for welcome_add_info -->
+	<skip />
+	<!-- no translation found for welcome_dialog_title -->
+	<skip />
+	<!-- no translation found for welcome_dialog_info -->
+	<skip />
+	<!-- no translation found for welcome_dialog_verify_btn -->
+	<skip />
+	<!-- no translation found for welcome_dialog_verify_pwd -->
+	<skip />
+	<!-- no translation found for welcome_start_use -->
+	<skip />
+	<!-- no translation found for welcome_not_use -->
+	<skip />
+	<!---->
+	<string name="welcome_ok">"ΕΓΙΝΕ"</string>
+	<!-- no translation found for encrypt_files_success -->
+	<skip />
+	<!-- no translation found for delete_direct -->
+	<skip />
+	<!---->
+	<string name="delete_file">"Να διαγραφεί αυτό το αρχείο;"</string>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:swipe="http://schemas.android.com/apk/res-auto"
+            xmlns:mst="http://schemas.android.com/apk/res/com.mst"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center" >
+
+    <mst.view.menu.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:maxHeight="50dp"
+        android:visibility="gone"
+        mst:menu="@menu/list_menu_add" />
+
+    <mst.widget.MstListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottom_navigation_view"
+        android:layout_alignParentTop="true"
+        android:drawSelectorOnTop="false"
+        android:fadingEdgeLength="16dip"
+        android:fastScrollEnabled="true"
+        android:scrollbars="vertical"
+        android:divider="@null" />
+
+    <include layout="@layout/empty_calllog_view_layout"/>
+    <!-- <TextView
+        android:id="@+id/calllog_empty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="@string/no_calllog"
+        android:textColor="#ffe6e6e6"
+        android:textSize="24sp"
+        android:visibility="gone" /> -->
+
+</RelativeLayout>

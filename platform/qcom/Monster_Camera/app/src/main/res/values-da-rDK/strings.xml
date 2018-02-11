@@ -1,0 +1,1068 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"Kamera"</string>
+	<!---->
+	<string name="gallery_app_name">"Galleri"</string>
+	<!---->
+	<string name="video_camera_label">"Videokamera"</string>
+	<!-- no translation found for details_ms -->
+	<skip />
+	<!-- no translation found for details_hms -->
+	<skip />
+	<!---->
+	<string name="set_image">"Angiv billede som"</string>
+	<!---->
+	<string name="delete">"Slet"</string>
+	<!---->
+	<string name="share">"Del"</string>
+	<!---->
+	<string name="share_panorama">"Del panorama"</string>
+	<!---->
+	<string name="share_as_photo">"Del som billede"</string>
+	<!---->
+	<string name="deleted">"Slettet"</string>
+	<!---->
+	<string name="undo">"Fortryd"</string>
+	<!---->
+	<string name="details">"Detaljer"</string>
+	<!---->
+	<string name="close">"Luk"</string>
+	<!---->
+	<string name="show_on_map">"Vis på kort"</string>
+	<!---->
+	<string name="rotate_left">"Roter til venstre"</string>
+	<!---->
+	<string name="rotate_right">"Roter til højre"</string>
+	<!---->
+	<string name="edit">"Rediger"</string>
+	<!---->
+	<string name="crop_action">"Beskær"</string>
+	<!---->
+	<string name="trim_action">"Beskær"</string>
+	<!---->
+	<string name="set_as">"Indstil som"</string>
+	<!---->
+	<string name="video_err">"Kan ikke afspille video"</string>
+	<!---->
+	<string name="title">"Titel"</string>
+	<!-- no translation found for description -->
+	<skip />
+	<!---->
+	<string name="time">"Tid"</string>
+	<!---->
+	<string name="location">"Placering"</string>
+	<!---->
+	<string name="path">"Sti:"</string>
+	<!---->
+	<string name="width">"Bredde"</string>
+	<!---->
+	<string name="height">"Højde"</string>
+	<!---->
+	<string name="orientation">"Retning"</string>
+	<!---->
+	<string name="duration">"Varighed"</string>
+	<!---->
+	<string name="mimetype">"MIME-type"</string>
+	<!---->
+	<string name="file_size">"Filstørrelse"</string>
+	<!---->
+	<string name="maker">"Fremstiller"</string>
+	<!---->
+	<string name="model">"Model"</string>
+	<!---->
+	<string name="flash">"Blitz"</string>
+	<!---->
+	<string name="aperture">"Blænderåbning"</string>
+	<!---->
+	<string name="focal_length">"Fokallængde"</string>
+	<!---->
+	<string name="white_balance">"Hvidbalance"</string>
+	<!---->
+	<string name="exposure_time">"Eksponeringstid"</string>
+	<!---->
+	<string name="iso">"ISO"</string>
+	<!-- no translation found for unit_mm -->
+	<skip />
+	<!---->
+	<string name="manual">"Manuel"</string>
+	<!---->
+	<string name="auto">"Automatisk"</string>
+	<!---->
+	<string name="flash_on">"Blitz affyret"</string>
+	<!---->
+	<string name="flash_off">"Ingen blitz"</string>
+	<!-- no translation found for unknown -->
+	<skip />
+	<!---->
+	<string name="try_to_set_local_album_available_offline">"Dette element er gemt lokalt og er tilgængeligt offline."</string>
+	<!---->
+	<string name="please_wait">"Vent et øjeblik"</string>
+	<!---->
+	<string name="camera_error_title">"Kamerafejl"</string>
+	<!---->
+	<string name="cannot_connect_camera">"Kan ikke oprette forbindelse til kameraet."</string>
+	<!---->
+	<string name="camera_disabled">"Kameraet er deaktiveret på grund af sikkerhedspolitikker."</string>
+	<!---->
+	<string name="wait">"Vent, mens din telefon bliver programmeret."</string>
+	<!---->
+	<string name="no_storage" product="default">"Indsæt et SD-kort, før kameraet tages i brug."</string>
+	<!---->
+	<string name="preparing_sd" product="default">"Forbereder SD-kort ..."</string>
+	<!---->
+	<string name="access_sd_fail" product="default">"Der kunne ikke fås adgang til SD-kortet."</string>
+	<!---->
+	<string name="time_lapse_title">"Optagelse af tidsforløb"</string>
+	<!-- no translation found for capturing -->
+	<skip />
+	<!---->
+	<string name="pref_camera_id_title">"Vælg kamera"</string>
+	<!---->
+	<string name="pref_camera_id_entry_back">"Tilbage"</string>
+	<!---->
+	<string name="pref_camera_id_entry_front">"Forrest"</string>
+	<!---->
+	<string name="pref_camera_save_location_title">"GPS-tagging"</string>
+	<!-- no translation found for pref_camera_location_label -->
+	<skip />
+	<!---->
+	<string name="pref_camera_timer_title">"Nedtællingstimer"</string>
+	<!-- no translation found for pref_camera_timer_sound_default -->
+	<skip />
+	<!---->
+	<string name="pref_camera_timer_sound_title">"Bip under nedtælling"</string>
+	<!-- no translation found for setting_off -->
+	<skip />
+	<!-- no translation found for setting_on -->
+	<skip />
+	<!---->
+	<string name="pref_video_quality_title">"Videokvalitet"</string>
+	<!-- no translation found for pref_video_time_lapse_frame_interval_title -->
+	<skip />
+	<!---->
+	<string name="pref_camera_settings_category">"Indstillinger for kamera"</string>
+	<!---->
+	<string name="pref_camcorder_settings_category">"Indstillinger for videokamera"</string>
+	<!---->
+	<string name="pref_camera_picturesize_title">"Billedstørrelse"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_large">"Stor"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_medium">"Normal"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_small">"Lille"</string>
+	<!---->
+	<string name="pref_camera_focusmode_title">"Fokustilstand"</string>
+	<!---->
+	<string name="pref_camera_focusmode_entry_auto">"Automatisk"</string>
+	<!---->
+	<string name="pref_camera_focusmode_entry_infinity">"Uendelighed"</string>
+	<!---->
+	<string name="pref_camera_focusmode_entry_macro">"Makro"</string>
+	<!---->
+	<string name="pref_camera_focusmode_label_auto">"AUTO"</string>
+	<!---->
+	<string name="pref_camera_focusmode_label_infinity">"Uendelighed"</string>
+	<!---->
+	<string name="pref_camera_focusmode_label_macro">"Makro"</string>
+	<!---->
+	<string name="pref_camera_flashmode_title">"Blitztilstand"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label">"BLITZTILSTAND"</string>
+	<!---->
+	<string name="pref_camera_flashmode_entry_auto">"Automatisk"</string>
+	<!---->
+	<string name="pref_camera_flashmode_entry_on">"Til"</string>
+	<!---->
+	<string name="pref_camera_flashmode_entry_off">"Fra"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label_auto">"FLASH AUTO"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label_on">"FLASH TIL"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label_off">"FLASH FRA"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_title">"Hvidbalance"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label">"Hvidbalance"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_auto">"Automatisk"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_incandescent">"Hvidglødende"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_daylight">"Dagslys"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_fluorescent">"Flourescerende"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_cloudy">"Overskuet"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_auto">"AUTO"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_incandescent">"Hvidglødende"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_daylight">"Dagslys"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_fluorescent">"Flourescerende"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_cloudy">"Skyet"</string>
+	<!---->
+	<string name="pref_camera_scenemode_title">"Scenetilstand"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_auto">"Automatisk"</string>
+	<!-- no translation found for pref_camera_scenemode_entry_hdr_plus -->
+	<skip />
+	<!-- no translation found for pref_camera_scenemode_entry_hdr -->
+	<skip />
+	<!-- no translation found for pref_camera_scenemode_entry_turn_hdr_plus_on -->
+	<skip />
+	<!-- no translation found for pref_camera_scenemode_entry_turn_hdr_plus_off -->
+	<skip />
+	<!-- no translation found for pref_camera_scenemode_entry_turn_hdr_on -->
+	<skip />
+	<!-- no translation found for pref_camera_scenemode_entry_turn_hdr_off -->
+	<skip />
+	<!---->
+	<string name="pref_camera_scenemode_entry_action">"Handling"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_night">"Nat"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_sunset">"Solnedgang"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_party">"Fest"</string>
+	<!-- no translation found for pref_camera_scenemode_label_auto -->
+	<skip />
+	<!-- no translation found for pref_camera_scenemode_label_action -->
+	<skip />
+	<!-- no translation found for pref_camera_scenemode_label_night -->
+	<skip />
+	<!-- no translation found for pref_camera_scenemode_label_sunset -->
+	<skip />
+	<!-- no translation found for pref_camera_scenemode_label_party -->
+	<skip />
+	<!---->
+	<string name="pref_camera_countdown_label_off">"TIMER FRA"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_one">"1 sekund"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_three">"3 sekunder"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_five">"5 sekunder"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_ten">"10 sekunder"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_fifteen">"15 sekunder"</string>
+	<!---->
+	<string name="not_selectable_in_scene_mode">"Kan ikke vælges i motivtilstand."</string>
+	<!---->
+	<string name="pref_exposure_title">"Eksponering"</string>
+	<!---->
+	<string name="pref_exposure_label">"Eksponering"</string>
+	<!-- no translation found for pref_camera_hdr_default -->
+	<skip />
+	<!-- no translation found for pref_camera_hdr_plus_default -->
+	<skip />
+	<!---->
+	<string name="pref_camera_hdr_label">"HDR"</string>
+	<!---->
+	<string name="pref_camera_id_label_back">"FORRESTE KAMERA"</string>
+	<!---->
+	<string name="pref_camera_id_label_front">"BAGESTE KAMERA"</string>
+	<!---->
+	<string name="dialog_ok">"OK"</string>
+	<!---->
+	<string name="dialog_cancel">"Annuller"</string>
+	<!---->
+	<string name="spaceIsLow_content" product="default">"Der er snart ikke mere plads på dit SD-kort. Rediger indstillingerne for kvalitet, eller slet nogle billeder eller andre filer."</string>
+	<!---->
+	<string name="phone_storage_low" product="default">"Telefonens lager er næsten fyldt op. Skift kvalitetsindstillingen, eller slet nogle billeder eller andre filer."</string>
+	<!---->
+	<string name="video_reach_size_limit">"Størrelsesgrænse er nået."</string>
+	<!---->
+	<string name="video_record_start_failed">"Kunne ikke begynde optagelse"</string>
+	<!---->
+	<string name="pano_too_fast_prompt">"For hurtig"</string>
+	<!---->
+	<string name="pano_dialog_prepare_preview">"Forbereder panorama"</string>
+	<!---->
+	<string name="pano_dialog_panorama_failed">"Kunne ikke gemme panorama."</string>
+	<!---->
+	<string name="pano_dialog_title">"Panorama"</string>
+	<!---->
+	<string name="pano_capture_indication">"Optagelse af panorama"</string>
+	<!---->
+	<string name="pano_dialog_waiting_previous">"Venter på et tidligere panoramabillede"</string>
+	<!---->
+	<string name="pano_review_saving_indication_str">"Gemmer..."</string>
+	<!---->
+	<string name="pano_review_rendering">"Gengiver panorama"</string>
+	<!---->
+	<string name="tap_to_focus">"Tryk for at fokusere."</string>
+	<!---->
+	<string name="pref_video_effect_title">"Effekter"</string>
+	<!---->
+	<string name="effect_none">"Ingen"</string>
+	<!---->
+	<string name="effect_goofy_face_squeeze">"Klem"</string>
+	<!---->
+	<string name="effect_goofy_face_big_eyes">"Store øjne"</string>
+	<!---->
+	<string name="effect_goofy_face_big_mouth">"Stor mund"</string>
+	<!---->
+	<string name="effect_goofy_face_small_mouth">"Lille mund"</string>
+	<!---->
+	<string name="effect_goofy_face_big_nose">"Stor næse"</string>
+	<!---->
+	<string name="effect_goofy_face_small_eyes">"Små øjne"</string>
+	<!---->
+	<string name="effect_backdropper_space">"I rummet"</string>
+	<!---->
+	<string name="effect_backdropper_sunset">"Solnedgang"</string>
+	<!---->
+	<string name="effect_backdropper_gallery">"Din video"</string>
+	<!---->
+	<string name="video_snapshot_hint">"Tryk for at tage et foto, mens du optager."</string>
+	<!---->
+	<string name="video_recording_started">"Videooptagelse er startet"</string>
+	<!---->
+	<string name="video_recording_stopped">"Videooptagelse er stoppet"</string>
+	<!---->
+	<string name="clear_effects">"Ryd effekter"</string>
+	<!---->
+	<string name="effect_silly_faces">"FJOLLEDE ANSIGTER"</string>
+	<!---->
+	<string name="effect_background">"BAGGRUND"</string>
+	<!-- no translation found for accessibility_shutter_button -->
+	<skip />
+	<!---->
+	<string name="accessibility_cancel_button">"Annuller"</string>
+	<!---->
+	<string name="accessibility_menu_button">"Menuknap"</string>
+	<!---->
+	<string name="accessibility_check_box">"Afkrydsningsfeltet %1$s"</string>
+	<!---->
+	<string name="accessibility_switch_to_camera">"Skift til foto"</string>
+	<!---->
+	<string name="accessibility_switch_to_video">"Skift til video"</string>
+	<!---->
+	<string name="accessibility_switch_to_panorama">"Skift til panorama"</string>
+	<!-- no translation found for accessibility_switch_to_photo_sphere -->
+	<skip />
+	<!-- no translation found for accessibility_switch_to_gcam -->
+	<skip />
+	<!---->
+	<string name="accessibility_switch_to_refocus">"Skift til genfokusering"</string>
+	<!---->
+	<string name="accessibility_review_cancel">"Annullering af gennemgang"</string>
+	<!---->
+	<string name="accessibility_review_ok">"Gennemgang udført"</string>
+	<!---->
+	<string name="accessibility_review_retake">"Udfør gennemgang igen"</string>
+	<!---->
+	<string name="accessibility_mode_options">"Indstillinger"</string>
+	<!---->
+	<string name="accessibility_mode_list_hidden">"Tilstandsliste lukket"</string>
+	<!---->
+	<string name="accessibility_mode_list_shown">"Tilstandsliste åbn"</string>
+	<!---->
+	<string name="media_accessibility_peek">"Capture taget"</string>
+	<!---->
+	<string name="photo_accessibility_peek">"Fotos taget"</string>
+	<!---->
+	<string name="video_accessibility_peek">"Videoer optaget"</string>
+	<!---->
+	<string name="accessibility_unlock_to_camera">"Lås op til Kamera"</string>
+	<!---->
+	<string name="media_date_content_description">"Medie taget d %s"</string>
+	<!---->
+	<string name="photo_date_content_description">"Foto taget d %s"</string>
+	<!---->
+	<string name="video_date_content_description">"Video optaget d %s"</string>
+	<!---->
+	<string name="panorama_date_content_description">"Panorama taget d %s"</string>
+	<!---->
+	<string name="photosphere_date_content_description">"Fotosfære taget d %s"</string>
+	<!---->
+	<string name="refocus_date_content_description">"Linsesløring taget d %s"</string>
+	<!---->
+	<string name="media_processing_content_description">"Medie behandles"</string>
+	<!---->
+	<string name="accessibility_mode_list_toggle">"Skift tilstandsliste"</string>
+	<!---->
+	<string name="btn_mode_list_toggle">"Tilstandsliste"</string>
+	<!---->
+	<string name="accessibility_filmstrip_toggle">"Skift filmstrimmel"</string>
+	<!---->
+	<string name="btn_filmstrip_toggle">"Filmstrimmel"</string>
+	<!-- no translation found for capital_on -->
+	<skip />
+	<!---->
+	<string name="capital_off">"FRA"</string>
+	<!---->
+	<string name="video_control_play">"Afspil video"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_off">"Fra"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_500">"0,5 sekund"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1000">"1 sekund"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1500">"1,5 sekunder"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_2000">"2 sekunder"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_2500">"2,5 sekunder"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_3000">"3 sekunder"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_4000">"4 sekunder"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_5000">"5 sekunder"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_6000">"6 sekunder"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_10000">"10 sekunder"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_12000">"12 sekunder"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_15000">"15 sekunder"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_24000">"24 sekunder"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_30000">"0,5 minut"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_60000">"1 minut"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_90000">"1,5 minutter"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_120000">"2 minutter"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_150000">"2,5 minutter"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_180000">"3 minutter"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_240000">"4 minutter"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_300000">"5 minutter"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_360000">"6 minutter"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_600000">"10 minutter"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_720000">"12 minutter"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_900000">"15 minutter"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1440000">"24 minutter"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1800000">"0,5 time"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_3600000">"1 time"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_5400000">"1,5 timer"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_7200000">"2 timer"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_9000000">"2,5 timer"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_10800000">"3 timer"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_14400000">"4 timer"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_18000000">"5 timer"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_21600000">"6 timer"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_36000000">"10 timer"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_43200000">"12 timer"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_54000000">"15 timer"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_86400000">"24 timer"</string>
+	<!---->
+	<string name="time_lapse_seconds">"sekunder"</string>
+	<!---->
+	<string name="time_lapse_minutes">"minutter"</string>
+	<!---->
+	<string name="time_lapse_hours">"timer"</string>
+	<!-- no translation found for time_lapse_interval_set -->
+	<skip />
+	<!---->
+	<string name="set_time_interval">"Angiv tidsinterval"</string>
+	<!---->
+	<string name="set_time_interval_help">"Intervalfunktionen er deaktiveret Aktivér den for at indstille et tidsinterval."</string>
+	<!---->
+	<string name="set_duration">"Angiv varighed i sekunder"</string>
+	<!---->
+	<string name="count_down_title_text">"Tæller ned for at tage et billede"</string>
+	<!---->
+	<string name="remember_location_title">"Husk, hvor billederne er taget?"</string>
+	<!---->
+	<string name="remember_location_prompt">"Tag dine billeder og videoer med de steder, hvor de er taget.\n\nAndre apps kan få adgang til disse oplysninger samt dine gemte billeder."</string>
+	<!---->
+	<string name="remember_location_no">"Nej tak"</string>
+	<!---->
+	<string name="remember_location_yes">"Ja"</string>
+	<!---->
+	<string name="camera_menu_more_label">"Flere valgmuligheder"</string>
+	<!-- no translation found for camera_menu_settings_label -->
+	<skip />
+	<!-- no translation found for create_tiny_planet -->
+	<skip />
+	<!-- no translation found for saving_tiny_planet -->
+	<skip />
+	<!-- no translation found for tiny_planet_zoom -->
+	<skip />
+	<!-- no translation found for tiny_planet_rotate -->
+	<skip />
+	<!---->
+	<string name="photo_editor">"Fotoredigering"</string>
+	<!---->
+	<string name="crop_save">"Gem"</string>
+	<!---->
+	<string name="cannot_load_image">"Billedet kan ikke indlæses!"</string>
+	<!---->
+	<string name="switch_photo_filmstrip">"Filmstrimmelvisning"</string>
+	<!---->
+	<string name="setting_wallpaper">"Indstiller baggrund"</string>
+	<!---->
+	<string name="mode_settings">"Indstillinger"</string>
+	<!---->
+	<string name="mode_camera">"Automatisk"</string>
+	<!---->
+	<string name="mode_video">"video"</string>
+	<!---->
+	<string name="mode_slow_motion">"Slo-mo"</string>
+	<!---->
+	<string name="mode_photosphere">"Fotosfære"</string>
+	<!---->
+	<string name="mode_timelapse">"Time Lapse"</string>
+	<!---->
+	<string name="mode_wideangle">"Vidvinkel"</string>
+	<!---->
+	<string name="mode_panorama">"Panorama"</string>
+	<!---->
+	<string name="mode_refocus">"Linsesløring"</string>
+	<!---->
+	<string name="mode_camera_desc">"Skift til kameratilstand"</string>
+	<!---->
+	<string name="mode_video_desc">"Skift til videokamera"</string>
+	<!---->
+	<string name="mode_photosphere_desc">"Skift til fotosfære-tilstand"</string>
+	<!---->
+	<string name="mode_panorama_desc">"Skift til panoramatilstand"</string>
+	<!---->
+	<string name="mode_slow_motion_desc">"Skift til slowmotion-tilstand"</string>
+	<!---->
+	<string name="mode_refocus_desc">"Skift til tilstanden linsesløring"</string>
+	<!---->
+	<string name="settings_open_desc">"Åbn indstillinger"</string>
+	<!---->
+	<string name="settings_close_desc">"Luk indstillinger"</string>
+	<!---->
+	<string name="hdr_plus_off_desc">"HDR+ fra"</string>
+	<!---->
+	<string name="hdr_plus_on_desc">"HDR+ til"</string>
+	<!---->
+	<string name="hdr_off_desc">"HDR fra"</string>
+	<!---->
+	<string name="hdr_on_desc">"HDR til"</string>
+	<!---->
+	<string name="flash_off_desc">"FLASH FRA"</string>
+	<!---->
+	<string name="flash_auto_desc">"FLASH AUTO"</string>
+	<!---->
+	<string name="flash_on_desc">"FLASH TIL"</string>
+	<!---->
+	<string name="hdr_plus_flash_off_desc">"HDR+ blitz fra"</string>
+	<!---->
+	<string name="hdr_plus_flash_auto_desc">"HDR+ blitz auto"</string>
+	<!---->
+	<string name="hdr_plus_flash_on_desc">"HDR+ blitz til"</string>
+	<!---->
+	<string name="torch_on_desc">"Lommelygte til"</string>
+	<!---->
+	<string name="torch_off_desc">"Lommelygte fra"</string>
+	<!---->
+	<string name="camera_id_back_desc">"BAGESTE KAMERA"</string>
+	<!---->
+	<string name="camera_id_front_desc">"FORRESTE KAMERA"</string>
+	<!---->
+	<string name="grid_lines_off_desc">"Gitterlinjer fra"</string>
+	<!---->
+	<string name="grid_lines_on_desc">"Gitterlinjer til"</string>
+	<!---->
+	<string name="countdown_timer_off">"Nedtællingstimeren er fra"</string>
+	<!---->
+	<string name="countdown_timer_duration_2s">"Nedtællingsvarighed er sat til 2 sekunder"</string>
+	<!---->
+	<string name="countdown_timer_duration_3s">"Nedtællingsvarighed er sat til 3 sekunder"</string>
+	<!---->
+	<string name="countdown_timer_duration_5s">"Nedtællingsvarighed er sat til 5 sekunder"</string>
+	<!---->
+	<string name="countdown_timer_duration_10s">"Nedtællingsvarighed er sat til 10 sekunder"</string>
+	<!---->
+	<string name="more_options_desc">"Flere valgmuligheder"</string>
+	<!---->
+	<string name="cancel_button_description">"Annuller"</string>
+	<!---->
+	<string name="done_button_description">"Udfør"</string>
+	<!---->
+	<string name="retake_button_description">"Tag igen"</string>
+	<!---->
+	<string name="share_button_description">"Del"</string>
+	<!---->
+	<string name="view_button_description">"Vis"</string>
+	<!---->
+	<string name="edit_button_description">"Rediger"</string>
+	<!---->
+	<string name="delete_button_description">"Slet"</string>
+	<!---->
+	<string name="manual_exposure_compensation_desc">"Manuel eksponering kompensering"</string>
+	<!---->
+	<string name="exposure_compensation_desc_n2">"Eksponeringskompensering -2"</string>
+	<!---->
+	<string name="exposure_compensation_desc_n1">"Eksponeringskompensering -1"</string>
+	<!---->
+	<string name="exposure_compensation_desc_0">"Eksponeringskompensering 0"</string>
+	<!---->
+	<string name="exposure_compensation_desc_p1">"Eksponeringskompensering +1"</string>
+	<!---->
+	<string name="exposure_compensation_desc_p2">"Eksponeringskompensering +2"</string>
+	<!---->
+	<string name="button_change_announcement">"Knap er nu %s"</string>
+	<!---->
+	<string name="setting_location">"Placering"</string>
+	<!---->
+	<string name="setting_back_camera_photo">"Bagudvendt kamera foto"</string>
+	<!---->
+	<string name="setting_back_camera_video">"Bagudvendt kamera video"</string>
+	<!---->
+	<string name="setting_front_camera_photo">"Frontkamera foto"</string>
+	<!---->
+	<string name="setting_front_camera_video">"Frontkamera video"</string>
+	<!---->
+	<string name="setting_default_camera">"Standardkamera"</string>
+	<!---->
+	<string name="setting_google_help_and_feedback">"Hjælp og feedback"</string>
+	<!---->
+	<string name="processing_hdr_plus">"Behandler HDR+ ..."</string>
+	<!---->
+	<string name="open_source_licenses">"Open source-licenser"</string>
+	<!---->
+	<string name="pref_category_general">"Generelle indstillinger"</string>
+	<!---->
+	<string name="pref_category_resolution_quality">"Opløsning &amp; kvalitet"</string>
+	<!---->
+	<string name="pref_category_about">"Om"</string>
+	<!---->
+	<string name="pref_title_build_version">"Version"</string>
+	<!---->
+	<string name="pref_video_quality_entry_low">"Lav"</string>
+	<!---->
+	<string name="pref_video_quality_entry_high">"Høj"</string>
+	<!-- no translation found for pref_video_quality_entry_qcif -->
+	<skip />
+	<!-- no translation found for pref_video_quality_entry_cif -->
+	<skip />
+	<!-- no translation found for pref_video_quality_entry_480p -->
+	<skip />
+	<!-- no translation found for pref_video_quality_entry_720p -->
+	<skip />
+	<!-- no translation found for pref_video_quality_entry_1080p -->
+	<skip />
+	<!-- no translation found for pref_video_quality_entry_qvga -->
+	<skip />
+	<!-- no translation found for pref_video_quality_entry_2160p -->
+	<skip />
+	<!---->
+	<string name="setting_summary_x_megapixels">"%1$s megapixler"</string>
+	<!---->
+	<string name="setting_summary_aspect_ratio_and_megapixels">"(%1$d:%2$d) %3$s megapixler"</string>
+	<!---->
+	<string name="cling_text_for_refocus_editor_button">"Rør her for at fokusere igen"</string>
+	<!---->
+	<string name="pref_category_advanced">"Avanceret"</string>
+	<!---->
+	<string name="pref_camera_exposure_compensation">"Manuel eksponering"</string>
+	<!---->
+	<string name="settings_cling_text">"I Indstillinger ændres opløsning og kvalitet, eller prøv avancerede funktioner."</string>
+	<!---->
+	<string name="photo_size_selection_title">"Vælg fotostørrelse"</string>
+	<!---->
+	<string name="photo_aspect_ratio_selection_content">"Du kan ændre det senere i Indstillinger"</string>
+	<!---->
+	<string name="share_to">"Del til"</string>
+	<!---->
+	<string name="edit_with">"Rediger med"</string>
+	<!---->
+	<string name="startup_dialog_button_next">"Næste"</string>
+	<!---->
+	<string name="confirm_button_text">"OK. Forstået."</string>
+	<!---->
+	<string name="full_sensor_4x3_aspect_ratio">"Fuld sensor \n(4:3)"</string>
+	<!---->
+	<string name="cropped_sensor_16x9_aspect_ratio">"Beskåret sensor \n(16:9)"</string>
+	<!-- no translation found for pref_boolean_false -->
+	<skip />
+	<!-- no translation found for pref_boolean_true -->
+	<skip />
+	<!---->
+	<string name="pref_camera_iso_s_f_entry_auto">"Auto"</string>
+	<!-- no translation found for manual_manu_title_iso -->
+	<skip />
+	<!-- no translation found for manual_manu_title_exposure -->
+	<skip />
+	<!-- no translation found for manual_manu_title_wb -->
+	<skip />
+	<!-- no translation found for manual_manu_title_focus -->
+	<skip />
+	<!---->
+	<string name="setting_group_photo">"Foto"</string>
+	<!---->
+	<string name="setting_group_video">"video"</string>
+	<!---->
+	<string name="setting_group_general">"Generel"</string>
+	<!---->
+	<string name="pref_camera_size_title">"Vent ..."</string>
+	<!---->
+	<string name="pref_rear_camera_size_title">"Vent ..."</string>
+	<!---->
+	<string name="pref_front_camera_size_title">"Vent ..."</string>
+	<!---->
+	<string name="pref_rear_camera_size_title_vdf">"Billedestørrelse (bagsiden)"</string>
+	<!---->
+	<string name="pref_front_camera_size_title_vdf">"Billedestørrelse (forsiden)"</string>
+	<!---->
+	<string name="pref_camera_grid_title">"Gitter"</string>
+	<!---->
+	<string name="pref_camera_pose_title">"Poserer"</string>
+	<!---->
+	<string name="pref_camera_compose_title">"Komposition"</string>
+	<!---->
+	<string name="pref_video_eis_title">"EIS"</string>
+	<!---->
+	<string name="pref_camera_face_beauty_title">"Skønhedsportræt"</string>
+	<!---->
+	<string name="pref_camera_mirror_selfie_title">"Spejl-selfie"</string>
+	<!---->
+	<string name="pref_camera_attention_seeker_title">"Notifikationslyd"</string>
+	<!-- no translation found for pref_camera_ais_title -->
+	<skip />
+	<!---->
+	<string name="pref_camera_super_resolution_title">"Super-opløsning"</string>
+	<!---->
+	<string name="pref_camera_savepath_title">"Lagring"</string>
+	<!---->
+	<string name="pref_camera_savepath_entry_0">"Telefon"</string>
+	<!---->
+	<string name="pref_camera_savepath_entry_1">"SD-kort"</string>
+	<!-- no translation found for pref_camera_savepath_default -->
+	<skip />
+	<!---->
+	<string name="pref_camera_sound_title">"Udløserlyd"</string>
+	<!---->
+	<string name="pref_visidon_mode_title">"Avanceret tilstand"</string>
+	<!---->
+	<string name="pref_camera_gesture_detection_title">"Bevægelseskontrol"</string>
+	<!---->
+	<string name="visidon_mode_face_beauty_entry">"Skønhedsportræt"</string>
+	<!---->
+	<string name="visidon_mode_super_resolution_entry">"Super-opløsning"</string>
+	<!---->
+	<string name="visidon_mode_low_light_entry">"Natscene"</string>
+	<!-- no translation found for visidon_mode_hdr_entry -->
+	<skip />
+	<!---->
+	<string name="visidon_mode_off_entry">"Fra"</string>
+	<!---->
+	<string name="mode_manual">"Manuel"</string>
+	<!---->
+	<string name="mode_pano">"Panorama"</string>
+	<!-- no translation found for mode_parallax -->
+	<skip />
+	<!---->
+	<string name="mode_micro_video">"Mikro-video"</string>
+	<!---->
+	<string name="mode_manual_desc">"Skift til manuel tilstand"</string>
+	<!---->
+	<string name="mode_pano_desc">"Skift til panotilstand"</string>
+	<!---->
+	<string name="mode_parallax_desc">"Skift til fyusetilstand"</string>
+	<!---->
+	<string name="mode_micro_video_desc">"Skift til mikro-video tilstand"</string>
+	<!---->
+	<string name="pref_restore_settings">"Gendan standarder"</string>
+	<!---->
+	<string name="quit_dialog_title_battery_low">"Lavt batteri"</string>
+	<!---->
+	<string name="quit_dialog_title_storage_low">"Utilstrækkelig lagring"</string>
+	<!---->
+	<string name="quit_dialog_msg">"Videooptagelse vil blive gemt automatisk. Kamera bliver lukket."</string>
+	<!---->
+	<string name="battery_info_dialog_tile">"Lavt batteri"</string>
+	<!---->
+	<string name="battery_info_dialog_msg_disable_flash">"Kan ikke bruge blitz"</string>
+	<!---->
+	<string name="battery_info_dialog_msg_close_camera">"Kan ikke åbne kamera"</string>
+	<!---->
+	<string name="battery_info_dialog_button_ok">"OK"</string>
+	<!---->
+	<string name="battery_info_dialog_button_close">"Luk"</string>
+	<!-- no translation found for battery_info_low_toast_message -->
+	<skip />
+	<!-- no translation found for battery_info_video_low_toast_message -->
+	<skip />
+	<!-- no translation found for battery_info_video_low_less_8 -->
+	<skip />
+	<!-- no translation found for battery_info_video_low_less_8_dialog -->
+	<skip />
+	<!-- no translation found for battery_info_video_low_cancel -->
+	<skip />
+	<!-- no translation found for battery_info_video_low_continue -->
+	<skip />
+	<!---->
+	<string name="MSG_SAVE_OUTPUT_IMAGE">"Gemmer panoramabillede ..."</string>
+	<!---->
+	<string name="MSG_CANCEL_CAPTURE">"Annullerer ..."</string>
+	<!-- no translation found for save_dir_preview_img -->
+	<skip />
+	<!-- no translation found for save_dir_still_img -->
+	<skip />
+	<!---->
+	<string name="MSG_MISALIGNMENT">"Hold pilen på den hvide linje så godt det kan lade sig gøre.\nOptagelse standset"</string>
+	<!---->
+	<string name="MSG_MOVE_CAMERA_SLOWLY">"Flyt kameraet meget langsomt når du optager"</string>
+	<!---->
+	<string name="delete_selection">"Vil du slette det valgte element?"</string>
+	<!---->
+	<string name="burst_saving_hint">"Gemmer %d billeder ..."</string>
+	<!---->
+	<string name="micro_video_remix_hint">"Behandler..."</string>
+	<!---->
+	<string name="lowlight_off_desc">"Lavt lys fra"</string>
+	<!---->
+	<string name="lowlight_on_desc">"Lavt lys til"</string>
+	<!---->
+	<string name="tizr_prompt_desc">"TiZR lader dig udsende live video til verden. Begynd rejsen nu."</string>
+	<!---->
+	<string name="tizr_prompt_content">"Kom i gang"</string>
+	<!-- no translation found for title_activity_tizr_share_video -->
+	<skip />
+	<!---->
+	<string name="night_mode_on_toast">"Nat-mode til, hold enheden rolig mens der tages billeder"</string>
+	<!---->
+	<string name="hdr_on_toast">"HDR til, hold enheden rolig mens der tages billeder"</string>
+	<!---->
+	<string name="micro_video_guide_title">"Mikro-video"</string>
+	<!---->
+	<string name="micro_video_guide_description">"Sæt dig i instruktørens stol, og opret din egen videosamling\n(Efter optagelse kan du klikke på rediger for at tilføje specialtemaer og effekter)"</string>
+	<!---->
+	<string name="micro_video_guide_checkbox">"Vis ikke igen"</string>
+	<!---->
+	<string name="micro_video_guide_button">"FORSTÅET"</string>
+	<!---->
+	<string name="micro_minimum_time_tip">"Optag mindst 3 sekunder"</string>
+	<!---->
+	<string name="micro_shutter_help_tip">"Tryk og hold nede for at starte optagelse"</string>
+	<!---->
+	<string name="permissions_needed">"Tilladelser nødvendig"</string>
+	<!---->
+	<string name="grant_access_title">"Giv adgang"</string>
+	<!-- no translation found for grant_access_msg -->
+	<skip />
+	<!---->
+	<string name="grant_access_exit">"Afslut"</string>
+	<!---->
+	<string name="grant_access_settings">"Indstillinger"</string>
+	<!-- no translation found for location_and -->
+	<skip />
+	<!---->
+	<string name="location_msg">"Tag dine fotos og videoer med placering"</string>
+	<!---->
+	<string name="location_toast">"Tænd GPS-tagging senere i Kameraindstillinger"</string>
+	<!---->
+	<string name="location_snack_setting">"For at aktivere GPS-tagging, giv Kamera tilladelse til at bruge Placering"</string>
+	<!---->
+	<string name="aspect_ratio_and_megapixels_default">"%1$d MP (%2$d:%3$d)"</string>
+	<!---->
+	<string name="tips_for_panorama_preview">"Flyt enhed kontinuerligt når der optages panorama"</string>
+	<!---->
+	<string name="tip_for_move_center">"Hold pilen på midterlinjen"</string>
+	<!---->
+	<string name="tip_for_move_down">"Flyt ned"</string>
+	<!---->
+	<string name="tip_for_move_up">"Flyt op"</string>
+	<!---->
+	<string name="tip_for_move_slow">"Nedsæt hastigheden"</string>
+	<!---->
+	<string name="tip_for_move_right">"Flyt til højre"</string>
+	<!---->
+	<string name="tip_for_move_left">"Flyt til venstre"</string>
+	<!---->
+	<string name="super_zoom_on_toast">"Super zoom til, hold roligt med der tages billeder"</string>
+	<!---->
+	<string name="help_tip_welcome_take_tour">"Ja tak"</string>
+	<!---->
+	<string name="help_tip_welcome_cancel_tour">"Nej tak"</string>
+	<!---->
+	<string name="help_tip_welcome_title">"Kamera"</string>
+	<!---->
+	<string name="help_tip_welcome_context">"Tag en rundvisning og få hjælpsomme tips om, hvordan du bruger din nye smartphones kamera"</string>
+	<!---->
+	<string name="help_tip_snap_context">"Berør jer for at tage fotos, eller tryk længe for burst-optagelse af op til 10 fotos"</string>
+	<!---->
+	<string name="help_tip_camera_key_context">"Brug \"Kamera-tasten\" til at tage fotos eller tryk længe for en burst-optagelse"</string>
+	<!---->
+	<string name="help_tip_recent_context">"Berør her for at se dine seneste fotos"</string>
+	<!---->
+	<string name="help_tip_startvideo_context">"Berør her for at begynde at optage en video"</string>
+	<!---->
+	<string name="help_tip_videosnap_context">"Berør her for at tage foto under optagelse"</string>
+	<!---->
+	<string name="help_tip_stopvideo_context">"Berør her for at stoppe optagelsen og gemme videoen"</string>
+	<!---->
+	<string name="help_tip_switch_front_context">"Berør her for at åbn selfie-tilstand"</string>
+	<!---->
+	<string name="help_tip_gesture_tip_context">"For at tage et billede, vis din håndflade foran kameraet."</string>
+	<!---->
+	<string name="help_tip_pinch_zoom_context">"Knib IND/UD i søgeren for at zoome IND/UD"</string>
+	<!---->
+	<string name="help_tip_quick_switch_context">"Berør disse ikoner for at slå funktionen TIL/FRA"</string>
+	<!---->
+	<string name="help_tip_settings_context">"Berør her for at gå til kameraindstillinger"</string>
+	<!---->
+	<string name="help_tip_mode_context">"Stryg fingeren til venstre eller højre på søgeren for at ændre kameratilstanden"</string>
+	<!---->
+	<string name="help_tip_panorama_context">"Berør forhåndsvisningsbjælen for at skifte retning"</string>
+	<!---->
+	<string name="help_tip_manual_context">"Berør et ikon for at skifte til manuel tilstand-muligheden"</string>
+	<!---->
+	<string name="help_tip_manual_menu_context">"Berør for at vise eller skjule muligheder til manuel tilstand"</string>
+	<!---->
+	<string name="help_tip_got_it_text">"Afvis"</string>
+	<!---->
+	<string name="help_tip_dismiss_text">"Afvis"</string>
+	<!---->
+	<string name="help_tip_skip_all_text">"Udelad alle"</string>
+	<!---->
+	<string name="optimize_saving_hint">"Optimér foto"</string>
+	<!---->
+	<string name="wrapper_button_desc">"Udvid knap"</string>
+	<!---->
+	<string name="restore_settings_dialog_msg">"Vil du gendanne kameraets fabriksindstillinger?"</string>
+	<!---->
+	<string name="restore_settings_dialog_yes">"Nulstil"</string>
+	<!---->
+	<string name="restore_settings_dialog_no">"Annuller"</string>
+	<!---->
+	<string name="permission_title">"Kamera skal bruge tilladelse"</string>
+	<!---->
+	<string name="permission_content">"Tryk her for at tildele tilladelser."</string>
+	<plurals name="instant_capture_photos">
+		<item quantity="one">"<xliff:g id="step_count">%1$d</xliff:g> foto"</item>
+		<item quantity="other">"<xliff:g id="step_count">%1$d</xliff:g> fotos"</item>
+	</plurals>
+	<!-- no translation found for photos -->
+	<skip />
+	<!---->
+	<string name="delete_selection_burst">"Dette booster sekvenster, der indeholder %s foto. Slet dem alle?"</string>
+	<!---->
+	<string name="flash_with_superzoom_toast">"Ude af stand til at bruge blitz når super-zoom er aktiveret"</string>
+	<!---->
+	<string name="battery_warning_title">"Kan ikke tage foto med bom"</string>
+	<!---->
+	<string name="battery_warning_content">"Kan ikke tag foto med lavt batteriniveau"</string>
+	<!---->
+	<string name="phone_storage_low_for_alert_dialog">"Telefonlageret er lavt. Kamera bliver lukket."</string>
+	<!---->
+	<string name="sd_card_low_for_alert_dialog">"SD-kort lageret er lavt. Kamera bliver lukket."</string>
+	<!---->
+	<string name="camera_error_title_alert_dialog">"Der er ikke mere lagerplads"</string>
+	<!---->
+	<string name="storage_low_close_alert_dialog">"Luk"</string>
+	<!---->
+	<string name="storage_low_phone_full_no_sdcard_alert_dialog">"Telefonlageret er fyldt. Ryd plads eller isæt et SD-kort."</string>
+	<!---->
+	<string name="storage_low_phone_sdcard_full_alert_dialog">"Telefon- &amp; SD-lageret er fyldt. Ryd plads for at bruge kameraet."</string>
+	<!---->
+	<string name="storage_low_phone_full_sdcard_ok_alert_dialog">"Telefonlageret er fyldt. Gem på SD-kort?"</string>
+	<!---->
+	<string name="storage_low_storage_full_phone_ok_alert_dialog">"SD-kortet er fyldt. Gem til telefonlager?"</string>
+	<!---->
+	<string name="storage_low_phone_full_sdcard_ok_button">"Brug SD"</string>
+	<!---->
+	<string name="storage_low_storage_full_phone_ok_button">"Brug telefonlager"</string>
+	<!-- no translation found for storage_low_storage_critical_toast_message -->
+	<skip />
+	<!-- no translation found for storage_low_video_critical_toast_message -->
+	<skip />
+	<!---->
+	<string name="pref_camera_antibanding_title">"Antistriber"</string>
+	<!---->
+	<string name="pref_camera_antibanding_entry_0">"FRA"</string>
+	<!---->
+	<string name="pref_camera_antibanding_entry_1">"50Hz"</string>
+	<!---->
+	<string name="pref_camera_antibanding_entry_2">"60Hz"</string>
+	<!---->
+	<string name="pref_camera_antibanding_entry_3">"Auto"</string>
+	<!---->
+	<string name="storage_warning_content">"Kan ikke tag foto med lav lagerplads"</string>
+	<!---->
+	<string name="storage_and_battery_warning_content">"Kan ikke tag foto med lavt batteriniveau og lav lagerplads"</string>
+	<!---->
+	<string name="remote_content">"Tag billeder med bærbar enhed"</string>
+	<!---->
+	<string name="boom_key_press">"Tryk på"</string>
+	<!---->
+	<string name="boom_key">"Boom-tast"</string>
+	<!---->
+	<string name="location_service_dialog_title">"GPS deaktiveret"</string>
+	<!---->
+	<string name="location_service_dialog_msg">"For at tagge fotos og videoer med placering, skal du tænde for GPS og trådløs netværk i Indstilling for placering."</string>
+	<!---->
+	<string name="location_service_dialog_cancel">"Annuller"</string>
+	<!---->
+	<string name="location_service__dialog_setting">"Indstillinger"</string>
+	<!---->
+	<string name="gestureshot_guide_capture">"Gestus optagelse: Autooptagelse når der registreres en bevægelse:"</string>
+	<!-- no translation found for mode_filters -->
+	<skip />
+	<!-- no translation found for mode_pose -->
+	<skip />
+	<!-- no translation found for video_recording_paused -->
+	<skip />
+	<!-- no translation found for pose_final_icon -->
+	<skip />
+	<!-- no translation found for time_left -->
+	<skip />
+	<!-- no translation found for pref_camera_auto_hdr_title -->
+	<skip />
+	<!-- no translation found for pref_camera_timer_entry_0 -->
+	<skip />
+	<!-- no translation found for pref_camera_timer_unit_suffix -->
+	<skip />
+	<!-- no translation found for pref_camera_face_beauty_summary -->
+	<skip />
+	<!-- no translation found for pref_camera_mirror_selfie_summary -->
+	<skip />
+	<!-- no translation found for pref_camera_pose_summary -->
+	<skip />
+	<!-- no translation found for mode_360_photo -->
+	<skip />
+	<!-- no translation found for panorama_preview_holder_info_text -->
+	<skip />
+	<!-- no translation found for back -->
+	<skip />
+	<!-- no translation found for gallery_name -->
+	<skip />
+	<!---->
+	<string name="audio_record_on_desc">"Lydoptagelse"</string>
+	<!-- no translation found for audio_record_off_desc -->
+	<skip />
+</resources>

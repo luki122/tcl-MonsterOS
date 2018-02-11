@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/default_category_divider"
+        android:background="@color/seperator"/>
+
+    <ViewStub
+        android:id="@+id/view_stub"
+        android:layout_width="match_parent"
+        android:layout_height="116dp"
+        android:inflatedId="@+id/paylist_card"
+        android:layout="@layout/layout_paylist_card" />
+
+</LinearLayout>

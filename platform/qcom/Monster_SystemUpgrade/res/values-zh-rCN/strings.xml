@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Sat Feb 28 14:39:44 CST 2015
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+	<!-- FOTA application name -->
+	<string name="app_name">"系统更新"</string>
+
+	<!-- FOTA permission -->
+	<string name="permission_access_ota">"访问系统更新的私人数据"</string>
+
+	<!-- FOTA activity -->
+	<string name="version_detail_activity_title">"版本详情"</string>
+	<string name="no_version_detail">"暂无版本详情"</string>
+
+	<!-- Advanced Mode string Do not translate  -->
+	<string name="test">"测试"</string>
+	<string name="advancedmode">"高级模式"</string>
+	<string name="tip_advanced_mode">"高级模式仅适用于测试人员，请输入测试密码。"</string>
+	<string name="hint_password">"测试密码"</string>
+	<string name="dialog_title_enter_ref">"输入测试的comref"</string>
+	<string name="title_information">"信息"</string>
+	<string name="title_test_uploadlog">"测试上传日志"</string>
+
+	<!-- FOTA action string -->
+	<string name="find_new_version">"发现新版本"</string>
+	<string name="find_no_version">"未发现新版本"</string>
+	<string name="start_update">"升级"</string>
+	<string name="ready_download">"准备下载中..."</string>
+	<string name="start_download">"下载"</string>
+	<string name="cancel_download">"取消"</string>
+	<string name="pause_download">"暂停"</string>
+	<string name="pausing_download">"暂停中..."</string>
+	<string name="resume_download">"继续"</string>
+	<string name="resuming_download">"继续中..."</string>
+	<string name="downloading">"正在下载"</string>
+	<string name="download_paused">"下载已暂停"</string>
+	<string name="downloaded">"下载已完成"</string>
+	<string name="try_again">"重试"</string>
+	<string name="upgrade">"重启升级"</string>
+
+	<!-- FOTA check error string -->
+	<string name="no_network">"无网络"</string>
+	<string name="no_network_info">"请检查网络连接"</string>
+	<string name="connection_failed">"连接失败"</string>
+	<string name="connection_failed_info">"请选择信号强的网络"</string>
+	<string name="server_exception">"服务器异常"</string>
+	<string name="check_error">"检查更新出错"</string>
+	<string name="pls_try_again_late">"请稍后再试"</string>
+
+	<!-- FOTA size string -->
+	<string name="kb">"KB"</string>
+	<string name="mb">"MB"</string>
+
+	<!-- FOTA notification information string -->
+	<string name="notification_msg_new_update">"发现系统新版本"</string>
+	<string name="notification_content_new_update">"点击查看新版本特性"</string>
+	<string name="notification_download_paused">"下载暂停"</string>
+	<string name="notification_downloading">"正在下载"</string>
+	<string name="notification_download_completed">"下载完成，点击完成升级"</string>
+
+	<!-- FOTA Toast information string  -->
+	<string name="toast_show_server_ko_for_download">"服务器出现了问题，请稍后继续下载"</string>
+	<string name="toast_show_crash_info">"应用出现异常，即将重新启动应用"</string>
+	<string name="toast_show_network_ko_for_download">"网络错误，已暂停下载"</string>
+	<string name="toast_show_task_missing">"下载任务丢失，请退出后重新检查"</string>
+
+	<!-- FOTA AlertDialog information string -->
+	<string name="dialog_title_warm">"提示"</string>
+	<string name="ok">"我知道了"</string>
+	<string name="dialog_msg_network_warn">"wifi网络断开，已暂停下载，是否使用手机数据网络继续下载？"</string>
+	<string name="dialog_msg_network_disconnected">"网络断开或网络异常，已暂停下载。"</string>
+	<string name="dialog_msg_download_network">"无网络连接，无法开始下载"</string>
+	<string name="dialog_msg_download_setting_network">"设置网络"</string>
+	<string name="dialog_msg_download_network_mobile">"升级包较大，推荐使用wifi下载。目前使用非wifi网络，是否仍然下载？"</string>
+	<string name="dialog_msg_download_network_mobile_download">"下载"</string>
+	<string name="dialog_msg_download_storage">"手机存储空间不足，请清理后继续下载"</string>
+	<string name="dialog_msg_download_storage_cleanup">"去清理"</string>
+	<string name="dialog_msg_version_invalid">"当前下载的版本出现异常，为确保你的系统安全，已删除下载任务，我们正在处理异常，请稍后再打开系统升级，检查更新情况。"</string>
+	<string name="dialog_msg_version_discard">"当前下载的版本出现异常，为确保你的系统安全，已删除下载任务，我们正在处理异常。你可以立即下载一个较早前发布的版本，但我们建议稍后再打开系统升级，检查更新情况。"</string>
+	<string name="dialog_msg_version_expired">"当前下载的版本已不是最新发布的版本，为了保证系统的正常使用，请重新下载最新版本。"</string>
+	<string name="dialog_msg_version_expired_redownload">"立即下载"</string>
+	<string name="dialog_msg_install_low_battery">"为保证正常升级，电量必须高于35%，请充电"</string>
+	<string name="dialog_msg_install_package_error">"升级包出错，为保证升级安全，将重新下载升级包"</string>
+	<string name="dialog_msg_install_failed">"升级失败"</string>
+	<string name="dialog_msg_delete_download">"取消将删除已下载的部分"</string>
+	<string name="dialog_msg_resume_download">"继续下载"</string>
+	<string name="dialog_msg_cancel_download">"取消下载"</string>
+	<string name="dialog_msg_exit_install">"升级包已下载完成，确定暂不升级？"</string>
+	<string name="dialog_msg_exit_install_cancel">"取消"</string>
+	<string name="dialog_msg_exit_install_ok">确定"</string>
+	<string name="dialog_msg_restart_and_install">"确定要重启升级吗？"</string>
+	<string name="dialog_msg_restart_and_install_cancel">"取消"</string>
+	<string name="dialog_msg_restart_and_install_ok">"确定"</string>
+	<string name="dialog_msg_install_call_interrupt">"因来电终止升级，请重新点击重启升级"</string>
+
+	<!-- FOTA ProgressDialog information string -->
+	<string name="dialog_msg_install_verify">"正在校验..."</string>
+
+</resources>

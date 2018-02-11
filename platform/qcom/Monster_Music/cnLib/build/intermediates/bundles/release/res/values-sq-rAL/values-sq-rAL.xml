@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cannot_specify_an_empty_name_for_playlist">"Emri i listës për tu luajtur nuk mund të jetë bosh"</string>
+    <string name="cross_dj_saturated_storage_not_enough_free_space_to_record_your_mix">"Hapësirë e pamjaftueshme për të regjistruar përzierjen tuaj."</string>
+    <string name="cross_dj_saturated_storage_your_recording_might_stop_soon_because_no_more_free_space_is_available">"Regjistrimi juaj mund të ndalojë së shpejti, sepse nuk ka më hapësirë të disponueshme."</string>
+    <string name="invalid_drm_file">"Skedari nuk ka autoritet të vlefshëm DRM."</string>
+    <string name="mobiledata_turnoff_btn">"Çaktivizuar"</string>
+    <string name="never_show_it_again">"Mos e shfaq përsëri"</string>
+    <string name="no_error">"Asnjë gabim"</string>
+    <string name="recording_reached_max_duration">"Regjistrimi ka arritur kohëzgjatjen maksimale të tij. Ju lutem kontrolloni të preferencat tuaja."</string>
+    <string name="recording_soon_to_reach_max_duration">"Regjistrimi do arrijë së shpejti kohëzgjatjen maksimale të tij. Ju lutem kontrolloni të preferencat tuaja."</string>
+    <string name="scratching_is_disabled_in_no_mix_mode">"Ju mund të hiqni vetëm kur është në mënyrën DJ"</string>
+    <string name="sign_up">"Regjistrohu"</string>
+    <string name="the_external_memory_storage_is_not_mounted">"Hapësira e kujtesës së jashtme nuk është montuar. Ju mund t\'ju duhet të çaktivizoni Hapësirën e Kujtesës USB."</string>
+    <string name="there_s_not_enough_space_in_your_internal_storage_try_to_do_some_clean_up">"Nuk ka hapësirë të mjaftueshme në kujtesën tuaj të brendshme (provoni të lironi disa hapësirë)"</string>
+</resources>

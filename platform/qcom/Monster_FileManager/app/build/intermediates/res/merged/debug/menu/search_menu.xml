@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <item
+        android:id="@+id/search_btn"
+        android:title="@string/search"
+        android:showAsAction="always"
+        android:icon="@drawable/btn_search"
+        android:actionViewClass="android.widget.SearchView"
+        >
+    </item>
+
+
+
+
+</menu>

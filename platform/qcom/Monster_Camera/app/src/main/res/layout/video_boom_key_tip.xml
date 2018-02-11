@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:id="@+id/boom_key_tip"
+        android:gravity="right"
+        android:visibility="gone"
+        android:background="@color/video_recording_boom_key_tip_background">
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/video_recording_boom_key_tip_height"
+        android:layout_marginRight="@dimen/video_recording_boom_key_tip_margin_right"
+        android:id="@+id/boom_key_text">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/video_recording_boom_key_tip_text_height"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:lineSpacingExtra="@dimen/video_recording_boom_key_line_spaceing_extra"
+            android:includeFontPadding="false"
+            android:text="@string/boom_key_press"
+            android:id="@+id/boom_key_press"
+            android:textColor="@color/video_recording_press_boom_key_text_color"
+            android:textSize="@dimen/video_recording_press_boom_key_text_size"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:textAlignment="center"
+            android:singleLine="true"
+            android:maxHeight="@dimen/video_recording_press_boom_key_text_max_height"
+            android:layout_gravity="top"
+            android:layout_marginTop="@dimen/video_recording_press_boom_key_text_margin_top"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:textAllCaps="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/video_recording_boom_key_text_height"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:lineSpacingExtra="@dimen/video_recording_boom_key_line_spaceing_extra"
+            android:includeFontPadding="false"
+            android:text="@string/boom_key"
+            android:id="@+id/boom_key"
+            android:textColor="@color/video_recording_boom_key_text_color"
+            android:textSize="@dimen/video_recording_boom_key_text_size"
+            android:textStyle="normal"
+            android:layout_marginTop="@dimen/video_recording_boom_key_text_margin_top"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:textAlignment="center"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="@dimen/video_recording_boom_key_text_margin_bottom"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:textAllCaps="true" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="@dimen/video_recording_boom_key_tip_anim_width"
+        android:layout_height="@dimen/video_recording_boom_key_tip_anim_height"
+        android:layout_gravity="right"
+        android:layout_marginRight="@dimen/video_recording_boom_key_tip_anim_margin_right"
+        android:layout_alignParentRight="true"
+        android:id="@+id/boom_key_icon">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/boom_key_bg"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/boom_key_tip_bg"
+            android:contextClickable="false"/>
+
+        <ImageView
+            android:layout_width="@dimen/video_recording_boom_key_tip_anim_btn_width"
+            android:layout_height="@dimen/video_recording_boom_key_tip_anim_btn_height"
+            android:id="@+id/boom_key_btn"
+            android:layout_gravity="center_vertical|left"
+            android:background="@drawable/boom_key_tip_btn"/>
+    </FrameLayout>
+</LinearLayout>

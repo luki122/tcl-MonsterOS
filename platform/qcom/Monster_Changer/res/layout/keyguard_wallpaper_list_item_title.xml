@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/title_parent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" 
+    android:paddingBottom="@dimen/keyguard_list_item_padding_bottom"
+    android:paddingTop="@dimen/keyguard_list_item_padding_top"
+    >
+
+    <CheckBox
+        android:id="@+id/keyguard_list_item_check"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/size_keyguard_list_item_applied"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        />
+
+    <CheckBox
+        android:id="@+id/keyguard_list_item_delete_check"
+        android:layout_width="@dimen/size_keyguard_list_item_applied"
+        android:layout_height="@dimen/size_keyguard_list_item_applied"
+        android:visibility="invisible"
+        android:clickable="false"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+         />
+    
+    
+    <TextView
+        android:id="@+id/keyguard_wallpaper_list_item_title"
+        style="@style/TextAppearance.KeyguardWallpaperListItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="2dp"
+        android:layout_marginLeft="12dp"
+        android:layout_toRightOf="@id/keyguard_list_item_check"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/keyguard_wallpaper_list_item_image_count"
+        style="@style/TextAppearance.KeyguardWallpaperListItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="2dp"
+        android:layout_marginLeft="11dp"
+        android:layout_toRightOf="@id/keyguard_wallpaper_list_item_title"
+        android:gravity="center" />
+    
+
+</RelativeLayout>

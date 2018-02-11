@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="6dp"
+    android:orientation="horizontal">
+    <CheckBox
+        android:id="@+id/home_check_del"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginRight="13dp"
+        android:layout_marginLeft="13dp"
+        android:layout_gravity="center"
+        android:button="@drawable/ic_home_check_box"/>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shadow">
+<LinearLayout
+    android:layout_width="@dimen/home_item_wight"
+    android:layout_height="@dimen/home_item_height"
+    android:background="?android:attr/selectableItemBackgroundBorderless"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/home_item_padding_left"
+    android:paddingRight="@dimen/home_item_padding_right">
+
+    <TextView
+        android:id="@+id/home_first_line"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/home_item_first_line_margin_top"
+        android:ellipsize="none"
+        android:singleLine="true"
+        android:fontFamily="monster-normal"
+        android:textColor="@color/home_item_first_line_font_color"
+        android:textSize="@dimen/home_item_first_line_font_size" />
+
+    <TextView
+        android:id="@+id/home_second_line"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/home_item_second_line_margin_top"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:fontFamily="monster-normal"
+        android:textColor="@color/home_item_second_line_font_color"
+        android:textSize="@dimen/home_item_second_line_font_size" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/home_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="@dimen/home_item_time_margin_bottom"
+            android:layout_weight="1"
+            android:fontFamily="monster-normal"
+            android:textColor="@color/home_item_time_font_color"
+            android:textSize="@dimen/home_item_time_font_size" />
+
+        <ImageView
+            android:id="@+id/home_will"
+            android:layout_width="@dimen/home_item_img_size"
+            android:layout_height="@dimen/home_item_img_size"
+            android:layout_marginBottom="@dimen/home_item_img_margin_bottom"
+            android:src="@drawable/ic_home_will" />
+
+        <ImageView
+            android:id="@+id/home_audio"
+            android:layout_width="@dimen/home_item_img_size"
+            android:layout_height="@dimen/home_item_img_size"
+            android:layout_marginBottom="@dimen/home_item_img_margin_bottom"
+            android:layout_marginLeft="@dimen/home_item_img_margin_left"
+            android:src="@drawable/ic_home_audio" />
+
+        <ImageView
+            android:id="@+id/home_img"
+            android:layout_width="@dimen/home_item_img_size"
+            android:layout_height="@dimen/home_item_img_size"
+            android:layout_marginBottom="@dimen/home_item_img_margin_bottom"
+            android:layout_marginLeft="@dimen/home_item_img_margin_left"
+            android:src="@drawable/ic_home_img" />
+    </LinearLayout>
+</LinearLayout>
+</LinearLayout>
+</LinearLayout>

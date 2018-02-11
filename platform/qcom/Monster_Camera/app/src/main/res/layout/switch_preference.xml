@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/switch_preference_single"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/switch_pref_height"
+    android:paddingStart="@dimen/switch_pref_padding_start"
+    android:paddingEnd="@dimen/switch_pref_padding_end">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/switch_preference_single_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textColor="@color/switch_pref_text_color"
+            android:textSize="@dimen/switch_pref_text_size" />
+
+        <Switch
+            android:id="@+id/switch_preference_single_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:background="@null"
+            android:thumb="@drawable/switch_preference_switch_thumb"
+            android:track="@drawable/switch_preference_switch_track"/>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/switch_pref_line_height"
+        android:id="@+id/switch_preference_single_line"
+        android:layout_alignParentBottom="true"
+        android:background="@color/switch_pref_line_color"/>
+</RelativeLayout>

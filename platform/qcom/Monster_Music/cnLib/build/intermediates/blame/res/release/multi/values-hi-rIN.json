@@ -1,0 +1,64 @@
+[
+    {
+        "outputFile": "/home/ximoon/document/git/Monster_Music/cnLib/build/intermediates/res/merged/release/values-hi-rIN/values-hi-rIN.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 90,
+                    "endOffset": 141
+                },
+                "from": {
+                    "file": "/home/ximoon/document/git/Monster_Music/cnLib/src/main/res/values-hi-rIN/strings.xml",
+                    "position": {
+                        "startLine": 118,
+                        "startColumn": 1,
+                        "startOffset": 4360,
+                        "endColumn": 87,
+                        "endOffset": 4446
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 146,
+                    "endColumn": 67,
+                    "endOffset": 209
+                },
+                "from": {
+                    "file": "/home/ximoon/document/git/Monster_Music/cnLib/src/main/res/values-hi-rIN/strings.xml",
+                    "position": {
+                        "startLine": 78,
+                        "startColumn": 1,
+                        "startOffset": 2921,
+                        "endColumn": 64,
+                        "endOffset": 2984
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 214,
+                    "endColumn": 50,
+                    "endOffset": 260
+                },
+                "from": {
+                    "file": "/home/ximoon/document/git/Monster_Music/cnLib/src/main/res/values-hi-rIN/strings.xml",
+                    "position": {
+                        "startLine": 90,
+                        "startColumn": 1,
+                        "startOffset": 3359,
+                        "endColumn": 47,
+                        "endOffset": 3405
+                    }
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:attr/colorPrimary">
+
+    <!-- BANNER -->
+    <include
+        android:id="@+id/birthday_info_banner"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/event_info_banner_height"
+        layout="@layout/mst_birthday_info_banner" />
+
+    <ListView
+        android:id="@+id/birthday_info_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/birthday_info_banner" />
+</RelativeLayout>

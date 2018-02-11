@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent"
+    tools:context=".DecisionListActivity">
+
+    <View
+        android:id="@+id/decision_list_transparent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <cn.tcl.meetingassistant.view.DecisionPageScrollLayout
+        android:id="@+id/decision_list_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/card_color">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/decision_list_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/app_background"/>
+
+    </cn.tcl.meetingassistant.view.DecisionPageScrollLayout>
+
+</RelativeLayout>

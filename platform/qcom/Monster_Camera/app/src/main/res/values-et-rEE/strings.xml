@@ -1,0 +1,1068 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"Kaamera"</string>
+	<!---->
+	<string name="gallery_app_name">"Galerii"</string>
+	<!---->
+	<string name="video_camera_label">"Videokaamera"</string>
+	<!-- no translation found for details_ms -->
+	<skip />
+	<!-- no translation found for details_hms -->
+	<skip />
+	<!---->
+	<string name="set_image">"Seadke pilt kui"</string>
+	<!---->
+	<string name="delete">"Kustuta"</string>
+	<!---->
+	<string name="share">"Jaga"</string>
+	<!---->
+	<string name="share_panorama">"Panoraami jagamine"</string>
+	<!---->
+	<string name="share_as_photo">"Fotona jagamine"</string>
+	<!---->
+	<string name="deleted">"Kustutatud"</string>
+	<!---->
+	<string name="undo">"VÕTA TAGASI"</string>
+	<!---->
+	<string name="details">"Üksikasjad"</string>
+	<!---->
+	<string name="close">"Sule"</string>
+	<!---->
+	<string name="show_on_map">"Näita kaardil"</string>
+	<!---->
+	<string name="rotate_left">"Pööra vasakule"</string>
+	<!---->
+	<string name="rotate_right">"Pööra paremale"</string>
+	<!---->
+	<string name="edit">"Muuda"</string>
+	<!---->
+	<string name="crop_action">"Kärpimine"</string>
+	<!---->
+	<string name="trim_action">"Trimmi"</string>
+	<!---->
+	<string name="set_as">"Seadista kui"</string>
+	<!---->
+	<string name="video_err">"Videot ei saa esitada"</string>
+	<!---->
+	<string name="title">"Pealkiri"</string>
+	<!-- no translation found for description -->
+	<skip />
+	<!---->
+	<string name="time">"Kellaaeg"</string>
+	<!---->
+	<string name="location">"Asukoht"</string>
+	<!---->
+	<string name="path">"Tee"</string>
+	<!---->
+	<string name="width">"Laius"</string>
+	<!---->
+	<string name="height">"Kõrgus"</string>
+	<!---->
+	<string name="orientation">"Pööra ekraani automaatselt"</string>
+	<!---->
+	<string name="duration">"Kestus"</string>
+	<!---->
+	<string name="mimetype">"MIME-tüüp"</string>
+	<!---->
+	<string name="file_size">"Faili suurus"</string>
+	<!---->
+	<string name="maker">"Looja"</string>
+	<!---->
+	<string name="model">"Mudel"</string>
+	<!---->
+	<string name="flash">"Välk"</string>
+	<!---->
+	<string name="aperture">"Ava"</string>
+	<!---->
+	<string name="focal_length">"Fookuskaugus"</string>
+	<!---->
+	<string name="white_balance">"Valge tasakaal"</string>
+	<!---->
+	<string name="exposure_time">"Säriaeg"</string>
+	<!---->
+	<string name="iso">"ISO"</string>
+	<!-- no translation found for unit_mm -->
+	<skip />
+	<!---->
+	<string name="manual">"Käsitsi"</string>
+	<!---->
+	<string name="auto">"Autom."</string>
+	<!---->
+	<string name="flash_on">"Välk sees"</string>
+	<!---->
+	<string name="flash_off">"Välguta"</string>
+	<!-- no translation found for unknown -->
+	<skip />
+	<!---->
+	<string name="try_to_set_local_album_available_offline">"See üksus on kohalikult salvestatud ja offlainis kättesaadav."</string>
+	<!---->
+	<string name="please_wait">"Oota üks hetk"</string>
+	<!---->
+	<string name="camera_error_title">"Kaamera viga"</string>
+	<!---->
+	<string name="cannot_connect_camera">"Kaameraga ei saanud ühendust."</string>
+	<!---->
+	<string name="camera_disabled">"Kaamera on keelatud turvaeeskirjade tõttu."</string>
+	<!---->
+	<string name="wait">"Oodake ..."</string>
+	<!---->
+	<string name="no_storage" product="default">"Enne kaamera kasutamist sisesta SD-kaart"</string>
+	<!---->
+	<string name="preparing_sd" product="default">"SD-kaardi ettevalmistamine\u2026"</string>
+	<!---->
+	<string name="access_sd_fail" product="default">"Juurdepääs SD-kaardile ebaõnnestus."</string>
+	<!---->
+	<string name="time_lapse_title">"Aeglase filmimise salvestamine"</string>
+	<!-- no translation found for capturing -->
+	<skip />
+	<!---->
+	<string name="pref_camera_id_title">"Vali kaamera"</string>
+	<!---->
+	<string name="pref_camera_id_entry_back">"Tagasi"</string>
+	<!---->
+	<string name="pref_camera_id_entry_front">"Eestvaade"</string>
+	<!---->
+	<string name="pref_camera_save_location_title">"GPS-i sildistamine"</string>
+	<!-- no translation found for pref_camera_location_label -->
+	<skip />
+	<!---->
+	<string name="pref_camera_timer_title">"Iseavaja taimer"</string>
+	<!-- no translation found for pref_camera_timer_sound_default -->
+	<skip />
+	<!---->
+	<string name="pref_camera_timer_sound_title">"Iseavaja heli"</string>
+	<!-- no translation found for setting_off -->
+	<skip />
+	<!-- no translation found for setting_on -->
+	<skip />
+	<!---->
+	<string name="pref_video_quality_title">"Video kvaliteet"</string>
+	<!-- no translation found for pref_video_time_lapse_frame_interval_title -->
+	<skip />
+	<!---->
+	<string name="pref_camera_settings_category">"Kaamera seaded"</string>
+	<!---->
+	<string name="pref_camcorder_settings_category">"Videokaamera seaded"</string>
+	<!---->
+	<string name="pref_camera_picturesize_title">"Pildi suurus"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_large">"Suur"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_medium">"Keskmine"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_small">"Väike"</string>
+	<!---->
+	<string name="pref_camera_focusmode_title">"Teravustamisrežiim"</string>
+	<!---->
+	<string name="pref_camera_focusmode_entry_auto">"Autom."</string>
+	<!---->
+	<string name="pref_camera_focusmode_entry_infinity">"Lõpmatus"</string>
+	<!---->
+	<string name="pref_camera_focusmode_entry_macro">"Makro"</string>
+	<!---->
+	<string name="pref_camera_focusmode_label_auto">"AUTO"</string>
+	<!---->
+	<string name="pref_camera_focusmode_label_infinity">"Lõpmatus"</string>
+	<!---->
+	<string name="pref_camera_focusmode_label_macro">"Makro"</string>
+	<!---->
+	<string name="pref_camera_flashmode_title">"Välgurežiim"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label">"VÄLGUREŽIIM"</string>
+	<!---->
+	<string name="pref_camera_flashmode_entry_auto">"Autom."</string>
+	<!---->
+	<string name="pref_camera_flashmode_entry_on">"SEES"</string>
+	<!---->
+	<string name="pref_camera_flashmode_entry_off">"Väljas"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label_auto">"AUTOMAATVÄLK"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label_on">"VÄLK ON SEES"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label_off">"VÄLK ON VÄLJAS"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_title">"Valge tasakaal"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label">"Valge tasakaal"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_auto">"Autom."</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_incandescent">"Hõõglamp"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_daylight">"Päevavalgus"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_fluorescent">"Päevavalguslamp"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_cloudy">"Pilves"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_auto">"Automaatne"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_incandescent">"Hõõglamp"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_daylight">"Päevavalgus"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_fluorescent">"Päevavalguslamp"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_cloudy">"Pilves"</string>
+	<!---->
+	<string name="pref_camera_scenemode_title">"Stseenirežiim"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_auto">"Autom."</string>
+	<!-- no translation found for pref_camera_scenemode_entry_hdr_plus -->
+	<skip />
+	<!-- no translation found for pref_camera_scenemode_entry_hdr -->
+	<skip />
+	<!-- no translation found for pref_camera_scenemode_entry_turn_hdr_plus_on -->
+	<skip />
+	<!-- no translation found for pref_camera_scenemode_entry_turn_hdr_plus_off -->
+	<skip />
+	<!-- no translation found for pref_camera_scenemode_entry_turn_hdr_on -->
+	<skip />
+	<!-- no translation found for pref_camera_scenemode_entry_turn_hdr_off -->
+	<skip />
+	<!---->
+	<string name="pref_camera_scenemode_entry_action">"Toiming"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_night">"Öö"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_sunset">"Päikeseloojang"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_party">"Pidu"</string>
+	<!-- no translation found for pref_camera_scenemode_label_auto -->
+	<skip />
+	<!-- no translation found for pref_camera_scenemode_label_action -->
+	<skip />
+	<!-- no translation found for pref_camera_scenemode_label_night -->
+	<skip />
+	<!-- no translation found for pref_camera_scenemode_label_sunset -->
+	<skip />
+	<!-- no translation found for pref_camera_scenemode_label_party -->
+	<skip />
+	<!---->
+	<string name="pref_camera_countdown_label_off">"TAIMER VÄLJAS"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_one">"1 SEKUND"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_three">"3 sekundit"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_five">"5 sekundit"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_ten">"10 sekundit"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_fifteen">"15 sekundit"</string>
+	<!---->
+	<string name="not_selectable_in_scene_mode">"Seda ei saa stseenirežiimis valida."</string>
+	<!---->
+	<string name="pref_exposure_title">"Säriaeg"</string>
+	<!---->
+	<string name="pref_exposure_label">"Säriaeg"</string>
+	<!-- no translation found for pref_camera_hdr_default -->
+	<skip />
+	<!-- no translation found for pref_camera_hdr_plus_default -->
+	<skip />
+	<!---->
+	<string name="pref_camera_hdr_label">"HDR"</string>
+	<!---->
+	<string name="pref_camera_id_label_back">"ESIKAAMERA"</string>
+	<!---->
+	<string name="pref_camera_id_label_front">"TAGUMINE KAAMERA"</string>
+	<!---->
+	<string name="dialog_ok">"OK"</string>
+	<!---->
+	<string name="dialog_cancel">"Tühista"</string>
+	<!---->
+	<string name="spaceIsLow_content" product="default">"Teie SD-kaardi salvestusruum saab otsa. Muutke kvaliteediseadet või kustutage kujutisi või teisi faile."</string>
+	<!---->
+	<string name="phone_storage_low" product="default">"Telefoni mälu hakkab täis saama. Muuda kvaliteediseadet või kustuta mõned pildid või muud failid ära."</string>
+	<!---->
+	<string name="video_reach_size_limit">"Suuruspiirang on saavutatud."</string>
+	<!---->
+	<string name="video_record_start_failed">"Salvestamist ei saanud alustada"</string>
+	<!---->
+	<string name="pano_too_fast_prompt">"Liiga kiire"</string>
+	<!---->
+	<string name="pano_dialog_prepare_preview">"Panoraami ettevalmistus"</string>
+	<!---->
+	<string name="pano_dialog_panorama_failed">"Panoraami ei saanud salvestada."</string>
+	<!---->
+	<string name="pano_dialog_title">"Panoraam"</string>
+	<!---->
+	<string name="pano_capture_indication">"Panoraami jäädvustamine"</string>
+	<!---->
+	<string name="pano_dialog_waiting_previous">"Eelmise panoraami ootel"</string>
+	<!---->
+	<string name="pano_review_saving_indication_str">"Salvestamine ..."</string>
+	<!---->
+	<string name="pano_review_rendering">"Panoraami renderdamine"</string>
+	<!---->
+	<string name="tap_to_focus">"Puudutage fokuseerimiseks."</string>
+	<!---->
+	<string name="pref_video_effect_title">"Efektid"</string>
+	<!---->
+	<string name="effect_none">"Puudub"</string>
+	<!---->
+	<string name="effect_goofy_face_squeeze">"Pitsita"</string>
+	<!---->
+	<string name="effect_goofy_face_big_eyes">"Suured silmad"</string>
+	<!---->
+	<string name="effect_goofy_face_big_mouth">"Suur suu"</string>
+	<!---->
+	<string name="effect_goofy_face_small_mouth">"Väike suu"</string>
+	<!---->
+	<string name="effect_goofy_face_big_nose">"Suur nina"</string>
+	<!---->
+	<string name="effect_goofy_face_small_eyes">"Väiksed silmad"</string>
+	<!---->
+	<string name="effect_backdropper_space">"Kosmoses"</string>
+	<!---->
+	<string name="effect_backdropper_sunset">"Päikeseloojang"</string>
+	<!---->
+	<string name="effect_backdropper_gallery">"Teie video"</string>
+	<!---->
+	<string name="video_snapshot_hint">"Puudutage salvestamise ajal foto jäädvustamiseks."</string>
+	<!---->
+	<string name="video_recording_started">"Video salvestamine algas."</string>
+	<!---->
+	<string name="video_recording_stopped">"Video salvestamine lõppes."</string>
+	<!---->
+	<string name="clear_effects">"Nulli efektid"</string>
+	<!---->
+	<string name="effect_silly_faces">"NALJAKAD NÄOD"</string>
+	<!---->
+	<string name="effect_background">"Taust"</string>
+	<!-- no translation found for accessibility_shutter_button -->
+	<skip />
+	<!---->
+	<string name="accessibility_cancel_button">"Tühista"</string>
+	<!---->
+	<string name="accessibility_menu_button">"Menüü nupp"</string>
+	<!---->
+	<string name="accessibility_check_box">"Märkeruut %1$s"</string>
+	<!---->
+	<string name="accessibility_switch_to_camera">"Aktiveeri fotorežiim"</string>
+	<!---->
+	<string name="accessibility_switch_to_video">"Lülitu videole"</string>
+	<!---->
+	<string name="accessibility_switch_to_panorama">"Aktiveeri panoraamrežiim"</string>
+	<!-- no translation found for accessibility_switch_to_photo_sphere -->
+	<skip />
+	<!-- no translation found for accessibility_switch_to_gcam -->
+	<skip />
+	<!---->
+	<string name="accessibility_switch_to_refocus">"Lülitu uuesti teravustamisele"</string>
+	<!---->
+	<string name="accessibility_review_cancel">"Eelvaate tühistamine"</string>
+	<!---->
+	<string name="accessibility_review_ok">"Arvustus valmis"</string>
+	<!---->
+	<string name="accessibility_review_retake">"Uue võtte ülevaade"</string>
+	<!---->
+	<string name="accessibility_mode_options">"Suvandid"</string>
+	<!---->
+	<string name="accessibility_mode_list_hidden">"Režiimide loetelu suletud"</string>
+	<!---->
+	<string name="accessibility_mode_list_shown">"Režiimide loetelu avatud"</string>
+	<!---->
+	<string name="media_accessibility_peek">"Hõive tehtud"</string>
+	<!---->
+	<string name="photo_accessibility_peek">"Fotod tehtud"</string>
+	<!---->
+	<string name="video_accessibility_peek">"Tehtud videod"</string>
+	<!---->
+	<string name="accessibility_unlock_to_camera">"Vabasta kaamera"</string>
+	<!---->
+	<string name="media_date_content_description">"Meedia tehtud %s"</string>
+	<!---->
+	<string name="photo_date_content_description">"Foto tehtud %s"</string>
+	<!---->
+	<string name="video_date_content_description">"Video tehtud %s"</string>
+	<!---->
+	<string name="panorama_date_content_description">"Panoraam tehtud %s"</string>
+	<!---->
+	<string name="photosphere_date_content_description">"Fotosfäär tehtud %s"</string>
+	<!---->
+	<string name="refocus_date_content_description">"Ähmast objektiivi kasutatud %s"</string>
+	<!---->
+	<string name="media_processing_content_description">"Meedia töötlemine"</string>
+	<!---->
+	<string name="accessibility_mode_list_toggle">"Tumblerirežiimi loetelu"</string>
+	<!---->
+	<string name="btn_mode_list_toggle">"Režiimide loetelu"</string>
+	<!---->
+	<string name="accessibility_filmstrip_toggle">"Kasuta tumblerit filmiribadel"</string>
+	<!---->
+	<string name="btn_filmstrip_toggle">"Filmiriba"</string>
+	<!-- no translation found for capital_on -->
+	<skip />
+	<!---->
+	<string name="capital_off">"VÄLJAS"</string>
+	<!---->
+	<string name="video_control_play">"Esita videot"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_off">"Väljas"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_500">"0,5 sekundit"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1000">"1 sekund"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1500">"1,5 sekundit"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_2000">"2 sekundit"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_2500">"2,5 sekundit"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_3000">"3 sekundit"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_4000">"4 sekundit"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_5000">"5 sekundit"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_6000">"6 sekundit"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_10000">"10 sekundit"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_12000">"12 sekundit"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_15000">"15 sekundit"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_24000">"24 sekundit"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_30000">"0,5 minutit"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_60000">"1 minut"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_90000">"1,5 minutit"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_120000">"2 minutit"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_150000">"2,5 minutit"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_180000">"3 minutit"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_240000">"4 minutit"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_300000">"5 minutit"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_360000">"6 minutit"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_600000">"10 minutit"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_720000">"12 minutit"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_900000">"15 minutit"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1440000">"24 minutit"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1800000">"0,5 tundi"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_3600000">"1 tund"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_5400000">"1,5 tundi"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_7200000">"2 tundi"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_9000000">"2,5 tundi"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_10800000">"3 tundi"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_14400000">"4 tundi"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_18000000">"5 tundi"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_21600000">"6 tundi"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_36000000">"10 tundi"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_43200000">"12 tundi"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_54000000">"15 tundi"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_86400000">"24 tundi"</string>
+	<!---->
+	<string name="time_lapse_seconds">"sekundit"</string>
+	<!---->
+	<string name="time_lapse_minutes">"minutit"</string>
+	<!---->
+	<string name="time_lapse_hours">"tundi"</string>
+	<!-- no translation found for time_lapse_interval_set -->
+	<skip />
+	<!---->
+	<string name="set_time_interval">"Ajavahemiku määramine"</string>
+	<!---->
+	<string name="set_time_interval_help">"Aeglustamisfunktsioon on välja lülitatud. Ajavahemiku määramiseks lülitage funktsioon sisse."</string>
+	<!---->
+	<string name="set_duration">"Määrake kestus sekundites"</string>
+	<!---->
+	<string name="count_down_title_text">"Aega foto tegemiseni"</string>
+	<!---->
+	<string name="remember_location_title">"Kas jätta meelde fotode jäädvustamise asukohad?"</string>
+	<!---->
+	<string name="remember_location_prompt">"Märkige oma fotodele ja videotele jäädvustamise asukoht.\n\nMuud rakendused pääsevad lisaks salvestatud piltidele juurde ka sellele teabele."</string>
+	<!---->
+	<string name="remember_location_no">"Tänan, ei"</string>
+	<!---->
+	<string name="remember_location_yes">"Jah"</string>
+	<!---->
+	<string name="camera_menu_more_label">"Rohkem valikuid"</string>
+	<!-- no translation found for camera_menu_settings_label -->
+	<skip />
+	<!-- no translation found for create_tiny_planet -->
+	<skip />
+	<!-- no translation found for saving_tiny_planet -->
+	<skip />
+	<!-- no translation found for tiny_planet_zoom -->
+	<skip />
+	<!-- no translation found for tiny_planet_rotate -->
+	<skip />
+	<!---->
+	<string name="photo_editor">"Fotoredaktor"</string>
+	<!---->
+	<string name="crop_save">"Salvesta"</string>
+	<!---->
+	<string name="cannot_load_image">"Pilti ei saa laadida."</string>
+	<!---->
+	<string name="switch_photo_filmstrip">"Filmiriba vaade"</string>
+	<!---->
+	<string name="setting_wallpaper">"Taustapildi määramine"</string>
+	<!---->
+	<string name="mode_settings">"Seaded"</string>
+	<!---->
+	<string name="mode_camera">"Automaatne"</string>
+	<!---->
+	<string name="mode_video">"Video"</string>
+	<!---->
+	<string name="mode_slow_motion">"Aegluubis"</string>
+	<!---->
+	<string name="mode_photosphere">"Fotosfäär"</string>
+	<!---->
+	<string name="mode_timelapse">"Ajaline kestus"</string>
+	<!---->
+	<string name="mode_wideangle">"Lainurk"</string>
+	<!---->
+	<string name="mode_panorama">"Panoraam"</string>
+	<!---->
+	<string name="mode_refocus">"Ähmane objektiiv"</string>
+	<!---->
+	<string name="mode_camera_desc">"Lülitu kaamerarežiimile"</string>
+	<!---->
+	<string name="mode_video_desc">"Kas lülituda videokaamerale?"</string>
+	<!---->
+	<string name="mode_photosphere_desc">"Lülitu fotosfäärirežiimile"</string>
+	<!---->
+	<string name="mode_panorama_desc">"Lülitu panoraamirežiimile"</string>
+	<!---->
+	<string name="mode_slow_motion_desc">"Lülitu aegluubirežiimi"</string>
+	<!---->
+	<string name="mode_refocus_desc">"Lülitu ähmase objektiivi režiimi"</string>
+	<!---->
+	<string name="settings_open_desc">"Ava sätted"</string>
+	<!---->
+	<string name="settings_close_desc">"Sulge sätted"</string>
+	<!---->
+	<string name="hdr_plus_off_desc">"HDR+ väljas"</string>
+	<!---->
+	<string name="hdr_plus_on_desc">"HDR+ sees"</string>
+	<!---->
+	<string name="hdr_off_desc">"HDR väljas"</string>
+	<!---->
+	<string name="hdr_on_desc">"HDR sees"</string>
+	<!---->
+	<string name="flash_off_desc">"VÄLK ON VÄLJAS"</string>
+	<!---->
+	<string name="flash_auto_desc">"AUTOMAATVÄLK"</string>
+	<!---->
+	<string name="flash_on_desc">"VÄLK ON SEES"</string>
+	<!---->
+	<string name="hdr_plus_flash_off_desc">"HDR+ välk väljas"</string>
+	<!---->
+	<string name="hdr_plus_flash_auto_desc">"HDR+ automaatvälk"</string>
+	<!---->
+	<string name="hdr_plus_flash_on_desc">"HDR+ välk sees"</string>
+	<!---->
+	<string name="torch_on_desc">"Taskulamp sees"</string>
+	<!---->
+	<string name="torch_off_desc">"Taskulamp väljas"</string>
+	<!---->
+	<string name="camera_id_back_desc">"TAGUMINE KAAMERA"</string>
+	<!---->
+	<string name="camera_id_front_desc">"ESIKAAMERA"</string>
+	<!---->
+	<string name="grid_lines_off_desc">"Ruudustiku jooned väljas"</string>
+	<!---->
+	<string name="grid_lines_on_desc">"Ruudustiku jooned sees"</string>
+	<!---->
+	<string name="countdown_timer_off">"Mahaloenduse taimer väljas"</string>
+	<!---->
+	<string name="countdown_timer_duration_2s">"Pöördloenduri taimeri kestuseks on seadistatud 2 sekundit"</string>
+	<!---->
+	<string name="countdown_timer_duration_3s">"Pöördloenduri taimeri kestuseks on seadistatud 3 sekundit"</string>
+	<!---->
+	<string name="countdown_timer_duration_5s">"Pöördloenduri taimeri kestuseks on seadistatud 5 sekundit"</string>
+	<!---->
+	<string name="countdown_timer_duration_10s">"Pöördloenduri taimeri kestuseks on seadistatud 10 sekundit"</string>
+	<!---->
+	<string name="more_options_desc">"Rohkem valikuid"</string>
+	<!---->
+	<string name="cancel_button_description">"Tühista"</string>
+	<!---->
+	<string name="done_button_description">"Valmis"</string>
+	<!---->
+	<string name="retake_button_description">"Uus võte"</string>
+	<!---->
+	<string name="share_button_description">"Jaga"</string>
+	<!---->
+	<string name="view_button_description">"Kuva"</string>
+	<!---->
+	<string name="edit_button_description">"Muuda"</string>
+	<!---->
+	<string name="delete_button_description">"kustuta"</string>
+	<!---->
+	<string name="manual_exposure_compensation_desc">"Manuaalne särituse kompenseerimine"</string>
+	<!---->
+	<string name="exposure_compensation_desc_n2">"Särituse kompensatsioon -2"</string>
+	<!---->
+	<string name="exposure_compensation_desc_n1">"Särituse kompensatsioon -1"</string>
+	<!---->
+	<string name="exposure_compensation_desc_0">"Särituse kompensatsioon 0"</string>
+	<!---->
+	<string name="exposure_compensation_desc_p1">"Särituse kompensatsioon +1"</string>
+	<!---->
+	<string name="exposure_compensation_desc_p2">"Särituse kompensatsioon +2"</string>
+	<!---->
+	<string name="button_change_announcement">"Nupp on nüüd %s"</string>
+	<!---->
+	<string name="setting_location">"Asukoht"</string>
+	<!---->
+	<string name="setting_back_camera_photo">"Tagakaamerafoto"</string>
+	<!---->
+	<string name="setting_back_camera_video">"Tagakaameravideo"</string>
+	<!---->
+	<string name="setting_front_camera_photo">"Esikaamerafoto"</string>
+	<!---->
+	<string name="setting_front_camera_video">"Esikaameravideo"</string>
+	<!---->
+	<string name="setting_default_camera">"Vaikekaamera"</string>
+	<!---->
+	<string name="setting_google_help_and_feedback">"Abi ja tagasiside"</string>
+	<!---->
+	<string name="processing_hdr_plus">"HDR+ töötlemine …"</string>
+	<!---->
+	<string name="open_source_licenses">"Avatud lähtekoodiga litsentsid"</string>
+	<!---->
+	<string name="pref_category_general">"Üldseaded"</string>
+	<!---->
+	<string name="pref_category_resolution_quality">"Eraldusvõime ja kvaliteet"</string>
+	<!---->
+	<string name="pref_category_about">"Teave"</string>
+	<!---->
+	<string name="pref_title_build_version">"Järguversioon"</string>
+	<!---->
+	<string name="pref_video_quality_entry_low">"Madal"</string>
+	<!---->
+	<string name="pref_video_quality_entry_high">"Kõrge"</string>
+	<!-- no translation found for pref_video_quality_entry_qcif -->
+	<skip />
+	<!-- no translation found for pref_video_quality_entry_cif -->
+	<skip />
+	<!-- no translation found for pref_video_quality_entry_480p -->
+	<skip />
+	<!-- no translation found for pref_video_quality_entry_720p -->
+	<skip />
+	<!-- no translation found for pref_video_quality_entry_1080p -->
+	<skip />
+	<!-- no translation found for pref_video_quality_entry_qvga -->
+	<skip />
+	<!-- no translation found for pref_video_quality_entry_2160p -->
+	<skip />
+	<!---->
+	<string name="setting_summary_x_megapixels">"%1$s megapikslit"</string>
+	<!---->
+	<string name="setting_summary_aspect_ratio_and_megapixels">"(%1$d:%2$d) %3$s megapikslit"</string>
+	<!---->
+	<string name="cling_text_for_refocus_editor_button">"Uuesti fokusseerimiseks vajuta siia"</string>
+	<!---->
+	<string name="pref_category_advanced">"Täpsemalt"</string>
+	<!---->
+	<string name="pref_camera_exposure_compensation">"Manuaalne säritus"</string>
+	<!---->
+	<string name="settings_cling_text">"Muuda sätetes eraldusvõimet ja kvaliteeti või proovi täpsemaid funktsioone."</string>
+	<!---->
+	<string name="photo_size_selection_title">"Vali foto suurus"</string>
+	<!---->
+	<string name="photo_aspect_ratio_selection_content">"Saad seda hiljem sätetes muuta"</string>
+	<!---->
+	<string name="share_to">"Jaga:"</string>
+	<!---->
+	<string name="edit_with">"Muutmiseks kasuta"</string>
+	<!---->
+	<string name="startup_dialog_button_next">"Järgmine"</string>
+	<!---->
+	<string name="confirm_button_text">"Ok. Saan aru."</string>
+	<!---->
+	<string name="full_sensor_4x3_aspect_ratio">"Täissensor \n(4:3)"</string>
+	<!---->
+	<string name="cropped_sensor_16x9_aspect_ratio">"Kärbitud sensor \n(16:9)"</string>
+	<!-- no translation found for pref_boolean_false -->
+	<skip />
+	<!-- no translation found for pref_boolean_true -->
+	<skip />
+	<!---->
+	<string name="pref_camera_iso_s_f_entry_auto">"Autom."</string>
+	<!-- no translation found for manual_manu_title_iso -->
+	<skip />
+	<!-- no translation found for manual_manu_title_exposure -->
+	<skip />
+	<!-- no translation found for manual_manu_title_wb -->
+	<skip />
+	<!-- no translation found for manual_manu_title_focus -->
+	<skip />
+	<!---->
+	<string name="setting_group_photo">"Foto"</string>
+	<!---->
+	<string name="setting_group_video">"Video"</string>
+	<!---->
+	<string name="setting_group_general">"Üldine"</string>
+	<!---->
+	<string name="pref_camera_size_title">"Suurus"</string>
+	<!---->
+	<string name="pref_rear_camera_size_title">"Suurus"</string>
+	<!---->
+	<string name="pref_front_camera_size_title">"Suurus"</string>
+	<!---->
+	<string name="pref_rear_camera_size_title_vdf">"Foto suurus (tagant)"</string>
+	<!---->
+	<string name="pref_front_camera_size_title_vdf">"Foto suurus (eest)"</string>
+	<!---->
+	<string name="pref_camera_grid_title">"Ruudustik"</string>
+	<!---->
+	<string name="pref_camera_pose_title">"Poos"</string>
+	<!---->
+	<string name="pref_camera_compose_title">"Kompositsioon"</string>
+	<!---->
+	<string name="pref_video_eis_title">"EIS"</string>
+	<!---->
+	<string name="pref_camera_face_beauty_title">"Portree"</string>
+	<!---->
+	<string name="pref_camera_mirror_selfie_title">"Autoportree peeglis"</string>
+	<!---->
+	<string name="pref_camera_attention_seeker_title">"Tähelepanuheli"</string>
+	<!-- no translation found for pref_camera_ais_title -->
+	<skip />
+	<!---->
+	<string name="pref_camera_super_resolution_title">"Supereraldusvõime"</string>
+	<!---->
+	<string name="pref_camera_savepath_title">"Mäluruum"</string>
+	<!---->
+	<string name="pref_camera_savepath_entry_0">"Telefon"</string>
+	<!---->
+	<string name="pref_camera_savepath_entry_1">"SD-kaart"</string>
+	<!-- no translation found for pref_camera_savepath_default -->
+	<skip />
+	<!---->
+	<string name="pref_camera_sound_title">"Katiku heli"</string>
+	<!---->
+	<string name="pref_visidon_mode_title">"Täpsem režiim"</string>
+	<!---->
+	<string name="pref_camera_gesture_detection_title">"Viipe kontroll"</string>
+	<!---->
+	<string name="visidon_mode_face_beauty_entry">"Portree"</string>
+	<!---->
+	<string name="visidon_mode_super_resolution_entry">"Supereraldusvõime"</string>
+	<!---->
+	<string name="visidon_mode_low_light_entry">"Vähene valgustus"</string>
+	<!-- no translation found for visidon_mode_hdr_entry -->
+	<skip />
+	<!---->
+	<string name="visidon_mode_off_entry">"Väljas"</string>
+	<!---->
+	<string name="mode_manual">"Käsitsi"</string>
+	<!---->
+	<string name="mode_pano">"Panoraam"</string>
+	<!-- no translation found for mode_parallax -->
+	<skip />
+	<!---->
+	<string name="mode_micro_video">"Mikrovideo"</string>
+	<!---->
+	<string name="mode_manual_desc">"Lülitu manuaalrežiimile"</string>
+	<!---->
+	<string name="mode_pano_desc">"Lülitu panorežiimi"</string>
+	<!---->
+	<string name="mode_parallax_desc">"Lülitu fyuse-režiimi"</string>
+	<!---->
+	<string name="mode_micro_video_desc">"Lülitu mikrovideorežiimile"</string>
+	<!---->
+	<string name="pref_restore_settings">"Taasta tehaseseadetele"</string>
+	<!---->
+	<string name="quit_dialog_title_battery_low">"Aku on tühjenemas"</string>
+	<!---->
+	<string name="quit_dialog_title_storage_low">"Ebapiisav salvestusruum"</string>
+	<!---->
+	<string name="quit_dialog_msg">"Videosalvestis salvestub automaatselt. Kaamera suletakse."</string>
+	<!---->
+	<string name="battery_info_dialog_tile">"Aku on tühjenemas"</string>
+	<!---->
+	<string name="battery_info_dialog_msg_disable_flash">"Välku ei saa kasutada"</string>
+	<!---->
+	<string name="battery_info_dialog_msg_close_camera">"Kaamerat ei saa avada"</string>
+	<!---->
+	<string name="battery_info_dialog_button_ok">"OK"</string>
+	<!---->
+	<string name="battery_info_dialog_button_close">"Sule"</string>
+	<!-- no translation found for battery_info_low_toast_message -->
+	<skip />
+	<!-- no translation found for battery_info_video_low_toast_message -->
+	<skip />
+	<!-- no translation found for battery_info_video_low_less_8 -->
+	<skip />
+	<!-- no translation found for battery_info_video_low_less_8_dialog -->
+	<skip />
+	<!-- no translation found for battery_info_video_low_cancel -->
+	<skip />
+	<!-- no translation found for battery_info_video_low_continue -->
+	<skip />
+	<!---->
+	<string name="MSG_SAVE_OUTPUT_IMAGE">"Panoraamkujutise salvestamine..."</string>
+	<!---->
+	<string name="MSG_CANCEL_CAPTURE">"Tühistamine..."</string>
+	<!-- no translation found for save_dir_preview_img -->
+	<skip />
+	<!-- no translation found for save_dir_still_img -->
+	<skip />
+	<!---->
+	<string name="MSG_MISALIGNMENT">"Hoia nool võimalikult valge joone peal.\nPildihõive peatatud"</string>
+	<!---->
+	<string name="MSG_MOVE_CAMERA_SLOWLY">"Liiguta pildihõive ajal kaamerat väga aeglaselt"</string>
+	<!---->
+	<string name="delete_selection">"Kas kustutada valitud üksus?"</string>
+	<!---->
+	<string name="burst_saving_hint">"%d pildi salvestamine ..."</string>
+	<!---->
+	<string name="micro_video_remix_hint">"Töötlemine ..."</string>
+	<!---->
+	<string name="lowlight_off_desc">"Vähene valgustus väljas"</string>
+	<!---->
+	<string name="lowlight_on_desc">"Vähene valgustus sees"</string>
+	<!---->
+	<string name="tizr_prompt_desc">"TiZR võimaldab videot reaalajas maailmale näidata. Alusta oma teekonda nüüd."</string>
+	<!---->
+	<string name="tizr_prompt_content">"Alustamine"</string>
+	<!-- no translation found for title_activity_tizr_share_video -->
+	<skip />
+	<!---->
+	<string name="night_mode_on_toast">"Supersuum sees, hoia seadet pildistamise ajal stabiilsena"</string>
+	<!---->
+	<string name="hdr_on_toast">"HDR sees, hoia seadet pildistamise ajal stabiilsena"</string>
+	<!---->
+	<string name="micro_video_guide_title">"Mikrovideo"</string>
+	<!---->
+	<string name="micro_video_guide_description">"Ronige aga režissööri toolile ja looge omaenda videokompilatsioon\n(Peale jäädvustamist valige \'redigeeri\', et lisada eriteemasid ja efekte)."</string>
+	<!---->
+	<string name="micro_video_guide_checkbox">"Ära enam kuva"</string>
+	<!---->
+	<string name="micro_video_guide_button">"SALVESTATUD"</string>
+	<!---->
+	<string name="micro_minimum_time_tip">"Salvesta vähemalt 3 sekundit"</string>
+	<!---->
+	<string name="micro_shutter_help_tip">"Salvestamiseks vajuta ja hoia all"</string>
+	<!---->
+	<string name="permissions_needed">"Vajalik luba"</string>
+	<!---->
+	<string name="grant_access_title">"Anna luba"</string>
+	<!-- no translation found for grant_access_msg -->
+	<skip />
+	<!---->
+	<string name="grant_access_exit">"Välju"</string>
+	<!---->
+	<string name="grant_access_settings">"Seaded"</string>
+	<!-- no translation found for location_and -->
+	<skip />
+	<!---->
+	<string name="location_msg">"Märgi oma fotodele ja videotele asukoht"</string>
+	<!---->
+	<string name="location_toast">"Lülita hiljem kaamera sätetes sisse GPSi märgistamine"</string>
+	<!---->
+	<string name="location_snack_setting">"GPSi märgistamise lubamiseks anna kaamerale ligipääs asukohale"</string>
+	<!---->
+	<string name="aspect_ratio_and_megapixels_default">"%1$d MP (%2$d:%3$d)"</string>
+	<!---->
+	<string name="tips_for_panorama_preview">"Panoraamvõtte tegemiseks liiguta seadet katkematus voolus"</string>
+	<!---->
+	<string name="tip_for_move_center">"Hoia nool keskjoonel"</string>
+	<!---->
+	<string name="tip_for_move_down">"Liiguta alla"</string>
+	<!---->
+	<string name="tip_for_move_up">"Liiguta üles"</string>
+	<!---->
+	<string name="tip_for_move_slow">"Aeglusta"</string>
+	<!---->
+	<string name="tip_for_move_right">"Liigu paremale"</string>
+	<!---->
+	<string name="tip_for_move_left">"Liigu vasakule"</string>
+	<!---->
+	<string name="super_zoom_on_toast">"Supersuum sees, hoia seadet pildistamise ajal stabiilsena"</string>
+	<!---->
+	<string name="help_tip_welcome_take_tour">"Jah, palun"</string>
+	<!---->
+	<string name="help_tip_welcome_cancel_tour">"Tänan, ei"</string>
+	<!---->
+	<string name="help_tip_welcome_title">"Kaamera"</string>
+	<!---->
+	<string name="help_tip_welcome_context">"Kas teha ringkäik, et saada abistavaid vihjeid, kuidas kasutada sinu uue nutitelefoni kaamerat?"</string>
+	<!---->
+	<string name="help_tip_snap_context">"Pildistaiseks vajuta siia või vajuta pikalt, et pildistada järjest kuni 10 fotot"</string>
+	<!---->
+	<string name="help_tip_camera_key_context">"Fotode tegemiseks kasuta kaameraklahvi või vajuta pikalt mitme kaadri järjest pildistamiseks"</string>
+	<!---->
+	<string name="help_tip_recent_context">"Hiljutiste fotode vaatamiseks vajuta siia"</string>
+	<!---->
+	<string name="help_tip_startvideo_context">"Video salvestamise alustamiseks vajuta siia"</string>
+	<!---->
+	<string name="help_tip_videosnap_context">"Salvestamise ajal pildistamiseks vajuta siia"</string>
+	<!---->
+	<string name="help_tip_stopvideo_context">"Salvestamise lõpetamiseks ja video salvestamiseks vajuta siia"</string>
+	<!---->
+	<string name="help_tip_switch_front_context">"Endlirežiimi avamiseks vajuta siia"</string>
+	<!---->
+	<string name="help_tip_gesture_tip_context">"Pildistamiseks tõsta peopesa kaamera ette."</string>
+	<!---->
+	<string name="help_tip_pinch_zoom_context">"Suumi sisse- ja väljalülitamiseks vii sõrmed pildinäidikul kokku ja lahku"</string>
+	<!---->
+	<string name="help_tip_quick_switch_context">"Funktsiooni sisse- ja väljalülitamiseks puuduta neid ikoone"</string>
+	<!---->
+	<string name="help_tip_settings_context">"Kaamerasätetesse minemiseks vajuta siia"</string>
+	<!---->
+	<string name="help_tip_mode_context">"Kaamerarežiimi muutmiseks libista pildinäidikul vasakule või paremale"</string>
+	<!---->
+	<string name="help_tip_panorama_context">"Suuna muutmiseks vajuta eelvaateribale"</string>
+	<!---->
+	<string name="help_tip_manual_context">"Manuaalrežiimi valiku muutmiseks vajuta ikooni"</string>
+	<!---->
+	<string name="help_tip_manual_menu_context">"Manuaalrežiimi valikute kuvamiseks või peitmiseks vajuta"</string>
+	<!---->
+	<string name="help_tip_got_it_text">"Lõpeta"</string>
+	<!---->
+	<string name="help_tip_dismiss_text">"Lõpeta"</string>
+	<!---->
+	<string name="help_tip_skip_all_text">"Jäta kõik vahele"</string>
+	<!---->
+	<string name="optimize_saving_hint">"Foto optimeerimine"</string>
+	<!---->
+	<string name="wrapper_button_desc">"Laiendamisnupp"</string>
+	<!---->
+	<string name="restore_settings_dialog_msg">"Kas taastada kaamera tehaseseadetele?"</string>
+	<!---->
+	<string name="restore_settings_dialog_yes">"Lähtesta"</string>
+	<!---->
+	<string name="restore_settings_dialog_no">"Tühista"</string>
+	<!---->
+	<string name="permission_title">"Kaamera vajab luba"</string>
+	<!---->
+	<string name="permission_content">"Loa andmiseks puuduta siin."</string>
+	<plurals name="instant_capture_photos">
+		<item quantity="one">"<xliff:g id="step_count">%1$d</xliff:g> foto"</item>
+		<item quantity="other">"<xliff:g id="step_count">%1$d</xliff:g> fotot"</item>
+	</plurals>
+	<!-- no translation found for photos -->
+	<skip />
+	<!---->
+	<string name="delete_selection_burst">"Selles sarivõttes on %s fotot. Kas kustutada need kõik?"</string>
+	<!---->
+	<string name="flash_with_superzoom_toast">"Välku ei saa kasutada, kui supersuum on sisse lülitatud"</string>
+	<!---->
+	<string name="battery_warning_title">"Ei saanud teha buumipilti"</string>
+	<!---->
+	<string name="battery_warning_content">"Ei saa pildistada tühjeneva akuga"</string>
+	<!---->
+	<string name="phone_storage_low_for_alert_dialog">"Telefoni mälu on tühjenemas. Kaamera suletakse."</string>
+	<!---->
+	<string name="sd_card_low_for_alert_dialog">"SD-kaardi mälu on tühjenemas. Kaamera suletakse."</string>
+	<!---->
+	<string name="camera_error_title_alert_dialog">"Mäluruum on täis"</string>
+	<!---->
+	<string name="storage_low_close_alert_dialog">"Sule"</string>
+	<!---->
+	<string name="storage_low_phone_full_no_sdcard_alert_dialog">"Telefoni mälu on täis. Tühjenda ruumi või sisesta SD-kaart."</string>
+	<!---->
+	<string name="storage_low_phone_sdcard_full_alert_dialog">"Telefoni ja SD-kaardi mälu on täis. Tühjenda kaamera kasutamiseks ruumi."</string>
+	<!---->
+	<string name="storage_low_phone_full_sdcard_ok_alert_dialog">"Telefoni mälu on täis. Kas salvestada SD-kaardile?"</string>
+	<!---->
+	<string name="storage_low_storage_full_phone_ok_alert_dialog">"SD-kaart on täis. Kas salvestada telefonimällu?"</string>
+	<!---->
+	<string name="storage_low_phone_full_sdcard_ok_button">"Kasuta SD-kaarti"</string>
+	<!---->
+	<string name="storage_low_storage_full_phone_ok_button">"Kasuta telefonimälu"</string>
+	<!-- no translation found for storage_low_storage_critical_toast_message -->
+	<skip />
+	<!-- no translation found for storage_low_video_critical_toast_message -->
+	<skip />
+	<!---->
+	<string name="pref_camera_antibanding_title">"Antiribajaotus"</string>
+	<!---->
+	<string name="pref_camera_antibanding_entry_0">"Väljas"</string>
+	<!---->
+	<string name="pref_camera_antibanding_entry_1">"50 Hz"</string>
+	<!---->
+	<string name="pref_camera_antibanding_entry_2">"60 Hz"</string>
+	<!---->
+	<string name="pref_camera_antibanding_entry_3">"Autom."</string>
+	<!---->
+	<string name="storage_warning_content">"Ei saa pildistada tühjeneva mäluruumiga"</string>
+	<!---->
+	<string name="storage_and_battery_warning_content">"Ei saa pildistada tühjeneva aku ja mäluruumiga"</string>
+	<!---->
+	<string name="remote_content">"Fotod kaasaskantavast seadmest"</string>
+	<!---->
+	<string name="boom_key_press">"Vajuta"</string>
+	<!---->
+	<string name="boom_key">"Buumiklahv"</string>
+	<!---->
+	<string name="location_service_dialog_title">"„GPS on väljas”"</string>
+	<!---->
+	<string name="location_service_dialog_msg">"Fotodele ja videotele asukohasiltide lisamiseks lülitage suvandis Asukohaseaded sisse GPS ning juhtmeta võrgud."</string>
+	<!---->
+	<string name="location_service_dialog_cancel">"Tühista"</string>
+	<!---->
+	<string name="location_service__dialog_setting">"Seaded"</string>
+	<!---->
+	<string name="gestureshot_guide_capture">"Žestjäädvustamine: Automaathõive žesti tuvastamisel:"</string>
+	<!-- no translation found for mode_filters -->
+	<skip />
+	<!-- no translation found for mode_pose -->
+	<skip />
+	<!-- no translation found for video_recording_paused -->
+	<skip />
+	<!-- no translation found for pose_final_icon -->
+	<skip />
+	<!-- no translation found for time_left -->
+	<skip />
+	<!-- no translation found for pref_camera_auto_hdr_title -->
+	<skip />
+	<!-- no translation found for pref_camera_timer_entry_0 -->
+	<skip />
+	<!-- no translation found for pref_camera_timer_unit_suffix -->
+	<skip />
+	<!-- no translation found for pref_camera_face_beauty_summary -->
+	<skip />
+	<!-- no translation found for pref_camera_mirror_selfie_summary -->
+	<skip />
+	<!-- no translation found for pref_camera_pose_summary -->
+	<skip />
+	<!-- no translation found for mode_360_photo -->
+	<skip />
+	<!-- no translation found for panorama_preview_holder_info_text -->
+	<skip />
+	<!-- no translation found for back -->
+	<skip />
+	<!-- no translation found for gallery_name -->
+	<skip />
+	<!---->
+	<string name="audio_record_on_desc">"Heli salvestamine"</string>
+	<!-- no translation found for audio_record_off_desc -->
+	<skip />
+</resources>

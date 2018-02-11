@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Mon Feb 09 16:29:10 CST 2015
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"Filhanterare"</string>
+	<!---->
+	<string name="new_folder">"Namn på inmatningsmapp"</string>
+	<!---->
+	<string name="confirm_rename">"Bekräfta nytt namn"</string>
+	<!---->
+	<string name="warning">"Varning"</string>
+	<!---->
+	<string name="share_warning">"Inte fler än 100 filer kan delas."</string>
+	<!---->
+	<string name="pasting">"Klistrar in"</string>
+	<!---->
+	<string name="loading">"Hämtar…"</string>
+	<!---->
+	<string name="deleting">"Tar bort"</string>
+	<!---->
+	<string name="alert_delete_multiple">"Markerade filer kommer att tas bort!"</string>
+	<!---->
+	<string name="alert_delete_single">"Vill du ta bort den valda filen?"</string>
+	<!---->
+	<string name="name">"Namn"</string>
+	<!---->
+	<string name="size">"Storlek"</string>
+	<!---->
+	<string name="modified_time">"Ändrat"</string>
+	<!---->
+	<string name="readable">"Läsbar："</string>
+	<!---->
+	<string name="executable">"Körbar:"</string>
+	<!---->
+	<string name="writable">"Skrivbar："</string>
+	<!---->
+	<string name="msg_rename_ext">"Du ändrar filtillägget, vilken kan innebära att filen inte känns igen. Är du säker på att du vill göra det här?"</string>
+	<!---->
+	<string name="wait">"Vänta …"</string>
+	<!---->
+	<string name="add_favorite">"Lägg till i mappen favoriter"</string>
+	<!---->
+	<string name="del_favorite">"Ta bort från mappen favoriter"</string>
+	<!---->
+	<string name="done">"Färdig"</string>
+	<!---->
+	<string name="cancel">"Avbryt"</string>
+	<!---->
+	<string name="no">"Nej"</string>
+	<!---->
+	<string name="ok">"OK"</string>
+	<!---->
+	<string name="yes">"Ja"</string>
+	<!---->
+	<string name="sort_by">"Sortera efter"</string>
+	<!---->
+	<string name="copy">"Kopiera"</string>
+	<!---->
+	<string name="create_folder">"Skapa"</string>
+	<!---->
+	<string name="cut">"Klipp ut"</string>
+	<!---->
+	<string name="delete">"ta bort"</string>
+	<!---->
+	<string name="favourite">"Lägg till i Favoriter"</string>
+	<!---->
+	<string name="details">"Redigera händelse"</string>
+	<!---->
+	<string name="paste">"Klistra in"</string>
+	<!---->
+	<string name="rename">"Byt namn"</string>
+	<!---->
+	<string name="view_by">"Visa efter"</string>
+	<!---->
+	<string name="show_hide">"Visa/dölj"</string>
+	<!---->
+	<string name="deselect_all">"Avmarkera alla"</string>
+	<!---->
+	<string name="select_all">"Välj alla"</string>
+	<!---->
+	<string name="share">"Dela"</string>
+	<!---->
+	<string name="sort">"Sortera"</string>
+	<!---->
+	<string name="more">"Mer"</string>
+	<!---->
+	<string name="search">"Sök"</string>
+	<!---->
+	<string name="show_file">"Visa dolda filer"</string>
+	<!---->
+	<string name="hide_file">"Dölj dolda filer"</string>
+	<!---->
+	<string name="drawer_open">"Öppna"</string>
+	<!---->
+	<string name="viewby_list">"Visa som lista"</string>
+	<!---->
+	<string name="viewby_grid">"Visa som rutnät"</string>
+	<!---->
+	<string name="viewby_details">"Visa efter information"</string>
+	<!---->
+	<string name="sort_type">"Sortera efter typ"</string>
+	<!---->
+	<string name="sort_name">"Sortera på namn"</string>
+	<!---->
+	<string name="sort_size">"Sortera på storlek (stor-liten)"</string>
+	<!---->
+	<string name="sort_time">"Sortera på tid (ny-gammal)"</string>
+	<!---->
+	<string name="unknown">"Okänd"</string>
+	<!---->
+	<string name="selected">"Markerad"</string>
+	<!---->
+	<string name="save">"Spara"</string>
+	<!---->
+	<string name="send_file">"Skicka fil"</string>
+	<!---->
+	<string name="empty_msg">"(Tom mapp)"</string>
+	<!---->
+	<string name="default_search_text">"Sök filer"</string>
+	<!---->
+	<string name="free_space">"Tillgänglig"</string>
+	<!---->
+	<string name="total_space">"Totalt utrymme"</string>
+	<!---->
+	<string name="search_files">"Sök filer"</string>
+	<!---->
+	<string name="search_result_count">"hittat"</string>
+	<!---->
+	<string name="drawer_category">"Kategori"</string>
+	<!---->
+	<string name="phone_storage">"Telefonlagring"</string>
+	<!---->
+	<string name="sd_card">"SD-kort"</string>
+	<!---->
+	<string name="drawer_settings">"Inställningar"</string>
+	<!---->
+	<string name="menu_settings">"Inställningar"</string>
+	<!---->
+	<string name="no_search_result">"0 resultat för \"%1$s\""</string>
+	<!---->
+	<string name="category_pictures">"Bilder"</string>
+	<!---->
+	<string name="category_vedios">"Videor"</string>
+	<!---->
+	<string name="category_music">"Musik"</string>
+	<!---->
+	<string name="category_docs">"Dokument"</string>
+	<!---->
+	<string name="category_apks">"APK-filer"</string>
+	<!---->
+	<string name="category_archives">"Arkiv"</string>
+	<!---->
+	<string name="category_download">"Hämtningar"</string>
+	<!---->
+	<string name="category_favorite">"Favoriter"</string>
+	<!---->
+	<string name="category_bluetooth">"Bluetooth"</string>
+	<!---->
+	<string name="category_ringtones">"Ringsignaler"</string>
+	<!---->
+	<string name="category_recordings">"Inspelningar"</string>
+	<!---->
+	<string name="category_safebox">"Safebox"</string>
+	<!---->
+	<string name="copy_deny">"Ingen behörighet att kopiera"</string>
+	<!---->
+	<string name="cut_deny">"Ingen behörighet att klippa ut"</string>
+	<!---->
+	<string name="delete_deny">"Ingen behörighet att ta bort"</string>
+	<!---->
+	<string name="insufficient_memory">"Otillräckligt utrymme."</string>
+	<!---->
+	<string name="invalid_empty_name">"Fil- eller mappnamn kan inte vara tomt"</string>
+	<!---->
+	<string name="paste_same_folder">"Kan inte klistra in i samma katalog"</string>
+	<!---->
+	<string name="invalid_char_prompt">"Du har matat in ett ogiltigt tecken"</string>
+	<!---->
+	<string name="msg_unable_open_file">"Filformatet stöds inte"</string>
+	<!---->
+	<string name="search_text_empty">"Sökinnehåll ska inte vara tomt."</string>
+	<!---->
+	<string name="paste_sub_folder">"Kan inte klistra in fil i underkatalog"</string>
+	<!---->
+	<string name="operation_fail">"Vissa filåtgärder misslyckades."</string>
+	<!---->
+	<string name="search_result_title">"Sökresultat"</string>
+	<!---->
+	<string name="search_result">"%2$d resultat för \"%1$s\""</string>
+	<!---->
+	<string name="already_exists">"%1$s används redan"</string>
+	<!---->
+	<string name="path_not_exists">"%1$s finns inte"</string>
+	<!---->
+	<string name="unmounted">"%1$s är avmonterad"</string>
+	<!---->
+	<string name="create_hidden_file">"Filen döljs om namnet börjar med ".""</string>
+	<!---->
+	<string name="modify_hidden_file">"Filen visas om namnet inte börjar med \'.\'."</string>
+	<!---->
+	<string name="file_name_too_long">"Inmatningsnamnet är för långt"</string>
+	<!---->
+	<string name="paste_fail">"Klistra in misslyckades."</string>
+	<!---->
+	<string name="delete_fail">"Borttagning misslyckades."</string>
+	<!---->
+	<string name="some_paste_fail">"Klistra in-åtgärd misslyckades"</string>
+	<!---->
+	<string name="some_delete_fail">"Vissa borttagningsåtgärder misslyckades."</string>
+	<!---->
+	<string name="search_empty">"Sökinnehåll ska inte vara tomt."</string>
+	<!---->
+	<string name="search_setting_description">"Lokala filer och mappar"</string>
+	<!---->
+	<string name="change_mode">"Välj fil eller mapp"</string>
+	<!---->
+	<string name="msg_unable_open_file_in_app">"Inget program för att öppna filen."</string>
+	<!-- no translation found for drm_protectioninfo_title -->
+	<skip />
+	<!---->
+	<string name="drm_forwardforbidden_title">"Vidarebefordra inte"</string>
+	<!---->
+	<string name="drm_forwardforbidden_message">"DRM-filen kan inte vidarebefordras."</string>
+	<!---->
+	<string name="drm_no_valid_right">"Filen har ingen giltig DRM-auktoritet!"</string>
+	<!---->
+	<string name="drm_current_count">"Aktuellt antal："</string>
+	<!---->
+	<string name="unlimited_usage">"Obegränsad användning"</string>
+	<!---->
+	<string name="drm_current_right">"Aktuell restriktion："</string>
+	<!---->
+	<string name="not_available">"Inte tillgänglig"</string>
+	<!---->
+	<string name="right_url">"URL till licensutgivare:："</string>
+	<!---->
+	<string name="use_times">"Använd %s gånger"</string>
+	<!---->
+	<string name="valid_after">"Giltig efter"</string>
+	<!---->
+	<string name="valid_until">"Giltig till"</string>
+	<!---->
+	<string name="drm_wifidisplay_title">"Kopieringsskyddade filer"</string>
+	<!---->
+	<string name="drm_wifidisplay_message">"Den kopieringsskyddade filen kan inte delas ut."</string>
+	<!---->
+	<string name="drm_wifidisplay_cancel_btn">"Stäng av Wi-Fi Display"</string>
+	<!---->
+	<string name="drm_wifidisplay_ok">"OK"</string>
+	<!---->
+	<string name="tv_link_close_toast">"Wi-Fi Display har stängts"</string>
+	<!---->
+	<string name="usbotg">"Extern USB-lagring"</string>
+	<!---->
+	<string name="show">"Visa systemfiler"</string>
+	<!---->
+	<string name="hide">"Dölj systemfiler"</string>
+	<!---->
+	<string name="action_menu_create_folder_button">"Skapa mapp"</string>
+	<!---->
+	<string name="draw_favourite">"favorit"</string>
+	<!---->
+	<string name="unfavourite">"Ta bort från Favoriter"</string>
+	<!---->
+	<string name="new_folder_name">"Nytt mappnamn"</string>
+	<!---->
+	<string name="searchResult">"Sökresultat"</string>
+	<!---->
+	<string name="view_as_grid">"Visa som rutnät"</string>
+	<!---->
+	<string name="view_as_list">"view_as_list"</string>
+	<!---->
+	<string name="sort_by_name">"Namn"</string>
+	<!---->
+	<string name="sort_by_date">"Ändrad datum"</string>
+	<!---->
+	<string name="sort_by_type">"Typ"</string>
+	<!---->
+	<string name="sort_by_size">"Vänta…"</string>
+	<!---->
+	<string name="detail_path">"Plats:"</string>
+	<!---->
+	<string name="detail_name">"Filnamn:"</string>
+	<!---->
+	<string name="detail_size">"Filstorlek:"</string>
+	<!---->
+	<string name="detail_time">"Ändrad tid:"</string>
+	<!---->
+	<string name="draw_left_phone_storage">"Telefonlagring"</string>
+	<!---->
+	<string name="draw_left_sd_card">"SD-kort"</string>
+	<!-- no translation found for title_activity_main -->
+	<skip />
+	<!-- no translation found for hello_world -->
+	<skip />
+	<!-- no translation found for action_settings -->
+	<skip />
+	<!---->
+	<string name="default_folder_name">"Mappnamn"</string>
+</resources>

@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/image_video_view_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/category_image"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/image_and_video_width"
+            android:layout_weight="1"
+            android:background="@drawable/category_pictures">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/category_item_shade_height"
+                android:layout_alignParentBottom="true"
+                android:background="#78000000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="11dp"
+                android:layout_marginLeft="8dp"
+                android:background="@android:color/transparent"
+                android:fontFamily="monster-normal"
+                android:text="@string/category_pictures"
+                android:textColor="@android:color/white"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/image_count_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="11dp"
+                android:layout_marginRight="8dp"
+                android:background="@android:color/transparent"
+                android:fontFamily="monster-normal"
+                android:textColor="@android:color/white"
+                android:textSize="11sp" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/category_video"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/image_and_video_width"
+            android:layout_weight="1"
+            android:layout_marginLeft="2dp"
+            android:background="@drawable/category_video">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/category_item_shade_height"
+                android:layout_alignParentBottom="true"
+                android:background="#78000000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="11dp"
+                android:layout_marginLeft="8dp"
+                android:background="@android:color/transparent"
+                android:fontFamily="monster-normal"
+                android:text="@string/category_vedios"
+                android:textColor="@android:color/white"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/video_count_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="11dp"
+                android:layout_marginRight="8dp"
+                android:background="@android:color/transparent"
+                android:fontFamily="monster-normal"
+                android:textColor="@android:color/white"
+                android:textSize="11sp" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/music_apk_safe_view_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image_video_view_layout"
+        android:layout_margin="2dp"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/category_music"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/music_apk_safe_view_height"
+            android:layout_weight="1"
+            android:background="@drawable/category_music">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/category_item_shade_height"
+                android:layout_alignParentBottom="true"
+                android:background="#78000000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="11dp"
+                android:layout_marginLeft="8dp"
+                android:background="@android:color/transparent"
+                android:fontFamily="monster-normal"
+                android:text="@string/category_music"
+                android:textColor="@android:color/white"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/music_count_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="11dp"
+                android:layout_marginRight="8dp"
+                android:background="@android:color/transparent"
+                android:fontFamily="monster-normal"
+                android:textColor="@android:color/white"
+                android:textSize="11sp" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/category_apk"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/music_apk_safe_view_height"
+            android:layout_weight="1"
+            android:layout_marginLeft="2dp"
+            android:background="@drawable/category_apk">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/category_item_shade_height"
+                android:layout_alignParentBottom="true"
+                android:background="#78000000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="11dp"
+                android:layout_marginLeft="8dp"
+                android:background="@android:color/transparent"
+                android:fontFamily="monster-normal"
+                android:text="@string/category_apks"
+                android:textColor="@android:color/white"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/apk_count_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="11dp"
+                android:layout_marginRight="8dp"
+                android:background="@android:color/transparent"
+                android:fontFamily="monster-normal"
+                android:textColor="@android:color/white"
+                android:textSize="11sp" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/category_safe"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/music_apk_safe_view_height"
+            android:layout_weight="1"
+            android:layout_marginLeft="2dp"
+            android:background="@drawable/category_safe">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/category_item_shade_height"
+                android:layout_alignParentBottom="true"
+                android:background="#78000000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="11dp"
+                android:layout_marginLeft="8dp"
+                android:background="@android:color/transparent"
+                android:fontFamily="monster-normal"
+                android:text="@string/category_safe"
+                android:textColor="@android:color/white"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/safe_count_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="11dp"
+                android:layout_marginRight="8dp"
+                android:background="@android:color/transparent"
+                android:fontFamily="monster-normal"
+                android:textColor="@android:color/white"
+                android:textSize="11sp" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/recents_view_layout"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#FFFFFF"
+        android:layout_below="@id/music_apk_safe_view_layout">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:alpha="0.87"
+            android:fontFamily="monster-normal"
+            android:paddingLeft="20dp"
+            android:text="@string/main_recents_cn"
+            android:textColor="@color/first_color"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/next_page"
+            android:alpha="0.3"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/progress_content"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/category_progress_content_height"
+        android:layout_alignParentBottom="true"
+        android:background="#FFFFFF"
+        android:orientation="vertical">
+
+        <include layout="@layout/progress_one_storage_layout" />
+
+        <include
+            android:id="@+id/progress_two_storage_layout"
+            layout="@layout/progress_two_storage_layout" />
+
+        <include
+            android:id="@+id/progress_all_storage_layout"
+
+            layout="@layout/progress_all_storage_layout" />
+    </LinearLayout>
+
+    <!--<ListView-->
+        <!--android:id="@+id/recents_listview"-->
+        <!--android:layout_width="match_parent"-->
+        <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+        <!--android:layout_above="@id/progress_content"-->
+        <!--android:layout_below="@id/recents_view_layout" />-->
+
+    <LinearLayout
+        android:id="@+id/bottom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:background="#FAFAFA"
+        android:layout_above="@id/progress_content">
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/recent_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#FFFFFF"
+        android:layout_above="@id/bottom_layout"
+        android:layout_below="@id/recents_view_layout">
+
+        <LinearLayout
+            android:id="@+id/recent_top_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:gravity="center_vertical"
+            android:minHeight="?android:attr/listPreferredItemHeight"
+            android:paddingLeft="18dp"
+            android:paddingRight="30dp"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            >
+            <mst.widget.CycleImageView
+                android:id="@+id/recent_icon1"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:paddingLeft="20dp">
+                <TextView
+                    android:id="@+id/recent_up_text1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="marquee"
+                    android:gravity="center_vertical|start"
+                    android:singleLine="true"
+                    android:fontFamily="monster-normal"
+                    android:textSize="16sp"
+                    android:alpha="0.86"
+                    android:textColor="#000000"
+                    android:textAppearance="?android:attr/textAppearanceListItem" />
+                <TextView
+                    android:id="@+id/recent_down_text1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:ellipsize="marquee"
+                    android:gravity="center_vertical|start"
+                    android:singleLine="true"
+                    android:textColor="#000000"
+                    android:alpha="0.35"
+                    android:fontFamily="monster-normal"
+                    android:textSize="12sp"
+                    android:textAppearance="?android:attr/textAppearanceListItemSecondary" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/recent_bottom_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:minHeight="?android:attr/listPreferredItemHeight"
+            android:paddingEnd="12dip"
+            android:background="#FFFFFF"
+            android:paddingLeft="18dp"
+            android:paddingRight="30dp"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            >
+            <mst.widget.CycleImageView
+                android:id="@+id/recent_icon2"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:paddingLeft="20dp">
+                <TextView
+                    android:id="@+id/recent_up_text2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="marquee"
+                    android:gravity="center_vertical|start"
+                    android:singleLine="true"
+                    android:fontFamily="monster-normal"
+                    android:textSize="16sp"
+                    android:alpha="0.86"
+                    android:textColor="#000000"
+                    android:textAppearance="?android:attr/textAppearanceListItem" />
+                <TextView
+                    android:id="@+id/recent_down_text2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:ellipsize="marquee"
+                    android:gravity="center_vertical|start"
+                    android:singleLine="true"
+                    android:textColor="#000000"
+                    android:alpha="0.35"
+                    android:fontFamily="monster-normal"
+                    android:textSize="12sp"
+                    android:textAppearance="?android:attr/textAppearanceListItemSecondary" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

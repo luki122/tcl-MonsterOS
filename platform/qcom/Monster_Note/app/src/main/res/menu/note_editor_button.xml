@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/toolbar_willdo"
+        android:icon="@drawable/ic_toolbar_will_do"/>
+    <item
+        android:id="@+id/toolbar_dot"
+        android:icon="@drawable/ic_toolbar_point"/>
+    <item
+        android:id="@+id/toolbar_audio"
+        android:icon="@drawable/ic_toolbar_audio"/>
+    <item
+        android:id="@+id/toolbar_pic"
+        android:icon="@drawable/ic_toolbar_img"/>
+</menu>

@@ -1,0 +1,124 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.2.3'
+    }
+}
+
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 24 //这里必须是24因为我们替换了原生的sdk.jar
+    buildToolsVersion "25.0.0"
+
+    defaultConfig {
+        applicationId "com.monster.paymentsecurity"
+        minSdkVersion 24
+        //noinspection OldTargetApi
+        targetSdkVersion 24
+        versionCode 1
+        versionName "1.0"
+        //设置java8 compileOptions, 需打开jackOptions
+        jackOptions {
+            enabled true
+
+        }
+        multiDexEnabled true// dex分包
+    }
+
+    lintOptions {
+        abortOnError true
+        checkReleaseBuilds false
+    }
+
+    sourceSets {//目录指向配置
+        main {
+            manifest.srcFile 'AndroidManifest.xml'//指定AndroidManifest文件
+            java.srcDirs = ['src']//指定source目录
+            resources.srcDirs = ['src']//指定source目录
+            aidl.srcDirs = ['src']//指定source目录
+            renderscript.srcDirs = ['src']//指定source目录
+            res.srcDirs = ['res']//指定资源目录
+            assets.srcDirs = ['assets']//指定assets目录
+            jniLibs.srcDirs = ['libs']//指定lib库目录
+            jni.srcDirs = ['jni'] //指定jni目录
+        }
+
+        test {
+            manifest.srcFile 'AndroidManifest.xml'
+            assets.srcDirs = ['assets']
+            java.srcDirs = ['src', 'test']
+            jniLibs.srcDirs = ['libs']//指定lib库目录
+            jni.srcDirs = ['jni'] //指定jni目录
+            res.srcDirs = ['res']//指定资源目录
+            resources.srcDirs = ['test', 'test']//指定source目录
+            aidl.srcDirs = ['src', 'test']//指定source目录
+            renderscript.srcDirs = ['src', 'test']//指定source目录
+        }
+
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true //启用混淆
+            zipAlignEnabled true //apk 文件大小优化
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard.flags'
+        }
+    }
+
+    //由于ＳＤＫ是java8编译的，所以需要设置编译ｏｐｔｉｏｎｓ
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    dexOptions {
+//        incremental = true
+//        preDexLibraries = true
+        javaMaxHeapSize "2048M"  // dex时可能会内存不足
+
+    }
+}
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    //这里必须是24因为我们替换了原生的sdk.jar
+    //noinspection GradleDependency
+    compile 'com.android.support:cardview-v7:24.2.1'
+    //noinspection GradleDependency
+    compile 'com.android.support:support-v4:24.2.1'
+    //noinspection GradleDependency
+    compile 'com.android.support:appcompat-v7:24.2.1'
+    //noinspection GradleDependency
+    compile 'com.android.support:support-v13:24.2.1'
+    //noinspection GradleDependency
+    compile 'com.android.support:recyclerview-v7:24.2.1'
+
+    compile 'com.google.android:multidex:0.1'
+
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    //单元测试
+    //    testCompile 'junit:junit:4.12'
+    //    final HAMCREST_VERSION = '1.3'
+    //    testCompile "org.hamcrest:hamcrest-core:$HAMCREST_VERSION"
+    //    testCompile "org.hamcrest:hamcrest-library:$HAMCREST_VERSION"
+    //    testCompile "org.hamcrest:hamcrest-integration:$HAMCREST_VERSION"
+    //    final MOCKITO_VERSION = '2.2.22'
+    //    testCompile "org.mockito:mockito-core:$MOCKITO_VERSION"
+    //    testCompile('org.robolectric:robolectric:3.0') {
+    //        exclude group:'commons-logging', module:'commons-logging'
+    //        exclude group:'org.apache.httpcomponents',module:'httpclient'
+    //    }
+}
+
+
+tasks.whenTaskAdded { task ->
+    if (task.name.contains('mockableAndroidJar')) {
+        task.enabled = false
+    }
+}

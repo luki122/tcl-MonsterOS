@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright (C) 2013 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<com.android.camera.ui.HelpTipCling xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:camera="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/help_tip_cling"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/help_tip_cling_content"
+        android:layout_width="@dimen/help_tip_dialog_width"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|bottom"
+        android:layout_marginBottom="@dimen/recent_tip_margin_bottom"
+        android:layout_marginStart="@dimen/recent_tip_margin_left">
+
+        <include layout="@layout/help_tip_recent_dialog" />
+
+        <ImageView
+            android:id="@+id/help_tip_arrow"
+            android:layout_width="@dimen/help_tip_dialog_arrow_width"
+            android:layout_height="@dimen/help_tip_dialog_arrow_height"
+            android:layout_below="@+id/help_tip_dialog"
+            android:layout_gravity="start|bottom"
+            android:layout_marginStart="@dimen/recent_tip_arrow_margin_left"
+            android:background="@drawable/help_tip_arrow_down" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/shape"
+        android:layout_width="@dimen/recent_tip_circle_width"
+        android:layout_height="@dimen/recent_tip_circle_height"
+        android:layout_gravity="start|bottom"
+        android:layout_marginBottom="@dimen/recent_tip_circle_margin_bottom"
+        android:layout_marginStart="@dimen/recent_tip_circle_margin_left"
+        android:orientation="vertical"
+        camera:is_focus_view="true" />
+
+    <ImageView
+        android:id="@+id/anim_focus"
+        android:layout_width="@dimen/recent_tip_anim_width"
+        android:layout_height="@dimen/recent_tip_anim_height"
+        android:layout_gravity="start|bottom"
+        android:layout_marginBottom="@dimen/recent_tip_anim_margin_bottom"
+        android:layout_marginStart="@dimen/recent_tip_anim_margin_left" />
+
+</com.android.camera.ui.HelpTipCling>

@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/sim_main"
+    android:background="@color/primary_bg">
+
+    <FrameLayout
+        android:id="@+id/sim_header"
+        android:layout_width="match_parent"
+        android:layout_height="266dp">
+
+        <ImageView
+            android:id="@+id/background_sim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitEnd"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="266dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="57dp"
+                android:paddingStart="26dp">
+                <ImageButton
+                    android:id="@+id/header_back"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:background="?android:attr/selectableItemBackgroundBorderless"
+                    android:src="@drawable/ic_back"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_gravity="center_vertical"
+                    android:fontFamily="monster-normal"
+                    android:textColor="#DB000000"
+                    android:textSize="17sp"
+                    android:text="@string/sim_set_title" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/sim_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sim_header"
+        android:paddingStart="22dp"
+        android:paddingEnd="22dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/sim1_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/sim1_icon"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:background="@drawable/ic_sim_enabled"/>
+            <TextView
+                android:id="@+id/sim1_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="1dp"
+                android:layout_gravity="center_vertical"
+                android:textAlignment="center"
+                android:fontFamily="monster-normal"
+                android:textColor="#DB000000"
+                android:textSize="13sp"
+                android:text="@string/sim_card"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/sim2_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp">
+            <ImageView
+                android:id="@+id/sim2_icon"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:background="@drawable/ic_sim_enabled"/>
+            <TextView
+                android:id="@+id/sim2_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="1dp"
+                android:layout_gravity="center_vertical"
+                android:textAlignment="center"
+                android:fontFamily="monster-normal"
+                android:textColor="#DB000000"
+                android:textSize="13sp"
+                android:text="@string/sim_card"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/sim_data_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sim_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="26dp"
+            android:paddingEnd="26dp"
+            android:layout_marginTop="36dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="monster-normal"
+                android:textColor="#DB000000"
+                android:textSize="15sp"
+                android:text="@string/mobile_network"/>
+
+            <Switch
+                android:id="@+id/sim_data_switch"
+                android:layout_width="60dp"
+                android:layout_height="20dp"
+                android:layout_weight="1"
+                android:layout_marginEnd="0dp"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:paddingStart="26dp"
+            android:paddingEnd="26dp"
+            android:fontFamily="monster-normal"
+            android:textColor="#59000000"
+            android:textSize="13sp"
+            android:text="@string/mobile_network_description"/>
+
+        <RelativeLayout
+            android:id="@+id/sim_data_default"
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="26dp"
+            android:paddingEnd="26dp"
+            android:layout_marginTop="20.5dp"
+            android:paddingTop="7.5dp"
+            android:paddingBottom="7.5dp"
+            android:background="?android:attr/selectableItemBackground">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:fontFamily="monster-normal"
+                android:textColor="#DB000000"
+                android:textSize="15sp"
+                android:text="@string/default_network_card"/>
+            <TextView
+                android:id="@+id/sim_card_default"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toStartOf="@+id/sim_enter_icon"
+                android:layout_centerVertical="true"
+                android:fontFamily="monster-normal"
+                android:textColor="#59000000"
+                android:textSize="13sp"
+                android:text="SIM card 1" />
+
+            <ImageView
+                android:id="@+id/sim_enter_icon"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginStart="1dp"
+                android:layout_alignParentEnd="true"
+                android:src="@drawable/ic_enter"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/sim_btn_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="56dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/sim_btn_continue"
+            style="@style/button_style"
+            android:text="@string/continue_title"/>
+
+        <Button
+            android:id="@+id/sim_btn_skip"
+            style="@style/button_style"
+            android:text="@string/skip_title"
+            android:visibility="gone"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/sim_prompt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_above="@+id/sim_btn_content"
+        android:textAlignment="center"
+        android:fontFamily="monster-normal"
+        android:textColor="#59000000"
+        android:textSize="14sp"
+        android:text="@string/sim_set_prompt"
+        android:visibility="gone"/>
+
+</RelativeLayout>

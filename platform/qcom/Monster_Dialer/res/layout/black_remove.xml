@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="31dip"
+        android:layout_marginTop="28dip"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:text="@string/confirm_remove"/>
+    <CheckBox
+        android:id="@+id/check_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dip"
+        android:layout_marginBottom="23dip"
+        android:textSize="16sp"
+        android:textColor="#8c8c8c"
+        android:paddingLeft="11dip"
+        android:text="@string/recover_black_phone"
+       />
+
+</LinearLayout>

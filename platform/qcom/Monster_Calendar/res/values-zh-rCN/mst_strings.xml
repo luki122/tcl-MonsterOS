@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="ringtone_none">无</string>
+    <string name="ringtone_default_none">默认铃声（无）</string>
+    <string name="required_permission_disabled">请求的权限被禁止</string>
+    <string name="time_out_of_range">超出时间范围</string>
+
+    <!-- event edit -->
+    <string name="have_no_event">暂无日程</string>
+    <string name="create_event">添加日程</string>
+    <string name="edit_event">编辑日程</string>
+    <string name="event_created">日程已创建</string>
+    <string name="event_saved">日程已保存</string>
+    <string name="edit_repeat_event">该日程为周期性日程，修改将影响该周期所有日程。</string>
+    <string name="edit_repeat_event_ok">我知道了</string>
+
+    <string name="event_edit_hint_title">请输入日程名称</string>
+    <string name="event_edit_hint_description">请输入备注</string>
+
+    <string name="event_repeat_label">周期</string>
+    <string name="event_no_repeat">一次性</string>
+    <string name="event_daily">每天</string>
+    <string name="event_every_weekday">每个工作日</string>
+    <string name="event_weekly">"每周（<xliff:g id="DAYS_OF_WEEK">%s</xliff:g>）"</string>
+    <string name="event_monthly_on_day_count">"每月（<xliff:g id="ORDINAL_NUMBER">%1$s</xliff:g><xliff:g id="DAY_OF_WEEK">%2$s</xliff:g>）"</string>
+
+    <string name="event_edit_cancel">退出</string>
+    <string name="event_edit_cancel_info">舍弃已做更改并退出？</string>
+    <string name="event_edit_save_no_title">日程名称不能为空</string>
+
+    <string name="event_info_no_description">无备注</string>
+
+    <!-- calendar setting -->
+    <string name="calendar_filter">日历显示筛选</string>
+    <string name="week_start_day">每周起始天</string>
+    <string name="reminder_settings">提醒设置</string>
+    <string name="events_reminder">日程提醒时间</string>
+    <string name="reminder_ringtone">提醒铃声</string>
+    <string name="ringtone_default">默认</string>
+
+    <string name="festival_holiday">节假日</string>
+    <string name="holiday_workday">休假方案</string>
+    <string name="lunar_date">农历</string>
+    <string name="event_tag">日程标识</string>
+
+    <!-- month view -->
+    <string name="legal_holiday">假</string>
+    <string name="legal_workday">班</string>
+    <string name="term_qingming">清明</string>
+
+    <string name="birthday_reminder">生日提醒</string>
+    <string name="birthday_reminder_summary">从联系人导入生日信息</string>
+    <string name="birthday_only_one"><xliff:g id="NAME">%s</xliff:g>今天生日</string>
+    <string name="birthday_have_other"><xliff:g id="NAME">%s</xliff:g>等<xliff:g id="NUMBER">%d</xliff:g>人今天生日</string>
+    <string name="birthday_wish">点击送上一条温暖的祝福吧</string>
+    <string name="wish_birthday">生日祝福</string>
+    <string name="happy_birthday">生日快乐</string>
+    <string name="event_reminder_open">已开启提醒</string>
+    <string name="event_reminder_close">已关闭提醒</string>
+
+    <!-- birthday info -->
+    <string name="birthday_info">生日详情</string>
+    <string name="birthday_today">今天生日</string>
+    <string name="birthday_notice">你有<xliff:g id="NUMBER"> %d </xliff:g>位好友</string>
+    <string name="birthday_content"><xliff:g id="NUMBER">%d</xliff:g>岁生日</string>
+
+    <!-- select calendars -->
+    <string name="local_calendar">本地日历</string>
+
+    <!-- delete event -->
+    <string name="delete_recurring_event">该日程为周期性日程，将删除该周期所有日程。</string>
+    <string name="delete">删除</string>
+
+</resources>

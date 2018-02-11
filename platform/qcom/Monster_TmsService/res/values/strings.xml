@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources  xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="applicationLabel">"Tms Service"</string>
+    <string name="default_permission_description" msgid="4992892207044156668">"执行未知操作"</string>
+    <string name="location_settings" msgid="1774875730854491297">"位置信息设置"</string>
+    <string name="ok" msgid="3468756155452870475">"确定"</string>
+    <string name="location_warning" msgid="8778701356292735971">"“<xliff:g id="APP_NAME">%1$s</xliff:g>”是此设备的一个位置信息服务提供程序。您可以在位置信息设置中修改位置信息使用权。"</string>
+
+</resources>

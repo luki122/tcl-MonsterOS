@@ -1,0 +1,814 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="sort">"並べ替える"</string>
+	<!---->
+	<string name="sort_by_name">"名前"</string>
+	<!---->
+	<string name="sort_by_date">"更新日"</string>
+	<!---->
+	<string name="sort_by_time">"日付"</string>
+	<!---->
+	<string name="sort_by_type">"種類"</string>
+	<!---->
+	<string name="sort_by_size">"サイズ"</string>
+	<!---->
+	<string name="copy">"コピー"</string>
+	<!---->
+	<string name="create_folder">"作成"</string>
+	<!---->
+	<string name="cut">"切り取り"</string>
+	<!---->
+	<string name="delete">"削除"</string>
+	<!---->
+	<string name="delete_confirm">"削除の確認"</string>
+	<!---->
+	<string name="deselect_all">"選択をすべて解除"</string>
+	<!---->
+	<string name="select_all">"すべて選択"</string>
+	<!---->
+	<string name="show_file">"非表示ファイルを表示"</string>
+	<!---->
+	<string name="hide_file">"非表示ファイルを非表示"</string>
+	<!---->
+	<string name="paste">"貼り付け"</string>
+	<!---->
+	<string name="rename">"名前を変更"</string>
+	<!---->
+	<string name="share">"共有"</string>
+	<!---->
+	<string name="viewby_list">"リストで表示する"</string>
+	<!---->
+	<string name="viewby_grid">"グリッドごとに表示する"</string>
+	<!---->
+	<string name="alert_delete_message">"削除"</string>
+	<!---->
+	<string name="multi_alert_delete_message">"選択したアイテムを削除しますか？"</string>
+	<!---->
+	<string name="multi_alert_delete_message_cn">"選択したアイテムを削除しますか？"</string>
+	<!-- no translation found for delete_folder_message -->
+	<skip />
+	<!---->
+	<string name="category_pictures">"画像"</string>
+	<!---->
+	<string name="category_vedios">"動画"</string>
+	<!---->
+	<string name="category_music">"音楽"</string>
+	<!---->
+	<string name="category_download">"ダウンロード履歴"</string>
+	<!---->
+	<string name="category_bluetooth">"Bluetooth"</string>
+	<!-- no translation found for app_name -->
+	<skip />
+	<!-- no translation found for theme_name -->
+	<skip />
+	<!---->
+	<string name="apk_name">"ファイル"</string>
+	<!---->
+	<string name="new_folder">"入力フォルダー名"</string>
+	<!---->
+	<string name="confirm_rename">"名前を確認する"</string>
+	<!---->
+	<string name="warning">"最高ファイル数"</string>
+	<!---->
+	<string name="share_warning">"100以上のファイルは共有できません"</string>
+	<!---->
+	<string name="loading">"読み込み中..."</string>
+	<!---->
+	<string name="deleting">"削除する"</string>
+	<!---->
+	<string name="alert_delete_multiple">"これらのアイテムは削除されます"</string>
+	<!---->
+	<string name="name">"名前"</string>
+	<!---->
+	<string name="size">"サイズ"</string>
+	<!---->
+	<string name="modified_time">"変更済み"</string>
+	<!---->
+	<string name="msg_rename_ext">"ファイル拡張子が変更されます。ファイルが認識されない場合があります。続行しますか？"</string>
+	<!---->
+	<string name="wait">"お待ちください..."</string>
+	<!---->
+	<string name="done">"完了"</string>
+	<!-- no translation found for enable -->
+	<skip />
+	<!-- no translation found for enable_cn -->
+	<skip />
+	<!---->
+	<string name="cancel">"キャンセル"</string>
+	<!---->
+	<string name="no">"いいえ"</string>
+	<!---->
+	<string name="ok">"OK"</string>
+	<!---->
+	<string name="yes">"はい"</string>
+	<!---->
+	<string name="details">"詳細"</string>
+	<!---->
+	<string name="drawer_open">"開く"</string>
+	<!---->
+	<string name="unknown">"不明の"</string>
+	<!-- no translation found for unit_B -->
+	<skip />
+	<!-- no translation found for unit_KB -->
+	<skip />
+	<!-- no translation found for unit_MB -->
+	<skip />
+	<!-- no translation found for unit_GB -->
+	<skip />
+	<!-- no translation found for unit_TB -->
+	<skip />
+	<!---->
+	<string name="send_file">"ファイルの共有方法"</string>
+	<!---->
+	<string name="default_search_text">"ファイルを検索"</string>
+	<!---->
+	<string name="free_space">"予定なし"</string>
+	<!---->
+	<string name="total_space">"合計容量"</string>
+	<!---->
+	<string name="drawer_category">"カテゴリー"</string>
+	<!---->
+	<string name="phone_storage">"内部ストレージ"</string>
+	<!---->
+	<string name="phone_storage_cn">"内部ストレージ"</string>
+	<!---->
+	<string name="sd_card">"SDカード"</string>
+	<!---->
+	<string name="draw_left_phone_storage">"内部ストレージ"</string>
+	<!---->
+	<string name="draw_left_sd_card">"SDカード"</string>
+	<!-- no translation found for menu_settings -->
+	<skip />
+	<!---->
+	<string name="no_search_result">"\"%1$s\" の結果は 0 件です"</string>
+	<!---->
+	<string name="copy_deny">"コピー禁止"</string>
+	<!---->
+	<string name="cut_deny">"切り取り禁止"</string>
+	<!---->
+	<string name="delete_deny">"削除禁止"</string>
+	<!---->
+	<string name="insufficient_memory">"メモリ不足です"</string>
+	<!---->
+	<string name="insufficient_message">"容量が足りないため幾つかのファイルをコピーできませんでした"</string>
+	<!---->
+	<string name="invalid_empty_name">"ファイルまたはフォルダ名を空白にできません"</string>
+	<!---->
+	<string name="paste_same_folder">"コピーできませんでした。コピー元とコピー先のフォルダが同じです。"</string>
+	<!---->
+	<string name="invalid_char_prompt">"無効な文字が入力されました"</string>
+	<!---->
+	<string name="msg_unable_open_file">"ファイルフォーマットはサポートされていません。"</string>
+	<!---->
+	<string name="paste_sub_folder">"ファイルをサブフォルダに貼り付けできません"</string>
+	<!---->
+	<string name="operation_fail">"ファイル操作に失敗しました。"</string>
+	<!---->
+	<string name="search_result">""%1$s"に対する%2$dの結果"</string>
+	<!---->
+	<string name="already_exists">"%1$sはすでに使用中です"</string>
+	<!---->
+	<string name="unmounted">"%1$sがマウントされていません"</string>
+	<!---->
+	<string name="create_hidden_file">"名前が\'.\'で始まると、ファイルは非表示になります"</string>
+	<!---->
+	<string name="file_name_too_long">"入力名が長すぎます"</string>
+	<!---->
+	<string name="some_paste_fail">"貼り付けできませんでした"</string>
+	<!---->
+	<string name="delete_fail">"削除できません"</string>
+	<!---->
+	<string name="some_delete_fail">"削除できませんでした"</string>
+	<!---->
+	<string name="msg_unable_open_file_in_app">"ファイルを開くために利用できるアプリがありません"</string>
+	<!---->
+	<string name="drm_forwardforbidden_title">"転送不可"</string>
+	<!---->
+	<string name="drm_forwardforbidden_message">"DRM ファイルは転送できません"</string>
+	<!---->
+	<string name="drm_no_valid_right">"ファイルには有効な DRM 権限がありません！"</string>
+	<!---->
+	<string name="drm_current_count">"現在のカウント"</string>
+	<!---->
+	<string name="unlimited_usage">"無制限"</string>
+	<!---->
+	<string name="drm_current_right">"保護有効"</string>
+	<!---->
+	<string name="not_available">"使用できません。"</string>
+	<!---->
+	<string name="right_url">"ライセンス発行人URL:"</string>
+	<!---->
+	<string name="use_times">"%s回使用"</string>
+	<!---->
+	<string name="valid_after">"以下から有効："</string>
+	<!---->
+	<string name="valid_until">"以下まで有効："</string>
+	<!---->
+	<string name="drm_wifidisplay_title">"著作権保護されたファイル"</string>
+	<!---->
+	<string name="drm_wifidisplay_message">"著作権保護されたファイルは配信できません。"</string>
+	<!---->
+	<string name="drm_wifidisplay_cancel_btn">"Wi-Fi ディスプレイをオフにする"</string>
+	<!---->
+	<string name="drm_wifidisplay_ok">"OK"</string>
+	<!---->
+	<string name="tv_link_close_toast">"Wi-Fi ディスプレイを終了しました"</string>
+	<!---->
+	<string name="usbotg">"外付けUSBメモリ"</string>
+	<!---->
+	<string name="show">"システムファイルを表示"</string>
+	<!---->
+	<string name="hide">"システムファイルを非表示"</string>
+	<!---->
+	<string name="action_menu_create_folder_button">"フォルダを作成する"</string>
+	<!---->
+	<string name="searchResult">"検索結果"</string>
+	<!---->
+	<string name="default_folder_name">"フォルダ名"</string>
+	<!---->
+	<string name="drm_protection_status">"保護状態："</string>
+	<!---->
+	<string name="drm_can_forward">"転送できます。"</string>
+	<!---->
+	<string name="drm_can_not_forward">"転送できません。"</string>
+	<!---->
+	<string name="drm_no_license">"使用できるDRMライセンスがありません。"</string>
+	<!---->
+	<string name="drm_interval">"初回使用後に %s 有効"</string>
+	<!---->
+	<string name="drm_begin">"開始："</string>
+	<!---->
+	<string name="drm_no_limitation">"制限はありません。"</string>
+	<!---->
+	<string name="drm_end">"終了："</string>
+	<!---->
+	<string name="drm_use_left">"残り："</string>
+	<!---->
+	<string name="drm_no_crop">"ファイル「%s」はDRMで保護されているため、トリミングできません。"</string>
+	<!---->
+	<string name="file_copy">"ファイルがコピーされました"</string>
+	<!---->
+	<string name="choice_file">"宛先を選択"</string>
+	<!---->
+	<string name="alert_delete_single">"選択したファイルは削除されます。"</string>
+	<!---->
+	<string name="pasting">"貼り付け中"</string>
+	<!---->
+	<string name="readable">"判読可能"</string>
+	<!---->
+	<string name="executable">"アプリケーション："</string>
+	<!---->
+	<string name="writable">"書き込み可能"</string>
+	<!---->
+	<string name="add_favorite">"お気に入りに追加"</string>
+	<!---->
+	<string name="del_favorite">"お気に入りフォルダから削除"</string>
+	<!---->
+	<string name="favourite">"お気に入りに追加"</string>
+	<!---->
+	<string name="viewby_details">"詳細ごとに表示する"</string>
+	<!---->
+	<string name="view_by">"表示"</string>
+	<!---->
+	<string name="show_hide">"表示\\非表示"</string>
+	<!---->
+	<string name="sort_by">"並べ替え基準"</string>
+	<!---->
+	<string name="more">"その他"</string>
+	<!-- no translation found for used -->
+	<skip />
+	<!---->
+	<string name="category_archives">"アーカイブ"</string>
+	<!---->
+	<string name="category_favorite">"お気に入り"</string>
+	<!---->
+	<string name="category_ringtones">"着信音"</string>
+	<!---->
+	<string name="category_recordings">"記録"</string>
+	<!---->
+	<string name="category_safebox">"セーフボックス"</string>
+	<!---->
+	<string name="category_apks">"APK"</string>
+	<!---->
+	<string name="search">"検索"</string>
+	<!---->
+	<string name="sort_type">"タイプで並び替え"</string>
+	<!---->
+	<string name="sort_name">"名前での並び替え(A-Z)"</string>
+	<!---->
+	<string name="sort_size">"サイズ順"</string>
+	<!---->
+	<string name="sort_time">"時間で並び替え"</string>
+	<!---->
+	<string name="selected">"ON"</string>
+	<!---->
+	<string name="save">"保存"</string>
+	<!---->
+	<string name="category_docs">"Doc"</string>
+	<!---->
+	<string name="category_files">"ファイル"</string>
+	<!---->
+	<string name="view_as_grid">"グリッドで表示する"</string>
+	<!---->
+	<string name="view_as_list">"リストで表示する"</string>
+	<!---->
+	<string name="detail_path">"場所："</string>
+	<!---->
+	<string name="detail_name">"名前："</string>
+	<!---->
+	<string name="detail_size">"サイズ："</string>
+	<!---->
+	<string name="detail_time">"最終更新："</string>
+	<!---->
+	<string name="empty_msg">"(空のフォルダ)"</string>
+	<!---->
+	<string name="search_files">"ファイルを検索"</string>
+	<!-- no translation found for search_result_count -->
+	<skip />
+	<!---->
+	<string name="drawer_settings">"設定"</string>
+	<!---->
+	<string name="search_text_empty">"コンテンツの検索は空にしてはいけません。"</string>
+	<!---->
+	<string name="search_result_title">"検索結果"</string>
+	<!---->
+	<string name="path_not_exists">"%1$sは存在しません"</string>
+	<!---->
+	<string name="modify_hidden_file">"名前が \'.\' から始まっていないとファイルは非表示にできません。"</string>
+	<!---->
+	<string name="paste_fail">"添付できません"</string>
+	<!---->
+	<string name="search_empty">"コンテンツの検索は空にしてはいけません。"</string>
+	<!---->
+	<string name="search_setting_description">"ローカルファイルおよびフォルダ"</string>
+	<!---->
+	<string name="change_mode">"ファイルまたはフォルダを選択"</string>
+	<!-- no translation found for drm_protectioninfo_title -->
+	<skip />
+	<!---->
+	<string name="draw_favourite">"お気に入り"</string>
+	<!---->
+	<string name="unfavourite">"お気に入りから削除"</string>
+	<!---->
+	<string name="drm_toast_license_expired">"DRMライセンスの有効期限が切れています。"</string>
+	<!-- no translation found for sdstroge -->
+	<skip />
+	<!-- no translation found for phonestorage -->
+	<skip />
+	<!-- no translation found for title_activity_main -->
+	<skip />
+	<!-- no translation found for hello_world -->
+	<skip />
+	<!-- no translation found for action_settings -->
+	<skip />
+	<!-- no translation found for unlock_video -->
+	<skip />
+	<!---->
+	<string name="readable_m">"判読可能"</string>
+	<!---->
+	<string name="executable_m">"アプリケーション"</string>
+	<!---->
+	<string name="writable_m">"書き込み可能"</string>
+	<!---->
+	<string name="main_recents">"履歴"</string>
+	<!-- no translation found for main_recents_cn -->
+	<skip />
+	<!---->
+	<string name="main_installers">"インストーラー"</string>
+	<!---->
+	<string name="main_document">"ドキュメント"</string>
+	<!---->
+	<string name="detail_path_m">"現在地情報"</string>
+	<!-- no translation found for detail_path_m_cn -->
+	<skip />
+	<!---->
+	<string name="detail_name_m">"名前"</string>
+	<!---->
+	<string name="detail_size_m">"サイズ"</string>
+	<!---->
+	<string name="detail_time_m">"最終更新:"</string>
+	<!---->
+	<string name="main_photo">"写真"</string>
+	<!---->
+	<string name="main_sd_storage">"SDストレージ"</string>
+	<!---->
+	<string name="main_external_storage">"外部ストレージ"</string>
+	<!---->
+	<string name="main_home">"ホーム"</string>
+	<!-- no translation found for main_home_cn -->
+	<skip />
+	<!---->
+	<string name="main_nava_home">"ホーム"</string>
+	<!---->
+	<string name="menu_select">"選択"</string>
+	<!-- no translation found for go_up -->
+	<skip />
+	<!---->
+	<string name="no_folder">"このフォルダは空です"</string>
+	<!---->
+	<string name="no_category">"このカテゴリーは空欄です。"</string>
+	<!-- no translation found for no_folder_cn -->
+	<skip />
+	<!-- no translation found for no_category_cn -->
+	<skip />
+	<!---->
+	<string name="pasted">"ファイルが貼り付けられました"</string>
+	<!---->
+	<string name="deleted">"ファイルを削除"</string>
+	<!---->
+	<string name="deleted_cn">"ファイルを削除"</string>
+	<!---->
+	<string name="view_list">"リスト表示"</string>
+	<!---->
+	<string name="view_grid">"グリッド表示"</string>
+	<!---->
+	<string name="create_new_folder">"フォルダを作成する"</string>
+	<!-- no translation found for add_folder -->
+	<skip />
+	<!---->
+	<string name="detail">"詳細"</string>
+	<!-- no translation found for menu_detail -->
+	<skip />
+	<!---->
+	<string name="migrate">"移動"</string>
+	<!---->
+	<string name="permission_welcome_title">"権限が必要です"</string>
+	<!---->
+	<string name="permission_msg">"より良いサービスを提供します"</string>
+	<!---->
+	<string name="permission_setting_title">"アクセス権限を付与"</string>
+	<!---->
+	<string name="permission_setting_content">"デバイスのアプリ設定でアクセス権限を変更してください。ストレージへのファイルマネジャーのアクセスを許可する"</string>
+	<!---->
+	<string name="permission_exit_btn">"終了"</string>
+	<!---->
+	<string name="dialog_close_btn">"閉じる"</string>
+	<!-- no translation found for dialog_close_btn_cn -->
+	<skip />
+	<!---->
+	<string name="shortcut_item">"ショートカットの追加"</string>
+	<!-- no translation found for shortcut_item_cn -->
+	<skip />
+	<!---->
+	<string name="shortcut_no_exist">"リクエストされたフォルダは存在しません"</string>
+	<!-- no translation found for shortcut_success -->
+	<skip />
+	<!---->
+	<string name="no_search_result_m">"\"%1$s\"は見つかりませんでした"</string>
+	<!---->
+	<string name="draw_left_phone_storage_m">"携帯電話"</string>
+	<!---->
+	<string name="category_audio">"オーディオ"</string>
+	<!---->
+	<string name="usbotg_m">"外部"</string>
+	<!-- no translation found for sd_m -->
+	<skip />
+	<!---->
+	<string name="freeof_m">"空き"</string>
+	<!---->
+	<string name="permission_settings">"設定"</string>
+	<!---->
+	<string name="safe_first_dialog_title">"セーフボックスのカテゴリー"</string>
+	<!---->
+	<string name="safe_first_dialog_content">"このカテゴリーに移動したファイルは、パスワード認証が必要です。ファイルメニューで [セーフボックスに移動] を押すと、ファイルがこのカテゴリーに追加されます。"</string>
+	<!-- no translation found for safe_first_dialog_content_cn -->
+	<skip />
+	<!---->
+	<string name="safe_storage_local">"ローカルストレージ"</string>
+	<!---->
+	<string name="set_password_pass">"パスワード"</string>
+	<!---->
+	<string name="set_password_first">"パスワードを設定4～-12桁"</string>
+	<!-- no translation found for input_new_password_hint -->
+	<skip />
+	<!---->
+	<string name="set_password_again">"パスワードを確認"</string>
+	<!---->
+	<string name="set_password_show">"パスワードを表示"</string>
+	<!---->
+	<string name="set_password_safe_question">"セキュリティ問題"</string>
+	<!---->
+	<string name="set_password_safe_question_answer">"回答"</string>
+	<!---->
+	<string name="set_password_safe_forget_pass">"セキュリティ問題の解答を思い出してください。パスワードを忘れた場合、セキュリティ問題に回答することにより、リセットできます"</string>
+	<!---->
+	<string name="choose_safe">"セーフボックスを選択する"</string>
+	<!-- no translation found for choose_safe_cn -->
+	<skip />
+	<!---->
+	<string name="create_safe">"セーフボックスを作成する"</string>
+	<!---->
+	<string name="create_safe_to">"に対してセーフボックスを作成する"</string>
+	<!-- no translation found for create_safe_to_cn -->
+	<skip />
+	<!---->
+	<string name="set_password">"パスワードの設定"</string>
+	<!-- no translation found for add_file_safe -->
+	<skip />
+	<!---->
+	<string name="safe_set">"設定"</string>
+	<!---->
+	<string name="safe_set_title">"セーフボックスの設定"</string>
+	<!-- no translation found for safe_set_title_cn -->
+	<skip />
+	<!---->
+	<string name="update_password">"パスワードの更新"</string>
+	<!---->
+	<string name="modify_password">"パスワードの編集"</string>
+	<!---->
+	<string name="security_question">"セキュリティ問題を更新する"</string>
+	<!-- no translation found for modify_security_question -->
+	<skip />
+	<!---->
+	<string name="safe_set_change_safe">"セーフボックスを変更する"</string>
+	<!---->
+	<string name="safe_set_location_safe">"セーフボックスの位置"</string>
+	<!-- no translation found for safe_set_location_safe_cn -->
+	<skip />
+	<!---->
+	<string name="update_password_original">"元のパスワードを入力してください"</string>
+	<!---->
+	<string name="update_password_original_cn">"元のパスワードを入力してください"</string>
+	<!---->
+	<string name="destory_safe">"セーフボックスを終了する"</string>
+	<!-- no translation found for destory_safe_cn -->
+	<skip />
+	<!-- no translation found for destory -->
+	<skip />
+	<!---->
+	<string name="use_password">"パスワードを使用する"</string>
+	<!---->
+	<string name="input_password">"パスワードを入力"</string>
+	<!---->
+	<string name="forget_password">"パスワードを忘れた場合"</string>
+	<!-- no translation found for others -->
+	<skip />
+	<!---->
+	<string name="password_empty">"パスワードを空白にすることはできません。"</string>
+	<!---->
+	<string name="password_consistent">"パスワードが一致しません。"</string>
+	<!---->
+	<string name="password_length_error">"パスワードの文字数エラー"</string>
+	<!---->
+	<string name="answer_empty">"回答を空白にすることはできません。"</string>
+	<!-- no translation found for safe_box_name_empty -->
+	<skip />
+	<!---->
+	<string name="update_success">"アップデートが完了しました。"</string>
+	<!---->
+	<string name="update_fail">"更新に失敗しました。"</string>
+	<!---->
+	<string name="password_mistake">"パスワードが不正です。再入力してください。"</string>
+	<!---->
+	<string name="move_safe">"セーフボックスに移動"</string>
+	<!---->
+	<string name="fingerprint_check">"リンクされた指紋認証。認証には指紋センサーを使用してください。"</string>
+	<!---->
+	<string name="in_use">""使用中"</string>
+	<!---->
+	<string name="created">"作成済み"</string>
+	<!---->
+	<string name="choose_files">"ファイルの選択"</string>
+	<!---->
+	<string name="move_out">"閉じる"</string>
+	<!---->
+	<string name="remove_to">"移動先"</string>
+	<!---->
+	<string name="default_location">"デフォルトのロケーション"</string>
+	<!---->
+	<string name="specified_location">"特定のロケーション"</string>
+	<!-- no translation found for open_dir -->
+	<skip />
+	<!-- no translation found for default_location_cn -->
+	<skip />
+	<!-- no translation found for specified_location_cn -->
+	<skip />
+	<!-- no translation found for specified_location_content_cn -->
+	<skip />
+	<!-- no translation found for category_safe -->
+	<skip />
+	<!-- no translation found for category_safe_cn -->
+	<skip />
+	<!---->
+	<string name="add_safe_size_limited">"2.0GB を超えるファイルは追加できません"</string>
+	<!-- no translation found for add_safe_drm_limited -->
+	<skip />
+	<!---->
+	<string name="fingerprint_relative_dialog">"この機能を有効にすると、ファイルがセーフボックスに移動します。今すぐ有効にしますか?"</string>
+	<!-- no translation found for fingerprint_relative_dialog_cn -->
+	<skip />
+	<!-- no translation found for fingerprint_relative_dialog_ok -->
+	<skip />
+	<!-- no translation found for fingerprint_relative_dialog_ok_cn -->
+	<skip />
+	<!---->
+	<string name="fingerprint_relative_dialog_cancel">"後で"</string>
+	<!-- no translation found for fingerprint_relative_dialog_cancel_cn -->
+	<skip />
+	<!---->
+	<string name="safe_location_current">"セーフボックスの位置:"</string>
+	<!-- no translation found for safe_location_current_cn -->
+	<skip />
+	<!---->
+	<string name="safe_location_content">"暗号化データの損傷を防ぐために、ファイルフォルダで操作しないでください。"</string>
+	<!-- no translation found for safe_location_content_cn -->
+	<skip />
+	<!---->
+	<string name="destory_safe_dialog_message">"セーフボックスのファイルとパスワードがすべて削除されます。今すぐ終了しますか?"</string>
+	<!---->
+	<string name="destory_safe_dialog_checkbox">"同時にファイルを削除しますか？"</string>
+	<!-- no translation found for destory_safe_dialog_checkbox_cn -->
+	<skip />
+	<!---->
+	<string name="open_safe_dialog">"セーフボックスを有効にする"</string>
+	<!-- no translation found for open_safe_dialog_cn -->
+	<skip />
+	<!---->
+	<string name="open_safe_dialog_message">"セーフボックスを有効にすると、ファイルがセーフボックスに移動します。今すぐ有効にしますか?"</string>
+	<!-- no translation found for open_safe_dialog_message_cn -->
+	<skip />
+	<!---->
+	<string name="open_safe_dialog_ok">"すぐに開く"</string>
+	<!---->
+	<string name="category_private_string">"セーフボックス"</string>
+	<!---->
+	<string name="opening">"開いています　"</string>
+	<!-- no translation found for space_clear -->
+	<skip />
+	<!-- no translation found for unselected -->
+	<skip />
+	<!-- no translation found for select -->
+	<skip />
+	<!-- no translation found for finish -->
+	<skip />
+	<!---->
+	<string name="senior_title">"シニア"</string>
+	<!-- no translation found for no_files_for_add_to_safebox -->
+	<skip />
+	<!-- no translation found for finger_print_relation -->
+	<skip />
+	<!-- no translation found for duplicate_file_name_tip -->
+	<skip />
+	<!---->
+	<string name="searchview_hint">"ファイルを検索"</string>
+	<!-- no translation found for safe_box_name_tip -->
+	<skip />
+	<!-- no translation found for toast_update_safe_box_name_sucess -->
+	<skip />
+	<!-- no translation found for toast_update_safe_box_name_fail -->
+	<skip />
+	<!-- no translation found for toast_safe_box_name_empty -->
+	<skip />
+	<!-- no translation found for cut_single_fail_tip -->
+	<skip />
+	<!-- no translation found for delete_single_fail_tip -->
+	<skip />
+	<!-- no translation found for copy_single_fail_tip -->
+	<skip />
+	<!-- no translation found for copy_multi_fail_tip -->
+	<skip />
+	<!-- no translation found for delete_multi_fail_tip -->
+	<skip />
+	<!-- no translation found for cut_multi_fail_tip -->
+	<skip />
+	<!-- no translation found for copy_all_fail_tip -->
+	<skip />
+	<!-- no translation found for delete_all_fail_tip -->
+	<skip />
+	<!-- no translation found for cut_all_fail_tip -->
+	<skip />
+	<!-- no translation found for past_multi_fail_tip -->
+	<skip />
+	<!-- no translation found for past_single_fail_tip -->
+	<skip />
+	<!-- no translation found for past_all_fail_tip -->
+	<skip />
+	<!-- no translation found for chip_encryption -->
+	<skip />
+	<!---->
+	<string name="safe_name_title">"名前"</string>
+	<!---->
+	<string name="update_name">"名前を更新します。"</string>
+	<!-- no translation found for fingerprint_relate -->
+	<skip />
+	<!-- no translation found for insufficient_message_cn -->
+	<skip />
+	<!-- no translation found for add_success -->
+	<skip />
+	<!---->
+	<string name="pasted_cn">"ファイルが貼り付けられました"</string>
+	<!-- no translation found for no_search_result_cn -->
+	<skip />
+	<!---->
+	<string name="detail_time_cn">"変更時間"</string>
+	<!-- no translation found for rename_limit -->
+	<skip />
+	<!-- no translation found for fingerprint_fail -->
+	<skip />
+	<!-- no translation found for answer_mistake -->
+	<skip />
+	<!-- no translation found for answer_empty_tip -->
+	<skip />
+	<!-- no translation found for new_safe -->
+	<skip />
+	<!-- no translation found for dialog_confirm -->
+	<skip />
+	<!-- no translation found for move_in_success -->
+	<skip />
+	<!-- no translation found for move_in_count -->
+	<skip />
+	<!-- no translation found for message_security_fingerprint_lockout -->
+	<skip />
+	<!-- no translation found for use_password_auth -->
+	<skip />
+	<!-- no translation found for storage_details -->
+	<skip />
+	<!---->
+	<string name="total_memory">"合計メモリー量"</string>
+	<!-- no translation found for system -->
+	<skip />
+	<!-- no translation found for category_fragment_title -->
+	<skip />
+	<!-- no translation found for storage -->
+	<skip />
+	<!-- no translation found for choice -->
+	<skip />
+	<!-- no translation found for view_tag_key -->
+	<skip />
+	<!-- no translation found for view_tag_key2 -->
+	<skip />
+	<!-- no translation found for finish_percent -->
+	<skip />
+	<!---->
+	<string name="select_pic">"画像を選択"</string>
+	<!---->
+	<string name="brackets_double">"(%1$s)"</string>
+	<!-- no translation found for selected_pick -->
+	<skip />
+	<!-- no translation found for most_selected -->
+	<skip />
+	<!-- no translation found for finish_ready -->
+	<skip />
+	<!-- no translation found for select_pic_data -->
+	<skip />
+	<!-- no translation found for delete_determine_selected -->
+	<skip />
+	<!-- no translation found for delete_document -->
+	<skip />
+	<!-- no translation found for delete_folder -->
+	<skip />
+	<!-- no translation found for delete_folder_and -->
+	<skip />
+	<!---->
+	<string name="deselect_all_item">"選択をすべて解除"</string>
+	<!-- no translation found for edit -->
+	<skip />
+	<!-- no translation found for storage_phone -->
+	<skip />
+	<!-- no translation found for storage_sdcard -->
+	<skip />
+	<!-- no translation found for storage_otg -->
+	<skip />
+	<!-- no translation found for storage_slash -->
+	<skip />
+	<!-- no translation found for welcome_security -->
+	<skip />
+	<!-- no translation found for welcome_security_info -->
+	<skip />
+	<!-- no translation found for welcome_convenient -->
+	<skip />
+	<!-- no translation found for welcome_convenient_info -->
+	<skip />
+	<!-- no translation found for welcome_depth -->
+	<skip />
+	<!-- no translation found for welcome_depth_info -->
+	<skip />
+	<!-- no translation found for welcome_add -->
+	<skip />
+	<!-- no translation found for welcome_add_info -->
+	<skip />
+	<!-- no translation found for welcome_dialog_title -->
+	<skip />
+	<!-- no translation found for welcome_dialog_info -->
+	<skip />
+	<!-- no translation found for welcome_dialog_verify_btn -->
+	<skip />
+	<!-- no translation found for welcome_dialog_verify_pwd -->
+	<skip />
+	<!-- no translation found for welcome_start_use -->
+	<skip />
+	<!-- no translation found for welcome_not_use -->
+	<skip />
+	<!---->
+	<string name="welcome_ok">"OK"</string>
+	<!-- no translation found for encrypt_files_success -->
+	<skip />
+	<!-- no translation found for delete_direct -->
+	<skip />
+	<!---->
+	<string name="delete_file">"このファイルを削除しますか？"</string>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@null">
+    
+    <!-- android:background="@drawable/mst_photopage_top_control_separator" -->
+ 
+ 
+     <!-- TCL BaiYuan Begin on 2016.10.14 -->
+    <!-- Original: -->
+    <!-- 
+    <ImageButton android:id="@+id/movie_activity_back_button"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" 
+                android:src="@drawable/mst_photopage_top_back"
+                android:background="@null"
+                android:layout_marginStart="20dp"/>
+         -->
+    <!-- Modify To: -->
+    <ImageButton android:id="@+id/movie_activity_back_button"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" 
+                android:src="@drawable/mst_photopage_top_back_icon"
+                android:background="@drawable/ripple"
+                android:layout_marginStart="20dp"/>
+         -->
+     <!-- TCL BaiYuan End on 2016.10.14 -->
+    
+    
+</RelativeLayout>

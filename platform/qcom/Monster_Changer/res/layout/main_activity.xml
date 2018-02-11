@@ -1,0 +1,94 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mst="http://schemas.android.com/apk/res/com.mst"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/main_page_padding"
+        android:paddingRight="@dimen/main_page_padding"
+        android:paddingTop="@dimen/main_page_padding_top" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/main_page_image_height" >
+
+                <ImageView
+                    android:id="@+id/keyguard_wallpaper"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop" />
+                <ImageView 
+                    android:id="@+id/keyguard_time_widget_small"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top|center_horizontal"
+                    android:layout_marginTop="44dp"
+                    android:src="@drawable/keyguard_time_widget_small"
+                    />
+            </FrameLayout>
+
+            <TextView
+                style="@style/TextAppearance.MainPageText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/main_page_text_margin_top"
+                android:text="@string/keyguard_wallpaper" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="@dimen/main_page_padding"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/main_page_image_height" >
+
+                <ImageView
+                    android:id="@+id/wallpaper"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop" />
+                
+                <ImageView 
+                    android:id="@+id/launcher_widget_small"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top|center_horizontal"
+                    android:layout_marginTop="32dp"
+                    android:src="@drawable/launcher_widget_small"
+                    />
+                
+
+                <include layout="@layout/wallpaper_icon_preview_small" />
+            </FrameLayout>
+
+            <TextView
+                style="@style/TextAppearance.MainPageText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/main_page_text_margin_top"
+                android:text="@string/wallpaper" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

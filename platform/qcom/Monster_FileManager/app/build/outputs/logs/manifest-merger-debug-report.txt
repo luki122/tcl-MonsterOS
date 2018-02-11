@@ -1,0 +1,360 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:3:1-215:12
+	package
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:4:5-33
+		INJECTED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml
+		INJECTED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml
+		INJECTED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:3:11-69
+	android:versionCode
+		INJECTED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml
+		INJECTED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:6:5-66
+	android:name
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:6:22-64
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:7:5-73
+	android:name
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:7:22-70
+uses-permission#android.permission.SET_WALLPAPER
+ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:8:5-72
+	android:name
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:8:22-69
+uses-permission#android.permission.VIBRATE
+ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:9:5-66
+	android:name
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:9:22-63
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:10:5-81
+	android:name
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:10:22-78
+uses-permission#android.permission.WRITE_MEDIA_STORAGE
+ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:11:5-78
+	android:name
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:11:22-75
+uses-permission#android.permission.DISABLE_KEYGUARD
+ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:12:5-75
+	android:name
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:12:22-72
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:13:5-84
+	android:name
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:13:22-81
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:14:5-68
+	android:name
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:14:22-65
+uses-permission#android.permission.DEVICE_POWER
+ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:15:5-71
+	android:name
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:15:22-68
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:16:5-78
+	android:name
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:16:22-75
+uses-permission#com.android.launcher.permission.INSTALL_SHORTCUT
+ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:17:5-88
+	android:name
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:17:22-85
+uses-permission#com.android.launcher.permission.UNINSTALL_SHORTCUT
+ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:18:5-90
+	android:name
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:18:22-87
+uses-permission#com.android.launcher.permission.READ_SETTINGS
+ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:19:5-85
+	android:name
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:19:22-82
+uses-permission#android.permission.USE_FINGERPRINT
+ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:20:5-74
+	android:name
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:20:22-71
+uses-permission#android.permission.MANAGE_FINGERPRINT
+ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:21:5-77
+	android:name
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:21:22-74
+uses-permission#android.permission.GET_PACKAGE_SIZE
+ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:24:5-74
+	android:name
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:24:22-72
+uses-permission#android.permission.ACCESS_ALL_DOWNLOADS
+ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:25:5-78
+	android:name
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:25:22-76
+uses-permission#android.permission.ACCESS_KEYGUARD_SECURE_STORAGE
+ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:26:5-88
+	android:name
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:26:22-86
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:27:5-78
+	android:name
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:27:22-76
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:28:5-74
+	android:name
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:28:22-72
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:29:5-79
+	android:name
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:29:22-77
+uses-sdk
+ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:32:5-34:41
+MERGED from [com.android.support:design:24.0.0] /home/liaoah/work/jobs/project/Monster_FileManager/app/build/intermediates/exploded-aar/com.android.support/design/24.0.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:24.0.0] /home/liaoah/work/jobs/project/Monster_FileManager/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.0.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:24.0.0] /home/liaoah/work/jobs/project/Monster_FileManager/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:24.0.0] /home/liaoah/work/jobs/project/Monster_FileManager/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:24.0.0] /home/liaoah/work/jobs/project/Monster_FileManager/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.0.0/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-v4:24.0.0] /home/liaoah/work/jobs/project/Monster_FileManager/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:21:5-23:54
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:24.0.0] /home/liaoah/work/jobs/project/Monster_FileManager/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:34:9-38
+		INJECTED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml
+		INJECTED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:33:9-35
+		INJECTED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml
+		INJECTED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml
+application
+ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:36:5-213:19
+MERGED from [com.android.support:design:24.0.0] /home/liaoah/work/jobs/project/Monster_FileManager/app/build/intermediates/exploded-aar/com.android.support/design/24.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:24.0.0] /home/liaoah/work/jobs/project/Monster_FileManager/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.0.0] /home/liaoah/work/jobs/project/Monster_FileManager/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:24.0.0] /home/liaoah/work/jobs/project/Monster_FileManager/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.0.0/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-v4:24.0.0] /home/liaoah/work/jobs/project/Monster_FileManager/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:25:5-20
+	android:label
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:40:9-41
+	android:supportsRtl
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:41:9-35
+	android:hardwareAccelerated
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:38:9-43
+	android:uiOptions
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:42:9-53
+	android:icon
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:39:9-45
+	android:theme
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:43:9-52
+	android:name
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:37:9-65
+activity#cn.tcl.filemanager.activity.FileBrowserActivity
+ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:44:9-50:20
+	android:screenOrientation
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:48:13-49
+	android:launchMode
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:47:13-43
+	android:configChanges
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:46:13-84
+	android:name
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:45:13-75
+activity#cn.tcl.filemanager.activity.CategoryActivity
+ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:60:9-70:20
+	android:screenOrientation
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:64:13-49
+	android:launchMode
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:63:13-43
+	android:configChanges
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:62:13-84
+	android:name
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:61:13-72
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:66:13-69:29
+action#android.intent.action.MAIN
+ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:67:17-69
+	android:name
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:67:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:68:17-77
+	android:name
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:68:27-74
+activity#cn.tcl.filemanager.activity.FileBaseActionbarActivity
+ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:72:9-74:20
+	android:name
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:73:13-63
+activity#cn.tcl.filemanager.photopicker.LargePreviewActivity
+ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:75:9-88
+	android:name
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:75:19-85
+activity#cn.tcl.filemanager.photopicker.ImagePickerPlusActivity
+ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:76:9-90:24
+	android:screenOrientation
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:78:13-49
+	android:windowSoftInputMode
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:79:13-70
+	android:name
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:77:13-82
+intent-filter#android.intent.action.GET_CONTENT+android.intent.category.DEFAULT+android.intent.category.OPENABLE
+ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:80:9-89:25
+action#android.intent.action.GET_CONTENT
+ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:81:13-72
+	android:name
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:81:21-69
+category#android.intent.category.OPENABLE
+ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:82:13-73
+	android:name
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:82:23-70
+category#android.intent.category.DEFAULT
+ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:83:13-72
+	android:name
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:83:23-69
+data
+ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:85:13-48
+	android:mimeType
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:85:19-45
+activity#cn.tcl.filemanager.activity.SelectSafeFilesActivity
+ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:93:9-99:20
+	android:screenOrientation
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:97:13-49
+	android:launchMode
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:96:13-43
+	android:configChanges
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:95:13-74
+	android:name
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:94:13-79
+activity#cn.tcl.filemanager.activity.FileSelectionActivity
+ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:101:9-123:20
+	android:screenOrientation
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:105:13-49
+	android:launchMode
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:104:13-43
+	android:configChanges
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:103:13-74
+	android:name
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:102:13-77
+intent-filter#android.intent.action.PICK+android.intent.category.DEFAULT
+ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:107:13-114:29
+action#android.intent.action.PICK
+ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:108:17-69
+	android:name
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:108:25-66
+intent-filter#android.intent.category.DEFAULT+android.intent.category.OPENABLE+com.mediatek.filemanager.ADD_FILE
+ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:116:13-121:29
+action#com.mediatek.filemanager.ADD_FILE
+ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:117:17-76
+	android:name
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:117:25-73
+activity#cn.tcl.filemanager.activity.PathSelectionActivity
+ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:124:9-140:20
+	android:screenOrientation
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:128:13-49
+	android:launchMode
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:127:13-43
+	android:configChanges
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:126:13-74
+	android:name
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:125:13-77
+intent-filter#android.intent.category.DEFAULT+com.android.fileexplorer.action.DIR_SEL
+ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:135:13-139:29
+action#com.android.fileexplorer.action.DIR_SEL
+ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:136:17-82
+	android:name
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:136:25-79
+activity#cn.tcl.filemanager.activity.FileSafeActivity
+ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:141:9-147:20
+	android:screenOrientation
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:145:13-49
+	android:launchMode
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:144:13-43
+	android:configChanges
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:143:13-74
+	android:name
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:142:13-72
+activity#cn.tcl.filemanager.activity.FileEncryptWelcomeActivity
+ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:148:9-154:20
+	android:screenOrientation
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:152:13-49
+	android:launchMode
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:151:13-43
+	android:configChanges
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:150:13-74
+	android:name
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:149:13-82
+activity#cn.tcl.filemanager.activity.SafeBoxSettingsActivity
+ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:155:9-162:20
+	android:screenOrientation
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:160:13-49
+	android:launchMode
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:158:13-43
+	android:windowSoftInputMode
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:159:13-55
+	android:configChanges
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:157:13-74
+	android:name
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:156:13-79
+activity#cn.tcl.filemanager.activity.FileSafeBrowserActivity
+ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:163:9-170:20
+	android:screenOrientation
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:168:13-49
+	android:launchMode
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:166:13-43
+	android:windowSoftInputMode
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:167:13-55
+	android:configChanges
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:165:13-74
+	android:name
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:164:13-79
+activity#cn.tcl.filemanager.activity.PieChartActivity
+ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:171:9-176:20
+	android:screenOrientation
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:174:13-49
+	android:configChanges
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:173:13-74
+	android:name
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:172:13-54
+activity#cn.tcl.filemanager.activity.SelectStorageActivity
+ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:177:9-181:20
+	android:screenOrientation
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:179:13-49
+	android:name
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:178:13-59
+activity#cn.tcl.filemanager.activity.SelectStorageForExternalActivity
+ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:183:9-187:20
+	android:screenOrientation
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:185:13-49
+	android:name
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:184:13-70
+service#cn.tcl.filemanager.service.FileManagerService
+ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:188:9-195:19
+	android:enabled
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:190:13-35
+	android:exported
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:191:13-36
+	android:name
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:189:13-73
+intent-filter#com.tct.filemanager.service.FileManagerService
+ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:192:13-194:29
+action#com.tct.filemanager.service.FileManagerService
+ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:193:17-89
+	android:name
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:193:25-86
+receiver#cn.tcl.filemanager.utils.ResetReceiver
+ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:197:9-201:20
+	android:name
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:197:19-72
+intent-filter#android.intent.action.LAUNCH_DEVICE_RESET
+ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:198:13-200:29
+	android:priority
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:198:28-49
+action#android.intent.action.LAUNCH_DEVICE_RESET
+ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:199:17-84
+	android:name
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:199:25-81
+provider#android.support.v4.content.FileProvider
+ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:203:9-211:20
+	android:authorities
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:205:13-66
+	android:grantUriPermissions
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:206:13-47
+	android:exported
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:207:13-37
+	android:name
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:204:13-67
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:208:13-210:54
+	android:resource
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:210:17-51
+	android:name
+		ADDED from /home/liaoah/work/jobs/project/Monster_FileManager/app/src/main/AndroidManifest.xml:209:17-67

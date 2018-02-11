@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!-- no translation found for lib_name -->
+	<skip />
+	<!-- no translation found for ok -->
+	<skip />
+	<!-- no translation found for cancel -->
+	<skip />
+	<!-- no translation found for set -->
+	<skip />
+	<!-- no translation found for yes -->
+	<skip />
+	<!-- no translation found for no -->
+	<skip />
+	<!---->
+	<string name="the_external_memory_storage_is_not_mounted">"Välismälu ei ole ühendatud. USB-mälu võib olla vaja keelata."</string>
+	<!-- no translation found for recording_duration_is_limited_to_15_seconds -->
+	<skip />
+	<!-- no translation found for an_error_occurs_while_recording -->
+	<skip />
+	<!---->
+	<string name="cross_dj_saturated_storage_not_enough_free_space_to_record_your_mix">"Miksi salvestamiseks ei ole piisavalt ruumi."</string>
+	<!---->
+	<string name="cross_dj_saturated_storage_your_recording_might_stop_soon_because_no_more_free_space_is_available">"Salvestamine võib varsti lõppeda, sest vaba ruum on täis."</string>
+	<!---->
+	<string name="recording_soon_to_reach_max_duration">"Salvestus on varsti maksimaalse pikkusega. Kontrollige eelistusi."</string>
+	<!---->
+	<string name="recording_reached_max_duration">"Salvestatud on maksimaalne pikkus. Kontrollige eelistusi."</string>
+	<!-- no translation found for record_is_not_available_in_external_mixer_mode -->
+	<skip />
+	<!---->
+	<string name="no_error">"Tõrget pole"</string>
+	<!-- no translation found for file_too_big_to_be_loaded_into_memory -->
+	<skip />
+	<!-- no translation found for the_remote_track_is_too_long_exceed_the_20_minutes_limit -->
+	<skip />
+	<!---->
+	<string name="there_s_not_enough_space_in_your_internal_storage_try_to_do_some_clean_up">"Sisemälus ei ole piisavalt ruumi (vabastage mäluruumi)"</string>
+	<!-- no translation found for the_format_is_unknown -->
+	<skip />
+	<!-- no translation found for the_file_is_invalid -->
+	<skip />
+	<!-- no translation found for file_not_found -->
+	<skip />
+	<!-- no translation found for check_your_audio_settings -->
+	<skip />
+	<!-- no translation found for unspecified_error -->
+	<skip />
+	<!-- no translation found for track_error -->
+	<skip />
+	<!-- no translation found for invalid_track -->
+	<skip />
+	<!-- no translation found for the_format_is_not_supported_on_android -->
+	<skip />
+	<!-- no translation found for the_permission_of_storage -->
+	<skip />
+	<!-- no translation found for can_not_play_in_dj_mode -->
+	<skip />
+	<!-- no translation found for mix_your_music -->
+	<skip />
+	<!---->
+	<string name="cannot_specify_an_empty_name_for_playlist">"Esitusloendi nimi ei saa olla tühi"</string>
+	<!-- no translation found for playlist_name_already_exists_ -->
+	<skip />
+	<!-- no translation found for there_was_an_issue_during_playlist_creation -->
+	<skip />
+	<!-- no translation found for loading -->
+	<skip />
+	<!-- no translation found for auth_no_username_password -->
+	<skip />
+	<!-- no translation found for auth_wrong_username_password -->
+	<skip />
+	<!-- no translation found for auth_problem_during_authentification -->
+	<skip />
+	<!---->
+	<string name="never_show_it_again">"Ära kuva seda uuesti"</string>
+	<!-- no translation found for dialogtitle_rdio_not_unlimited -->
+	<skip />
+	<!-- no translation found for dialogtitle_rdio_anonymous -->
+	<skip />
+	<!-- no translation found for dialogtitle_rdio_get_premium -->
+	<skip />
+	<!-- no translation found for rdio_anonymous_usage_description -->
+	<skip />
+	<!-- no translation found for log_in -->
+	<skip />
+	<!---->
+	<string name="sign_up">"Registreeru"</string>
+	<!-- no translation found for dialog_wifi_only_stream_title -->
+	<skip />
+	<!-- no translation found for dialog_wifi_only_stream_message -->
+	<skip />
+	<!-- no translation found for no_transition_mode -->
+	<skip />
+	<!-- no translation found for manual_transition_mode -->
+	<skip />
+	<!-- no translation found for auto_transition_mode -->
+	<skip />
+	<!-- no translation found for crossfader_transition_mode -->
+	<skip />
+	<!-- no translation found for the_track_cannot_be_played -->
+	<skip />
+	<!---->
+	<string name="scratching_is_disabled_in_no_mix_mode">"DJ-režiimis saate ainult scratch\'ida."</string>
+	<!-- no translation found for usb_connection_failure -->
+	<skip />
+	<!-- no translation found for no_device_detected -->
+	<skip />
+	<!-- no translation found for connection_to_device_succeed -->
+	<skip />
+	<!-- no translation found for usb_device -->
+	<skip />
+	<!-- no translation found for the_connected_device_is_unknown -->
+	<skip />
+	<!---->
+	<string name="invalid_drm_file">"Failil ei ole kehtivat DRM-i volitust."</string>
+	<!-- no translation found for drm_file_is_not_allowed -->
+	<skip />
+	<!-- no translation found for unable_to_load_track -->
+	<skip />
+	<!-- no translation found for record_default_name -->
+	<skip />
+	<!-- no translation found for dj_mode_title -->
+	<skip />
+	<!-- no translation found for extraCharge_warning_title -->
+	<skip />
+	<!-- no translation found for extracharge_warning_msg -->
+	<skip />
+	<!-- no translation found for extracharge_donot_show_again_msg -->
+	<skip />
+	<!-- no translation found for extracharge_use_mobileData_btn -->
+	<skip />
+	<!-- no translation found for subsrcibe_title -->
+	<skip />
+	<!-- no translation found for subsrcibe_before_end_msg -->
+	<skip />
+	<!-- no translation found for subsrcibe_end_msg -->
+	<skip />
+	<!-- no translation found for subsrcibe_for_radio_msg -->
+	<skip />
+	<!-- no translation found for subscribe_later_btn -->
+	<skip />
+	<!-- no translation found for settings_stream_via_wifi_only_win -->
+	<skip />
+	<!---->
+	<string name="mobiledata_turnoff_btn">"Keela"</string>
+	<!-- no translation found for decode_not_finish -->
+	<skip />
+	<!-- no translation found for have_not_load_finish -->
+	<skip />
+	<!-- no translation found for record_minutes -->
+	<skip />
+	<!-- no translation found for record_minute -->
+	<skip />
+	<!-- no translation found for song_file_not_found -->
+	<skip />
+</resources>

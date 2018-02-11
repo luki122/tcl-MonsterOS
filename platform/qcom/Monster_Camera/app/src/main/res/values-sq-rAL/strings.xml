@@ -1,0 +1,1068 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"Fotoaparati"</string>
+	<!---->
+	<string name="gallery_app_name">"Galeria"</string>
+	<!---->
+	<string name="video_camera_label">"Video-kamera"</string>
+	<!-- no translation found for details_ms -->
+	<skip />
+	<!-- no translation found for details_hms -->
+	<skip />
+	<!---->
+	<string name="set_image">"Cilësoje foton si"</string>
+	<!---->
+	<string name="delete">"Fshi"</string>
+	<!---->
+	<string name="share">"Shpërndarje"</string>
+	<!---->
+	<string name="share_panorama">"Shpërndaj panoramën"</string>
+	<!---->
+	<string name="share_as_photo">"Shpërndaj si fotografi"</string>
+	<!---->
+	<string name="deleted">"Fshirë"</string>
+	<!---->
+	<string name="undo">"Anulo"</string>
+	<!---->
+	<string name="details">"Detaje"</string>
+	<!---->
+	<string name="close">"Mbyll"</string>
+	<!---->
+	<string name="show_on_map">"Shfaq në hartën"</string>
+	<!---->
+	<string name="rotate_left">"Rrotullo majtas"</string>
+	<!---->
+	<string name="rotate_right">"Rrotullo djathtas"</string>
+	<!---->
+	<string name="edit">"Ndrysho"</string>
+	<!---->
+	<string name="crop_action">"Pres"</string>
+	<!---->
+	<string name="trim_action">"Pres"</string>
+	<!---->
+	<string name="set_as">"Cilëso si"</string>
+	<!---->
+	<string name="video_err">"Nuk mund të regjistrohet videon"</string>
+	<!---->
+	<string name="title">"Titulli"</string>
+	<!-- no translation found for description -->
+	<skip />
+	<!---->
+	<string name="time">"Kohë"</string>
+	<!---->
+	<string name="location">"Lokacion"</string>
+	<!---->
+	<string name="path">"Udhë"</string>
+	<!---->
+	<string name="width">"Gjerësia"</string>
+	<!---->
+	<string name="height">"Lartësia"</string>
+	<!---->
+	<string name="orientation">"Orientimi"</string>
+	<!---->
+	<string name="duration">"Kohëzgjatje"</string>
+	<!---->
+	<string name="mimetype">"Lloji MIME"</string>
+	<!---->
+	<string name="file_size">"Madhësia e skedës"</string>
+	<!---->
+	<string name="maker">"Autori"</string>
+	<!---->
+	<string name="model">"Modeli"</string>
+	<!---->
+	<string name="flash">"Blici"</string>
+	<!---->
+	<string name="aperture">"Hapje"</string>
+	<!---->
+	<string name="focal_length">"Madhësia Fokale"</string>
+	<!---->
+	<string name="white_balance">"Balanca e të bardhës"</string>
+	<!---->
+	<string name="exposure_time">"Kohëzgjatje e ekspozimit"</string>
+	<!---->
+	<string name="iso">"ISO"</string>
+	<!-- no translation found for unit_mm -->
+	<skip />
+	<!---->
+	<string name="manual">"Me dorë"</string>
+	<!---->
+	<string name="auto">"Automatikisht"</string>
+	<!---->
+	<string name="flash_on">"Blici shkrepur"</string>
+	<!---->
+	<string name="flash_off">"Pa blic"</string>
+	<!-- no translation found for unknown -->
+	<skip />
+	<!---->
+	<string name="try_to_set_local_album_available_offline">"Ky artikull është ruajtur lokalisht dhe i përdorshëm jashtë rrjetit."</string>
+	<!---->
+	<string name="please_wait">"Prisni pak çaste"</string>
+	<!---->
+	<string name="camera_error_title">"Gabim në kamera"</string>
+	<!---->
+	<string name="cannot_connect_camera">"Nuk mund të lidhet me kamerën."</string>
+	<!---->
+	<string name="camera_disabled">"Kamera është e pamundësuar për shkak të rregullave të sigurshme."</string>
+	<!---->
+	<string name="wait">"Ju lutem prisni..."</string>
+	<!---->
+	<string name="no_storage" product="default">"Para përdorimit të kamerës ju lutemi futni kartën SD."</string>
+	<!---->
+	<string name="preparing_sd" product="default">"Përgatitje e kartës SD\u2026"</string>
+	<!---->
+	<string name="access_sd_fail" product="default">"Nuk ka hyrje deri kartën SD."</string>
+	<!---->
+	<string name="time_lapse_title">"Regjistrim me interval kohor"</string>
+	<!-- no translation found for capturing -->
+	<skip />
+	<!---->
+	<string name="pref_camera_id_title">"Zgjidh kamera"</string>
+	<!---->
+	<string name="pref_camera_id_entry_back">"Prapa"</string>
+	<!---->
+	<string name="pref_camera_id_entry_front">"Përpara"</string>
+	<!---->
+	<string name="pref_camera_save_location_title">"GPS emërtimi"</string>
+	<!-- no translation found for pref_camera_location_label -->
+	<skip />
+	<!---->
+	<string name="pref_camera_timer_title">"Tajmer numërues"</string>
+	<!-- no translation found for pref_camera_timer_sound_default -->
+	<skip />
+	<!---->
+	<string name="pref_camera_timer_sound_title">"Bip gjatë numërimit"</string>
+	<!-- no translation found for setting_off -->
+	<skip />
+	<!-- no translation found for setting_on -->
+	<skip />
+	<!---->
+	<string name="pref_video_quality_title">"Formati video"</string>
+	<!-- no translation found for pref_video_time_lapse_frame_interval_title -->
+	<skip />
+	<!---->
+	<string name="pref_camera_settings_category">"Cilësimet e kamerës"</string>
+	<!---->
+	<string name="pref_camcorder_settings_category">"Cilësimet e video-kamerës"</string>
+	<!---->
+	<string name="pref_camera_picturesize_title">"Madhësia e fotos"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_large">"Të mëdha"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_medium">"Mesatar"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_small">"I vogël"</string>
+	<!---->
+	<string name="pref_camera_focusmode_title">"Modaliteti me fokus"</string>
+	<!---->
+	<string name="pref_camera_focusmode_entry_auto">"Automatikisht"</string>
+	<!---->
+	<string name="pref_camera_focusmode_entry_infinity">"Infinit"</string>
+	<!---->
+	<string name="pref_camera_focusmode_entry_macro">"Makro"</string>
+	<!---->
+	<string name="pref_camera_focusmode_label_auto">"Automatikisht"</string>
+	<!---->
+	<string name="pref_camera_focusmode_label_infinity">"Infinit"</string>
+	<!---->
+	<string name="pref_camera_focusmode_label_macro">"Makro"</string>
+	<!---->
+	<string name="pref_camera_flashmode_title">"Modaliteti me blic"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label">"Modaliteti me blic"</string>
+	<!---->
+	<string name="pref_camera_flashmode_entry_auto">"Automatikisht"</string>
+	<!---->
+	<string name="pref_camera_flashmode_entry_on">"Ndiz"</string>
+	<!---->
+	<string name="pref_camera_flashmode_entry_off">"Fik"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label_auto">"BLIC AUTOMATIK"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label_on">"BLIC NDEZUR"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label_off">"BLIC FIKUR"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_title">"Balanca e të bardhës"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label">"Balanca e të bardhës"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_auto">"Automatikisht"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_incandescent">"Inkandeshente"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_daylight">"Dritë dielli"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_fluorescent">"Fluoreshente"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_cloudy">"I vrenjtur"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_auto">"Automatikisht"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_incandescent">"Inkandeshente"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_daylight">"Dritë dielli"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_fluorescent">"Fluoreshente"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_cloudy">"I vrenjtur"</string>
+	<!---->
+	<string name="pref_camera_scenemode_title">"Modaliteti i skenës"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_auto">"Automatikisht"</string>
+	<!-- no translation found for pref_camera_scenemode_entry_hdr_plus -->
+	<skip />
+	<!-- no translation found for pref_camera_scenemode_entry_hdr -->
+	<skip />
+	<!-- no translation found for pref_camera_scenemode_entry_turn_hdr_plus_on -->
+	<skip />
+	<!-- no translation found for pref_camera_scenemode_entry_turn_hdr_plus_off -->
+	<skip />
+	<!-- no translation found for pref_camera_scenemode_entry_turn_hdr_on -->
+	<skip />
+	<!-- no translation found for pref_camera_scenemode_entry_turn_hdr_off -->
+	<skip />
+	<!---->
+	<string name="pref_camera_scenemode_entry_action">"Lëvizje"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_night">"Natë"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_sunset">"Perëndim dielli"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_party">"Party"</string>
+	<!-- no translation found for pref_camera_scenemode_label_auto -->
+	<skip />
+	<!-- no translation found for pref_camera_scenemode_label_action -->
+	<skip />
+	<!-- no translation found for pref_camera_scenemode_label_night -->
+	<skip />
+	<!-- no translation found for pref_camera_scenemode_label_sunset -->
+	<skip />
+	<!-- no translation found for pref_camera_scenemode_label_party -->
+	<skip />
+	<!---->
+	<string name="pref_camera_countdown_label_off">"KOHËMATËS FIKUR"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_one">"1 sekondë"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_three">"3 sekonda"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_five">"5 sekonda"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_ten">"10 sekonda"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_fifteen">"15 sekonda"</string>
+	<!---->
+	<string name="not_selectable_in_scene_mode">"Nuk mund të zgjidhet kur është në regjim skenë."</string>
+	<!---->
+	<string name="pref_exposure_title">"Ekspozimi"</string>
+	<!---->
+	<string name="pref_exposure_label">"Ekspozimi"</string>
+	<!-- no translation found for pref_camera_hdr_default -->
+	<skip />
+	<!-- no translation found for pref_camera_hdr_plus_default -->
+	<skip />
+	<!---->
+	<string name="pref_camera_hdr_label">"HDR"</string>
+	<!---->
+	<string name="pref_camera_id_label_back">"KAMERA PËRPARA"</string>
+	<!---->
+	<string name="pref_camera_id_label_front">"KAMERA MBRAPA"</string>
+	<!---->
+	<string name="dialog_ok">"OK"</string>
+	<!---->
+	<string name="dialog_cancel">"Anulo"</string>
+	<!---->
+	<string name="spaceIsLow_content" product="default">"Në kartën tuaj SD nuk ka mjaftë hapësirë. Ndryshoni cilësimin e kualitetit ose fshini disa imazhe ose skedarë të tjerë."</string>
+	<!---->
+	<string name="phone_storage_low" product="default">"Hapësirës ruajtëse të telefonit po i mbaron hapësira. Ndrysho cilësimin e cilësisë ose fshi disa imazhe ose skedarë të tjerë."</string>
+	<!---->
+	<string name="video_reach_size_limit">"U arrit kufiri i madhësisë."</string>
+	<!---->
+	<string name="video_record_start_failed">"Nuk mund të fillojë regjistrimi"</string>
+	<!---->
+	<string name="pano_too_fast_prompt">"Shumë shpejtë"</string>
+	<!---->
+	<string name="pano_dialog_prepare_preview">"Përgatitje e panoramës"</string>
+	<!---->
+	<string name="pano_dialog_panorama_failed">"Nuk mund të ruhet panorama."</string>
+	<!---->
+	<string name="pano_dialog_title">"Panorama"</string>
+	<!---->
+	<string name="pano_capture_indication">"Fotografim  i panoramës"</string>
+	<!---->
+	<string name="pano_dialog_waiting_previous">"Në pritje për panoramën e mëparshme"</string>
+	<!---->
+	<string name="pano_review_saving_indication_str">"Po ruaj..."</string>
+	<!---->
+	<string name="pano_review_rendering">"\'\'Shfaqje e panoramës\'\'"</string>
+	<!---->
+	<string name="tap_to_focus">"Prek për fokus."</string>
+	<!---->
+	<string name="pref_video_effect_title">"Efekte"</string>
+	<!---->
+	<string name="effect_none">"Asnjë"</string>
+	<!---->
+	<string name="effect_goofy_face_squeeze">"Shkrep"</string>
+	<!---->
+	<string name="effect_goofy_face_big_eyes">"Sytë të madhe"</string>
+	<!---->
+	<string name="effect_goofy_face_big_mouth">"Goja e madhe"</string>
+	<!---->
+	<string name="effect_goofy_face_small_mouth">"Goja e vogël"</string>
+	<!---->
+	<string name="effect_goofy_face_big_nose">"Hundë e madhe"</string>
+	<!---->
+	<string name="effect_goofy_face_small_eyes">"Sytë e vogla"</string>
+	<!---->
+	<string name="effect_backdropper_space">"Në kozmosin"</string>
+	<!---->
+	<string name="effect_backdropper_sunset">"Perëndim dielli"</string>
+	<!---->
+	<string name="effect_backdropper_gallery">"Videoja juaj"</string>
+	<!---->
+	<string name="video_snapshot_hint">"Prek për fotografim gjatë regjistrimit."</string>
+	<!---->
+	<string name="video_recording_started">"Fillon video regjistrimi."</string>
+	<!---->
+	<string name="video_recording_stopped">"Video regjistrimi është ndalur."</string>
+	<!---->
+	<string name="clear_effects">"Pastro efektet"</string>
+	<!---->
+	<string name="effect_silly_faces">"FYTYRA QESHARAKE"</string>
+	<!---->
+	<string name="effect_background">"SFOND"</string>
+	<!-- no translation found for accessibility_shutter_button -->
+	<skip />
+	<!---->
+	<string name="accessibility_cancel_button">"Anulo"</string>
+	<!---->
+	<string name="accessibility_menu_button">"Butoni meny"</string>
+	<!---->
+	<string name="accessibility_check_box">"%1$s kuti verifikimi"</string>
+	<!---->
+	<string name="accessibility_switch_to_camera">"Kalo në regjim normal"</string>
+	<!---->
+	<string name="accessibility_switch_to_video">"Kalo në video"</string>
+	<!---->
+	<string name="accessibility_switch_to_panorama">"Zëvendëso në regjim si panorama"</string>
+	<!-- no translation found for accessibility_switch_to_photo_sphere -->
+	<skip />
+	<!-- no translation found for accessibility_switch_to_gcam -->
+	<skip />
+	<!---->
+	<string name="accessibility_switch_to_refocus">"Ndryshoni për të Rifokusuar"</string>
+	<!---->
+	<string name="accessibility_review_cancel">"\'\'Riprodhimi i anulluar\'\'"</string>
+	<!---->
+	<string name="accessibility_review_ok">"Shqyrtim u krye"</string>
+	<!---->
+	<string name="accessibility_review_retake">"Review retake"</string>
+	<!---->
+	<string name="accessibility_mode_options">"Opsionet"</string>
+	<!---->
+	<string name="accessibility_mode_list_hidden">"Lista e regjimit u mbyll"</string>
+	<!---->
+	<string name="accessibility_mode_list_shown">"Lista e regjimit u hap"</string>
+	<!---->
+	<string name="media_accessibility_peek">"Shkrepja u bë"</string>
+	<!---->
+	<string name="photo_accessibility_peek">"Foto të bëra"</string>
+	<!---->
+	<string name="video_accessibility_peek">"Video të bëra"</string>
+	<!---->
+	<string name="accessibility_unlock_to_camera">"Shkyçni te Kamera"</string>
+	<!---->
+	<string name="media_date_content_description">"Media e marrë aktivizuar %s"</string>
+	<!---->
+	<string name="photo_date_content_description">"Foto e marrë aktivizuar %s"</string>
+	<!---->
+	<string name="video_date_content_description">"Video e marrë aktivizuar %s"</string>
+	<!---->
+	<string name="panorama_date_content_description">"Panorama e marrë aktivizuar %s"</string>
+	<!---->
+	<string name="photosphere_date_content_description">"Foto sferë e bërë %s"</string>
+	<!---->
+	<string name="refocus_date_content_description">"Mjegulla e lenteve e marrë aktivizuar %s"</string>
+	<!---->
+	<string name="media_processing_content_description">"Duke përpunuar media"</string>
+	<!---->
+	<string name="accessibility_mode_list_toggle">"Lista e regjimit të nyjës"</string>
+	<!---->
+	<string name="btn_mode_list_toggle">"Lista e regjimit"</string>
+	<!---->
+	<string name="accessibility_filmstrip_toggle">"Nyje të rripit të filmit"</string>
+	<!---->
+	<string name="btn_filmstrip_toggle">"Rrip i filmit"</string>
+	<!-- no translation found for capital_on -->
+	<skip />
+	<!---->
+	<string name="capital_off">"Fik"</string>
+	<!---->
+	<string name="video_control_play">"Luani Video"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_off">"Fik"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_500">"0,5 sekonda"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1000">"1 sekondë"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1500">"1.5 sekonda"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_2000">"2 sekonda"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_2500">"2.5 sekonda"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_3000">"3 sekonda"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_4000">"4 sekonda"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_5000">"5 sekonda"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_6000">"6 sekonda"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_10000">"10 sekonda"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_12000">"12 sekonda"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_15000">"15 sekonda"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_24000">"24 sekonda"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_30000">"0,5 minuta"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_60000">"1 minutë"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_90000">"1.5 minuta"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_120000">"2 minuta"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_150000">"2.5 minuta"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_180000">"3 minuta"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_240000">"4 minuta"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_300000">"5 minuta"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_360000">"6 minuta"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_600000">"10 minuta"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_720000">"12 minuta"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_900000">"15 minuta"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1440000">"24 minuta"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1800000">"0,5 orë"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_3600000">"1 orë"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_5400000">"1,5 orë"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_7200000">"2 orë"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_9000000">"2.5 orë"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_10800000">"3 orë"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_14400000">"4 orë"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_18000000">"5 orë"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_21600000">"6 orët"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_36000000">"10 orë"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_43200000">"12 orë"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_54000000">"15 orë"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_86400000">"24 orë"</string>
+	<!---->
+	<string name="time_lapse_seconds">"sekonda"</string>
+	<!---->
+	<string name="time_lapse_minutes">"minutat"</string>
+	<!---->
+	<string name="time_lapse_hours">"orët"</string>
+	<!-- no translation found for time_lapse_interval_set -->
+	<skip />
+	<!---->
+	<string name="set_time_interval">"Vendos interval kohor"</string>
+	<!---->
+	<string name="set_time_interval_help">"Tipari Kohë gabim është i pa-aktivizuar. Aktivizoni atë për të vendosur intervalin e kohës."</string>
+	<!---->
+	<string name="set_duration">"Vendos kohëzgjatjen në sekonda"</string>
+	<!---->
+	<string name="count_down_title_text">"Numërimi për fotografim"</string>
+	<!---->
+	<string name="remember_location_title">"Ruaje vendndodhjen e fotografisë?"</string>
+	<!---->
+	<string name="remember_location_prompt">"Etiketoni fotot tuaja dhe videot me vendndodhjen ku ato janë bërë.\n\nAplikacione të tjera mund të hapin këtë informacion bashkë me imazhet e tua të ruajtura."</string>
+	<!---->
+	<string name="remember_location_no">"Jo, faleminderit"</string>
+	<!---->
+	<string name="remember_location_yes">"Po"</string>
+	<!---->
+	<string name="camera_menu_more_label">"Më shumë opsione"</string>
+	<!-- no translation found for camera_menu_settings_label -->
+	<skip />
+	<!-- no translation found for create_tiny_planet -->
+	<skip />
+	<!-- no translation found for saving_tiny_planet -->
+	<skip />
+	<!-- no translation found for tiny_planet_zoom -->
+	<skip />
+	<!-- no translation found for tiny_planet_rotate -->
+	<skip />
+	<!---->
+	<string name="photo_editor">"Modifikimi i imazhit"</string>
+	<!---->
+	<string name="crop_save">"Ruaj"</string>
+	<!---->
+	<string name="cannot_load_image">"Nuk mund të ngarkohet imazhin!"</string>
+	<!---->
+	<string name="switch_photo_filmstrip">"Shikim i filmstrip"</string>
+	<!---->
+	<string name="setting_wallpaper">"Konfigurim i sfondit"</string>
+	<!---->
+	<string name="mode_settings">"Cilësimet"</string>
+	<!---->
+	<string name="mode_camera">"Automatikisht"</string>
+	<!---->
+	<string name="mode_video">"Video"</string>
+	<!---->
+	<string name="mode_slow_motion">"Ngadalë"</string>
+	<!---->
+	<string name="mode_photosphere">"Sferë foto"</string>
+	<!---->
+	<string name="mode_timelapse">"Time-lapse"</string>
+	<!---->
+	<string name="mode_wideangle">"Wide angle"</string>
+	<!---->
+	<string name="mode_panorama">"Panorama"</string>
+	<!---->
+	<string name="mode_refocus">"Mjegulla e lenteve"</string>
+	<!---->
+	<string name="mode_camera_desc">"Kthe në mënyrë kamera"</string>
+	<!---->
+	<string name="mode_video_desc">"Kthe në kamerë video"</string>
+	<!---->
+	<string name="mode_photosphere_desc">"Kthe në mënyrën sferë foto"</string>
+	<!---->
+	<string name="mode_panorama_desc">"Kthe në mënyrën panoramë"</string>
+	<!---->
+	<string name="mode_slow_motion_desc">"Kaloni në regjim lëvizje e ngadaltë"</string>
+	<!---->
+	<string name="mode_refocus_desc">"Aktivizo mënyrën mjegull e lenteve"</string>
+	<!---->
+	<string name="settings_open_desc">"Hapni cilësimet"</string>
+	<!---->
+	<string name="settings_close_desc">"Mbyllni cilësime"</string>
+	<!---->
+	<string name="hdr_plus_off_desc">"HDR+ e fikur"</string>
+	<!---->
+	<string name="hdr_plus_on_desc">"HDR+ aktiv"</string>
+	<!---->
+	<string name="hdr_off_desc">"HDR e fikur"</string>
+	<!---->
+	<string name="hdr_on_desc">"HDR aktiv"</string>
+	<!---->
+	<string name="flash_off_desc">"BLIC FIKUR"</string>
+	<!---->
+	<string name="flash_auto_desc">"BLIC AUTOMATIK"</string>
+	<!---->
+	<string name="flash_on_desc">"BLIC NDEZUR"</string>
+	<!---->
+	<string name="hdr_plus_flash_off_desc">"HDR+ blic çaktivizuar"</string>
+	<!---->
+	<string name="hdr_plus_flash_auto_desc">"HDR+ blic automatik"</string>
+	<!---->
+	<string name="hdr_plus_flash_on_desc">"HDR+ blic aktivizuar"</string>
+	<!---->
+	<string name="torch_on_desc">"Feneri aktivizuar"</string>
+	<!---->
+	<string name="torch_off_desc">"Feneri çaktivizuar"</string>
+	<!---->
+	<string name="camera_id_back_desc">"KAMERA MBRAPA"</string>
+	<!---->
+	<string name="camera_id_front_desc">"KAMERA PËRPARA"</string>
+	<!---->
+	<string name="grid_lines_off_desc">"Vijat e rrjetës çaktivizuar"</string>
+	<!---->
+	<string name="grid_lines_on_desc">"Vijat e rrjetës aktivizuar"</string>
+	<!---->
+	<string name="countdown_timer_off">"Kohë matës i numërimit mbrapsht është çaktivizuar"</string>
+	<!---->
+	<string name="countdown_timer_duration_2s">"Kohëzgjatja e kohë matësit të numërimit mbrapsht është vendosur në 2 sekonda"</string>
+	<!---->
+	<string name="countdown_timer_duration_3s">"Kohëzgjatja e kohë matësit të numërimit mbrapsht është vendosur në 3 sekonda"</string>
+	<!---->
+	<string name="countdown_timer_duration_5s">"Kohëzgjatja e kohë matësit të numërimit mbrapsht është vendosur në 5 sekonda"</string>
+	<!---->
+	<string name="countdown_timer_duration_10s">"Kohëzgjatja e kohë matësit të numërimit mbrapsht është vendosur në 10 sekonda"</string>
+	<!---->
+	<string name="more_options_desc">"Më shumë opsione"</string>
+	<!---->
+	<string name="cancel_button_description">"Anulo"</string>
+	<!---->
+	<string name="done_button_description">"U krye"</string>
+	<!---->
+	<string name="retake_button_description">"Ribëni"</string>
+	<!---->
+	<string name="share_button_description">"Ndaj"</string>
+	<!---->
+	<string name="view_button_description">"Shiko"</string>
+	<!---->
+	<string name="edit_button_description">"Ndrysho"</string>
+	<!---->
+	<string name="delete_button_description">"FSHI"</string>
+	<!---->
+	<string name="manual_exposure_compensation_desc">"Kompensim ekspozimi manual"</string>
+	<!---->
+	<string name="exposure_compensation_desc_n2">"Kompensim ekspozimi -2"</string>
+	<!---->
+	<string name="exposure_compensation_desc_n1">"Kompensim ekspozimi -1"</string>
+	<!---->
+	<string name="exposure_compensation_desc_0">"Kompensim ekspozimi 0"</string>
+	<!---->
+	<string name="exposure_compensation_desc_p1">"Kompensim ekspozimi +1"</string>
+	<!---->
+	<string name="exposure_compensation_desc_p2">"Kompensim ekspozimi +2"</string>
+	<!---->
+	<string name="button_change_announcement">"Butoni është tani %s"</string>
+	<!---->
+	<string name="setting_location">"Lokacion"</string>
+	<!---->
+	<string name="setting_back_camera_photo">"Foto e kamerës prapa"</string>
+	<!---->
+	<string name="setting_back_camera_video">"Video e kamerës prapa"</string>
+	<!---->
+	<string name="setting_front_camera_photo">"Foto e kamerës para"</string>
+	<!---->
+	<string name="setting_front_camera_video">"Video e kamerës para"</string>
+	<!---->
+	<string name="setting_default_camera">"Kamera e parazgjedhur"</string>
+	<!---->
+	<string name="setting_google_help_and_feedback">"Ndihmë dhe reagime"</string>
+	<!---->
+	<string name="processing_hdr_plus">"Duke përpunuar HDR+ ..."</string>
+	<!---->
+	<string name="open_source_licenses">"Licenca me kod të hapur"</string>
+	<!---->
+	<string name="pref_category_general">"Konfigurime të përgjithshme"</string>
+	<!---->
+	<string name="pref_category_resolution_quality">"Rezolucion dhe cilësi"</string>
+	<!---->
+	<string name="pref_category_about">"Për"</string>
+	<!---->
+	<string name="pref_title_build_version">"Versioni I inkorporuar"</string>
+	<!---->
+	<string name="pref_video_quality_entry_low">"Ulët"</string>
+	<!---->
+	<string name="pref_video_quality_entry_high">"I lartë"</string>
+	<!-- no translation found for pref_video_quality_entry_qcif -->
+	<skip />
+	<!-- no translation found for pref_video_quality_entry_cif -->
+	<skip />
+	<!-- no translation found for pref_video_quality_entry_480p -->
+	<skip />
+	<!-- no translation found for pref_video_quality_entry_720p -->
+	<skip />
+	<!-- no translation found for pref_video_quality_entry_1080p -->
+	<skip />
+	<!-- no translation found for pref_video_quality_entry_qvga -->
+	<skip />
+	<!-- no translation found for pref_video_quality_entry_2160p -->
+	<skip />
+	<!---->
+	<string name="setting_summary_x_megapixels">"%1$s megapiksel"</string>
+	<!---->
+	<string name="setting_summary_aspect_ratio_and_megapixels">"(%1$d:%2$d) %3$s megapiksel"</string>
+	<!---->
+	<string name="cling_text_for_refocus_editor_button">"Prek këtu për ri fokus"</string>
+	<!---->
+	<string name="pref_category_advanced">"I përparuar"</string>
+	<!---->
+	<string name="pref_camera_exposure_compensation">"Ekspozim manual"</string>
+	<!---->
+	<string name="settings_cling_text">"Te Cilësimet, ndryshoni rezolucionin dhe cilësinë ose përpiquni funksionet e përparuara."</string>
+	<!---->
+	<string name="photo_size_selection_title">"Zgjidhni madhësinë e fotos"</string>
+	<!---->
+	<string name="photo_aspect_ratio_selection_content">"Ju mund të ndryshoni këtë më vonë në Cilësimet"</string>
+	<!---->
+	<string name="share_to">"Shpërndani në"</string>
+	<!---->
+	<string name="edit_with">"Edito me"</string>
+	<!---->
+	<string name="startup_dialog_button_next">"Tjetër"</string>
+	<!---->
+	<string name="confirm_button_text">"NË RREGULL. E MORA."</string>
+	<!---->
+	<string name="full_sensor_4x3_aspect_ratio">"Sensor i plotë \n(4:3)"</string>
+	<!---->
+	<string name="cropped_sensor_16x9_aspect_ratio">"Sensor i shkurtuar \n(16:9)"</string>
+	<!-- no translation found for pref_boolean_false -->
+	<skip />
+	<!-- no translation found for pref_boolean_true -->
+	<skip />
+	<!---->
+	<string name="pref_camera_iso_s_f_entry_auto">"Auto"</string>
+	<!-- no translation found for manual_manu_title_iso -->
+	<skip />
+	<!-- no translation found for manual_manu_title_exposure -->
+	<skip />
+	<!-- no translation found for manual_manu_title_wb -->
+	<skip />
+	<!-- no translation found for manual_manu_title_focus -->
+	<skip />
+	<!---->
+	<string name="setting_group_photo">"Fotografia"</string>
+	<!---->
+	<string name="setting_group_video">"Video"</string>
+	<!---->
+	<string name="setting_group_general">"Të përgjithshme"</string>
+	<!---->
+	<string name="pref_camera_size_title">"Madhësia"</string>
+	<!---->
+	<string name="pref_rear_camera_size_title">"Madhësia"</string>
+	<!---->
+	<string name="pref_front_camera_size_title">"Madhësia"</string>
+	<!---->
+	<string name="pref_rear_camera_size_title_vdf">"Madhësia e fotos (pasme)"</string>
+	<!---->
+	<string name="pref_front_camera_size_title_vdf">"Madhësia e fotos (para)"</string>
+	<!---->
+	<string name="pref_camera_grid_title">"Rrjeti"</string>
+	<!---->
+	<string name="pref_camera_pose_title">"Qëndrimi"</string>
+	<!---->
+	<string name="pref_camera_compose_title">"Përbërja"</string>
+	<!---->
+	<string name="pref_video_eis_title">"EIS"</string>
+	<!---->
+	<string name="pref_camera_face_beauty_title">"Bukuri e fytyrës"</string>
+	<!---->
+	<string name="pref_camera_mirror_selfie_title">"Pasqyrë vet shkrepje"</string>
+	<!---->
+	<string name="pref_camera_attention_seeker_title">"Tingulli i vëmendjes"</string>
+	<!-- no translation found for pref_camera_ais_title -->
+	<skip />
+	<!---->
+	<string name="pref_camera_super_resolution_title">"Rezolucion super"</string>
+	<!---->
+	<string name="pref_camera_savepath_title">"Memoria"</string>
+	<!---->
+	<string name="pref_camera_savepath_entry_0">"Celular"</string>
+	<!---->
+	<string name="pref_camera_savepath_entry_1">"Karta SD"</string>
+	<!-- no translation found for pref_camera_savepath_default -->
+	<skip />
+	<!---->
+	<string name="pref_camera_sound_title">"Ting. diafr."</string>
+	<!---->
+	<string name="pref_visidon_mode_title">"Mënyra e avancuar"</string>
+	<!---->
+	<string name="pref_camera_gesture_detection_title">"Kontroll i gjestit"</string>
+	<!---->
+	<string name="visidon_mode_face_beauty_entry">"Bukuri e fytyrës"</string>
+	<!---->
+	<string name="visidon_mode_super_resolution_entry">"Rezolucion super"</string>
+	<!---->
+	<string name="visidon_mode_low_light_entry">"Dritë e dobët"</string>
+	<!-- no translation found for visidon_mode_hdr_entry -->
+	<skip />
+	<!---->
+	<string name="visidon_mode_off_entry">"E fikur"</string>
+	<!---->
+	<string name="mode_manual">"Me dorë"</string>
+	<!---->
+	<string name="mode_pano">"Panoramë"</string>
+	<!-- no translation found for mode_parallax -->
+	<skip />
+	<!---->
+	<string name="mode_micro_video">"Mikro-video"</string>
+	<!---->
+	<string name="mode_manual_desc">"Kthe në mënyrën manual"</string>
+	<!---->
+	<string name="mode_pano_desc">"Kthe në mënyrën pano"</string>
+	<!---->
+	<string name="mode_parallax_desc">"Kthe në mënyrën fyuse"</string>
+	<!---->
+	<string name="mode_micro_video_desc">"Kthe në mënyrën mikro-video"</string>
+	<!---->
+	<string name="pref_restore_settings">"Rivendos të paracaktuarat"</string>
+	<!---->
+	<string name="quit_dialog_title_battery_low">"Bateri e ulët"</string>
+	<!---->
+	<string name="quit_dialog_title_storage_low">"Ruajtje e pamjaftueshme"</string>
+	<!---->
+	<string name="quit_dialog_msg">"Regjistrimi video do të ruhet automatikisht. Kamera do të mbyllet."</string>
+	<!---->
+	<string name="battery_info_dialog_tile">"Bateri e ulët"</string>
+	<!---->
+	<string name="battery_info_dialog_msg_disable_flash">"E pamundur të përdorë blicin"</string>
+	<!---->
+	<string name="battery_info_dialog_msg_close_camera">"E pamundur të hapë kamerën"</string>
+	<!---->
+	<string name="battery_info_dialog_button_ok">"OK"</string>
+	<!---->
+	<string name="battery_info_dialog_button_close">"Mbyll"</string>
+	<!-- no translation found for battery_info_low_toast_message -->
+	<skip />
+	<!-- no translation found for battery_info_video_low_toast_message -->
+	<skip />
+	<!-- no translation found for battery_info_video_low_less_8 -->
+	<skip />
+	<!-- no translation found for battery_info_video_low_less_8_dialog -->
+	<skip />
+	<!-- no translation found for battery_info_video_low_cancel -->
+	<skip />
+	<!-- no translation found for battery_info_video_low_continue -->
+	<skip />
+	<!---->
+	<string name="MSG_SAVE_OUTPUT_IMAGE">"Duke ruajtur imazhin panoramë..."</string>
+	<!---->
+	<string name="MSG_CANCEL_CAPTURE">"Duke anulluar..."</string>
+	<!-- no translation found for save_dir_preview_img -->
+	<skip />
+	<!-- no translation found for save_dir_still_img -->
+	<skip />
+	<!---->
+	<string name="MSG_MISALIGNMENT">"Mbani shigjetën mbi vizën e bardhë sa më shumë të jetë e mundur.\nRegjistrimi ndaloi"</string>
+	<!---->
+	<string name="MSG_MOVE_CAMERA_SLOWLY">"Lëviz kamerën ngadalë përderisa regjistroni"</string>
+	<!---->
+	<string name="delete_selection">"Fshije artikullin e zgjedhur?"</string>
+	<!---->
+	<string name="burst_saving_hint">"Duke ruajtur %d fotografitë ..."</string>
+	<!---->
+	<string name="micro_video_remix_hint">"Duke përpunuar..."</string>
+	<!---->
+	<string name="lowlight_off_desc">"Dritë e dobët çaktivizuar"</string>
+	<!---->
+	<string name="lowlight_on_desc">"Dritë e dobët aktivizuar"</string>
+	<!---->
+	<string name="tizr_prompt_desc">"TiZR ju lejon të transmetuar video drejtpërdrejtë botës. Fillo udhëtimin tënd tani."</string>
+	<!---->
+	<string name="tizr_prompt_content">"Fillimi"</string>
+	<!-- no translation found for title_activity_tizr_share_video -->
+	<skip />
+	<!---->
+	<string name="night_mode_on_toast">"Regjim i natës aktivizuar, mbani pajisjen të qëndrueshme ndërsa bëni foto"</string>
+	<!---->
+	<string name="hdr_on_toast">"HDR aktivizuar, mbani pajisjen të qëndrueshme ndërsa bëni foto"</string>
+	<!---->
+	<string name="micro_video_guide_title">"Mikro-video"</string>
+	<!---->
+	<string name="micro_video_guide_description">"Ulu në karrigen e producentit dhe bëj kompilimin tënd të videove\n(Pas regjistrimit, kliko te "Redakto" për të shtuar tema dhe efekte speciale)"</string>
+	<!---->
+	<string name="micro_video_guide_checkbox">"Mos shfaqni përsëri"</string>
+	<!---->
+	<string name="micro_video_guide_button">"E MORA"</string>
+	<!---->
+	<string name="micro_minimum_time_tip">"Regjistro së paku 3 sekonda"</string>
+	<!---->
+	<string name="micro_shutter_help_tip">"Shtypni dhe mbani për të filluar regjistrimin"</string>
+	<!---->
+	<string name="permissions_needed">"Autorizime nevojiten"</string>
+	<!---->
+	<string name="grant_access_title">"Jepni qasje"</string>
+	<!-- no translation found for grant_access_msg -->
+	<skip />
+	<!---->
+	<string name="grant_access_exit">"Dalje"</string>
+	<!---->
+	<string name="grant_access_settings">"Cilësimet"</string>
+	<!-- no translation found for location_and -->
+	<skip />
+	<!---->
+	<string name="location_msg">"Etiketo fotot dhe videot tuaja me lokacion"</string>
+	<!---->
+	<string name="location_toast">"Aktivizo etiketimin GPS më vonë në cilësimet e Kamerës"</string>
+	<!---->
+	<string name="location_snack_setting">"Për të lejuar etiketimin GPS, lejo kamerës leje për qasje në lokacion."</string>
+	<!---->
+	<string name="aspect_ratio_and_megapixels_default">"%1$d MP (%2$d:%3$d)"</string>
+	<!---->
+	<string name="tips_for_panorama_preview">"Lëviz pajisje vazhdimisht kur bëni një panoramë"</string>
+	<!---->
+	<string name="tip_for_move_center">"Mbaj shigjetën në linjën në qendër"</string>
+	<!---->
+	<string name="tip_for_move_down">"Lëviz poshtë"</string>
+	<!---->
+	<string name="tip_for_move_up">"Lëviz lart"</string>
+	<!---->
+	<string name="tip_for_move_slow">"Slow down"</string>
+	<!---->
+	<string name="tip_for_move_right">"Lëviz djathtas"</string>
+	<!---->
+	<string name="tip_for_move_left">"Lëviz majtas"</string>
+	<!---->
+	<string name="super_zoom_on_toast">"Super zmadhim, mbani pajisjen pa lëvizje derisa bëni fotografi"</string>
+	<!---->
+	<string name="help_tip_welcome_take_tour">"Po"</string>
+	<!---->
+	<string name="help_tip_welcome_cancel_tour">"JO"</string>
+	<!---->
+	<string name="help_tip_welcome_title">"Fotoaparati"</string>
+	<!---->
+	<string name="help_tip_welcome_context">"Bëni një turne dhe merrni këshilla ndihmëse se si të përdorni kamerën e telefonit tuaj të ri inteligjent?"</string>
+	<!---->
+	<string name="help_tip_snap_context">"Prek këtu për të bërë foto, ose shtypni gjatë për të bërë deri në 10 fotografi"</string>
+	<!---->
+	<string name="help_tip_camera_key_context">"Përdorni \"butonin e Kamerës\" për të bërë foto ose shtypni gjatë për më shumë shkrepje të fotove"</string>
+	<!---->
+	<string name="help_tip_recent_context">"Prek këtu për të parë fotot tuaja të fundit"</string>
+	<!---->
+	<string name="help_tip_startvideo_context">"Prek këtu për të filluar regjistrimin e videos"</string>
+	<!---->
+	<string name="help_tip_videosnap_context">"Prek këtu për të bërë foto derisa regjistroni"</string>
+	<!---->
+	<string name="help_tip_stopvideo_context">"Prek këtu për të ndaluar regjistrimin dhe ruajtur videon"</string>
+	<!---->
+	<string name="help_tip_switch_front_context">"Prek këtu për të hapur mënyrën selfie"</string>
+	<!---->
+	<string name="help_tip_gesture_tip_context">"Për të bërë fotografi, trego pëllëmbën e dorën para kamerës."</string>
+	<!---->
+	<string name="help_tip_pinch_zoom_context">"AFRONI/LARGONI gishtat në gjetësin e pamjes për të ZMADHUAR/ZVOGËLUAR"</string>
+	<!---->
+	<string name="help_tip_quick_switch_context">"Prekni këto ikona për të kthyer funksionin AKTIV/JO AKTIV"</string>
+	<!---->
+	<string name="help_tip_settings_context">"Prek këtu për të shkuar në parametrat kamera"</string>
+	<!---->
+	<string name="help_tip_mode_context">"Rrëshqitni majtas ose djathtas në viewfinder për të ndryshuar mënyrën e kamera"</string>
+	<!---->
+	<string name="help_tip_panorama_context">"Prek shiritin parashikues për të kthyer drejtimin"</string>
+	<!---->
+	<string name="help_tip_manual_context">"Prek ikonë për të ndryshuar opsionin mënyrë manuale"</string>
+	<!---->
+	<string name="help_tip_manual_menu_context">"Prekni për të treguar ose fshehur opsione për mënyrë manuale"</string>
+	<!---->
+	<string name="help_tip_got_it_text">"Largoni"</string>
+	<!---->
+	<string name="help_tip_dismiss_text">"Largoni"</string>
+	<!---->
+	<string name="help_tip_skip_all_text">"Kaloji të gjitha"</string>
+	<!---->
+	<string name="optimize_saving_hint">"Duke optimizuar foton"</string>
+	<!---->
+	<string name="wrapper_button_desc">"Butoni zgjerues"</string>
+	<!---->
+	<string name="restore_settings_dialog_msg">"Të rivendos kamerën në cilësime fabrike?"</string>
+	<!---->
+	<string name="restore_settings_dialog_yes">"Rivendosni"</string>
+	<!---->
+	<string name="restore_settings_dialog_no">"Anulo"</string>
+	<!---->
+	<string name="permission_title">"Kamera kërkon autorizim"</string>
+	<!---->
+	<string name="permission_content">"Prekni këtu për të marrë autorizim."</string>
+	<plurals name="instant_capture_photos">
+		<item quantity="one">"<xliff:g id="step_count">%1$d</xliff:g> fotografi"</item>
+		<item quantity="other">"<xliff:g id="step_count">%1$d</xliff:g> fotografitë"</item>
+	</plurals>
+	<!-- no translation found for photos -->
+	<skip />
+	<!---->
+	<string name="delete_selection_burst">"Kjo sekuencë e shpejtë përmban %s foto. T\'i fshij të gjitha ato?"</string>
+	<!---->
+	<string name="flash_with_superzoom_toast">"E pamundur të përdorë blicin kur zmadhimi super i aktivizuar"</string>
+	<!---->
+	<string name="battery_warning_title">"Nuk mundëm të bënim foto të çastit"</string>
+	<!---->
+	<string name="battery_warning_content">"Nuk mund të bëni foto me pak bateri"</string>
+	<!---->
+	<string name="phone_storage_low_for_alert_dialog">"Memoria e telefonit e ulët. Kamera do të mbyllet."</string>
+	<!---->
+	<string name="sd_card_low_for_alert_dialog">"Depo e kartës SD e ulët. Kamera do të mbyllet."</string>
+	<!---->
+	<string name="camera_error_title_alert_dialog">"Vendruajtja është plot"</string>
+	<!---->
+	<string name="storage_low_close_alert_dialog">"Afër"</string>
+	<!---->
+	<string name="storage_low_phone_full_no_sdcard_alert_dialog">"Vendruajtja e telefonit është plot. Liro vend ose fut një kartë "SD"."</string>
+	<!---->
+	<string name="storage_low_phone_sdcard_full_alert_dialog">"Vendruajtja e telefonit dhe e "SD" është plot. Liro vend për të përdorur kamerën."</string>
+	<!---->
+	<string name="storage_low_phone_full_sdcard_ok_alert_dialog">"Vendruajtja e telefonit është plot. Të ruhet në kartën "SD"?"</string>
+	<!---->
+	<string name="storage_low_storage_full_phone_ok_alert_dialog">"Karta "SD" është plot. Të ruhet në vendruajtjen e telefonit?"</string>
+	<!---->
+	<string name="storage_low_phone_full_sdcard_ok_button">"Përdor "SD""</string>
+	<!---->
+	<string name="storage_low_storage_full_phone_ok_button">"Përdor vendruajtjen e telefonit"</string>
+	<!-- no translation found for storage_low_storage_critical_toast_message -->
+	<skip />
+	<!-- no translation found for storage_low_video_critical_toast_message -->
+	<skip />
+	<!---->
+	<string name="pref_camera_antibanding_title">"Anti Banding"</string>
+	<!---->
+	<string name="pref_camera_antibanding_entry_0">"FIK"</string>
+	<!---->
+	<string name="pref_camera_antibanding_entry_1">"50Hz"</string>
+	<!---->
+	<string name="pref_camera_antibanding_entry_2">"60Hz"</string>
+	<!---->
+	<string name="pref_camera_antibanding_entry_3">"Automatikisht"</string>
+	<!---->
+	<string name="storage_warning_content">"Nuk mund të bëni foto me pak memorie"</string>
+	<!---->
+	<string name="storage_and_battery_warning_content">"Nuk mund të bëni foto me pak bateri dhe me pak memorie"</string>
+	<!---->
+	<string name="remote_content">"Bëni foto në pajisje që vendosen në trup"</string>
+	<!---->
+	<string name="boom_key_press">"Shtypni"</string>
+	<!---->
+	<string name="boom_key">"Tasti anash"</string>
+	<!---->
+	<string name="location_service_dialog_title">"GPS fikur"</string>
+	<!---->
+	<string name="location_service_dialog_msg">"Për të etiketuar foto dhe video me vendndodhja, ju lutem aktivizoni GPS dhe rrjetet pa tele në Cilësime Vendndodhje."</string>
+	<!---->
+	<string name="location_service_dialog_cancel">"Anulo"</string>
+	<!---->
+	<string name="location_service__dialog_setting">"Cilësimet"</string>
+	<!---->
+	<string name="gestureshot_guide_capture">"Regjistrimi i pozës: Regjistrim automatik kur dallohet buzëqeshje:"</string>
+	<!-- no translation found for mode_filters -->
+	<skip />
+	<!-- no translation found for mode_pose -->
+	<skip />
+	<!-- no translation found for video_recording_paused -->
+	<skip />
+	<!-- no translation found for pose_final_icon -->
+	<skip />
+	<!-- no translation found for time_left -->
+	<skip />
+	<!-- no translation found for pref_camera_auto_hdr_title -->
+	<skip />
+	<!-- no translation found for pref_camera_timer_entry_0 -->
+	<skip />
+	<!-- no translation found for pref_camera_timer_unit_suffix -->
+	<skip />
+	<!-- no translation found for pref_camera_face_beauty_summary -->
+	<skip />
+	<!-- no translation found for pref_camera_mirror_selfie_summary -->
+	<skip />
+	<!-- no translation found for pref_camera_pose_summary -->
+	<skip />
+	<!-- no translation found for mode_360_photo -->
+	<skip />
+	<!-- no translation found for panorama_preview_holder_info_text -->
+	<skip />
+	<!-- no translation found for back -->
+	<skip />
+	<!-- no translation found for gallery_name -->
+	<skip />
+	<!---->
+	<string name="audio_record_on_desc">"Mikrofoni"</string>
+	<!-- no translation found for audio_record_off_desc -->
+	<skip />
+</resources>

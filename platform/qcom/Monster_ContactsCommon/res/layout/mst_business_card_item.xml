@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <CheckBox
+        android:id="@android:id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:focusable="false"
+        android:layout_gravity="center"
+        android:visibility="gone" 
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="15dp" />
+
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/mst_business_card_background"
+        android:gravity="center_vertical"
+        android:paddingLeft="7dip"
+        android:paddingRight="7dip" >
+
+        <!--
+         <mst.widget.CycleImageView
+        android:id="@*android:id/icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+        -->
+
+        <LinearLayout
+            android:id="@+id/contact_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:paddingBottom="19dp"
+            android:paddingLeft="18dp"
+            android:paddingTop="18dp" >
+
+            <TextView
+                android:id="@android:id/text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="marquee"
+                android:gravity="center_vertical|start"
+                android:singleLine="true"
+                android:textColor="@color/mst_list_main_text_color"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@android:id/text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:ellipsize="marquee"
+                android:gravity="center_vertical|start"
+                android:singleLine="true"
+                android:textColor="#66000000"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/text3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:ellipsize="marquee"
+                android:gravity="center_vertical|start"
+                android:singleLine="true"
+                android:textColor="#66000000"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="99dp"
+            android:layout_height="58dp"
+            android:layout_marginRight="18dp"
+            android:src="@drawable/mst_business_card_default_photo" />
+    </LinearLayout>
+
+</LinearLayout>

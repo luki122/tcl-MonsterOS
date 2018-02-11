@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mst="http://schemas.android.com/apk/res/com.mst"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#FFFFFFFF"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical" >
+
+    <mst.widget.toolbar.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:layout_alignParentTop="true"
+        android:background="?android:attr/colorPrimary" />
+
+    <mst.view.menu.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:maxHeight="50dp"
+        android:visibility="gone"
+        mst:menu="@menu/record_history_bottom_menu" />
+
+    <ProgressBar
+        android:id="@+id/progress_loading"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:visibility="gone" />
+
+    <mst.widget.MstListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottom_navigation_view"
+        android:layout_below="@id/my_toolbar"
+        android:divider="#00000000"
+        android:dividerHeight="0dip"
+        android:fadingEdgeLength="16dip" />
+
+    <LinearLayout
+        android:id="@+id/calllog_empty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/my_toolbar"
+        android:layout_marginTop="160dp"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/no_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="monster-normal"
+            android:singleLine="true"
+            android:text="@string/no_call_record_history" />
+    </LinearLayout>
+
+</RelativeLayout>

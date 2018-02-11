@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/empty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:alpha="0.2"
+        android:fontFamily="Roboto Medium"
+        android:gravity="center_horizontal"
+        android:text="@string/no_content"
+        android:textColor="@color/black"
+        android:textSize="17sp"/>
+
+    <RelativeLayout
+        android:id="@+id/recycler_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <cn.tcl.music.view.ContextMenuReyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/batch_operate_linearlayout"
+            android:layout_marginEnd="20dp">
+        </cn.tcl.music.view.ContextMenuReyclerView>
+
+        <mst.widget.MstIndexBar
+            android:id="@+id/index_bar"
+            android:layout_width="20dp"
+            android:layout_height="@dimen/dp_356"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/dp_107"
+            android:layout_alignParentRight="true"/>
+
+        <TextView
+            android:id="@+id/head_letter_sticky"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="#ffffff"
+            android:layout_marginEnd="@dimen/dp_20"
+            android:gravity="center_vertical"
+            android:paddingStart="20dp"
+            android:textColor="#B2B5B8"
+            android:textSize="15sp"/>
+
+        <LinearLayout
+            android:id="@+id/batch_operate_linearlayout"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/common_divider_color"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_alignParentBottom="true"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:id="@+id/batch_operate_delete"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/batch_operate_delete_iv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/batch_operate_delete"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="7dp"
+                        android:layout_toRightOf="@+id/batch_operate_delete_iv"
+                        android:alpha="0.86"
+                        android:text="@string/delete"
+                        android:textColor="@color/black"/>
+
+                </RelativeLayout>
+
+                <ImageView
+                    android:layout_width="1dp"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/common_divider_color"/>
+
+                <RelativeLayout
+                    android:id="@+id/batch_operate_addplaylist"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/batch_operate_addplaylist_iv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/batch_operate_addplaylist"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="7dp"
+                        android:layout_toRightOf="@+id/batch_operate_addplaylist_iv"
+                        android:alpha="0.86"
+                        android:text="@string/batch_add_to_playlist"
+                        android:textColor="@color/black"/>
+
+                </RelativeLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</FrameLayout>

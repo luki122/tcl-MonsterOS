@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Theme.Fota" parent="@com.mst:style/Theme.Mst.Material.Light">
+        <item name="android:statusBarColor">?android:attr/colorPrimary</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="Theme.FotaDetail" parent="@com.mst:style/Theme.Mst.Material.Light">
+        <item name="com.mst:windowLayoutStyle">@style/Style.MstActivity</item>
+        <item name="android:toolbarStyle">@style/Style.MstActivity.DetailToolbarStyle</item>
+    </style>
+
+    <style name="Theme.AdavnceMode" parent="@com.mst:style/Theme.Mst.Material.Light">
+        <item name="com.mst:windowLayoutStyle">@style/Style.MstActivity</item>
+        <item name="android:toolbarStyle">@style/Style.MstActivity.AdavanceModeToolbarStyle</item>
+    </style>
+
+    <style name="Style.MstActivity" parent="com.mst:WindowStyle.Light">
+        <item name="com.mst:hasBackIcon">true</item>
+    </style>
+
+    <style name="Style.MstActivity.DetailToolbarStyle" parent="com.mst:style/ToolbarStyle">
+        <item name="com.mst:title">@string/version_detail_activity_title</item>
+    </style>
+
+    <style name="Style.MstActivity.AdavanceModeToolbarStyle" parent="com.mst:style/ToolbarStyle">
+        <item name="com.mst:title">@string/advancedmode</item>
+    </style>
+
+</resources>

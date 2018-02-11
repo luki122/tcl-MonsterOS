@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.tcl.filemanager"
+    android:versionCode="11612022"
+    android:versionName="v1.0.7.2.0122.0" > <!-- [FEATURE]-Add-END by TSBJ,shuang.liu1, -->
+    <uses-sdk
+        android:minSdkVersion="24"
+        android:targetSdkVersion="24" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_MEDIA_STORAGE" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.DEVICE_POWER" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" />
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+    <uses-permission android:name="android.permission.MANAGE_FINGERPRINT" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.GET_PACKAGE_SIZE" />
+    <uses-permission android:name="android.permission.ACCESS_ALL_DOWNLOADS" />
+    <uses-permission android:name="android.permission.ACCESS_KEYGUARD_SECURE_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="cn.tcl.filemanager.FileManagerApplication"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/FileManagerBaseTheme"
+        android:uiOptions="splitActionBarWhenNarrow" >
+        <activity
+            android:name="cn.tcl.filemanager.activity.FileBrowserActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="cn.tcl.filemanager.activity.FileBrowserActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="cn.tcl.filemanager.activity.CategoryActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="cn.tcl.filemanager.activity.FileBaseActionbarActivity" >
+        </activity>
+        <activity android:name="cn.tcl.filemanager.photopicker.LargePreviewActivity" />
+        <activity
+            android:name="cn.tcl.filemanager.photopicker.ImagePickerPlusActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateAlwaysHidden" >
+            <intent-filter>
+                <action android:name="android.intent.action.GET_CONTENT" />
+
+                <category android:name="android.intent.category.OPENABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="image/*" />
+                <data android:mimeType="audio/*" />
+                <data android:mimeType="video/*" />
+                <data android:mimeType="application/*" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="cn.tcl.filemanager.activity.SelectSafeFilesActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="cn.tcl.filemanager.activity.FileSelectionActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.PICK" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <!-- <category android:name="android.intent.category.OPENABLE" /> -->
+                <!-- add for PR818903 by yane.wang@jrdcom.com 20141028 -->
+                <data android:mimeType="vnd.android.cursor.dir/audio" />
+            </intent-filter>
+            <!-- add for PR822133 by yane.wang@jrdcom.com 20141103 begin -->
+            <intent-filter>
+                <action android:name="com.mediatek.filemanager.ADD_FILE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.OPENABLE" />
+            </intent-filter>
+            <!-- add for PR822133 by yane.wang@jrdcom.com 20141103 end -->
+        </activity>
+        <activity
+            android:name="cn.tcl.filemanager.activity.PathSelectionActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.PICK" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.android.fileexplorer.action.DIR_SEL" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="cn.tcl.filemanager.activity.FileSafeActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="cn.tcl.filemanager.activity.FileEncryptWelcomeActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="cn.tcl.filemanager.activity.SafeBoxSettingsActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+        <activity
+            android:name="cn.tcl.filemanager.activity.FileSafeBrowserActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+        <activity
+            android:name="cn.tcl.filemanager.activity.PieChartActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="cn.tcl.filemanager.activity.SelectStorageActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="cn.tcl.filemanager.activity.SelectStorageForExternalActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <service
+            android:name="cn.tcl.filemanager.service.FileManagerService"
+            android:enabled="true"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="com.tct.filemanager.service.FileManagerService" />
+            </intent-filter>
+        </service>
+
+        <receiver android:name="cn.tcl.filemanager.utils.ResetReceiver" >
+            <intent-filter android:priority="95" >
+                <action android:name="android.intent.action.LAUNCH_DEVICE_RESET" />
+            </intent-filter>
+        </receiver>
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="cn.tcl.filemanager.fileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+    </application>
+
+</manifest>

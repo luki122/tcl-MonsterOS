@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:background="@color/duoqu_menu_white"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/duoqu_menu_item_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:textColor="@color/duoqu_action_bar_title_text_color"
+        android:textSize="15dp"
+        android:visibility="visible" />
+
+
+</LinearLayout>

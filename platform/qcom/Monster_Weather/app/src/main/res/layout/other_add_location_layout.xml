@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/location_activity_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <RelativeLayout
+        android:id="@+id/recommand_city_viewgroup"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="48dp"
+        android:background="#FFFFFFFF"
+        android:orientation="horizontal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/top_layout"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="#FFFFFFFF"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/img_back"
+                android:layout_width="@dimen/px_72"
+                android:layout_height="@dimen/px_72"
+                android:layout_marginStart="@dimen/px_60"
+                android:layout_marginTop="@dimen/px_36"
+                android:src="@drawable/page_arrow" />
+
+            <EditText
+                android:id="@+id/et_searchview"
+                android:layout_width="@dimen/px_692"
+                android:layout_height="match_parent"
+                android:layout_marginStart="14dp"
+                android:background="@null"
+                android:fontFamily="sans-serif"
+                android:gravity="center_vertical"
+                android:hint="@string/search_location"
+                android:maxLength="20"
+                android:singleLine="true"
+                android:textColor="#DD000000"
+                android:textColorHint="#FFBDBDBD"
+                android:textSize="@dimen/px_48" />
+
+            <ImageView
+                android:id="@+id/text_clear"
+                android:layout_width="@dimen/px_72"
+                android:layout_height="@dimen/px_72"
+                android:layout_marginStart="@dimen/px_88"
+                android:layout_marginTop="@dimen/px_36"
+                android:src="@drawable/page_close"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#F0F0F0" />
+
+        <ListView
+            android:id="@+id/search_citylist"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFFFF"
+            >
+        </ListView>
+    </LinearLayout>
+</FrameLayout>

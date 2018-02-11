@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (C) 2014 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">Wallpaper</string>
+    <string name="confirm_ok">OK</string>
+    <string name="confirm_cancel">Cancel</string>
+    <string name="main_page_title">Wallpaper</string>
+    <string name="wallpaper">Wallpaper</string>
+    <string name="delete">Delete</string>
+    <string name="set_wallpaper_title">Wallpaper Crop</string>
+    <string name="keyguard_wallpaper">Keygaurd Wallpaper</string>
+    <string name="keyguard_wallpaper_count" translatable="false"><xliff:g id="count">%1$d</xliff:g> P</string>
+    <string name="keyguard_city">City</string>
+    <string name="keyguard_cute">Cute</string>
+    <string name="keyguard_dream">Dream</string>
+    <string name="keyguard_elegant">Elegant</string>
+    <string name="keyguard_fascinating">Fascinating</string>
+    <string name="keyguard_misspuff">MissPuff</string>
+    <string name="keyguard_timely">Timely</string>
+    <!-- set wallpaper -->
+    <string name="image_loading">Loading picture...</string>
+    <string name="image_too_small">Sorry, the pixel of the selected picture is too low and not suitable to be set as a wallpaper.</string>
+    <string name="image_load_failed">Picture failed to load, please reselect a picture</string>
+    <string name="wallpaper_setting">Setting wallpaper...</string>
+    <string name="wallpaper_set_success">Successfully set. The wallpaper has been replaced.</string>
+    <string name="wallpaper_set_failed">Failed to set.The picture is missing or damaged.</string>
+    <string name="set_wallpaper">Set Wallpaper</string>
+    <string name="wallpaper_crop_title">Move or zoom picture</string>
+    <string name="wallpaper_crop_ok">Save</string>
+    <string name="wallpaper_crop_del">Delete</string>
+    <string name="wallpaper_crop_custom_name">Custom series</string>
+    <string name="wallpaper_crop_cancel_title">Note</string>
+    <string name="wallpaper_crop_cancel_msg">Do you want to discard the clipping you have done?</string>
+    <string name="wallpaper_crop_del_msg">Do you want to delete current wallpaper series?</string>
+    <string name="wallpaper_select_max_toast">Regular lockscreen supports up to 12 pictures</string>
+    <string name="wallpaper_crop_sdcard_error">SD card is abnormal, please re-add</string>
+    <string name="set_wallpaper_dialog_title">Wallpaper</string>
+    <string name="setting_wallpaper">Saving...</string>
+    <string name="wallpaper_keyguard_set_success">Successfully set the lockscreen wallpaper </string>
+    <string name="wallpaper_crop">Crop Wallpaper</string>
+
+    <string name="keyguard_wallpaper_preview_title" translatable="false"><xliff:g id="name">%1$s</xliff:g> (<xliff:g id="current">%2$d</xliff:g>/<xliff:g id="total">%3$d</xliff:g>)</string>
+
+	 <string name="delete_dialog_title">Delete</string>
+    <string name="delete_desktop_wallpaper_msg">Confirm to delete the selected <xliff:g id="selected_count">%1$d</xliff:g> Wallpaper</string>
+    <string name="delete_keyguard_wallpaper_msg">Confirm to delete the selected <xliff:g id="selected_count">%1$d</xliff:g> Wallpaper</string>
+	<string name="delete_keyguard_current_wallpaper_msg">Confirm to delete current wallpaper ?</string>
+	<string name="select_all">Select All</string>
+	<string name="cancel">Cancel</string>
+	<string name="cancel_select_all">Reverse</string>
+	<string name="tip_applied_wallpaper_not_delete">Can not edit wallpaper applied</string>
+	<string name="tip_system_wallpaper_not_delete">Can not edit system wallpaper</string>
+	<string name="tip_current_wallpaper_is_applied">Current wallpaper is applied</string>
+	<string name="tip_apply_wallpaper_success">Apply wallpaper success</string>
+    <string name="tip_apply_wallpaper_failed">Apply wallpaper failed</string>
+    <string name="tip_unknown_wallpaper">Unknown wallpaper type</string>
+    <string name="tip_select_wallpaper">Please select wallpaper to delete</string>
+    <string name="msg_apply_keyguard_wallpaper">Apply screenlock wallpaper</string>
+    <string name="msg_image_is_damaged">Wallpaper are damaged</string>
+    <string name="current_theme_keyguard_wallpaper">Current Theme</string>
+</resources>

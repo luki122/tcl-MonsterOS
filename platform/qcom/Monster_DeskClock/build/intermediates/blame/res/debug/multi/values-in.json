@@ -1,0 +1,4706 @@
+[
+    {
+        "outputFile": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/build/intermediates/res/merged/debug/values-in/values-in.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endLine": 11,
+                    "endColumn": 17,
+                    "endOffset": 1224
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 66,
+                        "startColumn": 2,
+                        "startOffset": 4748,
+                        "endLine": 75,
+                        "endColumn": 17,
+                        "endOffset": 5915
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 1229,
+                    "endLine": 20,
+                    "endColumn": 17,
+                    "endOffset": 1683
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 109,
+                        "startColumn": 2,
+                        "startOffset": 7908,
+                        "endLine": 117,
+                        "endColumn": 17,
+                        "endOffset": 8362
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1688,
+                    "endLine": 322,
+                    "endColumn": 17,
+                    "endOffset": 27783
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/array.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 2,
+                        "startOffset": 798,
+                        "endLine": 320,
+                        "endColumn": 17,
+                        "endOffset": 28093
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 323,
+                    "startColumn": 4,
+                    "startOffset": 27788,
+                    "endLine": 326,
+                    "endColumn": 17,
+                    "endOffset": 27955
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 229,
+                        "startColumn": 2,
+                        "startOffset": 17081,
+                        "endLine": 232,
+                        "endColumn": 17,
+                        "endOffset": 17248
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 327,
+                    "startColumn": 4,
+                    "startOffset": 27960,
+                    "endLine": 330,
+                    "endColumn": 17,
+                    "endOffset": 28176
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 184,
+                        "startColumn": 2,
+                        "startOffset": 13939,
+                        "endLine": 187,
+                        "endColumn": 17,
+                        "endOffset": 14163
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 331,
+                    "startColumn": 4,
+                    "startOffset": 28181,
+                    "endLine": 342,
+                    "endColumn": 17,
+                    "endOffset": 28979
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 213,
+                        "startColumn": 2,
+                        "startOffset": 15968,
+                        "endLine": 224,
+                        "endColumn": 17,
+                        "endOffset": 16766
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 343,
+                    "startColumn": 4,
+                    "startOffset": 28984,
+                    "endLine": 348,
+                    "endColumn": 17,
+                    "endOffset": 29400
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 60,
+                        "startColumn": 2,
+                        "startOffset": 4313,
+                        "endLine": 65,
+                        "endColumn": 17,
+                        "endOffset": 4745
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 349,
+                    "startColumn": 4,
+                    "startOffset": 29405,
+                    "endLine": 435,
+                    "endColumn": 17,
+                    "endOffset": 34353
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 243,
+                        "startColumn": 2,
+                        "startOffset": 18206,
+                        "endLine": 329,
+                        "endColumn": 17,
+                        "endOffset": 23154
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 436,
+                    "startColumn": 4,
+                    "startOffset": 34358,
+                    "endLine": 440,
+                    "endColumn": 17,
+                    "endOffset": 34604
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 134,
+                        "startColumn": 2,
+                        "startOffset": 9654,
+                        "endLine": 138,
+                        "endColumn": 17,
+                        "endOffset": 9900
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 441,
+                    "startColumn": 4,
+                    "startOffset": 34609,
+                    "endLine": 445,
+                    "endColumn": 17,
+                    "endOffset": 34827
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 119,
+                        "startColumn": 2,
+                        "startOffset": 8453,
+                        "endLine": 123,
+                        "endColumn": 17,
+                        "endOffset": 8671
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 446,
+                    "startColumn": 4,
+                    "startOffset": 34832,
+                    "endLine": 449,
+                    "endColumn": 14,
+                    "endOffset": 35038
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 188,
+                        "startColumn": 4,
+                        "startOffset": 14168,
+                        "endLine": 191,
+                        "endColumn": 14,
+                        "endOffset": 14378
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 450,
+                    "startColumn": 4,
+                    "startOffset": 35043,
+                    "endLine": 453,
+                    "endColumn": 14,
+                    "endOffset": 35255
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 192,
+                        "startColumn": 4,
+                        "startOffset": 14383,
+                        "endLine": 195,
+                        "endColumn": 14,
+                        "endOffset": 14599
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 454,
+                    "startColumn": 4,
+                    "startOffset": 35260,
+                    "endLine": 457,
+                    "endColumn": 14,
+                    "endOffset": 35472
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 196,
+                        "startColumn": 4,
+                        "startOffset": 14604,
+                        "endLine": 199,
+                        "endColumn": 14,
+                        "endOffset": 14820
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 458,
+                    "startColumn": 4,
+                    "startOffset": 35477,
+                    "endLine": 461,
+                    "endColumn": 14,
+                    "endOffset": 35692
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 47,
+                        "startColumn": 4,
+                        "startOffset": 3302,
+                        "endLine": 50,
+                        "endColumn": 14,
+                        "endOffset": 3521
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 462,
+                    "startColumn": 4,
+                    "startOffset": 35697,
+                    "endLine": 465,
+                    "endColumn": 14,
+                    "endOffset": 35944
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 53,
+                        "startColumn": 4,
+                        "startOffset": 3704,
+                        "endLine": 56,
+                        "endColumn": 14,
+                        "endOffset": 3955
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 466,
+                    "startColumn": 4,
+                    "startOffset": 35949,
+                    "endLine": 469,
+                    "endColumn": 14,
+                    "endOffset": 36174
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 353,
+                        "startColumn": 4,
+                        "startOffset": 25562,
+                        "endLine": 356,
+                        "endColumn": 14,
+                        "endOffset": 25787
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 470,
+                    "startColumn": 4,
+                    "startOffset": 36179,
+                    "endLine": 473,
+                    "endColumn": 14,
+                    "endOffset": 36401
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 104,
+                        "startColumn": 4,
+                        "startOffset": 7589,
+                        "endLine": 107,
+                        "endColumn": 14,
+                        "endOffset": 7815
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 474,
+                    "startColumn": 4,
+                    "startOffset": 36406,
+                    "endLine": 477,
+                    "endColumn": 14,
+                    "endOffset": 36600
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 76,
+                        "startColumn": 4,
+                        "startOffset": 5920,
+                        "endLine": 79,
+                        "endColumn": 14,
+                        "endOffset": 6118
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 478,
+                    "startColumn": 4,
+                    "startOffset": 36605,
+                    "endLine": 481,
+                    "endColumn": 14,
+                    "endOffset": 36798
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 80,
+                        "startColumn": 4,
+                        "startOffset": 6123,
+                        "endLine": 83,
+                        "endColumn": 14,
+                        "endOffset": 6320
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 482,
+                    "startColumn": 4,
+                    "startOffset": 36803,
+                    "endLine": 485,
+                    "endColumn": 14,
+                    "endOffset": 37002
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 84,
+                        "startColumn": 4,
+                        "startOffset": 6325,
+                        "endLine": 87,
+                        "endColumn": 14,
+                        "endOffset": 6528
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 486,
+                    "startColumn": 4,
+                    "startOffset": 37007,
+                    "endLine": 489,
+                    "endColumn": 14,
+                    "endOffset": 37214
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 95,
+                        "startColumn": 4,
+                        "startOffset": 7095,
+                        "endLine": 98,
+                        "endColumn": 14,
+                        "endOffset": 7306
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 490,
+                    "startColumn": 4,
+                    "startOffset": 37219,
+                    "endLine": 493,
+                    "endColumn": 14,
+                    "endOffset": 37397
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 99,
+                        "startColumn": 4,
+                        "startOffset": 7311,
+                        "endLine": 102,
+                        "endColumn": 14,
+                        "endOffset": 7489
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 494,
+                    "startColumn": 4,
+                    "startOffset": 37402,
+                    "endColumn": 109,
+                    "endOffset": 37507
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/values-in/values-in.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 109,
+                        "endOffset": 160
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 495,
+                    "startColumn": 4,
+                    "startOffset": 37512,
+                    "endColumn": 107,
+                    "endOffset": 37615
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/values-in/values-in.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 165,
+                        "endColumn": 107,
+                        "endOffset": 268
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 496,
+                    "startColumn": 4,
+                    "startOffset": 37620,
+                    "endColumn": 122,
+                    "endOffset": 37738
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/values-in/values-in.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 273,
+                        "endColumn": 122,
+                        "endOffset": 391
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 497,
+                    "startColumn": 4,
+                    "startOffset": 37743,
+                    "endColumn": 101,
+                    "endOffset": 37840
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/values-in/values-in.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 396,
+                        "endColumn": 101,
+                        "endOffset": 493
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 498,
+                    "startColumn": 4,
+                    "startOffset": 37845,
+                    "endColumn": 104,
+                    "endOffset": 37945
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/values-in/values-in.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 498,
+                        "endColumn": 104,
+                        "endOffset": 598
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 499,
+                    "startColumn": 4,
+                    "startOffset": 37950,
+                    "endColumn": 86,
+                    "endOffset": 38032
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/values-in/values-in.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 603,
+                        "endColumn": 86,
+                        "endOffset": 685
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 500,
+                    "startColumn": 4,
+                    "startOffset": 38037,
+                    "endColumn": 103,
+                    "endOffset": 38136
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/values-in/values-in.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 690,
+                        "endColumn": 103,
+                        "endOffset": 789
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 501,
+                    "startColumn": 4,
+                    "startOffset": 38141,
+                    "endColumn": 115,
+                    "endOffset": 38252
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/values-in/values-in.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 794,
+                        "endColumn": 115,
+                        "endOffset": 905
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 502,
+                    "startColumn": 4,
+                    "startOffset": 38257,
+                    "endColumn": 81,
+                    "endOffset": 38334
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/values-in/values-in.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 910,
+                        "endColumn": 81,
+                        "endOffset": 987
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 503,
+                    "startColumn": 4,
+                    "startOffset": 38339,
+                    "endColumn": 78,
+                    "endOffset": 38413
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/values-in/values-in.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 992,
+                        "endColumn": 78,
+                        "endOffset": 1066
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 504,
+                    "startColumn": 4,
+                    "startOffset": 38418,
+                    "endColumn": 85,
+                    "endOffset": 38499
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/values-in/values-in.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1071,
+                        "endColumn": 85,
+                        "endOffset": 1152
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 505,
+                    "startColumn": 4,
+                    "startOffset": 38504,
+                    "endColumn": 102,
+                    "endOffset": 38602
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/values-in/values-in.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1157,
+                        "endColumn": 102,
+                        "endOffset": 1255
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 506,
+                    "startColumn": 4,
+                    "startOffset": 38607,
+                    "endColumn": 108,
+                    "endOffset": 38711
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/values-in/values-in.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1260,
+                        "endColumn": 108,
+                        "endOffset": 1364
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 507,
+                    "startColumn": 4,
+                    "startOffset": 38716,
+                    "endColumn": 100,
+                    "endOffset": 38812
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/values-in/values-in.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1369,
+                        "endColumn": 100,
+                        "endOffset": 1465
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 508,
+                    "startColumn": 4,
+                    "startOffset": 38817,
+                    "endColumn": 103,
+                    "endOffset": 38916
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/values-in/values-in.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1470,
+                        "endColumn": 103,
+                        "endOffset": 1569
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 509,
+                    "startColumn": 4,
+                    "startOffset": 38921,
+                    "endColumn": 107,
+                    "endOffset": 39024
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/values-in/values-in.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1574,
+                        "endColumn": 107,
+                        "endOffset": 1677
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 510,
+                    "startColumn": 4,
+                    "startOffset": 39029,
+                    "endColumn": 107,
+                    "endOffset": 39132
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/values-in/values-in.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1682,
+                        "endColumn": 107,
+                        "endOffset": 1785
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 511,
+                    "startColumn": 4,
+                    "startOffset": 39137,
+                    "endColumn": 122,
+                    "endOffset": 39255
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/values-in/values-in.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1790,
+                        "endColumn": 122,
+                        "endOffset": 1908
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 512,
+                    "startColumn": 4,
+                    "startOffset": 39260,
+                    "endColumn": 98,
+                    "endOffset": 39354
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/values-in/values-in.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1913,
+                        "endColumn": 98,
+                        "endOffset": 2007
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 513,
+                    "startColumn": 4,
+                    "startOffset": 39359,
+                    "endColumn": 83,
+                    "endOffset": 39438
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 957,
+                        "endColumn": 83,
+                        "endOffset": 1036
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 514,
+                    "startColumn": 4,
+                    "startOffset": 39443,
+                    "endColumn": 101,
+                    "endOffset": 39540
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 43,
+                        "startColumn": 4,
+                        "startOffset": 2857,
+                        "endColumn": 101,
+                        "endOffset": 2954
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 515,
+                    "startColumn": 4,
+                    "startOffset": 39545,
+                    "endColumn": 88,
+                    "endOffset": 39629
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 42,
+                        "startColumn": 4,
+                        "startOffset": 2768,
+                        "endColumn": 88,
+                        "endOffset": 2852
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 516,
+                    "startColumn": 4,
+                    "startOffset": 39634,
+                    "endColumn": 90,
+                    "endOffset": 39720
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 41,
+                        "startColumn": 4,
+                        "startOffset": 2677,
+                        "endColumn": 90,
+                        "endOffset": 2763
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 517,
+                    "startColumn": 4,
+                    "startOffset": 39725,
+                    "endColumn": 89,
+                    "endOffset": 39810
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 51,
+                        "startColumn": 4,
+                        "startOffset": 3526,
+                        "endColumn": 89,
+                        "endOffset": 3611
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 518,
+                    "startColumn": 4,
+                    "startOffset": 39815,
+                    "endColumn": 102,
+                    "endOffset": 39913
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 58,
+                        "startColumn": 4,
+                        "startOffset": 4090,
+                        "endColumn": 102,
+                        "endOffset": 4188
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 519,
+                    "startColumn": 4,
+                    "startOffset": 39918,
+                    "endColumn": 87,
+                    "endOffset": 40001
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 52,
+                        "startColumn": 4,
+                        "startOffset": 3616,
+                        "endColumn": 87,
+                        "endOffset": 3699
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 520,
+                    "startColumn": 4,
+                    "startOffset": 40006,
+                    "endColumn": 125,
+                    "endOffset": 40127
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 57,
+                        "startColumn": 4,
+                        "startOffset": 3960,
+                        "endColumn": 129,
+                        "endOffset": 4085
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 521,
+                    "startColumn": 4,
+                    "startOffset": 40132,
+                    "endColumn": 90,
+                    "endOffset": 40218
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 46,
+                        "startColumn": 4,
+                        "startOffset": 3211,
+                        "endColumn": 90,
+                        "endOffset": 3297
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 522,
+                    "startColumn": 4,
+                    "startOffset": 40223,
+                    "endColumn": 85,
+                    "endOffset": 40304
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 40,
+                        "startColumn": 4,
+                        "startOffset": 2591,
+                        "endColumn": 85,
+                        "endOffset": 2672
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 523,
+                    "startColumn": 4,
+                    "startOffset": 40309,
+                    "endColumn": 87,
+                    "endOffset": 40392
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 140,
+                        "startColumn": 4,
+                        "startOffset": 10020,
+                        "endColumn": 87,
+                        "endOffset": 10103
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 524,
+                    "startColumn": 4,
+                    "startOffset": 40397,
+                    "endColumn": 196,
+                    "endOffset": 40589
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 397,
+                        "startColumn": 4,
+                        "startOffset": 30280,
+                        "endColumn": 200,
+                        "endOffset": 30476
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 525,
+                    "startColumn": 4,
+                    "startOffset": 40594,
+                    "endColumn": 85,
+                    "endOffset": 40675
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 347,
+                        "startColumn": 4,
+                        "startOffset": 24958,
+                        "endColumn": 85,
+                        "endOffset": 25039
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 526,
+                    "startColumn": 4,
+                    "startOffset": 40680,
+                    "endColumn": 130,
+                    "endOffset": 40806
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 380,
+                        "startColumn": 4,
+                        "startOffset": 28319,
+                        "endColumn": 134,
+                        "endOffset": 28449
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 527,
+                    "startColumn": 4,
+                    "startOffset": 40811,
+                    "endColumn": 124,
+                    "endOffset": 40931
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 381,
+                        "startColumn": 4,
+                        "startOffset": 28454,
+                        "endColumn": 128,
+                        "endOffset": 28578
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 528,
+                    "startColumn": 4,
+                    "startOffset": 40936,
+                    "endColumn": 144,
+                    "endOffset": 41076
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 401,
+                        "startColumn": 4,
+                        "startOffset": 30783,
+                        "endColumn": 148,
+                        "endOffset": 30927
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 529,
+                    "startColumn": 4,
+                    "startOffset": 41081,
+                    "endColumn": 142,
+                    "endOffset": 41219
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 149,
+                        "startColumn": 4,
+                        "startOffset": 10867,
+                        "endColumn": 142,
+                        "endOffset": 11005
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 530,
+                    "startColumn": 4,
+                    "startOffset": 41224,
+                    "endColumn": 80,
+                    "endOffset": 41300
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 876,
+                        "endColumn": 80,
+                        "endOffset": 952
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 531,
+                    "startColumn": 4,
+                    "startOffset": 41305,
+                    "endColumn": 146,
+                    "endOffset": 41447
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 45,
+                        "startColumn": 4,
+                        "startOffset": 3056,
+                        "endColumn": 154,
+                        "endOffset": 3206
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 532,
+                    "startColumn": 4,
+                    "startOffset": 41452,
+                    "endColumn": 96,
+                    "endOffset": 41544
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 44,
+                        "startColumn": 4,
+                        "startOffset": 2959,
+                        "endColumn": 96,
+                        "endOffset": 3051
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 533,
+                    "startColumn": 4,
+                    "startOffset": 41549,
+                    "endColumn": 122,
+                    "endOffset": 41667
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 130,
+                        "startColumn": 4,
+                        "startOffset": 9170,
+                        "endColumn": 126,
+                        "endOffset": 9292
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 534,
+                    "startColumn": 4,
+                    "startOffset": 41672,
+                    "endColumn": 157,
+                    "endOffset": 41825
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 131,
+                        "startColumn": 4,
+                        "startOffset": 9297,
+                        "endColumn": 161,
+                        "endOffset": 9454
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 535,
+                    "startColumn": 4,
+                    "startOffset": 41830,
+                    "endColumn": 99,
+                    "endOffset": 41925
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 129,
+                        "startColumn": 4,
+                        "startOffset": 9070,
+                        "endColumn": 99,
+                        "endOffset": 9165
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 536,
+                    "startColumn": 4,
+                    "startOffset": 41930,
+                    "endColumn": 77,
+                    "endOffset": 42003
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 33,
+                        "startColumn": 4,
+                        "startOffset": 2033,
+                        "endColumn": 77,
+                        "endOffset": 2106
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 537,
+                    "startColumn": 4,
+                    "startOffset": 42008,
+                    "endColumn": 78,
+                    "endOffset": 42082
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 330,
+                        "startColumn": 4,
+                        "startOffset": 23159,
+                        "endColumn": 78,
+                        "endOffset": 23233
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 538,
+                    "startColumn": 4,
+                    "startOffset": 42087,
+                    "endColumn": 78,
+                    "endOffset": 42161
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 39,
+                        "startColumn": 4,
+                        "startOffset": 2512,
+                        "endColumn": 78,
+                        "endOffset": 2586
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 539,
+                    "startColumn": 4,
+                    "startOffset": 42166,
+                    "endColumn": 77,
+                    "endOffset": 42239
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 38,
+                        "startColumn": 4,
+                        "startOffset": 2434,
+                        "endColumn": 77,
+                        "endOffset": 2507
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 540,
+                    "startColumn": 4,
+                    "startOffset": 42244,
+                    "endColumn": 77,
+                    "endOffset": 42317
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 346,
+                        "startColumn": 4,
+                        "startOffset": 24880,
+                        "endColumn": 77,
+                        "endOffset": 24953
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 541,
+                    "startColumn": 4,
+                    "startOffset": 42322,
+                    "endColumn": 77,
+                    "endOffset": 42395
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 32,
+                        "startColumn": 4,
+                        "startOffset": 1955,
+                        "endColumn": 77,
+                        "endOffset": 2028
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 542,
+                    "startColumn": 4,
+                    "startOffset": 42400,
+                    "endColumn": 89,
+                    "endOffset": 42485
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 127,
+                        "startColumn": 4,
+                        "startOffset": 8894,
+                        "endColumn": 89,
+                        "endOffset": 8979
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 543,
+                    "startColumn": 4,
+                    "startOffset": 42490,
+                    "endColumn": 111,
+                    "endOffset": 42597
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 351,
+                        "startColumn": 4,
+                        "startOffset": 25364,
+                        "endColumn": 115,
+                        "endOffset": 25475
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 544,
+                    "startColumn": 4,
+                    "startOffset": 42602,
+                    "endColumn": 81,
+                    "endOffset": 42679
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 34,
+                        "startColumn": 4,
+                        "startOffset": 2111,
+                        "endColumn": 81,
+                        "endOffset": 2188
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 545,
+                    "startColumn": 4,
+                    "startOffset": 42684,
+                    "endColumn": 115,
+                    "endOffset": 42795
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 338,
+                        "startColumn": 4,
+                        "startOffset": 24036,
+                        "endColumn": 115,
+                        "endOffset": 24147
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 546,
+                    "startColumn": 4,
+                    "startOffset": 42800,
+                    "endColumn": 82,
+                    "endOffset": 42878
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 91,
+                        "startColumn": 4,
+                        "startOffset": 6771,
+                        "endColumn": 82,
+                        "endOffset": 6849
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 547,
+                    "startColumn": 4,
+                    "startOffset": 42883,
+                    "endColumn": 71,
+                    "endOffset": 42950
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 804,
+                        "endColumn": 71,
+                        "endOffset": 871
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 548,
+                    "startColumn": 4,
+                    "startOffset": 42955,
+                    "endColumn": 89,
+                    "endOffset": 43040
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 108,
+                        "startColumn": 4,
+                        "startOffset": 7820,
+                        "endColumn": 89,
+                        "endOffset": 7905
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 549,
+                    "startColumn": 4,
+                    "startOffset": 43045,
+                    "endColumn": 94,
+                    "endOffset": 43135
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 103,
+                        "startColumn": 4,
+                        "startOffset": 7494,
+                        "endColumn": 94,
+                        "endOffset": 7584
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 550,
+                    "startColumn": 4,
+                    "startOffset": 43140,
+                    "endColumn": 100,
+                    "endOffset": 43236
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 233,
+                        "startColumn": 4,
+                        "startOffset": 17253,
+                        "endColumn": 100,
+                        "endOffset": 17349
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 551,
+                    "startColumn": 4,
+                    "startOffset": 43241,
+                    "endColumn": 165,
+                    "endOffset": 43402
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 234,
+                        "startColumn": 4,
+                        "startOffset": 17354,
+                        "endColumn": 165,
+                        "endOffset": 17515
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 552,
+                    "startColumn": 4,
+                    "startOffset": 43407,
+                    "endColumn": 87,
+                    "endOffset": 43490
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 159,
+                        "startColumn": 4,
+                        "startOffset": 11749,
+                        "endColumn": 87,
+                        "endOffset": 11832
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 553,
+                    "startColumn": 4,
+                    "startOffset": 43495,
+                    "endColumn": 76,
+                    "endOffset": 43567
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 160,
+                        "startColumn": 4,
+                        "startOffset": 11837,
+                        "endColumn": 76,
+                        "endOffset": 11909
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 554,
+                    "startColumn": 4,
+                    "startOffset": 43572,
+                    "endColumn": 82,
+                    "endOffset": 43650
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 161,
+                        "startColumn": 4,
+                        "startOffset": 11914,
+                        "endColumn": 82,
+                        "endOffset": 11992
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 555,
+                    "startColumn": 4,
+                    "startOffset": 43655,
+                    "endColumn": 84,
+                    "endOffset": 43735
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 226,
+                        "startColumn": 4,
+                        "startOffset": 16846,
+                        "endColumn": 84,
+                        "endOffset": 16926
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 556,
+                    "startColumn": 4,
+                    "startOffset": 43740,
+                    "endColumn": 113,
+                    "endOffset": 43849
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 395,
+                        "startColumn": 4,
+                        "startOffset": 30046,
+                        "endColumn": 117,
+                        "endOffset": 30159
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 557,
+                    "startColumn": 4,
+                    "startOffset": 43854,
+                    "endColumn": 98,
+                    "endOffset": 43948
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 358,
+                        "startColumn": 4,
+                        "startOffset": 25895,
+                        "endColumn": 98,
+                        "endOffset": 25989
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 558,
+                    "startColumn": 4,
+                    "startOffset": 43953,
+                    "endColumn": 111,
+                    "endOffset": 44060
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 396,
+                        "startColumn": 4,
+                        "startOffset": 30164,
+                        "endColumn": 115,
+                        "endOffset": 30275
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 559,
+                    "startColumn": 4,
+                    "startOffset": 44065,
+                    "endColumn": 86,
+                    "endOffset": 44147
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 90,
+                        "startColumn": 4,
+                        "startOffset": 6684,
+                        "endColumn": 86,
+                        "endOffset": 6766
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 560,
+                    "startColumn": 4,
+                    "startOffset": 44152,
+                    "endColumn": 76,
+                    "endOffset": 44224
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 227,
+                        "startColumn": 4,
+                        "startOffset": 16931,
+                        "endColumn": 76,
+                        "endOffset": 17003
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 561,
+                    "startColumn": 4,
+                    "startOffset": 44229,
+                    "endColumn": 74,
+                    "endOffset": 44299
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 228,
+                        "startColumn": 4,
+                        "startOffset": 17008,
+                        "endColumn": 74,
+                        "endOffset": 17078
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 562,
+                    "startColumn": 4,
+                    "startOffset": 44304,
+                    "endColumn": 86,
+                    "endOffset": 44386
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 345,
+                        "startColumn": 4,
+                        "startOffset": 24793,
+                        "endColumn": 86,
+                        "endOffset": 24875
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 563,
+                    "startColumn": 4,
+                    "startOffset": 44391,
+                    "endColumn": 87,
+                    "endOffset": 44474
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 152,
+                        "startColumn": 4,
+                        "startOffset": 11248,
+                        "endColumn": 87,
+                        "endOffset": 11331
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 564,
+                    "startColumn": 4,
+                    "startOffset": 44479,
+                    "endColumn": 92,
+                    "endOffset": 44567
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 35,
+                        "startColumn": 4,
+                        "startOffset": 2193,
+                        "endColumn": 92,
+                        "endOffset": 2281
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 565,
+                    "startColumn": 4,
+                    "startOffset": 44572,
+                    "endColumn": 70,
+                    "endOffset": 44638
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 89,
+                        "startColumn": 4,
+                        "startOffset": 6613,
+                        "endColumn": 70,
+                        "endOffset": 6679
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 566,
+                    "startColumn": 4,
+                    "startOffset": 44643,
+                    "endColumn": 101,
+                    "endOffset": 44740
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/build/intermediates/exploded-aar/AS/datetimepicker/unspecified/res/values-in/values-in.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 105,
+                        "endColumn": 101,
+                        "endOffset": 202
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 567,
+                    "startColumn": 4,
+                    "startOffset": 44745,
+                    "endColumn": 77,
+                    "endOffset": 44818
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 4,
+                        "startOffset": 1797,
+                        "endColumn": 77,
+                        "endOffset": 1870
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 568,
+                    "startColumn": 4,
+                    "startOffset": 44823,
+                    "endColumn": 114,
+                    "endOffset": 44933
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 139,
+                        "startColumn": 4,
+                        "startOffset": 9905,
+                        "endColumn": 114,
+                        "endOffset": 10015
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 569,
+                    "startColumn": 4,
+                    "startOffset": 44938,
+                    "endColumn": 70,
+                    "endOffset": 45004
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 126,
+                        "startColumn": 4,
+                        "startOffset": 8823,
+                        "endColumn": 70,
+                        "endOffset": 8889
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 570,
+                    "startColumn": 4,
+                    "startOffset": 45009,
+                    "endColumn": 82,
+                    "endOffset": 45087
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 1209,
+                        "endColumn": 82,
+                        "endOffset": 1287
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 571,
+                    "startColumn": 4,
+                    "startOffset": 45092,
+                    "endColumn": 95,
+                    "endOffset": 45183
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 1464,
+                        "endColumn": 95,
+                        "endOffset": 1555
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 572,
+                    "startColumn": 4,
+                    "startOffset": 45188,
+                    "endColumn": 106,
+                    "endOffset": 45290
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/build/intermediates/exploded-aar/AS/datetimepicker/unspecified/res/values-in/values-in.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 207,
+                        "endColumn": 106,
+                        "endOffset": 309
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 573,
+                    "startColumn": 4,
+                    "startOffset": 45295,
+                    "endColumn": 81,
+                    "endOffset": 45372
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 352,
+                        "startColumn": 4,
+                        "startOffset": 25480,
+                        "endColumn": 81,
+                        "endOffset": 25557
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 574,
+                    "startColumn": 4,
+                    "startOffset": 45377,
+                    "endColumn": 140,
+                    "endOffset": 45513
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 335,
+                        "startColumn": 4,
+                        "startOffset": 23678,
+                        "endColumn": 140,
+                        "endOffset": 23814
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 575,
+                    "startColumn": 4,
+                    "startOffset": 45518,
+                    "endColumn": 112,
+                    "endOffset": 45626
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 334,
+                        "startColumn": 4,
+                        "startOffset": 23565,
+                        "endColumn": 112,
+                        "endOffset": 23673
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 576,
+                    "startColumn": 4,
+                    "startOffset": 45631,
+                    "endColumn": 114,
+                    "endOffset": 45741
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 333,
+                        "startColumn": 4,
+                        "startOffset": 23450,
+                        "endColumn": 114,
+                        "endOffset": 23560
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 577,
+                    "startColumn": 4,
+                    "startOffset": 45746,
+                    "endColumn": 100,
+                    "endOffset": 45842
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 145,
+                        "startColumn": 4,
+                        "startOffset": 10472,
+                        "endColumn": 100,
+                        "endOffset": 10568
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 578,
+                    "startColumn": 4,
+                    "startOffset": 45847,
+                    "endColumn": 84,
+                    "endOffset": 45927
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 359,
+                        "startColumn": 4,
+                        "startOffset": 25994,
+                        "endColumn": 84,
+                        "endOffset": 26074
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 579,
+                    "startColumn": 4,
+                    "startOffset": 45932,
+                    "endColumn": 85,
+                    "endOffset": 46013
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 1378,
+                        "endColumn": 85,
+                        "endOffset": 1459
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 580,
+                    "startColumn": 4,
+                    "startOffset": 46018,
+                    "endColumn": 83,
+                    "endOffset": 46097
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 398,
+                        "startColumn": 4,
+                        "startOffset": 30481,
+                        "endColumn": 83,
+                        "endOffset": 30560
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 581,
+                    "startColumn": 4,
+                    "startOffset": 46102,
+                    "endColumn": 70,
+                    "endOffset": 46168
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 124,
+                        "startColumn": 4,
+                        "startOffset": 8676,
+                        "endColumn": 70,
+                        "endOffset": 8742
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 582,
+                    "startColumn": 4,
+                    "startOffset": 46173,
+                    "endColumn": 76,
+                    "endOffset": 46245
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/build/intermediates/exploded-aar/AS/datetimepicker/unspecified/res/values-in/values-in.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 314,
+                        "endColumn": 76,
+                        "endOffset": 386
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 583,
+                    "startColumn": 4,
+                    "startOffset": 46250,
+                    "endColumn": 85,
+                    "endOffset": 46331
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 1292,
+                        "endColumn": 85,
+                        "endOffset": 1373
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 584,
+                    "startColumn": 4,
+                    "startOffset": 46336,
+                    "endColumn": 79,
+                    "endOffset": 46411
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 88,
+                        "startColumn": 4,
+                        "startOffset": 6533,
+                        "endColumn": 79,
+                        "endOffset": 6608
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 585,
+                    "startColumn": 4,
+                    "startOffset": 46416,
+                    "endColumn": 84,
+                    "endOffset": 46496
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 344,
+                        "startColumn": 4,
+                        "startOffset": 24708,
+                        "endColumn": 84,
+                        "endOffset": 24788
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 586,
+                    "startColumn": 4,
+                    "startOffset": 46501,
+                    "endColumn": 91,
+                    "endOffset": 46588
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 141,
+                        "startColumn": 4,
+                        "startOffset": 10108,
+                        "endColumn": 91,
+                        "endOffset": 10195
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 587,
+                    "startColumn": 4,
+                    "startOffset": 46593,
+                    "endColumn": 70,
+                    "endOffset": 46659
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 92,
+                        "startColumn": 4,
+                        "startOffset": 6854,
+                        "endColumn": 70,
+                        "endOffset": 6920
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 588,
+                    "startColumn": 4,
+                    "startOffset": 46664,
+                    "endColumn": 84,
+                    "endOffset": 46744
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 1643,
+                        "endColumn": 84,
+                        "endOffset": 1723
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 589,
+                    "startColumn": 4,
+                    "startOffset": 46749,
+                    "endColumn": 90,
+                    "endOffset": 46835
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 144,
+                        "startColumn": 4,
+                        "startOffset": 10381,
+                        "endColumn": 90,
+                        "endOffset": 10467
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 590,
+                    "startColumn": 4,
+                    "startOffset": 46840,
+                    "endColumn": 74,
+                    "endOffset": 46910
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 225,
+                        "startColumn": 4,
+                        "startOffset": 16771,
+                        "endColumn": 74,
+                        "endOffset": 16841
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 591,
+                    "startColumn": 4,
+                    "startOffset": 46915,
+                    "endColumn": 92,
+                    "endOffset": 47003
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 235,
+                        "startColumn": 4,
+                        "startOffset": 17520,
+                        "endColumn": 92,
+                        "endOffset": 17608
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 592,
+                    "startColumn": 4,
+                    "startOffset": 47008,
+                    "endColumn": 97,
+                    "endOffset": 47101
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 236,
+                        "startColumn": 4,
+                        "startOffset": 17613,
+                        "endColumn": 97,
+                        "endOffset": 17706
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 593,
+                    "startColumn": 4,
+                    "startOffset": 47106,
+                    "endColumn": 101,
+                    "endOffset": 47203
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/build/intermediates/exploded-aar/AS/datetimepicker/unspecified/res/values-in/values-in.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 391,
+                        "endColumn": 101,
+                        "endOffset": 488
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 594,
+                    "startColumn": 4,
+                    "startOffset": 47208,
+                    "endColumn": 71,
+                    "endOffset": 47275
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 174,
+                        "startColumn": 4,
+                        "startOffset": 13057,
+                        "endColumn": 71,
+                        "endOffset": 13124
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 595,
+                    "startColumn": 4,
+                    "startOffset": 47280,
+                    "endColumn": 85,
+                    "endOffset": 47361
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 177,
+                        "startColumn": 4,
+                        "startOffset": 13276,
+                        "endColumn": 85,
+                        "endOffset": 13357
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 596,
+                    "startColumn": 4,
+                    "startOffset": 47366,
+                    "endColumn": 199,
+                    "endOffset": 47561
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 367,
+                        "startColumn": 4,
+                        "startOffset": 26707,
+                        "endColumn": 211,
+                        "endOffset": 26914
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 597,
+                    "startColumn": 4,
+                    "startOffset": 47566,
+                    "endColumn": 106,
+                    "endOffset": 47668
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 388,
+                        "startColumn": 4,
+                        "startOffset": 29191,
+                        "endColumn": 106,
+                        "endOffset": 29293
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 598,
+                    "startColumn": 4,
+                    "startOffset": 47673,
+                    "endColumn": 112,
+                    "endOffset": 47781
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/build/intermediates/exploded-aar/AS/datetimepicker/unspecified/res/values-in/values-in.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 493,
+                        "endColumn": 112,
+                        "endOffset": 601
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 599,
+                    "startColumn": 4,
+                    "startOffset": 47786,
+                    "endColumn": 68,
+                    "endOffset": 47850
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 4,
+                        "startOffset": 1728,
+                        "endColumn": 68,
+                        "endOffset": 1792
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 600,
+                    "startColumn": 4,
+                    "startOffset": 47855,
+                    "endColumn": 81,
+                    "endOffset": 47932
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 146,
+                        "startColumn": 4,
+                        "startOffset": 10573,
+                        "endColumn": 81,
+                        "endOffset": 10650
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 601,
+                    "startColumn": 4,
+                    "startOffset": 47937,
+                    "endColumn": 94,
+                    "endOffset": 48027
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 150,
+                        "startColumn": 4,
+                        "startOffset": 11010,
+                        "endColumn": 94,
+                        "endOffset": 11100
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 602,
+                    "startColumn": 4,
+                    "startOffset": 48032,
+                    "endColumn": 74,
+                    "endOffset": 48102
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 155,
+                        "startColumn": 4,
+                        "startOffset": 11441,
+                        "endColumn": 74,
+                        "endOffset": 11511
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 603,
+                    "startColumn": 4,
+                    "startOffset": 48107,
+                    "endColumn": 72,
+                    "endOffset": 48175
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 157,
+                        "startColumn": 4,
+                        "startOffset": 11593,
+                        "endColumn": 72,
+                        "endOffset": 11661
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 604,
+                    "startColumn": 4,
+                    "startOffset": 48180,
+                    "endColumn": 82,
+                    "endOffset": 48258
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 1041,
+                        "endColumn": 82,
+                        "endOffset": 1119
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 605,
+                    "startColumn": 4,
+                    "startOffset": 48263,
+                    "endColumn": 84,
+                    "endOffset": 48343
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 1124,
+                        "endColumn": 84,
+                        "endOffset": 1204
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 606,
+                    "startColumn": 4,
+                    "startOffset": 48348,
+                    "endColumn": 80,
+                    "endOffset": 48424
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 163,
+                        "startColumn": 4,
+                        "startOffset": 12082,
+                        "endColumn": 80,
+                        "endOffset": 12158
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 607,
+                    "startColumn": 4,
+                    "startOffset": 48429,
+                    "endColumn": 89,
+                    "endOffset": 48514
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 164,
+                        "startColumn": 4,
+                        "startOffset": 12163,
+                        "endColumn": 89,
+                        "endOffset": 12248
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 608,
+                    "startColumn": 4,
+                    "startOffset": 48519,
+                    "endColumn": 84,
+                    "endOffset": 48599
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 162,
+                        "startColumn": 4,
+                        "startOffset": 11997,
+                        "endColumn": 84,
+                        "endOffset": 12077
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 609,
+                    "startColumn": 4,
+                    "startOffset": 48604,
+                    "endColumn": 108,
+                    "endOffset": 48708
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 165,
+                        "startColumn": 4,
+                        "startOffset": 12253,
+                        "endColumn": 108,
+                        "endOffset": 12357
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 610,
+                    "startColumn": 4,
+                    "startOffset": 48713,
+                    "endColumn": 101,
+                    "endOffset": 48810
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 166,
+                        "startColumn": 4,
+                        "startOffset": 12362,
+                        "endColumn": 101,
+                        "endOffset": 12459
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 611,
+                    "startColumn": 4,
+                    "startOffset": 48815,
+                    "endColumn": 82,
+                    "endOffset": 48893
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 158,
+                        "startColumn": 4,
+                        "startOffset": 11666,
+                        "endColumn": 82,
+                        "endOffset": 11744
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 612,
+                    "startColumn": 4,
+                    "startOffset": 48898,
+                    "endColumn": 76,
+                    "endOffset": 48970
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 156,
+                        "startColumn": 4,
+                        "startOffset": 11516,
+                        "endColumn": 76,
+                        "endOffset": 11588
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 613,
+                    "startColumn": 4,
+                    "startOffset": 48975,
+                    "endColumn": 105,
+                    "endOffset": 49076
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/build/intermediates/exploded-aar/AS/datetimepicker/unspecified/res/values-in/values-in.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 606,
+                        "endColumn": 105,
+                        "endOffset": 707
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 614,
+                    "startColumn": 4,
+                    "startOffset": 49081,
+                    "endColumn": 73,
+                    "endOffset": 49150
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 175,
+                        "startColumn": 4,
+                        "startOffset": 13129,
+                        "endColumn": 73,
+                        "endOffset": 13198
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 615,
+                    "startColumn": 4,
+                    "startOffset": 49155,
+                    "endColumn": 88,
+                    "endOffset": 49239
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 178,
+                        "startColumn": 4,
+                        "startOffset": 13362,
+                        "endColumn": 88,
+                        "endOffset": 13446
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 616,
+                    "startColumn": 4,
+                    "startOffset": 49244,
+                    "endColumn": 121,
+                    "endOffset": 49361
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 59,
+                        "startColumn": 4,
+                        "startOffset": 4193,
+                        "endColumn": 121,
+                        "endOffset": 4310
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 617,
+                    "startColumn": 4,
+                    "startOffset": 49366,
+                    "endColumn": 142,
+                    "endOffset": 49504
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 385,
+                        "startColumn": 4,
+                        "startOffset": 28867,
+                        "endColumn": 142,
+                        "endOffset": 29005
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 618,
+                    "startColumn": 4,
+                    "startOffset": 49509,
+                    "endColumn": 88,
+                    "endOffset": 49593
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 142,
+                        "startColumn": 4,
+                        "startOffset": 10200,
+                        "endColumn": 88,
+                        "endOffset": 10284
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 619,
+                    "startColumn": 4,
+                    "startOffset": 49598,
+                    "endColumn": 132,
+                    "endOffset": 49726
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 350,
+                        "startColumn": 4,
+                        "startOffset": 25227,
+                        "endColumn": 136,
+                        "endOffset": 25359
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 620,
+                    "startColumn": 4,
+                    "startOffset": 49731,
+                    "endColumn": 132,
+                    "endOffset": 49859
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 340,
+                        "startColumn": 4,
+                        "startOffset": 24266,
+                        "endColumn": 136,
+                        "endOffset": 24398
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 621,
+                    "startColumn": 4,
+                    "startOffset": 49864,
+                    "endColumn": 125,
+                    "endOffset": 49985
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 343,
+                        "startColumn": 4,
+                        "startOffset": 24582,
+                        "endColumn": 125,
+                        "endOffset": 24703
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 622,
+                    "startColumn": 4,
+                    "startOffset": 49990,
+                    "endColumn": 85,
+                    "endOffset": 50071
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 342,
+                        "startColumn": 4,
+                        "startOffset": 24496,
+                        "endColumn": 85,
+                        "endOffset": 24577
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 623,
+                    "startColumn": 4,
+                    "startOffset": 50076,
+                    "endColumn": 91,
+                    "endOffset": 50163
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 143,
+                        "startColumn": 4,
+                        "startOffset": 10289,
+                        "endColumn": 91,
+                        "endOffset": 10376
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 624,
+                    "startColumn": 4,
+                    "startOffset": 50168,
+                    "endColumn": 172,
+                    "endOffset": 50336
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 368,
+                        "startColumn": 4,
+                        "startOffset": 26919,
+                        "endColumn": 180,
+                        "endOffset": 27095
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 625,
+                    "startColumn": 4,
+                    "startOffset": 50341,
+                    "endColumn": 129,
+                    "endOffset": 50466
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 379,
+                        "startColumn": 4,
+                        "startOffset": 28189,
+                        "endColumn": 129,
+                        "endOffset": 28314
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 626,
+                    "startColumn": 4,
+                    "startOffset": 50471,
+                    "endColumn": 83,
+                    "endOffset": 50550
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 360,
+                        "startColumn": 4,
+                        "startOffset": 26079,
+                        "endColumn": 83,
+                        "endOffset": 26158
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 627,
+                    "startColumn": 4,
+                    "startOffset": 50555,
+                    "endColumn": 85,
+                    "endOffset": 50636
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 361,
+                        "startColumn": 4,
+                        "startOffset": 26163,
+                        "endColumn": 85,
+                        "endOffset": 26244
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 628,
+                    "startColumn": 4,
+                    "startOffset": 50641,
+                    "endColumn": 121,
+                    "endOffset": 50758
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 371,
+                        "startColumn": 4,
+                        "startOffset": 27310,
+                        "endColumn": 121,
+                        "endOffset": 27427
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 629,
+                    "startColumn": 4,
+                    "startOffset": 50763,
+                    "endColumn": 102,
+                    "endOffset": 50861
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 392,
+                        "startColumn": 4,
+                        "startOffset": 29693,
+                        "endColumn": 102,
+                        "endOffset": 29791
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 630,
+                    "startColumn": 4,
+                    "startOffset": 50866,
+                    "endColumn": 101,
+                    "endOffset": 50963
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 400,
+                        "startColumn": 4,
+                        "startOffset": 30681,
+                        "endColumn": 101,
+                        "endOffset": 30778
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 631,
+                    "startColumn": 4,
+                    "startOffset": 50968,
+                    "endColumn": 108,
+                    "endOffset": 51072
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 370,
+                        "startColumn": 4,
+                        "startOffset": 27201,
+                        "endColumn": 108,
+                        "endOffset": 27305
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 632,
+                    "startColumn": 4,
+                    "startOffset": 51077,
+                    "endColumn": 100,
+                    "endOffset": 51173
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 369,
+                        "startColumn": 4,
+                        "startOffset": 27100,
+                        "endColumn": 100,
+                        "endOffset": 27196
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 633,
+                    "startColumn": 4,
+                    "startOffset": 51178,
+                    "endColumn": 92,
+                    "endOffset": 51266
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 382,
+                        "startColumn": 4,
+                        "startOffset": 28583,
+                        "endColumn": 92,
+                        "endOffset": 28671
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 634,
+                    "startColumn": 4,
+                    "startOffset": 51271,
+                    "endColumn": 102,
+                    "endOffset": 51369
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 362,
+                        "startColumn": 4,
+                        "startOffset": 26249,
+                        "endColumn": 102,
+                        "endOffset": 26347
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 635,
+                    "startColumn": 4,
+                    "startOffset": 51374,
+                    "endColumn": 115,
+                    "endOffset": 51485
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 399,
+                        "startColumn": 4,
+                        "startOffset": 30565,
+                        "endColumn": 115,
+                        "endOffset": 30676
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 636,
+                    "startColumn": 4,
+                    "startOffset": 51490,
+                    "endColumn": 75,
+                    "endOffset": 51561
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 125,
+                        "startColumn": 4,
+                        "startOffset": 8747,
+                        "endColumn": 75,
+                        "endOffset": 8818
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 637,
+                    "startColumn": 4,
+                    "startOffset": 51566,
+                    "endColumn": 78,
+                    "endOffset": 51640
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 36,
+                        "startColumn": 4,
+                        "startOffset": 2286,
+                        "endColumn": 78,
+                        "endOffset": 2360
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 638,
+                    "startColumn": 4,
+                    "startOffset": 51645,
+                    "endColumn": 90,
+                    "endOffset": 51731
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 147,
+                        "startColumn": 4,
+                        "startOffset": 10655,
+                        "endColumn": 90,
+                        "endOffset": 10741
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 639,
+                    "startColumn": 4,
+                    "startOffset": 51736,
+                    "endColumn": 92,
+                    "endOffset": 51824
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 341,
+                        "startColumn": 4,
+                        "startOffset": 24403,
+                        "endColumn": 92,
+                        "endOffset": 24491
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 640,
+                    "startColumn": 4,
+                    "startOffset": 51829,
+                    "endColumn": 72,
+                    "endOffset": 51897
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 176,
+                        "startColumn": 4,
+                        "startOffset": 13203,
+                        "endColumn": 72,
+                        "endOffset": 13271
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 641,
+                    "startColumn": 4,
+                    "startOffset": 51902,
+                    "endColumn": 89,
+                    "endOffset": 51987
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 179,
+                        "startColumn": 4,
+                        "startOffset": 13451,
+                        "endColumn": 89,
+                        "endOffset": 13536
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 642,
+                    "startColumn": 4,
+                    "startOffset": 51992,
+                    "endColumn": 89,
+                    "endOffset": 52077
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/build/intermediates/exploded-aar/AS/datetimepicker/unspecified/res/values-in/values-in.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 712,
+                        "endColumn": 89,
+                        "endOffset": 797
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 643,
+                    "startColumn": 4,
+                    "startOffset": 52082,
+                    "endColumn": 80,
+                    "endOffset": 52158
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/build/intermediates/exploded-aar/AS/datetimepicker/unspecified/res/values-in/values-in.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 802,
+                        "endColumn": 80,
+                        "endOffset": 878
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 644,
+                    "startColumn": 4,
+                    "startOffset": 52163,
+                    "endColumn": 84,
+                    "endOffset": 52243
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/build/intermediates/exploded-aar/AS/datetimepicker/unspecified/res/values-in/values-in.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 883,
+                        "endColumn": 84,
+                        "endOffset": 963
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 645,
+                    "startColumn": 4,
+                    "startOffset": 52248,
+                    "endColumn": 81,
+                    "endOffset": 52325
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/build/intermediates/exploded-aar/AS/datetimepicker/unspecified/res/values-in/values-in.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 968,
+                        "endColumn": 81,
+                        "endOffset": 1045
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 646,
+                    "startColumn": 4,
+                    "startOffset": 52330,
+                    "endColumn": 97,
+                    "endOffset": 52423
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 167,
+                        "startColumn": 4,
+                        "startOffset": 12464,
+                        "endColumn": 97,
+                        "endOffset": 12557
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 647,
+                    "startColumn": 4,
+                    "startOffset": 52428,
+                    "endColumn": 79,
+                    "endOffset": 52503
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 31,
+                        "startColumn": 4,
+                        "startOffset": 1875,
+                        "endColumn": 79,
+                        "endOffset": 1950
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 648,
+                    "startColumn": 4,
+                    "startOffset": 52508,
+                    "endColumn": 74,
+                    "endOffset": 52578
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 93,
+                        "startColumn": 4,
+                        "startOffset": 6925,
+                        "endColumn": 74,
+                        "endOffset": 6995
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 649,
+                    "startColumn": 4,
+                    "startOffset": 52583,
+                    "endColumn": 82,
+                    "endOffset": 52661
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 1560,
+                        "endColumn": 82,
+                        "endOffset": 1638
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 650,
+                    "startColumn": 4,
+                    "startOffset": 52666,
+                    "endColumn": 85,
+                    "endOffset": 52747
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 128,
+                        "startColumn": 4,
+                        "startOffset": 8984,
+                        "endColumn": 85,
+                        "endOffset": 9065
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 651,
+                    "startColumn": 4,
+                    "startOffset": 52752,
+                    "endColumn": 65,
+                    "endOffset": 52813
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 348,
+                        "startColumn": 4,
+                        "startOffset": 25044,
+                        "endColumn": 65,
+                        "endOffset": 25105
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 652,
+                    "startColumn": 4,
+                    "startOffset": 52818,
+                    "endColumn": 94,
+                    "endOffset": 52908
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 94,
+                        "startColumn": 4,
+                        "startOffset": 7000,
+                        "endColumn": 94,
+                        "endOffset": 7090
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 653,
+                    "startColumn": 4,
+                    "startOffset": 52913,
+                    "endColumn": 100,
+                    "endOffset": 53009
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/values-in/values-in.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 2012,
+                        "endColumn": 100,
+                        "endOffset": 2108
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 654,
+                    "startColumn": 4,
+                    "startOffset": 53014,
+                    "endColumn": 108,
+                    "endOffset": 53118
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 372,
+                        "startColumn": 4,
+                        "startOffset": 27432,
+                        "endColumn": 108,
+                        "endOffset": 27536
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 655,
+                    "startColumn": 4,
+                    "startOffset": 53123,
+                    "endColumn": 159,
+                    "endOffset": 53278
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 374,
+                        "startColumn": 4,
+                        "startOffset": 27647,
+                        "endColumn": 159,
+                        "endOffset": 27802
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 656,
+                    "startColumn": 4,
+                    "startOffset": 53283,
+                    "endColumn": 105,
+                    "endOffset": 53384
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 373,
+                        "startColumn": 4,
+                        "startOffset": 27541,
+                        "endColumn": 105,
+                        "endOffset": 27642
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 657,
+                    "startColumn": 4,
+                    "startOffset": 53389,
+                    "endColumn": 92,
+                    "endOffset": 53477
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 377,
+                        "startColumn": 4,
+                        "startOffset": 28002,
+                        "endColumn": 92,
+                        "endOffset": 28090
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 658,
+                    "startColumn": 4,
+                    "startOffset": 53482,
+                    "endColumn": 97,
+                    "endOffset": 53575
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 376,
+                        "startColumn": 4,
+                        "startOffset": 27904,
+                        "endColumn": 97,
+                        "endOffset": 27997
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 659,
+                    "startColumn": 4,
+                    "startOffset": 53580,
+                    "endColumn": 131,
+                    "endOffset": 53707
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 331,
+                        "startColumn": 4,
+                        "startOffset": 23238,
+                        "endColumn": 131,
+                        "endOffset": 23365
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 660,
+                    "startColumn": 4,
+                    "startOffset": 53712,
+                    "endColumn": 93,
+                    "endOffset": 53801
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 378,
+                        "startColumn": 4,
+                        "startOffset": 28095,
+                        "endColumn": 93,
+                        "endOffset": 28184
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 661,
+                    "startColumn": 4,
+                    "startOffset": 53806,
+                    "endColumn": 96,
+                    "endOffset": 53898
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 375,
+                        "startColumn": 4,
+                        "startOffset": 27807,
+                        "endColumn": 96,
+                        "endOffset": 27899
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 662,
+                    "startColumn": 4,
+                    "startOffset": 53903,
+                    "endColumn": 79,
+                    "endOffset": 53978
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 171,
+                        "startColumn": 4,
+                        "startOffset": 12809,
+                        "endColumn": 79,
+                        "endOffset": 12884
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 663,
+                    "startColumn": 4,
+                    "startOffset": 53983,
+                    "endColumn": 122,
+                    "endOffset": 54101
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 183,
+                        "startColumn": 4,
+                        "startOffset": 13814,
+                        "endColumn": 126,
+                        "endOffset": 13936
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 664,
+                    "startColumn": 4,
+                    "startOffset": 54106,
+                    "endColumn": 85,
+                    "endOffset": 54187
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 172,
+                        "startColumn": 4,
+                        "startOffset": 12889,
+                        "endColumn": 85,
+                        "endOffset": 12970
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 665,
+                    "startColumn": 4,
+                    "startOffset": 54192,
+                    "endColumn": 84,
+                    "endOffset": 54272
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 168,
+                        "startColumn": 4,
+                        "startOffset": 12562,
+                        "endColumn": 84,
+                        "endOffset": 12642
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 666,
+                    "startColumn": 4,
+                    "startOffset": 54277,
+                    "endColumn": 81,
+                    "endOffset": 54354
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 173,
+                        "startColumn": 4,
+                        "startOffset": 12975,
+                        "endColumn": 81,
+                        "endOffset": 13052
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 667,
+                    "startColumn": 4,
+                    "startOffset": 54359,
+                    "endColumn": 85,
+                    "endOffset": 54440
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 182,
+                        "startColumn": 4,
+                        "startOffset": 13728,
+                        "endColumn": 85,
+                        "endOffset": 13809
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 668,
+                    "startColumn": 4,
+                    "startOffset": 54445,
+                    "endColumn": 117,
+                    "endOffset": 54558
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 181,
+                        "startColumn": 4,
+                        "startOffset": 13606,
+                        "endColumn": 121,
+                        "endOffset": 13723
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 669,
+                    "startColumn": 4,
+                    "startOffset": 54563,
+                    "endColumn": 79,
+                    "endOffset": 54638
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 169,
+                        "startColumn": 4,
+                        "startOffset": 12647,
+                        "endColumn": 79,
+                        "endOffset": 12722
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 670,
+                    "startColumn": 4,
+                    "startOffset": 54643,
+                    "endColumn": 81,
+                    "endOffset": 54720
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 170,
+                        "startColumn": 4,
+                        "startOffset": 12727,
+                        "endColumn": 81,
+                        "endOffset": 12804
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 671,
+                    "startColumn": 4,
+                    "startOffset": 54725,
+                    "endColumn": 79,
+                    "endOffset": 54800
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 332,
+                        "startColumn": 4,
+                        "startOffset": 23370,
+                        "endColumn": 79,
+                        "endOffset": 23445
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 672,
+                    "startColumn": 4,
+                    "startOffset": 54805,
+                    "endColumn": 112,
+                    "endOffset": 54913
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 394,
+                        "startColumn": 4,
+                        "startOffset": 29933,
+                        "endColumn": 112,
+                        "endOffset": 30041
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 673,
+                    "startColumn": 4,
+                    "startOffset": 54918,
+                    "endColumn": 136,
+                    "endOffset": 55050
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 393,
+                        "startColumn": 4,
+                        "startOffset": 29796,
+                        "endColumn": 136,
+                        "endOffset": 29928
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 674,
+                    "startColumn": 4,
+                    "startOffset": 55055,
+                    "endColumn": 68,
+                    "endOffset": 55119
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 37,
+                        "startColumn": 4,
+                        "startOffset": 2365,
+                        "endColumn": 68,
+                        "endOffset": 2429
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 675,
+                    "startColumn": 4,
+                    "startOffset": 55124,
+                    "endColumn": 82,
+                    "endOffset": 55202
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 363,
+                        "startColumn": 4,
+                        "startOffset": 26352,
+                        "endColumn": 82,
+                        "endOffset": 26430
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 676,
+                    "startColumn": 4,
+                    "startOffset": 55207,
+                    "endColumn": 82,
+                    "endOffset": 55285
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 364,
+                        "startColumn": 4,
+                        "startOffset": 26435,
+                        "endColumn": 82,
+                        "endOffset": 26513
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 677,
+                    "startColumn": 4,
+                    "startOffset": 55290,
+                    "endColumn": 82,
+                    "endOffset": 55368
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 241,
+                        "startColumn": 4,
+                        "startOffset": 18042,
+                        "endColumn": 82,
+                        "endOffset": 18120
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 678,
+                    "startColumn": 4,
+                    "startOffset": 55373,
+                    "endColumn": 82,
+                    "endOffset": 55451
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 242,
+                        "startColumn": 4,
+                        "startOffset": 18125,
+                        "endColumn": 82,
+                        "endOffset": 18203
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 679,
+                    "startColumn": 4,
+                    "startOffset": 55456,
+                    "endColumn": 83,
+                    "endOffset": 55535
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 240,
+                        "startColumn": 4,
+                        "startOffset": 17958,
+                        "endColumn": 83,
+                        "endOffset": 18037
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 680,
+                    "startColumn": 4,
+                    "startOffset": 55540,
+                    "endColumn": 82,
+                    "endOffset": 55618
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 237,
+                        "startColumn": 4,
+                        "startOffset": 17711,
+                        "endColumn": 82,
+                        "endOffset": 17789
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 681,
+                    "startColumn": 4,
+                    "startOffset": 55623,
+                    "endColumn": 76,
+                    "endOffset": 55695
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 238,
+                        "startColumn": 4,
+                        "startOffset": 17794,
+                        "endColumn": 76,
+                        "endOffset": 17866
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 682,
+                    "startColumn": 4,
+                    "startOffset": 55700,
+                    "endColumn": 86,
+                    "endOffset": 55782
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 239,
+                        "startColumn": 4,
+                        "startOffset": 17871,
+                        "endColumn": 86,
+                        "endOffset": 17953
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 683,
+                    "startColumn": 4,
+                    "startOffset": 55787,
+                    "endColumn": 90,
+                    "endOffset": 55873
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 200,
+                        "startColumn": 4,
+                        "startOffset": 14825,
+                        "endColumn": 90,
+                        "endOffset": 14911
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 684,
+                    "startColumn": 4,
+                    "startOffset": 55878,
+                    "endColumn": 102,
+                    "endOffset": 55976
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 384,
+                        "startColumn": 4,
+                        "startOffset": 28764,
+                        "endColumn": 102,
+                        "endOffset": 28862
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 685,
+                    "startColumn": 4,
+                    "startOffset": 55981,
+                    "endColumn": 104,
+                    "endOffset": 56081
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 391,
+                        "startColumn": 4,
+                        "startOffset": 29588,
+                        "endColumn": 104,
+                        "endOffset": 29688
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 686,
+                    "startColumn": 4,
+                    "startOffset": 56086,
+                    "endColumn": 76,
+                    "endOffset": 56158
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 209,
+                        "startColumn": 4,
+                        "startOffset": 15615,
+                        "endColumn": 76,
+                        "endOffset": 15687
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 687,
+                    "startColumn": 4,
+                    "startOffset": 56163,
+                    "endColumn": 193,
+                    "endOffset": 56352
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 390,
+                        "startColumn": 4,
+                        "startOffset": 29394,
+                        "endColumn": 193,
+                        "endOffset": 29583
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 688,
+                    "startColumn": 4,
+                    "startOffset": 56357,
+                    "endColumn": 92,
+                    "endOffset": 56445
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 387,
+                        "startColumn": 4,
+                        "startOffset": 29098,
+                        "endColumn": 92,
+                        "endOffset": 29186
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 689,
+                    "startColumn": 4,
+                    "startOffset": 56450,
+                    "endColumn": 76,
+                    "endOffset": 56522
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 202,
+                        "startColumn": 4,
+                        "startOffset": 14992,
+                        "endColumn": 76,
+                        "endOffset": 15064
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 690,
+                    "startColumn": 4,
+                    "startOffset": 56527,
+                    "endColumn": 102,
+                    "endOffset": 56625
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 357,
+                        "startColumn": 4,
+                        "startOffset": 25792,
+                        "endColumn": 102,
+                        "endOffset": 25890
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 691,
+                    "startColumn": 4,
+                    "startOffset": 56630,
+                    "endColumn": 87,
+                    "endOffset": 56713
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 383,
+                        "startColumn": 4,
+                        "startOffset": 28676,
+                        "endColumn": 87,
+                        "endOffset": 28759
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 692,
+                    "startColumn": 4,
+                    "startOffset": 56718,
+                    "endColumn": 125,
+                    "endOffset": 56839
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 203,
+                        "startColumn": 4,
+                        "startOffset": 15069,
+                        "endColumn": 129,
+                        "endOffset": 15194
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 693,
+                    "startColumn": 4,
+                    "startOffset": 56844,
+                    "endColumn": 76,
+                    "endOffset": 56916
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 207,
+                        "startColumn": 4,
+                        "startOffset": 15456,
+                        "endColumn": 76,
+                        "endOffset": 15528
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 694,
+                    "startColumn": 4,
+                    "startOffset": 56921,
+                    "endColumn": 90,
+                    "endOffset": 57007
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 211,
+                        "startColumn": 4,
+                        "startOffset": 15777,
+                        "endColumn": 90,
+                        "endOffset": 15863
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 695,
+                    "startColumn": 4,
+                    "startOffset": 57012,
+                    "endColumn": 90,
+                    "endOffset": 57098
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 205,
+                        "startColumn": 4,
+                        "startOffset": 15287,
+                        "endColumn": 90,
+                        "endOffset": 15373
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 696,
+                    "startColumn": 4,
+                    "startOffset": 57103,
+                    "endColumn": 87,
+                    "endOffset": 57186
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 204,
+                        "startColumn": 4,
+                        "startOffset": 15199,
+                        "endColumn": 87,
+                        "endOffset": 15282
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 697,
+                    "startColumn": 4,
+                    "startOffset": 57191,
+                    "endColumn": 81,
+                    "endOffset": 57268
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 208,
+                        "startColumn": 4,
+                        "startOffset": 15533,
+                        "endColumn": 81,
+                        "endOffset": 15610
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 698,
+                    "startColumn": 4,
+                    "startOffset": 57273,
+                    "endColumn": 142,
+                    "endOffset": 57411
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 151,
+                        "startColumn": 4,
+                        "startOffset": 11105,
+                        "endColumn": 142,
+                        "endOffset": 11243
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 699,
+                    "startColumn": 4,
+                    "startOffset": 57416,
+                    "endColumn": 75,
+                    "endOffset": 57487
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 201,
+                        "startColumn": 4,
+                        "startOffset": 14916,
+                        "endColumn": 75,
+                        "endOffset": 14987
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 700,
+                    "startColumn": 4,
+                    "startOffset": 57492,
+                    "endColumn": 87,
+                    "endOffset": 57575
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 386,
+                        "startColumn": 4,
+                        "startOffset": 29010,
+                        "endColumn": 87,
+                        "endOffset": 29093
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 701,
+                    "startColumn": 4,
+                    "startOffset": 57580,
+                    "endColumn": 77,
+                    "endOffset": 57653
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 206,
+                        "startColumn": 4,
+                        "startOffset": 15378,
+                        "endColumn": 77,
+                        "endOffset": 15451
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 702,
+                    "startColumn": 4,
+                    "startOffset": 57658,
+                    "endColumn": 90,
+                    "endOffset": 57744
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 336,
+                        "startColumn": 4,
+                        "startOffset": 23819,
+                        "endColumn": 90,
+                        "endOffset": 23905
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 703,
+                    "startColumn": 4,
+                    "startOffset": 57749,
+                    "endColumn": 84,
+                    "endOffset": 57829
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 210,
+                        "startColumn": 4,
+                        "startOffset": 15692,
+                        "endColumn": 84,
+                        "endOffset": 15772
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 704,
+                    "startColumn": 4,
+                    "startOffset": 57834,
+                    "endColumn": 95,
+                    "endOffset": 57925
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 389,
+                        "startColumn": 4,
+                        "startOffset": 29298,
+                        "endColumn": 95,
+                        "endOffset": 29389
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 705,
+                    "startColumn": 4,
+                    "startOffset": 57930,
+                    "endColumn": 109,
+                    "endOffset": 58035
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 339,
+                        "startColumn": 4,
+                        "startOffset": 24152,
+                        "endColumn": 113,
+                        "endOffset": 24261
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 706,
+                    "startColumn": 4,
+                    "startOffset": 58040,
+                    "endColumn": 101,
+                    "endOffset": 58137
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 212,
+                        "startColumn": 4,
+                        "startOffset": 15868,
+                        "endColumn": 101,
+                        "endOffset": 15965
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 707,
+                    "startColumn": 4,
+                    "startOffset": 58142,
+                    "endColumn": 121,
+                    "endOffset": 58259
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 337,
+                        "startColumn": 4,
+                        "startOffset": 23910,
+                        "endColumn": 125,
+                        "endOffset": 24031
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 708,
+                    "startColumn": 4,
+                    "startOffset": 58264,
+                    "endColumn": 96,
+                    "endOffset": 58356
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 133,
+                        "startColumn": 4,
+                        "startOffset": 9559,
+                        "endColumn": 96,
+                        "endOffset": 9651
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 709,
+                    "startColumn": 4,
+                    "startOffset": 58361,
+                    "endColumn": 99,
+                    "endOffset": 58456
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 132,
+                        "startColumn": 4,
+                        "startOffset": 9459,
+                        "endColumn": 99,
+                        "endOffset": 9554
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 710,
+                    "startColumn": 4,
+                    "startOffset": 58461,
+                    "endColumn": 120,
+                    "endOffset": 58577
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 148,
+                        "startColumn": 4,
+                        "startOffset": 10746,
+                        "endColumn": 120,
+                        "endOffset": 10862
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 711,
+                    "startColumn": 4,
+                    "startOffset": 58582,
+                    "endColumn": 87,
+                    "endOffset": 58665
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 118,
+                        "startColumn": 4,
+                        "startOffset": 8367,
+                        "endColumn": 87,
+                        "endOffset": 8450
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 712,
+                    "startColumn": 4,
+                    "startOffset": 58670,
+                    "endColumn": 95,
+                    "endOffset": 58761
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 365,
+                        "startColumn": 4,
+                        "startOffset": 26518,
+                        "endColumn": 95,
+                        "endOffset": 26609
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 713,
+                    "startColumn": 4,
+                    "startOffset": 58766,
+                    "endColumn": 92,
+                    "endOffset": 58854
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 366,
+                        "startColumn": 4,
+                        "startOffset": 26614,
+                        "endColumn": 92,
+                        "endOffset": 26702
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 714,
+                    "startColumn": 4,
+                    "startOffset": 58859,
+                    "endColumn": 112,
+                    "endOffset": 58967
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 349,
+                        "startColumn": 4,
+                        "startOffset": 25110,
+                        "endColumn": 116,
+                        "endOffset": 25222
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 715,
+                    "startColumn": 4,
+                    "startOffset": 58972,
+                    "endColumn": 94,
+                    "endOffset": 59062
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/build/intermediates/exploded-aar/AS/datetimepicker/unspecified/res/values-in/values-in.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1050,
+                        "endColumn": 94,
+                        "endOffset": 1140
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 716,
+                    "startColumn": 4,
+                    "startOffset": 59067,
+                    "endColumn": 64,
+                    "endOffset": 59127
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-in/strings.xml",
+                    "position": {
+                        "startLine": 180,
+                        "startColumn": 4,
+                        "startOffset": 13541,
+                        "endColumn": 64,
+                        "endOffset": 13601
+                    }
+                }
+            }
+        ]
+    }
+]

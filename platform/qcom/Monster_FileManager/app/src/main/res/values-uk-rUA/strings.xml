@@ -1,0 +1,815 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="sort">"Сортув."</string>
+	<!---->
+	<string name="sort_by_name">"І\'мя"</string>
+	<!---->
+	<string name="sort_by_date">"Дату змінено"</string>
+	<!---->
+	<string name="sort_by_time">"Дата"</string>
+	<!---->
+	<string name="sort_by_type">"Тип"</string>
+	<!---->
+	<string name="sort_by_size">"Розмір"</string>
+	<!---->
+	<string name="copy">"Копіюв."</string>
+	<!---->
+	<string name="create_folder">"Створ."</string>
+	<!---->
+	<string name="cut">"Виріз."</string>
+	<!---->
+	<string name="delete">"Видал."</string>
+	<!---->
+	<string name="delete_confirm">"Підтвердити видалення"</string>
+	<!---->
+	<string name="deselect_all">"Скасувати вибір всіх"</string>
+	<!---->
+	<string name="select_all">"Вибрати все"</string>
+	<!---->
+	<string name="show_file">"Показувати приховані файли"</string>
+	<!---->
+	<string name="hide_file">"Приховати приховані файли"</string>
+	<!---->
+	<string name="paste">"Вставити"</string>
+	<!---->
+	<string name="rename">"Переймен."</string>
+	<!---->
+	<string name="share">"Спіл. доступ"</string>
+	<!---->
+	<string name="viewby_list">"Переглянути за списком"</string>
+	<!---->
+	<string name="viewby_grid">"Переглянути за таблицею"</string>
+	<!---->
+	<string name="alert_delete_message">"Видалити"</string>
+	<!---->
+	<string name="multi_alert_delete_message">"Видалити вибрані елементи?"</string>
+	<!---->
+	<string name="multi_alert_delete_message_cn">"Видалити вибрані елементи?"</string>
+	<!-- no translation found for delete_folder_message -->
+	<skip />
+	<!---->
+	<string name="category_pictures">"Зображення"</string>
+	<!---->
+	<string name="category_vedios">"Відео"</string>
+	<!---->
+	<string name="category_music">"Музика"</string>
+	<!---->
+	<string name="category_download">"Завантаж."</string>
+	<!---->
+	<string name="category_bluetooth">"Bluetooth"</string>
+	<!-- no translation found for app_name -->
+	<skip />
+	<!-- no translation found for theme_name -->
+	<skip />
+	<!---->
+	<string name="apk_name">"Файли"</string>
+	<!---->
+	<string name="new_folder">"Нова папка"</string>
+	<!---->
+	<string name="confirm_rename">"Підтвердити назву"</string>
+	<!---->
+	<string name="warning">"Максимальний розмір файлу"</string>
+	<!---->
+	<string name="share_warning">"Неможливо вислати більше, ніж 100 файлів."</string>
+	<!---->
+	<string name="loading">"Завантаж…"</string>
+	<!---->
+	<string name="deleting">"Видалення"</string>
+	<!---->
+	<string name="alert_delete_multiple">"Вибрані файли буде видалено."</string>
+	<!---->
+	<string name="name">"Ім\'я"</string>
+	<!---->
+	<string name="size">"Розмір"</string>
+	<!---->
+	<string name="modified_time">"Змінено"</string>
+	<!---->
+	<string name="msg_rename_ext">"Розширення файлу буде змінено. Файл може не розпізнатися. Продовжити?"</string>
+	<!---->
+	<string name="wait">"Зачекайте…"</string>
+	<!---->
+	<string name="done">"Готово"</string>
+	<!-- no translation found for enable -->
+	<skip />
+	<!-- no translation found for enable_cn -->
+	<skip />
+	<!---->
+	<string name="cancel">"Відмінити"</string>
+	<!---->
+	<string name="no">"Ні"</string>
+	<!---->
+	<string name="ok">"OK"</string>
+	<!---->
+	<string name="yes">"Так"</string>
+	<!---->
+	<string name="details">"Деталі"</string>
+	<!---->
+	<string name="drawer_open">"Відкр."</string>
+	<!---->
+	<string name="unknown">"Невідомий"</string>
+	<!-- no translation found for unit_B -->
+	<skip />
+	<!-- no translation found for unit_KB -->
+	<skip />
+	<!-- no translation found for unit_MB -->
+	<skip />
+	<!-- no translation found for unit_GB -->
+	<skip />
+	<!-- no translation found for unit_TB -->
+	<skip />
+	<!---->
+	<string name="send_file">"Надсилання файлів через"</string>
+	<!---->
+	<string name="default_search_text">"Пошук файлів"</string>
+	<!---->
+	<string name="free_space">"Доступно"</string>
+	<!---->
+	<string name="total_space">"Заг. простір"</string>
+	<!---->
+	<string name="drawer_category">"Категорії"</string>
+	<!---->
+	<string name="phone_storage">"Сховище телефону"</string>
+	<!---->
+	<string name="phone_storage_cn">"Місце збереж. на телеф."</string>
+	<!---->
+	<string name="sd_card">"Карта пам."</string>
+	<!---->
+	<string name="draw_left_phone_storage">"Місце збереж. на телеф."</string>
+	<!---->
+	<string name="draw_left_sd_card">"Карта пам’яті."</string>
+	<!-- no translation found for menu_settings -->
+	<skip />
+	<!---->
+	<string name="no_search_result">"Результатів для \"%1$s\": 0"</string>
+	<!---->
+	<string name="copy_deny">"Немає дозволу, щоб копіювати"</string>
+	<!---->
+	<string name="cut_deny">"Немає дозволу, щоб вирізати"</string>
+	<!---->
+	<string name="delete_deny">"Немає дозволу, щоб видалити"</string>
+	<!---->
+	<string name="insufficient_memory">"Недостатньо місця."</string>
+	<!---->
+	<string name="insufficient_message">"Не вдалося скопіювати деякі файли через  недостатній обсяг пам’яті"</string>
+	<!---->
+	<string name="invalid_empty_name">"Поле введення ім\'я файла або папки не може бути пустим"</string>
+	<!---->
+	<string name="paste_same_folder">"Не вдалося скопіювати: вихідна та потрібна папки однакові."</string>
+	<!---->
+	<string name="invalid_char_prompt">"Введено хибний символ"</string>
+	<!---->
+	<string name="msg_unable_open_file">"Формат файла не підтримується."</string>
+	<!---->
+	<string name="paste_sub_folder">"Неможливо вставити файл у підпапку"</string>
+	<!---->
+	<string name="operation_fail">"Помилка деякої файлової операції."</string>
+	<!---->
+	<string name="search_result">"%2$d результатів для \"%1$s\""</string>
+	<!---->
+	<string name="already_exists">"%1$s вже використовується"</string>
+	<!---->
+	<string name="unmounted">"%1$s відключено"</string>
+	<!---->
+	<string name="create_hidden_file">"Файл буде приховано, якщо його ім\'я починається з \'.\'"</string>
+	<!---->
+	<string name="file_name_too_long">"Введене ім\'я задовге"</string>
+	<!---->
+	<string name="some_paste_fail">"Не вдалося вставити операції"</string>
+	<!---->
+	<string name="delete_fail">"Не вдалося видалити"</string>
+	<!---->
+	<string name="some_delete_fail">"Помилка деякої операції видалення."</string>
+	<!---->
+	<string name="msg_unable_open_file_in_app">"Немає програми, щоб відкрити файл."</string>
+	<!---->
+	<string name="drm_forwardforbidden_title">"Не пересилати"</string>
+	<!---->
+	<string name="drm_forwardforbidden_message">"Файл DRM не можна переслати."</string>
+	<!---->
+	<string name="drm_no_valid_right">"O ficheiro non ten autoridade DRM válida!"</string>
+	<!---->
+	<string name="drm_current_count">"Поточна кількість:"</string>
+	<!---->
+	<string name="unlimited_usage">"Необмежене використання"</string>
+	<!---->
+	<string name="drm_current_right">"Поточне обмеження："</string>
+	<!---->
+	<string name="not_available">"Недоступно"</string>
+	<!---->
+	<string name="right_url">"URL-адр ліц:"</string>
+	<!---->
+	<string name="use_times">"Використання (разів): %s"</string>
+	<!---->
+	<string name="valid_after">"Діє після"</string>
+	<!---->
+	<string name="valid_until">"Діє до"</string>
+	<!---->
+	<string name="drm_wifidisplay_title">"Файли, захищені від копіювання"</string>
+	<!---->
+	<string name="drm_wifidisplay_message">"Файл, захищений від копіювання, не можна поширювати."</string>
+	<!---->
+	<string name="drm_wifidisplay_cancel_btn">"Вимкнути дисплей із підтримкою Wi-Fi"</string>
+	<!---->
+	<string name="drm_wifidisplay_ok">"OK"</string>
+	<!---->
+	<string name="tv_link_close_toast">"Роботу дисплея із підтримкою Wi-Fi завершено"</string>
+	<!---->
+	<string name="usbotg">"Зовнішній USB-накопичувач"</string>
+	<!---->
+	<string name="show">"Показати системні файли"</string>
+	<!---->
+	<string name="hide">"Приховати системні файли"</string>
+	<!---->
+	<string name="action_menu_create_folder_button">"Створити папку"</string>
+	<!---->
+	<string name="searchResult">"Пошук результатів"</string>
+	<!---->
+	<string name="default_folder_name">"Назва папки"</string>
+	<!---->
+	<string name="drm_protection_status">"Стан захисту:"</string>
+	<!---->
+	<string name="drm_can_forward">"Можна переадресувати."</string>
+	<!---->
+	<string name="drm_can_not_forward">"Не можна переадресувати."</string>
+	<!---->
+	<string name="drm_no_license">"Немає доступної ліцензії DRM."</string>
+	<!---->
+	<string name="drm_interval">"Дійсно для %s після першого
+користування"</string>
+	<!---->
+	<string name="drm_begin">"Початок:"</string>
+	<!---->
+	<string name="drm_no_limitation">"Без обмеження."</string>
+	<!---->
+	<string name="drm_end">"Завершення:"</string>
+	<!---->
+	<string name="drm_use_left">"Залишилося:"</string>
+	<!---->
+	<string name="drm_no_crop">"Файл "%s" заборонено обрізати, оскільки він захищений засобами DRM."</string>
+	<!---->
+	<string name="file_copy">"Файл скопійовано"</string>
+	<!---->
+	<string name="choice_file">"Виберіть місце призначення"</string>
+	<!---->
+	<string name="alert_delete_single">"Вибраний файл буде видалено."</string>
+	<!---->
+	<string name="pasting">"Триває вставлення"</string>
+	<!---->
+	<string name="readable">"Перегляд.:"</string>
+	<!---->
+	<string name="executable">"Програма:"</string>
+	<!---->
+	<string name="writable">"Записуєм.："</string>
+	<!---->
+	<string name="add_favorite">"Додати до папки обраного"</string>
+	<!---->
+	<string name="del_favorite">"Видалити з папки обраного"</string>
+	<!---->
+	<string name="favourite">"Додати до обраного"</string>
+	<!---->
+	<string name="viewby_details">"Переглянути за інформацією"</string>
+	<!---->
+	<string name="view_by">"Пер.за"</string>
+	<!---->
+	<string name="show_hide">"Показ.\\прихов."</string>
+	<!---->
+	<string name="sort_by">"Сортування"</string>
+	<!---->
+	<string name="more">"Більше"</string>
+	<!-- no translation found for used -->
+	<skip />
+	<!---->
+	<string name="category_archives">"Архіви"</string>
+	<!---->
+	<string name="category_favorite">"Обрані"</string>
+	<!---->
+	<string name="category_ringtones">"Мелодії"</string>
+	<!---->
+	<string name="category_recordings">"Записи"</string>
+	<!---->
+	<string name="category_safebox">"Сейф"</string>
+	<!---->
+	<string name="category_apks">"Програми (APK)"</string>
+	<!---->
+	<string name="search">"Пошук"</string>
+	<!---->
+	<string name="sort_type">"Сортувати за типом"</string>
+	<!---->
+	<string name="sort_name">"Сортувати за назвою (А-Я)"</string>
+	<!---->
+	<string name="sort_size">"Сортувати за розміром (від великого до малого)"</string>
+	<!---->
+	<string name="sort_time">"Сортувати за часом (від нового до старого)"</string>
+	<!---->
+	<string name="selected">"вибрано"</string>
+	<!---->
+	<string name="save">"Зберегти"</string>
+	<!---->
+	<string name="category_docs">"Документи"</string>
+	<!---->
+	<string name="category_files">"Файли"</string>
+	<!---->
+	<string name="view_as_grid">"Перег  табл."</string>
+	<!---->
+	<string name="view_as_list">"Пер списк."</string>
+	<!---->
+	<string name="detail_path">"Розташув.:"</string>
+	<!---->
+	<string name="detail_name">"Назва:"</string>
+	<!---->
+	<string name="detail_size">"Розмір:"</string>
+	<!---->
+	<string name="detail_time">"Змінено:"</string>
+	<!---->
+	<string name="empty_msg">"(Папка порожня)"</string>
+	<!---->
+	<string name="search_files">"Пошук файлів"</string>
+	<!-- no translation found for search_result_count -->
+	<skip />
+	<!---->
+	<string name="drawer_settings">"НАЛАШТУВАННЯ"</string>
+	<!---->
+	<string name="search_text_empty">"Поле пошуку вмісту не повинно бути пустим."</string>
+	<!---->
+	<string name="search_result_title">"Результати пошуку"</string>
+	<!---->
+	<string name="path_not_exists">"%1$s не існує"</string>
+	<!---->
+	<string name="modify_hidden_file">"Файли, назви яких починаються з \'.\', будуть приховані."</string>
+	<!---->
+	<string name="paste_fail">"Не вдалося вставити"</string>
+	<!---->
+	<string name="search_empty">"Поле пошуку вмісту не повинно бути пустим."</string>
+	<!---->
+	<string name="search_setting_description">"Локальні файли і папки"</string>
+	<!---->
+	<string name="change_mode">"Виберіть файл або папку"</string>
+	<!-- no translation found for drm_protectioninfo_title -->
+	<skip />
+	<!---->
+	<string name="draw_favourite">"обране"</string>
+	<!---->
+	<string name="unfavourite">"Видалити з вибраного"</string>
+	<!---->
+	<string name="drm_toast_license_expired">"Термін дії ліцензії DRM минув."</string>
+	<!-- no translation found for sdstroge -->
+	<skip />
+	<!-- no translation found for phonestorage -->
+	<skip />
+	<!-- no translation found for title_activity_main -->
+	<skip />
+	<!-- no translation found for hello_world -->
+	<skip />
+	<!-- no translation found for action_settings -->
+	<skip />
+	<!-- no translation found for unlock_video -->
+	<skip />
+	<!---->
+	<string name="readable_m">"Доступні для перегляду"</string>
+	<!---->
+	<string name="executable_m">"Програма"</string>
+	<!---->
+	<string name="writable_m">"Придатний для запису"</string>
+	<!---->
+	<string name="main_recents">"Останні"</string>
+	<!-- no translation found for main_recents_cn -->
+	<skip />
+	<!---->
+	<string name="main_installers">"Програми інсталяції"</string>
+	<!---->
+	<string name="main_document">"Документи"</string>
+	<!---->
+	<string name="detail_path_m">"Розташування"</string>
+	<!-- no translation found for detail_path_m_cn -->
+	<skip />
+	<!---->
+	<string name="detail_name_m">"І\'мя"</string>
+	<!---->
+	<string name="detail_size_m">"Розмір"</string>
+	<!---->
+	<string name="detail_time_m">"Змінено"</string>
+	<!---->
+	<string name="main_photo">"Фотографії"</string>
+	<!---->
+	<string name="main_sd_storage">"Місце збереж.на карті пам\'яті"</string>
+	<!---->
+	<string name="main_external_storage">"Зовнішнє місце збереження"</string>
+	<!---->
+	<string name="main_home">"Головний екран"</string>
+	<!-- no translation found for main_home_cn -->
+	<skip />
+	<!---->
+	<string name="main_nava_home">"Головний екран"</string>
+	<!---->
+	<string name="menu_select">"Вибрати"</string>
+	<!-- no translation found for go_up -->
+	<skip />
+	<!---->
+	<string name="no_folder">"Ця папка порожня"</string>
+	<!---->
+	<string name="no_category">"Ця категорія пуста."</string>
+	<!-- no translation found for no_folder_cn -->
+	<skip />
+	<!-- no translation found for no_category_cn -->
+	<skip />
+	<!---->
+	<string name="pasted">"Файл вставлено"</string>
+	<!---->
+	<string name="deleted">"Файл видалено"</string>
+	<!---->
+	<string name="deleted_cn">"Файл видалено"</string>
+	<!---->
+	<string name="view_list">"Перегляд списку"</string>
+	<!---->
+	<string name="view_grid">"Перегляд таблиці"</string>
+	<!---->
+	<string name="create_new_folder">"Створити папку"</string>
+	<!-- no translation found for add_folder -->
+	<skip />
+	<!---->
+	<string name="detail">"Деталі"</string>
+	<!-- no translation found for menu_detail -->
+	<skip />
+	<!---->
+	<string name="migrate">"Перемістити"</string>
+	<!---->
+	<string name="permission_welcome_title">"Потрібен дозвіл"</string>
+	<!---->
+	<string name="permission_msg">"Краще обслуговування для вас"</string>
+	<!---->
+	<string name="permission_setting_title">"Надати доступ"</string>
+	<!---->
+	<string name="permission_setting_content">"Змініть дозволи у налаштуваннях програми на пристрої. Надати диспетчеру файлів доступ до місця збереження."</string>
+	<!---->
+	<string name="permission_exit_btn">"Вихід"</string>
+	<!---->
+	<string name="dialog_close_btn">"Закрити"</string>
+	<!-- no translation found for dialog_close_btn_cn -->
+	<skip />
+	<!---->
+	<string name="shortcut_item">"Дод. клавішу швид. доступу"</string>
+	<!-- no translation found for shortcut_item_cn -->
+	<skip />
+	<!---->
+	<string name="shortcut_no_exist">"Папка запиту не існує"</string>
+	<!-- no translation found for shortcut_success -->
+	<skip />
+	<!---->
+	<string name="no_search_result_m">"Немає результатів для «%1$s»"</string>
+	<!---->
+	<string name="draw_left_phone_storage_m">"Телефон"</string>
+	<!---->
+	<string name="category_audio">"Аудіо"</string>
+	<!---->
+	<string name="usbotg_m">"Зовнішнє"</string>
+	<!-- no translation found for sd_m -->
+	<skip />
+	<!---->
+	<string name="freeof_m">"Вільний"</string>
+	<!---->
+	<string name="permission_settings">"Установки"</string>
+	<!---->
+	<string name="safe_first_dialog_title">"Категорія сейфу"</string>
+	<!---->
+	<string name="safe_first_dialog_content">"Для файлів, переміщених до цієї категорії, потрібна аутентифікація паролю. Додайте файли до цієї категорії, натиснувши «Перемістити до сейфу» у меню файлів."</string>
+	<!-- no translation found for safe_first_dialog_content_cn -->
+	<skip />
+	<!---->
+	<string name="safe_storage_local">"Локальне місце збереження"</string>
+	<!---->
+	<string name="set_password_pass">"Пароль"</string>
+	<!---->
+	<string name="set_password_first">"Встановити пароль: від 4 до 12 цифр"</string>
+	<!-- no translation found for input_new_password_hint -->
+	<skip />
+	<!---->
+	<string name="set_password_again">"Підтвердити пароль"</string>
+	<!---->
+	<string name="set_password_show">"Показати пароль"</string>
+	<!---->
+	<string name="set_password_safe_question">"Секретні запитання"</string>
+	<!---->
+	<string name="set_password_safe_question_answer">"Відповідь"</string>
+	<!---->
+	<string name="set_password_safe_forget_pass">"Запам’ятайте відповіді на секретні запитання. Якщо ви забули пароль, його можна скинути, відповівши на секретні запитання."</string>
+	<!---->
+	<string name="choose_safe">"Вибрати сейф"</string>
+	<!-- no translation found for choose_safe_cn -->
+	<skip />
+	<!---->
+	<string name="create_safe">"Створити сейф"</string>
+	<!---->
+	<string name="create_safe_to">"Створити сейф для"</string>
+	<!-- no translation found for create_safe_to_cn -->
+	<skip />
+	<!---->
+	<string name="set_password">"Встановити пароль"</string>
+	<!-- no translation found for add_file_safe -->
+	<skip />
+	<!---->
+	<string name="safe_set">"Установки"</string>
+	<!---->
+	<string name="safe_set_title">"Налаштування сейфу"</string>
+	<!-- no translation found for safe_set_title_cn -->
+	<skip />
+	<!---->
+	<string name="update_password">"Оновити пароль"</string>
+	<!---->
+	<string name="modify_password">"Змінити пароль"</string>
+	<!---->
+	<string name="security_question">"Оновити секретне запитання"</string>
+	<!-- no translation found for modify_security_question -->
+	<skip />
+	<!---->
+	<string name="safe_set_change_safe">"Змінити сейф"</string>
+	<!---->
+	<string name="safe_set_location_safe">"Розташування сейфу"</string>
+	<!-- no translation found for safe_set_location_safe_cn -->
+	<skip />
+	<!---->
+	<string name="update_password_original">"Введіть початковий пароль"</string>
+	<!---->
+	<string name="update_password_original_cn">"Введіть початковий пароль"</string>
+	<!---->
+	<string name="destory_safe">"Знищити сейф"</string>
+	<!-- no translation found for destory_safe_cn -->
+	<skip />
+	<!-- no translation found for destory -->
+	<skip />
+	<!---->
+	<string name="use_password">"Використовувати пароль"</string>
+	<!---->
+	<string name="input_password">"Введіть пароль"</string>
+	<!---->
+	<string name="forget_password">"Забули пароль"</string>
+	<!-- no translation found for others -->
+	<skip />
+	<!---->
+	<string name="password_empty">"Поле введення пароля не може бути пустим."</string>
+	<!---->
+	<string name="password_consistent">"Паролі не збігаються."</string>
+	<!---->
+	<string name="password_length_error">"Помилка довжини пароля"</string>
+	<!---->
+	<string name="answer_empty">"Поле введення відповіді не може бути пустим."</string>
+	<!-- no translation found for safe_box_name_empty -->
+	<skip />
+	<!---->
+	<string name="update_success">"Успішне оновлення."</string>
+	<!---->
+	<string name="update_fail">"Збій оновлення"</string>
+	<!---->
+	<string name="password_mistake">"Хибний пароль. Введіть пароль ще раз."</string>
+	<!---->
+	<string name="move_safe">"Перемістити до сейфу"</string>
+	<!---->
+	<string name="fingerprint_check">"Пов’язані відбитки пальців — скористайтесь датчиком відбитків пальців для перевірки."</string>
+	<!---->
+	<string name="in_use">"Використовується"</string>
+	<!---->
+	<string name="created">"Створено"</string>
+	<!---->
+	<string name="choose_files">"Виберіть файл(-и)"</string>
+	<!---->
+	<string name="move_out">"Вийти"</string>
+	<!---->
+	<string name="remove_to">"Перемістити до"</string>
+	<!---->
+	<string name="default_location">"Розташування за замовчуванням"</string>
+	<!---->
+	<string name="specified_location">"Вказане розташування"</string>
+	<!-- no translation found for open_dir -->
+	<skip />
+	<!-- no translation found for default_location_cn -->
+	<skip />
+	<!-- no translation found for specified_location_cn -->
+	<skip />
+	<!-- no translation found for specified_location_content_cn -->
+	<skip />
+	<!-- no translation found for category_safe -->
+	<skip />
+	<!-- no translation found for category_safe_cn -->
+	<skip />
+	<!---->
+	<string name="add_safe_size_limited">"Неможливо додати файли, розміром більше 2 ГБ"</string>
+	<!-- no translation found for add_safe_drm_limited -->
+	<skip />
+	<!---->
+	<string name="fingerprint_relative_dialog">"Додати функцію сейфу до відбитків пальців"</string>
+	<!-- no translation found for fingerprint_relative_dialog_cn -->
+	<skip />
+	<!-- no translation found for fingerprint_relative_dialog_ok -->
+	<skip />
+	<!-- no translation found for fingerprint_relative_dialog_ok_cn -->
+	<skip />
+	<!---->
+	<string name="fingerprint_relative_dialog_cancel">"Пізніше"</string>
+	<!-- no translation found for fingerprint_relative_dialog_cancel_cn -->
+	<skip />
+	<!---->
+	<string name="safe_location_current">"Розташування сейфу:"</string>
+	<!-- no translation found for safe_location_current_cn -->
+	<skip />
+	<!---->
+	<string name="safe_location_content">"Не виконуйте операцій із папкою файлів, щоб запобігти пошкодженню зашифрованих даних"</string>
+	<!-- no translation found for safe_location_content_cn -->
+	<skip />
+	<!---->
+	<string name="destory_safe_dialog_message">"Усі файли у сейфі та пароль будуть видалені. Знищити?"</string>
+	<!---->
+	<string name="destory_safe_dialog_checkbox">"Одночасно видалити файл?"</string>
+	<!-- no translation found for destory_safe_dialog_checkbox_cn -->
+	<skip />
+	<!---->
+	<string name="open_safe_dialog">"Увімкнути сейф"</string>
+	<!-- no translation found for open_safe_dialog_cn -->
+	<skip />
+	<!---->
+	<string name="open_safe_dialog_message">"Увімкнення сейфу призведе до переміщення файлів до сейфу. Увімкнути?"</string>
+	<!-- no translation found for open_safe_dialog_message_cn -->
+	<skip />
+	<!---->
+	<string name="open_safe_dialog_ok">"Миттєве відкриття"</string>
+	<!---->
+	<string name="category_private_string">"Сейф"</string>
+	<!---->
+	<string name="opening">"Відкриття"</string>
+	<!-- no translation found for space_clear -->
+	<skip />
+	<!-- no translation found for unselected -->
+	<skip />
+	<!-- no translation found for select -->
+	<skip />
+	<!-- no translation found for finish -->
+	<skip />
+	<!---->
+	<string name="senior_title">"Переважний"</string>
+	<!-- no translation found for no_files_for_add_to_safebox -->
+	<skip />
+	<!-- no translation found for finger_print_relation -->
+	<skip />
+	<!-- no translation found for duplicate_file_name_tip -->
+	<skip />
+	<!---->
+	<string name="searchview_hint">"Пошук файлів"</string>
+	<!-- no translation found for safe_box_name_tip -->
+	<skip />
+	<!-- no translation found for toast_update_safe_box_name_sucess -->
+	<skip />
+	<!-- no translation found for toast_update_safe_box_name_fail -->
+	<skip />
+	<!-- no translation found for toast_safe_box_name_empty -->
+	<skip />
+	<!-- no translation found for cut_single_fail_tip -->
+	<skip />
+	<!-- no translation found for delete_single_fail_tip -->
+	<skip />
+	<!-- no translation found for copy_single_fail_tip -->
+	<skip />
+	<!-- no translation found for copy_multi_fail_tip -->
+	<skip />
+	<!-- no translation found for delete_multi_fail_tip -->
+	<skip />
+	<!-- no translation found for cut_multi_fail_tip -->
+	<skip />
+	<!-- no translation found for copy_all_fail_tip -->
+	<skip />
+	<!-- no translation found for delete_all_fail_tip -->
+	<skip />
+	<!-- no translation found for cut_all_fail_tip -->
+	<skip />
+	<!-- no translation found for past_multi_fail_tip -->
+	<skip />
+	<!-- no translation found for past_single_fail_tip -->
+	<skip />
+	<!-- no translation found for past_all_fail_tip -->
+	<skip />
+	<!-- no translation found for chip_encryption -->
+	<skip />
+	<!---->
+	<string name="safe_name_title">"Назва"</string>
+	<!---->
+	<string name="update_name">"Оновити ім’я"</string>
+	<!-- no translation found for fingerprint_relate -->
+	<skip />
+	<!-- no translation found for insufficient_message_cn -->
+	<skip />
+	<!-- no translation found for add_success -->
+	<skip />
+	<!---->
+	<string name="pasted_cn">"Файл вставлено"</string>
+	<!-- no translation found for no_search_result_cn -->
+	<skip />
+	<!---->
+	<string name="detail_time_cn">"Змінений час"</string>
+	<!-- no translation found for rename_limit -->
+	<skip />
+	<!-- no translation found for fingerprint_fail -->
+	<skip />
+	<!-- no translation found for answer_mistake -->
+	<skip />
+	<!-- no translation found for answer_empty_tip -->
+	<skip />
+	<!-- no translation found for new_safe -->
+	<skip />
+	<!-- no translation found for dialog_confirm -->
+	<skip />
+	<!-- no translation found for move_in_success -->
+	<skip />
+	<!-- no translation found for move_in_count -->
+	<skip />
+	<!-- no translation found for message_security_fingerprint_lockout -->
+	<skip />
+	<!-- no translation found for use_password_auth -->
+	<skip />
+	<!-- no translation found for storage_details -->
+	<skip />
+	<!---->
+	<string name="total_memory">"Усього пам’яті"</string>
+	<!-- no translation found for system -->
+	<skip />
+	<!-- no translation found for category_fragment_title -->
+	<skip />
+	<!-- no translation found for storage -->
+	<skip />
+	<!-- no translation found for choice -->
+	<skip />
+	<!-- no translation found for view_tag_key -->
+	<skip />
+	<!-- no translation found for view_tag_key2 -->
+	<skip />
+	<!-- no translation found for finish_percent -->
+	<skip />
+	<!---->
+	<string name="select_pic">"Виберіть зображення"</string>
+	<!---->
+	<string name="brackets_double">"(%1$s)"</string>
+	<!-- no translation found for selected_pick -->
+	<skip />
+	<!-- no translation found for most_selected -->
+	<skip />
+	<!-- no translation found for finish_ready -->
+	<skip />
+	<!-- no translation found for select_pic_data -->
+	<skip />
+	<!-- no translation found for delete_determine_selected -->
+	<skip />
+	<!-- no translation found for delete_document -->
+	<skip />
+	<!-- no translation found for delete_folder -->
+	<skip />
+	<!-- no translation found for delete_folder_and -->
+	<skip />
+	<!---->
+	<string name="deselect_all_item">"Скасувати вибір всіх"</string>
+	<!-- no translation found for edit -->
+	<skip />
+	<!-- no translation found for storage_phone -->
+	<skip />
+	<!-- no translation found for storage_sdcard -->
+	<skip />
+	<!-- no translation found for storage_otg -->
+	<skip />
+	<!-- no translation found for storage_slash -->
+	<skip />
+	<!-- no translation found for welcome_security -->
+	<skip />
+	<!-- no translation found for welcome_security_info -->
+	<skip />
+	<!-- no translation found for welcome_convenient -->
+	<skip />
+	<!-- no translation found for welcome_convenient_info -->
+	<skip />
+	<!-- no translation found for welcome_depth -->
+	<skip />
+	<!-- no translation found for welcome_depth_info -->
+	<skip />
+	<!-- no translation found for welcome_add -->
+	<skip />
+	<!-- no translation found for welcome_add_info -->
+	<skip />
+	<!-- no translation found for welcome_dialog_title -->
+	<skip />
+	<!-- no translation found for welcome_dialog_info -->
+	<skip />
+	<!-- no translation found for welcome_dialog_verify_btn -->
+	<skip />
+	<!-- no translation found for welcome_dialog_verify_pwd -->
+	<skip />
+	<!-- no translation found for welcome_start_use -->
+	<skip />
+	<!-- no translation found for welcome_not_use -->
+	<skip />
+	<!---->
+	<string name="welcome_ok">"ЗРОЗУМІЛО"</string>
+	<!-- no translation found for encrypt_files_success -->
+	<skip />
+	<!-- no translation found for delete_direct -->
+	<skip />
+	<!---->
+	<string name="delete_file">"Видалити цей файл?"</string>
+</resources>

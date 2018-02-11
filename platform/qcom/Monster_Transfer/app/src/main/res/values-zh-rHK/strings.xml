@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"TransferCN"</string>
+	<!---->
+	<string name="new_phone">"我是新手機"</string>
+	<!---->
+	<string name="old_phone">"我是舊手機。"</string>
+	<!---->
+	<string name="note_title">"請選擇最合適的替代方式"</string>
+	<!---->
+	<string name="one_touch_move">"One Touch Move"</string>
+	<!---->
+	<string name="qq_helper">"QQ 助手"</string>
+	<!---->
+	<string name="cloud">"雲服務"</string>
+	<!---->
+	<string name="note_activity_title">"在按鍵開關的過程中"</string>
+	<!---->
+	<string name="note_one">"*請保持 Wi-Fi 開啟；"</string>
+	<!---->
+	<string name="note_two">"*請將兩部手機盡量靠近；"</string>
+	<!---->
+	<string name="note_three">"*請保持電源電量大於 35%；"</string>
+	<!---->
+	<string name="note_four">"*相同類型的資料會被覆蓋；"</string>
+	<!---->
+	<string name="text_cancel">"取消"</string>
+	<!---->
+	<string name="text_continue">"繼續"</string>
+	<!---->
+	<string name="hot_title">"請使用舊手機掃描以下二維碼"</string>
+	<!---->
+	<string name="hot_bottom">"請前往「設定」- &gt;「按鍵開關」並選擇「我的舊手機」掃描上述二維碼"</string>
+	<!---->
+	<string name="camera_permission_denied">"已拒絕相機權限"</string>
+	<!---->
+	<string name="text_scan_top">"請掃描新手機的二維碼"</string>
+	<!---->
+	<string name="text_scan_bottom">"請前往「設定」- &gt; 「按鍵開關」"</string>
+	<!---->
+	<string name="text_scan_bottom_second">"請選擇「是我的新手機」以開啟二維碼"</string>
+	<!---->
+	<string name="text_loading">"正在載入"</string>
+	<!---->
+	<string name="text_confirm">"確定"</string>
+	<!---->
+	<string name="text_connect_fail">"連線失敗，請再次掃描！"</string>
+	<!---->
+	<string name="text_setting_permission_not_granted">"不授予寫入_設定權限"</string>
+	<!---->
+	<string name="text_wait_for_send">"連線成功！請等待數據傳輸......"</string>
+	<!---->
+	<string name="text_qrcode_fail">"QR 碼創建失敗！"</string>
+	<!---->
+	<string name="text_main_page">"One Touch Move、QQ 助手和雲服務 \n 3 種方法可選。"</string>
+	<!---->
+	<string name="one_touch_move_content">"One Touch Move"</string>
+	<!---->
+	<string name="qq_helper_content">"QQ 助手"</string>
+	<!---->
+	<string name="cloud_content">"雲服務"</string>
+	<!-- no translation found for app_picker_name -->
+	<skip />
+	<!-- no translation found for bookmark_picker_name -->
+	<skip />
+	<!-- no translation found for button_add_calendar -->
+	<skip />
+	<!-- no translation found for button_add_contact -->
+	<skip />
+	<!-- no translation found for button_book_search -->
+	<skip />
+	<!-- no translation found for button_cancel -->
+	<skip />
+	<!-- no translation found for button_custom_product_search -->
+	<skip />
+	<!-- no translation found for button_dial -->
+	<skip />
+	<!-- no translation found for button_email -->
+	<skip />
+	<!-- no translation found for button_get_directions -->
+	<skip />
+	<!-- no translation found for button_mms -->
+	<skip />
+	<!-- no translation found for button_ok -->
+	<skip />
+	<!-- no translation found for button_open_browser -->
+	<skip />
+	<!-- no translation found for button_product_search -->
+	<skip />
+	<!-- no translation found for button_search_book_contents -->
+	<skip />
+	<!-- no translation found for button_share_app -->
+	<skip />
+	<!-- no translation found for button_share_bookmark -->
+	<skip />
+	<!-- no translation found for button_share_by_email -->
+	<skip />
+	<!-- no translation found for button_share_by_sms -->
+	<skip />
+	<!-- no translation found for button_share_clipboard -->
+	<skip />
+	<!-- no translation found for button_share_contact -->
+	<skip />
+	<!-- no translation found for button_show_map -->
+	<skip />
+	<!-- no translation found for button_sms -->
+	<skip />
+	<!-- no translation found for button_web_search -->
+	<skip />
+	<!-- no translation found for button_wifi -->
+	<skip />
+	<!-- no translation found for contents_contact -->
+	<skip />
+	<!-- no translation found for contents_email -->
+	<skip />
+	<!-- no translation found for contents_location -->
+	<skip />
+	<!-- no translation found for contents_phone -->
+	<skip />
+	<!-- no translation found for contents_sms -->
+	<skip />
+	<!-- no translation found for contents_text -->
+	<skip />
+	<!-- no translation found for history_clear_text -->
+	<skip />
+	<!-- no translation found for history_clear_one_history_text -->
+	<skip />
+	<!-- no translation found for history_email_title -->
+	<skip />
+	<!-- no translation found for history_empty -->
+	<skip />
+	<!-- no translation found for history_empty_detail -->
+	<skip />
+	<!-- no translation found for history_send -->
+	<skip />
+	<!-- no translation found for history_title -->
+	<skip />
+	<!-- no translation found for menu_encode_mecard -->
+	<skip />
+	<!-- no translation found for menu_encode_vcard -->
+	<skip />
+	<!-- no translation found for menu_help -->
+	<skip />
+	<!-- no translation found for menu_history -->
+	<skip />
+	<!-- no translation found for menu_settings -->
+	<skip />
+	<!-- no translation found for menu_share -->
+	<skip />
+	<!-- no translation found for msg_bulk_mode_scanned -->
+	<skip />
+	<!-- no translation found for msg_camera_framework_bug -->
+	<skip />
+	<!-- no translation found for msg_default_format -->
+	<skip />
+	<!-- no translation found for msg_default_meta -->
+	<skip />
+	<!-- no translation found for msg_default_mms_subject -->
+	<skip />
+	<!-- no translation found for msg_default_status -->
+	<skip />
+	<!-- no translation found for msg_default_time -->
+	<skip />
+	<!-- no translation found for msg_default_type -->
+	<skip />
+	<!-- no translation found for msg_encode_contents_failed -->
+	<skip />
+	<!-- no translation found for msg_error -->
+	<skip />
+	<!-- no translation found for msg_google_books -->
+	<skip />
+	<!-- no translation found for msg_google_product -->
+	<skip />
+	<!-- no translation found for msg_intent_failed -->
+	<skip />
+	<!-- no translation found for msg_invalid_value -->
+	<skip />
+	<!-- no translation found for msg_redirect -->
+	<skip />
+	<!-- no translation found for msg_sbc_book_not_searchable -->
+	<skip />
+	<!-- no translation found for msg_sbc_failed -->
+	<skip />
+	<!-- no translation found for msg_sbc_no_page_returned -->
+	<skip />
+	<!-- no translation found for msg_sbc_page -->
+	<skip />
+	<!-- no translation found for msg_sbc_results -->
+	<skip />
+	<!-- no translation found for msg_sbc_searching_book -->
+	<skip />
+	<!-- no translation found for msg_sbc_snippet_unavailable -->
+	<skip />
+	<!-- no translation found for msg_share_explanation -->
+	<skip />
+	<!-- no translation found for msg_share_text -->
+	<skip />
+	<!-- no translation found for msg_sure -->
+	<skip />
+	<!-- no translation found for msg_unmount_usb -->
+	<skip />
+	<!-- no translation found for preferences_actions_title -->
+	<skip />
+	<!-- no translation found for preferences_auto_focus_title -->
+	<skip />
+	<!-- no translation found for preferences_auto_open_web_title -->
+	<skip />
+	<!-- no translation found for preferences_bulk_mode_summary -->
+	<skip />
+	<!-- no translation found for preferences_bulk_mode_title -->
+	<skip />
+	<!-- no translation found for preferences_copy_to_clipboard_title -->
+	<skip />
+	<!-- no translation found for preferences_custom_product_search_summary -->
+	<skip />
+	<!-- no translation found for preferences_custom_product_search_title -->
+	<skip />
+	<!-- no translation found for preferences_decode_1D_industrial_title -->
+	<skip />
+	<!-- no translation found for preferences_decode_1D_product_title -->
+	<skip />
+	<!-- no translation found for preferences_decode_Aztec_title -->
+	<skip />
+	<!-- no translation found for preferences_decode_Data_Matrix_title -->
+	<skip />
+	<!-- no translation found for preferences_decode_PDF417_title -->
+	<skip />
+	<!-- no translation found for preferences_decode_QR_title -->
+	<skip />
+	<!-- no translation found for preferences_device_bug_workarounds_title -->
+	<skip />
+	<!-- no translation found for preferences_disable_barcode_scene_mode_title -->
+	<skip />
+	<!-- no translation found for preferences_disable_continuous_focus_summary -->
+	<skip />
+	<!-- no translation found for preferences_disable_continuous_focus_title -->
+	<skip />
+	<!-- no translation found for preferences_disable_exposure_title -->
+	<skip />
+	<!-- no translation found for preferences_disable_metering_title -->
+	<skip />
+	<!-- no translation found for preferences_front_light_summary -->
+	<skip />
+	<!-- no translation found for preferences_front_light_title -->
+	<skip />
+	<!-- no translation found for preferences_front_light_auto -->
+	<skip />
+	<!-- no translation found for preferences_front_light_off -->
+	<skip />
+	<!-- no translation found for preferences_front_light_on -->
+	<skip />
+	<!-- no translation found for preferences_general_title -->
+	<skip />
+	<!-- no translation found for preferences_history_summary -->
+	<skip />
+	<!-- no translation found for preferences_history_title -->
+	<skip />
+	<!-- no translation found for preferences_invert_scan_title -->
+	<skip />
+	<!-- no translation found for preferences_invert_scan_summary -->
+	<skip />
+	<!-- no translation found for preferences_name -->
+	<skip />
+	<!-- no translation found for preferences_orientation_title -->
+	<skip />
+	<!-- no translation found for preferences_play_beep_title -->
+	<skip />
+	<!-- no translation found for preferences_remember_duplicates_summary -->
+	<skip />
+	<!-- no translation found for preferences_remember_duplicates_title -->
+	<skip />
+	<!-- no translation found for preferences_result_title -->
+	<skip />
+	<!-- no translation found for preferences_scanning_title -->
+	<skip />
+	<!-- no translation found for preferences_search_country -->
+	<skip />
+	<!-- no translation found for preferences_supplemental_summary -->
+	<skip />
+	<!-- no translation found for preferences_supplemental_title -->
+	<skip />
+	<!-- no translation found for preferences_vibrate_title -->
+	<skip />
+	<!-- no translation found for result_address_book -->
+	<skip />
+	<!-- no translation found for result_calendar -->
+	<skip />
+	<!-- no translation found for result_email_address -->
+	<skip />
+	<!-- no translation found for result_geo -->
+	<skip />
+	<!-- no translation found for result_isbn -->
+	<skip />
+	<!-- no translation found for result_product -->
+	<skip />
+	<!-- no translation found for result_sms -->
+	<skip />
+	<!-- no translation found for result_tel -->
+	<skip />
+	<!-- no translation found for result_text -->
+	<skip />
+	<!-- no translation found for result_uri -->
+	<skip />
+	<!-- no translation found for result_wifi -->
+	<skip />
+	<!-- no translation found for sbc_name -->
+	<skip />
+	<!-- no translation found for wifi_changing_network -->
+	<skip />
+	<!---->
+	<string name="write_settings_permission_denied">"不授予寫入_設定權限"</string>
+	<!---->
+	<string name="connect_success">"連線成功"</string>
+	<!---->
+	<string name="connect_failed">"連線失敗"</string>
+	<!---->
+	<string name="camera_denied">"已拒絕相機權限"</string>
+	<string-array name="receiver_content_item">
+		<item>"系統資料"</item>
+		<item>"應用程式資料"</item>
+		<item>"圖片"</item>
+		<item>"影片"</item>
+		<item>"音訊"</item>
+		<item>"文件"</item>
+	</string-array>
+	<!---->
+	<string name="text_receive_status">"正在接收，預期花費 %d 分鐘。"</string>
+	<!---->
+	<string name="text_disconnected">"已斷開連線"</string>
+	<!---->
+	<string name="text_return">"返回"</string>
+	<!---->
+	<string name="text_battery_low">"電池電量低於 35%"</string>
+	<!---->
+	<string name="text_cancel_confirm">"這次取消傳輸？"</string>
+	<!---->
+	<string name="text_wait_for_send_one">"連線成功！請等待數據傳輸。"</string>
+	<!---->
+	<string name="text_wait_for_send_two">"連線成功！請等待數據傳輸......"</string>
+	<!---->
+	<string name="qq_note_one">"在舊手機上"</string>
+	<!---->
+	<string name="qq_note_two">"1.打開 QQ 助手"</string>
+	<!---->
+	<string name="qq_note_three">"2.進入傳輸"</string>
+	<!---->
+	<string name="qq_note_four">"3.選擇「我是舊手機」傳送資料"</string>
+	<!---->
+	<string name="qq_text_scanning">"正在掃描..."</string>
+	<!---->
+	<string name="qq_text_click">"點擊選擇"</string>
+	<!---->
+	<string name="total_size">"總計 %1$s"</string>
+	<!---->
+	<string name="send_size">"%1$s 已發送"</string>
+	<!---->
+	<string name="send_sucess">"資料已成功傳送！"</string>
+	<!---->
+	<string name="recover_sucess">"完成全部！請使用您的新手機~"</string>
+	<!---->
+	<string name="item_info">"%1$s, %2$d 項目"</string>
+	<!---->
+	<string name="cancel_confirm_info">"是否確認取消此操作？"</string>
+	<!---->
+	<string name="button_send">"傳送"</string>
+	<!---->
+	<string name="remaining_time">"剩餘時間 %1$s"</string>
+	<!---->
+	<string name="totally">"總計"</string>
+	<!---->
+	<string name="recv_size">"接收 %1$s"</string>
+	<!---->
+	<string name="recving">"立即接收資料"</string>
+	<!---->
+	<string name="sending">"立即傳送資料"</string>
+	<!---->
+	<string name="qq_text_contact">"聯絡人"</string>
+	<!---->
+	<string name="qq_text_sms">"簡訊"</string>
+	<!---->
+	<string name="qq_text_calllog">"通話記錄"</string>
+	<!---->
+	<string name="qq_text_bookmark">"書籤"</string>
+	<!---->
+	<string name="qq_text_calendar">"日曆"</string>
+	<!---->
+	<string name="qq_text_picture">"圖片"</string>
+	<!---->
+	<string name="qq_text_video">"影片"</string>
+	<!---->
+	<string name="qq_text_music">"音樂"</string>
+	<!---->
+	<string name="qq_text_app">"應用程式"</string>
+	<!---->
+	<string name="qq_text_received">"已接收"</string>
+	<!---->
+	<string name="qq_text_receive_fail">"接收失敗"</string>
+	<!---->
+	<string name="qq_permission_denied">"權限被拒"</string>
+	<!---->
+	<string name="button_text_complete">"完成"</string>
+	<!---->
+	<string name="scan_failed">"掃描失敗"</string>
+	<!---->
+	<string name="text_rescan">"重新掃描"</string>
+	<!---->
+	<string name="text_install">"正在安裝"</string>
+	<!---->
+	<string name="text_pre_install">"準備安裝應用程式"</string>
+	<!---->
+	<string name="text_restore">"正在還原"</string>
+	<!---->
+	<string name="text_transfering">"正在接收"</string>
+	<!---->
+	<string name="text_remain_time">"，剩餘時間："</string>
+	<!---->
+	<string name="text_day">"天"</string>
+	<!---->
+	<string name="text_hour">"h"</string>
+	<!---->
+	<string name="text_min">"m"</string>
+	<!---->
+	<string name="text_sec">"s"</string>
+	<!---->
+	<string name="qq_cancel_confirm_info">"取消傳輸？"</string>
+	<!---->
+	<string name="qq_start_install">"已接收，開始安裝應用程式\n 您可以離開此頁面，且應用程式將在後臺安裝......"</string>
+	<!---->
+	<string name="text_rec_status">"正在接收......它可能大約 %1$s"</string>
+	<!---->
+	<string name="text_send_status">"正在傳送......它肯能花費大約 %1$s......"</string>
+	<!---->
+	<string name="text_recovery_status">"正在恢復資料..... 它剩餘 %1$s......"</string>
+	<!---->
+	<string name="calculate_size">"連線成功！現在正在計算資料大小......"</string>
+	<!---->
+	<string name="send_successful">"資料成功傳送！"</string>
+	<!---->
+	<string name="select_all">"全部選取"</string>
+	<!---->
+	<string name="select_none">"未選擇"</string>
+	<!---->
+	<string name="cancelled">"已取消！"</string>
+	<!---->
+	<string name="recv_successful">"接收成功"</string>
+	<!---->
+	<string name="text_canceling">"正在取消.."</string>
+	<!---->
+	<string name="notify_connect_success">"連線成功！"</string>
+	<!---->
+	<string name="notify_sending">"正在傳送"</string>
+	<!---->
+	<string name="notify_receiving">"正在接收"</string>
+	<!---->
+	<string name="notify_send_success">"傳送成功"</string>
+	<!---->
+	<string name="notify_receive_success">"接收成功"</string>
+	<!---->
+	<string name="notify_installing">"正在安裝應用程式"</string>
+	<!---->
+	<string name="notify_install_success">"應用程式安裝完成"</string>
+	<!---->
+	<string name="sms_permission_denied">"無還原 sms 的權限"</string>
+	<!---->
+	<string name="caculate_size_info">"現在正在計算大小"</string>
+	<!---->
+	<string name="text_sms_permission">"我們需要還原臨時 SMS 變更 SMS 應用程式權限"</string>
+	<!---->
+	<string name="text_sms_permission_restore">"如需正常使用訊息傳送功能，請返回預設 SMS 應用程式權限"</string>
+</resources>

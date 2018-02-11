@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog_parent_panel"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:background="@drawable/dialog_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/dialog_top_panel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="24dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/dialog_title_template"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/dialog_title_icon"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/icon" />
+
+            <View
+                android:id="@+id/dialog_title_gap"
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+
+            <!-- style="?android:attr/textAppearanceLarge" -->
+
+            <TextView
+                android:id="@+id/dialog_title_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="@string/update_available"
+                android:textColor="@color/blue_main"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/blue_main" />
+
+    <LinearLayout
+        android:id="@+id/dialog_bottom_panel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/dialog_content_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/update_notify_tip"
+            android:textColor="@color/dialog_text"
+            android:textSize="13sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/update_detail_prefix"
+            android:textColor="@color/dialog_text"
+            android:textSize="13sp" />
+
+        <ScrollView
+            android:id="@+id/dialog_content_scroll_view"
+            android:layout_width="fill_parent"
+            android:layout_height="124dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:padding="5dp"
+            android:background="@color/dialog_desc_bg" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/tv_desc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/dialog_text"
+                    android:textSize="13sp" />
+            </LinearLayout>
+        </ScrollView>
+
+        <FrameLayout
+            android:id="@+id/dialog_custom_content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="124dp"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:visibility="gone" >
+        </FrameLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/grey_line" />
+
+        <LinearLayout
+            android:id="@+id/dialog_button_panel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/dialog_button1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="@drawable/dlg_sel_pas_pressed"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:maxLines="3"
+                android:minHeight="50dp"
+                android:text="@string/update_not_now"
+                android:textColor="@drawable/dlg_tv_sel_pressed"
+                android:textSize="16sp" />
+
+            <View
+                android:layout_width="0.1dp"
+                android:layout_height="match_parent"
+                android:background="@color/grey_line" />
+
+            <TextView
+                android:id="@+id/dialog_button2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="@drawable/dlg_sel_pas_pressed"
+                android:clickable="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:gravity="center"
+                android:maxLines="3"
+                android:minHeight="50dp"
+                android:text="@string/update_now"
+                android:textColor="@drawable/dlg_tv_sel_pressed"
+                android:textColorHighlight="@color/blue_main"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

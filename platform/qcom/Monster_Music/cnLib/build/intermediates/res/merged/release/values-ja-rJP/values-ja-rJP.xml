@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cannot_specify_an_empty_name_for_playlist">"プレイリストは空白にできません"</string>
+    <string name="cross_dj_saturated_storage_not_enough_free_space_to_record_your_mix">"ミックスを録音するのに十分な容量がありません。"</string>
+    <string name="cross_dj_saturated_storage_your_recording_might_stop_soon_because_no_more_free_space_is_available">"十分な容量がないために、録音はすぐに停止する場合があります。"</string>
+    <string name="extraCharge_warning_title">"モバイルデータを使用しますか？"</string>
+    <string name="invalid_drm_file">"ファイルには有効な DRM 権限がありません！"</string>
+    <string name="mobiledata_turnoff_btn">"OFF"</string>
+    <string name="never_show_it_again">"今後表示しない"</string>
+    <string name="no_error">"エラーがありません"</string>
+    <string name="recording_reached_max_duration">"録音は最長時間に達しました。選択を確認してください。"</string>
+    <string name="recording_soon_to_reach_max_duration">"録音はもうすぐ最長時間に達します。選択を確認してください。"</string>
+    <string name="scratching_is_disabled_in_no_mix_mode">"DJ モード時にのみスクラッチできます。"</string>
+    <string name="sign_up">"サインアップ"</string>
+    <string name="the_external_memory_storage_is_not_mounted">"外部メモリストレージは取り付けられていません。USBメモリストレージを無効にする必要があります。"</string>
+    <string name="there_s_not_enough_space_in_your_internal_storage_try_to_do_some_clean_up">"内部ストレージに十分な容量がありません（いくらか容量を空けてください）"</string>
+</resources>

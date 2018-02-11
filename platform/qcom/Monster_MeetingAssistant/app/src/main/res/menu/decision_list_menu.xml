@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".DecisionListActivity">
+    <item
+        android:id="@+id/decision_list_add_menu"
+        android:icon="@mipmap/btn_decision_add"
+        android:orderInCategory="100"
+        android:title="@string/write_decision"
+        android:showAsAction="always" />
+</menu>

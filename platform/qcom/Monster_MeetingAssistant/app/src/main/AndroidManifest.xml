@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.tcl.meetingassistant">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!-- iflytek permissions -->
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/MeetingAssistant"
+        android:largeHeap="true"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:resizeableActivity="false">
+
+        <!-- activity for edit a meeting info -->
+        <activity
+            android:name=".EditMeetingInfoPageActivity"
+            android:label="EditMeeting"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MstActivity.Edit" />
+
+        <!-- activity for edit a meeting decision info -->
+        <activity
+            android:name=".EditDecisionActivity"
+            android:label="EditDecision"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MstActivity.Edit"
+            android:windowSoftInputMode="stateHidden" />
+
+        <!-- activity for show a decision list -->
+        <activity
+            android:name=".DecisionListActivity"
+            android:label="DecisionList"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Translucent" />
+
+        <!-- activity for show main page, meeting list -->
+        <activity
+            android:name=".MeetingListActivity"
+            android:label="@string/MeetingAssistant"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MstActivity.MeetingList">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".EditImportPointActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MstActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".PhotoPreviewActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MstActivity" />
+        <activity
+            android:name=".EditPicActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoTitleBar" />
+        <activity
+            android:name=".MeetingPreviewActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.ShareStyle" />
+        <activity
+            android:name="com.iflytek.recinbox.sdk.activity.RecinboxSdkBrowser"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+
+        <receiver android:name="com.iflytek.recinbox.sdk.notice.NoticeReceiver">
+            <intent-filter>
+                <action android:name="com.iflytek.recinbox.sdk.ACTION_NOTICE" />
+            </intent-filter>
+        </receiver>
+
+        <!-- alipay sdk begin -->
+        <activity
+            android:name="com.alipay.sdk.app.H5PayActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:exported="false"
+            android:screenOrientation="behind"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <!-- alipay sdk end -->
+        <activity
+            android:name=".view.BackGroundActivity"
+            android:theme="@style/MyDialogStyle"></activity>
+
+        <!-- services -->
+        <service android:name=".services.PlayerService" />
+        <service android:name=".services.SoundRecorderService" />
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="cn.tcl.meetingassistant.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/filepaths" />
+        </provider>
+    </application>
+
+</manifest>

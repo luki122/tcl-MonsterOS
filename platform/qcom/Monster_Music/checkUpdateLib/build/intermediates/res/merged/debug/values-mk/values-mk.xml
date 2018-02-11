@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="check_new">\'Провери за ажурирање</string>
+    <string name="downloaded_finish">\'Превземањето е завршено</string>
+    <string name="notification_downloading">\'Превземање</string>
+    <string name="tip_network_error">\'Мрежна грешка</string>
+    <string name="try_later">\'Подоцна</string>
+    <string name="update">\'Сега</string>
+    <string name="update_ask_tip">\'Потребно е ажурирање на најновата верзија</string>
+    <string name="update_download_fail">\'Неуспешно превземање</string>
+    <string name="update_no_need">\'Ова е најновата верзија</string>
+    <string name="update_notification_tips">За подобра работа на уредор, ажурирајте ја најновата верзија.</string>
+    <string name="update_notification_title">\'Ажурирај известување</string>
+    <string name="versionDesc">Информација за верзија:</string>
+</resources>

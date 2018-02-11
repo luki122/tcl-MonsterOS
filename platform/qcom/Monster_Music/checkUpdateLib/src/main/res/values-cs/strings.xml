@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    	<string name="tip_network_error">Chyba sítě</string>
+    	<string name="check_new">Zkontrolovat aktualizace</string>
+    	<string name="update_download_fail">Stažení se nezdařilo</string>
+    	<string name="update_ask_tip">Je třeba provést aktualizaci na nejnovější verzi</string>
+    	<string name="update_no_need">Toto je nejnovější verze</string>
+    	<string name="downloaded_finish">Stahování bylo dokončeno</string>
+    	<string name="notification_downloading">Probíhá stahování</string>
+    	<string name="update_notification_tips">Pro dosažení nejlepších výsledků proveďte aktualizaci na nejnovější verzi.</string>
+    	<string name="update_notification_title">Oznámení o aktualizacích</string>
+    	<string name="update">Nyní</string>
+    	<string name="try_later">Později</string>
+    	<string name="versionDesc">Informace o verzi:</string>
+    	
+    	<string name="update_available">Je k dispozici aktualizace</string>
+    	<string name="downloading">Stahování…</string>
+    	<string name="update_notify_tip">Je k dispozici nová verze. Aktualizovat nyní?</string>
+    	<string name="update_detail_prefix">Podrobnosti o aktualizaci:</string>
+    	<string name="update_not_now">Nyní ne</string>
+    	<string name="update_now">Aktualizovat</string>
+    	<string name="network_error_tip">Došlo k chybě sítě. Zkontrolujte síťové připojení a zkuste to znovu</string>
+    	<string name="update_force_nofity_tip">Doporučujeme vám aplikaci aktualizovat na nejnovější verzi.</string>
+    	<string name="update_no_updates">Žádné aktualizace</string>
+    	<string name="update_no_updates_tip">Žádné aktualizace</string>
+    	<string name="update_confirm">OK</string>
+</resources>

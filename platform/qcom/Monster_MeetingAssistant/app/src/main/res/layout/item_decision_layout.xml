@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:background="@color/card_color"
+    android:layout_marginBottom="9dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_marginTop="17dp"
+        android:layout_alignParentRight="true"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/decision_item_delete_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="19dp"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:src="@mipmap/btn_decision_delete" />
+
+        <ImageButton
+            android:layout_marginRight="21dp"
+            android:id="@+id/decision_item_modify_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:src="@mipmap/btn_decision_edit" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="19dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginTop="23dp"
+            android:fontFamily="monster-normal"
+            android:id="@+id/decision_item_title"
+            android:layout_width="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@color/black_86opacity"
+            android:gravity="center_vertical"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left" />
+
+        <TextView
+            android:fontFamily="monster-normal"
+            android:layout_marginTop="22dp"
+            android:id="@+id/decision_item_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black_86opacity"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/font_size_14sp"
+            android:drawableLeft="@mipmap/ic_decision_info"
+            android:drawablePadding="13dp"
+            android:singleLine="true" />
+
+        <TextView
+            android:fontFamily="monster-normal"
+            android:layout_marginTop="15dp"
+            android:id="@+id/decision_item_person"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@mipmap/ic_decision_person"
+            android:gravity="center_vertical"
+            android:drawablePadding="13dp"
+            android:singleLine="true"
+            android:textSize="@dimen/font_size_14sp"
+            android:textColor="@color/black_86opacity" />
+
+        <TextView
+            android:fontFamily="monster-normal"
+            android:layout_marginTop="15dp"
+            android:id="@+id/decision_item_deadline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@mipmap/ic_decision_time"
+            android:gravity="center_vertical"
+            android:drawablePadding="13dp"
+            android:singleLine="true"
+            android:textSize="@dimen/font_size_14sp"
+            android:textColor="@color/black_86opacity" />
+    </LinearLayout>
+</RelativeLayout>

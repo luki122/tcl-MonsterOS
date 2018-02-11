@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Copyright (C) 2014 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">主题商店</string>
+    <string name="action_settings">设置</string>
+    <string name="local_theme">主题</string>
+    <string name="theme_detail_designer">作者:<xliff:g id="designer">%1$s</xliff:g></string>
+    <string name="theme_detail_size">大小:<xliff:g id="size">%1$s</xliff:g></string>
+    <string name="theme_detail_description">简介:<xliff:g id="description">%1$s</xliff:g></string>
+    <string name="download_state_apply">应用</string>
+    <string name="msg_apply_theme">正在应用主题......</string>
+    <string name="statu_apply_theme_failed">主题应用失败</string>
+	<string name="msg_select_theme_applied">当前主题已应用</string>
+	<string name="default_theme_name">Monster</string>
+	<string name="default_theme_description">简约大气，轻薄不累赘</string>
+</resources>

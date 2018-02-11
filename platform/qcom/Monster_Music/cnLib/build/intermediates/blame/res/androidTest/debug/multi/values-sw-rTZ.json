@@ -1,0 +1,50 @@
+[
+    {
+        "outputFile": "/home/ximoon/document/git/Monster_Music/cnLib/build/intermediates/res/merged/androidTest/debug/values-sw-rTZ/values-sw-rTZ.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 80,
+                    "endOffset": 131
+                },
+                "from": {
+                    "file": "/home/ximoon/document/git/Monster_Music/cnLib/build/intermediates/bundles/debug/res/values-sw-rTZ/values-sw-rTZ.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 80,
+                        "endOffset": 131
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/home/ximoon/document/git/Monster_Music/cnLib/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-sw-rTZ/values-sw-rTZ.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 80,
+                    "endOffset": 131
+                },
+                "from": {
+                    "file": "/home/ximoon/document/git/Monster_Music/cnLib/build/intermediates/bundles/debug/res/values-sw-rTZ/values-sw-rTZ.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 80,
+                        "endOffset": 131
+                    }
+                }
+            }
+        ]
+    }
+]

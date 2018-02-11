@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/poweroff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent" >
+
+    <RelativeLayout
+        android:id="@+id/poweroffbg1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/poweroffbackground" >
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/poweroffbg2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-502dp"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="580dp"
+            android:background="#FF000000"
+            >
+        </View>
+        <View 
+            android:layout_width="fill_parent"
+            android:layout_height="226dp"
+            android:background="@drawable/poweroff_background" >
+        </View>
+    </LinearLayout>
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent" >
+
+        <ImageView
+            android:id="@+id/whiteLine"
+            android:layout_width="1dp"
+            android:layout_height="156dp" 
+            android:background="@drawable/poweroff_white_line" 
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="0dp">
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/goodbyeimageview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="156dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/goodbye"
+            android:focusable="true"
+            android:focusableInTouchMode="true" >
+        </ImageView>
+        
+        <TextView
+            android:id="@+id/poweroffhinttext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="365dp"
+            android:text="@string/showdown"
+            android:textColor="@color/poweroff_hint_text_color"
+            android:textSize="16sp"
+            android:visibility="visible" >
+        </TextView>
+
+        <ImageView
+            android:id="@+id/down1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="443dp"
+            android:background="@drawable/down"
+            android:visibility="visible" >
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/down2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/down1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/down"
+            android:visibility="visible" >
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/down3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/down2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/down"
+            android:visibility="visible" >
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/down4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/down3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/down"
+            android:visibility="visible" >
+        </ImageView>
+    </RelativeLayout>
+</FrameLayout>

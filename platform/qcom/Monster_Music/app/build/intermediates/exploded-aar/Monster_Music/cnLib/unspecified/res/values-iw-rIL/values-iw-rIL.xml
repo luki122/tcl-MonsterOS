@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cannot_specify_an_empty_name_for_playlist">"שם רשימת ההשמעה לא יכול להיות ריק"</string>
+    <string name="cross_dj_saturated_storage_not_enough_free_space_to_record_your_mix">"אין מספיק שטח להקלטת המיקס."</string>
+    <string name="cross_dj_saturated_storage_your_recording_might_stop_soon_because_no_more_free_space_is_available">"ייתכן שההקלטה שלך תיעצר בקרוב, משום שאין יותר שטח פנוי."</string>
+    <string name="invalid_drm_file">"אין לקובץ רשות DRM חוקית!"</string>
+    <string name="mobiledata_turnoff_btn">"כבה"</string>
+    <string name="never_show_it_again">"אל תציג זאת שוב"</string>
+    <string name="no_error">"אין שגיאה"</string>
+    <string name="recording_reached_max_duration">"ההקלטה הגיעה למשך הזמן המרבי. בדוק את ההעדפות שלך."</string>
+    <string name="recording_soon_to_reach_max_duration">"ההקלטה תגיע בקרוב למשך הזמן המרבי. בדוק את ההעדפות שלך."</string>
+    <string name="scratching_is_disabled_in_no_mix_mode">"ניתן לעשות סקראץ\' במצב DJ בלבד."</string>
+    <string name="the_external_memory_storage_is_not_mounted">"אחסון הזיכרון החיצוני לא נטען במערכת. ייתכן שעליך להשבית את אחסון הזיכרון בהתקן USB."</string>
+    <string name="there_s_not_enough_space_in_your_internal_storage_try_to_do_some_clean_up">"אין מספיק שטח באחסון הפנימי שלך (נסה לפנות שטח)"</string>
+</resources>

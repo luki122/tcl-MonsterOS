@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cannot_specify_an_empty_name_for_playlist">"Името на плејлистата не може да биде празно"</string>
+    <string name="cross_dj_saturated_storage_not_enough_free_space_to_record_your_mix">"Нема доволно простор за снимање на вашиот микс."</string>
+    <string name="cross_dj_saturated_storage_your_recording_might_stop_soon_because_no_more_free_space_is_available">"Вашата снимка може да запре наскоро, бидејќи нема доволно простор."</string>
+    <string name="invalid_drm_file">"Датотеката нема валидна DRM дозвола!"</string>
+    <string name="mobiledata_turnoff_btn">"Неактивно"</string>
+    <string name="never_show_it_again">"Не прикажувај повторно"</string>
+    <string name="no_error">"Нема грешка"</string>
+    <string name="recording_reached_max_duration">"Снимањето го достигна максимумот. Проверете ги вашите подесувања."</string>
+    <string name="recording_soon_to_reach_max_duration">"Снимањето наскоро ќе го достигне максимумот на траење. Проверете ги вашите подесувања."</string>
+    <string name="scratching_is_disabled_in_no_mix_mode">"Можете само од почеток во DJ режимот."</string>
+    <string name="sign_up">"Регистрирај се"</string>
+    <string name="the_external_memory_storage_is_not_mounted">"Надворешната меморија не е поставена. Можеби потребно е да ја исклучите USB меморијата."</string>
+    <string name="there_s_not_enough_space_in_your_internal_storage_try_to_do_some_clean_up">"Нема доволно простор во внатрешната меморија (ослободете простор)"</string>
+</resources>

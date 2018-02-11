@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:duoqu="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/content_area"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/duoqu_train_padding"
+    android:paddingRight="@dimen/duoqu_train_padding" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/duoqu_train_arrive_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:gravity="end"
+            android:singleLine="true"
+            android:textColor="@color/duoqu_theme_color_5010"
+            android:textSize="@dimen/duoqu_right_first_text_size"
+            android:layout_marginTop="@dimen/duoqu_right_first_text_margin_top" 
+            android:includeFontPadding="false"/>
+
+        <TextView
+            android:id="@+id/duoqu_train_depart_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="@dimen/duoqu_right_first_text_margin_top"
+            android:singleLine="true"
+            android:textColor="@color/duoqu_theme_color_5010"
+            android:includeFontPadding="false"
+            android:textSize="@dimen/duoqu_right_first_text_size" />
+        
+        
+        <RelativeLayout 
+            android:id="@+id/duodu_center_re"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/duoqu_train_arrive_date" 
+            android:layout_marginTop="@dimen/duodu_center_re_margin_top">
+            
+             <TextView
+            android:id="@+id/duoqu_train_arrive_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:singleLine="true"
+            android:includeFontPadding="false" />
+
+        <TextView
+            android:id="@+id/duoqu_train_depart_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:singleLine="true"
+            android:includeFontPadding="false" />
+
+        <ImageView
+            android:id="@+id/train_center_icon"
+            android:layout_width="@dimen/train_center_icon_width"
+            android:layout_height="@dimen/train_center_icon_height"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"/>
+            
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/duoqu_train_depart_city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/duodu_center_re"
+            android:layout_marginTop="@dimen/duoqu_left_four_text_margin_top"
+            android:includeFontPadding="false"/>
+
+        <RelativeLayout 
+            android:id="@+id/duoqu_train_area_icon_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/duoqu_train_depart_city"
+            android:layout_marginTop="@dimen/duoqu_right_four_text_icon_layout_margin_top"
+            android:layout_alignParentEnd="true">
+            <ImageView
+                android:id="@+id/duoqu_train_select_text_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true" />
+
+            <TextView
+                android:id="@+id/duoqu_train_arrive_city"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toStartOf="@id/duoqu_train_select_text_icon"
+                android:includeFontPadding="false" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/duoqu_train_seat_info_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="@dimen/duoqu_train_seat_info_title_margin_top"
+            android:text="@string/duoqu_seat_info"
+            android:textSize="@dimen/duoqu_train_seat_info_title_text_size"
+            android:layout_below="@+id/duoqu_train_depart_city"
+            android:includeFontPadding="false"/>
+
+        <TextView
+            android:id="@+id/duoqu_train_seat_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/duoqu_train_seat_info_title_text_size"
+            android:maxLines="3"
+            android:ellipsize="end"
+            android:includeFontPadding="false"
+            android:layout_marginStart="@dimen/duoqu_train_seat_info_margin_left"
+            android:layout_toEndOf="@id/duoqu_train_seat_info_title"
+            android:layout_alignTop="@id/duoqu_train_seat_info_title"/>
+        
+    </RelativeLayout>
+
+</RelativeLayout>

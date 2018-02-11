@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white">
+
+    <mst.widget.toolbar.Toolbar
+        android:id="@+id/detail_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/white"
+        android:paddingStart="@dimen/dp_20">
+    </mst.widget.toolbar.Toolbar>
+
+    <TextView
+        android:id="@+id/album_empty_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:alpha="0.2"
+        android:gravity="center_horizontal"
+        android:text="@string/no_content"
+        android:textColor="#000000"
+        android:textSize="17sp"/>
+
+    <RelativeLayout
+        android:id="@+id/detail_rl1"
+        android:layout_width="match_parent"
+        android:layout_height="113dp"
+        android:layout_below="@id/detail_toolbar"
+        android:layout_marginTop="10dp"
+        android:background="@color/detail_base_corlor">
+
+        <ImageView
+            android:id="@id/artwork_image_view"
+            android:layout_width="113dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/empty_album"/>
+
+        <TextView
+            android:id="@+id/detail_title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@id/artwork_image_view"
+            android:alpha="0.86"
+            android:textColor="@color/black"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:id="@+id/detail_album_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/detail_title_tv"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="7dp"
+            android:layout_toRightOf="@id/artwork_image_view"
+            android:alpha="0.35"
+            android:textColor="@color/black"
+            android:textSize="12sp"/>
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/detail_up_external_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/detail_rl1"/>
+
+    <com.github.clans.fab.FloatingActionButton
+        android:id="@+id/fab_playing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="12dp"
+        android:layout_marginRight="16dp"
+        android:src="@drawable/icon_floating_button_music"
+        app:fab_colorNormal="@color/black"
+        app:fab_colorPressed="@color/black"/>
+
+</RelativeLayout>

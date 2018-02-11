@@ -1,0 +1,118 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="mst_app_name">MST</string>
+
+    <!-- Default text for a button that can be toggled on and off. -->
+    <string name="capital_on">ON</string>
+    <!-- Default text for a button that can be toggled on and off. -->
+    <string name="capital_off">OFF</string>
+
+    <string name="ok">Ok</string>
+
+    <string name="cancel">Cancel</string>
+
+    <string name="yes">Yes</string>
+
+    <string name="no">No</string>
+
+    <!--  Strings for possible PreferenceActivity Back/Next buttons -->
+    <string name="back_button_label">Back</string>
+    <string name="next_button_label">Next</string>
+
+    <!-- Optional button to Skip a PreferenceActivity [CHAR LIMIT=20] -->
+    <string name="skip_button_label">Skip</string>
+    
+    
+     <string name="more_item_label">More</string>
+    <string name="prepend_shortcut_label">Menu+</string>
+    
+     <!-- Displayed in place of the regular shortcut letter when a menu item has Menu+space for the shortcut. -->
+    <string name="menu_space_shortcut_label">space</string>
+    <!-- Displayed in place of the regular shortcut letter when a menu item has Menu+enter for the shortcut. -->
+    <string name="menu_enter_shortcut_label">enter</string>
+    <!-- Displayed in place of the regular shortcut letter when a menu item has Menu+delete for the shortcut. -->
+    <string name="menu_delete_shortcut_label">delete</string>
+    
+    
+    <string name="appbar_scrolling_view_behavior" translatable="false">mst.widget.AppBarLayout$ScrollingViewBehavior</string>
+    
+        <!-- The text pattern for the character counter -->
+    <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
+    
+    
+    <!-- NumberPicker - accessibility support -->
+    <!-- Description of the button to increase the NumberPicker value. [CHAR LIMIT=NONE] -->
+    <string name="number_picker_increment_button">Increase</string>
+    <!-- Description of the button to decrease the NumberPicker value. [CHAR LIMIT=NONE] -->
+    <string name="number_picker_decrement_button">Decrease</string>
+    <!-- Description of the tap and hold action to get into scroll mode in NumberPicker. [CHAR LIMIT=NONE] -->
+    <string name="number_picker_increment_scroll_mode"><xliff:g id="value" example="3">%s</xliff:g> touch and hold.</string>
+    <!-- Description of the scrolling action in NumberPicker. [CHAR LIMIT=NONE] -->
+    <string name="number_picker_increment_scroll_action">Slide up to increase and down to decrease.</string>
+
+    <!-- TimePicker - accessibility support -->
+    <!-- Description of the button to increase the TimePicker's minute value. [CHAR LIMIT=NONE] -->
+    <string name="time_picker_increment_minute_button">Increase minute</string>
+    <!-- Description of the button to decrease the TimePicker's minute value. [CHAR LIMIT=NONE] -->
+    <string name="time_picker_decrement_minute_button">Decrease minute</string>
+    <!-- Description of the button to increase the TimePicker's hour value. [CHAR LIMIT=NONE] -->
+    <string name="time_picker_increment_hour_button">Increase hour</string>
+    <!-- Description of the button to decrease the TimePicker's hour value. [CHAR LIMIT=NONE] -->
+    <string name="time_picker_decrement_hour_button">Decrease hour</string>
+    <!-- Description of the button to increase the TimePicker's set PM value. [CHAR LIMIT=NONE] -->
+    <string name="time_picker_increment_set_pm_button">Set PM</string>
+    <!-- Description of the button to decrease the TimePicker's set AM value. [CHAR LIMIT=NONE] -->
+    <string name="time_picker_decrement_set_am_button">Set AM</string>
+
+    <!-- DatePicker - accessibility support -->
+    <!-- Description of the button to increase the DatePicker's month value. [CHAR LIMIT=NONE] -->
+    <string name="date_picker_increment_month_button">Increase month</string>
+    <!-- Description of the button to decrease the DatePicker's month value. [CHAR LIMIT=NONE] -->
+    <string name="date_picker_decrement_month_button">Decrease month</string>
+    <!-- Description of the button to increase the DatePicker's day value. [CHAR LIMIT=NONE] -->
+    <string name="date_picker_increment_day_button">Increase day</string>
+    <!-- Description of the button to decrease the DatePicker's day value. [CHAR LIMIT=NONE] -->
+    <string name="date_picker_decrement_day_button">Decrease day</string>
+    <!-- Description of the button to increase the DatePicker's year value. [CHAR LIMIT=NONE] -->
+    <string name="date_picker_increment_year_button">Increase year</string>
+    <!-- Description of the button to decrease the DatePicker's year value. [CHAR LIMIT=NONE] -->
+    <string name="date_picker_decrement_year_button">Decrease year</string>
+    <!-- Description of the button to move to the previous month. [CHAR LIMIT=NONE] -->
+    <string name="date_picker_prev_month_button">Previous month</string>
+    <!-- Description of the button to move to the next month. [CHAR LIMIT=NONE] -->
+    <string name="date_picker_next_month_button">Next month</string>
+
+    <!-- The title of the time picker dialog. [CHAR LIMIT=NONE] -->
+    <string name="time_picker_dialog_title">Set time</string>
+    <!-- The title of the date picker dialog. [CHAR LIMIT=NONE] -->
+    <string name="date_picker_dialog_title">Set date</string>
+    <!-- Name of the button in the date/time picker to accept the date/time change -->
+    <string name="date_time_set">Set</string>
+    <!-- Name of the button in the date/time picker to accept the date/time change -->
+    <string name="date_time_done">Done</string>
+    
+    <!-- Label for time picker -->
+    <string name="time_picker_label_hour">H</string>
+    <string name="time_picker_label_minute">M</string>
+    <string name="time_picker_label_second">S</string>
+    <!-- Label for date picker -->
+    <string name="date_picker_label_year">Y</string>
+    <string name="date_picker_label_month">M</string>
+    <string name="date_picker_label_day">D</string>
+    
+    <string name="showdown">pull to shutdown</string>
+    <string name="pattern_date_format">MM/dd</string>
+    
+    <string name="msg_try_get">Attempting to get</string>
+    <string name="permission">Permission</string>
+    <string name="mst_remember_choice">Remember my choice</string>
+    <string name="permission_allow">Allow</string>
+    <string name="permission_refused">Refuse</string>
+    <string name="floating_window">Floating Window</string>
+    <string name="msg_create_shortcut">Create a new shortcut</string>
+    <string name="device_manager">Device Manager</string>
+    <string name="vr_service_assistant">VR-Service Assistant</string>
+    <string name="notification_rights">Rights of use notifications</string>
+    <string name="paid_sms">Paid SMS</string>
+    <string name="record_access">Use record access</string>
+
+</resources>

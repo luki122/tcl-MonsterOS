@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mst="http://schemas.android.com/apk/res/com.mst"
+    android:id="@+id/whole_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/file_path_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/main_filepathbrower_height"
+        android:paddingLeft="@dimen/main_filepathbrower_margin"
+        android:paddingRight="@dimen/main_filepathbrower_margin">
+
+        <cn.tcl.filemanager.view.HorizontalListView
+            android:id="@+id/listview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:stackFromBottom="true"></cn.tcl.filemanager.view.HorizontalListView>
+    </LinearLayout>
+    <!-- <LinearLayout
+        android:id="@+id/bar_background"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/select_file_bar_height_size"
+        android:background="@drawable/fm_bar_bg"
+        android:orientation="horizontal" >
+
+        <HorizontalScrollView
+            android:id="@+id/navigation_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fillViewport="true" >
+
+            <LinearLayout
+                android:id="@+id/tabs_holder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" />
+        </HorizontalScrollView>
+    </LinearLayout>-->
+
+    <LinearLayout
+        style="?android:attr/buttonBarStyle"
+        android:id="@+id/select_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            style="?android:attr/buttonBarStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip"
+            android:gravity="center"
+             >
+
+            <Button
+                android:id="@+id/btn_cancel"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="center"
+                android:textColor="@color/title_text_color"
+                android:text="@string/cancel"
+                android:textSize="@dimen/home_text_size" />
+
+            <Button
+                android:id="@+id/btn_ok"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="center"
+                android:textColor="@color/positive_background_color"
+                android:text="@string/ok"
+                android:textSize="@dimen/home_text_size" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignTop="@id/select_btn"
+        android:background="?android:attr/listDivider" />
+
+    <ListView
+        android:layout_marginTop="@dimen/main_filepathbrower_height"
+        android:id="@+id/list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@drawable/list_view_divider"
+        android:layout_above="@id/select_btn" />
+
+</RelativeLayout>

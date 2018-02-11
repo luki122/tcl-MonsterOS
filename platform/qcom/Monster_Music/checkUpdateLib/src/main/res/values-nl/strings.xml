@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    	<string name="tip_network_error">Netwerkfout</string>
+    	<string name="check_new">Controleren op update</string>
+    	<string name="update_download_fail">Downloaden mislukt</string>
+    	<string name="update_ask_tip">U moet bijwerken naar de nieuwste versie</string>
+    	<string name="update_no_need">Dit is de nieuwste versie</string>
+    	<string name="downloaded_finish">Downloaden voltooid</string>
+    	<string name="notification_downloading">Downloaden</string>
+    	<string name="update_notification_tips">Werk bij naar de nieuwste versie voor een betere ervaring.</string>
+    	<string name="update_notification_title">Updatemelding</string>
+    	<string name="update">Nu</string>
+    	<string name="try_later">Later</string>
+    	<string name="versionDesc">Versiegegevens:</string>
+    	
+    	<string name="update_available">Update beschikbaar</string>
+    	<string name="downloading">Downloaden...</string>
+    	<string name="update_notify_tip">Er is een nieuwe versie beschikbaar. Nu bijwerken?</string>
+    	<string name="update_detail_prefix">Updatedetails:</string>
+    	<string name="update_not_now">Niet nu</string>
+    	<string name="update_now">Bijwerken</string>
+    	<string name="network_error_tip">Netwerkfout. Controleer uw netwerkverbinding en probeer het opnieuw.</string>
+    	<string name="update_force_nofity_tip">U kunt de applicatie het beste bijwerken naar de nieuwste versie.</string>
+    	<string name="update_no_updates">Geen updates</string>
+    	<string name="update_no_updates_tip">Geen updates</string>
+    	<string name="update_confirm">OK</string>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cannot_specify_an_empty_name_for_playlist">"Spillelistenavnet kan ikke være tomt"</string>
+    <string name="cross_dj_saturated_storage_not_enough_free_space_to_record_your_mix">"Ikke nok ledig plass til å spille inn miksen."</string>
+    <string name="cross_dj_saturated_storage_your_recording_might_stop_soon_because_no_more_free_space_is_available">"Opptaket stoppes snart, da det ikke er mer ledig plass tilgjengelig."</string>
+    <string name="invalid_drm_file">"Filen har ingen gyldig DRM-autoritet."</string>
+    <string name="mobiledata_turnoff_btn">"Deaktiver"</string>
+    <string name="never_show_it_again">"Ikke vis den flere ganger"</string>
+    <string name="no_error">"Ingen feil"</string>
+    <string name="recording_reached_max_duration">"Opptaket har nådd grensen for maksimal varighet. Kontroller innstillingene."</string>
+    <string name="recording_soon_to_reach_max_duration">"Opptaket når snart grensen for maksimal varighet. Kontroller innstillingene."</string>
+    <string name="scratching_is_disabled_in_no_mix_mode">"Scratching er bare mulig når du er i DJ-modus."</string>
+    <string name="sign_up">"Registrer deg"</string>
+    <string name="the_external_memory_storage_is_not_mounted">"Det eksterne lagringsmediet er ikke installert. Det kan være du må deaktivere USB-lagring."</string>
+    <string name="there_s_not_enough_space_in_your_internal_storage_try_to_do_some_clean_up">"Det er ikke nok plass i det interne lageret (prøv å frigjøre plass)"</string>
+</resources>

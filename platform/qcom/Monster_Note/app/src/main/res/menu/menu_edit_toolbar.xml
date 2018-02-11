@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/toolbar_theme"
+        android:icon="@drawable/ic_theme"
+        android:title="@string/toolbar_theme"
+        android:visible="false"
+        android:showAsAction="always" />
+    <item
+        android:id="@+id/toolbar_share"
+        android:icon="@drawable/ic_share"
+        android:title="@string/toolbar_share"
+        android:showAsAction="always" />
+</menu>

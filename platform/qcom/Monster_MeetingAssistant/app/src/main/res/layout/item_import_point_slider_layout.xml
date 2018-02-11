@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<cn.tcl.meetingassistant.view.SilderView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mst="http://schemas.android.com/apk/res/com.mst"
+    android:id="@+id/import_item_item_sliderView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    mst:handleEventInParent = "true"
+    mst:layout="@layout/item_import_point_layout"
+    >
+</cn.tcl.meetingassistant.view.SilderView>

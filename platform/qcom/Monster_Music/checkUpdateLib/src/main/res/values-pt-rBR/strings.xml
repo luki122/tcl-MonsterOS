@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="update_available">Atualização disponível</string>
+    <string name="downloading">Fazendo o download...</string>
+    <string name="update_notify_tip">Uma nova versão está disponível. Atualizar agora?</string>
+    <string name="update_detail_prefix">Detalhes da atualização:</string>
+    <string name="update_not_now">Agora não</string>
+    <string name="update_now">Atualizar</string>
+    <string name="network_error_tip">Erro de rede. Verifique sua conexão de rede e tente novamente.</string>
+    <string name="update_force_nofity_tip">É recomendável que você atualize o aplicativo para a versão mais recente.</string>
+    <string name="update_no_updates">Sem atualizações</string>
+    <string name="update_no_updates_tip">Sem atualizações</string>
+    <string name="update_confirm">OK</string>
+
+</resources>

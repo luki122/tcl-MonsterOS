@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="check_new">Frissítés keresése</string>
+    <string name="downloaded_finish">Letöltés befejezve</string>
+    <string name="downloading">Letöltés folyamatban...</string>
+    <string name="network_error_tip">Hálózati hiba Ellenőrizze a hálózati kapcsolatot, majd próbálja újra.</string>
+    <string name="notification_downloading">Letöltés folyamatban</string>
+    <string name="tip_network_error">Hálózati hiba</string>
+    <string name="try_later">Később</string>
+    <string name="update">Most</string>
+    <string name="update_ask_tip">A legújabb verzióra kell frissítenie</string>
+    <string name="update_available">Frissítés áll rendelkezésre</string>
+    <string name="update_confirm">OK</string>
+    <string name="update_detail_prefix">Frissítés részletei:</string>
+    <string name="update_download_fail">A letöltés sikertelen</string>
+    <string name="update_force_nofity_tip">Javasoljuk, hogy frissítse az alkalmazást a legújabb verzióra.</string>
+    <string name="update_no_need">A legfrissebb verzióval rendelkezik</string>
+    <string name="update_no_updates">Nem állnak rendelkezésre frissítések</string>
+    <string name="update_no_updates_tip">Nem állnak rendelkezésre frissítések</string>
+    <string name="update_not_now">Most nem</string>
+    <string name="update_notification_tips">A legjobb felhasználói élmény érdekében frissítsen a legújabb verzióra.</string>
+    <string name="update_notification_title">Értesítés frissítésről</string>
+    <string name="update_notify_tip">Új verzió áll rendelkezésre. Frissítés most?</string>
+    <string name="update_now">Frissítés</string>
+    <string name="versionDesc">Verzióra vonatkozó információ:</string>
+</resources>

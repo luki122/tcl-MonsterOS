@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string name="actionbar_count_tip">Select <xliff:g id="total">%d</xliff:g> Content</string>
+	<string name="menu_view">View Detail</string>
+	<string name="menu_delete">Delete The Item</string>
+    <string name="app_name">Interceptor</string>
+    <string name="action_settings">Setting</string>
+    <string name="contact">Select from Contacts</string>
+    <string name="phone">Select from Recent Calls</string>
+    <string name="sms">Select from Messages</string>
+    <string name="manually">Add Directly</string>
+    <string name="setting">Setting</string>
+    <string name="intercept_phone">Call</string>
+    <string name="intercept_sms">Message</string>
+    <string name="select_all">Select all</string>
+    <string name="deselect_all">Select None</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="give_up">Discard Contents</string>
+    <string name="is_give_up">Contents have been edited, are you sure to discard?</string>
+    <string name="reject">Interceptor</string>
+    <string name="refresh">Refreshing...</string>
+    <string name="black">Blacklist</string>    
+    <string name="no_black">No Blacklist</string>
+    <string name="name">Name(Optional)</string>
+    <string name="number">Phone Number</string>
+    <string name="reject_sms">Anti Message Spam</string>
+    <string name="reject_notification">Intercept Notification</string>
+    <string name="black_manage">Blacklist</string>
+    <string name="mark_manage">Mark List of Calls</string>
+    <string name="tab1">Calls</string>
+    <string name="tab2">Messages</string>
+    <string name="no_intercept">No Intercept</string>
+    <string name="call_back">Dial</string>
+    <string name="sms_back">Send Message</string>
+    <string name="no_reject">Do Not Intercept</string>
+    <string name="release_reject">Do Not Intercept</string>
+    <string name="marks_manage">Mark List</string>
+    <string name="no_mark">No Mark</string>
+    <string name="edit">Edit</string>
+    <string name="del">Delete</string>
+    <string name="del_mark">Delete Mark</string>
+    <string name="is_confirm_del">Mark of calls will be removed, are you sure to delete?</string>
+    <string name="add_mark">Add Mark</string>
+    <string name="edit_mark">Edit Mark</string>
+    <string name="black_call">Dial</string>
+    <string name="black_sms">Send Message</string>
+    <string name="black_edit">Edit</string>
+    <string name="black_remove">Remove from Blacklist</string>
+    <string name="confirm_remove">DO you confirm to remove this number from blacklist?</string>
+    <string name="confirm_removes">DO you confirm to remove these numbers from blacklist?</string>
+    <string name="recover_black_phone">Restore Intercepts</string>
+    <string name="black_number_exist">Number exists</string>
+    <string name="mark_content_exist">Mark exists</string>
+    <string name="recover_sms">Restore Message</string>
+    <string name="confirm_recover_sms">Do you confirm to restore the SMS you selected?</string>
+    <string name="del_sms_record">Delete Intercept</string>
+    <string name="confirm_del_sms_record">Do you confirm to delete intercepts?</string>
+    <string name="del_phone_record">Delete Intercept</string>
+    <string name="confirm_del_phone_record">DO you confirm to delete intercepts?</string>
+    <string name="confirm_no_reject">Do you confirm not to intercept this number anymore?</string>
+    <string name="local_number">Native Number</string>
+    <string name="service_number">Service Number</string>
+    <string name="at_least_one"> Select at least one item</string>
+    <string name="no_number">Please enter number</string>
+    <string name="no_marks">Please enter mark</string>
+    <string name="no_content">No content</string>
+    <string name="no_sub">No title</string>
+    <string name="mars">From Mars</string>
+    <string name="format">format is error</string>
+    <string name="dels">Deleting...</string>
+    <string name="removing">Removing...</string>
+    <string name="recovery">Restoring</string>
+    <string name="item">&#160;</string>
+    <string name="no_calllog">No Calls</string>
+    <string name="save_title">Saving...</string>
+    <string name="sogou_init_toast">Initializing, please wait</string>
+    <string name="select_more_toast">Exceeds maximum number (100)</string>
+    <string name="mark_error">Name format is error</string>
+    <string name="sim_one_black_call">sim one call</string>
+    <string name="sim_two_black_call">sim two call</string>
+    <string name="sys_auth_dlg_title">Need the following permission to use reject</string>
+    <string name="sys_auth_dlg_text">"• Fetch infos from contact\n• Fetch infos from sms\n• Fetch infos from phone records"</string>
+    <string name="sys_auth_dlg_no_more_prompt">Remember my choice</string>
+    <string name="exit">Exit</string>
+    <string-array name="titles">
+        <item>@string/intercept_phone</item>
+        <item>@string/intercept_sms</item>
+    </string-array>
+
+    <string name="exit_confirm">Discard</string>
+    <string name="del_confirm">Delete</string>
+
+    <string name="remove_one_bn">"Remove this number from blacklist？"</string>
+    <string name="remove_multi_bn">"Remove the selected <xliff:g id="count">%d</xliff:g> numbers from blacklist？"</string>
+    <string name="remove_all_bn">"Remove all the numbers from blacklist？"</string>
+    <string name="remove_confirm">"Remove"</string>
+
+    <string name="remove_one_conv_bn">"Delete this conversation intercept？"</string>
+    <string name="remove_multi_conv_bn">"Delete the selected <xliff:g id="count">%d</xliff:g> conversation intercepts？"</string>
+    <string name="remove_all_conv_bn">"Delete all the conversation intercepts？"</string>
+    <string name="remove_conv_confirm">"Delete"</string>
+
+    <string name="resume_one_conv_bn">"Resume this conversation intercept？"</string>
+    <string name="resume_multi_conv_bn">"Resume the selected <xliff:g id="count">%d</xliff:g> conversation intercepts？"</string>
+    <string name="resume_all_conv_bn">"Resume all the conversation intercepts？"</string>
+    <string name="resume_conv_confirm">"Resume"</string>
+
+    <string name="remove_one_dial_bn">"Delete this call intercept？"</string>
+    <string name="remove_multi_dial_bn">"Delete the selected <xliff:g id="count">%d</xliff:g> call intercepts？"</string>
+    <string name="remove_all_dial_bn">"Delete all the call intercepts？"</string>
+    <string name="remove_dial_confirm">"Delete"</string>
+    <string name="selected_total_num">Selected <xliff:g id="total">%d</xliff:g> items</string>
+    <!-- tangyisen -->
+    <string name="tab_phone_reject_title">"来电拦截"</string>
+    <string name="tab_sms_reject_title">"短信拦截"</string>
+    <string name="reject_title">"防打扰"</string>
+    <string name="settings_intelligent_reject_title">"智能拦截"</string>
+    <string name="settings_intelligent_reject_subtitle">"根据第三方库拦截垃圾短信"</string>
+    <string name="black_list_empty">"暂无黑名单"</string>
+
+    <string name="new_mark">New mark</string>
+    <string name="up_mark">Mark will up</string>
+    <string name="add_to_black_over">Have Added To Black Lists</string><string name="add_black_title">Interceptor</string>
+    <string name="add_black_content">“Click to add <xliff:g id="BLACK_NAME">%s</xliff:g> to blacklist”</string>
+    <string name="hangup_black_many_content">“<xliff:g id="BLACK_TIMES">%s</xliff:g> new intercept(s), click to check”</string>
+    <string name="hangup_black_many_content_phone">"<xliff:g id="BLACK_TIMES">%s</xliff:g> new call intercept(s), click to check"</string>
+    <string name="hangup_black_many_content_sms">"<xliff:g id="BLACK_TIMES">%s</xliff:g> new message intercept(s), click to check"</string>
+
+    <string name="black_add_manually_discard_title">"舍弃内容"</string>
+    <string name="black_add_manually_discard_content">"内容已更改，确定舍弃吗？"</string>
+    <string name="black_remove_dialog_multi_message">"确定将选中的号码移出黑名单吗？"</string>
+    <string name="black_remove_dialog_message">"确定将此号码移出黑名单吗？"</string>
+    <string name="recove_reject_record">"同时恢复拦截记录"</string>
+    <string name="delete_reject">"删除记录"</string>
+    <string name="delete_sms_reject_dialg_msg">"确定删除此短信拦截记录吗？"</string>
+    <string name="delete_calllog_reject_dialg_msg">"确定删除此来电拦截记录吗？"</string>
+    <string name="multi_delete_calllog_reject_dialg_msg">"确定删除选中的来电拦截记录吗？"</string>
+    <string name="multi_delete_sms_reject_dialg_msg">"确定删除选中的短信拦截记录吗？"</string>
+    <string name="multi_recover_sms_reject_dialg_msg">"确定将选中的拦截记录恢复到短信收件箱吗？"</string>
+    <string name="recover_sms_dlg_title">"恢复短信"</string>
+    <string name="no_reject_success_toast">取消拦截成功</string>
+
+    <string name="delete_record_success_toast">记录删除成功</string>
+    <string name="recover_record_success_toast">记录恢复成功</string>
+    <string name="remove">remove</string>
+    <string name="duplicated_save_tip">此号码已存在黑名单，是否要覆盖原号码？</string>
+</resources>

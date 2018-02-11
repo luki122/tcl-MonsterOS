@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="send_orange_color">#FF9900</color>
+    <color name="receive_blue_color">#4FC3F7</color>
+    <color name="actionbar_color">#8055BA</color>
+    <color name="background_color">#F7F7F7</color>
+    <color name="button_text_color">#db000000</color>
+    <color name="activity_send_or_receive_text_color">#4c000000</color>
+
+    <color name="contents_text">#ff000000</color>
+    <color name="encode_view">#33000000</color>
+    <color name="possible_result_points">#c0ffbd21</color> <!-- Android standard ICS color -->
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="result_points">#c099cc00</color> <!-- Android standard ICS color -->
+    <color name="result_text">#ffffffff</color>
+    <color name="result_view">#b0000000</color>
+    <color name="status_text">#ffffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="viewfinder_laser">#ffcc0000</color> <!-- Android standard ICS color -->
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="common_text_color">#66000000</color>
+    <color name="progress_color">#b1cdf0</color>
+    <color name="note_text_color">#4c000000</color>
+    <color name="dialog_bg_color">#fffcfcfc</color>
+    <color name="low_battery_text_color">#99000000</color>
+    <color name="text_background_color">#55ffffff</color>
+    <color name="button_disable_text_color">#33000000</color>
+    <color name="rippelColor">#0099CC</color>
+    <color name="button_press_color">#aaaaaa</color>
+    <color name="nav_bg_color">#fff0f0f0</color>
+    <color name="connectlColor">#0099CC</color>
+    <color name="item_text_color">#DB000000</color>
+    <color name="item_bottom_text_color">#4C000000</color>
+    <color name="status_text_color">#4c000000</color>
+</resources>

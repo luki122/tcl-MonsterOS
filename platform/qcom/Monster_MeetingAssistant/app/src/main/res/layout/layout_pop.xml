@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:paddingBottom="2dp">
+
+    <ListView
+        android:id="@+id/list_view_in_pop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

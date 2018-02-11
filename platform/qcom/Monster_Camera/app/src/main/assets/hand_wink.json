@@ -1,0 +1,143 @@
+{
+  "start":"start",
+  "name":"HandWink",
+  "state":[
+    {
+      "id":"start",
+      "transition":[
+        {
+          "to":"hand_opened",
+          "notify":{
+            "text":"open_hand"
+          },
+          "criteria":[
+            {
+              "pose":{
+                "type":"open_hand",
+                "set_id":"the_hand"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id":"hand_opened",
+      "transition":[
+        {
+          "to":"hand_opened",
+          "criteria":[
+            {
+              "pose":{
+                "type":"open_hand",
+                "id":"the_hand"
+              }
+            }
+          ]
+        },
+        {
+          "to":"hand_closed",
+          "notify":{
+            "text":"closed_hand"
+          },
+          "criteria":[
+            {
+              "pose":{
+                "type":"closed_hand",
+                "id":"the_hand"
+              }
+            }
+          ]
+        },
+        {
+          "to":"start",
+          "notify": {
+            "text": "open_hand_detection_lost"
+          }
+        }
+      ]
+    },
+    {
+      "id":"hand_closed",
+      "transition":[
+        {
+          "to":"hand_closed",
+          "criteria":[
+            {
+              "pose":{
+                "type":"closed_hand",
+                "id":"the_hand"
+              }
+            }
+          ]
+        },
+        {
+          "to":"hand_wink",
+          "notify":{
+            "text":"hand_wink"
+          },
+          "criteria":[
+            {
+              "pose":{
+                "type":"open_hand",
+                "id":"the_hand"
+              }
+            }
+          ]
+        },
+        {
+          "to":"start",
+          "notify": {
+            "text": "closed_hand_detection_lost"
+          }
+        }
+      ]
+    },
+    {
+      "id":"hand_wink",
+      "transition":[
+        {
+          "to": "hand_opened",
+          "notify": {
+            "text": "open_hand"
+          },
+          "criteria": [
+            {
+              "timeout": 300
+            }
+          ]
+        },
+        {
+          "to":"hand_wink",
+          "reset_timeout": false,
+          "criteria":[
+            {
+              "pose":{
+                "type":"closed_hand",
+                "id":"the_hand"
+              }
+            }
+          ]
+        },
+        {
+          "to":"hand_wink",
+          "reset_timeout": false,
+          "criteria":[
+            {
+              "pose":{
+                "type":"open_hand",
+                "id":"the_hand"
+              }
+            }
+          ]
+        },
+        {
+          "to":"start",
+          "notify": {
+            "text": "detection_lost"
+          }
+        }
+      ]
+    }
+  ]
+}

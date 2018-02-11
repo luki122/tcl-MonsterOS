@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <mst.widget.toolbar.Toolbar
+        android:id="@+id/photo_preview_page_toolbar"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:background="@color/colorPrimaryDark"
+        android:layout_height="?android:attr/actionBarSize">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingRight="@dimen/layout_common_20dp">
+
+            <ImageButton
+                android:id="@+id/photo_preview_page_back_btn"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/abc_ic_ab_back_material" />
+
+
+            <TextView
+                android:fontFamily="monster-normal"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textSize="@dimen/font_size_14sp"
+                android:textColor="@color/black_86opacity"
+                android:layout_centerInParent="true"
+                android:id="@+id/picture_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+    </mst.widget.toolbar.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_below="@id/photo_preview_page_toolbar"
+        android:layout_above="@+id/photo_preview_delete_layout">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/black_13opacity" />
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewPager"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/black_13opacity" />
+    </LinearLayout>
+
+    <mst.view.menu.bottomnavigation.BottomNavigationView
+        android:id="@+id/photo_preview_delete_layout"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:layout_gravity="bottom"
+        android:background="@color/colorPrimaryDark"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>

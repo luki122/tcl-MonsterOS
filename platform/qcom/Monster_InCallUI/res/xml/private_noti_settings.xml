@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <com.mst.privacy.PrivacyRadioPreference
+        android:key="private_radio_2"
+        android:persistent="false"
+        android:title="@string/private_noti_radio2_title" />
+
+    <Preference
+        android:icon="@drawable/private_setting_ring_icon"
+        android:key="private_radio_text_1"
+        android:persistent="false"
+        android:summary="@string/private_incoming_noti1_summary"
+        android:title="@string/private_incoming_noti1_title" />
+    <Preference
+        android:icon="@drawable/private_setting_missed_icon"
+        android:key="private_radio_text_2"
+        android:persistent="false"
+        android:summary="@string/private_miss_noti1_summary"
+        android:title="@string/private_miss_noti1_title" />
+    <Preference
+        android:icon="@drawable/private_setting_calllog_icon"
+        android:key="private_radio_text_3"
+        android:persistent="false"
+        android:summary="@string/private_calllog_noti1_summary"
+        android:title="@string/private_calllog_noti1_title" />
+
+    <com.mst.privacy.PrivacyRadioPreference
+        android:key="private_radio_1"
+        android:persistent="false"
+        android:title="@string/private_noti_radio1_title" />
+
+    <Preference
+        android:icon="@drawable/private_setting_hang_icon"
+        android:key="private_radio_text_4"
+        android:persistent="false"
+        android:summary="@string/private_incoming_noti2_summary"
+        android:title="@string/private_incoming_noti1_title" />
+    <Preference
+        android:icon="@drawable/private_setting_noti_icon"
+        android:key="private_radio_text_5"
+        android:persistent="false"
+        android:summary="@string/private_miss_noti1_summary"
+        android:title="@string/private_incoming_noti2_title" />
+
+    <Preference
+        android:icon="@drawable/private_setting_calllog_icon"
+        android:key="private_radio_text_6"
+        android:persistent="false"
+        android:summary="@string/private_calllog_noti1_summary"
+        android:title="@string/private_calllog_noti1_title" />
+
+</PreferenceScreen>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cannot_specify_an_empty_name_for_playlist">"Çalma listesi adı boş bırakılamaz"</string>
+    <string name="cross_dj_saturated_storage_not_enough_free_space_to_record_your_mix">"Miksajınızı kaydetmek için yeterli boş alan yok."</string>
+    <string name="cross_dj_saturated_storage_your_recording_might_stop_soon_because_no_more_free_space_is_available">"Kullanılabilir alan kalmadığından, kaydınız yakında durdurulabilir."</string>
+    <string name="invalid_drm_file">"Dosyada geçerli DRM yetkisi yok!"</string>
+    <string name="mobiledata_turnoff_btn">"Devre dışı bırak"</string>
+    <string name="never_show_it_again">"Bir daha gösterme"</string>
+    <string name="no_error">"Hata yok"</string>
+    <string name="recording_reached_max_duration">"Kayıt, maksimum süresine ulaştı. Lütfen tercihlerinizi kontrol edin."</string>
+    <string name="recording_soon_to_reach_max_duration">"Kayıt yakında maksimum süresine ulaşacak. Lütfen tercihlerinizi kontrol edin."</string>
+    <string name="scratching_is_disabled_in_no_mix_mode">"Yalnızca DJ modunda scratch atabilirsiniz."</string>
+    <string name="sign_up">"Kaydol"</string>
+    <string name="the_external_memory_storage_is_not_mounted">"Harici bellek depolama birimi takılı değil. USB Bellek Depolama Birimini devre dışı bırakmanız gerekebilir."</string>
+    <string name="there_s_not_enough_space_in_your_internal_storage_try_to_do_some_clean_up">"Dahili depolama biriminizde yeterli boş alan yok (bir miktar alan boşaltmayı deneyin)"</string>
+</resources>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+    <cn.tcl.transfer.fasttransfer.RippleBackground
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/content"
+        app:rb_color="#000000"
+        app:rb_radius="40dp"
+        app:rb_rippleAmount="4"
+        app:rb_duration="3000"
+        app:rb_scale="5"
+        app:rb_type="strokeRipple"
+        app:rb_strokeWidth="1px">
+        <cn.tcl.transfer.fasttransfer.ConnectBackground
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/connect"
+            app:p_color="#19b4bb"
+            android:background="@color/transparent"
+            />
+        <Button
+            android:id="@+id/centerImage"
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:layout_centerInParent="true"
+            android:textSize="16sp"
+            android:fontFamily="monster-normal"
+            android:textColor="@color/status_text"
+            android:background="@drawable/scan_button"
+            android:lines="1"
+            android:ellipsize="end"/>
+        <TextView
+            android:id="@+id/scan_state"
+            android:layout_below="@id/centerImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="45dp"
+            android:layout_centerHorizontal="true"
+            android:textSize="@dimen/activity_send_or_receive_text_size"
+            android:fontFamily="monster-normal"
+            android:textColor="@color/button_text_color"
+            android:text="@string/qq_text_scanning"
+            android:background="@color/transparent"/>
+        <include layout="@layout/layout_device_item"
+            android:id="@+id/device_area_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="63dp"
+            android:layout_marginTop="137dp"
+            android:visibility="gone"
+            android:background="@color/transparent"/>
+        <include layout="@layout/layout_device_item"
+            android:id="@+id/device_area_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="33dp"
+            android:layout_marginTop="257dp"
+            android:visibility="gone"
+            android:background="@color/transparent"/>
+        <include layout="@layout/layout_device_item"
+            android:id="@+id/device_area_three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="60dp"
+            android:layout_marginTop="62dp"
+            android:visibility="gone"
+            android:background="@color/transparent"/>
+        <include layout="@layout/layout_device_item"
+            android:id="@+id/device_area_four"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="130dp"
+            android:layout_marginTop="347dp"
+            android:visibility="gone"
+            android:background="@color/transparent"/>
+        <include layout="@layout/layout_device_item"
+            android:id="@+id/device_area_five"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="358dp"
+            android:visibility="gone"
+            android:background="@color/transparent"/>
+    </cn.tcl.transfer.fasttransfer.RippleBackground>
+</RelativeLayout>

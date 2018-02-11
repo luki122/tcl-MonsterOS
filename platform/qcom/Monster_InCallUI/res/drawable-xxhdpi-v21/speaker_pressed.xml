@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="40dp"
+    android:viewportHeight="120"
+    android:viewportWidth="120"
+    android:width="40dp" >
+
+    <group
+        android:name="Phone-通话中"
+        android:translateX="-775.000000"
+        android:translateY="-838.000000" >
+        <group
+            android:name="2"
+            android:translateY="-3.000000" >
+            <group
+                android:translateX="179.000000"
+                android:translateY="841.000000" >
+                <group
+                    android:name="免提"
+                    android:translateX="596.000000" >
+                    <path
+                        android:name="Stroke-1"
+                        android:fillType="evenOdd"
+                        android:pathData="M42.4031304,50.2035978 C38.0564249,52.8977207 33.0160652,50.2035978
+33.0160652,50.2035978 C32.7853043,50.2035978 32.597587,50.3901196
+32.597587,50.6220761 L32.597587,68.5688152 C32.597587,68.7995761
+32.7853043,68.9860978 33.0160652,68.9860978 L41.6128043,68.9860978
+L57.8007391,85.1465326 C58.3232391,85.6690326 59.2163913,85.2983804
+59.2163913,84.5594674 L59.2163913,35.4289239 C59.2163913,34.6900109
+58.3244348,34.3205543 57.8007391,34.8418587 C57.8007391,34.8418587
+46.749836,47.5094749 42.4031304,50.2035978 Z"
+                        android:strokeColor="@color/icon_pressed_color"
+                        android:strokeLineCap="round"
+                        android:strokeWidth="3" />
+                    <path
+                        android:name="Stroke-3"
+                        android:fillType="evenOdd"
+                        android:pathData="M78.7557391,77.7535761 C83.6363913,73.3870543 86.7247609,67.059663
+86.7247609,59.99575 C86.7247609,52.9306413 83.6351957,46.6020543
+78.7533478,42.2355326"
+                        android:strokeColor="@color/icon_pressed_color"
+                        android:strokeLineCap="round"
+                        android:strokeWidth="3" />
+                    <path
+                        android:name="Stroke-5"
+                        android:fillType="evenOdd"
+                        android:pathData="M68.3643261,50.2496304 C71.777913,52.1770217 74.1118261,55.7950652
+74.1118261,59.9953913 C74.1118261,64.1945217 71.7803043,67.8125652
+68.367913,69.7399565"
+                        android:strokeColor="@color/icon_pressed_color"
+                        android:strokeLineCap="round"
+                        android:strokeWidth="3" />
+                </group>
+            </group>
+        </group>
+    </group>
+
+</vector>

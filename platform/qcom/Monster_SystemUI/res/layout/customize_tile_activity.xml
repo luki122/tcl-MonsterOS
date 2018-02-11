@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.android.systemui.qs.customize.MstQSCustomizer
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffffff"
+        android:id="@+id/customize_tile_edit"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+    </com.android.systemui.qs.customize.MstQSCustomizer>
+
+    <!--android:background="@drawable/qs_customizer_background"-->
+
+</FrameLayout>

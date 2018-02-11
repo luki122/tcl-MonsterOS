@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_favorite_playlist"
+        android:title="@string/favorite_playlist"
+        app:showAsAction="withText|ifRoom"/>
+    <item
+        android:id="@+id/action_play_next"
+        android:title="@string/play_next"
+        app:showAsAction="withText|ifRoom"/>
+    <item
+        android:id="@+id/action_download"
+        android:title="@string/download"
+        app:showAsAction="withText|ifRoom"/>
+    <item
+        android:id="@+id/action_add_to_song_list"
+        android:title="@string/add_to_song_list"
+        app:showAsAction="withText|ifRoom"/>
+
+    <item
+        android:id="@+id/action_go_to_artist"
+        android:title="@string/go_to_artist"
+        app:showAsAction="withText|ifRoom"/>
+    <item
+        android:id="@+id/action_go_to_album"
+        android:title="@string/go_to_album"
+        app:showAsAction="withText|ifRoom"/>
+
+    <item
+        android:id="@+id/action_add_to_play_queue"
+        android:title="@string/add_to_play_queue"
+        app:showAsAction="withText|ifRoom"/>
+
+</menu>

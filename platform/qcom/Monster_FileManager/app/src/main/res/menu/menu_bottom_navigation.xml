@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/bottom_delete"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_btn_delete" />
+
+    <item
+        android:id="@+id/bottom_copy"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_btn_copy" />
+
+    <item
+        android:id="@+id/bottom_cut"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_btn_cut" />
+
+    <item
+        android:id="@+id/bottom_share"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_btn_share" />
+
+    <item
+        android:id="@+id/bottom_cancel"
+        android:icon="@drawable/ic_btn_cancel"
+        android:visibility="gone" />
+
+    <item
+        android:id="@+id/bottom_paste"
+        android:icon="@drawable/ic_btn_paste"
+        android:visibility="gone" />
+
+    <item
+        android:id="@+id/bottom_move_safe"
+        android:title="@string/chip_encryption"
+        android:showAsAction="never"/>
+
+    <item
+        android:id="@+id/bottom_rename"
+        android:title="@string/rename"
+        android:showAsAction="never"/>
+
+    <item
+        android:id="@+id/bottom_details"
+        android:title="@string/menu_detail"
+        android:showAsAction="never"/>
+
+</menu>

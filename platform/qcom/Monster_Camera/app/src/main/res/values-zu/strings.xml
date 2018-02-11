@@ -1,0 +1,1068 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"Ikhamela"</string>
+	<!---->
+	<string name="gallery_app_name">"Igalari"</string>
+	<!---->
+	<string name="video_camera_label">"Vidiyo-khamela"</string>
+	<!-- no translation found for details_ms -->
+	<skip />
+	<!-- no translation found for details_hms -->
+	<skip />
+	<!---->
+	<string name="set_image">"Setha isithombe njenge"</string>
+	<!---->
+	<string name="delete">"Susa"</string>
+	<!---->
+	<string name="share">"Yabelana"</string>
+	<!-- no translation found for share_panorama -->
+	<skip />
+	<!-- no translation found for share_as_photo -->
+	<skip />
+	<!---->
+	<string name="deleted">"Susiwe"</string>
+	<!---->
+	<string name="undo">"Yekisa"</string>
+	<!---->
+	<string name="details">"Imininingwane"</string>
+	<!---->
+	<string name="close">"Vala"</string>
+	<!---->
+	<string name="show_on_map">"Bonisa kwimephu"</string>
+	<!---->
+	<string name="rotate_left">"Phendukisa ngakwesokunxele"</string>
+	<!---->
+	<string name="rotate_right">"Phendukisela ngakwesokudla"</string>
+	<!---->
+	<string name="edit">"Hlela"</string>
+	<!---->
+	<string name="crop_action">"Nqampuna"</string>
+	<!---->
+	<string name="trim_action">"Sika"</string>
+	<!---->
+	<string name="set_as">"Hlela njenge"</string>
+	<!---->
+	<string name="video_err">"Ayikwazi ukudlala ividiyo"</string>
+	<!---->
+	<string name="title">"Isihloko"</string>
+	<!-- no translation found for description -->
+	<skip />
+	<!---->
+	<string name="time">"Isikhathi"</string>
+	<!---->
+	<string name="location">"Indawo"</string>
+	<!---->
+	<string name="path">"Indlela"</string>
+	<!---->
+	<string name="width">"Ububanzi"</string>
+	<!---->
+	<string name="height">"Ubude"</string>
+	<!---->
+	<string name="orientation">"Umumo"</string>
+	<!---->
+	<string name="duration">"Ubude besikhathi"</string>
+	<!---->
+	<string name="mimetype">"Uhlobo lwe-MIME"</string>
+	<!---->
+	<string name="file_size">"Usayizi wefayela"</string>
+	<!---->
+	<string name="maker">"Umenzi"</string>
+	<!---->
+	<string name="model">"Imodeli"</string>
+	<!---->
+	<string name="flash">"Ifuleshi"</string>
+	<!---->
+	<string name="aperture">"Imbobo"</string>
+	<!---->
+	<string name="focal_length">"Ubude befokhasi"</string>
+	<!---->
+	<string name="white_balance">"Ukulingana okumhlophe"</string>
+	<!---->
+	<string name="exposure_time">"Isikhathi esisobala"</string>
+	<!---->
+	<string name="iso">"I-ISO"</string>
+	<!-- no translation found for unit_mm -->
+	<skip />
+	<!---->
+	<string name="manual">"Ngokulawulwa"</string>
+	<!---->
+	<string name="auto">"Okuzenzakalelayo"</string>
+	<!-- no translation found for flash_on -->
+	<skip />
+	<!---->
+	<string name="flash_off">"Ayikho ifuleshi"</string>
+	<!-- no translation found for unknown -->
+	<skip />
+	<!-- no translation found for try_to_set_local_album_available_offline -->
+	<skip />
+	<!---->
+	<string name="please_wait">"Linda kancane"</string>
+	<!---->
+	<string name="camera_error_title">"Iphutha lekhamela"</string>
+	<!---->
+	<string name="cannot_connect_camera">"Ayikwazi ukuxhuma kukhamera."</string>
+	<!---->
+	<string name="camera_disabled">"Ikhamela ikhutshaziwe ngenxa yezinqubomgomo zokuphepha."</string>
+	<!---->
+	<string name="wait">"Sicela ulinde..."</string>
+	<!---->
+	<string name="no_storage" product="default">"Faka ikhadi le-SD ngaphambi kokusebenzisa ikhamera"</string>
+	<!---->
+	<string name="preparing_sd" product="default">"Ilungiselela ikhadi le-SD\u2026"</string>
+	<!---->
+	<string name="access_sd_fail" product="default">"Ayikwazanga ukufinyelela ikhadi le-SD."</string>
+	<!---->
+	<string name="time_lapse_title">"Ukurekhoda ukuphela kwesikhathi"</string>
+	<!-- no translation found for capturing -->
+	<skip />
+	<!---->
+	<string name="pref_camera_id_title">"Khetha ikhamela"</string>
+	<!---->
+	<string name="pref_camera_id_entry_back">"Emuva"</string>
+	<!---->
+	<string name="pref_camera_id_entry_front">"Phambili"</string>
+	<!---->
+	<string name="pref_camera_save_location_title">"Londoloza indawo"</string>
+	<!-- no translation found for pref_camera_location_label -->
+	<skip />
+	<!---->
+	<string name="pref_camera_timer_title">"Isikali sesikhathi esibala ngokwehla"</string>
+	<!-- no translation found for pref_camera_timer_sound_default -->
+	<skip />
+	<!---->
+	<string name="pref_camera_timer_sound_title">"Bhipha ngesikhathi sokubala ngokwehla"</string>
+	<!-- no translation found for setting_off -->
+	<skip />
+	<!-- no translation found for setting_on -->
+	<skip />
+	<!---->
+	<string name="pref_video_quality_title">"Ikhwalithi yevidiyo"</string>
+	<!-- no translation found for pref_video_time_lapse_frame_interval_title -->
+	<skip />
+	<!---->
+	<string name="pref_camera_settings_category">"Izilungiselelo zekhamela"</string>
+	<!---->
+	<string name="pref_camcorder_settings_category">"Izilungiselelo zevidiyo-khamela"</string>
+	<!---->
+	<string name="pref_camera_picturesize_title">"Usayizi wesithombe"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_large">"Okukhulu"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_medium">"Okulingene"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_small">"Okuncane"</string>
+	<!---->
+	<string name="pref_camera_focusmode_title">"Imodi yefokhasi"</string>
+	<!---->
+	<string name="pref_camera_focusmode_entry_auto">"Okuzenzakalelayo"</string>
+	<!---->
+	<string name="pref_camera_focusmode_entry_infinity">"Kwaphakade"</string>
+	<!---->
+	<string name="pref_camera_focusmode_entry_macro">"Imakhro"</string>
+	<!---->
+	<string name="pref_camera_focusmode_label_auto">"OKUZENZAKALELAYO"</string>
+	<!---->
+	<string name="pref_camera_focusmode_label_infinity">"Okungapheleli"</string>
+	<!---->
+	<string name="pref_camera_focusmode_label_macro">"I-Macro"</string>
+	<!---->
+	<string name="pref_camera_flashmode_title">"Imodi yefuleshi"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label">"IMODI YEFULESHI"</string>
+	<!---->
+	<string name="pref_camera_flashmode_entry_auto">"Okuzenzakalelayo"</string>
+	<!---->
+	<string name="pref_camera_flashmode_entry_on">"Vuliwe"</string>
+	<!---->
+	<string name="pref_camera_flashmode_entry_off">"Valiwe"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label_auto">"IFULESHI EZENZAKALELAYO"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label_on">"IFULESHI IVULIWE"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label_off">"IFULESHI IVALIWE"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_title">"Ukulingana okumhlophe"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label">"Ukulingana okumhlophe"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_auto">"Okuzenzakalelayo"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_incandescent">"Mhlophe komlilo"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_daylight">"Emini"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_fluorescent">"Ukukhanya okumibalabala"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_cloudy">"Kunamafu"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_auto">"Okuzenzakalelayo"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_incandescent">"Okumhlophe okomlilo"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_daylight">"Imini"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_fluorescent">"Ukukhanya okumibalabala"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_cloudy">"Kunamafu"</string>
+	<!---->
+	<string name="pref_camera_scenemode_title">"Imodi yesigcawu"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_auto">"Okuzenzakalelayo"</string>
+	<!-- no translation found for pref_camera_scenemode_entry_hdr_plus -->
+	<skip />
+	<!-- no translation found for pref_camera_scenemode_entry_hdr -->
+	<skip />
+	<!-- no translation found for pref_camera_scenemode_entry_turn_hdr_plus_on -->
+	<skip />
+	<!-- no translation found for pref_camera_scenemode_entry_turn_hdr_plus_off -->
+	<skip />
+	<!-- no translation found for pref_camera_scenemode_entry_turn_hdr_on -->
+	<skip />
+	<!-- no translation found for pref_camera_scenemode_entry_turn_hdr_off -->
+	<skip />
+	<!---->
+	<string name="pref_camera_scenemode_entry_action">"Isenzo"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_night">"Ebusuku"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_sunset">"Ukushona kwelanga"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_party">"Iphathi"</string>
+	<!-- no translation found for pref_camera_scenemode_label_auto -->
+	<skip />
+	<!-- no translation found for pref_camera_scenemode_label_action -->
+	<skip />
+	<!-- no translation found for pref_camera_scenemode_label_night -->
+	<skip />
+	<!-- no translation found for pref_camera_scenemode_label_sunset -->
+	<skip />
+	<!-- no translation found for pref_camera_scenemode_label_party -->
+	<skip />
+	<!-- no translation found for pref_camera_countdown_label_off -->
+	<skip />
+	<!-- no translation found for pref_camera_countdown_label_one -->
+	<skip />
+	<!-- no translation found for pref_camera_countdown_label_three -->
+	<skip />
+	<!---->
+	<string name="pref_camera_countdown_label_five">"Amasekhondi angu-5"</string>
+	<!-- no translation found for pref_camera_countdown_label_ten -->
+	<skip />
+	<!-- no translation found for pref_camera_countdown_label_fifteen -->
+	<skip />
+	<!---->
+	<string name="not_selectable_in_scene_mode">"Ayikhetheki kumodi yesigcawu."</string>
+	<!---->
+	<string name="pref_exposure_title">"Isibonelelo"</string>
+	<!---->
+	<string name="pref_exposure_label">"Ukuchayeka"</string>
+	<!-- no translation found for pref_camera_hdr_default -->
+	<skip />
+	<!-- no translation found for pref_camera_hdr_plus_default -->
+	<skip />
+	<!---->
+	<string name="pref_camera_hdr_label">"I-HDR"</string>
+	<!-- no translation found for pref_camera_id_label_back -->
+	<skip />
+	<!-- no translation found for pref_camera_id_label_front -->
+	<skip />
+	<!---->
+	<string name="dialog_ok">"KULUNGILE"</string>
+	<!---->
+	<string name="dialog_cancel">"Khansela"</string>
+	<!---->
+	<string name="spaceIsLow_content" product="default">"Ikhadi lakho le-SD liphelelwa isikhala. Shintsha amasethingi ekhwalithi noma sula ezinye izithombe noma amanye amafayela."</string>
+	<!---->
+	<string name="phone_storage_low" product="default">"Isitoreji sefoni siphelelwa isikhala. Shintsha amasethingi ekhwalithi noma sula ezinye izithombe noma amanye amafayela."</string>
+	<!---->
+	<string name="video_reach_size_limit">"Umkhwawulo wosayizi ufinyelelwe."</string>
+	<!---->
+	<string name="video_record_start_failed">"Ayikwazanga ukuqala ukurekhoda"</string>
+	<!---->
+	<string name="pano_too_fast_prompt">"Ishesha kakhulu"</string>
+	<!---->
+	<string name="pano_dialog_prepare_preview">"Ilungiselela i-panorama"</string>
+	<!---->
+	<string name="pano_dialog_panorama_failed">"Yehlulekile ukulondoloza i-panaroma."</string>
+	<!---->
+	<string name="pano_dialog_title">"I-Panorama"</string>
+	<!---->
+	<string name="pano_capture_indication">"Ishutha i-panorama"</string>
+	<!---->
+	<string name="pano_dialog_waiting_previous">"Ilinde i-panaroma yangaphambilini"</string>
+	<!---->
+	<string name="pano_review_saving_indication_str">"Iyalondoloza..."</string>
+	<!---->
+	<string name="pano_review_rendering">"Kufakwa i-panorama"</string>
+	<!---->
+	<string name="tap_to_focus">"Thinta ukuze ugxilise."</string>
+	<!---->
+	<string name="pref_video_effect_title">"Imithelela"</string>
+	<!---->
+	<string name="effect_none">"Lutho"</string>
+	<!---->
+	<string name="effect_goofy_face_squeeze">"Shutheka"</string>
+	<!---->
+	<string name="effect_goofy_face_big_eyes">"Amehlo amakhulu"</string>
+	<!---->
+	<string name="effect_goofy_face_big_mouth">"Umlomo omkhulu"</string>
+	<!---->
+	<string name="effect_goofy_face_small_mouth">"Umlomo omncane"</string>
+	<!---->
+	<string name="effect_goofy_face_big_nose">"Ikhala elikhulu"</string>
+	<!---->
+	<string name="effect_goofy_face_small_eyes">"Amehlo amancane"</string>
+	<!---->
+	<string name="effect_backdropper_space">"Esikhaleni"</string>
+	<!---->
+	<string name="effect_backdropper_sunset">"Ukushona kwelanga"</string>
+	<!---->
+	<string name="effect_backdropper_gallery">"Ividiyo yakho"</string>
+	<!---->
+	<string name="video_snapshot_hint">"Thinta ukuze uthathe isithombe ngenkathi urekhoda."</string>
+	<!---->
+	<string name="video_recording_started">"Ukurekhoda ngevidiyo kuqalile."</string>
+	<!---->
+	<string name="video_recording_stopped">"Ukurekhoda ngevidiyo kumile."</string>
+	<!---->
+	<string name="clear_effects">"Sula imithelela"</string>
+	<!---->
+	<string name="effect_silly_faces">"UBUSO OBUNGASILE"</string>
+	<!---->
+	<string name="effect_background">"INGEMUVA"</string>
+	<!-- no translation found for accessibility_shutter_button -->
+	<skip />
+	<!---->
+	<string name="accessibility_cancel_button">"Khansela"</string>
+	<!---->
+	<string name="accessibility_menu_button">"Inkinobho yemenyu"</string>
+	<!-- no translation found for accessibility_check_box -->
+	<skip />
+	<!---->
+	<string name="accessibility_switch_to_camera">"Shintshela esithombeni"</string>
+	<!-- no translation found for accessibility_switch_to_video -->
+	<skip />
+	<!---->
+	<string name="accessibility_switch_to_panorama">"Shintshela kwi-panorama"</string>
+	<!-- no translation found for accessibility_switch_to_photo_sphere -->
+	<skip />
+	<!-- no translation found for accessibility_switch_to_gcam -->
+	<skip />
+	<!---->
+	<string name="accessibility_switch_to_refocus">"Shintshela ekuphindeni ugxilise"</string>
+	<!-- no translation found for accessibility_review_cancel -->
+	<skip />
+	<!---->
+	<string name="accessibility_review_ok">"Ukubuyekeza kuqedile"</string>
+	<!---->
+	<string name="accessibility_review_retake">"Buyekeza ukuphinda kuthathwe"</string>
+	<!---->
+	<string name="accessibility_mode_options">"Izinketho"</string>
+	<!---->
+	<string name="accessibility_mode_list_hidden">"Uhlu lwemodi luvaliwe"</string>
+	<!---->
+	<string name="accessibility_mode_list_shown">"Uhlu lwemodi luvuliwe"</string>
+	<!---->
+	<string name="media_accessibility_peek">"Kuthathwe ukushutha"</string>
+	<!---->
+	<string name="photo_accessibility_peek">"Izithombe zithathiwe"</string>
+	<!---->
+	<string name="video_accessibility_peek">"Amavidiyo athathiwe"</string>
+	<!---->
+	<string name="accessibility_unlock_to_camera">"Ukuvula kuKhamela"</string>
+	<!---->
+	<string name="media_date_content_description">"Imidiya ithathwe ku-%s"</string>
+	<!---->
+	<string name="photo_date_content_description">"Isithombe sithathwe ku-%s"</string>
+	<!---->
+	<string name="video_date_content_description">"Ividiyo ithathwe ku-%s"</string>
+	<!---->
+	<string name="panorama_date_content_description">"Iphanorama ithathwe ku-%s"</string>
+	<!---->
+	<string name="photosphere_date_content_description">"I-Photo sphere ethathiwe ivuliwe %s"</string>
+	<!---->
+	<string name="refocus_date_content_description">"Ukufiphalisa ilensi kuthathwe ku-%s"</string>
+	<!---->
+	<string name="media_processing_content_description">"Ukucutshungulwa kwabezindaba"</string>
+	<!---->
+	<string name="accessibility_mode_list_toggle">"Shintsha uhlu lwemodi"</string>
+	<!---->
+	<string name="btn_mode_list_toggle">"Uhlu lwemodi"</string>
+	<!---->
+	<string name="accessibility_filmstrip_toggle">"Shintsha umsweswe wefilimu"</string>
+	<!---->
+	<string name="btn_filmstrip_toggle">"Umsweswe wefilimu"</string>
+	<!-- no translation found for capital_on -->
+	<skip />
+	<!---->
+	<string name="capital_off">"VALIWE"</string>
+	<!---->
+	<string name="video_control_play">"Dlala ividiyo"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_off">"Valiwe"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_500">"Amasekhondi angu-0.5"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1000">"1 isekhondi"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1500">"1.5 amasekhondi"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_2000">"2 amasekhondi"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_2500">"2.5 amasekhondi"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_3000">"3 amasekhondi"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_4000">"4 amasekhondi"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_5000">"5 amasekhondi"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_6000">"6 amasekhondi"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_10000">"10 amasekhondi"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_12000">"12 amasekhondi"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_15000">"15 amasekhondi"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_24000">"24 amasekhondi"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_30000">"Imizuzu engu-0.5"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_60000">"1 iminithi"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_90000">"1.5 amaminithi"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_120000">"2 amaminithi"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_150000">"2.5 amaminithi"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_180000">"3 amaminithi"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_240000">"4 amaminithi"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_300000">"5 amaminithi"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_360000">"6 amaminithi"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_600000">"10 amaminithi"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_720000">"12 amaminithi"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_900000">"15 amaminithi"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1440000">"24 amaminithi"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1800000">"Ihora elingu-0.5"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_3600000">"1 ihora"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_5400000">"Amahora angu-1.5"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_7200000">"2 amahora"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_9000000">"2.5 amahora"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_10800000">"3 amahora"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_14400000">"4 amahora"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_18000000">"5 amahora"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_21600000">"6 amahora"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_36000000">"10 amahora"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_43200000">"12 amahora"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_54000000">"15 amahora"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_86400000">"24 amahora"</string>
+	<!---->
+	<string name="time_lapse_seconds">"amasekhondi"</string>
+	<!---->
+	<string name="time_lapse_minutes">"amaminithi"</string>
+	<!---->
+	<string name="time_lapse_hours">"amahora"</string>
+	<!-- no translation found for time_lapse_interval_set -->
+	<skip />
+	<!---->
+	<string name="set_time_interval">"Setha isikhawu sesikhathi"</string>
+	<!---->
+	<string name="set_time_interval_help">"Isici sesikhathi esidlulile sivaliwe. Sivule ukuze usethe isikhawu sesikhathi."</string>
+	<!---->
+	<string name="set_duration">"Setha ubude besikhathi ngamasekhondi"</string>
+	<!---->
+	<string name="count_down_title_text">"Kubalwa ngokwehla kuze kufike ekuthatheni isithombe"</string>
+	<!---->
+	<string name="remember_location_title">"Khumbula izindawo zesithombe?"</string>
+	<!---->
+	<string name="remember_location_prompt">"Maka izithombe zakho namavidiyo ngezindawo lapho ezithathwe khona.\n\nEzinye izinhlelo zokusebenza zingafinyelela lolu lwazi nezithombe zakho ezilondoloziwe."</string>
+	<!---->
+	<string name="remember_location_no">"Cha ngiyabonga"</string>
+	<!---->
+	<string name="remember_location_yes">"Yebo"</string>
+	<!-- no translation found for camera_menu_more_label -->
+	<skip />
+	<!-- no translation found for camera_menu_settings_label -->
+	<skip />
+	<!-- no translation found for create_tiny_planet -->
+	<skip />
+	<!-- no translation found for saving_tiny_planet -->
+	<skip />
+	<!-- no translation found for tiny_planet_zoom -->
+	<skip />
+	<!-- no translation found for tiny_planet_rotate -->
+	<skip />
+	<!---->
+	<string name="photo_editor">"Umhleli wesithombe"</string>
+	<!---->
+	<string name="crop_save">"Londoloza"</string>
+	<!---->
+	<string name="cannot_load_image">"Ayikwazanga ukulayisha isithombe!"</string>
+	<!-- no translation found for switch_photo_filmstrip -->
+	<skip />
+	<!---->
+	<string name="setting_wallpaper">"Isetha isithombe sangemuva"</string>
+	<!---->
+	<string name="mode_settings">"Izilungiselelo"</string>
+	<!---->
+	<string name="mode_camera">"Auto"</string>
+	<!---->
+	<string name="mode_video">"Ividiyo"</string>
+	<!---->
+	<string name="mode_slow_motion">"I-Slo-mo"</string>
+	<!---->
+	<string name="mode_photosphere">"I-Photo sphere"</string>
+	<!---->
+	<string name="mode_timelapse">"Ukuhamba kwesikhathi"</string>
+	<!---->
+	<string name="mode_wideangle">"I-Engeli ebanzi"</string>
+	<!---->
+	<string name="mode_panorama">"I-Panorama"</string>
+	<!---->
+	<string name="mode_refocus">"Ukufiphala kwelensi"</string>
+	<!---->
+	<string name="mode_camera_desc">"Shintshela kwimodi yekhamera"</string>
+	<!---->
+	<string name="mode_video_desc">"Shintshela kwikhamera yevidiyo"</string>
+	<!---->
+	<string name="mode_photosphere_desc">"Shintshela kwimodi ye-photo sphere"</string>
+	<!---->
+	<string name="mode_panorama_desc">"Shintshela kwimodi ye-Panorama"</string>
+	<!---->
+	<string name="mode_slow_motion_desc">"Shintshela kumodi yokunyakaza okungasheshi"</string>
+	<!---->
+	<string name="mode_refocus_desc">"Shintshela kwimodi yokufiphala kwelensi"</string>
+	<!---->
+	<string name="settings_open_desc">"Vula izilungiselelo"</string>
+	<!---->
+	<string name="settings_close_desc">"Vala izilungiselelo"</string>
+	<!---->
+	<string name="hdr_plus_off_desc">"I-HDR+ ivaliwe"</string>
+	<!---->
+	<string name="hdr_plus_on_desc">"I-DHR ivuliwe"</string>
+	<!---->
+	<string name="hdr_off_desc">"I-HDR ivaliwe"</string>
+	<!---->
+	<string name="hdr_on_desc">"I-HDR ivuliwe"</string>
+	<!---->
+	<string name="flash_off_desc">"IFULESHI IVALIWE"</string>
+	<!---->
+	<string name="flash_auto_desc">"IFULESHI EZENZAKALELAYO"</string>
+	<!---->
+	<string name="flash_on_desc">"IFULESHI IVULIWE"</string>
+	<!---->
+	<string name="hdr_plus_flash_off_desc">"I-HDR+ i-flash evaliwe"</string>
+	<!---->
+	<string name="hdr_plus_flash_auto_desc">"I-HDR+ i-flash ezenzakalelayo"</string>
+	<!---->
+	<string name="hdr_plus_flash_on_desc">"I-HDR+ i-flash ivuliwe"</string>
+	<!---->
+	<string name="torch_on_desc">"Ithoshi livuliwe"</string>
+	<!---->
+	<string name="torch_off_desc">"Ithoshi livaliwe"</string>
+	<!---->
+	<string name="camera_id_back_desc">"IKHAMERA ENGEMUVA"</string>
+	<!---->
+	<string name="camera_id_front_desc">"IKHAMERA ENGAPHAMBILI"</string>
+	<!---->
+	<string name="grid_lines_off_desc">"Imigqa yegridi ivaliwe"</string>
+	<!---->
+	<string name="grid_lines_on_desc">"Imigqa yegridi ivuliwe"</string>
+	<!---->
+	<string name="countdown_timer_off">"Isikali sesikhathi sivaliwe"</string>
+	<!---->
+	<string name="countdown_timer_duration_2s">"Ubude besikhathi sesibali-sikhathi sisethelwe imizuzwana engu-52"</string>
+	<!---->
+	<string name="countdown_timer_duration_3s">"Ubude besikhathi sesibali-sikhathi sisethelwe imizuzwana engu-3"</string>
+	<!---->
+	<string name="countdown_timer_duration_5s">"Ubude besikhathi sesibali-sikhathi sisethelwe imizuzwana engu-5"</string>
+	<!---->
+	<string name="countdown_timer_duration_10s">"Ubude besikali sesikhathi sisethelwe kumasekhondi angu-10"</string>
+	<!---->
+	<string name="more_options_desc">"Ezinye izinketho"</string>
+	<!---->
+	<string name="cancel_button_description">"Khansela"</string>
+	<!---->
+	<string name="done_button_description">"Kwenziwe"</string>
+	<!---->
+	<string name="retake_button_description">"Thatha futhi"</string>
+	<!---->
+	<string name="share_button_description">"Yabelana"</string>
+	<!---->
+	<string name="view_button_description">"Buka"</string>
+	<!---->
+	<string name="edit_button_description">"Hlela"</string>
+	<!---->
+	<string name="delete_button_description">"Susa"</string>
+	<!---->
+	<string name="manual_exposure_compensation_desc">"Isenanelo sokuveza obala ngokuzenzela"</string>
+	<!---->
+	<string name="exposure_compensation_desc_n2">"Isenanelo sokuveza obala -2"</string>
+	<!---->
+	<string name="exposure_compensation_desc_n1">"Isenanelo sokuveza obala -1"</string>
+	<!---->
+	<string name="exposure_compensation_desc_0">"Isenanelo sokuveza obala 0"</string>
+	<!---->
+	<string name="exposure_compensation_desc_p1">"Isenanelo sokuveza obala +1"</string>
+	<!---->
+	<string name="exposure_compensation_desc_p2">"Isenanelo sokuveza obala +2"</string>
+	<!---->
+	<string name="button_change_announcement">"Inkinobho manje yi-%s"</string>
+	<!---->
+	<string name="setting_location">"Indawo"</string>
+	<!---->
+	<string name="setting_back_camera_photo">"Isithombe sekhamela yangemuva"</string>
+	<!---->
+	<string name="setting_back_camera_video">"Ividiyo yekhamera yangemuva"</string>
+	<!---->
+	<string name="setting_front_camera_photo">"Isithombe sekhamela yangaphambili"</string>
+	<!---->
+	<string name="setting_front_camera_video">"Ividiyo yekhamera yangaphambili"</string>
+	<!---->
+	<string name="setting_default_camera">"Ikhamera emisiwe"</string>
+	<!---->
+	<string name="setting_google_help_and_feedback">"Usizo nempendulo"</string>
+	<!---->
+	<string name="processing_hdr_plus">"Icubungula i-HDR+ …"</string>
+	<!---->
+	<string name="open_source_licenses">"Amalayisense womthombo ovulekile"</string>
+	<!---->
+	<string name="pref_category_general">"Amasethingi avamile"</string>
+	<!---->
+	<string name="pref_category_resolution_quality">"Irezolushini nekhwalithi"</string>
+	<!---->
+	<string name="pref_category_about">"Mayelana"</string>
+	<!---->
+	<string name="pref_title_build_version">"Yakha inguqulo"</string>
+	<!---->
+	<string name="pref_video_quality_entry_low">"Okuphansi"</string>
+	<!---->
+	<string name="pref_video_quality_entry_high">"Okuphezulu"</string>
+	<!-- no translation found for pref_video_quality_entry_qcif -->
+	<skip />
+	<!-- no translation found for pref_video_quality_entry_cif -->
+	<skip />
+	<!-- no translation found for pref_video_quality_entry_480p -->
+	<skip />
+	<!-- no translation found for pref_video_quality_entry_720p -->
+	<skip />
+	<!-- no translation found for pref_video_quality_entry_1080p -->
+	<skip />
+	<!-- no translation found for pref_video_quality_entry_qvga -->
+	<skip />
+	<!-- no translation found for pref_video_quality_entry_2160p -->
+	<skip />
+	<!---->
+	<string name="setting_summary_x_megapixels">"%1$s amamega phikiseli"</string>
+	<!---->
+	<string name="setting_summary_aspect_ratio_and_megapixels">"(%1$d:%2$d) %3$s ama-megapixel"</string>
+	<!---->
+	<string name="cling_text_for_refocus_editor_button">"Thinta lapha ukuze ugxilise kabusha"</string>
+	<!---->
+	<string name="pref_category_advanced">"Okuthuthukisiwe"</string>
+	<!---->
+	<string name="pref_camera_exposure_compensation">"Ukuveza ngokwenza"</string>
+	<!---->
+	<string name="settings_cling_text">"Kuzilungiselelo, shintsha irezolushini kanye nekhwalithi, noma zama izici ezithuthukile."</string>
+	<!---->
+	<string name="photo_size_selection_title">"Khetha usayizi wesithombe"</string>
+	<!---->
+	<string name="photo_aspect_ratio_selection_content">"Ungakwazi ukushintsha lokhu ngemva kwesikhathi kokuthi Amasethingi"</string>
+	<!---->
+	<string name="share_to">"Yabelana ku-"</string>
+	<!---->
+	<string name="edit_with">"Hlela nge-"</string>
+	<!---->
+	<string name="startup_dialog_button_next">"Okulandelayo"</string>
+	<!---->
+	<string name="confirm_button_text">"KULUNGILE. Ngikutholile."</string>
+	<!---->
+	<string name="full_sensor_4x3_aspect_ratio">"Isizweli esigcwele \n(4:3)"</string>
+	<!---->
+	<string name="cropped_sensor_16x9_aspect_ratio">"Isizweli esisikiwe \n(16:9)"</string>
+	<!-- no translation found for pref_boolean_false -->
+	<skip />
+	<!-- no translation found for pref_boolean_true -->
+	<skip />
+	<!---->
+	<string name="pref_camera_iso_s_f_entry_auto">"Okuzenzakalelayo"</string>
+	<!-- no translation found for manual_manu_title_iso -->
+	<skip />
+	<!-- no translation found for manual_manu_title_exposure -->
+	<skip />
+	<!-- no translation found for manual_manu_title_wb -->
+	<skip />
+	<!-- no translation found for manual_manu_title_focus -->
+	<skip />
+	<!---->
+	<string name="setting_group_photo">"Isithombe"</string>
+	<!---->
+	<string name="setting_group_video">"Ividiyo"</string>
+	<!---->
+	<string name="setting_group_general">"Okuvamile"</string>
+	<!---->
+	<string name="pref_camera_size_title">"Usayizi"</string>
+	<!---->
+	<string name="pref_rear_camera_size_title">"Usayizi"</string>
+	<!---->
+	<string name="pref_front_camera_size_title">"Usayizi"</string>
+	<!---->
+	<string name="pref_rear_camera_size_title_vdf">"Usayizi wesithombe (emuva)"</string>
+	<!---->
+	<string name="pref_front_camera_size_title_vdf">"Usayizi wesithombe(phambili)"</string>
+	<!---->
+	<string name="pref_camera_grid_title">"Igridi"</string>
+	<!---->
+	<string name="pref_camera_pose_title">"Ukumiswa komzimba"</string>
+	<!---->
+	<string name="pref_camera_compose_title">"Ukuhlanganiswa"</string>
+	<!---->
+	<string name="pref_video_eis_title">"Isiqinisi sesithombe"</string>
+	<!---->
+	<string name="pref_camera_face_beauty_title">"Ubuhle bosuo"</string>
+	<!---->
+	<string name="pref_camera_mirror_selfie_title">"Ukuzithatha isithombe kwesibuko"</string>
+	<!---->
+	<string name="pref_camera_attention_seeker_title">"Umsindo wokuqaphela"</string>
+	<!-- no translation found for pref_camera_ais_title -->
+	<skip />
+	<!---->
+	<string name="pref_camera_super_resolution_title">"Ukucazulula okuphezulu"</string>
+	<!---->
+	<string name="pref_camera_savepath_title">"Isitoreji"</string>
+	<!---->
+	<string name="pref_camera_savepath_entry_0">"Ifoni"</string>
+	<!---->
+	<string name="pref_camera_savepath_entry_1">"Ikhadi le-SD"</string>
+	<!-- no translation found for pref_camera_savepath_default -->
+	<skip />
+	<!---->
+	<string name="pref_camera_sound_title">"Umsindo wokuvala"</string>
+	<!---->
+	<string name="pref_visidon_mode_title">"Imodi yokuthuthukisiwe"</string>
+	<!---->
+	<string name="pref_camera_gesture_detection_title">"Ukulawula ukunqathuzisa izandla"</string>
+	<!---->
+	<string name="visidon_mode_face_beauty_entry">"Ubuhle bosuo"</string>
+	<!---->
+	<string name="visidon_mode_super_resolution_entry">"Ukucazulula okuphezulu"</string>
+	<!---->
+	<string name="visidon_mode_low_light_entry">"Umkhanyo ophansi"</string>
+	<!-- no translation found for visidon_mode_hdr_entry -->
+	<skip />
+	<!---->
+	<string name="visidon_mode_off_entry">"Icinyiwe"</string>
+	<!---->
+	<string name="mode_manual">"Manual"</string>
+	<!---->
+	<string name="mode_pano">"Pano"</string>
+	<!-- no translation found for mode_parallax -->
+	<skip />
+	<!---->
+	<string name="mode_micro_video">"Ividiyo yemakhro"</string>
+	<!---->
+	<string name="mode_manual_desc">"Shintshela kwimodi yokuzenzela"</string>
+	<!---->
+	<string name="mode_pano_desc">"Shintshela kwimodi ye-pano"</string>
+	<!---->
+	<string name="mode_parallax_desc">"Shintshela kwimodi ye-fyuse"</string>
+	<!---->
+	<string name="mode_micro_video_desc">"Shintshela kwimodi yevidiyo yemakhro"</string>
+	<!---->
+	<string name="pref_restore_settings">"Setha kabusha kuya kumasethingi efekthri"</string>
+	<!---->
+	<string name="quit_dialog_title_battery_low">"Umlilo webhetri uphansi"</string>
+	<!---->
+	<string name="quit_dialog_title_storage_low">"Isitoreji esinganele"</string>
+	<!---->
+	<string name="quit_dialog_msg">"Ukurekhodwa kwevidiyo kuzolondoloza ngokuzenzakalela Ikhamera izovalwa."</string>
+	<!---->
+	<string name="battery_info_dialog_tile">"Umlilo webhetri uphansi"</string>
+	<!---->
+	<string name="battery_info_dialog_msg_disable_flash">"Ayikwazi ukusebenzisa i-flesh"</string>
+	<!---->
+	<string name="battery_info_dialog_msg_close_camera">"Ayikwazi ukuvula ikhamera"</string>
+	<!---->
+	<string name="battery_info_dialog_button_ok">"KULUNGILE"</string>
+	<!---->
+	<string name="battery_info_dialog_button_close">"Vala"</string>
+	<!-- no translation found for battery_info_low_toast_message -->
+	<skip />
+	<!-- no translation found for battery_info_video_low_toast_message -->
+	<skip />
+	<!-- no translation found for battery_info_video_low_less_8 -->
+	<skip />
+	<!-- no translation found for battery_info_video_low_less_8_dialog -->
+	<skip />
+	<!-- no translation found for battery_info_video_low_cancel -->
+	<skip />
+	<!-- no translation found for battery_info_video_low_continue -->
+	<skip />
+	<!---->
+	<string name="MSG_SAVE_OUTPUT_IMAGE">"Ilondoloza isithombe se-panorama ..."</string>
+	<!---->
+	<string name="MSG_CANCEL_CAPTURE">"Iyakhansela..."</string>
+	<!-- no translation found for save_dir_preview_img -->
+	<skip />
+	<!-- no translation found for save_dir_still_img -->
+	<skip />
+	<!---->
+	<string name="MSG_MISALIGNMENT">"Gcina umncibisholo usemugqeni omhlophe ngangokunokwenzeka.\nUkushutha kumile"</string>
+	<!---->
+	<string name="MSG_MOVE_CAMERA_SLOWLY">"Hambisa ikhamera kancane uma ushutha"</string>
+	<!---->
+	<string name="delete_selection">"Sula into ekhethiwe?"</string>
+	<!---->
+	<string name="burst_saving_hint">"Ilondoloza izithombe ezingu-%d..."</string>
+	<!---->
+	<string name="micro_video_remix_hint">"Iyahlaziya..."</string>
+	<!---->
+	<string name="lowlight_off_desc">"Isibani esiphansi sivalekile"</string>
+	<!---->
+	<string name="lowlight_on_desc">"Umkhanyo ophansi uvulekile"</string>
+	<!---->
+	<string name="tizr_prompt_desc">"I-TiZR ikuvumela ukuthi usakaze ividiyo ebukhoma emhlabeni. Qalisa uhambo lwakho manje."</string>
+	<!---->
+	<string name="tizr_prompt_content">"Qalisa"</string>
+	<!-- no translation found for title_activity_tizr_share_video -->
+	<skip />
+	<!---->
+	<string name="night_mode_on_toast">"Imodi yasebusuku ivuliwe, bamba idivayisi ngokuzinzile ngenkathi ushutha"</string>
+	<!---->
+	<string name="hdr_on_toast">"I-HDR ivuliwe, bamba idivayisi ngokuzinzile ngenkathi ushutha"</string>
+	<!---->
+	<string name="micro_video_guide_title">"Ividiyo yemakhro"</string>
+	<!---->
+	<string name="micro_video_guide_description">"Hlala esihlalweni sikamqondisi futhi wenze inhlanganisela yakho yevidiyo"</string>
+	<!---->
+	<string name="micro_video_guide_checkbox">"Ungabonisi futhi"</string>
+	<!---->
+	<string name="micro_video_guide_button">"NGIKUTHOLILE"</string>
+	<!---->
+	<string name="micro_minimum_time_tip">"Rekhoda okungenani amasekhondi angu-3"</string>
+	<!---->
+	<string name="micro_shutter_help_tip">"Cindezela bese uyabamba ukuze uqale ukurekhoda"</string>
+	<!---->
+	<string name="permissions_needed">"Izimvume zinqatshiwe"</string>
+	<!---->
+	<string name="grant_access_title">"Nika ukufinyelela"</string>
+	<!-- no translation found for grant_access_msg -->
+	<skip />
+	<!---->
+	<string name="grant_access_exit">"Phuma"</string>
+	<!---->
+	<string name="grant_access_settings">"Amasethingi"</string>
+	<!-- no translation found for location_and -->
+	<skip />
+	<!---->
+	<string name="location_msg">"Maka izithombe zakho namavidiyo ngendawo"</string>
+	<!---->
+	<string name="location_toast">"Vula ukumaka kwe-GPS ngokuhamba kwesikhathi kumasethingi ekhamera"</string>
+	<!---->
+	<string name="location_snack_setting">"Ukuze unike amandla ukumaka kwe-GPS, vumela imvume yeKhamera ukufinyelela Indawo"</string>
+	<!---->
+	<string name="aspect_ratio_and_megapixels_default">"%1$dMP (%2$d:%3$d)"</string>
+	<!---->
+	<string name="tips_for_panorama_preview">"Hambisa idivayisi ngokuqhubekayo uma uthatha i-panorama"</string>
+	<!---->
+	<string name="tip_for_move_center">"Gcina umcibisholo phakathi nomugqa"</string>
+	<!---->
+	<string name="tip_for_move_down">"Hambisa ngezansi"</string>
+	<!---->
+	<string name="tip_for_move_up">"Hambisa phezulu"</string>
+	<!---->
+	<string name="tip_for_move_slow">"Yehlisa"</string>
+	<!---->
+	<string name="tip_for_move_right">"Yisa ngakwsokudla"</string>
+	<!---->
+	<string name="tip_for_move_left">"Yisa ngokwesokunxele"</string>
+	<!---->
+	<string name="super_zoom_on_toast">"Imodi yokusondeza kakhulu, bamba idivayisi ngokuzinzile ngenkathi uthatha izithombe"</string>
+	<!---->
+	<string name="help_tip_welcome_take_tour">"Yebo ngiyacela"</string>
+	<!---->
+	<string name="help_tip_welcome_cancel_tour">"CHA"</string>
+	<!---->
+	<string name="help_tip_welcome_title">"Ikhamera"</string>
+	<!---->
+	<string name="help_tip_welcome_context">"Thatha uhambo futhi uthole amathiphu wendlela yokusebenzisa ikhamera yakho ye-smartphone entsha?"</string>
+	<!---->
+	<string name="help_tip_snap_context">"Thinta lapha ukuze uthathe izithombe, noma cindezela isikhathi eside ukuze kudubule kufika ezithombeni ezingu-10"</string>
+	<!---->
+	<string name="help_tip_camera_key_context">"Sebenzisa \Ukhiye wekhamera\" ukuze uthathe izithombe noma ucindezele isikhathi eside ngokuthatha okudubulayo"</string>
+	<!---->
+	<string name="help_tip_recent_context">"Thinta lapha ukuze ubuke izithombe zakho zakamuva"</string>
+	<!---->
+	<string name="help_tip_startvideo_context">"Thinta lapha ukuze uqale ukurekhoda ividiyo"</string>
+	<!---->
+	<string name="help_tip_videosnap_context">"Thinta lapha ukuze uthathe isithombe ngenkathi urekhoda"</string>
+	<!---->
+	<string name="help_tip_stopvideo_context">"Thinta lapha ukuze umise ukurekhoda futhi ulondoloze ividiyo"</string>
+	<!---->
+	<string name="help_tip_switch_front_context">"Thinta lapha ukuze ushintshe ikhamera."</string>
+	<!---->
+	<string name="help_tip_gesture_tip_context">"Ukuze uthathe isithombe, bonisa isandla sakho phambi kwekhamera."</string>
+	<!---->
+	<string name="help_tip_pinch_zoom_context">"Cindezela NGAPHAKATHI/NGAPHANDLE ku-viewfinder ukuze usondeze NGAPHAKATHI/NGAPHANDLE."</string>
+	<!---->
+	<string name="help_tip_quick_switch_context">"Thinta lezi zithonjana ukuze UVULE/UVALE umsebenzi"</string>
+	<!---->
+	<string name="help_tip_settings_context">"Thinta lapha ukuze uye kumasethingi wekhamera"</string>
+	<!---->
+	<string name="help_tip_mode_context">"Swayiphela ngakwesokunxele noma ngakwesokudla ku-viewfinder ukuze ushintshe imodi yekhamera."</string>
+	<!---->
+	<string name="help_tip_panorama_context">"Thinta ibha yokubuka kuqala ukuze ushintshe indlela."</string>
+	<!---->
+	<string name="help_tip_manual_context">"Thinta isithonjana ukuze ushintshe inkethi yemodi yokwenza."</string>
+	<!---->
+	<string name="help_tip_manual_menu_context">"Thinta ukuze ubonise noma ufihle izinketho zemodi yokuzenzela"</string>
+	<!---->
+	<string name="help_tip_got_it_text">"Chitha"</string>
+	<!---->
+	<string name="help_tip_dismiss_text">"Chitha"</string>
+	<!---->
+	<string name="help_tip_skip_all_text">"Yeqa konke"</string>
+	<!---->
+	<string name="optimize_saving_hint">"Ukuthuthukisa isithombe"</string>
+	<!---->
+	<string name="wrapper_button_desc">"Inkinobho yokukhulisa"</string>
+	<!---->
+	<string name="restore_settings_dialog_msg">"Setha kabusha ikhamera kuya kumasethingi efekthri?"</string>
+	<!---->
+	<string name="restore_settings_dialog_yes">"Setha kabusha"</string>
+	<!---->
+	<string name="restore_settings_dialog_no">"Khansela"</string>
+	<!---->
+	<string name="permission_title">"Ikhamera idinga imvume"</string>
+	<!---->
+	<string name="permission_content">"Thinta lapha ukuze unike izimvume."</string>
+	<plurals name="instant_capture_photos">
+		<item quantity="one">"<xliff:g id="step_count">%1$d</xliff:g> isithombe"</item>
+		<item quantity="other">"<xliff:g id="step_count">%1$d</xliff:g> izithombe"</item>
+	</plurals>
+	<!-- no translation found for photos -->
+	<skip />
+	<!---->
+	<string name="delete_selection_burst">"Lolu chungechunge lokudubula liqukethe izithombe ezingu-%s. Sula konke?"</string>
+	<!---->
+	<string name="flash_with_superzoom_toast">"Ayikwazi ukusebenzisa ifuleshi uma ukusondeza kakhulu kuvuliwe"</string>
+	<!---->
+	<string name="battery_warning_title">"Ayikwazanga ukuthatha isithombe se-Boom"</string>
+	<!---->
+	<string name="battery_warning_content">"Ayikwazi ukuthatha isithombe ngebhethri ephansi"</string>
+	<!---->
+	<string name="phone_storage_low_for_alert_dialog">"Isitoreji sefoni siphansi Ikhamera izovalwa."</string>
+	<!---->
+	<string name="sd_card_low_for_alert_dialog">"Isitoreji sekhadi le-SD liphansi. Ikhamera izovalwa."</string>
+	<!---->
+	<string name="camera_error_title_alert_dialog">"Isitoreji sigcwele"</string>
+	<!---->
+	<string name="storage_low_close_alert_dialog">"Vala"</string>
+	<!---->
+	<string name="storage_low_phone_full_no_sdcard_alert_dialog">"Isitoreji sefoni sigcwele. Khulula isikhala noma faka ikhadi le-SD."</string>
+	<!---->
+	<string name="storage_low_phone_sdcard_full_alert_dialog">"Isitoreji sefoni nese-SD sigcwele. Khulula isikhala ukuze usebenzise ikhamera."</string>
+	<!---->
+	<string name="storage_low_phone_full_sdcard_ok_alert_dialog">"Isitoreji sefoni sigcwele. Londoloza ekhadini le-SD?"</string>
+	<!---->
+	<string name="storage_low_storage_full_phone_ok_alert_dialog">"Ikhadi le-SIM ligcwele. Londoloza kusitoreji sefoni?"</string>
+	<!---->
+	<string name="storage_low_phone_full_sdcard_ok_button">"Sebenzisa i-SD"</string>
+	<!---->
+	<string name="storage_low_storage_full_phone_ok_button">"Sebenzisa isitoreji sefoni"</string>
+	<!-- no translation found for storage_low_storage_critical_toast_message -->
+	<skip />
+	<!-- no translation found for storage_low_video_critical_toast_message -->
+	<skip />
+	<!---->
+	<string name="pref_camera_antibanding_title">"Ayihlanganisi"</string>
+	<!---->
+	<string name="pref_camera_antibanding_entry_0">"Valiwe"</string>
+	<!---->
+	<string name="pref_camera_antibanding_entry_1">"50Hz"</string>
+	<!---->
+	<string name="pref_camera_antibanding_entry_2">"60Hz"</string>
+	<!---->
+	<string name="pref_camera_antibanding_entry_3">"Okuzenzakalelayo"</string>
+	<!---->
+	<string name="storage_warning_content">"Ayikwazi ukuthatha isithombe ngesitoreji esiphansi"</string>
+	<!---->
+	<string name="storage_and_battery_warning_content">"Ayikwazi ukuthatha isithombe ngebhethri ephansi nesitoreji esiphansi"</string>
+	<!---->
+	<string name="remote_content">"Thatha izithombe ngedivayisi yakho ephathekayo"</string>
+	<!---->
+	<string name="boom_key_press">"Cindezela"</string>
+	<!---->
+	<string name="boom_key">"Ukhiye we-Boom"</string>
+	<!---->
+	<string name="location_service_dialog_title">"I-GPS ivaliwe"</string>
+	<!---->
+	<string name="location_service_dialog_msg">"Ukuze umake izithombe namavidiyo ngezindawo, vula i-GPS namanethiwekhi engenazintambo kumasethingi endawo."</string>
+	<!---->
+	<string name="location_service_dialog_cancel">"Khansela"</string>
+	<!---->
+	<string name="location_service__dialog_setting">"Amasethingi"</string>
+	<!---->
+	<string name="gestureshot_guide_capture">"Ukushutha ukunqanthuzisa izandla: Shutha ngokuzenzakalayo lapho ukunqanthuzisa izandla kutholiwe:"</string>
+	<!-- no translation found for mode_filters -->
+	<skip />
+	<!-- no translation found for mode_pose -->
+	<skip />
+	<!-- no translation found for video_recording_paused -->
+	<skip />
+	<!-- no translation found for pose_final_icon -->
+	<skip />
+	<!-- no translation found for time_left -->
+	<skip />
+	<!-- no translation found for pref_camera_auto_hdr_title -->
+	<skip />
+	<!-- no translation found for pref_camera_timer_entry_0 -->
+	<skip />
+	<!-- no translation found for pref_camera_timer_unit_suffix -->
+	<skip />
+	<!-- no translation found for pref_camera_face_beauty_summary -->
+	<skip />
+	<!-- no translation found for pref_camera_mirror_selfie_summary -->
+	<skip />
+	<!-- no translation found for pref_camera_pose_summary -->
+	<skip />
+	<!-- no translation found for mode_360_photo -->
+	<skip />
+	<!-- no translation found for panorama_preview_holder_info_text -->
+	<skip />
+	<!-- no translation found for back -->
+	<skip />
+	<!-- no translation found for gallery_name -->
+	<skip />
+	<!---->
+	<string name="audio_record_on_desc">"Ukurekhoda umsindo"</string>
+	<!-- no translation found for audio_record_off_desc -->
+	<skip />
+</resources>

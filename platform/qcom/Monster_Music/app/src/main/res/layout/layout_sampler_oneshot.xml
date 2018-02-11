@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:music5="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="6dp" >
+    
+    <cn.mixvibes.common.widgets.PagerSlidingTabStrip
+        android:id="@+id/page_sliding_tab_strip"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="?attr/tab_bar_primary_color"
+        music5:pstsIndicatorColor="@color/primary_orange"
+        music5:pstsTextAllCaps="false"
+        music5:pstsTabPaddingLeftRight="25dp"
+        music5:pstsIndicatorHeight="3dp"
+        music5:pstsDividerPadding="0dp"
+        music5:pstsShouldDrawDivider="false"
+        music5:pstsShouldDrawUnderline="false"
+        music5:pstsIndicatorLeftRightPadding="0dp"
+        music5:pstsShouldExpand="true"
+        android:textColor="@color/sampler_page_text_color"
+        android:textSize="14sp" />
+    
+    <cn.mixvibes.common.view.CrossViewPager
+        android:id="@+id/cross_sampler_view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="48dp"
+        />
+
+</RelativeLayout>

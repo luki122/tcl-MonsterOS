@@ -1,0 +1,264 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.monster.cloud"
+    android:versionCode="161223002"
+    android:sharedUserId="android.uid.system"
+    android:versionName="v1.0.1.0201.j">
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="22" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="com.android.browser.permission.READ_HISTORY_BOOKMARKS" />
+    <uses-permission android:name="com.android.browser.permission.WRITE_HISTORY_BOOKMARKS" />
+    <uses-permission android:name="android.permission.WRITE_OWNER_DATA" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.READ_CALL_LOG"/>
+    <uses-permission android:name="android.permission.WRITE_CALL_LOG"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.UPDATE_APP_OPS_STATS" />
+
+    <application
+        android:name=".CloudApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/cloud_icon"
+        android:label="@string/app_name"
+        android:theme="@style/CloudActivityTheme">
+        <meta-data
+            android:name="TCL_SDK_DOMAIN_VERSION"
+            android:value="TESTING" />
+
+        <meta-data
+            android:name="TCL_SDK_BRAND"
+            android:value="TCL" />
+
+        <meta-data
+            android:name="TCL_APPID"
+            android:value="51347980" />
+        <meta-data
+            android:name="REDIRECT_URI"
+            android:value="logintest.tclclouds.com/page/rel/web/" />
+
+        <activity
+            android:name="com.tencent.connect.common.AssistActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <activity
+            android:name="com.tencent.tauth.AuthActivity"
+            android:launchMode="singleTask"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="101181845" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".activity.MainActivity"
+            android:theme="@style/Theme.MstActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <action android:name="com.monster.cloud.main" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activity.app.AppRecoveryActivity"
+            android:theme="@style/BackActivityTheme"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".activity.app.AppBackupActivity"
+            android:theme="@style/BackActivityTheme"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.monster.cloud.activity.contacts.SyncContactsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MstActivity" >
+        </activity>
+        <activity
+            android:name=".activity.contacts.ContactsChooseSyncTypeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MstActivity" >
+        </activity>
+        <activity
+            android:name=".activity.contacts.LoginSDKTestActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MstActivity" >
+        </activity>
+        <activity
+            android:name=".activity.SyncRecordActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MstActivity" >
+        </activity>
+        <activity
+            android:name=".activity.sms.SyncSmsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MstActivity" >
+        </activity>
+        <activity
+            android:name=".activity.sms.SmsChooseSyncTypeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MstActivity" >
+        </activity>
+        <activity
+            android:name=".activity.sms.SmsSyncByTime"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MstActivity" >
+        </activity>
+        <activity
+            android:name=".activity.CloudSettingActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MstActivity" >
+        </activity>
+        <activity
+            android:name=".activity.OneKeyRecoveryActiviy"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTop"
+            android:theme="@style/Theme.MstActivity" >
+        </activity>
+        <activity
+            android:name=".activity.RecoveryFinishActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MstActivity" >
+        </activity>
+        <activity
+            android:name=".activity.exchange.ShowImportQQDataActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MstActivity" >
+        </activity>
+        <activity
+            android:name=".activity.exchange.ShowStartRecorveryActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MstActivity" >
+        </activity>
+        <activity
+            android:name=".activity.exchange.ShowChangeQQActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MstActivity" >
+        </activity>
+        <activity
+            android:name=".activity.exchange.ExchangeShowImportQQDataActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MstActivity" >
+        </activity>
+        <activity
+            android:name=".activity.exchange.LoginTCLAccountActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MstActivity" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+                <action android:name="com.monster.cloud.tcl.login"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.CloudNoDataActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MstActivity" >
+        </activity>
+        <activity
+            android:name=".activity.sms.SyncSmsByContact"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.WhiteMstActivity" >
+        </activity>
+
+
+        <receiver
+            android:name=".receiver.SmsReceiver"
+            android:permission="android.permission.BROADCAST_SMS">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SMS_DELIVER"/>
+            </intent-filter>
+        </receiver>
+        <!-- BroadcastReceiver that listens for incoming MMS messages -->
+        <receiver
+            android:name=".receiver.MmsReceiver"
+            android:permission="android.permission.BROADCAST_WAP_PUSH">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.WAP_PUSH_DELIVER"/>
+
+                <data android:mimeType="application/vnd.wap.mms-message"/>
+            </intent-filter>
+        </receiver>
+
+        <receiver android:name=".receiver.BootedReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+
+        <!--<receiver android:name=".receiver.AlarmReceiver" android:enabled="true"></receiver>-->
+
+        <!--<receiver android:name=".receiver.NetworkConnectionReceiver">-->
+            <!--<intent-filter>-->
+                <!--<action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>-->
+            <!--</intent-filter>-->
+        <!--</receiver>-->
+
+        <service
+            android:name=".service.HeadlessSmsSendService"
+            android:exported="true"
+            android:permission="android.permission.SEND_RESPOND_VIA_MESSAGE">
+            <intent-filter>
+                <action android:name="android.intent.action.RESPOND_VIA_MESSAGE"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+
+                <data android:scheme="sms"/>
+                <data android:scheme="smsto"/>
+                <data android:scheme="mms"/>
+                <data android:scheme="mmsto"/>
+            </intent-filter>
+        </service>
+
+        <service android:name=".service.CloudJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:exported="true"
+            />
+
+        <activity
+            android:name=".activity.sms.ComposeSmsActivity"
+            android:launchMode="singleTop"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+                <action android:name="android.intent.action.SENDTO"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+
+                <data android:scheme="sms"/>
+                <data android:scheme="smsto"/>
+                <data android:scheme="mms"/>
+                <data android:scheme="mmsto"/>
+            </intent-filter>
+        </activity>
+
+        <service android:enabled="true" android:name=".service.SyncService" android:process=":syncservice"/>
+    </application>
+    <instrumentation
+        android:name="android.test.InstrumentationTestRunner"
+        android:label="Test"
+        android:targetPackage="com.monster.cloud" />
+
+</manifest>

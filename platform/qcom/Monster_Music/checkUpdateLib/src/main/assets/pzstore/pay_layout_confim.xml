@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_gravity="center" android:background="@android:color/white"
+    android:layout_height="wrap_content" android:paddingBottom="15dp"
+    android:orientation="vertical" >
+    <TextView android:id="@+id/title" android:textSize="20sp" android:background="#1C86EE" android:gravity="center" android:textColor="@android:color/white" android:text="支付确认" android:minHeight="40dp" android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+    <LinearLayout android:id="@+id/l1" android:visibility="gone" android:padding="5dp" android:layout_marginTop="5dp" android:layout_below="@+id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+	    <TextView android:text="商品名称：" android:textSize="18sp" android:textColor="#666" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+	    <TextView android:id="@+id/name" android:textSize="18sp" android:textColor="#333" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/l2" android:padding="10dp"  android:layout_marginTop="15dp" android:layout_below="@+id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+	    <TextView android:text="应付金额：" android:textSize="18sp" android:textColor="#666" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+	    <TextView android:id="@+id/fee" android:textSize="22sp" android:textColor="#EE9A00" android:paddingRight="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+	    <TextView android:text="元" android:textSize="18sp" android:textColor="#666" android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <Button android:id="@+id/ok" android:textSize="18sp" android:layout_below="@+id/l2" android:layout_margin="15dip" android:textColor="#666" android:background="@drawable/pay_ok" android:text="确认支付" android:layout_width="fill_parent" android:minHeight="40dp" android:layout_height="wrap_content"/>
+</RelativeLayout>

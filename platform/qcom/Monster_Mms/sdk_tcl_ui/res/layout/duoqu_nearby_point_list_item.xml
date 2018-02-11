@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="84dp"
+    android:background="@color/duoqu_menu_white" >
+
+    <ImageView
+        android:id="@+id/duoqu_location_ico"
+        android:layout_width="16dp"
+        android:layout_height="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/duoqu_nearby_point_origin" />
+
+    <TextView
+        android:id="@+id/duoqu_tv_nearby_point_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="10dp"
+        android:layout_toLeftOf="@+id/duoqu_tv_nearby_point_distance"
+        android:layout_toRightOf="@id/duoqu_location_ico"
+        android:ems="8"
+        android:singleLine="true"
+        android:textColor="@color/duoqu_nearby_point_name_blue"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/duoqu_tv_nearby_point_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/duoqu_tv_nearby_point_name"
+        android:layout_marginLeft="14dp"
+        android:layout_toLeftOf="@+id/duoqu_tv_nearby_point_distance"
+        android:layout_toRightOf="@id/duoqu_location_ico"
+        android:ems="8"
+        android:singleLine="true"
+        android:textColor="@color/duoqu_nearby_point_address_black"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/duoqu_tv_nearby_point_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/duoqu_tv_nearby_point_address"
+        android:layout_below="@id/duoqu_tv_nearby_point_address"
+        android:layout_marginLeft="14dp"
+        android:layout_toLeftOf="@id/duoqu_tv_nearby_point_distance"
+        android:layout_toRightOf="@id/duoqu_location_ico"
+        android:ems="9"
+        android:singleLine="true"
+        android:textColor="@color/duoqu_nearby_point_gray"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/duoqu_tv_nearby_point_distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/duoqu_tv_nearby_point_address"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:singleLine="true"
+        android:textColor="@color/duoqu_nearby_point_distance_black"
+        android:textSize="15dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/duoqu_tv_nearby_point_phone"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/duoqu_nearby_point_split_gray" />
+
+</RelativeLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="36dp"
+    android:orientation="horizontal"
+    android:divider="@drawable/divider_sort_all_songs"
+    android:background="#8A000000"
+    android:showDividers="middle"
+    android:dividerPadding="12dp">
+    
+    <TextView 
+        android:id="@+id/sort_all"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textAlignment="gravity"
+        android:textColor="@color/sort_title_color"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="14sp"
+        android:background="?attr/selectableItemBackground"
+        android:text="@string/all"/>
+    
+    
+    <TextView 
+        android:id="@+id/sort_local"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textAlignment="gravity"
+        android:textColor="@color/sort_title_color"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="14sp"
+        android:background="?attr/selectableItemBackground"
+        android:text="@string/local"/>
+    
+    <TextView 
+        android:id="@+id/sort_online"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textAlignment="gravity"
+        android:textColor="@color/sort_title_color"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="14sp"
+        android:background="?attr/selectableItemBackground"
+        android:text="@string/online"/>
+    
+
+</LinearLayout>

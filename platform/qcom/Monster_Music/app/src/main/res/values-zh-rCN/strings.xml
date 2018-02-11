@@ -1,0 +1,1277 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string name="ok">"确定"</string>
+	<!---->
+	<string name="cancel">"取消"</string>
+	<!---->
+	<string name="set">"设置"</string>
+	<!---->
+	<string name="yes">"是"</string>
+	<!---->
+	<string name="no">"否"</string>
+	<!---->
+	<string name="the_external_memory_storage_is_not_mounted">"外部存储器安装失败，无法使用USB存储器"</string>
+	<!---->
+	<string name="recording_duration_is_limited_to_15_seconds">"录音时间限制为15s"</string>
+	<!---->
+	<string name="an_error_occurs_while_recording">"录音时发生错误"</string>
+	<!---->
+	<string name="cross_dj_saturated_storage_not_enough_free_space_to_record_your_mix">"没有足够存储空间录制您的混音"</string>
+	<!---->
+	<string name="cross_dj_saturated_storage_your_recording_might_stop_soon_because_no_more_free_space_is_available">"没有更多存储空间，您的录制即将停止"</string>
+	<!---->
+	<string name="recording_soon_to_reach_max_duration">"录音时间将达到上限，请检查您的参数设置"</string>
+	<!---->
+	<string name="recording_reached_max_duration">"录音时间已达到上限，请检查您的参数设置"</string>
+	<!---->
+	<string name="record_is_not_available_in_external_mixer_mode">"在外部混音模式下，录音不可用"</string>
+	<!---->
+	<string name="no_error">"没有错误"</string>
+	<!---->
+	<string name="file_too_big_to_be_loaded_into_memory">"文件过大不能加载到存储器中。"</string>
+	<!---->
+	<string name="the_remote_track_is_too_long_exceed_the_20_minutes_limit">"远程音乐过长（超过20分钟时限）"</string>
+	<!---->
+	<string name="there_s_not_enough_space_in_your_internal_storage_try_to_do_some_clean_up">"内存空间不足（请清理内存）"</string>
+	<!---->
+	<string name="the_format_is_unknown">"未知格式"</string>
+	<!---->
+	<string name="the_file_is_invalid">"文件无效"</string>
+	<!---->
+	<string name="file_not_found">"无法查找到文件"</string>
+	<!---->
+	<string name="check_your_audio_settings">"检查音频设置"</string>
+	<!---->
+	<string name="unspecified_error">"不明类型错误"</string>
+	<!---->
+	<string name="track_error">"音频文件出错"</string>
+	<!---->
+	<string name="invalid_track">"无效音频文件"</string>
+	<!---->
+	<string name="the_format_is_not_supported_on_android">"安卓不支持的格式"</string>
+	<!---->
+	<string name="the_permission_of_storage">"请先赋予读取存储的权限，以确保音乐功能正常播放"</string>
+	<!---->
+	<string name="can_not_play_in_dj_mode">"在DJ模式下不能播放该音乐"</string>
+	<!---->
+	<string name="mix_your_music">"混合您的音乐！"</string>
+	<!---->
+	<string name="cannot_specify_an_empty_name_for_playlist">"列表名不能为空"</string>
+	<!---->
+	<string name="playlist_name_already_exists_">"列表名已存在"</string>
+	<!---->
+	<string name="there_was_an_issue_during_playlist_creation">"创建列表时出错"</string>
+	<!---->
+	<string name="loading">"加载中..."</string>
+	<!---->
+	<string name="auth_no_username_password">"请填写登录名用户和密码"</string>
+	<!---->
+	<string name="auth_wrong_username_password">"用户名或密码错误"</string>
+	<!---->
+	<string name="auth_problem_during_authentification">"认证失败"</string>
+	<!---->
+	<string name="never_show_it_again">"不再提示"</string>
+	<!---->
+	<string name="dialogtitle_rdio_not_unlimited">"获得一个付费的账户"</string>
+	<!---->
+	<string name="dialogtitle_rdio_anonymous">"获得一个付费的账户"</string>
+	<!---->
+	<string name="dialogtitle_rdio_get_premium">"获取附加费帐号"</string>
+	<!---->
+	<string name="rdio_anonymous_usage_description">"免费用户只能试听30秒，付费听整首歌。"</string>
+	<!---->
+	<string name="log_in">"登录"</string>
+	<!---->
+	<string name="sign_up">"登录"</string>
+	<!---->
+	<string name="dialog_wifi_only_stream_title">"WLAN不可用"</string>
+	<!---->
+	<string name="dialog_wifi_only_stream_message">"WLAN不可用时不能播放RADIO歌曲。请关闭“仅支持WLAN联网”。"</string>
+	<!---->
+	<string name="no_transition_mode">"无混音"</string>
+	<!---->
+	<string name="manual_transition_mode">"手动混音"</string>
+	<!---->
+	<string name="auto_transition_mode">"自动混音"</string>
+	<!---->
+	<string name="crossfader_transition_mode">"渐进渐入"</string>
+	<!---->
+	<string name="the_track_cannot_be_played">"歌曲不能播放"</string>
+	<!---->
+	<string name="scratching_is_disabled_in_no_mix_mode">"擦碟仅在DJ模式时支持"</string>
+	<!---->
+	<string name="usb_connection_failure">"USB连接失败"</string>
+	<!---->
+	<string name="no_device_detected">"没有检测到设备。"</string>
+	<!---->
+	<string name="connection_to_device_succeed">"成功连接到%s"</string>
+	<!---->
+	<string name="usb_device">"USB 设备"</string>
+	<!---->
+	<string name="the_connected_device_is_unknown">"设备不识别。（当前仅支持U-Mix和DDJ-SB 或者WeGo2）。"</string>
+	<!---->
+	<string name="invalid_drm_file">"该文件无有效的DRM权限！"</string>
+	<!---->
+	<string name="drm_file_is_not_allowed">"在混合模式下不允许播放DRM文件"</string>
+	<!---->
+	<string name="unable_to_load_track">"无法加载 %s"</string>
+	<!---->
+	<string name="record_default_name">"录音_"</string>
+	<!---->
+	<string name="dj_mode_title">"模式 ：%s"</string>
+	<!---->
+	<string name="extraCharge_warning_title">"使用移动数据？"</string>
+	<!---->
+	<string name="extracharge_warning_msg">"Deezer将使用移动数据进行在线浏览，可能产生额外费用。如果您不想Deezer使用移动数据，请开启设置/仅支持WLAN联网。"</string>
+	<!---->
+	<string name="extracharge_donot_show_again_msg">"不再显示该信息"</string>
+	<!---->
+	<string name="extracharge_use_mobileData_btn">"使用移动数据"</string>
+	<!---->
+	<string name="subsrcibe_title">"付费"</string>
+	<!---->
+	<string name="subsrcibe_before_end_msg">"免费试用期将在24小时内结束，要付费享有Deezer的完整音乐吗？"</string>
+	<!---->
+	<string name="subsrcibe_end_msg">"免费试用期已结束。付费享有Deezer完整音乐？"</string>
+	<!---->
+	<string name="subsrcibe_for_radio_msg">"免费用户每小时只可跳过5首歌，付费可以解除限制。"</string>
+	<!---->
+	<string name="subscribe_later_btn">"稍后"</string>
+	<!---->
+	<string name="settings_stream_via_wifi_only_win">"要使用移动数据播放Deezer，需先关闭设置中的“仅通过WLAN连接数据流”项目。"</string>
+	<!---->
+	<string name="mobiledata_turnoff_btn">"关闭"</string>
+	<!---->
+	<string name="decode_not_finish">"您处于自动混音模式，请稍等音乐加载。"</string>
+	<!---->
+	<string name="have_not_load_finish">"音乐加载未完成，请稍等..."</string>
+	<!---->
+	<string name="record_minutes">"%d分钟"</string>
+	<!---->
+	<string name="record_minute">"%d分钟"</string>
+	<!---->
+	<string name="song_file_not_found">"文件不存在"</string>
+	<!---->
+	<string name="scenes_shuffle">"随机播放"</string>
+	<!---->
+	<string name="my_favourite_songs">"我喜欢的歌曲"</string>
+	<!---->
+	<string name="detail_manager">"管理"</string>
+	<!---->
+	<string name="detail_add">"添加"</string>
+	<!---->
+	<string name="detail_edit">"编辑"</string>
+	<!---->
+	<string name="detail_detele">"删除"</string>
+	<!---->
+	<string name="detail_download">"下载"</string>
+	<!---->
+	<string name="app_name">"音乐"</string>
+	<!---->
+	<string name="recoverscan">"恢复扫描"</string>
+	<!---->
+	<string name="all_recover_scan">"全部恢复扫描"</string>
+	<!---->
+	<string name="ignored">"已忽略"</string>
+	<!---->
+	<string name="ignore">"忽略"</string>
+	<!---->
+	<string name="dialogmessage_all_recover_scan">"确定全部恢复扫描吗？"</string>
+	<!---->
+	<string name="dialogtitle_ignore_scan">"忽略扫描"</string>
+	<!---->
+	<string name="dialogmessage_ignore_scan">"您确定忽略扫描该文件夹吗？"</string>
+	<!---->
+	<string name="ignored_empty">"暂无忽略文件夹，文件夹列表项左滑可对其进行忽略"</string>
+	<!---->
+	<string name="no_content">"暂时没有内容"</string>
+	<!---->
+	<string name="add_to_my_playlist">"添加到我的歌单"</string>
+	<!---->
+	<string name="my_favourite_music">"我喜欢的音乐"</string>
+	<!---->
+	<string name="username">"用户名"</string>
+	<!---->
+	<string name="shrimp_account">"虾米账号"</string>
+	<!---->
+	<string name="shrimp_account_subtitle">"绑定虾米账号享受更丰富在线服务"</string>
+	<!---->
+	<string name="network_setting">"使用2G/3G/4G网络播放和下载"</string>
+	<!---->
+	<string name="timed_close">"定时关闭"</string>
+	<!---->
+	<string name="listen_and_download_quality">"试听及下载品质"</string>
+	<!---->
+	<string name="dummy_button">"隐藏按钮"</string>
+	<!---->
+	<string name="dummy_content">"隐藏的内容"</string>
+	<!---->
+	<string name="navigation_drawer_open">"打开抽屉式导航栏"</string>
+	<!---->
+	<string name="navigation_drawer_close">"关闭抽屉式导航栏"</string>
+	<!---->
+	<string name="all_songs">"歌曲"</string>
+	<!---->
+	<string name="albums">"专辑"</string>
+	<!---->
+	<string name="artists">"音乐人"</string>
+	<!---->
+	<string name="playlists">"歌单"</string>
+	<!---->
+	<string name="playlist">"歌单"</string>
+	<!---->
+	<string name="scenes">"“场景”"</string>
+	<!---->
+	<string name="folders">"文件夹"</string>
+	<!---->
+	<string name="loading_">"加载中。。。"</string>
+	<!---->
+	<string name="genres">"流派"</string>
+	<!---->
+	<string name="artwork">"插图"</string>
+	<!---->
+	<string name="menu">"菜单"</string>
+	<!---->
+	<string name="remove">"删除"</string>
+	<!---->
+	<string name="use_as_ringtone">"设为来电铃声"</string>
+	<!---->
+	<string name="go_to_artist">"查看音乐人"</string>
+	<!---->
+	<string name="go_to_album">"查看专辑"</string>
+	<!---->
+	<string name="add_to_queue">"添加到播放列表"</string>
+	<!---->
+	<string name="add_to_playlist">"添加到歌单"</string>
+	<!---->
+	<string name="please_input_song_name">"歌曲名称不能为空"</string>
+	<!---->
+	<string name="last_added">"最近添加"</string>
+	<!---->
+	<string name="songs">"歌曲"</string>
+	<plurals name="number_of_songs">
+		<item quantity="one">"%d 首"</item>
+		<item quantity="other">"%d 首"</item>
+	</plurals>
+	<plurals name="number_of_songs_2">
+		<item quantity="one">"%d首歌曲"</item>
+		<item quantity="other">"%d首歌曲"</item>
+	</plurals>
+	<plurals name="number_of_songs_3">
+		<item quantity="one">"(共%d首歌曲)"</item>
+		<item quantity="other">"(共%d首歌曲)"</item>
+	</plurals>
+	<plurals name="number_of_folders">
+		<item quantity="one">"%d 首歌曲"</item>
+		<item quantity="other">"%d 首歌曲"</item>
+	</plurals>
+	<plurals name="number_of_albums">
+		<item quantity="one">"共"%d张专辑""</item>
+		<item quantity="other">"共"%d张专辑""</item>
+	</plurals>
+	<plurals name="number_of_albums_2">
+		<item quantity="one">"%d张专辑"</item>
+		<item quantity="other">"%d张专辑"</item>
+	</plurals>
+	<plurals name="number_of_folder_detail_songs">
+		<item quantity="one">"(共%d首)"</item>
+		<item quantity="other">"(共%d首)"</item>
+	</plurals>
+	<!---->
+	<string name="all">"所有歌曲"</string>
+	<!---->
+	<string name="online">"在线音乐"</string>
+	<!---->
+	<string name="local">"本地歌曲"</string>
+	<!---->
+	<string name="i_like">"“我喜欢”"</string>
+	<!---->
+	<string name="today_songs">"“今日歌单”"</string>
+	<!---->
+	<string name="shuffle_all">"全部随机播放"</string>
+	<!---->
+	<string name="all_shuffle">"随机播放全部"</string>
+	<!---->
+	<string name="play_all1">"播放全部"</string>
+	<!---->
+	<string name="queue">"播放队列"</string>
+	<!---->
+	<string name="shuffle">"随机播放"</string>
+	<!---->
+	<string name="new_playlist">"创建播放列表"</string>
+	<!---->
+	<string name="issue_when_setting_ringtone">"设置%s为铃声失败"</string>
+	<!---->
+	<string name="set_ringtone_success">"已将%s设置为默认铃声"</string>
+	<!---->
+	<string name="your_email_or_username">"邮箱或用户名"</string>
+	<!---->
+	<string name="password">"密码"</string>
+	<!---->
+	<string name="library">"本地音乐"</string>
+	<!---->
+	<string name="settings">"设置"</string>
+	<!---->
+	<string name="search_hint">"搜索音乐"</string>
+	<!---->
+	<string name="live_music">"在线音乐"</string>
+	<!---->
+	<string name="listen_now">"最近播放"</string>
+	<!---->
+	<string name="got_it">"知道了"</string>
+	<!---->
+	<string name="to_get_access_to_online_music">"获取在线音乐"</string>
+	<!---->
+	<string name="favorite_playlist">"收藏"</string>
+	<!---->
+	<string name="hide_from_library">"隐藏"</string>
+	<!---->
+	<string name="unhide">"取消隐藏"</string>
+	<!---->
+	<string name="confirmation_remove">"删除\“%s\”吗？"</string>
+	<!---->
+	<string name="confirmation_remove_from_playlist">"从播放列表中删除\"%s\"吗？"</string>
+	<!---->
+	<string name="success_remove_library">"%s已从本地音乐移除成功"</string>
+	<!---->
+	<string name="error_remove_library">"移除%s时出错"</string>
+	<!---->
+	<string name="success_remove_playlist">"%s 已由列表移除"</string>
+	<!---->
+	<string name="error_remove_playlist">"%s 由列表移除时出错"</string>
+	<!---->
+	<string name="remove_from_playlist">"从播放列表中删除"</string>
+	<!---->
+	<string name="remove_from_queue">"从队列中移除"</string>
+	<!---->
+	<string name="live_tag">"激活的标签"</string>
+	<!---->
+	<string name="clear_queue">"清空队列"</string>
+	<!---->
+	<string name="save_queue">"保存队列"</string>
+	<!---->
+	<string name="save_record_as">"保存录音为"</string>
+	<!---->
+	<string name="name_already_exists">"文件名已存在，请输入一个不同的名称"</string>
+	<!---->
+	<string name="issue_when_saving_file">"保存%s时失败"</string>
+	<!---->
+	<string name="success_record">"%s已经成功录制"</string>
+	<!---->
+	<string name="my_records">"我的混音"</string>
+	<!---->
+	<string name="record_your_own_sample">"录制我的的式样"</string>
+	<!---->
+	<string name="songs_removed">"音乐已移除"</string>
+	<!---->
+	<string name="undo">"撤消"</string>
+	<!---->
+	<string name="your_own_samples">"自定义的式样"</string>
+	<!---->
+	<string name="signup_or_login">"注册或登入"</string>
+	<!---->
+	<string name="not_now">"下次"</string>
+	<!---->
+	<string name="edit">"编辑"</string>
+	<!---->
+	<string name="edit_name">"重命名"</string>
+	<!---->
+	<string name="add_a_track">"添加一首歌曲"</string>
+	<!---->
+	<string name="move_track_in_queue">"从列表中移除歌曲"</string>
+	<!---->
+	<string name="get_premium">"额外费用"</string>
+	<!---->
+	<string name="log_out">"注销"</string>
+	<!---->
+	<string name="account">"账户"</string>
+	<!---->
+	<string name="equalizer">"均衡器"</string>
+	<!---->
+	<string name="drum_loops">"循环鼓点"</string>
+	<!---->
+	<string name="low">"低音"</string>
+	<!---->
+	<string name="volume">"音量"</string>
+	<!---->
+	<string name="high">"高音"</string>
+	<!---->
+	<string name="mid">"中音"</string>
+	<!---->
+	<string name="reset">"恢复默认设置"</string>
+	<!---->
+	<string name="preferences_general">"常规"</string>
+	<!---->
+	<string name="networking_relevance">"联网相关"</string>
+	<!---->
+	<string name="other_line">"其他"</string>
+	<!---->
+	<string name="preference_arkamys_ambiance">"播放环境"</string>
+	<!---->
+	<string name="try_WLAN_only">"仅在WLAN下试听/下载"</string>
+	<!---->
+	<string name="WLAN_only_explanation">"仅允许在WLAN下试听/下载在线音乐"</string>
+	<!---->
+	<string name="download_lyric_picture">"下载歌词和图片"</string>
+	<!---->
+	<string name="lyric_picture_explanation">"联网时自动搜索本地歌曲缺失的图片和歌词"</string>
+	<!---->
+	<string name="listening_and_download">"边听边下载"</string>
+	<!---->
+	<string name="listening_download_explanation">"试听歌曲超过30秒后自动保存试听文件"</string>
+	<!---->
+	<string name="preference_show_hidden_tracks">"显示隐藏的音乐"</string>
+	<!---->
+	<string name="preference_screen_locker_lyric">"锁屏歌词"</string>
+	<!---->
+	<string name="preference_stream_via_mobile_network">"允许使用移动网络"</string>
+	<!---->
+	<string name="preference_dj_mode">"“DJ 模式”"</string>
+	<!---->
+	<string name="preference_analyse_bpm">"BPM分析"</string>
+	<!---->
+	<string name="preference_analyse_bpm_summary">"开始BPM分析"</string>
+	<!---->
+	<string name="preference_record_time">"录音时间"</string>
+	<!---->
+	<string name="preferences_licenses">"授权"</string>
+	<!---->
+	<string name="no_song_to_play">"当前没有歌曲播放"</string>
+	<!---->
+	<string name="preferences_licenses_button">"显示"</string>
+	<!---->
+	<string name="preferences_version">"版本号"</string>
+	<!---->
+	<string name="title_analysis_dialog">"分析BPM"</string>
+	<!---->
+	<string name="cancel_analysis">"取消"</string>
+	<!---->
+	<string name="please_wait_">"传输中，请稍等 ..."</string>
+	<!---->
+	<string name="an_analysis_is_already_running_we_are_waiting_for_its_completion_">"正在分析。\n请等待本次分析完成！"</string>
+	<!---->
+	<string name="currently_analysing">"目前分析：%s"</string>
+	<!---->
+	<string name="total_tracks_already_analysed">"%d 首音乐已经被分析完成"</string>
+	<!---->
+	<string name="total_tracks_currently">"%d 首音乐"</string>
+	<!---->
+	<string name="touch_to_add_songs_from_onetouch_mix">"触摸以便添加音乐"</string>
+	<!---->
+	<string name="rdio_not_availlable_in_this_mode">"此模式下Rdio不可用"</string>
+	<!---->
+	<string name="add_from_library">"从乐库中添加"</string>
+	<!---->
+	<string name="add_from_queue">"从队列中添加"</string>
+	<!---->
+	<string name="mode_selected">"%s模式已被选择"</string>
+	<!---->
+	<string name="sign_in_with_your_rdio_account">"Rdio帐号登录"</string>
+	<!---->
+	<string name="sign_in_with_your_deezer_account">"使用Deezer账号登录"</string>
+	<!---->
+	<string name="drum_loop">"循环击鼓"</string>
+	<!---->
+	<string name="powered_by_service">"%s耗电"</string>
+	<!---->
+	<string name="hide_track_while_pref_forcing_visibility">"警告：配置项“显示隐藏音乐”已开启"</string>
+	<!---->
+	<string name="song_had_been_added_to_playlist">"音乐已添加到 %s"</string>
+	<!---->
+	<string name="song_had_been_added_to_favouriteList">"收藏成功！"</string>
+	<!---->
+	<string name="song_has_been_added_to_queue">"添加成功！"</string>
+	<!---->
+	<string name="welcome_to_onetouch_mix">"音乐"</string>
+	<!---->
+	<string name="jbl_certified">"JBL 授权"</string>
+	<!---->
+	<string name="item_removed">"%s 已移除"</string>
+	<!---->
+	<string name="automatic_playlist">"机选播放列表"</string>
+	<!---->
+	<string name="see_all_artists_online">"查看所有在线音乐人"</string>
+	<!---->
+	<string name="see_all_albums_online">"查看所有在线专辑"</string>
+	<!---->
+	<string name="see_all_playlists_online">"查看所有在线播放列表"</string>
+	<!---->
+	<string name="see_all_songs_online">"查看所有在线音乐"</string>
+	<!---->
+	<string name="no_results_found">"无结果"</string>
+	<!---->
+	<string name="get_started">"开始"</string>
+	<!---->
+	<string name="next">"下一步"</string>
+	<!---->
+	<string name="tip_change_display">"点击此处切换网格视图为列表视图。"</string>
+	<!-- no translation found for tip_palying_load -->
+	<skip />
+	<!-- no translation found for tip_palying_tools -->
+	<skip />
+	<!-- no translation found for tip_palying_scratch -->
+	<skip />
+	<!-- no translation found for tip_palying_rotate -->
+	<skip />
+	<!-- no translation found for tip_palying_lock -->
+	<skip />
+	<!---->
+	<string name="tip_dj_tap_switch">"点击此处切换到手动模式。"</string>
+	<!---->
+	<string name="tip_dj_swipe_change">"在空白处向左或向右滑动去上一个或下一首歌曲。"</string>
+	<!---->
+	<string name="demo_version_dialog_title">"样本版本！"</string>
+	<!---->
+	<string name="play_track_failed">"无法播放您请求的曲目"</string>
+	<!---->
+	<string name="save">"保存"</string>
+	<!---->
+	<string name="name">"名称"</string>
+	<!---->
+	<string name="description">"说明"</string>
+	<!---->
+	<string name="title_rotate_manual_mode_dialog">"旋转退出"</string>
+	<!---->
+	<string name="message_rotate_manual_mode_dialog">"手动设置数据将会丢失"</string>
+	<!---->
+	<string name="samples">"模板"</string>
+	<!---->
+	<string name="hide_success">"音乐已隐藏。\n您可以在设置里显示隐藏的音乐。"</string>
+	<!---->
+	<string name="hidden_playlist">"隐藏列表"</string>
+	<!---->
+	<string name="Low_Pass">"低音频"</string>
+	<!---->
+	<string name="Hi_Pass">"高音频"</string>
+	<!---->
+	<string name="Delay">"延迟"</string>
+	<!---->
+	<string name="Echo">"回音"</string>
+	<!---->
+	<string name="Phaser">"移相"</string>
+	<!---->
+	<string name="X_Phaser">"X移向"</string>
+	<!---->
+	<string name="Flanger">"凸缘"</string>
+	<!---->
+	<string name="Jet">"喷射"</string>
+	<!---->
+	<string name="Cut">"削减"</string>
+	<!---->
+	<string name="Chopper">"斩波器"</string>
+	<!---->
+	<string name="Crush">"碾压"</string>
+	<!---->
+	<string name="Bliss">"极乐"</string>
+	<!---->
+	<string name="Bi_Filter">"双过滤"</string>
+	<!---->
+	<string name="Brake">"阻碍"</string>
+	<!---->
+	<string name="Roll">"滚动"</string>
+	<!---->
+	<string name="Dancefloor">"舞池"</string>
+	<!---->
+	<string name="Dubstep">"电子乐"</string>
+	<!---->
+	<string name="Dubstep_Drums">"电子鼓点"</string>
+	<!---->
+	<string name="Essentials">"精要"</string>
+	<!---->
+	<string name="FxShots">"射击音效"</string>
+	<!---->
+	<string name="Hip_Hop_Drums">"流行鼓点"</string>
+	<!---->
+	<string name="House_Drums">"浩室鼓点"</string>
+	<!---->
+	<string name="Party_Sounds">"派对音效"</string>
+	<!---->
+	<string name="sounds">"音效"</string>
+	<!---->
+	<string name="Scratch">"打碟"</string>
+	<!---->
+	<string name="Space">"太空"</string>
+	<!---->
+	<string name="Synths">"合成音效"</string>
+	<!---->
+	<string name="Vocals">"元音"</string>
+	<!---->
+	<string name="Your_own_samples">"您的音效"</string>
+	<!---->
+	<string name="Drum_Loops">"循环鼓点1"</string>
+	<!---->
+	<string name="Drum_Loops_2">"循环鼓点2"</string>
+	<!---->
+	<string name="no_music_in_my_genres">"流派中没有任何音乐"</string>
+	<!---->
+	<string name="no_music_in_your_device">"歌曲为空"</string>
+	<!---->
+	<string name="no_online_music_in_your_library">"您的在线音乐为空"</string>
+	<!---->
+	<string name="no_artists_found">"音乐人为空"</string>
+	<!---->
+	<string name="no_albums_found">"专辑为空"</string>
+	<!---->
+	<string name="no_song_found">"暂无歌曲"</string>
+	<!---->
+	<string name="manual_mix_on">"开启手动混音"</string>
+	<!---->
+	<string name="manual_mix_off">"关闭手动混音"</string>
+	<!---->
+	<string name="deezer_charts_title">"每周流行榜"</string>
+	<!---->
+	<string name="deezer_editorial_title">"主流"</string>
+	<!---->
+	<string name="deezer_radio_title">"电台"</string>
+	<!---->
+	<string name="deezer_playlist_title">"播放列表"</string>
+	<!---->
+	<string name="deezer_hearthis_title">"试听"</string>
+	<!---->
+	<string name="deezer_error_during_login">"Deezer登录时发生错误"</string>
+	<!---->
+	<string name="deezer_invalid_credentials">"无效凭据"</string>
+	<!---->
+	<string name="deezer_login_cancelled">"登录取消"</string>
+	<!---->
+	<string name="deezer_login_fail">"登录失败"</string>
+	<!---->
+	<string name="start_flow">"开始聆听"</string>
+	<!---->
+	<string name="tip_deezer_intr">"Deezer可免费试用。我们提供了3个月的试用期，然后每月收取9.99。"</string>
+	<!---->
+	<string name="hearthis_info">"发现下一首收藏的音乐。"</string>
+	<!---->
+	<string name="hearthis_jump">"收听"</string>
+	<!---->
+	<string name="can_not_go_pre_radio">"电台不可回到上一首"</string>
+	<!---->
+	<string name="track_title">"歌曲"</string>
+	<!---->
+	<string name="album_title">"专辑"</string>
+	<!---->
+	<string name="artist_title">"歌手"</string>
+	<!---->
+	<string name="genre_title">"流派"</string>
+	<!---->
+	<string name="edit_file_error">"文件不可编辑，文件是只读属性或者没有写的权限。"</string>
+	<!---->
+	<string name="edit_genre_error">"编辑流派失败"</string>
+	<!---->
+	<string name="edit_genre_exist">"流派%s已经存在"</string>
+	<!---->
+	<string name="reset_tips">"重置所有提示"</string>
+	<!---->
+	<string name="setting_djmode_switch_reset_all">"是否重置所有提示？"</string>
+	<!---->
+	<string name="setting_switch_djmode">"切换DJ模式将中断音乐播放。"</string>
+	<!---->
+	<string name="swicth">"切换"</string>
+	<!---->
+	<string name="delete">"删除"</string>
+	<!---->
+	<string name="confirmation_delete">"确定删除？"</string>
+	<!---->
+	<string name="cancel_renew">"取消续费"</string>
+	<!---->
+	<string name="record_sample_title">"您的新录音"</string>
+	<!---->
+	<string name="sample_is_full">"您的录音已满，请删除至少一个旧录音，以创建新的录音。"</string>
+	<!---->
+	<string name="create">"创建"</string>
+	<!---->
+	<string name="select">"选择"</string>
+	<!---->
+	<string name="dialog_cancel_renew_title">"取消Deezer付费"</string>
+	<!---->
+	<string name="dialog_cancel_renew_msg">"为了取消您的付费，用电脑登录Deezer账户，进入我的付费，取消操作需要在48小时之后完成。"</string>
+	<!---->
+	<string name="sign_out">"退出"</string>
+	<!---->
+	<string name="create_new_playlist">"新建播放列表"</string>
+	<!---->
+	<string name="dialog_deezer_preview_msg">"免费用户只能试听30秒，订阅可以听整首歌曲。"</string>
+	<!---->
+	<string name="tip_another_deezer_intr">"进入付费详情后还可以获取%d天的免费试听。免费试听结束后才会收费。"</string>
+	<!---->
+	<string name="tip_another_deezer_info">"%s每月的免费试听结束后，你可以在任何时候取消订阅。"</string>
+	<!---->
+	<string name="deezer_continue_msg">"继续免费尝试"</string>
+	<!---->
+	<string name="tip_deezer_info">"Deezer是基于网页的音频流，登录获取特惠付费。"</string>
+	<!---->
+	<string name="tip_no_account_yet">"还未注册"</string>
+	<!---->
+	<string name="request_deezer_tip_fail">"Deezer 提示信息加载失败"</string>
+	<!---->
+	<string name="success_delete_library">"%s已从本地音乐删除"</string>
+	<!---->
+	<string name="confirmation_analyse">"继续"</string>
+	<!---->
+	<string name="confirmation_analyse_info">"BPM 表示每分钟击打数，一旦分析，所有歌曲的BPM会在歌曲信息中显示。"</string>
+	<!---->
+	<string name="network_is_not_connect">"WLAN关闭或者数据连接不可用"</string>
+	<!---->
+	<string name="cricket_string">"如果你已经是cricket用户，请直接登录。"</string>
+	<!---->
+	<string name="deezer_download">"*只有Deezer应用程序有下载功能。"</string>
+	<!---->
+	<string name="start_personalize_your_favorite_tracks">"开始你的最爱歌曲"</string>
+	<!---->
+	<string name="no_internet_connection">"未连接互联网"</string>
+	<!---->
+	<string name="bluetooth_phone">"拨号"</string>
+	<!---->
+	<string name="artist_album_count">"%d 专辑"</string>
+	<!---->
+	<string name="version_update">"检查更新"</string>
+	<!---->
+	<string name="quality_download_default">"默认下载音质"</string>
+	<!-- no translation found for update_versionname -->
+	<skip />
+	<!---->
+	<string name="no_upgrade_version">"没有新版本可升级"</string>
+	<!---->
+	<string name="version_available">"检测到新版本"</string>
+	<!---->
+	<string name="version_unavailable">"没有新版本"</string>
+	<!---->
+	<string name="song_recognition">"听歌识曲"</string>
+	<!---->
+	<string name="invalid_network">"没有网络"</string>
+	<!---->
+	<string name="recognition_ing">"正在识别..."</string>
+	<!---->
+	<string name="stop_recognition">"停止识别"</string>
+	<!---->
+	<string name="recognition_tips">"识别你周围播放的歌曲"</string>
+	<!---->
+	<string name="begin_recognition">"开始识别"</string>
+	<!---->
+	<string name="click_button_begin_recognize">"点击按钮开始"</string>
+	<!---->
+	<string name="recognition_failed">"未找到匹配的音乐"</string>
+	<!---->
+	<string name="recognition_failed_tips">"请确保手机麦克风靠近来源"</string>
+	<!---->
+	<string name="recognition_again">"重新识别"</string>
+	<!---->
+	<string name="similarity">"相似度 %s"</string>
+	<!---->
+	<string name="download">"下载"</string>
+	<!---->
+	<string name="add_to_play">"加入播放队列"</string>
+	<!---->
+	<string name="play_next">"下一首播放"</string>
+	<!---->
+	<string name="test">"“测试”"</string>
+	<!---->
+	<string name="sharedata">"“共享数据”"</string>
+	<!---->
+	<string name="song_style_all">"全部"</string>
+	<!---->
+	<string name="song_style_chinese">"华语"</string>
+	<!---->
+	<string name="song_style_european">"欧美"</string>
+	<!---->
+	<string name="song_style_japan">"日本"</string>
+	<!---->
+	<string name="song_style_korean">"韩国"</string>
+	<!---->
+	<string name="song_style_musician">"音乐人"</string>
+	<!---->
+	<string name="song_style_other">"其他"</string>
+	<!---->
+	<string name="song_style_filter">"筛选"</string>
+	<!---->
+	<string name="error_view_click_to_refresh">"点击屏幕，重新加载"</string>
+	<!---->
+	<string name="error_view_no_data">"暂无内容"</string>
+	<!---->
+	<string name="error_view_loading">"加载中…"</string>
+	<!---->
+	<string name="error_view_load_error_click_to_refresh">"内容加载失败\r\n点击重新加载"</string>
+	<!---->
+	<string name="error_view_network_error_click_to_refresh">"没有可用的网络"</string>
+	<!---->
+	<string name="tip_network_error">"没有可用的网络"</string>
+	<!---->
+	<string name="tip_download_network_error">"没有可用的网络"</string>
+	<!---->
+	<string name="loading_no_more">"已加载全部"</string>
+	<!---->
+	<string name="error_no_valid_song">"抱歉，因合作方要求，该资源暂时无法使用。"</string>
+	<!---->
+	<string name="radio_type_recommand">"推荐"</string>
+	<!---->
+	<string name="radio_type_orginal">"原创"</string>
+	<!---->
+	<string name="radio_type_scene">"场景"</string>
+	<!---->
+	<string name="radio_type_style">"风格"</string>
+	<!---->
+	<string name="song_style_mood">"心情"</string>
+	<!---->
+	<string name="search">"搜索"</string>
+	<!---->
+	<string name="search_online_hint">"搜索歌曲，歌手，专辑"</string>
+	<!---->
+	<string name="search_hot">"今日搜索热词"</string>
+	<!---->
+	<string name="search_replacement">"换一批"</string>
+	<!---->
+	<string name="song">"歌曲"</string>
+	<!---->
+	<string name="album">"专辑"</string>
+	<!---->
+	<string name="song_qty">"%s 首歌"</string>
+	<!---->
+	<string name="liric_not_exist">"暂无歌词"</string>
+	<!---->
+	<string name="add_favorite">"已收藏"</string>
+	<!---->
+	<string name="cancel_favorite">"已取消收藏"</string>
+	<!---->
+	<string name="play_mode_random">"随机播放"</string>
+	<!---->
+	<string name="play_mode_single_cycle">"单曲循环"</string>
+	<!---->
+	<string name="play_mode_listing">"列表循环"</string>
+	<!-- no translation found for dj_music -->
+	<skip />
+	<!-- no translation found for dj -->
+	<skip />
+	<!-- no translation found for dj_mode -->
+	<skip />
+	<!---->
+	<string name="auto_mode">"自动模式"</string>
+	<!---->
+	<string name="record">"录音"</string>
+	<!---->
+	<string name="rhythm_synchronized">"节奏同步"</string>
+	<!---->
+	<string name="operations_area">"操作台"</string>
+	<!---->
+	<string name="drumbeat">"鼓点"</string>
+	<!-- no translation found for drum_walk -->
+	<skip />
+	<!-- no translation found for drum_house -->
+	<skip />
+	<!-- no translation found for drum_minimal -->
+	<skip />
+	<!-- no translation found for drum_tribal -->
+	<skip />
+	<!-- no translation found for drum_ride -->
+	<skip />
+	<!-- no translation found for drum_wild -->
+	<skip />
+	<!-- no translation found for drum_jundlge -->
+	<skip />
+	<!-- no translation found for drum_drbass -->
+	<skip />
+	<!-- no translation found for drum_walk2 -->
+	<skip />
+	<!-- no translation found for drum_tribal2 -->
+	<skip />
+	<!-- no translation found for drum_vibes -->
+	<skip />
+	<!-- no translation found for drum_urban -->
+	<skip />
+	<!---->
+	<string name="p2refresh_head_load_more">"加载更多"</string>
+	<!---->
+	<string name="p2refresh_end_load_more">"点击加载"</string>
+	<!---->
+	<string name="p2refresh_end_click_load_more">"点击加载"</string>
+	<!---->
+	<string name="p2refresh_end_load_more_fail">"加载失败，请重试"</string>
+	<!---->
+	<string name="p2refresh_release_refresh">"释放刷新"</string>
+	<!---->
+	<string name="p2refresh_pull_to_refresh">"向下拉刷新"</string>
+	<!---->
+	<string name="p2refresh_doing_head_refresh">"正在刷新…"</string>
+	<!---->
+	<string name="p2refresh_doing_end_refresh">"加载中..."</string>
+	<!---->
+	<string name="p2refresh_refresh_lasttime">"最近更新："</string>
+	<!---->
+	<string name="cannot_requestrefresh">"没有更多数据了"</string>
+	<!---->
+	<string name="now_playing">"立即播放"</string>
+	<!---->
+	<string name="num_songs">"%d 首"</string>
+	<!---->
+	<string name="batch_processing">"批量处理"</string>
+	<!---->
+	<string name="hot_music_recommend">"热门音乐推荐"</string>
+	<!---->
+	<string name="add_to_song_list">"添加到歌单"</string>
+	<!---->
+	<string name="favorite_song_list">"收藏的歌单"</string>
+	<!---->
+	<string name="add_to_play_queue">"添加到播放队列"</string>
+	<!---->
+	<string name="batch_operate">"批量处理"</string>
+	<!---->
+	<string name="singer_detail">"歌手详情"</string>
+	<!---->
+	<string name="collect_detail">"精选集详情"</string>
+	<!---->
+	<string name="album_detail">"专辑详情"</string>
+	<!---->
+	<string name="unknown">"未知"</string>
+	<!---->
+	<string name="song_list">"歌单"</string>
+	<!---->
+	<string name="network_error_prompt">"当前网络不可用\r\n请检查你的网络设备"</string>
+	<!---->
+	<string name="network_error_prompt2">"请检查网络，点击屏幕重试"</string>
+	<!---->
+	<string name="loading2">"正在拼命加载..."</string>
+	<!---->
+	<string name="local_music">"我的音乐"</string>
+	<!---->
+	<string name="complete">"完成"</string>
+	<!---->
+	<string name="back_to_home">"再次点击返回键切换到桌面"</string>
+	<!---->
+	<string name="exit">"退出"</string>
+	<!---->
+	<string name="song_list_empty_please_add">"歌单为空，请添加音乐"</string>
+	<!---->
+	<string name="latest_songs">"新歌"</string>
+	<!---->
+	<string name="rank_list">"排行榜"</string>
+	<!---->
+	<string name="singer">"歌手"</string>
+	<!---->
+	<string name="artist">"歌手"</string>
+	<!---->
+	<string name="radio">"电台"</string>
+	<!---->
+	<string name="hot_recom_music">"热门音乐推荐"</string>
+	<!---->
+	<string name="essence_music">"精选音乐合集"</string>
+	<!---->
+	<string name="latest_music_first">"新碟首发"</string>
+	<!---->
+	<string name="more">"更多"</string>
+	<!---->
+	<string name="load_fail">"加载失败..."</string>
+	<!---->
+	<string name="recommend">"推荐"</string>
+	<!---->
+	<string name="hotest">"最热"</string>
+	<!---->
+	<string name="latest">"最新"</string>
+	<!---->
+	<string name="downloaded">"已下载"</string>
+	<!---->
+	<string name="downloading">"正在下载"</string>
+	<!---->
+	<string name="downloadmanager">"下载管理"</string>
+	<!---->
+	<string name="pause_alarm">"已暂停，点击继续"</string>
+	<!---->
+	<string name="downloading_alarm">"正在下载，点击暂停"</string>
+	<!---->
+	<string name="watting_alarm">"等待下载"</string>
+	<!---->
+	<string name="invalide_alarm">"下载失败，点击重新下载"</string>
+	<!---->
+	<string name="song_exist_in_local">"已下载过这首音乐"</string>
+	<!---->
+	<string name="batch_operation">"批量处理"</string>
+	<!---->
+	<string name="playing_all">"随机播放全部"</string>
+	<!---->
+	<string name="delete_downloaded">"删除"</string>
+	<!---->
+	<string name="addplaylist">"添加到歌单"</string>
+	<!---->
+	<string name="download_alarm">"开始下载..."</string>
+	<!---->
+	<string name="download_have_alarm">"音乐已在下载队列中"</string>
+	<!---->
+	<string name="download_have_alarm_cancel">"已加入下载列表，且WLAN环境下会自动下载"</string>
+	<!---->
+	<string name="download_error">"音乐不能下载"</string>
+	<!---->
+	<string name="downloaded_notifaction">"下载完成点击查看"</string>
+	<!---->
+	<string name="downloading_notifaction">"首音乐正在下载，点击查看"</string>
+	<!---->
+	<string name="downloading_notifaction2">"首音乐正在下载，点击查看"</string>
+	<!---->
+	<string name="download_select_alarm">"请至少选择一首音乐"</string>
+	<!---->
+	<string name="download_select">"点击选择"</string>
+	<!---->
+	<string name="download_selected">"已选择"</string>
+	<!---->
+	<string name="download_invalid">"地址失效，重新获取"</string>
+	<!---->
+	<string name="set_as_play_next">"已设置为下一首播放"</string>
+	<!---->
+	<string name="create_song_list">"创建歌单"</string>
+	<!---->
+	<string name="new_song_list">"新建歌单"</string>
+	<!---->
+	<string name="confirmation_remove_from_favourite">"从收藏夹中删除\"%s\"吗？"</string>
+	<!---->
+	<string name="turnleft_to_see_lyrics">"向左滑可以查看歌词哦！"</string>
+	<!---->
+	<string name="getIt">"知道啦"</string>
+	<!---->
+	<string name="sure">"确认"</string>
+	<!---->
+	<string name="extra_warning_msg">"当前使用移动数据，请注意流量消耗"</string>
+	<!---->
+	<string name="dialog_mobile_network_title">"移动数据提醒"</string>
+	<!---->
+	<string name="dialog_mobile_network_message">"您正在使用运营商网络，是否打开设置“允许使用移动数据”？"</string>
+	<!---->
+	<string name="dialog_mobile_network_ok">"允许使用"</string>
+	<!---->
+	<string name="dialog_mobile_network_cancel">"停止使用"</string>
+	<!---->
+	<string name="dialog_mobile_network_allowed_toast">"已开启允许“允许使用移动数据”功能，你可以在设置中关闭该功能"</string>
+	<!---->
+	<string name="dialog_mobile_network_ban_toast">"已设置为运营商网络下不允许联网，您可以通过修改设置中的“允许使用运营商网络”来修改此设置"</string>
+	<!-- no translation found for title_activity_launch -->
+	<skip />
+	<!---->
+	<string name="dialog_audition_message">"当前是移动数据，将会产生流量费用，是否要继续试听？"</string>
+	<!---->
+	<string name="dialog_download_message">"当前是移动数据，将会产生流量费用，是否要继续下载？"</string>
+	<!---->
+	<string name="dialog_audition_play">"继续播放"</string>
+	<!---->
+	<string name="dialog_audition_stop">"停止播放"</string>
+	<!---->
+	<string name="dialog_download_stop">"停止下载"</string>
+	<!---->
+	<string name="dialog_download_continu">"继续下载"</string>
+	<!---->
+	<string name="start_music">"启动音乐服务"</string>
+	<!---->
+	<string name="service_declaration_desc">"欢迎使用TCL提供的音乐服务，使用过程中需要连接网络，在移动网络环境下会产生一定的流量费用，详情请咨询当地的网络运营商。同时为了给用户提供更好的服务，将会收集一些用户手机信息（比如您的设备ID、定位信息等）。 我们会对用户的手机信息完全保密，并保证不会外泄或被第三方非法抓取。同意上述请启动音乐服务。"</string>
+	<!---->
+	<string name="permission_tips1">"打开USB存储权限保障基本功能的正常使用。"</string>
+	<!---->
+	<string name="permission_tips2">"打开电话权限将帮助您更好的享受音乐的乐趣，用户的隐私是安全的。"</string>
+	<!---->
+	<string name="permission_tips3">"请赋予音乐存储权限保障基本功能的正常使用。"</string>
+	<!---->
+	<string name="my_download">"我的下载"</string>
+	<!---->
+	<string name="song_number">"首歌"</string>
+	<!---->
+	<string name="my_favorite">"我的收藏"</string>
+	<!---->
+	<string name="recent_play">"最近播放"</string>
+	<!---->
+	<string name="my_playlist">"我的歌单"</string>
+	<!---->
+	<string name="hidden_list">"收藏列表"</string>
+	<!---->
+	<string name="default_download">"默认下载音质"</string>
+	<!---->
+	<string name="auto_download">"自动选择"</string>
+	<!---->
+	<string name="standard_download">"标准品质"</string>
+	<!---->
+	<string name="high_quality">"高品质"</string>
+	<!---->
+	<string name="settings_open_WLAN">"请连接WLAN"</string>
+	<!---->
+	<string name="settings_title">"设置"</string>
+	<!---->
+	<string name="dialog_title_time_close">"定时关闭"</string>
+	<!---->
+	<string name="dialog_item_no_close">"不开启"</string>
+	<!---->
+	<string name="dialog_item_after_ten">"10分钟后"</string>
+	<!---->
+	<string name="dialog_item_after_fifteen">"15分钟后"</string>
+	<!---->
+	<string name="dialog_item_after_thirty">"30分钟后"</string>
+	<!---->
+	<string name="dialog_item_after_forty_five">"45分钟后"</string>
+	<!---->
+	<string name="dialog_item_after_sixty">"60分钟后"</string>
+	<!-- no translation found for date_format -->
+	<skip />
+	<!---->
+	<string name="screen_singer_name">"未知艺术家"</string>
+	<!---->
+	<string name="screen_sing_name">"未知歌曲"</string>
+	<!---->
+	<string name="empty_tip1">"暂无歌曲 !"</string>
+	<!---->
+	<string name="empty_tip1_2">"没有歌曲"</string>
+	<!---->
+	<string name="empty_tip2">"来打造自己的个性音乐列表吧！"</string>
+	<!---->
+	<string name="add_songs">"添加歌曲"</string>
+	<!---->
+	<string name="select_all">"全选"</string>
+	<!---->
+	<string name="cancle_select">"取消"</string>
+	<!---->
+	<string name="cancel_select_all">"全不选"</string>
+	<!---->
+	<string name="recommend_music">"为您推荐"</string>
+	<!---->
+	<string name="daily_recommend">"每日推荐"</string>
+	<!---->
+	<string name="daily_recommend_descripe">"根据您的兴趣生成"</string>
+	<!---->
+	<string name="heart_radio">"心情电台"</string>
+	<!---->
+	<string name="heart_radio_descripe">"不同的心情，不同的音乐"</string>
+	<!---->
+	<string name="remove_from_recentplayed">"移除"</string>
+	<!---->
+	<string name="all_are_local_music">"都是本地音乐，无需下载"</string>
+	<!---->
+	<string name="download_success">"下载成功"</string>
+	<!---->
+	<string name="download_failed">"下载失败。"</string>
+	<!---->
+	<string name="history_search">"历史搜索"</string>
+	<!---->
+	<string name="history_clear">"清除全部"</string>
+	<!---->
+	<string name="dialog_saving_text">"正在保存"</string>
+	<!---->
+	<string name="save_success">"添加成功！"</string>
+	<!---->
+	<string name="male_singer">"男歌手"</string>
+	<!---->
+	<string name="female_singer">"女歌手"</string>
+	<!---->
+	<string name="band">"组合"</string>
+	<!---->
+	<string name="daily_cycle">"每日更新"</string>
+	<!---->
+	<string name="weekly_cycle">"每周更新"</string>
+	<!---->
+	<string name="rank_update_time">"榜单更新于"</string>
+	<!---->
+	<string name="quantity_songs">"%d 首"</string>
+	<!---->
+	<string name="quantity_albums">"%d 张"</string>
+	<!---->
+	<string name="unlock">"滑动解锁"</string>
+	<!---->
+	<string name="batch_operate_loading">"正在添加中..."</string>
+	<!---->
+	<string name="success_delete_playlist">"%s歌单已经删除"</string>
+	<!---->
+	<string name="confirmation_remove_playlist">"确定要删除歌单“%s”吗？"</string>
+	<!---->
+	<string name="delete_playlist_failed">"删除失败"</string>
+	<!---->
+	<string name="cancle_favorite_playlist">"取消收藏"</string>
+	<!---->
+	<string name="confirmation_playlist_remove">"确定移除？"</string>
+	<!---->
+	<string name="confirmation">"确定"</string>
+	<!---->
+	<string name="name_exist_playlist">"歌单名已经存在"</string>
+	<!---->
+	<string name="found">"发现音乐"</string>
+	<!---->
+	<string name="ignored_folder">"已忽略文件夹"</string>
+	<!---->
+	<string name="batch_add_to_playlist">"添加到"</string>
+	<!---->
+	<string name="confirm_to_delete">"是否确认删除？"</string>
+	<!---->
+	<string name="batch_cancel_select_all">"取消全选"</string>
+	<!---->
+	<string name="operating">"正在操作"</string>
+	<!---->
+	<string name="operation_failed">"操作失败"</string>
+	<!---->
+	<string name="share_to">"分享到"</string>
+	<!---->
+	<string name="please_select_media_items">"请选择需要操作的歌曲"</string>
+	<!---->
+	<string name="batch_songs_num">"已选择%d首"</string>
+	<!---->
+	<string name="share">"分享"</string>
+	<!---->
+	<string name="alert_title_delete_artist">"删除歌手"</string>
+	<!---->
+	<string name="alert_message_delete_artist">"您确定删除%s歌手及其全部歌曲吗？"</string>
+	<!---->
+	<string name="please_select_artist_items">"请选择需要操作的歌手"</string>
+	<!---->
+	<string name="batch_artists_num">"已选择%d个"</string>
+	<!---->
+	<string name="artists_removed">"歌手已移除"</string>
+	<!---->
+	<string name="alert_title_delete_album">"删除专辑"</string>
+	<!---->
+	<string name="alert_message_delete_album">"您确定删除%s专辑及其全部歌曲吗？"</string>
+	<!---->
+	<string name="please_select_album_items">"请选择需要操作的专辑"</string>
+	<!---->
+	<string name="batch_albums_num">"已选择%d张"</string>
+	<!---->
+	<string name="albums_removed">"专辑已移除"</string>
+	<plurals name="folder_number_of_folders">
+		<item quantity="one">"%d个文件夹"</item>
+		<item quantity="other">"%d个文件夹"</item>
+	</plurals>
+	<plurals name="folder_number_of_songs">
+		<item quantity="one">"%d首歌曲"</item>
+		<item quantity="other">"%d首歌曲"</item>
+	</plurals>
+	<!---->
+	<string name="scenes_1">"跑步"</string>
+	<!---->
+	<string name="scenes_2">"学习"</string>
+	<!---->
+	<string name="scenes_3">"工作"</string>
+	<!---->
+	<string name="scenes_4">"开车"</string>
+	<!---->
+	<string name="scenes_5">"旅行"</string>
+	<!---->
+	<string name="scenes_6">"助眠"</string>
+	<!---->
+	<string name="scenes_7">"聚会"</string>
+	<!---->
+	<string name="scenes_8">"下午茶"</string>
+	<!---->
+	<string name="scenes_9">"夜店"</string>
+	<!---->
+	<string name="scenes_10">"其他"</string>
+	<!---->
+	<string name="character_exceed_limit">"字符超出限制了！"</string>
+	<!---->
+	<string name="playlist_name_can_not_be_empty">"歌单名称为空！"</string>
+	<!---->
+	<string name="rename_playlist_failed">"歌单重命名失败！"</string>
+	<!---->
+	<string name="confirm_to_remove">"您确定要移除这些歌曲吗？"</string>
+	<!---->
+	<string name="waiting_load">"正在加载"</string>
+	<!---->
+	<string name="check_to_remove">"您确定要移除这些歌曲吗？"</string>
+	<!---->
+	<string name="keep_files">"保留本地文件"</string>
+	<!---->
+	<string name="online_search_result">"在线搜索结果"</string>
+	<!---->
+	<string name="local_search_result">"本地搜索结果"</string>
+	<!---->
+	<string name="can_not_online_search">"暂无网络，无法进行在线搜索"</string>
+</resources>

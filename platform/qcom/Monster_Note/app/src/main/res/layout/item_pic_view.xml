@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<cn.tcl.note.ui.LinearLayoutTouch xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <cn.tcl.note.ui.EditTextHelper
+        android:id="@+id/item_pic_edit_before"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@null"
+        android:paddingRight="1dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="2dp"
+        android:textDirection="rtl" />
+
+    <LinearLayout
+        android:id="@+id/attachment_border"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shadow">
+
+        <ImageView
+            android:id="@+id/item_iv_pic"
+            android:layout_width="@dimen/editor_img_width"
+            android:layout_height="wrap_content"
+            android:maxHeight="@dimen/editor_img_max_height"
+            android:adjustViewBounds="true" />
+    </LinearLayout>
+
+    <cn.tcl.note.ui.EditTextHelper
+        android:id="@+id/item_pic_edit_after"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@null"
+        android:paddingLeft="1dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="2dp"
+        android:textDirection="ltr" />
+</cn.tcl.note.ui.LinearLayoutTouch>

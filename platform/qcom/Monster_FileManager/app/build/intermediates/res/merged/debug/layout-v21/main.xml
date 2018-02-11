@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mst="http://schemas.android.com/apk/res/com.mst"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <mst.widget.toolbar.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="?android:attr/colorPrimary"
+        android:elevation="0dp">
+
+        <include layout="@layout/actionbar_custom_view" />
+    </mst.widget.toolbar.Toolbar>
+
+    <LinearLayout
+        android:id="@+id/global_search_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/file_path_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/main_filepathbrower_height"
+        android:paddingLeft="@dimen/main_filepathbrower_margin"
+        android:paddingRight="@dimen/main_filepathbrower_margin"
+        android:layout_below="@id/my_toolbar">
+
+        <cn.tcl.filemanager.view.HorizontalListView
+            android:id="@+id/listview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:stackFromBottom="true"></cn.tcl.filemanager.view.HorizontalListView>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/bottom_bar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone">
+
+    <mst.view.menu.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_add_cancle"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:maxHeight="50dp"
+        mst:menu="@menu/encrypt_add_cancle"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone"/>
+
+    <mst.view.menu.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_paste_cancle"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:maxHeight="50dp"
+        mst:menu="@menu/paste_cancle_menu"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone"/>
+
+    <mst.view.menu.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation_view"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:maxHeight="50dp"
+        mst:menu="@menu/edit_menu"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone"/>
+
+        </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/Frame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/file_path_layout"
+        android:layout_above="@id/bottom_bar">
+
+        <RelativeLayout
+            android:id="@+id/content_frame"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/shadow"
+                style="?android:attr/actionButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:clickable="false"
+                android:src="@drawable/fm_bar_shadow"
+                android:visibility="gone" />
+
+            <FrameLayout
+                android:id="@+id/layout_main_frame"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/shadow"/>
+            <!--<fragment-->
+            <!--android:id="@+id/permissionfragment"-->
+            <!--android:name="PermissionFragment"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_below="@id/shadow" />-->
+
+            <!--<fragment-->
+            <!--android:id="@+id/categoryfragment"-->
+            <!--android:name="CategoryFragment"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_below="@id/shadow"-->
+            <!--android:visibility="gone" />-->
+
+            <!--<fragment-->
+            <!--android:id="@+id/listfragment"-->
+            <!--android:name="ListsFragment"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_below="@id/shadow"-->
+            <!--android:visibility="gone" />-->
+
+            <!--<fragment-->
+            <!--android:id="@+id/gridfragment"-->
+            <!--android:name="GridFragment"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_below="@id/shadow"-->
+            <!--android:visibility="gone" />-->
+
+
+        </RelativeLayout>
+
+        <include
+            layout="@layout/floating_action_button"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/snackbarlayout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/main_snackbar_height"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@color/snackbar_color"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/snackbarlayout_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/main_snacktext_margin_left"
+                android:fontFamily="monster-normal"
+                android:text="TextView"
+                android:textColor="@color/search_view_color"
+                android:textSize="@dimen/main_snackbar_textsize"
+                android:textStyle="normal" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

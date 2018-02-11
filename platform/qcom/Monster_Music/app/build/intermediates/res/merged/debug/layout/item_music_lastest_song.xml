@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/item_shape"
+                android:paddingBottom="14dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="12dp"
+                android:paddingTop="14dp">
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/default_cover_ranking"/>
+
+    <TextView
+        android:id="@+id/albun_name"
+        style="@style/textview_black_gd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_toEndOf="@id/icon"
+        android:layout_toRightOf="@id/icon"
+        android:gravity="top"
+        android:singleLine="true"/>
+
+    <TextView
+        android:id="@+id/artist_name"
+        style="@style/textview_black_gd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/albun_name"
+        android:layout_alignStart="@id/albun_name"
+        android:layout_below="@id/albun_name"
+        android:layout_marginTop="10dp"
+        android:singleLine="true"/>
+
+    <TextView
+        android:id="@+id/album_category"
+        style="@style/textview_black_gd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/icon"
+        android:layout_alignLeft="@id/albun_name"
+        android:layout_alignStart="@id/albun_name"
+        android:gravity="bottom"
+        android:singleLine="true"/>
+
+    <ImageView
+        android:id="@id/network_play_all_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/arrow"
+        android:layout_toStartOf="@id/arrow"
+        android:src="@drawable/play_btn_drawable"/>
+
+    <ImageView
+        android:id="@+id/arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:paddingLeft="12dp"
+        android:src="@drawable/picto_right"/>
+
+</RelativeLayout>

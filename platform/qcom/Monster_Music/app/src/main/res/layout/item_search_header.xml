@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:paddingEnd="20dp"
+              android:paddingLeft="20dp">
+
+    <TextView
+        android:id="@+id/search_header_tv"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center_vertical"
+        android:textColor="@color/black_87"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/no_result_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:alpha="0.4"
+        android:paddingBottom="24dp"
+        android:paddingStart="12dp"
+        android:text="@string/can_not_online_search"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:visibility="gone"/>
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="true"
+    >
+    <item android:drawable="@drawable/ic_dismiss_folder_drop_target_1" android:duration="45"></item>
+    <item android:drawable="@drawable/ic_dismiss_folder_drop_target_2" android:duration="45"></item>
+    <item android:drawable="@drawable/ic_dismiss_folder_drop_target_3" android:duration="45"></item>
+    <item android:drawable="@drawable/ic_dismiss_folder_drop_target_4" android:duration="45"></item>
+    <item android:drawable="@drawable/ic_dismiss_folder_drop_target_5" android:duration="45"></item>
+    <item android:drawable="@drawable/ic_dismiss_folder_drop_target_6" android:duration="45"></item>
+    <item android:drawable="@drawable/ic_dismiss_folder_drop_target_7" android:duration="45"></item>
+</animation-list>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white">
+
+    <FrameLayout
+        android:id="@+id/scenes_detail_fl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/scenes_detail_image"
+            android:layout_width="match_parent"
+            android:layout_height="193dp"
+            android:scaleType="fitXY"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="193dp"
+            android:background="@color/scenes_cover_alpha"/>
+
+    </FrameLayout>
+
+    <mst.widget.toolbar.Toolbar
+        android:id="@+id/scenes_detail_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/transparent"
+        android:paddingStart="@dimen/dp_20"/>
+
+    <FrameLayout
+        android:id="@+id/detail_up_external_scenes"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/scenes_detail_fl">
+    </FrameLayout>
+
+    <com.github.clans.fab.FloatingActionButton
+        android:id="@+id/fab_playing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="12dp"
+        android:layout_marginRight="16dp"
+        android:src="@drawable/icon_floating_button_music"
+        app:fab_colorNormal="@color/black"
+        app:fab_colorPressed="@color/black"/>
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="mst_reminder_minutes_labels">
+        <item>正点提醒</item>
+        <item>提前1分钟</item>
+        <item>提前5分钟</item>
+        <item>提前10分钟</item>
+        <item>提前15分钟</item>
+        <item>提前20分钟</item>
+        <item>提前25分钟</item>
+        <item>提前30分钟</item>
+        <item>提前45分钟</item>
+        <item>提前1小时</item>
+        <item>提前2小时</item>
+        <item>提前3小时</item>
+        <item>提前12小时</item>
+        <item>提前24小时</item>
+        <item>提前2天</item>
+        <item>提前1周</item>
+    </string-array>
+
+    <string-array name="constellation_labels">
+        <item>魔羯座</item>
+        <item>水瓶座</item>
+        <item>双鱼座</item>
+        <item>白羊座</item>
+        <item>金牛座</item>
+        <item>双子座</item>
+        <item>巨蟹座</item>
+        <item>狮子座</item>
+        <item>处女座</item>
+        <item>天秤座</item>
+        <item>天蝎座</item>
+        <item>射手座</item>
+    </string-array>
+
+    <string-array name="day_labels">
+        <item>日</item>
+        <item>一</item>
+        <item>二</item>
+        <item>三</item>
+        <item>四</item>
+        <item>五</item>
+        <item>六</item>
+    </string-array>
+
+</resources>

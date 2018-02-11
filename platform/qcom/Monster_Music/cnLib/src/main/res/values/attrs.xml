@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PagerSlidingTabStrip">
+        <attr name="pstsIndicatorColor" format="color" />
+        <attr name="pstsUnderlineColor" format="color" />
+        <attr name="pstsDividerColor" format="color" />
+        <attr name="pstsIndicatorHeight" format="dimension" />
+        <attr name="pstsUnderlineHeight" format="dimension" />
+        <attr name="pstsDividerPadding" format="dimension" />
+        <attr name="pstsTabPaddingLeftRight" format="dimension" />
+        <attr name="pstsScrollOffset" format="dimension" />
+        <attr name="pstsTabBackground" format="reference" />
+        <attr name="pstsShouldExpand" format="boolean" />
+        <attr name="pstsTextAllCaps" format="boolean" />
+        <attr name="pstsShouldDrawUnderline" format="boolean" />
+        <attr name="pstsShouldDrawDivider" format="boolean" />
+        <attr name="pstsIndicatorLeftRightPadding" format="dimension" />
+    </declare-styleable>
+    
+    <declare-styleable name="CircularSeekBar">
+        <attr name="progress" format="integer"></attr>
+        <attr name="max" format="integer"></attr>
+        <attr name="thumb" format="reference"></attr>
+        <attr name="move_outside_circle" format="boolean"></attr>
+        <attr name="maintain_equal_circle" format="boolean"></attr>
+        <attr name="use_custom_radii" format="boolean"></attr>
+        <attr name="lock_enabled" format="boolean"></attr>
+        <attr name="circle_x_radius" format="float" /> 
+        <attr name="circle_y_radius" format="float" />
+        <attr name="circle_stroke_width" format="float" />
+        <attr name="circle_color" format="string"></attr>
+        <attr name="circle_progress_color" format="string"></attr>
+        <attr name="circle_cache_progress_color" format="color|reference"></attr>
+        <attr name="start_angle" format="float"></attr>
+        <attr name="end_angle" format="float"></attr>
+        <attr name="circle_fill" format="string"></attr>
+    </declare-styleable>
+    
+    <declare-styleable name="LinearGridLayout">
+        <attr name="numColumns" format="integer" />
+        <attr name="numRows" format="integer" />
+        <attr name="android:verticalSpacing"/>
+        <attr name="android:horizontalSpacing"/>
+        <attr name="squaredChildren" format="boolean" />
+    </declare-styleable>
+    
+    <declare-styleable name="RadioGroupTable">
+        <attr name="numRadioBtnPerColumns" format="integer" />
+        <attr name="marginBetweenColumns" format="dimension" />
+    </declare-styleable>
+    
+    <declare-styleable name="FxGridView">
+        <attr name="fxCursorDrawable" format="reference" />
+    </declare-styleable>
+    
+    
+    <declare-styleable name="WaitingImageButton">
+        <attr name="state_waiting" format="boolean" />
+    </declare-styleable>
+    
+    <declare-styleable name="ViewPagerIndicator">
+        <!-- Style of the circle indicator. -->
+        <attr name="CirclePageIndicatorStyle" format="reference"/>
+        <!-- Style of the title indicator. -->
+        <attr name="TitlePageIndicatorStyle" format="reference"/>
+    </declare-styleable>
+    
+    <declare-styleable name="CirclePageIndicator">
+        <!-- Whether or not the indicators should be centered. -->
+        <attr name="centered" format="boolean"/>
+        <!-- Color of the filled circle that represents the current page. -->
+        <attr name="fillColor" format="color|reference" />
+        <!-- Color of the filled circles that represents pages. -->
+        <attr name="pageColor" format="color" />
+        <!-- Orientation of the indicator. -->
+        <attr name="android:orientation"/>
+        <!-- Radius of the circles. This is also the spacing between circles. -->
+        <attr name="radius" format="dimension" />
+        <!-- Whether or not the selected indicator snaps to the circles. -->
+        <attr name="snap" format="boolean" />
+        <!-- Color of the open circles. -->
+        <attr name="strokeColor" format="color" />
+        <!-- Width of the stroke used to draw the circles. -->
+        <attr name="strokeWidth" format="dimension" />
+        <!-- View background -->
+        <attr name="android:background"/>
+    </declare-styleable>
+    
+    <declare-styleable name="SlidingUpPanelLayout">
+        <attr name="panelHeight" format="dimension" />
+        <attr name="shadowHeight" format="dimension" />
+        <attr name="paralaxOffset" format="dimension" />
+        <attr name="fadeColor" format="color" />
+        <attr name="flingVelocity" format="integer" />
+        <attr name="dragView" format="reference" />
+        <attr name="overlay" format="boolean"/>
+        <attr name="anchorPoint" format="float" />
+        <attr name="limitSlideOnAnchor" format="boolean"/>
+        <attr name="initialState" format="enum">
+            <enum name="expanded" value="0" />
+            <enum name="collapsed" value="1" />
+            <enum name="anchored" value="2" />
+            <enum name="hidden" value="3" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="MvSlider">
+        <attr name="thumb" />
+        <attr name="backgroundSliderDrawable" format="integer" />
+        <attr name="progress" />
+        <attr name="maxProgress" format="integer" />
+        <attr name="minProgress" format="integer" />
+        <attr name="backgroundSliderRelSize" format="float" />
+        <attr name="backgroundSliderSize" format="dimension" />
+        <attr name="thumbSize" format="dimension" />
+        <attr name="backgroundSliderAlpha" format="float" /> 
+        <attr name="orientation" format="enum">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical"   value="1" />
+        </attr>
+        <attr name="splitColor" format="boolean" />
+        <attr name="fillColor"/>
+        <attr name="secondFillColor" format="color|reference" />
+        <attr name="marginFillColorRect" format="dimension" />
+        <attr name="radiusFillColorRect" format="dimension" />
+        <attr name="android:text" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/item_import_point_slider_content"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/card_color"
+    android:layout_height="wrap_content">
+
+    <cn.tcl.meetingassistant.view.ExpandEditTextView
+        android:fontFamily="monster-normal"
+        android:id="@+id/item_import_point_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minLines="3"
+        android:paddingTop="@dimen/layout_common_16dp"
+        android:textSize="@dimen/font_size_14sp"
+        android:textColor="@color/black_86opacity"
+        android:textColorHint="@color/black_30opacity"
+        android:lineSpacingExtra="@dimen/layout_common_12dp"
+        android:hint="@string/edit_meeting_point"
+        app:fixed_text_cursor="@drawable/cursor_important_drawable"
+        app:fixed_text_last_line_cursor="@drawable/cursor_last_line_drawable"
+        android:paddingRight="16dp"
+        android:gravity="top|left"
+        android:background="@null" />
+
+    <LinearLayout
+        android:id="@+id/item_import_point_circleBtn_container"
+        android:layout_below="@id/item_import_point_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:paddingRight="12dp"
+        android:paddingBottom="12dp">
+
+        <TextView
+            android:id="@+id/item_import_point_expand_text"
+            android:paddingTop = "11.3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/expand"
+            android:textSize="@dimen/font_size_14sp"
+            android:textColor="@color/bullet_color"/>
+
+        <cn.tcl.meetingassistant.view.CircleImageView
+            android:id="@+id/item_import_point_image_1"
+            android:layout_width="@dimen/item_import_image_size"
+            android:layout_height="@dimen/item_import_image_size"
+            android:layout_marginRight="6dp"
+            android:background="@drawable/bg_click"
+            />
+
+        <cn.tcl.meetingassistant.view.CircleImageView
+            android:id="@+id/item_import_point_image_2"
+            android:layout_width="@dimen/item_import_image_size"
+            android:layout_height="@dimen/item_import_image_size"
+            android:layout_marginRight="6dp"
+            android:background="@drawable/bg_click"
+            />
+
+        <cn.tcl.meetingassistant.view.CircleImageView
+            android:id="@+id/item_import_point_image_3"
+            android:layout_width="@dimen/item_import_image_size"
+            android:layout_height="@dimen/item_import_image_size"
+            android:layout_marginRight="6dp"
+            android:background="@drawable/bg_click"
+            />
+
+        <FrameLayout
+            android:id="@+id/item_import_point_image_more_layout"
+            android:layout_width="@dimen/item_import_image_size"
+            android:layout_height="@dimen/item_import_image_size"
+            android:layout_marginRight="6dp">
+
+            <cn.tcl.meetingassistant.view.CircleImageView
+                android:id="@+id/item_import_point_image_more"
+                android:layout_width="@dimen/item_import_image_size"
+                android:layout_height="@dimen/item_import_image_size"
+                android:background="@drawable/bg_click"
+                app:hasShadow="true" />
+            <TextView
+                android:id="@+id/item_import_point_image_more_text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textColor="@android:color/white"/>
+        </FrameLayout>
+
+        <ImageButton
+            android:id="@+id/item_import_point_camera_btn"
+            android:layout_width="@dimen/item_import_image_size"
+            android:layout_height="@dimen/item_import_image_size"
+            android:background="@drawable/bg_click"
+            android:src="@mipmap/btn_import_point_add_image" />
+
+    </LinearLayout>
+</RelativeLayout>

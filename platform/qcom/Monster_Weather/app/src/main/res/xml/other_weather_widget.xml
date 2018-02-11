@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:initialLayout="@layout/other_widget_layout_white_bg"
+    android:minHeight="@dimen/mini_widget_minheight"
+    android:minResizeHeight="@dimen/mini_widget_minheight"
+    android:minResizeWidth="@dimen/mini_widget_minwidth"
+    android:minWidth="@dimen/mini_widget_minwidth"
+    android:previewImage="@drawable/app_weather_mini_preview"
+    android:resizeMode="none"
+    android:updatePeriodMillis="3600000"
+    android:widgetCategory="home_screen">
+
+</appwidget-provider>

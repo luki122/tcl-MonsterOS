@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cannot_specify_an_empty_name_for_playlist">"Der Name der Abspielliste darf nicht leer sein."</string>
+    <string name="cross_dj_saturated_storage_not_enough_free_space_to_record_your_mix">"Nicht genügend Speicherplatz zum Aufnehmen Ihres Mix."</string>
+    <string name="cross_dj_saturated_storage_your_recording_might_stop_soon_because_no_more_free_space_is_available">"Ihre Aufnahme wird möglicherweise in Kürze angehalten, weil kein Speicherplatz mehr verfügbar ist."</string>
+    <string name="invalid_drm_file">"Die Datei verfügt über keine gültige DRM-Berechtigung."</string>
+    <string name="mobiledata_turnoff_btn">"Deaktivieren"</string>
+    <string name="never_show_it_again">"Nicht mehr anzeigen"</string>
+    <string name="no_error">"Kein Fehler"</string>
+    <string name="recording_reached_max_duration">"Die Aufnahme hat die maximale Dauer erreicht. Überprüfen Sie Ihre Einstellungen."</string>
+    <string name="recording_soon_to_reach_max_duration">"Die Aufnahme wird die maximale Dauer in Kürze erreichen. Überprüfen Sie Ihre Einstellungen."</string>
+    <string name="scratching_is_disabled_in_no_mix_mode">"Sie können nur im DJ-Modus scratchen."</string>
+    <string name="sign_up">"Registrieren"</string>
+    <string name="the_external_memory_storage_is_not_mounted">"Der externe Speicher ist nicht bereitgestellt. Möglicherweise müssen Sie den USB-Speicher deaktivieren."</string>
+    <string name="there_s_not_enough_space_in_your_internal_storage_try_to_do_some_clean_up">"Ihr interner Speicher weist nicht genügend Speicherplatz auf. (Versuchen Sie, etwas freien Speicherplatz zu schaffen.)"</string>
+</resources>

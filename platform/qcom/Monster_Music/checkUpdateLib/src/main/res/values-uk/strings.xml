@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    	<string name="tip_network_error">Помилка мережі</string>
+    	<string name="check_new">Перевірити наявність оновлень</string>
+    	<string name="update_download_fail">Збій завантаження</string>
+    	<string name="update_ask_tip">Потрібно оновити до останньої версії</string>
+    	<string name="update_no_need">Це остання версія</string>
+    	<string name="downloaded_finish">Завантаження завершено</string>
+    	<string name="notification_downloading">Завантаження</string>
+    	<string name="update_notification_tips">Для найкращої роботи оновіть ПЗ до останньої версії.</string>
+    	<string name="update_notification_title">Сповіщення щодо оновлення</string>
+    	<string name="update">Зараз</string>
+    	<string name="try_later">Пізніше</string>
+    	<string name="versionDesc">Інформація про версію:</string>
+    	
+    	<string name="update_available">Доступне оновлення</string>
+    	<string name="downloading">Завантаження...</string>
+    	<string name="update_notify_tip">Доступна нова версія Оновити зараз?</string>
+    	<string name="update_detail_prefix">Інформація щодо оновлення:</string>
+    	<string name="update_not_now">Не зараз</string>
+    	<string name="update_now">Оновити</string>
+    	<string name="network_error_tip">Помилка мережі. Перевірте підключення до мережі та спробуйте ще раз.</string>
+    	<string name="update_force_nofity_tip">Рекомендовано оновити програму до останньої версії.</string>
+    	<string name="update_no_updates">Немає оновлень</string>
+    	<string name="update_no_updates_tip">Немає оновлень</string>
+    	<string name="update_confirm">OK</string>
+</resources>

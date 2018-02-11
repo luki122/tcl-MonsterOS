@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/cancel_item"
+        android:icon="@drawable/menu__cancel"
+        android:showAsAction="always"
+        android:title="@string/cancel">
+
+    </item>
+
+    <item
+        android:id="@+id/paste_item"
+        android:icon="@drawable/menu_paste"
+        android:showAsAction="always|withText"
+        android:title="@string/paste">
+
+    </item>
+
+    <item
+        android:id="@+id/grid_item"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/view_grid" />
+
+    <item
+        android:id="@+id/createfolder_item"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/add_folder" />
+
+</menu>

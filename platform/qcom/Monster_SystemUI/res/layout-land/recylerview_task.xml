@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mst_recylerview_frame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:background="#a3000000">
+       
+	<LinearLayout 
+        android:id="@+id/clear_all_icon"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="@dimen/mst_clear_all_icon_marginbottom_landscape">
+	    <com.android.systemui.recents.views.MstClearAllView
+	        android:id="@+id/clear_recents_image"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_horizontal"
+	        android:src="@drawable/clear_all_icon_anim"
+	        android:contentDescription="@string/clear_all_text" />
+	    <TextView 
+	        android:id="@+id/clear_recents_text"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textSize="12sp"
+	        android:layout_marginTop="8dp"
+	        android:textColor="#80ffffff"
+	        android:text="@string/clear_all_text"/>
+    </LinearLayout>
+    
+	<com.android.systemui.recents.views.MstTaskStackView
+	        android:id="@+id/id_recyclerview_horizontal"  
+	        android:layout_width="@dimen/mst_recents_task_view_width_lanscape"  
+	        android:layout_height="match_parent"  
+	        android:layout_gravity="start"
+	        android:gravity="center"
+	        android:scrollbars="none" />
+	        <!--  android:overScrollMode="never"-->
+</FrameLayout>

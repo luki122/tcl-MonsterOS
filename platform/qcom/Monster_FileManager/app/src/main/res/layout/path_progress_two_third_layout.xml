@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <LinearLayout
+            android:id="@+id/third_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true">
+
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/third_progressbar"
+            style="@style/StyleProgressBarMini"
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:background="@drawable/shape_progressbar_bg"
+            android:max="100"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="34dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/third"
+            android:text="@string/main_external_storage"
+            android:textColor="@color/first_color"
+            android:fontFamily="monster-normal"
+            android:alpha="0.86"
+            android:textSize="12sp"
+            android:layout_alignTop="@+id/third_storage"
+            android:layout_alignLeft="@+id/third_progressbar"
+            android:gravity="left"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/third_storage"
+            android:alpha="0.26"
+            android:fontFamily="monster-normal"
+            android:textColor="@color/first_color"
+            android:textSize="12sp"
+            android:text="@string/sdstroge"
+            android:layout_toRightOf="@+id/third"
+            android:layout_alignRight="@+id/third_progressbar"
+            android:gravity="right"/>
+
+    </RelativeLayout>
+</merge>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="check_new">Semak kemas kinian</string>
+    <string name="downloaded_finish">Muat turun lengkap</string>
+    <string name="downloading">Memuat turun...</string>
+    <string name="network_error_tip">Ralat rangkaian. Sila periksa sambungan rangkaian anda dan cuba lagi.</string>
+    <string name="notification_downloading">Memuat turun</string>
+    <string name="tip_network_error">Ralat rangkaian</string>
+    <string name="try_later">Kemudian</string>
+    <string name="update">Sekarang</string>
+    <string name="update_ask_tip">Anda perlu mengemas kini kepada versi terkini</string>
+    <string name="update_available">Kemas Kini Tersedia</string>
+    <string name="update_confirm">OK</string>
+    <string name="update_detail_prefix">Butiran pengemaskinian:</string>
+    <string name="update_download_fail">Gagal memuat turun</string>
+    <string name="update_force_nofity_tip">Anda disarankan agar mengemaskinikan aplikasi kepada versi yang terkini.</string>
+    <string name="update_no_need">Inilah versi terkini</string>
+    <string name="update_no_updates">Tiada kemas kinian</string>
+    <string name="update_no_updates_tip">Tiada kemas kinian</string>
+    <string name="update_not_now">Bukan sekarang</string>
+    <string name="update_notification_tips">Untuk pengalaman yang lebih baik, sila kemas kini kepada versi terkini.</string>
+    <string name="update_notification_title">Pemberitahuan kemas kini</string>
+    <string name="update_notify_tip">Versi baharu tersedia. Kemas kini sekarang?</string>
+    <string name="update_now">Kemas kini</string>
+    <string name="versionDesc">Maklumat Versi:</string>
+</resources>

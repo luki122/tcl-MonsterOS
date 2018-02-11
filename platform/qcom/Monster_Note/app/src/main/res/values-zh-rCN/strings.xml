@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"备忘录"</string>
+	<!---->
+	<string name="audio_record">"直接录制"</string>
+	<!---->
+	<string name="audio_get_app">"从录音机添加"</string>
+	<!---->
+	<string name="dialog_cancel">"取消"</string>
+	<!---->
+	<string name="dialog_del_audio_msg">"确定删除此录音吗？"</string>
+	<!---->
+	<string name="dialog_del_img_msg">"确定删除此图片吗？"</string>
+	<!---->
+	<string name="dialog_del_title">"删除"</string>
+	<!---->
+	<string name="dialog_ok">"确定"</string>
+	<!---->
+	<string name="img_cut">"裁剪"</string>
+	<!---->
+	<string name="pic_get_album">"图库"</string>
+	<!---->
+	<string name="pic_take_camera">"拍照"</string>
+	<!---->
+	<string name="toast_audio_cannot_play">"正在复制录音文件，请稍后再试"</string>
+	<!---->
+	<string name="toast_audio_max">"已达到录音数量限制"</string>
+	<!---->
+	<string name="toast_img_max">"已达到图片数量限制"</string>
+	<!---->
+	<string name="toast_no_space">"存储空间不足，无法添加到备忘录"</string>
+	<!---->
+	<string name="toolbar_share">"预览"</string>
+	<!---->
+	<string name="toolbar_theme">"主题"</string>
+	<!---->
+	<string name="dialog_back_msg">"录音未停止，退出备忘将停止录音并保存所有内容，确定要退出？"</string>
+	<!---->
+	<string name="dialog_back_title">"提示"</string>
+	<!---->
+	<string name="dialog_battery_10">"电量不足10%，请停止录音，避免录音数据丢失。"</string>
+	<!---->
+	<string name="dialog_battery_5">"电量不足5%，已停止录音。"</string>
+	<!---->
+	<string name="dialog_i_know">"我知道了"</string>
+	<!---->
+	<string name="dialog_ignore">"忽略"</string>
+	<!---->
+	<string name="dialog_space_100m">"存储空间不足100MB，请及时清理，避免录音数据丢失。"</string>
+	<!---->
+	<string name="dialog_space_50m_start">"存储空间不足50MB，无法开始录音，请及时清理。"</string>
+	<!---->
+	<string name="dialog_space_50m_stop">"存储空间不足，已停止录音。"</string>
+	<!---->
+	<string name="dialog_space_clear">"去清理"</string>
+	<!---->
+	<string name="dialog_start_battery_10">"电量低，容易造成录音数据丢失，是否仍然开始录音？"</string>
+	<!---->
+	<string name="dialog_start_battery_5">"无法开始录音,请保持电量高于5%"</string>
+	<!---->
+	<string name="dialog_start_record">"录音"</string>
+	<!---->
+	<string name="dialog_stop">"停止"</string>
+	<!---->
+	<string name="share_save_album">"已保存到Note文件夹"</string>
+	<!---->
+	<string name="notification_battery_low">"电量低，请停止录音"</string>
+	<!---->
+	<string name="notification_battery_low_stop">"电量低，已停止录音"</string>
+	<!---->
+	<string name="notification_pause_record">"录音已暂停"</string>
+	<!---->
+	<string name="notification_recording">"录音中..."</string>
+	<!---->
+	<string name="notification_space_not_enough">"存储空间不足，请清理空间或停止录音"</string>
+	<!---->
+	<string name="notification_space_not_enough_stop">"存储空间不足，已停止录音"</string>
+	<!---->
+	<string name="share_save_album_fail">"保存失败，请重试"</string>
+	<!---->
+	<string name="share_tcl_flag">"来自TCL备忘录"</string>
+	<!---->
+	<string name="toast_audio_bad_play">"录音文件已损坏，无法播放"</string>
+	<!---->
+	<string name="home_search">"搜索"</string>
+	<!---->
+	<string name="audio_lose">"录音已丢失"</string>
+	<!---->
+	<string name="dialog_del_note_msg">"确定删除此备忘吗？"</string>
+	<!---->
+	<string name="home_all_selection">"全选"</string>
+	<!---->
+	<string name="home_no_data">"暂无备忘"</string>
+	<!---->
+	<string name="search_no_data">"无搜索结果"</string>
+	<!---->
+	<string name="preset_note_first">"向左左滑，可删除此备忘"</string>
+	<!---->
+	<string name="preset_note_second">"从文件管理查看备忘录中的图片和录音，可以搜索手机存储的Note文件夹，也可以直接进入文件分类查看。"</string>
+	<!---->
+	<string name="un_select_all">"全不选"</string>
+	<!---->
+	<string name="dialog_return_title">"提醒"</string>
+	<!---->
+	<string name="home_default_line_audio">"[%1$d段录音]"</string>
+	<!---->
+	<string name="home_default_line_img">"[%1$d张图片]"</string>
+	<!---->
+	<string name="home_search_hint">"请输入搜索内容"</string>
+	<!---->
+	<string name="save_img_name">"导出备忘录"</string>
+
+	<string name="share_wait">请稍候</string>
+
+	<string name="action_mode_title">已选择 %d 项</string>
+	<string name="Recording_error">录音资源被暂用，无法开始录音</string>
+</resources>

@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context="com.monster.netmanage.activity.MainActivity" >
+<!--     android:fitsSystemWindows="true" -->
+
+    <!-- android:fitsSystemWindows="true" -->
+
+    <FrameLayout
+        android:id="@+id/lay_circle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+    </FrameLayout>
+
+    <View
+        android:id="@+id/view_status_divider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <mst.widget.toolbar.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:layout_below="@id/view_status_divider"
+        android:elevation="1dp" />
+
+    <TextView
+        android:id="@+id/tv_correct_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/time_correct_text_margin_bottom"
+        android:layout_marginTop="@dimen/time_correct_text_margin_top"
+        android:textColor="@color/color_time_correct_text"
+        android:textSize="@dimen/time_correct_text_size" />
+
+    <Button
+        android:id="@+id/btn_correct"
+        android:layout_width="@dimen/btn_correct_width"
+        android:layout_height="@dimen/btn_correct_height"
+        android:layout_above="@id/tv_correct_info"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/btn_correct_margin_bottom"
+        android:background="@drawable/btn_white_bg_selector"
+        android:text="@string/data_correct"
+        android:textColor="@color/color_btn_correct_text"
+        android:textSize="@dimen/btn_correct_text_size" />
+
+    <LinearLayout
+        android:id="@+id/lay_imv_index"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/btn_correct"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="@dimen/lay_sim_index_margin_bottom"
+        android:gravity="center_horizontal"
+        android:visibility="gone" >
+
+        <ImageView
+            android:id="@+id/imv_index_01"
+            android:layout_width="@dimen/imv_sim_index_width"
+            android:layout_height="@dimen/imv_sim_index_height"
+            android:src="@drawable/circle_sim_index_select_bg" />
+
+        <ImageView
+            android:id="@+id/imv_index_02"
+            android:layout_width="@dimen/imv_sim_index_width"
+            android:layout_height="@dimen/imv_sim_index_height"
+            android:layout_marginLeft="@dimen/imv_sim_index_margin_left"
+            android:src="@drawable/circle_sim_index_unselect_bg" />
+    </LinearLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/view_pager_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/lay_imv_index"
+        android:layout_below="@id/my_toolbar" >
+    </android.support.v4.view.ViewPager>
+
+</RelativeLayout>

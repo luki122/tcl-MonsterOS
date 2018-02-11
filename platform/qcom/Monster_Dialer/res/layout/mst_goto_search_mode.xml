@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/goto_search_mode"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/toolbar_height"
+    android:layout_marginRight="20dp"
+    android:background="@color/searchview_background_color" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical" >
+
+        <ImageView
+            android:id="@+id/search_icon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/mst_search" />
+
+        <TextView
+            android:id="@+id/search_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:layout_toRightOf="@id/search_icon"
+            android:text="@string/mst_searchview_hint"
+            android:textColor="#8C8B8D8F"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:id="@+id/more_icon_parent"
+            android:layout_width="28dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/more_icon"
+                android:layout_width="12dp"
+                android:layout_height="24dp"
+                android:src="@drawable/mst_more" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/contacts_list"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="20dp"
+            android:layout_toLeftOf="@id/more_icon"
+            android:fontFamily="@string/search_font_family"
+            android:gravity="center_vertical"
+            android:text="@string/contactsList"
+            android:textSize="12sp"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,814 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="sort">"Urutkan"</string>
+	<!---->
+	<string name="sort_by_name">"Nama"</string>
+	<!---->
+	<string name="sort_by_date">"Tanggal diubah"</string>
+	<!---->
+	<string name="sort_by_time">"Tanggal"</string>
+	<!---->
+	<string name="sort_by_type">"Jenis"</string>
+	<!---->
+	<string name="sort_by_size">"Ukuran"</string>
+	<!---->
+	<string name="copy">"Salin"</string>
+	<!---->
+	<string name="create_folder">"Buat"</string>
+	<!---->
+	<string name="cut">"Potong"</string>
+	<!---->
+	<string name="delete">"Hapus"</string>
+	<!---->
+	<string name="delete_confirm">"Konfirmasi penghapusan"</string>
+	<!---->
+	<string name="deselect_all">"Batal-pilih semua"</string>
+	<!---->
+	<string name="select_all">"Pilih semua"</string>
+	<!---->
+	<string name="show_file">"Tampilkan file tersembunyi"</string>
+	<!---->
+	<string name="hide_file">"Sembunyikan file tersembunyi"</string>
+	<!---->
+	<string name="paste">"Tempel"</string>
+	<!---->
+	<string name="rename">"Ganti nama"</string>
+	<!---->
+	<string name="share">"Bagikan"</string>
+	<!---->
+	<string name="viewby_list">"Tampilkan dengan daftar"</string>
+	<!---->
+	<string name="viewby_grid">"Lihat sebagai kotak"</string>
+	<!---->
+	<string name="alert_delete_message">"Hapus"</string>
+	<!---->
+	<string name="multi_alert_delete_message">"Hapus item terpilih?"</string>
+	<!---->
+	<string name="multi_alert_delete_message_cn">"Hapus item terpilih?"</string>
+	<!-- no translation found for delete_folder_message -->
+	<skip />
+	<!---->
+	<string name="category_pictures">"Gambar"</string>
+	<!---->
+	<string name="category_vedios">"Video"</string>
+	<!---->
+	<string name="category_music">"Musik"</string>
+	<!---->
+	<string name="category_download">"Unduhan"</string>
+	<!---->
+	<string name="category_bluetooth">"Bluetooth"</string>
+	<!-- no translation found for app_name -->
+	<skip />
+	<!-- no translation found for theme_name -->
+	<skip />
+	<!---->
+	<string name="apk_name">"File"</string>
+	<!---->
+	<string name="new_folder">"Map baru"</string>
+	<!---->
+	<string name="confirm_rename">"Konfirmasi nama"</string>
+	<!---->
+	<string name="warning">"Jumlah file maksimal"</string>
+	<!---->
+	<string name="share_warning">"Anda tidak dapat membagikan lebih dari 100 file."</string>
+	<!---->
+	<string name="loading">"Memuat…"</string>
+	<!---->
+	<string name="deleting">"Menghapus"</string>
+	<!---->
+	<string name="alert_delete_multiple">"Berkas yang dipilih akan dihapus."</string>
+	<!---->
+	<string name="name">"Nama"</string>
+	<!---->
+	<string name="size">"Ukuran"</string>
+	<!---->
+	<string name="modified_time">"Diubah"</string>
+	<!---->
+	<string name="msg_rename_ext">"Ekstensi file akan diubah. File mungkin tidak dapat dikenali. Lanjutkan?"</string>
+	<!---->
+	<string name="wait">"Harap tunggu…"</string>
+	<!---->
+	<string name="done">"Selesai"</string>
+	<!-- no translation found for enable -->
+	<skip />
+	<!-- no translation found for enable_cn -->
+	<skip />
+	<!---->
+	<string name="cancel">"Batal"</string>
+	<!---->
+	<string name="no">"Tidak"</string>
+	<!---->
+	<string name="ok">"OK"</string>
+	<!---->
+	<string name="yes">"Ya"</string>
+	<!---->
+	<string name="details">"Detail"</string>
+	<!---->
+	<string name="drawer_open">"Buka"</string>
+	<!---->
+	<string name="unknown">"Tidak dikenali"</string>
+	<!-- no translation found for unit_B -->
+	<skip />
+	<!-- no translation found for unit_KB -->
+	<skip />
+	<!-- no translation found for unit_MB -->
+	<skip />
+	<!-- no translation found for unit_GB -->
+	<skip />
+	<!-- no translation found for unit_TB -->
+	<skip />
+	<!---->
+	<string name="send_file">"Bagikan file via"</string>
+	<!---->
+	<string name="default_search_text">"Cari File"</string>
+	<!---->
+	<string name="free_space">"Tersedia"</string>
+	<!---->
+	<string name="total_space">"Jumlah ruang"</string>
+	<!---->
+	<string name="drawer_category">"Kategori"</string>
+	<!---->
+	<string name="phone_storage">"Memori Ponsel"</string>
+	<!---->
+	<string name="phone_storage_cn">"Penyimpanan telepon"</string>
+	<!---->
+	<string name="sd_card">"Kartu SD"</string>
+	<!---->
+	<string name="draw_left_phone_storage">"Penyimpanan telepon"</string>
+	<!---->
+	<string name="draw_left_sd_card">"Kartu SD"</string>
+	<!-- no translation found for menu_settings -->
+	<skip />
+	<!---->
+	<string name="no_search_result">"0 hasil untuk \"%1$s\"</string>
+	<!---->
+	<string name="copy_deny">"Tidak ada izin untuk menyalin"</string>
+	<!---->
+	<string name="cut_deny">"Tidak ada izin untuk memotong"</string>
+	<!---->
+	<string name="delete_deny">"Tidak ada izin untuk menghapus"</string>
+	<!---->
+	<string name="insufficient_memory">"Ruang tidak cukup."</string>
+	<!---->
+	<string name="insufficient_message">"Tidak dapat menyalin beberapa file karena memori tidak cukup"</string>
+	<!---->
+	<string name="invalid_empty_name">"Nama berkas atau map tidak boleh kosong"</string>
+	<!---->
+	<string name="paste_same_folder">"Tidak dapat menyalin: folder asal dan tujuan sama."</string>
+	<!---->
+	<string name="invalid_char_prompt">"Anda memasukkan karakter yang tidak valid"</string>
+	<!---->
+	<string name="msg_unable_open_file">"Format berkas tidak didukung."</string>
+	<!---->
+	<string name="paste_sub_folder">"Tidak dapat menempel berkas ke submap"</string>
+	<!---->
+	<string name="operation_fail">"Gagal mengoperasikan beberapa file."</string>
+	<!---->
+	<string name="search_result">"%2$d hasil untuk \"%1$s\""</string>
+	<!---->
+	<string name="already_exists">"%1$s sudah digunakan"</string>
+	<!---->
+	<string name="unmounted">"%1$s dilepas"</string>
+	<!---->
+	<string name="create_hidden_file">"Berkas akan disembunyikan jika namanya dimulai dengan \'.\'"</string>
+	<!---->
+	<string name="file_name_too_long">"Nama masukan terlalu panjang"</string>
+	<!---->
+	<string name="some_paste_fail">"Operasi penempelan gagal"</string>
+	<!---->
+	<string name="delete_fail">"Tidak dapat menghapus"</string>
+	<!---->
+	<string name="some_delete_fail">"Gagal menghapus beberapa file."</string>
+	<!---->
+	<string name="msg_unable_open_file_in_app">"Tdk ada aplikasi utk mmbuka file."</string>
+	<!---->
+	<string name="drm_forwardforbidden_title">"Tidak Diteruskan"</string>
+	<!---->
+	<string name="drm_forwardforbidden_message">"File DRM tidak dapat diteruskan."</string>
+	<!---->
+	<string name="drm_no_valid_right">"File tidak memiliki otoritas DRM yang valid!"</string>
+	<!---->
+	<string name="drm_current_count">"Jumlah sekarang："</string>
+	<!---->
+	<string name="unlimited_usage">"Penggunaan tak terbatas"</string>
+	<!---->
+	<string name="drm_current_right">"Batasan Saat Ini："</string>
+	<!---->
+	<string name="not_available">"Tidak tersedia"</string>
+	<!---->
+	<string name="right_url">"URL Penerbit Lisensi:："</string>
+	<!---->
+	<string name="use_times">"Gunakan %s kali"</string>
+	<!---->
+	<string name="valid_after">"Valid setelah"</string>
+	<!---->
+	<string name="valid_until">"Valid sampai"</string>
+	<!---->
+	<string name="drm_wifidisplay_title">"File yang tidak dapat disalin"</string>
+	<!---->
+	<string name="drm_wifidisplay_message">"File yang tidak dapat disalin tak bisa didistribusikan."</string>
+	<!---->
+	<string name="drm_wifidisplay_cancel_btn">"Matikan Layar Wi-Fi"</string>
+	<!---->
+	<string name="drm_wifidisplay_ok">"OK"</string>
+	<!---->
+	<string name="tv_link_close_toast">"Layar Wi-Fi telah ditutup"</string>
+	<!---->
+	<string name="usbotg">"Penyimpanan USB eksternal"</string>
+	<!---->
+	<string name="show">"Tampilkan file sistem"</string>
+	<!---->
+	<string name="hide">"Sembunyikan file sistem"</string>
+	<!---->
+	<string name="action_menu_create_folder_button">"Buat map"</string>
+	<!---->
+	<string name="searchResult">"Hasil Pencarian"</string>
+	<!---->
+	<string name="default_folder_name">"Nama map"</string>
+	<!---->
+	<string name="drm_protection_status">"Status perlindungan:"</string>
+	<!---->
+	<string name="drm_can_forward">"Dapat diteruskan."</string>
+	<!---->
+	<string name="drm_can_not_forward">"Tidak dapat diteruskan."</string>
+	<!---->
+	<string name="drm_no_license">"Tidak ada lisensi DRM yang tersedia."</string>
+	<!---->
+	<string name="drm_interval">"Berlaku selama %s setelah penggunaan pertama"</string>
+	<!---->
+	<string name="drm_begin">"Mulai:"</string>
+	<!---->
+	<string name="drm_no_limitation">"Tidak ada batasan."</string>
+	<!---->
+	<string name="drm_end">"Akhiri:"</string>
+	<!---->
+	<string name="drm_use_left">"Sisa:"</string>
+	<!---->
+	<string name="drm_no_crop">"Berkas "%s" tidak diperbolehkan untuk dipangkas karena berkas dilindungi-DRM."</string>
+	<!---->
+	<string name="file_copy">"File disalin"</string>
+	<!---->
+	<string name="choice_file">"Pilih tujuan"</string>
+	<!---->
+	<string name="alert_delete_single">"Berkas yang dipilih akan dihapus."</string>
+	<!---->
+	<string name="pasting">"Menempel"</string>
+	<!---->
+	<string name="readable">"Bisa dibaca："</string>
+	<!---->
+	<string name="executable">"Aplikasi:"</string>
+	<!---->
+	<string name="writable">"Bisa ditulisi："</string>
+	<!---->
+	<string name="add_favorite">"Tambahkan ke folder favorit"</string>
+	<!---->
+	<string name="del_favorite">"Hapus dari folder favorit"</string>
+	<!---->
+	<string name="favourite">"Tambahkan ke favorit"</string>
+	<!---->
+	<string name="viewby_details">"Lihat sebagai rincian"</string>
+	<!---->
+	<string name="view_by">"Lihat dgn"</string>
+	<!---->
+	<string name="show_hide">"Tampil\\Sembunyi"</string>
+	<!---->
+	<string name="sort_by">"Urutkan berdasarkan"</string>
+	<!---->
+	<string name="more">"Lainnya"</string>
+	<!-- no translation found for used -->
+	<skip />
+	<!---->
+	<string name="category_archives">"Rar"</string>
+	<!---->
+	<string name="category_favorite">"Favorit"</string>
+	<!---->
+	<string name="category_ringtones">"Nada dering"</string>
+	<!---->
+	<string name="category_recordings">"Rekaman"</string>
+	<!---->
+	<string name="category_safebox">"Kotak aman"</string>
+	<!---->
+	<string name="category_apks">"APK"</string>
+	<!---->
+	<string name="search">"Cari"</string>
+	<!---->
+	<string name="sort_type">"Urutkan menurut jenis"</string>
+	<!---->
+	<string name="sort_name">"Urutkan berdasar nama (A-Z)"</string>
+	<!---->
+	<string name="sort_size">"Urutkan menurut ukuran(besar-kecil)"</string>
+	<!---->
+	<string name="sort_time">"Urutkan menurut waktu(baru-lama)"</string>
+	<!---->
+	<string name="selected">"dipilih"</string>
+	<!---->
+	<string name="save">"Simpan"</string>
+	<!---->
+	<string name="category_docs">"Doc"</string>
+	<!---->
+	<string name="category_files">"File"</string>
+	<!---->
+	<string name="view_as_grid">"Lihat sebagai kotak"</string>
+	<!---->
+	<string name="view_as_list">"Lihat sbg daftar"</string>
+	<!---->
+	<string name="detail_path">"Lokasi:"</string>
+	<!---->
+	<string name="detail_name">"Nama:"</string>
+	<!---->
+	<string name="detail_size">"Ukuran:"</string>
+	<!---->
+	<string name="detail_time">"Terakhir diubah:"</string>
+	<!---->
+	<string name="empty_msg">"(Map Kosong)"</string>
+	<!---->
+	<string name="search_files">"Cari File"</string>
+	<!-- no translation found for search_result_count -->
+	<skip />
+	<!---->
+	<string name="drawer_settings">"Pengaturan"</string>
+	<!---->
+	<string name="search_text_empty">"Konten pencarian wajib diisi."</string>
+	<!---->
+	<string name="search_result_title">"Hasil pencarian"</string>
+	<!---->
+	<string name="path_not_exists">"%1$s tidak ada"</string>
+	<!---->
+	<string name="modify_hidden_file">"File tidak akan disembunyikan jika namanya tidak diawali \'.\'"</string>
+	<!---->
+	<string name="paste_fail">"Tidak dapat menempel"</string>
+	<!---->
+	<string name="search_empty">"Konten pencarian wajib diisi."</string>
+	<!---->
+	<string name="search_setting_description">"Berkas dan map lokal"</string>
+	<!---->
+	<string name="change_mode">"Pilih berkas atau map"</string>
+	<!-- no translation found for drm_protectioninfo_title -->
+	<skip />
+	<!---->
+	<string name="draw_favourite">"favorit"</string>
+	<!---->
+	<string name="unfavourite">"Hapus dari favorit"</string>
+	<!---->
+	<string name="drm_toast_license_expired">"Lisensi DRM kedaluwarsa."</string>
+	<!-- no translation found for sdstroge -->
+	<skip />
+	<!-- no translation found for phonestorage -->
+	<skip />
+	<!-- no translation found for title_activity_main -->
+	<skip />
+	<!-- no translation found for hello_world -->
+	<skip />
+	<!-- no translation found for action_settings -->
+	<skip />
+	<!-- no translation found for unlock_video -->
+	<skip />
+	<!---->
+	<string name="readable_m">"Dapat dibaca"</string>
+	<!---->
+	<string name="executable_m">"Aplikasi"</string>
+	<!---->
+	<string name="writable_m">"Bisa ditulisi"</string>
+	<!---->
+	<string name="main_recents">"Terbaru"</string>
+	<!-- no translation found for main_recents_cn -->
+	<skip />
+	<!---->
+	<string name="main_installers">"Installer"</string>
+	<!---->
+	<string name="main_document">"Dokumen"</string>
+	<!---->
+	<string name="detail_path_m">"Lokasi"</string>
+	<!-- no translation found for detail_path_m_cn -->
+	<skip />
+	<!---->
+	<string name="detail_name_m">"Nama"</string>
+	<!---->
+	<string name="detail_size_m">"Ukuran"</string>
+	<!---->
+	<string name="detail_time_m">"Terakhir diubah"</string>
+	<!---->
+	<string name="main_photo">"Foto"</string>
+	<!---->
+	<string name="main_sd_storage">"Pnyimpann SD"</string>
+	<!---->
+	<string name="main_external_storage">"Eksperimental"</string>
+	<!---->
+	<string name="main_home">"Beranda"</string>
+	<!-- no translation found for main_home_cn -->
+	<skip />
+	<!---->
+	<string name="main_nava_home">"Beranda"</string>
+	<!---->
+	<string name="menu_select">"Pilih"</string>
+	<!-- no translation found for go_up -->
+	<skip />
+	<!---->
+	<string name="no_folder">"Map ini kosong"</string>
+	<!---->
+	<string name="no_category">"Kategori ini kosong"</string>
+	<!-- no translation found for no_folder_cn -->
+	<skip />
+	<!-- no translation found for no_category_cn -->
+	<skip />
+	<!---->
+	<string name="pasted">"File ditempel"</string>
+	<!---->
+	<string name="deleted">"File dihapus"</string>
+	<!---->
+	<string name="deleted_cn">"File dihapus"</string>
+	<!---->
+	<string name="view_list">"Tampilan daftar"</string>
+	<!---->
+	<string name="view_grid">"tampilan grid"</string>
+	<!---->
+	<string name="create_new_folder">"Buat map"</string>
+	<!-- no translation found for add_folder -->
+	<skip />
+	<!---->
+	<string name="detail">"Rincian"</string>
+	<!-- no translation found for menu_detail -->
+	<skip />
+	<!---->
+	<string name="migrate">"Migrasi"</string>
+	<!---->
+	<string name="permission_welcome_title">"Diperlukan izin"</string>
+	<!---->
+	<string name="permission_msg">"Layanan yang lebih baik untuk Anda"</string>
+	<!---->
+	<string name="permission_setting_title">"Beri akses"</string>
+	<!---->
+	<string name="permission_setting_content">"Ganti perizinan dari pengaturan aplikasi perangkat. Izinkan Manajer File mengakses memori."</string>
+	<!---->
+	<string name="permission_exit_btn">"Keluar"</string>
+	<!---->
+	<string name="dialog_close_btn">"Tutup"</string>
+	<!-- no translation found for dialog_close_btn_cn -->
+	<skip />
+	<!---->
+	<string name="shortcut_item">"Tambahkan cara pintas"</string>
+	<!-- no translation found for shortcut_item_cn -->
+	<skip />
+	<!---->
+	<string name="shortcut_no_exist">"Folder yang diminta tidak ada."</string>
+	<!-- no translation found for shortcut_success -->
+	<skip />
+	<!---->
+	<string name="no_search_result_m">"Tidak ada hasil untuk \"%1$s\""</string>
+	<!---->
+	<string name="draw_left_phone_storage_m">"Telepon"</string>
+	<!---->
+	<string name="category_audio">"Audio"</string>
+	<!---->
+	<string name="usbotg_m">"Eksternal"</string>
+	<!-- no translation found for sd_m -->
+	<skip />
+	<!---->
+	<string name="freeof_m">"Bebas"</string>
+	<!---->
+	<string name="permission_settings">"Pengaturan"</string>
+	<!---->
+	<string name="safe_first_dialog_title">"Kategori kotak aman"</string>
+	<!---->
+	<string name="safe_first_dialog_content">"File yang dipindah ke kategori ini memerlukan otentikasi sandi. Tambahkan file ke kategori ini dengan menekan "Pindah ke kotak aman" dari menu file."</string>
+	<!-- no translation found for safe_first_dialog_content_cn -->
+	<skip />
+	<!---->
+	<string name="safe_storage_local">"Memori lokal"</string>
+	<!---->
+	<string name="set_password_pass">"Sandi"</string>
+	<!---->
+	<string name="set_password_first">"Tetapkan sandi: 4-12 digit"</string>
+	<!-- no translation found for input_new_password_hint -->
+	<skip />
+	<!---->
+	<string name="set_password_again">"Konfirmasikan sandi"</string>
+	<!---->
+	<string name="set_password_show">"Tampilkan sandi"</string>
+	<!---->
+	<string name="set_password_safe_question">"Pertanyaan keamanan"</string>
+	<!---->
+	<string name="set_password_safe_question_answer">"Jawaban"</string>
+	<!---->
+	<string name="set_password_safe_forget_pass">"Ingatlah jawaban untuk pertanyaan keamanan. Jika Anda lupa sandi, Anda dapat me-reset dengan menjawab pertanyaan keamanan."</string>
+	<!---->
+	<string name="choose_safe">"Memilih kotak aman"</string>
+	<!-- no translation found for choose_safe_cn -->
+	<skip />
+	<!---->
+	<string name="create_safe">"Membuat kotak aman"</string>
+	<!---->
+	<string name="create_safe_to">"Membuat kotak aman ke"</string>
+	<!-- no translation found for create_safe_to_cn -->
+	<skip />
+	<!---->
+	<string name="set_password">"Atur sandi"</string>
+	<!-- no translation found for add_file_safe -->
+	<skip />
+	<!---->
+	<string name="safe_set">"Pengaturan"</string>
+	<!---->
+	<string name="safe_set_title">"Pengaturan kotak aman"</string>
+	<!-- no translation found for safe_set_title_cn -->
+	<skip />
+	<!---->
+	<string name="update_password">"Perbarui sandi"</string>
+	<!---->
+	<string name="modify_password">"Modifikasikan sandi"</string>
+	<!---->
+	<string name="security_question">"Perbarui masalah keamanan"</string>
+	<!-- no translation found for modify_security_question -->
+	<skip />
+	<!---->
+	<string name="safe_set_change_safe">"Ubah kotak aman"</string>
+	<!---->
+	<string name="safe_set_location_safe">"Lokasi kotak aman"</string>
+	<!-- no translation found for safe_set_location_safe_cn -->
+	<skip />
+	<!---->
+	<string name="update_password_original">"Masukkan sandi asli"</string>
+	<!---->
+	<string name="update_password_original_cn">"Masukkan sandi asli"</string>
+	<!---->
+	<string name="destory_safe">"Hancurkan kotak aman"</string>
+	<!-- no translation found for destory_safe_cn -->
+	<skip />
+	<!-- no translation found for destory -->
+	<skip />
+	<!---->
+	<string name="use_password">"Gunakan sandi"</string>
+	<!---->
+	<string name="input_password">"Masukkan kata sandi"</string>
+	<!---->
+	<string name="forget_password">"Lupa Sandi"</string>
+	<!-- no translation found for others -->
+	<skip />
+	<!---->
+	<string name="password_empty">"Sandi tidak boleh kosong."</string>
+	<!---->
+	<string name="password_consistent">"Sandi tidak sama."</string>
+	<!---->
+	<string name="password_length_error">"Kesalahan panjang sandi"</string>
+	<!---->
+	<string name="answer_empty">"Jawaban tidak boleh kosong."</string>
+	<!-- no translation found for safe_box_name_empty -->
+	<skip />
+	<!---->
+	<string name="update_success">"Pembaruan berhasil."</string>
+	<!---->
+	<string name="update_fail">"Pembaruan gagal"</string>
+	<!---->
+	<string name="password_mistake">"Sandi tidak benar. Tulis lagi."</string>
+	<!---->
+	<string name="move_safe">"Pindah ke kotak aman"</string>
+	<!---->
+	<string name="fingerprint_check">"Sdik jari tertaut, gunakan sensor sidik jari untuk verifikasi."</string>
+	<!---->
+	<string name="in_use">"Sedang digunakan"</string>
+	<!---->
+	<string name="created">"Dibuat"</string>
+	<!---->
+	<string name="choose_files">"Pilih file"</string>
+	<!---->
+	<string name="move_out">"Keluar"</string>
+	<!---->
+	<string name="remove_to">"Pindahkan ke"</string>
+	<!---->
+	<string name="default_location">"Lokasi default"</string>
+	<!---->
+	<string name="specified_location">"Lokasi yang ditetapkan"</string>
+	<!-- no translation found for open_dir -->
+	<skip />
+	<!-- no translation found for default_location_cn -->
+	<skip />
+	<!-- no translation found for specified_location_cn -->
+	<skip />
+	<!-- no translation found for specified_location_content_cn -->
+	<skip />
+	<!-- no translation found for category_safe -->
+	<skip />
+	<!-- no translation found for category_safe_cn -->
+	<skip />
+	<!---->
+	<string name="add_safe_size_limited">"Tidak dapat menambahkan file lebih besar dari 2,0 GB"</string>
+	<!-- no translation found for add_safe_drm_limited -->
+	<skip />
+	<!---->
+	<string name="fingerprint_relative_dialog">"Hubungkan brankas dengan sidik jari?"</string>
+	<!-- no translation found for fingerprint_relative_dialog_cn -->
+	<skip />
+	<!-- no translation found for fingerprint_relative_dialog_ok -->
+	<skip />
+	<!-- no translation found for fingerprint_relative_dialog_ok_cn -->
+	<skip />
+	<!---->
+	<string name="fingerprint_relative_dialog_cancel">"Nanti"</string>
+	<!-- no translation found for fingerprint_relative_dialog_cancel_cn -->
+	<skip />
+	<!---->
+	<string name="safe_location_current">"Lokasi kotak aman:"</string>
+	<!-- no translation found for safe_location_current_cn -->
+	<skip />
+	<!---->
+	<string name="safe_location_content">"Jangan operasikan pada folder file untuk menghindari kerusakan data terenkripsi Anda"</string>
+	<!-- no translation found for safe_location_content_cn -->
+	<skip />
+	<!---->
+	<string name="destory_safe_dialog_message">"File di kotak aman dan sandi akan dihapus semua. Hancurkan sekarang?"</string>
+	<!---->
+	<string name="destory_safe_dialog_checkbox">"Pada saat yang sama hapus file?"</string>
+	<!-- no translation found for destory_safe_dialog_checkbox_cn -->
+	<skip />
+	<!---->
+	<string name="open_safe_dialog">"Aktifkan kotak aman"</string>
+	<!-- no translation found for open_safe_dialog_cn -->
+	<skip />
+	<!---->
+	<string name="open_safe_dialog_message">"Mengaktifkan kotak aman akan memindahkan semua file ke kotak aman. Aktifkan sekarang?"</string>
+	<!-- no translation found for open_safe_dialog_message_cn -->
+	<skip />
+	<!---->
+	<string name="open_safe_dialog_ok">"Segera terbuka"</string>
+	<!---->
+	<string name="category_private_string">"Kotak aman"</string>
+	<!---->
+	<string name="opening">"Membuka"</string>
+	<!-- no translation found for space_clear -->
+	<skip />
+	<!-- no translation found for unselected -->
+	<skip />
+	<!-- no translation found for select -->
+	<skip />
+	<!-- no translation found for finish -->
+	<skip />
+	<!---->
+	<string name="senior_title">"Senior"</string>
+	<!-- no translation found for no_files_for_add_to_safebox -->
+	<skip />
+	<!-- no translation found for finger_print_relation -->
+	<skip />
+	<!-- no translation found for duplicate_file_name_tip -->
+	<skip />
+	<!---->
+	<string name="searchview_hint">"Cari File"</string>
+	<!-- no translation found for safe_box_name_tip -->
+	<skip />
+	<!-- no translation found for toast_update_safe_box_name_sucess -->
+	<skip />
+	<!-- no translation found for toast_update_safe_box_name_fail -->
+	<skip />
+	<!-- no translation found for toast_safe_box_name_empty -->
+	<skip />
+	<!-- no translation found for cut_single_fail_tip -->
+	<skip />
+	<!-- no translation found for delete_single_fail_tip -->
+	<skip />
+	<!-- no translation found for copy_single_fail_tip -->
+	<skip />
+	<!-- no translation found for copy_multi_fail_tip -->
+	<skip />
+	<!-- no translation found for delete_multi_fail_tip -->
+	<skip />
+	<!-- no translation found for cut_multi_fail_tip -->
+	<skip />
+	<!-- no translation found for copy_all_fail_tip -->
+	<skip />
+	<!-- no translation found for delete_all_fail_tip -->
+	<skip />
+	<!-- no translation found for cut_all_fail_tip -->
+	<skip />
+	<!-- no translation found for past_multi_fail_tip -->
+	<skip />
+	<!-- no translation found for past_single_fail_tip -->
+	<skip />
+	<!-- no translation found for past_all_fail_tip -->
+	<skip />
+	<!-- no translation found for chip_encryption -->
+	<skip />
+	<!---->
+	<string name="safe_name_title">"Nama"</string>
+	<!---->
+	<string name="update_name">"Perbarui nama"</string>
+	<!-- no translation found for fingerprint_relate -->
+	<skip />
+	<!-- no translation found for insufficient_message_cn -->
+	<skip />
+	<!-- no translation found for add_success -->
+	<skip />
+	<!---->
+	<string name="pasted_cn">"File ditempel"</string>
+	<!-- no translation found for no_search_result_cn -->
+	<skip />
+	<!---->
+	<string name="detail_time_cn">"Waktu diubah"</string>
+	<!-- no translation found for rename_limit -->
+	<skip />
+	<!-- no translation found for fingerprint_fail -->
+	<skip />
+	<!-- no translation found for answer_mistake -->
+	<skip />
+	<!-- no translation found for answer_empty_tip -->
+	<skip />
+	<!-- no translation found for new_safe -->
+	<skip />
+	<!-- no translation found for dialog_confirm -->
+	<skip />
+	<!-- no translation found for move_in_success -->
+	<skip />
+	<!-- no translation found for move_in_count -->
+	<skip />
+	<!-- no translation found for message_security_fingerprint_lockout -->
+	<skip />
+	<!-- no translation found for use_password_auth -->
+	<skip />
+	<!-- no translation found for storage_details -->
+	<skip />
+	<!---->
+	<string name="total_memory">"Memori total"</string>
+	<!-- no translation found for system -->
+	<skip />
+	<!-- no translation found for category_fragment_title -->
+	<skip />
+	<!-- no translation found for storage -->
+	<skip />
+	<!-- no translation found for choice -->
+	<skip />
+	<!-- no translation found for view_tag_key -->
+	<skip />
+	<!-- no translation found for view_tag_key2 -->
+	<skip />
+	<!-- no translation found for finish_percent -->
+	<skip />
+	<!---->
+	<string name="select_pic">"Pilih gambar"</string>
+	<!---->
+	<string name="brackets_double">"(%1$s)"</string>
+	<!-- no translation found for selected_pick -->
+	<skip />
+	<!-- no translation found for most_selected -->
+	<skip />
+	<!-- no translation found for finish_ready -->
+	<skip />
+	<!-- no translation found for select_pic_data -->
+	<skip />
+	<!-- no translation found for delete_determine_selected -->
+	<skip />
+	<!-- no translation found for delete_document -->
+	<skip />
+	<!-- no translation found for delete_folder -->
+	<skip />
+	<!-- no translation found for delete_folder_and -->
+	<skip />
+	<!---->
+	<string name="deselect_all_item">"Batal-pilih semua"</string>
+	<!-- no translation found for edit -->
+	<skip />
+	<!-- no translation found for storage_phone -->
+	<skip />
+	<!-- no translation found for storage_sdcard -->
+	<skip />
+	<!-- no translation found for storage_otg -->
+	<skip />
+	<!-- no translation found for storage_slash -->
+	<skip />
+	<!-- no translation found for welcome_security -->
+	<skip />
+	<!-- no translation found for welcome_security_info -->
+	<skip />
+	<!-- no translation found for welcome_convenient -->
+	<skip />
+	<!-- no translation found for welcome_convenient_info -->
+	<skip />
+	<!-- no translation found for welcome_depth -->
+	<skip />
+	<!-- no translation found for welcome_depth_info -->
+	<skip />
+	<!-- no translation found for welcome_add -->
+	<skip />
+	<!-- no translation found for welcome_add_info -->
+	<skip />
+	<!-- no translation found for welcome_dialog_title -->
+	<skip />
+	<!-- no translation found for welcome_dialog_info -->
+	<skip />
+	<!-- no translation found for welcome_dialog_verify_btn -->
+	<skip />
+	<!-- no translation found for welcome_dialog_verify_pwd -->
+	<skip />
+	<!-- no translation found for welcome_start_use -->
+	<skip />
+	<!-- no translation found for welcome_not_use -->
+	<skip />
+	<!---->
+	<string name="welcome_ok">"OK"</string>
+	<!-- no translation found for encrypt_files_success -->
+	<skip />
+	<!-- no translation found for delete_direct -->
+	<skip />
+	<!---->
+	<string name="delete_file">"Hapus file Ini?"</string>
+</resources>

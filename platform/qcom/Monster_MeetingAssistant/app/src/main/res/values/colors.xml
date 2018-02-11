@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<resources>
+    <color name="colorPrimary">#f7f7f7</color>
+    <color name="colorPrimaryDark">#f7f7f7</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="transparent">#00000000</color>
+    <color name="text_color">#000000</color>
+    <color name="bullet_color">#637CB3</color>
+    <color name="new_bullet_color">#637CB3</color>
+    <color name="app_background">#fff7f7f7</color>
+    <color name="black_30opacity">#4d000000</color>
+    <color name="black_40opacity">#66000000</color>
+    <color name="black_50opacity">#80000000</color>
+    <color name="black_86opacity">#dc000000</color>
+    <color name="black_36opacity">#5c000000</color>
+    <color name="black_13opacity">#21000000</color>
+    <color name="back_ground_activity_color">#1a000000</color>
+    <color name="card_color">@android:color/white</color>
+    <color name="cursor_color">#637cb3</color>
+    <color name="audio_play_cricle_color">#7b9ac6</color>
+
+    <!-- cut pic page -->
+    <color name="cut_pic_toolbar_bg">#FF0F0F0F</color>
+    <color name="cut_pic_bottom_text_color">#99FFFFFF</color>
+    <color name="cut_pic_title_text_color">#DBFFFFFF</color>
+
+    <!-- search result color -->
+    <color name="search_result_title_color">#00abb0</color>
+    <color name="search_result_subtitl_color">#00abb0</color>
+    <color name="search_result_substring_color">#00abb0</color>
+
+    <!-- voice play bar -->
+    <color name="voice_play_bar_bg_color">#e5e5e5</color>
+    <color name="voice_play_bar_progress_color">#c3482c</color>
+
+    <color name="back_ground_transparent">#19000000</color>
+</resources>

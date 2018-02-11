@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- add by lmx begin -->
+    <dimen name="detail_photo_view_width">41dip</dimen>
+    <dimen name="expanding_entry_card_primary_text_size">15sp</dimen>
+    <dimen name="expanding_entry_card_secondary_text_size">12sp</dimen>
+    <dimen name="editor_view_margin">20dip</dimen>
+    <dimen name="editor_add_more_text_size">15sp</dimen>
+    <dimen name="editor_view_margin_bottom">56dp</dimen>
+    
+    <dimen name="mst_expanding_entry_card_item_padding_top">10dp</dimen>
+    <dimen name="mst_expanding_entry_card_item_padding_bottom">10dp</dimen>
+	<dimen name="mst_expanding_entry_card_header_margin_bottom">3dp</dimen>
+    <!-- add by lmx end -->
+    <dimen name="bottom_menu_height">50dp</dimen>
+    <dimen name="sim_icon_margin">8dp</dimen>
+
+</resources>

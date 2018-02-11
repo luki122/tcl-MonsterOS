@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mst="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/inCallControls"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Space
+        android:id="@+id/white_blank"
+        android:layout_width="match_parent"
+        android:layout_height="31dp"
+        android:layout_alignParentBottom="true" />
+
+    <FrameLayout
+        android:id="@+id/end_group"
+        android:layout_width="match_parent"
+        android:layout_height="98dp"
+        android:layout_above="@id/white_blank"
+        android:layout_marginTop="43dp" >
+
+        <FrameLayout
+            android:id="@+id/floating_end_call_action_button_container"
+            android:layout_width="57dp"
+            android:layout_height="57dp"
+            android:layout_gravity="center"
+            android:background="@drawable/end_bg" >
+
+            <ImageButton
+                android:id="@+id/floating_end_call_action_button"
+                android:layout_width="57dp"
+                android:layout_height="57dp"
+                android:layout_gravity="center"
+                android:background="@drawable/end_call_background"
+                android:contentDescription="@string/onscreenEndCallText"
+                android:scaleType="center"
+                android:src="@drawable/end_handle" />
+        </FrameLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingLeft="32dip"
+            android:paddingRight="32dip"
+            android:visibility="gone" >
+
+            <ImageButton
+                android:id="@+id/end_keypad"
+                android:layout_width="141dip"
+                android:layout_height="@dimen/end_view_height"
+                android:layout_alignParentStart="true"
+                android:background="@drawable/end_call_background"
+                android:contentDescription="@string/endcall_dtmf" />
+
+            <ImageButton
+                android:id="@+id/hide_dtmf"
+                android:layout_width="@dimen/end_view_width"
+                android:layout_height="@dimen/end_view_height"
+                android:layout_alignParentEnd="true"
+                android:background="@drawable/btn_compound_dialpad"
+                android:contentDescription="@string/hide_dtmf" />
+        </RelativeLayout>
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/bottomButtons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/end_group"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/first_line"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:orientation="horizontal" >
+
+            <com.mst.ui.InCallCompoundButton
+                android:id="@+id/dialpadButton"
+                style="@style/PhoneCompound"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="0.3dp"
+                android:layout_marginRight="0.3dp"
+                mst:mst_image="@drawable/dialpad_selector"
+                mst:mst_text="@string/onscreenShowDialpadText" />
+
+            <com.mst.ui.InCallCompoundButton
+                android:id="@+id/muteButton"
+                style="@style/PhoneCompound"
+                android:layout_toLeftOf="@id/dialpadButton"
+                mst:mst_image="@drawable/mute_selector"
+                mst:mst_text="@string/onscreenMuteText" />
+
+            <com.mst.ui.InCallCompoundButton
+                android:id="@+id/audioButton"
+                style="@style/PhoneCompound"
+                android:layout_toRightOf="@id/dialpadButton"
+                mst:mst_image="@drawable/btn_compound_audio_mst"
+                mst:mst_text="@string/audio_mode_speaker" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/second_line"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <FrameLayout
+                android:id="@+id/record_container"
+                android:layout_width="@dimen/in_call_button_width"
+                android:layout_height="@dimen/in_call_button_height"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="0.3dp"
+                android:layout_marginRight="0.3dp" >
+
+                <TextView
+                    android:id="@+id/record_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:fontFamily="monster-normal"
+                    android:layout_marginTop="17dip"
+                    android:textColor="@color/record_button_text_color"
+                    android:textSize="17sp" />
+
+                <com.mst.ui.InCallCompoundButton
+                    android:id="@+id/recordButton"
+                    style="@style/PhoneCompound"
+                    mst:mst_image="@drawable/record_selector"
+                    mst:mst_text="@string/record_button_off" />
+            </FrameLayout>
+
+            <com.mst.ui.InCallCompoundButton
+                android:id="@+id/holdButton"
+                style="@style/PhoneCompound"
+                android:layout_toLeftOf="@id/record_container"
+                mst:mst_image="@drawable/hold_selector"
+                mst:mst_text="@string/onscreenHoldText_unselected" />
+            <!-- "Swap" (or "Manage calls" in some CDMA states) -->
+
+
+            <!-- "Swap" (or "Manage calls" in some CDMA states) -->
+
+            <com.mst.ui.InCallImageButton
+                android:id="@+id/swapButton"
+                style="@style/PhoneCompound"
+                android:layout_toLeftOf="@id/record_container"
+                android:visibility="gone"
+                mst:mst_image="@drawable/swap_call_selector"
+                mst:mst_text="@string/onscreenSwapCallsText" />
+
+            <!-- "Add Call" -->
+
+            <com.mst.ui.InCallImageButton
+                android:id="@+id/addButton"
+                style="@style/PhoneCompound"
+                android:layout_toRightOf="@id/record_container"
+                mst:mst_image="@drawable/add_call_selector"
+                mst:mst_text="@string/onscreenAddCallText" />
+
+            <!--
+             "Merge calls". This button is used only on GSM devices, where we know that "Add" and
+             "Merge" are never available at the same time. The "Merge" button for CDMA devices is
+             "cdmaMergeButton" above.
+            -->
+
+            <com.mst.ui.InCallImageButton
+                android:id="@+id/mergeButton"
+                style="@style/PhoneCompound"
+                android:layout_toRightOf="@id/record_container"
+                android:visibility="gone"
+                mst:mst_image="@drawable/merge_call_selector"
+                mst:mst_text="@string/onscreenMergeCallsText" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:descendantFocusability="blocksDescendants"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:paddingLeft="20dp">
+
+    <RelativeLayout
+        android:id="@+id/singer_sorttitle"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:gravity="center_vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/sort_title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:gravity="center_vertical"
+            android:textColor="@color/base_title_unselect_color"
+            android:textSize="16dp"/>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/singer_realtivelayout"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_below="@id/singer_sorttitle">
+
+        <ImageView
+            android:id="@+id/iv_singer"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_centerVertical="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/default_artwork_orange"/>
+
+        <TextView
+            android:id="@+id/tv_singer_name"
+            style="@style/textview_black_gd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/iv_singer"
+            android:text="ALin"/>
+
+        <cn.tcl.music.view.ImageMenuButton
+            android:id="@+id/iv_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="16dp"
+            android:background="@color/transparent"
+            android:src="@drawable/picto_right"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

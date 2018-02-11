@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/content_background_shallow"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/layoutContent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="56dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="36dip"
+                android:background="@color/content_background_shallow"
+                android:orientation="horizontal">
+
+                <cn.tcl.music.view.striptab.SlidingTabLayout
+                    android:id="@+id/slidingTabs"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#04000000"/>
+
+            <LinearLayout
+                android:id="@+id/layout_filter"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:background="@color/content_background_shallow"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:weightSum="4">
+
+                <TextView
+                    android:id="@+id/tv_male"
+                    style="@style/tab_filter_textview_style"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/male_singer"/>
+
+                <TextView
+                    android:id="@+id/tv_female"
+                    style="@style/tab_filter_textview_style"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/female_singer"/>
+
+                <TextView
+                    android:id="@+id/tv_group"
+                    style="@style/tab_filter_textview_style"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/band"/>
+
+            </LinearLayout>
+
+            <!--歌手界面改为禁止viewpage左右滑动-->
+            <cn.tcl.music.view.IndexViewPager
+                android:id="@+id/pager"
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="@dimen/activity_left_margin"
+        android:layout_marginEnd="@dimen/activity_right_margin"
+        android:layout_marginRight="@dimen/activity_right_margin"
+        android:src="@drawable/xiami_icon"/>
+
+</FrameLayout>

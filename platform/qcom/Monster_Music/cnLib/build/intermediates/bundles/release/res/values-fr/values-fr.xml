@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cannot_specify_an_empty_name_for_playlist">"Nom de playlist obligatoire"</string>
+    <string name="cross_dj_saturated_storage_not_enough_free_space_to_record_your_mix">"Espace insuffisant pour enregistrer votre mixage."</string>
+    <string name="cross_dj_saturated_storage_your_recording_might_stop_soon_because_no_more_free_space_is_available">"Votre enregistrement risque de s’arrêter bientôt, car l’espace libre est insuffisant."</string>
+    <string name="invalid_drm_file">"Le fichier ne contient pas d’autorité de protection valide."</string>
+    <string name="mobiledata_turnoff_btn">"Non"</string>
+    <string name="never_show_it_again">"Ne plus afficher"</string>
+    <string name="no_error">"Aucune erreur"</string>
+    <string name="recording_reached_max_duration">"L’enregistrement a atteint la durée maximale. Vérifiez vos préférences."</string>
+    <string name="recording_soon_to_reach_max_duration">"L’enregistrement atteindra la durée maximale sous peu. Vérifiez vos préférences."</string>
+    <string name="scratching_is_disabled_in_no_mix_mode">"Vous ne pouvez scratcher qu’en mode DJ."</string>
+    <string name="sign_up">"Inscription"</string>
+    <string name="the_external_memory_storage_is_not_mounted">"La mémoire externe n’est pas activée. Il se peut que vous deviez désactiver la mémoire USB."</string>
+    <string name="there_s_not_enough_space_in_your_internal_storage_try_to_do_some_clean_up">"Mémoire interne insuffisante (essayer de libérer de l’espace)"</string>
+</resources>

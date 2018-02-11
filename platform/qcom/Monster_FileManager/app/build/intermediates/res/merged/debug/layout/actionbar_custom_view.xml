@@ -1,0 +1,143 @@
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/actionbar_base"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@android:color/transparent">
+
+    <RelativeLayout
+        android:id="@+id/normal_bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true">
+
+        <LinearLayout
+            android:id="@+id/global_search_image"
+            android:layout_width="@dimen/left_icon_size"
+            android:layout_height="@dimen/left_icon_size"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_gravity="center"
+                android:alpha="0.3"
+                android:src="@com.mst:drawable/ic_search" />
+
+        </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/storage_info_btn"
+                android:layout_width="52dp"
+                android:layout_height="@dimen/left_icon_background_size"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="@dimen/left_icon_size"
+                    android:layout_height="@dimen/left_icon_size"
+                    android:layout_marginRight="10dp"
+                    android:alpha="0.3"
+                    android:background="@drawable/storage_info_icon" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/download_icon_btn"
+                android:layout_width="52dp"
+                android:layout_height="@dimen/left_icon_background_size"
+                android:layout_toLeftOf="@id/storage_info_btn"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="@dimen/left_icon_size"
+                    android:layout_height="@dimen/left_icon_size"
+                    android:layout_centerVertical="true"
+                    android:alpha="0.3"
+                    android:background="@drawable/download_icon" />
+                </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/actionbar_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@id/download_icon_btn"
+                android:layout_toRightOf="@id/global_search_image"
+                android:ellipsize="end"
+                android:paddingLeft="20dp"
+                android:singleLine="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/global_search_bar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/global_search_back"
+                android:layout_width="@dimen/left_icon_size"
+                android:layout_height="@dimen/left_icon_size"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="left"
+                android:background="@com.mst:drawable/ic_recede" />
+
+            <cn.tcl.filemanager.view.SearchViewEX
+                android:id="@+id/global_search"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:iconifiedByDefault="false"
+                android:layout_toRightOf="@id/global_search_back"
+                />
+
+            <!--<MstSearchView-->
+                <!--android:id="@+id/global_search"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content">-->
+            <!--</MstSearchView>-->
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/select_all_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/actionbar_button_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:background="?android:attr/actionBarItemBackground"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:text="@string/cancel"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/actionbar_button"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="15dp"
+                android:background="?android:attr/actionBarItemBackground"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+        </RelativeLayout>
+</RelativeLayout>

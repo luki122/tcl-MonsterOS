@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="check_new">Pārbaudīt atjauninājumus</string>
+    <string name="downloaded_finish">Lejupielāde pabeigta</string>
+    <string name="downloading">Notiek lejupielāde...</string>
+    <string name="network_error_tip">Tīkla kļūda. Lūdzu, pārbaudiet tīkla savienojumu un mēģiniet vēlreiz.</string>
+    <string name="notification_downloading">Notiek lejupielāde</string>
+    <string name="tip_network_error">Tīkla kļūda</string>
+    <string name="try_later">Vēlāk</string>
+    <string name="update">Tūlīt</string>
+    <string name="update_ask_tip">Jums jāveic atjaunināšana uz jaunāko versiju</string>
+    <string name="update_available">Pieejams atjauninājums.</string>
+    <string name="update_confirm">Labi</string>
+    <string name="update_detail_prefix">Papildinformācija par atjauninājumu:</string>
+    <string name="update_download_fail">Lejupielāde neizdevās</string>
+    <string name="update_force_nofity_tip">Ieteicams atjaunināt lietojumprogrammu uz jaunāko versiju.</string>
+    <string name="update_no_need">Šī ir jaunākā versija</string>
+    <string name="update_no_updates">Nav atjauninājumu.</string>
+    <string name="update_no_updates_tip">Nav atjauninājumu.</string>
+    <string name="update_not_now">Ne tagad</string>
+    <string name="update_notification_tips">Labākai darbībai, lūdzu, atjauniniet uz jaunāko versiju.</string>
+    <string name="update_notification_title">Paziņojums par atjauninājumu</string>
+    <string name="update_notify_tip">Pieejama jauna versija. Vai atjaunināt tūlīt?</string>
+    <string name="update_now">Atjaunināt</string>
+    <string name="versionDesc">Informācija par versiju:</string>
+</resources>

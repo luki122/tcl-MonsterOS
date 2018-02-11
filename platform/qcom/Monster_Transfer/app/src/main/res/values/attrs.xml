@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<resources>
+    <declare-styleable name="RippleBackground">
+        <attr name="rb_color" format="color" />
+        <attr name="rb_strokeWidth" format="dimension"/>
+        <attr name="rb_radius" format="dimension"/>
+        <attr name="rb_duration" format="integer"/>
+        <attr name="rb_rippleAmount" format="integer"/>
+        <attr name="rb_scale" format="float"/>
+        <attr name="rb_type" format="enum">
+            <enum name="fillRipple" value="0"/>
+            <enum name="strokeRipple" value="1"/>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="ConnectBackground">
+        <attr name="p_color" format="color" />
+        <attr name="p_radius" format="dimension"/>
+        <attr name="p_duration" format="integer"/>
+        <attr name="p_startx" format="integer"/>
+        <attr name="p_starty" format="integer"/>
+
+    </declare-styleable>
+</resources>

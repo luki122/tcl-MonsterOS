@@ -1,0 +1,23 @@
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:padding="@dimen/snackBar_textView_paddinig_layout"
+        android:layout_marginBottom="@dimen/snackBar_textView_paddinig_layout"
+        android:layout_marginTop="@dimen/snackBar_textView_paddinig_layout"
+        android:background="@color/snackbarToast_layout_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:textSize="15dp"
+        android:id="@+id/snack_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/mode_name_normal"
+        />
+    </LinearLayout>
+</RelativeLayout>

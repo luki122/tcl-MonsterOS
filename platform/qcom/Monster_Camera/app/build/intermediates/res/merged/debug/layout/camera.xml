@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2013 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<!-- TODO: Now camera root gets cleared during mode switch. We need to move mode
+           switcher into camera root when refactor is finished. -->
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/camera_app_root"
+    android:splitMotionEvents="false"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextureView
+        android:id="@+id/preview_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <com.android.camera.ui.ModeTransitionView
+        android:id="@+id/mode_transition_view"
+        android:visibility="gone"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <com.android.camera.ui.EvoSlider
+        android:id="@+id/evo_slider"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <com.android.camera.ui.FocusOverlay
+        android:id="@+id/focus_overlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.android.camera.ui.CaptureAnimationOverlay
+        android:id="@+id/capture_overlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible" />
+
+    <com.android.camera.ui.PreviewOverlay
+        android:id="@+id/preview_overlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <include layout="@layout/zoom_bar" />
+
+    <com.android.camera.ui.FaceView
+        android:id="@+id/face_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.android.camera.ui.GestureView
+        android:id="@+id/gesture_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </com.android.camera.ui.GestureView>
+
+    <com.android.camera.ui.GridLines
+        android:id="@+id/grid_lines"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:visibility="invisible" />
+    <com.android.camera.ui.CenterGridLines
+        android:id="@+id/grid_lines_contacts"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="@dimen/grid_lines_contacts_margin"
+        android:layout_marginRight="@dimen/grid_lines_contacts_margin"
+        android:layout_marginTop="@dimen/grid_lines_contacts_margin_top"
+        android:layout_marginBottom="@dimen/grid_lines_contacts_margin_bottom"
+        android:visibility="gone" />
+    <com.android.camera.ui.RotateLayout
+        android:id="@+id/intent_review_imageview_layout"
+        android:layout_width="match_parent"
+        android:background="@color/intent_capture_review_background"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/intent_review_imageview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:background="@android:color/black"
+            android:visibility="gone" />
+    </com.android.camera.ui.RotateLayout>
+
+    <include layout="@layout/intent_review_layout"/>
+
+    <include layout="@layout/mode_options_bottombar" />
+
+    <include layout="@layout/top_menu_options"/>
+
+    <com.android.camera.ui.ModuleLayoutWrapper
+        android:id="@+id/module_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <FrameLayout
+        android:id="@+id/tutorials_placeholder_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/fullscreen_dialog_background_color"
+        android:visibility="gone"
+        android:clickable="true" >
+    </FrameLayout>
+
+    <!-- Move the ts_panorama ui into the photo_module.xml -->
+    <!--<include layout="@layout/ts_panoramagp_preview_ui" />-->
+
+    <include layout="@layout/mt_pano_preview" />
+
+    <FrameLayout
+        android:id="@+id/helptips_placeholder_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:visibility="gone"/>
+    <FrameLayout
+        android:id="@+id/view_finder_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/view_finder_color"
+        android:visibility="gone"/>
+
+    <FrameLayout
+        android:id="@+id/front_gesture_help_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:background="@color/tourial_semitransparent"
+        android:visibility="invisible">
+        <include layout="@layout/gesture_palm_help" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/pose_composition_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="bottom|right"
+            android:layout_marginBottom="@dimen/pose_layout_margin_bottom"
+            android:layout_marginRight="@dimen/pose_layout_margin_right">
+
+            <com.android.camera.ui.RotateImageView
+                android:id="@+id/composition_image"
+                android:layout_width="@dimen/pose_compose_image_size"
+                android:layout_height="@dimen/pose_compose_image_size"
+                android:scaleType="fitCenter"
+                android:layout_marginBottom="@dimen/compose_image_margin_bottom"
+                android:src="@drawable/ic_compose"
+                android:visibility="invisible"/>
+
+            <com.android.camera.ui.RotateImageView
+                android:id="@+id/pose_image"
+                android:layout_width="@dimen/pose_compose_image_size"
+                android:layout_height="@dimen/pose_compose_image_size"
+                android:scaleType="fitCenter"
+                android:layout_marginBottom="@dimen/pose_image_margin_bottom"
+                android:src="@drawable/ic_pose"
+                android:visibility="invisible"/>
+        </LinearLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/pose_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/composition_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+    </FrameLayout>
+
+</FrameLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_background"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/meeting_list_line"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_common_0.66dp"
+        android:background="#ececec"
+        />
+    <LinearLayout
+        android:id="@+id/meeting_list_no_content_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        android:visibility="invisible">
+        <View
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/ic_no_result"/>
+        <TextView
+            android:layout_marginTop="6dp"
+            android:fontFamily="monster-normal"
+            android:id="@+id/meeting_list_no_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font_size_16sp"
+            android:textColor="@color/black_30opacity"
+            android:text="@string/meetings_none"
+            >
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/meeting_list_no_search_result_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="160dp"
+        android:visibility="invisible">
+        <View
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/ic_no_result"/>
+        <TextView
+            android:layout_marginTop="6dp"
+            android:fontFamily="monster-normal"
+            android:id="@+id/meeting_list_no_search_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font_size_16sp"
+            android:textColor="@color/black_30opacity"
+            android:text="@string/meetings_no_search_result"
+            >
+        </TextView>
+    </LinearLayout>
+
+
+
+    <mst.widget.MstRecyclerView
+        android:layout_below="@id/meeting_list_line"
+        android:id="@+id/meeting_list_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </mst.widget.MstRecyclerView>
+
+    <mst.widget.FloatingActionButton
+        android:id="@+id/meeting_list_add_btn"
+        android:layout_marginRight="@dimen/layout_common_23dp"
+        android:layout_marginBottom="@dimen/layout_common_23dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#637cb3"
+        />
+
+    <mst.view.menu.bottomnavigation.BottomNavigationView
+        android:id="@+id/meeting_list_bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:layout_gravity="bottom"
+        android:visibility="gone"
+        android:background="@color/colorPrimaryDark"
+        android:layout_alignParentBottom="true" />
+</RelativeLayout>

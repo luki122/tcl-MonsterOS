@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="MeetingAssistant">"会议助理"</string>
+	<!---->
+	<string name="edit_decision">"输入决议"</string>
+	<!---->
+	<string name="edit_owener">"输入责任人，用分号或回车分隔(选填)"</string>
+	<!---->
+	<string name="edit_deadline">"输入截止时间(选填)"</string>
+	<!---->
+	<string name="Confirm">"确认"</string>
+	<!---->
+	<string name="cancel">"取消"</string>
+	<!---->
+	<string name="share">"分享"</string>
+	<!---->
+	<string name="save_to_local_storage">"导出到本地"</string>
+	<!---->
+	<string name="highlight">"会议要点"</string>
+	<!---->
+	<string name="conference_key_note">"议题"</string>
+	<!---->
+	<string name="person">"与会人"</string>
+	<!---->
+	<string name="to">"到"</string>
+	<!---->
+	<string name="time">"时间"</string>
+	<!---->
+	<string name="meet_location">"会议地点"</string>
+	<!---->
+	<string name="edit_meeting_info">"编辑会议信息"</string>
+	<!---->
+	<string name="meeting">"会议"</string>
+	<!---->
+	<string name="meeting_time">"会议时间"</string>
+	<!---->
+	<string name="please_enter_title">"请输入主题"</string>
+	<!---->
+	<string name="decision">"决议"</string>
+	<!---->
+	<string name="deadline">"截止时间"</string>
+	<!---->
+	<string name="add_decision">"保存并新增决议"</string>
+	<!---->
+	<string name="owner">"责任人"</string>
+	<!---->
+	<string name="write_decision">"写决议"</string>
+	<!---->
+	<string name="number_decision">"决议"</string>
+	<!---->
+	<string name="enter_person">"输入与会人，用分号或回车分隔"</string>
+	<!---->
+	<string name="enter_address">"输入地点"</string>
+	<!---->
+	<string name="not_filled">"未填写"</string>
+	<!---->
+	<string name="location">"地点"</string>
+	<!---->
+	<string name="take_a_photo">"拍照"</string>
+	<!---->
+	<string name="get_pic_from_gallery">"从图库选择"</string>
+	<!---->
+	<string name="delete">"删除"</string>
+	<!---->
+	<string name="edit_picture">"编辑图片"</string>
+	<!---->
+	<string name="left_rotate">"向左旋转"</string>
+	<!---->
+	<string name="right_rotate">"向右旋转"</string>
+	<!---->
+	<string name="meetings_none">"暂无会议"</string>
+	<!---->
+	<string name="meetings_no_search_result">"暂无搜索结果"</string>
+	<!---->
+	<string name="delete_pic_msg">"确定要删除此图片吗？"</string>
+	<!---->
+	<string name="voice_to_text">"录音转文字"</string>
+	<!---->
+	<string name="smart_crop">"智能裁剪"</string>
+	<!---->
+	<string name="full_image">"全图"</string>
+	<!---->
+	<string name="edit">"编辑"</string>
+	<!---->
+	<string name="save">"保存"</string>
+	<!---->
+	<string name="stop_save_voice">"确定要停止并保存录音吗？"</string>
+	<!---->
+	<string name="save_voice_file_error">"存储录音失败"</string>
+	<!---->
+	<string name="save_voice_file_successful">"录音保存成功"</string>
+	<!---->
+	<string name="edit_meeting_point">"输入会议要点,回车添加一行"</string>
+	<!---->
+	<string name="edit_meeting_topic">"输入议题,回车添加一行"</string>
+	<!---->
+	<string name="share_meeting_as_picture">"分享为图片"</string>
+	<!---->
+	<string name="export_meeting_as_picture">"导出为图片"</string>
+	<!---->
+	<string name="share_meeting_as_pdf">"分享为PDF"</string>
+	<!---->
+	<string name="export_meeting_as_pdf">"导出为PDF"</string>
+	<!---->
+	<string name="audio">"录音"</string>
+	<!---->
+	<string name="no_file">"文件不存在"</string>
+	<!---->
+	<string name="successful_exporting">"已导出到MeetingAssistant文件夹"</string>
+	<!---->
+	<string name="Failure_to_export">"导出失败，请重试"</string>
+	<!---->
+	<string name="audio_converting">"正在录音转文字中，请结束当前转换或者稍等片刻。"</string>
+	<!---->
+	<string name="audio_converting_to_text">"正在转化文字"</string>
+	<!---->
+	<string name="start_to_convert">"开始转换......"</string>
+	<!---->
+	<string name="delete_meeting">"确定删除此会议吗？"</string>
+	<!---->
+	<string name="choose_all">"全选"</string>
+	<!---->
+	<string name="delete_meeting_decision">"确定要删除此决议吗？"</string>
+	<!---->
+	<string name="delete_sound_record">"确定要删除录音吗？"</string>
+	<!---->
+	<string name="delete_sound_record_and_word">"将同时删除已转换的文字内容,确定要删除录音吗？"</string>
+	<!---->
+	<string name="dialog_battery_10">"电量不足10%,请停止录音,避免录音数据丢失。"</string>
+	<!---->
+	<string name="dialog_space_50m_start">"存储空间不足50MB,无法开始录音,请及时清理。"</string>
+	<!---->
+	<string name="dialog_space_100m">"存储空间不足100MB,请及时清理,避免录音数据丢失。"</string>
+	<!---->
+	<string name="dialog_back_msg">"录音未停止,退出会议将停止录音并保存所有内容，确定要退出？"</string>
+	<!---->
+	<string name="delete_meeting_point">"确定删除此会议要点吗？"</string>
+	<!---->
+	<string name="dialog_battery_5">"电量不足5%，已停止录音。"</string>
+	<!---->
+	<string name="dialog_back_title">"提示"</string>
+	<!---->
+	<string name="dialog_i_know">"我知道了"</string>
+	<!---->
+	<string name="dialog_start_battery_10">"电量低，容易造成录音数据丢失，是否仍然开始录音？"</string>
+	<!---->
+	<string name="dialog_space_clear">"去清理"</string>
+	<!---->
+	<string name="dialog_ignore">"忽略"</string>
+	<!---->
+	<string name="dialog_stop">"停止"</string>
+	<!---->
+	<string name="dialog_space_50m_stop">"存储空间不足，已停止录音。"</string>
+	<!---->
+	<string name="dialog_start_battery_5">"无法开始录音,请保持电量高于5%"</string>
+	<!---->
+	<string name="notification_battery_low">"电量低，请停止录音"</string>
+	<!---->
+	<string name="notification_battery_low_stop">"电量低，已停止录音"</string>
+	<!---->
+	<string name="notification_pause_record">"录音已暂停"</string>
+	<!---->
+	<string name="notification_recording">"录音中..."</string>
+	<!---->
+	<string name="notification_space_not_enough">"存储空间不足，请清理空间或停止录音"</string>
+	<!---->
+	<string name="notification_space_not_enough_stop">"存储空间不足，已停止录音"</string>
+	<!---->
+	<string name="cannot_open_internet">"抱歉，打不开网页了"</string>
+	<!---->
+	<string name="internet_problem">"网络环境出现问题"</string>
+	<!---->
+	<string name="no_open_internet">"你的手机没有打开网络设置"</string>
+	<!---->
+	<string name="try_to_refresh">"刷新试试"</string>
+	<!---->
+	<string name="audio_to_text_offline">"离线转文字"</string>
+	<!---->
+	<string name="audio_to_text_online">"在线转文字"</string>
+	<!---->
+	<string name="audio_to_text_order_result">"订单及结果"</string>
+	<!---->
+	<string name="saved_last_one_decision">"已保存上一条决议"</string>
+	<!---->
+	<string name="choose_others">"全不选"</string>
+	<!---->
+	<string name="delete_all_meeting_msg">"确定要删除所有会议吗？"</string>
+	<!---->
+	<string name="choose_owner">"选择责任人"</string>
+	<!---->
+	<string name="meeting_title_not_be_empty">"请输入会议主题"</string>
+	<!---->
+	<string name="expand">"展开"</string>
+	<!---->
+	<string name="collapse">"收起"</string>
+	<!---->
+	<string name="choose_time">"选择时间"</string>
+	<!---->
+	<string name="delete_audio_to_text">"确定要删除已转换的文字吗？"</string>
+	<!---->
+	<string name="enter_decision_content">"请输入决议内容"</string>
+	<!---->
+	<string name="export_meeting">"导出会议"</string>
+	<!---->
+	<string name="home_search_hint">"请输入搜索内容"</string>
+
+	<string name="please_wait">"请稍候..."</string>
+
+	<string name="saved_decision">"已保存决议"</string>
+
+	<string name="meeting_chosen_number">"已选择 %d 项"</string>
+</resources>

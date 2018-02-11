@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<resources>
+    <!-- Flag that indicate whether need to support DRM -->
+    <bool name="def_DRM_included">true</bool>
+    <!--Control whether need to support ShortCut feature, 0x01: need to support ShortCut feature, 0x00: without support ShortCut feature -->
+    <bool name="def_ShortCut_support">false</bool>
+    <!-- PR-1001957 Nicky Ni -001 20151214 -->
+    <!-- make sure that the phone witch Filemanager has been installed is supported dual screen ?
+    <bool name="def_is_dual_screen">false</bool> -->
+</resources>

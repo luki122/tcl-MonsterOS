@@ -1,0 +1,102 @@
+[
+    {
+        "outputFile": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/build/intermediates/res/merged/debug/values-sw720dp-v13/values-sw720dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 50,
+                    "endOffset": 101
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 821,
+                        "endColumn": 50,
+                        "endOffset": 867
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 106,
+                    "endColumn": 45,
+                    "endOffset": 147
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 985,
+                        "endColumn": 45,
+                        "endOffset": 1026
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 152,
+                    "endColumn": 51,
+                    "endOffset": 199
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 872,
+                        "endColumn": 51,
+                        "endOffset": 919
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 204,
+                    "endColumn": 59,
+                    "endOffset": 259
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 924,
+                        "endColumn": 59,
+                        "endOffset": 979
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 264,
+                    "endColumn": 47,
+                    "endOffset": 307
+                },
+                "from": {
+                    "file": "/home/zouxu/project7.0/packages/apps/AS/Debug_DeskClock/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 1031,
+                        "endColumn": 47,
+                        "endOffset": 1074
+                    }
+                }
+            }
+        ]
+    }
+]

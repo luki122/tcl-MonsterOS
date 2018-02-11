@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+    >
+
+    <mst.widget.toolbar.Toolbar
+        android:id="@+id/online_radio_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/white"
+        android:paddingStart="@dimen/dp_20">
+    </mst.widget.toolbar.Toolbar>
+    <cn.tcl.music.view.LiveMusicItemRadioLayout
+        android:id="@+id/live_music_item_radio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/abc_action_bar_default_height_material"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="15dp"
+        >
+    </cn.tcl.music.view.LiveMusicItemRadioLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rl_radio"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:layout_below="@+id/live_music_item_radio"
+        android:layout_marginTop="15dp"
+        android:background="@color/list_divider"
+        >
+
+        <RelativeLayout
+            android:id="@+id/rl_guess_radio"
+            android:layout_width="154dp"
+            android:layout_height="41dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="16dp"
+            android:background="@color/white"
+            >
+
+            <ImageView
+                android:layout_width="17dp"
+                android:layout_height="17dp"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/guess_radio"
+                android:src="@drawable/guess_radio"/>
+
+            <TextView
+                android:id="@+id/guess_radio"
+                android:layout_width="wrap_content"
+                android:layout_height="41dp"
+                android:layout_centerInParent="true"
+                android:alpha="0.86"
+                android:gravity="center"
+                android:paddingLeft="4dp"
+                android:text="虾米猜音乐"
+                android:textColor="@color/black"
+                android:textSize="13sp"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_private_radio"
+            android:layout_width="154dp"
+            android:layout_height="41dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="16dp"
+            android:background="@color/white"
+            >
+
+            <ImageView
+                android:layout_width="17dp"
+                android:layout_height="17dp"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/private_radio"
+                android:src="@drawable/private_radio"/>
+
+            <TextView
+                android:id="@+id/private_radio"
+                android:layout_width="wrap_content"
+                android:layout_height="41dp"
+                android:layout_centerInParent="true"
+                android:alpha="0.86"
+                android:gravity="center"
+                android:paddingLeft="4dp"
+                android:text="私人电台"
+                android:textColor="@color/black"
+                android:textSize="13sp"/>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycle_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rl_radio"
+        android:paddingLeft="20dp"
+        >
+
+    </android.support.v7.widget.RecyclerView>
+
+
+</RelativeLayout>

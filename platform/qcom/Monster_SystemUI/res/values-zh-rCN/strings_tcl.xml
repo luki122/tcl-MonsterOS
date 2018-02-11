@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+/**
+ * Copyright (c) 2016, The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!--Mst: tangjun add begin  -->
+    <string name="clear_all_text">快速清理</string>
+    <string name="select_docked_app">选择分屏应用</string>
+    <string name="memory_info" ><xliff:g id="HOUR">%s</xliff:g>可用 | <xliff:g id="MINUTE">%s</xliff:g></string>
+    <!--Mst: tangjun add end  -->
+    <string name="notify_clean_num_format"><Data><![CDATA[已自动清理<font color="#d94b41"><b><xliff:g id="number">%s</xliff:g></b></font>条非重要消息]]></Data></string>
+    <string name="notify_clean_title">通知清理</string>
+    <string name="notify_manage_title">通知管理</string>
+    <string name="no_applications">无应用。</string>
+    <string name="settings_safetylegal_activity_loading">正在加载...</string>
+    <string name="disabled">已停用</string>
+    <string name="not_installed">未针对此用户安装</string>
+    <string name="sort_order_alpha">按名称排序</string>
+    <string name="advanced_apps">高级</string>
+    <string name="menu_show_system">显示系统进程</string>
+    <string name="menu_hide_system">隐藏系统进程</string>
+    <string name="sort_order_size">按大小排序</string>
+    <string name="reset_app_preferences">重置应用偏好设置</string>
+    <string name="filter_all_apps" msgid="1988403195820688644">"所有应用"</string>
+    <string name="filter_enabled_apps" msgid="3318021007093070639">"已启用"</string>
+    <string name="filter_personal_apps" msgid="3277727374174355971">"个人应用"</string>
+    <string name="filter_work_apps" msgid="24519936790795574">"工作应用"</string>
+    <string name="filter_notif_blocked_apps" msgid="3446926933792244485">"已屏蔽"</string>
+    <string name="filter_notif_priority_apps" msgid="5965001885749195239">"优先"</string>
+    <string name="filter_notif_sensitive_apps" msgid="4909289478844197927">"敏感内容已隐藏"</string>
+    <string name="filter_notif_no_peeking" msgid="5197968265625096563">"不允许快速查看"</string>
+    <string name="filter_with_domain_urls_apps" msgid="4573276638806792792">"包含网域网址"</string>
+
+    <string name="filter_apps_disabled" msgid="5364447573326472890">"已停用"</string>
+
+    <string name="cancel_clear">取消清理</string>
+    <string name="confirm_clear">确认清理</string>
+    <string name="no_nofify">暂无内容</string>
+    <string name="notify_tip">非重要通知将被清理到这里\n重要通知仍然保留在通知栏</string>
+
+    <string name="allow_send_notify">允许发送通知</string>
+    <string name="notify_superscript">角标提醒</string>
+    <string name="notify_desk_superscript">桌面角标提醒</string>
+    <string name="notify_desk_superscript_desc">在桌面图标显示未读通知</string>
+    <string name="notify_lock_screen">锁屏通知</string>
+    <string name="notify_lock_screen_desc">在锁定屏幕上显示</string>
+    <string name="notify_show_detail">显示详情</string>
+    <string name="notify_show_detail_desc">在锁定屏幕时显示内容详情</string>
+    <string name="notify_intelligent_nofity">智能通知</string>
+    <string name="notify_intelligent_nofity_desc">关闭开关，此类通知将会被折叠</string>
+
+    <string name="appupgrade">升级</string>
+    <string name="calendar">日程</string>
+    <string name="download">下载</string>
+    <string name="finance">财务信息</string>
+    <string name="function">功能推荐</string>
+    <string name="security">security</string>
+    <string name="tracking">物流提醒</string>
+    <string name="update">动态</string>
+    <string name="content">内容资讯</string>
+    <string name="promotion">广告推广</string>
+    <string name="reminder">提醒</string>
+    <string name="mail">邮件</string>
+    <string name="message">聊天</string>
+    <string name="others">其他</string>
+    <string name="order">订单提醒</string>
+    <string name="optimization">手机优化</string>
+    <string name="unknown">未知</string>
+    <string name="shopping">消费</string>
+    <string name="social">社交动态</string>
+    <string name="status">运行状态</string>
+
+    <string name="ads">广告</string>
+    <string name="news">新闻</string>
+    <string name="recommend">推荐资讯</string>
+    <string name="subscribe">订阅更新</string>
+    <string name="permission">应用权限</string>
+    <string name="storage">存储空间</string>
+    <string name="warn">安全</string>
+    <string name="weather">天气</string>
+    <string name="navi">导航</string>
+    <string name="roadcondition">路况</string>
+    <string name="todo">待办</string>
+    <string name="game">游戏</string>
+    <string name="privateletter">私信</string>
+
+    <string name="disableNotify">禁止通知</string>
+    <string name="enableNotify">允许通知</string>
+    <string name="intelligentNotifyClean">智能通知清理</string>
+
+    <string name="dialog_btn_positive">确定</string>
+    <string name="dialog_btn_negative">取消</string>
+    <string name="dialog_tips">提醒</string>
+    <string name="dialog_content_no_clear">确定不再对该通知类型进行清理吗？</string>
+    <string name="dialog_content_clear">确定恢复对该通知类型的清理吗？</string>
+
+    <string name="notification_default_text">应用发送了一条通知</string>
+
+    <!--add by chenhl start-->
+    <string name="tcl_data_switch">数据</string>
+    <!--add by chenhl end-->
+</resources>

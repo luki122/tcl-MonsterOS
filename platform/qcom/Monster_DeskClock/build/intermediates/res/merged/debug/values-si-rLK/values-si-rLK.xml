@@ -1,0 +1,719 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="alarm_set">
+    <item msgid="6450913786084215050">"ඇඟවීම මෙතැන් සිට ම්නිත්තු 1 කට අඩුවෙන් සකසා ඇත."</item>
+    <item msgid="6002066367368421848">"ඇඟවීම දැන් සිට <ns1:g id="DAYS">%1$s</ns1:g> කින් සකසා ඇත."</item>
+    <item msgid="8824719306247973774">"ඇඟවීම දැන් සිට <ns1:g id="HOURS">%2$s</ns1:g> කින් සකසා ඇත."</item>
+    <item msgid="8182406852935468862">"ඇඟවීම දැන් සිට <ns1:g id="DAYS">%1$s</ns1:g> සහ <ns1:g id="HOURS">%2$s</ns1:g> කින් සකසා ඇත."</item>
+    <item msgid="2532279224777213194">"ඇඟවීම දැන් සිට <ns1:g id="MINUTES">%3$s</ns1:g> කින් සකසා ඇත."</item>
+    <item msgid="5936557894247187717">"ඇඟවීම දැන් සිට <ns1:g id="DAYS">%1$s</ns1:g> සහ <ns1:g id="MINUTES">%3$s</ns1:g> කින් සකසා ඇත."</item>
+    <item msgid="9115697840826129603">"ඇඟවීම දැන් සිට <ns1:g id="HOURS">%2$s</ns1:g> සහ <ns1:g id="MINUTES">%3$s</ns1:g> කින් සකසා ඇත."</item>
+    <item msgid="2332583385137381060">"ඇඟවීම දැන් සිට <ns1:g id="DAYS">%1$s</ns1:g>,<ns1:g id="HOURS">%2$s</ns1:g> සහ <ns1:g id="MINUTES">%3$s</ns1:g> කින් සකසා ඇත."</item>
+  </string-array>
+    <string-array name="auto_silence_entries">
+    <item msgid="3024545954917711306">"මිනිත්තු 1"</item>
+    <item msgid="5431906692406316549">"මිනිත්තු 5"</item>
+    <item msgid="7742728812068919959">"මිනිත්තු 10"</item>
+    <item msgid="2855948657259647629">"මිනිත්තු 15"</item>
+    <item msgid="6330196381284475079">"මිනිත්තු 20"</item>
+    <item msgid="7809240121716151904">"මිනිත්තු 25"</item>
+    <item msgid="4278641338024561333">"කවදාවත් නොවේ"</item>
+  </string-array>
+    <string-array name="cities_names">
+    <item msgid="4653806289288974388">"අ<ns1:g id="SEPARATOR">=</ns1:g>අබිද්ජාන්"</item>
+    <item msgid="4864167603178202155">"අ<ns1:g id="SEPARATOR">=</ns1:g>අක්රා"</item>
+    <item msgid="6478898553803167749">"අ<ns1:g id="SEPARATOR">=</ns1:g>අඩිස් අබාබා"</item>
+    <item msgid="5618029992528436448">"අ<ns1:g id="SEPARATOR">=</ns1:g>ඇල්ජියර්ස්"</item>
+    <item msgid="2906834750114790793">"බ<ns1:g id="SEPARATOR">=</ns1:g>බ්ලෑටියර්"</item>
+    <item msgid="8153571933836629863">"බ<ns1:g id="SEPARATOR">=</ns1:g>බ්‍රසාවිලා"</item>
+    <item msgid="3703129580594640833">"ක<ns1:g id="SEPARATOR">=</ns1:g>කයිරෝ"</item>
+    <item msgid="2300915410194647320">"ක<ns1:g id="SEPARATOR">=</ns1:g>කැසබ්ලෑන්කා"</item>
+    <item msgid="1217039002304887948">"ක<ns1:g id="SEPARATOR">=</ns1:g>කොනක්රී"</item>
+    <item msgid="8775104707806220928">"ඩ<ns1:g id="SEPARATOR">=</ns1:g>ඩකාර්"</item>
+    <item msgid="5948764589113643811">"ද<ns1:g id="SEPARATOR">=</ns1:g>දර් එස් සලාම්"</item>
+    <item msgid="6306254507715416077">"ජ<ns1:g id="SEPARATOR">=</ns1:g>ජිබුටි"</item>
+    <item msgid="4286108029159501866">"ෆ<ns1:g id="SEPARATOR">=</ns1:g>ෆ්රීටවුන්"</item>
+    <item msgid="4514786733035528116">"ග<ns1:g id="SEPARATOR">=</ns1:g>ගැබොරොන්"</item>
+    <item msgid="7367496854968219671">"හ<ns1:g id="SEPARATOR">=</ns1:g>හරාරේ"</item>
+    <item msgid="6837746379726020288">"ජ<ns1:g id="SEPARATOR">=</ns1:g>ජොහැන්නස්බර්ග්"</item>
+    <item msgid="6284185156591171506">"ක<ns1:g id="SEPARATOR">=</ns1:g>කම්පාලා"</item>
+    <item msgid="3299518884693668985">"ක<ns1:g id="SEPARATOR">=</ns1:g>කාටුම්හ"</item>
+    <item msgid="4614879508966043969">"ක<ns1:g id="SEPARATOR">=</ns1:g>කිගාලි"</item>
+    <item msgid="8878437043772547732">"ක<ns1:g id="SEPARATOR">=</ns1:g>කින්ෂාසා"</item>
+    <item msgid="6325601635544067909">"ල<ns1:g id="SEPARATOR">=</ns1:g>ලාගෝස්"</item>
+    <item msgid="6094357506290323524">"ම<ns1:g id="SEPARATOR">=</ns1:g>මසෙරු"</item>
+    <item msgid="7270525814400329098">"ම<ns1:g id="SEPARATOR">=</ns1:g>මොගඩිෂු"</item>
+    <item msgid="353110101402547540">"න<ns1:g id="SEPARATOR">=</ns1:g>නයිරෝබි"</item>
+    <item msgid="1688121892646984549">"ස<ns1:g id="SEPARATOR">=</ns1:g>සාඕ ටොමේ"</item>
+    <item msgid="3642219084651687800">"ට<ns1:g id="SEPARATOR">=</ns1:g>ටිම්බක්ටු"</item>
+    <item msgid="7287513493631179463">"ට<ns1:g id="SEPARATOR">=</ns1:g>ට්‍රිපොලි"</item>
+    <item msgid="5052614613671591560">"ට<ns1:g id="SEPARATOR">=</ns1:g>ටියුනිස්"</item>
+    <item msgid="7976303179193839859">"අ<ns1:g id="SEPARATOR">=</ns1:g>ඇන්කරේජ්"</item>
+    <item msgid="193703779380497120">"ම<ns1:g id="SEPARATOR">=</ns1:g>මෙන්ඩෝසා"</item>
+    <item msgid="5448884981082519628">"අ<ns1:g id="SEPARATOR">=</ns1:g>ඇරුබා"</item>
+    <item msgid="1577938273323914773">"අ<ns1:g id="SEPARATOR">=</ns1:g>ඇසුන්සියොන්"</item>
+    <item msgid="5617155978105010520">"බ<ns1:g id="SEPARATOR">=</ns1:g>බාබඩෝස්"</item>
+    <item msgid="3600025702357376322">"බ<ns1:g id="SEPARATOR">=</ns1:g>බෙලිස්"</item>
+    <item msgid="2847679817118467051">"බ<ns1:g id="SEPARATOR">=</ns1:g>බොගෝටා"</item>
+    <item msgid="9029003541681282929">"බ<ns1:g id="SEPARATOR">=</ns1:g>බුවනස් අයර්ස්"</item>
+    <item msgid="2338367960332622522">"ක<ns1:g id="SEPARATOR">=</ns1:g>කැන්කුන්"</item>
+    <item msgid="4339797536047170278">"ක<ns1:g id="SEPARATOR">=</ns1:g>කරකස්"</item>
+    <item msgid="9199080438977757863">"ක<ns1:g id="SEPARATOR">=</ns1:g>කේමන්"</item>
+    <item msgid="1993203473281589891">"ච<ns1:g id="SEPARATOR">=</ns1:g>චිකාගෝ"</item>
+    <item msgid="7990342776303470263">"ක<ns1:g id="SEPARATOR">=</ns1:g>කොස්ට රිකා"</item>
+    <item msgid="5676109900908808628">"ක<ns1:g id="SEPARATOR">=</ns1:g>කුරාකාඕ"</item>
+    <item msgid="5519120432577564812">"ඩ<ns1:g id="SEPARATOR">=</ns1:g>ඩෝසන් ක්රීක්"</item>
+    <item msgid="2126228972377380680">"ඩ<ns1:g id="SEPARATOR">=</ns1:g>ඩෙන්වර්"</item>
+    <item msgid="3298410632922319193">"ඩ<ns1:g id="SEPARATOR">=</ns1:g>ඩිට්රොයිට්"</item>
+    <item msgid="2819032085688382805">"ඩ<ns1:g id="SEPARATOR">=</ns1:g>ඩොමිනිකා"</item>
+    <item msgid="6170433208654553821">"එ<ns1:g id="SEPARATOR">=</ns1:g>එඩ්මන්ටන්"</item>
+    <item msgid="795461860173291499">"එ<ns1:g id="SEPARATOR">=</ns1:g>එල් සැල්වදෝරය"</item>
+    <item msgid="7872196528637597794">"ෆ<ns1:g id="SEPARATOR">=</ns1:g>ෆෝරටලෙසා"</item>
+    <item msgid="5801558418916235541">"ග<ns1:g id="SEPARATOR">=</ns1:g>ග්රෑන්ඩ් ටර්ක්"</item>
+    <item msgid="2103759276235503048">"ග<ns1:g id="SEPARATOR">=</ns1:g>ග්රෙනේඩා"</item>
+    <item msgid="1490069759176391533">"ග<ns1:g id="SEPARATOR">=</ns1:g>ගෝතමාලාව"</item>
+    <item msgid="525959305652046261">"ග<ns1:g id="SEPARATOR">=</ns1:g>ගයනා"</item>
+    <item msgid="7565596629973190931">"හ<ns1:g id="SEPARATOR">=</ns1:g>හැලිෆැක්ස්"</item>
+    <item msgid="3811169155065582644">"හ<ns1:g id="SEPARATOR">=</ns1:g>හවානා"</item>
+    <item msgid="3733555435078090201">"ඉ<ns1:g id="SEPARATOR">=</ns1:g>ඉන්ඩියානාපොලිස්"</item>
+    <item msgid="226982663848410981">"න<ns1:g id="SEPARATOR">=</ns1:g>නොක්ස්"</item>
+    <item msgid="3815293080342229459">"ම<ns1:g id="SEPARATOR">=</ns1:g>මරෙන්ගෝ"</item>
+    <item msgid="6594853515451547389">"ප<ns1:g id="SEPARATOR">=</ns1:g>පීටර්ස්බර්ග්"</item>
+    <item msgid="6091571889213283534">"ට<ns1:g id="SEPARATOR">=</ns1:g>ටෙල් නගරය"</item>
+    <item msgid="3089369312058696669">"ව<ns1:g id="SEPARATOR">=</ns1:g>විවේ"</item>
+    <item msgid="1334860422444068943">"ව<ns1:g id="SEPARATOR">=</ns1:g>වින්සෙනාස්"</item>
+    <item msgid="7775105082093691756">"ව<ns1:g id="SEPARATOR">=</ns1:g>විනැමක්"</item>
+    <item msgid="4043335541899184547">"ක<ns1:g id="SEPARATOR">=</ns1:g>කිංග්ස්ටන්"</item>
+    <item msgid="1063757593477259280">"න<ns1:g id="SEPARATOR">=</ns1:g>නුඑස්ට්‍රා සෙනෝරා ද ලා පැස්"</item>
+    <item msgid="349901732062388869">"ල<ns1:g id="SEPARATOR">=</ns1:g>ලීමා"</item>
+    <item msgid="4977592519316837842">"ල<ns1:g id="SEPARATOR">=</ns1:g>ලොස් ඇන්ජලීස්"</item>
+    <item msgid="7713051790509638572">"ල<ns1:g id="SEPARATOR">=</ns1:g>ලුයිස්විල්"</item>
+    <item msgid="8460620935898405225">"ම<ns1:g id="SEPARATOR">=</ns1:g>මැනගුආ"</item>
+    <item msgid="8328345293081464192">"ම<ns1:g id="SEPARATOR">=</ns1:g>මාර්ටිනික්"</item>
+    <item msgid="8010357327448619637">"ම<ns1:g id="SEPARATOR">=</ns1:g>මෙන්ඩෝසා"</item>
+    <item msgid="2046777213916219253">"ම<ns1:g id="SEPARATOR">=</ns1:g>මෙට්ලකට්ලා"</item>
+    <item msgid="2227885609632709258">"ම<ns1:g id="SEPARATOR">=</ns1:g>මෙක්සිකෝ නගරය"</item>
+    <item msgid="9089629663998569289">"ම<ns1:g id="SEPARATOR">=</ns1:g>මොන්ටේරේ"</item>
+    <item msgid="2782276175306930748">"ම<ns1:g id="SEPARATOR">=</ns1:g>මොන්ටෙවිඩියෝ"</item>
+    <item msgid="4942386959622269480">"ම<ns1:g id="SEPARATOR">=</ns1:g>මොන්ට්රියල්"</item>
+    <item msgid="3068203952968918165">"න<ns1:g id="SEPARATOR">=</ns1:g>නාසු"</item>
+    <item msgid="4234515454127289962">"න<ns1:g id="SEPARATOR">=</ns1:g>නිව්යෝක්"</item>
+    <item msgid="1660551302087304308">"බ<ns1:g id="SEPARATOR">=</ns1:g>බෙඕලා"</item>
+    <item msgid="415823390775449071">"ස<ns1:g id="SEPARATOR">=</ns1:g>සෙන්ටර්"</item>
+    <item msgid="6644186958433380884">"න<ns1:g id="SEPARATOR">=</ns1:g>නව සලෙම්"</item>
+    <item msgid="6408587617047971798">"ප<ns1:g id="SEPARATOR">=</ns1:g>පැනමා"</item>
+    <item msgid="5576899364199447991">"ෆ<ns1:g id="SEPARATOR">=</ns1:g>ෆීනික්ස්"</item>
+    <item msgid="5541266909095409447">"ස<ns1:g id="SEPARATOR">=</ns1:g>ස්පාඤ්ඤ වරාය"</item>
+    <item msgid="6417519313622785932">"ක<ns1:g id="SEPARATOR">=</ns1:g>කුමරු වරාය"</item>
+    <item msgid="2078589249210571366">"ප<ns1:g id="SEPARATOR">=</ns1:g>පුවටෝ රිකෝ"</item>
+    <item msgid="8522030474373927681">"ස<ns1:g id="SEPARATOR">=</ns1:g>සැන්ටෝ ඩොමින්ගෝ"</item>
+    <item msgid="4763853453317431594">"ස<ns1:g id="SEPARATOR">=</ns1:g>සාඕ පාවුලෝ"</item>
+    <item msgid="2713153284784311646">"ශ<ns1:g id="SEPARATOR">=</ns1:g>ශාන්ත ජෝන්"</item>
+    <item msgid="8252666620333105271">"ශ<ns1:g id="SEPARATOR">=</ns1:g>ශාන්ත කිට්ස්"</item>
+    <item msgid="4851597775036027515">"ශ<ns1:g id="SEPARATOR">=</ns1:g>ශාන්ත ලුසියා"</item>
+    <item msgid="2395485473100271503">"ශ<ns1:g id="SEPARATOR">=</ns1:g>ශාන්ත තෝමස්"</item>
+    <item msgid="4148037555658225145">"ට<ns1:g id="SEPARATOR">=</ns1:g>ටිජුවානා"</item>
+    <item msgid="3491199166042475853">"ට<ns1:g id="SEPARATOR">=</ns1:g>ටොරොන්ටෝ"</item>
+    <item msgid="1506838283840737263">"ව<ns1:g id="SEPARATOR">=</ns1:g>වැන්කුවර්"</item>
+    <item msgid="8935386104773857399">"ව<ns1:g id="SEPARATOR">=</ns1:g>විනිපෙග්"</item>
+    <item msgid="1132634022412399582">"ද<ns1:g id="SEPARATOR">=</ns1:g>දක්ෂිණ ධ්‍රැවය"</item>
+    <item msgid="4076962667198039206">"ල<ns1:g id="SEPARATOR">=</ns1:g>ලෝන්යිඅර්යෙන්"</item>
+    <item msgid="3784788073896028355">"අ<ns1:g id="SEPARATOR">=</ns1:g>ඇල්මැටි"</item>
+    <item msgid="7895695236056852523">"අ<ns1:g id="SEPARATOR">=</ns1:g>අම්මාන්"</item>
+    <item msgid="1795426532295280371">"අ<ns1:g id="SEPARATOR">=</ns1:g>අනදීර්"</item>
+    <item msgid="7194236926158343552">"අ<ns1:g id="SEPARATOR">=</ns1:g>අක්ටු"</item>
+    <item msgid="4796350130854360870">"බ<ns1:g id="SEPARATOR">=</ns1:g>බැග්ඩෑග්"</item>
+    <item msgid="4020105434451091851">"බ<ns1:g id="SEPARATOR">=</ns1:g>බහරේන්"</item>
+    <item msgid="3895868797052686484">"බ<ns1:g id="SEPARATOR">=</ns1:g>බකු"</item>
+    <item msgid="228001522630057957">"බ<ns1:g id="SEPARATOR">=</ns1:g>බැංකොක්"</item>
+    <item msgid="5555647809114820537">"බ<ns1:g id="SEPARATOR">=</ns1:g>බේරූට්"</item>
+    <item msgid="2960873998178478784">"ක<ns1:g id="SEPARATOR">=</ns1:g>කල්කටා"</item>
+    <item msgid="8765555959722950691">"ඩ<ns1:g id="SEPARATOR">=</ns1:g>ඩමැස්කස්"</item>
+    <item msgid="4979709428925196546">"ඩ<ns1:g id="SEPARATOR">=</ns1:g>ඩකා"</item>
+    <item msgid="310419600200885308">"ඩ<ns1:g id="SEPARATOR">=</ns1:g>ඩුබායි"</item>
+    <item msgid="1203379132329159260">"ග<ns1:g id="SEPARATOR">=</ns1:g>ගාසා"</item>
+    <item msgid="2359068282340162319">"හ<ns1:g id="SEPARATOR">=</ns1:g>හෙබ්රොන්"</item>
+    <item msgid="6223396610551759129">"හ<ns1:g id="SEPARATOR">=</ns1:g>හෝ චි මිං"</item>
+    <item msgid="4731022818651322736">"හ<ns1:g id="SEPARATOR">=</ns1:g>හොංකොං"</item>
+    <item msgid="8104778702069607166">"ඉ<ns1:g id="SEPARATOR">=</ns1:g>ඉස්තාන්බුල්"</item>
+    <item msgid="758800913783999425">"ජ<ns1:g id="SEPARATOR">=</ns1:g>ජකර්තා"</item>
+    <item msgid="8956406398692698126">"ජ<ns1:g id="SEPARATOR">=</ns1:g>ජෙරුසලම්"</item>
+    <item msgid="1664426577433326419">"ක<ns1:g id="SEPARATOR">=</ns1:g>කාබුල්"</item>
+    <item msgid="7700349511508357396">"ක<ns1:g id="SEPARATOR">=</ns1:g>කරච්චි"</item>
+    <item msgid="5273241794521591984">"ක<ns1:g id="SEPARATOR">=</ns1:g>කත්මණ්ඩු"</item>
+    <item msgid="4754850915168634158">"ක<ns1:g id="SEPARATOR">=</ns1:g>ක්වාලාලම්පූර්"</item>
+    <item msgid="5187849635785055693">"ක<ns1:g id="SEPARATOR">=</ns1:g>කුවේට්"</item>
+    <item msgid="2923385979252179376">"ම<ns1:g id="SEPARATOR">=</ns1:g>මැකාවු"</item>
+    <item msgid="722458682107911739">"ම<ns1:g id="SEPARATOR">=</ns1:g>මැනිලා"</item>
+    <item msgid="6033964325069060422">"ම<ns1:g id="SEPARATOR">=</ns1:g>මස්කට්"</item>
+    <item msgid="6077458941399984780">"න<ns1:g id="SEPARATOR">=</ns1:g>නොම් පෙන්"</item>
+    <item msgid="935474308903572975">"ප<ns1:g id="SEPARATOR">=</ns1:g>පියොන්යෑන්"</item>
+    <item msgid="5336632319992664889">"ක<ns1:g id="SEPARATOR">=</ns1:g>කටාර්"</item>
+    <item msgid="1667243110545095146">"ර<ns1:g id="SEPARATOR">=</ns1:g>රැන්ගුන්"</item>
+    <item msgid="4460370766685855731">"ර<ns1:g id="SEPARATOR">=</ns1:g>රියාද්"</item>
+    <item msgid="4229224905931739201">"ස<ns1:g id="SEPARATOR">=</ns1:g>සයිගොන්"</item>
+    <item msgid="8705359848250215620">"ස<ns1:g id="SEPARATOR">=</ns1:g>සියොල්"</item>
+    <item msgid="583367295371395814">"ෂ<ns1:g id="SEPARATOR">=</ns1:g>ෂැංහයි"</item>
+    <item msgid="1422156732794771136">"ස<ns1:g id="SEPARATOR">=</ns1:g>සිංගප්පූරුව"</item>
+    <item msgid="1972491729911039207">"ත<ns1:g id="SEPARATOR">=</ns1:g>තායිපේ"</item>
+    <item msgid="5563193560935461106">"ට<ns1:g id="SEPARATOR">=</ns1:g>ටෙහෙරාන්"</item>
+    <item msgid="8629402941285674273">"ට<ns1:g id="SEPARATOR">=</ns1:g>ටෙල් අවිව්"</item>
+    <item msgid="8499164674454654525">"ට<ns1:g id="SEPARATOR">=</ns1:g>ටෝකියෝ"</item>
+    <item msgid="1705804745888992744">"උ<ns1:g id="SEPARATOR">=</ns1:g>උලාන්බටාර්"</item>
+    <item msgid="2028626988021468640">"බ<ns1:g id="SEPARATOR">=</ns1:g>බර්මියුඩා"</item>
+    <item msgid="4527109966513690429">"ක<ns1:g id="SEPARATOR">=</ns1:g>කැනරි"</item>
+    <item msgid="4886308317040330383">"ක<ns1:g id="SEPARATOR">=</ns1:g>කේප් වර්ඩ්"</item>
+    <item msgid="1003307362164178007">"ර<ns1:g id="SEPARATOR">=</ns1:g>රෙකවික්"</item>
+    <item msgid="6742010412815268657">"ස<ns1:g id="SEPARATOR">=</ns1:g>ස්ටැන්ලි"</item>
+    <item msgid="5659389449738592757">"අ<ns1:g id="SEPARATOR">=</ns1:g>ඇඩිලේඩ්"</item>
+    <item msgid="4567804576346784523">"බ<ns1:g id="SEPARATOR">=</ns1:g>බ්‍රිස්බේන්"</item>
+    <item msgid="8730590400362815585">"ක<ns1:g id="SEPARATOR">=</ns1:g>කැන්බරා"</item>
+    <item msgid="6416990927714140153">"ඩ<ns1:g id="SEPARATOR">=</ns1:g>ඩාවින්"</item>
+    <item msgid="3073969292696516135">"ම<ns1:g id="SEPARATOR">=</ns1:g>මෙල්බර්න්"</item>
+    <item msgid="1719286228375722176">"න<ns1:g id="SEPARATOR">=</ns1:g>නිව් සවුත් වේල්ස්"</item>
+    <item msgid="3663940748056976266">"ප<ns1:g id="SEPARATOR">=</ns1:g>පර්ත්"</item>
+    <item msgid="3383881736858438153">"ක<ns1:g id="SEPARATOR">=</ns1:g>ක්වීන්ස්ලන්ඩ්"</item>
+    <item msgid="971889339240879138">"ස<ns1:g id="SEPARATOR">=</ns1:g>සිඩ්නි"</item>
+    <item msgid="5542803438162180311">"ව<ns1:g id="SEPARATOR">=</ns1:g>වික්ටෝරියා"</item>
+    <item msgid="11828841481838883">"න<ns1:g id="SEPARATOR">=</ns1:g>නිව්ෆවුන්ඩ්ලන්ඩ්"</item>
+    <item msgid="1734331918410561807">"ස<ns1:g id="SEPARATOR">=</ns1:g>සස්කැච්වන්"</item>
+    <item msgid="9184412695613864979">"ප<ns1:g id="SEPARATOR">=</ns1:g>පාස්කු දූපත"</item>
+    <item msgid="1014282454239014527">"අ<ns1:g id="SEPARATOR">=</ns1:g>ඇම්ස්ටර්ඩෑම්"</item>
+    <item msgid="4928363054269791193">"අ<ns1:g id="SEPARATOR">=</ns1:g>ඇන්ඩෝරාව"</item>
+    <item msgid="912290900213826368">"අ<ns1:g id="SEPARATOR">=</ns1:g>ඇතන්ස්"</item>
+    <item msgid="6097000352459209495">"බ<ns1:g id="SEPARATOR">=</ns1:g>බෙල්ෆාස්ට්"</item>
+    <item msgid="3285885824311481790">"බ<ns1:g id="SEPARATOR">=</ns1:g>බෙල්ග්රේඩ්"</item>
+    <item msgid="911055049821251982">"බ<ns1:g id="SEPARATOR">=</ns1:g>බර්ලින්"</item>
+    <item msgid="9099244516556291111">"බ<ns1:g id="SEPARATOR">=</ns1:g>බ්‍රැටිස්ලාවා"</item>
+    <item msgid="158977749726480076">"බ<ns1:g id="SEPARATOR">=</ns1:g>බ්රසල්ස්"</item>
+    <item msgid="8875102297676173346">"බ<ns1:g id="SEPARATOR">=</ns1:g>බුකාරෙස්ට්"</item>
+    <item msgid="804451569472542912">"බ<ns1:g id="SEPARATOR">=</ns1:g>බුඩාපෙස්ට්"</item>
+    <item msgid="6827506774445509939">"ච<ns1:g id="SEPARATOR">=</ns1:g>චිසිනාඕ"</item>
+    <item msgid="487345893088732797">"ක<ns1:g id="SEPARATOR">=</ns1:g>කෝපන්හේගන්"</item>
+    <item msgid="7760953471297773537">"ඩ<ns1:g id="SEPARATOR">=</ns1:g>ඩබ්ලින්"</item>
+    <item msgid="323414429034825249">"ජ<ns1:g id="SEPARATOR">=</ns1:g>ජබ්බ්රුල්තා"</item>
+    <item msgid="1785566206078328830">"හ<ns1:g id="SEPARATOR">=</ns1:g>හෙල්සින්කි"</item>
+    <item msgid="5938185647271923359">"අ<ns1:g id="SEPARATOR">=</ns1:g>අයිල් ඔෆ් මෑන්"</item>
+    <item msgid="5974864320735263245">"ඉ<ns1:g id="SEPARATOR">=</ns1:g>ඉස්තාන්බුල්"</item>
+    <item msgid="3567775364750772947">"ක<ns1:g id="SEPARATOR">=</ns1:g>කියෙව්"</item>
+    <item msgid="540344101798867007">"ල<ns1:g id="SEPARATOR">=</ns1:g>ලිස්බන්"</item>
+    <item msgid="5091062403792923657">"ල<ns1:g id="SEPARATOR">=</ns1:g>ලන්ඩන්"</item>
+    <item msgid="7075006205000490364">"ල<ns1:g id="SEPARATOR">=</ns1:g>ලක්සම්බර්ග්"</item>
+    <item msgid="4901781246584739451">"ම<ns1:g id="SEPARATOR">=</ns1:g>මැඩ්රිඩ්"</item>
+    <item msgid="9047080834315777144">"ම<ns1:g id="SEPARATOR">=</ns1:g>මෝල්ටා"</item>
+    <item msgid="8200456520732452034">"ම<ns1:g id="SEPARATOR">=</ns1:g>මින්ස්ක්"</item>
+    <item msgid="5452744619736513383">"ම<ns1:g id="SEPARATOR">=</ns1:g>මොනාකෝ"</item>
+    <item msgid="3513517408062322298">"ම<ns1:g id="SEPARATOR">=</ns1:g>මොස්කව්"</item>
+    <item msgid="7917103295878081674">"ඔ<ns1:g id="SEPARATOR">=</ns1:g>ඔස්ලෝ"</item>
+    <item msgid="4245547231693746977">"ප<ns1:g id="SEPARATOR">=</ns1:g>පැරිස්"</item>
+    <item msgid="3778652900196715557">"ප<ns1:g id="SEPARATOR">=</ns1:g>ප්රාග්"</item>
+    <item msgid="1827175423974383675">"ර<ns1:g id="SEPARATOR">=</ns1:g>රිගා"</item>
+    <item msgid="2095130417232677930">"ර<ns1:g id="SEPARATOR">=</ns1:g>රෝමය"</item>
+    <item msgid="7631654618289353520">"ස<ns1:g id="SEPARATOR">=</ns1:g>සැන් මරිනෝ"</item>
+    <item msgid="7219835179107610398">"ස<ns1:g id="SEPARATOR">=</ns1:g>සරජෙවෝ"</item>
+    <item msgid="7199868165463282240">"ස<ns1:g id="SEPARATOR">=</ns1:g>සිම්ෆ්රෝපෝල්"</item>
+    <item msgid="2786395006682246794">"ස<ns1:g id="SEPARATOR">=</ns1:g>ස්කෝප්ජේ"</item>
+    <item msgid="4706927178872100023">"ස<ns1:g id="SEPARATOR">=</ns1:g>සොෆියා"</item>
+    <item msgid="1982417589953195308">"ස<ns1:g id="SEPARATOR">=</ns1:g>ස්ටොක්හෝම්"</item>
+    <item msgid="1596083919400921960">"ට<ns1:g id="SEPARATOR">=</ns1:g>ටලීන්"</item>
+    <item msgid="3079313598974879114">"ව<ns1:g id="SEPARATOR">=</ns1:g>වතිකානුව"</item>
+    <item msgid="6516636001856910888">"ව<ns1:g id="SEPARATOR">=</ns1:g>වියානා"</item>
+    <item msgid="6377314532157945456">"ව<ns1:g id="SEPARATOR">=</ns1:g>විල්නියස්"</item>
+    <item msgid="3427175235616698721">"ව<ns1:g id="SEPARATOR">=</ns1:g>වෝර්සෝ"</item>
+    <item msgid="8404354243761332922">"ෂ<ns1:g id="SEPARATOR">=</ns1:g>ෂාග්රෙබ්"</item>
+    <item msgid="1457280242717152391">"ස<ns1:g id="SEPARATOR">=</ns1:g>සූරිච්"</item>
+    <item msgid="1065940089741359291">"අ<ns1:g id="SEPARATOR">=</ns1:g>ඇන්ටන්නරිවෝ"</item>
+    <item msgid="5176181880014090003">"ම<ns1:g id="SEPARATOR">=</ns1:g>මාලදිවයින"</item>
+    <item msgid="8281854645557426433">"ම<ns1:g id="SEPARATOR">=</ns1:g>මොරිෂස්"</item>
+    <item msgid="2686249517389816420">"ඔ<ns1:g id="SEPARATOR">=</ns1:g>ඕක්ලන්ඩ්"</item>
+    <item msgid="279925671775807392">"ෆ<ns1:g id="SEPARATOR">=</ns1:g>ෆීජි"</item>
+    <item msgid="7971492669765264840">"ග<ns1:g id="SEPARATOR">=</ns1:g>ගුවාම්"</item>
+    <item msgid="889371273355762733">"හ<ns1:g id="SEPARATOR">=</ns1:g>හොනලුලු"</item>
+    <item msgid="5516500578074269817">"කK<ns1:g id="SEPARATOR">=</ns1:g>කිරිටිමිටි"</item>
+    <item msgid="2740704911915073056">"න<ns1:g id="SEPARATOR">=</ns1:g>නොමෙයා"</item>
+    <item msgid="8732832728949672807">"ස<ns1:g id="SEPARATOR">=</ns1:g>සැමෝවා"</item>
+    <item msgid="6489500698846864993">"ට<ns1:g id="SEPARATOR">=</ns1:g>ටහිටි"</item>
+    <item msgid="3983121625709442324">"අ<ns1:g id="SEPARATOR">=</ns1:g>ඇන්ටිගුවා"</item>
+    <item msgid="2650510570709806322">"ඔ<ns1:g id="SEPARATOR">=</ns1:g>ඔස්ටින්"</item>
+    <item msgid="5257283506227357911">"බ<ns1:g id="SEPARATOR">=</ns1:g>බොස්ටන්"</item>
+    <item msgid="6326368958641850267">"ක<ns1:g id="SEPARATOR">=</ns1:g>කැල්ගරි"</item>
+    <item msgid="8830116365016232583">"ක<ns1:g id="SEPARATOR">=</ns1:g>කොලොම්බස්"</item>
+    <item msgid="6986556538341883811">"ඩ<ns1:g id="SEPARATOR">=</ns1:g>ඩලස්"</item>
+    <item msgid="836479352500251902">"න<ns1:g id="SEPARATOR">=</ns1:g>නොක්ස්විල්"</item>
+    <item msgid="8495291458467378851">"ම<ns1:g id="SEPARATOR">=</ns1:g>මෙම්ෆිස්"</item>
+    <item msgid="2788807207554683122">"ම<ns1:g id="SEPARATOR">=</ns1:g>මියාමි"</item>
+    <item msgid="3984640407077208471">"ම<ns1:g id="SEPARATOR">=</ns1:g>මිනැපොලිස්"</item>
+    <item msgid="6997305266329324161">"ඔ<ns1:g id="SEPARATOR">=</ns1:g>ඔටාවා"</item>
+    <item msgid="5191741145278683016">"ෆ<ns1:g id="SEPARATOR">=</ns1:g>ෆිලඩෙල්ෆියා"</item>
+    <item msgid="5898032730733441936">"ප<ns1:g id="SEPARATOR">=</ns1:g>පෝට්ලන්ඩ්"</item>
+    <item msgid="9070160716002203069">"ස<ns1:g id="SEPARATOR">=</ns1:g>සැන් ඩියාගෝ"</item>
+    <item msgid="1829944133410079040">"ස<ns1:g id="SEPARATOR">=</ns1:g>සැන් ෆ්රැන්සිස්කෝ"</item>
+    <item msgid="8407905318529692654">"ස<ns1:g id="SEPARATOR">=</ns1:g>සෝල්ට් ලේක් නගරය"</item>
+    <item msgid="3091392589347990898">"ස<ns1:g id="SEPARATOR">=</ns1:g>සැන් ජෝස්"</item>
+    <item msgid="7080627414383807284">"ස<ns1:g id="SEPARATOR">=</ns1:g>සැන් සැල්වදෝර්"</item>
+    <item msgid="3430371213266252049">"ස<ns1:g id="SEPARATOR">=</ns1:g>සියැටල්"</item>
+    <item msgid="9177491393818757071">"ශ<ns1:g id="SEPARATOR">=</ns1:g>ශාන්ත ලුවිස්"</item>
+    <item msgid="6234359686676312837">"ව<ns1:g id="SEPARATOR">=</ns1:g>වොෂින්ටන් ඩී.සී."</item>
+    <item msgid="4325057056005132331">"හ<ns1:g id="SEPARATOR">=</ns1:g>හූස්ටන්"</item>
+    <item msgid="38148255938075867">"ස<ns1:g id="SEPARATOR">=</ns1:g>සැන් ඇන්ටෝනියෝ"</item>
+    <item msgid="3601481860893666763">"ජ<ns1:g id="SEPARATOR">=</ns1:g>ජැක්සන්විල්"</item>
+    <item msgid="3987471437354665534">"බ<ns1:g id="SEPARATOR">=</ns1:g>බැල්ටිමෝර්"</item>
+    <item msgid="3389674262267006887">"න<ns1:g id="SEPARATOR">=</ns1:g>නෑශ්විල්"</item>
+    <item msgid="7521690366448637309">"ම<ns1:g id="SEPARATOR">=</ns1:g>මිල්වෞකි"</item>
+    <item msgid="2231069593975740859">"ඔ<ns1:g id="SEPARATOR">=</ns1:g>ඔක්ලහෝමා නගරය"</item>
+    <item msgid="1970008262236914770">"ල<ns1:g id="SEPARATOR">=</ns1:g>ලාස් වේගාස්"</item>
+    <item msgid="7113811028304266017">"අ<ns1:g id="SEPARATOR">=</ns1:g>ඇල්බකැකි"</item>
+    <item msgid="6481469458896644678">"ට<ns1:g id="SEPARATOR">=</ns1:g>ටක්සන්"</item>
+    <item msgid="5970857542995467466">"ස<ns1:g id="SEPARATOR">=</ns1:g>සැක්රමැන්ටෝ"</item>
+    <item msgid="1999267306329214429">"අ<ns1:g id="SEPARATOR">=</ns1:g>ඇට්ලන්ටා"</item>
+    <item msgid="8761847787537443648">"ක<ns1:g id="SEPARATOR">=</ns1:g>ක්ලීව්ලන්ඩ්"</item>
+    <item msgid="2987455647692324208">"න<ns1:g id="SEPARATOR">=</ns1:g>නිව් ඕර්ලියන්ස්"</item>
+    <item msgid="8104109426412705845">"ට<ns1:g id="SEPARATOR">=</ns1:g>ටැම්පා"</item>
+    <item msgid="1410067233842240795">"ප<ns1:g id="SEPARATOR">=</ns1:g>පිට්ස්බර්ග්"</item>
+    <item msgid="3339955740367374442">"ස<ns1:g id="SEPARATOR">=</ns1:g>සින්සිනාටි"</item>
+    <item msgid="6091407424772799978">"ම<ns1:g id="SEPARATOR">=</ns1:g>මවුන්ටන් වීව්"</item>
+    <item msgid="150299708499753555">"ර<ns1:g id="SEPARATOR">=</ns1:g>රෙනෝ"</item>
+    <item msgid="9155068631060038769">"බ<ns1:g id="SEPARATOR">=</ns1:g>බ්ලැක් රොක් නගරය"</item>
+    <item msgid="8498761319928979900">"ඩ<ns1:g id="SEPARATOR">=</ns1:g>ඩෝහා"</item>
+    <item msgid="8307897251088048641">"බ<ns1:g id="SEPARATOR">=</ns1:g>බීජිං"</item>
+    <item msgid="8605970953750147428">"ම<ns1:g id="SEPARATOR">=</ns1:g>මුම්බායි"</item>
+    <item msgid="6668274273067049125">"ද<ns1:g id="SEPARATOR">=</ns1:g>දිල්ලි"</item>
+    <item msgid="2933410189478233292">"ඔ<ns1:g id="SEPARATOR">=</ns1:g>ඔසකා"</item>
+    <item msgid="9011026093638055579">"ල<ns1:g id="SEPARATOR">=</ns1:g>ලාහෝර්"</item>
+    <item msgid="1448378291805481500">"ස<ns1:g id="SEPARATOR">=</ns1:g>සනා"</item>
+    <item msgid="5233119846682408301">"බ<ns1:g id="SEPARATOR">=</ns1:g>බාසිලෝනා"</item>
+    <item msgid="9146746514265554721">"ම<ns1:g id="SEPARATOR">=</ns1:g>මියුනිච්"</item>
+    <item msgid="157866084892734979">"ම<ns1:g id="SEPARATOR">=</ns1:g>මිලාන්"</item>
+    <item msgid="2787346322341414963">"ෆ<ns1:g id="SEPARATOR">=</ns1:g>ෆ්රැන්ක්ෆර්ට්"</item>
+    <item msgid="8407511504088696581">"හ<ns1:g id="SEPARATOR">=</ns1:g>හැනෝයි"</item>
+    <item msgid="5184417944073499453">"අ<ns1:g id="SEPARATOR">=</ns1:g>අන්කාරා"</item>
+    <item msgid="4028784954452197920">"බ<ns1:g id="SEPARATOR">=</ns1:g>බැංගලෝර්"</item>
+    <item msgid="190152483600862776">"බ<ns1:g id="SEPARATOR">=</ns1:g>බ්‍රසීලියා"</item>
+    <item msgid="8009516135735104388">"ක<ns1:g id="SEPARATOR">=</ns1:g>කේප් ටවුන්"</item>
+    <item msgid="6057191797622953016">"ඉ<ns1:g id="SEPARATOR">=</ns1:g>ඉස්ලාමාබාද්"</item>
+    <item msgid="2702029416591153210">"ර<ns1:g id="SEPARATOR">=</ns1:g>රියෝ ද ජැනෙයිරෝ"</item>
+    <item msgid="1753927312634708098">"අ<ns1:g id="SEPARATOR">=</ns1:g>ඇන් ආබර්"</item>
+    <item msgid="4225721108475278979">"බ<ns1:g id="SEPARATOR">=</ns1:g>බෝල්ඩර්"</item>
+    <item msgid="6393177386755796069">"ක<ns1:g id="SEPARATOR">=</ns1:g>කේම්බ්රිජ්"</item>
+    <item msgid="759409010285366934">"ක<ns1:g id="SEPARATOR">=</ns1:g>කර්ක්ලෑන්ඩ්"</item>
+    <item msgid="6308007059287569663">"ම<ns1:g id="SEPARATOR">=</ns1:g>මැඩිසන්"</item>
+    <item msgid="6971636434858330021">"ග<ns1:g id="SEPARATOR">=</ns1:g>ගුආන්සු"</item>
+    <item msgid="1185109514180068650">"හ<ns1:g id="SEPARATOR">=</ns1:g>හයිඩ්‍රරාබාද්"</item>
+    <item msgid="3032295682584784261">"ර<ns1:g id="SEPARATOR">=</ns1:g>රෙස්ටන්"</item>
+    <item msgid="7722837296297332268">"බ<ns1:g id="SEPARATOR">=</ns1:g>බෙලෝ හොරිසොන්ටේ"</item>
+    <item msgid="3593516299122577780">"ස<ns1:g id="SEPARATOR">=</ns1:g>සන්ටියාගෝ"</item>
+    <item msgid="2293331653589266583">"ම<ns1:g id="SEPARATOR">=</ns1:g>මොන්රෝවියා"</item>
+    <item msgid="7899128359620301710">"ක<ns1:g id="SEPARATOR">=</ns1:g>කොළඹ"</item>
+    <item msgid="5294489752262543829">"ච<ns1:g id="SEPARATOR">=</ns1:g>චිවුවා"</item>
+    <item msgid="8066356061184206341">"ස<ns1:g id="SEPARATOR">=</ns1:g>සැල්වදෝර්"</item>
+    <item msgid="4806867741334453982">"ග<ns1:g id="SEPARATOR">=</ns1:g>ගුර්ගාඔන්"</item>
+    <item msgid="2585780177649876827">"ම<ns1:g id="SEPARATOR">=</ns1:g>මැන්චෙස්ටර්"</item>
+    <item msgid="234104953526248139">"ක<ns1:g id="SEPARATOR">=</ns1:g>කිව්"</item>
+    <item msgid="5245429461217350012">"ශ<ns1:g id="SEPARATOR">=</ns1:g>ශාන්ත පීටර්ස්බර්ග්"</item>
+    <item msgid="6738531308006017215">"ක<ns1:g id="SEPARATOR">=</ns1:g>ක්‍රකොඕ"</item>
+    <item msgid="8972702613339139467">"ව<ns1:g id="SEPARATOR">=</ns1:g>ව්‍රෝකලො"</item>
+    <item msgid="187278924459096566">"හ<ns1:g id="SEPARATOR">=</ns1:g>හැම්බර්ග්"</item>
+    <item msgid="6173267862207394917">"ඔ<ns1:g id="SEPARATOR">=</ns1:g>ඖලු"</item>
+    <item msgid="5639324478037405990">"හ<ns1:g id="SEPARATOR">=</ns1:g>හයිෆා"</item>
+    <item msgid="3157180661352354058">"ස<ns1:g id="SEPARATOR">=</ns1:g>සැන් ජුවාන්"</item>
+    <item msgid="6995939579417282715">"ට<ns1:g id="SEPARATOR">=</ns1:g>ටෙගුසිගලපා"</item>
+    <item msgid="1641840677391275004">"ප<ns1:g id="SEPARATOR">=</ns1:g>පැරමරිබෝ"</item>
+    <item msgid="7317049454800260290">"ක<ns1:g id="SEPARATOR">=</ns1:g>කුයිටෝ"</item>
+    <item msgid="4524380876433343244">"ල<ns1:g id="SEPARATOR">=</ns1:g>ලුබ්ජනා"</item>
+  </string-array>
+    <string-array name="clock_style_entries">
+    <item msgid="917900462224167608">"ප්‍රතිසමය"</item>
+    <item msgid="8483930821046925592">"ඩිජිටල්"</item>
+  </string-array>
+    <string-array name="sw_lap_number_set">
+    <item msgid="2816627565030953899">"# <ns1:g id="NUMBER">%d</ns1:g>"</item>
+    <item msgid="316923361931627987">"# <ns1:g id="NUMBER">%02d</ns1:g>"</item>
+  </string-array>
+    <string-array name="sw_share_strings">
+    <item msgid="842841032273927988">"ඔබ ඉතා වේගයෙන් යන්නෙක්."</item>
+    <item msgid="6332879039890727169">"ඔබගේ උත්සාහයේ ප්‍රතිපල භුක්ති විඳින්න."</item>
+    <item msgid="815382761274660130">"Android වේගවත් යැයි ප්‍රසිද්ධයි, එහෙත් ඔබ තරම් නොවේ!"</item>
+    <item msgid="7916250650982813737">"චිහ්."</item>
+    <item msgid="6836603904515182333">"L33t වාර."</item>
+    <item msgid="7508085100680861631">"මෙතරම් අතිවිශාල ප්‍රවේගයක්."</item>
+    <item msgid="5961245252909589573">"දැන් යලිත් කාල ඔතා දමමු."</item>
+    <item msgid="5211891900854545940">"වමට පැනීමක් පමණි."</item>
+    <item msgid="9071353477103826053">"තදියම සඳහා ඔබ සතුව පලත්තක් ඇත."</item>
+    <item msgid="3785193933691117181">"ෆොටෝනමය ප්‍රවේගය."</item>
+  </string-array>
+    <string-array name="timer_notifications">
+    <item msgid="7760558912503484257">"තවත් මිනිත්තුවකට අඩුවෙන් ඉතිරිව ඇත"</item>
+    <item msgid="83197792732433351">"<ns1:g id="HOURS">%1$s</ns1:g> ක් ඉතිරිව ඇත"</item>
+    <item msgid="8919698220200894252">"<ns1:g id="MINUTES">%2$s</ns1:g> ක් ඉතිරිව ඇත"</item>
+    <item msgid="8458069283817013813">"<ns1:g id="HOURS">%1$s</ns1:g> <ns1:g id="MINUTES">%2$s</ns1:g> ක් ඉතිරිව ඇත"</item>
+  </string-array>
+    <string-array name="timezone_labels">
+    <item msgid="5495601234086197399">"මාර්ෂල් දූපත්"</item>
+    <item msgid="4196408495909011020">"මිඩ්වේ දූපත"</item>
+    <item msgid="1414384194857730006">"හවායි"</item>
+    <item msgid="2687091371581931926">"ඇලස්කාව"</item>
+    <item msgid="1922100269679049660">"පැසිෆික් වේලාව"</item>
+    <item msgid="7156402158716866161">"ටිජුආනා"</item>
+    <item msgid="1144117502254612241">"ඇරිසෝනා"</item>
+    <item msgid="101284182011722637">"චිහුආහුආ"</item>
+    <item msgid="689121094232986897">"කඳුකර වේලාව"</item>
+    <item msgid="5445331923942302756">"මධ්‍යම ඇමරිකාව"</item>
+    <item msgid="2749806434052452351">"මධ්‍යම වේලාව"</item>
+    <item msgid="3997138870229703753">"මෙක්සිකෝ නගරය"</item>
+    <item msgid="5425567073027744888">"සස්කචෙවන්"</item>
+    <item msgid="2877342865396629368">"බොගොටා"</item>
+    <item msgid="568682398893899670">"නැගෙනහිර වේලාව"</item>
+    <item msgid="668135984541863866">"වෙනිසියුලාව"</item>
+    <item msgid="3737474220861486223">"අත්ලාන්තික් වේලාව (බාබඩෝස්)"</item>
+    <item msgid="6279116051273436870">"අත්ලාන්තික් වේලාව (කැනඩාව)"</item>
+    <item msgid="8513382867172014244">"මනාවුස්"</item>
+    <item msgid="7776299003105932407">"සන්තියාගෝ"</item>
+    <item msgid="8636989494746218677">"නිව්ෆවුන්ඩ්ලන්ඩ්"</item>
+    <item msgid="4402541016410147505">"බ්‍රසිලියා"</item>
+    <item msgid="2251184440733164084">"බුවනෝස් අයර්ස්"</item>
+    <item msgid="6202926618569004969">"ග්‍රීන්ලන්තය"</item>
+    <item msgid="2355275037115290628">"මොන්ටෙවීඩි‍යෝ"</item>
+    <item msgid="1377549694711708945">"මාධ්‍ය-අත්ලාන්තික්"</item>
+    <item msgid="3457671272126347981">"ඇසෝරස්"</item>
+    <item msgid="3659315141063710840">"කේප් වෙර්ඩ් දූපත්"</item>
+    <item msgid="1260941741802367635">"කැසබලන්කා"</item>
+    <item msgid="8275203689687954762">"ලන්ඩන්, ඩබ්ලින්"</item>
+    <item msgid="5970179539479320905">"ඇම්ස්ටර්ඩෑම්, බර්ලින්"</item>
+    <item msgid="5396319478750517962">"බෙල්ග්‍රේඩ්"</item>
+    <item msgid="8688787475056663004">"බ්‍රසල්ස්"</item>
+    <item msgid="3415827874921681622">"සරජෙවෝ"</item>
+    <item msgid="402008965928320066">"වින්ඩ්හෝක්"</item>
+    <item msgid="6436942724959275569">"බ. අප්‍රිකානු වේලාව"</item>
+    <item msgid="954536568417204026">"අම්මාන්, ජෝර්දානය"</item>
+    <item msgid="8932745482008902551">"ඇතැන්ස්, ඉස්තාන්බුල්"</item>
+    <item msgid="320025725949024510">"බෙයිරුට්, ලෙබනනය"</item>
+    <item msgid="7242083112551905970">"කයිරෝ"</item>
+    <item msgid="7241520146011450419">"හෙල්සින්කි"</item>
+    <item msgid="2717065017510546526">"ජෙරුසලම්"</item>
+    <item msgid="8698556287741466553">"මින්ස්කි"</item>
+    <item msgid="1797598357342084506">"හරාරේ"</item>
+    <item msgid="5169119919905066998">"බැග්ඩෑඩ්"</item>
+    <item msgid="2615788116201065182">"මොස්කව්"</item>
+    <item msgid="9084354867885584646">"කුවේට්"</item>
+    <item msgid="1351570519986178268">"නයිරෝබි"</item>
+    <item msgid="7094569580635877460">"ටෙහෙරාන්"</item>
+    <item msgid="3953138772617909704">"බාකු"</item>
+    <item msgid="2868893113598800752">"ටිබිලිස්"</item>
+    <item msgid="7088581865802476373">"යෙරෙවන්"</item>
+    <item msgid="1941122257623887992">"ඩුබායි"</item>
+    <item msgid="9194797225058249720">"කාබුල්"</item>
+    <item msgid="6486569254364577332">"ඉස්ලාමාබාද්, කරච්චි"</item>
+    <item msgid="5487724896895412089">"යුරාල්ස්ක්"</item>
+    <item msgid="364906869710826982">"යෙකටෙරින්බ්ර්ග්"</item>
+    <item msgid="2106505051751383358">"කොල්කටාව"</item>
+    <item msgid="6851586621581501447">"ශ්‍රී ලංකාව"</item>
+    <item msgid="800438544128213134">"කත්මන්ඩු"</item>
+    <item msgid="6173621471007643021">"ඇස්ටානා"</item>
+    <item msgid="8645125891971581128">"යැන්ගොන්"</item>
+    <item msgid="2886407505119737794">"ක්‍රස්නොයර්ස්ක්"</item>
+    <item msgid="3408222398188107090">"බෑංකොක්"</item>
+    <item msgid="4441612937172851228">"බීජිං"</item>
+    <item msgid="4936715789028996930">"හොං කොං"</item>
+    <item msgid="4261031143777385525">"ඉර්කුට්ස්ක්"</item>
+    <item msgid="3538060959338191835">"ක්වාලා ලම්පූර්"</item>
+    <item msgid="1438847562643099201">"පර්ත්"</item>
+    <item msgid="3063913827688244383">"තයිපෙයි"</item>
+    <item msgid="3502757135046564209">"සෝල්"</item>
+    <item msgid="6107588684519111669">"ටෝකියෝව, ඔසාකා"</item>
+    <item msgid="4350769099755608471">"යකුට්ස්ක්"</item>
+    <item msgid="2422707004533526462">"ඇඩිලේඩ්"</item>
+    <item msgid="1292192084554134339">"ඩාවින්"</item>
+    <item msgid="1320883699470001716">"බ්‍රිස්බේන්"</item>
+    <item msgid="5137198806146386527">"හෝබාට්"</item>
+    <item msgid="5920063686933941174">"සිඩ්නි, කැන්බරා"</item>
+    <item msgid="615906039696009425">"ව්ලදිවෝස්ටෝක්"</item>
+    <item msgid="7738680449356275374">"ගුවාම්"</item>
+    <item msgid="2882915026380778227">"මැගඩන්"</item>
+    <item msgid="8255615641810148152">"ඕක්ලන්ඩ්"</item>
+    <item msgid="3027153773466391728">"ෆිජි"</item>
+    <item msgid="5911600083231840181">"ටොන්ගා"</item>
+    <item msgid="5176858645450908751">"ජකර්තා"</item>
+  </string-array>
+    <string-array name="volume_button_setting_entries">
+    <item msgid="7972756698723318690">"යළි සිහි කැඳවන්න"</item>
+    <item msgid="3450979320164769576">"ඉවතලන්න"</item>
+    <item msgid="6302517608411378024">"කිසිවක් නොකරන්න"</item>
+  </string-array>
+    <string-array name="week_start_entries">
+    <item msgid="9010198173394482639">"සෙනසුරාදා"</item>
+    <item msgid="3993530639455360921">"ඉරිදා"</item>
+    <item msgid="8594709368683324282">"සඳුදා"</item>
+  </string-array>
+    <dimen name="day_button_font_size">16sp</dimen>
+    <plurals formatted="false" msgid="4539186407746763655" name="Nhours_description">
+      <item quantity="one">පැය <ns1:g id="NUMBER">%d</ns1:g></item>
+      <item quantity="other">පැය <ns1:g id="NUMBER">%d</ns1:g></item>
+    </plurals>
+    <plurals formatted="false" msgid="6373760365221990859" name="Nminutes_description">
+      <item quantity="one">මිනිත්තු <ns1:g id="NUMBER">%d</ns1:g></item>
+      <item quantity="other">මිනිත්තු <ns1:g id="NUMBER">%d</ns1:g></item>
+    </plurals>
+    <plurals formatted="false" msgid="6456500168536594889" name="Nseconds_description">
+      <item quantity="one">තත්පර <ns1:g id="NUMBER">%d</ns1:g></item>
+      <item quantity="other">තත්පර <ns1:g id="NUMBER">%d</ns1:g></item>
+    </plurals>
+    <plurals formatted="false" msgid="7844300009062867865" name="alarm_alert_snooze_duration">
+      <item quantity="one">මිනි <ns1:g id="NUMBER">%d</ns1:g></item>
+      <item quantity="other">මිනි <ns1:g id="NUMBER">%d</ns1:g></item>
+    </plurals>
+    <plurals formatted="false" msgid="3212729193036041768" name="alarm_alert_snooze_set">
+      <item quantity="one">මිනිත්තු <ns1:g id="MINUTES">%d</ns1:g> කින් මතක් කරන්න.</item>
+      <item quantity="other">මිනිත්තු <ns1:g id="MINUTES">%d</ns1:g> කින් මතක් කරන්න.</item>
+    </plurals>
+    <plurals formatted="false" msgid="3591262014329613293" name="alarm_delete_confirmation">
+      <item quantity="one">තෝරාගත් ඇඟවීම් මකන්නද?</item>
+      <item quantity="other">තෝරාගත් ඇඟවීම මකන්නද?</item>
+    </plurals>
+    <plurals formatted="false" msgid="6579258788774360396" name="auto_silence_summary">
+      <item quantity="one">මිනිත්තු <ns1:g id="FORMATTED_NUMBER">%s</ns1:g></item>
+      <item quantity="other">මිනිත්තු <ns1:g id="FORMATTED_NUMBER">%s</ns1:g></item>
+    </plurals>
+    <plurals formatted="false" msgid="3706846447285206235" name="days">
+      <item quantity="one">දින <ns1:g id="NUMBER">%s</ns1:g></item>
+      <item quantity="other">දින <ns1:g id="NUMBER">%s</ns1:g></item>
+    </plurals>
+    <plurals formatted="false" msgid="3871283109767171655" name="hours">
+      <item quantity="one">පැය <ns1:g id="NUMBER">%s</ns1:g></item>
+      <item quantity="other">පැය <ns1:g id="NUMBER">%s</ns1:g></item>
+    </plurals>
+    <plurals formatted="false" msgid="5484431721696058697" name="minutes">
+      <item quantity="one">මිනිත්තු <ns1:g id="NUMBER">%s</ns1:g></item>
+      <item quantity="other">මිනිත්තු <ns1:g id="NUMBER">%s</ns1:g></item>
+    </plurals>
+    <plurals formatted="false" msgid="3112918131095248271" name="snooze_duration">
+      <item quantity="one">මිනිත්තු <ns1:g id="NUMBER">%s</ns1:g></item>
+      <item quantity="other">මිනිත්තු <ns1:g id="NUMBER">%s</ns1:g></item>
+    </plurals>
+    <plurals formatted="false" msgid="322739253661747732" name="snooze_picker_label">
+      <item quantity="one">මිනිත්තු</item>
+      <item quantity="other">මිනිත්තු</item>
+    </plurals>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"ගෙදරට සංචාලනය කරන්න"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"ඉහලට සංචාලනය කරන්න"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"තවත් විකල්ප"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"අවසාන වූ"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"සියල්ල බලන්න"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"යෙදුමක් තෝරන්න"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"ක්‍රියාවිරහිතයි"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"ක්‍රියාත්මකයි"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"සොයන්න..."</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"විමසුම හිස් කරන්න"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"සෙවුම් විමසුම"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"සෙවීම"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"විමසුම යොමු කරන්න"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"හඬ සෙවීම"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"සමඟ බෙදාගන්න"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"%s සමඟ බෙදාගන්න"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"හකුළන්න"</string>
+    <string msgid="5976616107390962899" name="add_alarm">"ඇඟවීමක් එක් කරන්න"</string>
+    <string msgid="3272183025444682500" name="alarm_alert_dismiss_now_text">"දැන් අස් කරන්න"</string>
+    <string msgid="4942914605480888820" name="alarm_alert_dismiss_text">"ඉවතලන්න"</string>
+    <string msgid="2459925305288819812" name="alarm_alert_off_action_text">"අක්‍රිය කරන්න"</string>
+    <string msgid="4472073417593915002" name="alarm_alert_off_text">"සීනුව අක්‍රියයි"</string>
+    <string msgid="5723945586913705445" name="alarm_alert_predismiss_title">"ඉදිරියට එන සීනුව"</string>
+    <string msgid="1774416052207651584" name="alarm_alert_snooze_text">"යළි සිහි කැඳවන්න"</string>
+    <string msgid="6958013659168344550" name="alarm_alert_snooze_until">"<ns1:g id="TIME">%s</ns1:g> තෙක් යළි සිහි කැඳවන්න"</string>
+    <string msgid="7064642998528766113" name="alarm_alert_snoozed_text">"සිහිකැඳවන ලදී"</string>
+    <string msgid="6790780716498252583" name="alarm_alert_wake_up">"අවදි වෙන්න!"</string>
+    <string msgid="740283647046258651" name="alarm_button_description">"ඇඟවීම්"</string>
+    <string msgid="8810520940995307437" name="alarm_cant_be_dismissed_still_more_than_24_hours_away">"<ns1:g id="ALARM_TIME">%s</ns1:g> එලාමය තවම ඉවතලීමට නොහැකිය, තව පැය 24 කට වඩා ඈතිනි."</string>
+    <string msgid="6131529309389084785" name="alarm_deleted">"එලාමය නොමකන ලදී"</string>
+    <string msgid="5509897230565826642" name="alarm_is_dismissed">"<ns1:g id="ALARM_TIME">%s</ns1:g> එලාමය ඉවතලන ලදී"</string>
+    <string msgid="5503226382620011088" name="alarm_is_set">"<ns1:g id="ALARM_TIME">%s</ns1:g> ට සීනුව සකසන ලදි"</string>
+    <string msgid="7044644119744928846" name="alarm_is_snoozed">"<ns1:g id="ALARM_TIME">%s</ns1:g> එලාමය මිනිත්තු 10 ක් ස්නූස් කරන ලදී"</string>
+    <string msgid="2147506334302260256" name="alarm_klaxon_service_desc">"ඔරලෝසුවේ සකසා ඇති ඇඟවීම් සඳහා ශබ්ද පසු ධාවනය කිරීමේ සේවාව."</string>
+    <string msgid="7589940465292950600" name="alarm_list_title">"ඇඟවීම්"</string>
+    <string msgid="6585658367289194023" name="alarm_missed_text">"<ns1:g id="ALARM_TIME">%s</ns1:g> - <ns1:g id="ALARM_LABEL">%s</ns1:g>"</string>
+    <string msgid="3828345099754063392" name="alarm_missed_title">"අත හැරුණ සීනුව"</string>
+    <string msgid="5404083762646377829" name="alarm_notify_snooze_label">"<ns1:g id="LABEL">%s</ns1:g> (සිහිකැඳවන ලදී)"</string>
+    <string msgid="4819324081410990368" name="alarm_notify_snooze_text">"<ns1:g id="TIME">%s</ns1:g> ට ඇඟවීම සකසන ලදී. අවලංගු කිරීමට ස්පර්ශ කරන්න."</string>
+    <string msgid="4891014685945904766" name="alarm_notify_text">"ඇඟවීම ඉවතලන්න හෝ යළි සිහිකැඳවන්න."</string>
+    <string msgid="7242985466344233206" name="alarm_repeat">"නැවත කරන්න"</string>
+    <string msgid="2947147071388290814" name="alarm_settings">"අනතුරු ඇඟවීම්"</string>
+    <string msgid="7873594221106531654" name="alarm_today">"අද"</string>
+    <string msgid="131356848787643420" name="alarm_tomorrow">"හෙට"</string>
+    <string msgid="5710042601177655254" name="alarm_undo">"අස් කරන්න"</string>
+    <string msgid="3476686921490362230" name="alarm_vibrate">"කම්පනය වීම"</string>
+    <string msgid="8506245173912428522" name="alarm_volume_title">"ඇඟවීම් ශබ්දය"</string>
+    <string msgid="1075308195332888260" name="alarms_selected">"<ns1:g id="ALARMS">%d</ns1:g> තෝරාගෙන ඇත"</string>
+    <string msgid="6506982899651975645" name="alert">"ඇඟවීම් රිංග්ටෝනය"</string>
+    <string msgid="278532320068394600" name="all_timers_stopped_notif">"ඔබගේ කාල ගණනයන් බැලීමට ස්පර්ශ කරන්න"</string>
+    <string msgid="1670505720837152766" name="analog_gadget">"ප්‍රතිසම ඔරලෝසුව"</string>
+    <string msgid="6674495003718166674" name="app_label">"ඔරලෝසුව"</string>
+    <string msgid="4821982647348750809" name="auto_silence_never">"කවදාවත් නොවේ"</string>
+    <string msgid="2012754009554434544" name="auto_silence_title">"නිහඬවන්නෙ පසු"</string>
+    <string msgid="6274174710735449252" name="automatic_home_clock">"ස්වයංක්‍රීය නිවාස ඔරලෝසුව"</string>
+    <string msgid="6020476321040807273" name="automatic_home_clock_summary">"වෙලාව වෙනස් ප්‍රදේශයක සංචාරය කරන අතරතුර, නිවසෙහි වෙලාව සඳහා ඔරලෝසුවක් එක් කරන්න"</string>
+    <string msgid="3907838219512538763" name="button_alarms">"ඇඟවීමක් එක් කරන්න"</string>
+    <string msgid="4555761857494501363" name="button_cities">"නගර"</string>
+    <string msgid="6050484561842120282" name="button_menu">"තවත් විකල්ප"</string>
+    <string msgid="8552462751129256730" name="cities_activity_title">"නගර"</string>
+    <string msgid="1335509457349179514" name="city_added">"<ns1:g id="CITY_NAME">%s</ns1:g> එක් කරන ලදී"</string>
+    <string msgid="1783441538785676299" name="city_delete_confirmation">"මෙම නගරය ඉවත් කරන්නද?"</string>
+    <string msgid="3935141305276867838" name="city_deleted">"<ns1:g id="CITY_NAME">%s</ns1:g> මකන ලදී"</string>
+    <string msgid="2656876819515011590" name="clock_instructions">"ඔරලෝසුවක් තෝරන්න"</string>
+    <string msgid="8317286807280600391" name="clock_settings">"ඔරලෝසුව"</string>
+    <string msgid="2265011060429742344" name="clock_style">"විලාසය"</string>
+    <string msgid="3561772046433483980" name="collapse_alarm">"ඇඟවීම අකුලන්න"</string>
+    <string msgid="2194676418924016327" name="control_set_alarm">"ඇඟවීම සකසන්න"</string>
+    <string msgid="3477418548382111184" name="custom_ringtone">"අභිරුචි රිගින් ටෝන්"</string>
+    <string msgid="971998564991636532" name="day_concat">", "</string>
+    <string msgid="3968620852217927702" name="day_picker_description">"දින ජාලයකින් මාසය"</string>
+    <string msgid="5590025289805630372" name="default_label">"ඇඟවීම"</string>
+    <string msgid="4549726190682964245" name="default_ringtone_setting_title">"සුපුරුදු රිංග්ටෝන්ස් සකසන්න"</string>
+    <string msgid="5732434972457000541" name="delete">"මකන්න"</string>
+    <string msgid="3457780990646206817" name="delete_alarm">"ඇඟවීම් මකන්න"</string>
+    <string msgid="6578572637340860840" name="delete_alarm_confirm">"මෙම ඇඟවීම මකන්නද?"</string>
+    <string msgid="6908431551612331381" name="deleted_key">"<ns1:g id="KEY">%1$s</ns1:g> මකා දමන ලදි"</string>
+    <string msgid="1220848140260509437" name="deleted_message">"මකාදමන ලදී"</string>
+    <string msgid="1841309486023845685" name="description_direction_both">"යළි සිහි කැඳවීමට වමට හෝ අස් කිරීමට දකුණට ස්වයිප් කරන්න"</string>
+    <string msgid="7448141043674998679" name="description_direction_left">"සිහි කැඳවීමට වමට ස්වයිප් කරන්න"</string>
+    <string msgid="5709209043267548985" name="description_direction_right">"ඉවත ලෑමට දකුණට ස්වයිප් කරන්න"</string>
+    <string msgid="4207371097361657274" name="desk_clock_button_description">"ඔරලෝසු දර්ශනය"</string>
+    <string msgid="2326954556720571358" name="digital_gadget">"ඩිජිටල් ඔරලෝසුව"</string>
+    <string msgid="5889378670229554109" name="disable_alarm">"ඇඟවීම් අක්‍රිය කරන්න"</string>
+    <string msgid="7204593078688533541" name="dismiss_alarm">"එලාමය අස් කරන්න"</string>
+    <string msgid="6509722361933858451" name="done">"හරි"</string>
+    <string msgid="7007948707597430919" name="done_label">"අවසන්"</string>
+    <string msgid="1834599140632142536" name="enable_alarm">"ඇඟවීම සක්‍රිය කරන්න"</string>
+    <string msgid="4100909974923444602" name="every_day">"සෑමදාම"</string>
+    <string msgid="7392616528943305020" name="expand_alarm">"ඇඟවීම දිග හරින්න"</string>
+    <string msgid="1151743663255257668" name="gallery_button_description">"ගැලරිය"</string>
+    <string msgid="7786263119482654015" name="help">"සහාය"</string>
+    <string msgid="3217727306480505694" name="hide_clock">"ඔරලෝසුව සඟවන්න"</string>
+    <string msgid="3383859096809056157" name="home_button_description">"ආරම්භකය"</string>
+    <string msgid="4436139365695453870" name="home_label">"නිවස"</string>
+    <string msgid="9199730676287974501" name="home_time_zone">"නිවසේ කාල කලාපය"</string>
+    <string msgid="807894493443834624" name="home_time_zone_title">"නිවසේ කාල කලාපය"</string>
+    <string msgid="7586639618712934060" name="hour_picker_description">"පැය කවාකාර සර්පනය"</string>
+    <string msgid="3393478155635368097" name="hours_label">"පැ"</string>
+    <string msgid="8652842524970971830" name="hours_label_description">"පැය"</string>
+    <string msgid="2782334750243998633" name="invalid_time">"වලංගු නොවන වේලාව <ns1:g id="INVALID_HOUR">%d</ns1:g>:<ns1:g id="INVALID_MINUTES">%d</ns1:g> <ns1:g id="INVALID_AMPM">%s</ns1:g>"</string>
+    <string msgid="3104567893212932487" name="invalid_timer_length">"වලංගු නොවන ටයිමර වේලාව"</string>
+    <string msgid="2674929164900463786" name="item_is_selected">"<ns1:g id="ITEM">%1$s</ns1:g> තෝරාගෙන ඇත"</string>
+    <string msgid="162189613902857319" name="label">"ලේබලය"</string>
+    <string msgid="8736179296142915727" name="label_description">"ලේබලය"</string>
+    <string msgid="6523322777415268044" name="loading_ringtone">"රිංග්ටෝන් පුර්ණය වෙමින්…"</string>
+    <string msgid="4772010125376647519" name="menu_alarm">"සීනුව"</string>
+    <string msgid="5612760670606829805" name="menu_clock">"ඔරලෝසුව"</string>
+    <string msgid="3241995064554071588" name="menu_desk_clock">"මේස ඔරලෝසුව"</string>
+    <string msgid="7204602994918829751" name="menu_edit_alarm">"ඇඟවීම සංස්කරණය කරන්න"</string>
+    <string msgid="4570953476186849841" name="menu_item_help">"සහාය"</string>
+    <string msgid="3486930302245398975" name="menu_item_night_mode">"රාත්‍රී ආකාරය"</string>
+    <string msgid="1413723516369078665" name="menu_item_settings">"සැකසුම්"</string>
+    <string msgid="3120860422682721706" name="menu_item_sort_by_gmt_offset">"කාලය අනුව අනුපිළිවෙලට සකසන්න"</string>
+    <string msgid="1762931290495104106" name="menu_item_sort_by_name">"නමින් අනුපිළිවෙලට සකසන්න"</string>
+    <string msgid="3396117705293574701" name="menu_stopwatch">"කාල ඝනකය"</string>
+    <string msgid="6459070074762877114" name="menu_timer">"කාල ගණනය"</string>
+    <string msgid="6024811202872705251" name="minute_picker_description">"මිනිත්තු කවාකාර සර්පනය"</string>
+    <string msgid="3568098128251438588" name="minutes_label">"මි"</string>
+    <string msgid="965686733490357796" name="minutes_label_description">"මිනිත්තු"</string>
+    <string msgid="5295473204045979335" name="missed_alarm_has_been_deleted">"ඔබට අත හැරුණ සීනුව මකන ලදි"</string>
+    <string msgid="6722110840279707462" name="multiple_timers_available">"ඔබගේ ඉල්ලීම සම්පූර්ණ කිරීමට නොහැකි විය, ටයිමර කිහිපයක් ඇත"</string>
+    <string msgid="1626593420810117999" name="music_button_description">"සංගීතය"</string>
+    <string msgid="2650244835760747046" name="next_alarm_description">"මීළඟ ඇඟවීම: <ns1:g id="ALARM_TIME">%s</ns1:g>"</string>
+    <string msgid="6136454740115613653" name="next_timer_notif">"මීළඟ කාල ගණනය කිරීම: <ns1:g id="TIME_REMAINING">%s</ns1:g>"</string>
+    <string msgid="1017350187324162631" name="night_mode_summary">"ඉතා අඳුරු දර්ශන තීරය (අඳුරු කාමර සඳහා)"</string>
+    <string msgid="5983813889469616299" name="night_mode_title">"රාත්‍රී ආකාරය"</string>
+    <string msgid="990894208217576381" name="nightmode_button_description">"අඳුරු"</string>
+    <string msgid="8140632482969193119" name="no_alarm_at">"<ns1:g id="ALARM_TIME_HOUR">%d</ns1:g>:<ns1:g id="ALARM_TIME_MINUTES">%d</ns1:g> ට සීනු නොමැත"</string>
+    <string msgid="4463069177414482818" name="no_alarm_scheduled_for_this_time">"මෙම වේලාව සඳහා සීනුවක් නොමැත"</string>
+    <string msgid="6429431324842022917" name="no_alarms">"සීනු නැත"</string>
+    <string msgid="4887558279496044764" name="no_alarms_set">"සීනු සකසා නැත"</string>
+    <string msgid="6250998794542941665" name="no_alarms_with_label">"එලාම කිසිවක ලේබලය අඩංගු නැත"</string>
+    <string msgid="1007596865203283741" name="no_city_selected">"නගරය තෝරා නොමැත"</string>
+    <string msgid="4986161963178722289" name="no_firing_alarms">"ගිනි එලාම නැත"</string>
+    <string msgid="2008482054428460626" name="no_label_specified">"ලේබලයක් නිශ්චිතව දක්වා නැත"</string>
+    <string msgid="2115420148192753534" name="no_scheduled_alarms">"කාල සටහන්ගත කළ එලාම නැත"</string>
+    <string msgid="3326365650863016606" name="no_timer_set">"මුහුර්තකය සකසා නැත"</string>
+    <string msgid="2889840988069436254" name="no_upcoming_alarms">"ඉදිරියට එන සීනු නොමැත"</string>
+    <string msgid="5408769235866082896" name="pick_alarm_to_dismiss">"ඉවත ලෑමට අවශ්‍ය සීනුව තෝරන්න"</string>
+    <string msgid="9100911171235162926" name="revert">"ප්‍රතිවර්තනය කරන්න"</string>
+    <string msgid="9110746249688559579" name="ringtone">"රිංග්ටෝනය"</string>
+    <string msgid="7580922112921069925" name="ringtone_description">"රිංග්ටෝනය"</string>
+    <string msgid="7013450738357352801" name="screensaver_settings">"ඩ්‍රීම් සැකසුම්"</string>
+    <string msgid="124655952824003246" name="seconds_label">"ත"</string>
+    <string msgid="3821620053141299692" name="seconds_label_description">"තත්පර"</string>
+    <string msgid="3973338219107019769" name="select_day">"මාසය සහ දිනය තෝරන්න"</string>
+    <string msgid="7651068754188418859" name="select_hours">"පැය තෝරන්න"</string>
+    <string msgid="8327182090226828481" name="select_minutes">"මිනිත්තු තෝරන්න"</string>
+    <string msgid="2603330600102539372" name="select_year">"වසර තෝරන්න"</string>
+    <string msgid="3607479399424246605" name="selected_cities_label">"තෝරාගත් නගර"</string>
+    <string msgid="9148359866152726808" name="set_alarm">"ඇඟවීම සකසන්න"</string>
+    <string msgid="5849739030579520686" name="settings">"සැකසුම්"</string>
+    <string msgid="8358759982675616915" name="show_clock">"ඔරලෝසුව පෙන්වන්න"</string>
+    <string msgid="8605302849408279221" name="silent_alarm_summary">"නිහඬ"</string>
+    <string msgid="2077577763821006919" name="slash">"/"</string>
+    <string msgid="1097309861110780483" name="snooze_duration_title">"යළි සිහිකැඳවන දිග"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="6598258908106423672" name="stopwatch_already_running">"විරාම ඝටිකාව දැනටමත් ධාවනය වේ"</string>
+    <string msgid="5713134605500796186" name="stopwatch_cant_be_reset_because_is_running">"විරාම ඝටිකාව ධාවනය වන නිසා එය යළි සැකසීමට නොහැකිය"</string>
+    <string msgid="7147219965448204727" name="stopwatch_isnt_running">"විරාම ඝටිකාව ධාවනය නොවේ"</string>
+    <string msgid="5844686448815550482" name="stopwatch_lapped">"විරාම ඝටිකාව ලැප් කරන ලදී"</string>
+    <string msgid="7585914953721021042" name="stopwatch_reset">"විරාම ඝටිකාව යළි සකසන ලදී"</string>
+    <string msgid="8416624630388063996" name="stopwatch_service_desc">"දැනුම්දීම් ධාවනය කිරීමට කාල ඝනක සේවාවක්."</string>
+    <string msgid="7843882246387176304" name="stopwatch_started">"විරාම ඝටිකාව ආරම්භ කරන ලදී"</string>
+    <string msgid="6927081018816192999" name="stopwatch_stopped">"විරාම ඝටිකාව නතර කරන ලදී"</string>
+    <string msgid="6992264696039004233" name="sw_lap_button">"ලැප්"</string>
+    <string msgid="3535420316052647126" name="sw_notification_lap_number">"ලැප් <ns1:g id="NUMBER">%d</ns1:g>"</string>
+    <string msgid="6616804728322906117" name="sw_reset_button">"යළි පිහිටුවන්න"</string>
+    <string msgid="2569360966002022248" name="sw_resume_button">"නැවත පටන්ගන්න"</string>
+    <string msgid="4478648110382859382" name="sw_share_button">"බෙදාගන්න"</string>
+    <string msgid="614390674795945007" name="sw_share_laps">"ලැප් වේලාවන්:"</string>
+    <string msgid="7703563468204234405" name="sw_share_main">"මගේ වේලාව <ns1:g id="TIME">%s</ns1:g>"</string>
+    <string msgid="8373422516681242270" name="sw_start_button">"ආරම්භ කරන්න"</string>
+    <string msgid="8322958613123274451" name="sw_stop_button">"නතර කරන්න"</string>
+    <string msgid="783124901663086172" name="swn_stopped">"නතර කර ඇත"</string>
+    <string msgid="3799050213771793020" name="the_city_already_added">"එම නගරය දැනටමත් එක් කර ඇත"</string>
+    <string msgid="1753597460426454543" name="the_city_you_specified_is_not_available">"ඔබ නිශ්චිතව දක්වන ලද නගරය ලබා ගත නොහැකිය"</string>
+    <string msgid="8067216534232296518" name="time">"කාලය"</string>
+    <string msgid="1619464909892545536" name="time_format_12_mode">"h:mm a"</string>
+    <string msgid="7998512313148074539" name="time_format_24_mode">"k:mm"</string>
+    <string msgid="6001006474735281911" name="time_picker_00_label">":00"</string>
+    <string msgid="1027250857384838129" name="time_picker_30_label">":30"</string>
+    <string msgid="6754113715199751083" name="time_picker_ampm_label">"--"</string>
+    <string msgid="7437106489606013077" name="time_picker_cancel">"අවලංගු කරන්න"</string>
+    <string msgid="331153175471468051" name="time_picker_set">"හරි"</string>
+    <string msgid="7484926510054777041" name="time_picker_time_seperator">":"</string>
+    <string msgid="862733633862574752" name="timer_add_timer">"කාල ගණනයක් එක් කරන්න"</string>
+    <string msgid="1259351124772803097" name="timer_already_running">"මුහුර්තකය දැනටමත් ධාවනය වේ"</string>
+    <string msgid="8865820275829449054" name="timer_already_stopped">"මුහුර්තකය දැනටමත් නතර කර ඇත"</string>
+    <string msgid="3572868404230815644" name="timer_cancel">"අවලංගු කරන්න"</string>
+    <string msgid="7880015473706806640" name="timer_cant_be_reset_because_its_running">"මුහුර්තකය තවම ධාවනය වන බැවින් එය යළි සැකසීමට නොහැකිය. යළි සැකසීමට මුහුර්තකය නවත්වන්න."</string>
+    <string msgid="4381027137335885547" name="timer_created">"ටයිමරයක් සාදන ලදි"</string>
+    <string msgid="8699122001991909302" name="timer_delete">"මකන්න"</string>
+    <string msgid="2815524107015816453" name="timer_delete_confirmation">"මෙම කාල ගණනය මකන්නද?"</string>
+    <string msgid="9110322362460029392" name="timer_deleted">"මුහුර්තකය මකන ලදී"</string>
+    <string msgid="8794915342760383536" name="timer_descriptive_delete">"<ns1:g id="NUMBER_STRING">%s</ns1:g> මකන්න"</string>
+    <string msgid="2375990511982914051" name="timer_done">"අවසන්"</string>
+    <string msgid="4933184831583137249" name="timer_notification_label">"කාල ගණනය"</string>
+    <string msgid="8645224089494875062" name="timer_plus_1_min">"1 මිනි එකතු කරන්න"</string>
+    <string msgid="6631211310420106116" name="timer_plus_one">"මිනිත්තු 1 ක් එක් කරන්න"</string>
+    <string msgid="7848424809190171640" name="timer_reset">"යළි පිහිටුවන්න"</string>
+    <string msgid="2620214305660322415" name="timer_ring_service_desc">"ඔරලෝසුවේ සකසා ඇති කාල ගණනයන් සඳහා ශබ්ද පසු ධාවනය කිරීමේ සේවාව."</string>
+    <string msgid="6158486445614356442" name="timer_start">"ආරම්භ කරන්න"</string>
+    <string msgid="6715582052946641641" name="timer_started">"මුහුර්තකය ආරම්භ කරන ලදී"</string>
+    <string msgid="3361154678667736722" name="timer_stop">"නතර කරන්න"</string>
+    <string msgid="2730331837832462008" name="timer_stopped">"කාල ගණනය නතර කෙරුණි"</string>
+    <string msgid="9190440395938519009" name="timer_times_up">"වෙලාව ඉවරයි"</string>
+    <string msgid="6495796785185062631" name="timer_was_reset">"මුහුර්තකය යළි සකසන ලදී"</string>
+    <string msgid="5570729467344408506" name="timers_in_use">"කාල ගැනීම් <ns1:g id="NUMBER">%d</ns1:g>"</string>
+    <string msgid="9140022846793903813" name="timers_max_count_reached">"උපරිම කාල ගැනීම් 4 යි"</string>
+    <string msgid="2393640808691864520" name="timers_stopped">"කාල ගැනීම් <ns1:g id="NUMBER">%d</ns1:g> නවතා ඇත"</string>
+    <string msgid="8768042543750036853" name="volume_button_dialog_title">"බොත්තම් ආචරණය"</string>
+    <string msgid="6937131248843413357" name="volume_button_setting_title">"ශබ්ද බොත්තම්"</string>
+    <string msgid="3425804832021006835" name="weather_fetch_failure">"මේ දැන් කාලගුණ තොරතුරු ලබාගත නොහැක."</string>
+    <string msgid="4268917518596832096" name="week_start_title">"සතිය මෙයින් අරඹන්න"</string>
+    <string msgid="8648842975829470646" name="weekday_time_format_12_mode">"EEE, h:mm a"</string>
+    <string msgid="152964494051478631" name="weekday_time_format_24_mode">"EEE, k:mm"</string>
+    <string msgid="5911196322328341288" name="world_day_of_week_label">"/ <ns1:g id="LABEL">%s</ns1:g>"</string>
+    <string msgid="6963340404644587098" name="year_picker_description">"වසර ලැයිස්තුව"</string>
+    <string msgid="7102083421938355017" name="zero">"0"</string>
+</resources>

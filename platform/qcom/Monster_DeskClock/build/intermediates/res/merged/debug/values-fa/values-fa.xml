@@ -1,0 +1,718 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="alarm_set">
+    <item msgid="6450913786084215050">"هشدار برای کمتر از ۱ دقیقه دیگر از حالا تنظیم شد."</item>
+    <item msgid="6002066367368421848">"هشدار برای <ns1:g id="DAYS">%1$s</ns1:g> دیگر از حالا تنظیم شد."</item>
+    <item msgid="8824719306247973774">"هشدار برای <ns1:g id="HOURS">%2$s</ns1:g> دیگر از حالا تنظیم شد."</item>
+    <item msgid="8182406852935468862">"هشدار برای <ns1:g id="DAYS">%1$s</ns1:g> و <ns1:g id="HOURS">%2$s</ns1:g> از حالا تنظیم شد."</item>
+    <item msgid="2532279224777213194">"هشدار برای <ns1:g id="MINUTES">%3$s</ns1:g> دیگر از حالا تنظیم شد."</item>
+    <item msgid="5936557894247187717">"هشدار برای <ns1:g id="DAYS">%1$s</ns1:g> و <ns1:g id="MINUTES">%3$s</ns1:g> دیگر از حالا تنظیم شد."</item>
+    <item msgid="9115697840826129603">"هشدار برای <ns1:g id="HOURS">%2$s</ns1:g> و <ns1:g id="MINUTES">%3$s</ns1:g> دیگر از حالا تنظیم شد."</item>
+    <item msgid="2332583385137381060">"هشدار برای <ns1:g id="DAYS">%1$s</ns1:g> و <ns1:g id="HOURS">%2$s</ns1:g> و <ns1:g id="MINUTES">%3$s</ns1:g> دیگر از حالا تنظیم شد."</item>
+  </string-array>
+    <string-array name="auto_silence_entries">
+    <item msgid="3024545954917711306">"۱ دقیقه"</item>
+    <item msgid="5431906692406316549">"۵ دقیقه"</item>
+    <item msgid="7742728812068919959">"۱۰ دقیقه"</item>
+    <item msgid="2855948657259647629">"۱۵ دقیقه"</item>
+    <item msgid="6330196381284475079">"۲۰ دقیقه"</item>
+    <item msgid="7809240121716151904">"۲۵ دقیقه"</item>
+    <item msgid="4278641338024561333">"هیچ‌وقت"</item>
+  </string-array>
+    <string-array name="cities_names">
+    <item msgid="4653806289288974388">"<ns1:g id="SEPARATOR">=</ns1:g>ابیجان"</item>
+    <item msgid="4864167603178202155">"<ns1:g id="SEPARATOR">=</ns1:g>آکرا"</item>
+    <item msgid="6478898553803167749">"ا<ns1:g id="SEPARATOR">=</ns1:g>آدیس‌آبابا"</item>
+    <item msgid="5618029992528436448">"<ns1:g id="SEPARATOR">=</ns1:g>الجزایر"</item>
+    <item msgid="2906834750114790793">"<ns1:g id="SEPARATOR">=</ns1:g>بلانتیر"</item>
+    <item msgid="8153571933836629863">"<ns1:g id="SEPARATOR">=</ns1:g>برازاویل"</item>
+    <item msgid="3703129580594640833">"<ns1:g id="SEPARATOR">=</ns1:g>قاهره"</item>
+    <item msgid="2300915410194647320">"<ns1:g id="SEPARATOR">=</ns1:g>کازابلانکا"</item>
+    <item msgid="1217039002304887948">"<ns1:g id="SEPARATOR">=</ns1:g>کوناکری"</item>
+    <item msgid="8775104707806220928">"<ns1:g id="SEPARATOR">=</ns1:g>داکار"</item>
+    <item msgid="5948764589113643811">"<ns1:g id="SEPARATOR">=</ns1:g>دارالسلام"</item>
+    <item msgid="6306254507715416077">"<ns1:g id="SEPARATOR">=</ns1:g>جیبوتی"</item>
+    <item msgid="4286108029159501866">"<ns1:g id="SEPARATOR">=</ns1:g>فریتاون"</item>
+    <item msgid="4514786733035528116">"<ns1:g id="SEPARATOR">=</ns1:g>گابورون"</item>
+    <item msgid="7367496854968219671">"<ns1:g id="SEPARATOR">=</ns1:g>حراره"</item>
+    <item msgid="6837746379726020288">"<ns1:g id="SEPARATOR">=</ns1:g>ژوهانسبورگ"</item>
+    <item msgid="6284185156591171506">"<ns1:g id="SEPARATOR">=</ns1:g>کامپالا"</item>
+    <item msgid="3299518884693668985">"<ns1:g id="SEPARATOR">=</ns1:g>خارطوم"</item>
+    <item msgid="4614879508966043969">"<ns1:g id="SEPARATOR">=</ns1:g>کیگالی"</item>
+    <item msgid="8878437043772547732">"<ns1:g id="SEPARATOR">=</ns1:g>کینشاسا"</item>
+    <item msgid="6325601635544067909">"<ns1:g id="SEPARATOR">=</ns1:g>لاگوس"</item>
+    <item msgid="6094357506290323524">"<ns1:g id="SEPARATOR">=</ns1:g>ماسرو"</item>
+    <item msgid="7270525814400329098">"<ns1:g id="SEPARATOR">=</ns1:g>موگادیشو"</item>
+    <item msgid="353110101402547540">"<ns1:g id="SEPARATOR">=</ns1:g>نایروبی"</item>
+    <item msgid="1688121892646984549">"<ns1:g id="SEPARATOR">=</ns1:g>سائوتومه"</item>
+    <item msgid="3642219084651687800">"<ns1:g id="SEPARATOR">=</ns1:g>تیمبوکتو"</item>
+    <item msgid="7287513493631179463">"<ns1:g id="SEPARATOR">=</ns1:g>طرابلس"</item>
+    <item msgid="5052614613671591560">"<ns1:g id="SEPARATOR">=</ns1:g>تونس"</item>
+    <item msgid="7976303179193839859">"<ns1:g id="SEPARATOR">=</ns1:g>انکوریج"</item>
+    <item msgid="193703779380497120">"<ns1:g id="SEPARATOR">=</ns1:g>مندوزا"</item>
+    <item msgid="5448884981082519628">"ا<ns1:g id="SEPARATOR">=</ns1:g>آروبا"</item>
+    <item msgid="1577938273323914773">"ا<ns1:g id="SEPARATOR">=</ns1:g>آسونسیون"</item>
+    <item msgid="5617155978105010520">"<ns1:g id="SEPARATOR">=</ns1:g>باربادوس"</item>
+    <item msgid="3600025702357376322">"<ns1:g id="SEPARATOR">=</ns1:g>بلیز"</item>
+    <item msgid="2847679817118467051">"<ns1:g id="SEPARATOR">=</ns1:g>بوگوتا"</item>
+    <item msgid="9029003541681282929">"<ns1:g id="SEPARATOR">=</ns1:g>بوینس‌آیرس"</item>
+    <item msgid="2338367960332622522">"<ns1:g id="SEPARATOR">=</ns1:g>کانکون"</item>
+    <item msgid="4339797536047170278">"<ns1:g id="SEPARATOR">=</ns1:g>کاراکاس"</item>
+    <item msgid="9199080438977757863">"<ns1:g id="SEPARATOR">=</ns1:g>کیمن"</item>
+    <item msgid="1993203473281589891">"<ns1:g id="SEPARATOR">=</ns1:g>شیکاگو"</item>
+    <item msgid="7990342776303470263">"<ns1:g id="SEPARATOR">=</ns1:g>کاستاریکا"</item>
+    <item msgid="5676109900908808628">"<ns1:g id="SEPARATOR">=</ns1:g>کوراسائو"</item>
+    <item msgid="5519120432577564812">"<ns1:g id="SEPARATOR">=</ns1:g>داوسون کریک"</item>
+    <item msgid="2126228972377380680">"<ns1:g id="SEPARATOR">=</ns1:g>دنور"</item>
+    <item msgid="3298410632922319193">"<ns1:g id="SEPARATOR">=</ns1:g>دیترویت"</item>
+    <item msgid="2819032085688382805">"<ns1:g id="SEPARATOR">=</ns1:g>دومینیکا"</item>
+    <item msgid="6170433208654553821">"<ns1:g id="SEPARATOR">=</ns1:g>ادمونتون"</item>
+    <item msgid="795461860173291499">"<ns1:g id="SEPARATOR">=</ns1:g>السالوادور"</item>
+    <item msgid="7872196528637597794">"<ns1:g id="SEPARATOR">=</ns1:g>فورتالزا"</item>
+    <item msgid="5801558418916235541">"<ns1:g id="SEPARATOR">=</ns1:g>گراند تورک"</item>
+    <item msgid="2103759276235503048">"<ns1:g id="SEPARATOR">=</ns1:g>گرنادا"</item>
+    <item msgid="1490069759176391533">"<ns1:g id="SEPARATOR">=</ns1:g>گواتمالا"</item>
+    <item msgid="525959305652046261">"<ns1:g id="SEPARATOR">=</ns1:g>گویان"</item>
+    <item msgid="7565596629973190931">"<ns1:g id="SEPARATOR">=</ns1:g>هالیفاکس"</item>
+    <item msgid="3811169155065582644">"<ns1:g id="SEPARATOR">=</ns1:g>هاوانا"</item>
+    <item msgid="3733555435078090201">"<ns1:g id="SEPARATOR">=</ns1:g>ایندیاناپولیس"</item>
+    <item msgid="226982663848410981">"<ns1:g id="SEPARATOR">=</ns1:g>ناکس"</item>
+    <item msgid="3815293080342229459">"<ns1:g id="SEPARATOR">=</ns1:g>مارنگو"</item>
+    <item msgid="6594853515451547389">"<ns1:g id="SEPARATOR">=</ns1:g>پترزبورگ"</item>
+    <item msgid="6091571889213283534">"<ns1:g id="SEPARATOR">=</ns1:g>تله‌سیتی"</item>
+    <item msgid="3089369312058696669">"<ns1:g id="SEPARATOR">=</ns1:g>ویوای"</item>
+    <item msgid="1334860422444068943">"<ns1:g id="SEPARATOR">=</ns1:g>وینسنس"</item>
+    <item msgid="7775105082093691756">"<ns1:g id="SEPARATOR">=</ns1:g>ویناماک"</item>
+    <item msgid="4043335541899184547">"<ns1:g id="SEPARATOR">=</ns1:g>کینگستون"</item>
+    <item msgid="1063757593477259280">"<ns1:g id="SEPARATOR">=</ns1:g>لاپاز"</item>
+    <item msgid="349901732062388869">"<ns1:g id="SEPARATOR">=</ns1:g>لیما"</item>
+    <item msgid="4977592519316837842">"<ns1:g id="SEPARATOR">=</ns1:g>لس‌آنجلس"</item>
+    <item msgid="7713051790509638572">"<ns1:g id="SEPARATOR">=</ns1:g>لوییویل"</item>
+    <item msgid="8460620935898405225">"<ns1:g id="SEPARATOR">=</ns1:g>ماناگوا"</item>
+    <item msgid="8328345293081464192">"<ns1:g id="SEPARATOR">=</ns1:g>مارتینیک"</item>
+    <item msgid="8010357327448619637">"<ns1:g id="SEPARATOR">=</ns1:g>مندوزا"</item>
+    <item msgid="2046777213916219253">"<ns1:g id="SEPARATOR">=</ns1:g>متلاکاتلا"</item>
+    <item msgid="2227885609632709258">"<ns1:g id="SEPARATOR">=</ns1:g>مکزیکوسیتی"</item>
+    <item msgid="9089629663998569289">"<ns1:g id="SEPARATOR">=</ns1:g>مونتری"</item>
+    <item msgid="2782276175306930748">"<ns1:g id="SEPARATOR">=</ns1:g>مونته‌ویدئو"</item>
+    <item msgid="4942386959622269480">"<ns1:g id="SEPARATOR">=</ns1:g>مونترال"</item>
+    <item msgid="3068203952968918165">"<ns1:g id="SEPARATOR">=</ns1:g>ناسائو"</item>
+    <item msgid="4234515454127289962">"<ns1:g id="SEPARATOR">=</ns1:g>نیویورک"</item>
+    <item msgid="1660551302087304308">"<ns1:g id="SEPARATOR">=</ns1:g>بیولا"</item>
+    <item msgid="415823390775449071">"<ns1:g id="SEPARATOR">=</ns1:g>سنتر"</item>
+    <item msgid="6644186958433380884">"<ns1:g id="SEPARATOR">=</ns1:g>نیوسیلم"</item>
+    <item msgid="6408587617047971798">"<ns1:g id="SEPARATOR">=</ns1:g>پاناما"</item>
+    <item msgid="5576899364199447991">"<ns1:g id="SEPARATOR">=</ns1:g>فینیکس"</item>
+    <item msgid="5541266909095409447">"<ns1:g id="SEPARATOR">=</ns1:g>پرت آو اسپاین"</item>
+    <item msgid="6417519313622785932">"<ns1:g id="SEPARATOR">=</ns1:g>پورتو پرنس"</item>
+    <item msgid="2078589249210571366">"<ns1:g id="SEPARATOR">=</ns1:g>پورتوریکو"</item>
+    <item msgid="8522030474373927681">"<ns1:g id="SEPARATOR">=</ns1:g>سانتو دومینگو"</item>
+    <item msgid="4763853453317431594">"<ns1:g id="SEPARATOR">=</ns1:g>سائوپائولو"</item>
+    <item msgid="2713153284784311646">"<ns1:g id="SEPARATOR">=</ns1:g>سنت‌جونز"</item>
+    <item msgid="8252666620333105271">"<ns1:g id="SEPARATOR">=</ns1:g>سنت‌کیتس"</item>
+    <item msgid="4851597775036027515">"<ns1:g id="SEPARATOR">=</ns1:g>سنت‌لوسیا"</item>
+    <item msgid="2395485473100271503">"<ns1:g id="SEPARATOR">=</ns1:g>سنت‌ توماس"</item>
+    <item msgid="4148037555658225145">"<ns1:g id="SEPARATOR">=</ns1:g>تیجوانا"</item>
+    <item msgid="3491199166042475853">"<ns1:g id="SEPARATOR">=</ns1:g>تورنتو"</item>
+    <item msgid="1506838283840737263">"<ns1:g id="SEPARATOR">=</ns1:g>ونکوور"</item>
+    <item msgid="8935386104773857399">"<ns1:g id="SEPARATOR">=</ns1:g>وینیپگ"</item>
+    <item msgid="1132634022412399582">"<ns1:g id="SEPARATOR">=</ns1:g>قطب جنوب"</item>
+    <item msgid="4076962667198039206">"<ns1:g id="SEPARATOR">=</ns1:g>لانگیربین"</item>
+    <item msgid="3784788073896028355">"ا<ns1:g id="SEPARATOR">=</ns1:g>آلماتی"</item>
+    <item msgid="7895695236056852523">"<ns1:g id="SEPARATOR">=</ns1:g>امان"</item>
+    <item msgid="1795426532295280371">"<ns1:g id="SEPARATOR">=</ns1:g>آنادیر"</item>
+    <item msgid="7194236926158343552">"<ns1:g id="SEPARATOR">=</ns1:g>آکتاو"</item>
+    <item msgid="4796350130854360870">"<ns1:g id="SEPARATOR">=</ns1:g>بغداد"</item>
+    <item msgid="4020105434451091851">"<ns1:g id="SEPARATOR">=</ns1:g>بحرین"</item>
+    <item msgid="3895868797052686484">"<ns1:g id="SEPARATOR">=</ns1:g>باکو"</item>
+    <item msgid="228001522630057957">"<ns1:g id="SEPARATOR">=</ns1:g>بانکوک"</item>
+    <item msgid="5555647809114820537">"<ns1:g id="SEPARATOR">=</ns1:g>بیروت"</item>
+    <item msgid="2960873998178478784">"<ns1:g id="SEPARATOR">=</ns1:g>کلکته"</item>
+    <item msgid="8765555959722950691">"<ns1:g id="SEPARATOR">=</ns1:g>دمشق"</item>
+    <item msgid="4979709428925196546">"<ns1:g id="SEPARATOR">=</ns1:g>داکا"</item>
+    <item msgid="310419600200885308">"<ns1:g id="SEPARATOR">=</ns1:g>دبی"</item>
+    <item msgid="1203379132329159260">"<ns1:g id="SEPARATOR">=</ns1:g>غزه"</item>
+    <item msgid="2359068282340162319">"<ns1:g id="SEPARATOR">=</ns1:g>هبرون"</item>
+    <item msgid="6223396610551759129">"<ns1:g id="SEPARATOR">=</ns1:g>هو شی‌ مین"</item>
+    <item msgid="4731022818651322736">"<ns1:g id="SEPARATOR">=</ns1:g>هنگ‌ کنگ"</item>
+    <item msgid="8104778702069607166">"<ns1:g id="SEPARATOR">=</ns1:g>استانبول"</item>
+    <item msgid="758800913783999425">"<ns1:g id="SEPARATOR">=</ns1:g>جاکارتا"</item>
+    <item msgid="8956406398692698126">"<ns1:g id="SEPARATOR">=</ns1:g>اورشلیم"</item>
+    <item msgid="1664426577433326419">"<ns1:g id="SEPARATOR">=</ns1:g>کابل"</item>
+    <item msgid="7700349511508357396">"<ns1:g id="SEPARATOR">=</ns1:g>کراچی"</item>
+    <item msgid="5273241794521591984">"<ns1:g id="SEPARATOR">=</ns1:g>کاتماندو"</item>
+    <item msgid="4754850915168634158">"<ns1:g id="SEPARATOR">=</ns1:g>کوالالامپور"</item>
+    <item msgid="5187849635785055693">"<ns1:g id="SEPARATOR">=</ns1:g>کویت"</item>
+    <item msgid="2923385979252179376">"<ns1:g id="SEPARATOR">=</ns1:g>ماکائو"</item>
+    <item msgid="722458682107911739">"<ns1:g id="SEPARATOR">=</ns1:g>مانیل"</item>
+    <item msgid="6033964325069060422">"<ns1:g id="SEPARATOR">=</ns1:g>مسقط"</item>
+    <item msgid="6077458941399984780">"<ns1:g id="SEPARATOR">=</ns1:g>پنوم‌‌پن"</item>
+    <item msgid="935474308903572975">"<ns1:g id="SEPARATOR">=</ns1:g>پیونگ‌یانگ"</item>
+    <item msgid="5336632319992664889">"<ns1:g id="SEPARATOR">=</ns1:g>قطر"</item>
+    <item msgid="1667243110545095146">"<ns1:g id="SEPARATOR">=</ns1:g>رانگون"</item>
+    <item msgid="4460370766685855731">"<ns1:g id="SEPARATOR">=</ns1:g>ریاض"</item>
+    <item msgid="4229224905931739201">"<ns1:g id="SEPARATOR">=</ns1:g>سایگون"</item>
+    <item msgid="8705359848250215620">"<ns1:g id="SEPARATOR">=</ns1:g>سئول"</item>
+    <item msgid="583367295371395814">"<ns1:g id="SEPARATOR">=</ns1:g>شانگهای"</item>
+    <item msgid="1422156732794771136">"<ns1:g id="SEPARATOR">=</ns1:g>سنگاپور"</item>
+    <item msgid="1972491729911039207">"<ns1:g id="SEPARATOR">=</ns1:g>تایپه"</item>
+    <item msgid="5563193560935461106">"<ns1:g id="SEPARATOR">=</ns1:g>تهران"</item>
+    <item msgid="8629402941285674273">"<ns1:g id="SEPARATOR">=</ns1:g>تل‌آویو"</item>
+    <item msgid="8499164674454654525">"<ns1:g id="SEPARATOR">=</ns1:g>توکیو"</item>
+    <item msgid="1705804745888992744">"<ns1:g id="SEPARATOR">=</ns1:g>اولان‌باتور"</item>
+    <item msgid="2028626988021468640">"<ns1:g id="SEPARATOR">=</ns1:g>برمودا"</item>
+    <item msgid="4527109966513690429">"<ns1:g id="SEPARATOR">=</ns1:g>قناری"</item>
+    <item msgid="4886308317040330383">"<ns1:g id="SEPARATOR">=</ns1:g>کیپ‌ورد"</item>
+    <item msgid="1003307362164178007">"<ns1:g id="SEPARATOR">=</ns1:g>ریکیاویک"</item>
+    <item msgid="6742010412815268657">"<ns1:g id="SEPARATOR">=</ns1:g>استنلی"</item>
+    <item msgid="5659389449738592757">"<ns1:g id="SEPARATOR">=</ns1:g>ادلید"</item>
+    <item msgid="4567804576346784523">"<ns1:g id="SEPARATOR">=</ns1:g>بریزبن"</item>
+    <item msgid="8730590400362815585">"<ns1:g id="SEPARATOR">=</ns1:g>کانبرا"</item>
+    <item msgid="6416990927714140153">"<ns1:g id="SEPARATOR">=</ns1:g>داروین"</item>
+    <item msgid="3073969292696516135">"<ns1:g id="SEPARATOR">=</ns1:g>ملبورن"</item>
+    <item msgid="1719286228375722176">"<ns1:g id="SEPARATOR">=</ns1:g>نیو ساوت ویلز"</item>
+    <item msgid="3663940748056976266">"<ns1:g id="SEPARATOR">=</ns1:g>پرت"</item>
+    <item msgid="3383881736858438153">"<ns1:g id="SEPARATOR">=</ns1:g>کوئینزلند"</item>
+    <item msgid="971889339240879138">"<ns1:g id="SEPARATOR">=</ns1:g>سیدنی"</item>
+    <item msgid="5542803438162180311">"<ns1:g id="SEPARATOR">=</ns1:g>ویکتوریا"</item>
+    <item msgid="11828841481838883">"<ns1:g id="SEPARATOR">=</ns1:g>نیوفاندلند"</item>
+    <item msgid="1734331918410561807">"<ns1:g id="SEPARATOR">=</ns1:g>ساسکاچوان"</item>
+    <item msgid="9184412695613864979">"<ns1:g id="SEPARATOR">=</ns1:g>جزیره ایستر"</item>
+    <item msgid="1014282454239014527">"<ns1:g id="SEPARATOR">=</ns1:g>آمستردام"</item>
+    <item msgid="4928363054269791193">"<ns1:g id="SEPARATOR">=</ns1:g>آندورا"</item>
+    <item msgid="912290900213826368">"ا<ns1:g id="SEPARATOR">=</ns1:g>آتن"</item>
+    <item msgid="6097000352459209495">"<ns1:g id="SEPARATOR">=</ns1:g>بلفاست"</item>
+    <item msgid="3285885824311481790">"<ns1:g id="SEPARATOR">=</ns1:g>بلگراد"</item>
+    <item msgid="911055049821251982">"<ns1:g id="SEPARATOR">=</ns1:g>برلین"</item>
+    <item msgid="9099244516556291111">"<ns1:g id="SEPARATOR">=</ns1:g>براتیسلاوا"</item>
+    <item msgid="158977749726480076">"<ns1:g id="SEPARATOR">=</ns1:g>بروکسل"</item>
+    <item msgid="8875102297676173346">"<ns1:g id="SEPARATOR">=</ns1:g>بخارست"</item>
+    <item msgid="804451569472542912">"<ns1:g id="SEPARATOR">=</ns1:g>بوداپست"</item>
+    <item msgid="6827506774445509939">"<ns1:g id="SEPARATOR">=</ns1:g>کیشیناو"</item>
+    <item msgid="487345893088732797">"<ns1:g id="SEPARATOR">=</ns1:g>کپنهاگ"</item>
+    <item msgid="7760953471297773537">"<ns1:g id="SEPARATOR">=</ns1:g>دوبلین"</item>
+    <item msgid="323414429034825249">"<ns1:g id="SEPARATOR">=</ns1:g>جبل‌الطارق"</item>
+    <item msgid="1785566206078328830">"<ns1:g id="SEPARATOR">=</ns1:g>هلسینکی"</item>
+    <item msgid="5938185647271923359">"<ns1:g id="SEPARATOR">=</ns1:g>آیل آومن"</item>
+    <item msgid="5974864320735263245">"<ns1:g id="SEPARATOR">=</ns1:g>استانبول"</item>
+    <item msgid="3567775364750772947">"<ns1:g id="SEPARATOR">=</ns1:g>کی‌یف"</item>
+    <item msgid="540344101798867007">"<ns1:g id="SEPARATOR">=</ns1:g>لیسبون"</item>
+    <item msgid="5091062403792923657">"<ns1:g id="SEPARATOR">=</ns1:g>لندن"</item>
+    <item msgid="7075006205000490364">"<ns1:g id="SEPARATOR">=</ns1:g>لوکزامبورگ"</item>
+    <item msgid="4901781246584739451">"<ns1:g id="SEPARATOR">=</ns1:g>مادرید"</item>
+    <item msgid="9047080834315777144">"<ns1:g id="SEPARATOR">=</ns1:g>مالت"</item>
+    <item msgid="8200456520732452034">"<ns1:g id="SEPARATOR">=</ns1:g>مینسک"</item>
+    <item msgid="5452744619736513383">"<ns1:g id="SEPARATOR">=</ns1:g>موناکو"</item>
+    <item msgid="3513517408062322298">"<ns1:g id="SEPARATOR">=</ns1:g>مسکو"</item>
+    <item msgid="7917103295878081674">"<ns1:g id="SEPARATOR">=</ns1:g>اسلو"</item>
+    <item msgid="4245547231693746977">"<ns1:g id="SEPARATOR">=</ns1:g>پاریس"</item>
+    <item msgid="3778652900196715557">"<ns1:g id="SEPARATOR">=</ns1:g>پراگ"</item>
+    <item msgid="1827175423974383675">"<ns1:g id="SEPARATOR">=</ns1:g>ریگا"</item>
+    <item msgid="2095130417232677930">"<ns1:g id="SEPARATOR">=</ns1:g>رم"</item>
+    <item msgid="7631654618289353520">"<ns1:g id="SEPARATOR">=</ns1:g>سان‌مارینو"</item>
+    <item msgid="7219835179107610398">"<ns1:g id="SEPARATOR">=</ns1:g>سارایوو"</item>
+    <item msgid="7199868165463282240">"<ns1:g id="SEPARATOR">=</ns1:g>سیمفروپل"</item>
+    <item msgid="2786395006682246794">"<ns1:g id="SEPARATOR">=</ns1:g>اسکوپیه"</item>
+    <item msgid="4706927178872100023">"<ns1:g id="SEPARATOR">=</ns1:g>صوفیه"</item>
+    <item msgid="1982417589953195308">"<ns1:g id="SEPARATOR">=</ns1:g>استکهلم"</item>
+    <item msgid="1596083919400921960">"<ns1:g id="SEPARATOR">=</ns1:g>تالین"</item>
+    <item msgid="3079313598974879114">"<ns1:g id="SEPARATOR">=</ns1:g>واتیکان"</item>
+    <item msgid="6516636001856910888">"<ns1:g id="SEPARATOR">=</ns1:g>وین"</item>
+    <item msgid="6377314532157945456">"<ns1:g id="SEPARATOR">=</ns1:g>ویلنیوس"</item>
+    <item msgid="3427175235616698721">"<ns1:g id="SEPARATOR">=</ns1:g>ورشو"</item>
+    <item msgid="8404354243761332922">"<ns1:g id="SEPARATOR">=</ns1:g>زاگرب"</item>
+    <item msgid="1457280242717152391">"<ns1:g id="SEPARATOR">=</ns1:g>زوریخ"</item>
+    <item msgid="1065940089741359291">"<ns1:g id="SEPARATOR">=</ns1:g>آنتاناناریوو"</item>
+    <item msgid="5176181880014090003">"<ns1:g id="SEPARATOR">=</ns1:g>مالدیو"</item>
+    <item msgid="8281854645557426433">"<ns1:g id="SEPARATOR">=</ns1:g>موریس"</item>
+    <item msgid="2686249517389816420">"<ns1:g id="SEPARATOR">=</ns1:g>اوکلند"</item>
+    <item msgid="279925671775807392">"<ns1:g id="SEPARATOR">=</ns1:g>فیجی"</item>
+    <item msgid="7971492669765264840">"<ns1:g id="SEPARATOR">=</ns1:g>گوام"</item>
+    <item msgid="889371273355762733">"<ns1:g id="SEPARATOR">=</ns1:g>هونولولو"</item>
+    <item msgid="5516500578074269817">"<ns1:g id="SEPARATOR">=</ns1:g>کیریتیماتی"</item>
+    <item msgid="2740704911915073056">"<ns1:g id="SEPARATOR">=</ns1:g>نومئا"</item>
+    <item msgid="8732832728949672807">"<ns1:g id="SEPARATOR">=</ns1:g>ساموآ"</item>
+    <item msgid="6489500698846864993">"<ns1:g id="SEPARATOR">=</ns1:g>تاهیتی"</item>
+    <item msgid="3983121625709442324">"<ns1:g id="SEPARATOR">=</ns1:g>آنتیگوا"</item>
+    <item msgid="2650510570709806322">"<ns1:g id="SEPARATOR">=</ns1:g>آستین"</item>
+    <item msgid="5257283506227357911">"<ns1:g id="SEPARATOR">=</ns1:g>بوستون"</item>
+    <item msgid="6326368958641850267">"<ns1:g id="SEPARATOR">=</ns1:g>کلگری"</item>
+    <item msgid="8830116365016232583">"<ns1:g id="SEPARATOR">=</ns1:g>کلمبوس"</item>
+    <item msgid="6986556538341883811">"<ns1:g id="SEPARATOR">=</ns1:g>دالاس"</item>
+    <item msgid="836479352500251902">"<ns1:g id="SEPARATOR">=</ns1:g>ناکسویل"</item>
+    <item msgid="8495291458467378851">"<ns1:g id="SEPARATOR">=</ns1:g>ممفیس"</item>
+    <item msgid="2788807207554683122">"<ns1:g id="SEPARATOR">=</ns1:g>میامی"</item>
+    <item msgid="3984640407077208471">"<ns1:g id="SEPARATOR">=</ns1:g>مینیاپولیس"</item>
+    <item msgid="6997305266329324161">"<ns1:g id="SEPARATOR">=</ns1:g>اتاوا"</item>
+    <item msgid="5191741145278683016">"<ns1:g id="SEPARATOR">=</ns1:g>فیلادلفیا"</item>
+    <item msgid="5898032730733441936">"<ns1:g id="SEPARATOR">=</ns1:g>پورتلند"</item>
+    <item msgid="9070160716002203069">"<ns1:g id="SEPARATOR">=</ns1:g>سن‌دیگو"</item>
+    <item msgid="1829944133410079040">"<ns1:g id="SEPARATOR">=</ns1:g>سان‌فرانسیسکو"</item>
+    <item msgid="8407905318529692654">"<ns1:g id="SEPARATOR">=</ns1:g>سالت‌لیک‌سیتی"</item>
+    <item msgid="3091392589347990898">"<ns1:g id="SEPARATOR">=</ns1:g>سن‌خوزه"</item>
+    <item msgid="7080627414383807284">"<ns1:g id="SEPARATOR">=</ns1:g>سان‌سالوادور"</item>
+    <item msgid="3430371213266252049">"<ns1:g id="SEPARATOR">=</ns1:g>سیاتل"</item>
+    <item msgid="9177491393818757071">"<ns1:g id="SEPARATOR">=</ns1:g>سنت‌لوئیس"</item>
+    <item msgid="6234359686676312837">"<ns1:g id="SEPARATOR">=</ns1:g>واشینگتن، دی.سی."</item>
+    <item msgid="4325057056005132331">"<ns1:g id="SEPARATOR">=</ns1:g>هوستون"</item>
+    <item msgid="38148255938075867">"<ns1:g id="SEPARATOR">=</ns1:g>سن‌آنتونیو"</item>
+    <item msgid="3601481860893666763">"<ns1:g id="SEPARATOR">=</ns1:g>جکسون‌ویل"</item>
+    <item msgid="3987471437354665534">"<ns1:g id="SEPARATOR">=</ns1:g>بالتیمور"</item>
+    <item msgid="3389674262267006887">"<ns1:g id="SEPARATOR">=</ns1:g>نشویل"</item>
+    <item msgid="7521690366448637309">"<ns1:g id="SEPARATOR">=</ns1:g>میلواکی"</item>
+    <item msgid="2231069593975740859">"<ns1:g id="SEPARATOR">=</ns1:g>اوکلاهما"</item>
+    <item msgid="1970008262236914770">"<ns1:g id="SEPARATOR">=</ns1:g>لاس‌وگاس"</item>
+    <item msgid="7113811028304266017">"<ns1:g id="SEPARATOR">=</ns1:g>البوکرکی"</item>
+    <item msgid="6481469458896644678">"<ns1:g id="SEPARATOR">=</ns1:g>توسان"</item>
+    <item msgid="5970857542995467466">"<ns1:g id="SEPARATOR">=</ns1:g>ساکرامنتو"</item>
+    <item msgid="1999267306329214429">"<ns1:g id="SEPARATOR">=</ns1:g>آتلانتا"</item>
+    <item msgid="8761847787537443648">"<ns1:g id="SEPARATOR">=</ns1:g>کلیولند"</item>
+    <item msgid="2987455647692324208">"<ns1:g id="SEPARATOR">=</ns1:g>نیواورلئان"</item>
+    <item msgid="8104109426412705845">"<ns1:g id="SEPARATOR">=</ns1:g>تمپا"</item>
+    <item msgid="1410067233842240795">"<ns1:g id="SEPARATOR">=</ns1:g>پیتسبرگ"</item>
+    <item msgid="3339955740367374442">"<ns1:g id="SEPARATOR">=</ns1:g>سینسیناتی"</item>
+    <item msgid="6091407424772799978">"<ns1:g id="SEPARATOR">=</ns1:g>مانتین‌ویو"</item>
+    <item msgid="150299708499753555">"<ns1:g id="SEPARATOR">=</ns1:g>رنو"</item>
+    <item msgid="9155068631060038769">"<ns1:g id="SEPARATOR">=</ns1:g>بلک راک سیتی"</item>
+    <item msgid="8498761319928979900">"<ns1:g id="SEPARATOR">=</ns1:g>دوحه"</item>
+    <item msgid="8307897251088048641">"<ns1:g id="SEPARATOR">=</ns1:g>پکن"</item>
+    <item msgid="8605970953750147428">"<ns1:g id="SEPARATOR">=</ns1:g>بمبئی"</item>
+    <item msgid="6668274273067049125">"<ns1:g id="SEPARATOR">=</ns1:g>دهلی"</item>
+    <item msgid="2933410189478233292">"<ns1:g id="SEPARATOR">=</ns1:g>اوزاکا"</item>
+    <item msgid="9011026093638055579">"<ns1:g id="SEPARATOR">=</ns1:g>لاهور"</item>
+    <item msgid="1448378291805481500">"<ns1:g id="SEPARATOR">=</ns1:g>صنعا"</item>
+    <item msgid="5233119846682408301">"<ns1:g id="SEPARATOR">=</ns1:g>بارسلون"</item>
+    <item msgid="9146746514265554721">"<ns1:g id="SEPARATOR">=</ns1:g>مونیخ"</item>
+    <item msgid="157866084892734979">"<ns1:g id="SEPARATOR">=</ns1:g>میلان"</item>
+    <item msgid="2787346322341414963">"<ns1:g id="SEPARATOR">=</ns1:g>فرانکفورت"</item>
+    <item msgid="8407511504088696581">"<ns1:g id="SEPARATOR">=</ns1:g>هانوی"</item>
+    <item msgid="5184417944073499453">"ا<ns1:g id="SEPARATOR">=</ns1:g>آنکارا"</item>
+    <item msgid="4028784954452197920">"<ns1:g id="SEPARATOR">=</ns1:g>بنگلور"</item>
+    <item msgid="190152483600862776">"<ns1:g id="SEPARATOR">=</ns1:g>برازیلیا"</item>
+    <item msgid="8009516135735104388">"<ns1:g id="SEPARATOR">=</ns1:g>کیپ‌تاون"</item>
+    <item msgid="6057191797622953016">"<ns1:g id="SEPARATOR">=</ns1:g>اسلام‌آ‌باد"</item>
+    <item msgid="2702029416591153210">"<ns1:g id="SEPARATOR">=</ns1:g>ریودوژانیرو"</item>
+    <item msgid="1753927312634708098">"ا<ns1:g id="SEPARATOR">=</ns1:g>آن‌آریور"</item>
+    <item msgid="4225721108475278979">"<ns1:g id="SEPARATOR">=</ns1:g>بولدر"</item>
+    <item msgid="6393177386755796069">"<ns1:g id="SEPARATOR">=</ns1:g>کمبریج"</item>
+    <item msgid="759409010285366934">"<ns1:g id="SEPARATOR">=</ns1:g>کرکلند"</item>
+    <item msgid="6308007059287569663">"<ns1:g id="SEPARATOR">=</ns1:g>مدیسون"</item>
+    <item msgid="6971636434858330021">"<ns1:g id="SEPARATOR">=</ns1:g>گوانگ‌ژو"</item>
+    <item msgid="1185109514180068650">"<ns1:g id="SEPARATOR">=</ns1:g>حیدرآباد"</item>
+    <item msgid="3032295682584784261">"<ns1:g id="SEPARATOR">=</ns1:g>رستون"</item>
+    <item msgid="7722837296297332268">"<ns1:g id="SEPARATOR">=</ns1:g>بلو هوریزونته"</item>
+    <item msgid="3593516299122577780">"<ns1:g id="SEPARATOR">=</ns1:g>سانتیاگو"</item>
+    <item msgid="2293331653589266583">"<ns1:g id="SEPARATOR">=</ns1:g>مونروویا"</item>
+    <item msgid="7899128359620301710">"<ns1:g id="SEPARATOR">=</ns1:g>کلمبو"</item>
+    <item msgid="5294489752262543829">"<ns1:g id="SEPARATOR">=</ns1:g>چی‌واوا"</item>
+    <item msgid="8066356061184206341">"<ns1:g id="SEPARATOR">=</ns1:g>سالوادور"</item>
+    <item msgid="4806867741334453982">"<ns1:g id="SEPARATOR">=</ns1:g>گورگان"</item>
+    <item msgid="2585780177649876827">"<ns1:g id="SEPARATOR">=</ns1:g>منچستر"</item>
+    <item msgid="234104953526248139">"<ns1:g id="SEPARATOR">=</ns1:g>کی‌یف"</item>
+    <item msgid="5245429461217350012">"<ns1:g id="SEPARATOR">=</ns1:g>سن‌پترزبورگ"</item>
+    <item msgid="6738531308006017215">"<ns1:g id="SEPARATOR">=</ns1:g>کراکوف"</item>
+    <item msgid="8972702613339139467">"<ns1:g id="SEPARATOR">=</ns1:g>وروتسواف"</item>
+    <item msgid="187278924459096566">"<ns1:g id="SEPARATOR">=</ns1:g>هامبورگ"</item>
+    <item msgid="6173267862207394917">"<ns1:g id="SEPARATOR">=</ns1:g>اولو"</item>
+    <item msgid="5639324478037405990">"<ns1:g id="SEPARATOR">=</ns1:g>هیفا"</item>
+    <item msgid="3157180661352354058">"<ns1:g id="SEPARATOR">=</ns1:g>سان‌خوآن"</item>
+    <item msgid="6995939579417282715">"<ns1:g id="SEPARATOR">=</ns1:g>تگوسیگالپا"</item>
+    <item msgid="1641840677391275004">"<ns1:g id="SEPARATOR">=</ns1:g>پاراماریبو"</item>
+    <item msgid="7317049454800260290">"<ns1:g id="SEPARATOR">=</ns1:g>کیتو"</item>
+    <item msgid="4524380876433343244">"<ns1:g id="SEPARATOR">=</ns1:g>لیوبلیانا"</item>
+  </string-array>
+    <string-array name="clock_style_entries">
+    <item msgid="917900462224167608">"آنالوگ"</item>
+    <item msgid="8483930821046925592">"دیجیتال"</item>
+  </string-array>
+    <string-array name="sw_lap_number_set">
+    <item msgid="2816627565030953899">"شماره <ns1:g id="NUMBER">%d</ns1:g>"</item>
+    <item msgid="316923361931627987">"شماره <ns1:g id="NUMBER">%02d</ns1:g>"</item>
+  </string-array>
+    <string-array name="sw_share_strings">
+    <item msgid="842841032273927988">"شما واقعاً خدای سرعت هستید."</item>
+    <item msgid="6332879039890727169">"از ثمره زحمات خود لذت ببرید."</item>
+    <item msgid="815382761274660130">"‏Androidها به چالاکی معروفند، اما نه به اندازه شما!"</item>
+    <item msgid="7916250650982813737">"اوف."</item>
+    <item msgid="6836603904515182333">"‏L33t بار."</item>
+    <item msgid="7508085100680861631">"عجب سرعت حیرت‌آوری."</item>
+    <item msgid="5961245252909589573">"بیایید توقف زمان را دوباره انجام دهیم."</item>
+    <item msgid="5211891900854545940">"فقط یک پرش به چپ."</item>
+    <item msgid="9071353477103826053">"شما پالتی برای سرعت دارید."</item>
+    <item msgid="3785193933691117181">"سرعت فوتونی."</item>
+  </string-array>
+    <string-array name="timer_notifications">
+    <item msgid="7760558912503484257">"کمتر از یک دقیقه باقیمانده است"</item>
+    <item msgid="83197792732433351">"<ns1:g id="HOURS">%1$s</ns1:g> باقیمانده"</item>
+    <item msgid="8919698220200894252">"<ns1:g id="MINUTES">%2$s</ns1:g> باقیمانده"</item>
+    <item msgid="8458069283817013813">"<ns1:g id="HOURS">%1$s</ns1:g> <ns1:g id="MINUTES">%2$s</ns1:g> باقیمانده"</item>
+  </string-array>
+    <string-array name="timezone_labels">
+    <item msgid="5495601234086197399">"جزایر مارشال"</item>
+    <item msgid="4196408495909011020">"جزیره میدوی"</item>
+    <item msgid="1414384194857730006">"هاوایی"</item>
+    <item msgid="2687091371581931926">"آلاسکا"</item>
+    <item msgid="1922100269679049660">"وقت اقیانوس آرام"</item>
+    <item msgid="7156402158716866161">"تیهوانا"</item>
+    <item msgid="1144117502254612241">"آریزونا"</item>
+    <item msgid="101284182011722637">"چیواوا"</item>
+    <item msgid="689121094232986897">"وقت کوه‌های راکی"</item>
+    <item msgid="5445331923942302756">"آمریکای مرکزی"</item>
+    <item msgid="2749806434052452351">"وقت مرکزی"</item>
+    <item msgid="3997138870229703753">"مکزیکوسیتی"</item>
+    <item msgid="5425567073027744888">"ساسکاچوان"</item>
+    <item msgid="2877342865396629368">"بوگوتا"</item>
+    <item msgid="568682398893899670">"وقت شرقی"</item>
+    <item msgid="668135984541863866">"ونزوئلا"</item>
+    <item msgid="3737474220861486223">"زمان اقیانوس اطلس (باربادوس)"</item>
+    <item msgid="6279116051273436870">"زمان اقیانوس اطلس (کانادا)"</item>
+    <item msgid="8513382867172014244">"ماناوس"</item>
+    <item msgid="7776299003105932407">"سانتیاگو"</item>
+    <item msgid="8636989494746218677">"نیوفاندلند"</item>
+    <item msgid="4402541016410147505">"برازیلیا"</item>
+    <item msgid="2251184440733164084">"بوینوس آیرس"</item>
+    <item msgid="6202926618569004969">"گرینلند"</item>
+    <item msgid="2355275037115290628">"مونته ویدیو"</item>
+    <item msgid="1377549694711708945">"آتلانتیک میانی"</item>
+    <item msgid="3457671272126347981">"آزورس"</item>
+    <item msgid="3659315141063710840">"جزایر کیپ ورد"</item>
+    <item msgid="1260941741802367635">"کازابلانکا"</item>
+    <item msgid="8275203689687954762">"لندن، دوبلین"</item>
+    <item msgid="5970179539479320905">"آمستردام، برلین"</item>
+    <item msgid="5396319478750517962">"بلگراد"</item>
+    <item msgid="8688787475056663004">"بروکسل"</item>
+    <item msgid="3415827874921681622">"سارایوو"</item>
+    <item msgid="402008965928320066">"ويندهوک"</item>
+    <item msgid="6436942724959275569">"وقت غرب آفریقا"</item>
+    <item msgid="954536568417204026">"عمان، اردن"</item>
+    <item msgid="8932745482008902551">"آتن، استانبول"</item>
+    <item msgid="320025725949024510">"بیروت، لبنان"</item>
+    <item msgid="7242083112551905970">"قاهره"</item>
+    <item msgid="7241520146011450419">"هلسینکی"</item>
+    <item msgid="2717065017510546526">"بیت‌المقدس"</item>
+    <item msgid="8698556287741466553">"مينسک"</item>
+    <item msgid="1797598357342084506">"هراره"</item>
+    <item msgid="5169119919905066998">"بغداد"</item>
+    <item msgid="2615788116201065182">"مسکو"</item>
+    <item msgid="9084354867885584646">"کویت"</item>
+    <item msgid="1351570519986178268">"نایروبی"</item>
+    <item msgid="7094569580635877460">"تهران"</item>
+    <item msgid="3953138772617909704">"باکو"</item>
+    <item msgid="2868893113598800752">"تفلیس"</item>
+    <item msgid="7088581865802476373">"ایروان"</item>
+    <item msgid="1941122257623887992">"دبی"</item>
+    <item msgid="9194797225058249720">"کابل"</item>
+    <item msgid="6486569254364577332">"اسلام آباد، کراچی"</item>
+    <item msgid="5487724896895412089">"اورالسک"</item>
+    <item msgid="364906869710826982">"یکاترینبورگ"</item>
+    <item msgid="2106505051751383358">"کلکته"</item>
+    <item msgid="6851586621581501447">"سری لانکا"</item>
+    <item msgid="800438544128213134">"کاتماندو"</item>
+    <item msgid="6173621471007643021">"آستانا"</item>
+    <item msgid="8645125891971581128">"یانگون"</item>
+    <item msgid="2886407505119737794">"کراسنویارسک"</item>
+    <item msgid="3408222398188107090">"بانکوک"</item>
+    <item msgid="4441612937172851228">"پکن"</item>
+    <item msgid="4936715789028996930">"هنگ کنگ"</item>
+    <item msgid="4261031143777385525">"ایرکوتسک"</item>
+    <item msgid="3538060959338191835">"کوالالامپور"</item>
+    <item msgid="1438847562643099201">"پرث"</item>
+    <item msgid="3063913827688244383">"تایپه"</item>
+    <item msgid="3502757135046564209">"سئول"</item>
+    <item msgid="6107588684519111669">"توکیو، اوزاکا"</item>
+    <item msgid="4350769099755608471">"یاکوتسک"</item>
+    <item msgid="2422707004533526462">"آدلاید"</item>
+    <item msgid="1292192084554134339">"داروین"</item>
+    <item msgid="1320883699470001716">"بریسبین"</item>
+    <item msgid="5137198806146386527">"هوبارت"</item>
+    <item msgid="5920063686933941174">"سیدنی، کانبرا"</item>
+    <item msgid="615906039696009425">"ولادی ووستوک"</item>
+    <item msgid="7738680449356275374">"گوام"</item>
+    <item msgid="2882915026380778227">"ماگادان"</item>
+    <item msgid="8255615641810148152">"اوکلند"</item>
+    <item msgid="3027153773466391728">"فیجی"</item>
+    <item msgid="5911600083231840181">"تونگا"</item>
+    <item msgid="5176858645450908751">"جاکارتا"</item>
+  </string-array>
+    <string-array name="volume_button_setting_entries">
+    <item msgid="7972756698723318690">"تعویق"</item>
+    <item msgid="3450979320164769576">"رد کردن"</item>
+    <item msgid="6302517608411378024">"كاری انجام نشود"</item>
+  </string-array>
+    <string-array name="week_start_entries">
+    <item msgid="9010198173394482639">"شنبه"</item>
+    <item msgid="3993530639455360921">"یک‌شنبه"</item>
+    <item msgid="8594709368683324282">"دوشنبه"</item>
+  </string-array>
+    <plurals formatted="false" msgid="4539186407746763655" name="Nhours_description">
+      <item quantity="one">‏<ns1:g id="NUMBER">%d</ns1:g> ساعت</item>
+      <item quantity="other">‏<ns1:g id="NUMBER">%d</ns1:g> ساعت</item>
+    </plurals>
+    <plurals formatted="false" msgid="6373760365221990859" name="Nminutes_description">
+      <item quantity="one">‏<ns1:g id="NUMBER">%d</ns1:g> دقیقه</item>
+      <item quantity="other">‏<ns1:g id="NUMBER">%d</ns1:g> دقیقه</item>
+    </plurals>
+    <plurals formatted="false" msgid="6456500168536594889" name="Nseconds_description">
+      <item quantity="one">‏<ns1:g id="NUMBER">%d</ns1:g> ثانیه</item>
+      <item quantity="other">‏<ns1:g id="NUMBER">%d</ns1:g> ثانیه</item>
+    </plurals>
+    <plurals formatted="false" msgid="7844300009062867865" name="alarm_alert_snooze_duration">
+      <item quantity="one">‏<ns1:g id="NUMBER">%d</ns1:g> دقیقه</item>
+      <item quantity="other">‏<ns1:g id="NUMBER">%d</ns1:g> دقیقه</item>
+    </plurals>
+    <plurals formatted="false" msgid="3212729193036041768" name="alarm_alert_snooze_set">
+      <item quantity="one">تعویق به مدت <ns1:g id="MINUTES">%d</ns1:g> دقیقه.</item>
+      <item quantity="other">تعویق به مدت <ns1:g id="MINUTES">%d</ns1:g> دقیقه.</item>
+    </plurals>
+    <plurals formatted="false" msgid="3591262014329613293" name="alarm_delete_confirmation">
+      <item quantity="one">هشدارهای انتخاب شده حذف شوند؟</item>
+      <item quantity="other">هشدارهای انتخاب شده حذف شوند؟</item>
+    </plurals>
+    <plurals formatted="false" msgid="6579258788774360396" name="auto_silence_summary">
+      <item quantity="one"><ns1:g id="FORMATTED_NUMBER">%s</ns1:g> دقیقه</item>
+      <item quantity="other"><ns1:g id="FORMATTED_NUMBER">%s</ns1:g> دقیقه</item>
+    </plurals>
+    <plurals formatted="false" msgid="3706846447285206235" name="days">
+      <item quantity="one"><ns1:g id="NUMBER">%s</ns1:g> روز</item>
+      <item quantity="other"><ns1:g id="NUMBER">%s</ns1:g> روز</item>
+    </plurals>
+    <plurals formatted="false" msgid="3871283109767171655" name="hours">
+      <item quantity="one"><ns1:g id="NUMBER">%s</ns1:g> ساعت</item>
+      <item quantity="other"><ns1:g id="NUMBER">%s</ns1:g> ساعت</item>
+    </plurals>
+    <plurals formatted="false" msgid="5484431721696058697" name="minutes">
+      <item quantity="one"><ns1:g id="NUMBER">%s</ns1:g> دقیقه</item>
+      <item quantity="other"><ns1:g id="NUMBER">%s</ns1:g> دقیقه</item>
+    </plurals>
+    <plurals formatted="false" msgid="3112918131095248271" name="snooze_duration">
+      <item quantity="one">‏<ns1:g id="NUMBER">%s</ns1:g> دقیقه</item>
+      <item quantity="other">‏<ns1:g id="NUMBER">%s</ns1:g> دقیقه</item>
+    </plurals>
+    <plurals formatted="false" msgid="322739253661747732" name="snooze_picker_label">
+      <item quantity="one">دقیقه</item>
+      <item quantity="other">دقیقه</item>
+    </plurals>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"پیمایش به صفحه اصلی"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"‏%1$s‏، %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"‏%1$s‏، %2$s‏، %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"پیمایش به بالا"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"گزینه‌های بیشتر"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"تمام"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"مشاهده همه"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"انتخاب برنامه"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"خاموش"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"روشن"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"جستجو…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"پاک کردن عبارت جستجو"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"عبارت جستجو"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"جستجو"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"ارسال عبارت جستجو"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"جستجوی شفاهی"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"اشتراک‌گذاری با"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"‏اشتراک‌گذاری با %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"کوچک کردن"</string>
+    <string msgid="5976616107390962899" name="add_alarm">"افزودن زنگ ساعت"</string>
+    <string msgid="3272183025444682500" name="alarm_alert_dismiss_now_text">"اکنون نادیده گرفته شود"</string>
+    <string msgid="4942914605480888820" name="alarm_alert_dismiss_text">"رد کردن"</string>
+    <string msgid="2459925305288819812" name="alarm_alert_off_action_text">"خاموش"</string>
+    <string msgid="4472073417593915002" name="alarm_alert_off_text">"هشدار خاموش"</string>
+    <string msgid="5723945586913705445" name="alarm_alert_predismiss_title">"هشدار بعدی"</string>
+    <string msgid="1774416052207651584" name="alarm_alert_snooze_text">"تعویق"</string>
+    <string msgid="6958013659168344550" name="alarm_alert_snooze_until">"تعویق تا <ns1:g id="TIME">%s</ns1:g>"</string>
+    <string msgid="7064642998528766113" name="alarm_alert_snoozed_text">"به تعویق افتاده"</string>
+    <string msgid="6790780716498252583" name="alarm_alert_wake_up">"بیدار شو!"</string>
+    <string msgid="740283647046258651" name="alarm_button_description">"هشدارها"</string>
+    <string msgid="8810520940995307437" name="alarm_cant_be_dismissed_still_more_than_24_hours_away">"<ns1:g id="ALARM_TIME">%s</ns1:g> اکنون نمی‌توانید زنگ هشدار را خاموش کنید، هنوز بیش از ۲۴ ساعت باقی‌مانده است"</string>
+    <string msgid="6131529309389084785" name="alarm_deleted">"هشدار حذف شد"</string>
+    <string msgid="5509897230565826642" name="alarm_is_dismissed">"زنگ هشدار <ns1:g id="ALARM_TIME">%s</ns1:g> خاموش شد"</string>
+    <string msgid="5503226382620011088" name="alarm_is_set">"هشدار برای <ns1:g id="ALARM_TIME">%s</ns1:g> تنظیم می‌شود"</string>
+    <string msgid="7044644119744928846" name="alarm_is_snoozed">"زنگ هشدار <ns1:g id="ALARM_TIME">%s</ns1:g> به مدت ۱۰ دقیقه به تعویق افتاد"</string>
+    <string msgid="2147506334302260256" name="alarm_klaxon_service_desc">"نمظیم سرویس بازپخش صدا برای هشدارها در \"ساعت رومیزی\"."</string>
+    <string msgid="7589940465292950600" name="alarm_list_title">"هشدارها"</string>
+    <string msgid="6585658367289194023" name="alarm_missed_text">"<ns1:g id="ALARM_TIME">%s</ns1:g> - <ns1:g id="ALARM_LABEL">%s</ns1:g>"</string>
+    <string msgid="3828345099754063392" name="alarm_missed_title">"هشدارهای بی‌پاسخ"</string>
+    <string msgid="5404083762646377829" name="alarm_notify_snooze_label">"<ns1:g id="LABEL">%s</ns1:g> (معوق)"</string>
+    <string msgid="4819324081410990368" name="alarm_notify_snooze_text">"هشدار برای <ns1:g id="TIME">%s</ns1:g> تنظیم شد. جهت لغو لمس کنید."</string>
+    <string msgid="4891014685945904766" name="alarm_notify_text">"هشدار را قطع کنید یا به‌تعویق بیندازید."</string>
+    <string msgid="7242985466344233206" name="alarm_repeat">"تکرار"</string>
+    <string msgid="2947147071388290814" name="alarm_settings">"هشدارها"</string>
+    <string msgid="7873594221106531654" name="alarm_today">"امروز"</string>
+    <string msgid="131356848787643420" name="alarm_tomorrow">"فردا"</string>
+    <string msgid="5710042601177655254" name="alarm_undo">"واگرد"</string>
+    <string msgid="3476686921490362230" name="alarm_vibrate">"لرزش"</string>
+    <string msgid="8506245173912428522" name="alarm_volume_title">"میزان صدای هشدار"</string>
+    <string msgid="1075308195332888260" name="alarms_selected">"<ns1:g id="ALARMS">%d</ns1:g> انتخاب شد"</string>
+    <string msgid="6506982899651975645" name="alert">"آهنگ زنگ هشدار"</string>
+    <string msgid="278532320068394600" name="all_timers_stopped_notif">"برای دیدن تایمرهای خود لمس کنید"</string>
+    <string msgid="1670505720837152766" name="analog_gadget">"ساعت آنالوگ"</string>
+    <string msgid="6674495003718166674" name="app_label">"ساعت"</string>
+    <string msgid="4821982647348750809" name="auto_silence_never">"هیچ‌وقت"</string>
+    <string msgid="2012754009554434544" name="auto_silence_title">"سکوت پس از"</string>
+    <string msgid="6274174710735449252" name="automatic_home_clock">"ساعت خودکار برای مبدأ"</string>
+    <string msgid="6020476321040807273" name="automatic_home_clock_summary">"هنگام سفر در منطقه‌ای که با منطقه شما اختلاف زمانی دارد، می‌توانید ساعتی برای محل زندگی‌تان اضافه کنید"</string>
+    <string msgid="3907838219512538763" name="button_alarms">"افزودن زنگ ساعت"</string>
+    <string msgid="4555761857494501363" name="button_cities">"شهرها"</string>
+    <string msgid="6050484561842120282" name="button_menu">"گزینه‌های بیشتر"</string>
+    <string msgid="8552462751129256730" name="cities_activity_title">"شهرها"</string>
+    <string msgid="1335509457349179514" name="city_added">"<ns1:g id="CITY_NAME">%s</ns1:g> اضافه شد"</string>
+    <string msgid="1783441538785676299" name="city_delete_confirmation">"این شهر حذف شود؟"</string>
+    <string msgid="3935141305276867838" name="city_deleted">"<ns1:g id="CITY_NAME">%s</ns1:g> حذف شد"</string>
+    <string msgid="2656876819515011590" name="clock_instructions">"انتخاب یک ساعت"</string>
+    <string msgid="8317286807280600391" name="clock_settings">"ساعت"</string>
+    <string msgid="2265011060429742344" name="clock_style">"سبک"</string>
+    <string msgid="3561772046433483980" name="collapse_alarm">"هشدار کوچک‌کردن"</string>
+    <string msgid="2194676418924016327" name="control_set_alarm">"تنظیم زنگ ساعت"</string>
+    <string msgid="3477418548382111184" name="custom_ringtone">"آهنگ زنگ سفارشی"</string>
+    <string msgid="971998564991636532" name="day_concat">"، "</string>
+    <string msgid="3968620852217927702" name="day_picker_description">"روزهای ماه به صورت جدول"</string>
+    <string msgid="5590025289805630372" name="default_label">"هشدار"</string>
+    <string msgid="4549726190682964245" name="default_ringtone_setting_title">"تنظیم صدای زنگ پیش‌فرض"</string>
+    <string msgid="5732434972457000541" name="delete">"حذف"</string>
+    <string msgid="3457780990646206817" name="delete_alarm">"حذف زنگ ساعت"</string>
+    <string msgid="6578572637340860840" name="delete_alarm_confirm">"این هشدار حذف شود؟"</string>
+    <string msgid="6908431551612331381" name="deleted_key">"<ns1:g id="KEY">%1$s</ns1:g> حذف شد"</string>
+    <string msgid="1220848140260509437" name="deleted_message">"حذف شد"</string>
+    <string msgid="1841309486023845685" name="description_direction_both">"برای تعویق، انگشتتان را روی صفحه به چپ و برای رد کردن به راست بکشید"</string>
+    <string msgid="7448141043674998679" name="description_direction_left">"برای تعویق، انگشتتان را روی صفحه تند به چپ بکشید"</string>
+    <string msgid="5709209043267548985" name="description_direction_right">"برای ردکردن، انگشتتان را روی صفحه تند به راست بکشید"</string>
+    <string msgid="4207371097361657274" name="desk_clock_button_description">"نمایش ساعت"</string>
+    <string msgid="2326954556720571358" name="digital_gadget">"ساعت دیجیتال"</string>
+    <string msgid="5889378670229554109" name="disable_alarm">"خاموش کردن زنگ ساعت"</string>
+    <string msgid="7204593078688533541" name="dismiss_alarm">"رد کردن زنگ هشدار"</string>
+    <string msgid="6509722361933858451" name="done">"تمام"</string>
+    <string msgid="7007948707597430919" name="done_label">"تمام"</string>
+    <string msgid="1834599140632142536" name="enable_alarm">"روشن کردن زنگ ساعت"</string>
+    <string msgid="4100909974923444602" name="every_day">"هر روز"</string>
+    <string msgid="7392616528943305020" name="expand_alarm">"هشدار بزرگ‌کردن"</string>
+    <string msgid="1151743663255257668" name="gallery_button_description">"گالری"</string>
+    <string msgid="7786263119482654015" name="help">"راهنما"</string>
+    <string msgid="3217727306480505694" name="hide_clock">"پنهان کردن ساعت"</string>
+    <string msgid="3383859096809056157" name="home_button_description">"راه انداز"</string>
+    <string msgid="4436139365695453870" name="home_label">"ساعت محلی"</string>
+    <string msgid="9199730676287974501" name="home_time_zone">"منطقهٔ زمانی مبدأ"</string>
+    <string msgid="807894493443834624" name="home_time_zone_title">"منطقهٔ زمانی مبدأ"</string>
+    <string msgid="7586639618712934060" name="hour_picker_description">"لغزنده دایره‌ای ساعت"</string>
+    <string msgid="3393478155635368097" name="hours_label">"س"</string>
+    <string msgid="8652842524970971830" name="hours_label_description">"ساعت"</string>
+    <string msgid="2782334750243998633" name="invalid_time">"زمان نامعتبر است <ns1:g id="INVALID_AMPM">%s</ns1:g> ‏<ns1:g id="INVALID_MINUTES">%d</ns1:g>:‏<ns1:g id="INVALID_HOUR">%d</ns1:g>"</string>
+    <string msgid="3104567893212932487" name="invalid_timer_length">"مدت زمان  تایمر نامعتبر است"</string>
+    <string msgid="2674929164900463786" name="item_is_selected">"<ns1:g id="ITEM">%1$s</ns1:g> انتخاب شد"</string>
+    <string msgid="162189613902857319" name="label">"برچسب"</string>
+    <string msgid="8736179296142915727" name="label_description">"برچسب"</string>
+    <string msgid="6523322777415268044" name="loading_ringtone">"در حال بارگیری آهنگ زنگ..."</string>
+    <string msgid="4772010125376647519" name="menu_alarm">"هشدار"</string>
+    <string msgid="5612760670606829805" name="menu_clock">"ساعت"</string>
+    <string msgid="3241995064554071588" name="menu_desk_clock">"ساعت رومیزی"</string>
+    <string msgid="7204602994918829751" name="menu_edit_alarm">"ویرایش زنگ ساعت"</string>
+    <string msgid="4570953476186849841" name="menu_item_help">"راهنما"</string>
+    <string msgid="3486930302245398975" name="menu_item_night_mode">"حالت شب"</string>
+    <string msgid="1413723516369078665" name="menu_item_settings">"تنظیمات"</string>
+    <string msgid="3120860422682721706" name="menu_item_sort_by_gmt_offset">"مرتب‌سازی براساس زمان"</string>
+    <string msgid="1762931290495104106" name="menu_item_sort_by_name">"مرتب‌سازی براساس نام"</string>
+    <string msgid="3396117705293574701" name="menu_stopwatch">"کرونومتر"</string>
+    <string msgid="6459070074762877114" name="menu_timer">"تایمر"</string>
+    <string msgid="6024811202872705251" name="minute_picker_description">"لغزنده دایره‌ای دقیقه"</string>
+    <string msgid="3568098128251438588" name="minutes_label">"د"</string>
+    <string msgid="965686733490357796" name="minutes_label_description">"دقیقه"</string>
+    <string msgid="5295473204045979335" name="missed_alarm_has_been_deleted">"هشدار بی‌پاسخ حذف شد"</string>
+    <string msgid="6722110840279707462" name="multiple_timers_available">"تکمیل درخواست شما ممکن نیست، چندین تایمر وجود دارد"</string>
+    <string msgid="1626593420810117999" name="music_button_description">"موسیقی"</string>
+    <string msgid="2650244835760747046" name="next_alarm_description">"هشدار بعدی: <ns1:g id="ALARM_TIME">%s</ns1:g>"</string>
+    <string msgid="6136454740115613653" name="next_timer_notif">"تایمر بعدی: <ns1:g id="TIME_REMAINING">%s</ns1:g>"</string>
+    <string msgid="1017350187324162631" name="night_mode_summary">"نمایشگر بسیار تیره (برای اتاق‌های تاریک)"</string>
+    <string msgid="5983813889469616299" name="night_mode_title">"حالت شب"</string>
+    <string msgid="990894208217576381" name="nightmode_button_description">"کم شدن صدا"</string>
+    <string msgid="8140632482969193119" name="no_alarm_at">"زنگ هشداری برای <ns1:g id="ALARM_TIME_MINUTES">%d</ns1:g>‏:<ns1:g id="ALARM_TIME_HOUR">%d</ns1:g> تنظیم نشده است"</string>
+    <string msgid="4463069177414482818" name="no_alarm_scheduled_for_this_time">"هیچ زنگ هشداری برای این زمان برنامه‌ریزی نشده است"</string>
+    <string msgid="6429431324842022917" name="no_alarms">"بدون هشدار"</string>
+    <string msgid="4887558279496044764" name="no_alarms_set">"هشداری تنظیم نشده است"</string>
+    <string msgid="6250998794542941665" name="no_alarms_with_label">"هیچ زنگ هشداری دارای این برچسب نیست"</string>
+    <string msgid="1007596865203283741" name="no_city_selected">"هیچ شهری انتخاب نشده است"</string>
+    <string msgid="4986161963178722289" name="no_firing_alarms">"هیچ زنگ هشدار آتش‌سوزی وجود ندارد"</string>
+    <string msgid="2008482054428460626" name="no_label_specified">"هیچ برچسبی مشخص نشده است"</string>
+    <string msgid="2115420148192753534" name="no_scheduled_alarms">"هیچ زنگ هشدار زمان‌بندی‌شده‌ای وجود ندارد"</string>
+    <string msgid="3326365650863016606" name="no_timer_set">"هیچ تایمری تنظیم نشده است"</string>
+    <string msgid="2889840988069436254" name="no_upcoming_alarms">"هشداری در آینده فعال نیست"</string>
+    <string msgid="5408769235866082896" name="pick_alarm_to_dismiss">"هشدار موردنظر را برای رد کردن انتخاب کنید"</string>
+    <string msgid="9100911171235162926" name="revert">"برگشت"</string>
+    <string msgid="9110746249688559579" name="ringtone">"آهنگ زنگ"</string>
+    <string msgid="7580922112921069925" name="ringtone_description">"آهنگ زنگ"</string>
+    <string msgid="7013450738357352801" name="screensaver_settings">"تنظیمات رؤیا"</string>
+    <string msgid="124655952824003246" name="seconds_label">"ث"</string>
+    <string msgid="3821620053141299692" name="seconds_label_description">"ثانیه"</string>
+    <string msgid="3973338219107019769" name="select_day">"ماه و روز را انتخاب کنید"</string>
+    <string msgid="7651068754188418859" name="select_hours">"انتخاب ساعت"</string>
+    <string msgid="8327182090226828481" name="select_minutes">"انتخاب دقیقه"</string>
+    <string msgid="2603330600102539372" name="select_year">"سال را انتخاب کنید"</string>
+    <string msgid="3607479399424246605" name="selected_cities_label">"شهرهای منتخب"</string>
+    <string msgid="9148359866152726808" name="set_alarm">"تنظیم زنگ ساعت"</string>
+    <string msgid="5849739030579520686" name="settings">"تنظیمات"</string>
+    <string msgid="8358759982675616915" name="show_clock">"نمایش ساعت"</string>
+    <string msgid="8605302849408279221" name="silent_alarm_summary">"ساکت"</string>
+    <string msgid="2077577763821006919" name="slash">"/"</string>
+    <string msgid="1097309861110780483" name="snooze_duration_title">"طول تعویق"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"۹۹۹+"</string>
+    <string msgid="6598258908106423672" name="stopwatch_already_running">"کرونومتر در حال حاضر فعال است"</string>
+    <string msgid="5713134605500796186" name="stopwatch_cant_be_reset_because_is_running">"نمی‌توان کرنومتر را بازنشانی کرد، چون در حال استفاده است"</string>
+    <string msgid="7147219965448204727" name="stopwatch_isnt_running">"کرونومتر فعال نیست"</string>
+    <string msgid="5844686448815550482" name="stopwatch_lapped">"صفحه کرنومتر برای خوانش زمان ثابت شد"</string>
+    <string msgid="7585914953721021042" name="stopwatch_reset">"کرنومتر بازنشانی شد"</string>
+    <string msgid="8416624630388063996" name="stopwatch_service_desc">"سرویس کرنومتر برای اجرای اعلان."</string>
+    <string msgid="7843882246387176304" name="stopwatch_started">"کرنومتر شروع شد"</string>
+    <string msgid="6927081018816192999" name="stopwatch_stopped">"کرنومتر متوقف شد"</string>
+    <string msgid="6992264696039004233" name="sw_lap_button">"دور"</string>
+    <string msgid="3535420316052647126" name="sw_notification_lap_number">"دور <ns1:g id="NUMBER">%d</ns1:g>"</string>
+    <string msgid="6616804728322906117" name="sw_reset_button">"بازنشانی"</string>
+    <string msgid="2569360966002022248" name="sw_resume_button">"ازسرگیری"</string>
+    <string msgid="4478648110382859382" name="sw_share_button">"اشتراک‏‌گذاری"</string>
+    <string msgid="614390674795945007" name="sw_share_laps">"زمان‌های دور:"</string>
+    <string msgid="7703563468204234405" name="sw_share_main">"زمان من <ns1:g id="TIME">%s</ns1:g> است"</string>
+    <string msgid="8373422516681242270" name="sw_start_button">"شروع"</string>
+    <string msgid="8322958613123274451" name="sw_stop_button">"توقف"</string>
+    <string msgid="783124901663086172" name="swn_stopped">"متوقف شد"</string>
+    <string msgid="3799050213771793020" name="the_city_already_added">"این شهر قبلاً اضافه شده است"</string>
+    <string msgid="1753597460426454543" name="the_city_you_specified_is_not_available">"شهری که مشخص کردید در دسترس نیست"</string>
+    <string msgid="8067216534232296518" name="time">"زمان"</string>
+    <string msgid="1619464909892545536" name="time_format_12_mode">"h:mm a"</string>
+    <string msgid="7998512313148074539" name="time_format_24_mode">"k:mm"</string>
+    <string msgid="6001006474735281911" name="time_picker_00_label">":۰۰"</string>
+    <string msgid="1027250857384838129" name="time_picker_30_label">"۳۰:"</string>
+    <string msgid="6754113715199751083" name="time_picker_ampm_label">"--"</string>
+    <string msgid="7437106489606013077" name="time_picker_cancel">"لغو"</string>
+    <string msgid="331153175471468051" name="time_picker_set">"تأیید"</string>
+    <string msgid="7484926510054777041" name="time_picker_time_seperator">":"</string>
+    <string msgid="862733633862574752" name="timer_add_timer">"افزودن تایمر"</string>
+    <string msgid="1259351124772803097" name="timer_already_running">"تایمر در حال حاضر فعال است"</string>
+    <string msgid="8865820275829449054" name="timer_already_stopped">"تایمر در حال حاضر متوقف است"</string>
+    <string msgid="3572868404230815644" name="timer_cancel">"لغو"</string>
+    <string msgid="7880015473706806640" name="timer_cant_be_reset_because_its_running">"تایمر بازنشانی نمی‌شود، چون هنوز فعال است. تایمر را برای بازنشانی متوقف کنید."</string>
+    <string msgid="4381027137335885547" name="timer_created">"تایمر ایجاد شد"</string>
+    <string msgid="8699122001991909302" name="timer_delete">"حذف"</string>
+    <string msgid="2815524107015816453" name="timer_delete_confirmation">"این تایمر حذف شود؟"</string>
+    <string msgid="9110322362460029392" name="timer_deleted">"تایمر حذف شد"</string>
+    <string msgid="8794915342760383536" name="timer_descriptive_delete">"حذف <ns1:g id="NUMBER_STRING">%s</ns1:g>"</string>
+    <string msgid="2375990511982914051" name="timer_done">"تمام"</string>
+    <string msgid="4933184831583137249" name="timer_notification_label">"تایمر"</string>
+    <string msgid="8645224089494875062" name="timer_plus_1_min">"افزودن ۱ دقیقه"</string>
+    <string msgid="6631211310420106116" name="timer_plus_one">"افزودن ۱ دقیقه"</string>
+    <string msgid="7848424809190171640" name="timer_reset">"بازنشانی"</string>
+    <string msgid="2620214305660322415" name="timer_ring_service_desc">"تنظیم سرویس بازپخش صدا برای تایمرها در «ساعت»."</string>
+    <string msgid="6158486445614356442" name="timer_start">"شروع"</string>
+    <string msgid="6715582052946641641" name="timer_started">"تایمر شروع شد"</string>
+    <string msgid="3361154678667736722" name="timer_stop">"توقف"</string>
+    <string msgid="2730331837832462008" name="timer_stopped">"تایمر متوقف شد"</string>
+    <string msgid="9190440395938519009" name="timer_times_up">"وقت تمام است"</string>
+    <string msgid="6495796785185062631" name="timer_was_reset">"بازنشانی تایمر"</string>
+    <string msgid="5570729467344408506" name="timers_in_use">"<ns1:g id="NUMBER">%d</ns1:g> تایمر‌"</string>
+    <string msgid="9140022846793903813" name="timers_max_count_reached">"حداکثر ۴ تایمر"</string>
+    <string msgid="2393640808691864520" name="timers_stopped">"<ns1:g id="NUMBER">%d</ns1:g> تایمر متوقف شد"</string>
+    <string msgid="8768042543750036853" name="volume_button_dialog_title">"تأثیر دکمه"</string>
+    <string msgid="6937131248843413357" name="volume_button_setting_title">"دکمه‌های میزان صدا"</string>
+    <string msgid="3425804832021006835" name="weather_fetch_failure">"اطلاعات آب و هوا در حال حاضر در دسترس نیست."</string>
+    <string msgid="4268917518596832096" name="week_start_title">"روز اول هفته"</string>
+    <string msgid="8648842975829470646" name="weekday_time_format_12_mode">"‏EEE، ‏h:mm ‏a"</string>
+    <string msgid="152964494051478631" name="weekday_time_format_24_mode">"‏EEE، ‏k:mm"</string>
+    <string msgid="5911196322328341288" name="world_day_of_week_label">"/ <ns1:g id="LABEL">%s</ns1:g>"</string>
+    <string msgid="6963340404644587098" name="year_picker_description">"فهرست سال‌ها"</string>
+    <string msgid="7102083421938355017" name="zero">"۰"</string>
+</resources>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/composition_show_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <GridView
+                android:id="@+id/composition_girdview"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/gridview_height"
+                android:layout_marginTop="@dimen/gridview_margin_top"
+                android:layout_marginLeft="@dimen/gridview_margin_left"
+                android:layout_marginRight="@dimen/gridview_margin_left"
+                android:gravity="center"
+                android:horizontalSpacing="@dimen/gridview_spacing_size"
+                android:numColumns="@integer/gridview_columns_number"
+                android:stretchMode="columnWidth"
+                android:verticalSpacing="@dimen/gridview_spacing_size" />
+
+            <FrameLayout
+                android:id="@+id/close_composition_layout"
+                android:layout_width="@dimen/close_pose_image_size"
+                android:layout_height="@dimen/close_pose_image_size"
+                android:layout_gravity="right"
+                android:layout_marginRight="@dimen/close_pose_image_margin_right"
+                android:layout_marginTop="@dimen/back_compose_layout_margin_top">
+
+                <ImageView
+                    android:id="@+id/close_composition_image"
+                    android:layout_width="@dimen/pose_image_size"
+                    android:layout_height="@dimen/pose_image_size"
+                    android:layout_gravity="center"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/clear" />
+            </FrameLayout>
+
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/composition_display_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/pose_layout_margin_bottom">
+
+            <com.android.camera.ui.RotateLayout
+                android:id="@+id/display_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true">
+
+                <ImageView
+                    android:id="@+id/detail_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitCenter" />
+
+            </com.android.camera.ui.RotateLayout>
+        </RelativeLayout>
+
+        <FrameLayout
+            android:id="@+id/back_layout"
+            android:layout_width="@dimen/back_compose_layout_size"
+            android:layout_height="@dimen/back_compose_layout_size"
+            android:layout_gravity="bottom|right"
+            android:layout_marginRight="@dimen/back_compose_layout_margin_right"
+            android:layout_marginBottom="@dimen/back_compose_layout_margin_bottom">
+
+            <com.android.camera.ui.RotateImageView
+                android:id="@+id/back_image"
+                android:layout_width="@dimen/pose_image_size"
+                android:layout_height="@dimen/pose_image_size"
+                android:layout_gravity="center"
+                android:scaleType="fitCenter"
+                android:src="@drawable/back" />
+        </FrameLayout>
+
+    </FrameLayout>
+</FrameLayout>

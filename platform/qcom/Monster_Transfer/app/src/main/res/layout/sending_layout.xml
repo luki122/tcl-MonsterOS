@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.CategoryListActivity"
+    android:background="@color/colorPrimary">
+
+    <RelativeLayout
+        android:id="@+id/bg"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="#fcfcfc"
+        android:layout_height="242dp">
+
+        <ImageView
+            android:src="@drawable/transfer_bg"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="242dp"/>
+
+        <cn.tcl.transfer.fasttransfer.SendBackground
+            android:id="@+id/status_icon"
+            android:layout_width="44dp"
+            android:layout_height="24dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="96dp"
+            android:background="@drawable/send_bg"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="horizontal">
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/secondary_text"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:text="@string/text_send_status"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:textSize="12sp"
+            android:fontFamily="monster-normal"
+            android:textColor="#66000000"
+            android:background="@color/transparent"/>
+
+    </RelativeLayout>
+
+
+    <Button
+        android:id="@+id/cancel"
+        android:text="@string/text_cancel"
+        style="@style/bottomBtnStyle"
+        />
+
+    <ScrollView
+        android:id ="@+id/send_scrollview"
+        android:layout_below="@id/bg"
+        android:layout_above="@id/cancel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/transparent">
+            <include android:id="@+id/sys_view" layout="@layout/send_item"/>
+            <include android:id="@+id/app_view" layout="@layout/send_item"/>
+            <include android:id="@+id/image_view" layout="@layout/send_item"/>
+            <include android:id="@+id/video_view" layout="@layout/send_item"/>
+            <include android:id="@+id/audio_view" layout="@layout/send_item"/>
+            <include android:id="@+id/doc_view" layout="@layout/send_item"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+       <!-- voice recorder -->
+    <string name="str_db_playlist_name">我的录音</string>
+    <string name="alert_device_error">录音出错</string>
+    <string name="ext_media_badremoval_notification_title">"SD卡非正常移除"</string>
+    <string name="error_sdcard_access">"无法访问 SD 卡"</string>
+    <string name="confirm_device_info_full">存储卡内容已满，录音已经保存</string>
+    <string name="confirm_save_info_saved">录音已经保存</string>
+    <string name="confirm_save_info_saved_to">录音已经保存到</string>
+    <string name="onscreenRecordText">录音</string>
+    <string name="delete_record_item">删除所选录音</string>
+    <string name="delete_all_record_item">删除所有录音</string>
+    <string name="unselect_all">反选</string>
+    <string name="select_all">全选</string>
+    <string name="cancel">取消</string>
+    <string name="selected_total_num">选中 <xliff:g id="total">%d</xliff:g> 项</string>
+    <string name="no_call_record_history">无记录</string>
+    <string name="call_record_detail_title">录音详情</string>
+    <string name="call_record_message_time">时间：</string>
+    <string name="call_record_message_size">文件大小：</string>
+    <string name="call_record_message_path">路径：手机存储/内部存储器/PhoneRecord/</string>
+    <string name="call_record_delete_title">确定要删除所选录音吗？</string>
+    <string name="call_record_delete_all_title">Delete All record</string>
+    <string name="call_record_delete_message">您确定要删除所选通话录音吗？</string>
+    <string name="call_record_delete_all_message">您确定要删除所有通话录音吗？</string>
+    <string name="call_record">"通话录音"</string>
+    <string name="auto_record">"自动录音"</string>
+    <string name="record_history">"历史录音"</string>
+    <string name="record_close">关闭</string>
+    <string name="record_all_contacts">全部通话</string>
+    <string name="record_select_contact">指定联系人</string>
+    <string name="auto_recording">正在添加，请稍候</string>
+    <string name="auto_recording_remove">正在移除，请稍候</string>
+
+    <!-- Menu item used to edit a specific contact -->
+    <string name="menu_editContact">编辑联系人</string>
+    <string name="clear_all">清除</string>
+    <string name="end_call_waiting">拒接</string>
+    <string name="answer_call_waiting_hold">保持当前通话接听</string>
+    <string name="answer_call_waiting_hangup">挂断当前通话接听</string>
+    <string name="record_button_off">开始录音</string>
+    <string name="record_button_on">结束录音</string>
+    <string name="endcall">结束通话</string>
+    <string name="endcall_dtmf">结束通话</string>
+    <string name="hide_dtmf">隐藏键盘</string>
+    <string name="mark_count">已被<xliff:g id="COUNT">%s</xliff:g>人标记</string>
+    
+    <string name="hold_and_answer">保留并接听</string>
+    <string name="end_and_answer">结束并接听</string>
+    <string name="reject_waiting">拒接</string>
+     <string name="incall_app_label">通话</string>
+     <string name="return_to_incall">返回通话</string>
+     <string name="no_music_activity">没有音乐应用，请下载可以播放amr格式的音乐应用</string>
+      <string name="respond_via_sms_confirmation_format">"信息已发送至 <xliff:g id="PHONE_NUMBER">%s</xliff:g>。"</string>
+      
+     <string name="mark_by_user">已被您标记</string>
+     <string name="slide_delete_record_title">确定要删除所选录音吗？</string>
+     <string name="delete" >删除</string>
+     
+   <string name="private_incoming_call">隐私来电</string>
+    <string name="private_sms_notification">隐私短信通知</string>
+    <string name="private_sms_notification_summary">打开或者关闭通知栏提示</string>
+    <string name="private_notification_text">通知栏提示文字</string>
+    <string name="private_notification_text_summary">有新的系统消息</string>
+    <string name="private_incoming_call_title">隐私来电与短信</string>
+    <string name="private_incoming_noti1_title">来电：</string>
+    <string name="private_incoming_noti1_summary">联系人名称显示为“未知号码”</string>
+    <string name="private_miss_noti1_title">漏接：</string>
+    <string name="private_miss_noti1_summary">以设置的提示文字，在通知栏提示</string>
+    <string name="private_calllog_noti1_title">通话记录：</string>
+    <string name="private_calllog_noti1_summary">不显示隐私联系人的通话记录</string>
+    <string name="private_incoming_noti2_summary">不响铃，自动挂断</string>
+    <string name="private_incoming_noti2_title">通知栏提示：</string>
+    <string name="private_noti_radio1_title">自动挂断+通知栏提示</string>
+    <string name="private_noti_radio2_title">正常接听+漏接时通知栏提示</string>
+    <string name="save_group_dialog_title">"正在保存"</string>
+    <string name="no_privacy_contacts">添加隐私联系人,保护短信和通话</string>
+    <string name="sim_not_ready">"SIM卡未准备好，请检查后重试"</string>
+
+</resources>

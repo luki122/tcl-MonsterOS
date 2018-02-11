@@ -1,0 +1,57 @@
+<resources>
+
+    <style name="CloudActivityTheme" parent="@com.mst:style/Theme.Mst.Material.Light">
+        <!-- 在这里重写你需要的样式 -->
+        <item name="android:colorPrimary">@color/white</item>
+    </style>
+
+    <style name="BackActivityTheme" parent="@com.mst:style/Theme.Mst.Material.Light">
+        <!-- 在这里重写你需要的样式 -->
+        <item name="com.mst:windowLayoutStyle">@style/WindowStyle.Light</item>
+        <item name="android:toolbarStyle">@style/ToolbarStyle</item>
+        <item name="android:colorPrimary">@color/white</item>
+    </style>
+
+    <style name="WindowStyle.Light" parent="com.mst:WindowStyle.Light">
+        <item name="com.mst:windowHasToolbar">true</item>
+        <item name="com.mst:hasBackIcon">true</item>
+    </style>
+
+    <style name="ToolbarStyle" parent="com.mst:ToolbarStyle">
+        <item name="android:elevation">0dp</item>
+    </style>
+
+    <style name="Theme.MstActivity" parent="@com.mst:style/Theme.Mst.Material.Light">
+        <item name="com.mst:windowLayoutStyle">@style/Style.MstActivity</item>
+        <item name="android:toolbarStyle">@style/Style.MstActivity.ToolbarStyle</item>
+        <item name="android:colorControlActivated">@color/bule_bt_color</item>
+
+    </style>
+
+    <style name="Theme.WhiteMstActivity" parent="@com.mst:style/Theme.Mst.Material.Light">
+        <item name="com.mst:windowLayoutStyle">@style/Style.MstActivity</item>
+        <item name="android:toolbarStyle">@style/Style.MstActivity.ToolbarStyle</item>
+        <item name="android:colorControlActivated">@color/bule_bt_color</item>
+        <item name="android:colorPrimary">@color/white</item>
+    </style>
+
+    <style name="Style.MstActivity" parent="com.mst:WindowStyle.Light">
+        <item name="com.mst:hasBackIcon">true</item>
+    </style>
+
+    <style name="Style.MstActivity.ToolbarStyle" parent="com.mst:style/ToolbarStyle">
+    </style>
+    <style name="MyDialogProgress" parent="com.mst:Dialog.Spinner">
+        <item name="android:colorControlActivated">@color/bule_bt_color</item>
+    </style>
+
+    <style name="Theme.Transparent" parent="@com.mst:style/Theme.Mst.Material.Light">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+</resources>

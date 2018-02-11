@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="check_new">Skontrolovať aktualizácie</string>
+    <string name="downloaded_finish">Preberanie sa dokončilo</string>
+    <string name="downloading">Preberá sa...</string>
+    <string name="network_error_tip">Chyba siete. Skontrolujte si pripojenie k internetu a skúste znovu.</string>
+    <string name="notification_downloading">Preberá sa</string>
+    <string name="tip_network_error">Chyba siete</string>
+    <string name="try_later">Neskôr</string>
+    <string name="update">Teraz</string>
+    <string name="update_ask_tip">Je potrebná aktualizácia na najnovšiu verziu</string>
+    <string name="update_available">K dispozícii je aktualizácia</string>
+    <string name="update_confirm">OK</string>
+    <string name="update_detail_prefix">Podrobnosti aktualizácie:</string>
+    <string name="update_download_fail">Preberanie zlyhalo</string>
+    <string name="update_force_nofity_tip">Odporúčame aktualizovať na najnovšiu verziu aplikácie.</string>
+    <string name="update_no_need">Toto je najnovšia verzia</string>
+    <string name="update_no_updates">Žiadne aktualizácie</string>
+    <string name="update_no_updates_tip">Žiadne aktualizácie</string>
+    <string name="update_not_now">Teraz nie</string>
+    <string name="update_notification_tips">Ak chcete získať vyššiu kvalitu používania, aktualizujte na najnovšiu verziu.</string>
+    <string name="update_notification_title">Oznámenie o aktualizácii</string>
+    <string name="update_notify_tip">K dispozícii je nová verzia. Aktualizovať teraz?</string>
+    <string name="update_now">Aktualizovať</string>
+    <string name="versionDesc">Informácie o verzii:</string>
+</resources>

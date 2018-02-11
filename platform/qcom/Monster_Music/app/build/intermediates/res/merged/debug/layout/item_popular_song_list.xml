@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="152dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="10dp"
+    >
+
+    <ImageView
+        android:id="@+id/online_popular_song_list_cover"
+        android:layout_width="152dp"
+        android:layout_height="152dp"
+        android:layout_marginBottom="8dp"
+        android:src="@drawable/empty_album"/>
+
+    <TextView
+        android:id="@+id/online_popular_song_list_play_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="4dp"
+        android:paddingRight="8dp"
+        android:drawableLeft="@drawable/online_eraphone"
+        android:drawablePadding="4dp"
+        android:layout_alignRight="@+id/online_popular_song_list_cover"
+        android:text="@string/i_like"
+        android:textColor="@color/white"
+        android:textSize="10sp"/>
+
+    <TextView
+        android:id="@+id/online_popular_song_list_name"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/online_popular_song_list_cover"
+        android:layout_marginBottom="4dp"
+        android:alpha="0.86"
+        android:text="@string/share"
+        android:textColor="@color/black"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:id="@+id/online_popular_song_list_user_name"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/online_popular_song_list_name"
+        android:layout_marginBottom="4dp"
+        android:alpha="0.4"
+        android:text="@string/share"
+        android:textColor="@color/black"
+        android:textSize="10sp"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/sperator"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/default_category_divider"
+        android:background="@color/seperator"/>
+
+    <RelativeLayout
+        android:id="@+id/wifi_protected"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <ImageView
+            android:id="@+id/wifi_security_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/mps_wifi_security_small"
+            tools:ignore="ContentDescription" />
+
+
+        <TextView
+            android:id="@+id/wifi_security_name"
+            style="@com.mst:style/TextAppearance.Mst.Material.Subhead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="18dp"
+            android:layout_toRightOf="@id/wifi_security_icon"
+            android:maxLines="1"
+            android:text="@string/wifi_security" />
+
+
+        <TextView
+            android:id="@+id/wifi_scan_state"
+            style="@com.mst:style/TextAppearance.Mst.Material.Caption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:maxLines="1"
+            android:text="@string/security_protecting"
+            android:textColor="@color/text_color_light_blue" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/mms_protected"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <ImageView
+            android:id="@+id/mms_security_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/mps_sms_security_small"
+            tools:ignore="ContentDescription" />
+
+
+        <TextView
+            android:id="@+id/mms_security_name"
+            style="@com.mst:style/TextAppearance.Mst.Material.Subhead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="18dp"
+            android:layout_toRightOf="@id/mms_security_icon"
+            android:maxLines="1"
+            android:text="@string/payment_security" />
+
+
+        <TextView
+            android:id="@+id/mms_scan_state"
+            style="@com.mst:style/TextAppearance.Mst.Material.Caption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:maxLines="1"
+            android:text="@string/security_protecting"
+            android:textColor="@color/text_color_light_blue" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/system_protected"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <ImageView
+            android:id="@+id/system_security_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/mps_system_bug_small"
+            tools:ignore="ContentDescription" />
+
+
+        <TextView
+            android:id="@+id/system_security_name"
+            style="@com.mst:style/TextAppearance.Mst.Material.Subhead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="18dp"
+            android:layout_toRightOf="@id/system_security_icon"
+            android:maxLines="1"
+            android:text="@string/system_bug" />
+
+
+        <TextView
+            android:id="@+id/system_scan_state"
+            style="@com.mst:style/TextAppearance.Mst.Material.Caption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:maxLines="1"
+            android:text="@string/security_protecting"
+            android:textColor="@color/text_color_light_blue" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/app_protected"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <ImageView
+            android:id="@+id/app_security_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/mps_app_security_small"
+            tools:ignore="ContentDescription" />
+
+
+        <TextView
+            android:id="@+id/app_security_name"
+            style="@com.mst:style/TextAppearance.Mst.Material.Subhead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="18dp"
+            android:layout_toRightOf="@id/app_security_icon"
+            android:maxLines="1"
+            android:text="@string/app_security" />
+
+
+        <TextView
+            android:id="@+id/app_scan_state"
+            style="@com.mst:style/TextAppearance.Mst.Material.Caption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:maxLines="1"
+            android:text="@string/security_protecting"
+            android:textColor="@color/text_color_light_blue" />
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">支付安全</string>
+
+    <!--支付环境扫描-->
+    <string name="accessibility_service_name">支付环境检测</string>
+    <string name="accessibility_service_description">启动支付应用时，进行支付环境扫描</string>
+    <string name="applist_protecting">正在防护支付应用 (%1$d个)</string>
+    <string name="applist_unprotect">未防护支付应用 (%1$d个)</string>
+    <string name="pay_app_detecting">支付环境检测中···</string>
+    <string name="pay_app_network_unavailable">检测未联网，安全状况未知，请联网后重试</string>
+    <string name="pay_app_safe">支付环境安全，请放心支付</string>
+    <string name="pay_app_has_risk">检测到支付风险，建议停止支付</string>
+    <string name="pay_app_find_risk">发现支付风险，请停止支付</string>
+    <string name="continue_to_pay">继续支付</string>
+    <string name="handle_risk">处理风险</string>
+    <string name="confirm_continue_to_pay">本次支付存在支付风险，确认继续支付？</string>
+    <string name="confirm_continue">确认继续</string>
+    <string name="count">%1$d</string>
+
+    <string name="scan_progress_and_risk_count"><Data><![CDATA[已扫描%1$d%%&#160;&#160;发现&#160;&#160;<font color="#C54B4A"><b>%2$d</b></font>&#160;&#160;项风险]]></Data></string>
+    <string name="wifi_security">WiFi安全</string>
+    <string name="payment_security">支付短信安全</string>
+    <string name="app_security">应用安全</string>
+    <string name="system_bug">系统漏洞</string>
+    <string name="start_scanning">开始扫描</string>
+    <string name="stop_scanning">结束扫描</string>
+    <string name="restart_scanning">重新扫描</string>
+    <string name="white_list_manager">@string/settings_white_list</string>
+    <string name="confirm_stop_payment_env_scan">是否停止支付环境扫描？</string>
+    <string name="scan_finish_state_no_risk">扫描完成，未发现风险</string>
+    <string name="handle_finish_no_risk">风险已解除，手机安全防护中</string>
+    <string name="scan_finish_state_has_risk"><Data><![CDATA[扫描完成，发现&#160;<font color="#C54B4A"><b>%1$d</b></font>&#160;项风险]]></Data></string>
+    <string name="scan_cancel_state_has_risk"><Data><![CDATA[扫描暂停，发现&#160;<font color="#C54B4A"><b>%1$d</b></font>&#160;项风险]]></Data></string>
+    <string name="app_risk_category_title">发现应用病毒或风险%1$d个</string>
+    <string name="scan_cancel_state_no_risk">扫描停止，暂未发现风险</string>
+    <string name="security_protecting">安全防护中</string>
+    <string name="ignore">忽略</string>
+    <string name="the_package_containing_virus_recommended_to_clean">该安装包发现病毒风险，建议清除</string>
+    <string name="the_app_containing_virus_recommended_to_clean">该已装应用发现病毒风险，建议清除</string>
+    <string name="clean_up">立即清理</string>
+    <string name="payment_app_env_detected_title">支付应用环境检测</string>
+    <string name="payment_app_env_risk_detected_summary">支付应用启动时，系统自动检测支\n付环境，确保支付安全</string>
+    <string name="wifi_risk_detected_title">Wi-Fi名称:%1$s</string>
+    <string name="wifi_risk_detected_summary">发现DNS服务器劫持、ARP攻击、\n虚假Wi-Fi等风险，建议停用</string>
+    <string name="mms_risk_detected_title">默认短信为第三方应用</string>
+    <string name="mms_risk_detected_summary">第三方短信应用存在安全风险，建\n议恢复默认短信</string>
+    <string name="system_upgrade_risk_detected_title">新版本%1$s</string>
+    <string name="system_upgrade_risk_detected_summary">更新至最新，系统更安全</string>
+    <string name="stop_now">立即停用</string>
+    <string name="open_now">立即开启</string>
+    <string name="restore_now">恢复默认</string>
+    <string name="upgrade_now">立即升级</string>
+    <string name="success_open">开启成功</string>
+    <string name="success_restore">恢复成功</string>
+    <string name="success_clean">清除成功</string>
+
+
+    <!--设置-->
+    <string name="settings_pref">设置</string>
+    <string name="settings_install_monitor">安装监控</string>
+    <string name="summary_install_monitor">应用安装时检测是否为病毒应用</string>
+    <string name="settings_scan_cloud">开启云端杀毒</string>
+    <string name="summary_scan_cloud">联网杀毒更彻底，扫描时长增加</string>
+    <string name="settings_update_virus_lib">病毒库联网自动更新</string>
+    <string name="summary_update_virus_lib">2016-1-1</string>
+    <string name="settings_white_list">病毒扫描白名单</string>
+    <string name="summary_white_list">进入白名单应用将不进行病毒扫描</string>
+    <string name="pay_app_manager">管理</string>
+
+
+     <!--支付应用管理-->
+    <string name="pay_list_manager">支付应用管理</string>
+    <string name="finished">完成</string>
+
+
+    <!--白名单-->
+    <string name="action_remove">移出</string>
+    <string name="whitelist_group">风险应用 %1$d个 (扫描列表中，左滑点击忽略加入白名单)</string>
+    <string name="package_install_scan_service">应用安装检测</string>
+    <string name="tm_sdk_update_service">支付安全病毒库更新服务</string>
+
+
+</resources>

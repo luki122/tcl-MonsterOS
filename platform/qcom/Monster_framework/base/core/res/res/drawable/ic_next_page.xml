@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="@dimen/toolbar_icon_size_width"
+    android:height="@dimen/toolbar_icon_size_width"
+    android:viewportWidth="56"
+    android:viewportHeight="56">
+
+    <path
+        android:strokeColor="#d8d8d8"
+        android:strokeWidth="3"
+        android:strokeMiterLimit="10"
+        android:strokeLineCap="round"
+        android:pathData="M21.2,15.2l13.5,12.6c0.1,0.1,0.1,0.3,0,0.4L21.2,40.8" />
+</vector>

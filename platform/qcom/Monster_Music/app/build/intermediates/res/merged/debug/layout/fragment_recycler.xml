@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <mst.widget.toolbar.Toolbar
+        android:id="@+id/online_toolbar"
+        android:layout_width="match_parent"
+        android:paddingStart="@dimen/dp_20"
+        android:layout_height="48dp"
+        android:background="@color/white">
+    </mst.widget.toolbar.Toolbar >
+
+    <LinearLayout
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/recycle_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/abc_action_bar_default_height_material"
+        android:scrollbars="vertical"/>
+</LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="@dimen/activity_left_margin"
+        android:layout_marginEnd="@dimen/activity_right_margin"
+        android:layout_marginRight="@dimen/activity_right_margin"
+        android:src="@drawable/xiami_icon" />
+</FrameLayout>

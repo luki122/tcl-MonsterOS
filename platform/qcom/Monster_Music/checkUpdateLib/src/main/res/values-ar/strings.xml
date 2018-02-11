@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    	<string name="tip_network_error">خطأ في الشبكة</string>
+    	<string name="check_new">التحقق من وجود تحديثات</string>
+    	<string name="update_download_fail">فشل التنزيل</string>
+    	<string name="update_ask_tip">تحتاج إلى التحديث إلى آخر إصدار</string>
+    	<string name="update_no_need">هذا هو أحدث إصدار</string>
+    	<string name="downloaded_finish">اكتمل التنزيل</string>
+    	<string name="notification_downloading">جارٍ التنزيل</string>
+    	<string name="update_notification_tips">للحصول على أفضل تجربة، يُرجى التحديث إلى أحدث إصدار.</string>
+    	<string name="update_notification_title">إخطار التحديث</string>
+    	<string name="update">الآن</string>
+    	<string name="try_later">لاحقًا</string>
+    	<string name="versionDesc">معلومات الإصدار:</string>
+    	
+    	<string name="update_available">التحديث متوفر</string>
+    	<string name="downloading">جارٍ التنزيل...</string>
+    	<string name="update_notify_tip">يتوفر إصدار جديد. هل تريد التحديث الآن؟</string>
+    	<string name="update_detail_prefix">تفاصيل التحديث:</string>
+    	<string name="update_not_now">ليس الآن</string>
+    	<string name="update_now">تحديث</string>
+    	<string name="network_error_tip">خطأ في الشبكة. يُرجى التحقق من اتصال الشبكة والمحاولة مرة أخرى.</string>
+    	<string name="update_force_nofity_tip">من المستحسن تحديث التطبيق للحصول على أحدث الإصدارات.</string>
+    	<string name="update_no_updates">لا توجد تحديثات</string>
+    	<string name="update_no_updates_tip">لا توجد تحديثات</string>
+    	<string name="update_confirm">موافق</string>
+</resources>

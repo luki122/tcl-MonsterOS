@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2014 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:key="pref_group_photo_key"
+        android:title="@string/setting_group_photo" >
+        <ListPreference
+            android:defaultValue="@string/pref_camera_picturesize_default"
+            android:entryValues="@array/pref_camera_picturesize_entryvalues"
+            android:entries="@array/pref_camera_picturesize_entries"
+            android:key="pref_camera_picturesize_back_key"
+            android:title="@string/pref_rear_camera_size_title" />
+        <ListPreference
+            android:defaultValue="@string/pref_camera_picturesize_default"
+            android:entryValues="@array/pref_camera_picturesize_entryvalues"
+            android:entries="@array/pref_camera_picturesize_entries"
+            android:key="pref_camera_picturesize_front_key"
+            android:title="@string/pref_front_camera_size_title" />
+
+        <com.android.camera.settings.ManagedSwitchPreference
+            android:defaultValue="false"
+            android:key="pref_camera_grid_lines"
+            android:title="@string/pref_camera_grid_title" />
+        <com.android.camera.settings.ManagedSwitchPreference
+            android:defaultValue="true"
+            android:key="pref_camera_facebeauty_key"
+            android:title="@string/pref_camera_face_beauty_title" />
+        <com.android.camera.settings.ManagedSwitchPreference
+            android:defaultValue="true"
+            android:key="pref_camera_mirror_key"
+            android:title="@string/pref_camera_mirror_selfie_title" />
+        <com.android.camera.settings.ManagedSwitchPreference
+            android:defaultValue="false"
+            android:key="pref_camera_gesture_detection_key"
+            android:title="@string/pref_camera_gesture_detection_title" />
+        <com.android.camera.settings.ManagedSwitchPreference
+            android:defaultValue="false"
+            android:key="pref_camera_attentionseeker_key"
+            android:title="@string/pref_camera_attention_seeker_title" />
+        <com.android.camera.settings.ManagedSwitchPreference
+            android:defaultValue="false"
+            android:key="pref_camera_ais_key"
+            android:title="@string/pref_camera_ais_title" />
+
+        <com.android.camera.settings.ManagedSwitchPreference
+            android:defaultValue="true"
+            android:key="pref_camera_pose"
+            android:title="@string/pref_camera_pose_title" />
+        <com.android.camera.settings.ManagedSwitchPreference
+            android:defaultValue="true"
+            android:key="pref_camera_compose"
+            android:title="@string/pref_camera_compose_title" />
+
+   </PreferenceCategory>
+    <PreferenceCategory
+        android:key="pref_group_video_key"
+        android:title="@string/setting_group_video" >
+
+        <!-- BACK camera VIDEO resolution -->
+        <ListPreference
+            android:defaultValue="@string/pref_camera_video_quality_default_rear"
+            android:entryValues="@array/pref_video_quality_entryvalues"
+            android:entries="@array/pref_video_quality_entries"
+            android:key="pref_video_quality_back_key"
+            android:title="@string/setting_back_camera_video" />
+        <!-- FRONT camera VIDEO resolution -->
+        <ListPreference
+            android:defaultValue="@string/pref_camera_video_quality_default_front"
+            android:entryValues="@array/pref_video_quality_entryvalues"
+            android:entries="@array/pref_video_quality_entries"
+            android:key="pref_video_quality_front_key"
+            android:title="@string/setting_front_camera_video" />
+
+        <com.android.camera.settings.ManagedSwitchPreference
+            android:defaultValue="true"
+            android:key="pref_video_eis_key"
+            android:title="@string/pref_video_eis_title" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="pref_group_general"
+        android:title="@string/setting_group_general" >
+        <ListPreference
+            android:defaultValue="@string/pref_camera_savepath_default"
+            android:entries="@array/pref_camera_savepath_entries"
+            android:entryValues="@array/pref_camera_savepath_entryvalues"
+            android:key="pref_camera_savepath_key"
+            android:title="@string/pref_camera_savepath_title" />
+
+        <com.android.camera.settings.ManagedSwitchPreference
+            android:defaultValue="false"
+            android:key="pref_camera_recordlocation_key"
+            android:title="@string/pref_camera_save_location_title" />
+        <com.android.camera.settings.ManagedSwitchPreference
+            android:defaultValue="true"
+            android:key="pref_camera_capture_sound"
+            android:title="@string/pref_camera_sound_title" />
+        <ListPreference
+            android:defaultValue="@string/pref_camera_antibanding_default"
+            android:entryValues="@array/pref_camera_antibanding_entryvalues"
+            android:entries="@array/pref_camera_antibanding_entries"
+            android:key="pref_camera_antibanding_key"
+            android:title="@string/pref_camera_antibanding_title" />
+
+    </PreferenceCategory>
+
+    <Preference
+        android:key="pref_camera_restore_setting"
+        android:summary=""
+        android:title="@string/pref_restore_settings" />
+
+</PreferenceScreen>

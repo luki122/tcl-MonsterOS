@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/mst_contacts_delete"
+        android:checked="true"
+        android:icon="@com.mst:drawable/ic_delete" />
+<!--     <item
+        android:id="@+id/mst_contacts_share"
+        android:checked="true"
+        android:icon="@android:drawable/ic_menu_share"
+        android:title="@string/mst_contacts_share_title"/> -->
+
+</menu>

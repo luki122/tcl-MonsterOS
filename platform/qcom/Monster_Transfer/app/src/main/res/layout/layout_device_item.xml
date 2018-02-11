@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/device"
+        android:layout_width="51dp"
+        android:layout_height="51dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/phone"/>
+    <TextView
+        android:id="@+id/device_name"
+        android:layout_below="@id/device"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="10sp"
+        android:fontFamily="monster-normal"
+        android:textColor="@color/button_text_color"
+        android:layout_centerHorizontal="true"
+        android:background="@color/transparent"/>
+    <TextView
+        android:id="@+id/click"
+        android:layout_below="@id/device_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="9sp"
+        android:fontFamily="monster-normal"
+        android:textColor="@color/common_text_color"
+        android:layout_centerHorizontal="true"
+        android:text="@string/qq_text_click"
+        android:background="@color/transparent"/>
+</RelativeLayout>

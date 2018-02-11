@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cannot_specify_an_empty_name_for_playlist">"Navn på spilleliste må ikke være tomt"</string>
+    <string name="cross_dj_saturated_storage_not_enough_free_space_to_record_your_mix">"Der er ikke nok plads til at optage din mix."</string>
+    <string name="cross_dj_saturated_storage_your_recording_might_stop_soon_because_no_more_free_space_is_available">"Din optagelse stopper muligvis snart, fordi der ikke er mere ledig plads."</string>
+    <string name="invalid_drm_file">"Filen har ingen gyldig DRM-godkendelse!"</string>
+    <string name="mobiledata_turnoff_btn">"Deaktiv."</string>
+    <string name="never_show_it_again">"Vis ikke igen"</string>
+    <string name="no_error">"Ingen fejl"</string>
+    <string name="recording_reached_max_duration">"Optagelse har nået sin maksimumsvarighed. Tjek dit præferencer."</string>
+    <string name="recording_soon_to_reach_max_duration">"Optagelse vil snart nå sin maksimumsvarighed. Tjek dit præferencer."</string>
+    <string name="scratching_is_disabled_in_no_mix_mode">"Du kan kun scratche, når du er i DJ-tilstand."</string>
+    <string name="sign_up">"Tilmelding"</string>
+    <string name="the_external_memory_storage_is_not_mounted">"Det eksterne hukommelseslager er tilsluttet. Du skal måske deaktivere USB-hukommelseslageret."</string>
+    <string name="there_s_not_enough_space_in_your_internal_storage_try_to_do_some_clean_up">"Der er ikke nok plads i dit interne lager (prøv at frigøre noget plads)"</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".EditImportPointActivity">
+
+    <item android:id="@+id/audio_to_text_online"
+        android:title="@string/audio_to_text_online"
+        />
+    <item android:id="@+id/audio_to_text_order_result"
+        android:title="@string/audio_to_text_order_result"
+        />
+</menu>

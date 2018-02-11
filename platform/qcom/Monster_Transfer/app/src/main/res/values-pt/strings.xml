@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!-- no translation found for app_name -->
+	<skip />
+	<!-- no translation found for new_phone -->
+	<skip />
+	<!-- no translation found for old_phone -->
+	<skip />
+	<!-- no translation found for note_title -->
+	<skip />
+	<!-- no translation found for one_touch_move -->
+	<skip />
+	<!-- no translation found for qq_helper -->
+	<skip />
+	<!-- no translation found for cloud -->
+	<skip />
+	<!-- no translation found for note_activity_title -->
+	<skip />
+	<!-- no translation found for note_one -->
+	<skip />
+	<!-- no translation found for note_two -->
+	<skip />
+	<!-- no translation found for note_three -->
+	<skip />
+	<!-- no translation found for note_four -->
+	<skip />
+	<!-- no translation found for text_cancel -->
+	<skip />
+	<!-- no translation found for text_continue -->
+	<skip />
+	<!-- no translation found for hot_title -->
+	<skip />
+	<!-- no translation found for hot_bottom -->
+	<skip />
+	<!-- no translation found for camera_permission_denied -->
+	<skip />
+	<!-- no translation found for text_scan_top -->
+	<skip />
+	<!-- no translation found for text_scan_bottom -->
+	<skip />
+	<!-- no translation found for text_scan_bottom_second -->
+	<skip />
+	<!-- no translation found for text_loading -->
+	<skip />
+	<!-- no translation found for text_confirm -->
+	<skip />
+	<!-- no translation found for text_connect_fail -->
+	<skip />
+	<!-- no translation found for text_setting_permission_not_granted -->
+	<skip />
+	<!-- no translation found for text_wait_for_send -->
+	<skip />
+	<!-- no translation found for text_qrcode_fail -->
+	<skip />
+	<!-- no translation found for text_main_page -->
+	<skip />
+	<!-- no translation found for one_touch_move_content -->
+	<skip />
+	<!-- no translation found for qq_helper_content -->
+	<skip />
+	<!-- no translation found for cloud_content -->
+	<skip />
+	<!-- no translation found for app_picker_name -->
+	<skip />
+	<!-- no translation found for bookmark_picker_name -->
+	<skip />
+	<!-- no translation found for button_add_calendar -->
+	<skip />
+	<!-- no translation found for button_add_contact -->
+	<skip />
+	<!-- no translation found for button_book_search -->
+	<skip />
+	<!-- no translation found for button_cancel -->
+	<skip />
+	<!-- no translation found for button_custom_product_search -->
+	<skip />
+	<!-- no translation found for button_dial -->
+	<skip />
+	<!-- no translation found for button_email -->
+	<skip />
+	<!-- no translation found for button_get_directions -->
+	<skip />
+	<!-- no translation found for button_mms -->
+	<skip />
+	<!-- no translation found for button_ok -->
+	<skip />
+	<!-- no translation found for button_open_browser -->
+	<skip />
+	<!-- no translation found for button_product_search -->
+	<skip />
+	<!-- no translation found for button_search_book_contents -->
+	<skip />
+	<!-- no translation found for button_share_app -->
+	<skip />
+	<!-- no translation found for button_share_bookmark -->
+	<skip />
+	<!-- no translation found for button_share_by_email -->
+	<skip />
+	<!-- no translation found for button_share_by_sms -->
+	<skip />
+	<!-- no translation found for button_share_clipboard -->
+	<skip />
+	<!-- no translation found for button_share_contact -->
+	<skip />
+	<!-- no translation found for button_show_map -->
+	<skip />
+	<!-- no translation found for button_sms -->
+	<skip />
+	<!-- no translation found for button_web_search -->
+	<skip />
+	<!-- no translation found for button_wifi -->
+	<skip />
+	<!-- no translation found for contents_contact -->
+	<skip />
+	<!-- no translation found for contents_email -->
+	<skip />
+	<!-- no translation found for contents_location -->
+	<skip />
+	<!-- no translation found for contents_phone -->
+	<skip />
+	<!-- no translation found for contents_sms -->
+	<skip />
+	<!-- no translation found for contents_text -->
+	<skip />
+	<!-- no translation found for history_clear_text -->
+	<skip />
+	<!-- no translation found for history_clear_one_history_text -->
+	<skip />
+	<!-- no translation found for history_email_title -->
+	<skip />
+	<!-- no translation found for history_empty -->
+	<skip />
+	<!-- no translation found for history_empty_detail -->
+	<skip />
+	<!-- no translation found for history_send -->
+	<skip />
+	<!-- no translation found for history_title -->
+	<skip />
+	<!-- no translation found for menu_encode_mecard -->
+	<skip />
+	<!-- no translation found for menu_encode_vcard -->
+	<skip />
+	<!-- no translation found for menu_help -->
+	<skip />
+	<!-- no translation found for menu_history -->
+	<skip />
+	<!-- no translation found for menu_settings -->
+	<skip />
+	<!-- no translation found for menu_share -->
+	<skip />
+	<!-- no translation found for msg_bulk_mode_scanned -->
+	<skip />
+	<!-- no translation found for msg_camera_framework_bug -->
+	<skip />
+	<!-- no translation found for msg_default_format -->
+	<skip />
+	<!-- no translation found for msg_default_meta -->
+	<skip />
+	<!-- no translation found for msg_default_mms_subject -->
+	<skip />
+	<!-- no translation found for msg_default_status -->
+	<skip />
+	<!-- no translation found for msg_default_time -->
+	<skip />
+	<!-- no translation found for msg_default_type -->
+	<skip />
+	<!-- no translation found for msg_encode_contents_failed -->
+	<skip />
+	<!-- no translation found for msg_error -->
+	<skip />
+	<!-- no translation found for msg_google_books -->
+	<skip />
+	<!-- no translation found for msg_google_product -->
+	<skip />
+	<!-- no translation found for msg_intent_failed -->
+	<skip />
+	<!-- no translation found for msg_invalid_value -->
+	<skip />
+	<!-- no translation found for msg_redirect -->
+	<skip />
+	<!-- no translation found for msg_sbc_book_not_searchable -->
+	<skip />
+	<!-- no translation found for msg_sbc_failed -->
+	<skip />
+	<!-- no translation found for msg_sbc_no_page_returned -->
+	<skip />
+	<!-- no translation found for msg_sbc_page -->
+	<skip />
+	<!-- no translation found for msg_sbc_results -->
+	<skip />
+	<!-- no translation found for msg_sbc_searching_book -->
+	<skip />
+	<!-- no translation found for msg_sbc_snippet_unavailable -->
+	<skip />
+	<!-- no translation found for msg_share_explanation -->
+	<skip />
+	<!-- no translation found for msg_share_text -->
+	<skip />
+	<!-- no translation found for msg_sure -->
+	<skip />
+	<!-- no translation found for msg_unmount_usb -->
+	<skip />
+	<!-- no translation found for preferences_actions_title -->
+	<skip />
+	<!-- no translation found for preferences_auto_focus_title -->
+	<skip />
+	<!-- no translation found for preferences_auto_open_web_title -->
+	<skip />
+	<!-- no translation found for preferences_bulk_mode_summary -->
+	<skip />
+	<!-- no translation found for preferences_bulk_mode_title -->
+	<skip />
+	<!-- no translation found for preferences_copy_to_clipboard_title -->
+	<skip />
+	<!-- no translation found for preferences_custom_product_search_summary -->
+	<skip />
+	<!-- no translation found for preferences_custom_product_search_title -->
+	<skip />
+	<!-- no translation found for preferences_decode_1D_industrial_title -->
+	<skip />
+	<!-- no translation found for preferences_decode_1D_product_title -->
+	<skip />
+	<!-- no translation found for preferences_decode_Aztec_title -->
+	<skip />
+	<!-- no translation found for preferences_decode_Data_Matrix_title -->
+	<skip />
+	<!-- no translation found for preferences_decode_PDF417_title -->
+	<skip />
+	<!-- no translation found for preferences_decode_QR_title -->
+	<skip />
+	<!-- no translation found for preferences_device_bug_workarounds_title -->
+	<skip />
+	<!-- no translation found for preferences_disable_barcode_scene_mode_title -->
+	<skip />
+	<!-- no translation found for preferences_disable_continuous_focus_summary -->
+	<skip />
+	<!-- no translation found for preferences_disable_continuous_focus_title -->
+	<skip />
+	<!-- no translation found for preferences_disable_exposure_title -->
+	<skip />
+	<!-- no translation found for preferences_disable_metering_title -->
+	<skip />
+	<!-- no translation found for preferences_front_light_summary -->
+	<skip />
+	<!-- no translation found for preferences_front_light_title -->
+	<skip />
+	<!-- no translation found for preferences_front_light_auto -->
+	<skip />
+	<!-- no translation found for preferences_front_light_off -->
+	<skip />
+	<!-- no translation found for preferences_front_light_on -->
+	<skip />
+	<!-- no translation found for preferences_general_title -->
+	<skip />
+	<!-- no translation found for preferences_history_summary -->
+	<skip />
+	<!-- no translation found for preferences_history_title -->
+	<skip />
+	<!-- no translation found for preferences_invert_scan_title -->
+	<skip />
+	<!-- no translation found for preferences_invert_scan_summary -->
+	<skip />
+	<!-- no translation found for preferences_name -->
+	<skip />
+	<!-- no translation found for preferences_orientation_title -->
+	<skip />
+	<!-- no translation found for preferences_play_beep_title -->
+	<skip />
+	<!-- no translation found for preferences_remember_duplicates_summary -->
+	<skip />
+	<!-- no translation found for preferences_remember_duplicates_title -->
+	<skip />
+	<!-- no translation found for preferences_result_title -->
+	<skip />
+	<!-- no translation found for preferences_scanning_title -->
+	<skip />
+	<!-- no translation found for preferences_search_country -->
+	<skip />
+	<!-- no translation found for preferences_supplemental_summary -->
+	<skip />
+	<!-- no translation found for preferences_supplemental_title -->
+	<skip />
+	<!-- no translation found for preferences_vibrate_title -->
+	<skip />
+	<!-- no translation found for result_address_book -->
+	<skip />
+	<!-- no translation found for result_calendar -->
+	<skip />
+	<!-- no translation found for result_email_address -->
+	<skip />
+	<!-- no translation found for result_geo -->
+	<skip />
+	<!-- no translation found for result_isbn -->
+	<skip />
+	<!-- no translation found for result_product -->
+	<skip />
+	<!-- no translation found for result_sms -->
+	<skip />
+	<!-- no translation found for result_tel -->
+	<skip />
+	<!-- no translation found for result_text -->
+	<skip />
+	<!-- no translation found for result_uri -->
+	<skip />
+	<!-- no translation found for result_wifi -->
+	<skip />
+	<!-- no translation found for sbc_name -->
+	<skip />
+	<!-- no translation found for wifi_changing_network -->
+	<skip />
+	<!-- no translation found for write_settings_permission_denied -->
+	<skip />
+	<!-- no translation found for connect_success -->
+	<skip />
+	<!---->
+	<string name="connect_failed">"Ligação falhou"</string>
+	<!-- no translation found for camera_denied -->
+	<skip />
+	<string-array name="receiver_content_item">
+		<item>"System data"</item>
+		<item>"App data"</item>
+		<item>"picture"</item>
+		<item>"video"</item>
+		<item>"audio"</item>
+		<item>"document"</item>
+	</string-array>
+	<!-- no translation found for text_receive_status -->
+	<skip />
+	<!-- no translation found for text_disconnected -->
+	<skip />
+	<!-- no translation found for text_return -->
+	<skip />
+	<!-- no translation found for text_battery_low -->
+	<skip />
+	<!-- no translation found for text_cancel_confirm -->
+	<skip />
+	<!-- no translation found for text_wait_for_send_one -->
+	<skip />
+	<!-- no translation found for text_wait_for_send_two -->
+	<skip />
+	<!-- no translation found for qq_note_one -->
+	<skip />
+	<!-- no translation found for qq_note_two -->
+	<skip />
+	<!-- no translation found for qq_note_three -->
+	<skip />
+	<!-- no translation found for qq_note_four -->
+	<skip />
+	<!-- no translation found for qq_text_scanning -->
+	<skip />
+	<!-- no translation found for qq_text_click -->
+	<skip />
+	<!-- no translation found for total_size -->
+	<skip />
+	<!-- no translation found for send_size -->
+	<skip />
+	<!-- no translation found for send_sucess -->
+	<skip />
+	<!-- no translation found for recover_sucess -->
+	<skip />
+	<!-- no translation found for item_info -->
+	<skip />
+	<!-- no translation found for cancel_confirm_info -->
+	<skip />
+	<!-- no translation found for button_send -->
+	<skip />
+	<!-- no translation found for remaining_time -->
+	<skip />
+	<!-- no translation found for totally -->
+	<skip />
+	<!-- no translation found for recv_size -->
+	<skip />
+	<!-- no translation found for recving -->
+	<skip />
+	<!-- no translation found for sending -->
+	<skip />
+	<!-- no translation found for qq_text_contact -->
+	<skip />
+	<!-- no translation found for qq_text_sms -->
+	<skip />
+	<!---->
+	<string name="qq_text_calllog">"Reg. cham."</string>
+	<!-- no translation found for qq_text_bookmark -->
+	<skip />
+	<!-- no translation found for qq_text_calendar -->
+	<skip />
+	<!-- no translation found for qq_text_picture -->
+	<skip />
+	<!-- no translation found for qq_text_video -->
+	<skip />
+	<!-- no translation found for qq_text_music -->
+	<skip />
+	<!-- no translation found for qq_text_app -->
+	<skip />
+	<!-- no translation found for qq_text_received -->
+	<skip />
+	<!-- no translation found for qq_text_receive_fail -->
+	<skip />
+	<!-- no translation found for qq_permission_denied -->
+	<skip />
+	<!-- no translation found for button_text_complete -->
+	<skip />
+	<!-- no translation found for scan_failed -->
+	<skip />
+	<!-- no translation found for text_rescan -->
+	<skip />
+	<!-- no translation found for text_install -->
+	<skip />
+	<!-- no translation found for text_pre_install -->
+	<skip />
+	<!-- no translation found for text_restore -->
+	<skip />
+	<!-- no translation found for text_transfering -->
+	<skip />
+	<!-- no translation found for text_remain_time -->
+	<skip />
+	<!-- no translation found for text_day -->
+	<skip />
+	<!-- no translation found for text_hour -->
+	<skip />
+	<!-- no translation found for text_min -->
+	<skip />
+	<!-- no translation found for text_sec -->
+	<skip />
+	<!-- no translation found for qq_cancel_confirm_info -->
+	<skip />
+	<!-- no translation found for qq_start_install -->
+	<skip />
+	<!-- no translation found for text_rec_status -->
+	<skip />
+	<!-- no translation found for text_send_status -->
+	<skip />
+	<!-- no translation found for text_recovery_status -->
+	<skip />
+	<!-- no translation found for calculate_size -->
+	<skip />
+	<!-- no translation found for send_successful -->
+	<skip />
+	<!---->
+	<string name="select_all">"Selecionar tudo"</string>
+	<!-- no translation found for select_none -->
+	<skip />
+	<!-- no translation found for cancelled -->
+	<skip />
+	<!-- no translation found for recv_successful -->
+	<skip />
+	<!-- no translation found for text_canceling -->
+	<skip />
+	<!-- no translation found for notify_connect_success -->
+	<skip />
+	<!-- no translation found for notify_sending -->
+	<skip />
+	<!-- no translation found for notify_receiving -->
+	<skip />
+	<!-- no translation found for notify_send_success -->
+	<skip />
+	<!-- no translation found for notify_receive_success -->
+	<skip />
+	<!-- no translation found for notify_installing -->
+	<skip />
+	<!-- no translation found for notify_install_success -->
+	<skip />
+	<!-- no translation found for sms_permission_denied -->
+	<skip />
+	<!-- no translation found for caculate_size_info -->
+	<skip />
+	<!-- no translation found for text_sms_permission -->
+	<skip />
+	<!-- no translation found for text_sms_permission_restore -->
+	<skip />
+</resources>

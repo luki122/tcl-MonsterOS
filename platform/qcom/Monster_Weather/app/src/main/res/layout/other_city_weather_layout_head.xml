@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <com.gapp.common.animation.view.PainterFrameView
+        android:id="@+id/city_weather_pfv"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_1280">
+
+        <LinearLayout
+            android:id="@+id/weather_head_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <View
+                android:id="@+id/card_line"
+                android:layout_width="1dp"
+                android:layout_height="100dp"
+                android:background="#2E000000" />
+
+            <cn.tcl.weather.view.BoardLinerLayout
+                android:id="@+id/city_weather_ll_cardlayout"
+                android:layout_width="@dimen/px_480"
+                android:layout_height="270dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/tcl_city_weather_card_layout_border"
+                android:orientation="vertical">
+
+                <cn.tcl.weather.view.CustomMainPageTempView
+                    android:id="@+id/city_weather_temp_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp" />
+
+                <cn.tcl.weather.view.TclCustomTextView
+                    android:id="@+id/city_weather_state"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginTop="-5dp"
+                    android:textColor="@color/clr_8A000000"
+                    android:textSize="@dimen/tx_px_48" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginTop="4dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <cn.tcl.weather.view.TclCustomTextView
+                        android:id="@+id/city_weather_air_state"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/clr_8A000000"
+                        android:textSize="@dimen/tx_px_36" />
+
+                    <ImageView
+                        android:id="@+id/city_weather_air_state_icon"
+                        android:layout_width="@dimen/px_36"
+                        android:layout_height="@dimen/px_36"
+                        android:layout_marginLeft="@dimen/px_3"
+                        android:scaleType="fitStart"
+                        android:src="@drawable/tcl_air_common"
+                        android:visibility="gone" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/city_weather_layout_warn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="53.7dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <!--<ImageView-->
+                    <!--android:id="@+id/city_weather_warn_icon"-->
+                    <!--android:layout_width="@dimen/px_40"-->
+                    <!--android:layout_height="@dimen/px_40"-->
+                    <!--android:src="@drawable/alert"-->
+                    <!--android:visibility="gone" />-->
+
+                    <cn.tcl.weather.view.TclCustomTextView
+                        android:id="@+id/city_weather_warn"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/px_10"
+                        android:gravity="center"
+                        android:textColor="@color/clr_fff09a0f"
+                        android:textSize="@dimen/tx_dp_17" />
+                </LinearLayout>
+
+                <cn.tcl.weather.view.TclCustomTextView
+                    android:id="@+id/city_weather_tip_top"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="4.3dp"
+                    android:clickable="false"
+                    android:text="@string/test_weather_tip"
+                    android:textColor="@color/clr_4D000000"
+                    android:textSize="@dimen/tx_dp_11" />
+
+                <cn.tcl.weather.view.TclCustomTextView
+                    android:id="@+id/city_weather_tip_bottom"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:clickable="false"
+                    android:text="@string/test_weather_tip"
+                    android:textColor="@color/clr_4D000000"
+                    android:textSize="@dimen/tx_dp_11" />
+
+
+            </cn.tcl.weather.view.BoardLinerLayout>
+
+            <cn.tcl.weather.view.TclCustomTextView
+                android:id="@+id/city_weather_city_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="--"
+                android:textColor="@color/clr_db000000"
+                android:textSize="@dimen/tx_px_48" />
+
+        </LinearLayout>
+    </com.gapp.common.animation.view.PainterFrameView>
+
+
+    <cn.tcl.weather.view.TclCustomTextView
+        android:id="@+id/city_weather_anim_temp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/px_990"
+        android:gravity="center"
+        android:paddingLeft="7dp"
+        android:textColor="@color/clr_b8000000"
+        android:textSize="@dimen/tx_px_60" />
+
+</FrameLayout>

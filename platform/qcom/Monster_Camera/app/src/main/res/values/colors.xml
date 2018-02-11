@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <color name="default_background">#000</color>
+
+    <!-- configuration for album set page -->
+    <color name="albumset_background">#1A1A1A</color>
+    <color name="albumset_placeholder">#333</color>
+    <color name="albumset_label_background">#EE414143</color>
+    <color name="albumset_label_title">#FBFBFB</color>
+    <color name="albumset_label_count">#A9ABAD</color>
+
+    <!-- configuration for album page -->
+    <color name="album_background">#1A1A1A</color>
+    <color name="album_placeholder">#333</color>
+
+    <!-- configuration for photo page -->
+    <color name="photo_background">#1A1A1A</color>
+    <color name="photo_placeholder">#333</color>
+
+    <!-- configuration for manage cache page -->
+    <color name="cache_background">#1A1A1A</color>
+    <color name="cache_placeholder">#333</color>
+
+    <color name="bitmap_screennail_placeholder">#333</color>
+
+    <color name="slideshow_background">#1A1A1A</color>
+
+    <color name="button_dark_transparent_background">#6000</color>
+
+    <color name="ingest_highlight_semitransparent">#8833b5e5</color>
+    <color name="ingest_date_tile_text">#33b5e5</color>
+
+    <!-- Camera resources below -->
+
+    <color name="recording_time_elapsed_text">#FFFFFFFF</color>
+    <color name="recording_time_remaining_text">#FFFF0033</color>
+    <color name="on_viewfinder_label_background_color">#77333333</color>
+    <color name="review_control_pressed_color">#FF33B5E5</color>
+    <color name="review_control_pressed_fan_color">#3F33B5E5</color>
+    <color name="review_background">#FF000000</color>
+    <color name="icon_disabled_color">#DD777777</color>
+    <color name="time_lapse_arc">#FFC5C5C5</color>
+    <color name="indicator_background">#40000000</color>
+    <color name="popup_title_color">#ff33b5e5</color>
+    <color name="popup_background">#ff282828</color>
+    <color name="pano_progress_empty">#FF2E2E2E</color>
+    <color name="pano_progress_done">#FF33525E</color>
+    <color name="pano_progress_indication">#FF0099CC</color>
+    <color name="pano_progress_indication_fast">#FFFF2222</color>
+    <color name="panorama_tip_text_shadow_color">#60000000</color>
+    <color name="panorama_holder_text_color">#8AFFFFFF</color>
+    <color name="mode_selection_border">#33B5E5</color>
+    <color name="holo_blue_light">#ff33b5e5</color>
+    <color name="bright_foreground_disabled_holo_dark">#ff4c4c4c</color>
+    <color name="bright_foreground_holo_dark">#fff3f3f3</color>
+    <color name="face_detect_start">#ffffff00</color>
+    <color name="focus_debug">#90ffffff</color>
+    <color name="focus_debug_text">#b0ffffff</color>
+    <color name="focus_debug_success">#9000ff00</color>
+    <color name="focus_debug_fail">#90ff0000</color>
+    <color name="gray">#FFAAAAAA</color>
+
+    <!-- Camera mode switcher -->
+    <color name="mode_selector_text_color">#fff</color>
+    <color name="mode_selector_background_light">#f5f5f5</color>
+    <color name="mode_selector_background_dark">#e7e7e7</color>
+    <color name="mode_selector_text_highlight_color">#ffffffff</color>
+    <color name="mode_selector_icon_background">#4c000000</color>
+    <color name="mode_list_background">#00000000</color>
+    <color name="mode_list_settings_icon_background">#26000000</color>
+    <color name="mode_list_settings_icon_pressed_background">#99000000</color>
+    <color name="mode_title_normal">#aaffffff</color>
+
+    <color name="camera_mode_color">#4285f4</color>
+    <color name="video_mode_color">#db4437</color>
+    <color name="refocus_mode_color">#0f9d58</color>
+    <color name="photosphere_mode_color">#ab47bc</color>
+    <color name="panorama_mode_color">#ff9e00</color>
+    <color name="mode_cover_default_color">#191919</color>
+    <color name="main_color_global">#00acc1</color>
+
+    <color name="bottombar_unpressed">#00191919</color>
+    <color name="bottombar_pressed">#00262626</color>
+    <!--<color name="bottom_bar_color">#ffff7711</color>-->
+    <color name="bottom_bar_color">#00000000</color>
+    <color name="bottombar_background_overlay">#8A000000</color>
+    <color name="bottombar_background_default">#ff000000</color>
+    <color name="mode_options_background">#4C000000</color>
+
+    <color name="filmstrip_background">#1b1b1b</color>
+
+    <color name="indicators_background_color">#4c000000</color>
+
+    <color name="grid_line">#33FFFFFF</color>
+    <color name="focus_outer_ring_color">#4CFFFFFF</color>
+    <color name="fullscreen_dialog_background_color">@color/main_color_global</color>
+    <color name="dialog_button_color">#FF76A7F9</color>
+    <color name="dialog_text_color">@android:color/black</color>
+
+    <color name="settings_cling_color">#2962FF</color>
+
+    <color name="mode_icon_hover_highlight">#2DFFFFFF</color>
+    
+    <color name="blue_button_text_color">#00838F</color>
+
+    <color name="photo_module_burst_text_color">#FF000000</color>
+    <color name="mode_title_select">#F0FFFFFF</color>
+    <color name="mode_title_unselect">#78FFFFFF</color>
+    <color name="mode_scroll_bar_color_select">#FFFFFFFF</color>
+    <color name="mode_scroll_bar_color_background">#1AFFFFFF</color>
+
+    <color name="manual_item_normal">#FFFFFF</color>
+    <color name="manual_item_selected">#40C4FF</color>
+
+    <color name="camera_setting_windowbackground">#FF455A64</color>
+    <color name="camera_setting_textcolorprimary">#FFFFFFFF</color>
+    <!-- Tirz app begin-->
+    <color name="tizr_shape_color">#36dbff</color>
+    <color name="tizr_button_text_color">#fbfff7</color>
+
+    <!-- Micro video guide -->
+    <color name="micro_guide_dialog_color">#FFFFFFFF</color>
+    <color name="micro_guide_button_color">#FF2196F3</color>
+    <color name="micro_guide_title_color">#FF000000</color>
+
+    <!-- Permissions -->
+    <color name="permissions_dialog_background_color">#FF2196F3</color>
+    <color name="permissions_dialog_text_color">#FFFFFFFF</color>
+    <color name="camera_settings_toolbar_color">#FF37474F</color>
+
+    <!-- Panorama -->
+    <color name="panorama_preview_background">#CD000000</color>
+    <color name="panorama_preview_line">#1AFFFFFF</color>
+    <color name="panorama_preview_border">#61FFFFFF</color>
+    <color name="panorama_tip_text">#FFFFFFFF</color>
+    <color name="panorama_save_arc">#40C4FF</color>
+    <color name="panorama_save_circle">#2DFFFFFF</color>
+
+    <color name="tourial_semitransparent">#a0000000</color>
+    <color name="help_tip_dialog_text_color">#ffffff</color>
+
+    <color name="help_tip_dialog_view_shadow_start_color">#d60000</color>
+    <color name="help_tip_dialog_view_shadow_end_color">#c60000</color>
+    <color name="help_tip_animation_circle_color">#d60000</color>
+
+    <color name="intent_review_startColor">#00000000</color>
+    <color name="intent_review_endColor">#80000000</color>
+
+    <color name="view_finder_color">#b2212121</color>
+
+    <color name="mode_name_text_color_selected">#FFFFFFFF</color>
+    <color name="mode_name_text_color_unselected">#8AFFFFFF</color>
+
+    <!-- Video Recording Boom Key Tip -->
+    <color name="video_recording_boom_key_tip_background">#00000000</color>
+    <color name="video_recording_press_boom_key_text_color">#FFFFFF</color>
+    <color name="video_recording_boom_key_text_color">#FFEE00</color>
+
+    <color name="gps_dialog_button_color">#FF2196F3</color>
+    <color name="snackbarToast_layout_color">#1f000000</color>
+    <color name="video_recordtime_indicator_color">#FFF44336</color>
+
+    <color name="intent_capture_review_background">#ff000000</color>
+    <color name="mode_name_normal">#FFFFFFFF</color>
+    <color name="mode_name_selected">#FF2196F3</color>
+
+    <color name="toast_textcolor">#FFF</color>
+
+    <color name="mode_options_tip_textcolor">#FF000000</color>
+
+    <!-- Exposure Sidebar scale line color  -->
+    <color name="exposure_sidebar_selected_color">#FFFFC400</color>
+    <color name="exposure_sidebar_unselected_color">#FFFFFFFF</color>
+    <color name="exposure_sidebar_pointer_color">#FFFFC400</color>
+
+    <!-- Zoom scale bar color -->
+    <color name="zoom_sidebar_selected_color">#FFFFC400</color>
+    <color name="zoom_sidebar_unselected_color">#FFFFFFFF</color>
+    <color name="zoom_sidebar_pointer_color">#FFFFC400</color>
+
+    <!-- Info text in bottom bar -->
+    <color name="info_text_color">#FFFFC107</color>
+
+    <color name="preview_layout_color">#66000000</color>
+    <color name="setting_layout_selectedcolor">#FFFFC107</color>
+    <color name="setting_layout_unselectedcolor">#FFFFFFFF</color>
+    <color name="button_group_background">#61000000</color>
+    <color name="video_recordtime_indicator_blink_color">#00000000</color>
+
+    <!-- setting -->
+    <color name="settings_background_color">#4D000000</color>
+    <color name="settings_listview_background_color">#E6000000</color>
+    <color name="switch_pref_text_color">#FFFFFFFF</color>
+    <color name="switch_pref_line_color">#1AFFFFFF</color>
+    <color name="switch_pref_summary_text_color">#8AFFFFFF</color>
+    <color name="select_pref_text_color">#FFFFFFFF</color>
+    <color name="select_pref_item_text_color">#FFFFFFFF</color>
+
+    <!-- setting drawable color-->
+    <color name="switch_pref_switch_track_check">#80FFC107</color>
+    <color name="switch_pref_switch_track_default">#80616161</color>
+    <color name="select_pref_seekbar_background_color">#26FFFFFF</color>
+    <color name="switch_pref_thumb_shape_disable_color">#FF757575</color>
+    <color name="select_pref_seekbar_thumb_shape_color">#FFFFC107</color>
+    <color name="bottombar_background_intent">#2DFFFFFF</color>
+    <color name="center_grid_line">#FFFFFFFF</color>
+    <color name="center_grid_shaadow_line">#40000000</color>
+    <color name="gallery_name_text_corlor">#DC000000</color>
+    <color name="gridview_item_text_color">#FFFFFFFF</color>
+
+    <!-- Bottom bar peek thumbnail border -->
+    <color name="bottom_bar_peek_thumb_border_color">#33FFFFFF</color>
+</resources>

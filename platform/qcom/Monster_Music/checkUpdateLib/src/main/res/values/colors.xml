@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blue_main">#5BB2CD</color>
+    <color name="transparent">#00000000</color>
+    <color name="grey_line">#E4E4E4</color>
+    <color name="base_bg">#f0f1f2</color>
+    <color name="action_bar_bg">#ff2b3238</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="dialog_bg">#e9e9e9</color>
+    <color name="dialog_tv">#81000000</color>
+    <color name="dialog_title">#d4000000</color>
+    <color name="gray_highlight_text">#6d6d6d</color>
+    <color name="disable_spec_btn">#e6e6e6</color>
+    <color name="dark_highlight_text">#414241</color>
+    
+    <!-- New -->
+    <color name="dialog_text">#333333</color>
+    <color name="dialog_desc_bg">#f2f2f2</color>
+    <color name="dialog_text_gray">#999999</color>
+</resources>

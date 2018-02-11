@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mst="http://schemas.android.com/apk/res/com.mst"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <mst.widget.toolbar.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="@color/white"
+        android:elevation="0dp">
+
+        <TextView
+            android:id="@+id/tv_search"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="@string/search_app"
+            android:layout_marginLeft="14dp"
+            android:textColor="#000000"
+            android:alpha="0.86"
+            android:textSize="16sp" />
+
+    </mst.widget.toolbar.Toolbar>
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white">
+
+        <ListView
+            android:id="@+id/swipe_target"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@android:color/transparent"
+            android:scrollbars="none" />
+
+        <com.monster.market.views.MainTabView
+            android:id="@+id/mainTab"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:visibility="gone" />
+
+        <include layout="@layout/loading_view" />
+
+    </FrameLayout>
+</LinearLayout>

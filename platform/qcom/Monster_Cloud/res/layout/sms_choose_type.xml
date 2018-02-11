@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#0f000000" />
+
+    <RelativeLayout
+        android:id="@+id/sms_type_by_time"
+        android:layout_width="match_parent"
+        android:background="@drawable/my_ripple"
+        android:layout_height="57dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sms_type_by_time"
+            android:textSize="16sp"
+            android:textColor="@color/text_black_db"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:src="@com.mst:drawable/ic_next_page"/>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/sms_type_by_contacts"
+        android:layout_width="match_parent"
+        android:background="@drawable/my_ripple"
+        android:layout_height="57dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sms_type_by_contacts"
+            android:textSize="16sp"
+            android:textColor="@color/text_black_db"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:src="@com.mst:drawable/ic_next_page"/>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

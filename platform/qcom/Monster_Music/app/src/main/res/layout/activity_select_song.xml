@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/music_theme_color">
+
+    <mst.widget.toolbar.Toolbar
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/select_songs_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/white"
+        app:contentInsetLeft="0dp"
+        app:contentInsetStart="0dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp">
+            <TextView
+                android:id="@+id/toolbar_cancel_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:alpha="0.86"
+                android:text="@string/cancel"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:clickable="true"/>
+
+            <TextView
+                android:id="@+id/toolbar_select_num_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="20dp"
+                android:alpha="0.86"
+                android:text="@string/batch_songs_num"
+                android:textColor="@color/black"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:id="@+id/toolbar_select_all_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"
+                android:alpha="0.86"
+                android:text="@string/select_all"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:clickable="true"/>
+        </RelativeLayout>>
+    </mst.widget.toolbar.Toolbar>
+
+    <cn.tcl.music.view.ContextMenuReyclerView
+        android:id="@+id/select_songs_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="20dp"
+        android:layout_below="@+id/select_songs_toolbar"
+        android:layout_above="@+id/select_songs_addto">
+    </cn.tcl.music.view.ContextMenuReyclerView>
+
+    <mst.widget.MstIndexBar
+        android:id="@+id/index_bar"
+        android:layout_width="20dp"
+        android:layout_height="@dimen/dp_356"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/dp_107"
+        android:layout_alignParentRight="true"/>
+
+
+    <TextView
+        android:id="@+id/select_songs_loading_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/waiting_load"
+        android:alpha="0.86"
+        android:textColor="@color/black"/>
+
+    <RelativeLayout
+        android:id="@+id/select_songs_addto"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/batch_add_to_playlist"
+            android:alpha="0.86"
+            android:textColor="@color/black"
+            android:drawableLeft="@drawable/batch_operate_addplaylist"
+            android:drawablePadding="5dp"/>
+    </RelativeLayout>
+
+</RelativeLayout>

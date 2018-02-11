@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:music5="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="16dp"
+    android:layout_marginBottom="20dp"
+    android:layout_marginLeft="40dp"
+    android:layout_marginRight="40dp"
+    android:background="#4d6370">
+
+     <cn.tcl.music.widget.SamplesDrumLoopFeaturesBar
+        android:id="@+id/dj_features_bars"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal"
+        music5:indicatorColor="@color/primary_orange"
+        android:background="#364249"
+        music5:indicatorSize="4dp"
+        android:visibility="gone"
+        android:layout_alignParentBottom="true">
+        <TextView
+            android:id="@+id/btn_samples"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button"
+            android:textSize="14sp"
+            android:textColor="@color/dj_features_text_color"
+            android:text="@string/samples"/>   <!-- 模板-->
+        <TextView
+            android:id="@+id/btn_drump_loops"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button"
+            android:textSize="14sp"
+            android:textColor="@color/dj_features_text_color"
+            android:text="@string/drum_loops"/>     <!--循环鼓点-->
+    </cn.tcl.music.widget.SamplesDrumLoopFeaturesBar>
+
+    <FrameLayout
+        android:id="@+id/dj_features_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_above="@id/dj_features_bars"
+        android:layout_marginBottom="20dp"
+        />
+     <!-- android:layout_above="@id/dj_features_bars" -->
+    <ImageView
+        android:id="@+id/close_btn_dj_features"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/picto_close"
+        android:scaleType="center"
+        android:visibility="gone"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:background="?android:attr/selectableItemBackground"/>
+</RelativeLayout>

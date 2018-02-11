@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    	<string name="tip_network_error">Błąd sieci</string>
+    	<string name="check_new">Sprawdź aktualizacje</string>
+    	<string name="update_download_fail">Pobieranie nieudane</string>
+    	<string name="update_ask_tip">Musisz zaktualizować do najnowszej wersji</string>
+    	<string name="update_no_need">To jest najnowsza wersja</string>
+    	<string name="downloaded_finish">Pobieranie zakończone</string>
+    	<string name="notification_downloading">Pobieranie</string>
+    	<string name="update_notification_tips">Zaktualizuj do najnowszej wersji, aby usprawnić korzystanie z aplikacji</string>
+    	<string name="update_notification_title">Powiadomienia o aktualizacji</string>
+    	<string name="update">Teraz</string>
+    	<string name="try_later">Później</string>
+    	<string name="versionDesc">Informacje na temat wersji:</string>
+    	
+    	<string name="update_available">Dostępna aktualizacja</string>
+    	<string name="downloading">Pobieranie...</string>
+    	<string name="update_notify_tip">Dostępna jest nowa wersja. Zaktualizować teraz?</string>
+    	<string name="update_detail_prefix">Szczegóły aktualizacji:</string>
+    	<string name="update_not_now">Nie teraz</string>
+    	<string name="update_now">Aktualizuj</string>
+    	<string name="network_error_tip">Błąd sieci. Sprawdź połączenie z siecią i spróbuj ponownie później.</string>
+    	<string name="update_force_nofity_tip">Zalecamy zaktualizowanie aplikacji do najnowszej wersji.</string>
+    	<string name="update_no_updates">Brak aktualizacji</string>
+    	<string name="update_no_updates_tip">Brak aktualizacji</string>
+    	<string name="update_confirm">OK</string>
+</resources>

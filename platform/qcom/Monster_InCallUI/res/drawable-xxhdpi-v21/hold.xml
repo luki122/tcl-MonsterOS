@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="40dp"
+    android:viewportHeight="120"
+    android:viewportWidth="120"
+    android:width="40dp" >
+
+    <group
+        android:name="Phone-通话中"
+        android:translateX="-185.000000"
+        android:translateY="-1077.000000" >
+        <group
+            android:name="2"
+            android:translateY="-3.000000" >
+            <group
+                android:translateX="179.000000"
+                android:translateY="841.000000" >
+                <group
+                    android:name="保持通话"
+                    android:translateX="6.000000"
+                    android:translateY="239.000000" >
+                    <group
+                        android:translateX="43.000000"
+                        android:translateY="36.000000" >
+                        <path
+                            android:name="Stroke-1"
+                            android:fillAlpha="0.656658116"
+                            android:fillType="evenOdd"
+                            android:pathData="M33.3148846,0.681646189 L33.3148846,48.1283109"
+                            android:strokeAlpha="0.656658116"
+                            android:strokeColor="#000000"
+                            android:strokeLineCap="round"
+                            android:strokeWidth="3" />
+                        <path
+                            android:name="Stroke-3"
+                            android:fillAlpha="0.656658116"
+                            android:fillType="evenOdd"
+                            android:pathData="M0.673076923,0.681646189 L0.673076923,48.1283109"
+                            android:strokeAlpha="0.656658116"
+                            android:strokeColor="#000000"
+                            android:strokeLineCap="round"
+                            android:strokeWidth="3" />
+                    </group>
+                </group>
+            </group>
+        </group>
+    </group>
+
+</vector>

@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+    <item android:id="@+id/add"
+        android:title="add"
+        android:icon="@com.mst:drawable/ic_add"
+        android:checked="true"
+        android:showAsAction="ifRoom"
+        tools:ignore="AppCompatResource" />
+</menu>

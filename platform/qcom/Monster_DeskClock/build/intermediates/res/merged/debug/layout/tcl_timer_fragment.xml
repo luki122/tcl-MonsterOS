@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:mst="http://schemas.android.com/apk/res/com.mst"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:background="?android:attr/colorPrimary" >
+
+        <View
+            android:id="@+id/picker_blank"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_centerInParent="true"
+            android:background="@color/white"
+            android:visibility="visible" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="24dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:visibility="visible" >
+
+            <mst.widget.TimePicker
+                android:id="@+id/time_picker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                mst:selectionTextColor="@color/clock_red"
+                android:fontFamily="monster-medium"
+                mst:selectionTextSize="32sp"
+                mst:secondTextSize="24sp"
+                mst:normalTextSize="23sp"
+                mst:labelspace1="5dp"
+                mst:labelspace2="5dp"
+
+                mst:selectionLabelTextColor="@color/clock_red"
+                />
+        </LinearLayout>
+
+
+        <include
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            layout="@layout/timer_list_item"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" >
+
+        <mst.widget.FloatingActionButton
+            android:id="@+id/img_cancle_center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/fab_bt_margin_bt"
+            android:background="@color/black"
+            mst:centerImage="@drawable/img_reset"
+            mst:size="large" />
+
+
+        <mst.widget.FloatingActionButton
+            android:id="@+id/img_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/fab_bt_margin_bt"
+            android:background="@color/black"
+            mst:centerImage="@drawable/img_start"
+            mst:size="large" />
+
+        <mst.widget.FloatingActionButton
+            android:id="@+id/img_cancle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/fab_bt_margin_bt"
+            android:layout_marginLeft="80dp"
+            android:background="@color/black"
+            mst:centerImage="@drawable/img_reset"
+            mst:size="large" />
+
+        <mst.widget.FloatingActionButton
+            android:id="@+id/img_pause"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="@dimen/fab_bt_margin_bt"
+            android:layout_marginRight="80dp"
+            android:background="@color/black"
+            mst:centerImage="@drawable/img_reset"
+            mst:size="large" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

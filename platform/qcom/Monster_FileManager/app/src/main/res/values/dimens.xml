@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<resources>
+
+    <dimen name="bar_height_size">70dp</dimen>
+    <dimen name="menu_parent_width">60dp</dimen>
+    <dimen name="menu_size">48dp</dimen>
+    <dimen name="menu_space">22dp</dimen>
+    <dimen name="nail_size">35dp</dimen>
+    <dimen name="nail_padding">20dp</dimen>
+    <dimen name="grid_nail_size">120dp</dimen>
+    <dimen name="grid_text_height">16dp</dimen>
+    <dimen name="no_search_image">76dp</dimen>
+    <dimen name="no_search_image_margin_top">34dp</dimen>
+    <dimen name="category_image_size">52dp</dimen>
+    <dimen name="category_image_h_space">20dp</dimen>
+    <dimen name="category_image_v_space">8dp</dimen>
+    <dimen name="category_progress_content_height">86dp</dimen>
+    <dimen name="category_space">3dp</dimen>
+    <dimen name="tab_margin_left">6dp</dimen>
+    <dimen name="drawer_width">280dp</dimen>
+    <dimen name="drawer_padding">11dp</dimen>
+    <dimen name="select_file_tab_margin_left">-12dp</dimen>
+    <dimen name="select_file_bar_height_size">48dp</dimen>
+    <dimen name="bottom_bar_margin_top">2dp</dimen>
+    <dimen name="list_item_margin_left_right">16dp</dimen>
+    <dimen name="drawer_shadow">9dp</dimen>
+    <dimen name="grid_text_padding">4dp</dimen>
+    <dimen name="grid_text_width">100dp</dimen>
+    <dimen name="percentage_bar_top_margin">10dp</dimen>
+    <dimen name="percentage_bar_padding">10dp</dimen>
+    <dimen name="category_size_height">80dp</dimen>
+    <dimen name="storage_size_padding">32dp</dimen>
+    <dimen name="percentage_bar_height">12dp</dimen>
+    <dimen name="home_text_size">14sp</dimen>
+    <dimen name="bar_small_text_size">12dp</dimen>
+    <dimen name="home_small_text_size">12dp</dimen>
+    <dimen name="no_search_result_text_size">20dp</dimen>
+    <dimen name="drawer_list_item_text_size">14sp</dimen>
+    <dimen name="category_phone_storage_memory_size">8sp</dimen>
+    <dimen name="category_sdcard_storage_text_size">12sp</dimen>
+    <dimen name="category_item_name_text_size">15sp</dimen>
+    <dimen name="category_item_count_text_size">11sp</dimen>
+
+    <integer name="name_max_length">255</integer>
+    <!-- add for PR848342 by yane.wang@jrdcom.com 20141124 -->
+    <dimen name="floating_action_button_height">56dp</dimen>
+    <dimen name="floating_action_button_width">56dp</dimen>
+    <dimen name="floating_action_button_margin_right">16dp</dimen>
+    <dimen name="floating_action_button_margin_bottom">16dp</dimen>
+    <dimen name="floating_action_button_translation_z">2dp</dimen>
+    <dimen name="floating_action_button_list_bottom_padding">88dp</dimen>
+    <dimen name="indicate_file_title_size">14sp</dimen>
+    <dimen name="list_title_text_size">16sp</dimen>
+    <dimen name="list_time_text_size">12sp</dimen>
+    <dimen name="sory_by_list_height">48dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="category_margin_top">8dp</dimen>
+    <dimen name="category_name_margin_image">4dp</dimen>
+    <dimen name="category_card_heigt">24dp</dimen>
+    <dimen name="percentage_h_offset">0px</dimen>
+    <dimen name="percentage_v_offset">2px</dimen>
+    <dimen name="category_grid_height">110dp</dimen>
+    <dimen name="action_bar_path_width">130dp</dimen>
+    <dimen name="path_text_size">18dp</dimen>
+    <dimen name="detail_dialog_width">300dp</dimen>
+    <dimen name="detail_dialog_height">330dp</dimen>
+    <dimen name="search_view_width">300dp</dimen>
+    <dimen name="menu_padding_top">52dp</dimen>
+
+    <integer name="percentage_sd_offset">11</integer>
+    <!-- main.xml start -->
+    <dimen name="main_filepathbrower_height">40dp</dimen>
+    <dimen name="main_filepathbrower_margin">16dp</dimen>
+    <dimen name="main_filepathbrower_size">12sp</dimen>
+    <dimen name="main_filepathbrower_width">20dp</dimen>
+    <dimen name="main_filepathbrower_navigation_porit_width">270dp</dimen>
+    <dimen name="main_filepathbrower_navigation_land_width">508dp</dimen>
+    <dimen name="main_filepathbrower_navigation_max_width">150dp</dimen>
+    <dimen name="main_snacktext_margin_left">24dp</dimen>
+    <dimen name="main_snackbar_textsize">14sp</dimen>
+    <dimen name="main_snackbar_height">48dp</dimen>
+    <dimen name="main_actionbar_padding_left">8dp</dimen>
+    <dimen name="main_frame_padding_top">0dp</dimen>
+    <!-- main.xml end -->
+    <!-- homeScreen mainItem start -->
+    <dimen name="main_item_size">112dp</dimen>
+    <dimen name="main_item_margin">3dp</dimen>
+    <dimen name="main_item_text_margin">12dp</dimen>
+    <dimen name="main_item_text_size">12sp</dimen>
+    <!-- homeScreen mainItem end -->
+    <!-- fragment_category start -->
+    <dimen name="storage_image_margin_top">8dp</dimen>
+    <dimen name="storage_image_margin_land_top">8dp</dimen>
+    <dimen name="storage_image_margin_land_right">0dp</dimen>
+    <dimen name="storage_image_margin_left">16dp</dimen>
+    <dimen name="storage_height">48dp</dimen>
+    <dimen name="storage_land_height">42dp</dimen>
+    <dimen name="gridview_margin">4dp</dimen>
+    <dimen name="phone_text_height">30dp</dimen>
+    <dimen name="storage_parent_margin">6dp</dimen>
+    <dimen name="storage_parent_margin_top">1dp</dimen>
+    <dimen name="phone_margin_top">18dp</dimen>
+    <dimen name="storage_image_padding">5dp</dimen>
+    <dimen name="storage_text_margin_start">6dp</dimen>
+    <dimen name="storage_text_margin_end">12dp</dimen>
+    <dimen name="category_phone_storage_text_size">14sp</dimen>
+    <dimen name="gridview_land_margin">2dp</dimen>
+    <dimen name="phone_parent_margin_top">10dp</dimen>
+    <dimen name="phone_parent_margin_bottom">20dp</dimen>
+    <dimen name="extra_parent_margin_top_m">0dp</dimen>
+    <dimen name="extra_parent_margin_bottom_m">0dp</dimen>
+    <dimen name="phone_parent_margin_top_m">0dp</dimen>
+    <dimen name="phone_parent_margin_bottom_m">0dp</dimen>
+    <dimen name="sd_parent_margin_top_m">0dp</dimen>
+    <dimen name="sd_parent_margin_bottom_m">0dp</dimen>
+    <dimen name="phone_parent_margin_left">7.5dp</dimen>
+    <dimen name="phone_parent_margin_right">7.5dp</dimen>
+    <dimen name="phone_image_padding_top">5dp</dimen>
+    <dimen name="phone_image_padding_bottom">5dp</dimen>
+    <dimen name="phone_text_magin_start">6dp</dimen>
+    <dimen name="phone_text_margin_bottom">12dp</dimen>
+    <dimen name="sd_parent_margin_top">10dp</dimen>
+    <dimen name="sd_parent_margin_bottom">10dp</dimen>
+    <dimen name="sd_parent_margin_left">5dp</dimen>
+    <dimen name="sd_parent_margin_right">7.5dp</dimen>
+    <dimen name="sd_image_padding_top">5dp</dimen>
+    <dimen name="sd_image_padding_bottom">5dp</dimen>
+    <dimen name="sd_text_margin_start">6dp</dimen>
+    <dimen name="sd_text_margin_end">12dp</dimen>
+    <dimen name="extra_parent_margin_left">5dp</dimen>
+    <dimen name="extra_parent_margin_right">7.5dp</dimen>
+    <dimen name="extra_parent_margin_top">10dp</dimen>
+    <dimen name="extra_parent_margin_bottom">10dp</dimen>
+    <dimen name="extra_image_padding_top">5dp</dimen>
+    <dimen name="extra_image_padding_bottom">5dp</dimen>
+    <dimen name="extra_text_margin_start">6dp</dimen>
+    <dimen name="extra_text_margin_end">12dp</dimen>
+    <dimen name="phone_parent_text_maigin_right">16dp</dimen>
+    <dimen name="phone_parent_text_maigin_land_right">5dp</dimen>
+    <dimen name="phone_line_margin_left">54dp</dimen>
+    <!-- fragment_category end -->
+    <!-- FileGlobalSearchActvity start -->
+    <dimen name="search_view_text_size">16sp</dimen>
+    <dimen name="search_view_bar_height">60dp</dimen>
+    <dimen name="no_search_view_margin">16dp</dimen>
+    <dimen name="search_back_margin">20dp</dimen>
+    <dimen name="search_line_height">1dp</dimen>
+    <!-- FileGlobalSearchActvity end -->
+    <!-- sort_menu.xml start -->
+    <dimen name="sort_menu_width">196dp</dimen>
+    <dimen name="sort_menu_height">296dp</dimen>
+    <dimen name="sort_menu_title_paddingtop">16dp</dimen>
+    <dimen name="sort_menu_title_paddingbottom">19dp</dimen>
+    <dimen name="sort_menu_title_textpaddingbottom">10dp</dimen>
+    <dimen name="sort_menu_title_textSize">16dp</dimen>
+    <dimen name="sort_menu_title_start">10dp</dimen>
+    <dimen name="sort_menu_pop_width">217dp</dimen>
+    <dimen name="sort_menu_pop_height">246dp</dimen>
+    <dimen name="sort_menu_pop_xoff">10dp</dimen>
+    <dimen name="sort_menu_pop_yoff">18dp</dimen>
+    <!-- sort_menu.xml end -->
+
+
+    <!-- sort_menu_item.xml start -->
+    <dimen name="sort_menu_item_paddingtop">8dp</dimen>
+    <dimen name="sort_menu_item_text">10dp</dimen>
+    <dimen name="sort_menu_item_textsize">16sp</dimen>
+    <dimen name="sort_menu_item_radio">130dp</dimen>
+    <!-- sort_menu_item.xml end -->
+
+
+    <!-- file_gird_item start -->
+    <dimen name="file_grid_item_size">112dp</dimen>
+    <dimen name="file_grid_item_image_margin_top">10dp</dimen>
+    <dimen name="file_grid_item_name_height">40dp</dimen>
+    <dimen name="file_grid_item_view_margin">3dp</dimen>
+    <dimen name="file_grid_item_more_maginend">2dp</dimen>
+    <dimen name="file_grid_item_name_margin_top">4dp</dimen>
+    <dimen name="file_grid_item_name_margin_left">5dp</dimen>
+    <dimen name="file_grid_item_name_h">18dp</dimen>
+    <dimen name="file_list_more_width">48dp</dimen>
+    <dimen name="file_grid_margin_left">10dp</dimen>
+    <!-- grid_item end -->
+    <!-- file_list_item start -->
+    <dimen name="file_list_item_minheight">56dp</dimen>
+    <dimen name="file_list_item_layout_margin">16dp</dimen>
+    <dimen name="file_list_item_size_margin">20dp</dimen>
+    <!-- file_list_item_end -->
+    <!-- more_menu.xml start -->
+    <dimen name="more_menu_pop_height">226dp</dimen>
+    <dimen name="more_menu_pop_paste_height">180dp</dimen>
+    <dimen name="more_menu_pop_category_height">146dp</dimen>
+    <dimen name="more_menu_pop_folder_height">278dp</dimen>
+    <dimen name="more_menu_pop_folder_normal_height">263dp</dimen>
+    <dimen name="more_menu_pop_share_height">305dp</dimen>
+    <dimen name="more_menu_pop_multishare_height">233dp</dimen>
+    <dimen name="more_menu_pop_multishare_normal_height">223dp</dimen>
+    <dimen name="more_menu_pop_multi_height">190dp</dimen>
+    <dimen name="more_menu_pop_multifile_height">230dp</dimen>
+    <dimen name="more_menu_padding_left">16dp</dimen>
+    <dimen name="more_menu_padding_bottom">12dp</dimen>
+    <dimen name="more_menu_item_padding">12dp</dimen>
+    <dimen name="more_menu_item_left">15dp</dimen>
+    <dimen name="more_menu_pop_xoff">10dp</dimen>
+    <dimen name="more_menu_pop_yoff">18dp</dimen>
+    <dimen name="more_menu_edit_count">20dp</dimen>
+    <dimen name="item_more_menu_pop_listxoff">17dp</dimen>
+    <dimen name="item_more_menu_pop_listyoff">27dp</dimen>
+    <dimen name="item_more_menu_pop_gridxoff">10dp</dimen>
+    <dimen name="item_more_menu_pop_gridyoff">17dp</dimen>
+    <dimen name="no_folder_font_size">16sp</dimen>
+    <dimen name="no_folder_margin_top">10dp</dimen>
+    <dimen name="more_menu_linear_top">4dp</dimen>
+    <dimen name="more_menu_land_pop_drmnoshare_height">200dp</dimen>
+    <dimen name="more_menu_land_pop_multishare_height">246dp</dimen>
+    <dimen name="more_menu_land_pop_folder_height">295dp</dimen>
+    <!-- more_menu.xml end -->
+
+    <dimen name="floating_window_z">16dp</dimen>
+
+    <!-- fragment_permission.xml start -->
+    <dimen name="permission_welcome_title_top">55dp</dimen>
+    <dimen name="permission_welcome_msg_top">22dp</dimen>
+    <dimen name="permission_top_margin">200dp</dimen>
+    <dimen name="permission_welcome_title_size">26sp</dimen>
+    <dimen name="permission_welcome_img_bottom">100dp</dimen>
+    <dimen name="permission_deny_title_left">39dp</dimen>
+    <dimen name="permission_deny_title_top">35dp</dimen>
+    <dimen name="permission_deny_title_bottom">15dp</dimen>
+    <dimen name="permission_deny_title_sizes">24sp</dimen>
+    <dimen name="permission_deny_content_bottom">25dp</dimen>
+    <dimen name="permission_deny_content_size">16sp</dimen>
+    <dimen name="permission_deny_line_bottom">25dp</dimen>
+    <dimen name="permission_setting_left">63dp</dimen>
+    <dimen name="permission_setting_bottom">15dp</dimen>
+    <dimen name="permission_setting_size">14sp</dimen>
+    <dimen name="permission_setting_nav_width">18dp</dimen>
+    <dimen name="permission_setting_nav_left">6dp</dimen>
+    <dimen name="password_dialog_width">260dp</dimen>
+    <!-- fragment_permission.xml end -->
+
+    <!--filemanager CN start-->
+
+    <integer name="category_gridview_numColumns">3</integer>
+    <integer name="safe_category_gridview_numColumns">2</integer>
+
+    <dimen name="progress_margin_huge_top">8dp</dimen>
+    <dimen name="progress_margin_huge_all_top">27dp</dimen>
+    <dimen name="progress_margin_large_top">9dp</dimen>
+    <dimen name="progress_all_normal_margin_top">42dp</dimen>
+    <dimen name="progress_two_normal_margin_top">30dp</dimen>
+
+    <!--storage detail CN start-->
+    <dimen name="chart_memory_title_height">40dp</dimen>
+    <dimen name="chart_total_memory_width">100dp</dimen>
+    <dimen name="chart_category_width">118dp</dimen>
+    <dimen name="chart_category_height">15dp</dimen>
+    <dimen name="chart_image_width_height">10dp</dimen>
+    <dimen name="chart_height_width_pie">220dp</dimen>
+    <dimen name="chart_title_padding_top">13dp</dimen>
+    <dimen name="chart_pie_margin_top">10dp</dimen>
+    <dimen name="chart_pie_margin_bottom">10dp</dimen>
+    <dimen name="chart_pie_margin_left">70dp</dimen>
+    <dimen name="chart_margin_left">35dp</dimen>
+    <dimen name="chart_margin_top">20dp</dimen>
+    <dimen name="chart_total_margin_top">22dp</dimen>
+    <dimen name="chart_total_margin_left">15dp</dimen>
+    <dimen name="chart_all_margin_left">59dp</dimen>
+    <dimen name="chart_available_margin_top">150dp</dimen>
+    <dimen name="chart_text_left">10dp</dimen>
+    <dimen name="chart_title">12sp</dimen>
+    <dimen name="chart_total_name">14sp</dimen>
+    <dimen name="chart_total_value">15sp</dimen>
+    <dimen name="chart_apk_value">13sp</dimen>
+    <dimen name="chart_available_name">12sp</dimen>
+    <dimen name="chart_available_value">22sp</dimen>
+    <dimen name="chart_text_size">12sp</dimen>
+    <dimen name="chart_text_value">13sp</dimen>
+    <dimen name="chart_text_value_width">62dp</dimen>
+    <dimen name="chart_text_btn_width">14dp</dimen>
+    <dimen name="chart_text_btn_height">2dp</dimen>
+    <dimen name="chart_text_btn_top">19dp</dimen>
+    <dimen name="chart_text_name_left">36dp</dimen>
+    <dimen name="chart_text_total_name_top">23dp</dimen>
+    <dimen name="chart_image_bottom">2dp</dimen>
+    <!--storage detail CN end-->
+    <!--filemanager CN end-->
+    <dimen name="safe_storage_item_height">66dp</dimen>
+    <dimen name="control_corner_material">20dp</dimen>
+
+    <dimen name="edit_text_view_height">35dp</dimen>
+    <dimen name="edit_text_view_text_size">14sp</dimen>
+
+    <!-- fragment_picture.xml start -->
+    <dimen name="picture_image_size">118dp</dimen>
+    <dimen name="picture_image_four_size">88dp</dimen>
+    <!-- fragment_picture.xml end -->
+
+    <!-- actionbar_coustom_view.xml start -->
+    <dimen name="left_icon_size">24dp</dimen>
+    <dimen name="left_icon_background_size">44dp</dimen>
+    <!-- actionbar_coustom_view.xml end -->
+
+    <!-- fragment_category.xml start -->
+    <dimen name="image_and_video_height">177dp</dimen>
+    <dimen name="image_and_video_width">117dp</dimen>
+    <dimen name="music_apk_safe_view_height">117dp</dimen>
+    <dimen name="music_apk_safe_view_width">117.3dp</dimen>
+    <dimen name="category_item_shade_height">36dp</dimen>
+    <!-- fragment_category.xml end -->
+</resources>

@@ -1,0 +1,23 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory>
+        <PreferenceScreen
+            android:key="update_settings_key"
+            android:title="@string/update_settings_pref" />
+    </PreferenceCategory>
+
+    <PreferenceCategory>
+        <SwitchPreference
+            android:key="wifi_download_key"
+            android:title="@string/wifi_download_pref" />
+
+        <SwitchPreference
+            android:key="none_download_pic_key"
+            android:title="@string/none_download_pic_pref" />
+
+        <SwitchPreference
+            android:key="hold_app_key"
+            android:title="@string/hold_app_pref" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

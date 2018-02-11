@@ -1,0 +1,62 @@
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="standard_padding">8dip</dimen>
+    <dimen name="half_padding">4dip</dimen>
+
+    <dimen name="activity_send_or_receive_image_height">323dp</dimen>
+    <dimen name="activity_send_or_receive_text_height">135dp</dimen>
+    <dimen name="activity_send_or_receive_margin">20dp</dimen>
+    <dimen name="activity_send_or_receive_button_margin">5dp</dimen>
+    <dimen name="activity_send_or_receive_text_size">14sp</dimen>
+    <dimen name="activity_send_or_receive_line_space">10dp</dimen>
+    <dimen name="button_height">37dp</dimen>
+    <dimen name="note_height">135dp</dimen>
+    <dimen name="note_margin">25dp</dimen>
+    <dimen name="note_bg_height">323dp</dimen>
+    <dimen name="common_button_margin">20dp</dimen>
+    <dimen name="common_button_height">40dp</dimen>
+
+    <dimen name="send_or_recv_bg_height">242dp</dimen>
+    <dimen name="low_battery_icon_margin_top">120dp</dimen>
+    <dimen name="low_battery_icon_margin_right">125dp</dimen>
+    <dimen name="low_battery_text_margin_top">7dp</dimen>
+    <dimen name="low_battery_text_margin_left">180dp</dimen>
+    <dimen name="low_battery_text_size">7sp</dimen>
+
+    <dimen name="disconnect_icon_width">59dp</dimen>
+    <dimen name="disconnect_icon_height">48dp</dimen>
+    <dimen name="disconnect_icon_margin_top">196dp</dimen>
+    <dimen name="disconnect_text_margin_top">17dp</dimen>
+    <dimen name="qq_bg_height">323dp</dimen>
+    <dimen name="qq_bg_margin_top">40dp</dimen>
+    <dimen name="qq_transfer_bg_height">241dp</dimen>
+    <dimen name="qq_transfer_scroll_height">208dp</dimen>
+    <dimen name="rippleStrokeWidth">2dp</dimen>
+    <dimen name="rippleRadius">64dp</dimen>
+    <dimen name="pointRadius">1dp</dimen>
+
+    <dimen name="qq_transfer_icon_margin_right">20dp</dimen>
+    <dimen name="qq_transfer_icon_margin_left">20dp</dimen>
+    <dimen name="qq_transfer_type_name_margin_top">9dp</dimen>
+    <dimen name="qq_transfer_type_name_size">16sp</dimen>
+    <dimen name="qq_transfer_receive_size_margin_right">20dp</dimen>
+    <dimen name="qq_transfer_receive_size">12sp</dimen>
+    <dimen name="qq_transfer_finish_icon_size">18dp</dimen>
+    <dimen name="qq_transfer_finish_icon_margin_right">20dp</dimen>
+    <dimen name="qq_transfer_restore_icon_size">28dp</dimen>
+    <dimen name="qq_transfer_progress_margin_left">63dp</dimen>
+    <dimen name="qq_transfer_progress_margin_right">20dp</dimen>
+    <dimen name="qq_transfer_progress_margin_top">4dp</dimen>
+    <dimen name="qq_transfer_progress_margin_bottom">10dp</dimen>
+    <dimen name="qq_transfer_progress_height">2dp</dimen>
+    <dimen name="qq_transfer_button_height">37dp</dimen>
+    <dimen name="qq_transfer_receive_text_width">160dp</dimen>
+    <dimen name="qq_transfer_receive_size_text_width">100dp</dimen>
+    <dimen name="qq_transfer_status_text_padding_bottom">10dp</dimen>
+    <dimen name="qq_transfer_install_text_width">200dp</dimen>
+    <dimen name="qq_transfer_status_text_size">12sp</dimen>
+</resources>

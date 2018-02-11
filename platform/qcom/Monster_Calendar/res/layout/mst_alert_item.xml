@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="64dip"
+    android:paddingLeft="18dip"
+    android:paddingRight="18dip"
+    android:paddingTop="11dip"
+    android:paddingBottom="11dip">
+
+    <TextView 
+        android:id="@+id/event_title"
+        style="@style/TextAppearance.TextView_Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:ellipsize="end" />
+
+    <TextView
+        android:id="@+id/when"
+        style="@style/TextAppearance.TextView_Summary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:singleLine="true"
+        android:ellipsize="end" />
+
+    <ImageView
+        android:id="@+id/repeat_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/when"
+        android:layout_marginLeft="5dip"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="2dip"
+        android:visibility="gone"
+        android:src="@drawable/ic_repeat_dark"
+        android:focusable="false"
+        android:clickable="false" />
+</RelativeLayout>

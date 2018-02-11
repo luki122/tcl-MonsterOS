@@ -1,0 +1,32 @@
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/sort_menu_item_paddingtop"
+    android:paddingLeft="@dimen/sort_menu_title_paddingbottom"
+    android:paddingRight="@dimen/sort_menu_title_paddingbottom"
+    android:paddingTop="@dimen/sort_menu_item_paddingtop" >
+
+    <TextView
+        android:id="@+id/sort_menu_item_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:ellipsize="marquee"
+        android:fontFamily="monster-normal"
+        android:textColor="#757575"
+        android:textSize="@dimen/sort_menu_title_textSize" />
+
+    <RadioButton
+        android:id="@+id/sort_menu_item_radio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/sort_menu_item_radio"
+        android:clickable="false"
+        android:focusable="false"
+        android:visibility="invisible" />
+
+</RelativeLayout>

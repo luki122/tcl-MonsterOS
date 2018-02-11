@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <!-- modify for  for 2464571  -->
+    <style name="AppTheme" parent="@com.mst:style/Theme.Mst.Material.Light">
+        <item name="colorAccent">@color/white</item>
+    </style>
+
+    <style name="Theme.MstActivity" parent="@com.mst:style/Theme.Mst.Material.Light">
+        <item name="com.mst:actionPositiveText">@string/select_all</item>
+        <item name="com.mst:actionNagativeText">@com.mst:string/cancel</item>
+        <item name="com.mst:actionTitleAppearance">@style/ActionModeTitle</item>
+    </style>
+
+    <style name="ActionModeTitle" parent="@com.mst:style/Theme.Mst.Material.Light">
+        <item name="android:textColor">@color/black_86</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="ToolbarActivityTheme" parent="@com.mst:style/Theme.Mst.Material.Light">
+        <item name="com.mst:actionPositiveText">@string/select_all</item>
+        <item name="com.mst:actionNagativeText">@com.mst:string/cancel</item>
+        <item name="com.mst:hasBackIcon">true</item>
+    </style>
+
+    <style name="Music5.Dark.Launch" parent="Music5.Dark">
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+
+    <style name="Music5.Dark.BaseMusicPlayer" parent="Music5.Dark">
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:actionBarSize">100dp</item>
+    </style>
+    <!-- modify for  for 2464571  -->
+    <!-- Application theme. -->
+    <style name="Music5.Dark" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:statusBarColor">#f8f8f8</item>
+
+
+        <!--<item name="android:windowBackground">@color/music_theme_color</item>-->
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="content_background_color">@color/music_theme_color</item>
+        <item name="tab_bar_primary_color">@color/tab_bar_primary_dark</item>
+        <item name="tab_bar_secondary_color">@color/tab_bar_secondary_dark</item>
+
+        <item name="android:textColorPrimary">@drawable/tct_btn_text_color_default</item>
+        <item name="windowActionBarOverlay">true</item>
+        <!--   your app branding color for the app bar -->
+        <!-- //[BUGFIX]-Add by TCTNJ, lei.liu2,2016-6-30,ALM2343323 begin -->
+        <item name="colorPrimary">@color/music_theme_color</item>
+        <!-- //[BUGFIX]-Add by TCTNJ, lei.liu2,2016-6-30,ALM2343323 end -->
+        <!--   darker variant for the status bar and contextual app bars -->
+        <item name="colorPrimaryDark">@color/tab_bar_secondary_dark</item>
+        <item name="colorAccent">@color/accent_material_dark</item>
+
+        <!--<item name="android:popupBackground">@drawable/popup_background</item>-->
+        <!--  <item name="android:listViewStyle">@style/ListView.Dark</item>-->
+        <item name="actionBarStyle">@style/Music5.ActionBarNew</item>
+
+        <item name="transitionRadioButtonStyle">@style/TransitionRadioButtonStyle</item>
+        <!--PR 942347 modify by qingjing.zhao begin-->
+        <!--<item name="android:popupMenuStyle">@android:style/Widget.DeviceDefault.Light.PopupMenu</item>-->
+        <item name="popupMenuStyle">@style/CustomPopupMenuStyle</item>
+        <!--PR 942347 modify by qingjing.zhao end-->
+        <!--<item name="android:alertDialogTheme">@style/Music5AlertDialog</item>-->
+        <!-- Add by TCTNJ,huiyuan.wang, 2015-07-14,PR996622 Begin -->
+        <item name="android:actionModeBackground">@color/white</item>
+        <!-- Add by TCTNJ,huiyuan.wang, 2015-07-14,PR996622 End -->
+        <!-- Add by TCTNJ,huiyuan.wang, 2015-07-30,PR1046328 Begin -->
+        <item name="android:actionModeCloseButtonStyle">@style/NoCloseButton</item>
+        <item name="android:checkboxStyle">@android:style/Widget.DeviceDefault.Light.CompoundButton.CheckBox</item>
+        <item name="android:radioButtonStyle">@android:style/Widget.DeviceDefault.Light.CompoundButton.RadioButton
+        </item>
+        <item name="android:buttonStyle">@android:style/Widget.DeviceDefault.Light.Button</item>
+
+        <item name="android:windowIsTranslucent">true</item>
+
+        <item name="android:windowNoTitle">true</item>
+
+        <item name="android:windowActionBar">false</item>
+
+        <item name="android:windowBackground">@android:color/white</item>
+        <!--add for music performance 2203355 begin-->
+        <item name="android:windowAnimationStyle">@style/music_windowAnimationStyle</item>
+        <!--add for music performance 2203355 end-->
+    </style>
+    <!--add for music performance 2203355 begin-->
+    <style name="music_windowAnimationStyle" parent="android:style/Animation.Translucent">
+        <!-- add for  2401692 begin-->
+        <item name="android:windowEnterAnimation">@anim/activity_anim_in</item>
+        <item name="android:windowExitAnimation">@null</item>
+        <!-- add for  2401692 end-->
+        <item name="android:activityOpenEnterAnimation">@null</item>
+        <item name="android:activityOpenExitAnimation">@null</item>
+    </style>
+    <!--add for music performance 2203355 end-->
+    <style name="NoCloseButton" parent="@android:style/Widget.ActionButton.CloseMode">
+        <item name="android:visibility">gone</item>
+    </style>
+    <!-- Add by TCTNJ,huiyuan.wang, 2015-07-30,PR1046328 End -->
+
+    <style name="Music5.Dark.NoActionBar" parent="Music5.Dark">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:splitMotionEvents">false</item>
+    </style>
+
+    <style name="Music5.Dark.NoActionBar.FullScreen" parent="Music5.Dark">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowTranslucentNavigation" tools:targetApi="kitkat">true</item>
+    </style>
+
+    <style name="Music5AlertDialog" parent="@style/Theme.AppCompat.Dialog">
+        <item name="android:colorBackground">#43525b</item>
+        <item name="android:windowMinWidthMajor">@android:dimen/dialog_min_width_major</item>
+        <item name="android:windowMinWidthMinor">@android:dimen/dialog_min_width_minor</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <!--<item name="android:background">#43525b</item>-->
+    </style>
+
+    <style name="Music5AlertDialog.NoActionBar" parent="Music5AlertDialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowTitleBackgroundStyle">@android:color/transparent</item>
+        <item name="android:background">#00000000</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="windowActionBar">false</item>
+    </style>
+
+    <style name="AlertDialog.NoTransParent" parent="@style/Theme.AppCompat.Dialog">
+        <item name="android:colorBackground">#43525b</item>
+        <item name="android:windowMinWidthMajor">@android:dimen/dialog_min_width_major</item>
+        <item name="android:windowMinWidthMinor">@android:dimen/dialog_min_width_minor</item>
+        <!--<item name="android:windowBackground">@android:color/transparent</item>-->
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="Music5PopupMenu" parent="@style/Widget.AppCompat.PopupMenu">
+        <item name="android:popupBackground">@color/music_theme_color</item>
+    </style>
+
+    <!-- //[BUGFIX]-Modify by TCTNJ,liang.guo, 2015-08-10, PR1063606 Begin -->
+    <style name="Music5.Dark.Panel" parent="@style/Theme.AppCompat.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowMinWidthMajor">95%</item>
+        <item name="android:windowMinWidthMinor">95%</item>
+    </style>
+    <!-- //[BUGFIX]-Modify by TCTNJ,liang.guo, 2015-08-10, PR1063606 End -->
+
+    <style name="SamplerContentView">
+        <item name="android:layout_alignParentBottom">true</item>
+    </style>
+
+    <style name="AdvancedSampler">
+        <item name="android:visibility">gone</item>
+    </style>
+
+
+    <style name="Music5.ActionBar" parent="Widget.AppCompat.ActionBar.Solid">
+        <item name="elevation">0dp</item>
+    </style>
+
+    <style name="Music5.ActionBarNew" parent="Widget.AppCompat.ActionBar.Solid">
+        <item name="elevation">0dp</item>
+        <item name="contentInsetStart">0dp</item>
+        <item name="contentInsetEnd">0dp</item>
+    </style>
+
+    <style name="Music5.Light.Dialog" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowTitleBackgroundStyle">@android:color/transparent</item>
+        <item name="windowActionBar">false</item>
+    </style>
+
+    <style name="MusicDetail.Dark" parent="Music5.Dark">
+        <item name="actionBarSize">43dp</item>
+        <item name="content_background_color">@color/content_background_shallow</item>
+    </style>
+
+    <style name="PopupMenuAnimation">
+        <item name="android:windowEnterAnimation">@anim/grow_fade_in</item>
+        <item name="android:windowExitAnimation">@anim/shrink_fade_out</item>
+    </style>
+
+    <style name="TransitionRadioButtonStyle" parent="@android:style/Widget.CompoundButton.RadioButton">
+
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">Roboto Regular</item>
+        <item name="android:textColor">#FFA6A7A8</item>
+        <item name="android:textAlignment">gravity</item>
+        <item name="android:gravity">start|center</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">42dp</item>
+        <item name="android:button">@null</item>
+        <item name="android:drawableEnd">@drawable/abc_btn_radio_material</item>
+    </style>
+
+    <style name="CustomPopupMenuStyle" parent="@android:style/Widget.Holo.Light.PopupMenu">
+        <item name="android:popupBackground">@color/swiperefresh_progress_background</item>
+        <item name="android:popupElevation">16dp</item>
+        <item name="android:dropDownSelector">?attr/listChoiceBackgroundIndicator</item>
+    </style>
+
+
+    <style name="ListView.Dark" parent="@android:style/Widget.DeviceDefault.ListView">
+        <item name="android:background">@color/content_background_dark</item>
+        <item name="android:itemBackground">@color/primary_orange</item>
+        <item name="android:dividerHeight">0dp</item>
+        <item name="android:divider">@android:color/transparent</item>
+    </style>
+
+    <style name="Music5DefaultProgressBar" parent="@android:style/Widget.DeviceDefault.Light.ProgressBar.Horizontal"/>
+
+    <style name="Music5ProgressBar" parent="Music5DefaultProgressBar">
+        <item name="android:progressDrawable">@drawable/progress_horizontal_music5</item>
+    </style>
+
+    <style name="Music5WidgetProgressBar" parent="@android:style/Widget.DeviceDefault.Light.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progress_widget_music5</item>
+    </style>
+
+    <style name="MediaSeekBar" parent="@android:style/Widget.DeviceDefault.Light.SeekBar">
+        <item name="android:progressDrawable">@drawable/circle_seek_bar</item>
+        <item name="android:thumb">@drawable/media_thumb_normal</item>
+
+    </style>
+
+    <!-- //Add by TCTNJ,xiaoyan.xu, 2015-01-30,FR914723 Begin -->
+    <!-- tip style begin -->
+    <style name="TipBtn14Style">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:alpha">0.87</item>
+        <item name="android:fontFamily">Roboto regular</item>
+    </style>
+
+    <style name="TipBtn16Style">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">Roboto regular</item>
+    </style>
+
+    <style name="TipTvNew18Style">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">Roboto regular</item>
+    </style>
+
+    <style name="TipTv18Style">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:alpha">0.87</item>
+        <item name="android:fontFamily">Roboto regular</item>
+    </style>
+    <!-- tip style end -->
+    <!-- //Add by TCTNJ,xiaoyan.xu, 2015-01-30,FR914723 End -->
+
+    <!-- Base application theme. -->
+    <style name="OriginalToolbarActivityTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:statusBarColor">@android:color/white</item>
+        <item name="colorPrimary">@android:color/white</item>
+        <item name="colorPrimaryDark">@android:color/white</item>
+        <item name="android:actionMenuTextColor">@android:color/black</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:colorAccent">@android:color/black</item>
+        <item name="android:colorControlNormal">@android:color/black</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:splitMotionEvents">false</item>
+        <item name="android:actionModeBackground">@color/white</item>
+        <item name="android:actionModeCloseButtonStyle">@style/NoCloseButton</item>
+    </style>
+    <!--toolbar标题字体大小颜色透明度-->
+    <style name="ToolbarTitle" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:alpha">0.86</item>
+    </style>
+
+    <style name="ToolbarTitleWhite" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <!--TextView基本样式-->
+    <style name="textview_base">
+        <item name="android:gravity">center</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+
+    <!--**********************全透明颜色开始**********************-->
+    <!--白色 11sp 全透明 color + size-->
+    <style name="textview_white_10sp" parent="textview_white_11sp">
+        <item name="android:textSize">@dimen/sp_10</item>
+    </style>
+
+    <style name="textview_white_11sp" parent="textview_base">
+        <item name="android:textSize">@dimen/sp_11</item>
+    </style>
+    <!--白色 12sp 全透明-->
+    <style name="textview_white_12sp" parent="textview_white_11sp">
+        <item name="android:textSize">@dimen/sp_12</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <!--白色 13sp 全透明-->
+    <style name="textview_white_13sp" parent="textview_white_11sp">
+        <item name="android:textSize">@dimen/sp_13</item>
+    </style>
+
+    <!--白色 14sp 全透明-->
+    <style name="textview_white_14sp" parent="textview_white_11sp">
+        <item name="android:textSize">@dimen/sp_14</item>
+    </style>
+    <!--白色 16sp 全透明-->
+    <style name="textview_white_16sp" parent="textview_white_11sp">
+        <item name="android:textSize">@dimen/sp_16</item>
+    </style>
+    <!--白色 18sp 全透明-->
+    <style name="textview_white_18sp" parent="textview_white_11sp">
+        <item name="android:textSize">@dimen/sp_18</item>
+    </style>
+
+    <!--橙色 14sp 全透明-->
+    <style name="textview_orange_14sp" parent="textview_white_14sp">
+        <item name="android:textColor">@color/orange</item>
+    </style>
+
+
+    <!--黑色 14sp 全透明-->
+
+
+    <style name="textview_black_14sp" parent="textview_white_14sp">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="textview_black_11sp" parent="textview_black_14sp">
+        <item name="android:textSize">@dimen/sp_11</item>
+    </style>
+
+    <style name="textview_black_12sp" parent="textview_black_14sp">
+        <item name="android:textSize">@dimen/sp_12</item>
+    </style>
+
+    <style name="textview_black_13sp" parent="textview_black_14sp">
+        <item name="android:textSize">@dimen/sp_13</item>
+    </style>
+    <!--**********************全透明颜色结束**********************-->
+
+
+    <!--**********************有透明度颜色开始**********************-->
+    <!--白色 10sp 87%透明  color + size + alpha-->
+    <style name="textview_white_10sp_87" parent="textview_white_11sp_87">
+        <item name="android:textSize">@dimen/sp_10</item>
+    </style>
+
+    <style name="textview_white_11sp_87" parent="textview_white_12sp_87">
+        <item name="android:textSize">@dimen/sp_11</item>
+    </style>
+
+    <!--白色 11sp 54%透明-->
+    <style name="textview_white_10sp_54" parent="textview_white_11sp_54">
+        <item name="android:textSize">@dimen/sp_10</item>
+    </style>
+
+    <style name="textview_white_11sp_54" parent="textview_white_12sp_54">
+        <item name="android:textSize">@dimen/sp_11</item>
+    </style>
+
+    <!--白色 12sp 87%透明-->
+    <style name="textview_white_12sp_87" parent="textview_white_12sp">
+        <item name="android:textColor">@color/white_87</item>
+    </style>
+
+    <!--白色 12sp 54%透明-->
+    <style name="textview_white_12sp_54" parent="textview_white_12sp">
+        <item name="android:textColor">@color/white_54</item>
+    </style>
+
+    <style name="textview_white_12sp_50" parent="textview_white_12sp_54">
+        <item name="android:textColor">@color/white_50</item>
+    </style>
+
+
+    <!--白色 13sp 87%透明-->
+    <style name="textview_white_13sp_87" parent="textview_white_12sp_87">
+        <item name="android:textSize">@dimen/sp_13</item>
+    </style>
+
+    <!--白色 13sp 54%透明-->
+    <style name="textview_white_13sp_54" parent="textview_white_12sp_54">
+        <item name="android:textSize">@dimen/sp_13</item>
+    </style>
+
+    <!--白色 14sp 87%透明-->
+    <style name="textview_white_14sp_87" parent="textview_white_12sp_87">
+        <item name="android:textSize">@dimen/sp_14</item>
+    </style>
+
+    <!--白色 14sp 54%透明-->
+    <style name="textview_white_14sp_54" parent="textview_white_12sp_54">
+        <item name="android:textSize">@dimen/sp_14</item>
+    </style>
+
+    <style name="textview_black_gd" parent="textview_white_12sp_54">
+        <item name="android:textSize">@dimen/sp_14</item>
+        <item name="android:textColor">@color/base</item>
+    </style>
+
+    <!--白色 16sp 87%透明-->
+    <style name="textview_white_16sp_87" parent="textview_white_12sp_87">
+        <item name="android:textSize">@dimen/sp_16</item>
+    </style>
+
+    <!--白色 16sp 54%透明-->
+    <style name="textview_white_16sp_54" parent="textview_white_12sp_54">
+        <item name="android:textSize">@dimen/sp_16</item>
+    </style>
+
+    <!--白色 18sp 87%透明-->
+    <style name="textview_white_18sp_87" parent="textview_white_12sp_87">
+        <item name="android:textSize">@dimen/sp_18</item>
+    </style>
+
+    <!--白色 18sp 54%透明-->
+    <style name="textview_white_18sp_54" parent="textview_white_12sp_54">
+        <item name="android:textSize">@dimen/sp_18</item>
+    </style>
+
+    <!--白色 18sp 20%透明-->
+    <style name="textview_white_18sp_20" parent="textview_white_18sp_54">
+        <item name="android:textColor">@color/white_20</item>
+    </style>
+
+    <!--黑色色 11sp 20%透明-->
+    <style name="textview_black_11sp_20" parent="textview_white_11sp">
+        <item name="android:color">@color/black_20</item>
+    </style>
+
+    <style name="textview_black_12sp_20" parent="textview_black_11sp_20">
+        <item name="android:textSize">@dimen/sp_12</item>
+    </style>
+
+    <style name="textview_black_13sp_20" parent="textview_black_11sp_20">
+        <item name="android:textSize">@dimen/sp_13</item>
+    </style>
+
+    <style name="textview_black_16sp_20" parent="textview_black_11sp_20">
+        <item name="android:textSize">@dimen/sp_16</item>
+    </style>
+
+
+    <style name="textview_black_11sp_54" parent="textview_black_11sp_20">
+        <item name="android:textColor">@color/black_54</item>
+    </style>
+
+    <style name="textview_black_12sp_54" parent="textview_black_11sp_54">
+        <item name="android:textSize">@dimen/sp_12</item>
+    </style>
+
+    <style name="textview_black_13sp_54" parent="textview_black_11sp_54">
+        <item name="android:textSize">@dimen/sp_13</item>
+    </style>
+
+    <style name="textview_black_16sp_54" parent="textview_black_11sp_54">
+        <item name="android:textSize">@dimen/sp_16</item>
+    </style>
+
+
+    <style name="textview_black_11sp_87" parent="textview_white_11sp">
+        <item name="android:textColor">@color/black_87</item>
+    </style>
+
+    <style name="textview_black_12sp_87" parent="textview_black_11sp_87">
+        <item name="android:textSize">@dimen/sp_12</item>
+    </style>
+
+    <style name="textview_black_13sp_87" parent="textview_black_11sp_87">
+        <item name="android:textSize">@dimen/sp_13</item>
+    </style>
+
+    <style name="textview_black_16sp_87" parent="textview_black_11sp_87">
+        <item name="android:textSize">@dimen/sp_16</item>
+    </style>
+
+    <style name="textview_black_20sp_87" parent="textview_black_11sp_87">
+        <item name="android:textSize">@dimen/sp_20</item>
+    </style>
+
+    <style name="textview_white_20sp_87" parent="textview_white_18sp_87">
+        <item name="android:textSize">@dimen/sp_20</item>
+    </style>
+
+    <!--**********************有透明度颜色结束**********************-->
+
+
+    <!--**********************actionbar title样式开始**********************-->
+    <style name="actionbar_title_style" parent="textview_white_18sp">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <!--**********************actionbar title样式结束**********************-->
+
+
+    <!--**********************Toast样式开始**********************-->
+    <style name="toast_style" parent="textview_base">
+        <item name="android:textSize">@dimen/sp_14</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <!--**********************Toast样式结束**********************-->
+
+    <style name="tab_filter_textview_style" parent="textview_white_14sp">
+        <item name="android:textColor">@drawable/fiter_textview_selector</item>
+    </style>
+
+
+    <declare-styleable name="PagerSlidingTabStrip">
+        <attr name="pstsIndicatorColor" format="color"/>
+        <attr name="pstsUnderlineColor" format="color"/>
+        <attr name="pstsDividerColor" format="color"/>
+        <attr name="pstsIndicatorHeight" format="dimension"/>
+        <attr name="pstsUnderlineHeight" format="dimension"/>
+        <attr name="pstsDividerPadding" format="dimension"/>
+        <attr name="pstsTabPaddingLeftRight" format="dimension"/>
+        <attr name="pstsScrollOffset" format="dimension"/>
+        <attr name="pstsTabBackground" format="reference"/>
+        <attr name="pstsShouldExpand" format="boolean"/>
+        <attr name="pstsTextAllCaps" format="boolean"/>
+    </declare-styleable>
+
+    <style name="list_view_style">
+        <item name="android:cacheColorHint">#00000000</item>
+        <item name="android:divider">@null</item>
+        <item name="android:dividerHeight">0dip</item>
+        <item name="android:fadingEdge">none</item>
+        <item name="android:fastScrollEnabled">false</item>
+        <item name="android:scrollbars">none</item>
+        <item name="android:smoothScrollbar">true</item>
+    </style>
+
+
+    <style name="ProgressBarMiddle" parent="@android:style/Widget.ProgressBar.Large">
+        <item name="android:indeterminateDrawable">@drawable/progress_big</item>
+        <item name="android:minWidth">60dip</item>
+        <item name="android:maxWidth">60dip</item>
+        <item name="android:minHeight">60dip</item>
+        <item name="android:maxHeight">60dip</item>
+        <item name="android:indeterminateOnly">true</item>
+        <item name="android:indeterminateBehavior">repeat</item>
+        <item name="android:indeterminateDuration">3500</item>
+    </style>
+
+    <style name="emptylayut">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:paddingTop">46dp</item>
+        <item name="android:gravity">top|center_horizontal</item>
+        <item name="android:background">@color/transparent</item>
+    </style>
+
+    <style name="emptylayout">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:paddingTop">46dp</item>
+        <item name="android:gravity">top|center_horizontal</item>
+        <item name="android:background">@color/transparent</item>
+    </style>
+
+    <style name="dialogonlywlan">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/transparent</item>
+    </style>
+
+</resources>
+

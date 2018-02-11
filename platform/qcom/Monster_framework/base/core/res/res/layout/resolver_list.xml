@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+* Copyright 2012, The Android Open Source Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*     http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+-->
+<mst.widget.DrawerActivityLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mst="http://schemas.android.com/apk/res/com.mst"
+    android:id="@*android:id/contentPanel"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:maxWidth="@*android:dimen/resolver_max_width"
+    mst:maxCollapsedHeight="284dp"
+    mst:maxCollapsedHeightSmall="56dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        mst:layout_alwaysShow="true"
+        android:background="@*android:color/white"
+        android:elevation="8dp"
+        android:paddingStart="20dp" >
+
+        <TextView
+            android:id="@*android:id/title"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:gravity="start|bottom"
+            android:paddingBottom="8dp"
+            android:paddingEnd="?*android:attr/dialogPreferredPadding"
+            android:textAppearance="?*android:attr/textAppearanceMedium"
+            android:textColor="#db000000"
+            android:textSize="17sp" />
+
+        <ImageButton
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginEnd="2dp"
+            android:paddingTop="10dp"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:onClick="closeActivity"
+            android:scaleType="center"
+            android:src="@drawable/ic_clear_material" />
+
+        <LinearLayout
+            android:id="@*android:id/profile_button"
+            style="?*android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginTop="4dp"
+            android:focusable="true"
+            android:paddingBottom="4dp"
+            android:paddingEnd="8dp"
+            android:paddingStart="8dp"
+            android:paddingTop="4dp"
+            android:visibility="gone" >
+
+            <ImageView
+                android:id="@*android:id/icon"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="start|center_vertical"
+                android:layout_marginBottom="12dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="12dp"
+                android:scaleType="fitCenter" />
+
+            <TextView
+                android:id="@*android:id/text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start|center_vertical"
+                android:layout_marginEnd="16dp"
+                android:ellipsize="marquee"
+                android:maxLines="1"
+                android:minLines="1"
+                android:textAppearance="?*android:attr/textAppearanceButton"
+                android:textColor="?*android:attr/textColorPrimary" />
+        </LinearLayout>
+    </LinearLayout>
+
+    
+    <LinearLayout
+        android:id="@*android:id/button_bar"
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@*android:color/white"
+        android:elevation="8dp"
+        android:gravity="start|center_vertical"
+        android:layoutDirection="locale"
+        android:measureWithLargestChild="true"
+        android:orientation="horizontal"
+        android:paddingEnd="12dp"
+        android:paddingStart="0dp"
+        android:visibility="gone" >
+
+        <CheckBox
+            android:id="@*android:id/button_always"
+            style="?android:attr/buttonBarNegativeButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_gravity="start"
+            android:enabled="false"
+            android:maxLines="2"
+            android:background="@null"
+            android:text="@*android:string/activity_resolver_use_always" 
+            android:button="@drawable/btn_check_material_anim"
+            android:paddingStart="16dp" />
+
+   <!--      <Button
+            android:id="@*android:id/button_always"
+            style="?android:attr/buttonBarPositiveButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:enabled="false"
+            android:maxLines="2"
+            android:onClick="onButtonClick"
+            android:text="@*android:string/activity_resolver_use_always" /> -->
+    </LinearLayout>
+    
+    
+    <GridView
+        android:id="@*android:id/resolver_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@*android:color/white"
+        android:clipToPadding="false"
+        android:numColumns="3"
+        android:divider="@null"
+        android:elevation="8dp"
+        android:verticalSpacing="3dp"
+        android:nestedScrollingEnabled="true"
+        android:scrollbarStyle="outsideOverlay" 
+        android:paddingLeft="22dp"
+        android:paddingRight="22dp"
+        android:paddingBottom="16dp" />
+    
+    <TextView
+        android:id="@*android:id/empty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        mst:layout_alwaysShow="true"
+        android:background="@*android:color/white"
+        android:gravity="center"
+        android:padding="32dp"
+        android:text="@*android:string/noApplications"
+        android:visibility="gone" />
+
+</mst.widget.DrawerActivityLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.android.camera.ui.RotateLayout
+        android:id="@+id/intent_review_rotate_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <com.android.camera.ui.IntentReviewControls
+            android:id="@+id/intent_review_controls"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:background="@drawable/black_color"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/button_cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginStart="@dimen/intent_review_cancel_done_button_margin"
+                    android:layout_marginEnd="@dimen/intent_review_cancel_done_button_margin"
+                    android:padding="@dimen/intent_review_cancel_done_button_padding"
+                    android:background="@null"
+                    android:src="@drawable/ic_cancel_normal"/>
+
+                <ImageButton
+                    android:id="@+id/button_done"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginStart="@dimen/intent_review_cancel_done_button_margin"
+                    android:layout_marginEnd="@dimen/intent_review_cancel_done_button_margin"
+                    android:padding="@dimen/intent_review_cancel_done_button_padding"
+                    android:background="@null"
+                    android:src="@drawable/ic_confirm_normal"/>
+            </RelativeLayout>
+
+
+            <ImageButton
+                android:id="@+id/button_retake"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@null"
+                android:src="@drawable/ic_back_normal"/>
+
+            <ImageButton
+                android:id="@+id/button_review"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@null"
+                android:src="@drawable/ic_play"/>
+        </com.android.camera.ui.IntentReviewControls>
+
+    </com.android.camera.ui.RotateLayout>
+
+</LinearLayout>

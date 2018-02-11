@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="40dp"
+    android:height="40dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+
+    <group
+            android:name="Phone-通话中"
+            android:translateX="-775.000000"
+            android:translateY="-838.000000">
+        <group
+                android:name="2"
+                android:translateY="-3.000000">
+            <group
+                    android:translateX="179.000000"
+                    android:translateY="834.000000">
+                <group
+                        android:name="蓝牙"
+                        android:translateX="614.000000"
+                        android:translateY="25.000000">
+                    <group
+                            android:name="Group-6"
+                            android:translateX="21.250000"
+                            android:translateY="17.190476">
+                        <path
+                            android:name="Stroke-2"
+                            android:fillType="evenOdd"
+                            android:strokeColor="@color/button_disable_color"
+                            android:strokeWidth="3"
+                            android:strokeLineCap="round"
+                            android:pathData="M19.6149096,16.4166439 L19.6149096,0.217153526 C19.6149096,0.0599566471
+19.7876448,-0.0397577912 19.9248864,0.0400137594 L30.6545816,6.18242316
+L41.3842767,12.3236594 C41.5227014,12.403431 41.5227014,12.6005137
+41.3842767,12.6791121 L0,36.4404762" />
+                        <path
+                            android:name="Stroke-4"
+                            android:fillType="evenOdd"
+                            android:strokeColor="@color/button_disable_color"
+                            android:strokeWidth="3"
+                            android:strokeLineCap="round"
+                            android:pathData="M19.6149096,34.0313961 L19.6149096,50.4023805 C19.6149096,50.5595795
+19.7876448,50.6581221 19.9248864,50.5795226 L30.6545816,44.4370308
+L41.3842767,38.2945389 C41.5227014,38.2159394 41.5227014,38.0188541
+41.3842767,37.9390815 L0,14.1785714" />
+                    </group>
+                </group>
+            </group>
+        </group>
+    </group>
+</vector>

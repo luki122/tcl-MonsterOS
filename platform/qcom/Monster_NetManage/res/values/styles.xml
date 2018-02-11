@@ -1,0 +1,47 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.com.mst:windowLayoutSt
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="WindowStyle.statusBar" parent="android:Theme.Light">
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <!-- Android 5.x开始需要把颜色设置透明，否则导航栏会呈现系统默认的浅灰色 -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="MstCalendarTheme.WithBackIcon" parent="@com.mst:style/Theme.Mst.Material.Light">
+        <item name="com.mst:windowLayoutStyle">@style/WindowStyle.WithBackIcon</item>
+    </style>
+
+    <style name="WindowStyle.WithBackIcon" parent="com.mst:WindowStyle.Light">
+        <item name="com.mst:hasBackIcon">true</item>
+    </style>
+
+    <style name="NotificationTitle" parent="android:TextAppearance.StatusBar.EventContent.Title" />
+
+    <style name="NotificationContent" parent="android:TextAppearance.StatusBar.EventContent" />
+
+    <!-- <style name="Theme.System.DialogStyle" parent="@style/DialogWindowTitle.DeviceDefault" /> -->
+    <style name="Theme.System.DialogStyle" parent="@android:style/Theme.Holo.Light.Dialog">
+
+　　        <item name="android:windowBackground">@android:color/transparent</item>
+　　        <item name="android:windowContentOverlay">@null</item>
+
+　　</style>
+
+</resources>

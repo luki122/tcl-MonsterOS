@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/ic_check_box_ck" android:state_checked="true"/>
+    <item android:drawable="@drawable/ic_check_box_ck" android:state_selected="true"/>
+    <item android:drawable="@drawable/ic_check_box_ck" android:state_pressed="true"/>
+    <item android:drawable="@drawable/ic_check_box_no" />
+</selector>

@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="search_location">"Search location"</string>
+    <string name="app_name">"Weather"</string>
+    <string name="locate_connect_error">"Cannot connect to the Internet."</string>
+    <string name="date_am">AM</string>
+    <string name="date_pm">PM</string>
+    <string name="test_city_name">成都</string>
+    <string name="test_air_state">9优</string>
+    <string name="test_weather_tip">紫外线强烈\n注意做防晒措施</string>
+    <string name="test_temp">37°</string>
+    <string name="test_weather_state">阴</string>
+    <string name="test_weather_warn">不会有雨，最近的雨在64公里外</string>
+    <string name="release_time">"Release time"</string>
+    <string name="early_warning_information">"Early warning information"</string>
+    <string name="day_weather_monday">"Monday"</string>
+    <string name="day_weather_tuesday">"Tuesday"</string>
+    <string name="day_weather_wednesday">"Wednesday"</string>
+    <string name="day_weather_thursday">"Thursday"</string>
+    <string name="day_weather_friday">"Friday"</string>
+    <string name="day_weather_saturday">"Saturday"</string>
+    <string name="day_weather_sunday">"Sunday"</string>
+    <string name="day_weather_yesterday">"Yesterday"</string>
+    <string name="day_weather_today">"Today"</string>
+    <string name="refreshing">"Refreshing..."</string>
+    <string name="weather_manager">"City management"</string>
+    <string name="system_tips">"System prompt"</string>
+    <string name="confirm">"Sure"</string>
+    <string name="delete_city">"Delete the city?"</string>
+    <string name="back">"Return"</string>
+    <string name="now">"now"</string>
+    <string name="hot">"hot"</string>
+    <string name="test">测试</string>
+    <string name="delete">"delete"</string>
+
+    <string name="life_index_tip">"Recommended to wear short sleeved shorts cool summer clothing etc"</string>
+    <string name="humidity_str">"humidity"</string>
+    <string name="alarm">"warning"</string>
+    <string name="dress_index_str">"Dressing index"</string>
+    <string name="sport_index_str">"Sports index"</string>
+    <string name="sunscreen_index_str">"Sunscreen index"</string>
+    <string name="car_wash_index_str">"Car wash index"</string>
+
+    <string name="weather_sunny">"sunny"</string>
+    <string name="weather_cloudy">"cloudy"</string>
+    <string name="weather_overcast">"overcast"</string>
+    <string name="weather_shower">"shower"</string>
+    <string name="weather_thunder_shower">"Thunder shower"</string>
+    <string name="weather_thunder_shower_with_hail">"Thunder shower with hail"</string>
+    <string name="weather_sleet">"sleet"</string>
+    <string name="weather_light_rain">"Light rain"</string>
+    <string name="weather_moderate_rain">"moderate rain"</string>
+    <string name="weather_heavy_rain">"Heavy rain"</string>
+    <string name="weather_storm">"storm"</string>
+    <string name="weather_heavy_storm">"Heavy storm"</string>
+    <string name="weather_severe_storm">"Severe storm"</string>
+    <string name="weather_snow_flurry">"Snow flurry"</string>
+    <string name="weather_light_snow">"Light snow"</string>
+    <string name="weather_moderate_snow">"Moderate snow"</string>
+    <string name="weather_heavy_snow">"Heavy snow"</string>
+    <string name="weather_snow_storm">"Snow storm"</string>
+    <string name="weather_foggy">"foggy"</string>
+    <string name="weather_ice_rain">"Ice rain"</string>
+    <string name="weather_dust_storm">"Dust storm"</string>
+    <string name="weather_light_to_moderate_rain">"Light to moderate rain"</string>
+    <string name="weather_moderate_to_heavy_rain">"Moderate to heavy rain"</string>
+    <string name="weather_heavy_rain_to_storm">"Heavy rain to storm"</string>
+    <string name="weather_storm_to_heavy">"Storm to heavy"</string>
+    <string name="weather_heavy_to_server_storm">"Heavy to server storm"</string>
+    <string name="weather_light_to_moderate_snow">"Light to moderate snow"</string>
+    <string name="weather_moderate_snow_to_heavy_snow">"moderate to heavy snow"</string>
+    <string name="weather_snow_heavy_snow_to_snow_storm">"Heavy snow to snow storm"</string>
+    <string name="weather_dust">"dust"</string>
+    <string name="weather_sand">"sand"</string>
+    <string name="weather_sand_storm">"Sand storm"</string>
+    <string name="weather_dense_foggy">"Dense foggy"</string>
+    <string name="weather_snow">"snow"</string>
+    <string name="weather_moderate_foggy">"Moderate foggy"</string>
+    <string name="weather_haze">"haze"</string>
+    <string name="weather_moderate_haze">"Moderate haze"</string>
+    <string name="weather_heavy_haze">"Moderate haze"</string>
+    <string name="weather_severe_haze">"Severe haze"</string>
+    <string name="weather_heavy_foggy">"Heavy foggy"</string>
+    <string name="weather_severe_foggy">"Severe foggy"</string>
+    <string name="weather_unknown">"unknown"</string>
+
+    <!--air status info-->
+    <string name="air_fine">"Excellent air quality"</string>
+    <string name="air_good">"Good air quality"</string>
+    <string name="air_common">"General air quality"</string>
+    <string name="air_substandard">"Poor air quality"</string>
+    <string name="air_turbidity">"Air quality turbidity"</string>
+    <string name="air_bad">"Air quality is bad"</string>
+
+    <!--warning status info-->
+    <string name="warning_typhoon">"Typhoon"</string>
+    <string name="warning_rainstorm">"Rainstorm"</string>
+    <string name="warning_blizzard">"Blizzard"</string>
+    <string name="warning_cold_wave">"Cold wave"</string>
+    <string name="warning_gusty_winds">"Gusty winds"</string>
+    <string name="warning_sandstorm">"Sandstorm"</string>
+    <string name="warning_high_temperature">"High temperature"</string>
+    <string name="warning_drought">"Drought"</string>
+    <string name="warning_thunder">"Thunder"</string>
+    <string name="warning_hail">"Hail"</string>
+    <string name="warning_frost">"Frost"</string>
+    <string name="warning_heavy_foggy">"Heavy foggy"</string>
+    <string name="warning_haze">"Haze"</string>
+    <string name="warning_icy_road">"Icy road"</string>
+
+    <!--guang dong warning status info-->
+    <string name="gd_rainstorm">"Rainstorm"</string>
+    <string name="gd_high_temperature">"High temperature"</string>
+    <string name="gd_hail">"hail"</string>
+    <string name="gd_heavy_foggy">"heavy foggy"</string>
+    <string name="gd_icy_road">"Icy Road"</string>
+    <string name="gd_haze">"Haze"</string>
+    <string name="gd_cold_wave">"cold"</string>
+    <string name="gd_thunderstorm_gusty_winds">"Thunderstorm"</string>
+    <string name="gd_forest_fire">"forest fire"</string>
+    <string name="gd_typhoon">"Typhoon"</string>
+
+    <string name="lower_temperature">"降温"</string>
+    <string name="dry_and_hot_wind">"干热风"</string>
+    <string name="low_temperature">"低温"</string>
+    <string name="frozen">"冰冻"</string>
+
+    <!--wind power status info-->
+    <string name="wind_light">"&lt;10m/h"</string>
+    <string name="wind_3_grade">"10~17m/h"</string>
+    <string name="wind_4_grade">"Main page"</string>
+    <string name="wind_5_grade">"25~34m/h"</string>
+    <string name="wind_6_grade">"34~43m/h"</string>
+    <string name="wind_7_grade">"43~54m/h"</string>
+    <string name="wind_8_grade">"54~65m/h"</string>
+    <string name="wind_9_grade">"65~77m/h"</string>
+    <string name="wind_10_grade">"77~89m/h"</string>
+    <string name="wind_11_grade">"89~102m/h"</string>
+
+    <!--wind direction status info-->
+    <string name="wind_direction_no_wind">"No wind"</string>
+    <string name="wind_direction_northeast">"Northeast"</string>
+    <string name="wind_direction_east">"East"</string>
+    <string name="wind_direction_southeast">"Southeast"</string>
+    <string name="wind_direction_south">"South"</string>
+    <string name="wind_direction_southwest">"Southwest"</string>
+    <string name="wind_direction_west">"West"</string>
+    <string name="wind_direction_northwest">"North west"</string>
+    <string name="wind_direction_north">"North"</string>
+    <string name="wind_direction_whirl_wind">"Whirl wind"</string>
+
+    <string name="city_is_too_much">"Too many cities, please add after delete!"</string>
+    <string name="update_result_suc">"Refresh succeed!"</string>
+    <string name="update_result_fail">"Refresh failed!"</string>
+    <string name="date_overdue_tip">"数据异常\n<xliff:g id="xxx">"%1s"</xliff:g>更新"</string>
+    <!--Mock weather warning-->
+    <string name="warnProvince">"Sichuan"</string>
+    <string name="warnCity">"chengdu"</string>
+    <string name="warnCounty">"gaoxin"</string>
+    <string name="warnContent">"Rain is a little bigger"</string>
+    <string name="warnCategoryName">"Big wind"</string>
+    <string name="warnGradeName">"Blue"</string>
+    <string name="warnGradeNo">"04"</string>
+    <string name="warnNo">"05"</string>
+    <string name="warnTime">"September 19, 2015 17:00"</string>
+
+    <string name="add_city_failed">"Add city failed, please check network"</string>
+    <string name="adding_city">"Add city..."</string>
+
+    <!--weather status tip-->
+    <string name="sunny_tip">"天空澄碧，纤云不染\n远山含黛，和风送暖"</string>
+    <!---->
+    <string name="cloudy_tip">"云雾其阔如海\n其动如烟，其柔如水"</string>
+    <!---->
+    <string name="overcast_tip">"阴天寒不雨\n古木夜多猿"</string>
+    <!---->
+    <string name="shower_tip">"虹销雨霁\n雨后天睛"</string>
+    <!---->
+    <string name="thunder_shower_tip">"刀光剑影\n战车隆隆"</string>
+    <!---->
+    <string name="thunder_shower_with_hail_tip">"刀光剑影\n战车隆隆"</string>
+    <!---->
+    <string name="sleet_tip">"雨的快乐\n只有雪花知道"</string>
+    <!---->
+    <string name="light_rain_tip">"丝雨纷纷\n如酥酪般细密而滋润"</string>
+    <!---->
+    <string name="moderate_rain_tip">"醉是下雨，念者雨寄\n清风悠悠，岁月静"</string>
+    <!---->
+    <string name="heavy_rain_tip">"雨飞水溅\n迷潆一片"</string>
+    <!---->
+    <string name="storm_tip">"咆哮雨剑\n一泻千里"</string>
+    <!---->
+    <string name="heavy_storm_tip">"咆哮雨剑\n一泻千里"</string>
+    <!---->
+    <string name="severe_storm_tip">"咆哮雨剑\n一泻千里"</string>
+    <!---->
+    <string name="snow_flurry_tip">"梅须逊雪三分白\n雪却输梅一段香"</string>
+    <!---->
+    <string name="light_snow_tip">"终南阴岭秀\n小雪浮云端"</string>
+    <!---->
+    <string name="moderate_snow_tip">"千里黄云白日曛\n北风吹雁雪纷纷"</string>
+    <!---->
+    <string name="heavy_snow_tip">"燕山雪花大如席\n片片吹落轩辕台"</string>
+    <!---->
+    <string name="snow_storm_tip">"人生到处知何似\n恰似飞鸿踏雪泥"</string>
+    <!---->
+    <string name="foggy_tip">"雾里看花\n缭绕如梦中"</string>
+    <!---->
+    <string name="ice_rain_tip">"冰与水之歌\n冻结不经意的柔情"</string>
+    <!---->
+    <string name="dust_storm_tip">"狂舞在苍穹\n乌瘴漫天空"</string>
+    <!---->
+    <string name="light_to_moderate_rain_tip">"丝雨纷纷\n如酥酪般细密而滋润"</string>
+    <!---->
+    <string name="moderate_to_heavy_rain_tip">"醉是下雨，念者雨寄\n清风悠悠，岁月静"</string>
+    <!---->
+    <string name="heavy_rain_to_storm_tip">"雨飞水溅\n迷潆一片"</string>
+    <!---->
+    <string name="storm_to_heavy_tip">"咆哮雨剑\n一泻千里"</string>
+    <!---->
+    <string name="heavy_to_server_storm_tip">"咆哮雨剑\n一泻千里"</string>
+    <!---->
+    <string name="light_to_moderate_snow_tip">"终南阴岭秀\n小雪浮云端"</string>
+    <!---->
+    <string name="moderate_snow_to_moderate_snow_tip">"千里黄云白日曛\n北风吹雁雪纷纷"</string>
+    <!---->
+    <string name="snow_heavy_snow_to_snow_storm_tip">"燕山雪花大如席\n片片吹落轩辕台"</string>
+    <!---->
+    <string name="dust_tip">"三千世界一浮尘\n俗世纷扰何惧"</string>
+    <!---->
+    <string name="sand_tip">"握不住的沙\n干脆扬了它"</string>
+    <!---->
+    <string name="sand_storm_tip">"狂舞在苍穹\n乌瘴漫天空"</string>
+    <!---->
+    <string name="dense_foggy_tip">"雾里看花\n缭绕如梦中"</string>
+    <!---->
+    <string name="snow_tip">"千里黄云白日曛\n北风吹雁雪纷纷"</string>
+    <!---->
+    <string name="moderate_foggy_tip">"雾里看花\n缭绕如梦中"</string>
+    <!---->
+    <string name="haze_tip">"千里阴霾\n万里尘飘"</string>
+    <!---->
+    <string name="moderate_haze_tip">"千里阴霾\n万里尘飘"</string>
+    <!---->
+    <string name="heavy_haze_tip">"千里阴霾\n万里尘飘"</string>
+    <!---->
+    <string name="severe_haze_tip">"千里阴霾\n万里尘飘"</string>
+    <!---->
+    <string name="heavy_foggy_tip">"雾里看花\n缭绕如梦中"</string>
+    <!---->
+    <string name="severe_foggy_tip">"雾里看花\n缭绕如梦中"</string>
+    <!---->
+    <string name="unknown_tip">"暂无天气\n状态温馨提醒"</string>
+
+    <string name="loading_data">"Data loading"</string>
+    <string name="network_failed">"No networks"</string>
+    <string name="service_abnormal">"Server data exception"</string>
+    <string name="locate_failed">"seek failed"</string>
+    <string name="release">"Release"</string>
+    <string name="manual_add_city">"Manually add city"</string>
+    <string name="try_again">"Click Retry"</string>
+    <string name="server_innormal">"Server data exception"</string>
+    <string name="no_permission">"No location permissions"</string>
+
+    <string name="data_source_str">"Data source: China Weather"</string>
+    <string name="sunrise">"sunrise"</string>
+    <string name="sunset">"sunset"</string>
+    <string name="txt_release">"release"</string>
+    <string name="txt_early_warning">"Alarm"</string>
+    <string name="txt_locating">"Position in..."</string>
+</resources>

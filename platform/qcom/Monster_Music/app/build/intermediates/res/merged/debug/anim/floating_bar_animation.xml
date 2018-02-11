@@ -1,0 +1,24 @@
+<animation-list
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+    <item android:drawable="@drawable/floatingbar_play_00000" android:duration="30"></item>
+    <item android:drawable="@drawable/floatingbar_play_00001" android:duration="30"></item>
+    <item android:drawable="@drawable/floatingbar_play_00002" android:duration="30"></item>
+    <item android:drawable="@drawable/floatingbar_play_00003" android:duration="30"></item>
+    <item android:drawable="@drawable/floatingbar_play_00004" android:duration="30"></item>
+    <item android:drawable="@drawable/floatingbar_play_00005" android:duration="30"></item>
+    <item android:drawable="@drawable/floatingbar_play_00006" android:duration="30"></item>
+    <item android:drawable="@drawable/floatingbar_play_00007" android:duration="30"></item>
+    <item android:drawable="@drawable/floatingbar_play_00008" android:duration="30"></item>
+    <item android:drawable="@drawable/floatingbar_play_00009" android:duration="30"></item>
+    <item android:drawable="@drawable/floatingbar_play_00010" android:duration="30"></item>
+    <item android:drawable="@drawable/floatingbar_play_00011" android:duration="30"></item>
+    <item android:drawable="@drawable/floatingbar_play_00012" android:duration="30"></item>
+    <item android:drawable="@drawable/floatingbar_play_00013" android:duration="30"></item>
+    <item android:drawable="@drawable/floatingbar_play_00014" android:duration="30"></item>
+    <item android:drawable="@drawable/floatingbar_play_00015" android:duration="30"></item>
+    <item android:drawable="@drawable/floatingbar_play_00016" android:duration="30"></item>
+    <item android:drawable="@drawable/floatingbar_play_00017" android:duration="30"></item>
+    <item android:drawable="@drawable/floatingbar_play_00018" android:duration="30"></item>
+    <item android:drawable="@drawable/floatingbar_play_00019" android:duration="30"></item>
+</animation-list>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog_parent_panel"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:background="@drawable/dialog_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/dialog_top_panel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="24dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/dialog_title_template"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/dialog_title_icon"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/icon" />
+
+            <View
+                android:id="@+id/dialog_title_gap"
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+
+            <!-- style="?android:attr/textAppearanceLarge" -->
+
+            <TextView
+                android:id="@+id/dialog_title_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="@string/downloading"
+                android:textColor="@color/blue_main"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/blue_main" />
+
+    <ProgressBar
+        android:id="@+id/progress"
+        style="@style/ProgressBar_Blue"
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp" />
+
+    <TextView
+        android:id="@+id/tv_download_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/dlg_sel_pas_pressed"
+        android:focusable="true"
+        android:gravity="center"
+        android:minHeight="36dp"
+        android:textColor="@color/dialog_text"
+        android:textSize="13sp" />
+
+    <RelativeLayout
+        android:id="@+id/download_error_tip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal"
+        android:visibility="visible" >
+
+        <ImageView
+            android:id="@+id/iv_refresh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/refresh" />
+
+        <TextView
+            android:id="@+id/tv_network_error"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@id/iv_refresh"
+            android:background="@drawable/dlg_sel_pas_pressed"
+            android:focusable="true"
+            android:maxLines="3"
+            android:text="@string/network_error_tip"
+            android:textColor="@color/dialog_text_gray"
+            android:textSize="11sp" />
+    </RelativeLayout>
+
+</LinearLayout>

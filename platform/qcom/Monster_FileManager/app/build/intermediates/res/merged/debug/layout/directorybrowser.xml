@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mst="http://schemas.android.com/apk/res/com.mst"
+    android:fitsSystemWindows="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/file_path_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/main_filepathbrower_height"
+        android:paddingLeft="@dimen/main_filepathbrower_margin"
+        android:paddingRight="@dimen/main_filepathbrower_margin">
+
+        <cn.tcl.filemanager.view.HorizontalListView
+            android:id="@+id/listview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:stackFromBottom="true"></cn.tcl.filemanager.view.HorizontalListView>
+    </LinearLayout>
+
+    <GridView
+        android:clipToPadding="false"
+        android:id="@+id/grid_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:verticalSpacing="2dp"
+        android:horizontalSpacing="2dp"
+        android:gravity="center_horizontal"
+        android:listSelector="@android:color/transparent"
+        android:layout_below="@id/file_path_layout"
+        android:numColumns="4" />
+
+    <LinearLayout
+        android:id="@+id/grid_no_folder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:src="@drawable/empty_icon" />
+
+        <TextView
+            android:id="@+id/grid_no_folder_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/no_folder_margin_top"
+            android:fontFamily="monster-normal"
+            android:singleLine="true"
+            android:text="@string/no_folder_cn"
+            android:textColor="@color/grid_time_text_color"
+            android:textSize="@dimen/no_folder_font_size" />
+    </LinearLayout>
+</RelativeLayout>

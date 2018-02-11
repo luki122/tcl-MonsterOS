@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/network_batch_linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="56dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="@color/content_background_shallow"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/network_select_all"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:visibility="invisible"/>
+
+            <TextView
+                android:id="@+id/network_text_select_all"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:background="?android:attr/selectableItemBackground"
+                android:gravity="center_vertical"
+                android:padding="10dp"
+                android:text="@string/select_all"
+                android:textColor="@color/base_title_unselect_color"
+                android:textSize="14sp"/>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/network_cancle_select_all"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="22dp"
+                android:background="?android:attr/selectableItemBackground"
+                android:gravity="center_vertical"
+                android:padding="10dp"
+                android:text="@string/cancle_select"
+                android:textColor="@color/base_title_unselect_color"
+                android:textSize="14sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/line_layout"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/list_divider"
+            android:orientation="horizontal"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/network_control_bar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/music_theme_color"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/network_button_operate"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/download"
+            android:textColor="@color/tv_color_selector"/>
+
+        <Button
+            android:id="@+id/network_button_delete"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/add_to_play_queue"
+            android:textColor="@color/tv_color_selector"/>
+    </LinearLayout>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/network_control_bar"
+        android:layout_below="@id/network_batch_linearlayout"
+        android:background="@color/content_background_shallow">
+
+        <ListView
+            android:id="@+id/network_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </ListView>
+
+    </FrameLayout>
+
+</RelativeLayout>

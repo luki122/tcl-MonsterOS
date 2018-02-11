@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFFFF"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFFFF">
+
+            <ImageView
+                android:id="@+id/back_button"
+                android:layout_width="@dimen/px_72"
+                android:layout_height="@dimen/px_72"
+                android:layout_marginStart="@dimen/px_60"
+                android:layout_marginTop="@dimen/px_96"
+                android:src="@drawable/page_arrow"
+                />
+
+            <cn.tcl.weather.view.TclCustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/px_100"
+                android:layout_toRightOf="@id/back_button"
+                android:layout_marginLeft="@dimen/px_36"
+                android:text="@string/early_warning_information"
+                android:textSize="@dimen/px_48"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_below="@+id/back_button"
+                android:layout_marginTop="10dp"
+                android:background="#F0F0F0"
+                />
+
+            <ImageView
+                android:id="@+id/alert_image"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="104.7dp"
+                android:src="@drawable/alert"
+                />
+
+            <cn.tcl.weather.view.TclCustomTextView
+                android:id="@+id/warning_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/alert_image"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="24.7dp"
+                android:gravity="center"
+                android:textSize="@dimen/tx_dp_15.7"
+                android:textColor="#B8000000"
+                />
+
+            <cn.tcl.weather.view.TclCustomTextView
+                android:id="@+id/warning_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="33dp"
+                android:layout_marginRight="33dp"
+                android:layout_below="@id/warning_title"
+                android:layout_marginTop="20.3dp"
+                android:textSize="@dimen/tx_dp_12.7"
+                android:lineSpacingMultiplier="1.7"
+                android:textColor="#7A000000"
+                />
+
+
+            <cn.tcl.weather.view.TclCustomTextView
+                android:id="@+id/warning_time_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#7A000000"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/warning_content"
+                android:layout_marginRight="33dp"
+                android:layout_marginTop="53dp"
+                android:gravity="right"
+                android:textSize="@dimen/tx_dp_12.7"
+                />
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

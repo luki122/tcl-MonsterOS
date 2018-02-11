@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+    Copyright (C) 2013 Google Inc.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/emptyview_layout_id"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <include layout="@layout/list_header_layout" />
+
+    <LinearLayout
+        android:id="@+id/emptyview_main_body"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/emptyview_img"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="105dp"
+            android:src="@drawable/no_message" />
+
+        <TextView
+            android:id="@+id/emptyview_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="9dp"
+            android:lines="1"
+            android:text="@string/no_conversations"
+            android:textColor="@color/empty_text_color"
+            android:textSize="15sp" />
+    </LinearLayout>
+</LinearLayout>

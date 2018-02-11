@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="cancel">取消</string>
+    <string name="selected_total_num">已选择 <xliff:g id="total">%d</xliff:g> 项</string>
+    <string name="menu_copy">复制</string>
+    <string name="toast_text_copied">已复制</string>
+
+    <string name="set_smsc_fewer_then_4">少于4个字符</string>
+
+    <string name="retract">↑收起</string>
+    <string name="spread">更多</string>
+
+    <string name="menu_create_new_contacts">"创建新联系人"</string>
+    <string name="menu_add_to_existing_contacts">"添加到已有联系人"</string>
+
+    <string name="prefix_send_failure">【发送失败】</string>
+
+    <string name="none_matched_message">暂无匹配的信息</string>
+
+    <string name="no_sim_card">无法发送，没有SIM卡！</string>
+
+    <string name="add_contacts">添加</string>
+
+    <string name="message_expand">查看全文</string>
+
+    <string name="message_and_more_recipients">及其他<xliff:g id="COUNT">%d</xliff:g>位...</string>
+    <string name="message_and_more_recipients_one">及其他1位...</string>
+    <string name="message_send_fail_recipients">未能发送给下列联系人:</string>
+    <string name="message_send_fail_resend">重发</string>
+    <string name="message_delete_title">提示</string>
+    <string name="confirm_delete_selected_messages_one">确定要删除此信息吗?</string>
+    <string name="confirm_delete_selected_messages_more">确定要删除这<xliff:g id="COUNT">%d</xliff:g>条信息吗?</string>
+    <string name="confirm_mark_selected_messages_title">标为已读?</string>
+    <string name="confirm_mark_selected_messages">是否将所选信息标为已读?</string>
+
+    <string name="recipients_editor_contacts_count"><xliff:g id="COUNT">%d</xliff:g>人</string>
+    <string name="not_found_activity_start">没有该类型的应用</string>
+
+    <string name="mst_total_conversation_count">共<xliff:g id="COUNT">%d</xliff:g>条会话</string>
+    <string name="mst_total_sim_messages_count">共<xliff:g id="COUNT">%d</xliff:g>条信息</string>
+    <string name="mst_searched_messages_count">共<xliff:g id="COUNT">%d</xliff:g>条匹配结果</string>
+
+    <string name="no_unread_messages_selected">没有勾选未读信息</string>
+
+    <string name="mst_messages_count"><xliff:g id="COUNT">%d</xliff:g>条信息</string>
+
+    <string name="get_recipients_failed" msgid="4573835601024786416">"获取不到联系人"</string>
+    <string name="get_recipient_number_failed" msgid="4573835601024786416">"获取不到联系人号码"</string>
+
+    <string name="replace_current_attachment_dlg">确定要替换当前附件？</string>
+
+    <string name="conversations_delete_completed">"会话已删除"</string>
+    <string name="messages_delete_completed">"信息已删除"</string>
+
+    <string name="permission_no_storage">"请开启“存储空间”权限。"</string>
+    <string name="permission_no_location">"请开启“位置信息”权限。"</string>
+    <string name="permission_no_record">"请开启“麦克风”权限。"</string>
+    <string name="permission_no_sms">"请开启“短信”权限。"</string>
+    <string name="permission_no_calllog" >"请开启“电话”权限。"</string>
+    <string name="permission_no_contacts">"请开启“通讯录”权限。"</string>
+    <string name="missing_required_permission" msgid="3120850759881656369">"您已停用某项必需权限。"</string>
+    <string name="confirm_delete_conversation_one">确定要删除此会话吗?</string>
+    <string name="confirm_delete_conversation_other">确定要删除这<xliff:g id="COUNT">%d</xliff:g>个会话吗?</string>
+    <string name="mst_delivery_toast_body">"信息已送达"</string>
+    <string name="only_add_one_image">"只能添加一张图片"</string>
+    <string name="message_audio_file_text">"音频文件"</string>
+    <string name="recipient_category">"收信人"</string>
+    <string name="message_category">"信息"</string>
+    <string name="remove_duplicate_contact">"重复号码已移除"</string>
+    <string name="deleting_messages">"正在删除信息..."</string>
+    <string name="toast_contact_no_number">"该联系人无号码"</string>
+    <string name="ic_date_string_am">上午 <xliff:g id="name">%s</xliff:g></string>
+    <string name="ic_date_string_pm">下午 <xliff:g id="name">%s</xliff:g></string>
+    <string name="searching" >"正在搜索..."</string>
+    <string name="call_back" >"回电话"</string>
+    <string name="sms_back" >"回短信"</string>
+    <string name="release_reject" >"不再拦截"</string>
+    <string name="release_reject_content" >"确定不再拦截此号码吗？"</string>
+    <string name="recover_record_content" >"同时恢复拦截记录"</string>
+    <string name="recover_all" >"全部恢复到收件箱"</string>
+    <string name="add_to_black" >"加入黑名单"</string>
+    <string name="remove_black" >"移出黑名单"</string>
+    <string name="intercept_message" >"拦截此人的短信"</string>
+    <string name="only_add_one_warning_content" >"暂时只支持单个文件！"</string>
+    <string name="recover_sms">恢复短信</string>
+    <string name="multi_recover_sms_reject_dialg_msg">"确定将选中的短信恢复到短信收件箱吗？"</string>
+    <string name="resume_conv_confirm">"恢复"</string>
+</resources>

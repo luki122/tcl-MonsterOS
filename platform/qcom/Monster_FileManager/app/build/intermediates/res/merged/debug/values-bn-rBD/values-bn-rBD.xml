@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"হোম এ নেভিগেট করুন"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"উপরের দিকে নেভিগেট করুন"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"আরো বিকল্প"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"সম্পন্ন হয়েছে"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"সবগুলো দেখুন"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"একটি অ্যাপ্লিকেশান বেছে নিন"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"বন্ধ"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"চালু"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"অনুসন্ধান..."</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"ক্যোয়ারী সাফ করুন"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"ক্যোয়ারী অনুসন্ধান করুন"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"অনুসন্ধান করুন"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"ক্যোয়ারী জমা দিন"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"ভয়েস অনুসন্ধান"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"এর সাথে শেয়ার করুন"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"%s এর সাথে শেয়ার করুন"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"সঙ্কুচিত করুন"</string>
+    <string name="action_menu_create_folder_button">"ফোল্ডার তৈরি করুন"</string>
+    <string name="add_favorite">"প্রিয় ফোল্ডার যোগ করুন"</string>
+    <string name="alert_delete_message">"মুছুন"</string>
+    <string name="alert_delete_multiple">"নির্বাচিত ফাইল মুছে যাবে."</string>
+    <string name="alert_delete_single">"নির্বাচিত ফাইল মুছে ফেলা হবে."</string>
+    <string name="already_exists">"%1$s ইতিমধ্যেই ব্যবহৃত হচ্ছে"</string>
+    <string name="apk_name">"ফাইল"</string>
+    <string name="cancel">"বাতিল করুন"</string>
+    <string name="category_apks">"APKs"</string>
+    <string name="category_archives">"নথিপত্র"</string>
+    <string name="category_audio">"অডিও"</string>
+    <string name="category_bluetooth">"ব্লুটুথ"</string>
+    <string name="category_docs">"ডক্স"</string>
+    <string name="category_download">"ডাউনলোড"</string>
+    <string name="category_favorite">"প্রিয়"</string>
+    <string name="category_files">"ফাইল"</string>
+    <string name="category_music">"মিউজিক"</string>
+    <string name="category_pictures">"ছবি"</string>
+    <string name="category_recordings">"রেকর্ডিং"</string>
+    <string name="category_ringtones">"রিংটোন"</string>
+    <string name="category_safebox">"নিরাপদ"</string>
+    <string name="category_vedios">"ভিডিও"</string>
+    <string name="change_mode">"ফাইল বা ফোল্ডার নির্বাচন করুন"</string>
+    <string name="confirm_rename">"নাম নিশ্চিত"</string>
+    <string name="copy">"কপি করুন"</string>
+    <string name="copy_deny">"কপি করার অনুমতি নেই"</string>
+    <string name="create_folder">"তৈরি করুন"</string>
+    <string name="create_hidden_file">"ফাইলের নাম যদি \'.\' দিয়ে শুরু হয়ে থাকে তাহলে এটি লুকিয়ে রাখা হবে"</string>
+    <string name="create_new_folder">"ফোল্ডার তৈরি করুন"</string>
+    <string name="cut">"কাট করুন"</string>
+    <string name="cut_deny">"কাট করার অনুমতি নেই"</string>
+    <string name="default_folder_name">"ফোল্ডারের নাম"</string>
+    <string name="default_search_text">"ফাইল খুঁজুন"</string>
+    <string name="del_favorite">"প্রিয় ফোল্ডার থেকে মুছে"</string>
+    <string name="delete">"মুছে"</string>
+    <string name="delete_deny">"মুছে ফেলার কোন অনুমতি নেই"</string>
+    <string name="delete_fail">"মোছা যায়নি"</string>
+    <string name="delete_file">"এই ফাইলটি মুছে দিন?"</string>
+    <string name="deleting">"মুছে ফেলা হচ্ছে"</string>
+    <string name="deselect_all">"অনির্বাচন"</string>
+    <string name="deselect_all_item">"সব নির্বাচন-খারিজ করুন"</string>
+    <string name="detail">"বিস্তারিত"</string>
+    <string name="detail_name">"নাম:"</string>
+    <string name="detail_name_m">"নাম"</string>
+    <string name="detail_path">"অবস্থান:"</string>
+    <string name="detail_path_m">"লোকেশন"</string>
+    <string name="detail_size">"আয়তন:"</string>
+    <string name="detail_size_m">"আয়তন"</string>
+    <string name="detail_time">"সর্বশেষ পরিবর্তিত:"</string>
+    <string name="detail_time_m">"সর্বশেষ পরিবর্তিত"</string>
+    <string name="details">"বিস্তারিত"</string>
+    <string name="dialog_close_btn">"বন্ধ করুন"</string>
+    <string name="done">"সম্পন্ন"</string>
+    <string name="draw_favourite">"প্রিয়"</string>
+    <string name="draw_left_phone_storage">"ফোন সংরক্ষনাগার"</string>
+    <string name="draw_left_phone_storage_m">"ফোন"</string>
+    <string name="draw_left_sd_card">"কার্ড"</string>
+    <string name="drawer_open">"খোলা"</string>
+    <string name="drawer_settings">"সেটিংস"</string>
+    <string name="drm_begin">"শুরু:"</string>
+    <string name="drm_can_forward">"ফরওয়ার্ড করা যাবে।"</string>
+    <string name="drm_can_not_forward">"ফরওয়ার্ড করা যাবে না।"</string>
+    <string name="drm_current_count">"বর্তমান ছাত্রদের_x000D_ ："</string>
+    <string name="drm_current_right">"বর্তমান সীমাবদ্ধতা_x000D_ ："</string>
+    <string name="drm_end">"শেষ:"</string>
+    <string name="drm_forwardforbidden_message">"ডিআরএম ফাইল ফরোয়ার্ড পারবেন না."</string>
+    <string name="drm_forwardforbidden_title">"ফরোয়ার্ড"</string>
+    <string name="drm_interval">"বৈধর জন্য %s প্রথমবার ব্যবহারের পরে"</string>
+    <string name="drm_no_crop">"ফাইল  "%s" ফাইল DRM সুরক্ষিত কারণ ক্রপ করার অনুমতি নেই ."</string>
+    <string name="drm_no_license">"কোন ডিআরএম লাইসেন্স নেই।"</string>
+    <string name="drm_no_limitation">"কোন সীমাবদ্ধতা নেই।"</string>
+    <string name="drm_no_valid_right">"ফাইলটি কোন বৈধ জন্য DRM কর্তৃপক্ষ আছে!"</string>
+    <string name="drm_protection_status">"সুরক্ষার অবস্থা:"</string>
+    <string name="drm_toast_license_expired">"ডিআরএম লাইসেন্সের মেয়াদ শেষ হয়ে গেছে."</string>
+    <string name="drm_use_left">"কাউন্ট লেফ্ট:"</string>
+    <string name="drm_wifidisplay_cancel_btn">"ওয়াই ফাই প্রদর্শন বন্ধ"</string>
+    <string name="drm_wifidisplay_message">"কপি সুরক্ষিত ফাইল বিতরণ করা যাবে না."</string>
+    <string name="drm_wifidisplay_ok">"ঠিক আছে"</string>
+    <string name="drm_wifidisplay_title">"কপি সুরক্ষিত ফাইল"</string>
+    <string name="empty_msg">"(খালি ফোল্ডার)"</string>
+    <string name="executable">"আবেদন:"</string>
+    <string name="executable_m">"অ্যাপলিকেশন"</string>
+    <string name="favourite">"ফেভারিটে যোগ করুন"</string>
+    <string name="file_copy">"ফাইলকপি"</string>
+    <string name="file_name_too_long">"প্রবেশ করানো নাম অনেক দীর্ঘ"</string>
+    <string name="fingerprint_relative_dialog_cancel">"পরে"</string>
+    <string name="forget_password">"পাসওয়ার্ড ভুলে"</string>
+    <string name="free_space">"লভ্য"</string>
+    <string name="freeof_m">"ফ্রি মোড"</string>
+    <string name="hide">"ফাইল"</string>
+    <string name="hide_file">"লুকানো ফাইল লুকান"</string>
+    <string name="input_password">"ইনপুট পাসওয়ার্ড"</string>
+    <string name="insufficient_memory">"অপর্যাপ্ত জায়গা"</string>
+    <string name="invalid_char_prompt">"আপনি অবৈধ অক্ষর নিবেশ করেছেন"</string>
+    <string name="invalid_empty_name">"ফাইল বা ফোল্ডারের নাম খালি রাখা যাবে না"</string>
+    <string name="loading">"লোড হচ্ছে..."</string>
+    <string name="main_document">"কাগজপত্র"</string>
+    <string name="main_external_storage">"বহিরাগত সংগ্রহস্থল"</string>
+    <string name="main_home">"বাড়ি"</string>
+    <string name="main_installers">"ইনস্টলারের"</string>
+    <string name="main_nava_home">"বাড়ি"</string>
+    <string name="main_photo">"ফটো"</string>
+    <string name="main_sd_storage">"এসডি সংগ্রহস্থল"</string>
+    <string name="menu_select">"নির্বাচন করুন"</string>
+    <string name="modified_time">"পরিমার্জিত"</string>
+    <string name="modify_hidden_file">"নাম দিয়ে শুরু না হয়, তাহলে ফাইল আড়াল করা হবে না \'.\'."</string>
+    <string name="modify_password">"পাসওয়ার্ড পরিবর্তন করুন"</string>
+    <string name="more">"আরো"</string>
+    <string name="msg_rename_ext">"ফাইল এক্সটেনশন পরিবর্তন করা হবে. ফাইল স্বীকৃত হতে পারে না. চালিয়ে?"</string>
+    <string name="msg_unable_open_file">"ফাইলটি খুলতে পারছি না।"</string>
+    <string name="msg_unable_open_file_in_app">"এই ফাইলটি খোলার জন্য কোনও অ্যাপলিকেশন নেই।"</string>
+    <string name="multi_alert_delete_message">"নির্বাচিত আইটেম মুছে ফেলতে চান?"</string>
+    <string name="multi_alert_delete_message_cn">"নির্বাচিত আইটেম মুছে ফেলতে চান?"</string>
+    <string name="name">"নাম"</string>
+    <string name="new_folder">"ইনপুট ফোল্ডার নাম"</string>
+    <string name="no">"না"</string>
+    <string name="no_category">"এই বিষয়শ্রেণীতে অন্তর্ভুক্ত মোট খালি."</string>
+    <string name="no_folder">"এই ফোল্ডারটি খালি"</string>
+    <string name="no_search_result">"0 result(s) for \"%1$s\""</string>
+    <string name="not_available">"লভ্য নয়"</string>
+    <string name="ok">"ঠিক আছে"</string>
+    <string name="operation_fail">"কিছু ফাইল অপারেশন ব্যর্থ."</string>
+    <string name="paste">"পেস্ট"</string>
+    <string name="paste_fail">"পেস্ট করা যায়নি"</string>
+    <string name="paste_same_folder">"অনুলিপি করতে পারিনি: উৎস এবং গন্তব্য ফোল্ডারটি একই."</string>
+    <string name="paste_sub_folder">"সাবফোল্ডারে পেস্ট করা যায়নি"</string>
+    <string name="pasted">"ফাইল আটকানো"</string>
+    <string name="pasted_cn">"ফাইল আটকানো"</string>
+    <string name="pasting">"পেস্ট করা হচ্ছে"</string>
+    <string name="path_not_exists">"%1$s বিদ্যমান নেই"</string>
+    <string name="permission_exit_btn">"প্রস্থান"</string>
+    <string name="permission_setting_title">"গ্রান্ট এক্সেস"</string>
+    <string name="permission_settings">"সেটিং"</string>
+    <string name="phone_storage">"ফোন স্টোরেজ"</string>
+    <string name="phone_storage_cn">"ফোন সংরক্ষনাগার"</string>
+    <string name="readable">"রিডেবল:"</string>
+    <string name="readable_m">"সুপাঠ্য"</string>
+    <string name="remove_to">"সরান"</string>
+    <string name="rename">"নামান্তর"</string>
+    <string name="right_url">"ইস্যুকারী URL টি লাইসেন্স :_x000D_ ："</string>
+    <string name="safe_set">"সেটিং"</string>
+    <string name="save">"সংরক্ষণ"</string>
+    <string name="sd_card">"এসডি কার্ড"</string>
+    <string name="search">"অনুসন্ধান"</string>
+    <string name="searchResult">"অনুসন্ধান ফলাফল"</string>
+    <string name="search_empty">"অনুসন্ধানের বিষয় খালি থাকা উচিত নয়।"</string>
+    <string name="search_files">"ফাইল খুঁজুন"</string>
+    <string name="search_result">"%2$d হল \"%1$s\"-এর ফলাফল"</string>
+    <string name="search_result_title">"অনুসন্ধান ফলাফল (সমূহ)"</string>
+    <string name="search_setting_description">"স্থানীয় ফাইল ও ফোল্ডার"</string>
+    <string name="search_text_empty">"অনুসন্ধানের বিষয় খালি থাকা উচিত নয়।"</string>
+    <string name="searchview_hint">"ফাইল খুঁজুন"</string>
+    <string name="select_all">"সব নির্বাচন"</string>
+    <string name="selected">"নির্বাচিত"</string>
+    <string name="send_file">"ফাইলটি পাঠান"</string>
+    <string name="set_password_pass">"পাসওয়ার্ড"</string>
+    <string name="set_password_show">"পাসওয়ার্ড দেখান"</string>
+    <string name="share">"ভাগ"</string>
+    <string name="share_warning">"আপনি ১০০ টিরও বেশি ফাইল শেয়ার করতে পারবেন না."</string>
+    <string name="shortcut_item">"শর্টকাট যুক্ত করুন"</string>
+    <string name="show">"ফাইল"</string>
+    <string name="show_file">"লুকানো ফাইল দেখান"</string>
+    <string name="show_hide">"দেখানো\\লোকানো"</string>
+    <string name="size">"সাইজ"</string>
+    <string name="some_delete_fail">"কিছু মুছে অপারেশন ব্যর্থ."</string>
+    <string name="some_paste_fail">"কিছু কার্যক্রম পেস্ট করতে ব্যর্থ হয়েছে"</string>
+    <string name="sort">"বাছাই করা"</string>
+    <string name="sort_by">"সাজান"</string>
+    <string name="sort_by_date">"তারিখ পরিবর্তিত"</string>
+    <string name="sort_by_name">"নাম"</string>
+    <string name="sort_by_size">"আয়তন"</string>
+    <string name="sort_by_time">"তারিখ"</string>
+    <string name="sort_by_type">"ধরন"</string>
+    <string name="sort_name">"নাম অনুযায়ী সাজাও (A-Z)"</string>
+    <string name="sort_size">"আয়তন অনুসারে সাজান"</string>
+    <string name="sort_time">"সময় দ্বারা বাছাই"</string>
+    <string name="sort_type">"টাইপ অনুযায়ী সাজাও"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"৯৯৯+"</string>
+    <string name="total_memory">"মোট মেমরি"</string>
+    <string name="total_space">"মোট স্থান"</string>
+    <string name="tv_link_close_toast">"Wi-Fi প্রদর্শন বন্ধ করা হয়েছে"</string>
+    <string name="unfavourite">"ফেভারিটে থেকে সরান"</string>
+    <string name="unknown">"অজানা"</string>
+    <string name="unlimited_usage">"অজানা লাইসেন্স"</string>
+    <string name="unmounted">"%1$s আনমাউন্টেড"</string>
+    <string name="usbotg">"এক্সটার্নাল ইউএসবি স্টোরেজ"</string>
+    <string name="use_times">"%s বার ব্যবহার করুন"</string>
+    <string name="valid_after">"পরে বৈধ"</string>
+    <string name="valid_until">"যতক্ষণ বৈধ"</string>
+    <string name="view_as_grid">"গ্রিড দেখুন"</string>
+    <string name="view_as_list">"তালিকা"</string>
+    <string name="view_by">"দ্বারা দেখুন"</string>
+    <string name="view_grid">"গ্রিড দর্শন"</string>
+    <string name="view_list">"তালিকা আকারে দেখা"</string>
+    <string name="viewby_details">"বিবরণ অনুযায়ী দেখুন"</string>
+    <string name="viewby_grid">"গ্রিড দ্বারা দেখুন"</string>
+    <string name="viewby_list">"তালিকা"</string>
+    <string name="wait">"অপেক্ষা করুন..."</string>
+    <string name="warning">"ফাইলের সর্বোচ্চ পরিমাণ"</string>
+    <string name="welcome_ok">"ঠিক আছে"</string>
+    <string name="writable">"লেখার:"</string>
+    <string name="writable_m">"লিখনযোগ্য"</string>
+    <string name="yes">"হ্যা"</string>
+</resources>

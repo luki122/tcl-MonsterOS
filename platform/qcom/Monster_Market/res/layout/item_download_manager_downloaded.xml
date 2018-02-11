@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mst.widget.SliderLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mst="http://schemas.android.com/apk/res/com.mst"
+    android:id="@com.mst:id/slider_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    mst:dragEdge="right"
+    mst:dragMode="same_layer"
+    mst:handleEventInParent="true">
+
+    <!-- 这是底层视图-->
+    <FrameLayout
+        android:layout_width="80dp"
+        android:layout_height="@dimen/down_man_item_height"
+        android:background="@color/slider_bg">
+
+        <TextView
+            android:id="@+id/tv_operation"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0.86"
+            android:gravity="center"
+            android:text="@string/item_delete"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/down_man_item_height"
+        android:descendantFocusability="blocksDescendants"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/normal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/down_man_item_height"
+            android:paddingLeft="20dp">
+
+            <CheckBox
+                android:id="@+id/checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:clickable="false"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/iv_icon"
+                android:layout_width="@dimen/down_man_item_icon_width_and_height"
+                android:layout_height="@dimen/down_man_item_icon_width_and_height"
+                android:layout_marginBottom="@dimen/down_man_item_padding_top_and_bottom"
+                android:layout_marginTop="@dimen/down_man_item_padding_top_and_bottom"
+                android:layout_toRightOf="@+id/checkbox"
+                android:src="@drawable/ic_launcher" />
+
+            <com.monster.market.views.ProgressBtn
+                android:id="@+id/progressBtn"
+                android:layout_width="@dimen/app_item_down_btn_container_width"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true" />
+
+            <TextView
+                android:id="@+id/tv_appname"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/down_man_item_appname_height"
+                android:layout_marginLeft="@dimen/down_man_item_center_margin"
+                android:layout_marginTop="@dimen/down_man_item_padding_top"
+                android:layout_toLeftOf="@+id/progressBtn"
+                android:layout_toRightOf="@+id/iv_icon"
+                android:gravity="left|center_vertical"
+                android:singleLine="true"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tv_status"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/down_man_item_status_height"
+                android:layout_below="@+id/tv_appname"
+                android:layout_marginBottom="@dimen/down_man_item_padding_top_and_bottom"
+                android:layout_marginLeft="@dimen/down_man_item_center_margin"
+                android:layout_marginTop="@dimen/down_man_item_status_margin_top"
+                android:layout_toLeftOf="@+id/progressBtn"
+                android:layout_toRightOf="@+id/iv_icon"
+                android:gravity="left|center_vertical"
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+        <include
+            android:id="@+id/footer"
+            layout="@layout/item_download_man_footer" />
+
+    </LinearLayout>
+
+</mst.widget.SliderLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    	<string name="tip_network_error">Lỗi mạng</string>
+    	<string name="check_new">Kiểm tra cập nhật</string>
+    	<string name="update_download_fail">Tải xuống không thành công</string>
+    	<string name="update_ask_tip">Bạn cần cập nhật lên phiên bản mới nhất</string>
+    	<string name="update_no_need">Đây là phiên bản mới nhất</string>
+    	<string name="downloaded_finish">Tải xuống hoàn tất</string>
+    	<string name="notification_downloading">Đang tải xuống</string>
+    	<string name="update_notification_tips">Để có trải nghiệm tốt hơn, vui lòng cập nhật lên phiên bản mới nhất.</string>
+    	<string name="update_notification_title">Thông báo cập nhật</string>
+    	<string name="update">Ngay bây giờ</string>
+    	<string name="try_later">Để sau</string>
+    	<string name="versionDesc">Thông tin về Phiên bản:</string>
+    	
+    	<string name="update_available">Bản cập nhật Sẵn có</string>
+    	<string name="downloading">Đang tải xuống...</string>
+    	<string name="update_notify_tip">Sẵn có phiên bản mới. Cập nhật ngay?</string>
+    	<string name="update_detail_prefix">Chi tiết cập nhật:</string>
+    	<string name="update_not_now">Không phải bây giờ</string>
+    	<string name="update_now">Cập nhật</string>
+    	<string name="network_error_tip">Lỗi mạng. Vui lòng kiểm tra kết nối mạng của bạn và thử lại.</string>
+    	<string name="update_force_nofity_tip">Khuyến nghị bạn cập nhật ứng dụng lên phiên bản mới nhất.</string>
+    	<string name="update_no_updates">Không có bản cập nhật</string>
+    	<string name="update_no_updates_tip">Không có bản cập nhật</string>
+    	<string name="update_confirm">OK</string>
+</resources>

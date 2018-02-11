@@ -1,0 +1,284 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context="cn.tcl.music.fragments.LocalMediaFragment">
+
+    <LinearLayout
+        android:id="@+id/progress_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/empty_loading2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="4dip"
+            android:singleLine="true"
+            android:text="@string/loading2"
+            android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/rl_play_all"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="24dp">
+
+        <ImageView
+            android:id="@+id/play_all_image"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="20dp"
+            android:background="?android:attr/actionBarItemBackground"
+            android:scaleType="centerCrop"
+            android:src="@drawable/picto_play_off"/>
+
+        <TextView
+            android:id="@+id/tv_play_all"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="12dp"
+            android:layout_toEndOf="@id/play_all_image"
+            android:alpha="0.86"
+            android:gravity="center_vertical"
+            android:text="@string/playing_all"
+            android:textColor="@color/black"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:id="@+id/tv_local_media_total_num"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="5dp"
+            android:layout_toEndOf="@id/tv_play_all"
+            android:alpha="0.4"
+            android:gravity="center_vertical"
+            android:textColor="@color/black"
+            android:textSize="15sp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_download_manager"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@id/rl_play_all"
+        android:layout_marginTop="14dp">
+
+        <ImageView
+            android:id="@+id/iv_download_manager"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="20dp"
+            android:background="?android:attr/actionBarItemBackground"
+            android:scaleType="centerCrop"
+            android:src="@drawable/local_media_download_manager"/>
+
+        <TextView
+            android:id="@+id/tv_download_manager"
+            style="@style/textview_white_13sp_87"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="12dp"
+            android:layout_toEndOf="@id/iv_download_manager"
+            android:alpha="0.86"
+            android:gravity="center_vertical"
+            android:text="@string/downloadmanager"
+            android:textColor="@color/black"
+            android:textSize="15sp"/>
+
+        <ImageView
+            android:id="@+id/hot_music_more_img"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="20dp"
+            android:src="@drawable/local_details"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@android:id/icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/local_no_songs"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@android:id/empty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@android:id/icon"
+            android:layout_marginTop="10dp"
+            android:alpha="0.2"
+            android:fontFamily="Roboto Medium"
+            android:gravity="center_horizontal"
+            android:textAlignment="gravity"
+            android:textColor="@color/black"
+            android:textSize="17sp"/>
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/recycler_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/batch_operate_linearlayout"
+        android:layout_below="@id/rl_download_manager"
+        android:layout_marginTop="10dp">
+
+        <cn.tcl.music.view.ContextMenuReyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbarStyle="insideOverlay"
+            android:scrollbars="horizontal|vertical"
+            android:theme="@android:style/Theme.DeviceDefault.Light"/>
+
+        <LinearLayout
+            android:id="@+id/empty_tip_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="265dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/empty_tip_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/empty_tip1"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/empty_tip_text_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:text="@string/empty_tip2"/>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="60dp">
+
+                <ImageButton
+                    android:id="@+id/add_songs"
+                    android:layout_width="wrap_content"
+                    android:layout_height="42dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:padding="6dp"
+                    android:src="@drawable/start_button_bg"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="@string/add_songs"
+                    android:textColor="@color/music_theme_color"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/batch_operate_linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/common_divider_color"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/batch_operate_delete"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/batch_operate_delete_iv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/batch_operate_delete"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="7dp"
+                    android:layout_toEndOf="@+id/batch_operate_delete_iv"
+                    android:alpha="0.86"
+                    android:text="@string/delete"
+                    android:textColor="@color/black"/>
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/common_divider_color"/>
+
+            <RelativeLayout
+                android:id="@+id/batch_operate_addplaylist"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/batch_operate_addplaylist_iv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/batch_operate_addplaylist"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="7dp"
+                    android:layout_toEndOf="@+id/batch_operate_addplaylist_iv"
+                    android:alpha="0.86"
+                    android:text="@string/batch_add_to_playlist"
+                    android:textColor="@color/black"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

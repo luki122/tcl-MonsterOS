@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cannot_specify_an_empty_name_for_playlist">"Atskaņošanas saraksta nosaukums nedrīkst būt tukšs"</string>
+    <string name="cross_dj_saturated_storage_not_enough_free_space_to_record_your_mix">"Nepietiek vietas jūsu kombinētā ieskaņojuma ierakstīšanai."</string>
+    <string name="cross_dj_saturated_storage_your_recording_might_stop_soon_because_no_more_free_space_is_available">"Ieraksts var tikt drīz apturēts, jo vairs nepietiek vietas."</string>
+    <string name="invalid_drm_file">"Failam nav derīgas DRM pilnvaras."</string>
+    <string name="mobiledata_turnoff_btn">"Atspējot"</string>
+    <string name="never_show_it_again">"Vairs nerādīt"</string>
+    <string name="no_error">"Nav kļūdu."</string>
+    <string name="recording_reached_max_duration">"Ieraksts ir sasniedzis maksimālā ilguma ierobežojumu. Pārbaudiet savu iespēju izvēlni."</string>
+    <string name="recording_soon_to_reach_max_duration">"Ierakstīšana drīz sasniegs maksimālā ilguma ierobežojumu. Pārbaudiet savu iespēju izvēlni."</string>
+    <string name="scratching_is_disabled_in_no_mix_mode">"Skrāpēt var tikai dīdžeja režīmā."</string>
+    <string name="sign_up">"Reģistrēties"</string>
+    <string name="the_external_memory_storage_is_not_mounted">"Nav uzstādīta ārējā atmiņa. Var būt nepieciešams atspējot USB atmiņas krātuvi."</string>
+    <string name="there_s_not_enough_space_in_your_internal_storage_try_to_do_some_clean_up">"Iekšējā atmiņā nepietiek vietas (mēģiniet atbrīvot nedaudz vietas)"</string>
+</resources>

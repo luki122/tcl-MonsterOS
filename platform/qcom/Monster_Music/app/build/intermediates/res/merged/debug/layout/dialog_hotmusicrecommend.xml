@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/action_favorite_playlist"
+        android:layout_width="fill_parent"
+        android:layout_height="42dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:gravity="center_vertical"
+        android:text="@string/favorite_playlist"
+        android:textColor="@color/base"
+        />
+
+    <TextView
+        android:id="@+id/cancle_favorite_playlist"
+        android:layout_width="fill_parent"
+        android:layout_height="42dp"
+        android:layout_marginTop="8dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:gravity="center_vertical"
+        android:text="@string/cancle_favorite_playlist"
+        android:textColor="@color/base"
+        android:visibility="visible"/>
+
+    <TextView
+        android:id="@+id/action_play_next"
+        android:layout_width="fill_parent"
+        android:layout_height="42dp"
+        android:layout_marginTop="8dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:gravity="center_vertical"
+        android:text="@string/play_next"
+        android:textColor="@color/base"/>
+
+    <TextView
+        android:id="@+id/action_add_to_song_list"
+        android:layout_width="fill_parent"
+        android:layout_height="42dp"
+        android:layout_marginTop="8dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:gravity="center_vertical"
+        android:text="@string/add_to_song_list"
+        android:textColor="@color/base"/>
+
+    <TextView
+        android:id="@+id/action_go_to_artist"
+        android:layout_width="fill_parent"
+        android:layout_height="42dp"
+        android:layout_marginTop="8dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:gravity="center_vertical"
+        android:text="@string/go_to_artist"
+        android:textColor="@color/base"/>
+
+    <TextView
+        android:id="@+id/action_go_to_album"
+        android:layout_width="fill_parent"
+        android:layout_height="42dp"
+        android:layout_marginTop="8dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:gravity="center_vertical"
+        android:text="@string/go_to_album"
+        android:textColor="@color/base"/>
+
+    <TextView
+        android:id="@+id/action_download"
+        android:layout_width="fill_parent"
+        android:layout_height="42dp"
+        android:layout_marginTop="8dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:gravity="center_vertical"
+        android:lineSpacingExtra="5dp"
+        android:text="@string/download"
+        android:textColor="@color/base"/>
+
+
+    <TextView
+        android:id="@+id/action_add_to_play_queue"
+        android:layout_width="fill_parent"
+        android:layout_height="42dp"
+        android:layout_marginTop="8dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:gravity="center_vertical"
+        android:text="@string/add_to_play_queue"
+        android:textColor="@color/base"/>
+
+</LinearLayout>

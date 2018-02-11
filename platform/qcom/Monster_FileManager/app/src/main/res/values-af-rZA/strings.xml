@@ -1,0 +1,814 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="sort">"Sorteer"</string>
+	<!---->
+	<string name="sort_by_name">"Naam"</string>
+	<!---->
+	<string name="sort_by_date">"Datum gewysig"</string>
+	<!---->
+	<string name="sort_by_time">"Datum"</string>
+	<!---->
+	<string name="sort_by_type">"Soort"</string>
+	<!---->
+	<string name="sort_by_size">"Grootte"</string>
+	<!---->
+	<string name="copy">"Kopieer"</string>
+	<!---->
+	<string name="create_folder">"Skep"</string>
+	<!---->
+	<string name="cut">"Sny"</string>
+	<!---->
+	<string name="delete">"Skrap"</string>
+	<!---->
+	<string name="delete_confirm">"Bevestig skrapping"</string>
+	<!---->
+	<string name="deselect_all">"Deselekteer alles"</string>
+	<!---->
+	<string name="select_all">"Kies alle"</string>
+	<!---->
+	<string name="show_file">"Wys versteekte lêers"</string>
+	<!---->
+	<string name="hide_file">"Wys versteekte lêers"</string>
+	<!---->
+	<string name="paste">"Plak"</string>
+	<!---->
+	<string name="rename">"Hernoem"</string>
+	<!---->
+	<string name="share">"Deel"</string>
+	<!---->
+	<string name="viewby_list">"Bekyk volgens lys"</string>
+	<!---->
+	<string name="viewby_grid">"Bekyk volgens raster"</string>
+	<!---->
+	<string name="alert_delete_message">"Skrap"</string>
+	<!---->
+	<string name="multi_alert_delete_message">"Skrap gekose items?"</string>
+	<!-- no translation found for multi_alert_delete_message_cn -->
+	<skip />
+	<!-- no translation found for delete_folder_message -->
+	<skip />
+	<!---->
+	<string name="category_pictures">"Prente"</string>
+	<!---->
+	<string name="category_vedios">"Video’s"</string>
+	<!---->
+	<string name="category_music">"Musiek"</string>
+	<!---->
+	<string name="category_download">"Aflaaisels"</string>
+	<!---->
+	<string name="category_bluetooth">"Bluetooth"</string>
+	<!-- no translation found for app_name -->
+	<skip />
+	<!-- no translation found for theme_name -->
+	<skip />
+	<!---->
+	<string name="apk_name">"Lêers"</string>
+	<!---->
+	<string name="new_folder">"Skep nuwe omslag"</string>
+	<!---->
+	<string name="confirm_rename">"Bevestig naam"</string>
+	<!---->
+	<string name="warning">"Maksimum lêergetal"</string>
+	<!---->
+	<string name="share_warning">"Jy kan nie meer as 100 lêers deel nie."</string>
+	<!---->
+	<string name="loading">"Laai tans..."</string>
+	<!---->
+	<string name="deleting">"Besig om te skrap"</string>
+	<!---->
+	<string name="alert_delete_multiple">"Gekose lêers sal geskrap word."</string>
+	<!---->
+	<string name="name">"Naam"</string>
+	<!---->
+	<string name="size">"Grootte"</string>
+	<!---->
+	<string name="modified_time">"Gewysig"</string>
+	<!---->
+	<string name="msg_rename_ext">"Lêeruitbreiding sal verander word. Lêer word dalk nie herken nie. Gaan voort?"</string>
+	<!---->
+	<string name="wait">"Wag asseblief …"</string>
+	<!---->
+	<string name="done">"Klaar"</string>
+	<!-- no translation found for enable -->
+	<skip />
+	<!-- no translation found for enable_cn -->
+	<skip />
+	<!---->
+	<string name="cancel">"Kanselleer"</string>
+	<!---->
+	<string name="no">"Nee"</string>
+	<!---->
+	<string name="ok">"Goed"</string>
+	<!---->
+	<string name="yes">"Ja"</string>
+	<!---->
+	<string name="details">"Leêrbesonderhede"</string>
+	<!---->
+	<string name="drawer_open">"Maak oop"</string>
+	<!---->
+	<string name="unknown">"onbekend"</string>
+	<!-- no translation found for unit_B -->
+	<skip />
+	<!-- no translation found for unit_KB -->
+	<skip />
+	<!-- no translation found for unit_MB -->
+	<skip />
+	<!-- no translation found for unit_GB -->
+	<skip />
+	<!-- no translation found for unit_TB -->
+	<skip />
+	<!---->
+	<string name="send_file">"Deel lêer(s) via"</string>
+	<!---->
+	<string name="default_search_text">"Deursoek lêers"</string>
+	<!---->
+	<string name="free_space">"Beskikbaar"</string>
+	<!---->
+	<string name="total_space">"Totale ruimte"</string>
+	<!---->
+	<string name="drawer_category">"Kategorieë"</string>
+	<!---->
+	<string name="phone_storage">"Foonstoorruimte"</string>
+	<!---->
+	<string name="phone_storage_cn">"Foonstoorruimte"</string>
+	<!---->
+	<string name="sd_card">"SD-kaart"</string>
+	<!---->
+	<string name="draw_left_phone_storage">"Foonstoorruimte"</string>
+	<!---->
+	<string name="draw_left_sd_card">"SD-kaart"</string>
+	<!-- no translation found for menu_settings -->
+	<skip />
+	<!---->
+	<string name="no_search_result">"0 lêer(s) gevind vir \"%1$s\""</string>
+	<!---->
+	<string name="copy_deny">"Geen toestemming om te kopieer nie."</string>
+	<!---->
+	<string name="cut_deny">"Geen toestemming om te sny nie."</string>
+	<!---->
+	<string name="delete_deny">"Geen toestemming om te skrap nie."</string>
+	<!---->
+	<string name="insufficient_memory">"Onvoldoende ruimte"</string>
+	<!---->
+	<string name="insufficient_message">"Kon party lêers nie kopieer nie weens onvoldoende ruimte"</string>
+	<!---->
+	<string name="invalid_empty_name">"Lêer- of omslagnaam kan nie leeg wees nie."</string>
+	<!---->
+	<string name="paste_same_folder">"Kon nie kopieer nie: bron- en bestemmingsomslag is dieselfde."</string>
+	<!---->
+	<string name="invalid_char_prompt">"Jy het \'n ongeldig karakter ingetik."</string>
+	<!---->
+	<string name="msg_unable_open_file">"Die lêerformaat word nie gesteun nie."</string>
+	<!---->
+	<string name="paste_sub_folder">"Kan nie na subomslag plak nie."</string>
+	<!---->
+	<string name="operation_fail">"Sommige lêerbewerkings het misluk."</string>
+	<!---->
+	<string name="search_result">"%2$d resultate vir \"%1$s\""</string>
+	<!---->
+	<string name="already_exists">"%1$s is reeds in gebruik."</string>
+	<!---->
+	<string name="unmounted">"%1$s is ongekoppel"</string>
+	<!---->
+	<string name="create_hidden_file">"Lêer sal verberg wees indien sy naam met \'.\' begin."</string>
+	<!---->
+	<string name="file_name_too_long">"Die ingevoerde naam is te lank."</string>
+	<!---->
+	<string name="some_paste_fail">"Sommige plak-bewerkings het misluk."</string>
+	<!---->
+	<string name="delete_fail">"Kon nie skrap nie"</string>
+	<!---->
+	<string name="some_delete_fail">"Sommige skrap-bewerkings het misluk."</string>
+	<!---->
+	<string name="msg_unable_open_file_in_app">"Geen toepassing om lêer oop te maak nie"</string>
+	<!---->
+	<string name="drm_forwardforbidden_title">"Nie deurstuur nie"</string>
+	<!---->
+	<string name="drm_forwardforbidden_message">"Die DRM-lêer kan nie deurstuur nie."</string>
+	<!---->
+	<string name="drm_no_valid_right">"Lêer het geen geldige DRM-outoriteit nie."</string>
+	<!---->
+	<string name="drm_current_count">"Huidige telling:"</string>
+	<!---->
+	<string name="unlimited_usage">"Onbeperkte gebruik"</string>
+	<!---->
+	<string name="drm_current_right">"Huidige beperking:"</string>
+	<!---->
+	<string name="not_available">"Nie beskikbaar nie"</string>
+	<!---->
+	<string name="right_url">"Lisensiegewer-URL:"</string>
+	<!---->
+	<string name="use_times">"Gebruik %s keer"</string>
+	<!---->
+	<string name="valid_after">"Geldig na"</string>
+	<!---->
+	<string name="valid_until">"Geldig tot"</string>
+	<!---->
+	<string name="drm_wifidisplay_title">"Kopieer beskermde lêers"</string>
+	<!---->
+	<string name="drm_wifidisplay_message">"Kopiebeskermde kan nie versprei word nie."</string>
+	<!---->
+	<string name="drm_wifidisplay_cancel_btn">"Skakel Wi-Fi-vertoonbeeld af"</string>
+	<!---->
+	<string name="drm_wifidisplay_ok">"Goed"</string>
+	<!---->
+	<string name="tv_link_close_toast">"Wi-Fi-vertoonbeeld is toegemaak"</string>
+	<!---->
+	<string name="usbotg">"Eksterne USB-stoortoestel"</string>
+	<!---->
+	<string name="show">"Wys stelsellêers"</string>
+	<!---->
+	<string name="hide">"Verberg stelsellêers"</string>
+	<!---->
+	<string name="action_menu_create_folder_button">"Skep omslag"</string>
+	<!---->
+	<string name="searchResult">"Soekresultaat"</string>
+	<!---->
+	<string name="default_folder_name">"Vouernaam"</string>
+	<!---->
+	<string name="drm_protection_status">"Beskermingstatus:"</string>
+	<!---->
+	<string name="drm_can_forward">"Kan deurgestuur word."</string>
+	<!---->
+	<string name="drm_can_not_forward">"Kan nie deurgestuur word nie"</string>
+	<!---->
+	<string name="drm_no_license">"Geen beskikbare DRM-lisensie nie."</string>
+	<!---->
+	<string name="drm_interval">"Geldig vir %s na eerste keer gebruik is"</string>
+	<!---->
+	<string name="drm_begin">"Begin:"</string>
+	<!---->
+	<string name="drm_no_limitation">"Geen beperking nie"</string>
+	<!---->
+	<string name="drm_end">"Einde:"</string>
+	<!---->
+	<string name="drm_use_left">"Bly oor:"</string>
+	<!---->
+	<string name="drm_no_crop">"Lêer %s" is nie toegelaat om kleingeknip te word nie omdat die lêer DRM-beskermd is."</string>
+	<!---->
+	<string name="file_copy">"Lêer gekopieer"</string>
+	<!---->
+	<string name="choice_file">"Kies bestemming"</string>
+	<!---->
+	<string name="alert_delete_single">"Die gekose lêer sal geskrap word."</string>
+	<!---->
+	<string name="pasting">"Plak"</string>
+	<!---->
+	<string name="readable">"Leesbaar:"</string>
+	<!---->
+	<string name="executable">"Toepassing:"</string>
+	<!---->
+	<string name="writable">"Skryfbaar:"</string>
+	<!---->
+	<string name="add_favorite">"Voeg by tot gunstelingomslag"</string>
+	<!---->
+	<string name="del_favorite">"Skrap van gunstelingomslag"</string>
+	<!---->
+	<string name="favourite">"VOEG BY TOT GUNSTELINGE"</string>
+	<!---->
+	<string name="viewby_details">"Bekyk volgens besonderhede"</string>
+	<!---->
+	<string name="view_by">"Bekyk volgens"</string>
+	<!---->
+	<string name="show_hide">"Wys/Verberg"</string>
+	<!---->
+	<string name="sort_by">"Sorteer volgens"</string>
+	<!---->
+	<string name="more">"Meer"</string>
+	<!-- no translation found for used -->
+	<skip />
+	<!---->
+	<string name="category_archives">"Argiewe"</string>
+	<!---->
+	<string name="category_favorite">"Gunstelinge"</string>
+	<!---->
+	<string name="category_ringtones">"Luitone"</string>
+	<!---->
+	<string name="category_recordings">"Opnames"</string>
+	<!---->
+	<string name="category_safebox">"Safebox"</string>
+	<!---->
+	<string name="category_apks">"APK\'s"</string>
+	<!---->
+	<string name="search">"Soek"</string>
+	<!---->
+	<string name="sort_type">"Sorteer volgens soort"</string>
+	<!---->
+	<string name="sort_name">"Sorteer volgens naam (A-Z)"</string>
+	<!---->
+	<string name="sort_size">"Sorteer volgens grootte (groot-klein)"</string>
+	<!---->
+	<string name="sort_time">"Sorteer volgens tyd (nuut-oud)"</string>
+	<!---->
+	<string name="selected">"Gekies"</string>
+	<!---->
+	<string name="save">"Stoor"</string>
+	<!---->
+	<string name="category_docs">"Dokumente"</string>
+	<!---->
+	<string name="category_files">"Lêers"</string>
+	<!---->
+	<string name="view_as_grid">"Bekyk as raster"</string>
+	<!---->
+	<string name="view_as_list">"Bekyk as lys"</string>
+	<!---->
+	<string name="detail_path">"Plek:"</string>
+	<!---->
+	<string name="detail_name">"Naam:"</string>
+	<!---->
+	<string name="detail_size">"Grootte:"</string>
+	<!---->
+	<string name="detail_time">"Laas gewysig:"</string>
+	<!---->
+	<string name="empty_msg">"(Leë omslag)"</string>
+	<!---->
+	<string name="search_files">"Deursoek lêers"</string>
+	<!-- no translation found for search_result_count -->
+	<skip />
+	<!---->
+	<string name="drawer_settings">"INSTELLINGS"</string>
+	<!---->
+	<string name="search_text_empty">"Soekinhoud moenie leeg wees nie."</string>
+	<!---->
+	<string name="search_result_title">"Soekresultaat/(te)"</string>
+	<!---->
+	<string name="path_not_exists">"%1$s bestaan nie"</string>
+	<!---->
+	<string name="modify_hidden_file">"Lêer sal nie verberg wees indien sy naam nie met \'.\' begin nie."</string>
+	<!---->
+	<string name="paste_fail">"Kon nie plak nie"</string>
+	<!---->
+	<string name="search_empty">"Soekinhoud moenie leeg wees nie."</string>
+	<!---->
+	<string name="search_setting_description">"Plaaslike lêers en omslae"</string>
+	<!---->
+	<string name="change_mode">"Kies lêer of omslag"</string>
+	<!-- no translation found for drm_protectioninfo_title -->
+	<skip />
+	<!---->
+	<string name="draw_favourite">"gunsteling"</string>
+	<!---->
+	<string name="unfavourite">"Verwyder van gunstelinge"</string>
+	<!---->
+	<string name="drm_toast_license_expired">"DRM-lisensie is verstreke"</string>
+	<!-- no translation found for sdstroge -->
+	<skip />
+	<!-- no translation found for phonestorage -->
+	<skip />
+	<!-- no translation found for title_activity_main -->
+	<skip />
+	<!-- no translation found for hello_world -->
+	<skip />
+	<!-- no translation found for action_settings -->
+	<skip />
+	<!-- no translation found for unlock_video -->
+	<skip />
+	<!---->
+	<string name="readable_m">"Leesbaar"</string>
+	<!---->
+	<string name="executable_m">"Toepassing"</string>
+	<!---->
+	<string name="writable_m">"Skryfbaar"</string>
+	<!---->
+	<string name="main_recents">"Onlangse"</string>
+	<!-- no translation found for main_recents_cn -->
+	<skip />
+	<!---->
+	<string name="main_installers">"Installeerders"</string>
+	<!---->
+	<string name="main_document">"Dokumente"</string>
+	<!---->
+	<string name="detail_path_m">"Ligging"</string>
+	<!-- no translation found for detail_path_m_cn -->
+	<skip />
+	<!---->
+	<string name="detail_name_m">"Naam"</string>
+	<!---->
+	<string name="detail_size_m">"Grootte"</string>
+	<!---->
+	<string name="detail_time_m">"Laas gewysig"</string>
+	<!---->
+	<string name="main_photo">"Foto\'s"</string>
+	<!---->
+	<string name="main_sd_storage">"SD-stoorruimte"</string>
+	<!---->
+	<string name="main_external_storage">"Eksterne berging"</string>
+	<!---->
+	<string name="main_home">"Tuis"</string>
+	<!-- no translation found for main_home_cn -->
+	<skip />
+	<!---->
+	<string name="main_nava_home">"Tuis"</string>
+	<!---->
+	<string name="menu_select">"Kies"</string>
+	<!-- no translation found for go_up -->
+	<skip />
+	<!---->
+	<string name="no_folder">"Hierdie omslag is leeg"</string>
+	<!---->
+	<string name="no_category">"Hierdie kategorie is leeg"</string>
+	<!-- no translation found for no_folder_cn -->
+	<skip />
+	<!-- no translation found for no_category_cn -->
+	<skip />
+	<!---->
+	<string name="pasted">"Lêer geplak"</string>
+	<!---->
+	<string name="deleted">"Lêer geskrap"</string>
+	<!---->
+	<string name="deleted_cn">"Lêer geskrap"</string>
+	<!---->
+	<string name="view_list">"Lysaansig"</string>
+	<!---->
+	<string name="view_grid">"Roosteraansig"</string>
+	<!---->
+	<string name="create_new_folder">"Skep omslag"</string>
+	<!-- no translation found for add_folder -->
+	<skip />
+	<!---->
+	<string name="detail">"Besonderhede"</string>
+	<!-- no translation found for menu_detail -->
+	<skip />
+	<!---->
+	<string name="migrate">"Migreer"</string>
+	<!---->
+	<string name="permission_welcome_title">"Toestemming nodig"</string>
+	<!-- no translation found for permission_msg -->
+	<skip />
+	<!---->
+	<string name="permission_setting_title">"Verleen toegang"</string>
+	<!---->
+	<string name="permission_setting_content">"Verander toestemmings in jou toestel se toepassingsinstellings. Gee Lêerbestuurder toegang to stoorruimte."</string>
+	<!---->
+	<string name="permission_exit_btn">"Verlaat"</string>
+	<!---->
+	<string name="dialog_close_btn">"Maak toe"</string>
+	<!-- no translation found for dialog_close_btn_cn -->
+	<skip />
+	<!---->
+	<string name="shortcut_item">"Voeg kortpad by"</string>
+	<!-- no translation found for shortcut_item_cn -->
+	<skip />
+	<!---->
+	<string name="shortcut_no_exist">"Die gevraagde omslag bestaan nie"</string>
+	<!-- no translation found for shortcut_success -->
+	<skip />
+	<!---->
+	<string name="no_search_result_m">"Geen resultate vir \"%1$s\" nie"</string>
+	<!---->
+	<string name="draw_left_phone_storage_m">"Foon"</string>
+	<!---->
+	<string name="category_audio">"Oudio"</string>
+	<!---->
+	<string name="usbotg_m">"Ekstern"</string>
+	<!-- no translation found for sd_m -->
+	<skip />
+	<!---->
+	<string name="freeof_m">"Gratis"</string>
+	<!---->
+	<string name="permission_settings">"Instellings"</string>
+	<!---->
+	<string name="safe_first_dialog_title">"Kluisbokskategorie"</string>
+	<!---->
+	<string name="safe_first_dialog_content">"Lêers wat na hierdie kategorie verskuif is, vereis wagwoordverifikasie. Voeg lêers tot hierdie kategorie by deur "Verskuif na kluisboks" te druk op die lêerkieslys."</string>
+	<!-- no translation found for safe_first_dialog_content_cn -->
+	<skip />
+	<!---->
+	<string name="safe_storage_local">"Plaaslike stoorruimte"</string>
+	<!---->
+	<string name="set_password_pass">"Wagwoord"</string>
+	<!---->
+	<string name="set_password_first">"Stel die wagwoord: 4-12 syfers"</string>
+	<!-- no translation found for input_new_password_hint -->
+	<skip />
+	<!---->
+	<string name="set_password_again">"Bevestig wagwoord"</string>
+	<!---->
+	<string name="set_password_show">"Wys wagwoord"</string>
+	<!---->
+	<string name="set_password_safe_question">"Veiligheidskwessies"</string>
+	<!---->
+	<string name="set_password_safe_question_answer">"Antwoord"</string>
+	<!---->
+	<string name="set_password_safe_forget_pass">"Onthou die antwoorde van veiligheidskwessies. Indien jy die wagwoord vergeet, kan jy dit terugstel deur veiligheidskwessies te beantwoord."</string>
+	<!---->
+	<string name="choose_safe">"Kies kluisboks"</string>
+	<!-- no translation found for choose_safe_cn -->
+	<skip />
+	<!---->
+	<string name="create_safe">"Skep kluisboks"</string>
+	<!---->
+	<string name="create_safe_to">"Skep kluisboks na"</string>
+	<!-- no translation found for create_safe_to_cn -->
+	<skip />
+	<!---->
+	<string name="set_password">"Stel wagwoord"</string>
+	<!-- no translation found for add_file_safe -->
+	<skip />
+	<!-- no translation found for safe_set -->
+	<skip />
+	<!---->
+	<string name="safe_set_title">"Kluisboksinstellings"</string>
+	<!-- no translation found for safe_set_title_cn -->
+	<skip />
+	<!---->
+	<string name="update_password">"Werk wagwoord by"</string>
+	<!---->
+	<string name="modify_password">"Wysig wagwoord"</string>
+	<!---->
+	<string name="security_question">"Werk veiligheidskwessie by"</string>
+	<!-- no translation found for modify_security_question -->
+	<skip />
+	<!---->
+	<string name="safe_set_change_safe">"Verander kluisboks"</string>
+	<!---->
+	<string name="safe_set_location_safe">"Kluisboksligging"</string>
+	<!-- no translation found for safe_set_location_safe_cn -->
+	<skip />
+	<!---->
+	<string name="update_password_original">"Voer die oorspronklike wagwoord in"</string>
+	<!---->
+	<string name="update_password_original_cn">"Voer die oorspronklike wagwoord in"</string>
+	<!---->
+	<string name="destory_safe">"Vernietig kluisboks"</string>
+	<!-- no translation found for destory_safe_cn -->
+	<skip />
+	<!-- no translation found for destory -->
+	<skip />
+	<!---->
+	<string name="use_password">"Gebruik wagwoord"</string>
+	<!---->
+	<string name="input_password">"Voer wagwoord in"</string>
+	<!---->
+	<string name="forget_password">"Vergeet wagwoord"</string>
+	<!-- no translation found for others -->
+	<skip />
+	<!---->
+	<string name="password_empty">"Wagwoord kan nie leeg wees nie."</string>
+	<!---->
+	<string name="password_consistent">"Wagwoorde stem nie ooreen nie."</string>
+	<!---->
+	<string name="password_length_error">"Wagwoordlengtefout"</string>
+	<!---->
+	<string name="answer_empty">"Antwoord kan nie leeg wees nie."</string>
+	<!-- no translation found for safe_box_name_empty -->
+	<skip />
+	<!---->
+	<string name="update_success">"Bywerking was suksesvol."</string>
+	<!---->
+	<string name="update_fail">"Bywerking het misluk."</string>
+	<!---->
+	<string name="password_mistake">"Wagwoord is nie korrek nie. Voer dit weer in."</string>
+	<!---->
+	<string name="move_safe">"Verskuif na kluisboks"</string>
+	<!---->
+	<string name="fingerprint_check">"Gekoppelde vingerafdrukke, gebruik asseblief vingerafdruksensor vir verifikasie."</string>
+	<!---->
+	<string name="in_use">"In gebruik"</string>
+	<!---->
+	<string name="created">"Geskep"</string>
+	<!---->
+	<string name="choose_files">"Kies lêer(s)"</string>
+	<!---->
+	<string name="move_out">"Verskuif uit"</string>
+	<!---->
+	<string name="remove_to">"Verskuif na"</string>
+	<!---->
+	<string name="default_location">"Verstekligging"</string>
+	<!---->
+	<string name="specified_location">"Gespesifiseerde ligging"</string>
+	<!-- no translation found for open_dir -->
+	<skip />
+	<!-- no translation found for default_location_cn -->
+	<skip />
+	<!-- no translation found for specified_location_cn -->
+	<skip />
+	<!-- no translation found for specified_location_content_cn -->
+	<skip />
+	<!-- no translation found for category_safe -->
+	<skip />
+	<!-- no translation found for category_safe_cn -->
+	<skip />
+	<!---->
+	<string name="add_safe_size_limited">"Kan nie lêers groter as 2.0GG byvoeg nie"</string>
+	<!-- no translation found for add_safe_drm_limited -->
+	<skip />
+	<!---->
+	<string name="fingerprint_relative_dialog">"Koppel die kluisboks met vingerafdruk?"</string>
+	<!-- no translation found for fingerprint_relative_dialog_cn -->
+	<skip />
+	<!-- no translation found for fingerprint_relative_dialog_ok -->
+	<skip />
+	<!-- no translation found for fingerprint_relative_dialog_ok_cn -->
+	<skip />
+	<!---->
+	<string name="fingerprint_relative_dialog_cancel">"Later"</string>
+	<!-- no translation found for fingerprint_relative_dialog_cancel_cn -->
+	<skip />
+	<!---->
+	<string name="safe_location_current">"Kluisboksligging:"</string>
+	<!-- no translation found for safe_location_current_cn -->
+	<skip />
+	<!---->
+	<string name="safe_location_content">"Moenie op die lêeromslag werk nie om skade aan die geënkripteerde data te vermy"</string>
+	<!-- no translation found for safe_location_content_cn -->
+	<skip />
+	<!---->
+	<string name="destory_safe_dialog_message">"Lêers in kluisboks en wagwoord sal almal geskrap word. Vernietig nou?"</string>
+	<!---->
+	<string name="destory_safe_dialog_checkbox">"Verwyder terselfdertyd die lêer?"</string>
+	<!-- no translation found for destory_safe_dialog_checkbox_cn -->
+	<skip />
+	<!---->
+	<string name="open_safe_dialog">"Aktiveer kluisboks"</string>
+	<!-- no translation found for open_safe_dialog_cn -->
+	<skip />
+	<!---->
+	<string name="open_safe_dialog_message">"Die lêers sal na die kluisboks verskuif as jy kluisboks aktiveer. Aktiveer nou?"</string>
+	<!-- no translation found for open_safe_dialog_message_cn -->
+	<skip />
+	<!---->
+	<string name="open_safe_dialog_ok">"Maak onmiddellik oop"</string>
+	<!---->
+	<string name="category_private_string">"Kluisboks"</string>
+	<!---->
+	<string name="opening">"Maak tans oop"</string>
+	<!-- no translation found for space_clear -->
+	<skip />
+	<!-- no translation found for unselected -->
+	<skip />
+	<!-- no translation found for select -->
+	<skip />
+	<!-- no translation found for finish -->
+	<skip />
+	<!---->
+	<string name="senior_title">"Senior"</string>
+	<!-- no translation found for no_files_for_add_to_safebox -->
+	<skip />
+	<!-- no translation found for finger_print_relation -->
+	<skip />
+	<!-- no translation found for duplicate_file_name_tip -->
+	<skip />
+	<!---->
+	<string name="searchview_hint">"Deursoek lêers"</string>
+	<!-- no translation found for safe_box_name_tip -->
+	<skip />
+	<!-- no translation found for toast_update_safe_box_name_sucess -->
+	<skip />
+	<!-- no translation found for toast_update_safe_box_name_fail -->
+	<skip />
+	<!-- no translation found for toast_safe_box_name_empty -->
+	<skip />
+	<!-- no translation found for cut_single_fail_tip -->
+	<skip />
+	<!-- no translation found for delete_single_fail_tip -->
+	<skip />
+	<!-- no translation found for copy_single_fail_tip -->
+	<skip />
+	<!-- no translation found for copy_multi_fail_tip -->
+	<skip />
+	<!-- no translation found for delete_multi_fail_tip -->
+	<skip />
+	<!-- no translation found for cut_multi_fail_tip -->
+	<skip />
+	<!-- no translation found for copy_all_fail_tip -->
+	<skip />
+	<!-- no translation found for delete_all_fail_tip -->
+	<skip />
+	<!-- no translation found for cut_all_fail_tip -->
+	<skip />
+	<!-- no translation found for past_multi_fail_tip -->
+	<skip />
+	<!-- no translation found for past_single_fail_tip -->
+	<skip />
+	<!-- no translation found for past_all_fail_tip -->
+	<skip />
+	<!-- no translation found for chip_encryption -->
+	<skip />
+	<!---->
+	<string name="safe_name_title">"Naam"</string>
+	<!---->
+	<string name="update_name">"Werk naam by"</string>
+	<!-- no translation found for fingerprint_relate -->
+	<skip />
+	<!-- no translation found for insufficient_message_cn -->
+	<skip />
+	<!-- no translation found for add_success -->
+	<skip />
+	<!---->
+	<string name="pasted_cn">"Lêer geplak"</string>
+	<!-- no translation found for no_search_result_cn -->
+	<skip />
+	<!-- no translation found for detail_time_cn -->
+	<skip />
+	<!-- no translation found for rename_limit -->
+	<skip />
+	<!-- no translation found for fingerprint_fail -->
+	<skip />
+	<!-- no translation found for answer_mistake -->
+	<skip />
+	<!-- no translation found for answer_empty_tip -->
+	<skip />
+	<!-- no translation found for new_safe -->
+	<skip />
+	<!-- no translation found for dialog_confirm -->
+	<skip />
+	<!-- no translation found for move_in_success -->
+	<skip />
+	<!-- no translation found for move_in_count -->
+	<skip />
+	<!-- no translation found for message_security_fingerprint_lockout -->
+	<skip />
+	<!-- no translation found for use_password_auth -->
+	<skip />
+	<!-- no translation found for storage_details -->
+	<skip />
+	<!-- no translation found for total_memory -->
+	<skip />
+	<!-- no translation found for system -->
+	<skip />
+	<!-- no translation found for category_fragment_title -->
+	<skip />
+	<!-- no translation found for storage -->
+	<skip />
+	<!-- no translation found for choice -->
+	<skip />
+	<!-- no translation found for view_tag_key -->
+	<skip />
+	<!-- no translation found for view_tag_key2 -->
+	<skip />
+	<!-- no translation found for finish_percent -->
+	<skip />
+	<!---->
+	<string name="select_pic">"Kies prent"</string>
+	<!-- no translation found for brackets_double -->
+	<skip />
+	<!-- no translation found for selected_pick -->
+	<skip />
+	<!-- no translation found for most_selected -->
+	<skip />
+	<!-- no translation found for finish_ready -->
+	<skip />
+	<!-- no translation found for select_pic_data -->
+	<skip />
+	<!-- no translation found for delete_determine_selected -->
+	<skip />
+	<!-- no translation found for delete_document -->
+	<skip />
+	<!-- no translation found for delete_folder -->
+	<skip />
+	<!-- no translation found for delete_folder_and -->
+	<skip />
+	<!-- no translation found for deselect_all_item -->
+	<skip />
+	<!-- no translation found for edit -->
+	<skip />
+	<!-- no translation found for storage_phone -->
+	<skip />
+	<!-- no translation found for storage_sdcard -->
+	<skip />
+	<!-- no translation found for storage_otg -->
+	<skip />
+	<!-- no translation found for storage_slash -->
+	<skip />
+	<!-- no translation found for welcome_security -->
+	<skip />
+	<!-- no translation found for welcome_security_info -->
+	<skip />
+	<!-- no translation found for welcome_convenient -->
+	<skip />
+	<!-- no translation found for welcome_convenient_info -->
+	<skip />
+	<!-- no translation found for welcome_depth -->
+	<skip />
+	<!-- no translation found for welcome_depth_info -->
+	<skip />
+	<!-- no translation found for welcome_add -->
+	<skip />
+	<!-- no translation found for welcome_add_info -->
+	<skip />
+	<!-- no translation found for welcome_dialog_title -->
+	<skip />
+	<!-- no translation found for welcome_dialog_info -->
+	<skip />
+	<!-- no translation found for welcome_dialog_verify_btn -->
+	<skip />
+	<!-- no translation found for welcome_dialog_verify_pwd -->
+	<skip />
+	<!-- no translation found for welcome_start_use -->
+	<skip />
+	<!-- no translation found for welcome_not_use -->
+	<skip />
+	<!-- no translation found for welcome_ok -->
+	<skip />
+	<!-- no translation found for encrypt_files_success -->
+	<skip />
+	<!-- no translation found for delete_direct -->
+	<skip />
+	<!-- no translation found for delete_file -->
+	<skip />
+</resources>

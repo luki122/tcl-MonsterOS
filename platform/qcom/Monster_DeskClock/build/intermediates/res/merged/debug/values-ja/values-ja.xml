@@ -1,0 +1,718 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="alarm_set">
+    <item msgid="6450913786084215050">"アラームは今から1分以内に設定されています。"</item>
+    <item msgid="6002066367368421848">"アラームは<ns1:g id="DAYS">%1$s</ns1:g>後に設定されています。"</item>
+    <item msgid="8824719306247973774">"アラームは<ns1:g id="HOURS">%2$s</ns1:g>後に設定されています。"</item>
+    <item msgid="8182406852935468862">"アラームは<ns1:g id="DAYS">%1$s</ns1:g>と<ns1:g id="HOURS">%2$s</ns1:g>後に設定されています。"</item>
+    <item msgid="2532279224777213194">"アラームは<ns1:g id="MINUTES">%3$s</ns1:g>後に設定されています。"</item>
+    <item msgid="5936557894247187717">"アラームは<ns1:g id="DAYS">%1$s</ns1:g>と<ns1:g id="MINUTES">%3$s</ns1:g>後に設定されています。"</item>
+    <item msgid="9115697840826129603">"アラームは<ns1:g id="HOURS">%2$s</ns1:g><ns1:g id="MINUTES">%3$s</ns1:g>後に設定されています。"</item>
+    <item msgid="2332583385137381060">"アラームは<ns1:g id="DAYS">%1$s</ns1:g>と<ns1:g id="HOURS">%2$s</ns1:g><ns1:g id="MINUTES">%3$s</ns1:g>後に設定されています"</item>
+  </string-array>
+    <string-array name="auto_silence_entries">
+    <item msgid="3024545954917711306">"1分"</item>
+    <item msgid="5431906692406316549">"5分"</item>
+    <item msgid="7742728812068919959">"10分"</item>
+    <item msgid="2855948657259647629">"15分"</item>
+    <item msgid="6330196381284475079">"20分"</item>
+    <item msgid="7809240121716151904">"25分"</item>
+    <item msgid="4278641338024561333">"なし"</item>
+  </string-array>
+    <string-array name="cities_names">
+    <item msgid="4653806289288974388">"あ<ns1:g id="SEPARATOR">=</ns1:g>アビジャン"</item>
+    <item msgid="4864167603178202155">"あ<ns1:g id="SEPARATOR">=</ns1:g>アクラ"</item>
+    <item msgid="6478898553803167749">"あ<ns1:g id="SEPARATOR">=</ns1:g>アジスアベバ"</item>
+    <item msgid="5618029992528436448">"あ<ns1:g id="SEPARATOR">=</ns1:g>アルジェー"</item>
+    <item msgid="2906834750114790793">"は<ns1:g id="SEPARATOR">=</ns1:g>ブランタイア"</item>
+    <item msgid="8153571933836629863">"は<ns1:g id="SEPARATOR">=</ns1:g>ブラザビル"</item>
+    <item msgid="3703129580594640833">"か<ns1:g id="SEPARATOR">=</ns1:g>カイロ"</item>
+    <item msgid="2300915410194647320">"か<ns1:g id="SEPARATOR">=</ns1:g>カサブランカ"</item>
+    <item msgid="1217039002304887948">"か<ns1:g id="SEPARATOR">=</ns1:g>コナクリ"</item>
+    <item msgid="8775104707806220928">"た<ns1:g id="SEPARATOR">=</ns1:g>ダカール"</item>
+    <item msgid="5948764589113643811">"た<ns1:g id="SEPARATOR">=</ns1:g>ダルエスサラーム"</item>
+    <item msgid="6306254507715416077">"さ<ns1:g id="SEPARATOR">=</ns1:g>ジブチ"</item>
+    <item msgid="4286108029159501866">"は<ns1:g id="SEPARATOR">=</ns1:g>フリータウン"</item>
+    <item msgid="4514786733035528116">"か<ns1:g id="SEPARATOR">=</ns1:g>ガボローネ"</item>
+    <item msgid="7367496854968219671">"は<ns1:g id="SEPARATOR">=</ns1:g>ハラレ"</item>
+    <item msgid="6837746379726020288">"や<ns1:g id="SEPARATOR">=</ns1:g>ヨハネスブルグ"</item>
+    <item msgid="6284185156591171506">"か<ns1:g id="SEPARATOR">=</ns1:g>カンパラ"</item>
+    <item msgid="3299518884693668985">"は<ns1:g id="SEPARATOR">=</ns1:g>ハルツーム"</item>
+    <item msgid="4614879508966043969">"か<ns1:g id="SEPARATOR">=</ns1:g>キガリ"</item>
+    <item msgid="8878437043772547732">"か<ns1:g id="SEPARATOR">=</ns1:g>キンシャサ"</item>
+    <item msgid="6325601635544067909">"ら<ns1:g id="SEPARATOR">=</ns1:g>ラゴス"</item>
+    <item msgid="6094357506290323524">"ま<ns1:g id="SEPARATOR">=</ns1:g>マセル"</item>
+    <item msgid="7270525814400329098">"ま<ns1:g id="SEPARATOR">=</ns1:g>モガディシュ"</item>
+    <item msgid="353110101402547540">"な<ns1:g id="SEPARATOR">=</ns1:g>ナイロビ"</item>
+    <item msgid="1688121892646984549">"さ<ns1:g id="SEPARATOR">=</ns1:g>サントメ"</item>
+    <item msgid="3642219084651687800">"た<ns1:g id="SEPARATOR">=</ns1:g>トンブクトゥ"</item>
+    <item msgid="7287513493631179463">"た<ns1:g id="SEPARATOR">=</ns1:g>トリポリ"</item>
+    <item msgid="5052614613671591560">"た<ns1:g id="SEPARATOR">=</ns1:g>チュニス"</item>
+    <item msgid="7976303179193839859">"あ<ns1:g id="SEPARATOR">=</ns1:g>アンカレッジ"</item>
+    <item msgid="193703779380497120">"ま<ns1:g id="SEPARATOR">=</ns1:g>メンドーサ"</item>
+    <item msgid="5448884981082519628">"あ<ns1:g id="SEPARATOR">=</ns1:g>アルバ"</item>
+    <item msgid="1577938273323914773">"あ<ns1:g id="SEPARATOR">=</ns1:g>アスンシオン"</item>
+    <item msgid="5617155978105010520">"は<ns1:g id="SEPARATOR">=</ns1:g>バルバドス"</item>
+    <item msgid="3600025702357376322">"は<ns1:g id="SEPARATOR">=</ns1:g>ベリーズ"</item>
+    <item msgid="2847679817118467051">"は<ns1:g id="SEPARATOR">=</ns1:g>ボゴタ"</item>
+    <item msgid="9029003541681282929">"は<ns1:g id="SEPARATOR">=</ns1:g>ブエノスアイレス"</item>
+    <item msgid="2338367960332622522">"か<ns1:g id="SEPARATOR">=</ns1:g>カンクン"</item>
+    <item msgid="4339797536047170278">"か<ns1:g id="SEPARATOR">=</ns1:g>カラカス"</item>
+    <item msgid="9199080438977757863">"か<ns1:g id="SEPARATOR">=</ns1:g>ケイマン"</item>
+    <item msgid="1993203473281589891">"さ<ns1:g id="SEPARATOR">=</ns1:g>シカゴ"</item>
+    <item msgid="7990342776303470263">"か<ns1:g id="SEPARATOR">=</ns1:g>コスタリカ"</item>
+    <item msgid="5676109900908808628">"か<ns1:g id="SEPARATOR">=</ns1:g>キュラソー"</item>
+    <item msgid="5519120432577564812">"た<ns1:g id="SEPARATOR">=</ns1:g>ドーソンクリーク"</item>
+    <item msgid="2126228972377380680">"た<ns1:g id="SEPARATOR">=</ns1:g>デンバー"</item>
+    <item msgid="3298410632922319193">"た<ns1:g id="SEPARATOR">=</ns1:g>デトロイト"</item>
+    <item msgid="2819032085688382805">"た<ns1:g id="SEPARATOR">=</ns1:g>ドミニカ"</item>
+    <item msgid="6170433208654553821">"あ<ns1:g id="SEPARATOR">=</ns1:g>エドモントン"</item>
+    <item msgid="795461860173291499">"あ<ns1:g id="SEPARATOR">=</ns1:g>エルサルバドル"</item>
+    <item msgid="7872196528637597794">"は<ns1:g id="SEPARATOR">=</ns1:g>フォルタレザ"</item>
+    <item msgid="5801558418916235541">"か<ns1:g id="SEPARATOR">=</ns1:g>グランドターク"</item>
+    <item msgid="2103759276235503048">"か<ns1:g id="SEPARATOR">=</ns1:g>グレナダ"</item>
+    <item msgid="1490069759176391533">"か<ns1:g id="SEPARATOR">=</ns1:g>グアテマラ"</item>
+    <item msgid="525959305652046261">"か<ns1:g id="SEPARATOR">=</ns1:g>ガイアナ"</item>
+    <item msgid="7565596629973190931">"は<ns1:g id="SEPARATOR">=</ns1:g>ハリファックス"</item>
+    <item msgid="3811169155065582644">"は<ns1:g id="SEPARATOR">=</ns1:g>ハバナ"</item>
+    <item msgid="3733555435078090201">"あ<ns1:g id="SEPARATOR">=</ns1:g>インディアナポリス"</item>
+    <item msgid="226982663848410981">"な<ns1:g id="SEPARATOR">=</ns1:g>ノックス"</item>
+    <item msgid="3815293080342229459">"ま<ns1:g id="SEPARATOR">=</ns1:g>マレンゴ"</item>
+    <item msgid="6594853515451547389">"は<ns1:g id="SEPARATOR">=</ns1:g>ピーターズバーグ"</item>
+    <item msgid="6091571889213283534">"た<ns1:g id="SEPARATOR">=</ns1:g>テルシティ"</item>
+    <item msgid="3089369312058696669">"は<ns1:g id="SEPARATOR">=</ns1:g>ビベー"</item>
+    <item msgid="1334860422444068943">"は<ns1:g id="SEPARATOR">=</ns1:g>ビンセンズ"</item>
+    <item msgid="7775105082093691756">"あ<ns1:g id="SEPARATOR">=</ns1:g>ウィナマク"</item>
+    <item msgid="4043335541899184547">"か<ns1:g id="SEPARATOR">=</ns1:g>キングストン"</item>
+    <item msgid="1063757593477259280">"な<ns1:g id="SEPARATOR">=</ns1:g>ヌエストラ セニョーラ デ ラ パス"</item>
+    <item msgid="349901732062388869">"ら<ns1:g id="SEPARATOR">=</ns1:g>リマ"</item>
+    <item msgid="4977592519316837842">"ら<ns1:g id="SEPARATOR">=</ns1:g>ロサンゼルス"</item>
+    <item msgid="7713051790509638572">"ら<ns1:g id="SEPARATOR">=</ns1:g>ルイビル"</item>
+    <item msgid="8460620935898405225">"ま<ns1:g id="SEPARATOR">=</ns1:g>マナグア"</item>
+    <item msgid="8328345293081464192">"ま<ns1:g id="SEPARATOR">=</ns1:g>マルティニーク"</item>
+    <item msgid="8010357327448619637">"ま<ns1:g id="SEPARATOR">=</ns1:g>メンドーサ"</item>
+    <item msgid="2046777213916219253">"ま<ns1:g id="SEPARATOR">=</ns1:g>メトラカトラ"</item>
+    <item msgid="2227885609632709258">"ま<ns1:g id="SEPARATOR">=</ns1:g>メキシコシティ"</item>
+    <item msgid="9089629663998569289">"ま<ns1:g id="SEPARATOR">=</ns1:g>モンテレイ"</item>
+    <item msgid="2782276175306930748">"ま<ns1:g id="SEPARATOR">=</ns1:g>モンテビデオ"</item>
+    <item msgid="4942386959622269480">"ま<ns1:g id="SEPARATOR">=</ns1:g>モントリオール"</item>
+    <item msgid="3068203952968918165">"な<ns1:g id="SEPARATOR">=</ns1:g>ナッソー"</item>
+    <item msgid="4234515454127289962">"な<ns1:g id="SEPARATOR">=</ns1:g>ニューヨーク"</item>
+    <item msgid="1660551302087304308">"は<ns1:g id="SEPARATOR">=</ns1:g>ベウラ"</item>
+    <item msgid="415823390775449071">"さ<ns1:g id="SEPARATOR">=</ns1:g>センター"</item>
+    <item msgid="6644186958433380884">"な<ns1:g id="SEPARATOR">=</ns1:g>ニューセーラム"</item>
+    <item msgid="6408587617047971798">"は<ns1:g id="SEPARATOR">=</ns1:g>パナマ"</item>
+    <item msgid="5576899364199447991">"は<ns1:g id="SEPARATOR">=</ns1:g>フェニックス"</item>
+    <item msgid="5541266909095409447">"は<ns1:g id="SEPARATOR">=</ns1:g>ポートオブスペイン"</item>
+    <item msgid="6417519313622785932">"は<ns1:g id="SEPARATOR">=</ns1:g>ポルトープランス"</item>
+    <item msgid="2078589249210571366">"は<ns1:g id="SEPARATOR">=</ns1:g>プエルトリコ"</item>
+    <item msgid="8522030474373927681">"さ<ns1:g id="SEPARATOR">=</ns1:g>サントドミンゴ"</item>
+    <item msgid="4763853453317431594">"さ<ns1:g id="SEPARATOR">=</ns1:g>サンパウロ"</item>
+    <item msgid="2713153284784311646">"さ<ns1:g id="SEPARATOR">=</ns1:g>セントジョンズ"</item>
+    <item msgid="8252666620333105271">"さ<ns1:g id="SEPARATOR">=</ns1:g>セントキッツ"</item>
+    <item msgid="4851597775036027515">"さ<ns1:g id="SEPARATOR">=</ns1:g>セントルシア"</item>
+    <item msgid="2395485473100271503">"さ<ns1:g id="SEPARATOR">=</ns1:g>セントトーマス"</item>
+    <item msgid="4148037555658225145">"た<ns1:g id="SEPARATOR">=</ns1:g>ティフアナ"</item>
+    <item msgid="3491199166042475853">"た<ns1:g id="SEPARATOR">=</ns1:g>トロント"</item>
+    <item msgid="1506838283840737263">"は<ns1:g id="SEPARATOR">=</ns1:g>バンクーバー"</item>
+    <item msgid="8935386104773857399">"あ<ns1:g id="SEPARATOR">=</ns1:g>ウィニペグ"</item>
+    <item msgid="1132634022412399582">"<ns1:g id="SEPARATOR">=</ns1:g>南極"</item>
+    <item msgid="4076962667198039206">"ら<ns1:g id="SEPARATOR">=</ns1:g>ロングイェールビーン"</item>
+    <item msgid="3784788073896028355">"あ<ns1:g id="SEPARATOR">=</ns1:g>アルマトイ"</item>
+    <item msgid="7895695236056852523">"あ<ns1:g id="SEPARATOR">=</ns1:g>アンマン"</item>
+    <item msgid="1795426532295280371">"あ<ns1:g id="SEPARATOR">=</ns1:g>アナジル"</item>
+    <item msgid="7194236926158343552">"あ<ns1:g id="SEPARATOR">=</ns1:g>アクタウ"</item>
+    <item msgid="4796350130854360870">"は<ns1:g id="SEPARATOR">=</ns1:g>バグダード"</item>
+    <item msgid="4020105434451091851">"は<ns1:g id="SEPARATOR">=</ns1:g>バーレーン"</item>
+    <item msgid="3895868797052686484">"は<ns1:g id="SEPARATOR">=</ns1:g>バクー"</item>
+    <item msgid="228001522630057957">"は<ns1:g id="SEPARATOR">=</ns1:g>バンコク"</item>
+    <item msgid="5555647809114820537">"は<ns1:g id="SEPARATOR">=</ns1:g>ベイルート"</item>
+    <item msgid="2960873998178478784">"か<ns1:g id="SEPARATOR">=</ns1:g>カルカッタ"</item>
+    <item msgid="8765555959722950691">"た<ns1:g id="SEPARATOR">=</ns1:g>ダマスカス"</item>
+    <item msgid="4979709428925196546">"た<ns1:g id="SEPARATOR">=</ns1:g>ダッカ"</item>
+    <item msgid="310419600200885308">"た<ns1:g id="SEPARATOR">=</ns1:g>ドバイ"</item>
+    <item msgid="1203379132329159260">"か<ns1:g id="SEPARATOR">=</ns1:g>ガザ"</item>
+    <item msgid="2359068282340162319">"は<ns1:g id="SEPARATOR">=</ns1:g>ヘブロン"</item>
+    <item msgid="6223396610551759129">"は<ns1:g id="SEPARATOR">=</ns1:g>ホーチミン"</item>
+    <item msgid="4731022818651322736">"<ns1:g id="SEPARATOR">=</ns1:g>香港"</item>
+    <item msgid="8104778702069607166">"あ<ns1:g id="SEPARATOR">=</ns1:g>イスタンブール"</item>
+    <item msgid="758800913783999425">"さ<ns1:g id="SEPARATOR">=</ns1:g>ジャカルタ"</item>
+    <item msgid="8956406398692698126">"あ<ns1:g id="SEPARATOR">=</ns1:g>エルサレム"</item>
+    <item msgid="1664426577433326419">"か<ns1:g id="SEPARATOR">=</ns1:g>カブール"</item>
+    <item msgid="7700349511508357396">"か<ns1:g id="SEPARATOR">=</ns1:g>カラチ"</item>
+    <item msgid="5273241794521591984">"か<ns1:g id="SEPARATOR">=</ns1:g>カトマンズ"</item>
+    <item msgid="4754850915168634158">"か<ns1:g id="SEPARATOR">=</ns1:g>クアラルンプール"</item>
+    <item msgid="5187849635785055693">"か<ns1:g id="SEPARATOR">=</ns1:g>クウェート"</item>
+    <item msgid="2923385979252179376">"ま<ns1:g id="SEPARATOR">=</ns1:g>マカオ"</item>
+    <item msgid="722458682107911739">"ま<ns1:g id="SEPARATOR">=</ns1:g>マニラ"</item>
+    <item msgid="6033964325069060422">"ま<ns1:g id="SEPARATOR">=</ns1:g>マスカット"</item>
+    <item msgid="6077458941399984780">"は<ns1:g id="SEPARATOR">=</ns1:g>プノンペン"</item>
+    <item msgid="935474308903572975">"<ns1:g id="SEPARATOR">=</ns1:g>平壌"</item>
+    <item msgid="5336632319992664889">"か<ns1:g id="SEPARATOR">=</ns1:g>カタール"</item>
+    <item msgid="1667243110545095146">"ら<ns1:g id="SEPARATOR">=</ns1:g>ラングーン"</item>
+    <item msgid="4460370766685855731">"ら<ns1:g id="SEPARATOR">=</ns1:g>リヤド"</item>
+    <item msgid="4229224905931739201">"さ<ns1:g id="SEPARATOR">=</ns1:g>サイゴン"</item>
+    <item msgid="8705359848250215620">"さ<ns1:g id="SEPARATOR">=</ns1:g>ソウル"</item>
+    <item msgid="583367295371395814">"<ns1:g id="SEPARATOR">=</ns1:g>上海"</item>
+    <item msgid="1422156732794771136">"さ<ns1:g id="SEPARATOR">=</ns1:g>シンガポール"</item>
+    <item msgid="1972491729911039207">"<ns1:g id="SEPARATOR">=</ns1:g>台北"</item>
+    <item msgid="5563193560935461106">"た<ns1:g id="SEPARATOR">=</ns1:g>テヘラン"</item>
+    <item msgid="8629402941285674273">"た<ns1:g id="SEPARATOR">=</ns1:g>テルアビブ"</item>
+    <item msgid="8499164674454654525">"<ns1:g id="SEPARATOR">=</ns1:g>東京"</item>
+    <item msgid="1705804745888992744">"あ<ns1:g id="SEPARATOR">=</ns1:g>ウランバートル"</item>
+    <item msgid="2028626988021468640">"は<ns1:g id="SEPARATOR">=</ns1:g>バミューダ"</item>
+    <item msgid="4527109966513690429">"か<ns1:g id="SEPARATOR">=</ns1:g>カナリア"</item>
+    <item msgid="4886308317040330383">"か<ns1:g id="SEPARATOR">=</ns1:g>カーボベルデ"</item>
+    <item msgid="1003307362164178007">"ら<ns1:g id="SEPARATOR">=</ns1:g>レイキャビク"</item>
+    <item msgid="6742010412815268657">"さ<ns1:g id="SEPARATOR">=</ns1:g>スタンリー"</item>
+    <item msgid="5659389449738592757">"あ<ns1:g id="SEPARATOR">=</ns1:g>アデレード"</item>
+    <item msgid="4567804576346784523">"は<ns1:g id="SEPARATOR">=</ns1:g>ブリズベン"</item>
+    <item msgid="8730590400362815585">"か<ns1:g id="SEPARATOR">=</ns1:g>キャンベラ"</item>
+    <item msgid="6416990927714140153">"た<ns1:g id="SEPARATOR">=</ns1:g>ダーウィン"</item>
+    <item msgid="3073969292696516135">"ま<ns1:g id="SEPARATOR">=</ns1:g>メルボルン"</item>
+    <item msgid="1719286228375722176">"な<ns1:g id="SEPARATOR">=</ns1:g>ニューサウスウェールズ"</item>
+    <item msgid="3663940748056976266">"は<ns1:g id="SEPARATOR">=</ns1:g>パース"</item>
+    <item msgid="3383881736858438153">"か<ns1:g id="SEPARATOR">=</ns1:g>クイーンズランド"</item>
+    <item msgid="971889339240879138">"さ<ns1:g id="SEPARATOR">=</ns1:g>シドニー"</item>
+    <item msgid="5542803438162180311">"は<ns1:g id="SEPARATOR">=</ns1:g>ビクトリア"</item>
+    <item msgid="11828841481838883">"な<ns1:g id="SEPARATOR">=</ns1:g>ニューファンドランド"</item>
+    <item msgid="1734331918410561807">"さ<ns1:g id="SEPARATOR">=</ns1:g>サスカチュワン"</item>
+    <item msgid="9184412695613864979">"あ<ns1:g id="SEPARATOR">=</ns1:g>イースター島"</item>
+    <item msgid="1014282454239014527">"あ<ns1:g id="SEPARATOR">=</ns1:g>アムステルダム"</item>
+    <item msgid="4928363054269791193">"あ<ns1:g id="SEPARATOR">=</ns1:g>アンドラ"</item>
+    <item msgid="912290900213826368">"あ<ns1:g id="SEPARATOR">=</ns1:g>アテネ"</item>
+    <item msgid="6097000352459209495">"は<ns1:g id="SEPARATOR">=</ns1:g>ベルファスト"</item>
+    <item msgid="3285885824311481790">"は<ns1:g id="SEPARATOR">=</ns1:g>ベオグラード"</item>
+    <item msgid="911055049821251982">"は<ns1:g id="SEPARATOR">=</ns1:g>ベルリン"</item>
+    <item msgid="9099244516556291111">"は<ns1:g id="SEPARATOR">=</ns1:g>ブラチスラバ"</item>
+    <item msgid="158977749726480076">"は<ns1:g id="SEPARATOR">=</ns1:g>ブリュッセル"</item>
+    <item msgid="8875102297676173346">"は<ns1:g id="SEPARATOR">=</ns1:g>ブカレスト"</item>
+    <item msgid="804451569472542912">"は<ns1:g id="SEPARATOR">=</ns1:g>ブダペスト"</item>
+    <item msgid="6827506774445509939">"か<ns1:g id="SEPARATOR">=</ns1:g>キシナウ"</item>
+    <item msgid="487345893088732797">"か<ns1:g id="SEPARATOR">=</ns1:g>コペンハーゲン"</item>
+    <item msgid="7760953471297773537">"た<ns1:g id="SEPARATOR">=</ns1:g>ダブリン"</item>
+    <item msgid="323414429034825249">"さ<ns1:g id="SEPARATOR">=</ns1:g>ジブラルタル"</item>
+    <item msgid="1785566206078328830">"は<ns1:g id="SEPARATOR">=</ns1:g>ヘルシンキ"</item>
+    <item msgid="5938185647271923359">"ま<ns1:g id="SEPARATOR">=</ns1:g>マン島"</item>
+    <item msgid="5974864320735263245">"あ<ns1:g id="SEPARATOR">=</ns1:g>イスタンブール"</item>
+    <item msgid="3567775364750772947">"か<ns1:g id="SEPARATOR">=</ns1:g>キエフ"</item>
+    <item msgid="540344101798867007">"ら<ns1:g id="SEPARATOR">=</ns1:g>リスボン"</item>
+    <item msgid="5091062403792923657">"ら<ns1:g id="SEPARATOR">=</ns1:g>ロンドン"</item>
+    <item msgid="7075006205000490364">"ら<ns1:g id="SEPARATOR">=</ns1:g>ルクセンブルク"</item>
+    <item msgid="4901781246584739451">"ま<ns1:g id="SEPARATOR">=</ns1:g>マドリード"</item>
+    <item msgid="9047080834315777144">"ま<ns1:g id="SEPARATOR">=</ns1:g>マルタ"</item>
+    <item msgid="8200456520732452034">"ま<ns1:g id="SEPARATOR">=</ns1:g>ミンスク"</item>
+    <item msgid="5452744619736513383">"ま<ns1:g id="SEPARATOR">=</ns1:g>モナコ"</item>
+    <item msgid="3513517408062322298">"ま<ns1:g id="SEPARATOR">=</ns1:g>モスクワ"</item>
+    <item msgid="7917103295878081674">"あ<ns1:g id="SEPARATOR">=</ns1:g>オスロ"</item>
+    <item msgid="4245547231693746977">"は<ns1:g id="SEPARATOR">=</ns1:g>パリ"</item>
+    <item msgid="3778652900196715557">"は<ns1:g id="SEPARATOR">=</ns1:g>プラハ"</item>
+    <item msgid="1827175423974383675">"ら<ns1:g id="SEPARATOR">=</ns1:g>リガ"</item>
+    <item msgid="2095130417232677930">"ら<ns1:g id="SEPARATOR">=</ns1:g>ローマ"</item>
+    <item msgid="7631654618289353520">"さ<ns1:g id="SEPARATOR">=</ns1:g>サンマリノ"</item>
+    <item msgid="7219835179107610398">"さ<ns1:g id="SEPARATOR">=</ns1:g>サラエボ"</item>
+    <item msgid="7199868165463282240">"さ<ns1:g id="SEPARATOR">=</ns1:g>シンフェローポリ"</item>
+    <item msgid="2786395006682246794">"さ<ns1:g id="SEPARATOR">=</ns1:g>スコピエ"</item>
+    <item msgid="4706927178872100023">"さ<ns1:g id="SEPARATOR">=</ns1:g>ソフィア"</item>
+    <item msgid="1982417589953195308">"さ<ns1:g id="SEPARATOR">=</ns1:g>ストックホルム"</item>
+    <item msgid="1596083919400921960">"た<ns1:g id="SEPARATOR">=</ns1:g>タリン"</item>
+    <item msgid="3079313598974879114">"は<ns1:g id="SEPARATOR">=</ns1:g>バチカン"</item>
+    <item msgid="6516636001856910888">"あ<ns1:g id="SEPARATOR">=</ns1:g>ウイーン"</item>
+    <item msgid="6377314532157945456">"あ<ns1:g id="SEPARATOR">=</ns1:g>ヴィルニアス"</item>
+    <item msgid="3427175235616698721">"わ<ns1:g id="SEPARATOR">=</ns1:g>ワルシャワ"</item>
+    <item msgid="8404354243761332922">"さ<ns1:g id="SEPARATOR">=</ns1:g>ザグレブ"</item>
+    <item msgid="1457280242717152391">"た<ns1:g id="SEPARATOR">=</ns1:g>チューリッヒ"</item>
+    <item msgid="1065940089741359291">"あ<ns1:g id="SEPARATOR">=</ns1:g>アンタナナリボ"</item>
+    <item msgid="5176181880014090003">"ま<ns1:g id="SEPARATOR">=</ns1:g>モルディブ"</item>
+    <item msgid="8281854645557426433">"ま<ns1:g id="SEPARATOR">=</ns1:g>モーリシャス"</item>
+    <item msgid="2686249517389816420">"あ<ns1:g id="SEPARATOR">=</ns1:g>オークランド"</item>
+    <item msgid="279925671775807392">"は<ns1:g id="SEPARATOR">=</ns1:g>フィジー"</item>
+    <item msgid="7971492669765264840">"か<ns1:g id="SEPARATOR">=</ns1:g>グアム"</item>
+    <item msgid="889371273355762733">"は<ns1:g id="SEPARATOR">=</ns1:g>ホノルル"</item>
+    <item msgid="5516500578074269817">"か<ns1:g id="SEPARATOR">=</ns1:g>キリティマティ"</item>
+    <item msgid="2740704911915073056">"な<ns1:g id="SEPARATOR">=</ns1:g>ヌメア"</item>
+    <item msgid="8732832728949672807">"さ<ns1:g id="SEPARATOR">=</ns1:g>サモア"</item>
+    <item msgid="6489500698846864993">"た<ns1:g id="SEPARATOR">=</ns1:g>タヒチ"</item>
+    <item msgid="3983121625709442324">"あ<ns1:g id="SEPARATOR">=</ns1:g>アンティグア"</item>
+    <item msgid="2650510570709806322">"あ<ns1:g id="SEPARATOR">=</ns1:g>オースティン"</item>
+    <item msgid="5257283506227357911">"は<ns1:g id="SEPARATOR">=</ns1:g>ボストン"</item>
+    <item msgid="6326368958641850267">"か<ns1:g id="SEPARATOR">=</ns1:g>カルガリー"</item>
+    <item msgid="8830116365016232583">"か<ns1:g id="SEPARATOR">=</ns1:g>コロンバス"</item>
+    <item msgid="6986556538341883811">"た<ns1:g id="SEPARATOR">=</ns1:g>ダラス"</item>
+    <item msgid="836479352500251902">"な<ns1:g id="SEPARATOR">=</ns1:g>ノックスビル"</item>
+    <item msgid="8495291458467378851">"ま<ns1:g id="SEPARATOR">=</ns1:g>メンフィス"</item>
+    <item msgid="2788807207554683122">"ま<ns1:g id="SEPARATOR">=</ns1:g>マイアミ"</item>
+    <item msgid="3984640407077208471">"ま<ns1:g id="SEPARATOR">=</ns1:g>ミネアポリス"</item>
+    <item msgid="6997305266329324161">"あ<ns1:g id="SEPARATOR">=</ns1:g>オタワ"</item>
+    <item msgid="5191741145278683016">"は<ns1:g id="SEPARATOR">=</ns1:g>フィラデルフィア"</item>
+    <item msgid="5898032730733441936">"は<ns1:g id="SEPARATOR">=</ns1:g>ポートランド"</item>
+    <item msgid="9070160716002203069">"さ<ns1:g id="SEPARATOR">=</ns1:g>サンディエゴ"</item>
+    <item msgid="1829944133410079040">"さ<ns1:g id="SEPARATOR">=</ns1:g>サンフランシスコ"</item>
+    <item msgid="8407905318529692654">"さ<ns1:g id="SEPARATOR">=</ns1:g>ソルトレイクシティ"</item>
+    <item msgid="3091392589347990898">"さ<ns1:g id="SEPARATOR">=</ns1:g>サンノゼ"</item>
+    <item msgid="7080627414383807284">"さ<ns1:g id="SEPARATOR">=</ns1:g>サンサルバドル"</item>
+    <item msgid="3430371213266252049">"さ<ns1:g id="SEPARATOR">=</ns1:g>シアトル"</item>
+    <item msgid="9177491393818757071">"さ<ns1:g id="SEPARATOR">=</ns1:g>セントルイス"</item>
+    <item msgid="6234359686676312837">"わ<ns1:g id="SEPARATOR">=</ns1:g>ワシントン D.C."</item>
+    <item msgid="4325057056005132331">"は<ns1:g id="SEPARATOR">=</ns1:g>ヒューストン"</item>
+    <item msgid="38148255938075867">"さ<ns1:g id="SEPARATOR">=</ns1:g>サンアントニオ"</item>
+    <item msgid="3601481860893666763">"さ<ns1:g id="SEPARATOR">=</ns1:g>ジャクソンビル"</item>
+    <item msgid="3987471437354665534">"は<ns1:g id="SEPARATOR">=</ns1:g>ボルチモア"</item>
+    <item msgid="3389674262267006887">"な<ns1:g id="SEPARATOR">=</ns1:g>ナッシュビル"</item>
+    <item msgid="7521690366448637309">"ま<ns1:g id="SEPARATOR">=</ns1:g>ミルウォーキー"</item>
+    <item msgid="2231069593975740859">"あ<ns1:g id="SEPARATOR">=</ns1:g>オクラホマシティー"</item>
+    <item msgid="1970008262236914770">"ら<ns1:g id="SEPARATOR">=</ns1:g>ラスベガス"</item>
+    <item msgid="7113811028304266017">"あ<ns1:g id="SEPARATOR">=</ns1:g>アルバカーキ"</item>
+    <item msgid="6481469458896644678">"た<ns1:g id="SEPARATOR">=</ns1:g>トゥーソン"</item>
+    <item msgid="5970857542995467466">"さ<ns1:g id="SEPARATOR">=</ns1:g>サクラメント"</item>
+    <item msgid="1999267306329214429">"あ<ns1:g id="SEPARATOR">=</ns1:g>アトランタ"</item>
+    <item msgid="8761847787537443648">"か<ns1:g id="SEPARATOR">=</ns1:g>クリーブランド"</item>
+    <item msgid="2987455647692324208">"な<ns1:g id="SEPARATOR">=</ns1:g>ニューオーリンズ"</item>
+    <item msgid="8104109426412705845">"た<ns1:g id="SEPARATOR">=</ns1:g>タンパ"</item>
+    <item msgid="1410067233842240795">"は<ns1:g id="SEPARATOR">=</ns1:g>ピッツバーグ"</item>
+    <item msgid="3339955740367374442">"さ<ns1:g id="SEPARATOR">=</ns1:g>シンシナティ"</item>
+    <item msgid="6091407424772799978">"ま<ns1:g id="SEPARATOR">=</ns1:g>マウンテンビュー"</item>
+    <item msgid="150299708499753555">"ら<ns1:g id="SEPARATOR">=</ns1:g>リノ"</item>
+    <item msgid="9155068631060038769">"は<ns1:g id="SEPARATOR">=</ns1:g>ブラックロックシティ"</item>
+    <item msgid="8498761319928979900">"た<ns1:g id="SEPARATOR">=</ns1:g>ドーハ"</item>
+    <item msgid="8307897251088048641">"<ns1:g id="SEPARATOR">=</ns1:g>北京"</item>
+    <item msgid="8605970953750147428">"ま<ns1:g id="SEPARATOR">=</ns1:g>ムンバイ"</item>
+    <item msgid="6668274273067049125">"た<ns1:g id="SEPARATOR">=</ns1:g>デリー"</item>
+    <item msgid="2933410189478233292">"<ns1:g id="SEPARATOR">=</ns1:g>大阪"</item>
+    <item msgid="9011026093638055579">"ら<ns1:g id="SEPARATOR">=</ns1:g>ラホール"</item>
+    <item msgid="1448378291805481500">"さ<ns1:g id="SEPARATOR">=</ns1:g>サヌア"</item>
+    <item msgid="5233119846682408301">"は<ns1:g id="SEPARATOR">=</ns1:g>バルセロナ"</item>
+    <item msgid="9146746514265554721">"ま<ns1:g id="SEPARATOR">=</ns1:g>ミュンヘン"</item>
+    <item msgid="157866084892734979">"ま<ns1:g id="SEPARATOR">=</ns1:g>ミラノ"</item>
+    <item msgid="2787346322341414963">"は<ns1:g id="SEPARATOR">=</ns1:g>フランクフルト"</item>
+    <item msgid="8407511504088696581">"は<ns1:g id="SEPARATOR">=</ns1:g>ハノイ"</item>
+    <item msgid="5184417944073499453">"あ<ns1:g id="SEPARATOR">=</ns1:g>アンカラ"</item>
+    <item msgid="4028784954452197920">"は<ns1:g id="SEPARATOR">=</ns1:g>バンガロール"</item>
+    <item msgid="190152483600862776">"は<ns1:g id="SEPARATOR">=</ns1:g>ブラジリア"</item>
+    <item msgid="8009516135735104388">"か<ns1:g id="SEPARATOR">=</ns1:g>ケープタウン"</item>
+    <item msgid="6057191797622953016">"あ<ns1:g id="SEPARATOR">=</ns1:g>イスラマバード"</item>
+    <item msgid="2702029416591153210">"ら<ns1:g id="SEPARATOR">=</ns1:g>リオデジャネイロ"</item>
+    <item msgid="1753927312634708098">"あ<ns1:g id="SEPARATOR">=</ns1:g>アナーバー"</item>
+    <item msgid="4225721108475278979">"は<ns1:g id="SEPARATOR">=</ns1:g>ボールダー"</item>
+    <item msgid="6393177386755796069">"か<ns1:g id="SEPARATOR">=</ns1:g>ケンブリッジ"</item>
+    <item msgid="759409010285366934">"か<ns1:g id="SEPARATOR">=</ns1:g>カークランド"</item>
+    <item msgid="6308007059287569663">"ま<ns1:g id="SEPARATOR">=</ns1:g>マディソン"</item>
+    <item msgid="6971636434858330021">"<ns1:g id="SEPARATOR">=</ns1:g>広州"</item>
+    <item msgid="1185109514180068650">"は<ns1:g id="SEPARATOR">=</ns1:g>ハイデラーバード"</item>
+    <item msgid="3032295682584784261">"ら<ns1:g id="SEPARATOR">=</ns1:g>レストン"</item>
+    <item msgid="7722837296297332268">"は<ns1:g id="SEPARATOR">=</ns1:g>ベロオリゾンテ"</item>
+    <item msgid="3593516299122577780">"さ<ns1:g id="SEPARATOR">=</ns1:g>サンティアゴ"</item>
+    <item msgid="2293331653589266583">"ま<ns1:g id="SEPARATOR">=</ns1:g>モンロビア"</item>
+    <item msgid="7899128359620301710">"か<ns1:g id="SEPARATOR">=</ns1:g>コロンボ"</item>
+    <item msgid="5294489752262543829">"た<ns1:g id="SEPARATOR">=</ns1:g>チワワ"</item>
+    <item msgid="8066356061184206341">"さ<ns1:g id="SEPARATOR">=</ns1:g>サルバドール"</item>
+    <item msgid="4806867741334453982">"か<ns1:g id="SEPARATOR">=</ns1:g>グルガオン"</item>
+    <item msgid="2585780177649876827">"ま<ns1:g id="SEPARATOR">=</ns1:g>マンチェスター"</item>
+    <item msgid="234104953526248139">"か<ns1:g id="SEPARATOR">=</ns1:g>キエフ"</item>
+    <item msgid="5245429461217350012">"さ<ns1:g id="SEPARATOR">=</ns1:g>サンクトペテルブルグ"</item>
+    <item msgid="6738531308006017215">"か<ns1:g id="SEPARATOR">=</ns1:g>クラクフ"</item>
+    <item msgid="8972702613339139467">"あ<ns1:g id="SEPARATOR">=</ns1:g>ヴロツワフ"</item>
+    <item msgid="187278924459096566">"は<ns1:g id="SEPARATOR">=</ns1:g>ハンブルク"</item>
+    <item msgid="6173267862207394917">"あ<ns1:g id="SEPARATOR">=</ns1:g>オウル"</item>
+    <item msgid="5639324478037405990">"は<ns1:g id="SEPARATOR">=</ns1:g>ハイファ"</item>
+    <item msgid="3157180661352354058">"さ<ns1:g id="SEPARATOR">=</ns1:g>サンファン"</item>
+    <item msgid="6995939579417282715">"た<ns1:g id="SEPARATOR">=</ns1:g>テグシガルパ"</item>
+    <item msgid="1641840677391275004">"は<ns1:g id="SEPARATOR">=</ns1:g>パラマリボ"</item>
+    <item msgid="7317049454800260290">"か<ns1:g id="SEPARATOR">=</ns1:g>キト"</item>
+    <item msgid="4524380876433343244">"ら<ns1:g id="SEPARATOR">=</ns1:g>リュブリャナ"</item>
+  </string-array>
+    <string-array name="clock_style_entries">
+    <item msgid="917900462224167608">"アナログ"</item>
+    <item msgid="8483930821046925592">"デジタル"</item>
+  </string-array>
+    <string-array name="sw_lap_number_set">
+    <item msgid="2816627565030953899">"# <ns1:g id="NUMBER">%d</ns1:g>"</item>
+    <item msgid="316923361931627987">"# <ns1:g id="NUMBER">%02d</ns1:g>"</item>
+  </string-array>
+    <string-array name="sw_share_strings">
+    <item msgid="842841032273927988">"なかなかのスピード狂です。"</item>
+    <item msgid="6332879039890727169">"まさに努力の賜物です。"</item>
+    <item msgid="815382761274660130">"Androidも高速ですが、あなたのスピードには負けます！"</item>
+    <item msgid="7916250650982813737">"肩の力を抜いて。"</item>
+    <item msgid="6836603904515182333">"すご腕の持ち主です。"</item>
+    <item msgid="7508085100680861631">"まさに驚きの速さです。"</item>
+    <item msgid="5961245252909589573">"もう一度タイムワープしましょう。"</item>
+    <item msgid="5211891900854545940">"左に移動するだけです。"</item>
+    <item msgid="9071353477103826053">"急ぎのパレットがあります。"</item>
+    <item msgid="3785193933691117181">"光の速さです。"</item>
+  </string-array>
+    <string-array name="timer_notifications">
+    <item msgid="7760558912503484257">"残り1分未満"</item>
+    <item msgid="83197792732433351">"残り<ns1:g id="HOURS">%1$s</ns1:g>"</item>
+    <item msgid="8919698220200894252">"残り<ns1:g id="MINUTES">%2$s</ns1:g>"</item>
+    <item msgid="8458069283817013813">"残り<ns1:g id="HOURS">%1$s</ns1:g> <ns1:g id="MINUTES">%2$s</ns1:g>"</item>
+  </string-array>
+    <string-array name="timezone_labels">
+    <item msgid="5495601234086197399">"マーシャル諸島"</item>
+    <item msgid="4196408495909011020">"ミッドウェー諸島"</item>
+    <item msgid="1414384194857730006">"ハワイ"</item>
+    <item msgid="2687091371581931926">"アラスカ"</item>
+    <item msgid="1922100269679049660">"太平洋時間"</item>
+    <item msgid="7156402158716866161">"ティフアナ"</item>
+    <item msgid="1144117502254612241">"アリゾナ"</item>
+    <item msgid="101284182011722637">"チワワ"</item>
+    <item msgid="689121094232986897">"山岳部時間"</item>
+    <item msgid="5445331923942302756">"中央アメリカ"</item>
+    <item msgid="2749806434052452351">"中部時間"</item>
+    <item msgid="3997138870229703753">"メキシコシティ"</item>
+    <item msgid="5425567073027744888">"サスカチュワン"</item>
+    <item msgid="2877342865396629368">"ボゴタ"</item>
+    <item msgid="568682398893899670">"東部時間"</item>
+    <item msgid="668135984541863866">"ベネズエラ"</item>
+    <item msgid="3737474220861486223">"大西洋時間（バルバドス）"</item>
+    <item msgid="6279116051273436870">"大西洋時間（カナダ）"</item>
+    <item msgid="8513382867172014244">"マナウス"</item>
+    <item msgid="7776299003105932407">"サンチアゴ"</item>
+    <item msgid="8636989494746218677">"ニューファンドランド"</item>
+    <item msgid="4402541016410147505">"ブラジリア"</item>
+    <item msgid="2251184440733164084">"ブエノスアイレス"</item>
+    <item msgid="6202926618569004969">"グリーンランド"</item>
+    <item msgid="2355275037115290628">"モンテビデオ"</item>
+    <item msgid="1377549694711708945">"中部大西洋"</item>
+    <item msgid="3457671272126347981">"アゾレス諸島"</item>
+    <item msgid="3659315141063710840">"カーボヴェルデ諸島"</item>
+    <item msgid="1260941741802367635">"カサブランカ"</item>
+    <item msgid="8275203689687954762">"ロンドン、ダブリン"</item>
+    <item msgid="5970179539479320905">"アムステルダム、ベルリン"</item>
+    <item msgid="5396319478750517962">"ベオグラード"</item>
+    <item msgid="8688787475056663004">"ブリュッセル"</item>
+    <item msgid="3415827874921681622">"サラエボ"</item>
+    <item msgid="402008965928320066">"ウィントフック"</item>
+    <item msgid="6436942724959275569">"西アフリカ標準時"</item>
+    <item msgid="954536568417204026">"アンマン、ヨルダン"</item>
+    <item msgid="8932745482008902551">"アテネ、イスタンブール"</item>
+    <item msgid="320025725949024510">"ベイルート、レバノン"</item>
+    <item msgid="7242083112551905970">"カイロ"</item>
+    <item msgid="7241520146011450419">"ヘルシンキ"</item>
+    <item msgid="2717065017510546526">"エルサレム"</item>
+    <item msgid="8698556287741466553">"ミンスク"</item>
+    <item msgid="1797598357342084506">"ハラーレ"</item>
+    <item msgid="5169119919905066998">"バグダッド"</item>
+    <item msgid="2615788116201065182">"モスクワ"</item>
+    <item msgid="9084354867885584646">"クウェート"</item>
+    <item msgid="1351570519986178268">"ナイロビ"</item>
+    <item msgid="7094569580635877460">"テヘラン"</item>
+    <item msgid="3953138772617909704">"バクー"</item>
+    <item msgid="2868893113598800752">"トビリシ"</item>
+    <item msgid="7088581865802476373">"エレバン"</item>
+    <item msgid="1941122257623887992">"ドバイ"</item>
+    <item msgid="9194797225058249720">"カブール"</item>
+    <item msgid="6486569254364577332">"イスラマーバード、カラチ"</item>
+    <item msgid="5487724896895412089">"ウラリスク"</item>
+    <item msgid="364906869710826982">"エカテリンブルグ"</item>
+    <item msgid="2106505051751383358">"コルカタ"</item>
+    <item msgid="6851586621581501447">"スリランカ"</item>
+    <item msgid="800438544128213134">"カトマンズ"</item>
+    <item msgid="6173621471007643021">"アスタナ"</item>
+    <item msgid="8645125891971581128">"ヤンゴン"</item>
+    <item msgid="2886407505119737794">"クラスノヤルスク"</item>
+    <item msgid="3408222398188107090">"バンコク"</item>
+    <item msgid="4441612937172851228">"北京"</item>
+    <item msgid="4936715789028996930">"香港"</item>
+    <item msgid="4261031143777385525">"イルクーツク"</item>
+    <item msgid="3538060959338191835">"クアラルンプール"</item>
+    <item msgid="1438847562643099201">"パース"</item>
+    <item msgid="3063913827688244383">"台北"</item>
+    <item msgid="3502757135046564209">"ソウル"</item>
+    <item msgid="6107588684519111669">"東京、大阪"</item>
+    <item msgid="4350769099755608471">"ヤクーツク"</item>
+    <item msgid="2422707004533526462">"アデレード"</item>
+    <item msgid="1292192084554134339">"ダーウィン"</item>
+    <item msgid="1320883699470001716">"ブリズベーン"</item>
+    <item msgid="5137198806146386527">"ホバート"</item>
+    <item msgid="5920063686933941174">"シドニー、キャンベラ"</item>
+    <item msgid="615906039696009425">"ウラジオストク"</item>
+    <item msgid="7738680449356275374">"グアム"</item>
+    <item msgid="2882915026380778227">"マガダン"</item>
+    <item msgid="8255615641810148152">"オークランド"</item>
+    <item msgid="3027153773466391728">"フィジー"</item>
+    <item msgid="5911600083231840181">"トンガ"</item>
+    <item msgid="5176858645450908751">"ジャカルタ"</item>
+  </string-array>
+    <string-array name="volume_button_setting_entries">
+    <item msgid="7972756698723318690">"スヌーズ"</item>
+    <item msgid="3450979320164769576">"解除"</item>
+    <item msgid="6302517608411378024">"何もしない"</item>
+  </string-array>
+    <string-array name="week_start_entries">
+    <item msgid="9010198173394482639">"土曜日"</item>
+    <item msgid="3993530639455360921">"日曜日"</item>
+    <item msgid="8594709368683324282">"月曜日"</item>
+  </string-array>
+    <plurals formatted="false" msgid="4539186407746763655" name="Nhours_description">
+      <item quantity="other"><ns1:g id="NUMBER">%d</ns1:g>時間</item>
+      <item quantity="one">1時間</item>
+    </plurals>
+    <plurals formatted="false" msgid="6373760365221990859" name="Nminutes_description">
+      <item quantity="other"><ns1:g id="NUMBER">%d</ns1:g>分</item>
+      <item quantity="one">1分</item>
+    </plurals>
+    <plurals formatted="false" msgid="6456500168536594889" name="Nseconds_description">
+      <item quantity="other"><ns1:g id="NUMBER">%d</ns1:g>秒</item>
+      <item quantity="one">1秒</item>
+    </plurals>
+    <plurals formatted="false" msgid="7844300009062867865" name="alarm_alert_snooze_duration">
+      <item quantity="other"><ns1:g id="NUMBER">%d</ns1:g>分</item>
+      <item quantity="one">1分</item>
+    </plurals>
+    <plurals formatted="false" msgid="3212729193036041768" name="alarm_alert_snooze_set">
+      <item quantity="other"><ns1:g id="MINUTES">%d</ns1:g>分後に再通知します。</item>
+      <item quantity="one">1分後に再通知します。</item>
+    </plurals>
+    <plurals formatted="false" msgid="3591262014329613293" name="alarm_delete_confirmation">
+      <item quantity="other">選択したアラームを削除しますか？</item>
+      <item quantity="one">選択したアラームを削除しますか？</item>
+    </plurals>
+    <plurals formatted="false" msgid="6579258788774360396" name="auto_silence_summary">
+      <item quantity="other"><ns1:g id="FORMATTED_NUMBER">%s</ns1:g>分</item>
+      <item quantity="one">1分</item>
+    </plurals>
+    <plurals formatted="false" msgid="3706846447285206235" name="days">
+      <item quantity="other"><ns1:g id="NUMBER">%s</ns1:g>日</item>
+      <item quantity="one">1日</item>
+    </plurals>
+    <plurals formatted="false" msgid="3871283109767171655" name="hours">
+      <item quantity="other"><ns1:g id="NUMBER">%s</ns1:g>時間</item>
+      <item quantity="one">1時間</item>
+    </plurals>
+    <plurals formatted="false" msgid="5484431721696058697" name="minutes">
+      <item quantity="other"><ns1:g id="NUMBER">%s</ns1:g>分</item>
+      <item quantity="one">1分</item>
+    </plurals>
+    <plurals formatted="false" msgid="3112918131095248271" name="snooze_duration">
+      <item quantity="other"><ns1:g id="NUMBER">%s</ns1:g>分</item>
+      <item quantity="one">1分</item>
+    </plurals>
+    <plurals formatted="false" msgid="322739253661747732" name="snooze_picker_label">
+      <item quantity="other">分</item>
+      <item quantity="one">分</item>
+    </plurals>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"ホームへ移動"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s、%2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s、%2$s、%3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"上へ移動"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"その他のオプション"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"完了"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"すべて表示"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"アプリの選択"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"OFF"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"ON"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"検索…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"検索キーワードを削除"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"検索キーワード"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"検索"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"検索キーワードを送信"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"音声検索"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"共有"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"%sと共有"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"折りたたむ"</string>
+    <string msgid="5976616107390962899" name="add_alarm">"アラームの設定"</string>
+    <string msgid="3272183025444682500" name="alarm_alert_dismiss_now_text">"今すぐ解除"</string>
+    <string msgid="4942914605480888820" name="alarm_alert_dismiss_text">"解除"</string>
+    <string msgid="2459925305288819812" name="alarm_alert_off_action_text">"OFF"</string>
+    <string msgid="4472073417593915002" name="alarm_alert_off_text">"アラームOFF"</string>
+    <string msgid="5723945586913705445" name="alarm_alert_predismiss_title">"次のアラーム"</string>
+    <string msgid="1774416052207651584" name="alarm_alert_snooze_text">"スヌーズ"</string>
+    <string msgid="6958013659168344550" name="alarm_alert_snooze_until">"スヌーズ終了時刻: <ns1:g id="TIME">%s</ns1:g>"</string>
+    <string msgid="7064642998528766113" name="alarm_alert_snoozed_text">"スヌーズ"</string>
+    <string msgid="6790780716498252583" name="alarm_alert_wake_up">"起きて！"</string>
+    <string msgid="740283647046258651" name="alarm_button_description">"アラーム"</string>
+    <string msgid="8810520940995307437" name="alarm_cant_be_dismissed_still_more_than_24_hours_away">"<ns1:g id="ALARM_TIME">%s</ns1:g>のアラームは、まだ24時間以上先なので解除することはできません"</string>
+    <string msgid="6131529309389084785" name="alarm_deleted">"アラームを削除しました"</string>
+    <string msgid="5509897230565826642" name="alarm_is_dismissed">"<ns1:g id="ALARM_TIME">%s</ns1:g>のアラームを解除しました"</string>
+    <string msgid="5503226382620011088" name="alarm_is_set">"アラームは<ns1:g id="ALARM_TIME">%s</ns1:g>に設定されています"</string>
+    <string msgid="7044644119744928846" name="alarm_is_snoozed">"<ns1:g id="ALARM_TIME">%s</ns1:g>のアラームを10分間スヌーズしました"</string>
+    <string msgid="2147506334302260256" name="alarm_klaxon_service_desc">"時計で設定したアラーム用のサウンド再生サービスです。"</string>
+    <string msgid="7589940465292950600" name="alarm_list_title">"アラーム"</string>
+    <string msgid="6585658367289194023" name="alarm_missed_text">"<ns1:g id="ALARM_TIME">%s</ns1:g> - <ns1:g id="ALARM_LABEL">%s</ns1:g>"</string>
+    <string msgid="3828345099754063392" name="alarm_missed_title">"聞き逃したアラーム"</string>
+    <string msgid="5404083762646377829" name="alarm_notify_snooze_label">"<ns1:g id="LABEL">%s</ns1:g>（スヌーズ）"</string>
+    <string msgid="4819324081410990368" name="alarm_notify_snooze_text">"アラームは<ns1:g id="TIME">%s</ns1:g>に設定されています。選択すると解除されます。"</string>
+    <string msgid="4891014685945904766" name="alarm_notify_text">"アラームをスヌーズ/解除します。"</string>
+    <string msgid="7242985466344233206" name="alarm_repeat">"繰り返し"</string>
+    <string msgid="2947147071388290814" name="alarm_settings">"アラーム"</string>
+    <string msgid="7873594221106531654" name="alarm_today">"今日"</string>
+    <string msgid="131356848787643420" name="alarm_tomorrow">"明日"</string>
+    <string msgid="5710042601177655254" name="alarm_undo">"元に戻す"</string>
+    <string msgid="3476686921490362230" name="alarm_vibrate">"バイブレーション"</string>
+    <string msgid="8506245173912428522" name="alarm_volume_title">"アラームの音量"</string>
+    <string msgid="1075308195332888260" name="alarms_selected">"<ns1:g id="ALARMS">%d</ns1:g>件選択されています"</string>
+    <string msgid="6506982899651975645" name="alert">"アラーム音"</string>
+    <string msgid="278532320068394600" name="all_timers_stopped_notif">"タップしてタイマーを表示"</string>
+    <string msgid="1670505720837152766" name="analog_gadget">"アナログ時計"</string>
+    <string msgid="6674495003718166674" name="app_label">"時計"</string>
+    <string msgid="4821982647348750809" name="auto_silence_never">"なし"</string>
+    <string msgid="2012754009554434544" name="auto_silence_title">"消音までの時間"</string>
+    <string msgid="6274174710735449252" name="automatic_home_clock">"自宅の時計を自動表示"</string>
+    <string msgid="6020476321040807273" name="automatic_home_clock_summary">"時差のある場所にいるときに自宅の時刻を追加する"</string>
+    <string msgid="3907838219512538763" name="button_alarms">"アラームを追加"</string>
+    <string msgid="4555761857494501363" name="button_cities">"世界時計"</string>
+    <string msgid="6050484561842120282" name="button_menu">"その他のオプション"</string>
+    <string msgid="8552462751129256730" name="cities_activity_title">"世界時計"</string>
+    <string msgid="1335509457349179514" name="city_added">"<ns1:g id="CITY_NAME">%s</ns1:g>を追加しました"</string>
+    <string msgid="1783441538785676299" name="city_delete_confirmation">"この都市を削除しますか？"</string>
+    <string msgid="3935141305276867838" name="city_deleted">"<ns1:g id="CITY_NAME">%s</ns1:g>を削除しました"</string>
+    <string msgid="2656876819515011590" name="clock_instructions">"時計の選択"</string>
+    <string msgid="8317286807280600391" name="clock_settings">"時計"</string>
+    <string msgid="2265011060429742344" name="clock_style">"スタイル"</string>
+    <string msgid="3561772046433483980" name="collapse_alarm">"アラームを折りたたむ"</string>
+    <string msgid="2194676418924016327" name="control_set_alarm">"アラームを設定"</string>
+    <string msgid="3477418548382111184" name="custom_ringtone">"カスタム着信音"</string>
+    <string msgid="971998564991636532" name="day_concat">"、 "</string>
+    <string msgid="3968620852217927702" name="day_picker_description">"日グリッド（月別）"</string>
+    <string msgid="5590025289805630372" name="default_label">"アラーム"</string>
+    <string msgid="4549726190682964245" name="default_ringtone_setting_title">"デフォルトの着信音を設定"</string>
+    <string msgid="5732434972457000541" name="delete">"削除"</string>
+    <string msgid="3457780990646206817" name="delete_alarm">"アラームを削除"</string>
+    <string msgid="6578572637340860840" name="delete_alarm_confirm">"このアラームを削除しますか？"</string>
+    <string msgid="6908431551612331381" name="deleted_key">"<ns1:g id="KEY">%1$s</ns1:g>を削除しました"</string>
+    <string msgid="1220848140260509437" name="deleted_message">"削除しました"</string>
+    <string msgid="1841309486023845685" name="description_direction_both">"左にスワイプでスヌーズを設定、右にスワイプで解除できます"</string>
+    <string msgid="7448141043674998679" name="description_direction_left">"左にスワイプするとスヌーズを設定できます"</string>
+    <string msgid="5709209043267548985" name="description_direction_right">"右にスワイプすると解除できます"</string>
+    <string msgid="4207371097361657274" name="desk_clock_button_description">"時計のディスプレイ"</string>
+    <string msgid="2326954556720571358" name="digital_gadget">"デジタルクロック"</string>
+    <string msgid="5889378670229554109" name="disable_alarm">"アラームをOFFにする"</string>
+    <string msgid="7204593078688533541" name="dismiss_alarm">"アラームを解除"</string>
+    <string msgid="6509722361933858451" name="done">"完了"</string>
+    <string msgid="7007948707597430919" name="done_label">"完了"</string>
+    <string msgid="1834599140632142536" name="enable_alarm">"アラームをONにする"</string>
+    <string msgid="4100909974923444602" name="every_day">"毎日"</string>
+    <string msgid="7392616528943305020" name="expand_alarm">"アラームを展開"</string>
+    <string msgid="1151743663255257668" name="gallery_button_description">"ギャラリー"</string>
+    <string msgid="7786263119482654015" name="help">"ヘルプ"</string>
+    <string msgid="3217727306480505694" name="hide_clock">"時計を隠す"</string>
+    <string msgid="3383859096809056157" name="home_button_description">"ランチャー"</string>
+    <string msgid="4436139365695453870" name="home_label">"自宅"</string>
+    <string msgid="9199730676287974501" name="home_time_zone">"自宅タイムゾーン"</string>
+    <string msgid="807894493443834624" name="home_time_zone_title">"自宅タイムゾーン"</string>
+    <string msgid="7586639618712934060" name="hour_picker_description">"円形スライダー（時）"</string>
+    <string msgid="3393478155635368097" name="hours_label">"h"</string>
+    <string msgid="8652842524970971830" name="hours_label_description">"時間"</string>
+    <string msgid="2782334750243998633" name="invalid_time">"無効な時間<ns1:g id="INVALID_HOUR">%d</ns1:g>:<ns1:g id="INVALID_MINUTES">%d</ns1:g><ns1:g id="INVALID_AMPM">%s</ns1:g>が指定されました"</string>
+    <string msgid="3104567893212932487" name="invalid_timer_length">"タイマーの長さが無効です"</string>
+    <string msgid="2674929164900463786" name="item_is_selected">"<ns1:g id="ITEM">%1$s</ns1:g>を選択しました"</string>
+    <string msgid="162189613902857319" name="label">"ラベル"</string>
+    <string msgid="8736179296142915727" name="label_description">"ラベル"</string>
+    <string msgid="6523322777415268044" name="loading_ringtone">"着信音を読み込み中..."</string>
+    <string msgid="4772010125376647519" name="menu_alarm">"アラーム"</string>
+    <string msgid="5612760670606829805" name="menu_clock">"時計"</string>
+    <string msgid="3241995064554071588" name="menu_desk_clock">"卓上時計"</string>
+    <string msgid="7204602994918829751" name="menu_edit_alarm">"アラームを編集"</string>
+    <string msgid="4570953476186849841" name="menu_item_help">"ヘルプ"</string>
+    <string msgid="3486930302245398975" name="menu_item_night_mode">"夜間モード"</string>
+    <string msgid="1413723516369078665" name="menu_item_settings">"設定"</string>
+    <string msgid="3120860422682721706" name="menu_item_sort_by_gmt_offset">"時間順"</string>
+    <string msgid="1762931290495104106" name="menu_item_sort_by_name">"名前順"</string>
+    <string msgid="3396117705293574701" name="menu_stopwatch">"ストップウォッチ"</string>
+    <string msgid="6459070074762877114" name="menu_timer">"タイマー"</string>
+    <string msgid="6024811202872705251" name="minute_picker_description">"円形スライダー（分）"</string>
+    <string msgid="3568098128251438588" name="minutes_label">"m"</string>
+    <string msgid="965686733490357796" name="minutes_label_description">"分"</string>
+    <string msgid="5295473204045979335" name="missed_alarm_has_been_deleted">"聞き逃したアラームを削除しました"</string>
+    <string msgid="6722110840279707462" name="multiple_timers_available">"リクエストを完了できません。複数のタイマーがあります"</string>
+    <string msgid="1626593420810117999" name="music_button_description">"音楽"</string>
+    <string msgid="2650244835760747046" name="next_alarm_description">"次のアラーム: <ns1:g id="ALARM_TIME">%s</ns1:g>"</string>
+    <string msgid="6136454740115613653" name="next_timer_notif">"次のタイマー: <ns1:g id="TIME_REMAINING">%s</ns1:g>"</string>
+    <string msgid="1017350187324162631" name="night_mode_summary">"薄暗い表示（暗い部屋用）"</string>
+    <string msgid="5983813889469616299" name="night_mode_title">"夜間モード"</string>
+    <string msgid="990894208217576381" name="nightmode_button_description">"暗くする"</string>
+    <string msgid="8140632482969193119" name="no_alarm_at">"<ns1:g id="ALARM_TIME_HOUR">%d</ns1:g>:<ns1:g id="ALARM_TIME_MINUTES">%d</ns1:g>に設定されたアラームはありません"</string>
+    <string msgid="4463069177414482818" name="no_alarm_scheduled_for_this_time">"この時間に設定されたアラームはありません"</string>
+    <string msgid="6429431324842022917" name="no_alarms">"アラームはありません"</string>
+    <string msgid="4887558279496044764" name="no_alarms_set">"アラーム未設定"</string>
+    <string msgid="6250998794542941665" name="no_alarms_with_label">"ラベルを含むアラームはありません"</string>
+    <string msgid="1007596865203283741" name="no_city_selected">"都市が選択されていません"</string>
+    <string msgid="4986161963178722289" name="no_firing_alarms">"作動中のアラームはありません"</string>
+    <string msgid="2008482054428460626" name="no_label_specified">"ラベルは指定されていません"</string>
+    <string msgid="2115420148192753534" name="no_scheduled_alarms">"設定されたアラームはありません"</string>
+    <string msgid="3326365650863016606" name="no_timer_set">"設定されたタイマーはありません"</string>
+    <string msgid="2889840988069436254" name="no_upcoming_alarms">"次のアラームはありません"</string>
+    <string msgid="5408769235866082896" name="pick_alarm_to_dismiss">"解除するアラームを選択してください"</string>
+    <string msgid="9100911171235162926" name="revert">"キャンセル"</string>
+    <string msgid="9110746249688559579" name="ringtone">"着信音"</string>
+    <string msgid="7580922112921069925" name="ringtone_description">"着信音"</string>
+    <string msgid="7013450738357352801" name="screensaver_settings">"スクリーンセーバーの設定"</string>
+    <string msgid="124655952824003246" name="seconds_label">"s"</string>
+    <string msgid="3821620053141299692" name="seconds_label_description">"秒"</string>
+    <string msgid="3973338219107019769" name="select_day">"月と日を選択"</string>
+    <string msgid="7651068754188418859" name="select_hours">"時間を選択"</string>
+    <string msgid="8327182090226828481" name="select_minutes">"分を選択"</string>
+    <string msgid="2603330600102539372" name="select_year">"年を選択"</string>
+    <string msgid="3607479399424246605" name="selected_cities_label">"選択した都市"</string>
+    <string msgid="9148359866152726808" name="set_alarm">"アラームを設定"</string>
+    <string msgid="5849739030579520686" name="settings">"設定"</string>
+    <string msgid="8358759982675616915" name="show_clock">"時計を表示"</string>
+    <string msgid="8605302849408279221" name="silent_alarm_summary">"マナーモード"</string>
+    <string msgid="2077577763821006919" name="slash">"/"</string>
+    <string msgid="1097309861110780483" name="snooze_duration_title">"スヌーズの長さ"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="6598258908106423672" name="stopwatch_already_running">"ストップウォッチは既に作動しています"</string>
+    <string msgid="5713134605500796186" name="stopwatch_cant_be_reset_because_is_running">"ストップウォッチは作動中のためリセットできません"</string>
+    <string msgid="7147219965448204727" name="stopwatch_isnt_running">"ストップウォッチは作動していません"</string>
+    <string msgid="5844686448815550482" name="stopwatch_lapped">"ストップウォッチのラップを記録しました"</string>
+    <string msgid="7585914953721021042" name="stopwatch_reset">"ストップウォッチをリセットしました"</string>
+    <string msgid="8416624630388063996" name="stopwatch_service_desc">"通知を行うためのストップウォッチサービスです。"</string>
+    <string msgid="7843882246387176304" name="stopwatch_started">"ストップウォッチを開始しました"</string>
+    <string msgid="6927081018816192999" name="stopwatch_stopped">"ストップウォッチを停止しました"</string>
+    <string msgid="6992264696039004233" name="sw_lap_button">"ラップ"</string>
+    <string msgid="3535420316052647126" name="sw_notification_lap_number">"ラップ<ns1:g id="NUMBER">%d</ns1:g>"</string>
+    <string msgid="6616804728322906117" name="sw_reset_button">"リセット"</string>
+    <string msgid="2569360966002022248" name="sw_resume_button">"再開"</string>
+    <string msgid="4478648110382859382" name="sw_share_button">"共有"</string>
+    <string msgid="614390674795945007" name="sw_share_laps">"ラップ時間:"</string>
+    <string msgid="7703563468204234405" name="sw_share_main">"私の時間は<ns1:g id="TIME">%s</ns1:g>です"</string>
+    <string msgid="8373422516681242270" name="sw_start_button">"開始"</string>
+    <string msgid="8322958613123274451" name="sw_stop_button">"停止"</string>
+    <string msgid="783124901663086172" name="swn_stopped">"停止"</string>
+    <string msgid="3799050213771793020" name="the_city_already_added">"この都市は既に追加されています"</string>
+    <string msgid="1753597460426454543" name="the_city_you_specified_is_not_available">"指定された都市は使用できません"</string>
+    <string msgid="8067216534232296518" name="time">"時刻"</string>
+    <string msgid="1619464909892545536" name="time_format_12_mode">"h:mma"</string>
+    <string msgid="7998512313148074539" name="time_format_24_mode">"k:mm"</string>
+    <string msgid="6001006474735281911" name="time_picker_00_label">":00"</string>
+    <string msgid="1027250857384838129" name="time_picker_30_label">":30"</string>
+    <string msgid="6754113715199751083" name="time_picker_ampm_label">"--"</string>
+    <string msgid="7437106489606013077" name="time_picker_cancel">"キャンセル"</string>
+    <string msgid="331153175471468051" name="time_picker_set">"OK"</string>
+    <string msgid="7484926510054777041" name="time_picker_time_seperator">":"</string>
+    <string msgid="862733633862574752" name="timer_add_timer">"タイマーを追加"</string>
+    <string msgid="1259351124772803097" name="timer_already_running">"タイマーは既に作動しています"</string>
+    <string msgid="8865820275829449054" name="timer_already_stopped">"タイマーは既に停止しています"</string>
+    <string msgid="3572868404230815644" name="timer_cancel">"キャンセル"</string>
+    <string msgid="7880015473706806640" name="timer_cant_be_reset_because_its_running">"作動中のため、タイマーをリセットすることはできません。タイマーをリセットするには停止してください。"</string>
+    <string msgid="4381027137335885547" name="timer_created">"タイマーを作成しました"</string>
+    <string msgid="8699122001991909302" name="timer_delete">"削除"</string>
+    <string msgid="2815524107015816453" name="timer_delete_confirmation">"このタイマーを削除しますか？"</string>
+    <string msgid="9110322362460029392" name="timer_deleted">"タイマーを削除しました"</string>
+    <string msgid="8794915342760383536" name="timer_descriptive_delete">"<ns1:g id="NUMBER_STRING">%s</ns1:g>を削除"</string>
+    <string msgid="2375990511982914051" name="timer_done">"完了"</string>
+    <string msgid="4933184831583137249" name="timer_notification_label">"タイマー"</string>
+    <string msgid="8645224089494875062" name="timer_plus_1_min">"1分追加"</string>
+    <string msgid="6631211310420106116" name="timer_plus_one">"1分延長"</string>
+    <string msgid="7848424809190171640" name="timer_reset">"リセット"</string>
+    <string msgid="2620214305660322415" name="timer_ring_service_desc">"時計で設定したタイマー用のサウンド再生サービスです。"</string>
+    <string msgid="6158486445614356442" name="timer_start">"開始"</string>
+    <string msgid="6715582052946641641" name="timer_started">"タイマーを開始しました"</string>
+    <string msgid="3361154678667736722" name="timer_stop">"停止"</string>
+    <string msgid="2730331837832462008" name="timer_stopped">"タイマーが停止しました"</string>
+    <string msgid="9190440395938519009" name="timer_times_up">"タイムアップ"</string>
+    <string msgid="6495796785185062631" name="timer_was_reset">"タイマーをリセットしました"</string>
+    <string msgid="5570729467344408506" name="timers_in_use">"<ns1:g id="NUMBER">%d</ns1:g>件のタイマー"</string>
+    <string msgid="9140022846793903813" name="timers_max_count_reached">"タイマーは最大4個まで"</string>
+    <string msgid="2393640808691864520" name="timers_stopped">"<ns1:g id="NUMBER">%d</ns1:g>件のタイマーが停止しました"</string>
+    <string msgid="8768042543750036853" name="volume_button_dialog_title">"ボタンの設定"</string>
+    <string msgid="6937131248843413357" name="volume_button_setting_title">"音量ボタン"</string>
+    <string msgid="3425804832021006835" name="weather_fetch_failure">"現在、天気情報をご利用いただけません。"</string>
+    <string msgid="4268917518596832096" name="week_start_title">"週の始まり"</string>
+    <string msgid="8648842975829470646" name="weekday_time_format_12_mode">"EEE、h:mma"</string>
+    <string msgid="152964494051478631" name="weekday_time_format_24_mode">"EEE、k:mm"</string>
+    <string msgid="5911196322328341288" name="world_day_of_week_label">"/ <ns1:g id="LABEL">%s</ns1:g>"</string>
+    <string msgid="6963340404644587098" name="year_picker_description">"年リスト"</string>
+    <string msgid="7102083421938355017" name="zero">"0"</string>
+</resources>

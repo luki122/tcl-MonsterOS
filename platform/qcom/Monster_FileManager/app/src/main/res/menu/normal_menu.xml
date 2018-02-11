@@ -1,0 +1,27 @@
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/add_encrypt_item"
+        android:showAsAction="never"
+        android:title="@string/add_encrypt_files" />
+    <item
+        android:id="@+id/select_item"
+        android:checked="true"
+        android:showAsAction="never"
+        android:title="@string/edit"
+        android:icon="@com.mst:drawable/ic_edit"/>
+
+    <item
+        android:id="@+id/createfolder_item"
+        android:checked="true"
+        android:showAsAction="never"
+        android:title="@string/add_folder" />
+
+    <item
+        android:id="@+id/delete_album_item"
+        android:checked="true"
+        android:showAsAction="never"
+        android:title="@string/delete_album" />
+</menu>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Ir á páxina de inicio"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Desprazarse cara arriba"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Máis opcións"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Feito"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Ver todas"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Escoller unha aplicación"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"DESACTIVAR"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"ACTIVAR"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Buscar…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Borrar consulta"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Consulta de busca"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Buscar"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Enviar consulta"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Busca de voz"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Compartir con"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Compartir con %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Contraer"</string>
+    <string name="cannot_specify_an_empty_name_for_playlist">"O nome da lista de reprodución non pode estar baleiro."</string>
+    <string name="cross_dj_saturated_storage_not_enough_free_space_to_record_your_mix">"Non hai espazo dabondo para gravar a mestura."</string>
+    <string name="cross_dj_saturated_storage_your_recording_might_stop_soon_because_no_more_free_space_is_available">"Seica a gravación finalizará en breve porque non hai espazo dispoñible."</string>
+    <string name="invalid_drm_file">"Berkas tidak memiliki otoritas DRM yang valid!"</string>
+    <string name="mobiledata_turnoff_btn">"Desactivar"</string>
+    <string name="never_show_it_again">"Non volver amosar"</string>
+    <string name="no_error">"Non hai erros"</string>
+    <string name="recording_reached_max_duration">"A gravación acadou a duración máxima. Comprobe as súas preferencias."</string>
+    <string name="recording_soon_to_reach_max_duration">"A gravación está a piques de atinxir a duración máxima. Comprobe as súas preferencias."</string>
+    <string name="scratching_is_disabled_in_no_mix_mode">"Só pode facer scratch no modo DJ."</string>
+    <string name="sign_up">"Iniciar sesión"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">">999"</string>
+    <string name="the_external_memory_storage_is_not_mounted">"A almacenaxe externa non está montada. Cómpre desactivar a almacenaxe USB."</string>
+    <string name="there_s_not_enough_space_in_your_internal_storage_try_to_do_some_clean_up">"Non hai espazo dabondo na almacenaxe interna (tente liberar espazo)"</string>
+</resources>

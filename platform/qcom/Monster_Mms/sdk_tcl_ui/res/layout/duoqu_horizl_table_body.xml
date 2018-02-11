@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.com.xy.sms.sdk.ui.popu.widget.DuoquHorizItemTableSec xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:duoqu="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/duoqu_horizl_list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/duoqu_horz_padding_bottom"
+    android:paddingLeft="@dimen/duoqu_normal_padding_left"
+    android:paddingRight="@dimen/duoqu_normal_padding_right"
+    android:paddingTop="@dimen/duoqu_horz_padding_top"
+    duoqu:content_paddingleft="@dimen/duoqu_horz_content_padding_left"
+    duoqu:content_paddingtop="@dimen/duoqu_horz_content_padding_top"
+    duoqu:content_textsize="@dimen/duoqu_horz_content_textsize"
+    duoqu:content_textcolor="@color/duoqu_theme_color_3010"
+    duoqu:line_spacing="@dimen/duoqu_horz_line_spacing"
+    duoqu:round_point_height="@dimen/duoqu_horz_img_height"
+    duoqu:round_point_margin_right="@dimen/duoqu_horz_img_mar_right"
+    duoqu:round_point_width="@dimen/duoqu_horz_img_width"
+    duoqu:text_paddingleft="@dimen/duoqu_horz_text_padding_left"
+    duoqu:title_textsize="@dimen/duoqu_horz_textsize"
+    duoqu:title_textcolor="@color/duoqu_theme_color_5010"
+    duoqu:title_paddingtop = "@dimen/duoqu_horz_title_padding_top"
+    duoqu:first_title_paddingtop = "@dimen/duoqu_horz_first_title_padding_top" >
+
+</cn.com.xy.sms.sdk.ui.popu.widget.DuoquHorizItemTableSec>

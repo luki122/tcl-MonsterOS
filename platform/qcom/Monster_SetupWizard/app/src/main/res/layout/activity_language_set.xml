@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary_bg"
+    tools:context="cn.tcl.setupwizard.LanguageSetActivity">
+
+    <FrameLayout
+        android:id="@+id/language_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_bg_language"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp"
+                android:layout_marginStart="26dp"
+                android:fontFamily="SourceHanSansCN-Light"
+                android:textColor="#DB000000"
+                android:textSize="17sp"
+                android:text="@string/language_title" />
+        </LinearLayout>
+    </FrameLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/language_title">
+        <ListView
+            android:id="@+id/language_list"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="41dp"
+            android:layout_marginEnd="20dp"
+            android:divider="#00000000"
+            android:dividerHeight="28dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/sim_btn_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="56dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/language_btn_continue"
+            style="@style/button_style"
+            android:text="@string/continue_title"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/language_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#59000000"
+        android:textSize="15sp"
+        android:text="@string/loading_net_waiting"
+        android:layout_centerInParent="true"
+        android:visibility="gone"/>
+</RelativeLayout>

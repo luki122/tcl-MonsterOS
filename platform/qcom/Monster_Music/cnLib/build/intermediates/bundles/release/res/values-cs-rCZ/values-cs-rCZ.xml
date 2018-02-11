@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cannot_specify_an_empty_name_for_playlist">"Název seznamu skladeb nemůže být prázdný"</string>
+    <string name="cross_dj_saturated_storage_not_enough_free_space_to_record_your_mix">"K záznamu mixu není dostatek místa."</string>
+    <string name="cross_dj_saturated_storage_your_recording_might_stop_soon_because_no_more_free_space_is_available">"Záznam se může brzy zastavit, protože dochází místo v úložišti."</string>
+    <string name="invalid_drm_file">"Soubor nemá platného vydavatele licence DRM."</string>
+    <string name="mobiledata_turnoff_btn">"Zakázat"</string>
+    <string name="never_show_it_again">"Znovu nezobrazovat"</string>
+    <string name="no_error">"Žádná chyba"</string>
+    <string name="recording_reached_max_duration">"Byla dosažena maximální délka záznamu. Zkontrolujte předvolby."</string>
+    <string name="recording_soon_to_reach_max_duration">"Brzy bude dosažena maximální délka záznamu. Zkontrolujte předvolby."</string>
+    <string name="scratching_is_disabled_in_no_mix_mode">"Skrečování je možné pouze v režimu DJ."</string>
+    <string name="sign_up">"Zaregistrovat se"</string>
+    <string name="the_external_memory_storage_is_not_mounted">"Externí paměťové úložiště není připojeno. Může být třeba zakázat paměťové úložiště USB."</string>
+    <string name="there_s_not_enough_space_in_your_internal_storage_try_to_do_some_clean_up">"V interním úložišti není dostatek místa (zkuste uvolnit místo)"</string>
+</resources>

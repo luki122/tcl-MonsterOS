@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:oneshot="false">
+    <item android:drawable="@drawable/shutter_animation1" android:duration="34" />
+    <item android:drawable="@drawable/shutter_animation2" android:duration="34" />
+    <item android:drawable="@drawable/shutter_animation3" android:duration="34" />
+    <item android:drawable="@drawable/shutter_animation4" android:duration="34" />
+    <item android:drawable="@drawable/shutter_animation5" android:duration="34" />
+    <item android:drawable="@drawable/shutter_animation6" android:duration="34" />
+    <item android:drawable="@drawable/shutter_animation7" android:duration="34" />
+    <item android:drawable="@drawable/shutter_animation8" android:duration="34" />
+    <item android:drawable="@drawable/shutter_animation9" android:duration="34" />
+    <item android:drawable="@drawable/shutter_animation10" android:duration="34" />
+    <item android:drawable="@drawable/shutter_animation12" android:duration="34" />
+    <item android:drawable="@drawable/shutter_animation13" android:duration="34" />
+    <item android:drawable="@drawable/shutter_animation14" android:duration="34" />
+    <item android:drawable="@drawable/shutter_animation15" android:duration="34" />
+    <item android:drawable="@drawable/shutter_animation16" android:duration="34" />
+    <item android:drawable="@drawable/shutter_animation17" android:duration="34" />
+    <item android:drawable="@drawable/shutter_animation18" android:duration="34" />
+    <item android:drawable="@drawable/shutter_animation19" android:duration="34" />
+    <item android:drawable="@drawable/shutter_animation21" android:duration="34" />
+    <item android:drawable="@drawable/shutter_animation22" android:duration="34" />
+    <item android:drawable="@drawable/shutter_animation23" android:duration="34" />
+    <item android:drawable="@drawable/shutter_animation24" android:duration="34" />
+    <item android:drawable="@drawable/shutter_animation25" android:duration="34" />
+    <item android:drawable="@drawable/shutter_animation27" android:duration="34" />
+    <item android:drawable="@drawable/shutter_animation28" android:duration="34" />
+    <item android:drawable="@drawable/shutter_animation30" android:duration="34" />
+
+</animation-list>

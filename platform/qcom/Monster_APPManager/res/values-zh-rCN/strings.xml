@@ -1,0 +1,1110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="header_category_wireless_networks" msgid="5110914332313954940">"无线和网络"</string>
+    <string name="header_category_device" msgid="4544026001618307754">"设备"</string>
+    <string name="header_category_system" msgid="2816866961183068977">"系统"</string>
+    <string name="cancel" msgid="6859253417269739139">"取消"</string>
+    <string name="bluetooth_dock_settings_remember" msgid="5551459057010609115">"记住设置"</string>
+	<string name="home_settings" msgid="212375129455718176">"主屏幕"</string>
+    <string name="display_settings" msgid="7965901687241669598">"显示"</string>
+    <string name="screensaver_settings_button" msgid="7292214707625717013">"设置"</string>
+    <string name="storage_settings" msgid="4211799979832404953">"存储空间"</string>
+    <string name="storage_usb_settings" msgid="642612065405691122">"存储设备和 USB"</string>
+    <string name="storage_settings_title" msgid="8746016738388094064">"存储设置"</string>
+    <string name="storage_settings_summary" product="nosdcard" msgid="3543813623294870759">"卸载USB存储设备，查看可用存储设备"</string>
+    <string name="storage_settings_summary" product="default" msgid="9176693537325988610">"卸载SD卡，查看可用存储设备"</string>
+    <string name="storage_menu_rename" msgid="7141058657592615390">"重命名"</string>
+    <string name="storage_menu_mount" msgid="1014683672493425425">"装载"</string>
+    <string name="storage_menu_unmount" msgid="681485356885955898">"弹出"</string>
+    <string name="storage_menu_format" msgid="7690626079653152152">"格式化"</string>
+    <string name="storage_menu_format_private" msgid="546017531835902096">"格式化为内部存储设备"</string>
+    <string name="storage_menu_migrate" msgid="3969621494238154294">"迁移数据"</string>
+    <string name="storage_menu_forget" msgid="6305824238997983426">"取消保存"</string>
+    <string name="storage_internal_title" msgid="690771193137801021">"内部存储设备"</string>
+    <string name="storage_external_title" msgid="3433462910096848696">"便携式存储设备"</string>
+    <string name="storage_wizard_init_external_title" msgid="4867326438945303598">"用作便携式存储设备"</string>
+    <string name="storage_wizard_init_external_summary" msgid="7476105886344565074">"用于在设备之间移动照片和其他媒体文件。"</string>
+    <string name="storage_wizard_init_internal_title" msgid="9100613534261408519">"用作内部存储设备"</string>
+    <string name="storage_wizard_init_internal_summary" msgid="6240417501036216410">"仅用于存储这台设备上的内容，包括应用和照片。为了防止此存储设备在其他设备上使用，您需要先对其进行格式化。"</string>
+    <string name="storage_wizard_migrate_now" msgid="4523444323744239143">"立即移动"</string>
+    <string name="storage_wizard_migrate_later" msgid="3173482328116026253">"稍后移动"</string>
+    <string name="reset_network_desc" msgid="581668983587311282">"此操作会重置所有网络设置，包括：\n\n"<li>"WLAN"</li>\n<li>"移动数据网络"</li>\n<li>"蓝牙"</li></string>
+    <string name="reset_network_button_text" msgid="2035676527471089853">"重置设置"</string>
+    <string name="reset_network_final_desc" msgid="6388371121099245116">"要重置所有网络设置吗？此操作无法撤消！"</string>
+    <string name="reset_network_final_button_text" msgid="1797434793741744635">"重置设置"</string>
+    <string name="sms_application_title" msgid="4903928270533250448">"短信"</string>
+    <string name="settings_safetylegal_activity_loading" msgid="8059022597639516348">"正在加载..."</string>
+	<string name="manageapplications_settings_title" msgid="7041951105633616745">"管理应用"</string>
+    <string name="manageapplications_settings_summary" msgid="1794401500935451259">"管理和删除已安装的应用"</string>
+    <string name="applications_settings" msgid="1721442176406964682">"应用"</string>
+    <string name="advanced_settings" msgid="1777249286757067969">"高级设置"</string>
+    <string name="advanced_settings_summary" msgid="4016682978071086747">"启用更多设置选项"</string>
+    <string name="application_info_label" msgid="5736524913065714880">"应用信息"</string>
+    <string name="storage_label" msgid="8700867073480107253">"存储空间"</string>
+    <string name="permissions_label" msgid="2605296874922726203">"权限"</string>
+    <string name="cache_size_label" msgid="7505481393108282913">"用户缓存："</string>
+    <string name="total_size_label" msgid="1048676419552557254">"总占用空间："</string>
+    <string name="application_size_label" msgid="8494609207373874267">"应用大小："</string>
+    <string name="external_code_size_label" msgid="3459343140355961335">"USB存储（应用）"</string>
+    <string name="data_size_label" msgid="8679376373625710107">"用户数据："</string>
+    <string name="external_data_size_label" product="nosdcard" msgid="7533821466482000453">"USB存储（数据）"</string>
+    <string name="clear_activities" msgid="7408923511535174430">"清除默认操作"</string>
+    <string name="sort_order_alpha" msgid="1410278099123670628">"按名称排序"</string>
+    <string name="sort_order_size" msgid="7024513286636502362">"按大小排序"</string>
+    <string name="default_emergency_app" msgid="1951760659640369980">"紧急警报应用"</string>
+    <string name="reset_app_preferences" msgid="1321050641018356925">"重置应用偏好设置"</string>
+    <string name="reset_app_preferences_title" msgid="6093179367325336662">"要重置应用偏好设置吗？"</string>
+    <string name="reset_app_preferences_desc" msgid="4822447731869201512">"这将重置以下所有偏好设置：\n\n "<li>"已停用的应用"</li>\n" "<li>"已停用的应用通知"</li>\n" "<li>"用于执行操作的默认应用"</li>\n" "<li>"应用的后台流量限制"</li>\n" "<li>"所有权限限制"</li>\n\n" 您将不会丢失任何应用数据。"</string>
+    <string name="reset_app_preferences_button" msgid="2559089511841281242">"重置应用"</string>
+    <string name="manage_space_text" msgid="8852711522447794676">"清除"</string>
+    <string name="no_applications" msgid="7336588977497084921">"无应用"</string>
+    <string name="security_settings_desc" product="tablet" msgid="1292421279262430109">"此应用拥有以下权限："</string>
+    <string name="security_settings_billing_desc" msgid="8061019011821282358">"使用此应用可能会产生费用："</string>
+    <string name="security_settings_premium_sms_desc" msgid="8734171334263713717">"发送付费短信"</string>
+    <string name="app_install_location_title" msgid="2068975150026852168">"首选安装位置"</string>
+    <string name="app_install_location_summary" msgid="5155453752692959098">"更改安装新应用时使用的首选安装位置"</string>
+    <string name="no_default_apps" msgid="2915315663141025400">"没有任何默认应用。"</string>
+    <string name="storageuse_settings_title" msgid="5657014373502630403">"存储空间使用情况"</string>
+    <string name="storageuse_settings_summary" msgid="3748286507165697834">"查看应用使用的存储空间"</string>
+    <string name="runningservices_settings_title" msgid="8097287939865165213">"正在运行的服务"</string>
+    <string name="runningservices_settings_summary" msgid="854608995821032748">"查看和控制当前正在运行的服务"</string>
+    <string name="no_running_services" msgid="2059536495597645347">"当前未运行任何服务。"</string>
+    <string name="running_processes_header_title" msgid="6588371727640789560">"设备内存"</string>
+    <string name="running_processes_header_footer" msgid="723908176275428442">"应用内存使用情况"</string>
+    <string name="running_processes_header_system_prefix" msgid="6104153299581682047">"系统"</string>
+    <string name="running_processes_header_apps_prefix" msgid="5787594452716832727">"应用"</string>
+    <string name="running_processes_header_free_prefix" msgid="4620613031737078415">"可用"</string>
+    <string name="display_order_text" msgid="8592776965827565271">"排序方式："</string>
+    <string name="app_name_label" msgid="5440362857006046193">"应用"</string>
+    <string name="last_time_used_label" msgid="8459441968795479307">"上次使用时间"</string>
+    <string name="usage_time_label" msgid="295954901452833058">"使用时间"</string>
+    <string name="power_usage_summary_title" msgid="7190304207330319919">"电池"</string>
+    <string name="power_usage_list_summary" msgid="2409288197839512482">"上次充满后的电量使用情况"</string>
+    <string name="details_subtitle" msgid="32593908269911734">"详细使用情况"</string>
+    <string name="controls_subtitle" msgid="390468421138288702">"省电提示"</string>
+    <string name="packages_subtitle" msgid="4736416171658062768">"包含的软件包"</string>
+    <string name="battery_saver" msgid="1426682272004907982">"节电助手"</string>
+    <string name="battery_saver_turn_on_automatically_title" msgid="9023847300114669426">"自动开启"</string>
+    <string name="app_memory_use" msgid="7849258480392171939">"内存用量"</string>
+    <string name="mem_state_subtitle" msgid="2407238869781011933">"内存状态"</string>
+    <string name="mem_use_subtitle" msgid="7319468770222422412">"内存使用量"</string>
+    <string name="menu_show_system" msgid="8864603400415567635">"显示系统进程"</string>
+    <string name="menu_hide_system" msgid="4106826741703745733">"隐藏系统进程"</string>
+    <string name="emergency_tone_title" msgid="1055954530111587114">"紧急提示音"</string>
+    <string name="data_usage_summary_title" msgid="3804110657238092929">"联网管理"</string>
+    <string name="data_usage_menu_restrict_background" msgid="1989394568592253331">"限制后台流量"</string>
+    <string name="data_usage_menu_show_wifi" msgid="2296217964873872571">"显示WLAN流量"</string>
+    <string name="data_usage_menu_show_ethernet" msgid="5181361208532314097">"显示有线网络流量"</string>
+    <string name="data_usage_menu_metered" msgid="6235119991372755026">"网络限制"</string>
+    <string name="data_usage_menu_sim_cards" msgid="6410498422797244073">"SIM 卡"</string>
+    <string name="data_usage_menu_cellular_networks" msgid="5243515735055652279">"移动网络"</string>
+    <string name="data_usage_empty" msgid="8621855507876539282">"没有任何应用在此期间产生过数据流量。"</string>
+    <string name="data_usage_label_foreground" msgid="4938034231928628164">"前台"</string>
+    <string name="data_usage_label_background" msgid="3225844085975764519">"后台"</string>
+    <string name="data_usage_app_settings" msgid="2279171379771253165">"应用设置"</string>
+    <string name="data_usage_cycle_editor_subtitle" msgid="5512903797979928416">"日期："</string>
+    <string name="data_usage_sweep_warning" msgid="6387081852568846982"><font size="21">"<xliff:g id="NUMBER">^1</xliff:g>"</font>" "<font size="9">"<xliff:g id="UNIT">^2</xliff:g>"</font>\n<font size="12">"警告"</font></string>
+    <string name="data_usage_sweep_limit" msgid="860566507375933039"><font size="21">"<xliff:g id="NUMBER">^1</xliff:g>"</font>" "<font size="9">"<xliff:g id="UNIT">^2</xliff:g>"</font>\n<font size="12">"上限"</font></string>
+    <string name="data_usage_metered_body" msgid="3262343834446126044">"当后台流量受到限制时，按流量计费的网络会被视为移动网络。在使用此类网络下载大型文件前，应用会发出警告。"</string>
+    <string name="data_usage_metered_mobile" msgid="2326986339431119372">"移动网络"</string>
+    <string name="data_usage_metered_wifi" msgid="1761738002328299714">"按流量计费的WLAN网络"</string>
+    <string name="data_usage_metered_wifi_disabled" msgid="727808462375941567">"要选择按流量计费的网络，请开启WLAN网络。"</string>
+    <string name="data_usage_disclaimer" msgid="6887858149980673444">"运营商的流量计算方式可能与您设备的计算方式不同。"</string>
+    <string name="home_app_uninstall_button" msgid="6808453012607962899">"卸载此应用"</string>
+    <string name="help_label" msgid="6886837949306318591">"帮助和反馈"</string>
+    <string name="wizard_next" msgid="3606212602795100640">"下一步"</string>
+    <string name="sim_settings_title" msgid="6822745211458959756">"SIM 卡"</string>
+    <string name="keywords_more_default_sms_app" msgid="895656981962034647">"短信 信息 发短信 消息 发送消息"</string>
+    <string name="keywords_storage" msgid="6572905220031852173">"空间 磁盘 硬盘 设备 使用量 使用情况"</string>
+    <string name="keywords_battery" msgid="2096185085932675704">"耗电量 充电"</string>
+    <string name="keywords_sounds_and_notifications" msgid="5965996187974887000">"扬声器 提示音"</string>
+    <string name="keywords_sounds_and_notifications_interruptions" msgid="543023766902917716">"勿扰 请勿打扰 打扰 打断"</string>
+    <string name="keywords_emergency_app" msgid="6542122071127391103">"紧急 在紧急情况下使用 应用 默认"</string>
+    <string name="keywords_default_phone_app" msgid="90136554927956860">"电话 拨号器 默认"</string>
+    <string name="keywords_app_permissions" msgid="8677901415217188314">"应用 权限 安全"</string>
+    <string name="keywords_default_apps" msgid="3581727483175522599">"应用 默认"</string>
+    <string name="keywords_ignore_optimizations" msgid="946516741848647905">"忽略对低电耗模式应用的待机优化"</string>
+    <string name="notification_settings" msgid="8791730980212496561">"提示音和通知"</string>
+    <string name="media_volume_option_title" msgid="2811531786073003825">"媒体音量"</string>
+    <string name="alarm_volume_option_title" msgid="8219324421222242421">"闹钟音量"</string>
+    <string name="ring_volume_option_title" msgid="6767101703671248309">"铃声音量"</string>
+    <string name="notification_volume_option_title" msgid="6064656124416882130">"通知音量"</string>
+    <string name="zen_mode_priority_settings_title" msgid="2623117023031824309">"仅允许优先打扰内容"</string>
+    <string name="zen_mode_automation_settings_title" msgid="4228995740594063774">"自动规则"</string>
+    <string name="vibrate_when_ringing_title" msgid="3806079144545849032">"有来电时响铃并振动"</string>
+    <string name="notification_section_header" msgid="95661783916799134">"通知"</string>
+    <string name="advanced_section_header" msgid="8833934850242546903">"高级"</string>
+    <string name="notification_pulse_title" msgid="1247988024534030629">"收到通知时指示灯闪烁"</string>
+    <string name="lock_screen_notifications_title" msgid="9118805570775519455">"设备锁定时"</string>
+    <string name="lock_screen_notifications_summary_show" msgid="6407527697810672847">"显示所有通知内容"</string>
+    <string name="lock_screen_notifications_summary_hide" msgid="7891552853357258782">"隐藏敏感通知内容"</string>
+    <string name="lock_screen_notifications_summary_disable" msgid="859628910427886715">"完全不显示通知"</string>
+    <string name="lock_screen_notifications_interstitial_message" msgid="6164532459432182244">"在设备锁定时，您希望通知如何显示？"</string>
+    <string name="app_notifications_title" msgid="5810577805218003760">"应用通知"</string>
+    <string name="other_sound_settings" msgid="3151004537006844718">"其他提示音"</string>
+    <string name="dial_pad_tones_title" msgid="1999293510400911558">"拨号键盘提示音"</string>
+    <string name="screen_locking_sounds_title" msgid="1340569241625989837">"屏幕锁定提示音"</string>
+    <string name="charging_sounds_title" msgid="1132272552057504251">"充电提示音"</string>
+    <string name="docking_sounds_title" msgid="155236288949940607">"基座提示音"</string>
+    <string name="touch_sounds_title" msgid="5326587106892390176">"触摸提示音"</string>
+    <string name="vibrate_on_touch_title" msgid="674710566941697253">"触摸时振动"</string>
+    <string name="dock_audio_media_title" msgid="1346838179626123900">"基座扬声器播放的音频"</string>
+    <string name="manage_notification_access_title" msgid="7510080164564944891">"通知使用权"</string>
+    <string name="manage_zen_access_title" msgid="2611116122628520522">"“勿扰”权限"</string>
+    <string name="app_notification_block_title" msgid="4069351066849087649">"全部阻止"</string>
+    <string name="app_notification_block_summary" msgid="9049487483231233726">"一律不显示来自此应用的通知"</string>
+    <string name="app_notification_priority_title" msgid="5949923919607295595">"视为优先通知"</string>
+    <string name="app_notification_priority_summary" msgid="2538018111338754446">"当勿扰模式设为“仅限优先打扰”时，允许此应用的通知发出提示音"</string>
+    <string name="app_notification_peekable_title" msgid="8647856880382324822">"允许快速查看"</string>
+    <string name="app_notification_peekable_summary" msgid="678845517890921158">"允许此应用将特定通知暂时滑入当前屏幕，以突出显示这些通知"</string>
+    <string name="app_notification_sensitive_title" msgid="8465860579482264139">"隐藏敏感内容"</string>
+    <string name="app_notification_sensitive_summary" msgid="3263836642625157920">"当设备锁定时，隐藏此应用通知中可能会泄露隐私信息的内容"</string>
+    <string name="zen_mode_rule_name" msgid="5149068059383837549">"规则名称"</string>
+    <string name="zen_mode_rule_name_hint" msgid="3781174510556433384">"输入规则名称"</string>
+    <string name="zen_mode_rule_name_warning" msgid="4517805381294494314">"规则名称已被使用"</string>
+    <string name="zen_mode_delete_rule" msgid="2985902330199039533">"删除规则"</string>
+    <string name="zen_mode_rule_type" msgid="2289413469580142888">"规则类型"</string>
+    <string name="zen_mode_configure_rule" msgid="8865785428056490305">"配置规则"</string>
+    <string name="zen_schedule_rule_type_name" msgid="142936744435271449">"时间规则"</string>
+    <string name="zen_event_rule_type_name" msgid="2645981990973086797">"事件规则"</string>
+    <string name="zen_mode_event_rule_calendar" msgid="8787906563769067418">"在以下日历活动期间："</string>
+    <string name="zen_mode_event_rule_reply" msgid="5166322024212403739">"回复内容如下的活动："</string>
+    <string name="zen_mode_schedule_rule_days" msgid="3195058680641389948">"星期几"</string>
+    <string name="zen_mode_calls" msgid="7051492091133751208">"通话"</string>
+    <string name="zen_mode_messages" msgid="5886440273537510894">"消息"</string>
+    <string name="zen_mode_alarms" msgid="2165302777886552926">"闹钟"</string>
+    <string name="zen_mode_reminders" msgid="5458502056440485730">"提醒"</string>
+    <string name="zen_mode_events" msgid="7914446030988618264">"活动"</string>
+    <string name="zen_mode_repeat_callers" msgid="5019521886428322131">"重复来电者"</string>
+    <string name="notification_app_settings_button" msgid="6685640230371477485">"通知设置"</string>
+    <string name="launch_by_default" msgid="1840761193189009248">"默认打开"</string>
+    <string name="app_launch_domain_links_title" msgid="6789955009107320092">"应用链接"</string>
+    <string name="app_launch_open_domain_urls_title" msgid="8914721351596745701">"打开支持的链接"</string>
+    <string name="app_launch_supported_domain_urls_title" msgid="8250695258211477480">"支持的链接"</string>
+    <string name="app_launch_other_defaults_title" msgid="2516812499807835178">"其他默认设置"</string>
+    <string name="storage_type_internal" msgid="410824961149037234">"内存"</string>
+    <string name="storage_used" msgid="7128074132917008743">"已使用的存储空间"</string>
+    <string name="notifications_label" msgid="2872668710589600731">"通知"</string>
+    <string name="advanced_apps" msgid="4812975097124803873">"高级"</string>
+    <string name="app_permissions" msgid="4148222031991883874">"权限管理"</string>
+    <string name="default_apps_title" msgid="1854974637597514435">"默认软件"</string>
+    <string name="default_browser_title" msgid="8101772675085814670">"浏览器"</string>
+    <string name="default_browser_title_none" msgid="2124785489953628553">"没有默认浏览器"</string>
+    <string name="default_phone_title" msgid="282005908059637350">电话</string>
+    <string name="default_app" msgid="6864503001385843060">"（默认）"</string>
+    <string name="memory_settings_title" msgid="7490541005204254222">"内存"</string>
+    <string name="high_power_apps" msgid="3459065925679828230">"电池优化"</string>
+    <string name="app_notification_preferences" msgid="1599319335092722613">"应用设置"</string>
+    <string name="average_memory_use" msgid="829566450150198512">"平均内存使用量"</string>
+    <string name="memory_usage" msgid="1781358557214390033">"内存使用量"</string>
+    <string name="memory_details" msgid="5943436005716991782">"详细信息"</string>
+    <string name="memory_performance" msgid="5661005192284103281">"性能"</string>
+    <string name="total_memory" msgid="2017287600738630165">"总内存"</string>
+    <string name="average_used" msgid="5338339266517245782">"平均使用量 (%)"</string>
+    <string name="free_memory" msgid="4003936141603549746">"可用"</string>
+    <string name="memory_usage_apps" msgid="5650192998273294098">"各个应用使用的内存"</string>
+    <string name="running_frequency" msgid="6622624669948277693">"频率"</string>
+    <string name="memory_maximum_usage" msgid="6513785462055278341">"最高使用量"</string>
+    <string name="system_alert_window_settings" msgid="1757821151143694951">"在其他应用的上层显示"</string>
+    <string name="keywords_system_alert_window" msgid="8579673659566564926">"系统 提醒 窗口 对话框 显示 上层 其他应用"</string>
+    <string name="write_settings" msgid="4797457275727195681">"修改系统设置"</string>
+    <string name="keywords_write_settings" msgid="6415597272561105138">"写入 修改 系统 设置"</string>
+    <string name="yes" msgid="4676390750360727396">"是"</string>
+    <string name="no" msgid="6731231425810196216">"否"</string>
+    <string name="external_data_size_label" product="default" msgid="626414192825329708">"SD卡"</string>
+    <string name="security_settings_desc" product="default" msgid="61749028818785244">"此应用拥有以下权限："</string>
+    <string name="settings_label" msgid="1626402585530130914">"设置"</string>
+    <string name="settings_label_launcher" msgid="8344735489639482340">"设置入口"</string>
+    <string name="app_manager">应用管理</string>
+    <string name="notification_log_title" msgid="3766148588239398464">"通知日志"</string>
+    <string name="app_ops_settings" msgid="5108481883575527511">"应用操作"</string>
+    <string name="usage_stats_label" msgid="5890846333487083609">"使用情况统计数据"</string>
+    <string name="draw_overlay_title" msgid="4003905926278954971">"可在其他应用的上层显示的应用"</string>
+    <string name="write_settings_title" msgid="4232152481902542284">"可修改系统设置"</string>
+    <string name="app_list_preference_none" msgid="108006867520327904">"未设置"</string>
+    <string name="unknown_app" msgid="5275921288718717656">"未知应用"</string>
+    <string name="data_usage_menu_allow_background" msgid="2694761978633359223">"允许使用后台流量"</string>
+    <string name="data_usage_menu_hide_wifi" msgid="7290056718050186769">"隐藏WLAN流量"</string>
+    <string name="data_usage_menu_hide_ethernet" msgid="3326702187179943681">"隐藏有线网络流量"</string>
+    <string name="data_usage_metered_title" msgid="7383175371006596441">"网络限制"</string>
+    <string name="data_usage_tab_wifi" msgid="481146038146585749">"WLAN"</string>
+    <string name="data_usage_tab_ethernet" msgid="7298064366282319911">"有线网络"</string>
+    <string name="data_usage_enable_mobile" msgid="5900650720568852325">"移动数据网络"</string>
+    <string name="data_usage_disable_mobile_limit" msgid="3934211003105066167">"设置移动数据流量上限"</string>
+    <string name="data_usage_enable_3g" msgid="6304006671869578254">"2G-3G 数据"</string>
+    <string name="data_usage_enable_4g" msgid="3635854097335036738">"4G 数据"</string>
+    <string name="data_usage_disable_4g_limit" msgid="6233554774946681175">"设置 4G 数据流量限制"</string>
+    <string name="data_usage_cellular_data_summary" msgid="8413357481361268285">"已暂停（达到数据流量上限）"</string>
+    <string name="data_usage_change_cycle" msgid="7776556448920114866">"更改周期..."</string>
+    <string name="data_usage_app" msgid="4970478397515423303">"应用使用情况"</string>
+    <string name="data_usage_app_restricted" msgid="3568465218866589705">"受限"</string>
+    <string name="data_usage_app_summary_title" msgid="4147258989837459172">"应用数据流量"</string>
+    <string name="data_usage_limit_dialog_mobile" product="tablet" msgid="5788774061143636263">"当您的平板电脑达到所设置的流量上限时，便会关闭移动数据网络。\n\n由于流量是由您的平板电脑计算的，而您的运营商的计算方式可能与此不同，因此请考虑设置一个保守的上限值。"</string>
+    <string name="data_usage_limit_dialog_mobile" product="default" msgid="3511301596446820549">"当您的手机达到所设置的流量上限时，便会关闭移动数据网络。\n\n由于流量是由您的手机计算的，而您的运营商的计算方式可能与此不同，因此请考虑设置一个保守的上限值。"</string>
+    <string name="data_usage_limit_dialog_title" msgid="3023111643632996097">"限制流量使用"</string>
+    <string name="data_usage_cycle_editor_title" msgid="1373797281540188533">"流量重置日期"</string>
+    <string name="data_usage_cycle_editor_positive" msgid="8821760330497941117">"确定"</string>
+    <string name="data_usage_warning_editor_title" msgid="3704136912240060339">"设置流量用量警告"</string>
+    <string name="data_usage_limit_editor_title" msgid="9153595142385030015">"设置流量限制"</string>
+    <string name="data_usage_disable_mobile" msgid="2613595056882494652">"要关闭移动数据网络吗？"</string>
+    <string name="data_usage_restrict_background_title" msgid="2201315502223035062">"要限制后台流量吗？"</string>
+    <string name="data_usage_restrict_background_multiuser" product="default" msgid="259958321968870600">"如果您限制后台移动数据流量，则只有在您连接到WLAN网络时，部分应用和服务才能正常运行。\n\n此设置会影响这部手机上的所有用户。"</string>
+    <string name="data_usage_restrict_background" msgid="6264965779074729381">"如果您限制后台移动数据流量，则只有在您连接到WLAN网络时，部分应用和服务才能正常运行。"</string>
+    <string name="data_usage_app_restrict_background" msgid="7510046552380574925">"限制应用后台流量"</string>
+    <string name="data_usage_restrict_denied_dialog" msgid="1493134803720421674">"您需要先设置移动数据流量上限，然后才能限制后台流量。"</string>
+    <string name="data_usage_app_restrict_dialog_title" msgid="1613108390242737923">"要限制后台流量吗？"</string>
+    <string name="data_usage_app_restrict_dialog" msgid="5871168521456832764">"只能连接到移动网络时，此功能可能会导致需要使用后台流量的应用无法正常运行。\n\n您可以在相关应用的设置中为其设定更合适的数据流量控制选项。"</string>
+    <string name="data_usage_list_none" msgid="3933892774251050735">"无"</string>
+    <string name="data_usage_list_mobile" msgid="7219011330831181312">"移动网络"</string>
+    <string name="data_usage_tab_3g" msgid="6092169523081538718">"2G-3G"</string>
+    <string name="data_usage_tab_4g" msgid="1301978716067512235">"4G"</string>
+    <string name="data_usage_tab_mobile" msgid="2084466270343460491">"移动网络"</string>
+    <string name="data_usage_disable_3g_limit" msgid="2558557840444266906">"设置 2G-3G 数据流量限制"</string>
+    <string name="data_usage_app_restrict_background_summary" msgid="3720075732277934106">"使用移动网络时关闭后台流量。"</string>
+    <string name="create" msgid="3578857613172647409">"创建"</string>
+    <string name="allow" msgid="3349662621170855910">"允许"</string>
+    <string name="deny" msgid="6947806159746484865">"拒绝"</string>
+    <string name="home_work_profile_not_supported" msgid="7457951997970419085">"不支持工作资料"</string>
+    <string name="choose_profile" msgid="8229363046053568878">"选择个人资料"</string>
+    <string name="restr_pin_enter_admin_pin" msgid="2451187374960131018">"输入管理员PIN码"</string>
+    <string name="dashboard_title" msgid="5453710313046681820">"设置"</string>
+    <string name="sms_change_default_dialog_title" msgid="1958688831875804286">"要更改短信应用吗？"</string>
+    <string name="sms_change_default_dialog_text" msgid="1522783933230274787">"要使用“<xliff:g id="NEW_APP">%1$s</xliff:g>”取代“<xliff:g id="CURRENT_APP">%2$s</xliff:g>”作为您的短信应用吗？"</string>
+    <string name="sms_change_default_no_previous_dialog_text" msgid="602683880284921998">"要使用“<xliff:g id="NEW_APP">%s</xliff:g>”作为您的短信应用吗？"</string>
+    <string name="managed_user_title" msgid="8101244883654409696">"工作资料"</string>
+    <string name="category_personal" msgid="1299663247844969448">"个人"</string>
+    <string name="category_work" msgid="8699184680584175622">"工作"</string>
+    <string name="battery_info_status_unknown" msgid="196130600938058547">"未知"</string>
+    <string name="battery_info_status_charging" msgid="1705179948350365604">"正在充电"</string>
+    <string name="battery_info_status_charging_ac" msgid="2909861890674399949">"正在通过交流电源充电"</string>
+    <string name="battery_info_status_charging_usb" msgid="2207489369680923929">"正在通过USB充电"</string>
+    <string name="battery_info_status_charging_wireless" msgid="3574032603735446573">"正在无线充电"</string>
+    <string name="battery_info_status_discharging" msgid="310932812698268588">"未在充电"</string>
+    <string name="battery_info_status_not_charging" msgid="2820070506621483576">"未在充电"</string>
+    <string name="battery_info_status_full" msgid="2824614753861462808">"电量充足"</string>
+    <string name="tether_settings_title_usb" msgid="6688416425801386511">"USB网络共享"</string>
+    <string name="tether_settings_title_wifi" msgid="3277144155960302049">"便携式热点"</string>
+    <string name="tether_settings_title_bluetooth" msgid="355855408317564420">"蓝牙网络共享"</string>
+    <string name="tether_settings_title_usb_bluetooth" msgid="5355828977109785001">"网络共享"</string>
+    <string name="tether_settings_title_all" msgid="8356136101061143841">"网络共享与便携式热点"</string>
+    <string name="global_change_warning" product="tablet" msgid="8045013389464294039">"此设置会影响这台平板电脑上的所有用户。"</string>
+    <string name="global_change_warning" product="default" msgid="2461264421590324675">"此设置会影响这部手机上的所有用户。"</string>
+    <string name="user_guest" msgid="8475274842845401871">"访客"</string>
+    <string name="unknown" msgid="1592123443519355854">"未知"</string>
+    <string name="running_process_item_user_label" msgid="3129887865552025943">"用户：<xliff:g id="USER_NAME">%1$s</xliff:g>"</string>
+    <string name="battery_history_days" msgid="7110262897769622564">"<xliff:g id="DAYS">%1$d</xliff:g>天<xliff:g id="HOURS">%2$d</xliff:g>小时<xliff:g id="MINUTES">%3$d</xliff:g>分<xliff:g id="SECONDS">%4$d</xliff:g>秒"</string>
+    <string name="battery_history_hours" msgid="7525170329826274999">"<xliff:g id="HOURS">%1$d</xliff:g>小时<xliff:g id="MINUTES">%2$d</xliff:g>分<xliff:g id="SECONDS">%3$d</xliff:g>秒"</string>
+    <string name="battery_history_minutes" msgid="1467775596084148610">"<xliff:g id="MINUTES">%1$d</xliff:g>分<xliff:g id="SECONDS">%2$d</xliff:g>秒"</string>
+    <string name="battery_history_seconds" msgid="4283492130945761685">"<xliff:g id="SECONDS">%1$d</xliff:g>秒"</string>
+    <string name="battery_history_days_no_seconds" msgid="703063770554334710">"<xliff:g id="DAYS">%1$d</xliff:g>天<xliff:g id="HOURS">%2$d</xliff:g>小时<xliff:g id="MINUTES">%3$d</xliff:g>分钟"</string>
+    <string name="battery_history_hours_no_seconds" msgid="663342892615646712">"<xliff:g id="HOURS">%1$d</xliff:g>小时<xliff:g id="MINUTES">%2$d</xliff:g>分钟"</string>
+    <string name="battery_history_minutes_no_seconds" msgid="7780294302606853082">"<xliff:g id="MINUTES">%1$d</xliff:g>分钟"</string>
+    <string name="launch_defaults_some" msgid="313159469856372621">"已设置部分默认选项"</string>
+    <string name="launch_defaults_none" msgid="4241129108140034876">"未设置任何默认选项"</string>
+    <string name="radioInfo_service_in" msgid="1915416319177520020">"正在使用中"</string>
+    <string name="radioInfo_service_out" msgid="5238736759641916278">"不在服务区"</string>
+    <string name="radioInfo_service_emergency" msgid="2485604591272668370">"只能拨打紧急呼救电话"</string>
+    <string name="radioInfo_service_off" msgid="1434084741785525415">"关闭无线通信"</string>
+	<string name="radioInfo_unknown" msgid="737385314432468266">"未知"</string>
+	<string name="app_permissions_summary" msgid="2098173899436407221">"已授予 <xliff:g id="COUNT_0">%d</xliff:g> 个应用（共 <xliff:g id="COUNT_1">%d</xliff:g> 个）其他权限"</string>
+    <string name="app_permissions_group_summary" msgid="2721303391744909000">"已授权 <xliff:g id="COUNT_0">%d</xliff:g> 个应用（共 <xliff:g id="COUNT_1">%d</xliff:g> 个）"</string>
+	<string name="system_alert_window_summary" msgid="4268867238063922290">"已允许 <xliff:g id="COUNT_0">%d</xliff:g> 个应用（共 <xliff:g id="COUNT_1">%d</xliff:g> 个）在其他应用的上层显示"</string>
+    <string name="write_settings_summary" msgid="4302268998611412696">"已允许 <xliff:g id="COUNT_0">%d</xliff:g> 个应用（共 <xliff:g id="COUNT_1">%d</xliff:g> 个）修改系统设置"</string>
+    <string name="domain_urls_summary_none" msgid="2639588015479657864">"不打开支持的链接"</string>
+    <string name="domain_urls_summary_one" msgid="3704934031930978405">"打开 <xliff:g id="DOMAIN">%s</xliff:g>"</string>
+    <string name="domain_urls_summary_some" msgid="812936714383016364">"打开 <xliff:g id="DOMAIN">%s</xliff:g> 和相关网址"</string>
+    <string name="app_link_open_always" msgid="2474058700623948148">"在此应用中打开"</string>
+    <string name="app_link_open_ask" msgid="7800878430190575991">"每次都询问"</string>
+    <string name="app_link_open_never" msgid="3407647600352398543">"不要在此应用中打开"</string>
+    <string name="app_ops_running" msgid="7706949900637284122">"正在运行"</string>
+    <string name="app_ops_never_used" msgid="9114608022906887802">"（从未使用）"</string>
+
+    <string name="auto_launch_label" msgid="2669236885531442195">"默认打开"</string>
+    <string name="auto_launch_label_generic" msgid="3230569852551968694">"默认操作"</string>
+    <string name="screen_compatibility_label" msgid="663250687205465394">"屏幕兼容性"</string>
+    <string name="cache_header_label" msgid="1877197634162461830">"缓存"</string>
+    <string name="clear_cache_btn_text" msgid="5756314834291116325">"清除"</string>
+    <string name="controls_label" msgid="7611113077086853799">"控件"</string>
+    <string name="force_stop" msgid="7435006169872876756">"强行停止"</string>
+    <string name="external_data_size_label" product="nosdcard" msgid="7533821466482000453">"USB存储（数据）"</string>
+    <string name="external_data_size_label" product="default" msgid="626414192825329708">"SD卡"</string>
+    <string name="uninstall_text" msgid="3644892466144802466">"卸载"</string>
+    <string name="uninstall_all_users_text" msgid="851857393177950340">"为所有用户卸载"</string>
+    <string name="install_text" msgid="884360662922471113">"安装"</string>
+    <string name="disable_text" msgid="6544054052049395202">"停用"</string>
+    <string name="enable_text" msgid="9217362512327828987">"启用"</string>
+    <string name="clear_user_data_text" msgid="5597622864770098388">"清除"</string>
+    <string name="app_factory_reset" msgid="6635744722502563022">"卸载更新"</string>
+    <string name="auto_launch_enable_text" msgid="4275746249511874845">"您已选择默认使用此应用处理某些操作。"</string>
+    <string name="always_allow_bind_appwidgets_text" msgid="566822577792032925">"您已选择允许该应用创建小部件并查看其数据。"</string>
+    <string name="auto_launch_disable_text" msgid="7800385822185540166">"没有默认操作。"</string>
+    <string name="screen_compatibility_text" msgid="1616155457673106022">"此应用可能不是针对您的屏幕设计的。您可以在此处调整其显示尺寸/比例，让它适合您的屏幕。"</string>
+    <string name="ask_compatibility" msgid="7225195569089607846">"启动时确认"</string>
+    <string name="enable_compatibility" msgid="5806819252068617811">"调整应用的显示尺寸/比例"</string>
+    <string name="show_running_services" msgid="5736278767975544570">"显示当前运行的服务"</string>
+    <string name="show_background_processes" msgid="2009840211972293429">"显示缓存进程"</string>
+    <string name="filter" msgid="2018011724373033887">"过滤"</string>
+    <string name="filter_dlg_title" msgid="8693024463731076091">"选择过滤选项"</string>
+    <string name="filter_apps_all" msgid="5142129378749391876">"全部"</string>
+    <string name="filter_apps_disabled" msgid="5364447573326472890">"已停用"</string>
+    <string name="filter_apps_third_party" msgid="7786348047690140979">"已下载"</string>
+    <string name="filter_apps_running" msgid="7767071454371350486">"正在运行"</string>
+    <string name="filter_apps_onsdcard" product="nosdcard" msgid="4843063154701023349">"USB存储设备"</string>
+    <string name="filter_apps_onsdcard" product="default" msgid="1477351142334784771">"SD卡中"</string>
+    <string name="disabled" msgid="9206776641295849915">"已停用"</string>
+    <string name="not_installed" msgid="2797554494953450291">"未针对此用户安装"</string>
+    <string name="internal_storage" msgid="1584700623164275282">"内部存储空间"</string>
+    <string name="internal_storage_sentence" msgid="889098931914857143">"内部存储设备"</string>
+    <string name="sd_card_storage" product="nosdcard" msgid="2673203150465132465">"USB存储设备"</string>
+    <string name="sd_card_storage" product="default" msgid="7623513618171928235">"SD卡存储设备"</string>
+    <string name="recompute_size" msgid="7722567982831691718">"正在重新计算大小..."</string>
+    <string name="clear_data_dlg_title" msgid="5605258400134511197">"要删除应用数据吗？"</string>
+    <string name="clear_data_dlg_text" msgid="3951297329833822490">"系统会永久删除此应用的所有数据。删除的内容包括所有文件、设置、帐户、数据库等。"</string>
+    <string name="dlg_ok" msgid="2402639055725653590">"确定"</string>
+    <string name="dlg_cancel" msgid="1674753358972975911">"取消"</string>
+    <string name="app_not_found_dlg_title" msgid="3127123411738434964"></string>
+    <string name="app_not_found_dlg_text" msgid="4893589904687340011">"在已安装应用的列表中找不到该应用。"</string>
+    <string name="clear_data_failed" msgid="7214074331627422248">"无法清除应用数据。"</string>
+    <string name="app_factory_reset_dlg_title" msgid="7441012826373143593">"要卸载更新吗？"</string>
+    <string name="app_factory_reset_dlg_text" msgid="6371247225487725860">"此 Android 系统自带应用的所有相关更新都将被卸载。"</string>
+    <string name="clear_failed_dlg_title" msgid="2387060805294783175">"清除数据"</string>
+    <string name="clear_failed_dlg_text" msgid="5464475937929941008">"无法清除应用数据。"</string>
+    <string name="security_settings_desc" product="tablet" msgid="1292421279262430109">"此应用拥有以下权限："</string>
+    <string name="security_settings_desc" product="default" msgid="61749028818785244">"此应用拥有以下权限："</string>
+    <string name="security_settings_desc_multi" product="tablet" msgid="7300932212437084403">"此应用可访问您平板电脑上的以下内容。为了提高性能和减少内存使用量，<xliff:g id="BASE_APP_NAME">%1$s</xliff:g>可获得其中的部分权限，因为它与<xliff:g id="ADDITIONAL_APPS_LIST">%2$s</xliff:g>运行在同一进程中。"</string>
+    <string name="security_settings_desc_multi" product="default" msgid="6610268420793984752">"此应用可访问您手机上的以下内容。为了提高性能和减少内存使用量，<xliff:g id="BASE_APP_NAME">%1$s</xliff:g>可获得其中的部分权限，因为它与<xliff:g id="ADDITIONAL_APPS_LIST">%2$s</xliff:g>运行在同一进程中。"</string>
+    <string name="join_two_items" msgid="1336880355987539064">"<xliff:g id="FIRST_ITEM">%1$s</xliff:g>和<xliff:g id="SECOND_ITEM">%2$s</xliff:g>"</string>
+    <string name="join_many_items_last" msgid="5925635036718502724">"<xliff:g id="ALL_BUT_LAST_ITEM">%1$s</xliff:g>和<xliff:g id="LAST_ITEM_0">%2$s</xliff:g>"</string>
+    <string name="join_many_items_first" msgid="4333907712038448660">"<xliff:g id="FIRST_ITEM">%1$s</xliff:g>、<xliff:g id="ALL_BUT_FIRST_AND_LAST_ITEM">%2$s</xliff:g>"</string>
+    <string name="join_many_items_middle" msgid="7556692394478220814">"<xliff:g id="ADDED_ITEM">%1$s</xliff:g>、<xliff:g id="REST_OF_ITEMS">%2$s</xliff:g>"</string>
+    <string name="computing_size" msgid="1599186977475211186">"正在计算..."</string>
+    <string name="invalid_size_value" msgid="1582744272718752951">"无法计算软件包的大小。"</string>
+    <string name="empty_list_msg" msgid="3552095537348807772">"未安装任何第三方应用。"</string>
+    <string name="version_text" msgid="9189073826278676425">"版本 <xliff:g id="VERSION_NUM">%1$s</xliff:g>"</string>
+    <string name="move_app" msgid="5042838441401731346">"移动"</string>
+    <string name="move_app_to_internal" product="tablet" msgid="2299714147283854957">"移至平板电脑"</string>
+    <string name="move_app_to_internal" product="default" msgid="3895430471913858185">"移至手机"</string>
+    <string name="move_app_to_sdcard" product="nosdcard" msgid="4350451696315265420">"移至USB存储设备"</string>
+    <string name="move_app_to_sdcard" product="default" msgid="1143379049903056407">"移至SD卡"</string>
+    <string name="moving" msgid="6431016143218876491">"正在移动"</string>
+    <string name="insufficient_storage" msgid="481763122991093080">"存储空间不足。"</string>
+    <string name="does_not_exist" msgid="1501243985586067053">"应用不存在。"</string>
+    <string name="app_forward_locked" msgid="6331564656683790866">"应用受版权保护。"</string>
+    <string name="invalid_location" msgid="4354595459063675191">"安装位置无效。"</string>
+    <string name="system_package" msgid="1352722848400644991">"无法在外部介质上安装系统更新。"</string>
+    <string name="force_stop_dlg_title" msgid="977530651470711366">"要强行停止吗？"</string>
+    <string name="force_stop_dlg_text" msgid="7208364204467835578">"强行停止某个应用可能会导致其出现异常。"</string>
+    <string name="move_app_failed_dlg_title" msgid="1282561064082384192"></string>
+    <string name="move_app_failed_dlg_text" msgid="187885379493011720">"无法移动应用。<xliff:g id="REASON">%1$s</xliff:g>"</string>
+    <string name="app_disable_dlg_title" msgid="3916469657537695436">"要停用内置应用吗？"</string>
+    <string name="app_disable_dlg_positive" msgid="7375627244201714263">"停用应用"</string>
+    <string name="app_disable_dlg_text" msgid="7824930380425568584">"如果您停用此应用，其他应用可能会无法正常运行。"</string>
+    <string name="app_special_disable_dlg_title" msgid="2690148680327142674">"确定要删除数据并停用应用吗？"</string>
+    <string name="app_special_disable_dlg_text" msgid="1007112763234313018">"如果您停用此应用，其他应用可能会无法正常运行。您的数据也将会删除。"</string>
+    <string name="app_disable_notifications_dlg_title" msgid="7669264654851761857">"要关闭通知吗？"</string>
+    <string name="app_disable_notifications_dlg_text" msgid="5088484670924769845">"如果关闭此应用的通知，您可能会错过重要提醒和最新动态信息。"</string>
+    <string name="service_restarting" msgid="2242747937372354306">"正在重新启动"</string>
+    <string name="cached" msgid="1059590879740175019">"缓存的后台进程"</string>
+    <string name="service_started_by_app" msgid="818675099014723551">"由应用启动。"</string>
+    <string name="change" msgid="6657848623929839991">"更改"</string>
+    <string name="change_storage" msgid="600475265207060436">"更改存储空间"</string>
+    
+    <string name="current_input_method" msgid="2636466029213488159">"输入法"</string>
+    <string name="settings_button" msgid="3006713718908152930">"设置"</string>
+    <string name="power_usage_summary" msgid="7237084831082848168">"耗电情况"</string>
+    <string name="power_usage_not_available" msgid="3109326074656512387">"没有电池使用数据。"</string>
+    <string name="power_usage_level_and_status" msgid="7449847570973811784">"<xliff:g id="LEVEL">%1$s</xliff:g> - <xliff:g id="STATUS">%2$s</xliff:g>"</string>
+    <string name="power_discharge_remaining" msgid="4925678997049911808">"电池剩余使用时间：<xliff:g id="REMAIN">%1$s</xliff:g>"</string>
+    <string name="power_charge_remaining" msgid="6132074970943913135">"充电剩余时间：<xliff:g id="UNTIL_CHARGED">%1$s</xliff:g>"</string>
+    <string name="power_discharging_duration" msgid="1605929174734600590">"<xliff:g id="LEVEL">%1$s</xliff:g> - 还可用大约<xliff:g id="TIME">%2$s</xliff:g>"</string>
+    <string name="power_charging" msgid="1779532561355864267">"<xliff:g id="LEVEL">%1$s</xliff:g> - <xliff:g id="STATE">%2$s</xliff:g>"</string>
+    <string name="power_charging_duration" msgid="2853265177761520490">"<xliff:g id="LEVEL">%1$s</xliff:g> - 还需<xliff:g id="TIME">%2$s</xliff:g>充满"</string>
+    <string name="power_charging_duration_ac" msgid="3969186192576594254">"<xliff:g id="LEVEL">%1$s</xliff:g> - 还需<xliff:g id="TIME">%2$s</xliff:g>充满（交流电充电）"</string>
+    <string name="power_charging_duration_usb" msgid="182405645340976546">"<xliff:g id="LEVEL">%1$s</xliff:g> - 还需<xliff:g id="TIME">%2$s</xliff:g>充满（USB充电）"</string>
+    <string name="power_charging_duration_wireless" msgid="1829295708243159464">"<xliff:g id="LEVEL">%1$s</xliff:g> - 还需<xliff:g id="TIME">%2$s</xliff:g>充满（无线充电）"</string>
+    <string name="battery_since_unplugged" msgid="338073389740738437">"拔下电源后的电量消耗情况"</string>
+    <string name="battery_since_reset" msgid="7464546661121187045">"重置后的电量消耗情况"</string>
+    <string name="battery_stats_on_battery" msgid="4970762168505236033">"电池已用时间：<xliff:g id="TIME">%1$s</xliff:g>"</string>
+    <string name="battery_stats_duration" msgid="7464501326709469282">"拔下电源后已过 <xliff:g id="TIME">%1$s</xliff:g>"</string>
+    <string name="battery_stats_charging_label" msgid="4223311142875178785">"充电"</string>
+    <string name="battery_stats_screen_on_label" msgid="7150221809877509708">"屏幕开启"</string>
+    <string name="battery_stats_gps_on_label" msgid="1193657533641951256">"GPS开启"</string>
+    <string name="battery_stats_camera_on_label" msgid="4935637383628414968">"相机已开启"</string>
+    <string name="battery_stats_flashlight_on_label" msgid="4319637669889411307">"手电筒已开启"</string>
+    <string name="battery_stats_wifi_running_label" msgid="1845839195549226252">"WLAN"</string>
+    <string name="battery_stats_wake_lock_label" msgid="1908942681902324095">"唤醒"</string>
+    <string name="battery_stats_phone_signal_label" msgid="3537569115723850618">"移动网络信号"</string>
+    <!-- no translation found for battery_stats_last_duration (1535831453827905957) -->
+    <skip />
+    <string name="awake" msgid="387122265874485088">"设备唤醒时间"</string>
+    <string name="wifi_on_time" msgid="3208518458663637035">"WLAN开启时间"</string>
+    <string name="bluetooth_on_time" msgid="3056108148042308690">"WLAN开启时间"</string>
+    <string name="history_details_title" msgid="3608240585315506067">"详细电量使用记录"</string>
+    <string name="details_title" msgid="3792801565213935385">"详细使用情况"</string>
+    <string name="power_screen" msgid="3023346080675904613">"屏幕"</string>
+    <string name="power_flashlight" msgid="7794409781003567614">"手电筒"</string>
+    <string name="power_camera" msgid="4976286950934622605">"相机"</string>
+    <string name="power_wifi" msgid="1135085252964054957">"WLAN"</string>
+    <string name="power_bluetooth" msgid="4373329044379008289">"蓝牙"</string>
+    <string name="power_cell" msgid="6596471490976003056">"移动网络待机"</string>
+    <string name="power_phone" msgid="5392641106474567277">"语音通话"</string>
+    <string name="power_idle" product="tablet" msgid="4612478572401640759">"平板电脑待机"</string>
+    <string name="power_idle" product="default" msgid="9055659695602194990">"手机待机"</string>
+    <string name="power_unaccounted" msgid="709925017022660740">"其他"</string>
+    <string name="power_overcounted" msgid="2762354976171358445">"多算了的"</string>
+    <string name="usage_type_cpu" msgid="715162150698338714">"CPU总使用时间"</string>
+    <string name="usage_type_cpu_foreground" msgid="6500579611933211831">"CPU（前台）"</string>
+    <string name="usage_type_wake_lock" msgid="5125438890233677880">"保持唤醒状态"</string>
+    <string name="usage_type_gps" msgid="7989688715128160790">"GPS"</string>
+    <string name="usage_type_wifi_running" msgid="3134357198266380400">"WLAN运行时间"</string>
+    <string name="usage_type_phone" product="tablet" msgid="262638572890253393">"平板电脑"</string>
+    <string name="usage_type_phone" product="default" msgid="9108247984998041853">"通话"</string>
+    <string name="usage_type_data_send" msgid="8971710128438365919">"发送的移动数据包"</string>
+    <string name="usage_type_data_recv" msgid="5468564329333954445">"接收的移动数据包"</string>
+    <string name="usage_type_radio_active" msgid="1732647857619420121">"移动无线装置运行时间"</string>
+    <string name="usage_type_data_wifi_send" msgid="1847552143597396162">"发送的WLAN数据包"</string>
+    <string name="usage_type_data_wifi_recv" msgid="5678475911549183829">"接收的WLAN数据包"</string>
+    <string name="usage_type_audio" msgid="6957269406840886290">"音频"</string>
+    <string name="usage_type_video" msgid="4295357792078579944">"视频"</string>
+    <string name="usage_type_camera" msgid="8299433109956769757">"相机"</string>
+    <string name="usage_type_flashlight" msgid="1516392356962208230">"手电筒"</string>
+    <string name="usage_type_on_time" msgid="3351200096173733159">"运行时间"</string>
+    <string name="usage_type_no_coverage" msgid="3797004252954385053">"无信号时间"</string>
+    <string name="usage_type_total_battery_capacity" msgid="3798285287848675346">"电池总容量"</string>
+    <string name="usage_type_computed_power" msgid="5862792259009981479">"计算出的耗电量"</string>
+    <string name="usage_type_actual_power" msgid="7047814738685578335">"观察到的耗电量"</string>
+    <string name="battery_action_stop" msgid="649958863744041872">"强行停止"</string>
+    <string name="battery_action_app_details" msgid="7861051816778419018">"应用信息"</string>
+    <string name="battery_action_app_settings" msgid="4570481408106287454">"应用设置"</string>
+    <string name="battery_action_display" msgid="7338551244519110831">"屏幕设置"</string>
+    <string name="battery_action_wifi" msgid="8181553479021841207">"WLAN设置"</string>
+    <string name="battery_action_bluetooth" msgid="8374789049507723142">"蓝牙设置"</string>
+    <string name="battery_desc_voice" msgid="8980322055722959211">"语音通话所耗的电量"</string>
+    <string name="battery_desc_standby" product="tablet" msgid="6284747418668280364">"平板电脑待机所耗的电量"</string>
+    <string name="battery_desc_standby" product="default" msgid="3009080001948091424">"手机待机所耗的电量"</string>
+    <string name="battery_desc_radio" msgid="5479196477223185367">"移动网络所耗的电量"</string>
+    <string name="battery_sugg_radio" msgid="8211336978326295047">"不在信号覆盖范围内时切换到飞行模式，以节约电量"</string>
+    <string name="battery_desc_flashlight" msgid="2908579430841025494">"手电筒所耗的电量"</string>
+    <string name="battery_desc_camera" msgid="7375389919760613499">"相机所耗的电量"</string>
+    <string name="battery_desc_display" msgid="5432795282958076557">"显示屏和背光所耗的电量"</string>
+    <string name="battery_sugg_display" msgid="3370202402045141760">"降低屏幕亮度，缩短休眠延时"</string>
+    <string name="battery_desc_wifi" msgid="2375567464707394131">"WLAN网络所耗的电量"</string>
+    <string name="battery_sugg_wifi" msgid="7776093125855397043">"未使用或无法使用WLAN网络时将WLAN关闭"</string>
+    <string name="battery_desc_bluetooth" msgid="8069070756186680367">"蓝牙所耗的电量"</string>
+    <string name="battery_sugg_bluetooth_basic" msgid="4565141162650835009">"请在不使用蓝牙功能时将其关闭"</string>
+    <string name="battery_sugg_bluetooth_headset" msgid="4071352514714259230">"尝试连接另一蓝牙设备"</string>
+    <string name="battery_desc_apps" msgid="8530418792605735226">"该应用所耗的电量"</string>
+    <string name="battery_sugg_apps_info" msgid="6907588126789841231">"停止或卸载应用"</string>
+    <string name="battery_sugg_apps_gps" msgid="5959067516281866135">"选择“节电”模式"</string>
+    <string name="battery_sugg_apps_settings" msgid="3974902365643634514">"该应用中可能提供了用于减少耗电量的设置"</string>
+    <string name="battery_desc_users" msgid="7682989161885027823">"用户所耗的电量"</string>
+    <string name="battery_desc_unaccounted" msgid="7404256448541818019">"其他耗电量"</string>
+    <string name="battery_msg_unaccounted" msgid="1963583522633067961">"耗电量显示的是大致用电量，并不包括所有耗电来源所消耗的电量。其他耗电量显示的是系统计算出的大致耗电量与实际观察到的耗电量之间的差异量。"</string>
+    <string name="battery_desc_overcounted" msgid="5481865509489228603">"多算了的用电量"</string>
+    <string name="mah" msgid="95245196971239711">"<xliff:g id="NUMBER">%d</xliff:g>毫安时"</string>
+    <string name="menu_stats_unplugged" msgid="8296577130840261624">"拔下电源后已过 <xliff:g id="UNPLUGGED">%1$s</xliff:g>"</string>
+    <string name="menu_stats_last_unplugged" msgid="5922246077592434526">"上次拔下电源 <xliff:g id="UNPLUGGED">%1$s</xliff:g> 时"</string>
+    <string name="menu_stats_total" msgid="8973377864854807854">"总使用量"</string>
+    <string name="menu_stats_refresh" msgid="1676215433344981075">"刷新"</string>
+    <string name="process_kernel_label" msgid="3916858646836739323">"Android 操作系统"</string>
+    <string name="process_mediaserver_label" msgid="6500382062945689285">"媒体服务器"</string>
+    <string name="process_dex2oat_label" msgid="2592408651060518226">"应用优化"</string>
+    <string name="battery_saver_turn_on_automatically_never" msgid="6610846456314373">"一律不"</string>
+    <string name="battery_saver_turn_on_automatically_pct" msgid="7536784431655058267">"电量剩余%1$s时"</string>
+
+    <string name="data_usage_accounting" msgid="7170028915873577387">"运营商的流量计算方式可能与您设备的计算方式不同。"</string>
+    <string name="data_usage_app_info_label" msgid="3409931235687866706">"应用信息"</string>
+    <string name="data_usage_cellular_data" msgid="4859424346276043677">"移动数据流量"</string>
+    <string name="data_usage_data_limit" msgid="1193930999713192703">"设置流量上限"</string>
+    <string name="data_usage_cycle" msgid="5652529796195787949">"流量周期"</string>
+    <string name="data_usage_app_items_header_text" msgid="5017850810459372828">"应用数据流量"</string>
+    <string name="data_usage_menu_roaming" msgid="8042359966835203296">"移动数据网络漫游"</string>
+    <string name="data_usage_menu_split_4g" msgid="5322857680792601899">"单独显示4G流量"</string>
+    <string name="data_usage_menu_auto_sync" msgid="8203999775948778560">"自动同步数据"</string>
+    <string name="account_settings_menu_auto_sync" msgid="6243013719753700377">"自动同步数据"</string>
+    <string name="account_settings_menu_auto_sync_personal" msgid="785541379617346438">"自动同步个人帐户数据"</string>
+    <string name="account_settings_menu_auto_sync_work" msgid="329565580969147026">"自动同步工作帐户数据"</string>
+    <string name="data_usage_pick_cycle_day" msgid="4470796861757050966">"流量周期设置："</string>
+    <string name="data_usage_disable_wifi_limit" msgid="1394901415264660888">"设置WLAN数据流量上限"</string>
+    <string name="data_usage_forground_label" msgid="7654319010655983591">"前台："</string>
+    <string name="data_usage_background_label" msgid="2722008379947694926">"后台："</string>
+    <string name="data_usage_app_restrict_background_summary_disabled" msgid="1446565717342917727">"要限制此应用使用后台流量，请先设置移动数据网络流量上限。"</string>
+    <string name="data_usage_auto_sync_on_dialog_title" msgid="2438617846762244389">"要打开自动同步数据功能吗？"</string>
+    <string name="data_usage_auto_sync_on_dialog" product="tablet" msgid="8581983093524041669">"您在网络上对自己的帐户进行的所有更改都会自动同步到您的平板电脑。\n\n有些帐户还可以将您在平板电脑上进行的所有更改自动同步到网络上。Google帐户就支持此类双向同步。"</string>
+    <string name="data_usage_auto_sync_on_dialog" product="default" msgid="8651376294887142858">"您在网络上对自己的帐户进行的所有更改都会自动同步到您的手机。\n\n有些帐户还可以将您在手机上进行的所有更改自动同步到网络上。Google帐户就支持此类双向同步。"</string>
+    <string name="data_usage_auto_sync_off_dialog_title" msgid="9013139130490125793">"要关闭自动同步数据功能吗？"</string>
+    <string name="data_usage_auto_sync_off_dialog" msgid="4025938250775413864">"这样可以节省数据流量和电池电量，但您需要手动同步每个帐户才能获得最新信息，并且在有更新时不会收到通知。"</string>
+    <string name="data_usage_limit_dialog_mobile" product="tablet" msgid="5788774061143636263">"当您的平板电脑达到所设置的流量上限时，便会关闭移动数据网络。\n\n由于流量是由您的平板电脑计算的，而您的运营商的计算方式可能与此不同，因此请考虑设置一个保守的上限值。"</string>
+    <string name="data_usage_limit_dialog_mobile" product="default" msgid="3511301596446820549">"当您的手机达到所设置的流量上限时，便会关闭移动数据网络。\n\n由于流量是由您的手机计算的，而您的运营商的计算方式可能与此不同，因此请考虑设置一个保守的上限值。"</string>
+    <string name="data_usage_restrict_background_multiuser" product="tablet" msgid="7954930300449415764">"如果您限制后台移动数据流量，则只有在您连接到WLAN网络时，部分应用和服务才能正常运行。\n\n此设置会影响这台平板电脑上的所有用户。"</string>
+    <string name="data_usage_restrict_background_multiuser" product="default" msgid="259958321968870600">"如果您限制后台移动数据流量，则只有在您连接到WLAN网络时，部分应用和服务才能正常运行。\n\n此设置会影响这部手机上的所有用户。"</string>
+    <string name="data_usage_uninstalled_apps" msgid="614263770923231598">"已删除的应用"</string>
+    <string name="data_usage_uninstalled_apps_users" msgid="7986294489899813194">"已删除的应用和用户"</string>
+    <string name="data_usage_received_sent" msgid="5039699009276621757">"已接收<xliff:g id="RECEIVED">%1$s</xliff:g>，已发送<xliff:g id="SENT">%2$s</xliff:g>"</string>
+    <string name="data_usage_total_during_range" msgid="4091294280619255237">"<xliff:g id="RANGE">%2$s</xliff:g>：已使用约 <xliff:g id="TOTAL">%1$s</xliff:g>。"</string>
+    <string name="data_usage_total_during_range_mobile" product="tablet" msgid="1925687342154538972">"<xliff:g id="RANGE">%2$s</xliff:g>：已使用约 <xliff:g id="TOTAL">%1$s</xliff:g>，由您的平板电脑计算得出。您的运营商对于流量的计算方法可能有所不同。"</string>
+    <string name="data_usage_total_during_range_mobile" product="default" msgid="5063981061103812900">"<xliff:g id="RANGE">%2$s</xliff:g>：已使用约 <xliff:g id="TOTAL">%1$s</xliff:g>，由您的手机计算得出。您的运营商对于流量的计算方法可能有所不同。"</string>
+    <string name="storage_summary_format" msgid="5419902362347539755">"<xliff:g id="STORAGE_TYPE">%2$s</xliff:g>已使用 <xliff:g id="SIZE">%1$s</xliff:g>"</string>
+    <string name="storage_type_external" msgid="8928374515368986503">"外部存储"</string>
+    <string name="app_data_usage" msgid="7942375313697452803">"应用数据流量"</string>
+    <string name="data_summary_format" msgid="6213211533341068366">"自 <xliff:g id="DATE">%2$s</xliff:g>以来已使用 <xliff:g id="SIZE">%1$s</xliff:g>"</string>
+    <string name="choose_assist_title" msgid="2373353478479305516">"选择辅助应用"</string>
+    <string name="default_assist_none" msgid="3709083569608735487">"无"</string>
+    <string name="draw_overlay" msgid="9078696044299199938">"在其他应用的上层显示"</string>
+    <string name="system_alert_window_apps_title" msgid="7005760279028569491">"应用"</string>
+    <string name="system_alert_window_access_title" msgid="8811695381437304132">"在其他应用的上层显示"</string>
+    <string name="permit_draw_overlay" msgid="6606018549732046201">"允许在其他应用的上层显示"</string>
+    <string name="app_overlay_permission_preference" msgid="8355410276571387439">"允许应用在上层显示的权限设置"</string>
+    <string name="allow_overlay_description" msgid="7895191337585827691">"此权限允许应用在您当前使用的其他应用的上层显示，因此可能会干扰您使用其他应用的界面，或者会影响您在其他应用中预期看到的内容。"</string>
+    <string name="overlay_settings" msgid="222062091489691363">"在其他应用的上层显示"</string>
+    <string name="filter_overlay_apps" msgid="6965969283342557573">"具有该权限的应用"</string>
+    <string name="system_alert_window_on" msgid="2939489395109048888">"允许"</string>
+    <string name="system_alert_window_off" msgid="6189115687233061992">"不允许"</string>
+    <string name="battery_summary" msgid="101415762036784289">"自上次充满电后已使用的电量:&#160;&#160;<xliff:g id="PERCENTAGE">%1$d</xliff:g>%% "</string>
+    <string name="no_battery_summary" msgid="3528036835462846814">"自上次充满电后未消耗任何电量"</string>
+    <string name="location_settings_title" msgid="1369675479310751735">"位置信息"</string>
+    <string name="wifi_settings" msgid="29722149822540994">"WLAN"</string>
+    <string name="bluetooth_settings" msgid="1810521656168174329">"蓝牙"</string>
+    <string name="no_data_usage" msgid="9131454024293628063">"未使用任何数据流量"</string>
+    <string name="notifications_enabled" msgid="4386196629684749507">"常规"</string>
+    <string name="notifications_disabled" msgid="4326096527874762629">"屏蔽"</string>
+    <string name="notifications_sensitive" msgid="7636231039287237132">"敏感内容已隐藏"</string>
+    <string name="notifications_priority" msgid="1812498477331421719">"优先级"</string>
+    <string name="notifications_no_peeking" msgid="999951669023262823">"不允许快速查看"</string>
+    <string name="notifications_two_items" msgid="4619842959192163127">"<xliff:g id="NOTIF_STATE_0">%1$s</xliff:g> / <xliff:g id="NOTIF_STATE_1">%2$s</xliff:g>"</string>
+    <string name="notifications_three_items" msgid="7536490263864218246">"<xliff:g id="NOTIF_STATE_0">%1$s</xliff:g> / <xliff:g id="NOTIF_STATE_1">%2$s</xliff:g> / <xliff:g id="NOTIF_STATE_2">%3$s</xliff:g>"</string>
+    <string name="memory_use_summary" msgid="5608257211903075754">"过去 3 小时内平均使用了内存:&#160;&#160;<xliff:g id="SIZE">%1$s</xliff:g> "</string>
+    <string name="no_memory_use_summary" msgid="2016900536806235588">"过去 3 小时内未使用任何内存"</string>
+    <string name="runtime_permissions_summary_no_permissions_requested" msgid="7655100570513818534">"未请求任何权限"</string>
+    <string name="runtime_permissions_summary_no_permissions_granted" msgid="1679758182657005375">"未授予任何权限"</string>
+    <plurals name="runtime_permissions_additional_count" formatted="false" msgid="931276038884210752">
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> 项其他权限</item>
+      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> 项其他权限</item>
+    </plurals>
+    
+    <string name="assistant_security_warning" msgid="8498726261327239136">"辅助应用将可读取您系统中使用的应用的相关信息，其中包括您屏幕上显示的信息或应用中可使用的信息。"</string>
+    <string name="assistant_security_warning_agree" msgid="7710290206928033908">"同意"</string>
+    <string name="assistant_security_warning_disagree" msgid="877419950830205913">"不同意"</string>
+    <string name="choose_voice_input_title" msgid="975471367067718019">"选择语音输入"</string>
+    <string name="apps_storage" msgid="4353308027210435513">"空间管理"</string>
+    <string name="usage_access" msgid="5479504953931038165">"使用记录访问权限"</string>
+    <string name="permit_usage_access" msgid="4012876269445832300">"允许访问使用记录"</string>
+    <string name="app_usage_preference" msgid="7065701732733134991">"应用使用偏好设置"</string>
+    <string name="usage_access_description" msgid="1352111094596416795">"使用记录访问权限允许应用跟踪您正在使用的其他应用和使用频率，以及您的运营商、语言设置及其他详细信息。"</string>
+    <string name="memory_details_title" msgid="8542565326053693320">"内存详情"</string>
+    <string name="always_running" msgid="6042448320077429656">"始终运行 (<xliff:g id="PERCENTAGE">%s</xliff:g>)"</string>
+    <string name="sometimes_running" msgid="6611250683037700864">"偶尔运行 (<xliff:g id="PERCENTAGE">%s</xliff:g>)"</string>
+    <string name="rarely_running" msgid="348413460168817458">"极少运行 (<xliff:g id="PERCENTAGE">%s</xliff:g>)"</string>
+    <string name="memory_max_use" msgid="6874803757715963097">"最高内存使用量"</string>
+    <string name="memory_avg_use" msgid="7382015389130622870">"平均内存使用量"</string>
+    <string name="memory_max_desc" msgid="2861832149718335864">"最高内存使用量：<xliff:g id="MEMORY">%1$s</xliff:g>"</string>
+    <string name="memory_avg_desc" msgid="1551240906596518412">"平均内存使用量：<xliff:g id="MEMORY">%1$s</xliff:g>"</string>
+    <string name="memory_use_running_format" msgid="4172488041800743760">"<xliff:g id="MEMORY">%1$s</xliff:g> / <xliff:g id="RUNNING">%2$s</xliff:g>"</string>
+    <string name="process_format" msgid="77905604092541454">"<xliff:g id="APP_NAME">%1$s</xliff:g> (<xliff:g id="COUNT">%2$d</xliff:g>)"</string>
+    <string name="high_power_filter_on" msgid="3222265297576680099">"未优化"</string>
+    <string name="high_power_on" msgid="3382367497549906927">"忽略电池优化"</string>
+    <string name="high_power_off" msgid="3393904131961263278">"优化电池使用"</string>
+    <string name="high_power_system" msgid="7362862974428225301">"没有电池优化设置"</string>
+    <string name="high_power_desc" msgid="6283926163708585760">"不应用电池优化设置，但电量的消耗速度可能会更快。"</string>
+    <plurals name="high_power_count" formatted="false" msgid="2464701722383894640">
+      <item quantity="other">已允许 <xliff:g id="COUNT">%d</xliff:g> 个应用忽略电池优化</item>
+      <item quantity="one">已允许 1 个应用忽略电池优化</item>
+    </plurals>
+    <string name="high_power_prompt_title" msgid="4257734526819699048">"要忽略电池优化吗？"</string>
+    <string name="high_power_prompt_body" msgid="4072587909486730876">"要让应用“<xliff:g id="APP_NAME">%1$s</xliff:g>”在后台保持连接吗？这可能会消耗更多电量。"</string>
+    <string name="system_ui_settings" msgid="579824306467081123">"显示 SystemUI 调整程序"</string>
+    <string name="additional_permissions" msgid="6463784193877056080">"高级权限"</string>
+    <string name="additional_permissions_more" msgid="3538612272673191451">"另外 <xliff:g id="COUNT">%1$d</xliff:g> 项"</string>
+    <string name="usb_use_charging_only" msgid="167707234832117768">"充电"</string>
+    <string name="usb_use_charging_only_desc" msgid="3066256793008540627">"仅为此设备充电"</string>
+    <string name="usb_use_power_only" msgid="6304554004177083963">"电源供给"</string>
+    <string name="usb_use_power_only_desc" msgid="708134382305728112">"为其他已连接的设备充电"</string>
+    <string name="usb_use_file_transfers" msgid="6978904665877785548">"文件传输"</string>
+    <string name="usb_use_file_transfers_desc" msgid="1663579896876922124">"将文件传输到 Windows 或 Mac (MTP)"</string>
+    <string name="usb_use_photo_transfers" msgid="8276445551694259039">"照片传输 (PTP)"</string>
+    <string name="usb_use_photo_transfers_desc" msgid="2963034811151325996">"如果 MTP 不受支持，则传输照片或文件 (PTP)"</string>
+    <string name="usb_use_MIDI" msgid="5116404702692483166">"MIDI"</string>
+    <string name="usb_use_MIDI_desc" msgid="6895383550910152384">"将设备用作 MIDI 输入设备"</string>
+    <string name="usb_use" msgid="3372728031108932425">"USB 的用途"</string>
+    <string name="inactive_apps_title" msgid="1317817863508274533">"未启用的应用"</string>
+    <string name="inactive_app_inactive_summary" msgid="6768756967594202411">"未启用。触摸即可切换。"</string>
+    <string name="inactive_app_active_summary" msgid="4512911571954375968">"已启用。触摸即可切换。"</string>
+    <string name="assist_access_context_title" msgid="2269032346698890257">"使用屏幕上的文字内容"</string>
+    <string name="assist_access_context_summary" msgid="1991421283142279560">"允许辅助应用使用屏幕上的文字内容"</string>
+    <string name="assist_access_screenshot_title" msgid="4034721336291215819">"使用屏幕截图"</string>
+    <string name="assist_access_screenshot_summary" msgid="6761636689013259901">"允许辅助应用使用屏幕截图"</string>
+    <string name="assist_footer" msgid="1982791172085896864">"辅助应用可根据您当前所查看屏幕上的内容来为您提供帮助。某些应用同时支持启动器和语音输入服务，可为您提供更全面的协助。"</string>
+    <string name="maximum_memory_use" msgid="7493720799710132496">"最高内存使用量"</string>
+    <string name="app_list_memory_use" msgid="6987417883876419338">"应用的内存使用量"</string>
+    <string name="sort_avg_use" msgid="3998036180505143129">"按平均使用量排序"</string>
+    <string name="sort_max_use" msgid="4629247978290075124">"按最高使用量排序"</string>
+    <plurals name="memory_usage_apps_summary" formatted="false" msgid="6089210945574265774">
+      <item quantity="other">过去 <xliff:g id="DURATION_1">%2$s</xliff:g>内有 <xliff:g id="COUNT">%1$d</xliff:g> 个应用使用了内存</item>
+      <item quantity="one">过去 <xliff:g id="DURATION_0">%2$s</xliff:g>内有 1 个应用使用了内存</item>
+    </plurals>
+    <string name="zen_access_warning_dialog_title" msgid="1198189958031157142">"要允许<xliff:g id="APP">%1$s</xliff:g>获取“勿扰”模式的使用权限吗？"</string>
+    <string name="zen_access_warning_dialog_summary" msgid="4015885767653010873">"此应用将可开启/关闭“勿扰”模式以及更改相关设置。"</string>
+    <string name="ignore_optimizations_on" msgid="6915689518016285116">"不优化"</string>
+    <string name="ignore_optimizations_off" msgid="6153196256410296835">"优化"</string>
+    <string name="ignore_optimizations_on_desc" msgid="2321398930330555815">"电池电量的消耗可能会更快"</string>
+    <string name="ignore_optimizations_off_desc" msgid="5255731062045426544">"建议选择此项以延长电池续航时间"</string>
+    <string name="ignore_optimizations_title" msgid="2829637961185027768">"要允许<xliff:g id="APP">%s</xliff:g>忽略电池优化吗？"</string>
+    <string name="work_profile_usage_access_warning" msgid="8870622842216566692">"即使关闭此应用的使用情况访问权限，也无法阻止您的管理员跟踪您工作资料内应用的流量消耗情况。"</string>
+    <string name="accessibility_lock_screen_progress" msgid="2408292742980383166">"已输入 <xliff:g id="COUNT_0">%1$d</xliff:g> 个字符（共可输入 <xliff:g id="COUNT_1">%2$d</xliff:g> 个）"</string>
+    <string name="filter_all_apps" msgid="1988403195820688644">"所有应用"</string>
+    <string name="filter_enabled_apps" msgid="3318021007093070639">"已启用"</string>
+    <string name="filter_personal_apps" msgid="3277727374174355971">"个人应用"</string>
+    <string name="filter_work_apps" msgid="24519936790795574">"工作应用"</string>
+    <string name="filter_notif_blocked_apps" msgid="3446926933792244485">"已屏蔽"</string>
+    <string name="filter_notif_priority_apps" msgid="5965001885749195239">"优先"</string>
+    <string name="filter_notif_sensitive_apps" msgid="4909289478844197927">"敏感内容已隐藏"</string>
+    <string name="filter_notif_no_peeking" msgid="5197968265625096563">"不允许快速查看"</string>
+    <string name="filter_with_domain_urls_apps" msgid="4573276638806792792">"包含网域网址"</string>
+    <string name="filter_write_settings_apps" msgid="2914615026197322551">"可修改系统设置"</string>
+    <string name="usage_access_title" msgid="332333405495457839">"有权查看使用情况的应用"</string>
+    <string name="write_system_settings" msgid="3482913590601096763">"修改系统设置"</string>
+    <string name="configure_apps" msgid="6685680790825882528">"配置应用"</string>
+    <string name="switch_on_text" msgid="1124106706920572386">"开启"</string>
+    <string name="switch_off_text" msgid="1139356348100829659">"关闭"</string>
+    <string name="menu_duration_3h" msgid="4714866438374738385">"3小时"</string>
+    <string name="menu_duration_6h" msgid="1940846763432184132">"6小时"</string>
+    <string name="menu_duration_12h" msgid="7890465404584356294">"12小时"</string>
+    <string name="menu_duration_1d" msgid="3393631127622285458">"1天"</string>
+    <string name="runningservicedetails_stop_dlg_title" msgid="4253292537154337233">"要停止系统服务吗？"</string>
+    <string name="runningservicedetails_stop_dlg_text" product="tablet" msgid="3371302398335665793">"如果停止此服务，您平板电脑上的某些功能也将随之停止工作，并在您将平板电脑关机然后再重新打开后才能使用。"</string>
+    <string name="runningservicedetails_stop_dlg_text" product="default" msgid="3920243762189484756">"如果停止此服务，您手机上的某些功能也将随之停止工作，并在您将手机关机然后再重新打开后才能使用。"</string>
+    <string name="mem_use_kernel_type" msgid="8698327165935012484">"内核"</string>
+    <string name="mem_use_native_type" msgid="5976704902328347400">"本地"</string>
+    <string name="mem_use_kernel_cache_type" msgid="6411475064463957513">"内核缓存"</string>
+    <string name="mem_use_zram_type" msgid="9087217476795358232">"ZRAM交换分区"</string>
+    <string name="mem_use_free_type" msgid="717708548454880840">"可用"</string>
+    <string name="mem_use_total" msgid="6308786055749777934">"总使用量"</string>
+    <string name="storage_volume_summary" msgid="7023441974367853372">"已使用 <xliff:g id="USED">%1$s</xliff:g>（共 <xliff:g id="TOTAL">%2$s</xliff:g>）"</string>
+    <string name="storage_size_large" msgid="5691585991420946254">"<xliff:g id="NUMBER">^1</xliff:g>"<small><small>" <xliff:g id="UNIT">^2</xliff:g>"</small></small>""</string>
+    <string name="storage_volume_used" msgid="1303803057698959872">"（共 <xliff:g id="TOTAL">%1$s</xliff:g>）"</string>
+    <string name="storage_volume_used_total" msgid="6113121714019000244">"共使用 <xliff:g id="TOTAL">%1$s</xliff:g>"</string>
+    <string name="process_stats_total_duration" msgid="7417201400853728029">"过去 <xliff:g id="TIMEDURATION">%3$s</xliff:g>内使用了 <xliff:g id="USEDRAM">%1$s</xliff:g>（共 <xliff:g id="TOTALRAM">%2$s</xliff:g>）"</string>
+    <string name="process_stats_total_duration_percentage" msgid="6522457033380025618">"<xliff:g id="TIMEDURATION">%2$s</xliff:g>内使用了 <xliff:g id="PERCENT">%1$s</xliff:g> 的内存"</string>
+    <string name="process_stats_type_background" msgid="3934992858120683459">"后台"</string>
+    <string name="process_stats_type_foreground" msgid="7713118254089580536">"前台"</string>
+    <string name="process_stats_type_cached" msgid="6314925846944806511">"缓存"</string>
+    <string name="process_stats_os_label" msgid="4813434110442733392">"Android 操作系统"</string>
+    <string name="process_stats_os_native" msgid="5322428494231768472">"本地"</string>
+    <string name="process_stats_os_kernel" msgid="1938523592369780924">"内核"</string>
+    <string name="process_stats_os_zram" msgid="677138324651671575">"Z-RAM"</string>
+    <string name="process_stats_os_cache" msgid="6432533624875078233">"缓存"</string>
+    <string name="process_stats_ram_use" msgid="976912589127397307">"内存使用量"</string>
+    <string name="process_stats_bg_ram_use" msgid="5398191511030462404">"内存使用量（后台）"</string>
+    <string name="process_stats_run_time" msgid="6520628955709369115">"运行时间"</string>
+    <string name="processes_subtitle" msgid="6827502409379462438">"进程"</string>
+    <string name="services_subtitle" msgid="4296402367067266425">"服务"</string>
+    <string name="menu_proc_stats_duration" msgid="2323483592994720196">"时间长度"</string>
+    <string name="mem_details_title" msgid="6548392825497290498">"内存详情"</string>
+    
+    <!-- no translation found for service_client_name (4037193625611815517) -->
+    <skip />
+    <string name="service_background_processes" msgid="6844156253576174488">"可用：<xliff:g id="MEMORY">%1$s</xliff:g>"</string>
+    <string name="service_foreground_processes" msgid="7583975676795574276">"已用：<xliff:g id="MEMORY">%1$s</xliff:g>"</string>
+    <string name="memory" msgid="6609961111091483458">"内存"</string>
+    <!-- no translation found for service_process_name (4098932168654826656) -->
+    <skip />
+    <string name="running_process_item_removed_user_label" msgid="8250168004291472959">"已删除用户"</string>
+    <string name="running_processes_item_description_s_s" msgid="5790575965282023145">"<xliff:g id="NUMPROCESS">%1$d</xliff:g>个进程和<xliff:g id="NUMSERVICES">%2$d</xliff:g>个服务"</string>
+    <string name="running_processes_item_description_s_p" msgid="8019860457123222953">"<xliff:g id="NUMPROCESS">%1$d</xliff:g>个进程和<xliff:g id="NUMSERVICES">%2$d</xliff:g>个服务"</string>
+    <string name="running_processes_item_description_p_s" msgid="744424668287252915">"<xliff:g id="NUMPROCESS">%1$d</xliff:g>个进程和<xliff:g id="NUMSERVICES">%2$d</xliff:g>个服务"</string>
+    <string name="running_processes_item_description_p_p" msgid="1607384595790852782">"<xliff:g id="NUMPROCESS">%1$d</xliff:g>个进程和<xliff:g id="NUMSERVICES">%2$d</xliff:g>个服务"</string>
+    <string name="running_processes_header_used_prefix" msgid="5924288703085123978">"已用"</string>
+    <string name="running_processes_header_cached_prefix" msgid="7950853188089434987">"缓存"</string>
+    <string name="running_processes_header_ram" msgid="996092388884426817">"<xliff:g id="RAM_0">%1$s</xliff:g>"</string>
+    <string name="runningservicedetails_settings_title" msgid="3224004818524731568">"正在运行的应用"</string>
+    <string name="no_services" msgid="7133900764462288263">"无活动服务"</string>
+    <string name="runningservicedetails_services_title" msgid="391168243725357375">"服务"</string>
+    <string name="runningservicedetails_processes_title" msgid="928115582044655268">"进程"</string>
+    <string name="service_stop" msgid="6369807553277527248">"停止"</string>
+    <string name="service_manage" msgid="1876642087421959194">"设置"</string>
+    <string name="service_stop_description" msgid="9146619928198961643">"此服务由其应用启动。停止服务可能会导致应用无法运行。"</string>
+    <string name="heavy_weight_stop_description" msgid="6050413065144035971">"无法安全地停止该应用。如果强行停止，可能会导致您目前的部分工作内容丢失。"</string>
+    <string name="background_process_stop_description" msgid="3834163804031287685">"这是旧应用进程，仍在运行，以备不时之需。通常不建议停止。"</string>
+    <string name="service_manage_description" msgid="7050092269951613102">"目前正在使用“<xliff:g id="CLIENT_NAME">%1$s</xliff:g>”。触摸“设置”可以对其进行控制。"</string>
+    <string name="main_running_process_description" msgid="1130702347066340890">"正在使用的主要进程。"</string>
+    <string name="process_service_in_use_description" msgid="8993335064403217080">"正在使用服务<xliff:g id="COMP_NAME">%1$s</xliff:g>。"</string>
+    <string name="process_provider_in_use_description" msgid="5586603325677678940">"正在使用提供商<xliff:g id="COMP_NAME">%1$s</xliff:g>。"</string>
+    <string name="runningservicedetails_stop_dlg_text" product="tablet" msgid="3371302398335665793">"如果停止此服务，您平板电脑上的某些功能也将随之停止工作，并在您将平板电脑关机然后再重新打开后才能使用。"</string>
+    <string name="runningservicedetails_stop_dlg_text" product="default" msgid="3920243762189484756">"如果停止此服务，您手机上的某些功能也将随之停止工作，并在您将手机关机然后再重新打开后才能使用。"</string>
+    <string name="okay" msgid="1997666393121016642">"确定"</string>
+    
+    <string name="write_settings_preference" msgid="3407383041273067448">"允许应用修改系统设置权限"</string>
+    <string name="permit_write_settings" msgid="6393779336656870080">"允许修改系统设置"</string>
+    <string name="write_settings_description" msgid="6868293938839954623">"此权限允许应用修改系统设置。"</string>
+    <string name="write_settings_on" msgid="8230580416068832239">"允许"</string>
+    <string name="write_settings_off" msgid="5156104383386336233">"不允许"</string>
+    <string name="only_one_home_message" msgid="3538846733750242759">"在您安装其他主屏幕应用之前，主屏幕设置将一直处于隐藏状态。"</string>
+    <string name="storage_internal_format_details" msgid="4018647158382548820">"格式化之后，您就可以在其他设备上使用此<xliff:g id="NAME_0">^1</xliff:g>了。\n\n此<xliff:g id="NAME_1">^1</xliff:g>上的所有数据都将被清空，建议您先将数据备份。\n\n"<b>"备份照片和其他媒体文件"</b>\n"将您的媒体文件移动到此设备上的备用存储设备，或使用 USB 线传输到计算机上。\n\n"<b>"备份应用"</b>\n"存储在此<xliff:g id="NAME_6">^1</xliff:g>上的所有应用都将被卸载，且这些应用的数据也将一并被清空。要保留这些应用，请将它们移到此设备上的备用存储设备。"</string>
+    <string name="storage_internal_unmount_details" msgid="3582802571684490057"><b>"当您弹出此<xliff:g id="NAME_0">^1</xliff:g>后，存储在其中的应用将会停止运行，而且存储在其中的媒体文件也将无法使用，除非您重新插入设备。"</b>\n\n"此<xliff:g id="NAME_1">^1</xliff:g>已经过格式化，只能在这台设备上使用，因此在任何其他设备上均将无法使用。"</string>
+    <string name="storage_internal_forget_details" msgid="9028875424669047327">"要使用此<xliff:g id="NAME">^1</xliff:g>中包含的应用、照片或数据，请将其重新插入。\n\n另外，如果该存储设备无法使用，您可以选择取消保存此设备。\n\n如果您选择取消保存，那么该设备中包含的所有数据均将永久丢失。\n\n尽管您以后可以重新安装这些应用，但存储在此设备上的这些应用数据将会丢失。"</string>
+    <string name="storage_internal_forget_confirm_title" msgid="1370847944388479245">"要取消保存<xliff:g id="NAME">^1</xliff:g>吗？"</string>
+    <string name="storage_internal_forget_confirm" msgid="1148446041396902905">"此<xliff:g id="NAME">^1</xliff:g>上存储的所有应用、照片和数据将会永久丢失。"</string>
+   
+    <string name="storage_other_users" msgid="808708845102611856">"其他用户"</string>
+    <string name="storage_mount_success" msgid="687641090137253647">"<xliff:g id="NAME">%1$s</xliff:g>已装载"</string>
+    <string name="storage_mount_failure" msgid="1042621107954547316">"无法装载<xliff:g id="NAME">%1$s</xliff:g>"</string>
+    <string name="storage_unmount_success" msgid="5737203344673441677">"<xliff:g id="NAME">%1$s</xliff:g>已安全弹出"</string>
+    <string name="storage_unmount_failure" msgid="5758387106579519489">"无法安全弹出<xliff:g id="NAME">%1$s</xliff:g>"</string>
+    <string name="storage_format_success" msgid="3023144070597190555">"已将<xliff:g id="NAME">%1$s</xliff:g>格式化"</string>
+    <string name="storage_format_failure" msgid="6032640952779735766">"无法格式化<xliff:g id="NAME">%1$s</xliff:g>"</string>
+    <string name="storage_rename_title" msgid="8242663969839491485">"重命名存储设备"</string>
+    <string name="storage_dialog_unmounted" msgid="6403320870103261477">"此<xliff:g id="NAME_0">^1</xliff:g>已安全弹出，但仍在卡槽内。\n\n要使用此<xliff:g id="NAME_1">^1</xliff:g>，您必须先对其进行装载。"</string>
+    <string name="storage_dialog_unmountable" msgid="3732209361668282254">"此<xliff:g id="NAME_0">^1</xliff:g>已损坏。\n\n要使用此<xliff:g id="NAME_1">^1</xliff:g>，您必须先对其进行设置。"</string>
+    <string name="storage_dialog_unsupported" msgid="4503128224360482228">"此设备不支持该<xliff:g id="NAME_0">^1</xliff:g>。\n\n要在此设备上使用此<xliff:g id="NAME_1">^1</xliff:g>，您必须先对其进行设置。"</string>
+    <string name="storage_detail_apps" msgid="6141154016753507490">"应用"</string>
+    <string name="storage_detail_images" msgid="6950678857740634769">"图片"</string>
+    <string name="storage_detail_videos" msgid="2919743464827110953">"视频"</string>
+    <string name="storage_detail_audio" msgid="1197685141676483213">"音频"</string>
+    <string name="storage_detail_cached" msgid="8547136365247818567">"缓存数据"</string>
+    <string name="storage_detail_other" msgid="8404938385075638238">"其他"</string>
+    <string name="storage_detail_explore" msgid="7911344011431568294">"浏览<xliff:g id="NAME">^1</xliff:g>"</string>
+    <string name="storage_detail_dialog_other" msgid="4894289482062047165">"其他还包括应用保存的共享文件、通过互联网或蓝牙下载的文件、Android 文件等。\n\n要查看此<xliff:g id="NAME">^1</xliff:g>中的全部内容，请触摸“浏览”。"</string>
+    <string name="storage_detail_dialog_user" msgid="1675756743326079688">"<xliff:g id="USER_0">^1</xliff:g>所保存的照片、音乐、电影、应用或其他数据可能占用了 <xliff:g id="SIZE">^2</xliff:g> 的存储空间。\n\n要查看详细信息，请切换到<xliff:g id="USER_1">^1</xliff:g>。"</string>
+    <string name="storage_wizard_init_title" msgid="5085400514028585772">"设置您的<xliff:g id="NAME">^1</xliff:g>"</string>
+    <string name="storage_wizard_format_confirm_title" msgid="2814021794538252546">"格式化为内部存储设备"</string>
+    <string name="storage_wizard_format_confirm_body" msgid="4401758710076806509">"<xliff:g id="NAME_0">^1</xliff:g>必须进行格式化，以确保安全。\n\n格式化之后，此<xliff:g id="NAME_1">^1</xliff:g>将只能在这台设备上使用。\n\n"<b>"格式化操作会清空当前存储在<xliff:g id="NAME_2">^1</xliff:g>上的所有数据。"</b>"为避免丢失数据，建议您先将数据备份。"</string>
+    <string name="storage_wizard_format_confirm_public_title" msgid="4905690038882041566">"格式化为便携式存储设备"</string>
+    <string name="storage_wizard_format_confirm_public_body" msgid="1516932692920060272">"<xliff:g id="NAME_0">^1</xliff:g>必须进行格式化。\n\n"<b>"格式化操作会清空当前存储在<xliff:g id="NAME_1">^1</xliff:g>上的所有数据。"</b>"为避免丢失数据，建议您先将数据备份。"</string>
+    <string name="storage_wizard_format_confirm_next" msgid="2774557300531702572">"清空并格式化"</string>
+    <string name="storage_wizard_format_progress_title" msgid="6487352396450582292">"正在格式化<xliff:g id="NAME">^1</xliff:g>…"</string>
+    <string name="storage_wizard_format_progress_body" msgid="4445041233802828430">"请勿在格式化过程中移除该<xliff:g id="NAME">^1</xliff:g>。"</string>
+    <string name="storage_wizard_migrate_title" msgid="1363078147938160407">"将数据移动到新的存储设备"</string>
+    <string name="storage_wizard_migrate_body" msgid="890751699549542345">"您可以将自己的照片、文件和部分应用转移到这个新<xliff:g id="NAME">^1</xliff:g>上。\n\n转移操作大约需要 <xliff:g id="TIME">^2</xliff:g>，完成后将腾出 <xliff:g id="SIZE">^3</xliff:g> 的内部存储空间。在转移过程中，部分应用将无法正常运行。"</string>
+    <string name="storage_wizard_migrate_confirm_title" msgid="8564833529613286965">"立即移动数据"</string>
+    <string name="storage_wizard_migrate_confirm_body" msgid="4212060581792135962"><b>"该移动操作需要花费大约 <xliff:g id="TIME">^1</xliff:g>，完成后将在<xliff:g id="NAME">^3</xliff:g>上腾出 <xliff:g id="SIZE">^2</xliff:g> 的空间。"</b></string>
+    <string name="storage_wizard_migrate_confirm_next" msgid="5509475628423823202">"移动"</string>
+    <string name="storage_wizard_migrate_progress_title" msgid="1665479429044202868">"正在移动数据…"</string>
+    <string name="storage_wizard_migrate_details" msgid="3709728824651136227">"在移动数据的过程中：\n• 请勿移除相应的<xliff:g id="NAME">^1</xliff:g>。\n• 某些应用将无法正常运行。\n• 需确保设备电量充足。"</string>
+    <string name="storage_wizard_ready_title" msgid="5381632402953258267">"<xliff:g id="NAME">^1</xliff:g>可以使用了"</string>
+    <string name="storage_wizard_ready_external_body" msgid="2879508114260597474">"您的<xliff:g id="NAME">^1</xliff:g>已设置完毕，可用于存储照片和其他媒体文件了。"</string>
+    <string name="storage_wizard_ready_internal_body" msgid="122532674037860197">"新的<xliff:g id="NAME">^1</xliff:g>可以使用了。\n\n要将照片、文件和应用数据移动到此设备，请转到“设置”&gt;“存储”。"</string>
+    <string name="storage_wizard_move_confirm_title" msgid="292782012677890250">"移动<xliff:g id="APP">^1</xliff:g>"</string>
+    <string name="storage_wizard_move_confirm_body" msgid="5176432115206478941">"将<xliff:g id="APP">^1</xliff:g>及其相关数据移动到<xliff:g id="NAME_0">^2</xliff:g>仅需几分钟时间。在移动操作完成前，您将无法使用该应用。\n\n请勿在移动过程中移除该<xliff:g id="NAME_1">^2</xliff:g>。"</string>
+    <string name="storage_wizard_move_progress_title" msgid="4443920302548035674">"正在移动<xliff:g id="APP">^1</xliff:g>…"</string>
+    <string name="storage_wizard_move_progress_body" msgid="7802577486578105609">"请勿在移动过程中移除该<xliff:g id="NAME">^1</xliff:g>。\n\n在移动操作完成前，您将无法使用此设备上的<xliff:g id="APP">^2</xliff:g>应用。"</string>
+    <string name="storage_wizard_move_progress_cancel" msgid="542047237524588792">"取消移动"</string>
+    <string name="storage_wizard_slow_body" msgid="8010127667184768025">"此<xliff:g id="NAME_0">^1</xliff:g>似乎运行缓慢。\n\n您可以继续使用，但应用移动到此处后可能无法流畅运行，而且数据传输可能会花费很长时间。\n\n建议您使用运行速度更快的<xliff:g id="NAME_1">^1</xliff:g>来提升性能。"</string>
+    <string name="storage_menu_set_up" msgid="4263294929451685366">"设置"</string>
+    <string name="storage_low_title" msgid="1388569749716225155">"存储空间不足"</string>
+    <string name="storage_low_summary" msgid="7737465774892563129">"某些系统功能（如同步）可能无法正常使用。请尝试删除或取消在本地保存某些内容（如应用数据或媒体内容），以便释放存储空间。"</string>
+    <string name="storage_menu_format_public" msgid="7464714208010125682">"格式化为便携式存储设备"</string>
+    <string name="storage_menu_explore" msgid="4637496051816521560">"浏览"</string>
+    <string name="storage_title_usb" msgid="679612779321689418">"USB计算机连接"</string>
+    <string name="memory_calculating_size" msgid="2188358544203768588">"正在计算..."</string>
+
+    <string name="forget" msgid="1400428660472591263">"取消保存"</string>
+    <string name="save" msgid="879993180139353333">"保存"</string>
+    <string name="done" msgid="6942539184162713160">"完成"</string>
+    <string name="memory_clear_cache_title" msgid="5423840272171286191">"是否清除缓存数据？"</string>
+    <string name="memory_clear_cache_message" msgid="4550262490807415948">"此操作会清除所有应用的缓存数据。"</string>
+    <string name="no_notification_listeners" msgid="3487091564454192821">"没有任何已安装的应用请求通知访问权限。"</string>
+    <string name="notification_listener_security_warning_title" msgid="5522924135145843279">"要允许<xliff:g id="SERVICE">%1$s</xliff:g>获取通知访问权限吗？"</string>
+    <string name="notification_listener_security_warning_summary" msgid="548925084229440829">"<xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g>将可读取所有通知（包括联系人姓名和您收到的消息等个人信息），还可关闭通知或触发其中的操作按钮。"</string>
+    <string name="manage_notification_access_summary_zero" msgid="2409912785614953348">"应用无法读取通知"</string>
+    <plurals name="manage_notification_access_summary_nonzero" formatted="false" msgid="7930130030691218387">
+      <item quantity="other">%d 个应用可以读取通知</item>
+      <item quantity="one">%d 个应用可以读取通知</item>
+    </plurals>
+    <string name="dock_audio_media_disabled" msgid="3430953622491538080">"所有音频"</string>
+    <string name="dock_audio_media_enabled" msgid="667849382924908673">"仅限媒体音频"</string>
+    <string name="emergency_tone_silent" msgid="1067515631635824291">"静音"</string>
+    <string name="emergency_tone_alert" msgid="8941852695428130667">"警示音"</string>
+    <string name="emergency_tone_vibrate" msgid="8281126443204950847">"振动"</string>
+    <string name="app_notifications_dialog_done" msgid="3484067728568791014">"完成"</string>
+    <string name="zen_access_empty_text" msgid="8772967285742259540">"没有任何已安装应用请求“勿扰”权限"</string>
+    
+    <string name="zen_mode_add_rule" msgid="9100929184624317193">"添加规则"</string>
+    <string name="zen_mode_delete_rule_confirmation" msgid="6237882294348570283">"要删除“<xliff:g id="RULE">%1$s</xliff:g>”规则吗？"</string>
+    <string name="zen_mode_delete_rule_button" msgid="4248741120307752294">"删除"</string>
+    <string name="zen_mode_rule_type_unknown" msgid="3049377282766700600">"未知"</string>
+    <string name="zen_schedule_rule_enabled_toast" msgid="3379499360390382259">"将自动规则设置为在指定时间段内开启“请勿打扰”"</string>
+    <string name="zen_event_rule_enabled_toast" msgid="6910577623330811480">"将自动规则设置为发生指定事件时开启“请勿打扰”"</string>
+    <string name="zen_mode_event_rule_summary_calendar_template" msgid="5135844750232403975">"在<xliff:g id="CALENDAR">%1$s</xliff:g>的活动期间"</string>
+    <string name="zen_mode_event_rule_summary_any_calendar" msgid="4936646399126636358">"所有日历"</string>
+    <string name="zen_mode_event_rule_summary_reply_template" msgid="6590671260829837157">"回复内容如下的活动：<xliff:g id="REPLY">%1$s</xliff:g>"</string>
+    <string name="zen_mode_event_rule_calendar_any" msgid="6485568415998569885">"所有日历"</string>
+    <string name="zen_mode_event_rule_reply_any_except_no" msgid="8868873496008825961">"“参加”、“可能参加”或“未回复”"</string>
+    <string name="zen_mode_event_rule_reply_yes_or_maybe" msgid="2769656565454495824">"“参加”或“可能参加”"</string>
+    <string name="zen_mode_event_rule_reply_yes" msgid="1003598835878784659">"是"</string>
+    <string name="zen_mode_rule_not_found_text" msgid="8963662446092059836">"找不到规则。"</string>
+    <string name="zen_mode_rule_summary_combination" msgid="2526506268333198254">"<xliff:g id="DESCRIPTION">%1$s</xliff:g> / <xliff:g id="MODE">%2$s</xliff:g>"</string>
+    <string name="zen_mode_schedule_rule_days_none" msgid="4954143628634166317">"无"</string>
+    <string name="zen_mode_schedule_rule_days_all" msgid="146511166522076034">"每天"</string>
+    <string name="summary_divider_text" msgid="7228986578690919294">"， "</string>
+    <string name="summary_range_symbol_combination" msgid="5695218513421897027">"<xliff:g id="START">%1$s</xliff:g> - <xliff:g id="END">%2$s</xliff:g>"</string>
+    <string name="summary_range_verbal_combination" msgid="8467306662961568656">"<xliff:g id="START">%1$s</xliff:g>到<xliff:g id="END">%2$s</xliff:g>"</string>
+    <string name="zen_mode_selected_messages" msgid="8245990149599142281">"已选消息"</string>
+    <string name="zen_mode_from_anyone" msgid="2638322015361252161">"来自任何人"</string>
+    <string name="zen_mode_from_contacts" msgid="2232335406106711637">"仅限来自联系人"</string>
+    <string name="zen_mode_from_starred" msgid="2678345811950997027">"仅限来自收藏的联系人"</string>
+    <string name="zen_mode_from_none" msgid="8219706639954614136">"无"</string>
+    <string name="zen_mode_selected_callers" msgid="3127598874060615742">"所选的来电者"</string>
+    <string name="zen_mode_repeat_callers_summary" msgid="7192713032364140137">"如果同一个人在 <xliff:g id="MINUTES">%d</xliff:g> 分钟内第二次来电，则允许显示通知"</string>
+    <string name="zen_mode_when" msgid="2767193283311106373">"自动开启"</string>
+    <string name="zen_mode_when_never" msgid="8809494351918405602">"永不"</string>
+    <string name="zen_mode_when_every_night" msgid="3122486110091921009">"每晚"</string>
+    <string name="zen_mode_when_weeknights" msgid="8354070633893273783">"周一至周五夜间"</string>
+    <string name="zen_mode_start_time" msgid="8102602297273744441">"开始时间"</string>
+    <string name="zen_mode_end_time" msgid="8774327885892705505">"结束时间"</string>
+    <string name="zen_mode_end_time_next_day_summary_format" msgid="4201521691238728701">"次日 <xliff:g id="FORMATTED_TIME">%s</xliff:g>"</string>
+    <string name="zen_mode_summary_alarms_only_indefinite" msgid="2061973221027570123">"更改为无限期仅限闹钟"</string>
+    <plurals name="zen_mode_summary_alarms_only_by_minute" formatted="false" msgid="6122003583875424601">
+      <item quantity="other">更改为仅限闹钟，持续 <xliff:g id="DURATION">%1$d</xliff:g> 分钟（到<xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g>）</item>
+      <item quantity="one">更改为仅限闹钟，持续 1 分钟（到<xliff:g id="FORMATTEDTIME_0">%2$s</xliff:g>）</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_hour" formatted="false" msgid="2407703455581767748">
+      <item quantity="other">更改为仅限闹钟，持续 <xliff:g id="DURATION">%1$d</xliff:g> 小时（到<xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g>）</item>
+      <item quantity="one">更改为仅限闹钟，持续 1 小时（到<xliff:g id="FORMATTEDTIME_0">%2$s</xliff:g>）</item>
+    </plurals>
+    <string name="zen_mode_summary_alarms_only_by_time" msgid="7465525754879341907">"更改为仅限闹钟（到<xliff:g id="FORMATTEDTIME">%1$s</xliff:g>）"</string>
+    <string name="zen_mode_summary_always" msgid="6172985102689237703">"更改为一律允许打扰"</string>
+    <string name="zen_mode_option_important_interruptions" msgid="3903928008177972500">"仅限优先打扰"</string>
+    <string name="zen_mode_option_alarms" msgid="5785372117288803600">"仅限闹钟"</string>
+    <string name="zen_mode_option_no_interruptions" msgid="8107126344850276878">"完全阻止"</string>
+    <string name="zen_mode_summary_combination" msgid="8715563402849273459">"<xliff:g id="MODE">%1$s</xliff:g>：<xliff:g id="EXIT_CONDITION">%2$s</xliff:g>"</string>
+    <string name="done_button" msgid="1991471253042622230">"完成"</string>
+    <string name="app_count">共<xliff:g id="count">%1$d</xliff:g>个应用</string>
+    <string name="authority_management">权限管理</string>
+    <string name="advertising_interception">广告拦截</string>
+    <string name="self_starting">自启动</string>
+    <string name="network_management">联网管理</string>
+	<string name="space_management">空间管理</string>
+	<string name="default_software">默认软件</string>
+	<string name="notification_management">通知管理</string>
+    <string name="coding">开发中……</string>
+    
+    <string name="data_usage_app_restrict_forground_summary" >"使用移动网络时关闭流量。"</string>
+    <string name="data_usage_restrict_forground_title" >"要限制流量吗？"</string>
+    <string name="data_usage_restrict_forground_multiuser" product="tablet">"如果您限制移动数据流量，则只有在您连接到WLAN网络时，部分应用和服务才能正常运行。\n\n此设置会影响这台平板电脑上的所有用户。"</string>
+    <string name="data_usage_restrict_forground_multiuser" product="default" >"如果您限制移动数据流量，则只有在您连接到WLAN网络时，部分应用和服务才能正常运行。\n\n此设置会影响这部手机上的所有用户。"</string>
+    <string name="data_usage_restrict_forground" >"如果您限制移动数据流量，则只有在您连接到WLAN网络时，部分应用和服务才能正常运行。"</string>
+    <string name="data_usage_app_restrict_forground" >"限制应用流量"</string>
+    <string name="data_usage_restrict_denied_dialog_forground" >"您需要先设置移动数据流量上限，然后才能限制流量。"</string>
+    <string name="data_usage_app_restrict_dialog_title_forground" >"要限制流量吗？"</string>
+    <string name="data_usage_app_restrict_dialog_forground" >"只能连接到移动网络时，此功能可能会导致需要使用流量的应用无法正常运行。\n\n您可以在相关应用的设置中为其设定更合适的数据流量控制选项。"</string>
+    
+    <string name="reject_data">移动数据</string>
+    <string name="wifi_data">WIFI数据</string>
+    <string name="back_reject_data">后台联网</string>
+    
+    <string name="data_disabled_apps">已禁用移动数据联网应用(<xliff:g id="apps">%d</xliff:g>个)</string>
+    <string name="data_enabled_apps">正常使用移动数据联网应用(<xliff:g id="apps">%d</xliff:g>个)</string>
+    <string name="data_disabled_apps_back">已禁用后台移动数据联网(<xliff:g>%1$d</xliff:g>个)</string>
+    <string name="data_enabled_apps_back">正常使用后台移动数据联网(<xliff:g>%1$d</xliff:g>个)</string>
+    <string name="storage_volume_summary_app">:<xliff:g id="total" example="32GB">%1$s</xliff:g>可用</string>
+    <string name="no_sdcard">没有sd卡</string>
+    <string name="sort_order_app_size" >"按应用大小排序"</string>
+    <string name="sort_order_size_internal_size" >"按缓存大小排序"</string>
+    <string name="app_info" >"应用详情"</string>
+    <string name="delete_app" >"卸载"</string>
+    <string name="home_application_title" >"桌面"</string>
+
+    <string name="system_default">系统默认</string>
+    <string name="default_launcher_title">桌面</string>
+    <string name="default_camera_title">相机</string>
+    <string name="default_gallery_title">图库</string>
+    <string name="default_music_title">音乐</string>
+    <string name="default_video_title">视频</string>
+    <string name="default_text_title">电子书</string>
+    <string name="default_mail_title">邮件</string>
+    <string name="permissions_title">应用权限</string>
+    <string name="default_permission_description" >"执行未知操作"</string>
+    <string name="location_warning" >"“<xliff:g id="APP_NAME">%1$s</xliff:g>”是此设备的一个位置信息服务提供程序。您可以在位置信息设置中修改位置信息使用权。"</string>
+	<string name="ok" >"确定"</string>
+	<string name="location_settings" >"位置信息设置"</string>
+	
+	<string name="virus_scan" >"广告扫描"</string>
+	<string name="one_key_intercept" >"一键拦截"</string>
+	<string name="one_key_scan" >"一键扫描"</string>
+	<string name="virus_count_info" >含<xliff:g id="VIRUS_COUNT">%1$s</xliff:g>款广告插件</string>
+	<string name="virus_count_title" ><xliff:g id="VIRUS_COUNT">%1$s</xliff:g>&#160;款应用含广告</string>
+	<string name="virus_count_intercept_title" ><xliff:g id="VIRUS_COUNT">%1$s</xliff:g>个应用已拦截广告</string>
+	<string name="virus_info" >广告详情</string>
+	<string name="intercept" >"拦截广告"</string>
+	<string name="disintercept" >"取消拦截"</string>
+	<string name="uninstall_app" >"卸载"</string>
+	<string name="scaning" >"扫描中..."</string>
+	<string name="phone_storage" >"手机存储"</string>
+	<string name="get_sensitive_permission" >"获取敏感权限"</string>
+	<string name="get_sensitive_permission_summery" >"发现<xliff:g id="VIRUS_COUNT">%1$s</xliff:g>款应用获取不必要权限"</string>
+	<string name="ad_intercept" >"广告拦截"</string>
+	<string name="ad_intercept_summery" >"发现<xliff:g id="VIRUS_COUNT">%1$s</xliff:g>款应用含广告插件"</string>
+	<string name="suspension_window" >"悬浮窗"</string>
+	<string name="suspension_window_summery" >"发现<xliff:g id="VIRUS_COUNT">%1$s</xliff:g>款应用使用悬浮窗"</string>
+	<string name="add_shortcut" >"新建快捷方式"</string>
+	<string name="add_shortcut_summery" >"发现<xliff:g id="VIRUS_COUNT">%1$s</xliff:g>款应用自动创建桌面快捷方式"</string>
+	<string name="rescan" >"重新扫描"</string>
+	<string name="one_key_optimization" >"一键优化"</string>
+	
+	<string name="main_page_app_count" >"款&#160;&#160;&#160;&#160;&#160;&#160;应&#160;&#160;&#160;&#160;&#160;&#160;用&#160;&#160;&#160;&#160;&#160;&#160;"</string>
+    <string name="app_name" msgid="2738748390251381682">"软件包安装程序"</string>
+    <string name="next" msgid="3057143178373252333">"下一步"</string>
+    <string name="install" msgid="5896438203900042068">"安装"</string>
+    <string name="security_settings_desc" msgid="2706691034244052604">"允许此应用获取："</string>
+    <string name="installing" msgid="8613631001631998372">"正在安装..."</string>
+    <string name="install_done" msgid="3682715442154357097">"应用安装完成。"</string>
+    <string name="install_confirm_question" msgid="7295206719219043890">"要安装此应用吗？它将获得以下权限："</string>
+    <string name="install_confirm_question_no_perms" msgid="5918305641302873520">"您要安装此应用吗？此应用不需要任何特殊权限。"</string>
+    <string name="install_confirm_question_update" msgid="4624159567361487964">"您要安装此应用的新版本吗？您现有的数据不会丢失。更新后的应用将具备以下权限："</string>
+    <string name="install_confirm_question_update_system" msgid="1302330093676416336">"您要安装此内置应用的新版本吗？您现有的数据不会丢失。更新后的应用将具备以下权限："</string>
+    <string name="install_confirm_question_update_no_perms" msgid="4885928136844618944">"是否要为这一现有应用安装更新？您现有的数据不会丢失，且安装过程无需任何特殊权限。"</string>
+    <string name="install_confirm_question_update_system_no_perms" msgid="7676593512694724374">"是否要为这一内置应用安装更新？您现有的数据不会丢失，且安装过程无需任何特殊权限。"</string>
+    <string name="install_failed" msgid="6579998651498970899">"应用未安装。"</string>
+    <string name="install_failed_invalid_apk" msgid="1287935707565682604">"该软件包似乎已损坏。"</string>
+    <string name="install_failed_inconsistent_certificates" msgid="1517751954440692054">"已安装了存在签名冲突的同名软件包。"</string>
+    <string name="install_failed_older_sdk" msgid="7947925824732917665">"该软件包仅适用于更高版本的Android。"</string>
+    <string name="install_failed_cpu_abi_incompatible" product="tablet" msgid="7098684468842750800">"此应用与您的平板电脑不兼容。"</string>
+    <string name="install_failed_cpu_abi_incompatible" product="tv" msgid="1309625657882930450">"此应用与您的电视不兼容。"</string>
+    <string name="install_failed_cpu_abi_incompatible" product="default" msgid="4433316303249711331">"此应用与您的手机不兼容。"</string>
+    <string name="install_failed_file_not_found" msgid="1958430133396322619">"软件包已被删除，无法完成安装。"</string>
+    <string name="install_failed_verify_failed" msgid="5567372439890440205">"该软件包未通过验证，无法安装。"</string>
+    <string name="install_failed_verify_timeout" msgid="7083090219270140373">"尝试验证此软件包时发生超时。请稍后尝试重新安装。"</string>
+    <string name="install_failed_msg" product="tablet" msgid="8368835262605608787">"无法在您的平板电脑上安装“<xliff:g id="APP_NAME">%1$s</xliff:g>”。"</string>
+    <string name="install_failed_msg" product="tv" msgid="3990457938384021566">"无法将<xliff:g id="APP_NAME">%1$s</xliff:g>安装到您的电视上。"</string>
+    <string name="install_failed_msg" product="default" msgid="8554909560982962052">"无法在您的手机上安装“<xliff:g id="APP_NAME">%1$s</xliff:g>”。"</string>
+    <string name="launch" msgid="4826921505917605463">"打开"</string>
+    <string name="unknown_apps_dlg_title" msgid="2855558586206583032">"禁止安装"</string>
+    <string name="unknown_apps_dlg_text" product="tablet" msgid="7504186369474734767">"出于安全考虑，您的平板电脑已设置为禁止安装来源不明的应用。"</string>
+    <string name="unknown_apps_dlg_text" product="tv" msgid="7195713985140602351">"出于安全考虑，您的电视已设置为禁止安装来源不明的应用。"</string>
+    <string name="unknown_apps_dlg_text" product="default" msgid="133213135679009316">"出于安全考虑，您的手机已设置为禁止安装来源不明的应用。"</string>
+    <string name="unknown_apps_admin_dlg_text" msgid="1189146324736698462">"您的管理员不允许安装来源不明的应用。"</string>
+    <string name="settings" msgid="6743583734099755409">"设置"</string>
+    <string name="allow_source_dlg_title" msgid="7568985073502399415">"新的应用来源"</string>
+    <string name="allow_source_dlg_text" msgid="3927580956764099076">"<xliff:g id="APP_NAME">%1$s</xliff:g>要求安装其他应用。\n\n从现在起允许此操作吗？"</string>
+    <string name="manage_applications" msgid="4033876279091996596">"管理应用"</string>
+    <string name="dlg_app_replacement_title" msgid="1232230739563820951">"要替换该应用吗？"</string>
+    <string name="dlg_app_replacement_statement" msgid="2992911899989907492">"您要安装的应用将替换另一应用。\n\n系统将保存您以前的所有用户数据。"</string>
+    <string name="dlg_sys_app_replacement_statement" msgid="1900046590819605929">"这是系统应用。\n\n系统将保存您以前的所有用户数据。"</string>
+    <string name="out_of_space_dlg_title" msgid="7843674437613797326">"没有存储空间"</string>
+    <string name="out_of_space_dlg_text" msgid="4774775404294282216">"无法安装“<xliff:g id="APP_NAME">%1$s</xliff:g>”，请释放一些存储空间并重试。"</string>
+    <string name="uninstall_application_title" msgid="1860074100811653963">"卸载应用"</string>
+    <string name="uninstall_update_title" msgid="4146940097553335390">"卸载更新"</string>
+    <string name="uninstall_activity_text" msgid="6680688689803932550">"<xliff:g id="ACTIVITY_NAME">%1$s</xliff:g>属于以下应用："</string>
+    <string name="uninstall_application_text" msgid="6691975835951187030">"要卸载此应用吗？"</string>
+    <string name="uninstall_application_text_all_users" msgid="5574704453233525222">"是否要为"<b>"所有"</b>"用户卸载此应用？系统将为设备上的"<b>"所有"</b>"用户删除此应用及其数据。"</string>
+    <string name="uninstall_application_text_user" msgid="8766882355635485733">"您要为用户<xliff:g id="USERNAME">%1$s</xliff:g>卸载此应用吗？"</string>
+    <string name="uninstall_update_text" msgid="2056387942084605027">"您要将此应用替换成出厂版本吗？"</string>
+    <string name="uninstalling" msgid="5556217435895938250">"正在卸载..."</string>
+    <string name="uninstall_done" msgid="3792487853420281888">"卸载完成"</string>
+    <string name="uninstall_failed" msgid="631122574306299512">"卸载失败"</string>
+    <string name="uninstall_failed_device_policy_manager" msgid="3493789239037852035">"此软件包是当前使用的设备管理器，无法卸载。"</string>
+    <string name="uninstall_failed_device_policy_manager_of_user" msgid="4466062391552204291">"无法卸载此软件包，因为它是用户 <xliff:g id="USERNAME">%1$s</xliff:g> 当前使用的设备管理软件包。"</string>
+    <string name="uninstall_blocked_profile_owner" msgid="5397102354360532069">"这是您的工作资料所需的应用，因此无法卸载。"</string>
+    <string name="uninstall_blocked_device_owner" msgid="7074175526413453063">"这是您的设备管理员要求必须安装的应用，因此无法卸载。"</string>
+    <string name="manage_device_administrators" msgid="891392489300312370">"管理设备管理器"</string>
+    <string name="uninstall_failed_msg" msgid="8969754702803951175">"无法卸载“<xliff:g id="APP_NAME">%1$s</xliff:g>”。"</string>
+    <string name="Parse_error_dlg_title" msgid="6079580916889596257">"解析错误"</string>
+    <string name="Parse_error_dlg_text" msgid="7623286983621067011">"解析软件包时出现问题。"</string>
+    <string name="newPerms" msgid="6039428254474104210">"新权限"</string>
+    <string name="allPerms" msgid="1024385515840703981">"全部"</string>
+    <string name="privacyPerms" msgid="1850527049572617">"隐私相关权限"</string>
+    <string name="devicePerms" msgid="6733560207731294504">"设备相关权限"</string>
+    <string name="no_new_perms" msgid="6657813692169565975">"新版本不需要任何新的权限。"</string>
+    <string name="grant_confirm_question" msgid="4690289297029223742">"要向该应用授予以下权限吗？"</string>
+    <string name="grant_dialog_button_allow" msgid="4616529495342337095">"允许"</string>
+    <string name="grant_dialog_button_deny" msgid="2176510645406614340">"拒绝"</string>
+    <string name="current_permission_template" msgid="6378304249516652817">"第 <xliff:g id="CURRENT_PERMISSION_INDEX">%1$s</xliff:g> 项权限（共 <xliff:g id="PERMISSION_COUNT">%2$s</xliff:g> 项）"</string>
+    <string name="permission_warning_template" msgid="5209102765005869454">"要允许<xliff:g id="APP_NAME">%1$s</xliff:g><xliff:g id="ACTION">%2$s</xliff:g>吗？"</string>
+    <string name="app_permissions_breadcrumb" msgid="3390836200791539264">"应用"</string>
+    <string name="never_ask_again" msgid="3798895821072102967">"不再询问"</string>
+    <string name="no_permissions" msgid="3210542466245591574">"没有权限"</string>
+    <plurals name="additional_permissions_more" formatted="false" msgid="945127158155064388">
+      <item quantity="other">另外 <xliff:g id="COUNT_1">%1$d</xliff:g> 项</item>
+      <item quantity="one">另外 <xliff:g id="COUNT_0">%1$d</xliff:g> 项</item>
+    </plurals>
+    <string name="old_sdk_deny_warning" msgid="3872277112584842615">"此应用专为旧版 Android 打造。拒绝权限可能会导致其无法正常运行。"</string>
+
+    <string name="permission_title" msgid="6495415273398916381">"<xliff:g id="PERMISSION">%1$s</xliff:g>权限"</string>
+    <string name="no_apps" msgid="1965493419005012569">"没有应用"</string>
+    <string name="system_warning" msgid="7103819124542305179">"如果您拒绝此权限，您设备的基本功能可能会无法正常使用。"</string>
+    <string name="permission_summary_enforced_by_policy" msgid="3418617316188986205">"依据政策强制执行"</string>
+    <string name="loading" msgid="7811651799620593731">"正在加载…"</string>
+    <string name="all_permissions" msgid="5156669007784613042">"所有权限"</string>
+    <string name="other_permissions" msgid="2016192512386091933">"其他应用功能"</string>
+    <string name="permission_request_title" msgid="1204446718549121199">"权限请求"</string>
+    <string name="screen_overlay_title" msgid="3021729846864038529">"检测到屏幕叠加层"</string>
+    <string name="screen_overlay_message" msgid="2141944461571677331">"要更改此权限设置，您必须首先在“设置”&gt;“应用”中关闭屏幕叠加层"</string>
+    <string name="screen_overlay_button" msgid="4344544843349937743">"打开设置"</string>
+
+    <string name="permissions">按权限查看</string>
+    <string name="apps">按应用查看</string>
+     <string name="permission_count" >"<xliff:g id="PERMISSION">%1$s</xliff:g>项权限"</string>
+     <string name="sensitive_authority" >"敏感权限(<xliff:g id="PERMISSION">%1$s</xliff:g>个)"</string>     
+     <string name="senior_authority" >"高级权限(<xliff:g id="PERMISSION">%1$s</xliff:g>个)"</string>     
+	<string name="dialog_title_select_order_type" >"请选择排序方式"</string>
+	<string name="dialog_title_select_connect_type" >"请选择联网类型"</string>
+    <string name="third_part_app">个人应用</string>
+    <string name="system_app">系统应用</string>
+    <string name="system_component">系统组件</string>
+    <string name="running_app">正在运行</string>
+    <string name="mem_detail">内存详情：<xliff:g>%1$s</xliff:g>/<xliff:g>%2$s</xliff:g></string>
+    <string name="mem_used_percentage">已使用</string>
+    <string name="clear_cache_dlg_title" >"要删除应用缓存吗？"</string>
+    <string name="clear_cache_dlg_text" >"系统会永久删除此应用的所有缓存数据。"</string>
+    <string name="intercepting_ad_dlg_title" >"正在拦截所有广告. . ."</string>
+    <string name="optimize_complete" >"已完成优化"</string>
+    <string name="optimize_search_complete" >"未发现风险"</string>
+    <string name="optimize_btn_go_home" >"回到首页"</string>
+    <string name="intercept_success" >"拦截成功"</string>
+    <string name="scan_complete" >"扫描完成"</string>
+    <string name="pref_title_notification" >"通知"</string>
+    <string name="notification_item1" >"自<xliff:g id="DATE">%2$s</xliff:g>起共推送通知:&#160;&#160;<xliff:g id="number">%1$s</xliff:g>条"</string>
+    <string name="notification_item2" >"已拦截非重要通知:&#160;&#160;<xliff:g id="number">%1$s</xliff:g>条"</string>
+    <string name="receive_notification" >"接收通知"</string>
+    <string name="pref_title_data" >"流量使用情况"</string>
+    <string name="data_switch_toggle" >"移动数据"</string>
+    <string name="app_detail_data_title_total" >"数据流量(总计):&#160;&#160;"</string>
+    <string name="app_detail_data_title_wifi_total" >"WIFI流量(总计):&#160;&#160;"</string>
+    <string name="pref_title_resource" >"占用资源情况"</string>
+    <string name="resource_usage" >"自上次充满电后已使用 <xliff:g id="number">%1$s</xliff:g>%的电量;\n过去3小时内平均使用了<xliff:g>%2$s</xliff:g>内存;"</string>
+    <string name="switch_autostart" >"自启动"</string>
+    <string name="pref_title_auth" >"权限访问情况"</string>
+    <string name="auth_usage" >"此应用获取敏感权限:&#160;&#160;<xliff:g id="number">%1$s</xliff:g>个"</string>
+    <string name="auth_enabled" >"已允许:&#160;&#160;<xliff:g id="number">%1$s</xliff:g>个"</string>
+    <string name="sensible_auth" >"敏感权限"</string>
+    <string name="auth_optimize" >"优化"</string>
+    <string name="pref_title_others" >"其它"</string>
+    <string name="app_detail_overlay_window" >"悬浮窗"</string>
+    <string name="app_detail_shortcut" >"桌面快捷方式"</string>
+    <string name="app_detail_default_app" >"默认软件设置"</string>
+    <string name="app_detail_btn_shortcut_ask" >"询问"</string>
+    <string name="app_detail_btn_shortcut_allow" >"允许"</string>
+    <string name="app_detail_btn_shortcut_disallow" >"禁止"</string>
+    <string name="app_defail_title_clear_preferred_activity">"清除该软件的默认打开选项？"</string>
+    <string name="permission_select_show_type">"请选择查看方式"</string>
+     <string name="permission_title_allow_count" >"允许该权限(<xliff:g>%1$s</xliff:g>个)"</string>     
+     <string name="permission_title_ask_count" >"询问该权限(<xliff:g>%1$s</xliff:g>个)"</string>     
+     <string name="permission_title_disallow_count" >"禁止该权限(<xliff:g>%1$s</xliff:g>个)"</string>     
+    <string name="one_key_intercept_ask_for_item_select">"请选择优化项"</string>
+    <string name="empty_ads">"未检测到广告，应用都很纯净"</string>
+    <string name="perm_label_system_alert_window">"悬浮窗"</string>
+    <string name="perm_label_install_shortcut">"新建快捷方式"</string>
+    <string name="perm_label_package_usage_state">"使用记录访问"</string>
+    <string name="perm_label_notifcation">"通知使用权"</string>
+    <string name="perm_label_premium_sms">"付费短信"</string>
+    <string name="perm_label_vr_helper_service">"VR助手服务"</string>
+    <string name="perm_label_device_manager">"设备管理器"</string>
+    <string name="perm_label_write_system_setting">"修改系统设置"</string>
+    <string name="default_contact_title" >联系人</string>
+</resources>

@@ -1,0 +1,56 @@
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/wifi_item_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="30dp"
+    android:paddingEnd="20dp"
+    android:layout_marginBottom="5dp"
+    android:gravity="center_vertical" >
+
+    <FrameLayout
+        android:id="@+id/ic_title_status_layout"
+        android:layout_width="18dip"
+        android:layout_height="18dip"
+        android:layout_centerVertical="true" >
+
+        <ProgressBar
+            android:id="@+id/wifi_setting_progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:indeterminateBehavior="repeat"
+            android:indeterminateDuration="700"
+            android:indeterminateDrawable="@drawable/custom_progress_draw"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/wifi_select_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_checked"
+            android:layout_gravity="center"
+            android:visibility="gone" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/wifi_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/ic_title_status_layout"
+        android:layout_marginLeft="12dip"
+        android:fontFamily="monster-normal"
+        android:textColor="@drawable/wifi_list_item_text_color"
+        android:textSize="14sp"
+        android:text="WIFI" />
+
+    <ImageView
+        android:id="@+id/wifi_signal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_wifi_signal_0_dark"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dip" />
+</RelativeLayout>

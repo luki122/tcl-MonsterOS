@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cannot_specify_an_empty_name_for_playlist">"Grojaraščio pavadinimo laukas negali būti tuščias"</string>
+    <string name="cross_dj_saturated_storage_not_enough_free_space_to_record_your_mix">"Nepakanka vietos mišiniui įrašyti."</string>
+    <string name="cross_dj_saturated_storage_your_recording_might_stop_soon_because_no_more_free_space_is_available">"Įrašymas netrukus gali būti sustabdytas, nes nebeliko vietos."</string>
+    <string name="invalid_drm_file">"Nėra tinkamos failo DRM įstaigos."</string>
+    <string name="mobiledata_turnoff_btn">"Neleisti"</string>
+    <string name="never_show_it_again">"Neberodyti"</string>
+    <string name="no_error">"Be klaidų"</string>
+    <string name="recording_reached_max_duration">"Pasiekta ilgiausia leistina įrašymo trukmė. Patikrinkite nuostatas."</string>
+    <string name="recording_soon_to_reach_max_duration">"Netrukus bus pasiekta ilgiausia leistina įrašymo trukmė. Patikrinkite nuostatas."</string>
+    <string name="scratching_is_disabled_in_no_mix_mode">"Braižyti galite tik įjungę didžėjaus režimą."</string>
+    <string name="sign_up">"Registruotis"</string>
+    <string name="the_external_memory_storage_is_not_mounted">"Neprijungta išorinės saugykla. Gali tekti išjungti atmintuką."</string>
+    <string name="there_s_not_enough_space_in_your_internal_storage_try_to_do_some_clean_up">"Nepakanka vietos vidinėje saugykloje (pabandykite atlaisvinti šiek tiek vietos)"</string>
+</resources>

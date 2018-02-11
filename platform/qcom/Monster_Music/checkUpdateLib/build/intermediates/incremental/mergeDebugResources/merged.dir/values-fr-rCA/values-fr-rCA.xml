@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="check_new">Rechercher les mises à jour</string>
+    <string name="downloaded_finish">Téléchargement terminé</string>
+    <string name="downloading">Téléchargement en cours...</string>
+    <string name="network_error_tip">Erreur de réseau. Veuillez vérifier votre connexion réseau et essayer de nouveau.</string>
+    <string name="notification_downloading">Téléchargement</string>
+    <string name="tip_network_error">Erreur de réseau</string>
+    <string name="try_later">Plus tard</string>
+    <string name="update">Maintenant</string>
+    <string name="update_ask_tip">Vous devez effectuer la mise à niveau à la dernière version</string>
+    <string name="update_available">Mise à jour disponible</string>
+    <string name="update_confirm">OK</string>
+    <string name="update_detail_prefix">Détails de la mise à jour :</string>
+    <string name="update_download_fail">Échec du téléchargement</string>
+    <string name="update_force_nofity_tip">Nous vous recommandons de mettre l\'application à niveau à la dernière version.</string>
+    <string name="update_no_need">La plus récente version.</string>
+    <string name="update_no_updates">Aucune mise à jour</string>
+    <string name="update_no_updates_tip">Aucune mise à jour</string>
+    <string name="update_not_now">Plus tard</string>
+    <string name="update_notification_tips">Pour une meilleure expérience, veuillez effectuer la mise à niveau à la dernière version.</string>
+    <string name="update_notification_title">Notification de mise à jour</string>
+    <string name="update_notify_tip">Nouvelle version disponible. Mettre à jour maintenant?</string>
+    <string name="update_now">Mise à jour</string>
+    <string name="versionDesc">Infos sur la version :</string>
+</resources>

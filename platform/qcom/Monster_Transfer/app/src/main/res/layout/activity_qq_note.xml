@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.NewNoteActivity">
+    <ImageView
+        android:id="@+id/top_image"
+        android:paddingTop="@dimen/qq_bg_margin_top"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/qq_bg_height"
+        android:src="@drawable/qq_bg" />
+    <LinearLayout
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/note_height"
+        android:layout_below="@+id/top_image"
+        android:paddingTop="@dimen/note_margin"
+        android:paddingBottom="@dimen/note_margin"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/qq_note_text_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/qq_note_one"
+            android:background="@color/transparent"/>
+
+        <TextView
+            style="@style/qq_note_text_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/qq_note_two"
+            android:background="@color/transparent"/>
+
+        <TextView
+            android:id="@+id/battery_state"
+            style="@style/qq_note_text_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/qq_note_three"
+            android:background="@color/transparent"/>
+
+        <TextView
+            style="@style/qq_note_text_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/qq_note_four"
+            android:background="@color/transparent"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/button_area"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/text"
+        android:paddingLeft="@dimen/common_button_margin"
+        android:paddingRight="@dimen/common_button_margin"
+        android:paddingTop="10dp"
+        android:orientation="horizontal"
+        android:background="@color/colorPrimary">
+
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/button_height"
+            android:layout_marginRight="@dimen/activity_send_or_receive_button_margin"
+            android:layout_weight="1"
+            android:background="@drawable/old_button"
+            android:text="@string/text_cancel"
+            android:textColor="@color/button_text_color"
+            android:fontFamily="monster-normal"/>
+
+        <Button
+            android:id="@+id/ok"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/button_height"
+            android:layout_marginLeft="@dimen/activity_send_or_receive_button_margin"
+            android:layout_weight="1"
+            android:background="@drawable/new_button"
+            android:text="@string/text_continue"
+            android:textColor="@color/result_text"
+            android:fontFamily="monster-normal"/>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/picture_image_size"
+    android:layout_height="@dimen/picture_image_size"
+    android:background="@drawable/ripple_bg">
+
+
+    <LinearLayout
+        android:id="@+id/file_grid_item_mes_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="0dp"
+        android:background="@drawable/grid_corners_in_bg"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/grid_image"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="0dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/edit_adapter_img"
+                android:layout_width="@dimen/picture_image_size"
+                android:layout_height="@dimen/picture_image_size"
+                android:layout_gravity="center"
+                android:background="@color/grid_item_color"
+                android:scaleType="center" />
+
+            <CheckBox
+                android:id="@+id/edit_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|end"
+                android:layout_margin="4dp"
+                android:clickable="false"
+                android:focusable="false"
+                android:paddingBottom="4dp"
+                android:visibility="gone" />
+
+        </FrameLayout>
+    </LinearLayout>
+    <!--  </FrameLayout> -->
+    <!-- add for PR868300 by yane.wang@jrdcom.com 20141210 -->
+
+    <TextView
+        android:id="@+id/file_list_item_file_name"
+        android:layout_width="@dimen/picture_image_size"
+        android:layout_height="@dimen/picture_image_size"
+        android:background="@color/pictures_file_name_bg"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:lines="1"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/search_view_text_size"
+        android:fontFamily="monster-normal"/>
+
+    <TextView
+        android:id="@+id/edit_adapter_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:fontFamily="monster-normal"
+        android:alpha="0.86"
+        android:layout_margin="10dp"
+        android:paddingBottom="8dp"
+        android:background="@android:color/transparent"
+        android:lines="1"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/main_item_text_size" />
+
+    <CheckBox
+        android:id="@+id/edit_checkbox_album"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|start"
+        android:layout_margin="4dp"
+        android:clickable="false"
+        android:focusable="false"
+        android:paddingTop="4dp"
+        android:visibility="gone" />
+</RelativeLayout>

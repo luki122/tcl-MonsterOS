@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context="cn.tcl.music.activities.PlayingActivity">
+
+    <RelativeLayout
+        android:id="@+id/layout_empty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible">
+
+        <include
+            layout="@layout/activity_playing_empty"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_playing"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            android:id="@+id/layout_bottom"
+            layout="@layout/layout_song_play_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="@dimen/dp_20"
+            android:layout_marginEnd="@dimen/dp_10"
+            android:layout_marginStart="@dimen/dp_10"/>
+
+        <RelativeLayout
+            android:id="@+id/icon_rl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/layout_bottom"
+            android:layout_marginBottom="20dp">
+
+            <ImageView
+                android:id="@+id/icon_center"
+                android:layout_width="5dp"
+                android:layout_height="5dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/playing_grey"/>
+
+            <ImageView
+                android:id="@+id/icon_left"
+                android:layout_width="5dp"
+                android:layout_height="5dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="13dp"
+                android:layout_toLeftOf="@id/icon_center"
+                android:src="@drawable/playing_black"/>
+
+            <ImageView
+                android:id="@+id/icon_right"
+                android:layout_width="5dp"
+                android:layout_height="5dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="13dp"
+                android:layout_toRightOf="@id/icon_center"
+                android:src="@drawable/playing_grey"/>
+
+
+        </RelativeLayout>
+
+        <mst.widget.ViewPager
+            android:id="@+id/pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="60dp"
+            android:layout_above="@id/layout_bottom"/>
+
+        <RelativeLayout
+            android:id="@+id/layout_top1"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@color/transparent"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/back_image_btn"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/back_image"/>
+
+            <ImageView
+                android:id="@+id/share_image_btn"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/share_image"/>
+
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

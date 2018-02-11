@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mst="http://schemas.android.com/apk/res/com.mst"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+        <include layout="@layout/keyguard_wallpaper_list_item_title" />
+
+        <include layout="@layout/keyguard_wallpaper_list_item_image3" />
+
+</LinearLayout>

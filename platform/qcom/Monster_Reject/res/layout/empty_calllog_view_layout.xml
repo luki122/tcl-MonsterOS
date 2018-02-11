@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2013 Google Inc.
+-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/empty_calllog_view_layout_id"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="105dp"
+    >
+    <ImageView
+        android:id="@+id/img_id_no_message"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/calllog_empty"
+        />
+
+    <TextView
+            android:id="@+id/tv_id_no_calllog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="9dp"
+            android:layout_gravity="center_horizontal"
+            android:lines="1"
+            android:text="@string/no_calllog"
+            android:textSize="15sp"
+            android:textColor="#2E000000"
+            />
+</LinearLayout>

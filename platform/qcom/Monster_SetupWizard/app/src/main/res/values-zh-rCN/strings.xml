@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"开机引导"</string>
+	<!---->
+	<string name="loading_net_waiting">"加载中，请稍等..."</string>
+	<!---->
+	<string name="language_title">"选择语言"</string>
+	<!---->
+	<string name="sim_set_title">"检测SIM卡"</string>
+	<!---->
+	<string name="sim_set_prompt">"请插入您的SIM卡"</string>
+	<!---->
+	<string name="sim_card">"SIM卡"</string>
+	<!---->
+	<string name="sim_card_enabled">"SIM卡<xliff:g id="count">%s</xliff:g>已插入"</string>
+	<!---->
+	<string name="sim_card_disabled">"SIM卡<xliff:g id="count">%s</xliff:g>  未插入"</string>
+	<!---->
+	<string name="china_mobile">"中国移动"</string>
+	<!---->
+	<string name="china_unicom">"中国联通"</string>
+	<!---->
+	<string name="china_telecom">"中国电信"</string>
+	<!---->
+	<string name="mobile_network">"移动数据网络"</string>
+	<!---->
+	<string name="mobile_network_description">"在无线网络未连接的情况下，系统将使用移动数据网络访问互联网"</string>
+	<!---->
+	<string name="default_network_card">"默认上网卡"</string>
+	<!---->
+	<string name="wifi_title">"选择无线网络"</string>
+	<!---->
+	<string name="wifi_advanced_setup">"高级设置"</string>
+	<!---->
+	<string name="wifi_dialog_hint">"输入密码..."</string>
+	<!---->
+	<string name="wifi_dialog_hint2">"请重新输入密码"</string>
+	<!---->
+	<string name="wifi_connect_fail">"WiFi连接失败，请重新输入密码并连接"</string>
+	<!---->
+	<string name="wifi_loading_prompt">"正在搜索WLAN网络..."</string>
+	<!---->
+	<string name="user_terms_title">"使用条款"</string>
+	<!---->
+	<string name="user_terms_license">"使用协议"</string>
+	<!---->
+	<string name="user_terms_privacy">"隐私政策"</string>
+	<!---->
+	<string name="user_terms_prompt">"只有同意才能使用\"TCL服务\""</string>
+	<!---->
+	<string name="other_service_title">"其他服务"</string>
+	<!---->
+	<string name="other_service_location">"定位服务"</string>
+	<!---->
+	<string name="other_service_location_description">"定位服务允许其他应用程序使用WLAN和数据网络确定位置。"</string>
+	<!---->
+	<string name="other_service_experience">"用户体验计划"</string>
+	<!---->
+	<string name="other_service_experience_description">"我们会统计您对产品各项功能的使用情况，以便提升我们的产品和服务质量。整个过程我们将严格遵守我们的《隐私政策》。"</string>
+	<!---->
+	<string name="fingerprint_title">"录入指纹"</string>
+	<!---->
+	<string name="fingerprint_prompt">"录入指纹后，您可以使用指纹解锁设备。"</string>
+	<!---->
+	<string name="fingerprint_unsupported">"您的设备不支持指纹功能，请点击\"跳过\"按钮。"</string>
+	<!---->
+	<string name="fingerprint_begin">"开始录入"</string>
+	<!---->
+	<string name="fingerprint_other">"录入其他手指"</string>
+	<!---->
+	<string name="finish_prompt">"欢迎使用MOS，点击进入系统"</string>
+	<!---->
+	<string name="enjoy">"享受"</string>
+	<!---->
+	<string name="cancel_title">"取消"</string>
+	<!---->
+	<string name="connect_title">"连接"</string>
+	<!---->
+	<string name="continue_title">"继续"</string>
+	<!---->
+	<string name="skip_title">"跳过"</string>
+	<!---->
+	<string name="agreed_continue">"同意并继续"</string>
+	<!---->
+	<string name="begin_title">"开始"</string>
+	<!-- no translation found for privacy_content -->
+	<string name="notify_change_phone_title">一键换机</string>
+	<string name="notify_change_phone_text">无需消耗流量，将所有数据转移至新手机</string>
+	<skip />
+</resources>

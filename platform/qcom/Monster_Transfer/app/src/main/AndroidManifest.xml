@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    android:sharedUserId="android.uid.system"
+    package="cn.tcl.transfer">
+
+
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INSTALL_PACKAGES" />
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL" />
+    <uses-permission android:name="android.permission.GET_PACKAGE_SIZE" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" />
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.REORDER_TASKS" />
+    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+    <uses-permission android:name="android.permission.WRITE_CALL_LOG" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name ="android.permission.FORCE_STOP_PACKAGES"/>
+    <uses-permission android:name = "android.permission.SET_WALLPAPER"/>
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="com.tencent.transfer.permission.downloadservice" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/tcl_settings"
+        android:label="@string/app_name"
+        android:resizeableActivity="false"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activity.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MstActivity">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="cn.tcl.transfer.main" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.ChooseModeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MstActivity.Choose"/>
+        <activity
+            android:name=".activity.CreateHotspotActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MstActivity.CreateHot"/>
+        <activity
+            android:name=".activity.NewNoteActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MstActivity"/>
+        <activity
+            android:name=".activity.OldNoteActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MstActivity"/>
+        <activity
+            android:name=".zxing.client.android.CaptureActivity"
+            android:screenOrientation="portrait"
+            android:stateNotNeeded="true"
+            android:windowSoftInputMode="stateAlwaysHidden"
+            android:theme="@style/Theme.MstActivity.CaptureActivity"/>
+        <activity
+            android:name=".zxing.client.android.PreferencesActivity"
+            android:label="@string/preferences_name"
+            android:stateNotNeeded="true" />
+        <activity
+            android:name=".zxing.client.android.encode.EncodeActivity"
+            android:stateNotNeeded="true">
+            <intent-filter>
+                <action android:name="com.google.zxing.client.android.ENCODE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <!-- This allows us to handle the Share button in Contacts. -->
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="text/x-vcard" />
+            </intent-filter>
+            <!-- This allows us to handle sharing any plain text . -->
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="text/plain" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".zxing.client.android.HelpActivity"
+            android:label="@string/menu_help"
+            android:screenOrientation="user"
+            android:stateNotNeeded="true" />
+        <activity
+            android:name=".activity.ReceiverWaitActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MstActivity.ReceiverWaitActivity"/>
+        <activity
+            android:name=".activity.ReceiverProcessActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.DisconnectActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MstActivity.DisconnectActivity"/>
+        <activity
+            android:name=".activity.CategoryListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MstActivity.CategoryListActivity"/>
+        <activity
+            android:name=".activity.SelectPackageActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MstActivity.SelectPackageActivity"/>
+        <activity
+            android:name=".activity.SendingActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MstActivity.SendingActivity"/>
+        <activity
+            android:name=".activity.ReceivingActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MstActivity.SendingActivity"/>
+        <activity
+            android:name=".activity.CompleteActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MstActivity.CompleteActivity"/>
+
+        <service
+            android:name=".receiver.ReceiveBackupDataService"
+            android:enabled="true" />
+        <service
+            android:name=".send.SendBackupDataService"
+            android:enabled="true" />
+
+        <activity
+            android:name=".fasttransfer.QQNoteActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MstActivity.QQNoteActivity"/>
+        <activity
+            android:name=".fasttransfer.ScanActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MstActivity.ScanActivity"/>
+
+        <service
+            android:name="com.tencent.wscl.wsframework.services.sys.background.WsBackgroundService"
+            android:exported="false" />
+
+        <activity
+            android:name=".fasttransfer.TransferActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MstActivity.TransferActivity"/>
+        <activity android:name=".fasttransfer.sms.SmsActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+                <action android:name="android.intent.action.SENDTO" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="sms" />
+                <data android:scheme="smsto" />
+                <data android:scheme="mms" />
+                <data android:scheme="mmsto" />
+            </intent-filter>
+        </activity>
+        <receiver android:name=".fasttransfer.sms.SmsReceiver"
+            android:permission="android.permission.BROADCAST_SMS">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SMS_DELIVER" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".fasttransfer.sms.MmsReceiver"
+            android:permission="android.permission.BROADCAST_WAP_PUSH">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.WAP_PUSH_DELIVER" />
+                <data android:mimeType="application/vnd.wap.mms-message" />
+            </intent-filter>
+        </receiver>
+        <service
+            android:name=".fasttransfer.sms.SmsService"
+            android:permission="android.permission.SEND_RESPOND_VIA_MESSAGE"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.RESPOND_VIA_MESSAGE" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:scheme="sms" />
+                <data android:scheme="smsto" />
+                <data android:scheme="mms" />
+                <data android:scheme="mmsto" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

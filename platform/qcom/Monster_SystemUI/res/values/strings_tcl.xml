@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * Copyright (c) 2016, The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!--Mst: tangjun add begin  -->
+    <string name="clear_all_text">Fast Clear</string>
+    <string name="select_docked_app">select docked app</string>
+    <string name="memory_info" ><xliff:g id="REMAIN_MEM">%s</xliff:g>to use | <xliff:g id="TOTAL_MEM">%s</xliff:g></string>
+    <!--Mst: tangjun add end  -->
+
+<string name="notify_clean_num_format"><Data><![CDATA[<font color="#d94b41"><b><xliff:g id="number">%s</xliff:g></b></font> to be cleaned]]></Data></string>
+    <string name="notify_clean_title">Cleaned notifies</string>
+    <string name="notify_manage_title">Manage notifies</string>
+    <string name="no_applications">No apps.</string>
+    <string name="settings_safetylegal_activity_loading">Loading\u2026</string>
+    <string name="disabled">Disabled</string>
+    <string name="not_installed">Not installed for this user</string>
+    <string name="sort_order_alpha">Sort by name</string>
+    <string name="advanced_apps">Advanced</string>
+    <string name="menu_show_system">Show system</string>
+    <string name="menu_hide_system">Hide system</string>
+    <string name="sort_order_size">Sort by size</string>
+    <string name="reset_app_preferences">Reset app preferences</string>
+    
+        <!-- Label for showing all apps in list [CHAR LIMIT=30] -->
+    <string name="filter_all_apps">All apps</string>
+    <!-- Label for showing enabled apps in list [CHAR LIMIT=30] -->
+    <string name="filter_enabled_apps">Enabled</string>
+    <!-- Label for showing personal apps in list [CHAR LIMIT=30] -->
+    <string name="filter_personal_apps">Personal</string>
+    <!-- Label for showing work apps in list [CHAR LIMIT=30] -->
+    <string name="filter_work_apps">Work</string>
+    <!-- Label for showing apps with blocked notifications in list [CHAR LIMIT=30] -->
+    <string name="filter_notif_blocked_apps">Blocked</string>
+    <!-- Label for showing apps with priority notifications in list [CHAR LIMIT=30] -->
+    <string name="filter_notif_priority_apps">Priority</string>
+    <!-- Label for showing apps with sensitive notifications in list [CHAR LIMIT=30] -->
+    <string name="filter_notif_sensitive_apps">Sensitive content hidden</string>
+    <!-- Label for showing apps with peeking disabled in list [CHAR LIMIT=30] -->
+    <string name="filter_notif_no_peeking">No peeking</string>
+    <!-- Label for showing apps with domain URLs (data URI with http or https) in list [CHAR LIMIT=30] -->
+    <string name="filter_with_domain_urls_apps">With domain URLs</string>
+    
+    <!-- [CHAR LIMIT=NONE] Text for filter option in ManageApps screen to display disabled apps -->
+    <string name="filter_apps_disabled">Disabled</string>
+    
+    <string name="cancel_clear">cancel clear</string>
+    <string name="confirm_clear">confirm clear</string>
+    <string name="no_nofify">no nofity</string>
+    
+    <string name="allow_send_notify">allow send notify</string>
+    
+    <string name="notify_superscript">superscript</string>
+    <string name="notify_desk_superscript">desk superscript</string>
+    <string name="notify_desk_superscript_desc">show new notify in desk icon</string>
+    <string name="notify_lock_screen">lock screen notify</string>
+    <string name="notify_lock_screen_desc">show in lock screen</string>
+    <string name="notify_show_detail">show detail</string>
+    <string name="notify_show_detail_desc">show notify detail in lock screen</string>
+    <string name="notify_intelligent_nofity">intellegent notify</string>
+    <string name="notify_intelligent_nofity_desc">open intellegent notify, notify will fold</string>
+    
+    <string name="appupgrade">appupgrade</string>
+    <string name="calendar">calendar</string>
+    <string name="download">download</string>
+    <string name="finance">finance</string>
+    <string name="function">function</string>
+    <string name="security">security</string>
+    <string name="tracking">tracking</string>
+    <string name="update">update</string>
+    <string name="content">content</string>
+    <string name="promotion">promotion</string>
+    <string name="reminder">reminder</string>
+    <string name="mail">mail</string>
+    <string name="message">message</string>
+    <string name="others">others</string>
+    <string name="order">order</string>    
+    <string name="optimization">optimization</string>
+    <string name="unknown">unknown</string>
+    <string name="shopping">shopping</string>
+    <string name="social">social</string>
+    <string name="status">status</string>
+    
+    <string name="ads">ads</string>
+    <string name="news">news</string>
+    <string name="recommend">recommend</string>
+    <string name="subscribe">subscribe</string>
+    <string name="permission">permission</string>
+    <string name="storage">storage</string>
+    <string name="warn">warn</string>
+    <string name="weather">weather</string>
+    <string name="navi">navi</string>
+    <string name="roadcondition">roadcondition</string>
+    <string name="todo">todo</string>
+    <string name="game">game</string>
+    <string name="privateletter">privateletter</string>
+    
+    <string name="disableNotify">Disable Notify</string>
+    <string name="enableNotify">Enable Notify</string>
+    <string name="intelligentNotifyClean">Intelligent Notify Clean</string>
+    
+    <string-array name="recents_black_list">
+        <item>com.android.mms</item>
+        <item>com.android.dialer</item>
+        <item>com.android.contacts</item>
+        <item>com.android.music</item>
+    </string-array>
+    <!--add by chenhl start-->
+    <string name="tcl_data_switch">Data</string>
+    <!--add by chenhl end-->
+</resources>

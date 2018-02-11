@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cannot_specify_an_empty_name_for_playlist">"Câmpul pentru numele listei de redare nu poate fi gol"</string>
+    <string name="cross_dj_saturated_storage_not_enough_free_space_to_record_your_mix">"Nu există spațiu suficient pentru a înregistra mixajul."</string>
+    <string name="cross_dj_saturated_storage_your_recording_might_stop_soon_because_no_more_free_space_is_available">"Este posibil ca înregistrarea să fie încheiată în curând, deoarece nu mai există spațiu disponibil."</string>
+    <string name="invalid_drm_file">"Fișierul nu are autorizație DRM validă!"</string>
+    <string name="mobiledata_turnoff_btn">"Dezactivare"</string>
+    <string name="never_show_it_again">"Fără afișare data viitoare"</string>
+    <string name="no_error">"Nicio eroare"</string>
+    <string name="recording_reached_max_duration">"Înregistrarea a atins durata maximă. Verificați preferințele."</string>
+    <string name="recording_soon_to_reach_max_duration">"Înregistrarea va atinge în curând durata maximă. Verificați preferințele."</string>
+    <string name="scratching_is_disabled_in_no_mix_mode">"Puteți face scratch doar în modul DJ."</string>
+    <string name="sign_up">"Înscrieți-vă"</string>
+    <string name="the_external_memory_storage_is_not_mounted">"Mediul de stocare extern nu este instalat. Trebuie să dezactivați mediul de stocare USB."</string>
+    <string name="there_s_not_enough_space_in_your_internal_storage_try_to_do_some_clean_up">"Nu există spațiu suficient în memoria internă. Încercați să eliberați spațiu."</string>
+</resources>

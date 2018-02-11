@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <fragment
+        android:id="@+id/call_log_frag"
+        android:name="com.android.dialer.calllog.CallLogFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <mst.view.menu.bottomnavigation.BottomNavigationView
+        xmlns:mst="http://schemas.android.com/apk/res/com.mst"
+        android:id="@+id/bottom_navigation_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:maxHeight="50dp"
+        android:visibility="gone"
+        mst:menu="@menu/mst_calllog_bottom_menu" />
+
+    <com.android.dialer.widget.EmptyContentView
+        android:id="@+id/empty_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="top|center_horizontal"
+        android:background="#FFFFFF"
+        android:visibility="gone" />
+
+</FrameLayout>

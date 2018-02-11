@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/layout_common_15dp">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="14dp">
+
+        <cn.tcl.meetingassistant.view.AlignTextView
+            android:fontFamily="monster-normal"
+            app:align="distribute"
+            android:layout_width="wrap_content"
+            android:textSize="@dimen/font_size_14sp"
+            android:textColor="@color/black_50opacity"
+            android:layout_height="wrap_content"
+            android:text="@string/conference_key_note" />
+
+        <TextView
+            android:fontFamily="monster-normal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font_size_14sp"
+            android:textColor="@color/black_86opacity"
+            android:text=":" />
+
+        <LinearLayout
+            android:id="@+id/meeting_info_topics"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        </LinearLayout>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/layout_common_13dp">
+
+        <cn.tcl.meetingassistant.view.AlignTextView
+            android:fontFamily="monster-normal"
+            app:align="distribute"
+            android:layout_width="wrap_content"
+            android:textSize="@dimen/font_size_14sp"
+            android:textColor="@color/black_50opacity"
+            android:layout_height="wrap_content"
+            android:text="@string/person" />
+
+        <TextView
+            android:fontFamily="monster-normal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font_size_14sp"
+            android:textColor="@color/black_50opacity"
+            android:text=":   " />
+
+        <TextView
+            android:fontFamily="monster-normal"
+            android:id="@+id/meeting_expand_person"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font_size_14sp"
+            android:textColor="@color/black_86opacity"
+            android:text="@string/not_filled" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/layout_common_13dp">
+
+        <cn.tcl.meetingassistant.view.AlignTextView
+            android:fontFamily="monster-normal"
+            app:align="distribute"
+            android:layout_width="wrap_content"
+            android:textSize="@dimen/font_size_14sp"
+            android:textColor="@color/black_50opacity"
+            android:layout_height="wrap_content"
+            android:text="@string/time" />
+
+        <TextView
+            android:fontFamily="monster-normal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font_size_14sp"
+            android:textColor="@color/black_50opacity"
+            android:text=":   " />
+
+        <TextView
+            android:fontFamily="monster-normal"
+            android:id="@+id/meeting_expand_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left|center_vertical"
+            android:textSize="14sp"
+            android:textColor="@color/black_86opacity" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <cn.tcl.meetingassistant.view.AlignTextView
+            android:fontFamily="monster-normal"
+            app:align="distribute"
+            android:layout_width="wrap_content"
+            android:textSize="@dimen/font_size_14sp"
+            android:textColor="@color/black_50opacity"
+            android:layout_height="wrap_content"
+            android:text="@string/location" />
+
+        <TextView
+            android:fontFamily="monster-normal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font_size_14sp"
+            android:textColor="@color/black_50opacity"
+            android:text=":   " />
+
+        <TextView
+            android:fontFamily="monster-normal"
+            android:id="@+id/meeting_expand_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@color/black_86opacity"
+            android:text="@string/not_filled" />
+    </TableRow>
+
+</TableLayout>

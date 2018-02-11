@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cannot_specify_an_empty_name_for_playlist">"Tên danh sách phát không thể để trống"</string>
+    <string name="cross_dj_saturated_storage_not_enough_free_space_to_record_your_mix">"Không đủ dung lượng để ghi âm phần trộn của bạn."</string>
+    <string name="cross_dj_saturated_storage_your_recording_might_stop_soon_because_no_more_free_space_is_available">"Ghi âm của bạn có thể sắp dừng lại vì không còn đủ dung lượng."</string>
+    <string name="extraCharge_warning_title">"Sử dụng dữ liệu di động?"</string>
+    <string name="invalid_drm_file">"Tập tin không có quyền DRM hợp lệ!"</string>
+    <string name="mobiledata_turnoff_btn">"Tắt"</string>
+    <string name="never_show_it_again">"K\hông hiện lại nữa."</string>
+    <string name="no_error">"Không có lỗi"</string>
+    <string name="recording_reached_max_duration">"Ghi âm đã đạt đến thời gian tối đa. Vui lòng kiểm tra ưu tiên của bạn."</string>
+    <string name="recording_soon_to_reach_max_duration">"Ghi âm sắp đạt đến thời gian tối đa. Vui lòng kiểm tra ưu tiên của bạn."</string>
+    <string name="scratching_is_disabled_in_no_mix_mode">"Bạn chỉ có thể xóa bài hát khỏi danh sách khi ở chế độ DJ."</string>
+    <string name="sign_up">"Đăng ký"</string>
+    <string name="the_external_memory_storage_is_not_mounted">"Bộ nhớ ngoài chưa được gắn vào. Bạn có thể phải tắt kích hoạt Bộ nhớ USB."</string>
+    <string name="there_s_not_enough_space_in_your_internal_storage_try_to_do_some_clean_up">"Không đủ dung lượng trong bộ nhớ trong (hãy cố gắng giải phóng một số dung lượng)"</string>
+</resources>

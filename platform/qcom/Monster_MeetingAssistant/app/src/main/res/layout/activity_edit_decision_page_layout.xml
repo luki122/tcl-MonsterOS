@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/app_background"
+    tools:context=".EditMeetingInfoPageActivity"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+    <ScrollView
+        android:paddingTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar">
+
+        <LinearLayout
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/layout_common_10dp"
+            android:paddingRight="@dimen/layout_common_10dp"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            >
+
+            <cn.tcl.meetingassistant.view.FixedEditText
+                android:fontFamily="monster-normal"
+                android:paddingLeft="@dimen/layout_common_15dp"
+                android:paddingRight="@dimen/layout_common_15dp"
+                android:paddingTop="18dp"
+                android:paddingBottom="18dp"
+                android:id="@+id/decision_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:minHeight="124dp"
+                android:gravity="top|left"
+                android:lineSpacingExtra="11dp"
+                app:fixed_text_last_line_cursor="@drawable/cursor_last_line_drawable"
+                app:fixed_text_cursor="@drawable/cursor_edit_meeting_drawable"
+                android:textSize="@dimen/text_edit_decision_size"
+                android:textColor="@color/black_86opacity"
+                android:hint="@string/edit_decision"
+                android:textColorHint="@color/black_30opacity"
+                android:background="@drawable/bg_import_point_card_single" />
+            
+            <LinearLayout
+                android:id="@+id/decision_edit_person_deadline"
+                android:layout_marginTop="1dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="64dp"
+                    android:background="@drawable/bg_import_point_card_single"
+                    android:orientation="horizontal"
+                    android:layout_column="1">
+
+                    <EditText
+                        android:fontFamily="monster-normal"
+                        android:id="@+id/decision_edit_person"
+                        android:paddingLeft="15dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:minHeight="64dp"
+                        android:textSize="@dimen/text_edit_decision_size"
+                        android:gravity="center_vertical|left"
+                        android:hint="@string/edit_owener"
+                        android:textColorHint="@color/black_30opacity"
+                        android:textCursorDrawable="@drawable/cursor_last_line_drawable"
+                        android:textColor="@color/black_86opacity"
+                        android:background="@null"
+                        android:layout_toLeftOf="@+id/decision_edit_person_btn"/>
+
+                    <ImageButton
+                        android:id="@id/decision_edit_person_btn"
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="16dp"
+                        android:background="@drawable/ic_edit_decision_person" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_marginTop="1dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="64dp"
+                    android:background="@drawable/bg_import_point_card_single"
+                    android:layout_column="1">
+
+                    <TextView
+                        android:fontFamily="monster-normal"
+                        android:id="@+id/decision_edit_deadline"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:layout_column="1"
+                        android:hint="@string/edit_deadline"
+                        android:textColorHint="@color/black_30opacity"
+                        android:paddingLeft="15dp"
+                        android:textSize="@dimen/text_edit_decision_size"
+                        android:gravity="left|center_vertical"
+                        android:textColor="@color/black_86opacity"
+                         />
+                </RelativeLayout>
+
+            </LinearLayout>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/layout_common_15dp"
+                android:background="@color/card_color">
+                <TextView
+                    android:fontFamily="monster-normal"
+                    android:id="@+id/decision_edit_saveBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:textSize="16sp"
+                    android:text="@string/add_decision"
+                    android:textColor="@color/bullet_color"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:gravity="center" />
+            </FrameLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_common_0.66dp"
+        android:background="#ececec"/>
+
+</RelativeLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:id="@+id/main_container"
+	android:overScrollMode="never"
+	android:fillViewport="true"
+	android:background="@color/music_theme_color">
+
+	<FrameLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical">
+		<!-- Background artwork -->
+		<FrameLayout android:id="@+id/artwork_music_container"
+			android:layout_width="match_parent"
+			android:layout_height="238dp"
+			>
+			<View
+				android:layout_width="match_parent"
+				android:layout_height="43dp"
+				android:visibility="invisible"
+				/>
+
+			<ImageView
+				android:id="@id/artwork_image_view"
+				android:layout_width="match_parent"
+				android:layout_height="195dp"
+				android:layout_gravity="bottom"
+				android:scaleType="centerCrop" />
+		</FrameLayout>
+
+
+		<FrameLayout
+			android:id="@id/sliding_up_external_container"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent" />
+	</FrameLayout>
+
+</RelativeLayout>

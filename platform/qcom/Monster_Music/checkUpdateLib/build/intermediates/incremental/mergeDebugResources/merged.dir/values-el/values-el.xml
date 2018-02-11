@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="check_new">Έλεγχος για ενημέρωση</string>
+    <string name="downloaded_finish">Η λήψη ολοκληρώθηκε</string>
+    <string name="downloading">Λήψη...</string>
+    <string name="network_error_tip">Σφάλμα δικτύου. Ελέγξτε τη σύνδεση δικτύου και δοκιμάστε ξανά.</string>
+    <string name="notification_downloading">Λήψη σε εξέλιξη</string>
+    <string name="tip_network_error">Σφάλμα δικτύου</string>
+    <string name="try_later">Αργότερα</string>
+    <string name="update">Τώρα</string>
+    <string name="update_ask_tip">Πρέπει να κάνετε ενημέρωση στην πιο πρόσφατη έκδοση</string>
+    <string name="update_available">Υπάρχει διαθέσιμη ενημέρωση</string>
+    <string name="update_confirm">OK</string>
+    <string name="update_detail_prefix">Λεπτομέρειες ενημέρωσης:</string>
+    <string name="update_download_fail">Η λήψη απέτυχε</string>
+    <string name="update_force_nofity_tip">Συνιστάται η ενημέρωση της εφαρμογής στην πιο πρόσφατη έκδοση.</string>
+    <string name="update_no_need">Αυτή είναι η πιο πρόσφατη έκδοση</string>
+    <string name="update_no_updates">Καμία ενημέρωση</string>
+    <string name="update_no_updates_tip">Καμία ενημέρωση</string>
+    <string name="update_not_now">Όχι τώρα</string>
+    <string name="update_notification_tips">Για μια καλύτερη εμπειρία, κάντε ενημέρωση στην πιο πρόσφατη έκδοση.</string>
+    <string name="update_notification_title">Ειδοποίηση ενημέρωσης</string>
+    <string name="update_notify_tip">Υπάρχει διαθέσιμη νέα έκδοση. Ενημέρωση τώρα;</string>
+    <string name="update_now">Ενημέρωση</string>
+    <string name="versionDesc">Πληροφορίες έκδοσης:</string>
+</resources>

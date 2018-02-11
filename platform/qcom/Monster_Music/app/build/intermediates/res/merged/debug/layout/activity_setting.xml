@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/music_theme_color"
+              android:orientation="vertical">
+
+    <mst.widget.toolbar.Toolbar
+        android:id="@+id/setting_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/white"
+        android:paddingStart="@dimen/dp_20"></mst.widget.toolbar.Toolbar>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/common_divider_color"/>
+
+    <FrameLayout
+        android:id="@+id/audition_and_download_quanity_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:visibility="gone">
+    </FrameLayout>
+
+    <RelativeLayout
+        android:id="@+id/user_name_linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="24dp">
+
+        <ImageView
+            android:id="@+id/user_name_head"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/deezer_radio_all"/>
+
+        <TextView
+            android:id="@+id/tv_tcl_account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="14dp"
+            android:layout_toRightOf="@id/user_name_head"
+            android:alpha="0.86"
+            android:text="@string/username"
+            android:textColor="#000000"
+            android:textSize="15sp"/>
+
+        <ImageView
+            android:id="@+id/user_name_right"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:alpha="0.4"
+            android:src="@drawable/local_details"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/xiami_account"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_marginTop="13dp"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/tv_xiami_account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="11dp"
+            android:alpha="0.86"
+            android:text="@string/shrimp_account"
+            android:textColor="#000000"
+            android:textSize="15sp"/>
+
+        <Space
+            android:id="@+id/text_spacer"
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:layout_centerInParent="true"/>
+
+        <TextView
+            android:id="@+id/tv_xiami_prompt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/tv_xiami_account"
+            android:layout_below="@id/text_spacer"
+            android:layout_marginBottom="10dp"
+            android:alpha="0.4"
+            android:text="@string/shrimp_account_subtitle"
+            android:textColor="#000000"
+            android:textSize="12sp"/>
+
+        <ImageView
+            android:id="@+id/xiami_account_right_imageview"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:alpha="0.4"
+            android:src="@drawable/local_details"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="57dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:alpha="0.86"
+            android:text="@string/network_setting"
+            android:textColor="#000000"
+            android:textSize="15sp"/>
+
+        <Switch
+            android:id="@+id/network_switch"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:checked="false"
+            android:paddingEnd="20dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/suretime_to_close"
+        android:layout_width="match_parent"
+        android:layout_height="57dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:alpha="0.86"
+            android:text="@string/timed_close"
+            android:textColor="#000000"
+            android:textSize="15sp"/>
+
+        <ImageView
+            android:id="@+id/suretime_to_close_right_imageview"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:alpha="0.4"
+            android:src="@drawable/local_details"/>
+
+        <TextView
+            android:id="@+id/timed_close_show"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="1dp"
+            android:layout_toStartOf="@id/suretime_to_close_right_imageview"
+            android:alpha="0.4"
+            android:textColor="#000000"
+            android:textSize="15sp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/audition_and_download_quanity"
+        android:layout_width="match_parent"
+        android:layout_height="57dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:alpha="0.86"
+            android:text="@string/listen_and_download_quality"
+            android:textColor="#000000"
+            android:textSize="15sp"/>
+
+        <ImageView
+            android:id="@+id/audition_and_download_right_imageview"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:alpha="0.4"
+            android:src="@drawable/local_details"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ignored_folder"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_marginTop="13dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:alpha="0.86"
+            android:text="@string/ignored_folder"
+            android:textColor="#000000"
+            android:textSize="15sp"/>
+
+        <ImageView
+            android:id="@+id/ignored_folder_right_imageview"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:alpha="0.4"
+            android:src="@drawable/local_details"/>
+    </RelativeLayout>
+
+</LinearLayout>

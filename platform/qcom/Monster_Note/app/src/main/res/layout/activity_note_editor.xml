@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:mst="http://schemas.android.com/apk/res/com.mst"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/layout_root"
+    android:background="@color/home_backgroud"
+    tools:context="cn.tcl.note.activity.NoteEditorActivity">
+
+    <View style="@style/toolbar_div_line" />
+
+    <cn.tcl.note.ui.RecyclerViewHelper
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"></cn.tcl.note.ui.RecyclerViewHelper>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:background="#19000000"/>
+    <mst.view.menu.bottomnavigation.BottomNavigationView
+        android:id="@+id/edit_tool_button"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/toolbar"
+        mst:menu="@menu/note_editor_button"/>
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingStart="?android:attr/listPreferredItemPaddingStart" >
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|center_vertical"
+        android:layout_weight="1"
+        android:textAppearance="?com.mst:attr/actionTextAppearance"
+        android:textColor="#DC000000"
+        android:textSize="17sp" />
+
+    <LinearLayout
+        android:id="@+id/menu_container"
+        android:clickable="true"
+	    android:background="@drawable/dashboard_tile_background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+	    android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+	    android:layout_marginStart="?android:attr/listPreferredItemPaddingStart"
+        android:layout_marginEnd="12dp" >
+
+        <TextView
+            android:id="@+id/menu_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:gravity="right"
+            android:textAppearance="?com.mst:attr/actionTextAppearance"
+            android:textColor="#DC000000"
+            android:textSize="17sp" />
+
+        <ImageView
+            android:id="@+id/arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|bottom"
+            android:layout_marginLeft="4dp"
+            android:background="@drawable/arrow_right_down" />
+    </LinearLayout>
+
+</LinearLayout>

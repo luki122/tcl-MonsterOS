@@ -1,0 +1,814 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="sort">"বাছাই করা"</string>
+	<!---->
+	<string name="sort_by_name">"নাম"</string>
+	<!---->
+	<string name="sort_by_date">"তারিখ পরিবর্তিত"</string>
+	<!---->
+	<string name="sort_by_time">"তারিখ"</string>
+	<!---->
+	<string name="sort_by_type">"ধরন"</string>
+	<!---->
+	<string name="sort_by_size">"আয়তন"</string>
+	<!---->
+	<string name="copy">"কপি করুন"</string>
+	<!---->
+	<string name="create_folder">"তৈরি করুন"</string>
+	<!---->
+	<string name="cut">"কাট করুন"</string>
+	<!---->
+	<string name="delete">"মুছে"</string>
+	<!-- no translation found for delete_confirm -->
+	<skip />
+	<!---->
+	<string name="deselect_all">"অনির্বাচন"</string>
+	<!---->
+	<string name="select_all">"সব নির্বাচন"</string>
+	<!---->
+	<string name="show_file">"লুকানো ফাইল দেখান"</string>
+	<!---->
+	<string name="hide_file">"লুকানো ফাইল লুকান"</string>
+	<!---->
+	<string name="paste">"পেস্ট"</string>
+	<!---->
+	<string name="rename">"নামান্তর"</string>
+	<!---->
+	<string name="share">"ভাগ"</string>
+	<!---->
+	<string name="viewby_list">"তালিকা"</string>
+	<!---->
+	<string name="viewby_grid">"গ্রিড দ্বারা দেখুন"</string>
+	<!---->
+	<string name="alert_delete_message">"মুছুন"</string>
+	<!---->
+	<string name="multi_alert_delete_message">"নির্বাচিত আইটেম মুছে ফেলতে চান?"</string>
+	<!---->
+	<string name="multi_alert_delete_message_cn">"নির্বাচিত আইটেম মুছে ফেলতে চান?"</string>
+	<!-- no translation found for delete_folder_message -->
+	<skip />
+	<!---->
+	<string name="category_pictures">"ছবি"</string>
+	<!---->
+	<string name="category_vedios">"ভিডিও"</string>
+	<!---->
+	<string name="category_music">"মিউজিক"</string>
+	<!---->
+	<string name="category_download">"ডাউনলোড"</string>
+	<!---->
+	<string name="category_bluetooth">"ব্লুটুথ"</string>
+	<!-- no translation found for app_name -->
+	<skip />
+	<!-- no translation found for theme_name -->
+	<skip />
+	<!---->
+	<string name="apk_name">"ফাইল"</string>
+	<!---->
+	<string name="new_folder">"ইনপুট ফোল্ডার নাম"</string>
+	<!---->
+	<string name="confirm_rename">"নাম নিশ্চিত"</string>
+	<!---->
+	<string name="warning">"ফাইলের সর্বোচ্চ পরিমাণ"</string>
+	<!---->
+	<string name="share_warning">"আপনি ১০০ টিরও বেশি ফাইল শেয়ার করতে পারবেন না."</string>
+	<!---->
+	<string name="loading">"লোড হচ্ছে..."</string>
+	<!---->
+	<string name="deleting">"মুছে ফেলা হচ্ছে"</string>
+	<!---->
+	<string name="alert_delete_multiple">"নির্বাচিত ফাইল মুছে যাবে."</string>
+	<!---->
+	<string name="name">"নাম"</string>
+	<!---->
+	<string name="size">"সাইজ"</string>
+	<!---->
+	<string name="modified_time">"পরিমার্জিত"</string>
+	<!---->
+	<string name="msg_rename_ext">"ফাইল এক্সটেনশন পরিবর্তন করা হবে. ফাইল স্বীকৃত হতে পারে না. চালিয়ে?"</string>
+	<!---->
+	<string name="wait">"অপেক্ষা করুন..."</string>
+	<!---->
+	<string name="done">"সম্পন্ন"</string>
+	<!-- no translation found for enable -->
+	<skip />
+	<!-- no translation found for enable_cn -->
+	<skip />
+	<!---->
+	<string name="cancel">"বাতিল করুন"</string>
+	<!---->
+	<string name="no">"না"</string>
+	<!---->
+	<string name="ok">"ঠিক আছে"</string>
+	<!---->
+	<string name="yes">"হ্যা"</string>
+	<!---->
+	<string name="details">"বিস্তারিত"</string>
+	<!---->
+	<string name="drawer_open">"খোলা"</string>
+	<!---->
+	<string name="unknown">"অজানা"</string>
+	<!-- no translation found for unit_B -->
+	<skip />
+	<!-- no translation found for unit_KB -->
+	<skip />
+	<!-- no translation found for unit_MB -->
+	<skip />
+	<!-- no translation found for unit_GB -->
+	<skip />
+	<!-- no translation found for unit_TB -->
+	<skip />
+	<!---->
+	<string name="send_file">"ফাইলটি পাঠান"</string>
+	<!---->
+	<string name="default_search_text">"ফাইল খুঁজুন"</string>
+	<!---->
+	<string name="free_space">"লভ্য"</string>
+	<!---->
+	<string name="total_space">"মোট স্থান"</string>
+	<!-- no translation found for drawer_category -->
+	<skip />
+	<!---->
+	<string name="phone_storage">"ফোন স্টোরেজ"</string>
+	<!---->
+	<string name="phone_storage_cn">"ফোন সংরক্ষনাগার"</string>
+	<!---->
+	<string name="sd_card">"এসডি কার্ড"</string>
+	<!---->
+	<string name="draw_left_phone_storage">"ফোন সংরক্ষনাগার"</string>
+	<!---->
+	<string name="draw_left_sd_card">"কার্ড"</string>
+	<!-- no translation found for menu_settings -->
+	<skip />
+	<!---->
+	<string name="no_search_result">"0 result(s) for \"%1$s\""</string>
+	<!---->
+	<string name="copy_deny">"কপি করার অনুমতি নেই"</string>
+	<!---->
+	<string name="cut_deny">"কাট করার অনুমতি নেই"</string>
+	<!---->
+	<string name="delete_deny">"মুছে ফেলার কোন অনুমতি নেই"</string>
+	<!---->
+	<string name="insufficient_memory">"অপর্যাপ্ত জায়গা"</string>
+	<!-- no translation found for insufficient_message -->
+	<skip />
+	<!---->
+	<string name="invalid_empty_name">"ফাইল বা ফোল্ডারের নাম খালি রাখা যাবে না"</string>
+	<!---->
+	<string name="paste_same_folder">"অনুলিপি করতে পারিনি: উৎস এবং গন্তব্য ফোল্ডারটি একই."</string>
+	<!---->
+	<string name="invalid_char_prompt">"আপনি অবৈধ অক্ষর নিবেশ করেছেন"</string>
+	<!---->
+	<string name="msg_unable_open_file">"ফাইলটি খুলতে পারছি না।"</string>
+	<!---->
+	<string name="paste_sub_folder">"সাবফোল্ডারে পেস্ট করা যায়নি"</string>
+	<!---->
+	<string name="operation_fail">"কিছু ফাইল অপারেশন ব্যর্থ."</string>
+	<!---->
+	<string name="search_result">"%2$d হল \"%1$s\"-এর ফলাফল"</string>
+	<!---->
+	<string name="already_exists">"%1$s ইতিমধ্যেই ব্যবহৃত হচ্ছে"</string>
+	<!---->
+	<string name="unmounted">"%1$s আনমাউন্টেড"</string>
+	<!---->
+	<string name="create_hidden_file">"ফাইলের নাম যদি \'.\' দিয়ে শুরু হয়ে থাকে তাহলে এটি লুকিয়ে রাখা হবে"</string>
+	<!---->
+	<string name="file_name_too_long">"প্রবেশ করানো নাম অনেক দীর্ঘ"</string>
+	<!---->
+	<string name="some_paste_fail">"কিছু কার্যক্রম পেস্ট করতে ব্যর্থ হয়েছে"</string>
+	<!---->
+	<string name="delete_fail">"মোছা যায়নি"</string>
+	<!---->
+	<string name="some_delete_fail">"কিছু মুছে অপারেশন ব্যর্থ."</string>
+	<!---->
+	<string name="msg_unable_open_file_in_app">"এই ফাইলটি খোলার জন্য কোনও অ্যাপলিকেশন নেই।"</string>
+	<!---->
+	<string name="drm_forwardforbidden_title">"ফরোয়ার্ড"</string>
+	<!---->
+	<string name="drm_forwardforbidden_message">"ডিআরএম ফাইল ফরোয়ার্ড পারবেন না."</string>
+	<!---->
+	<string name="drm_no_valid_right">"ফাইলটি কোন বৈধ জন্য DRM কর্তৃপক্ষ আছে!"</string>
+	<!---->
+	<string name="drm_current_count">"বর্তমান ছাত্রদের_x000D_ ："</string>
+	<!---->
+	<string name="unlimited_usage">"অজানা লাইসেন্স"</string>
+	<!---->
+	<string name="drm_current_right">"বর্তমান সীমাবদ্ধতা_x000D_ ："</string>
+	<!---->
+	<string name="not_available">"লভ্য নয়"</string>
+	<!---->
+	<string name="right_url">"ইস্যুকারী URL টি লাইসেন্স :_x000D_ ："</string>
+	<!---->
+	<string name="use_times">"%s বার ব্যবহার করুন"</string>
+	<!---->
+	<string name="valid_after">"পরে বৈধ"</string>
+	<!---->
+	<string name="valid_until">"যতক্ষণ বৈধ"</string>
+	<!---->
+	<string name="drm_wifidisplay_title">"কপি সুরক্ষিত ফাইল"</string>
+	<!---->
+	<string name="drm_wifidisplay_message">"কপি সুরক্ষিত ফাইল বিতরণ করা যাবে না."</string>
+	<!---->
+	<string name="drm_wifidisplay_cancel_btn">"ওয়াই ফাই প্রদর্শন বন্ধ"</string>
+	<!---->
+	<string name="drm_wifidisplay_ok">"ঠিক আছে"</string>
+	<!---->
+	<string name="tv_link_close_toast">"Wi-Fi প্রদর্শন বন্ধ করা হয়েছে"</string>
+	<!---->
+	<string name="usbotg">"এক্সটার্নাল ইউএসবি স্টোরেজ"</string>
+	<!---->
+	<string name="show">"ফাইল"</string>
+	<!---->
+	<string name="hide">"ফাইল"</string>
+	<!---->
+	<string name="action_menu_create_folder_button">"ফোল্ডার তৈরি করুন"</string>
+	<!---->
+	<string name="searchResult">"অনুসন্ধান ফলাফল"</string>
+	<!---->
+	<string name="default_folder_name">"ফোল্ডারের নাম"</string>
+	<!---->
+	<string name="drm_protection_status">"সুরক্ষার অবস্থা:"</string>
+	<!---->
+	<string name="drm_can_forward">"ফরওয়ার্ড করা যাবে।"</string>
+	<!---->
+	<string name="drm_can_not_forward">"ফরওয়ার্ড করা যাবে না।"</string>
+	<!---->
+	<string name="drm_no_license">"কোন ডিআরএম লাইসেন্স নেই।"</string>
+	<!---->
+	<string name="drm_interval">"বৈধর জন্য %s প্রথমবার ব্যবহারের পরে"</string>
+	<!---->
+	<string name="drm_begin">"শুরু:"</string>
+	<!---->
+	<string name="drm_no_limitation">"কোন সীমাবদ্ধতা নেই।"</string>
+	<!---->
+	<string name="drm_end">"শেষ:"</string>
+	<!---->
+	<string name="drm_use_left">"কাউন্ট লেফ্ট:"</string>
+	<!---->
+	<string name="drm_no_crop">"ফাইল  "%s" ফাইল DRM সুরক্ষিত কারণ ক্রপ করার অনুমতি নেই ."</string>
+	<!---->
+	<string name="file_copy">"ফাইলকপি"</string>
+	<!-- no translation found for choice_file -->
+	<skip />
+	<!---->
+	<string name="alert_delete_single">"নির্বাচিত ফাইল মুছে ফেলা হবে."</string>
+	<!---->
+	<string name="pasting">"পেস্ট করা হচ্ছে"</string>
+	<!---->
+	<string name="readable">"রিডেবল:"</string>
+	<!---->
+	<string name="executable">"আবেদন:"</string>
+	<!---->
+	<string name="writable">"লেখার:"</string>
+	<!---->
+	<string name="add_favorite">"প্রিয় ফোল্ডার যোগ করুন"</string>
+	<!---->
+	<string name="del_favorite">"প্রিয় ফোল্ডার থেকে মুছে"</string>
+	<!---->
+	<string name="favourite">"ফেভারিটে যোগ করুন"</string>
+	<!---->
+	<string name="viewby_details">"বিবরণ অনুযায়ী দেখুন"</string>
+	<!---->
+	<string name="view_by">"দ্বারা দেখুন"</string>
+	<!---->
+	<string name="show_hide">"দেখানো\\লোকানো"</string>
+	<!---->
+	<string name="sort_by">"সাজান"</string>
+	<!---->
+	<string name="more">"আরো"</string>
+	<!-- no translation found for used -->
+	<skip />
+	<!---->
+	<string name="category_archives">"নথিপত্র"</string>
+	<!---->
+	<string name="category_favorite">"প্রিয়"</string>
+	<!---->
+	<string name="category_ringtones">"রিংটোন"</string>
+	<!---->
+	<string name="category_recordings">"রেকর্ডিং"</string>
+	<!---->
+	<string name="category_safebox">"নিরাপদ"</string>
+	<!---->
+	<string name="category_apks">"APKs"</string>
+	<!---->
+	<string name="search">"অনুসন্ধান"</string>
+	<!---->
+	<string name="sort_type">"টাইপ অনুযায়ী সাজাও"</string>
+	<!---->
+	<string name="sort_name">"নাম অনুযায়ী সাজাও (A-Z)"</string>
+	<!---->
+	<string name="sort_size">"আয়তন অনুসারে সাজান"</string>
+	<!---->
+	<string name="sort_time">"সময় দ্বারা বাছাই"</string>
+	<!---->
+	<string name="selected">"নির্বাচিত"</string>
+	<!---->
+	<string name="save">"সংরক্ষণ"</string>
+	<!---->
+	<string name="category_docs">"ডক্স"</string>
+	<!---->
+	<string name="category_files">"ফাইল"</string>
+	<!---->
+	<string name="view_as_grid">"গ্রিড দেখুন"</string>
+	<!---->
+	<string name="view_as_list">"তালিকা"</string>
+	<!---->
+	<string name="detail_path">"অবস্থান:"</string>
+	<!---->
+	<string name="detail_name">"নাম:"</string>
+	<!---->
+	<string name="detail_size">"আয়তন:"</string>
+	<!---->
+	<string name="detail_time">"সর্বশেষ পরিবর্তিত:"</string>
+	<!---->
+	<string name="empty_msg">"(খালি ফোল্ডার)"</string>
+	<!---->
+	<string name="search_files">"ফাইল খুঁজুন"</string>
+	<!-- no translation found for search_result_count -->
+	<skip />
+	<!---->
+	<string name="drawer_settings">"সেটিংস"</string>
+	<!---->
+	<string name="search_text_empty">"অনুসন্ধানের বিষয় খালি থাকা উচিত নয়।"</string>
+	<!---->
+	<string name="search_result_title">"অনুসন্ধান ফলাফল (সমূহ)"</string>
+	<!---->
+	<string name="path_not_exists">"%1$s বিদ্যমান নেই"</string>
+	<!---->
+	<string name="modify_hidden_file">"নাম দিয়ে শুরু না হয়, তাহলে ফাইল আড়াল করা হবে না \'.\'."</string>
+	<!---->
+	<string name="paste_fail">"পেস্ট করা যায়নি"</string>
+	<!---->
+	<string name="search_empty">"অনুসন্ধানের বিষয় খালি থাকা উচিত নয়।"</string>
+	<!---->
+	<string name="search_setting_description">"স্থানীয় ফাইল ও ফোল্ডার"</string>
+	<!---->
+	<string name="change_mode">"ফাইল বা ফোল্ডার নির্বাচন করুন"</string>
+	<!-- no translation found for drm_protectioninfo_title -->
+	<skip />
+	<!---->
+	<string name="draw_favourite">"প্রিয়"</string>
+	<!---->
+	<string name="unfavourite">"ফেভারিটে থেকে সরান"</string>
+	<!---->
+	<string name="drm_toast_license_expired">"ডিআরএম লাইসেন্সের মেয়াদ শেষ হয়ে গেছে."</string>
+	<!-- no translation found for sdstroge -->
+	<skip />
+	<!-- no translation found for phonestorage -->
+	<skip />
+	<!-- no translation found for title_activity_main -->
+	<skip />
+	<!-- no translation found for hello_world -->
+	<skip />
+	<!-- no translation found for action_settings -->
+	<skip />
+	<!-- no translation found for unlock_video -->
+	<skip />
+	<!---->
+	<string name="readable_m">"সুপাঠ্য"</string>
+	<!---->
+	<string name="executable_m">"অ্যাপলিকেশন"</string>
+	<!---->
+	<string name="writable_m">"লিখনযোগ্য"</string>
+	<!-- no translation found for main_recents -->
+	<skip />
+	<!-- no translation found for main_recents_cn -->
+	<skip />
+	<!---->
+	<string name="main_installers">"ইনস্টলারের"</string>
+	<!---->
+	<string name="main_document">"কাগজপত্র"</string>
+	<!---->
+	<string name="detail_path_m">"লোকেশন"</string>
+	<!-- no translation found for detail_path_m_cn -->
+	<skip />
+	<!---->
+	<string name="detail_name_m">"নাম"</string>
+	<!---->
+	<string name="detail_size_m">"আয়তন"</string>
+	<!---->
+	<string name="detail_time_m">"সর্বশেষ পরিবর্তিত"</string>
+	<!---->
+	<string name="main_photo">"ফটো"</string>
+	<!---->
+	<string name="main_sd_storage">"এসডি সংগ্রহস্থল"</string>
+	<!---->
+	<string name="main_external_storage">"বহিরাগত সংগ্রহস্থল"</string>
+	<!---->
+	<string name="main_home">"বাড়ি"</string>
+	<!-- no translation found for main_home_cn -->
+	<skip />
+	<!---->
+	<string name="main_nava_home">"বাড়ি"</string>
+	<!---->
+	<string name="menu_select">"নির্বাচন করুন"</string>
+	<!-- no translation found for go_up -->
+	<skip />
+	<!---->
+	<string name="no_folder">"এই ফোল্ডারটি খালি"</string>
+	<!---->
+	<string name="no_category">"এই বিষয়শ্রেণীতে অন্তর্ভুক্ত মোট খালি."</string>
+	<!-- no translation found for no_folder_cn -->
+	<skip />
+	<!-- no translation found for no_category_cn -->
+	<skip />
+	<!---->
+	<string name="pasted">"ফাইল আটকানো"</string>
+	<!-- no translation found for deleted -->
+	<skip />
+	<!-- no translation found for deleted_cn -->
+	<skip />
+	<!---->
+	<string name="view_list">"তালিকা আকারে দেখা"</string>
+	<!---->
+	<string name="view_grid">"গ্রিড দর্শন"</string>
+	<!---->
+	<string name="create_new_folder">"ফোল্ডার তৈরি করুন"</string>
+	<!-- no translation found for add_folder -->
+	<skip />
+	<!---->
+	<string name="detail">"বিস্তারিত"</string>
+	<!-- no translation found for menu_detail -->
+	<skip />
+	<!-- no translation found for migrate -->
+	<skip />
+	<!-- no translation found for permission_welcome_title -->
+	<skip />
+	<!-- no translation found for permission_msg -->
+	<skip />
+	<!---->
+	<string name="permission_setting_title">"গ্রান্ট এক্সেস"</string>
+	<!-- no translation found for permission_setting_content -->
+	<skip />
+	<!---->
+	<string name="permission_exit_btn">"প্রস্থান"</string>
+	<!---->
+	<string name="dialog_close_btn">"বন্ধ করুন"</string>
+	<!-- no translation found for dialog_close_btn_cn -->
+	<skip />
+	<!---->
+	<string name="shortcut_item">"শর্টকাট যুক্ত করুন"</string>
+	<!-- no translation found for shortcut_item_cn -->
+	<skip />
+	<!-- no translation found for shortcut_no_exist -->
+	<skip />
+	<!-- no translation found for shortcut_success -->
+	<skip />
+	<!-- no translation found for no_search_result_m -->
+	<skip />
+	<!---->
+	<string name="draw_left_phone_storage_m">"ফোন"</string>
+	<!---->
+	<string name="category_audio">"অডিও"</string>
+	<!-- no translation found for usbotg_m -->
+	<skip />
+	<!-- no translation found for sd_m -->
+	<skip />
+	<!---->
+	<string name="freeof_m">"ফ্রি মোড"</string>
+	<!---->
+	<string name="permission_settings">"সেটিং"</string>
+	<!-- no translation found for safe_first_dialog_title -->
+	<skip />
+	<!-- no translation found for safe_first_dialog_content -->
+	<skip />
+	<!-- no translation found for safe_first_dialog_content_cn -->
+	<skip />
+	<!-- no translation found for safe_storage_local -->
+	<skip />
+	<!---->
+	<string name="set_password_pass">"পাসওয়ার্ড"</string>
+	<!-- no translation found for set_password_first -->
+	<skip />
+	<!-- no translation found for input_new_password_hint -->
+	<skip />
+	<!-- no translation found for set_password_again -->
+	<skip />
+	<!---->
+	<string name="set_password_show">"পাসওয়ার্ড দেখান"</string>
+	<!-- no translation found for set_password_safe_question -->
+	<skip />
+	<!-- no translation found for set_password_safe_question_answer -->
+	<skip />
+	<!-- no translation found for set_password_safe_forget_pass -->
+	<skip />
+	<!-- no translation found for choose_safe -->
+	<skip />
+	<!-- no translation found for choose_safe_cn -->
+	<skip />
+	<!-- no translation found for create_safe -->
+	<skip />
+	<!-- no translation found for create_safe_to -->
+	<skip />
+	<!-- no translation found for create_safe_to_cn -->
+	<skip />
+	<!-- no translation found for set_password -->
+	<skip />
+	<!-- no translation found for add_file_safe -->
+	<skip />
+	<!---->
+	<string name="safe_set">"সেটিং"</string>
+	<!-- no translation found for safe_set_title -->
+	<skip />
+	<!-- no translation found for safe_set_title_cn -->
+	<skip />
+	<!-- no translation found for update_password -->
+	<skip />
+	<!---->
+	<string name="modify_password">"পাসওয়ার্ড পরিবর্তন করুন"</string>
+	<!-- no translation found for security_question -->
+	<skip />
+	<!-- no translation found for modify_security_question -->
+	<skip />
+	<!-- no translation found for safe_set_change_safe -->
+	<skip />
+	<!-- no translation found for safe_set_location_safe -->
+	<skip />
+	<!-- no translation found for safe_set_location_safe_cn -->
+	<skip />
+	<!-- no translation found for update_password_original -->
+	<skip />
+	<!-- no translation found for update_password_original_cn -->
+	<skip />
+	<!-- no translation found for destory_safe -->
+	<skip />
+	<!-- no translation found for destory_safe_cn -->
+	<skip />
+	<!-- no translation found for destory -->
+	<skip />
+	<!-- no translation found for use_password -->
+	<skip />
+	<!---->
+	<string name="input_password">"ইনপুট পাসওয়ার্ড"</string>
+	<!---->
+	<string name="forget_password">"পাসওয়ার্ড ভুলে"</string>
+	<!-- no translation found for others -->
+	<skip />
+	<!-- no translation found for password_empty -->
+	<skip />
+	<!-- no translation found for password_consistent -->
+	<skip />
+	<!-- no translation found for password_length_error -->
+	<skip />
+	<!-- no translation found for answer_empty -->
+	<skip />
+	<!-- no translation found for safe_box_name_empty -->
+	<skip />
+	<!-- no translation found for update_success -->
+	<skip />
+	<!-- no translation found for update_fail -->
+	<skip />
+	<!-- no translation found for password_mistake -->
+	<skip />
+	<!-- no translation found for move_safe -->
+	<skip />
+	<!-- no translation found for fingerprint_check -->
+	<skip />
+	<!-- no translation found for in_use -->
+	<skip />
+	<!-- no translation found for created -->
+	<skip />
+	<!-- no translation found for choose_files -->
+	<skip />
+	<!-- no translation found for move_out -->
+	<skip />
+	<!---->
+	<string name="remove_to">"সরান"</string>
+	<!-- no translation found for default_location -->
+	<skip />
+	<!-- no translation found for specified_location -->
+	<skip />
+	<!-- no translation found for open_dir -->
+	<skip />
+	<!-- no translation found for default_location_cn -->
+	<skip />
+	<!-- no translation found for specified_location_cn -->
+	<skip />
+	<!-- no translation found for specified_location_content_cn -->
+	<skip />
+	<!-- no translation found for category_safe -->
+	<skip />
+	<!-- no translation found for category_safe_cn -->
+	<skip />
+	<!-- no translation found for add_safe_size_limited -->
+	<skip />
+	<!-- no translation found for add_safe_drm_limited -->
+	<skip />
+	<!-- no translation found for fingerprint_relative_dialog -->
+	<skip />
+	<!-- no translation found for fingerprint_relative_dialog_cn -->
+	<skip />
+	<!-- no translation found for fingerprint_relative_dialog_ok -->
+	<skip />
+	<!-- no translation found for fingerprint_relative_dialog_ok_cn -->
+	<skip />
+	<!---->
+	<string name="fingerprint_relative_dialog_cancel">"পরে"</string>
+	<!-- no translation found for fingerprint_relative_dialog_cancel_cn -->
+	<skip />
+	<!-- no translation found for safe_location_current -->
+	<skip />
+	<!-- no translation found for safe_location_current_cn -->
+	<skip />
+	<!-- no translation found for safe_location_content -->
+	<skip />
+	<!-- no translation found for safe_location_content_cn -->
+	<skip />
+	<!-- no translation found for destory_safe_dialog_message -->
+	<skip />
+	<!-- no translation found for destory_safe_dialog_checkbox -->
+	<skip />
+	<!-- no translation found for destory_safe_dialog_checkbox_cn -->
+	<skip />
+	<!-- no translation found for open_safe_dialog -->
+	<skip />
+	<!-- no translation found for open_safe_dialog_cn -->
+	<skip />
+	<!-- no translation found for open_safe_dialog_message -->
+	<skip />
+	<!-- no translation found for open_safe_dialog_message_cn -->
+	<skip />
+	<!-- no translation found for open_safe_dialog_ok -->
+	<skip />
+	<!-- no translation found for category_private_string -->
+	<skip />
+	<!-- no translation found for opening -->
+	<skip />
+	<!-- no translation found for space_clear -->
+	<skip />
+	<!-- no translation found for unselected -->
+	<skip />
+	<!-- no translation found for select -->
+	<skip />
+	<!-- no translation found for finish -->
+	<skip />
+	<!-- no translation found for senior_title -->
+	<skip />
+	<!-- no translation found for no_files_for_add_to_safebox -->
+	<skip />
+	<!-- no translation found for finger_print_relation -->
+	<skip />
+	<!-- no translation found for duplicate_file_name_tip -->
+	<skip />
+	<!---->
+	<string name="searchview_hint">"ফাইল খুঁজুন"</string>
+	<!-- no translation found for safe_box_name_tip -->
+	<skip />
+	<!-- no translation found for toast_update_safe_box_name_sucess -->
+	<skip />
+	<!-- no translation found for toast_update_safe_box_name_fail -->
+	<skip />
+	<!-- no translation found for toast_safe_box_name_empty -->
+	<skip />
+	<!-- no translation found for cut_single_fail_tip -->
+	<skip />
+	<!-- no translation found for delete_single_fail_tip -->
+	<skip />
+	<!-- no translation found for copy_single_fail_tip -->
+	<skip />
+	<!-- no translation found for copy_multi_fail_tip -->
+	<skip />
+	<!-- no translation found for delete_multi_fail_tip -->
+	<skip />
+	<!-- no translation found for cut_multi_fail_tip -->
+	<skip />
+	<!-- no translation found for copy_all_fail_tip -->
+	<skip />
+	<!-- no translation found for delete_all_fail_tip -->
+	<skip />
+	<!-- no translation found for cut_all_fail_tip -->
+	<skip />
+	<!-- no translation found for past_multi_fail_tip -->
+	<skip />
+	<!-- no translation found for past_single_fail_tip -->
+	<skip />
+	<!-- no translation found for past_all_fail_tip -->
+	<skip />
+	<!-- no translation found for chip_encryption -->
+	<skip />
+	<!-- no translation found for safe_name_title -->
+	<skip />
+	<!-- no translation found for update_name -->
+	<skip />
+	<!-- no translation found for fingerprint_relate -->
+	<skip />
+	<!-- no translation found for insufficient_message_cn -->
+	<skip />
+	<!-- no translation found for add_success -->
+	<skip />
+	<!---->
+	<string name="pasted_cn">"ফাইল আটকানো"</string>
+	<!-- no translation found for no_search_result_cn -->
+	<skip />
+	<!-- no translation found for detail_time_cn -->
+	<skip />
+	<!-- no translation found for rename_limit -->
+	<skip />
+	<!-- no translation found for fingerprint_fail -->
+	<skip />
+	<!-- no translation found for answer_mistake -->
+	<skip />
+	<!-- no translation found for answer_empty_tip -->
+	<skip />
+	<!-- no translation found for new_safe -->
+	<skip />
+	<!-- no translation found for dialog_confirm -->
+	<skip />
+	<!-- no translation found for move_in_success -->
+	<skip />
+	<!-- no translation found for move_in_count -->
+	<skip />
+	<!-- no translation found for message_security_fingerprint_lockout -->
+	<skip />
+	<!-- no translation found for use_password_auth -->
+	<skip />
+	<!-- no translation found for storage_details -->
+	<skip />
+	<!---->
+	<string name="total_memory">"মোট মেমরি"</string>
+	<!-- no translation found for system -->
+	<skip />
+	<!-- no translation found for category_fragment_title -->
+	<skip />
+	<!-- no translation found for storage -->
+	<skip />
+	<!-- no translation found for choice -->
+	<skip />
+	<!-- no translation found for view_tag_key -->
+	<skip />
+	<!-- no translation found for view_tag_key2 -->
+	<skip />
+	<!-- no translation found for finish_percent -->
+	<skip />
+	<!-- no translation found for select_pic -->
+	<skip />
+	<!-- no translation found for brackets_double -->
+	<skip />
+	<!-- no translation found for selected_pick -->
+	<skip />
+	<!-- no translation found for most_selected -->
+	<skip />
+	<!-- no translation found for finish_ready -->
+	<skip />
+	<!-- no translation found for select_pic_data -->
+	<skip />
+	<!-- no translation found for delete_determine_selected -->
+	<skip />
+	<!-- no translation found for delete_document -->
+	<skip />
+	<!-- no translation found for delete_folder -->
+	<skip />
+	<!-- no translation found for delete_folder_and -->
+	<skip />
+	<!---->
+	<string name="deselect_all_item">"সব নির্বাচন-খারিজ করুন"</string>
+	<!-- no translation found for edit -->
+	<skip />
+	<!-- no translation found for storage_phone -->
+	<skip />
+	<!-- no translation found for storage_sdcard -->
+	<skip />
+	<!-- no translation found for storage_otg -->
+	<skip />
+	<!-- no translation found for storage_slash -->
+	<skip />
+	<!-- no translation found for welcome_security -->
+	<skip />
+	<!-- no translation found for welcome_security_info -->
+	<skip />
+	<!-- no translation found for welcome_convenient -->
+	<skip />
+	<!-- no translation found for welcome_convenient_info -->
+	<skip />
+	<!-- no translation found for welcome_depth -->
+	<skip />
+	<!-- no translation found for welcome_depth_info -->
+	<skip />
+	<!-- no translation found for welcome_add -->
+	<skip />
+	<!-- no translation found for welcome_add_info -->
+	<skip />
+	<!-- no translation found for welcome_dialog_title -->
+	<skip />
+	<!-- no translation found for welcome_dialog_info -->
+	<skip />
+	<!-- no translation found for welcome_dialog_verify_btn -->
+	<skip />
+	<!-- no translation found for welcome_dialog_verify_pwd -->
+	<skip />
+	<!-- no translation found for welcome_start_use -->
+	<skip />
+	<!-- no translation found for welcome_not_use -->
+	<skip />
+	<!---->
+	<string name="welcome_ok">"ঠিক আছে"</string>
+	<!-- no translation found for encrypt_files_success -->
+	<skip />
+	<!-- no translation found for delete_direct -->
+	<skip />
+	<!---->
+	<string name="delete_file">"এই ফাইলটি মুছে দিন?"</string>
+</resources>

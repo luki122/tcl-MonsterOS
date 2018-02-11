@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:fontFamily="monster-normal"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:id="@+id/item_in_pop"
+        android:layout_width="match_parent"
+        android:layout_height="48dp" />
+</LinearLayout>

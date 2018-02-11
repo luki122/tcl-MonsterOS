@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <!-- [BUGFIX]-Add-BEGIN by TSCD.peng.du,11/18/2015,904775, -->
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingStart="@dimen/px_51"
+        >
+        <Space
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/px_69" />
+
+        <cn.tcl.weather.view.TclCustomTextView
+            android:id="@+id/cityListitem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:fontFamily="monster-normal"
+            android:textColor="#D9000000"
+            android:textSize="@dimen/px_48"
+            />
+        <Space
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/px_69" />
+    </LinearLayout>
+    <!-- //[BUGFIX]-Add-END by TSCD.peng.du -->
+
+</LinearLayout>

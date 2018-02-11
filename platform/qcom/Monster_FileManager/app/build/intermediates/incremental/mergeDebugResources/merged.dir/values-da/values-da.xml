@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Naviger hjem"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Naviger op"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Flere muligheder"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Luk"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Se alle"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Vælg en app"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"FRA"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"TIL"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Søg…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Ryd forespørgslen"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Søgeforespørgsel"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Søg"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Indsend forespørgslen"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Talesøgning"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Del med"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Del med %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Skjul"</string>
+    <string name="action_menu_create_folder_button">"Opret mappe"</string>
+    <string name="add_favorite">"Føj til favoritmappe"</string>
+    <string name="alert_delete_multiple">"De valgte filer vil blive slettet"</string>
+    <string name="alert_delete_single">"Vil du slette den valgte fil?"</string>
+    <string name="already_exists">"%1$s er allerede i brug"</string>
+    <string name="app_name">"Filstyring"</string>
+    <string name="cancel">"Annuller"</string>
+    <string name="category_apks">"APK\'er"</string>
+    <string name="category_archives">"Arkiver"</string>
+    <string name="category_bluetooth">"Bluetooth"</string>
+    <string name="category_docs">"Dokumenter"</string>
+    <string name="category_download">"Downloads"</string>
+    <string name="category_favorite">"Favoritter"</string>
+    <string name="category_music">"Musik"</string>
+    <string name="category_pictures">"Billeder"</string>
+    <string name="category_recordings">"Optagelser"</string>
+    <string name="category_ringtones">"Ringetoner"</string>
+    <string name="category_safebox">"Sikkerhedsboks"</string>
+    <string name="category_vedios">"Videoer"</string>
+    <string name="change_mode">"Vælg fil eller mappe"</string>
+    <string name="confirm_rename">"Bekræft omdøbning"</string>
+    <string name="copy">"Kopier"</string>
+    <string name="copy_deny">"Ingen tilladelse til kopiering"</string>
+    <string name="create_folder">"Opret"</string>
+    <string name="create_hidden_file">"Filen vil blive skjult, hvis navnet starter med \'.\'"</string>
+    <string name="cut">"Klip"</string>
+    <string name="cut_deny">"Ingen tilladelse til at klippe"</string>
+    <string name="default_folder_name">"Mappenavn"</string>
+    <string name="default_search_text">"Søg filer"</string>
+    <string name="del_favorite">"Slet fra favoritmappe"</string>
+    <string name="delete">"slet"</string>
+    <string name="delete_deny">"Ingen tilladelse til at slette"</string>
+    <string name="delete_fail">"Sletningen blev ikke udført."</string>
+    <string name="deleting">"Sletter"</string>
+    <string name="deselect_all">"Fjern markering af alle"</string>
+    <string name="detail_name">"Filnavn:"</string>
+    <string name="detail_path">"Placering:"</string>
+    <string name="detail_size">"Filstørrelse:"</string>
+    <string name="detail_time">"Ændringstid:"</string>
+    <string name="details">"Detaljer"</string>
+    <string name="done">"Udfør"</string>
+    <string name="draw_favourite">"favorit"</string>
+    <string name="draw_left_phone_storage">"Telefonlager"</string>
+    <string name="draw_left_sd_card">"SD-kort"</string>
+    <string name="drawer_category">"Kategori"</string>
+    <string name="drawer_open">"Åbn"</string>
+    <string name="drawer_settings">"Indstillinger"</string>
+    <string name="drm_current_count">"Aktuelt antal："</string>
+    <string name="drm_current_right">"Aktuel begrænsning："</string>
+    <string name="drm_forwardforbidden_message">"DRM-filen kan ikke videresendes."</string>
+    <string name="drm_forwardforbidden_title">"Videresend ikke"</string>
+    <string name="drm_no_valid_right">"Filen har ingen gyldig DRM-godkendelse!"</string>
+    <string name="drm_wifidisplay_cancel_btn">"Deaktiver Wi-Di"</string>
+    <string name="drm_wifidisplay_message">"Den kopibeskyttede fil kan ikke distribueres."</string>
+    <string name="drm_wifidisplay_ok">"OK"</string>
+    <string name="drm_wifidisplay_title">"Kopibeskyttede filer"</string>
+    <string name="empty_msg">"(Tom mappe)"</string>
+    <string name="executable">"Programfil:"</string>
+    <string name="favourite">"Føj til favoritter"</string>
+    <string name="file_name_too_long">"Det indtastede navn er for langt"</string>
+    <string name="free_space">"Ledig"</string>
+    <string name="hide">"Skjul systemfiler"</string>
+    <string name="hide_file">"Skjul skjulte filer"</string>
+    <string name="insufficient_memory">"Ikke nok plads."</string>
+    <string name="invalid_char_prompt">"Du har indtastet et ugyldigt tegn"</string>
+    <string name="invalid_empty_name">"Fil eller mappenavn kan ikke være tomt"</string>
+    <string name="loading">"Indlæser ..."</string>
+    <string name="menu_settings">"Indstillinger"</string>
+    <string name="modified_time">"Ændret"</string>
+    <string name="modify_hidden_file">"Filen skjules ikke, hvis dens navn ikke begynder med \'.\'."</string>
+    <string name="more">"Flere"</string>
+    <string name="msg_rename_ext">"Du ændrer filtypenavnet, hvilket kan forårsage, at filen ikke genkendes. Er du sikker på, du vil gøre det?"</string>
+    <string name="msg_unable_open_file">"Filformatet understøttes ikke."</string>
+    <string name="msg_unable_open_file_in_app">"Der er ikke noget program til at åbne filen."</string>
+    <string name="name">"Navn"</string>
+    <string name="new_folder">"Indtast mappenavn"</string>
+    <string name="new_folder_name">"Nyt mappenavn"</string>
+    <string name="no">"Nej"</string>
+    <string name="no_search_result">"0 resultat(er) for \"%1$s\""</string>
+    <string name="not_available">"Ikke tilgængelig"</string>
+    <string name="ok">"OK"</string>
+    <string name="operation_fail">"En filhandling mislykkedes."</string>
+    <string name="paste">"Indsæt"</string>
+    <string name="paste_fail">"Der kunne ikke indsættes."</string>
+    <string name="paste_same_folder">"Det er ikke muligt at indsætte i den samme mappe"</string>
+    <string name="paste_sub_folder">"Det er ikke muligt at indsætte filen i undermappen"</string>
+    <string name="pasting">"Indsætter"</string>
+    <string name="path_not_exists">"%1$s findes ikke"</string>
+    <string name="phone_storage">"Telefonlager"</string>
+    <string name="readable">"Læsbar："</string>
+    <string name="rename">"Omdøb"</string>
+    <string name="right_url">"Webadresse for licensudsteder:："</string>
+    <string name="save">"Gem"</string>
+    <string name="sd_card">"SD-kort"</string>
+    <string name="search">"Søg"</string>
+    <string name="searchResult">"SearchResult"</string>
+    <string name="search_empty">"Søgeindholdet må ikke være tomt."</string>
+    <string name="search_files">"Søg filer"</string>
+    <string name="search_result">"%2$d resultat(er) for \"%1$s\""</string>
+    <string name="search_result_count">"fundet"</string>
+    <string name="search_result_title">"Søgeresultat(er)"</string>
+    <string name="search_setting_description">"Lokale filer og mapper"</string>
+    <string name="search_text_empty">"Søgeindholdet må ikke være tomt."</string>
+    <string name="select_all">"Vælg alle"</string>
+    <string name="selected">"Valgt"</string>
+    <string name="send_file">"Send fil"</string>
+    <string name="share">"Del"</string>
+    <string name="share_warning">"Der må maks. være 100 filer, hvis de skal deles."</string>
+    <string name="show">"Vis systemfiler"</string>
+    <string name="show_file">"Vis skjulte filer"</string>
+    <string name="show_hide">"Vis/Skjul"</string>
+    <string name="size">"Størrelse"</string>
+    <string name="some_delete_fail">"Sletningshandlinger mislykkedes."</string>
+    <string name="some_paste_fail">"Indsættelseshandlinger mislykkedes"</string>
+    <string name="sort">"Sortér"</string>
+    <string name="sort_by">"Sortér efter"</string>
+    <string name="sort_by_date">"Ændringsdato"</string>
+    <string name="sort_by_name">"Navn"</string>
+    <string name="sort_by_size">"Vent ..."</string>
+    <string name="sort_by_type">"Type"</string>
+    <string name="sort_name">"Sorter"</string>
+    <string name="sort_size">"Sorter efter størrelse (stor-lille)"</string>
+    <string name="sort_time">"Sorter efter tids (ny-gammel)"</string>
+    <string name="sort_type">"Sorter efter type"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="total_space">"Plads i alt"</string>
+    <string name="tv_link_close_toast">"Wi-Di er blevet lukket"</string>
+    <string name="unfavourite">"Fjern fra favoritter"</string>
+    <string name="unknown">"Ukendt"</string>
+    <string name="unlimited_usage">"Ubegrænset brug"</string>
+    <string name="unmounted">"%1$s er ikke isat"</string>
+    <string name="usbotg">"Eksternt USB-lager"</string>
+    <string name="use_times">"Brug %s gange"</string>
+    <string name="valid_after">"Gyldig efter"</string>
+    <string name="valid_until">"Gyldig indtil"</string>
+    <string name="view_as_grid">"Vis som gitter"</string>
+    <string name="view_as_list">"view_as_list"</string>
+    <string name="view_by">"Vis efter"</string>
+    <string name="viewby_details">"Vis efter detaljer"</string>
+    <string name="viewby_grid">"Vis efter gitter"</string>
+    <string name="viewby_list">"Vis som liste"</string>
+    <string name="wait">"Vent ..."</string>
+    <string name="warning">"Advarsel"</string>
+    <string name="writable">"Skrivbar："</string>
+    <string name="yes">"Ja"</string>
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/scenes_detail_shuffle_rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="11dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="25dp">
+
+        <ImageView
+            android:id="@+id/scenes_detail_shuffle_image"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:src="@drawable/scenes_detail_play"/>
+
+        <TextView
+            android:id="@+id/scenes_detail_shuffle_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:layout_toRightOf="@id/scenes_detail_shuffle_image"
+            android:alpha="0.86"
+            android:gravity="center_vertical"
+            android:text="@string/playing_all"
+            android:textColor="@color/black"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:id="@+id/scenes_detail_shuffle_num_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:layout_toRightOf="@id/scenes_detail_shuffle_tv"
+            android:alpha="0.4"
+            android:textColor="@color/black"
+            android:textSize="15sp"/>
+    </RelativeLayout>
+
+    <cn.tcl.music.view.ContextMenuReyclerView
+        android:id="@id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/batch_operate_linearlayout"
+        android:scrollbarStyle="insideOverlay"
+        android:scrollbars="horizontal|vertical"
+        android:theme="@android:style/Theme.DeviceDefault.Light"/>
+</LinearLayout>

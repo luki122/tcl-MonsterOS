@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.tcl.weather"
+    >
+
+    <uses-sdk
+        android:minSdkVersion="24"
+        android:targetSdkVersion="24" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+
+    <!--for GPS loaction-->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!--for Internet loaction-->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <!--for baidu loaction-->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+
+    <application
+        android:name=".WeatherCNApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/aaa_weather"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:resizeableActivity="false"
+        android:theme="@com.mst:style/Theme.Mst.Material.Light">
+
+        <activity
+            android:name=".EntranceActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoDisplay">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTask"
+            android:theme="@style/MainTheme">
+        </activity>
+
+        <activity
+            android:name=".TclWeatherWarningActivity"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTask"
+            />
+        <activity
+            android:name=".TclWeatherManagerActivity"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTask"
+            />
+        <activity
+            android:name="cn.tcl.weather.TclLocateActivity"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTask"
+            android:windowSoftInputMode="stateHidden|stateUnchanged" />
+
+        <activity
+            android:name=".OtherWeatherWarningActivity"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTask"
+            android:theme="@style/MainTheme" />
+        <activity
+            android:name=".OtherWeatherManagerActivity"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTask"
+            android:theme="@style/MainTheme" />
+        <activity
+            android:name="cn.tcl.weather.OtherLocateActivity"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTask"
+            android:theme="@style/MainTheme"
+            android:windowSoftInputMode="stateHidden|stateUnchanged" />
+
+        <service
+            android:name="cn.tcl.weather.service.UpdateService"
+            android:enabled="true"
+            android:persistent="true"
+            android:priority="1000" />
+        <service
+            android:name="cn.tcl.weather.service.WidgetService"
+            android:enabled="true"
+            android:priority="1000">
+            <intent-filter>
+                <action android:name="cn.tcl.weather.update_widget" />
+            </intent-filter>
+        </service>
+
+        <!--Baidu location service-->
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote" />
+
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="RSUc1zkyyzp7Ncu5ITC6ZSdQCBTMp59Y" />
+        <!--android:value="RSUc1zkyyzp7Ncu5ITC6ZSdQCBTMp59Y QuBYE0OnWxTooGtf2G99ONKGpGq12FKQ"-->
+
+        <receiver android:name="cn.tcl.weather.widget.WeatherWidget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="android.intent.action.LOCALE_CHANGED" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/other_weather_widget" />
+        </receiver>
+        <!-- ATTENTION: This was auto-generated to add Google Play services to your project for
+             App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
+
+    </application>
+
+</manifest>

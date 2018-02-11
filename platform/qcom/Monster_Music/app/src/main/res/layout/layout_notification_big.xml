@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff" >
+<!--//[BUGFIX]-Mod by TCTNJ,xing.yuan, 2015-08-18,PR1068626 begin-->
+    <ImageView
+        android:id="@id/artwork_image_view"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="4dp"
+        android:src="@drawable/default_cover_menu"
+        android:scaleType="fitXY"/>
+<!--//[BUGFIX]-Mod by TCTNJ,xing.yuan, 2015-08-18,PR1068626 end-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="0.22"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@id/item_info_text_block"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@id/title_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:fontFamily="sans-serif"
+                android:gravity="bottom|start"
+                android:singleLine="true"
+                android:textAlignment="gravity"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@id/subtitle_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:fontFamily="sans-serif"
+                android:gravity="top|start"
+                android:singleLine="true"
+                android:textAlignment="gravity"
+                android:textColor="#000000"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5" >
+
+            <ImageButton
+                android:id="@id/track_prev_image_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.3"
+                android:background="@android:color/transparent"
+                android:scaleType="center"
+                android:src="@drawable/prev_btn_drawable" />
+
+            <ImageButton
+                android:id="@id/track_play_pause_image_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.4"
+                android:background="@android:color/transparent"
+                android:scaleType="center"
+                android:src="@drawable/picto_play_off" />
+
+            <ImageButton
+                android:id="@id/track_next_image_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.3"
+                android:background="@android:color/transparent"
+                android:scaleType="center"
+                android:src="@drawable/next_btn_drawable" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/close_back_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        android:src="@drawable/picto_listen_close_on"/>
+</LinearLayout>

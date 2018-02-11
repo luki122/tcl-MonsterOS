@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- add by liyang begin -->
+    <string name="mst_commonly_contacts_header">常用联系人</string>
+    <string name="mst_other_contacts_header">其它联系人</string>
+    <string name="mst_all_contacts_header">全部联系人</string>
+    <string name="mst_group_header">群组</string>
+    <string name="mst_ringtone">铃声</string>
+    <string name="mst_ringtone_default">默认铃声</string>
+    <string name="mst_delete">删除</string>
+    <string name="mst_delete_success">删除成功</string>
+    <string name="mst_remove">移除</string>
+    <string name="mst_contacts_share_title">分享</string>
+    <string name="mst_star_header_text">星标联系人</string>
+    <string name="menu_settings">设置</string>
+    <string name="mst_ok">确定</string>
+    <string name="mst_remove_from_group">从群组移除</string>
+    <string name="mst_actionmode_selectall">全选</string>
+    <string name="mst_actionmode_selectnone">全不选</string>
+    <string name="mst_cancel">取消</string>
+    <string name="mst_menu_addGroupMember">添加组员</string>
+    <string name="mst_menu_removeGroupMember">已移除</string>
+    <string name="mst_menu_addedGroupMember">已添加</string>
+    <string name="mst_add_to_contact">添加为联系人</string>
+    <string name="mst_add_to_exist_contact">添加到已有联系人</string>
+    <string name="mst_useful_number">黄页</string>
+    <string name="mst_call_logs">通话记录</string>
+    <string name="mst_searchview_hint">搜索联系人、群组</string>
+    <string name="mst_goto_group_header">群组</string>
+    <string name="mst_starred_contacts_header">收藏</string>
+    <string name="mst_menu_export">导出联系人</string>
+    <string name="mst_menu_import">导入联系人</string>
+    <string name="mst_menu_export_to_sd">导出联系人</string>
+    <string name="mst_menu_import_from_sd">导入联系人</string>
+    <string name="import_from_sim1_menu">从SIM1中导入</string>
+    <string name="import_from_sim2_menu">从SIM2中导入</string>
+    <string name="export_to_sim1_menu">导出到SIM1</string>
+    <string name="export_to_sim2_menu">导出到SIM2</string>
+    <string name="mst_contact_import">导入</string>
+    <string name="search_shortcut_create_new_contact" msgid="1679917465521554093">"新建联系人"</string>
+    <string name="search_shortcut_add_to_contact" msgid="4327842393369915751">"添加到已有联系人"</string>
+    <string name="mst_busyness_card_scan">"名片扫描"</string>
+    <string name="mst_menu_view_contact">"查看联系人"</string>
+    <string name="mst_menu_mark_number">"标记号码"</string>
+    <string name="mst_menu_add_to_blacklist">"加入黑名单"</string>
+    <string name="mst_business_card_unknow_title">"职位不详"</string>
+    <string name="mst_business_card_unknow_company">"公司不详"</string>
+    <string name="mst_close">"关闭"</string>
+    <string name="mst_rename">"重命名"</string>
+    <string name="mst_delete_group">"删除群组"</string>
+    <string name="mst_business_card">"名片"</string>
+    <string name="mst_group_family">"家人"</string>
+    <string name="mst_group_friend">"朋友"</string>
+    <string name="mst_group_colleague">"同事"</string>
+    <string name="mst_remove_group_member_message">"确定将所选联系人从该群组移除?"</string>
+    <string name="mst_remove_group_member_title">"移除群组成员"</string>
+    <string name="mst_delete_call_log_message">"是否删除这<xliff:g id="COUNT">%s</xliff:g>条通话记录?"</string>
+    <string name="mst_delete_call_log_title">"删除通话记录"</string>
+    <string name="mst_contacts_count">"<xliff:g id="COUNT">%s</xliff:g>位联系人"</string>
+    <string name="mst_search_contacts">"搜索联系人"</string>
+    <string name="mst_auto_record_contacts">"录音联系人"</string>
+    <string name="mst_privacy_contacts">"隐私联系人"</string>
+    <string name="mst_add_auto_record_contacts">"添加录音联系人"</string>
+    <string name="mst_add_privacy_contacts">"添加隐私联系人"</string>
+    <string name="mst_is_save_group_message">"是否保存群组?"</string>
+    <string name="mst_is_save_group_title">"保存群组"</string>
+    <string name="mst_group_name_cannot_empty">"群组名称不能为空"</string>
+    <string name="mst_business_card_scan_fail">"名片扫描失败"</string>
+    <string name="mst_business_card_scan_camera_activity_not_found">"未找到相机应用"</string>
+    <string name="mst_import_sim_contacts_reading_simcontacts">"正在读取SIM卡联系人"</string>
+    <string name="mst_import_sim_contacts_query_result">"搜索到SIM卡中有<xliff:g id="COUNT">%s</xliff:g>位联系人,是否导入?"</string>
+    <string name="mst_import_sim_contacts_no_contacts">该SIM卡上无联系人</string>
+    <string name="mst_import_sim_contacts_doing">正在导入sim卡联系人</string>
+    <string name="mst_export_sim_contacts_doing">正在导出联系人至sim卡</string>
+    <string name="mst_import_sim_contacts_doing_from_sd">正在导入内部存储联系人</string>
+    <string name="mst_export_sim_contacts_doing_to_sd">正在导出<xliff:g id="COUNT">%s</xliff:g>联系人至内部存储</string>
+    <string name="mst_import_sim_contacts_result">"已成功导入<xliff:g id="COUNT">%s</xliff:g>位联系人"</string>
+    <string name="mst_import_sim_contacts_result_with_cancel">"已取消导入，本次已成功导入<xliff:g id="COUNT">%s</xliff:g>位联系人"</string>
+    <string name="mst_export_sim_contacts_result_with_cancel">"已取消导出，本次已成功导出<xliff:g id="COUNT">%s</xliff:g>位联系人"</string>
+    <string name="mst_export_sim_contacts_result">"已成功导出<xliff:g id="COUNT">%s</xliff:g>位联系人"</string>
+    <string name="mst_import_sim_contacts_full">sim卡已满,联系人未能导出。</string>
+    <string name="mst_import_sim_contacts_part_success">"成功导出<xliff:g id="COUNT1">%s</xliff:g>位联系人到sim卡，因sim卡已满，余下<xliff:g id="COUNT2">%s</xliff:g>位联系人未能导出。"</string>
+    <string name="mst_export_sim_contacts_to_sd_confication_message">"即将把所选联系人导出为以下文件:<xliff:g id="COUNT">%s</xliff:g>"</string>
+    <string name="mst_cancel_msg">已取消</string>
+    <string name="mst_import_from_sd_searching_vcard_title">正在搜索通讯录vcard文件</string>
+    <string name="mst_import_from_sd_searching_vcard">正在搜索，请等待...</string>
+    <string name="mst_import_from_sd_found_vcard_dialog_message">"已找到<xliff:g id="COUNT">%s</xliff:g>,是否导入?"</string>
+    <string name="mst_import_canceling_title">正在取消</string>
+    <string name="mst_import_canceling_message">正在取消，请稍后...</string>
+    <string name="mst_call_detail_title">通话记录详情</string>
+    <string name="mst_delete_contacts">删除联系人</string>
+    <string name="mst_deleting_contacts">正在删除联系人</string>
+    <string name="mst_saving_contacts">正在存储联系人</string>
+    <string name="mst_search_shortcut_send_sms_message">"发送短信"</string>
+    <string name="mst_menu_actionbar_selected_items">"已选择<xliff:g id="COUNT">%s</xliff:g>项"</string>
+    <string name="mst_delete_one_contact">"确定要删除此联系人吗？"</string>
+    <string name="mst_delete_multi_contacts">"确定要删除这<xliff:g id="COUNT">%s</xliff:g>位联系人吗？"</string>
+    <string name="mst_delete_group_dialog_title">"确定要解散此群组吗？"</string>
+    <string name="mst_delete_group_dialog_message">"群组内联系人将不会被删除。"</string>
+    <string name="mst_dissolved">"解散"</string>
+    <string name="mst_search_contacts_empty">"暂未找到对应联系人"</string>
+    <string name="mst_contacts_empty">"暂无联系人"</string>
+    <string name="mst_adding_auto_record_contacts">"正在添加录音联系人"</string>
+    <string name="mst_adding_privacy_contacts">"正在添加隐私联系人"</string>
+    <string name="mst_choose_number">"请选择号码"</string>
+    <string name="mst_choose_contacts">"请选择联系人"</string>
+    <string name="mst_search_contacts_hint">"搜索联系人、号码"</string>
+    <string name="mst_other_string">"其它"</string>
+    <string name="mst_import_sim_contacts_choose_first">"请先选择需要导入的SIM卡联系人"</string>
+    <string name="mst_contact_no_name">"(无姓名)"</string>
+    <string name="mst_add_group_member_finish_toast">"群组最多只能包含1000个成员，本次只能添加<xliff:g id="COUNT">%s</xliff:g>位联系人,余下的<xliff:g id="COUNT1">%s</xliff:g>位联系人不能添加"</string>
+    <string name="mst_marked_by_you">" | 已被您标记"</string>
+    <string name="mst_calllog_searchview_hint">搜索通话记录、联系人</string>
+    <string name="record_settings_label">通话录音</string>
+    <string name="mst_contact_setting">设置</string>
+    <string name="mst_remove_record_contacts_prompt">"确定移除选中的录音联系人?"</string>
+     <string name="mst_privacy_calllogs">"隐私通话记录"</string>
+     <string name="mst_add_privacy_contacts_from_exist_contact">"从已有联系人添加"</string>
+     <string name="mst_add_privacy_contacts_manual">"手动添加"</string>
+     <string name="mst_remove_privacy_contacts_dialog_message2">同时删除此联系人及通讯内容</string>
+     <string name="mst_remove_privacy_contacts_dialog_message">"确定将“<xliff:g id="GROUP_LABEL">%1$s</xliff:g>”及其隐私通信内容恢复为常规内容吗？"</string>
+      <string name="mst_remove_privacy_contacts_dialog_title">移除隐私联系人</string>
+      <string name="mst_privacy_contacts_empty">添加隐私联系人，保护短信和通话</string>
+      <string name="mst_privacy_calllogs">隐私通话记录</string>
+          <string name="private_notification_text">通知栏提示文字</string>
+    <string name="private_notification_text_summary">有新的系统消息</string>
+    <!-- add by liyang begin -->
+
+
+    <!-- add by lmx begin -->
+    <string name="mst_call_fax_work">传真</string>
+    <string name="birthdayLabelsGroup">生日</string>
+    <string name="addressLabelsGroup">地址</string>
+    <string name="mst_emailLabelsGroup">"邮箱"</string>
+    <string name="mst_organizationLabelsGroup">"公司和职位"</string>
+    <string name="mst_phoneTypeMobile">手机</string>
+    <string name="mst_phoneTypeHome">家庭</string>
+    <string name="mst_phoneTypeWork">办公</string>
+    <string name="mst_phoneTypeFax">传真</string>
+    <string name="mst_phoneTypeOther">其他</string>
+    <string name="mst_emailTypeHome">家庭</string>
+    <string name="mst_emailTypeWork">办公</string>
+    <string name="mst_emailTypeOther">其他</string>
+    <string name="mst_postalTypeHome">家庭</string>
+    <string name="mst_postalTypeWork">公司</string>
+    <string name="mst_postalTypeOther">其他</string>
+    <!-- add by lmx end -->
+
+    <string name="permission_no_title">"无权限"</string>
+    <string name="permission_no_storage">"要启用导入或导出功能，\n请在应用管理中开启“存储空间”权限。"</string>
+    <string name="permission_no_location">"请在应用管理中开启“位置信息”权限。"</string>
+    <string name="permission_no_calendar">"请在应用管理中开启“日历”权限。"</string>
+    <string name="permission_no_sms">"请在应用管理中开启“短信”权限。"</string>
+    <string name="permission_no_calllog">"请在应用管理中开启“电话”权限。"</string>
+    <string name="permission_no_contacts">"请在应用管理中开启“通讯录”权限。"</string>
+    <string name="no_music_activity">There is no Music app</string>
+    <string name="confirm_remove">确定将此号码移出黑名单吗？</string>
+    <string name="recover_black_phone">同时恢复拦截记录</string>
+    <string name="add_number_mark">标记此号码为</string>
+    <string name="edit_number_mark">修改号码标记</string>
+    <string name="add_number_mark_menu">标记此号码</string>
+    <string name="add_to_black">"加入黑名单"</string>
+    <string name="add_to_black_call">"拦截此人来电"</string>
+    <string name="remove_from_black">"移出黑名单"</string>
+    <string name="black_remove">移出黑名单</string>
+    <string name="reject_marks">"人标记"</string>
+    <string name="slide_delete_calllog_title">"删除通话记录"</string>
+    <string name="slide_delete_calllog_message">"确定要删除此号码所有通话记录吗？"</string>
+    <string name="reject_call_detail_title">来电拦截详情</string>
+
+</resources>

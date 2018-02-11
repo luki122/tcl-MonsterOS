@@ -1,0 +1,16 @@
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<vector android:height="24dp" android:viewportHeight="72.0"
+    android:viewportWidth="72.0" android:width="24dp" xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillAlpha="0.7" android:fillColor="#00000000"
+        android:pathData="M52.52,20.11L52.52,58.59C52.52,58.79 52.36,58.94 52.17,58.94L20.56,58.94C20.37,58.94 20.21,58.79 20.21,58.59L20.21,27.46"
+        android:strokeColor="#242424" android:strokeLineCap="round" android:strokeWidth="3"/>
+    <path android:fillAlpha="0.7" android:fillColor="#00000000"
+        android:pathData="M45.37,20.11L42.17,13.88C42.05,13.65 41.81,13.5 41.55,13.5L30.87,13.5C30.61,13.5 30.37,13.65 30.25,13.88L27.09,20.11"
+        android:strokeColor="#242424" android:strokeLineCap="round" android:strokeWidth="3"/>
+    <path android:fillAlpha="0.7" android:fillColor="#00000000"
+        android:pathData="M13.5,20.11L58.96,20.11"
+        android:strokeColor="#242424" android:strokeLineCap="round" android:strokeWidth="3"/>
+    <path android:fillAlpha="0.7" android:fillColor="#242424"
+        android:pathData="M35,48.64L35,33.51C35,32.67 35.67,32 36.5,32L36.5,32C37.33,32 38,32.68 38,33.49L38,49.51C38,50.33 37.33,51 36.5,51L36.5,51C35.67,51 35,50.33 35,49.5L35,48.64Z"
+        android:strokeColor="#00000000" android:strokeWidth="1"/>
+</vector>

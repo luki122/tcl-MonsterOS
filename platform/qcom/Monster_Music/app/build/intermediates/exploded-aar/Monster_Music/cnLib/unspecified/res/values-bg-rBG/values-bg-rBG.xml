@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cannot_specify_an_empty_name_for_playlist">"Името на плейлистата не може да бъде празно"</string>
+    <string name="cross_dj_saturated_storage_not_enough_free_space_to_record_your_mix">"Няма достатъчно място за записване на Вашия микс."</string>
+    <string name="cross_dj_saturated_storage_your_recording_might_stop_soon_because_no_more_free_space_is_available">"Вашият запис може скоро да спре, тъй като няма повече място."</string>
+    <string name="invalid_drm_file">"Файлът няма валиден DRM авторитет!"</string>
+    <string name="mobiledata_turnoff_btn">"Неактивен"</string>
+    <string name="never_show_it_again">"Не показвай това отново"</string>
+    <string name="no_error">"Няма грешка"</string>
+    <string name="recording_reached_max_duration">"Записът е достигнал максималната си продължителност. Моля, проверете Вашите предпочитания."</string>
+    <string name="recording_soon_to_reach_max_duration">"Записът скоро ще достигне максималната си продължителност. Моля, проверете Вашите предпочитания."</string>
+    <string name="scratching_is_disabled_in_no_mix_mode">"Може да драскате само в режим DJ."</string>
+    <string name="sign_up">"Регистрация"</string>
+    <string name="the_external_memory_storage_is_not_mounted">"Външното запомнящо устройство не е монтирано. Може да се наложи да деактивирате USB запомнящото устройство."</string>
+    <string name="there_s_not_enough_space_in_your_internal_storage_try_to_do_some_clean_up">"Във вътрешната памет на Вашето устройство няма достатъчно място (опитайте се да освободите място)"</string>
+</resources>

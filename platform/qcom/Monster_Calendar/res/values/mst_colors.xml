@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="horizontal_divider">#1a000000</color>
+
+    <color name="allinone_toolbar_title_color">#db000000</color>
+    <color name="allinone_toolbar_summary_color">#db1a1a1a</color>
+
+    <color name="delete_bg_color">#fe6e6e</color>
+    <color name="delete_label_color">#dbffffff</color>
+
+    <color name="event_info_bg_color">#f5f5f5</color>
+    <color name="event_info_banner_top_color">#1a000000</color>
+
+    <color name="month_header_bg_color">#ffffff</color>
+    <color name="month_header_text_color">#888888</color>
+    <color name="month_day_bg_color">#ffffff</color>
+    <color name="month_day_today_color">#b23b3b</color>
+    <color name="month_day_tap_color">#ababab</color>
+    <color name="month_day_event_tag_color">#c54b4b</color>
+    <color name="month_day_number_color">#5b5b5b</color>
+    <color name="month_day_other_number_color">#e0e0e1</color>
+    <color name="month_day_extra_text_color">#665b5b5b</color>
+    <color name="month_day_highlight_text_color">#b23b3b</color>
+    <color name="month_day_select_text_color">#ffffff</color>
+    <color name="month_day_no_agenda_color">#ededed</color>
+
+    <color name="agenda_field_bg_color">#ffffff</color>
+    <color name="agenda_item_title_text_color">#db000000</color>
+    <color name="agenda_item_summary_text_color">#99000000</color>
+</resources>

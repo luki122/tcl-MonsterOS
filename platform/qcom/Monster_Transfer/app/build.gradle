@@ -1,0 +1,47 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 824
+    buildToolsVersion "24.0.1"
+
+    defaultConfig {
+        applicationId "cn.tcl.transfer"
+        minSdkVersion 24
+        targetSdkVersion 24
+        versionCode Integer.valueOf("011612011")
+        versionName "v1.0.3.1.0115.0"
+        jackOptions {
+            enabled true
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    android {
+        lintOptions {
+            checkReleaseBuilds false
+            // Or, if you prefer, you can continue to check for errors in release builds,
+            // but continue the build even when errors are found:
+            abortOnError false
+        }
+    }
+    sourceSets {
+        main {
+            java.srcDirs = ['libs',  'src/main/java']
+            resources.srcDirs = ['libs', 'src']
+            renderscript.srcDirs = ['libs', 'src']
+            jniLibs.srcDirs=['jniLibs']
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:24.1.1'
+    compile files('libs/zxing-core-3.2.1.jar')
+    compile files('libs/tcl_pro.jar')
+}

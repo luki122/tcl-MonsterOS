@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/keyguard_list_image_parent"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/keyguard_list_image_height"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/keyguard_list_item_left_image"
+        android:layout_width="@dimen/keyguard_list_image_width"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+         />
+
+    <Space 
+        android:layout_width="@dimen/keyguard_list_image_width"
+        android:layout_height="match_parent"
+        />
+    
+
+</LinearLayout>

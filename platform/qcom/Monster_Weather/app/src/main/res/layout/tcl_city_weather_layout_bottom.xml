@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/background_scroll_view"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/city_weather_lately"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/px_60"
+        android:paddingRight="@dimen/px_60"
+        android:paddingTop="@dimen/px_120">
+
+        <LinearLayout
+            android:id="@+id/first_day"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/content_margin">
+
+            <cn.tcl.weather.view.TclCustomTextView
+                android:id="@+id/tv_first_day"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:paddingBottom="7dp"
+                android:singleLine="true"
+                android:text="@string/day_weather_yesterday"
+                android:textColor="@color/clr_4D000000"
+                android:textSize="@dimen/tx_px_36" />
+
+            <ImageView
+                android:id="@+id/img_weather_first_day"
+                android:layout_width="@dimen/px_96"
+                android:layout_height="@dimen/px_96"
+                android:layout_marginTop="@dimen/px_20" />
+
+            <cn.tcl.weather.view.TclCustomTextView
+                android:id="@+id/tv_temp_first_day"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/px_40"
+                android:includeFontPadding="false"
+                android:paddingTop="5dp"
+                android:textColor="@color/clr_4D000000"
+                android:textSize="@dimen/tx_px_36" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/second_day"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <cn.tcl.weather.view.TclCustomTextView
+                android:id="@+id/tv_second_day"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:paddingBottom="7dp"
+                android:singleLine="true"
+                android:textColor="@color/clr_4D000000"
+                android:textSize="@dimen/tx_px_36" />
+
+            <ImageView
+                android:id="@+id/img_weather_second_day"
+                android:layout_width="@dimen/px_96"
+                android:layout_height="@dimen/px_96"
+                android:layout_marginTop="@dimen/px_20" />
+
+            <cn.tcl.weather.view.TclCustomTextView
+                android:id="@+id/tv_temp_second_day"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/px_40"
+                android:includeFontPadding="false"
+                android:paddingTop="5dp"
+                android:text="@string/day_weather_today"
+                android:textColor="@color/clr_4D000000"
+                android:textSize="@dimen/tx_px_36" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/third_day"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <cn.tcl.weather.view.TclCustomTextView
+                android:id="@+id/tv_third_day"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:paddingBottom="7dp"
+                android:singleLine="true"
+                android:textColor="@color/clr_4D000000"
+                android:textSize="@dimen/tx_px_36" />
+
+            <ImageView
+                android:id="@+id/img_weather_third_day"
+                android:layout_width="@dimen/px_96"
+                android:layout_height="@dimen/px_96"
+                android:layout_marginTop="@dimen/px_20" />
+
+            <cn.tcl.weather.view.TclCustomTextView
+                android:id="@+id/tv_temp_third_day"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/px_40"
+                android:includeFontPadding="false"
+                android:paddingTop="5dp"
+                android:textColor="@color/clr_4D000000"
+                android:textSize="@dimen/tx_px_36" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/forth_day"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <cn.tcl.weather.view.TclCustomTextView
+                android:id="@+id/tv_forth_day"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:paddingBottom="7dp"
+                android:singleLine="true"
+                android:textColor="@color/clr_4D000000"
+                android:textSize="@dimen/tx_px_36" />
+
+            <ImageView
+                android:id="@+id/img_weather_forth_day"
+                android:layout_width="@dimen/px_96"
+                android:layout_height="@dimen/px_96"
+                android:layout_marginTop="@dimen/px_20" />
+
+            <cn.tcl.weather.view.TclCustomTextView
+                android:id="@+id/tv_temp_forth_day"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/px_40"
+                android:includeFontPadding="false"
+                android:paddingTop="5dp"
+                android:textColor="@color/clr_4D000000"
+                android:textSize="@dimen/tx_px_36" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/fifth_day"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <cn.tcl.weather.view.TclCustomTextView
+                android:id="@+id/tv_fifth_day"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:paddingBottom="7dp"
+                android:singleLine="true"
+                android:textColor="@color/clr_4D000000"
+                android:textSize="@dimen/weather_info_key_size" />
+
+            <ImageView
+                android:id="@+id/img_weather_fifth_day"
+                android:layout_width="@dimen/px_96"
+                android:layout_height="@dimen/px_96"
+                android:layout_marginTop="@dimen/px_20" />
+
+            <cn.tcl.weather.view.TclCustomTextView
+                android:id="@+id/tv_temp_fifth_day"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/px_40"
+                android:includeFontPadding="false"
+                android:paddingTop="5dp"
+                android:textColor="@color/clr_4D000000"
+                android:textSize="@dimen/weather_info_value_size" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <cn.tcl.weather.view.WeatherDetailView
+        android:id="@+id/wdv_24hours"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_450"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="@dimen/px_24"
+        android:background="@color/clr_ffffffff"
+        android:paddingBottom="@dimen/px_120"
+        android:paddingLeft="@dimen/px_60"
+        android:paddingRight="@dimen/px_60"
+        android:paddingTop="@dimen/px_100" />
+
+    <!--wind direction and humidity layout start-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24px"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:paddingLeft="120px"
+        android:paddingTop="120px">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/px_108"
+                android:layout_height="@dimen/px_108"
+                android:src="@drawable/tcl_wind_icon"
+                android:layout_gravity="center"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="12dp"
+                android:paddingTop="9px">
+
+                <cn.tcl.weather.view.TclCustomTextView
+                    android:id="@+id/city_weather_wind_direction"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/clr_8A000000"
+                    android:textSize="@dimen/tx_dp_11" />
+
+                <cn.tcl.weather.view.TclCustomTextView
+                    android:id="@+id/city_weather_wind_grade"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:textColor="@color/clr_db000000"
+                    android:textSize="@dimen/tx_dp_20" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/px_108"
+                android:layout_height="@dimen/px_108"
+                android:src="@drawable/tcl_humidity_icon"
+                android:layout_gravity="center"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="30px"
+                android:paddingTop="9px">
+
+                <cn.tcl.weather.view.TclCustomTextView
+                    android:id="@+id/city_weather_humidity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/humidity_str"
+                    android:textColor="@color/clr_8A000000"
+                    android:textSize="@dimen/tx_dp_11" />
+
+                <cn.tcl.weather.view.TclCustomTextView
+                    android:id="@+id/city_weather_humidity_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:textColor="@color/clr_db000000"
+                    android:textSize="@dimen/tx_dp_20" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <!--wind direction and humidity layout end-->
+
+    <!--life index layout start-->
+    <LinearLayout
+        android:id="@+id/wear_index"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:paddingLeft="120px"
+        android:paddingTop="37dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/px_108"
+                android:layout_height="@dimen/px_108"
+                android:src="@drawable/tcl_dress_index_icon"
+                android:layout_gravity="center"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="30px"
+                android:paddingTop="9px">
+
+                <cn.tcl.weather.view.TclCustomTextView
+                    android:id="@+id/city_weather_dress_index"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/dress_index_str"
+                    android:textColor="@color/clr_8A000000"
+                    android:textSize="@dimen/tx_dp_11" />
+
+                <cn.tcl.weather.view.TclCustomTextView
+                    android:id="@+id/city_weather_dress_index_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15px"
+                    android:textColor="@color/clr_db000000"
+                    android:textSize="@dimen/tx_dp_20" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/px_108"
+                android:layout_height="@dimen/px_108"
+                android:src="@drawable/tcl_sunscreen_index_icon"
+                android:layout_gravity="center"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="30px"
+                android:paddingTop="9px">
+
+                <cn.tcl.weather.view.TclCustomTextView
+                    android:id="@+id/city_weather_sunscreen_index"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sunscreen_index_str"
+                    android:textColor="@color/clr_8A000000"
+                    android:textSize="@dimen/tx_dp_11" />
+
+                <cn.tcl.weather.view.TclCustomTextView
+                    android:id="@+id/city_weather_sunscreen_index_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15px"
+                    android:textColor="@color/clr_db000000"
+                    android:textSize="@dimen/tx_dp_20" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/wear_index_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:paddingLeft="120px"
+        android:paddingTop="19px"
+        android:visibility="gone">
+
+        <cn.tcl.weather.view.TclCustomTextView
+            android:id="@+id/dress_index_tip"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingRight="70px"
+            android:textColor="@color/clr_99000000"
+            android:textSize="@dimen/tx_px_36" />
+
+        <cn.tcl.weather.view.TclCustomTextView
+            android:id="@+id/sunscreen_index_tip"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingRight="70px"
+            android:textColor="@color/clr_99000000"
+            android:textSize="@dimen/tx_px_36" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/sport_index"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:paddingBottom="37dp"
+        android:paddingLeft="120px"
+        android:paddingTop="120px">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/px_108"
+                android:layout_height="@dimen/px_108"
+                android:src="@drawable/tcl_sport_index_icon"
+                android:layout_gravity="center"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="30px"
+                android:paddingTop="9px">
+
+                <cn.tcl.weather.view.TclCustomTextView
+                    android:id="@+id/city_weather_sport_index"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sport_index_str"
+                    android:textColor="@color/clr_8A000000"
+                    android:textSize="@dimen/tx_dp_11" />
+
+                <cn.tcl.weather.view.TclCustomTextView
+                    android:id="@+id/city_weather_sport_index_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15px"
+                    android:textColor="@color/clr_db000000"
+                    android:textSize="@dimen/tx_dp_20" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/px_108"
+                android:layout_height="@dimen/px_108"
+                android:src="@drawable/tcl_car_wash_index_icon"
+                android:layout_gravity="center"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="30px"
+                android:paddingTop="9px">
+
+                <cn.tcl.weather.view.TclCustomTextView
+                    android:id="@+id/city_weather_wash_car_index"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/car_wash_index_str"
+                    android:textColor="@color/clr_8A000000"
+                    android:textSize="@dimen/tx_dp_11" />
+
+                <cn.tcl.weather.view.TclCustomTextView
+                    android:id="@+id/city_weather_wash_car_index_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15px"
+                    android:textColor="@color/clr_db000000"
+                    android:textSize="@dimen/tx_dp_20" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/sport_index_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/px_120"
+        android:paddingLeft="120px"
+        android:paddingTop="19px"
+        android:visibility="gone">
+
+        <cn.tcl.weather.view.TclCustomTextView
+            android:id="@+id/sport_index_tip"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingRight="70px"
+            android:textColor="@color/clr_99000000"
+            android:textSize="@dimen/tx_px_36" />
+
+        <cn.tcl.weather.view.TclCustomTextView
+            android:id="@+id/wash_car_index_tip"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingRight="70px"
+            android:textColor="@color/clr_99000000"
+            android:textSize="@dimen/tx_px_36" />
+    </LinearLayout>
+    <!--life index layout end-->
+    <cn.tcl.weather.view.TclCustomTextView
+        android:id="@+id/data_source"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/clr_fff7f7f7"
+        android:gravity="center"
+        android:text="@string/data_source_str"
+        android:textColor="@color/clr_4D000000"
+        android:textSize="@dimen/tx_dp_11" />
+
+</LinearLayout>
+

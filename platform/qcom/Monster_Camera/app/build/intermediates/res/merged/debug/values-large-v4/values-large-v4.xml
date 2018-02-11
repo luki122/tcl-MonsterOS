@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="abc_action_bar_embed_tabs_pre_jb">true</bool>
+    <bool name="abc_config_allowActionMenuItemTextWithIcon">true</bool>
+    <bool name="only_use_portrait">false</bool>
+    <dimen name="abc_config_prefDialogWidth">440dp</dimen>
+    <dimen name="abc_search_view_text_min_width">192dip</dimen>
+    <dimen name="category_panel_height">94dip</dimen>
+    <dimen name="category_panel_icon_size">72dip</dimen>
+    <dimen name="category_panel_margin">4dip</dimen>
+    <dimen name="category_panel_text_size">14dip</dimen>
+    <item name="dialog_fixed_height_major" type="dimen">60%</item>
+    <item name="dialog_fixed_height_minor" type="dimen">90%</item>
+    <item name="dialog_fixed_width_major" type="dimen">60%</item>
+    <item name="dialog_fixed_width_minor" type="dimen">90%</item>
+    <dimen name="onscreen_indicators_height">@dimen/onscreen_indicators_height_large</dimen>
+    <dimen name="setting_item_icon_width">@dimen/setting_item_icon_width_large</dimen>
+    <dimen name="setting_popup_right_margin">@dimen/setting_popup_right_margin_large</dimen>
+    <dimen name="setting_popup_window_width">@dimen/setting_popup_window_width_large</dimen>
+    <dimen name="setting_row_height">@dimen/setting_row_height_large</dimen>
+    <integer name="abc_max_action_buttons">4</integer>
+    <style name="Base.Theme.AppCompat.DialogWhenLarge" parent="Base.Theme.AppCompat.Dialog.FixedSize"/>
+    <style name="Base.Theme.AppCompat.Light.DialogWhenLarge" parent="Base.Theme.AppCompat.Light.Dialog.FixedSize"/>
+</resources>

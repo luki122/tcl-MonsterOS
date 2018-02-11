@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary_bg"
+    tools:context="cn.tcl.setupwizard.ui.FinishActivity">
+
+    <LinearLayout
+        android:id="@+id/finish_header"
+        android:layout_width="match_parent"
+        android:layout_height="243dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="57dp"
+            android:paddingStart="26dp">
+            <ImageButton
+                android:id="@+id/header_back"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:background="?android:attr/selectableItemBackgroundBorderless"
+                android:src="@drawable/ic_back"/>
+            <!--
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_gravity="center_vertical"
+                android:fontFamily="monster-normal"
+                android:textColor="#DB000000"
+                android:textSize="17sp"
+                android:text="@string/enjoy" />
+            -->
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="114dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="210dp"
+            android:layout_height="210dp"
+            android:src="@drawable/ic_system_logo"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="monster-normal"
+            android:textColor="#80000000"
+            android:textSize="14sp"
+            android:text="@string/finish_prompt" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/sim_btn_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="56dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/finish_btn_begin"
+            style="@style/button_style"
+            android:text="@string/begin_title"/>
+    </LinearLayout>
+
+</RelativeLayout>

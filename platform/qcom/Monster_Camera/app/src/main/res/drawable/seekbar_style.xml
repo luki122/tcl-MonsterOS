@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="true">
+        <layer-list >
+
+            <item android:id="@android:id/background">
+                <shape android:shape="rectangle" >
+                    <size android:height="3dp" />
+
+                    <corners android:radius="1dip" />
+
+                    <gradient
+                        android:angle="90"
+                        android:centerColor="#4cffffff"
+                        android:centerY="0.5"
+                        android:endColor="#4cffffff"
+                        android:startColor="#4cffffff" />
+                </shape>
+            </item>
+            <item android:id="@android:id/progress">
+                <clip>
+                    <shape android:shape="rectangle" >
+                        <size android:height="3dp" />
+
+                        <corners android:radius="1dip" />
+
+                        <gradient
+                            android:angle="90"
+                            android:centerColor="#FFFFFFFF"
+                            android:centerY="0.5"
+                            android:endColor="#FFFFFFFF"
+                            android:startColor="#FFFFFFFF" />
+                    </shape>
+                </clip>
+            </item>
+
+        </layer-list>
+    </item>
+    <item android:state_enabled="false">
+        <layer-list >
+            <item android:id="@android:id/background">
+                <shape android:shape="rectangle" >
+                    <size android:height="3dp" />
+
+                    <corners android:radius="1dip" />
+
+                    <gradient
+                        android:angle="90"
+                        android:centerColor="#999999"
+                        android:centerY="0.5"
+                        android:endColor="#999999"
+                        android:startColor="#999999" />
+                </shape>
+            </item>
+            <item android:id="@android:id/progress">
+                <clip>
+                    <shape android:shape="rectangle" >
+                        <size android:height="3dp" />
+
+                        <corners android:radius="1dip" />
+
+                        <gradient
+                            android:angle="90"
+                            android:centerColor="#666666"
+                            android:centerY="0.5"
+                            android:endColor="#666666"
+                            android:startColor="#666666" />
+                    </shape>
+                </clip>
+            </item>
+        </layer-list>
+    </item>
+</selector>

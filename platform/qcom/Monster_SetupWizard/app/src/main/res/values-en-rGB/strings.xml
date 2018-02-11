@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">"SetupWizard"</string>
+    <string name="loading_net_waiting">"Loading, please wait..."</string>
+    <string name="language_title">"Select language"</string>
+    <string name="sim_set_title">"Detect SIM card"</string>
+    <string name="sim_set_prompt">"Please insert your SIM card"</string>
+    <string name="sim_card">"SIM card"</string>
+    <string name="sim_card_enabled">"SIM card <xliff:g id="count">%s</xliff:g> inserted"</string>
+    <string name="sim_card_disabled">"SIM card <xliff:g id="count">%s</xliff:g> not inserted"</string>
+    <string name="china_mobile">"China Mobile"</string>
+    <string name="china_unicom">"China Unicom"</string>
+    <string name="china_telecom">"China Telecom"</string>
+
+    <string name="mobile_network">"Mobile data network"</string>
+    <string name="mobile_network_description">"In the case of wireless networks aren\'t connected, the system will use the mobile data network to access the Internet"</string>
+    <string name="default_network_card">"The default network card"</string>
+
+    <string name="wifi_title">"Select a wireless network"</string>
+    <string name="wifi_advanced_setup">"Advanced setup"</string>
+    <string name="wifi_dialog_hint">"Enter the password..."</string>
+    <string name="wifi_dialog_hint2">"Retype the password"</string>
+    <string name="wifi_connect_fail">"Can\'t connect to Wi-Fi, try again"</string>
+    <string name="wifi_loading_prompt">"Searching for Wi-Fi networks..."</string>
+
+    <string name="user_terms_title">"Terms of Use"</string>
+    <string name="user_terms_license">"Use license"</string>
+    <string name="user_terms_privacy">"Privacy policy"</string>
+    <string name="user_terms_prompt">"Only if you agreed to use \"TCL service\""</string>
+
+    <string name="other_service_title">"Other services"</string>
+    <string name="other_service_location">"Location service"</string>
+    <string name="other_service_location_description">"Location service allows other applications to use the Wi-Fi network and data location."</string>
+    <string name="other_service_experience">"User experience"</string>
+    <string name="other_service_experience_description">"We\'ll count up your usage of product features in order to improve the quality of our products and services. During the whole process, we will strictly comply with our privacy policy."</string>
+
+    <string name="fingerprint_title">"Input fingerprint"</string>
+    <string name="fingerprint_prompt">"After inputting fingerprint, you can use the fingerprint to unlock the device."</string>
+    <string name="fingerprint_unsupported">"Your device doesn\'t support fingerprints, please click the \"skip\"."</string>
+    <string name="fingerprint_begin">"Start input"</string>
+    <string name="fingerprint_other">"Input other finger"</string>
+
+    <string name="finish_prompt">"Welcome to use MOS, click to enter the system"</string>
+    <string name="enjoy">"Enjoy"</string>
+    <string name="cancel_title">"Cancel"</string>
+    <string name="connect_title">"Connect"</string>
+    <string name="continue_title">"Continue"</string>
+    <string name="skip_title">"Skip"</string>
+    <string name="agreed_continue">"Agree and continue"</string>
+    <string name="begin_title">"Start"</string>
+
+    <string name="privacy_content">\u3000\u3000To provide you with easy access to experience, sometimes we will be on your computer or place small data files on the mobile device to recognize your identity, these data files may be Cookie,Flash Cookie, or your browser or application associated with other local store (collectively, "Cookie"). Cookie is a text file, stored on your computer by the site server or on a mobile device, and only the server can retrieve or read the contents of the Cookie. For browsers, each Cookie is unique. He includes some anonymous information, such as the unique identifier, the website name and some numbers and numbers. He can allow websites to remember your preferences or your shopping cart contents, and so on.\n \u3000\u3000Most large Web sites or Internet service provider for your visit (using the [session-Cookie]) or visit (use [sustainability Cookie]), enabling the site [remember] your function in order to improve the user experience. Cookie can help the site remember your setting, when browsing the site on your computer or mobile device using language, font size and other preferences each time you return to Web sites, you do not need to enter the settings again. If a Web site does not use the Cookie whenever you when moved to a new Web page on the site, you will be treated as a new visitor, for example, when you enter data in detail, and move to another page, the page will not be able to identify your identity, also could not keep you logged in.\n \u3000\u3000Our Cookie will not be used for is your personal identity is used only when you access the Web site to work better and more convenient. If needed, you can delete all the Cookie on your computer, you can also use your browser settings to disable Cookie. However, if you delete or disable Cookie, each time you visit our Web site, you may have to manually adjust some preferences.\n \u3000\u3000Our Cookie will not be used for any purpose other than those mentioned in the text, also not used to collect any personal data for any other purpose. </string>
+
+</resources>

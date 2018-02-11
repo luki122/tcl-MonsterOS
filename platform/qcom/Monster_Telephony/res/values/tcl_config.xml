@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 控制配置DDS后，数据是否开启，0是关闭数据，1是开启数据，2是和之前数据状态保持一致 -->
+    <integer name="def_tctfw_data_service_state_after_dds">0</integer>
+
+    <!--控制是否开启自动配置DDS -->
+    <bool name="feature_tctfw_dds_auto_switch">true</bool>
+</resources>

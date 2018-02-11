@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/detail_play_all_rl"
+        android:layout_width="match_parent"
+        android:layout_height="22dp"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="11dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="25dp">
+
+        <ImageView
+            android:id="@+id/detail_play_all_image"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:src="@drawable/picto_play_off" />
+
+        <TextView
+            android:id="@+id/detail_play_all_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="13dp"
+            android:layout_toRightOf="@id/detail_play_all_image"
+            android:alpha="0.86"
+            android:gravity="center_vertical"
+            android:text="@string/playing_all"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/detail_total_num_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:layout_toRightOf="@id/detail_play_all_tv"
+            android:alpha="0.4"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <cn.tcl.music.view.ContextMenuReyclerView
+            android:id="@id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/batch_operate_linearlayout"
+            android:scrollbarStyle="insideOverlay"
+            android:scrollbars="horizontal|vertical"
+            android:theme="@android:style/Theme.DeviceDefault.Light" />
+
+        <LinearLayout
+            android:id="@+id/batch_operate_linearlayout"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/common_divider_color" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_alignParentBottom="true"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:id="@+id/batch_operate_delete"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/white">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:alpha="0.86"
+                        android:drawableLeft="@drawable/batch_operate_delete"
+                        android:drawablePadding="7dp"
+                        android:text="@string/delete"
+                        android:textColor="@color/black" />
+                </RelativeLayout>
+
+                <ImageView
+                    android:layout_width="1dp"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/common_divider_color" />
+
+                <RelativeLayout
+                    android:id="@+id/batch_operate_addplaylist"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/white">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:alpha="0.86"
+                        android:drawableLeft="@drawable/batch_operate_addplaylist"
+                        android:drawablePadding="7dp"
+                        android:text="@string/batch_add_to_playlist"
+                        android:textColor="@color/black" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            style="@android:style/Theme.DeviceDefault.Light"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fadingEdge="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/downloading_relative"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/downloading_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:alpha="0.86"
+                android:paddingBottom="13dp"
+                android:paddingLeft="20dp"
+                android:paddingTop="24dp"
+                android:text="@string/downloading"
+                android:textColor="@color/download_title"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:id="@+id/downloading_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/downloading_title"
+                android:alpha="0.86"
+                android:paddingBottom="13dp"
+                android:paddingTop="24dp"
+                android:textColor="@color/download_title"
+                android:textSize="12sp"/>
+
+            <LinearLayout
+                android:id="@+id/downloading_all"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingBottom="13dp"
+                android:paddingRight="20dp"
+                android:paddingTop="24dp">
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_marginRight="6dp"
+                    android:src="@drawable/download_all"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/download_all"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"/>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <cn.tcl.music.view.PlaylistView
+            android:id="@+id/downloading_playlistview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@color/white"/>
+
+
+        <LinearLayout
+            android:id="@+id/downloaded_linear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/downloaded_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:alpha="0.86"
+                android:paddingBottom="13dp"
+                android:paddingLeft="20dp"
+                android:paddingTop="13dp"
+                android:text="@string/downloaded"
+                android:textColor="@color/download_title"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:id="@+id/downloaded_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:alpha="0.86"
+                android:paddingBottom="13dp"
+                android:paddingTop="13dp"
+                android:textColor="@color/download_title"
+                android:textSize="12sp"/>
+
+        </LinearLayout>
+
+        <cn.tcl.music.view.PlaylistView
+            android:id="@+id/downloaded_playlistview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@color/white"/>
+
+        <LinearLayout
+            android:id="@+id/downloaded_expand"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:alpha="0.86"
+                android:text="@string/expand_all"
+                android:textColor="@color/download_title"
+                android:textSize="12sp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:src="@drawable/slide_down"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

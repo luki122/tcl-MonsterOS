@@ -1,0 +1,57 @@
+# Keep all Fragments in this package, which are used by reflection.
+-dontskipnonpubliclibraryclasses
+
+-keep class android.** {
+    <fields>;
+    <methods>;
+}
+-keep class com.android.** {
+    <fields>;
+    <methods>;
+}
+-keep class com.google.** {
+    <fields>;
+    <methods>;
+}
+-keepclasseswithmembernames class * {
+    native <methods>;
+}
+-keep public class com.tencent.** {
+    <fields>;
+    <methods>;
+}
+-keep public class com.qq.** {
+    <fields>;
+    <methods>;
+}
+-keep public class tmsdk.** {
+    <fields>;
+    <methods>;
+}
+-keep public class tmsdkobf.** {
+    <fields>;
+    <methods>;
+}
+
+-keep class com.monster.appmanager.*Fragment
+-keep class com.monster.appmanager.*Picker
+-keep class com.monster.appmanager.*Settings
+-keep class com.monster.appmanager.wifi.*Settings
+-keep class com.monster.appmanager.deviceinfo.*
+-keep class com.monster.appmanager.bluetooth.*
+-keep class com.monster.appmanager.applications.*
+-keep class com.monster.appmanager.inputmethod.*
+-keep class com.monster.appmanager.ResetNetwork
+-keep class com.monster.appmanager.ResetNetworkConfirm
+-keep class com.monster.appmanager.MasterClear
+-keep class com.monster.appmanager.MasterClearConfirm
+-keep class com.monster.appmanager.accounts.*
+-keep class com.monster.appmanager.fuelgauge.*
+-keep class com.monster.appmanager.users.*
+-keep class com.monster.appmanager.nfc.*
+-keep class com.monster.appmanager.notification.*
+
+# Keep click responders
+-keepclassmembers class com.monster.appmanager.inputmethod.UserDictionaryAddWordActivity {
+  *** onClick*(...);
+}

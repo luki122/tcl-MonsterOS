@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!-- no translation found for MeetingAssistant -->
+	<skip />
+	<!-- no translation found for edit_decision -->
+	<skip />
+	<!-- no translation found for edit_owener -->
+	<skip />
+	<!-- no translation found for edit_deadline -->
+	<skip />
+	<!-- no translation found for Confirm -->
+	<skip />
+	<!-- no translation found for cancel -->
+	<skip />
+	<!-- no translation found for share -->
+	<skip />
+	<!-- no translation found for save_to_local_storage -->
+	<skip />
+	<!-- no translation found for highlight -->
+	<skip />
+	<!-- no translation found for conference_key_note -->
+	<skip />
+	<!-- no translation found for person -->
+	<skip />
+	<!-- no translation found for to -->
+	<skip />
+	<!-- no translation found for time -->
+	<skip />
+	<!-- no translation found for meet_location -->
+	<skip />
+	<!-- no translation found for edit_meeting_info -->
+	<skip />
+	<!-- no translation found for meeting -->
+	<skip />
+	<!-- no translation found for meeting_time -->
+	<skip />
+	<!-- no translation found for please_enter_title -->
+	<skip />
+	<!-- no translation found for decision -->
+	<skip />
+	<!-- no translation found for deadline -->
+	<skip />
+	<!-- no translation found for add_decision -->
+	<skip />
+	<!-- no translation found for owner -->
+	<skip />
+	<!-- no translation found for write_decision -->
+	<skip />
+	<!-- no translation found for number_decision -->
+	<skip />
+	<!-- no translation found for enter_person -->
+	<skip />
+	<!-- no translation found for enter_address -->
+	<skip />
+	<!-- no translation found for not_filled -->
+	<skip />
+	<!-- no translation found for location -->
+	<skip />
+	<!---->
+	<string name="take_a_photo">"写真を撮る"</string>
+	<!-- no translation found for get_pic_from_gallery -->
+	<skip />
+	<!-- no translation found for delete -->
+	<skip />
+	<!-- no translation found for edit_picture -->
+	<skip />
+	<!-- no translation found for left_rotate -->
+	<skip />
+	<!-- no translation found for right_rotate -->
+	<skip />
+	<!-- no translation found for meetings_none -->
+	<skip />
+	<!---->
+	<string name="meetings_no_search_result">"該当する検索結果はありません"</string>
+	<!-- no translation found for delete_pic_msg -->
+	<skip />
+	<!-- no translation found for voice_to_text -->
+	<skip />
+	<!-- no translation found for smart_crop -->
+	<skip />
+	<!-- no translation found for full_image -->
+	<skip />
+	<!-- no translation found for edit -->
+	<skip />
+	<!-- no translation found for save -->
+	<skip />
+	<!-- no translation found for stop_save_voice -->
+	<skip />
+	<!-- no translation found for save_voice_file_error -->
+	<skip />
+	<!-- no translation found for save_voice_file_successful -->
+	<skip />
+	<!-- no translation found for edit_meeting_point -->
+	<skip />
+	<!-- no translation found for edit_meeting_topic -->
+	<skip />
+	<!-- no translation found for share_meeting_as_picture -->
+	<skip />
+	<!-- no translation found for export_meeting_as_picture -->
+	<skip />
+	<!-- no translation found for share_meeting_as_pdf -->
+	<skip />
+	<!-- no translation found for export_meeting_as_pdf -->
+	<skip />
+	<!-- no translation found for file_exporting -->
+	<skip />
+	<!-- no translation found for audio -->
+	<skip />
+	<!---->
+	<string name="no_file">"ファイルなし"</string>
+	<!-- no translation found for file_creating -->
+	<skip />
+	<!-- no translation found for successful_exporting -->
+	<skip />
+	<!-- no translation found for Failure_to_export -->
+	<skip />
+	<!-- no translation found for audio_converting -->
+	<skip />
+	<!-- no translation found for audio_converting_to_text -->
+	<skip />
+	<!-- no translation found for start_to_convert -->
+	<skip />
+	<!-- no translation found for delete_meeting -->
+	<skip />
+	<!-- no translation found for choose_all -->
+	<skip />
+	<!-- no translation found for delete_meeting_decision -->
+	<skip />
+	<!-- no translation found for delete_sound_record -->
+	<skip />
+	<!-- no translation found for delete_sound_record_and_word -->
+	<skip />
+	<!-- no translation found for dialog_battery_10 -->
+	<skip />
+	<!-- no translation found for dialog_space_50m_start -->
+	<skip />
+	<!-- no translation found for dialog_space_100m -->
+	<skip />
+	<!-- no translation found for dialog_back_msg -->
+	<skip />
+	<!-- no translation found for delete_meeting_point -->
+	<skip />
+	<!-- no translation found for dialog_battery_5 -->
+	<skip />
+	<!-- no translation found for dialog_back_title -->
+	<skip />
+	<!-- no translation found for dialog_i_know -->
+	<skip />
+	<!-- no translation found for dialog_start_battery_10 -->
+	<skip />
+	<!---->
+	<string name="dialog_space_clear">"除去"</string>
+	<!-- no translation found for dialog_ignore -->
+	<skip />
+	<!-- no translation found for dialog_stop -->
+	<skip />
+	<!-- no translation found for dialog_space_50m_stop -->
+	<skip />
+	<!-- no translation found for dialog_start_battery_5 -->
+	<skip />
+	<!-- no translation found for notification_battery_low -->
+	<skip />
+	<!-- no translation found for notification_battery_low_stop -->
+	<skip />
+	<!-- no translation found for notification_pause_record -->
+	<skip />
+	<!-- no translation found for notification_recording -->
+	<skip />
+	<!-- no translation found for notification_space_not_enough -->
+	<skip />
+	<!-- no translation found for notification_space_not_enough_stop -->
+	<skip />
+	<!-- no translation found for cannot_open_internet -->
+	<skip />
+	<!-- no translation found for internet_problem -->
+	<skip />
+	<!-- no translation found for no_open_internet -->
+	<skip />
+	<!-- no translation found for try_to_refresh -->
+	<skip />
+	<!-- no translation found for audio_to_text_offline -->
+	<skip />
+	<!-- no translation found for audio_to_text_online -->
+	<skip />
+	<!-- no translation found for audio_to_text_order_result -->
+	<skip />
+	<!-- no translation found for saved_last_one_decision -->
+	<skip />
+	<!-- no translation found for choose_others -->
+	<skip />
+	<!-- no translation found for delete_all_meeting_msg -->
+	<skip />
+	<!-- no translation found for choose_owner -->
+	<skip />
+	<!-- no translation found for meeting_title_not_be_empty -->
+	<skip />
+	<!-- no translation found for expand -->
+	<skip />
+	<!-- no translation found for collapse -->
+	<skip />
+	<!-- no translation found for choose_time -->
+	<skip />
+	<!-- no translation found for delete_audio_to_text -->
+	<skip />
+	<!-- no translation found for enter_decision_content -->
+	<skip />
+</resources>

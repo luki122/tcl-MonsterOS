@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary_bg"
+    tools:context="cn.tcl.setupwizard.ui.OtherServiceActivity">
+
+    <FrameLayout
+        android:id="@+id/other_service_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/background_other_service"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:scaleType="fitEnd"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="270dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="57dp"
+                android:paddingStart="26dp">
+                <ImageButton
+                    android:id="@+id/header_back"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:background="?android:attr/selectableItemBackgroundBorderless"
+                    android:src="@drawable/ic_back"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_gravity="center_vertical"
+                    android:fontFamily="monster-normal"
+                    android:textColor="#DB000000"
+                    android:textSize="17sp"
+                    android:text="@string/other_service_title" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/other_service_header"
+        android:paddingStart="26dp"
+        android:paddingEnd="26dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:fontFamily="monster-normal"
+                android:textColor="#DB000000"
+                android:textSize="15sp"
+                android:text="@string/other_service_location"/>
+            <Switch
+                android:id="@+id/other_service_location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"/>
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:fontFamily="monster-normal"
+            android:textColor="#4D000000"
+            android:textSize="13sp"
+            android:text="@string/other_service_location_description"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:fontFamily="monster-normal"
+                android:textColor="#DB000000"
+                android:textSize="15sp"
+                android:text="@string/other_service_experience"/>
+            <Switch
+                android:id="@+id/other_service_experience"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"/>
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:fontFamily="monster-normal"
+            android:textColor="#4D000000"
+            android:textSize="13sp"
+            android:text="@string/other_service_experience_description"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/other_service_btn_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="56dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/other_service_btn_continue"
+            style="@style/button_style"
+            android:text="@string/continue_title"/>
+    </LinearLayout>
+
+</RelativeLayout>

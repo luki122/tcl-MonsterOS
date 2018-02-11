@@ -1,0 +1,53 @@
+<!--
+Copyright (C) 2014 The Android Open Source Project
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+         http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+        android:width="23dp"
+        android:height="23dp"
+        android:viewportWidth="69"
+        android:viewportHeight="69">
+
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3"
+        android:strokeMiterLimit="10"
+        android:strokeLineCap="round"
+        android:pathData="M 34.3 54.6 C 35.2941125497 54.6 36.1 55.4058874503 36.1 56.4 C 36.1 57.3941125497 35.2941125497 58.2 34.3 58.2 C 33.3058874503 58.2 32.5 57.3941125497 32.5 56.4 C 32.5 55.4058874503 33.3058874503 54.6 34.3 54.6 Z" />
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3"
+        android:strokeMiterLimit="10"
+        android:strokeLineCap="round"
+        android:pathData="M66.8,20.2c-8.6-7.7-20-12.5-32.5-12.5S10.4,12.5,1.8,20.2" />
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3"
+        android:strokeMiterLimit="10"
+        android:strokeLineCap="round"
+        android:pathData="M13,32.7c5.7-5.1,13.1-8.2,21.3-8.2s15.6,3.1,21.3,8.2" />
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3"
+        android:strokeMiterLimit="10"
+        android:strokeLineCap="round"
+        android:pathData="M23.8,44.7c2.8-2.5,6.5-4.1,10.5-4.1s7.7,1.6,10.5,4.1" />
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3"
+        android:strokeMiterLimit="10"
+        android:strokeLineCap="round"
+        android:pathData="M55.6,32.7c-5.7-5.1-13.1-8.2-21.3-8.2S18.7,27.6,13,32.7" />
+</vector>

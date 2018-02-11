@@ -1,0 +1,23 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:clipToPadding="false"
+        android:clipChildren="false"
+        android:layout_marginEnd="@dimen/activity_right_margin"
+        android:layout_marginLeft="@dimen/activity_left_margin"
+        android:layout_marginRight="@dimen/activity_right_margin"
+        android:layout_marginStart="@dimen/activity_left_margin"
+        android:layout_marginTop="10dp"
+        />
+    <cn.tcl.music.view.EmptyLayoutV2
+        android:id="@+id/empty_view_container"
+        style="@style/emptylayut"/>
+
+</FrameLayout>

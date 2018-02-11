@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2013 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<com.android.camera.ui.HelpTipCling
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="@dimen/front_gesture_tip_icon_width"
+        android:layout_height="@dimen/front_gesture_tip_icon_height"
+        android:layout_gravity="top|center"
+        android:layout_marginTop="@dimen/front_gesture_tip_icon_margin_top"
+        android:background="@drawable/help_tip_front_icons" />
+
+    <RelativeLayout
+        android:layout_width="@dimen/help_tip_dialog_width"
+        android:layout_height="@dimen/help_tip_dialog_height"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/front_gesture_tip_margin_top">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/help_tip_no_arrow"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-condensed"
+                android:gravity="center"
+                android:paddingBottom="@dimen/help_tip_dialog_context_padding_bottom"
+                android:paddingLeft="@dimen/help_tip_dialog_context_padding_left"
+                android:paddingRight="@dimen/help_tip_dialog_context_padding_right"
+                android:paddingTop="@dimen/help_tip_dialog_context_padding_top"
+                android:text="@string/help_tip_gesture_tip_context"
+                android:textColor="@color/help_tip_dialog_text_color"
+                android:textSize="@dimen/help_tip_dialog_context_text_size" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/help_tip_dialog_line_height"
+                android:background="@drawable/bg_help_tip_view_shadow" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/help_tip_dialog_input_height"
+                android:gravity="end"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/gesture_help_dismiss"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/help_tip_dialog_input_btn_margin_right"
+                    android:fontFamily="sans-serif-medium"
+                    android:gravity="center"
+                    android:text="@string/help_tip_got_it_text"
+                    android:textColor="@color/help_tip_dialog_text_color"
+                    android:textSize="@dimen/help_tip_dialog_btn_text_size" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</com.android.camera.ui.HelpTipCling>

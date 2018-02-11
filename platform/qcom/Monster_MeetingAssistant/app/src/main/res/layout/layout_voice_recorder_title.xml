@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/layout_common_76dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/app_background"
+    android:minWidth="@dimen/layout_common_76dp">
+    <FrameLayout
+        android:id="@+id/voice_record_pause_btn_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="14dp"
+        android:background="@drawable/ic_record_bg"
+        android:layout_marginTop="12dp"
+        >
+
+        <ImageButton
+            android:id="@+id/voice_record_pause_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_record_pause"
+            />
+    </FrameLayout>
+
+    <ImageButton
+        android:id="@+id/voice_record_stop_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_click"
+        android:src="@drawable/ic_record_voice_stop_unpressed"
+        android:layout_toRightOf="@id/voice_record_pause_btn_container"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="13dp"/>
+
+    <TextView
+        android:fontFamily="monster-normal"
+        android:id="@+id/voice_record_time_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black_86opacity"
+        android:textSize="@dimen/font_size_16sp"
+        android:layout_marginTop="20dp"/>
+
+    <ImageButton
+        android:id="@+id/voice_record_mark_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_click"
+        android:src="@drawable/selector_record_voice_mark"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="14dp"/>
+
+    <cn.tcl.meetingassistant.view.TimerView
+        android:id="@+id/voice_record_mark_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:timer_view_text_alpha="0.45"
+        app:timer_view_text_size="11sp"
+        app:timer_view_font="monster-normal"
+        app:timer_mark_text_gap = "7dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="1px"/>
+    <View
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_below="@+id/edit_import_title_bar"
+        android:background="#ececec"
+        />
+</RelativeLayout>

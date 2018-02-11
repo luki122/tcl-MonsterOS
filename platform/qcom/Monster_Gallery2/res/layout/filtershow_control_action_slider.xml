@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2013 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<!--
+===============================================================================
+|      Modifications on Features list / Changes Request / Problems Report      |
+| **************************************************************************** |
+|     date   |        Author        |         Key          |     comment       |
+| ***********|**********************|**********************|****************** |
+| 22/01/2015 |     jian.pan1        |PR910492              |The icon in graduated|
+|            |                      |                      |need to replace    |
+| ********** |**********************|**********************|*******************|
+===============================================================================
+-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.example.imagefilterharness"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical" >
+    <!--//[BUGFIX]-Add by TCTNJ,jian.pan1, 2015-01-22,PR910492 Begin -->
+    <ImageButton
+        android:id="@+id/leftActionButton"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_gravity="start|center_vertical"
+        android:scaleType="centerInside"
+        android:layout_marginTop="15dp"
+        android:layout_alignParentLeft="true"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_adjust_graduated_add" />
+    <!--//[BUGFIX]-Add by TCTNJ,jian.pan1, 2015-01-22,PR910492 End -->
+
+    <com.android.gallery3d.ui.CustomSeekBar
+        android:id="@+id/controlValueSeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/rightActionButton"
+        android:layout_toRightOf="@+id/leftActionButton"
+        android:layout_gravity="center_vertical"
+        style="@style/FilterShowSlider" />
+    <!--//[BUGFIX]-Add by TCTNJ,jian.pan1, 2015-01-22,PR910492 Begin -->
+    <ImageButton
+        android:id="@+id/rightActionButton"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_gravity="end|center_vertical"
+        android:scaleType="centerInside"
+        android:layout_marginTop="15dp"
+        android:layout_alignParentRight="true"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_adjust_graduated_remove" />
+    <!--//[BUGFIX]-Add by TCTNJ,jian.pan1, 2015-01-22,PR910492 End -->
+
+</RelativeLayout>
+

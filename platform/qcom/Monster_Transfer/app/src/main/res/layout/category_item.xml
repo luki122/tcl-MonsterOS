@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:id="@+id/select_area"
+        android:background="?android:attr/selectableItemBackground"
+        android:layout_height="64dp"
+        android:layout_width="60dp">
+
+        <ImageView
+            android:id="@+id/selected"
+            android:src="@drawable/checked"
+            android:layout_marginRight="20dp"
+            android:layout_centerHorizontal="true"
+            style="@style/checkIconStyle"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/expand_area"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:layout_toRightOf="@id/select_area">
+
+        <RelativeLayout
+            android:id="@+id/expand"
+            android:layout_alignParentEnd="true"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:gravity="center_vertical"
+            android:layout_centerVertical="true"
+            android:background="@color/transparent">
+
+            <ImageView
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="20dp"
+                android:src="@drawable/item_more"
+                style="@style/expandIconStyle"
+                android:background="@color/transparent"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/content"
+            android:orientation="vertical"
+            android:layout_marginTop="15dp"
+            android:layout_alignParentStart="true"
+            android:layout_toLeftOf="@id/expand"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:fontFamily="monster-normal"
+                android:textColor="#db000000"
+                android:background="@color/transparent"
+                />
+
+            <TextView
+                android:id="@+id/summary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:fontFamily="monster-normal"
+                android:textColor="#66000000"
+                android:background="@color/transparent"
+                />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ListView
+        android:id="@+id/safe_storage_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@null" />
+
+    <RelativeLayout
+        android:id="@+id/create_safe_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/safe_storage_item_height"
+        android:background="?android:attr/selectableItemBackground"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/add_safe_image"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:src="@drawable/add_safe" />
+
+        <TextView
+            android:id="@+id/create_safe_box_menu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/add_safe_image"
+            android:layout_toStartOf="@+id/item_arrow_indicator"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:text="@string/new_safe"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/item_arrow_indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:src="@drawable/as_75" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mst="http://schemas.android.com/apk/res/com.mst"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    android:orientation="vertical" >
+
+
+    <include layout="@layout/mtk_wait_cursor" />
+
+    <!-- <mst.widget.MstListView -->
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null"
+        android:fadingEdge="none"
+        android:scrollbarStyle="outsideOverlay" />
+
+    <include layout="@layout/group_detail_fragment_empty_view" />
+
+</LinearLayout>

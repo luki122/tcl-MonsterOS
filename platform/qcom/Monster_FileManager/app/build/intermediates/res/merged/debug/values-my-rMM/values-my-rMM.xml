@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"မူလနေရာကို သွားရန်"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s၊ %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s ၊ %2$s ၊ %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"အပေါ်သို့သွားရန်"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"ပိုမိုရွေးချယ်စရာများ"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"ပြီးဆုံးပါပြီ"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"အားလုံးကို ကြည့်ရန်"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"အက်ပ် တစ်ခုခုကို ရွေးချယ်ပါ"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"ပိတ်"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"ဖွင့်"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"ရှာဖွေပါ..."</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"ရှာစရာ အချက်အလက်များ ရှင်းလင်းရန်"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"ရှာစရာ အချက်အလက်နေရာ"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"ရှာဖွေရန်"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"ရှာဖွေစရာ အချက်အလက်ကို အတည်ပြုရန်"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"အသံဖြင့် ရှာဖွေခြင်း"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"မျှဝေဖို့ ရွေးပါ"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"%s ကို မျှဝေပါရန်"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"ခေါက်ရန်"</string>
+    <string name="action_menu_create_folder_button">"ဖိုဒါဖန်တီးပါ"</string>
+    <string name="add_favorite">"အႏွစ္သက္ဆံုးဖိုင္ထဲထည့္ရန္"</string>
+    <string name="alert_delete_message">"ဖျက်ပစ်သည်"</string>
+    <string name="alert_delete_multiple">"ဖ်က္သိမ္းမည္႔ ဖိုင္မ်ားကို ေရြးခ်ယ္သည္"</string>
+    <string name="alert_delete_single">"သတ္မွတ္ထားေသာဖိုင္ကိုဖ်က္မည္။"</string>
+    <string name="already_exists">"%1$s မှာ သုံးပြီးဖြစ်ပါသည်"</string>
+    <string name="cancel">"ပယ္ဖ်က္ရန္"</string>
+    <string name="category_apks">"APKs"</string>
+    <string name="category_archives">"မွတ္တမ္း"</string>
+    <string name="category_audio">"အသံ"</string>
+    <string name="category_bluetooth">"ဘလူးတု(သ်)"</string>
+    <string name="category_docs">"Docs"</string>
+    <string name="category_download">"ဒေါင်းလုဒ်လုပ်ထားချက်များ"</string>
+    <string name="category_favorite">"အႏွစ္သက္ဆံုး"</string>
+    <string name="category_music">"တေးဂီတ"</string>
+    <string name="category_pictures">"ရုပ်ပုံများ"</string>
+    <string name="category_recordings">"အသံမွတ္တမ္း"</string>
+    <string name="category_ringtones">"ဖုန္းျမည္သံ"</string>
+    <string name="category_safebox">"Safebox"</string>
+    <string name="category_vedios">"ဗီဒီယိုများ"</string>
+    <string name="change_mode">"ဖိုင်သို့မဟုတ် ဖိုင်တွဲကိုရွေးရန်"</string>
+    <string name="confirm_rename">"အမည်ပြန်ပေးခြင်း သေချာမှုပြုသည်"</string>
+    <string name="copy">"မိတ္တူကူးရန်"</string>
+    <string name="copy_deny">"ကူးယူရန် ခွင့်ပြုချက်မရှိပါ"</string>
+    <string name="create_folder">"ဖန်တီးရန်"</string>
+    <string name="create_hidden_file">"အကယ်၍ ဖိုင်အမည်သည် \'.\' ဖြင့်စလျှင် ထိုဖိုင်ကို ဖျောက်ထားလိမ့်မည်။"</string>
+    <string name="create_new_folder">"ဖိုဒါဖန်တီးပါ"</string>
+    <string name="cut">"ဖြတ်ရန်"</string>
+    <string name="cut_deny">"ဖြတ်ရန် ခွင့်ပြုချက်မရှိပါ"</string>
+    <string name="default_folder_name">"ဖိုင္တြဲအည္"</string>
+    <string name="default_search_text">"ဖိုင်များ ရှာသည်"</string>
+    <string name="del_favorite">"အႏွစ္သက္ဆံုးဖိုင္မွဖ်က္ရန္"</string>
+    <string name="delete">"ဖ်က္ရန္"</string>
+    <string name="delete_deny">"ဖျက်ပစ်ရန် ခွင့်ပြုချက်မရှိပါ"</string>
+    <string name="delete_fail">"ဖျက်ပစ်မှု မအောင်မြင်ပါ"</string>
+    <string name="deleting">"ဖျက်နေဆဲ"</string>
+    <string name="deselect_all">"အားလုံးရွေးချယ်ထားခြင်းကို ပယ်ဖျက်ပါ"</string>
+    <string name="deselect_all_item">"အားလုံးရွေးချယ်ထားခြင်းကို ပယ်ဖျက်ပါ"</string>
+    <string name="detail">"အသေးစိတ်"</string>
+    <string name="detail_name">"ဖို္င္(လ္)အမည္-"</string>
+    <string name="detail_name_m">"အမည္"</string>
+    <string name="detail_path_m">"တည်နေရာ"</string>
+    <string name="detail_size">"ဖိုင္အရြယ္အစား"</string>
+    <string name="detail_size_m">"အရြယ္အစား"</string>
+    <string name="details">"အသေးစိတ်"</string>
+    <string name="dialog_close_btn">"ပိတ်သည်"</string>
+    <string name="done">"ပြီးပြီ"</string>
+    <string name="draw_left_phone_storage">"ဖုန္းသုိေလွာင္မႈ"</string>
+    <string name="draw_left_phone_storage_m">"ဖုန်း"</string>
+    <string name="draw_left_sd_card">"SD ကတ်"</string>
+    <string name="drawer_open">"ဖွင့်ပါ"</string>
+    <string name="drawer_settings">"အံဆြဲ_အဆင္အျပင္မ်ား"</string>
+    <string name="drm_current_count">"Current Count："</string>
+    <string name="drm_current_right">"လက္ရိွအကန္႔အသတ္："</string>
+    <string name="drm_forwardforbidden_message">"DRM ဖိုင္(လ္)ကို ျပန္ပို ့၍မရနုိင္ပါ။"</string>
+    <string name="drm_forwardforbidden_title">"ျပန္ပို ့၍မရပါ"</string>
+    <string name="drm_no_crop">"%s ဖိုင္ကို ျဖတ္ေတာက္ရန္ခြင့္မျပဳပါဘူး။ အဘယ္ေၾကာင့္ဆိုေသာ္ ဖိုင္သည္ DRM ကာကြယ္ထား၍ျဖစ္ပါသည္။."</string>
+    <string name="drm_no_valid_right">"ဖိုင္(လ္)တြင္ အသံုးျပဳႏုိင္ေသာ DRM ခြင့္ျပဳခ်က္ မပါရိွပါ။"</string>
+    <string name="drm_toast_license_expired">"DRM လိုင်စင် သက်တမ်းကုန်နေပြီ။"</string>
+    <string name="drm_wifidisplay_message">"ကူးယူမႈပိတ္ထားသည့္ဖိုင္အား ျဖန္႔ျဖဴး၍ မရႏိုင္ပါ။"</string>
+    <string name="drm_wifidisplay_ok">"အုိေက"</string>
+    <string name="empty_msg">"(ဖို(လ်)ဒါ အလွတ်)"</string>
+    <string name="executable">"ေဆာင္ရြက္ႏိုင္ေသာ:"</string>
+    <string name="favourite">"အႏွစ္သက္ဆံုး"</string>
+    <string name="file_name_too_long">"ထည့်သွင်းသော အမည်မှာ အလွန်ရှည်သည်"</string>
+    <string name="fingerprint_relative_dialog_cancel">"နောက်မှ"</string>
+    <string name="free_space">"ရရှိသည်"</string>
+    <string name="freeof_m">"Free"</string>
+    <string name="hide">"ဖျောက်ထားပါ"</string>
+    <string name="hide_file">"ဖျောက်ထားသည့် ဖိုင်များဖွက်သည်"</string>
+    <string name="input_password">"Input password"</string>
+    <string name="insufficient_memory">"နေရာလွတ် မလုံလောက်ပါ"</string>
+    <string name="invalid_char_prompt">"မလျော်ကန်သော အက္ခရာကို သင် သွင်းထားပါသည်"</string>
+    <string name="invalid_empty_name">"ဖိုင် သို့မဟုတ် ဖို(လ်)ဒါ အမည် မရှိအောင် မလုပ်နိုင်ပါ"</string>
+    <string name="loading">"ဖွင့်နေဆဲ..."</string>
+    <string name="main_sd_storage">"SD သိုေလွာင္မႈ"</string>
+    <string name="menu_select">"ေရြးခ်ယ္သည္"</string>
+    <string name="modified_time">"ျပင္ထားေသာ"</string>
+    <string name="modify_hidden_file">"အကယ္၍ ဖိုင္နာမည္ \'.\'. ျဖင့္မစလ်င္ ဖိုင္ကလွ်ိဳ႕ဝွက္ထားမရပါ"</string>
+    <string name="more">"နောက်ထပ်"</string>
+    <string name="msg_rename_ext">"သင်သည် ဖိုင်နောက်ဆက်တွဲအား ပြောင်းနေပါသည်၊ ယင်းမှာ ဖိုင်အား မမှတ်မိခြင်း ဖြစ်စေနိုင်ပါသည်။ သင်၎င်းကို ပြုလုပ်ရန် သေချာပါသလား။"</string>
+    <string name="msg_unable_open_file">"ဖိုင်ပုံစံမှာ အထောက်အပံ့ မပေးထားပါ။"</string>
+    <string name="msg_unable_open_file_in_app">"ဖိုင္ကိုဖြင့္ရန္ အသံုးျပဳျခင္း မရႏုိင္ပါ"</string>
+    <string name="multi_alert_delete_message">"ေရြးခ်ယ္ထားေသာအရာကိုဖ်က္မည္လား?"</string>
+    <string name="multi_alert_delete_message_cn">"ေရြးခ်ယ္ထားေသာအရာကိုဖ်က္မည္လား?"</string>
+    <string name="name">"အမည်"</string>
+    <string name="new_folder">"ဖိုလ္ဒါ အမည္ထည့္သြင္းပါ။"</string>
+    <string name="no">"မှား"</string>
+    <string name="no_folder">"ဤဖိုဒါမှာ ဗလာဖြစ်နေသည်"</string>
+    <string name="no_search_result">""%1$s" အတြက္ ရလဒ္ “၀”"</string>
+    <string name="not_available">"မရနိုင်ပါ"</string>
+    <string name="ok">"အုိေက"</string>
+    <string name="operation_fail">"လုပ္ငန္းမ်ားေဆာင္ရြက္မရပါ။"</string>
+    <string name="paste">"ခ်"</string>
+    <string name="paste_fail">"ပြန်လည်ဖော်မှု မအောင်မြင်ပါ"</string>
+    <string name="paste_same_folder">"လမ်းညွှန်အတူတူထဲသို့ ပြန်လည်ဖော်၍ မရနိုင်ပါ"</string>
+    <string name="paste_sub_folder">"ဖို(လ်)ဒါ အခွဲသို့ ပြန်လည်ဖော်၍ မရပါ"</string>
+    <string name="pasting">"ပြန်လည်ဖော်နေသည်"</string>
+    <string name="path_not_exists">"%1$s မတည်ရှိပါ"</string>
+    <string name="permission_exit_btn">"ထြက္ေပါက္"</string>
+    <string name="permission_settings">"္ဆက္တင္မ်ား"</string>
+    <string name="phone_storage">"ဖုန္းသိမ္းဆည္းမႈ"</string>
+    <string name="phone_storage_cn">"ဖုန္းသုိေလွာင္မႈ"</string>
+    <string name="readable">"ဖတ္ႏိုင္ေသာ："</string>
+    <string name="remove_to">"သို့ ရွှေ့သည်"</string>
+    <string name="rename">"အမည္ေျပာင္း"</string>
+    <string name="right_url">"URL လိုင္စင္ထုတ္ေပးသူ："</string>
+    <string name="safe_set">"္ဆက္တင္မ်ား"</string>
+    <string name="save">"သိမ်းပါ"</string>
+    <string name="sd_card">"SD ကတ်"</string>
+    <string name="search">"ရှာရန်"</string>
+    <string name="search_empty">"ရှာဖွေသည့် ပါဝင်မှုတွင် ဘာမှမပါဘဲ မဖြစ်သင့်ပါ။"</string>
+    <string name="search_files">"ဖိုင်များ ရှာသည်"</string>
+    <string name="search_result">"%2$d ရလဒ်(များ) အတွက် \"%1$s\""</string>
+    <string name="search_result_title">"ရွာေဖြ၍ရေသာ ရလဒ္"</string>
+    <string name="search_setting_description">"စက်တွင်းရှိ ဖိုင်များနှင့် ဖို(လ်)ဒါများ"</string>
+    <string name="search_text_empty">"ရှာဖွေသည့် ပါဝင်မှုတွင် ဘာမှမပါဘဲ မဖြစ်သင့်ပါ။"</string>
+    <string name="searchview_hint">"ဖိုင်များ ရှာသည်"</string>
+    <string name="select_all">"အားလံုးကိုေရြး"</string>
+    <string name="selected">"ရွေးချယ်ထားသော"</string>
+    <string name="send_file">"ဖိုင်ပို့သည်"</string>
+    <string name="share">"မွ်ေ၀ပါ"</string>
+    <string name="share_warning">"ရင်းမြစ် : မျှဝေလိုသည့် ဖိုင်များ ၁၀၀ ထက် မကျော်လွန်ရပါ"</string>
+    <string name="shortcut_item">"ျဖတ္လမ္းအျဖစ္ထားပါ"</string>
+    <string name="show_file">"ဖျောက်ထားသည့် ဖိုင်များ ပြသည်"</string>
+    <string name="show_hide">"ေဖာ္၊ လွ်ိဳ႕ဝွက္"</string>
+    <string name="size">"အရြယ္အစား"</string>
+    <string name="some_delete_fail">"အခ်ိဳ႕ပယ္ဖ်က္ျခင္းလုပ္ငန္းမ်ား ေဆာင္ရြက္၍မရပါ။"</string>
+    <string name="some_paste_fail">"အချို့သော ပြန်လည်ဖော်သည့် ဆောင်ရွက်ချက်များ မအောင်မြင်ပါ"</string>
+    <string name="sort">"စီသည်"</string>
+    <string name="sort_by">"ၿဖင့္ စီသည္"</string>
+    <string name="sort_by_name">"အမည္"</string>
+    <string name="sort_by_size">"အရြယ္အစား"</string>
+    <string name="sort_by_time">"ရက်စွဲ"</string>
+    <string name="sort_by_type">"ရိုက်သည်"</string>
+    <string name="sort_name">"အမည္ျဖင့္စီပါ"</string>
+    <string name="sort_size">"အရွယ်အစားအလိုက်စီပါ"</string>
+    <string name="sort_time">"အခ်ိန္အလိုက္စီပါ"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"၉၉၉+"</string>
+    <string name="total_space">"စုစုပေါင်းနေရာ"</string>
+    <string name="unknown">"အမည်မသိ"</string>
+    <string name="unlimited_usage">"အကန္႔အသတ္မရွိသံုးစြဲမႈ"</string>
+    <string name="unmounted">"%1$s အားတပ်ဆင် ပြီးမှ ပြန်လည်ဖယ်ထုတ် လိုက်သည်"</string>
+    <string name="usbotg">"ပြင်ပ USB သိမ်းဆည်းရန်နေရာ"</string>
+    <string name="use_times">"%s အႀကိမ္မ်ားအသံုးျပဳပါ။"</string>
+    <string name="valid_after">"ကုန္ဆံုးၿပီးေနာက္"</string>
+    <string name="valid_until">"တုိင္ေအာင္ၾကာရွည္ခံသည္။"</string>
+    <string name="view_by">"့ၾကည့္"</string>
+    <string name="view_grid">"ဇယားကြက္ျဖင့္ ၾကည့္ပါ"</string>
+    <string name="viewby_details">"အေသးစိတ္ၾကည့္"</string>
+    <string name="viewby_grid">"ဇယားၾကည့္"</string>
+    <string name="viewby_list">"စာရင္းပုံစံျဖင့္ ၾကည့္ပါ"</string>
+    <string name="wait">"စောင့်ဆိုင်းပါ..."</string>
+    <string name="warning">"သတိပေးသည့် ပုံစံ"</string>
+    <string name="writable">"ေရးႏိုင္："</string>
+    <string name="yes">"မှန်"</string>
+</resources>

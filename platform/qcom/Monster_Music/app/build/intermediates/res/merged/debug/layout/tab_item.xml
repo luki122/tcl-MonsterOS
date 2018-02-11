@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/title"
+        android:layout_toLeftOf="@+id/num"
+        android:layout_centerVertical="true"
+        android:singleLine="true"
+        android:gravity="center"
+        style="@style/textview_white_16sp_87"
+        />
+
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:id="@id/num"-->
+        <!--android:singleLine="true"-->
+        <!--android:gravity="center"-->
+        <!--android:visibility="invisible"-->
+        <!--android:background="@drawable/num_background"-->
+        <!--style="@style/textview_white_11sp_87"-->
+        <!--/>-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:paddingLeft="5dp"
+        android:id="@id/num"
+        android:singleLine="true"
+        android:gravity="center"
+        android:visibility="invisible"
+        style="@style/textview_white_11sp_87"
+        />
+</RelativeLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mst_photopage_top_control_separator">
+ 
+    <ImageButton android:id="@+id/photopage_back_button"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" 
+                android:src="@drawable/mst_photopage_top_back"
+                android:background="@null"
+                android:layout_marginStart="20dp"/>
+    
+
+    <!-- 
+    <ImageButton android:id="@+id/photopage_share_button"
+                android:divider="?android:attr/listDividerAlertDialog"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/mst_photopage_top_share_normal"
+                android:background="@null" 
+                android:layout_marginEnd="20dp"/>
+       -->
+       
+        <!-- 
+        <TextView android:id="@+id/photopage_indicator_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:layout_toStartOf="@id/photopage_share_button"
+        android:layout_toEndOf="@id/photopage_back_button"
+        android:textColor="#DB000000"
+        android:textSize="14sp"/> -->
+
+</RelativeLayout>

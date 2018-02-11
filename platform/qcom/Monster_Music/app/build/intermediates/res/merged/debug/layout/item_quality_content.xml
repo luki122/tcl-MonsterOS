@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:paddingEnd="@dimen/dp_20"
+                android:paddingStart="32dp">
+
+    <TextView
+        android:id="@+id/quantify_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:textColor="@color/black_86"
+        android:textSize="@dimen/sp_15"/>
+
+    <ImageView
+        android:id="@+id/svip_pic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/quantify_title"
+        android:layout_marginLeft="@dimen/dp_10"
+        android:layout_toEndOf="@id/quantify_title"
+        android:src="@drawable/svip_pic"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/quality_sub_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/quantify_title"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="@dimen/dp_4"
+        android:alpha="0.4"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sp_12"/>
+
+    <ImageView
+        android:id="@+id/item_right_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@id/quantify_title"
+        android:src="@drawable/selected_pic"
+        android:visibility="gone"/>
+
+</RelativeLayout>

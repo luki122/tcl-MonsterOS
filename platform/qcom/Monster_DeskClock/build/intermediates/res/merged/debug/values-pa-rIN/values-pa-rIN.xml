@@ -1,0 +1,718 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="alarm_set">
+    <item msgid="6450913786084215050">"ਅਲਾਰਮ ਹੁਣ ਤੋਂ 1 ਮਿੰਟ ਤੋਂ ਘੱਟ ਲਈ ਸੈਟ ਕੀਤਾ।"</item>
+    <item msgid="6002066367368421848">"ਅਲਾਰਮ ਹੁਣ ਤੋਂ <ns1:g id="DAYS">%1$s</ns1:g> ਲਈ ਸੈਟ ਕੀਤਾ।"</item>
+    <item msgid="8824719306247973774">"ਅਲਾਰਮ ਹੁਣ ਤੋਂ <ns1:g id="HOURS">%2$s</ns1:g> ਲਈ ਸੈਟ ਕੀਤਾ।"</item>
+    <item msgid="8182406852935468862">"ਅਲਾਰਮ ਹੁਣ ਤੋਂ <ns1:g id="DAYS">%1$s</ns1:g> ਅਤੇ <ns1:g id="HOURS">%2$s</ns1:g> ਲਈ ਸੈਟ ਕੀਤਾ।"</item>
+    <item msgid="2532279224777213194">"ਅਲਾਰਮ ਹੁਣ ਤੋਂ <ns1:g id="MINUTES">%3$s</ns1:g> ਸੈਟ ਕੀਤਾ।"</item>
+    <item msgid="5936557894247187717">"ਅਲਾਰਮ ਹੁਣ ਤੋਂ <ns1:g id="DAYS">%1$s</ns1:g> ਅਤੇ <ns1:g id="MINUTES">%3$s</ns1:g> ਲਈ ਸੈਟ ਕੀਤਾ।"</item>
+    <item msgid="9115697840826129603">"ਅਲਾਰਮ ਹੁਣ ਤੋਂ <ns1:g id="HOURS">%2$s</ns1:g> ਅਤੇ <ns1:g id="MINUTES">%3$s</ns1:g> ਲਈ ਸੈਟ ਕੀਤਾ।"</item>
+    <item msgid="2332583385137381060">"ਅਲਾਰਮ ਹੁਣ ਤੋਂ <ns1:g id="DAYS">%1$s</ns1:g>, <ns1:g id="HOURS">%2$s</ns1:g>, ਅਤੇ <ns1:g id="MINUTES">%3$s</ns1:g> ਲਈ ਸੈਟ ਕੀਤਾ।"</item>
+  </string-array>
+    <string-array name="auto_silence_entries">
+    <item msgid="3024545954917711306">"1 ਮਿੰਟ"</item>
+    <item msgid="5431906692406316549">"5 ਮਿੰਟ"</item>
+    <item msgid="7742728812068919959">"10 ਮਿੰਟ"</item>
+    <item msgid="2855948657259647629">"15 ਮਿੰਟ"</item>
+    <item msgid="6330196381284475079">"20 ਮਿੰਟ"</item>
+    <item msgid="7809240121716151904">"25 ਮਿੰਟ"</item>
+    <item msgid="4278641338024561333">"ਕਦੇ ਵੀ ਨਹੀਂ"</item>
+  </string-array>
+    <string-array name="cities_names">
+    <item msgid="4653806289288974388">"ਅ<ns1:g id="SEPARATOR">=</ns1:g>ਅਬਿਦਜਾਨ"</item>
+    <item msgid="4864167603178202155">"ਅ<ns1:g id="SEPARATOR">=</ns1:g>ਐਕਰਾ"</item>
+    <item msgid="6478898553803167749">"ਅ<ns1:g id="SEPARATOR">=</ns1:g>ਐਡਿਸ ਅਬਾਬਾ"</item>
+    <item msgid="5618029992528436448">"ਅ<ns1:g id="SEPARATOR">=</ns1:g>ਅਲਜੀਅਰਸ"</item>
+    <item msgid="2906834750114790793">"ਬ<ns1:g id="SEPARATOR">=</ns1:g>ਬਲਾਂਟਾਇਰ"</item>
+    <item msgid="8153571933836629863">"ਬ<ns1:g id="SEPARATOR">=</ns1:g>ਬ੍ਰੈਜ਼ਾਵਿਲੇ"</item>
+    <item msgid="3703129580594640833">"ਕ<ns1:g id="SEPARATOR">=</ns1:g>ਕਾਇਰੋ"</item>
+    <item msgid="2300915410194647320">"ਕ<ns1:g id="SEPARATOR">=</ns1:g>ਕਾਸਾਬਲਾਂਕਾ"</item>
+    <item msgid="1217039002304887948">"ਸ<ns1:g id="SEPARATOR">=</ns1:g>ਕੋਨਾਕਰਾਈ"</item>
+    <item msgid="8775104707806220928">"ਡ<ns1:g id="SEPARATOR">=</ns1:g>ਡਕਾਰ"</item>
+    <item msgid="5948764589113643811">"ਡ<ns1:g id="SEPARATOR">=</ns1:g>ਡਰ ਐਸ ਸਲਾਮ"</item>
+    <item msgid="6306254507715416077">"ਡ<ns1:g id="SEPARATOR">=</ns1:g>ਜਾਇਬੂਟੀ"</item>
+    <item msgid="4286108029159501866">"ਫ<ns1:g id="SEPARATOR">=</ns1:g>ਫ੍ਰੀਟਾਊਨ"</item>
+    <item msgid="4514786733035528116">"ਗ<ns1:g id="SEPARATOR">=</ns1:g>ਗੈਬਰੋਨ"</item>
+    <item msgid="7367496854968219671">"ਹ<ns1:g id="SEPARATOR">=</ns1:g>ਹਰਾਰੇ"</item>
+    <item msgid="6837746379726020288">"ਜ<ns1:g id="SEPARATOR">=</ns1:g>ਜੋਹਨਸਬਰਗ"</item>
+    <item msgid="6284185156591171506">"ਕ<ns1:g id="SEPARATOR">=</ns1:g>ਕੰਪਾਲਾ"</item>
+    <item msgid="3299518884693668985">"ਕ<ns1:g id="SEPARATOR">=</ns1:g>ਖਰਟੂਮ"</item>
+    <item msgid="4614879508966043969">"ਕ<ns1:g id="SEPARATOR">=</ns1:g>ਕਿਗਾਲੀ"</item>
+    <item msgid="8878437043772547732">"ਕ<ns1:g id="SEPARATOR">=</ns1:g>ਕਿੰਸ਼ਾਸਾ"</item>
+    <item msgid="6325601635544067909">"ਲ<ns1:g id="SEPARATOR">=</ns1:g>ਲਾਗੋਸ"</item>
+    <item msgid="6094357506290323524">"ਮ<ns1:g id="SEPARATOR">=</ns1:g>ਮਸੈਰੁ"</item>
+    <item msgid="7270525814400329098">"ਮ<ns1:g id="SEPARATOR">=</ns1:g>ਮੋਗਾਦਿਸ਼ੁ"</item>
+    <item msgid="353110101402547540">"ਨ<ns1:g id="SEPARATOR">=</ns1:g>ਨੈਰੋਬੀ"</item>
+    <item msgid="1688121892646984549">"ਸ<ns1:g id="SEPARATOR">=</ns1:g>ਸਾਓ ਤੋਮੇ"</item>
+    <item msgid="3642219084651687800">"ਟ<ns1:g id="SEPARATOR">=</ns1:g>ਟਿਮਬੁਕਤੁ"</item>
+    <item msgid="7287513493631179463">"ਤ<ns1:g id="SEPARATOR">=</ns1:g>ਤ੍ਰਿਪੋਲੀ"</item>
+    <item msgid="5052614613671591560">"ਟ<ns1:g id="SEPARATOR">=</ns1:g>ਟਿਊਨਿਸ"</item>
+    <item msgid="7976303179193839859">"ਅ<ns1:g id="SEPARATOR">=</ns1:g>ਐਂਕੋਰੇਜ"</item>
+    <item msgid="193703779380497120">"ਮ<ns1:g id="SEPARATOR">=</ns1:g>ਮੈਡੋਜ਼ਾ"</item>
+    <item msgid="5448884981082519628">"ਅ<ns1:g id="SEPARATOR">=</ns1:g>ਅਰੂਬਾ"</item>
+    <item msgid="1577938273323914773">"ਅ<ns1:g id="SEPARATOR">=</ns1:g>ਅਸਨਸਿਓਨ"</item>
+    <item msgid="5617155978105010520">"ਬ<ns1:g id="SEPARATOR">=</ns1:g>ਬਾਰਬਾਡੋਜ਼"</item>
+    <item msgid="3600025702357376322">"ਬ<ns1:g id="SEPARATOR">=</ns1:g>ਬੈਲੀਜ਼"</item>
+    <item msgid="2847679817118467051">"ਬ<ns1:g id="SEPARATOR">=</ns1:g>ਬੋਗੋਟਾ"</item>
+    <item msgid="9029003541681282929">"ਬ<ns1:g id="SEPARATOR">=</ns1:g>ਬੁਏਨੋਸ ਐਰਸ"</item>
+    <item msgid="2338367960332622522">"ਕ<ns1:g id="SEPARATOR">=</ns1:g>ਕੈਨਕੁਨ"</item>
+    <item msgid="4339797536047170278">"ਕ<ns1:g id="SEPARATOR">=</ns1:g>ਕਾਰਾਕੈਸ"</item>
+    <item msgid="9199080438977757863">"ਕ<ns1:g id="SEPARATOR">=</ns1:g>ਕੇਮੈਨ"</item>
+    <item msgid="1993203473281589891">"ਸ<ns1:g id="SEPARATOR">=</ns1:g>ਸ਼ਿਕਾਗੋ"</item>
+    <item msgid="7990342776303470263">"ਕ<ns1:g id="SEPARATOR">=</ns1:g>ਕੋਸਟਾ ਰੀਕਾ"</item>
+    <item msgid="5676109900908808628">"ਕ<ns1:g id="SEPARATOR">=</ns1:g>ਕੁਰਾਸਾਓ"</item>
+    <item msgid="5519120432577564812">"ਡ<ns1:g id="SEPARATOR">=</ns1:g>ਡੌਸਨ ਕ੍ਰੀਕ"</item>
+    <item msgid="2126228972377380680">"ਡ<ns1:g id="SEPARATOR">=</ns1:g>ਡੈਨਵਰ"</item>
+    <item msgid="3298410632922319193">"ਡ<ns1:g id="SEPARATOR">=</ns1:g>ਡੈਟਰੋਇਟ"</item>
+    <item msgid="2819032085688382805">"ਡ<ns1:g id="SEPARATOR">=</ns1:g>ਡੋਮੀਨਿਕਾ"</item>
+    <item msgid="6170433208654553821">"ਐ<ns1:g id="SEPARATOR">=</ns1:g>ਐਡਮੋਂਟਨ"</item>
+    <item msgid="795461860173291499">"ਐ<ns1:g id="SEPARATOR">=</ns1:g>ਅਲ ਸਾਲਵਾਡੋਰ"</item>
+    <item msgid="7872196528637597794">"ਫ<ns1:g id="SEPARATOR">=</ns1:g>ਫੋਰਟਾਲੈਜ਼ਾ"</item>
+    <item msgid="5801558418916235541">"ਗ<ns1:g id="SEPARATOR">=</ns1:g>ਗ੍ਰਾਂਡ ਤੁਰਕ"</item>
+    <item msgid="2103759276235503048">"ਗ<ns1:g id="SEPARATOR">=</ns1:g>ਗ੍ਰੇਨਾਡਾ"</item>
+    <item msgid="1490069759176391533">"ਗ<ns1:g id="SEPARATOR">=</ns1:g>ਗੁਆਟੇਮਾਲਾ"</item>
+    <item msgid="525959305652046261">"ਗ<ns1:g id="SEPARATOR">=</ns1:g>ਗੁਆਨਾ"</item>
+    <item msgid="7565596629973190931">"ਹ<ns1:g id="SEPARATOR">=</ns1:g>ਹੈਲੀਫੈਕਸ"</item>
+    <item msgid="3811169155065582644">"ਹ<ns1:g id="SEPARATOR">=</ns1:g>ਹਵਾਨਾ"</item>
+    <item msgid="3733555435078090201">"ਇ<ns1:g id="SEPARATOR">=</ns1:g>ਇੰਡੀਅਨਪੋਲਿਸ"</item>
+    <item msgid="226982663848410981">"ਕ<ns1:g id="SEPARATOR">=</ns1:g>ਨੌਕਸ"</item>
+    <item msgid="3815293080342229459">"ਮ<ns1:g id="SEPARATOR">=</ns1:g>ਮਰੈਂਗੋ"</item>
+    <item msgid="6594853515451547389">"ਪ<ns1:g id="SEPARATOR">=</ns1:g>ਪੀਟਰਸਬਰਗ"</item>
+    <item msgid="6091571889213283534">"ਟ<ns1:g id="SEPARATOR">=</ns1:g>ਟੈਲ ਸਿਟੀ"</item>
+    <item msgid="3089369312058696669">"ਵ<ns1:g id="SEPARATOR">=</ns1:g>ਵੈਵੇ"</item>
+    <item msgid="1334860422444068943">"ਵ<ns1:g id="SEPARATOR">=</ns1:g>ਵਿੰਸੀਨਸ"</item>
+    <item msgid="7775105082093691756">"ਵ<ns1:g id="SEPARATOR">=</ns1:g>ਵਿਨਾਮੈਕ"</item>
+    <item msgid="4043335541899184547">"ਕ<ns1:g id="SEPARATOR">=</ns1:g>ਕਿੰਗਸਟਨ"</item>
+    <item msgid="1063757593477259280">"ਨ<ns1:g id="SEPARATOR">=</ns1:g>ਨਿਉਸਤ੍ਰਾ ਸੈਨੋਰਾ ਦੇ ਲਾ ਪਾਜ਼"</item>
+    <item msgid="349901732062388869">"ਲ<ns1:g id="SEPARATOR">=</ns1:g>ਲਿਮਾ"</item>
+    <item msgid="4977592519316837842">"ਲ<ns1:g id="SEPARATOR">=</ns1:g>ਲੌਸ ਏਂਜਲਸ"</item>
+    <item msgid="7713051790509638572">"ਲ<ns1:g id="SEPARATOR">=</ns1:g>ਲੁਈਸਵਿਲੇ"</item>
+    <item msgid="8460620935898405225">"ਮ<ns1:g id="SEPARATOR">=</ns1:g>ਮਾਨਾਗੁਆ"</item>
+    <item msgid="8328345293081464192">"ਮ<ns1:g id="SEPARATOR">=</ns1:g>ਮਾਰਟੀਨੀਕਿਉ"</item>
+    <item msgid="8010357327448619637">"ਮ<ns1:g id="SEPARATOR">=</ns1:g>ਮੈਂਡੋਜ਼ਾ"</item>
+    <item msgid="2046777213916219253">"ਮ<ns1:g id="SEPARATOR">=</ns1:g>ਮੈਟਲਾਕਤਲਾ"</item>
+    <item msgid="2227885609632709258">"ਮ<ns1:g id="SEPARATOR">=</ns1:g>ਮੈਕਸੀਕੋ ਸਿਟੀ"</item>
+    <item msgid="9089629663998569289">"ਮ<ns1:g id="SEPARATOR">=</ns1:g>ਮੋਟੈਂਰੋ"</item>
+    <item msgid="2782276175306930748">"ਮ<ns1:g id="SEPARATOR">=</ns1:g>ਮੋਂਟੈਵੀਡੀਓ"</item>
+    <item msgid="4942386959622269480">"ਮ<ns1:g id="SEPARATOR">=</ns1:g>ਮੋਂਟੀਰੀਅਲ"</item>
+    <item msgid="3068203952968918165">"ਨ<ns1:g id="SEPARATOR">=</ns1:g>ਨਸਾਉ"</item>
+    <item msgid="4234515454127289962">"ਨ<ns1:g id="SEPARATOR">=</ns1:g>ਨਿਊ ਯੌਰਕ"</item>
+    <item msgid="1660551302087304308">"ਬ<ns1:g id="SEPARATOR">=</ns1:g>ਬੈਉਲਾ"</item>
+    <item msgid="415823390775449071">"ਸ<ns1:g id="SEPARATOR">=</ns1:g>ਸੈਂਟਰ"</item>
+    <item msgid="6644186958433380884">"ਨ<ns1:g id="SEPARATOR">=</ns1:g>ਨਿਊ ਸਲੇਮ"</item>
+    <item msgid="6408587617047971798">"ਪ<ns1:g id="SEPARATOR">=</ns1:g>ਪਨਾਮਾ"</item>
+    <item msgid="5576899364199447991">"ਪ<ns1:g id="SEPARATOR">=</ns1:g>ਫੋਨਿਕਸ"</item>
+    <item msgid="5541266909095409447">"ਪ<ns1:g id="SEPARATOR">=</ns1:g>ਪੋਰਟ ਔਫ ਸਪੇਨ"</item>
+    <item msgid="6417519313622785932">"ਪ<ns1:g id="SEPARATOR">=</ns1:g>ਪੋਰਟ-ਔ-ਪ੍ਰਿੰਸ"</item>
+    <item msgid="2078589249210571366">"ਪ<ns1:g id="SEPARATOR">=</ns1:g>ਪਿਉਰਟੋ ਰੀਕੋ"</item>
+    <item msgid="8522030474373927681">"ਸ<ns1:g id="SEPARATOR">=</ns1:g>ਸੈਂਟੋ ਡੋਮਿੰਗੋ"</item>
+    <item msgid="4763853453317431594">"ਸ<ns1:g id="SEPARATOR">=</ns1:g>ਸਾਓ ਪਉਲੋ"</item>
+    <item msgid="2713153284784311646">"ਸ<ns1:g id="SEPARATOR">=</ns1:g>ਸੈਂਟ ਜੋਨਸ"</item>
+    <item msgid="8252666620333105271">"ਸ<ns1:g id="SEPARATOR">=</ns1:g>ਸੈਂਟ ਕਿਟਸ"</item>
+    <item msgid="4851597775036027515">"ਸ<ns1:g id="SEPARATOR">=</ns1:g>ਸੈਂਟ ਲੁਸੀਆ"</item>
+    <item msgid="2395485473100271503">"ਸ<ns1:g id="SEPARATOR">=</ns1:g>ਸੈਂਟ ਥੌਮਸ"</item>
+    <item msgid="4148037555658225145">"ਟ<ns1:g id="SEPARATOR">=</ns1:g>ਟਿਜੁੁਆਨਾ"</item>
+    <item msgid="3491199166042475853">"ਟ<ns1:g id="SEPARATOR">=</ns1:g>ਟੋਰੰਟੋ"</item>
+    <item msgid="1506838283840737263">"ਵ<ns1:g id="SEPARATOR">=</ns1:g>ਵੈਨਕੂਵਰ"</item>
+    <item msgid="8935386104773857399">"ਵ<ns1:g id="SEPARATOR">=</ns1:g>ਵਿਨੀਪੈਗ"</item>
+    <item msgid="1132634022412399582">"ਸ<ns1:g id="SEPARATOR">=</ns1:g>ਸਾਊਥ ਪੋਲੈ"</item>
+    <item msgid="4076962667198039206">"ਲ<ns1:g id="SEPARATOR">=</ns1:g>ਲੋਂਗੀਈਅਰਬਿਆਨ"</item>
+    <item msgid="3784788073896028355">"ਅ<ns1:g id="SEPARATOR">=</ns1:g>ਅਲਮੈਟੀ"</item>
+    <item msgid="7895695236056852523">"ਅ<ns1:g id="SEPARATOR">=</ns1:g>ਅਮਾਨ"</item>
+    <item msgid="1795426532295280371">"ਅ<ns1:g id="SEPARATOR">=</ns1:g>ਐਨਾਡਰ"</item>
+    <item msgid="7194236926158343552">"ਅ<ns1:g id="SEPARATOR">=</ns1:g>ਅਕਤਾਉ"</item>
+    <item msgid="4796350130854360870">"ਬ<ns1:g id="SEPARATOR">=</ns1:g>ਬਗਦਾਦ"</item>
+    <item msgid="4020105434451091851">"ਬ<ns1:g id="SEPARATOR">=</ns1:g>ਬਹਿਰੈਨ"</item>
+    <item msgid="3895868797052686484">"ਬ<ns1:g id="SEPARATOR">=</ns1:g>ਬਾਕੁ"</item>
+    <item msgid="228001522630057957">"ਬ<ns1:g id="SEPARATOR">=</ns1:g>ਬੈਂਕਾਕ"</item>
+    <item msgid="5555647809114820537">"ਬ<ns1:g id="SEPARATOR">=</ns1:g>ਬੈਰੁਤ"</item>
+    <item msgid="2960873998178478784">"ਕ<ns1:g id="SEPARATOR">=</ns1:g>ਕਲਕੱਤਾ"</item>
+    <item msgid="8765555959722950691">"ਡ<ns1:g id="SEPARATOR">=</ns1:g>ਡੈਮਸਕਸ"</item>
+    <item msgid="4979709428925196546">"ਡ<ns1:g id="SEPARATOR">=</ns1:g>ਢਾਕਾ"</item>
+    <item msgid="310419600200885308">"ਦ<ns1:g id="SEPARATOR">=</ns1:g>ਦੁਬਈ"</item>
+    <item msgid="1203379132329159260">"ਗ<ns1:g id="SEPARATOR">=</ns1:g>ਗਾਜ਼ਾ"</item>
+    <item msgid="2359068282340162319">"ਹ<ns1:g id="SEPARATOR">=</ns1:g>ਹੈਬਰੋਨ"</item>
+    <item msgid="6223396610551759129">"ਹ<ns1:g id="SEPARATOR">=</ns1:g>ਹੋ ਚੀ ਮਿਨ੍ਹ"</item>
+    <item msgid="4731022818651322736">"ਹ<ns1:g id="SEPARATOR">=</ns1:g>ਹਾਂਗ ਕਾਂਗ"</item>
+    <item msgid="8104778702069607166">"ਇ<ns1:g id="SEPARATOR">=</ns1:g>ਇਸਤਾਨਬੁਲ"</item>
+    <item msgid="758800913783999425">"ਜ<ns1:g id="SEPARATOR">=</ns1:g>ਜਕਾਰਤਾ"</item>
+    <item msgid="8956406398692698126">"ਜ<ns1:g id="SEPARATOR">=</ns1:g>ਜੇਰੁਸਲੇਮ"</item>
+    <item msgid="1664426577433326419">"ਕ<ns1:g id="SEPARATOR">=</ns1:g>ਕਾਬੁਲ"</item>
+    <item msgid="7700349511508357396">"ਕ<ns1:g id="SEPARATOR">=</ns1:g>ਕਰਾਚੀ"</item>
+    <item msgid="5273241794521591984">"ਕ<ns1:g id="SEPARATOR">=</ns1:g>ਕਾਠਮਾਂਡੂ"</item>
+    <item msgid="4754850915168634158">"ਕ<ns1:g id="SEPARATOR">=</ns1:g>ਕੁਆਲਾਲਮਪੁਰ"</item>
+    <item msgid="5187849635785055693">"ਕ<ns1:g id="SEPARATOR">=</ns1:g>ਕੁਵੈਤ"</item>
+    <item msgid="2923385979252179376">"ਮ<ns1:g id="SEPARATOR">=</ns1:g>ਮਕਾਉ"</item>
+    <item msgid="722458682107911739">"ਮ<ns1:g id="SEPARATOR">=</ns1:g>ਮਨੀਲਾ"</item>
+    <item msgid="6033964325069060422">"ਮ<ns1:g id="SEPARATOR">=</ns1:g>ਮਸਕਟ"</item>
+    <item msgid="6077458941399984780">"ਪ<ns1:g id="SEPARATOR">=</ns1:g>ਫਨੋਮ ਪੈਨ੍ਹ"</item>
+    <item msgid="935474308903572975">"ਪ<ns1:g id="SEPARATOR">=</ns1:g>ਪਿਓਂਗਯਾਂਗ"</item>
+    <item msgid="5336632319992664889">"ਕ<ns1:g id="SEPARATOR">=</ns1:g>ਕਤਰ"</item>
+    <item msgid="1667243110545095146">"ਰ<ns1:g id="SEPARATOR">=</ns1:g>ਰੰਗੂਨ"</item>
+    <item msgid="4460370766685855731">"ਰ<ns1:g id="SEPARATOR">=</ns1:g>ਰਿਆਧ"</item>
+    <item msgid="4229224905931739201">"ਸ<ns1:g id="SEPARATOR">=</ns1:g>ਸਾਈਗੋਨ"</item>
+    <item msgid="8705359848250215620">"ਸ<ns1:g id="SEPARATOR">=</ns1:g>ਸਿਓਲ"</item>
+    <item msgid="583367295371395814">"ਸ<ns1:g id="SEPARATOR">=</ns1:g>ਸ਼ੰਘਾਈ"</item>
+    <item msgid="1422156732794771136">"ਸ<ns1:g id="SEPARATOR">=</ns1:g>ਸਿੰਗਾਪੁਰ"</item>
+    <item msgid="1972491729911039207">"ਤ<ns1:g id="SEPARATOR">=</ns1:g>ਤਾਈਪੇਈ"</item>
+    <item msgid="5563193560935461106">"ਤ<ns1:g id="SEPARATOR">=</ns1:g>ਤੇਹਰਾਨ"</item>
+    <item msgid="8629402941285674273">"ਤ<ns1:g id="SEPARATOR">=</ns1:g>ਟੈਲ ਅਵੀਵ"</item>
+    <item msgid="8499164674454654525">"ਟ<ns1:g id="SEPARATOR">=</ns1:g>ਟੋਕਿਓ"</item>
+    <item msgid="1705804745888992744">"ਉ<ns1:g id="SEPARATOR">=</ns1:g>ਉਲਾਨਬਾਤਰ"</item>
+    <item msgid="2028626988021468640">"ਬ<ns1:g id="SEPARATOR">=</ns1:g>ਬਰਮੁਡਾ"</item>
+    <item msgid="4527109966513690429">"ਕ<ns1:g id="SEPARATOR">=</ns1:g>ਕੈਨਰੀ"</item>
+    <item msgid="4886308317040330383">"ਕ<ns1:g id="SEPARATOR">=</ns1:g>ਕੇਪ ਵਰਡੇ"</item>
+    <item msgid="1003307362164178007">"ਰ<ns1:g id="SEPARATOR">=</ns1:g>ਰੈਕਜਾਵਿਕ"</item>
+    <item msgid="6742010412815268657">"ਸ<ns1:g id="SEPARATOR">=</ns1:g>ਸਟੈਨਲੀ"</item>
+    <item msgid="5659389449738592757">"ਅ<ns1:g id="SEPARATOR">=</ns1:g>ਅਦੈਲੇਡ"</item>
+    <item msgid="4567804576346784523">"ਬ<ns1:g id="SEPARATOR">=</ns1:g>ਬ੍ਰਿਸਬੇਨ"</item>
+    <item msgid="8730590400362815585">"ਕ<ns1:g id="SEPARATOR">=</ns1:g>ਕੈਨਬੈਰਾ"</item>
+    <item msgid="6416990927714140153">"ਡ<ns1:g id="SEPARATOR">=</ns1:g>ਡਰਵਿਨ"</item>
+    <item msgid="3073969292696516135">"ਮ<ns1:g id="SEPARATOR">=</ns1:g>ਮੈਲਬੋਰਨ"</item>
+    <item msgid="1719286228375722176">"ਨ<ns1:g id="SEPARATOR">=</ns1:g>ਨਿਊ ਸਾਊਥ ਵੇਲਸ"</item>
+    <item msgid="3663940748056976266">"ਪ<ns1:g id="SEPARATOR">=</ns1:g>ਪਰਥ"</item>
+    <item msgid="3383881736858438153">"ਕ<ns1:g id="SEPARATOR">=</ns1:g>ਕਵੀਂਸਲੈਂਡ"</item>
+    <item msgid="971889339240879138">"ਸ<ns1:g id="SEPARATOR">=</ns1:g>ਸਿਡਨੀ"</item>
+    <item msgid="5542803438162180311">"ਵ<ns1:g id="SEPARATOR">=</ns1:g>ਵਿਕਟੋਰੀਆ"</item>
+    <item msgid="11828841481838883">"ਨ<ns1:g id="SEPARATOR">=</ns1:g>ਨਿਊਫਾਊਂਡਲੈਂਡ"</item>
+    <item msgid="1734331918410561807">"ਸ<ns1:g id="SEPARATOR">=</ns1:g>ਸਸਕੈਚਵਾਨ"</item>
+    <item msgid="9184412695613864979">"ਈ<ns1:g id="SEPARATOR">=</ns1:g>ਈਸਟਰ ਆਈਲੈਂਡ"</item>
+    <item msgid="1014282454239014527">"ਅ<ns1:g id="SEPARATOR">=</ns1:g>ਅਮਸਟਰਡੈਮ"</item>
+    <item msgid="4928363054269791193">"ਅ<ns1:g id="SEPARATOR">=</ns1:g>ਅੰਡੋਰਾ"</item>
+    <item msgid="912290900213826368">"ਅ<ns1:g id="SEPARATOR">=</ns1:g>ਐਥਨਸ"</item>
+    <item msgid="6097000352459209495">"ਬ<ns1:g id="SEPARATOR">=</ns1:g>ਬੈਲਫਾਸਟ"</item>
+    <item msgid="3285885824311481790">"ਬ<ns1:g id="SEPARATOR">=</ns1:g>ਬੈਲਗ੍ਰੇਡ"</item>
+    <item msgid="911055049821251982">"ਬ<ns1:g id="SEPARATOR">=</ns1:g>ਬਰਲਿਨ"</item>
+    <item msgid="9099244516556291111">"ਬ<ns1:g id="SEPARATOR">=</ns1:g>ਬ੍ਰਾਟੀਸਲਾਵਾ"</item>
+    <item msgid="158977749726480076">"ਬ<ns1:g id="SEPARATOR">=</ns1:g>ਬ੍ਰਸਲਸ"</item>
+    <item msgid="8875102297676173346">"ਬ<ns1:g id="SEPARATOR">=</ns1:g>ਬੁਕਾਰੈਸਟ"</item>
+    <item msgid="804451569472542912">"ਬ<ns1:g id="SEPARATOR">=</ns1:g>ਬੁਦਾਪੈਸਟ"</item>
+    <item msgid="6827506774445509939">"ਚ<ns1:g id="SEPARATOR">=</ns1:g>ਚਿਸੀਨਉ"</item>
+    <item msgid="487345893088732797">"ਕ<ns1:g id="SEPARATOR">=</ns1:g>ਕੋਪਨਹੈਗਨ"</item>
+    <item msgid="7760953471297773537">"ਡ<ns1:g id="SEPARATOR">=</ns1:g>ਡਬਲਿਨ"</item>
+    <item msgid="323414429034825249">"ਗ<ns1:g id="SEPARATOR">=</ns1:g>ਗਿਬਲਰਤਾਰ"</item>
+    <item msgid="1785566206078328830">"ਹ<ns1:g id="SEPARATOR">=</ns1:g>ਹੈਲਸਿੰਕੀ"</item>
+    <item msgid="5938185647271923359">"ਇ<ns1:g id="SEPARATOR">=</ns1:g>ਆਇਲ ਔਫ ਮੈਨ"</item>
+    <item msgid="5974864320735263245">"ਇ<ns1:g id="SEPARATOR">=</ns1:g>ਇਸਤਾਨਬੁਲ"</item>
+    <item msgid="3567775364750772947">"ਕ<ns1:g id="SEPARATOR">=</ns1:g>ਕਾਈਵ"</item>
+    <item msgid="540344101798867007">"ਲ<ns1:g id="SEPARATOR">=</ns1:g>ਲਿਸਬਨ"</item>
+    <item msgid="5091062403792923657">"ਲ<ns1:g id="SEPARATOR">=</ns1:g>ਲੰਡਨ"</item>
+    <item msgid="7075006205000490364">"ਲ<ns1:g id="SEPARATOR">=</ns1:g>ਲਕਜ਼ਮਬਰਗ"</item>
+    <item msgid="4901781246584739451">"ਮ<ns1:g id="SEPARATOR">=</ns1:g>ਮਦਰੀਦ"</item>
+    <item msgid="9047080834315777144">"ਮ<ns1:g id="SEPARATOR">=</ns1:g>ਮਾਲਟਾ"</item>
+    <item msgid="8200456520732452034">"ਮ<ns1:g id="SEPARATOR">=</ns1:g>ਮਿੰਸਕ"</item>
+    <item msgid="5452744619736513383">"ਮ<ns1:g id="SEPARATOR">=</ns1:g>ਮੋਨੈਕੋ"</item>
+    <item msgid="3513517408062322298">"ਮ<ns1:g id="SEPARATOR">=</ns1:g>ਮਾਸਕੋ"</item>
+    <item msgid="7917103295878081674">"ਓ<ns1:g id="SEPARATOR">=</ns1:g>ਓਸਲੋ"</item>
+    <item msgid="4245547231693746977">"ਪ<ns1:g id="SEPARATOR">=</ns1:g>ਪੈਰਿਸ"</item>
+    <item msgid="3778652900196715557">"ਪ<ns1:g id="SEPARATOR">=</ns1:g>ਪਰਾਗ"</item>
+    <item msgid="1827175423974383675">"ਰ<ns1:g id="SEPARATOR">=</ns1:g>ਰੀਗਾ"</item>
+    <item msgid="2095130417232677930">"ਰ<ns1:g id="SEPARATOR">=</ns1:g>ਰੋਮ"</item>
+    <item msgid="7631654618289353520">"ਸ<ns1:g id="SEPARATOR">=</ns1:g>ਸਨ ਮਾਰੀਨੋ"</item>
+    <item msgid="7219835179107610398">"ਸ<ns1:g id="SEPARATOR">=</ns1:g>ਸਾਰਾਜੈਵੋ"</item>
+    <item msgid="7199868165463282240">"ਸ<ns1:g id="SEPARATOR">=</ns1:g>ਸਿੰਫੈਰੋਪੋਲ"</item>
+    <item msgid="2786395006682246794">"ਸ<ns1:g id="SEPARATOR">=</ns1:g>ਸਕੋਪਜੈ"</item>
+    <item msgid="4706927178872100023">"ਸ<ns1:g id="SEPARATOR">=</ns1:g>ਸੋਫੀਆ"</item>
+    <item msgid="1982417589953195308">"ਸ<ns1:g id="SEPARATOR">=</ns1:g>ਸਟੌਕਹੋਲਮ"</item>
+    <item msgid="1596083919400921960">"ਟ<ns1:g id="SEPARATOR">=</ns1:g>ਟੈਲਿਨ"</item>
+    <item msgid="3079313598974879114">"ਵ<ns1:g id="SEPARATOR">=</ns1:g>ਵੈਟੀਕੈਨ"</item>
+    <item msgid="6516636001856910888">"ਵ<ns1:g id="SEPARATOR">=</ns1:g>ਵਿਏਨਾ"</item>
+    <item msgid="6377314532157945456">"ਵ<ns1:g id="SEPARATOR">=</ns1:g>ਵਿਲਨਿਅਸ"</item>
+    <item msgid="3427175235616698721">"ਵ<ns1:g id="SEPARATOR">=</ns1:g>ਵਾਰਸੌ"</item>
+    <item msgid="8404354243761332922">"ਜ਼<ns1:g id="SEPARATOR">=</ns1:g>ਜ਼ਗਰੈਬ"</item>
+    <item msgid="1457280242717152391">"ਜ਼<ns1:g id="SEPARATOR">=</ns1:g>ਜ਼ਿਉਰਿਕ"</item>
+    <item msgid="1065940089741359291">"ਅ<ns1:g id="SEPARATOR">=</ns1:g>ਅੰਤਾਨਾਨਾਨਾਰੀਵੋ"</item>
+    <item msgid="5176181880014090003">"ਮ<ns1:g id="SEPARATOR">=</ns1:g>ਮਾਲਦੀਵਸ"</item>
+    <item msgid="8281854645557426433">"ਮ<ns1:g id="SEPARATOR">=</ns1:g>ਮੌਰਸ਼ੀਅਸ"</item>
+    <item msgid="2686249517389816420">"ਅ<ns1:g id="SEPARATOR">=</ns1:g>ਔਕਲੈਂਡ"</item>
+    <item msgid="279925671775807392">"ਫ<ns1:g id="SEPARATOR">=</ns1:g>ਫਿਜੀ"</item>
+    <item msgid="7971492669765264840">"ਗ<ns1:g id="SEPARATOR">=</ns1:g>ਗੁਆਮ"</item>
+    <item msgid="889371273355762733">"ਹ<ns1:g id="SEPARATOR">=</ns1:g>ਹੋਨੋਲੁਲੁ"</item>
+    <item msgid="5516500578074269817">"ਕ<ns1:g id="SEPARATOR">=</ns1:g>ਕਿਰਿਤੀਮਤੀ"</item>
+    <item msgid="2740704911915073056">"ਨ<ns1:g id="SEPARATOR">=</ns1:g>ਨੋਮੈਆ"</item>
+    <item msgid="8732832728949672807">"ਸ<ns1:g id="SEPARATOR">=</ns1:g>ਸਮੋਆ"</item>
+    <item msgid="6489500698846864993">"ਤ<ns1:g id="SEPARATOR">=</ns1:g>ਤਹੀਤੀ"</item>
+    <item msgid="3983121625709442324">"ਅ<ns1:g id="SEPARATOR">=</ns1:g>ਐਂਟੀਗੁਆ"</item>
+    <item msgid="2650510570709806322">"ਅ<ns1:g id="SEPARATOR">=</ns1:g>ਔਸਟਿਨ"</item>
+    <item msgid="5257283506227357911">"ਬ<ns1:g id="SEPARATOR">=</ns1:g>ਬੋਸਟਨ"</item>
+    <item msgid="6326368958641850267">"ਕ<ns1:g id="SEPARATOR">=</ns1:g>ਕਾਲਗਰੀ"</item>
+    <item msgid="8830116365016232583">"ਕ<ns1:g id="SEPARATOR">=</ns1:g>ਕੋਲੰਬਸ"</item>
+    <item msgid="6986556538341883811">"ਡ<ns1:g id="SEPARATOR">=</ns1:g>ਡਲਾਸ"</item>
+    <item msgid="836479352500251902">"ਕ<ns1:g id="SEPARATOR">=</ns1:g>ਨੌਕਸਵਿਲੇ"</item>
+    <item msgid="8495291458467378851">"ਮ<ns1:g id="SEPARATOR">=</ns1:g>ਮੈਮਫਿਸ"</item>
+    <item msgid="2788807207554683122">"ਮ<ns1:g id="SEPARATOR">=</ns1:g>ਮਿਆਮੀ"</item>
+    <item msgid="3984640407077208471">"ਮ<ns1:g id="SEPARATOR">=</ns1:g>ਮਿਨੀਆਪੋਲਿਸ"</item>
+    <item msgid="6997305266329324161">"ਓ<ns1:g id="SEPARATOR">=</ns1:g>ਓਟਵਾ"</item>
+    <item msgid="5191741145278683016">"ਪ<ns1:g id="SEPARATOR">=</ns1:g>ਫਿਲਾਡੈਲਫਿਆ"</item>
+    <item msgid="5898032730733441936">"ਪ<ns1:g id="SEPARATOR">=</ns1:g>ਪੋਰਟਲੈਂਡ"</item>
+    <item msgid="9070160716002203069">"ਸ<ns1:g id="SEPARATOR">=</ns1:g>ਸਨ ਡਿਏਗੋ"</item>
+    <item msgid="1829944133410079040">"ਸ<ns1:g id="SEPARATOR">=</ns1:g>ਸਨ ਫ੍ਰਾਂਸਿਸਕੋ"</item>
+    <item msgid="8407905318529692654">"ਸ<ns1:g id="SEPARATOR">=</ns1:g>ਸਾਲਟ ਲੇਕ ਸਿਟੀ"</item>
+    <item msgid="3091392589347990898">"ਸ<ns1:g id="SEPARATOR">=</ns1:g>ਸਨ ਜੋਸ"</item>
+    <item msgid="7080627414383807284">"ਸ<ns1:g id="SEPARATOR">=</ns1:g>ਸਨ ਸਾਲਵਾਡੋਰ"</item>
+    <item msgid="3430371213266252049">"ਸ<ns1:g id="SEPARATOR">=</ns1:g>ਸੀਟਲ"</item>
+    <item msgid="9177491393818757071">"ਸ<ns1:g id="SEPARATOR">=</ns1:g>ਸੈਂਟ ਲੁਈਸ"</item>
+    <item msgid="6234359686676312837">"ਵ<ns1:g id="SEPARATOR">=</ns1:g>ਵਾਸ਼ਿੰਗਟਨ ਡੀ.ਸੀ."</item>
+    <item msgid="4325057056005132331">"ਹ<ns1:g id="SEPARATOR">=</ns1:g>ਹੌਸਟਨ"</item>
+    <item msgid="38148255938075867">"ਸ<ns1:g id="SEPARATOR">=</ns1:g>ਸਨ ਅੰਟੋਨੀਓ"</item>
+    <item msgid="3601481860893666763">"ਜ<ns1:g id="SEPARATOR">=</ns1:g>ਜੈਕਸਨਵਿਲੇ"</item>
+    <item msgid="3987471437354665534">"ਬ<ns1:g id="SEPARATOR">=</ns1:g>ਬਾਲਟੀਮੋਰ"</item>
+    <item msgid="3389674262267006887">"ਨ<ns1:g id="SEPARATOR">=</ns1:g>ਨਾਸ਼ਵਿਲੇ"</item>
+    <item msgid="7521690366448637309">"ਮ<ns1:g id="SEPARATOR">=</ns1:g>ਮਿਲਵੌਕੀ"</item>
+    <item msgid="2231069593975740859">"ਓ<ns1:g id="SEPARATOR">=</ns1:g>ਓਕਲਾਹੋਮਾ ਸਿਟੀ"</item>
+    <item msgid="1970008262236914770">"ਲ<ns1:g id="SEPARATOR">=</ns1:g>ਲਾਸ ਵੇਗਸ"</item>
+    <item msgid="7113811028304266017">"ਅ<ns1:g id="SEPARATOR">=</ns1:g>ਅਲਬੁਕੇਰਕਿਉ"</item>
+    <item msgid="6481469458896644678">"ਟ<ns1:g id="SEPARATOR">=</ns1:g>ਟਕਸਨ"</item>
+    <item msgid="5970857542995467466">"ਸ<ns1:g id="SEPARATOR">=</ns1:g>ਸੈਕਰਾਪੈਂਟੋ"</item>
+    <item msgid="1999267306329214429">"ਅ<ns1:g id="SEPARATOR">=</ns1:g>ਅਟਲਾਂਟਾ"</item>
+    <item msgid="8761847787537443648">"ਕ<ns1:g id="SEPARATOR">=</ns1:g>ਕਲੀਵਲੈਂਡ"</item>
+    <item msgid="2987455647692324208">"ਨ<ns1:g id="SEPARATOR">=</ns1:g>ਨਿਊ ਓਰਲੀਂਸ"</item>
+    <item msgid="8104109426412705845">"ਟ<ns1:g id="SEPARATOR">=</ns1:g>ਟੈਂਪਾ"</item>
+    <item msgid="1410067233842240795">"ਪ<ns1:g id="SEPARATOR">=</ns1:g>ਪਿਟਸਬਰਗ"</item>
+    <item msgid="3339955740367374442">"ਸ<ns1:g id="SEPARATOR">=</ns1:g>ਸਿਨਸਨੈਟੀ"</item>
+    <item msgid="6091407424772799978">"ਮ<ns1:g id="SEPARATOR">=</ns1:g>ਮਾਊਂਟੇਨ ਵਿਊ"</item>
+    <item msgid="150299708499753555">"ਰ<ns1:g id="SEPARATOR">=</ns1:g>ਰੈਨੋ"</item>
+    <item msgid="9155068631060038769">"ਬ<ns1:g id="SEPARATOR">=</ns1:g>ਬਲੈਕ ਰੌਕ ਸਿਟੀ"</item>
+    <item msgid="8498761319928979900">"ਦੋ<ns1:g id="SEPARATOR">=</ns1:g>ਦੋਹਾ"</item>
+    <item msgid="8307897251088048641">"ਬ<ns1:g id="SEPARATOR">=</ns1:g>ਬੀਜਿੰਗ"</item>
+    <item msgid="8605970953750147428">"ਮ<ns1:g id="SEPARATOR">=</ns1:g>ਮੁੰਬਈ"</item>
+    <item msgid="6668274273067049125">"ਦ<ns1:g id="SEPARATOR">=</ns1:g>ਦਿੱਲੀ"</item>
+    <item msgid="2933410189478233292">"ਓ<ns1:g id="SEPARATOR">=</ns1:g>ਓਸਾਕਾ"</item>
+    <item msgid="9011026093638055579">"ਲ<ns1:g id="SEPARATOR">=</ns1:g>ਲਾਹੌਰ"</item>
+    <item msgid="1448378291805481500">"ਸ<ns1:g id="SEPARATOR">=</ns1:g>ਸਾਨਾ"</item>
+    <item msgid="5233119846682408301">"ਬ<ns1:g id="SEPARATOR">=</ns1:g>ਬਾਰਸੀਲੋਨਾ"</item>
+    <item msgid="9146746514265554721">"ਮ<ns1:g id="SEPARATOR">=</ns1:g>ਮਿਊਨਿਕ"</item>
+    <item msgid="157866084892734979">"ਮ<ns1:g id="SEPARATOR">=</ns1:g>ਮਿਲਨ"</item>
+    <item msgid="2787346322341414963">"ਫ<ns1:g id="SEPARATOR">=</ns1:g>ਫ੍ਰੈਕਫਰਟ"</item>
+    <item msgid="8407511504088696581">"ਹ<ns1:g id="SEPARATOR">=</ns1:g>ਹਨੋਈ"</item>
+    <item msgid="5184417944073499453">"ਅ<ns1:g id="SEPARATOR">=</ns1:g>ਅੰਕਾਰਾ"</item>
+    <item msgid="4028784954452197920">"ਬ<ns1:g id="SEPARATOR">=</ns1:g>ਬੰਗਲੌਰ"</item>
+    <item msgid="190152483600862776">"ਬ<ns1:g id="SEPARATOR">=</ns1:g>ਬ੍ਰਾਸੀਲੀਆ"</item>
+    <item msgid="8009516135735104388">"ਕ<ns1:g id="SEPARATOR">=</ns1:g>ਕੇਪ ਟਾਊਨ"</item>
+    <item msgid="6057191797622953016">"ਇ<ns1:g id="SEPARATOR">=</ns1:g>ਇਸਲਾਮਾਬਾਦ"</item>
+    <item msgid="2702029416591153210">"ਰ<ns1:g id="SEPARATOR">=</ns1:g>ਰਿਓ ਦੇ ਜਨੈਰੋ"</item>
+    <item msgid="1753927312634708098">"ਅ<ns1:g id="SEPARATOR">=</ns1:g>ਅੰਨ ਆਰਬਰ"</item>
+    <item msgid="4225721108475278979">"ਰ<ns1:g id="SEPARATOR">=</ns1:g>ਬੌਲਡੈਰ"</item>
+    <item msgid="6393177386755796069">"ਕ<ns1:g id="SEPARATOR">=</ns1:g>ਕੈਂਬ੍ਰਿਜ਼"</item>
+    <item msgid="759409010285366934">"ਕ<ns1:g id="SEPARATOR">=</ns1:g>ਕਿਰਕਲੈਂਡ"</item>
+    <item msgid="6308007059287569663">"ਮ<ns1:g id="SEPARATOR">=</ns1:g>ਮੈਡੀਸਨ"</item>
+    <item msgid="6971636434858330021">"ਗ<ns1:g id="SEPARATOR">=</ns1:g>ਗੁਆਂਗਜ਼ੌ"</item>
+    <item msgid="1185109514180068650">"ਹ<ns1:g id="SEPARATOR">=</ns1:g>ਹੈਦਰਾਬਾਦ"</item>
+    <item msgid="3032295682584784261">"ਰ<ns1:g id="SEPARATOR">=</ns1:g>ਰੈਸਟਨ"</item>
+    <item msgid="7722837296297332268">"ਬ<ns1:g id="SEPARATOR">=</ns1:g>ਬੈਲੋ ਹੋਰੀਜ਼ੋਂਟੈ"</item>
+    <item msgid="3593516299122577780">"ਸ<ns1:g id="SEPARATOR">=</ns1:g>ਸੈਂਟਿਆਗੋ"</item>
+    <item msgid="2293331653589266583">"ਮ<ns1:g id="SEPARATOR">=</ns1:g>ਮੋਨਰੋਵੀਆ"</item>
+    <item msgid="7899128359620301710">"ਕ<ns1:g id="SEPARATOR">=</ns1:g>ਕੋਲੰਬੋ"</item>
+    <item msgid="5294489752262543829">"ਚ<ns1:g id="SEPARATOR">=</ns1:g>ਚਿਹੁਆਹੁਆ"</item>
+    <item msgid="8066356061184206341">"ਸ<ns1:g id="SEPARATOR">=</ns1:g>ਸਾਲਵਾਡੋਰ"</item>
+    <item msgid="4806867741334453982">"ਗ<ns1:g id="SEPARATOR">=</ns1:g>ਗੁੜਗਾਓਂ"</item>
+    <item msgid="2585780177649876827">"ਮ<ns1:g id="SEPARATOR">=</ns1:g>ਮੈਨਚੈਸਟਰ"</item>
+    <item msgid="234104953526248139">"ਕ<ns1:g id="SEPARATOR">=</ns1:g>ਕਾਈਵ"</item>
+    <item msgid="5245429461217350012">"ਸ<ns1:g id="SEPARATOR">=</ns1:g>ਸੈਂਟ ਪੀਟਰਸਬਰਗ"</item>
+    <item msgid="6738531308006017215">"ਕ<ns1:g id="SEPARATOR">=</ns1:g>ਕ੍ਰਾਕੋ"</item>
+    <item msgid="8972702613339139467">"ਵ<ns1:g id="SEPARATOR">=</ns1:g>ਰੋਕਲੌ"</item>
+    <item msgid="187278924459096566">"ਹ<ns1:g id="SEPARATOR">=</ns1:g>ਹੈਮਬਰਗ"</item>
+    <item msgid="6173267862207394917">"ਓ<ns1:g id="SEPARATOR">=</ns1:g>ਔਲੁ"</item>
+    <item msgid="5639324478037405990">"ਹ<ns1:g id="SEPARATOR">=</ns1:g>ਹਾਇਫਾ"</item>
+    <item msgid="3157180661352354058">"ਸ<ns1:g id="SEPARATOR">=</ns1:g>ਸਨ ਜੁਆਨ"</item>
+    <item msgid="6995939579417282715">"ਟ<ns1:g id="SEPARATOR">=</ns1:g>ਟੈਗੁਸਿਗਾਲਪਾ"</item>
+    <item msgid="1641840677391275004">"ਪ<ns1:g id="SEPARATOR">=</ns1:g>ਪੈਰਾਮਰੀਬੋ"</item>
+    <item msgid="7317049454800260290">"ਕ<ns1:g id="SEPARATOR">=</ns1:g>ਕੁਇਟੋ"</item>
+    <item msgid="4524380876433343244">"ਲ<ns1:g id="SEPARATOR">=</ns1:g>ਜੁਬਲਜਾਨਾ"</item>
+  </string-array>
+    <string-array name="clock_style_entries">
+    <item msgid="917900462224167608">"ਐਨਾਲਾਗ"</item>
+    <item msgid="8483930821046925592">"ਡਿਜੀਟਲ"</item>
+  </string-array>
+    <string-array name="sw_lap_number_set">
+    <item msgid="2816627565030953899">"# <ns1:g id="NUMBER">%d</ns1:g>"</item>
+    <item msgid="316923361931627987">"# <ns1:g id="NUMBER">%02d</ns1:g>"</item>
+  </string-array>
+    <string-array name="sw_share_strings">
+    <item msgid="842841032273927988">"ਤੁਸੀਂ ਬਿਲਕੁਲ ਸਪੀਡ ਡੈਮਨ ਹੋ।"</item>
+    <item msgid="6332879039890727169">"ਆਪਣੀ ਮਿਹਨਤ ਦੇ ਫਲ ਦਾ ਅਨੰਦ ਮਾਣੋ।"</item>
+    <item msgid="815382761274660130">"Androids ਨੂੰ ਕਾਫ਼ੀ ਤੇਜ਼ ਮੰਨਿਆ ਜਾਂਦਾ ਹੈ, ਪਰੰਤੂ ਤੁਹਾਡੇ ਜਿੰਨੀਆਂ ਤੇਜ਼ ਨਹੀਂ!"</item>
+    <item msgid="7916250650982813737">"ਉਫ।"</item>
+    <item msgid="6836603904515182333">"L33t ਵਾਰ।"</item>
+    <item msgid="7508085100680861631">"ਇੰਨੀ ਅਨੋਖੀ ਰਫ਼ਤਾਰ।"</item>
+    <item msgid="5961245252909589573">"ਆਓ ਫਿਰ ਸਮੇਂ ਦੀ ਕਲਪਨਾ ਕਰੀਏ।"</item>
+    <item msgid="5211891900854545940">"ਖੱਬੇ ਪਾਸੇ ਇੱਕ ਜੰਪ ਕਰੋ।"</item>
+    <item msgid="9071353477103826053">"ਤੁਹਾਡੇ ਕੋਲ ਤੇਜ਼ੀ ਲਈ ਇੱਕ ਪੈਲੇਟ ਹੈ।"</item>
+    <item msgid="3785193933691117181">"ਧੁਨੀਆਤਮਿਕ ਰਫ਼ਤਾਰ।"</item>
+  </string-array>
+    <string-array name="timer_notifications">
+    <item msgid="7760558912503484257">"ਇੱਕ ਮਿੰਟ ਤੋਂ ਘੱਟ ਬਾਕੀ।"</item>
+    <item msgid="83197792732433351">"<ns1:g id="HOURS">%1$s</ns1:g> ਬਾਕੀ"</item>
+    <item msgid="8919698220200894252">"<ns1:g id="MINUTES">%2$s</ns1:g> ਬਾਕੀ"</item>
+    <item msgid="8458069283817013813">"<ns1:g id="HOURS">%1$s</ns1:g> <ns1:g id="MINUTES">%2$s</ns1:g> ਬਾਕੀ"</item>
+  </string-array>
+    <string-array name="timezone_labels">
+    <item msgid="5495601234086197399">"ਮਾਰਸ਼ਲ ਆਈਲੈਂਡਸ"</item>
+    <item msgid="4196408495909011020">"ਮਿਡਵੇ ਆਈਲੈਂਡ"</item>
+    <item msgid="1414384194857730006">"ਹਵਾਈ"</item>
+    <item msgid="2687091371581931926">"ਅਲਾਸਕਾ"</item>
+    <item msgid="1922100269679049660">"ਪੈਸਿਫਿਕ ਸਮਾਂ"</item>
+    <item msgid="7156402158716866161">"ਟਿਜੁਆਨਾ"</item>
+    <item msgid="1144117502254612241">"ਐਰੀਜ਼ੋਨਾ"</item>
+    <item msgid="101284182011722637">"ਚਿਹੁਆਹੁਆ"</item>
+    <item msgid="689121094232986897">"ਮਾਊਂਟੇਨ ਸਮਾਂ"</item>
+    <item msgid="5445331923942302756">"ਮੱਧ ਅਮਰੀਕਾ"</item>
+    <item msgid="2749806434052452351">"ਸੈਂਟਰਲ ਸਮਾਂ"</item>
+    <item msgid="3997138870229703753">"ਮੈਕਸੀਕੋ ਸਿਟੀ"</item>
+    <item msgid="5425567073027744888">"ਸਸਕੈਚਵਾਨ"</item>
+    <item msgid="2877342865396629368">"ਬੋਗੋਟਾ"</item>
+    <item msgid="568682398893899670">"ਪੂਰਬੀ ਸਮਾਂ"</item>
+    <item msgid="668135984541863866">"ਵੈਨੇਜ਼ੁਏਲਾ"</item>
+    <item msgid="3737474220861486223">"ਅਟਲਾਂਟਿਕ ਸਮਾਂ (ਬਾਰਬਾਡੋਸ)"</item>
+    <item msgid="6279116051273436870">"ਅਟਲਾਂਟਿਕ ਸਮਾਂ (ਕੈਨੇਡਾ)"</item>
+    <item msgid="8513382867172014244">"ਮੈਨੌਸ"</item>
+    <item msgid="7776299003105932407">"ਸੈਂਟਿਆਗੋ"</item>
+    <item msgid="8636989494746218677">"ਨਿਊਫਾਊਂਡਲੈਂਡ"</item>
+    <item msgid="4402541016410147505">"ਬ੍ਰਾਜ਼ੀਲੀਆ"</item>
+    <item msgid="2251184440733164084">"ਬੁਏਨੋਸ ਐਰਸ"</item>
+    <item msgid="6202926618569004969">"ਗ੍ਰੀਨਲੈਂਡ"</item>
+    <item msgid="2355275037115290628">"ਮੋਂਟੈਵੀਡੀਓ"</item>
+    <item msgid="1377549694711708945">"ਮਿਡ-ਅਟਲਾਂਟਿਕ"</item>
+    <item msgid="3457671272126347981">"ਅਜ਼ੋਰਸ"</item>
+    <item msgid="3659315141063710840">"ਕੇਪ ਵਰਡੇ ਆਈਲੈਂਡਸ"</item>
+    <item msgid="1260941741802367635">"ਕਾਸਾਬਲਾਂਕਾ"</item>
+    <item msgid="8275203689687954762">"ਲੰਡਨ, ਡਬਲਿਨ"</item>
+    <item msgid="5970179539479320905">"ਅਮਸਟਰਡੈਮ, ਬਰਲਿਨ"</item>
+    <item msgid="5396319478750517962">"ਬੈਲਗ੍ਰੇਡ"</item>
+    <item msgid="8688787475056663004">"ਬ੍ਰਸਲਸ"</item>
+    <item msgid="3415827874921681622">"ਸਾਰਾਜੈਵੋ"</item>
+    <item msgid="402008965928320066">"ਵਿੰਢੋਐਕ"</item>
+    <item msgid="6436942724959275569">"ਪੱਛਮੀ ਅਫਰੀਕਾ ਸਮਾਂ"</item>
+    <item msgid="954536568417204026">"ਅਮਾਨ, ਜੋਰਡਨ"</item>
+    <item msgid="8932745482008902551">"ਐਥਨਸ, ਇਸਤਾਨਬੁਲ"</item>
+    <item msgid="320025725949024510">"ਬੈਰੁਤ, ਲੈਬਨੋਨ"</item>
+    <item msgid="7242083112551905970">"ਕਾਇਰੋ"</item>
+    <item msgid="7241520146011450419">"ਹੈਲਸਿੰਕੀ"</item>
+    <item msgid="2717065017510546526">"ਜੇਰੁਸਲੇਮ"</item>
+    <item msgid="8698556287741466553">"ਮਿੰਸਕ"</item>
+    <item msgid="1797598357342084506">"ਹਰਾਰੇ"</item>
+    <item msgid="5169119919905066998">"ਬਗਦਾਦ"</item>
+    <item msgid="2615788116201065182">"ਮਾਸਕੋ"</item>
+    <item msgid="9084354867885584646">"ਕੁਵੈਤ"</item>
+    <item msgid="1351570519986178268">"ਨੈਰੋਬੀ"</item>
+    <item msgid="7094569580635877460">"ਤੇਹਰਾਨ"</item>
+    <item msgid="3953138772617909704">"ਬਾਕੁ"</item>
+    <item msgid="2868893113598800752">"ਤਬਿਲਿਸੀ"</item>
+    <item msgid="7088581865802476373">"ਯੈਰੈਵਨ"</item>
+    <item msgid="1941122257623887992">"ਦੁਬਈ"</item>
+    <item msgid="9194797225058249720">"ਕਾਬੁਲ"</item>
+    <item msgid="6486569254364577332">"ਇਸਲਾਮਾਬਾਦ, ਕਰਾਚੀ"</item>
+    <item msgid="5487724896895412089">"ਯੂਰਾਲਸਕ"</item>
+    <item msgid="364906869710826982">"ਯੈਕਟੈਰਿਨਬਰਗ"</item>
+    <item msgid="2106505051751383358">"ਕੋਲਕਾਤਾ"</item>
+    <item msgid="6851586621581501447">"ਸ਼੍ਰੀ ਲੰਕਾ"</item>
+    <item msgid="800438544128213134">"ਕਾਠਮਾਂਡੂ"</item>
+    <item msgid="6173621471007643021">"ਅਸਤਾਨਾ"</item>
+    <item msgid="8645125891971581128">"ਯਾਂਗੋਨ"</item>
+    <item msgid="2886407505119737794">"ਕ੍ਰਾਸਨੋਯਾਰਸਕ"</item>
+    <item msgid="3408222398188107090">"ਬੈਂਕਾਕ"</item>
+    <item msgid="4441612937172851228">"ਬੀਜਿੰਗ"</item>
+    <item msgid="4936715789028996930">"ਹਾਂਗ ਕਾਂਗ"</item>
+    <item msgid="4261031143777385525">"ਇਰਕੁਤਸਕ"</item>
+    <item msgid="3538060959338191835">"ਕੁਆ ਲਾਲਮਪੁਰ"</item>
+    <item msgid="1438847562643099201">"ਪਰਥ"</item>
+    <item msgid="3063913827688244383">"ਤਾਈਪੇਈ"</item>
+    <item msgid="3502757135046564209">"ਸਿਓਲ"</item>
+    <item msgid="6107588684519111669">"ਟੋਕਿਓ, ਓਸਾਕਾ"</item>
+    <item msgid="4350769099755608471">"ਯਾਕੁਤਸਕ"</item>
+    <item msgid="2422707004533526462">"ਅਦੈਲੇਡ"</item>
+    <item msgid="1292192084554134339">"ਡਰਵਿਨ"</item>
+    <item msgid="1320883699470001716">"ਬ੍ਰਿਸਬੇਨ"</item>
+    <item msgid="5137198806146386527">"ਹੋਬਾਰਟ"</item>
+    <item msgid="5920063686933941174">"ਸਿਡਨੀ, ਕੈਨਬੈਰਾ"</item>
+    <item msgid="615906039696009425">"ਵਲਾਦਿਵੋਸਤੋਕ"</item>
+    <item msgid="7738680449356275374">"ਗੁਆਮ"</item>
+    <item msgid="2882915026380778227">"ਮਗਾਦਾਨ"</item>
+    <item msgid="8255615641810148152">"ਔਕਲੈਂਡ"</item>
+    <item msgid="3027153773466391728">"ਫਿਜੀ"</item>
+    <item msgid="5911600083231840181">"ਟੋਂਗਾ"</item>
+    <item msgid="5176858645450908751">"ਜਕਾਰਤਾ"</item>
+  </string-array>
+    <string-array name="volume_button_setting_entries">
+    <item msgid="7972756698723318690">"ਸਨੂਜ਼"</item>
+    <item msgid="3450979320164769576">"ਬਰਖਾਸਤ ਕਰੋ"</item>
+    <item msgid="6302517608411378024">"ਕੁਝ ਨਾ ਕਰੋ"</item>
+  </string-array>
+    <string-array name="week_start_entries">
+    <item msgid="9010198173394482639">"ਸ਼ਨਿਚਰਵਾਰ"</item>
+    <item msgid="3993530639455360921">"ਐਤਵਾਰ"</item>
+    <item msgid="8594709368683324282">"ਸੋਮਵਾਰ"</item>
+  </string-array>
+    <plurals formatted="false" msgid="4539186407746763655" name="Nhours_description">
+      <item quantity="one"><ns1:g id="NUMBER">%d</ns1:g> ਘੰਟੇ</item>
+      <item quantity="other"><ns1:g id="NUMBER">%d</ns1:g> ਘੰਟੇ</item>
+    </plurals>
+    <plurals formatted="false" msgid="6373760365221990859" name="Nminutes_description">
+      <item quantity="one"><ns1:g id="NUMBER">%d</ns1:g> ਮਿੰਟ</item>
+      <item quantity="other"><ns1:g id="NUMBER">%d</ns1:g> ਮਿੰਟ</item>
+    </plurals>
+    <plurals formatted="false" msgid="6456500168536594889" name="Nseconds_description">
+      <item quantity="one"><ns1:g id="NUMBER">%d</ns1:g> ਸਕਿੰਟ</item>
+      <item quantity="other"><ns1:g id="NUMBER">%d</ns1:g> ਸਕਿੰਟ</item>
+    </plurals>
+    <plurals formatted="false" msgid="7844300009062867865" name="alarm_alert_snooze_duration">
+      <item quantity="one"><ns1:g id="NUMBER">%d</ns1:g> ਮਿੰਟ</item>
+      <item quantity="other"><ns1:g id="NUMBER">%d</ns1:g> ਮਿੰਟ</item>
+    </plurals>
+    <plurals formatted="false" msgid="3212729193036041768" name="alarm_alert_snooze_set">
+      <item quantity="one"> <ns1:g id="MINUTES">%d</ns1:g> ਮਿੰਟਾਂ ਲਈ ਸਨੂਜ਼ ਕਰ ਰਿਹਾ ਹੈ।</item>
+      <item quantity="other"> <ns1:g id="MINUTES">%d</ns1:g> ਮਿੰਟਾਂ ਲਈ ਸਨੂਜ਼ ਕਰ ਰਿਹਾ ਹੈ।</item>
+    </plurals>
+    <plurals formatted="false" msgid="3591262014329613293" name="alarm_delete_confirmation">
+      <item quantity="one">ਕੀ ਚੁਣੇ ਗਏ ਅਲਾਰਮ ਮਿਟਾਉਣੇ ਹਨ?</item>
+      <item quantity="other">ਕੀ ਚੁਣੇ ਗਏ ਅਲਾਰਮ ਮਿਟਾਉਣੇ ਹਨ?</item>
+    </plurals>
+    <plurals formatted="false" msgid="6579258788774360396" name="auto_silence_summary">
+      <item quantity="one"><ns1:g id="FORMATTED_NUMBER">%s</ns1:g> ਮਿੰਟ</item>
+      <item quantity="other"><ns1:g id="FORMATTED_NUMBER">%s</ns1:g> ਮਿੰਟ</item>
+    </plurals>
+    <plurals formatted="false" msgid="3706846447285206235" name="days">
+      <item quantity="one"><ns1:g id="NUMBER">%s</ns1:g> ਦਿਨ</item>
+      <item quantity="other"><ns1:g id="NUMBER">%s</ns1:g> ਦਿਨ</item>
+    </plurals>
+    <plurals formatted="false" msgid="3871283109767171655" name="hours">
+      <item quantity="one"><ns1:g id="NUMBER">%s</ns1:g> ਘੰਟੇ</item>
+      <item quantity="other"><ns1:g id="NUMBER">%s</ns1:g> ਘੰਟੇ</item>
+    </plurals>
+    <plurals formatted="false" msgid="5484431721696058697" name="minutes">
+      <item quantity="one"><ns1:g id="NUMBER">%s</ns1:g> ਮਿੰਟ</item>
+      <item quantity="other"><ns1:g id="NUMBER">%s</ns1:g> ਮਿੰਟ</item>
+    </plurals>
+    <plurals formatted="false" msgid="3112918131095248271" name="snooze_duration">
+      <item quantity="one"><ns1:g id="NUMBER">%s</ns1:g> ਮਿੰਟ</item>
+      <item quantity="other"><ns1:g id="NUMBER">%s</ns1:g> ਮਿੰਟ</item>
+    </plurals>
+    <plurals formatted="false" msgid="322739253661747732" name="snooze_picker_label">
+      <item quantity="one">ਮਿੰਟ</item>
+      <item quantity="other">ਮਿੰਟ</item>
+    </plurals>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"ਹੋਮ ਨੈਵੀਗੇਟ ਕਰੋ"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"ਉੱਪਰ ਨੈਵੀਗੇਟ ਕਰੋ"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"ਹੋਰ ਚੋਣਾਂ"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"ਹੋ ਗਿਆ"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"ਸਭ ਦੇਖੋ"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"ਇੱਕ ਐਪ ਚੁਣੋ"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"ਬੰਦ"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"ਤੇ"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"ਖੋਜ…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"ਸਵਾਲ ਹਟਾਓ"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"ਸਵਾਲ ਖੋਜੋ"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"ਖੋਜੋ"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"ਸਵਾਲ ਪ੍ਰਸਤੁਤ ਕਰੋ"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"ਵੌਇਸ ਖੋਜ"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"ਇਸ ਨਾਲ ਸ਼ੇਅਰ ਕਰੋ"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"%s ਨਾਲ ਸ਼ੇਅਰ ਕਰੋ"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"ਨਸ਼ਟ ਕਰੋ"</string>
+    <string msgid="5976616107390962899" name="add_alarm">"ਅਲਾਰਮ ਜੋੜੋ"</string>
+    <string msgid="3272183025444682500" name="alarm_alert_dismiss_now_text">"ਹੁਣ ਬਰਖਾਸਤ ਕਰੋ"</string>
+    <string msgid="4942914605480888820" name="alarm_alert_dismiss_text">"ਬਰਖਾਸਤ ਕਰੋ"</string>
+    <string msgid="2459925305288819812" name="alarm_alert_off_action_text">"ਬੰਦ"</string>
+    <string msgid="4472073417593915002" name="alarm_alert_off_text">"ਅਲਾਰਮ ਬੰਦ"</string>
+    <string msgid="5723945586913705445" name="alarm_alert_predismiss_title">"ਅਪਕਮਿੰਗ ਅਲਾਰਮ"</string>
+    <string msgid="1774416052207651584" name="alarm_alert_snooze_text">"ਸਨੂਜ਼"</string>
+    <string msgid="6958013659168344550" name="alarm_alert_snooze_until">"<ns1:g id="TIME">%s</ns1:g> ਤੱਕ ਸਨੂਜ਼ਿੰਗ"</string>
+    <string msgid="7064642998528766113" name="alarm_alert_snoozed_text">"ਸਨੂਜ਼ ਕੀਤਾ"</string>
+    <string msgid="6790780716498252583" name="alarm_alert_wake_up">"ਜਗਾਓ!"</string>
+    <string msgid="740283647046258651" name="alarm_button_description">"ਅਲਾਰਮ"</string>
+    <string msgid="8810520940995307437" name="alarm_cant_be_dismissed_still_more_than_24_hours_away">"<ns1:g id="ALARM_TIME">%s</ns1:g> ਅਲਾਰਮ ਅਜੇ ਬਰਖਾਸਤ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ, ਹਾਲੀਂ 24 ਘੰਟੇ ਬਾਕੀ ਹਨ"</string>
+    <string msgid="6131529309389084785" name="alarm_deleted">"ਅਲਾਰਮ ਮਿਟਾਇਆ"</string>
+    <string msgid="5509897230565826642" name="alarm_is_dismissed">"<ns1:g id="ALARM_TIME">%s</ns1:g> ਅਲਾਰਮ ਬਰਖਾਸਤ ਕੀਤਾ"</string>
+    <string msgid="5503226382620011088" name="alarm_is_set">"ਅਲਾਰਮ <ns1:g id="ALARM_TIME">%s</ns1:g> ਲਈ ਸੈਟ ਕੀਤਾ ਗਿਆ ਹੈ"</string>
+    <string msgid="7044644119744928846" name="alarm_is_snoozed">"<ns1:g id="ALARM_TIME">%s</ns1:g> ਅਲਾਰਮ 10 ਮਿੰਟਾਂ ਲਈ ਸਨੂਜ਼ ਕੀਤਾ"</string>
+    <string msgid="2147506334302260256" name="alarm_klaxon_service_desc">"ਅਲਾਰਮਾਂ ਲਈ ਅਵਾਜ਼ ਪਲੇਬੈਕ ਸੇਵਾ ਘੜੀ ਵਿੱਚ ਸੈਟ ਕੀਤੀ।"</string>
+    <string msgid="7589940465292950600" name="alarm_list_title">"ਅਲਾਰਮ"</string>
+    <string msgid="6585658367289194023" name="alarm_missed_text">"<ns1:g id="ALARM_TIME">%s</ns1:g> - <ns1:g id="ALARM_LABEL">%s</ns1:g>"</string>
+    <string msgid="3828345099754063392" name="alarm_missed_title">"ਮਿਸਡ ਅਲਾਰਮ"</string>
+    <string msgid="5404083762646377829" name="alarm_notify_snooze_label">"<ns1:g id="LABEL">%s</ns1:g> (ਸਨੂਜ਼ ਕੀਤਾ)"</string>
+    <string msgid="4819324081410990368" name="alarm_notify_snooze_text">"ਅਲਾਰਮ <ns1:g id="TIME">%s</ns1:g> ਲਈ ਸੈਟ ਕੀਤਾ। ਰੱਦ ਕਰਨ ਲਈ ਛੋਹਵੋ।"</string>
+    <string msgid="4891014685945904766" name="alarm_notify_text">"ਅਲਾਰਮ ਸਨੂਜ਼ ਕਰੋ ਜਾਂ ਬਰਖਾਸਤ ਕਰੋ।"</string>
+    <string msgid="7242985466344233206" name="alarm_repeat">"ਦੁਹਰਾਓ"</string>
+    <string msgid="2947147071388290814" name="alarm_settings">"ਅਲਾਰਮ"</string>
+    <string msgid="7873594221106531654" name="alarm_today">"ਅੱਜ"</string>
+    <string msgid="131356848787643420" name="alarm_tomorrow">"ਕੱਲ੍ਹ ਨੂੰ"</string>
+    <string msgid="5710042601177655254" name="alarm_undo">"ਪਹਿਲਾਂ ਵਰਗਾ ਕਰੋ"</string>
+    <string msgid="3476686921490362230" name="alarm_vibrate">"ਵਾਈਬ੍ਰੇਟ"</string>
+    <string msgid="8506245173912428522" name="alarm_volume_title">"ਅਲਾਰਮ ਵੌਲਯੂਮ"</string>
+    <string msgid="1075308195332888260" name="alarms_selected">"<ns1:g id="ALARMS">%d</ns1:g> ਚੁਣੇ ਗਏ"</string>
+    <string msgid="6506982899651975645" name="alert">"ਅਲਾਰਮ ਰਿੰਗਟੋਨ"</string>
+    <string msgid="278532320068394600" name="all_timers_stopped_notif">"ਆਪਣੇ ਟਾਈਮਰ ਦੇਖਣ ਲਈ ਛੋਹਵੋ"</string>
+    <string msgid="1670505720837152766" name="analog_gadget">"ਐਨਾਲਾਗ ਘੜੀ"</string>
+    <string msgid="6674495003718166674" name="app_label">"ਘੜੀ"</string>
+    <string msgid="4821982647348750809" name="auto_silence_never">"ਕਦੇ ਵੀ ਨਹੀਂ"</string>
+    <string msgid="2012754009554434544" name="auto_silence_title">"ਇਸਤੋਂ ਬਾਅਦ ਸਾਈਲੈਂਸ"</string>
+    <string msgid="6274174710735449252" name="automatic_home_clock">"ਆਟੋਮੈਟਿਕ ਹੋਮ ਘੜੀ"</string>
+    <string msgid="6020476321040807273" name="automatic_home_clock_summary">"ਕਿਸੇ ਅਜਿਹੇ ਖੇਤਰ ਵਿੱਚ ਯਾਤਰਾ ਕਰਦੇ ਸਮੇਂ, ਜਿੱਥੇ ਸਮਾਂ ਵੱਖ ਹੋਵੇ, ਹੋਮ ਲਈ ਇੱਕ ਘੜੀ ਜੋੜੋ"</string>
+    <string msgid="3907838219512538763" name="button_alarms">"ਅਲਾਰਮ ਜੋੜੋ"</string>
+    <string msgid="4555761857494501363" name="button_cities">"ਸ਼ਹਿਰ"</string>
+    <string msgid="6050484561842120282" name="button_menu">"ਹੋਰ ਚੋਣਾਂ"</string>
+    <string msgid="8552462751129256730" name="cities_activity_title">"ਸ਼ਹਿਰ"</string>
+    <string msgid="1335509457349179514" name="city_added">"<ns1:g id="CITY_NAME">%s</ns1:g> ਜੋੜਿਆ ਗਿਆ"</string>
+    <string msgid="1783441538785676299" name="city_delete_confirmation">"ਕੀ ਇਹ ਸ਼ਹਿਰ ਹਟਾਉਣਾ ਹੈ?"</string>
+    <string msgid="3935141305276867838" name="city_deleted">"<ns1:g id="CITY_NAME">%s</ns1:g> ਮਿਟਾਇਆ ਗਿਆ"</string>
+    <string msgid="2656876819515011590" name="clock_instructions">"ਇੱਕ ਘੜੀ ਚੁਣੋ"</string>
+    <string msgid="8317286807280600391" name="clock_settings">"ਘੜੀ"</string>
+    <string msgid="2265011060429742344" name="clock_style">"ਸਟਾਈਲ"</string>
+    <string msgid="3561772046433483980" name="collapse_alarm">"ਅਲਾਰਮ ਨਸ਼ਟ ਕਰੋ"</string>
+    <string msgid="2194676418924016327" name="control_set_alarm">"ਅਲਾਰਮ ਸੈਟ ਕਰੋ"</string>
+    <string msgid="3477418548382111184" name="custom_ringtone">"ਕਸਟਮ ਰਿੰਗਟੋਨ"</string>
+    <string msgid="971998564991636532" name="day_concat">", "</string>
+    <string msgid="3968620852217927702" name="day_picker_description">"ਦਿਨਾਂ ਦਾ ਮਹੀਨਾ ਗ੍ਰਿਡ"</string>
+    <string msgid="5590025289805630372" name="default_label">"ਅਲਾਰਮ"</string>
+    <string msgid="4549726190682964245" name="default_ringtone_setting_title">"ਡਿਫੌਲਟ ਰਿੰਗਟੋਨ ਸੈਟ ਕਰੋ"</string>
+    <string msgid="5732434972457000541" name="delete">"ਮਿਟਾਓ"</string>
+    <string msgid="3457780990646206817" name="delete_alarm">"ਅਲਾਰਮ ਮਿਟਾਓ"</string>
+    <string msgid="6578572637340860840" name="delete_alarm_confirm">"ਕੀ ਇਹ ਅਲਾਰਮ ਮਿਟਾਉਣਾ ਹੈ?"</string>
+    <string msgid="6908431551612331381" name="deleted_key">"<ns1:g id="KEY">%1$s</ns1:g> ਮਿਟਾਈ ਗਈ"</string>
+    <string msgid="1220848140260509437" name="deleted_message">"ਮਿਟਾਇਆ ਗਿਆ"</string>
+    <string msgid="1841309486023845685" name="description_direction_both">"ਸਨੂਜ਼ ਕਰਨ ਲਈ ਖੱਬੇ ਸਵਾਈਪ ਕਰੋ ਜਾਂ ਬਰਖ਼ਾਸਤ ਕਰਨ ਲਈ ਸੱਜੇ ਸਵਾਈਪ ਕਰੋ"</string>
+    <string msgid="7448141043674998679" name="description_direction_left">"ਸਨੂਜ਼ ਕਰਨ ਲਈ ਖੱਬੇ ਪਾਸੇ ਸਵਾਈਪ ਕਰੋ"</string>
+    <string msgid="5709209043267548985" name="description_direction_right">"ਬਰਖਾਸਤ ਕਰਨ ਲਈ ਸੱਜੇ ਪਾਸੇ ਸਵਾਈਪ ਕਰੋ"</string>
+    <string msgid="4207371097361657274" name="desk_clock_button_description">"ਘੜੀ ਡਿਸਪਲੇ"</string>
+    <string msgid="2326954556720571358" name="digital_gadget">"ਡਿਜੀਟਲ ਕਲੌਕ"</string>
+    <string msgid="5889378670229554109" name="disable_alarm">"ਅਲਾਰਮ ਬੰਦ ਕਰੋ"</string>
+    <string msgid="7204593078688533541" name="dismiss_alarm">"ਅਲਾਰਮ ਰੱਦ ਕਰੋ"</string>
+    <string msgid="6509722361933858451" name="done">"ਹੋ ਗਿਆ"</string>
+    <string msgid="7007948707597430919" name="done_label">"ਹੋ ਗਿਆ"</string>
+    <string msgid="1834599140632142536" name="enable_alarm">"ਅਲਾਰਮ ਚਾਲੂ ਕਰੋ"</string>
+    <string msgid="4100909974923444602" name="every_day">"ਰੁਜ਼ਾਨਾ"</string>
+    <string msgid="7392616528943305020" name="expand_alarm">"ਅਲਾਰਮ ਦਾ ਵਿਸਤਾਰ ਕਰੋ"</string>
+    <string msgid="1151743663255257668" name="gallery_button_description">"ਗੈਲਰੀ"</string>
+    <string msgid="7786263119482654015" name="help">"ਸਹਾਇਤਾ"</string>
+    <string msgid="3217727306480505694" name="hide_clock">"ਘੜੀ ਲੁਕਾਓ"</string>
+    <string msgid="3383859096809056157" name="home_button_description">"ਲਾਂਚਰ"</string>
+    <string msgid="4436139365695453870" name="home_label">"ਘਰ"</string>
+    <string msgid="9199730676287974501" name="home_time_zone">"ਘਰ ਸਮਾਂ ਜ਼ੋਨ"</string>
+    <string msgid="807894493443834624" name="home_time_zone_title">"ਘਰ ਸਮਾਂ ਜ਼ੋਨ"</string>
+    <string msgid="7586639618712934060" name="hour_picker_description">"ਘੰਟੇ ਸਰਕੁਲਰ ਸਲਾਈਡਰ"</string>
+    <string msgid="3393478155635368097" name="hours_label">"ਘੰਟਾ"</string>
+    <string msgid="8652842524970971830" name="hours_label_description">"ਘੰਟੇ"</string>
+    <string msgid="2782334750243998633" name="invalid_time">"ਅਪ੍ਰਮਾਣਿਕ ਸਮਾਂ <ns1:g id="INVALID_HOUR">%d</ns1:g>:<ns1:g id="INVALID_MINUTES">%d</ns1:g> <ns1:g id="INVALID_AMPM">%s</ns1:g>"</string>
+    <string msgid="3104567893212932487" name="invalid_timer_length">"ਅਪ੍ਰਮਾਣਿਕ ਟਾਈਮਰ ਲੰਮਾਈ"</string>
+    <string msgid="2674929164900463786" name="item_is_selected">"<ns1:g id="ITEM">%1$s</ns1:g> ਚੁਣੀ ਗਈ"</string>
+    <string msgid="162189613902857319" name="label">"ਲੇਬਲ"</string>
+    <string msgid="8736179296142915727" name="label_description">"ਲੇਬਲ"</string>
+    <string msgid="6523322777415268044" name="loading_ringtone">"ਰਿੰਗਟੋਨ ਲੋਡ ਕਰ ਰਿਹਾ ਹੈ…"</string>
+    <string msgid="4772010125376647519" name="menu_alarm">"ਅਲਾਰਮ"</string>
+    <string msgid="5612760670606829805" name="menu_clock">"ਘੜੀ"</string>
+    <string msgid="3241995064554071588" name="menu_desk_clock">"ਡੈਸਕ ਘੜੀ"</string>
+    <string msgid="7204602994918829751" name="menu_edit_alarm">"ਅਲਾਰਮ ਸੰਪਾਦਿਤ ਕਰੋ"</string>
+    <string msgid="4570953476186849841" name="menu_item_help">"ਸਹਾਇਤਾ"</string>
+    <string msgid="3486930302245398975" name="menu_item_night_mode">"ਰਾਤ ਮੋਡ"</string>
+    <string msgid="1413723516369078665" name="menu_item_settings">"ਸੈਟਿੰਗਾਂ"</string>
+    <string msgid="3120860422682721706" name="menu_item_sort_by_gmt_offset">"ਸਮੇਂ ਮੁਤਾਬਕ ਛਾਂਟੋ"</string>
+    <string msgid="1762931290495104106" name="menu_item_sort_by_name">"ਨਾਮ ਮੁਤਾਬਕ ਛਾਂਟੋ"</string>
+    <string msgid="3396117705293574701" name="menu_stopwatch">"ਸਟੌਪਵੌਚ"</string>
+    <string msgid="6459070074762877114" name="menu_timer">"ਟਾਈਮਰ"</string>
+    <string msgid="6024811202872705251" name="minute_picker_description">"ਮਿੰਟ ਸਰਕੁਲਰ ਸਲਾਈਡਰ"</string>
+    <string msgid="3568098128251438588" name="minutes_label">"ਮਿੰਟ"</string>
+    <string msgid="965686733490357796" name="minutes_label_description">"ਮਿੰਟ"</string>
+    <string msgid="5295473204045979335" name="missed_alarm_has_been_deleted">"ਤੁਹਾਡਾ ਮਿਸਡ ਅਲਾਰਮ ਮਿਟਾ ਦਿੱਤਾ ਗਿਆ ਹੈ"</string>
+    <string msgid="6722110840279707462" name="multiple_timers_available">"ਤੁਹਾਡੀ ਬੇਨਤੀ ਨੂੰ ਪੂਰਾ ਕਰਨ ਵਿੱਚ ਅਸਮਰੱਥ, ਮਲਟੀਪਲ ਟਾਈਮਰ ਉਪਲਬਧ ਹਨ"</string>
+    <string msgid="1626593420810117999" name="music_button_description">"ਸੰਗੀਤ"</string>
+    <string msgid="2650244835760747046" name="next_alarm_description">"ਅਗਲਾ ਅਲਾਰਮ: <ns1:g id="ALARM_TIME">%s</ns1:g>"</string>
+    <string msgid="6136454740115613653" name="next_timer_notif">"ਅਗਲਾ ਟਾਈਮਰ: <ns1:g id="TIME_REMAINING">%s</ns1:g>"</string>
+    <string msgid="1017350187324162631" name="night_mode_summary">"ਬਹੁਤ ਧੁੰਦਲਾ ਡਿਸਪਲੇ (ਹਨੇਰੇ ਕਮਰਿਆਂ ਲਈ)"</string>
+    <string msgid="5983813889469616299" name="night_mode_title">"ਰਾਤ ਮੋਡ"</string>
+    <string msgid="990894208217576381" name="nightmode_button_description">"ਧੁੰਦਲਾ"</string>
+    <string msgid="8140632482969193119" name="no_alarm_at">"<ns1:g id="ALARM_TIME_HOUR">%d</ns1:g>:<ns1:g id="ALARM_TIME_MINUTES">%d</ns1:g> ਤੇ ਕੋਈ ਅਲਾਰਮ ਨਹੀਂ"</string>
+    <string msgid="4463069177414482818" name="no_alarm_scheduled_for_this_time">"ਇਸ ਸਮੇਂ ਲਈ ਨਿਯਤ ਕੀਤਾ ਕੋਈ ਅਲਾਰਮ ਨਹੀਂ"</string>
+    <string msgid="6429431324842022917" name="no_alarms">"ਕੋਈ ਅਲਾਰਮ ਨਹੀਂ"</string>
+    <string msgid="4887558279496044764" name="no_alarms_set">"ਕੋਈ ਅਲਾਰਮ ਸੈਟ ਨਹੀਂ ਕੀਤੇ"</string>
+    <string msgid="6250998794542941665" name="no_alarms_with_label">"ਕਿਸੇ ਅਲਾਰਮ ਵਿੱਚ ਲੇਬਲ ਨਹੀਂ ਹੈ"</string>
+    <string msgid="1007596865203283741" name="no_city_selected">"ਕੋਈ ਸ਼ਹਿਰ ਨਹੀਂ ਚੁਣਿਆ ਗਿਆ"</string>
+    <string msgid="4986161963178722289" name="no_firing_alarms">"ਕੋਈ ਫਾਇਰ ਅਲਾਰਮ ਨਹੀਂ"</string>
+    <string msgid="2008482054428460626" name="no_label_specified">"ਕੋਈ ਲੇਬਲ ਨਿਰਦਿਸ਼ਟ ਨਹੀਂ ਕੀਤਾ"</string>
+    <string msgid="2115420148192753534" name="no_scheduled_alarms">"ਕੋਈ ਨਿਯਤ ਕੀਤੇ ਅਲਾਰਮ ਨਹੀਂ"</string>
+    <string msgid="3326365650863016606" name="no_timer_set">"ਕੋਈ ਟਾਈਮਰ ਸੈਟ ਨਹੀਂ ਕੀਤਾ"</string>
+    <string msgid="2889840988069436254" name="no_upcoming_alarms">"ਕੋਈ ਅਪਕਮਿੰਗ ਅਲਾਰਮ ਨਹੀਂ"</string>
+    <string msgid="5408769235866082896" name="pick_alarm_to_dismiss">"ਚੁਣੋ ਕਿ ਕਿਹੜਾ ਅਲਾਰਮ ਬਰਖਾਸਤ ਕਰਨਾ ਹੈ"</string>
+    <string msgid="9100911171235162926" name="revert">"ਵਾਪਸ ਲਿਆਓ"</string>
+    <string msgid="9110746249688559579" name="ringtone">"ਰਿੰਗਟੋਨ"</string>
+    <string msgid="7580922112921069925" name="ringtone_description">"ਰਿੰਗਟੋਨ"</string>
+    <string msgid="7013450738357352801" name="screensaver_settings">"ਡ੍ਰੀਮ ਸੈਟਿੰਗਾਂ"</string>
+    <string msgid="124655952824003246" name="seconds_label">"ਸਕਿੰਟ"</string>
+    <string msgid="3821620053141299692" name="seconds_label_description">"ਸਕਿੰਟ"</string>
+    <string msgid="3973338219107019769" name="select_day">"ਮਹੀਨਾ ਅਤੇ ਦਿਨ ਚੁਣੋ"</string>
+    <string msgid="7651068754188418859" name="select_hours">"ਘੰਟੇ ਚੁਣੋ"</string>
+    <string msgid="8327182090226828481" name="select_minutes">"ਮਿੰਟ ਚੁਣੋ"</string>
+    <string msgid="2603330600102539372" name="select_year">"ਸਾਲ ਚੁਣੋ"</string>
+    <string msgid="3607479399424246605" name="selected_cities_label">"ਚੁਣੇ ਗਏ ਸ਼ਹਿਰ"</string>
+    <string msgid="9148359866152726808" name="set_alarm">"ਅਲਾਰਮ ਸੈਟ ਕਰੋ"</string>
+    <string msgid="5849739030579520686" name="settings">"ਸੈਟਿੰਗਾਂ"</string>
+    <string msgid="8358759982675616915" name="show_clock">"ਘੜੀ ਦਿਖਾਓ"</string>
+    <string msgid="8605302849408279221" name="silent_alarm_summary">"ਸਾਈਲੈਂਟ"</string>
+    <string msgid="2077577763821006919" name="slash">"/"</string>
+    <string msgid="1097309861110780483" name="snooze_duration_title">"ਸਨੂਜ਼ ਲੰਮਾਈ"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="6598258908106423672" name="stopwatch_already_running">"ਸਟੌਪਵੌਚ ਪਹਿਲਾਂ ਹੀ ਚੱਲ ਰਹੀ ਹੈ"</string>
+    <string msgid="5713134605500796186" name="stopwatch_cant_be_reset_because_is_running">"ਸਟੌਪਵੌਚ ਰੀਸੈਟ ਨਹੀਂ ਕੀਤੀ ਜਾ ਸਕਦੀ ਕਿਉਂਕਿ ਇਹ ਚੱਲ ਰਹੀ ਹੈ"</string>
+    <string msgid="7147219965448204727" name="stopwatch_isnt_running">"ਸਟੌਪਵੌਚ ਨਹੀਂ ਚੱਲ ਰਹੀ ਹੈ"</string>
+    <string msgid="5844686448815550482" name="stopwatch_lapped">"ਸਟੌਪਵੌਚ ਅੱਗੇ ਨਿੱਕਲ ਗਈ"</string>
+    <string msgid="7585914953721021042" name="stopwatch_reset">"ਸਟੌਪਵੌਚ ਰੀਸੈਟ ਕੀਤੀ"</string>
+    <string msgid="8416624630388063996" name="stopwatch_service_desc">"ਸੂਚਨਾ ਚਲਾਉਣ ਲਈ ਸਟੌਪਵੌਚ ਸੇਵਾ।"</string>
+    <string msgid="7843882246387176304" name="stopwatch_started">"ਸਟੌਪਵੌਚ ਚਾਲੂ ਕੀਤੀ"</string>
+    <string msgid="6927081018816192999" name="stopwatch_stopped">"ਸਟੌਪਵੌਚ ਰੋਕੀ ਗਈ"</string>
+    <string msgid="6992264696039004233" name="sw_lap_button">"ਲੈਪ"</string>
+    <string msgid="3535420316052647126" name="sw_notification_lap_number">"ਲੈਪ <ns1:g id="NUMBER">%d</ns1:g>"</string>
+    <string msgid="6616804728322906117" name="sw_reset_button">"ਰੀਸੈਟ ਕਰੋ"</string>
+    <string msgid="2569360966002022248" name="sw_resume_button">"ਮੁੜ ਸ਼ੁਰੂ ਕਰੋ"</string>
+    <string msgid="4478648110382859382" name="sw_share_button">"ਸ਼ੇਅਰ ਕਰੋ"</string>
+    <string msgid="614390674795945007" name="sw_share_laps">"ਲੈਪ ਸਮੇਂ:"</string>
+    <string msgid="7703563468204234405" name="sw_share_main">"ਮੇਰਾ ਸਮਾਂ ਹੈ <ns1:g id="TIME">%s</ns1:g>"</string>
+    <string msgid="8373422516681242270" name="sw_start_button">"ਚਾਲੂ ਕਰੋ"</string>
+    <string msgid="8322958613123274451" name="sw_stop_button">"ਰੋਕੋ"</string>
+    <string msgid="783124901663086172" name="swn_stopped">"ਰੋਕਿਆ ਗਿਆ"</string>
+    <string msgid="3799050213771793020" name="the_city_already_added">"ਉਹ ਸ਼ਹਿਰ ਪਹਿਲਾਂ ਹੀ ਜੋੜਿਆ ਗਿਆ ਹੈ"</string>
+    <string msgid="1753597460426454543" name="the_city_you_specified_is_not_available">"ਤੁਹਾਡੇ ਵੱਲੋਂ ਨਿਰਦਿਸ਼ਟ ਕੀਤਾ ਸ਼ਹਿਰ ਉਪਲਬਧ ਨਹੀਂ ਹੈ"</string>
+    <string msgid="8067216534232296518" name="time">"ਸਮਾਂ"</string>
+    <string msgid="1619464909892545536" name="time_format_12_mode">"h:mm a"</string>
+    <string msgid="7998512313148074539" name="time_format_24_mode">"k:mm"</string>
+    <string msgid="6001006474735281911" name="time_picker_00_label">":00"</string>
+    <string msgid="1027250857384838129" name="time_picker_30_label">":30"</string>
+    <string msgid="6754113715199751083" name="time_picker_ampm_label">"--"</string>
+    <string msgid="7437106489606013077" name="time_picker_cancel">"ਰੱਦ ਕਰੋ"</string>
+    <string msgid="331153175471468051" name="time_picker_set">"ਠੀਕ"</string>
+    <string msgid="7484926510054777041" name="time_picker_time_seperator">":"</string>
+    <string msgid="862733633862574752" name="timer_add_timer">"ਟਾਈਮਰ ਜੋੜੋ"</string>
+    <string msgid="1259351124772803097" name="timer_already_running">"ਟਾਈਮਰ ਪਹਿਲਾਂ ਹੀ ਚੱਲ ਰਿਹਾ ਹੈ"</string>
+    <string msgid="8865820275829449054" name="timer_already_stopped">"ਟਾਈਮਰ ਪਹਿਲਾਂ ਹੀ ਰੋਕਿਆ ਗਿਆ"</string>
+    <string msgid="3572868404230815644" name="timer_cancel">"ਰੱਦ ਕਰੋ"</string>
+    <string msgid="7880015473706806640" name="timer_cant_be_reset_because_its_running">"ਟਾਈਮਰ ਰੀਸੈਟ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ ਕਿਉਂਕਿ ਇਹ ਹੁਣ ਵੀ ਚੱਲ ਰਿਹਾ ਹੈ। ਰੀਸੈਟ ਕਰਨ ਲਈ ਟਾਈਮਰ ਰੋਕੋ।"</string>
+    <string msgid="4381027137335885547" name="timer_created">"ਟਾਈਮਰ ਬਣਾਇਆ"</string>
+    <string msgid="8699122001991909302" name="timer_delete">"ਮਿਟਾਓ"</string>
+    <string msgid="2815524107015816453" name="timer_delete_confirmation">"ਕੀ ਇਹ ਟਾਈਮਰ ਮਿਟਾਉਣਾ ਹੈ?"</string>
+    <string msgid="9110322362460029392" name="timer_deleted">"ਟਾਈਮਰ ਮਿਟਾਇਆ ਗਿਆ"</string>
+    <string msgid="8794915342760383536" name="timer_descriptive_delete">"<ns1:g id="NUMBER_STRING">%s</ns1:g> ਨੂੰ ਮਿਟਾਓ"</string>
+    <string msgid="2375990511982914051" name="timer_done">"ਹੋ ਗਿਆ"</string>
+    <string msgid="4933184831583137249" name="timer_notification_label">"ਟਾਈਮਰ"</string>
+    <string msgid="8645224089494875062" name="timer_plus_1_min">"1 ਮਿੰਟ ਜੋੜੋ"</string>
+    <string msgid="6631211310420106116" name="timer_plus_one">"1 ਮਿੰਟ ਜੋੜੋ"</string>
+    <string msgid="7848424809190171640" name="timer_reset">"ਰੀਸੈਟ ਕਰੋ"</string>
+    <string msgid="2620214305660322415" name="timer_ring_service_desc">"ਟਾਈਮਰਾਂ ਲਈ ਅਵਾਜ਼ ਪਲੇਬੈਕ ਸੇਵਾ ਘੜੀ ਵਿੱਚ ਸੈਟ ਕੀਤੀ।"</string>
+    <string msgid="6158486445614356442" name="timer_start">"ਚਾਲੂ ਕਰੋ"</string>
+    <string msgid="6715582052946641641" name="timer_started">"ਟਾਈਮਰ ਸ਼ੁਰੂ ਹੋਇਆ"</string>
+    <string msgid="3361154678667736722" name="timer_stop">"ਰੋਕੋ"</string>
+    <string msgid="2730331837832462008" name="timer_stopped">"ਟਾਈਮਰ ਰੋਕਿਆ ਗਿਆ"</string>
+    <string msgid="9190440395938519009" name="timer_times_up">"ਟਾਈਪ ਪੂਰਾ ਹੋ ਗਿਆ"</string>
+    <string msgid="6495796785185062631" name="timer_was_reset">"ਟਾਈਮਰ ਰੀਸੈਟ ਕੀਤਾ"</string>
+    <string msgid="5570729467344408506" name="timers_in_use">"<ns1:g id="NUMBER">%d</ns1:g> ਟਾਈਮਰ"</string>
+    <string msgid="9140022846793903813" name="timers_max_count_reached">"ਅਧਿਕਤਮ 4 ਟਾਈਮਰ"</string>
+    <string msgid="2393640808691864520" name="timers_stopped">"<ns1:g id="NUMBER">%d</ns1:g> ਟਾਈਮਰ ਰੋਕੇ ਗਏ"</string>
+    <string msgid="8768042543750036853" name="volume_button_dialog_title">"ਬਟਨ ਇਫੈਕਟ"</string>
+    <string msgid="6937131248843413357" name="volume_button_setting_title">"ਵੌਲਯੂਮ ਬਟਨ"</string>
+    <string msgid="3425804832021006835" name="weather_fetch_failure">"ਮੌਸਮ ਜਾਣਕਾਰੀ ਇਸ ਵੇਲੇ ਉਪਲਬਧ ਨਹੀਂ ਹੈ।"</string>
+    <string msgid="4268917518596832096" name="week_start_title">"ਇਸਨੂੰ ਹਫ਼ਤਾ ਸ਼ੁਰੂ ਕਰੋ"</string>
+    <string msgid="8648842975829470646" name="weekday_time_format_12_mode">"EEE, h:mm a"</string>
+    <string msgid="152964494051478631" name="weekday_time_format_24_mode">"EEE, k:mm"</string>
+    <string msgid="5911196322328341288" name="world_day_of_week_label">"/ <ns1:g id="LABEL">%s</ns1:g>"</string>
+    <string msgid="6963340404644587098" name="year_picker_description">"ਸਾਲ ਸੂਚੀ"</string>
+    <string msgid="7102083421938355017" name="zero">"0"</string>
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:key="lay_sim_info" >
+
+        <!-- <Preference -->
+        <!-- android:key="sim_province" -->
+        <!-- android:title="@string/province" > -->
+        <!-- </Preference> -->
+
+
+        <!-- <PreferenceScreen -->
+        <!-- android:key="sim_city" -->
+        <!-- android:title="@string/city" > -->
+        <!-- </PreferenceScreen> -->
+        <!-- <PreferenceScreen -->
+        <!-- android:key="sim_operator" -->
+        <!-- android:title="@string/operators" > -->
+        <!-- </PreferenceScreen> -->
+        <!-- <PreferenceScreen -->
+        <!-- android:key="sim_dataplan_type" -->
+        <!-- android:title="@string/dataplan_type" > -->
+        <!-- </PreferenceScreen> -->
+        <com.monster.netmanage.view.DataplanPreference android:key="sim_province" />
+        <com.monster.netmanage.view.DataplanPreference android:key="sim_city" />
+        <com.monster.netmanage.view.DataplanPreference android:key="sim_operator" />
+        <com.monster.netmanage.view.DataplanPreference android:key="sim_dataplan_type" />
+
+        <com.monster.netmanage.view.EditDataPreference android:key="data_plan_total" />
+
+        <!-- <PreferenceScreen -->
+        <!-- android:key="sim_close_day" -->
+        <!-- android:title="@string/month_end_day" > -->
+        <!-- </PreferenceScreen> -->
+        <com.monster.netmanage.view.DataplanPreference android:key="sim_close_day" />
+    </PreferenceCategory>
+    <PreferenceCategory android:key="lay_data_free" >
+        <SwitchPreference
+            android:key="free_data_state"
+            android:title="@string/data_free" >
+        </SwitchPreference>
+
+        <com.monster.netmanage.view.EditDataPreference android:key="data_free" />
+
+        <!-- <PreferenceScreen -->
+        <!-- android:key="sim_start_time" -->
+        <!-- android:title="@string/start_time" > -->
+        <!-- </PreferenceScreen> -->
+        <!-- <PreferenceScreen -->
+        <!-- android:key="sim_end_time" -->
+        <!-- android:title="@string/end_time" > -->
+        <!-- </PreferenceScreen> -->
+        <com.monster.netmanage.view.DataplanPreference android:key="sim_start_time" />
+        <com.monster.netmanage.view.DataplanPreference android:key="sim_end_time" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

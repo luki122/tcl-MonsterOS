@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    	<string name="tip_network_error">Netzwerkfehler</string>
+    	<string name="check_new">Nach Aktualisierung suchen</string>
+    	<string name="update_download_fail">Herunterladen fehlgeschlagen</string>
+    	<string name="update_ask_tip">Sie müssen eine Aktualisierung auf die neueste Version ausführen.</string>
+    	<string name="update_no_need">Dies ist bereits die neueste Version.</string>
+    	<string name="downloaded_finish">Herunterladen abgeschlossen</string>
+    	<string name="notification_downloading">Wird heruntergeladen...</string>
+    	<string name="update_notification_tips">Aktualisieren Sie das Gerät auf die neueste Version, um eine optimale Nutzung zu gewährleisten.</string>
+    	<string name="update_notification_title">Benachrichtigung über Aktualisierung</string>
+    	<string name="update">Jetzt</string>
+    	<string name="try_later">Später</string>
+    	<string name="versionDesc">Versionsinfo:</string>
+    	
+    	<string name="update_available">Aktualisierung verfügbar</string>
+    	<string name="downloading">Wird heruntergeladen...</string>
+    	<string name="update_notify_tip">Eine neue Version ist verfügbar. Jetzt aktualisieren?</string>
+    	<string name="update_detail_prefix">Aktualisierungsdetails:</string>
+    	<string name="update_not_now">Nicht jetzt</string>
+    	<string name="update_now">Aktualisieren</string>
+    	<string name="network_error_tip">Netzwerkfehler. Überprüfen Sie Ihre Netzwerkverbindung und versuchen Sie es später erneut.</string>
+    	<string name="update_force_nofity_tip">Wir empfehlen Ihnen, die Anwendung auf die neueste Version zu aktualisieren.</string>
+    	<string name="update_no_updates">Keine Aktualisierungen</string>
+    	<string name="update_no_updates_tip">Keine Aktualisierungen</string>
+    	<string name="update_confirm">OK</string>
+</resources>

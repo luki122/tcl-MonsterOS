@@ -1,0 +1,35 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mst="http://schemas.android.com/apk/res/com.mst"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/size_desktop_wallpaper_item_height"
+    android:maxHeight="@dimen/size_desktop_wallpaper_item_height"
+    android:minHeight="@dimen/size_desktop_wallpaper_item_height" >
+
+    <ImageView
+        android:id="@+id/wallpaper_item"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cropToPadding="false"
+        android:scaleType="centerCrop" />
+    
+    <CheckBox 
+        android:id="@+id/wallpaper_item_select_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_gravity="top|right"
+        android:clickable="false"
+        android:layout_marginTop="6dp"
+        android:layout_marginRight="4dp"
+        />
+    
+    <ImageView android:id="@+id/wallpaper_item_applied"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_gravity="center"
+        android:src="@com.mst:drawable/ic_toolbar_done"
+        android:tint="@android:color/white"
+        />
+
+</FrameLayout>

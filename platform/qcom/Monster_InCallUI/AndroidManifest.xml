@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2006 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    coreApp="true"
+    android:versionCode="161222001"
+    android:versionName="v1.0.1.0202.r"
+    package="com.android.incallui" 
+    android:sharedUserId="android.uid.system" >
+
+   <uses-sdk
+        android:minSdkVersion="23"
+        android:targetSdkVersion="23" /> 
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+    <uses-permission android:name="android.permission.WRITE_CALL_LOG" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
+    <uses-permission android:name="android.permission.NFC" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.MODIFY_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.CONTROL_INCALL_EXPERIENCE" />
+    <uses-permission android:name="com.android.voicemail.permission.ADD_VOICEMAIL" />
+    <uses-permission android:name="com.android.voicemail.permission.WRITE_VOICEMAIL" />
+    <uses-permission android:name="com.android.voicemail.permission.READ_VOICEMAIL" />
+    <uses-permission android:name="android.permission.ALLOW_ANY_CODEC_FOR_PLAYBACK" />
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!--
+     This tells the activity manager to not delay any of our activity
+     start requests, even if they happen immediately after the user
+     presses home.
+    -->
+    <uses-permission android:name="android.permission.STOP_APP_SWITCHES" />
+
+    <!-- M: for using query speeddial of OP01 -->
+    <uses-permission android:name="android.permission.READ_SPEED_DIAL" />
+
+    <!-- M: [InCallUI] for RCSe. RCSe need CAMERA & NETWORK_STATE -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- M: [InCallUI] for DM Lock, for disabling the status bar -->
+    <uses-permission android:name="android.permission.STATUS_BAR" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.WRITE_MEDIA_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    
+        <!-- 必填权限 --> 
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.REAL_GET_TASKS" />
+    <uses-permission android:name="android.permission.UPDATE_APP_OPS_STATS" />   
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.INTERNAL_SYSTEM_WINDOW" />
+    <uses-permission android:name="android.permission.SET_PREFERRED_APPLICATIONS" />
+
+    <application
+        android:name="InCallApp"
+        android:persistent="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/mst_ic_launcher_phone"
+        android:label="@string/incall_app_label"
+        android:supportsRtl="true"
+        android:usesCleartextTraffic="false" >
+
+        <!--
+             Main in-call UI activity.  This is never launched directly
+             from outside the phone app; instead, it's either launched by
+             the OutgoingCallBroadcaster (for outgoing calls), or as the
+             fullScreenIntent of a notification (for incoming calls.)
+        -->
+
+
+        <!-- M: fix ALPS02345314, add new configChanges: keyboard|navigation -->
+        <!-- M: fix ALPS02365362, add new configChanges: mnc|mcc -->
+        <activity
+            android:name="com.android.incallui.InCallActivity"
+            android:configChanges="keyboardHidden|keyboard|navigation|mnc|mcc"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:label="@string/incall_app_label"
+            android:launchMode="singleInstance"
+            android:screenOrientation="nosensor"
+            android:theme="@style/Theme.MstInCallScreen" >
+        </activity>
+
+        <!-- BroadcastReceiver for receiving Intents from Notification mechanism. -->
+        <receiver
+            android:name="com.android.incallui.NotificationBroadcastReceiver"
+            android:exported="false" />
+
+        <service
+            android:name="com.android.incallui.InCallServiceImpl"
+            android:permission="android.permission.BIND_INCALL_SERVICE" >
+            <meta-data
+                android:name="android.telecom.IN_CALL_SERVICE_UI"
+                android:value="true" />
+
+            <intent-filter>
+                <action android:name="android.telecom.InCallService" />
+            </intent-filter>
+        </service>       
+
+        <service android:name="com.mediatek.telecom.recording.PhoneRecorderServices" >
+        </service>
+
+        <activity
+            android:name="com.mst.recordsettings.RecordHistory"
+            android:configChanges="orientation|screenSize"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" 
+             android:theme="@style/Theme.Record" >
+            <intent-filter>
+                <action android:name="com.mst.recordhistory" />
+                <category android:name="android.intent.category.DEFAULT" />  
+            </intent-filter>
+        </activity>
+        
+        <!--  <activity
+            android:name="com.mst.recordsettings.RecordSettings"
+            android:configChanges="orientation|screenSize"
+            android:exported="true"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" 
+             android:theme="@style/Theme.Record" >
+            <intent-filter>
+                <action android:name="com.android.incallui.recordsettings" />
+                <category android:name="android.intent.category.DEFAULT" />  
+            </intent-filter>
+        </activity> --> 
+        
+        <activity
+            android:name="com.mst.recordsettings.RecordSettingsV2"
+            android:configChanges="orientation|screenSize"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" 
+             android:theme="@style/Theme.Record" >
+            <intent-filter>
+                <action android:name="com.android.incallui.recordsettings" />
+                <category android:name="android.intent.category.DEFAULT" />  
+            </intent-filter>
+        </activity>
+        
+        
+        <activity
+            android:name="com.mst.privacy.PrivacySettingListActivity"
+            android:clearTaskOnLaunch="true"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Record" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.mst.privacy.PrivacyNotificationSettings"
+            android:clearTaskOnLaunch="true"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Record" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>       
+        
+         <receiver android:name="com.mst.privacy.PrivacyAccountChangeReceiver">
+            <intent-filter>
+                <action android:name="com.monster.privacymanage.SWITCH_ACCOUNT"/>
+                <action android:name="com.monster.privacymanage.DELETE_ACCOUNT"/>
+            </intent-filter>
+	 </receiver>
+        
+    </application>
+
+</manifest>

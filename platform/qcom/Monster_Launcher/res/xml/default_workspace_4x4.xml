@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<favorites xmlns:launcher="http://schemas.android.com/apk/res-auto/com.monster.launcher">
+
+    <!-- Hotseat -->
+    <include launcher:workspace="@xml/dw_phone_hotseat" />
+    <!-- App widget -->
+    <appwidget
+        launcher:packageName="com.monster.launcher"
+        launcher:className="com.monster.launcher.widget.DeskWidget"
+        launcher:screen="0"
+        launcher:x="0"
+        launcher:y="0"
+        launcher:spanX="3"
+        launcher:spanY="3">
+    </appwidget>
+    <!-- Bottom row -->
+<!--    <resolve
+        launcher:screen="0"
+        launcher:x="0"
+        launcher:y="3" >
+        <favorite launcher:uri="#Intent;action=android.intent.action.MAIN;category=android.intent.category.APP_EMAIL;end" />
+        <favorite launcher:uri="mailto:" />
+    </resolve>
+
+    <resolve
+        launcher:screen="0"
+        launcher:x="1"
+        launcher:y="3" >
+        <favorite launcher:uri="#Intent;action=android.intent.action.MAIN;category=android.intent.category.APP_GALLERY;end" />
+        <favorite launcher:uri="#Intent;type=images/*;end" />
+    </resolve>
+
+    <resolve
+        launcher:screen="0"
+        launcher:x="3"
+        launcher:y="3" >
+        <favorite launcher:uri="#Intent;action=android.intent.action.MAIN;category=android.intent.category.APP_MARKET;end" />
+        <favorite launcher:uri="market://details?id=com.android.launcher" />
+    </resolve>-->
+    <favorite
+        launcher:packageName="com.tct.camera"
+        launcher:className="com.android.camera.CameraLauncher"
+        launcher:screen="0"
+        launcher:x="0"
+        launcher:y="3" />
+    <favorite
+        launcher:packageName="com.android.gallery3d"
+        launcher:className="com.android.gallery3d.app.GalleryActivity"
+        launcher:screen="0"
+        launcher:x="1"
+        launcher:y="3" />
+    <favorite
+        launcher:packageName="cn.tcl.note"
+        launcher:className="cn.tcl.note.activity.NoteHomeActivity"
+        launcher:screen="0"
+        launcher:x="2"
+        launcher:y="3" />
+    <favorite
+        launcher:packageName="cn.tcl.filemanager"
+        launcher:className="cn.tcl.filemanager.activity.CategoryActivity"
+        launcher:screen="0"
+        launcher:x="0"
+        launcher:y="4" />
+    <favorite
+        launcher:packageName="com.android.settings"
+        launcher:className="com.android.settings.Settings"
+        launcher:screen="0"
+        launcher:x="1"
+        launcher:y="4" />
+    <favorite
+        launcher:packageName="com.monster.market"
+        launcher:className="com.monster.market.activity.MainActivity"
+        launcher:screen="0"
+        launcher:x="2"
+        launcher:y="4" />
+    <favorite
+        launcher:packageName="com.android.deskclock"
+        launcher:className="com.android.deskclock.DeskClock"
+        launcher:screen="1"
+        launcher:x="0"
+        launcher:y="0" />
+    <favorite
+        launcher:packageName="com.android.calendar"
+        launcher:className="com.android.calendar.AllInOneActivity"
+        launcher:screen="1"
+        launcher:x="1"
+        launcher:y="0" />
+    <favorite
+        launcher:packageName="com.tcl.monster.fota"
+        launcher:className="com.tcl.monster.fota.FotaMainActivity"
+        launcher:screen="1"
+        launcher:x="2"
+        launcher:y="0" />
+    <favorite
+        launcher:packageName="com.monster.appmanager"
+        launcher:className="com.monster.appmanager.MainActivity"
+        launcher:screen="1"
+        launcher:x="0"
+        launcher:y="1" />
+    <favorite
+        launcher:packageName="com.monster.netmanage"
+        launcher:className="com.monster.netmanage.activity.MainActivity"
+        launcher:screen="1"
+        launcher:x="1"
+        launcher:y="1" />
+    <favorite
+        launcher:packageName="cn.tcl.weather"
+        launcher:className="cn.tcl.weather.EntranceActivity"
+        launcher:screen="1"
+        launcher:x="2"
+        launcher:y="1" />
+    <favorite
+        launcher:packageName="com.android.calculator2"
+        launcher:className="com.android.calculator2.Calculator"
+        launcher:screen="1"
+        launcher:x="0"
+        launcher:y="2" />
+    <favorite
+        launcher:packageName="cn.tcl.meetingassistant"
+        launcher:className="cn.tcl.meetingassistant.MeetingListActivity"
+        launcher:screen="1"
+        launcher:x="1"
+        launcher:y="2" />
+    <favorite
+        launcher:packageName="cn.tcl.soundrecorder"
+        launcher:className="cn.tcl.soundrecorder.ui.SoundRecorderActivity"
+        launcher:screen="1"
+        launcher:x="2"
+        launcher:y="2" />
+    <favorite
+        launcher:packageName="com.intsig.BizCardReader"
+        launcher:className="com.intsig.camcard.BcrFirstLaunchGuide"
+        launcher:screen="1"
+        launcher:x="0"
+        launcher:y="3" />
+</favorites>

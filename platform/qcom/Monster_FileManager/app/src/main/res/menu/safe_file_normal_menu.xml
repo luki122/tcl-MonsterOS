@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+
+    <menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/add_file"
+        android:title="@string/add_file_safe"
+        android:icon="@drawable/move_in"
+        android:showAsAction="always"
+        >
+    </item>
+
+
+    <item
+        android:id="@+id/select_item"
+        android:title="@string/menu_select"
+        android:showAsAction="never"
+        >
+    </item>
+    <item
+        android:id="@+id/view_mode"
+        android:title="@string/view_as_grid"
+        android:showAsAction="never"
+        >
+    </item>
+
+
+</menu>

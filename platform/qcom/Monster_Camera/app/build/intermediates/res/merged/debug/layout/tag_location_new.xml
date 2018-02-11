@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/permissions_dialog_background_color">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/perms_deny_title_marginStart"
+        android:layout_marginTop="@dimen/perms_deny_title_marginTop"
+        android:text="@string/grant_access_title"
+        android:textColor="@color/permissions_dialog_text_color"
+        android:textSize="@dimen/perms_deny_title_text_size" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/perms_deny_msg_marginStart"
+        android:layout_marginTop="@dimen/perms_deny_msg_marginTop"
+        android:layout_marginEnd="@dimen/perms_deny_msg_marginEnd"
+        android:text="@string/location_msg"
+        android:textColor="@color/permissions_dialog_text_color"
+        android:textSize="@dimen/perms_deny_msg_text_size" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/perms_intro_bg_marginHor"
+        android:layout_marginTop="@dimen/perms_intro_bg_marginTop"
+        android:layout_marginEnd="@dimen/perms_intro_bg_marginHor"
+        android:src="@drawable/bg_permission_intro"/>
+
+</FrameLayout>

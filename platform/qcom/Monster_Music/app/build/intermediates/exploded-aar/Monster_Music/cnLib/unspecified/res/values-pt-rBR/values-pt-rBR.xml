@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cannot_specify_an_empty_name_for_playlist">"O nome da lista de reprodução não pode estar vazio"</string>
+    <string name="cross_dj_saturated_storage_not_enough_free_space_to_record_your_mix">"Não há espaço suficiente para gravar sua mixagem."</string>
+    <string name="cross_dj_saturated_storage_your_recording_might_stop_soon_because_no_more_free_space_is_available">"Sua gravação poderá ser interrompida em breve devido à falta de espaço disponível."</string>
+    <string name="invalid_drm_file">"O arquivo não tem DRM válida!"</string>
+    <string name="mobiledata_turnoff_btn">"Desat."</string>
+    <string name="never_show_it_again">"Não exibir novamente"</string>
+    <string name="no_error">"Nenhum erro"</string>
+    <string name="recording_reached_max_duration">"A gravação chegou ao seu limite de duração. Verifique suas preferências."</string>
+    <string name="recording_soon_to_reach_max_duration">"A gravação logo chegará ao seu limite de duração. Verifique suas preferências."</string>
+    <string name="scratching_is_disabled_in_no_mix_mode">"Só é possível utilizar o recurso de "scratching" no modo DJ."</string>
+    <string name="sign_up">"Assinar"</string>
+    <string name="the_external_memory_storage_is_not_mounted">"O armazenamento de memória externo não está ativado. Talvez seja necessário desativar o armazenamento de memória USB."</string>
+    <string name="there_s_not_enough_space_in_your_internal_storage_try_to_do_some_clean_up">"Não há espaço suficiente no armazenamento interno (tente liberar espaço)"</string>
+</resources>

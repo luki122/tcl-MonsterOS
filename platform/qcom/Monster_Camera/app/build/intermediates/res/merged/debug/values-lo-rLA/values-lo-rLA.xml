@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"ກັບໄປໜ້າຫຼັກ"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"ຂຶ້ນເທິງ"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"ໂຕເລືອກອື່ນ"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"ແລ້ວໆ"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"ເບິ່ງທັງຫມົດ"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"ເລືອກແອັບຯ"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"ຊອກຫາ"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"ລຶບຂໍ້ຄວາມຊອກຫາ"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"ຊອກຫາ"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"ຊອກຫາ"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"ສົ່ງການຊອກຫາ"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"ຊອກຫາດ້ວຍສຽງ"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"ແບ່ງປັນກັບ"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"ແບ່ງ​ປັນ​ກັບ​ %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"ຫຍໍ້"</string>
+    <string name="accessibility_cancel_button">"ຍົກເລີກ"</string>
+    <string name="battery_info_dialog_button_close">"ປິດ"</string>
+    <string name="cancel_button_description">"ຍົກເລີກ"</string>
+    <string name="dialog_cancel">"ຍົກເລີກ"</string>
+    <string name="done_button_description">"ສໍາເລັດ"</string>
+    <string name="edit">"ແກ້ໄຂ"</string>
+    <string name="edit_button_description">"ແກ້ໄຂ"</string>
+    <string name="grant_access_exit">"ອອກ"</string>
+    <string name="help_tip_welcome_title">"ກ້ອງຖ່າຍຮຼບ"</string>
+    <string name="manual">"ດ້ວຍຕົນເອງ"</string>
+    <string name="mode_camera">"ອັດຕະໂນມັດ"</string>
+    <string name="mode_manual">"ດ້ວຍຕົນເອງ"</string>
+    <string name="mode_pano">"ພາໂນຣາມາ"</string>
+    <string name="open_source_licenses">"ໃບອະນຸຍາດສຳຫລັບໂອເພິນຊອສ໌"</string>
+    <string name="pano_review_saving_indication_str">"ກຳລັງບັນທຶກ…"</string>
+    <string name="pref_camera_antibanding_entry_1">"50 Hz"</string>
+    <string name="pref_camera_antibanding_entry_2">"60 Hz"</string>
+    <string name="pref_camera_antibanding_entry_3">"ອັດຕະໂນມັດ"</string>
+    <string name="pref_camera_countdown_label_three">"3 ວິນາທີ"</string>
+    <string name="pref_camera_focusmode_label_infinity">"ຄວາມຍາວບໍ່ຈໍາກັດ"</string>
+    <string name="pref_camera_focusmode_label_macro">"ມາໂຄຣ"</string>
+    <string name="pref_camera_settings_category">"ການຕັ້ງຄ່າກ້ອງຖ່າຍຮູບ"</string>
+    <string name="pref_camera_size_title">"ຂະໜາດ"</string>
+    <string name="pref_camera_whitebalance_label_daylight">"ກາງເວັນ"</string>
+    <string name="pref_camera_whitebalance_label_fluorescent">"ເເສງນີອອນ"</string>
+    <string name="pref_camera_whitebalance_label_incandescent">"ເຫຼືອງອອ່ນ"</string>
+    <string name="pref_category_about">"ກ່ຽວກັບ"</string>
+    <string name="pref_category_general">"ການຕັ້ງຄ່າທົ່ວໄປ"</string>
+    <string name="pref_exposure_label">"ການຮັບແສງ"</string>
+    <string name="pref_front_camera_size_title">"ຂະໜາດ"</string>
+    <string name="pref_rear_camera_size_title">"ຂະໜາດ"</string>
+    <string name="restore_settings_dialog_no">"ຍົກເລີກ"</string>
+    <string name="setting_group_photo">"ກ້ອງຖ່າຍຮຼບ"</string>
+    <string name="setting_location">"ຕຳແໜ່ງ"</string>
+    <string name="spaceIsLow_content" product="default">"SD ຄາດ ຂອງທ່ານບໍ່ມີພື້ນທີ່ພໍ, ປ່ຽນການຕັ້ງຄ່າຄູນນະພາບຂອງພາບ ຫຼື ລົບບາງລາຍການອອກ"</string>
+    <string name="startup_dialog_button_next">"ຕໍ່ໄປ"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="time">"ເວລາ"</string>
+    <string name="undo">"ເຮັດກັບຄືນ"</string>
+    <string name="wait">"ກະລຸນາລໍ..."</string>
+</resources>

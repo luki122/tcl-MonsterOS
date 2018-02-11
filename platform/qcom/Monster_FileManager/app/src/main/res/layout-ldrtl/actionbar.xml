@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <!--<mst.widget.toolbar.Toolbar-->
+        <!--android:id="@+id/my_toolbar"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:background="?android:attr/colorPrimary"-->
+        <!--android:elevation="4dp"-->
+        <!-->-->
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/normal_bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/edit_back"
+            style="@style/FileManagerActionBarOverflowQP"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/a_113"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/path_text"
+            style="@style/ContactsActionBarTitleText"
+            android:layout_width="@dimen/action_bar_path_width"
+            android:layout_height="match_parent"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:textSize="@dimen/path_text_size" />
+
+        <TextView
+            android:id="@+id/edit_path_text"
+            android:textColor="@color/black"
+            android:layout_width="@dimen/action_bar_path_width"
+            android:layout_height="match_parent"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:layout_marginLeft="@dimen/more_menu_edit_count"
+            android:textSize="@dimen/path_text_size"
+            android:visibility="gone" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:id="@+id/more_btn"
+                style="@style/FileManagerActionBarbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:src="@drawable/fm_more" />
+            <ImageView
+                android:id="@+id/sort_btn"
+                style="@style/FileManagerActionBarEditbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_toStartOf="@id/search_btn"
+                android:layout_alignWithParentIfMissing="true"
+                android:src="@drawable/as_37" />
+            <!-- <ImageView
+                android:id="@+id/edit_btn"
+                style="@style/FileManagerActionBarEditbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_toStartOf="@id/search_btn"
+                android:layout_alignWithParentIfMissing="true"
+                android:src="@drawable/ic_edit_list_white_24dp" />
+
+             <ImageView
+                android:id="@+id/select_all"
+                style="@style/FileManagerActionBarEditbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_toStartOf="@id/search_btn"
+                android:src="@drawable/ic_ab_select_all_white_24dp"
+                android:layout_alignWithParentIfMissing="true"
+                android:visibility="gone" />  -->
+            <ImageView
+                android:id="@+id/search_btn"
+                style="@style/FileManagerActionBarbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_toStartOf="@id/more_btn"
+                android:layout_alignWithParentIfMissing="true"
+                android:src="@drawable/ic_ab_search" />
+
+             <ImageView
+                android:id="@+id/share_btn"
+                style="@style/FileManagerActionBarbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_toStartOf="@id/more_btn"
+                android:layout_alignWithParentIfMissing="true"
+                android:src="@drawable/a_109"
+                android:visibility="gone" />
+
+             <ImageView
+                android:id="@+id/delete_btn"
+                style="@style/FileManagerActionBarbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_toStartOf="@id/share_btn"
+                android:layout_alignWithParentIfMissing="true"
+                android:src="@drawable/a_114"
+                android:visibility="gone" />
+             <ImageView
+                android:id="@+id/global_search_image"
+                style="@style/FileManagerActionBarbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_toStartOf="@id/more_btn"
+                android:layout_alignWithParentIfMissing="true"
+                android:src="@drawable/ic_ab_search" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/search_bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <ImageView
+            android:id="@+id/search_back"
+            style="@style/FileManagerActionBarOverflowQP"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_ab_draw_close_24dp" />
+
+        <cn.tcl.filemanager.view.SearchViewEX
+            android:id="@+id/search_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="textFilter" />
+    </LinearLayout>
+   <LinearLayout
+       android:visibility="gone"
+        android:id="@+id/global_search_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" >
+        <ImageView
+            android:id="@+id/global_search_back"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/as_34" />
+
+       <EditText
+            android:id="@+id/global_search_text"
+            android:imeOptions="actionSearch|flagNoExtractUi"
+            android:background="@drawable/search_bar_color"
+            android:singleLine="true"
+            android:layout_width="match_parent"
+            android:inputType="textFilter"
+            android:gravity="center_vertical"
+            android:fontFamily="monster-normal"
+            android:layout_marginLeft="@dimen/search_back_margin"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="@dimen/search_view_text_size"
+            android:hint="@string/default_search_text"
+            android:textColorHint="@color/actionbar_search_text_color"
+            android:textColor="@color/action_search_mes_color"
+             >
+        </EditText>
+<!--             android:layout_marginRight="@dimen/search_back_margin" -->
+        <ImageView
+            android:layout_gravity="center"
+            style="@style/FileManagerActionBarbutton"
+            android:id="@+id/global_search_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/as_36" />
+    </LinearLayout>
+</LinearLayout>

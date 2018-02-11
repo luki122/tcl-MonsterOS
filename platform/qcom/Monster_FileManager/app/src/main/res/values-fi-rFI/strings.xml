@@ -1,0 +1,814 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="sort">"Lajittele"</string>
+	<!---->
+	<string name="sort_by_name">"Nimi"</string>
+	<!---->
+	<string name="sort_by_date">"Muokkauspäivä"</string>
+	<!---->
+	<string name="sort_by_time">"Päivämäärä"</string>
+	<!---->
+	<string name="sort_by_type">"Tyyppi"</string>
+	<!---->
+	<string name="sort_by_size">"Koko"</string>
+	<!---->
+	<string name="copy">"Kopioi"</string>
+	<!---->
+	<string name="create_folder">"Luo"</string>
+	<!---->
+	<string name="cut">"Leikkaa"</string>
+	<!---->
+	<string name="delete">"Poista"</string>
+	<!---->
+	<string name="delete_confirm">"Vahvista poisto"</string>
+	<!---->
+	<string name="deselect_all">"Poista kaikki valinnat"</string>
+	<!---->
+	<string name="select_all">"Valitse kaikki"</string>
+	<!---->
+	<string name="show_file">"Näytä piilotetut tiedostot"</string>
+	<!---->
+	<string name="hide_file">"Piilota piilotetut tiedostot"</string>
+	<!---->
+	<string name="paste">"Liitä"</string>
+	<!---->
+	<string name="rename">"Nimeä uudelleen"</string>
+	<!---->
+	<string name="share">"Jaa"</string>
+	<!---->
+	<string name="viewby_list">"Näytä luettelon mukaan"</string>
+	<!---->
+	<string name="viewby_grid">"Näytä ruudukkona"</string>
+	<!---->
+	<string name="alert_delete_message">"Poista"</string>
+	<!---->
+	<string name="multi_alert_delete_message">"Poistetaanko valitut kohteet?"</string>
+	<!---->
+	<string name="multi_alert_delete_message_cn">"Poistetaanko valitut kohteet?"</string>
+	<!-- no translation found for delete_folder_message -->
+	<skip />
+	<!---->
+	<string name="category_pictures">"Kuvat"</string>
+	<!---->
+	<string name="category_vedios">"Videot"</string>
+	<!---->
+	<string name="category_music">"Musiikki"</string>
+	<!---->
+	<string name="category_download">"Lataukset"</string>
+	<!---->
+	<string name="category_bluetooth">"Bluetooth"</string>
+	<!-- no translation found for app_name -->
+	<skip />
+	<!-- no translation found for theme_name -->
+	<skip />
+	<!---->
+	<string name="apk_name">"Tiedostot"</string>
+	<!---->
+	<string name="new_folder">"Anna kansion nimi"</string>
+	<!---->
+	<string name="confirm_rename">"Vahvista nimi"</string>
+	<!---->
+	<string name="warning">"Tiedostojen enimmäismäärä"</string>
+	<!---->
+	<string name="share_warning">"Voit jakaa enintään 100 tiedostoa."</string>
+	<!---->
+	<string name="loading">"Ladataan…"</string>
+	<!---->
+	<string name="deleting">"Poistetaan"</string>
+	<!---->
+	<string name="alert_delete_multiple">"Valittu tiedosto poistetaan."</string>
+	<!---->
+	<string name="name">"Nimi"</string>
+	<!---->
+	<string name="size">"Koko"</string>
+	<!---->
+	<string name="modified_time">"Muokattu"</string>
+	<!---->
+	<string name="msg_rename_ext">"Tiedostotunniste vaihdetaan. Tiedostoa ei ehkä tunnisteta. Jatketaanko?"</string>
+	<!---->
+	<string name="wait">"Odota…"</string>
+	<!---->
+	<string name="done">"Valmis"</string>
+	<!-- no translation found for enable -->
+	<skip />
+	<!-- no translation found for enable_cn -->
+	<skip />
+	<!---->
+	<string name="cancel">"Peruuta"</string>
+	<!---->
+	<string name="no">"Ei"</string>
+	<!---->
+	<string name="ok">"OK"</string>
+	<!---->
+	<string name="yes">"Kyllä"</string>
+	<!---->
+	<string name="details">"Tiedot"</string>
+	<!---->
+	<string name="drawer_open">"Avaa"</string>
+	<!---->
+	<string name="unknown">"Tuntematon"</string>
+	<!-- no translation found for unit_B -->
+	<skip />
+	<!-- no translation found for unit_KB -->
+	<skip />
+	<!-- no translation found for unit_MB -->
+	<skip />
+	<!-- no translation found for unit_GB -->
+	<skip />
+	<!-- no translation found for unit_TB -->
+	<skip />
+	<!---->
+	<string name="send_file">"Jaa tiedosto(ja) käyttäen"</string>
+	<!---->
+	<string name="default_search_text">"Etsi tiedostoja"</string>
+	<!---->
+	<string name="free_space">"Käytettävissä"</string>
+	<!---->
+	<string name="total_space">"Tallennustilaa yhteensä"</string>
+	<!---->
+	<string name="drawer_category">"Luokat"</string>
+	<!---->
+	<string name="phone_storage">"Puhelimen tallennustila"</string>
+	<!---->
+	<string name="phone_storage_cn">"Puhelimen sisäinen tallennustila"</string>
+	<!---->
+	<string name="sd_card">"SD-kortti"</string>
+	<!---->
+	<string name="draw_left_phone_storage">"Puhelimen sisäinen tallennustila"</string>
+	<!---->
+	<string name="draw_left_sd_card">"SD-kortti"</string>
+	<!-- no translation found for menu_settings -->
+	<skip />
+	<!---->
+	<string name="no_search_result">"0 tulosta haulla \"%1$s\""</string>
+	<!---->
+	<string name="copy_deny">"Ei kopiointioikeuksia"</string>
+	<!---->
+	<string name="cut_deny">"Ei leikkausoikeuksia"</string>
+	<!---->
+	<string name="delete_deny">"Ei poistamisoikeuksia"</string>
+	<!---->
+	<string name="insufficient_memory">"Muisti ei riitä"</string>
+	<!---->
+	<string name="insufficient_message">"Joitakin tiedostoja ei voitu kopioida riittämättömän tilan takia"</string>
+	<!---->
+	<string name="invalid_empty_name">"Tiedoston tai kansion nimi ei voi olla tyhjä"</string>
+	<!---->
+	<string name="paste_same_folder">"Ei voitu kopioida: lähde- ja kohdekansio on sama."</string>
+	<!---->
+	<string name="invalid_char_prompt">"Annoit virheellisen merkin"</string>
+	<!---->
+	<string name="msg_unable_open_file">"Tiedostomuotoa ei tueta."</string>
+	<!---->
+	<string name="paste_sub_folder">"Tiedostokansiota ei voi liittää sen alikansioon"</string>
+	<!---->
+	<string name="operation_fail">"Tiedostotoiminto epäonnistui."</string>
+	<!---->
+	<string name="search_result">"%2$d tulosta hakusanoilla \"%1$s\""</string>
+	<!---->
+	<string name="already_exists">"%1$s on jo käytössä"</string>
+	<!---->
+	<string name="unmounted">"%1$s on poistettu käytöstä"</string>
+	<!---->
+	<string name="create_hidden_file">"Tiedosto piilotetaan, jos sen nimi alkaa pisteellä (".")."</string>
+	<!---->
+	<string name="file_name_too_long">"Nimi on liian pitkä"</string>
+	<!---->
+	<string name="some_paste_fail">"Kaikkien tiedostojen liittäminen ei onnistunut"</string>
+	<!---->
+	<string name="delete_fail">"Ei voitu poistaa"</string>
+	<!---->
+	<string name="some_delete_fail">"Poistotoiminto epäonnistui."</string>
+	<!---->
+	<string name="msg_unable_open_file_in_app">"Laitteessa ei ole tiedoston avaamiseen sopivaa sovellusta"</string>
+	<!---->
+	<string name="drm_forwardforbidden_title">"Ei eteenpäin"</string>
+	<!---->
+	<string name="drm_forwardforbidden_message">"DRM-tiedostossa ei voi siirtyä eteenpäin."</string>
+	<!---->
+	<string name="drm_no_valid_right">"Tiedostolla ei ole DRM-oikeuksia!"</string>
+	<!---->
+	<string name="drm_current_count">"Nykyinen määrä："</string>
+	<!---->
+	<string name="unlimited_usage">"Rajoittamaton käyttö"</string>
+	<!---->
+	<string name="drm_current_right">"Nykyinen rajoitus："</string>
+	<!---->
+	<string name="not_available">"Ei käytettävissä"</string>
+	<!---->
+	<string name="right_url">"Käyttöoikeuden myöntäjän URL-osoite:："</string>
+	<!---->
+	<string name="use_times">"Käytä %s kertaa"</string>
+	<!---->
+	<string name="valid_after">"Voimassaolo alkaa:"</string>
+	<!---->
+	<string name="valid_until">"Voimassaolo päättyy:"</string>
+	<!---->
+	<string name="drm_wifidisplay_title">"Kopiointisuojatut tiedostot"</string>
+	<!---->
+	<string name="drm_wifidisplay_message">"Kopiointisuojattua tiedostoa ei voi jakaa."</string>
+	<!---->
+	<string name="drm_wifidisplay_cancel_btn">"Poista Wi-Fi-näyttö käytöstä"</string>
+	<!---->
+	<string name="drm_wifidisplay_ok">"OK"</string>
+	<!---->
+	<string name="tv_link_close_toast">"Wi-Fi-näyttö on suljettu"</string>
+	<!---->
+	<string name="usbotg">"Ulkoinen USB-tallennusväline"</string>
+	<!---->
+	<string name="show">"Näytä järjestelmätiedostot"</string>
+	<!---->
+	<string name="hide">"Piilota järjestelmätiedostot"</string>
+	<!---->
+	<string name="action_menu_create_folder_button">"Luo kansio"</string>
+	<!---->
+	<string name="searchResult">"Hakutulos"</string>
+	<!---->
+	<string name="default_folder_name">"Kansion nimi"</string>
+	<!---->
+	<string name="drm_protection_status">"Suojauksen tila:"</string>
+	<!---->
+	<string name="drm_can_forward">"Voidaan välittää."</string>
+	<!---->
+	<string name="drm_can_not_forward">"Ei voida välittää."</string>
+	<!---->
+	<string name="drm_no_license">"Ei käytettävissä olevaa DRM-lisenssiä."</string>
+	<!---->
+	<string name="drm_interval">"Voimassa %s ensimmäisestä käyttökerrasta"</string>
+	<!---->
+	<string name="drm_begin">"Aloitus:"</string>
+	<!---->
+	<string name="drm_no_limitation">"Ei rajoitusta."</string>
+	<!---->
+	<string name="drm_end">"Loppu:"</string>
+	<!---->
+	<string name="drm_use_left">"Jäljellä:"</string>
+	<!---->
+	<string name="drm_no_crop">"Tiedostolle "%s" ei voi käyttää rajausta, koska se on suojattu DRM-tekniikalla."</string>
+	<!---->
+	<string name="file_copy">"Tiedosto kopioitu"</string>
+	<!---->
+	<string name="choice_file">"Valitse kohde"</string>
+	<!---->
+	<string name="alert_delete_single">"Valittu tiedosto poistetaan."</string>
+	<!---->
+	<string name="pasting">"Liittäminen"</string>
+	<!---->
+	<string name="readable">"Luettavissa："</string>
+	<!---->
+	<string name="executable">"Sovellus:"</string>
+	<!---->
+	<string name="writable">"Kirjoituskelpoinen："</string>
+	<!---->
+	<string name="add_favorite">"Lisää suosikkikansioon"</string>
+	<!---->
+	<string name="del_favorite">"Poista suosikkikansiosta"</string>
+	<!---->
+	<string name="favourite">"Lisää suosikkeihin"</string>
+	<!---->
+	<string name="viewby_details">"Näytä tiedot"</string>
+	<!---->
+	<string name="view_by">"Lajittele"</string>
+	<!---->
+	<string name="show_hide">"Näytä\\Piilota"</string>
+	<!---->
+	<string name="sort_by">"Lajitteluperuste"</string>
+	<!---->
+	<string name="more">"Lisää"</string>
+	<!-- no translation found for used -->
+	<skip />
+	<!---->
+	<string name="category_archives">"Arkistot"</string>
+	<!---->
+	<string name="category_favorite">"Suosikit"</string>
+	<!---->
+	<string name="category_ringtones">"Soittoäänet"</string>
+	<!---->
+	<string name="category_recordings">"Tallenteet"</string>
+	<!---->
+	<string name="category_safebox">"Safebox"</string>
+	<!---->
+	<string name="category_apks">"APK-tiedostot"</string>
+	<!---->
+	<string name="search">"Haku"</string>
+	<!---->
+	<string name="sort_type">"Lajittele tyypin mukaan"</string>
+	<!---->
+	<string name="sort_name">"Lajittele nimen mukaan (A - Z)"</string>
+	<!---->
+	<string name="sort_size">"Lajittele koon mukaan (suuri - pieni)"</string>
+	<!---->
+	<string name="sort_time">"Lajittele ajan mukaan (uusi - vanha)"</string>
+	<!---->
+	<string name="selected">"Valittu"</string>
+	<!---->
+	<string name="save">"Tallenna"</string>
+	<!---->
+	<string name="category_docs">"Asiakirjat"</string>
+	<!---->
+	<string name="category_files">"Tiedostot"</string>
+	<!---->
+	<string name="view_as_grid">"Näytä ruudukkona"</string>
+	<!---->
+	<string name="view_as_list">"Näytä luettelona"</string>
+	<!---->
+	<string name="detail_path">"Sijainti:"</string>
+	<!---->
+	<string name="detail_name">"Nimi:"</string>
+	<!---->
+	<string name="detail_size">"Koko:"</string>
+	<!---->
+	<string name="detail_time">"Muokattu viimeksi:"</string>
+	<!---->
+	<string name="empty_msg">"(Tyhjä kansio)"</string>
+	<!---->
+	<string name="search_files">"Etsi tiedostoja"</string>
+	<!-- no translation found for search_result_count -->
+	<skip />
+	<!---->
+	<string name="drawer_settings">"Asetukset"</string>
+	<!---->
+	<string name="search_text_empty">"Hakusanaehtoja ei saa jättää tyhjäksi."</string>
+	<!---->
+	<string name="search_result_title">"Hakutulokset"</string>
+	<!---->
+	<string name="path_not_exists">"Polkua %1$s ei ole olemassa"</string>
+	<!---->
+	<string name="modify_hidden_file">"Tiedostoa ei piiloteta, jos sen nimi ei ala merkillä \'.\'."</string>
+	<!---->
+	<string name="paste_fail">"Ei voitu liittää"</string>
+	<!---->
+	<string name="search_empty">"Hakusanaehtoja ei saa jättää tyhjäksi."</string>
+	<!---->
+	<string name="search_setting_description">"Paikalliset tiedostot ja kansiot"</string>
+	<!---->
+	<string name="change_mode">"Valitse tiedosto tai kansio"</string>
+	<!-- no translation found for drm_protectioninfo_title -->
+	<skip />
+	<!---->
+	<string name="draw_favourite">"Suosikki"</string>
+	<!---->
+	<string name="unfavourite">"Poista suosikeista"</string>
+	<!---->
+	<string name="drm_toast_license_expired">"DRM-lisenssi on vanhentunut."</string>
+	<!-- no translation found for sdstroge -->
+	<skip />
+	<!-- no translation found for phonestorage -->
+	<skip />
+	<!-- no translation found for title_activity_main -->
+	<skip />
+	<!-- no translation found for hello_world -->
+	<skip />
+	<!-- no translation found for action_settings -->
+	<skip />
+	<!-- no translation found for unlock_video -->
+	<skip />
+	<!---->
+	<string name="readable_m">"Luettavissa"</string>
+	<!---->
+	<string name="executable_m">"Sovellus"</string>
+	<!---->
+	<string name="writable_m">"Kirjoituskelpoinen"</string>
+	<!---->
+	<string name="main_recents">"Viimeaikaiset"</string>
+	<!-- no translation found for main_recents_cn -->
+	<skip />
+	<!---->
+	<string name="main_installers">"Asentimet"</string>
+	<!---->
+	<string name="main_document">"Asiakirjat"</string>
+	<!---->
+	<string name="detail_path_m">"Sijainti"</string>
+	<!-- no translation found for detail_path_m_cn -->
+	<skip />
+	<!---->
+	<string name="detail_name_m">"Nimi"</string>
+	<!---->
+	<string name="detail_size_m">"Koko"</string>
+	<!---->
+	<string name="detail_time_m">"Viimeeksi muokattu"</string>
+	<!---->
+	<string name="main_photo">"Valokuvat"</string>
+	<!---->
+	<string name="main_sd_storage">"SD-tallennustila"</string>
+	<!---->
+	<string name="main_external_storage">"Ulkoinen tallennustila"</string>
+	<!---->
+	<string name="main_home">"Kotisivu"</string>
+	<!-- no translation found for main_home_cn -->
+	<skip />
+	<!---->
+	<string name="main_nava_home">"Kotisivu"</string>
+	<!---->
+	<string name="menu_select">"Valitse"</string>
+	<!-- no translation found for go_up -->
+	<skip />
+	<!---->
+	<string name="no_folder">"Tämä kansio on tyhjä"</string>
+	<!---->
+	<string name="no_category">"Tämä kategoria on tyhjä."</string>
+	<!-- no translation found for no_folder_cn -->
+	<skip />
+	<!-- no translation found for no_category_cn -->
+	<skip />
+	<!---->
+	<string name="pasted">"Tiedosto liimattu"</string>
+	<!---->
+	<string name="deleted">"Tiedosto poistettu"</string>
+	<!---->
+	<string name="deleted_cn">"Tiedosto poistettu"</string>
+	<!---->
+	<string name="view_list">"Luettelonäkymä"</string>
+	<!---->
+	<string name="view_grid">"Taulukkonäkymä"</string>
+	<!---->
+	<string name="create_new_folder">"Luo kansio"</string>
+	<!-- no translation found for add_folder -->
+	<skip />
+	<!---->
+	<string name="detail">"Tiedot"</string>
+	<!-- no translation found for menu_detail -->
+	<skip />
+	<!---->
+	<string name="migrate">"Siirrä"</string>
+	<!---->
+	<string name="permission_welcome_title">"Tarvitaan lupa"</string>
+	<!---->
+	<string name="permission_msg">"Parempi palvelu sinulle"</string>
+	<!---->
+	<string name="permission_setting_title">"Salli pääsyoikeus"</string>
+	<!---->
+	<string name="permission_setting_content">"Muuta oikeuksia laitteesi sovellusasetuksissa. Anna Tiedostonhallinnalle oikeus tallennustilaan."</string>
+	<!---->
+	<string name="permission_exit_btn">"Lopeta"</string>
+	<!---->
+	<string name="dialog_close_btn">"Sulje"</string>
+	<!-- no translation found for dialog_close_btn_cn -->
+	<skip />
+	<!---->
+	<string name="shortcut_item">"Lisää pikakuvake"</string>
+	<!-- no translation found for shortcut_item_cn -->
+	<skip />
+	<!---->
+	<string name="shortcut_no_exist">"Pyydettyä kansiota ei ole olemassa"</string>
+	<!-- no translation found for shortcut_success -->
+	<skip />
+	<!---->
+	<string name="no_search_result_m">"Ei tuloksia haulle \"%1$s\""</string>
+	<!---->
+	<string name="draw_left_phone_storage_m">"Puhelin"</string>
+	<!---->
+	<string name="category_audio">"Ääni"</string>
+	<!---->
+	<string name="usbotg_m">"Ulkoinen"</string>
+	<!-- no translation found for sd_m -->
+	<skip />
+	<!---->
+	<string name="freeof_m">"Vapaana"</string>
+	<!---->
+	<string name="permission_settings">"Asetukset"</string>
+	<!---->
+	<string name="safe_first_dialog_title">"Turvalaatikon luokka"</string>
+	<!---->
+	<string name="safe_first_dialog_content">"Tähän luokkaan siirretyt tiedostot vaativat salasanasuojauksen. Lisää tiedostoja tähän luokkaan painamalla tiedostovalikossa "Siirrä turvalaatikkoon"."</string>
+	<!-- no translation found for safe_first_dialog_content_cn -->
+	<skip />
+	<!---->
+	<string name="safe_storage_local">"Paikallinen tallennustila"</string>
+	<!---->
+	<string name="set_password_pass">"Salasana"</string>
+	<!---->
+	<string name="set_password_first">"Määritä salasana: 4-12 merkkiä"</string>
+	<!-- no translation found for input_new_password_hint -->
+	<skip />
+	<!---->
+	<string name="set_password_again">"Vahvista salasana"</string>
+	<!---->
+	<string name="set_password_show">"Näytä salasana"</string>
+	<!---->
+	<string name="set_password_safe_question">"Tietoturvakysymykset"</string>
+	<!---->
+	<string name="set_password_safe_question_answer">"Vastaa"</string>
+	<!---->
+	<string name="set_password_safe_forget_pass">"Muista tietoturvakysymysten vastaukset. Jos kadotat salasanasi, voit palauttaa sen vastaamalla tietoturvakysymykseen."</string>
+	<!---->
+	<string name="choose_safe">"Valitse turvalaatikko"</string>
+	<!-- no translation found for choose_safe_cn -->
+	<skip />
+	<!---->
+	<string name="create_safe">"Luo turvalaatikko"</string>
+	<!---->
+	<string name="create_safe_to">"Luo turvalaatikko kohteelle"</string>
+	<!-- no translation found for create_safe_to_cn -->
+	<skip />
+	<!---->
+	<string name="set_password">"Aseta salasana"</string>
+	<!-- no translation found for add_file_safe -->
+	<skip />
+	<!---->
+	<string name="safe_set">"Asetukset"</string>
+	<!---->
+	<string name="safe_set_title">"Turvalaatikon asetukset"</string>
+	<!-- no translation found for safe_set_title_cn -->
+	<skip />
+	<!---->
+	<string name="update_password">"Päivitä salasana"</string>
+	<!---->
+	<string name="modify_password">"Muuta salasanaa"</string>
+	<!---->
+	<string name="security_question">"Päivitä tietoturvakysymys"</string>
+	<!-- no translation found for modify_security_question -->
+	<skip />
+	<!---->
+	<string name="safe_set_change_safe">"Muuta turvalaatikkoa"</string>
+	<!---->
+	<string name="safe_set_location_safe">"Turvalaatikon sijainti"</string>
+	<!-- no translation found for safe_set_location_safe_cn -->
+	<skip />
+	<!---->
+	<string name="update_password_original">"Syötä alkuperäinen salasana"</string>
+	<!---->
+	<string name="update_password_original_cn">"Syötä alkuperäinen salasana"</string>
+	<!---->
+	<string name="destory_safe">"Tuhoa turvalaatikko"</string>
+	<!-- no translation found for destory_safe_cn -->
+	<skip />
+	<!-- no translation found for destory -->
+	<skip />
+	<!---->
+	<string name="use_password">"Käytä salasanaa"</string>
+	<!---->
+	<string name="input_password">"Anna salasana"</string>
+	<!---->
+	<string name="forget_password">"Unohtuiko salasana"</string>
+	<!-- no translation found for others -->
+	<skip />
+	<!---->
+	<string name="password_empty">"Salasana ei voi olla tyhjä."</string>
+	<!---->
+	<string name="password_consistent">"Salasanat eivät ole yhdenmukaiset."</string>
+	<!---->
+	<string name="password_length_error">"Salasanan pituuden virhe."</string>
+	<!---->
+	<string name="answer_empty">"Vastaus ei voi olla tyhjä."</string>
+	<!-- no translation found for safe_box_name_empty -->
+	<skip />
+	<!---->
+	<string name="update_success">"Päivitys onnistui."</string>
+	<!---->
+	<string name="update_fail">"Päivitys epäonnistui"</string>
+	<!---->
+	<string name="password_mistake">"Salasana ei ole oikein. Syötä se uudelleen."</string>
+	<!---->
+	<string name="move_safe">"Siirrä turvalaatikkoon"</string>
+	<!---->
+	<string name="fingerprint_check">"Linkitetty sormenjälkiä, käytä sormenjälkianturia vahvistamiseen."</string>
+	<!---->
+	<string name="in_use">"Käytössä"</string>
+	<!---->
+	<string name="created">"Luotu"</string>
+	<!---->
+	<string name="choose_files">"Valitse tiedosto(t)"</string>
+	<!---->
+	<string name="move_out">"Siirrä ulos"</string>
+	<!---->
+	<string name="remove_to">"Siirrä kansioon"</string>
+	<!---->
+	<string name="default_location">"Oletussijaintipaikka"</string>
+	<!---->
+	<string name="specified_location">"Määritetty sijaintipaikka"</string>
+	<!-- no translation found for open_dir -->
+	<skip />
+	<!-- no translation found for default_location_cn -->
+	<skip />
+	<!-- no translation found for specified_location_cn -->
+	<skip />
+	<!-- no translation found for specified_location_content_cn -->
+	<skip />
+	<!-- no translation found for category_safe -->
+	<skip />
+	<!-- no translation found for category_safe_cn -->
+	<skip />
+	<!---->
+	<string name="add_safe_size_limited">"Ei voida lisätä suurempia tiedostoja kuin 2,0GB"</string>
+	<!-- no translation found for add_safe_drm_limited -->
+	<skip />
+	<!---->
+	<string name="fingerprint_relative_dialog">"Liitä turvalaatikko sormenjälkeen?"</string>
+	<!-- no translation found for fingerprint_relative_dialog_cn -->
+	<skip />
+	<!-- no translation found for fingerprint_relative_dialog_ok -->
+	<skip />
+	<!-- no translation found for fingerprint_relative_dialog_ok_cn -->
+	<skip />
+	<!---->
+	<string name="fingerprint_relative_dialog_cancel">"Myöhemmin"</string>
+	<!-- no translation found for fingerprint_relative_dialog_cancel_cn -->
+	<skip />
+	<!---->
+	<string name="safe_location_current">"Turvalaatikon sijainti:"</string>
+	<!-- no translation found for safe_location_current_cn -->
+	<skip />
+	<!---->
+	<string name="safe_location_content">"Älä tee mitään tiedostokansiossa välttääksesi salatun tiedon vaurioitumista"</string>
+	<!-- no translation found for safe_location_content_cn -->
+	<skip />
+	<!---->
+	<string name="destory_safe_dialog_message">"Turvalaatikon tiedostot ja salasana poistetaan kaikki. Tuhoa nyt?"</string>
+	<!---->
+	<string name="destory_safe_dialog_checkbox">"Samalla, poista tiedosto?"</string>
+	<!-- no translation found for destory_safe_dialog_checkbox_cn -->
+	<skip />
+	<!---->
+	<string name="open_safe_dialog">"Ota turvalaatikko käyttöön"</string>
+	<!-- no translation found for open_safe_dialog_cn -->
+	<skip />
+	<!---->
+	<string name="open_safe_dialog_message">"Turvalaatikon käyttöönotto siirtää tiedostot turvalaatikkoon. Ota käyttöön nyt?"</string>
+	<!-- no translation found for open_safe_dialog_message_cn -->
+	<skip />
+	<!---->
+	<string name="open_safe_dialog_ok">"Välittömästi avoinna"</string>
+	<!---->
+	<string name="category_private_string">"Turvalaatikko"</string>
+	<!---->
+	<string name="opening">"Avataan"</string>
+	<!-- no translation found for space_clear -->
+	<skip />
+	<!-- no translation found for unselected -->
+	<skip />
+	<!-- no translation found for select -->
+	<skip />
+	<!-- no translation found for finish -->
+	<skip />
+	<!---->
+	<string name="senior_title">"Seniori"</string>
+	<!-- no translation found for no_files_for_add_to_safebox -->
+	<skip />
+	<!-- no translation found for finger_print_relation -->
+	<skip />
+	<!-- no translation found for duplicate_file_name_tip -->
+	<skip />
+	<!---->
+	<string name="searchview_hint">"Etsi tiedostoja"</string>
+	<!-- no translation found for safe_box_name_tip -->
+	<skip />
+	<!-- no translation found for toast_update_safe_box_name_sucess -->
+	<skip />
+	<!-- no translation found for toast_update_safe_box_name_fail -->
+	<skip />
+	<!-- no translation found for toast_safe_box_name_empty -->
+	<skip />
+	<!-- no translation found for cut_single_fail_tip -->
+	<skip />
+	<!-- no translation found for delete_single_fail_tip -->
+	<skip />
+	<!-- no translation found for copy_single_fail_tip -->
+	<skip />
+	<!-- no translation found for copy_multi_fail_tip -->
+	<skip />
+	<!-- no translation found for delete_multi_fail_tip -->
+	<skip />
+	<!-- no translation found for cut_multi_fail_tip -->
+	<skip />
+	<!-- no translation found for copy_all_fail_tip -->
+	<skip />
+	<!-- no translation found for delete_all_fail_tip -->
+	<skip />
+	<!-- no translation found for cut_all_fail_tip -->
+	<skip />
+	<!-- no translation found for past_multi_fail_tip -->
+	<skip />
+	<!-- no translation found for past_single_fail_tip -->
+	<skip />
+	<!-- no translation found for past_all_fail_tip -->
+	<skip />
+	<!-- no translation found for chip_encryption -->
+	<skip />
+	<!---->
+	<string name="safe_name_title">"Nimi"</string>
+	<!---->
+	<string name="update_name">"Päivitä nimi"</string>
+	<!-- no translation found for fingerprint_relate -->
+	<skip />
+	<!-- no translation found for insufficient_message_cn -->
+	<skip />
+	<!-- no translation found for add_success -->
+	<skip />
+	<!---->
+	<string name="pasted_cn">"Tiedosto liimattu"</string>
+	<!-- no translation found for no_search_result_cn -->
+	<skip />
+	<!---->
+	<string name="detail_time_cn">"Muokkausaika"</string>
+	<!-- no translation found for rename_limit -->
+	<skip />
+	<!-- no translation found for fingerprint_fail -->
+	<skip />
+	<!-- no translation found for answer_mistake -->
+	<skip />
+	<!-- no translation found for answer_empty_tip -->
+	<skip />
+	<!-- no translation found for new_safe -->
+	<skip />
+	<!-- no translation found for dialog_confirm -->
+	<skip />
+	<!-- no translation found for move_in_success -->
+	<skip />
+	<!-- no translation found for move_in_count -->
+	<skip />
+	<!-- no translation found for message_security_fingerprint_lockout -->
+	<skip />
+	<!-- no translation found for use_password_auth -->
+	<skip />
+	<!-- no translation found for storage_details -->
+	<skip />
+	<!---->
+	<string name="total_memory">"Kokonaismuisti"</string>
+	<!-- no translation found for system -->
+	<skip />
+	<!-- no translation found for category_fragment_title -->
+	<skip />
+	<!-- no translation found for storage -->
+	<skip />
+	<!-- no translation found for choice -->
+	<skip />
+	<!-- no translation found for view_tag_key -->
+	<skip />
+	<!-- no translation found for view_tag_key2 -->
+	<skip />
+	<!-- no translation found for finish_percent -->
+	<skip />
+	<!---->
+	<string name="select_pic">"Valitse kuva"</string>
+	<!---->
+	<string name="brackets_double">"(%1$s)"</string>
+	<!-- no translation found for selected_pick -->
+	<skip />
+	<!-- no translation found for most_selected -->
+	<skip />
+	<!-- no translation found for finish_ready -->
+	<skip />
+	<!-- no translation found for select_pic_data -->
+	<skip />
+	<!-- no translation found for delete_determine_selected -->
+	<skip />
+	<!-- no translation found for delete_document -->
+	<skip />
+	<!-- no translation found for delete_folder -->
+	<skip />
+	<!-- no translation found for delete_folder_and -->
+	<skip />
+	<!---->
+	<string name="deselect_all_item">"Poista kaikki valinnat"</string>
+	<!-- no translation found for edit -->
+	<skip />
+	<!-- no translation found for storage_phone -->
+	<skip />
+	<!-- no translation found for storage_sdcard -->
+	<skip />
+	<!-- no translation found for storage_otg -->
+	<skip />
+	<!-- no translation found for storage_slash -->
+	<skip />
+	<!-- no translation found for welcome_security -->
+	<skip />
+	<!-- no translation found for welcome_security_info -->
+	<skip />
+	<!-- no translation found for welcome_convenient -->
+	<skip />
+	<!-- no translation found for welcome_convenient_info -->
+	<skip />
+	<!-- no translation found for welcome_depth -->
+	<skip />
+	<!-- no translation found for welcome_depth_info -->
+	<skip />
+	<!-- no translation found for welcome_add -->
+	<skip />
+	<!-- no translation found for welcome_add_info -->
+	<skip />
+	<!-- no translation found for welcome_dialog_title -->
+	<skip />
+	<!-- no translation found for welcome_dialog_info -->
+	<skip />
+	<!-- no translation found for welcome_dialog_verify_btn -->
+	<skip />
+	<!-- no translation found for welcome_dialog_verify_pwd -->
+	<skip />
+	<!-- no translation found for welcome_start_use -->
+	<skip />
+	<!-- no translation found for welcome_not_use -->
+	<skip />
+	<!---->
+	<string name="welcome_ok">"VALMIS"</string>
+	<!-- no translation found for encrypt_files_success -->
+	<skip />
+	<!-- no translation found for delete_direct -->
+	<skip />
+	<!---->
+	<string name="delete_file">"Poistetaanko tämä tiedosto?"</string>
+</resources>

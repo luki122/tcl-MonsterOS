@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:text="@string/destory_safe_cn"
+        android:layout_gravity="center"
+        android:visibility="gone"/>
+
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/destory_safe_dialog_message"
+        android:textSize="14sp"
+        android:layout_margin="15dp"/>
+
+    <CheckBox
+        android:id="@+id/destory_safe_checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/destory_safe_dialog_checkbox_cn"/>
+
+</LinearLayout>

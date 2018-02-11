@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+        <!-- android:icon="@drawable/mst_albumpage_more" -->
+        <!-- @com.mst:drawable/ic_menu_moreoverflow_material -->
+        <item android:id="@+id/action_enteralbum"
+            android:title="@string/mst_enter_album"
+            android:icon="@drawable/mst_albumpage_more"
+            android:showAsAction="never" /> <!-- ifRoom -->
+
+</menu>

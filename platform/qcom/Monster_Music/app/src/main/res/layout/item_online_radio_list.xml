@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/rl_item_online_radio"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="vertical"
+    >
+
+    <ImageView
+        android:id="@+id/online_radio_cover"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="18dp"
+        android:src="@drawable/empty_album"/>
+
+    <TextView
+        android:id="@+id/online_radio_item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_toRightOf="@+id/online_radio_cover"
+        android:singleLine="true"
+        android:alpha="0.86"
+        android:text="@string/share"
+        android:layout_marginTop="18dp"
+        android:textColor="@color/black"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:id="@+id/online_radio_hot_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_below="@+id/online_radio_item_name"
+        android:layout_toRightOf="@+id/online_radio_cover"
+        android:layout_marginTop="10dp"
+        android:alpha="0.4"
+        android:text="@string/share"
+        android:textColor="@color/black"
+        android:textSize="10sp"/>
+
+</RelativeLayout>

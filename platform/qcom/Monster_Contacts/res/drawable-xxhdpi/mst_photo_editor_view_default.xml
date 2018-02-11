@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="171dp"
+    android:height="171dp"
+    android:viewportWidth="171"
+    android:viewportHeight="171">
+
+    <group
+            android:translateX="-122.000000"
+            android:translateY="-250.000000">
+        <group
+                android:translateX="122.000000"
+                android:translateY="250.000000">
+            <path
+                android:fillColor="#000000"
+                android:fillAlpha="0.0299999993"
+                android:strokeWidth="1"
+                android:pathData="M85.5,171 C132.720346,171 171,132.720346 171,85.5 C171,38.2796539 132.720346,0
+85.5,0 C38.2796539,0 0,38.2796539 0,85.5 C0,132.720346 38.2796539,171 85.5,171 Z" />
+            <path
+                android:fillColor="#000000"
+                android:fillAlpha="0.0299999993"
+                android:strokeWidth="1"
+                android:pathData="M85.5,171 C132.720346,171 171,132.720346 171,85.5 C171,38.2796539 132.720346,0
+85.5,0 C38.2796539,0 0,38.2796539 0,85.5 C0,132.720346 38.2796539,171 85.5,171 Z" />
+            <group
+                    android:translateX="58.232432"
+                    android:translateY="58.232432">
+                <path
+                    android:fillAlpha="0.852378731"
+                    android:strokeAlpha="0.852378731"
+                    android:strokeWidth="1"
+                    android:pathData="M 0 0 L 55.4594595 0 L 55.4594595 55.4594595 L 0 55.4594595 Z" />
+                <path
+                    android:fillColor="#B8B8B8"
+                    android:fillAlpha="0.852378731"
+                    android:strokeAlpha="0.852378731"
+                    android:strokeWidth="1"
+                    android:pathData="M6.93243243,39.8614865 L6.93243243,48.527027 L15.597973,48.527027
+L41.1555405,22.9694595 L32.49,14.3039189 L6.93243243,39.8614865
+L6.93243243,39.8614865 Z M47.8568919,16.2681081 C48.7581081,15.3668919
+48.7581081,13.9110811 47.8568919,13.0098649 L42.4495946,7.60256757
+C41.5483784,6.70135135 40.0925676,6.70135135 39.1913514,7.60256757
+L34.9625676,11.8313514 L43.6281081,20.4968919 L47.8568919,16.2681081
+L47.8568919,16.2681081 Z" />
+            </group>
+        </group>
+    </group>
+</vector>

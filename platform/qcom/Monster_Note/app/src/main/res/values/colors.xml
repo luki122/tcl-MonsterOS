@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="add_button_ripple_bg">#ffecb3</color>
+
+    <color name="toolbar">#fffffe</color>
+
+    <color name="dot_color">#222222</color>
+
+    <!--mText color (check or uncheck)-->
+    <color name="text_check">#4D000000</color>
+    <color name="text_unck">#C2000000</color>
+    <!--crop color-->
+    <color name="crop_border_color">#a8ffffff</color>
+    <color name="crop_bg_color">#99000000</color>
+    <color name="crop_guide_line_color">#a8ffffff</color>
+    <color name="crop_corner_color">#ffffffff</color>
+    <color name="crop_action_bar_color">#ff141414</color>
+    <color name="toolbar_background">#07000000</color>
+    <!--home color-->
+    <color name="home_item_background">#ffffffff</color>
+    <color name="home_item_first_line_font_color">#DB000000</color>
+    <color name="home_item_second_line_font_color">#66000000</color>
+    <color name="home_item_time_font_color">#4D000000</color>
+    <color name="home_backgroud">#07000000</color>
+
+    <!--share color-->
+    <color name="share_text_color">#BD000000</color>
+
+    <color name="tool_bar_div_line_color">#26000000</color>
+
+    <color name="search_color">#ffdbb78e</color>
+
+    <color name="seek_bar_down">#1A000000</color>
+    <color name="seek_bar_up">#ffd7a266</color>
+</resources>

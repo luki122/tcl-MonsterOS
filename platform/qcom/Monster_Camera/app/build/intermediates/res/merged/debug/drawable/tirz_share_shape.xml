@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="@color/tizr_shape_color" />
+    <corners android:radius="@dimen/tizr_shape_raduis" />
+    <padding
+        android:left="@dimen/tizr_shape_padding_left"
+        android:top="@dimen/tizr_shape_padding_top"
+        android:right="@dimen/tizr_shape_padding_right"
+        android:bottom="@dimen/tizr_shape_padding_bottom"
+        />
+</shape>

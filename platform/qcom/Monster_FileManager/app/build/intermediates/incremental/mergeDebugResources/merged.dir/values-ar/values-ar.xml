@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"التنقل إلى الشاشة الرئيسية"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s، %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s، %2$s، %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"التنقل إلى أعلى"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"خيارات إضافية"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"تم"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"عرض الكل"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"اختيار تطبيق"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"إيقاف"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"تشغيل"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"بحث…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"محو طلب البحث"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"طلب البحث"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"بحث"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"إرسال طلب البحث"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"البحث الصوتي"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"مشاركة مع"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"‏مشاركة مع %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"تصغير"</string>
+    <string name="action_menu_create_folder_button">"إنشاء مجلد"</string>
+    <string name="add_favorite">"إضافة إلى المجلد المفضل"</string>
+    <string name="alert_delete_multiple">"سيتم حذف الملفات المحددة!"</string>
+    <string name="alert_delete_single">"هل تريد حذف الملف المحدد؟"</string>
+    <string name="already_exists">"%1$s قيد الاستخدام بالفعل"</string>
+    <string name="app_name">"مدير الملفات"</string>
+    <string name="cancel">"إلغاء"</string>
+    <string name="category_apks">"APKs"</string>
+    <string name="category_archives">"الأرشيفات"</string>
+    <string name="category_bluetooth">"Bluetooth"</string>
+    <string name="category_docs">"Docs"</string>
+    <string name="category_download">"التنزيلات"</string>
+    <string name="category_favorite">"المفضلات"</string>
+    <string name="category_music">"الموسيقى"</string>
+    <string name="category_pictures">"الصور"</string>
+    <string name="category_recordings">"التسجيلات"</string>
+    <string name="category_ringtones">"نغمات الرنين"</string>
+    <string name="category_safebox">"Safebox"</string>
+    <string name="category_vedios">"مقاطع الفيديو"</string>
+    <string name="change_mode">"حدد ملف أو مجلد"</string>
+    <string name="confirm_rename">"تأكيد إعادة التسمية"</string>
+    <string name="copy">"نسخ"</string>
+    <string name="copy_deny">"لا يوجد إذن بالنسخ"</string>
+    <string name="create_folder">"إنشاء"</string>
+    <string name="create_hidden_file">"سيتم إخفاء الملف إذا كان الاسم يبدأ بـ \'.\'"</string>
+    <string name="cut">"قص"</string>
+    <string name="cut_deny">"لا يوجد إذن بالقص"</string>
+    <string name="default_folder_name">"اسم المجلد"</string>
+    <string name="default_search_text">"البحث في الملفات"</string>
+    <string name="del_favorite">"حذف من المجلد المفضل"</string>
+    <string name="delete">"حذف"</string>
+    <string name="delete_deny">"لا يوجد إذن بالحذف"</string>
+    <string name="delete_fail">"فشل الحذف."</string>
+    <string name="deleting">"جاري الحذف"</string>
+    <string name="deselect_all">"إلغاء تحديد الكل"</string>
+    <string name="detail_name">"اسم الملف:"</string>
+    <string name="detail_path">"الموقع:"</string>
+    <string name="detail_size">"حجم الملف:"</string>
+    <string name="detail_time">"الوقت المعدل:"</string>
+    <string name="details">"التفاصيل"</string>
+    <string name="done">"تم"</string>
+    <string name="draw_favourite">"مفضل"</string>
+    <string name="draw_left_phone_storage">"وحدة تخزين الهاتف"</string>
+    <string name="draw_left_sd_card">"بطاقة SD"</string>
+    <string name="drawer_category">"الفئة"</string>
+    <string name="drawer_open">"فتح"</string>
+    <string name="drawer_settings">"الإعدادات"</string>
+    <string name="drm_current_count">"العد الحالي："</string>
+    <string name="drm_current_right">"القيد الحالي："</string>
+    <string name="drm_forwardforbidden_message">"يتعذر إعادة توجيه ملف DRM."</string>
+    <string name="drm_forwardforbidden_title">"عدم إعادة التوجيه"</string>
+    <string name="drm_no_valid_right">"لا يتوفر للملف تصريح DRM صالح!"</string>
+    <string name="drm_wifidisplay_cancel_btn">"إيقاف تشغيل جهاز عرض بتقنية Wi-Fi"</string>
+    <string name="drm_wifidisplay_message">"لا يمكن نشر الملف المحمي ضد النسخ."</string>
+    <string name="drm_wifidisplay_ok">"موافق"</string>
+    <string name="drm_wifidisplay_title">"ملفات محمية ضد النسخ"</string>
+    <string name="empty_msg">"(المجلد فارغ)"</string>
+    <string name="executable">"قابل للتنفيذ:"</string>
+    <string name="favourite">"إضافة إلى المفضلات"</string>
+    <string name="file_name_too_long">"اسم الإدخال طويل للغاية"</string>
+    <string name="free_space">"متاح"</string>
+    <string name="hide">"إخفاء ملفات النظام"</string>
+    <string name="hide_file">"إخفاء الملفات المخفية"</string>
+    <string name="insufficient_memory">"مساحة غير كافية."</string>
+    <string name="invalid_char_prompt">"لقد أدخلت حرفًا غير صالح"</string>
+    <string name="invalid_empty_name">"لا يمكن ترك اسم الملف أو المجلد فارغًا"</string>
+    <string name="loading">"جارٍ التحميل…"</string>
+    <string name="menu_settings">"الإعدادات"</string>
+    <string name="modified_time">"تم التعديل"</string>
+    <string name="modify_hidden_file">"لن يكون الملف مخفيًا إذا لم يكن اسمه يبدأ بـ \'.\'."</string>
+    <string name="more">"المزيد"</string>
+    <string name="msg_rename_ext">"أنت تغير تنسيق الملف، بما يؤدي إلى عدم التعرف على الملف. هل أنت متأكد من فعل هذا؟"</string>
+    <string name="msg_unable_open_file">"تنسيق الملف غير مدعوم."</string>
+    <string name="msg_unable_open_file_in_app">"لا يوجد تطبيق لفتح الملف"</string>
+    <string name="name">"الاسم"</string>
+    <string name="new_folder">"إدخال اسم المجلد"</string>
+    <string name="new_folder_name">"اسم مجلد جديد"</string>
+    <string name="no">"لا"</string>
+    <string name="no_search_result">"0 نتيجة (نتائج) من أجل \"%1$s\""</string>
+    <string name="not_available">"غير متاح"</string>
+    <string name="ok">"موافق"</string>
+    <string name="operation_fail">"فشلت بعض عمليات الملف."</string>
+    <string name="paste">"لصق"</string>
+    <string name="paste_fail">"فشل اللصق."</string>
+    <string name="paste_same_folder">"لا يمكن لصق الدليل نفسه"</string>
+    <string name="paste_sub_folder">"لا يمكن لصق الملف في مجلد فرعي"</string>
+    <string name="pasting">"جاري اللصق"</string>
+    <string name="path_not_exists">"%1$s غير موجود"</string>
+    <string name="phone_storage">"وحدة التخزين بالهاتف"</string>
+    <string name="readable">"قابل للقراءة："</string>
+    <string name="rename">"إعادة تسمية"</string>
+    <string name="right_url">"عنوان URL لجهة إصدار الترخيص: ："</string>
+    <string name="save">"حفظ"</string>
+    <string name="sd_card">"بطاقة SD"</string>
+    <string name="search">"بحث"</string>
+    <string name="searchResult">"نتائج البحث"</string>
+    <string name="search_empty">"لا يمكن أن يكون محتوى البحث فارغًا."</string>
+    <string name="search_files">"البحث في الملفات"</string>
+    <string name="search_result">"%2$d نتيجة (نتائج) لـ \"%1$s\""</string>
+    <string name="search_result_count">"تم العثور عليه"</string>
+    <string name="search_result_title">"نتيجة (نتائج) البحث"</string>
+    <string name="search_setting_description">"الملفات والمجلدات المحلية"</string>
+    <string name="search_text_empty">"لا يمكن أن يكون محتوى البحث فارغًا."</string>
+    <string name="select_all">"تحديد الكل"</string>
+    <string name="selected">"محدد"</string>
+    <string name="send_file">"إرسال ملف"</string>
+    <string name="share">"مشاركة"</string>
+    <string name="share_warning">"يجب ألا تتجاوز الملفات المراد مشاركتها 100 ملف"</string>
+    <string name="show">"إظهار ملفات النظام"</string>
+    <string name="show_file">"إظهار الملفات المخفية"</string>
+    <string name="show_hide">"إظهار/إخفاء"</string>
+    <string name="size">"الحجم"</string>
+    <string name="some_delete_fail">"فشلت بعض عمليات الحذف."</string>
+    <string name="some_paste_fail">"فشل عمليات اللصق"</string>
+    <string name="sort">"فرز"</string>
+    <string name="sort_by">"فرز حسب"</string>
+    <string name="sort_by_date">"تاريخ التعديل"</string>
+    <string name="sort_by_name">"الاسم"</string>
+    <string name="sort_by_size">"الحجم"</string>
+    <string name="sort_by_type">"النوع"</string>
+    <string name="sort_name">"فرز حسب الاسم"</string>
+    <string name="sort_size">"ترتيب حسب الحجم (كبير - صغير)"</string>
+    <string name="sort_time">"ترتيب حسب الوقت (قديم - جديد)"</string>
+    <string name="sort_type">"فرز حسب النوع"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"+999"</string>
+    <string name="total_space">"إجمالي المساحة"</string>
+    <string name="tv_link_close_toast">"تم إغلاق جهاز عرض بتقنية Wi-Fi"</string>
+    <string name="unfavourite">"إزالة من المفضلات"</string>
+    <string name="unknown">"غير معروف"</string>
+    <string name="unlimited_usage">"استخدام غير محدود"</string>
+    <string name="unmounted">"%1$s غير محمل"</string>
+    <string name="usbotg">"وحدة تخزين USB خارجية"</string>
+    <string name="use_times">"استخدام %s مرة"</string>
+    <string name="valid_after">"صالح بعد"</string>
+    <string name="valid_until">"صالح حتى"</string>
+    <string name="view_as_grid">"عرض كشبكة"</string>
+    <string name="view_as_list">"عرض كقائمة"</string>
+    <string name="view_by">"عرض بواسطة"</string>
+    <string name="viewby_details">"العرض حسب التفاصيل"</string>
+    <string name="viewby_grid">"العرض حسب الشبكة"</string>
+    <string name="viewby_list">"عرض حسب القائمة"</string>
+    <string name="wait">"يرجى الانتظار…"</string>
+    <string name="warning">"تحذير"</string>
+    <string name="writable">"قابل للكتابة："</string>
+    <string name="yes">"نعم"</string>
+</resources>

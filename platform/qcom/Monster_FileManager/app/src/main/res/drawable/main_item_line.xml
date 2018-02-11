@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#FFFFFF" />
+    <stroke android:width="0.5dp" android:color="#EFEFEF"/>
+    <padding android:top="0dp" android:right="0dp" android:bottom="0dp" android:left="0dp" />
+    <corners android:radius="2dp" />
+</shape>

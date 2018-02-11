@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:gravity="center" >
+
+    <FrameLayout
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/main_item_margin"
+        >
+
+        <LinearLayout
+            android:id="@+id/main_item_bac"
+            android:layout_width="@dimen/main_item_size"
+            android:layout_height="@dimen/main_item_size"
+            android:background="@android:color/holo_purple"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/category_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:src="@drawable/ic_category_android_white_48dp" />
+
+            <!-- modify by yujie.zhao for pr1050350 at 20151217 -->
+
+            <LinearLayout
+                android:id="@+id/main_item_mes_bac"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.25"
+                android:background="@color/main_item_mes_color" >
+
+                <!-- android:id="@+id/main_installer_num" -->
+
+                <TextView
+                    android:id="@+id/category_name"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/main_item_text_margin"
+                    android:layout_weight="8"
+                    android:alpha="1"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:textColor="@color/filermanager_accent_color"
+                    android:textSize="@dimen/main_item_text_size" />
+
+                <TextView
+                    android:id="@+id/category_count"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="@dimen/main_item_text_margin"
+                    android:layout_weight="3"
+                    android:alpha="0.54"
+                    android:ellipsize="end"
+                    android:gravity="right"
+                    android:singleLine="true"
+                    android:textColor="@color/filermanager_accent_color"
+                    android:textSize="@dimen/main_item_text_size" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+
+</RelativeLayout>

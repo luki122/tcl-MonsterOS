@@ -1,0 +1,65 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.1.2'
+    }
+}
+
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 24
+    buildToolsVersion "23.0.1"
+
+    defaultConfig {
+        minSdkVersion 23
+        targetSdkVersion 23
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+
+    buildTypes {
+        debug {
+            minifyEnabled false
+        }
+    }
+    sourceSets {
+        main {
+            res.srcDirs = ['res']
+            main.java.srcDirs = ['src']
+            manifest.srcFile 'AndroidManifest.xml'
+            assets.srcDirs = ['assets']
+        }
+    }
+    signingConfigs {
+        debug {
+            File strFile = new File("sign/debug.keystore")
+            storeFile file(strFile)
+            keyAlias "platform"
+        }
+        release {
+            File strFile = new File("sign/debug.keystore")
+            storeFile file(strFile)
+            keyAlias "platform"
+        }
+    }
+
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile files('libs/gson-2.2.4.jar')
+    compile files('libs/universal-image-loader-1.9.5.jar')
+    provided files('libs/mst-framework.jar')
+    compile 'com.android.support:cardview-v7:24.+'
+    compile 'com.android.support:support-v4:24.+'
+    compile 'com.android.support:appcompat-v7:24.+'
+    compile 'com.android.support:support-v13:24.+'
+}

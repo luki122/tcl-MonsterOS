@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/lay_total_data_margin_top"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/lay_data_use"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/lay_remain_data_margin_left" >
+
+            <!-- android:background="@drawable/my_ripple" -->
+
+            <TextView
+                android:id="@+id/tv_data_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/color_app_title_text"
+                android:textSize="@dimen/tv_remain_data_text" />
+
+            <TextView
+                android:id="@+id/tv_data_used"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/tv_remain_data_unit_margin_left"
+                android:layout_marginTop="@dimen/tv_remain_data_unit_margin_top"
+                android:layout_toRightOf="@id/tv_data_count"
+                android:text="@string/remain_data_normal"
+                android:textColor="@color/color_app_title_text"
+                android:textSize="@dimen/tv_remain_data_unit" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_set_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/tv_free_data_margin_left"
+            android:gravity="center"
+            android:textColor="@color/color_time_correct_text"
+            android:textSize="@dimen/tv_free_data_text"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/lay_remain_data_margin_left"
+        android:layout_marginTop="@dimen/lay_remain_data_margin_top" >
+
+        <ImageView
+            android:id="@+id/imv_sim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:scaleType="center"
+            android:src="@drawable/ic_sim1" />
+
+        <TextView
+            android:id="@+id/tv_sim_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/tv_net_sim_margin_left"
+            android:layout_toRightOf="@id/imv_sim"
+            android:textColor="@color/color_app_title_text"
+            android:textSize="@dimen/tv_operator_size" />
+
+        <TextView
+            android:id="@+id/tv_current"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/tv_operator_margin_left"
+            android:layout_toRightOf="@id/tv_sim_type"
+            android:text="@string/current_data_sim"
+            android:textColor="@color/color_net_sim_text"
+            android:textSize="@dimen/tv_operator_size"
+            android:visibility="gone" />
+
+        <RelativeLayout
+            android:id="@+id/lay_change_sim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/tv_operator_margin_left"
+            android:layout_toRightOf="@id/tv_sim_type"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/tv_change_sim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/use_sim"
+                android:textColor="@color/color_change_sim_text"
+                android:textSize="@dimen/tv_operator_size" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_below="@id/tv_change_sim"
+                android:layout_alignLeft="@id/tv_change_sim"
+                android:layout_alignRight="@id/tv_change_sim"
+                android:layout_height="@dimen/tv_net_sim_line_height"
+                android:background="@color/color_change_sim_text" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/lay_data_info"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/lay_data_info_height"
+        android:layout_marginLeft="@dimen/lay_data_margin_left"
+        android:layout_marginRight="@dimen/lay_data_margin_right"
+        android:layout_marginTop="@dimen/lay_data_margin_top"
+        android:weightSum="3" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/tv_today_used_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="@color/color_data_info_text"
+                    android:textSize="@dimen/tv_data_text" />
+
+                <TextView
+                    android:id="@+id/tv_today_used_count_unit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/tv_data_unit_text_margin_left"
+                    android:gravity="center|bottom"
+                    android:textColor="@color/color_data_info_text"
+                    android:textSize="@dimen/tv_data_unit_text" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginTop="@dimen/tv_used_today_margin_top"
+                android:gravity="center"
+                android:text="@string/data_today_count"
+                android:textColor="@color/color_time_correct_text"
+                android:textSize="@dimen/tv_info_tag_text" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="@dimen/line_divider_width"
+            android:layout_height="@dimen/line_divider_height"
+            android:layout_marginTop="@dimen/line_divider_top"
+            android:background="@color/color_line_divider" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/tv_month_end_day"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="@color/color_data_info_text"
+                    android:textSize="@dimen/tv_data_text" />
+
+                <TextView
+                    android:id="@+id/tv_close_unit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/tv_data_unit_text_margin_left"
+                    android:gravity="center|bottom"
+                    android:text="@string/day"
+                    android:textColor="@color/color_data_info_text"
+                    android:textSize="@dimen/tv_data_unit_text" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginTop="@dimen/tv_used_today_margin_top"
+                android:gravity="center"
+                android:text="@string/to_month_end_day"
+                android:textColor="@color/color_time_correct_text"
+                android:textSize="@dimen/tv_info_tag_text" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="@dimen/line_divider_width"
+            android:layout_height="@dimen/line_divider_height"
+            android:layout_marginTop="@dimen/line_divider_top"
+            android:background="@color/color_line_divider" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/tv_average_use"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="@color/color_data_info_text"
+                    android:textSize="@dimen/tv_data_text" />
+
+                <TextView
+                    android:id="@+id/tv_average_unit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/tv_data_unit_text_margin_left"
+                    android:gravity="center|bottom"
+                    android:textColor="@color/color_data_info_text"
+                    android:textSize="@dimen/tv_data_unit_text" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginTop="@dimen/tv_used_today_margin_top"
+                android:gravity="center"
+                android:text="@string/average_use"
+                android:textColor="@color/color_time_correct_text"
+                android:textSize="@dimen/tv_info_tag_text" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

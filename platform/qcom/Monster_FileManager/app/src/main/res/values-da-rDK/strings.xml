@@ -1,0 +1,814 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="sort">"Sortér"</string>
+	<!---->
+	<string name="sort_by_name">"Navn"</string>
+	<!---->
+	<string name="sort_by_date">"Ændringsdato"</string>
+	<!---->
+	<string name="sort_by_time">"Dato"</string>
+	<!---->
+	<string name="sort_by_type">"Type"</string>
+	<!---->
+	<string name="sort_by_size">"Vent ..."</string>
+	<!---->
+	<string name="copy">"Kopier"</string>
+	<!---->
+	<string name="create_folder">"Opret"</string>
+	<!---->
+	<string name="cut">"Klip"</string>
+	<!---->
+	<string name="delete">"Slet"</string>
+	<!---->
+	<string name="delete_confirm">"Bekræft sletning"</string>
+	<!---->
+	<string name="deselect_all">"Fjern markering af alle"</string>
+	<!---->
+	<string name="select_all">"Vælg alle"</string>
+	<!---->
+	<string name="show_file">"Vis skjulte filer"</string>
+	<!---->
+	<string name="hide_file">"Skjul skjulte filer"</string>
+	<!---->
+	<string name="paste">"Indsæt"</string>
+	<!---->
+	<string name="rename">"Omdøb"</string>
+	<!---->
+	<string name="share">"Del"</string>
+	<!---->
+	<string name="viewby_list">"Vis som liste"</string>
+	<!---->
+	<string name="viewby_grid">"Vis efter gitter"</string>
+	<!---->
+	<string name="alert_delete_message">"Slet"</string>
+	<!---->
+	<string name="multi_alert_delete_message">"Vil du slette valgte elementer?"</string>
+	<!---->
+	<string name="multi_alert_delete_message_cn">"Vil du slette valgte elementer?"</string>
+	<!-- no translation found for delete_folder_message -->
+	<skip />
+	<!---->
+	<string name="category_pictures">"Billeder"</string>
+	<!---->
+	<string name="category_vedios">"Videoer"</string>
+	<!---->
+	<string name="category_music">"Musik"</string>
+	<!---->
+	<string name="category_download">"Downloads"</string>
+	<!---->
+	<string name="category_bluetooth">"Bluetooth"</string>
+	<!-- no translation found for app_name -->
+	<skip />
+	<!-- no translation found for theme_name -->
+	<skip />
+	<!---->
+	<string name="apk_name">"Filer"</string>
+	<!---->
+	<string name="new_folder">"Indtast mappenavn"</string>
+	<!---->
+	<string name="confirm_rename">"Bekræft navn"</string>
+	<!---->
+	<string name="warning">"Maks. antal filer"</string>
+	<!---->
+	<string name="share_warning">"Du kan ikke dele mere end 100 filer."</string>
+	<!---->
+	<string name="loading">"Indlæser ..."</string>
+	<!---->
+	<string name="deleting">"Sletter"</string>
+	<!---->
+	<string name="alert_delete_multiple">"De valgte filer vil blive slettet."</string>
+	<!---->
+	<string name="name">"Navn"</string>
+	<!---->
+	<string name="size">"Størrelse"</string>
+	<!---->
+	<string name="modified_time">"Ændret"</string>
+	<!---->
+	<string name="msg_rename_ext">"Filnavn ændres. Filen kan muligvis ikke genkendes. Fortsæt?"</string>
+	<!---->
+	<string name="wait">"Vent ..."</string>
+	<!---->
+	<string name="done">"Udfør"</string>
+	<!-- no translation found for enable -->
+	<skip />
+	<!-- no translation found for enable_cn -->
+	<skip />
+	<!---->
+	<string name="cancel">"Annuller"</string>
+	<!---->
+	<string name="no">"Nej"</string>
+	<!---->
+	<string name="ok">"OK"</string>
+	<!---->
+	<string name="yes">"Ja"</string>
+	<!---->
+	<string name="details">"Detaljer"</string>
+	<!---->
+	<string name="drawer_open">"Åbn"</string>
+	<!---->
+	<string name="unknown">"Ukendt"</string>
+	<!-- no translation found for unit_B -->
+	<skip />
+	<!-- no translation found for unit_KB -->
+	<skip />
+	<!-- no translation found for unit_MB -->
+	<skip />
+	<!-- no translation found for unit_GB -->
+	<skip />
+	<!-- no translation found for unit_TB -->
+	<skip />
+	<!---->
+	<string name="send_file">"Del fil(er) via"</string>
+	<!---->
+	<string name="default_search_text">"Søg filer"</string>
+	<!---->
+	<string name="free_space">"Ledig"</string>
+	<!---->
+	<string name="total_space">"Plads i alt"</string>
+	<!---->
+	<string name="drawer_category">"Kategorier"</string>
+	<!---->
+	<string name="phone_storage">"Telefonlager"</string>
+	<!---->
+	<string name="phone_storage_cn">"Telefonlager"</string>
+	<!---->
+	<string name="sd_card">"SD-kort"</string>
+	<!---->
+	<string name="draw_left_phone_storage">"Telefonlager"</string>
+	<!---->
+	<string name="draw_left_sd_card">"SD-kort"</string>
+	<!-- no translation found for menu_settings -->
+	<skip />
+	<!---->
+	<string name="no_search_result">"0 resultat(er) for \"%1$s\""</string>
+	<!---->
+	<string name="copy_deny">"Ingen tilladelse til kopiering"</string>
+	<!---->
+	<string name="cut_deny">"Ingen tilladelse til at klippe"</string>
+	<!---->
+	<string name="delete_deny">"Ingen tilladelse til at slette"</string>
+	<!---->
+	<string name="insufficient_memory">"Ikke nok plads."</string>
+	<!---->
+	<string name="insufficient_message">"Kunne ikke kopiere nogle filer på grund af utilstrækkelig plads"</string>
+	<!---->
+	<string name="invalid_empty_name">"Fil eller mappenavn kan ikke være tomt"</string>
+	<!---->
+	<string name="paste_same_folder">"Kunne ikke kopieres: kilde- og destinationsmappen er ens."</string>
+	<!---->
+	<string name="invalid_char_prompt">"Du har indtastet et ugyldigt tegn"</string>
+	<!---->
+	<string name="msg_unable_open_file">"Filformatet understøttes ikke."</string>
+	<!---->
+	<string name="paste_sub_folder">"Det er ikke muligt at indsætte filen i undermappen"</string>
+	<!---->
+	<string name="operation_fail">"En filhandling mislykkedes."</string>
+	<!---->
+	<string name="search_result">"%2$d resultat(er) for \"%1$s\""</string>
+	<!---->
+	<string name="already_exists">"%1$s er allerede i brug"</string>
+	<!---->
+	<string name="unmounted">"%1$s er ikke isat"</string>
+	<!---->
+	<string name="create_hidden_file">"Filen vil blive skjult, hvis navnet starter med \'.\'"</string>
+	<!---->
+	<string name="file_name_too_long">"Det indtastede navn er for langt"</string>
+	<!---->
+	<string name="some_paste_fail">"Indsættelseshandlinger mislykkedes"</string>
+	<!---->
+	<string name="delete_fail">"Kunne ikke slettes"</string>
+	<!---->
+	<string name="some_delete_fail">"Sletningshandlinger mislykkedes."</string>
+	<!---->
+	<string name="msg_unable_open_file_in_app">"Der er ikke noget program til at åbne filen."</string>
+	<!---->
+	<string name="drm_forwardforbidden_title">"Videresend ikke"</string>
+	<!---->
+	<string name="drm_forwardforbidden_message">"DRM-filen kan ikke videresendes."</string>
+	<!---->
+	<string name="drm_no_valid_right">"Filen har ingen gyldig DRM-godkendelse!"</string>
+	<!---->
+	<string name="drm_current_count">"Aktuelt antal："</string>
+	<!---->
+	<string name="unlimited_usage">"Ubegrænset brug"</string>
+	<!---->
+	<string name="drm_current_right">"Aktuel begrænsning："</string>
+	<!---->
+	<string name="not_available">"Ikke tilgængelig"</string>
+	<!---->
+	<string name="right_url">"Webadresse for licensudsteder:："</string>
+	<!---->
+	<string name="use_times">"Brug %s gange"</string>
+	<!---->
+	<string name="valid_after">"Gyldig efter"</string>
+	<!---->
+	<string name="valid_until">"Gyldig indtil"</string>
+	<!---->
+	<string name="drm_wifidisplay_title">"Kopibeskyttede filer"</string>
+	<!---->
+	<string name="drm_wifidisplay_message">"Den kopibeskyttede fil kan ikke distribueres."</string>
+	<!---->
+	<string name="drm_wifidisplay_cancel_btn">"Deaktiver Wi-Di"</string>
+	<!---->
+	<string name="drm_wifidisplay_ok">"OK"</string>
+	<!---->
+	<string name="tv_link_close_toast">"Wi-Di er blevet lukket"</string>
+	<!---->
+	<string name="usbotg">"Eksternt USB-lager"</string>
+	<!---->
+	<string name="show">"Vis systemfiler"</string>
+	<!---->
+	<string name="hide">"Skjul systemfiler"</string>
+	<!---->
+	<string name="action_menu_create_folder_button">"Opret mappe"</string>
+	<!---->
+	<string name="searchResult">"SearchResult"</string>
+	<!---->
+	<string name="default_folder_name">"Mappenavn"</string>
+	<!---->
+	<string name="drm_protection_status">"Beskyttelsesstatus:"</string>
+	<!---->
+	<string name="drm_can_forward">"Kan videresendes."</string>
+	<!---->
+	<string name="drm_can_not_forward">"Kan ikke videresendes."</string>
+	<!---->
+	<string name="drm_no_license">"Ingen tilgængelig DRM-licens."</string>
+	<!---->
+	<string name="drm_interval">"Gyldig i %s efter første gangs brug"</string>
+	<!---->
+	<string name="drm_begin">"Start:"</string>
+	<!---->
+	<string name="drm_no_limitation">"Ingen begrænsning."</string>
+	<!---->
+	<string name="drm_end">"Afslut:"</string>
+	<!---->
+	<string name="drm_use_left">"Tilbage:"</string>
+	<!---->
+	<string name="drm_no_crop">"Filen "%s" må ikke beskæres, fordi filen er DRM-beskyttet."</string>
+	<!---->
+	<string name="file_copy">"Fil kopieret"</string>
+	<!---->
+	<string name="choice_file">"Vælg destination"</string>
+	<!---->
+	<string name="alert_delete_single">"Den valgte fil bliver slettet."</string>
+	<!---->
+	<string name="pasting">"Indsætter"</string>
+	<!---->
+	<string name="readable">"Læsbar："</string>
+	<!---->
+	<string name="executable">"Applikation:"</string>
+	<!---->
+	<string name="writable">"Skrivbar："</string>
+	<!---->
+	<string name="add_favorite">"Føj til favoritmappe"</string>
+	<!---->
+	<string name="del_favorite">"Slet fra favoritmappe"</string>
+	<!---->
+	<string name="favourite">"Føj til favoritter"</string>
+	<!---->
+	<string name="viewby_details">"Vis efter detaljer"</string>
+	<!---->
+	<string name="view_by">"Vis efter"</string>
+	<!---->
+	<string name="show_hide">"Vis/Skjul"</string>
+	<!---->
+	<string name="sort_by">"Sortér efter"</string>
+	<!---->
+	<string name="more">"Flere"</string>
+	<!-- no translation found for used -->
+	<skip />
+	<!---->
+	<string name="category_archives">"Arkiver"</string>
+	<!---->
+	<string name="category_favorite">"Favoritter"</string>
+	<!---->
+	<string name="category_ringtones">"Ringetoner"</string>
+	<!---->
+	<string name="category_recordings">"Optagelser"</string>
+	<!---->
+	<string name="category_safebox">"Sikkerhedsboks"</string>
+	<!---->
+	<string name="category_apks">"APK\'er"</string>
+	<!---->
+	<string name="search">"Søg"</string>
+	<!---->
+	<string name="sort_type">"Sorter efter type"</string>
+	<!---->
+	<string name="sort_name">"Sorter efter navn (A-Z)"</string>
+	<!---->
+	<string name="sort_size">"Sorter efter størrelse (stor-lille)"</string>
+	<!---->
+	<string name="sort_time">"Sorter efter tids (ny-gammel)"</string>
+	<!---->
+	<string name="selected">"Valgt"</string>
+	<!---->
+	<string name="save">"Gem"</string>
+	<!---->
+	<string name="category_docs">"Dokumenter"</string>
+	<!---->
+	<string name="category_files">"Filer"</string>
+	<!---->
+	<string name="view_as_grid">"Vis som gitter"</string>
+	<!---->
+	<string name="view_as_list">"Vis som liste"</string>
+	<!---->
+	<string name="detail_path">"Placering:"</string>
+	<!---->
+	<string name="detail_name">"Navn:"</string>
+	<!---->
+	<string name="detail_size">"Størrelse:"</string>
+	<!---->
+	<string name="detail_time">"Sidst ændret:"</string>
+	<!---->
+	<string name="empty_msg">"(Tom mappe)"</string>
+	<!---->
+	<string name="search_files">"Søg filer"</string>
+	<!-- no translation found for search_result_count -->
+	<skip />
+	<!---->
+	<string name="drawer_settings">"Indstillinger"</string>
+	<!---->
+	<string name="search_text_empty">"Søgeindholdet må ikke være tomt."</string>
+	<!---->
+	<string name="search_result_title">"Søgeresultat(er)"</string>
+	<!---->
+	<string name="path_not_exists">"%1$s findes ikke"</string>
+	<!---->
+	<string name="modify_hidden_file">"Filen skjules ikke, hvis dens navn ikke begynder med \'.\'."</string>
+	<!---->
+	<string name="paste_fail">"Kunne ikke indsættes"</string>
+	<!---->
+	<string name="search_empty">"Søgeindholdet må ikke være tomt."</string>
+	<!---->
+	<string name="search_setting_description">"Lokale filer og mapper"</string>
+	<!---->
+	<string name="change_mode">"Vælg fil eller mappe"</string>
+	<!-- no translation found for drm_protectioninfo_title -->
+	<skip />
+	<!---->
+	<string name="draw_favourite">"favorit"</string>
+	<!---->
+	<string name="unfavourite">"Fjern fra favoritter"</string>
+	<!---->
+	<string name="drm_toast_license_expired">"DRM-licensen er udløbet."</string>
+	<!-- no translation found for sdstroge -->
+	<skip />
+	<!-- no translation found for phonestorage -->
+	<skip />
+	<!-- no translation found for title_activity_main -->
+	<skip />
+	<!-- no translation found for hello_world -->
+	<skip />
+	<!-- no translation found for action_settings -->
+	<skip />
+	<!-- no translation found for unlock_video -->
+	<skip />
+	<!---->
+	<string name="readable_m">"Læsbar"</string>
+	<!---->
+	<string name="executable_m">"Applikation"</string>
+	<!---->
+	<string name="writable_m">"Skrivbar"</string>
+	<!---->
+	<string name="main_recents">"Seneste"</string>
+	<!-- no translation found for main_recents_cn -->
+	<skip />
+	<!---->
+	<string name="main_installers">"Installationsmoduler"</string>
+	<!---->
+	<string name="main_document">"Dokumenter"</string>
+	<!---->
+	<string name="detail_path_m">"Placering"</string>
+	<!-- no translation found for detail_path_m_cn -->
+	<skip />
+	<!---->
+	<string name="detail_name_m">"Navn"</string>
+	<!---->
+	<string name="detail_size_m">"Størrelse"</string>
+	<!---->
+	<string name="detail_time_m">"Sidst ændret"</string>
+	<!---->
+	<string name="main_photo">"Billeder"</string>
+	<!---->
+	<string name="main_sd_storage">"SD-lager"</string>
+	<!---->
+	<string name="main_external_storage">"Eksternt lager"</string>
+	<!---->
+	<string name="main_home">"Hjem"</string>
+	<!-- no translation found for main_home_cn -->
+	<skip />
+	<!---->
+	<string name="main_nava_home">"Hjem"</string>
+	<!---->
+	<string name="menu_select">"Vælg"</string>
+	<!-- no translation found for go_up -->
+	<skip />
+	<!---->
+	<string name="no_folder">"Denne mappe er tom"</string>
+	<!---->
+	<string name="no_category">"Denne kategori er tom."</string>
+	<!-- no translation found for no_folder_cn -->
+	<skip />
+	<!-- no translation found for no_category_cn -->
+	<skip />
+	<!---->
+	<string name="pasted">"Fil indsat"</string>
+	<!---->
+	<string name="deleted">"Fil slettet"</string>
+	<!---->
+	<string name="deleted_cn">"Fil slettet"</string>
+	<!---->
+	<string name="view_list">"Listevisning"</string>
+	<!---->
+	<string name="view_grid">"Gittervisning"</string>
+	<!---->
+	<string name="create_new_folder">"Opret mappe"</string>
+	<!-- no translation found for add_folder -->
+	<skip />
+	<!---->
+	<string name="detail">"Detaljer"</string>
+	<!-- no translation found for menu_detail -->
+	<skip />
+	<!---->
+	<string name="migrate">"Migrere"</string>
+	<!---->
+	<string name="permission_welcome_title">"Tilladelse nødvendig"</string>
+	<!---->
+	<string name="permission_msg">"Bedre service til dig"</string>
+	<!---->
+	<string name="permission_setting_title">"Giv adgang"</string>
+	<!---->
+	<string name="permission_setting_content">"Skift tilladelser i din enheds app-indstillinger. Giv File Manager adgang til lagring."</string>
+	<!---->
+	<string name="permission_exit_btn">"Afslut"</string>
+	<!---->
+	<string name="dialog_close_btn">"Luk"</string>
+	<!-- no translation found for dialog_close_btn_cn -->
+	<skip />
+	<!---->
+	<string name="shortcut_item">"Tilføj genvej"</string>
+	<!-- no translation found for shortcut_item_cn -->
+	<skip />
+	<!---->
+	<string name="shortcut_no_exist">"Den anmodede mappe findes ikke."</string>
+	<!-- no translation found for shortcut_success -->
+	<skip />
+	<!---->
+	<string name="no_search_result_m">"Ingen resultater fundet for \"%1$s\""</string>
+	<!---->
+	<string name="draw_left_phone_storage_m">"Telefon"</string>
+	<!---->
+	<string name="category_audio">"Lyd"</string>
+	<!---->
+	<string name="usbotg_m">"Ekstern"</string>
+	<!-- no translation found for sd_m -->
+	<skip />
+	<!---->
+	<string name="freeof_m">"Ledig"</string>
+	<!---->
+	<string name="permission_settings">"Indstillinger"</string>
+	<!---->
+	<string name="safe_first_dialog_title">"Sikkerhedsboks kategori"</string>
+	<!---->
+	<string name="safe_first_dialog_content">"Filerne, der flyttes til denne kategori, vil kræve kodeordsgodkendelse. Tilføj filer til denne kategori ved at trykke på "Flyt til sikkerhedsboks" i filmenuen."</string>
+	<!-- no translation found for safe_first_dialog_content_cn -->
+	<skip />
+	<!---->
+	<string name="safe_storage_local">"Lokalt lager"</string>
+	<!---->
+	<string name="set_password_pass">"Adgangskode"</string>
+	<!---->
+	<string name="set_password_first">"Indstil adgangskoden: 4-12 cifre"</string>
+	<!-- no translation found for input_new_password_hint -->
+	<skip />
+	<!---->
+	<string name="set_password_again">"Bekræft adgangskode"</string>
+	<!---->
+	<string name="set_password_show">"Vis adgangskode"</string>
+	<!---->
+	<string name="set_password_safe_question">"Sikkerhedsspørgsmål"</string>
+	<!---->
+	<string name="set_password_safe_question_answer">"Svar"</string>
+	<!---->
+	<string name="set_password_safe_forget_pass">"Husk svarene på sikkerhedsspørgsmål. Hvis du glemmer din adgangskode, kan du nulstille den vha. sikkerhedsspørgsmål."</string>
+	<!---->
+	<string name="choose_safe">"Vælg sikkerhedsboks"</string>
+	<!-- no translation found for choose_safe_cn -->
+	<skip />
+	<!---->
+	<string name="create_safe">"Opret sikkerhedsboks"</string>
+	<!---->
+	<string name="create_safe_to">"Opret sikkerhedsboks til"</string>
+	<!-- no translation found for create_safe_to_cn -->
+	<skip />
+	<!---->
+	<string name="set_password">"Indstil adgangskode"</string>
+	<!-- no translation found for add_file_safe -->
+	<skip />
+	<!---->
+	<string name="safe_set">"Indstillinger"</string>
+	<!---->
+	<string name="safe_set_title">"Indstillinger for sikkerhedsboks"</string>
+	<!-- no translation found for safe_set_title_cn -->
+	<skip />
+	<!---->
+	<string name="update_password">"Opdater adgangskode"</string>
+	<!---->
+	<string name="modify_password">"Ændre adgangskode"</string>
+	<!---->
+	<string name="security_question">"Opdater sikkerhedsspørgsmål"</string>
+	<!-- no translation found for modify_security_question -->
+	<skip />
+	<!---->
+	<string name="safe_set_change_safe">"Ændr sikkerhedsboks"</string>
+	<!---->
+	<string name="safe_set_location_safe">"Sikkerhedsboks placering"</string>
+	<!-- no translation found for safe_set_location_safe_cn -->
+	<skip />
+	<!---->
+	<string name="update_password_original">"Indstil adgangskoden"</string>
+	<!---->
+	<string name="update_password_original_cn">"Indstil adgangskoden"</string>
+	<!---->
+	<string name="destory_safe">"Slet sikkerhedsboks"</string>
+	<!-- no translation found for destory_safe_cn -->
+	<skip />
+	<!-- no translation found for destory -->
+	<skip />
+	<!---->
+	<string name="use_password">"Brug adgangskode"</string>
+	<!---->
+	<string name="input_password">"Angiv adgangskode"</string>
+	<!---->
+	<string name="forget_password">"Glemt adgangskode"</string>
+	<!-- no translation found for others -->
+	<skip />
+	<!---->
+	<string name="password_empty">"Adgangskode skal udfyldes."</string>
+	<!---->
+	<string name="password_consistent">"Adgangskoderne passer ikke til hinanden."</string>
+	<!---->
+	<string name="password_length_error">"Fejl i længde af adgangskode"</string>
+	<!---->
+	<string name="answer_empty">"Svar skal udfyldes."</string>
+	<!-- no translation found for safe_box_name_empty -->
+	<skip />
+	<!---->
+	<string name="update_success">"Opdatering udført."</string>
+	<!---->
+	<string name="update_fail">"Opdatering mislykkedes"</string>
+	<!---->
+	<string name="password_mistake">"Adgangskode er ikke korrekt. Prøv igen."</string>
+	<!---->
+	<string name="move_safe">"Flyt til sikkerhedsboks"</string>
+	<!---->
+	<string name="fingerprint_check">"Fingeraftryk tilknyttet. Bruger fingeraftrykssensoren til validering."</string>
+	<!---->
+	<string name="in_use">"I brug"</string>
+	<!---->
+	<string name="created">"Oprettet"</string>
+	<!---->
+	<string name="choose_files">"Vælg fil(er)"</string>
+	<!---->
+	<string name="move_out">"Flyt ud"</string>
+	<!---->
+	<string name="remove_to">"Flyt til"</string>
+	<!---->
+	<string name="default_location">"Standardsted"</string>
+	<!---->
+	<string name="specified_location">"Angivet sted"</string>
+	<!-- no translation found for open_dir -->
+	<skip />
+	<!-- no translation found for default_location_cn -->
+	<skip />
+	<!-- no translation found for specified_location_cn -->
+	<skip />
+	<!-- no translation found for specified_location_content_cn -->
+	<skip />
+	<!-- no translation found for category_safe -->
+	<skip />
+	<!-- no translation found for category_safe_cn -->
+	<skip />
+	<!---->
+	<string name="add_safe_size_limited">"Kan ikke tilføje filer større end 2,0 GB"</string>
+	<!-- no translation found for add_safe_drm_limited -->
+	<skip />
+	<!---->
+	<string name="fingerprint_relative_dialog">"Skal den sikre boks knyttes til fingeraftryk?"</string>
+	<!-- no translation found for fingerprint_relative_dialog_cn -->
+	<skip />
+	<!-- no translation found for fingerprint_relative_dialog_ok -->
+	<skip />
+	<!-- no translation found for fingerprint_relative_dialog_ok_cn -->
+	<skip />
+	<!---->
+	<string name="fingerprint_relative_dialog_cancel">"Senere"</string>
+	<!-- no translation found for fingerprint_relative_dialog_cancel_cn -->
+	<skip />
+	<!---->
+	<string name="safe_location_current">"Sikkerhedsboks placering:"</string>
+	<!-- no translation found for safe_location_current_cn -->
+	<skip />
+	<!---->
+	<string name="safe_location_content">"Afvikl ikke filmappen for at undgå beskadigelse af krypterede data"</string>
+	<!-- no translation found for safe_location_content_cn -->
+	<skip />
+	<!---->
+	<string name="destory_safe_dialog_message">"Filer i sikkerhedsboks og kodeord vil blive slettet. Slet nu?"</string>
+	<!---->
+	<string name="destory_safe_dialog_checkbox">"Fjern filen samtidigt?"</string>
+	<!-- no translation found for destory_safe_dialog_checkbox_cn -->
+	<skip />
+	<!---->
+	<string name="open_safe_dialog">"Aktiver sikkerhedsboks"</string>
+	<!-- no translation found for open_safe_dialog_cn -->
+	<skip />
+	<!---->
+	<string name="open_safe_dialog_message">"Aktivering af sikkerhedsboksen vil flytte filerne til sikkerhedsboksen. Aktiver nu?"</string>
+	<!-- no translation found for open_safe_dialog_message_cn -->
+	<skip />
+	<!---->
+	<string name="open_safe_dialog_ok">"Åbn på stedet"</string>
+	<!---->
+	<string name="category_private_string">"Sikkerhedsboks"</string>
+	<!---->
+	<string name="opening">"Åbnes"</string>
+	<!-- no translation found for space_clear -->
+	<skip />
+	<!-- no translation found for unselected -->
+	<skip />
+	<!-- no translation found for select -->
+	<skip />
+	<!-- no translation found for finish -->
+	<skip />
+	<!---->
+	<string name="senior_title">"Senior"</string>
+	<!-- no translation found for no_files_for_add_to_safebox -->
+	<skip />
+	<!-- no translation found for finger_print_relation -->
+	<skip />
+	<!-- no translation found for duplicate_file_name_tip -->
+	<skip />
+	<!---->
+	<string name="searchview_hint">"Søg filer"</string>
+	<!-- no translation found for safe_box_name_tip -->
+	<skip />
+	<!-- no translation found for toast_update_safe_box_name_sucess -->
+	<skip />
+	<!-- no translation found for toast_update_safe_box_name_fail -->
+	<skip />
+	<!-- no translation found for toast_safe_box_name_empty -->
+	<skip />
+	<!-- no translation found for cut_single_fail_tip -->
+	<skip />
+	<!-- no translation found for delete_single_fail_tip -->
+	<skip />
+	<!-- no translation found for copy_single_fail_tip -->
+	<skip />
+	<!-- no translation found for copy_multi_fail_tip -->
+	<skip />
+	<!-- no translation found for delete_multi_fail_tip -->
+	<skip />
+	<!-- no translation found for cut_multi_fail_tip -->
+	<skip />
+	<!-- no translation found for copy_all_fail_tip -->
+	<skip />
+	<!-- no translation found for delete_all_fail_tip -->
+	<skip />
+	<!-- no translation found for cut_all_fail_tip -->
+	<skip />
+	<!-- no translation found for past_multi_fail_tip -->
+	<skip />
+	<!-- no translation found for past_single_fail_tip -->
+	<skip />
+	<!-- no translation found for past_all_fail_tip -->
+	<skip />
+	<!-- no translation found for chip_encryption -->
+	<skip />
+	<!---->
+	<string name="safe_name_title">"Navn"</string>
+	<!---->
+	<string name="update_name">"Opdater navn"</string>
+	<!-- no translation found for fingerprint_relate -->
+	<skip />
+	<!-- no translation found for insufficient_message_cn -->
+	<skip />
+	<!-- no translation found for add_success -->
+	<skip />
+	<!---->
+	<string name="pasted_cn">"Fil indsat"</string>
+	<!-- no translation found for no_search_result_cn -->
+	<skip />
+	<!---->
+	<string name="detail_time_cn">"Ændringstid"</string>
+	<!-- no translation found for rename_limit -->
+	<skip />
+	<!-- no translation found for fingerprint_fail -->
+	<skip />
+	<!-- no translation found for answer_mistake -->
+	<skip />
+	<!-- no translation found for answer_empty_tip -->
+	<skip />
+	<!-- no translation found for new_safe -->
+	<skip />
+	<!-- no translation found for dialog_confirm -->
+	<skip />
+	<!-- no translation found for move_in_success -->
+	<skip />
+	<!-- no translation found for move_in_count -->
+	<skip />
+	<!-- no translation found for message_security_fingerprint_lockout -->
+	<skip />
+	<!-- no translation found for use_password_auth -->
+	<skip />
+	<!-- no translation found for storage_details -->
+	<skip />
+	<!---->
+	<string name="total_memory">"Samlet hukommelse"</string>
+	<!-- no translation found for system -->
+	<skip />
+	<!-- no translation found for category_fragment_title -->
+	<skip />
+	<!-- no translation found for storage -->
+	<skip />
+	<!-- no translation found for choice -->
+	<skip />
+	<!-- no translation found for view_tag_key -->
+	<skip />
+	<!-- no translation found for view_tag_key2 -->
+	<skip />
+	<!-- no translation found for finish_percent -->
+	<skip />
+	<!---->
+	<string name="select_pic">"Vælg billede"</string>
+	<!---->
+	<string name="brackets_double">"(%1$s)"</string>
+	<!-- no translation found for selected_pick -->
+	<skip />
+	<!-- no translation found for most_selected -->
+	<skip />
+	<!-- no translation found for finish_ready -->
+	<skip />
+	<!-- no translation found for select_pic_data -->
+	<skip />
+	<!-- no translation found for delete_determine_selected -->
+	<skip />
+	<!-- no translation found for delete_document -->
+	<skip />
+	<!-- no translation found for delete_folder -->
+	<skip />
+	<!-- no translation found for delete_folder_and -->
+	<skip />
+	<!---->
+	<string name="deselect_all_item">"Fjern markering af alle"</string>
+	<!-- no translation found for edit -->
+	<skip />
+	<!-- no translation found for storage_phone -->
+	<skip />
+	<!-- no translation found for storage_sdcard -->
+	<skip />
+	<!-- no translation found for storage_otg -->
+	<skip />
+	<!-- no translation found for storage_slash -->
+	<skip />
+	<!-- no translation found for welcome_security -->
+	<skip />
+	<!-- no translation found for welcome_security_info -->
+	<skip />
+	<!-- no translation found for welcome_convenient -->
+	<skip />
+	<!-- no translation found for welcome_convenient_info -->
+	<skip />
+	<!-- no translation found for welcome_depth -->
+	<skip />
+	<!-- no translation found for welcome_depth_info -->
+	<skip />
+	<!-- no translation found for welcome_add -->
+	<skip />
+	<!-- no translation found for welcome_add_info -->
+	<skip />
+	<!-- no translation found for welcome_dialog_title -->
+	<skip />
+	<!-- no translation found for welcome_dialog_info -->
+	<skip />
+	<!-- no translation found for welcome_dialog_verify_btn -->
+	<skip />
+	<!-- no translation found for welcome_dialog_verify_pwd -->
+	<skip />
+	<!-- no translation found for welcome_start_use -->
+	<skip />
+	<!-- no translation found for welcome_not_use -->
+	<skip />
+	<!---->
+	<string name="welcome_ok">"OK, FORSTÅET"</string>
+	<!-- no translation found for encrypt_files_success -->
+	<skip />
+	<!-- no translation found for delete_direct -->
+	<skip />
+	<!---->
+	<string name="delete_file">"Slet denne fil?"</string>
+</resources>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2013 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<!-- @color/background_main_toolbar -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:baselineAligned="false"
+              android:orientation="vertical"
+              android:animateLayoutChanges="false"
+              android:visibility="visible"
+              android:background="@color/filtershow_categoryview_background" >
+
+    <FrameLayout android:id="@+id/state_panel_container"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:visibility="visible"
+                 android:layout_gravity="top"
+                 android:layout_weight="1" />
+
+    <FrameLayout android:id="@+id/category_panel_container"
+                 android:layout_width="match_parent"
+                 android:visibility="visible"
+                 android:layout_height="100dp"
+                 android:layout_gravity="center"
+                 android:layout_weight="1"/>
+
+    <com.android.gallery3d.filtershow.CenteredLinearLayout
+            xmlns:custom="http://schemas.android.com/apk/res/com.android.gallery3d"
+            android:id="@+id/bottom_panel"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center|bottom"
+            custom:max_width="400dip"
+            android:orientation="vertical">
+
+        <LinearLayout android:layout_width="wrap_content"
+                      android:layout_height="match_parent"
+                      android:orientation="horizontal"
+                      android:background="@color/background_main_toolbar_grey">
+                      
+            <!-- android:background="@drawable/filtershow_button_background" -->
+            <ImageButton 
+                    android:id="@+id/cropButton"
+                    android:layout_width="@dimen/thumbnail_size"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:padding="12dp"
+                    android:background="@drawable/ripple"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/bottom_panel_selector_crop"/>
+            
+             <ImageButton 
+                    android:id="@+id/rotateButton"
+                    android:layout_width="@dimen/thumbnail_size"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:padding="12dp"
+                    android:background="@drawable/ripple"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/bottom_panel_selector_rotate"/>
+            
+            <ImageButton
+                    android:id="@+id/fxButton"
+                    android:layout_width="@dimen/thumbnail_size"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:padding="12dp"
+                    android:background="@drawable/ripple"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/bottom_panel_selector_looks"/>
+            
+            <!-- 
+            <ImageButton
+                    android:id="@+id/borderButton"
+                    android:layout_width="@dimen/thumbnail_size"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:padding="12dp"
+                    android:background="@drawable/filtershow_button_background"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/filter_tab_selector_2"/> 
+
+            <ImageButton
+                    android:id="@+id/geometryButton"
+                    android:layout_width="@dimen/thumbnail_size"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:padding="12dp"
+                    android:background="@drawable/filtershow_button_background"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/filter_tab_selector_3"/>  -->
+
+            <ImageButton
+                    android:id="@+id/colorsButton"
+                    android:layout_width="@dimen/thumbnail_size"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:padding="12dp"
+                    android:background="@drawable/ripple"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/bottom_panel_selector_colors"/>
+        </LinearLayout>
+
+    </com.android.gallery3d.filtershow.CenteredLinearLayout>
+    
+    <!-- 
+    <View
+            android:background="@color/toolbar_separation_line"
+            android:layout_height="1dip"
+            android:layout_width="match_parent"/> -->
+
+</LinearLayout>

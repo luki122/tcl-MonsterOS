@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="search_location">"অনুসন্ধান পাঁচ"</string>
+	<!---->
+	<string name="app_name">"আবহাওয়া"</string>
+	<!---->
+	<string name="locate_connect_error">"ইন্টারনেটের সাথে সংযুক্ত করতে পারা যাচ্ছে না ।"</string>
+	<!-- no translation found for date_am -->
+	<skip />
+	<!-- no translation found for date_pm -->
+	<skip />
+	<!-- no translation found for test_city_name -->
+	<skip />
+	<!-- no translation found for test_air_state -->
+	<skip />
+	<!-- no translation found for test_weather_tip -->
+	<skip />
+	<!-- no translation found for test_temp -->
+	<skip />
+	<!-- no translation found for test_weather_state -->
+	<skip />
+	<!-- no translation found for test_weather_warn -->
+	<skip />
+	<!-- no translation found for release_time -->
+	<skip />
+	<!-- no translation found for early_warning_information -->
+	<skip />
+	<!-- no translation found for day_weather_monday -->
+	<skip />
+	<!-- no translation found for day_weather_tuesday -->
+	<skip />
+	<!-- no translation found for day_weather_wednesday -->
+	<skip />
+	<!-- no translation found for day_weather_thursday -->
+	<skip />
+	<!-- no translation found for day_weather_friday -->
+	<skip />
+	<!-- no translation found for day_weather_saturday -->
+	<skip />
+	<!-- no translation found for day_weather_sunday -->
+	<skip />
+	<!-- no translation found for day_weather_yesterday -->
+	<skip />
+	<!-- no translation found for day_weather_today -->
+	<skip />
+	<!-- no translation found for refreshing -->
+	<skip />
+	<!-- no translation found for weather_manager -->
+	<skip />
+	<!-- no translation found for system_tips -->
+	<skip />
+	<!-- no translation found for confirm -->
+	<skip />
+	<!-- no translation found for delete_city -->
+	<skip />
+	<!-- no translation found for back -->
+	<skip />
+	<!-- no translation found for now -->
+	<skip />
+	<!-- no translation found for hot -->
+	<skip />
+	<!-- no translation found for test -->
+	<skip />
+	<!-- no translation found for delete -->
+	<skip />
+	<!-- no translation found for life_index_tip -->
+	<skip />
+	<!-- no translation found for humidity_str -->
+	<skip />
+	<!-- no translation found for alarm -->
+	<skip />
+	<!-- no translation found for dress_index_str -->
+	<skip />
+	<!-- no translation found for sport_index_str -->
+	<skip />
+	<!-- no translation found for sunscreen_index_str -->
+	<skip />
+	<!-- no translation found for car_wash_index_str -->
+	<skip />
+	<!-- no translation found for weather_sunny -->
+	<skip />
+	<!-- no translation found for weather_cloudy -->
+	<skip />
+	<!-- no translation found for weather_overcast -->
+	<skip />
+	<!-- no translation found for weather_shower -->
+	<skip />
+	<!-- no translation found for weather_thunder_shower -->
+	<skip />
+	<!-- no translation found for weather_thunder_shower_with_hail -->
+	<skip />
+	<!-- no translation found for weather_sleet -->
+	<skip />
+	<!-- no translation found for weather_light_rain -->
+	<skip />
+	<!-- no translation found for weather_moderate_rain -->
+	<skip />
+	<!-- no translation found for weather_heavy_rain -->
+	<skip />
+	<!-- no translation found for weather_storm -->
+	<skip />
+	<!-- no translation found for weather_heavy_storm -->
+	<skip />
+	<!-- no translation found for weather_severe_storm -->
+	<skip />
+	<!-- no translation found for weather_snow_flurry -->
+	<skip />
+	<!-- no translation found for weather_light_snow -->
+	<skip />
+	<!-- no translation found for weather_moderate_snow -->
+	<skip />
+	<!-- no translation found for weather_heavy_snow -->
+	<skip />
+	<!-- no translation found for weather_snow_storm -->
+	<skip />
+	<!-- no translation found for weather_foggy -->
+	<skip />
+	<!-- no translation found for weather_ice_rain -->
+	<skip />
+	<!-- no translation found for weather_dust_storm -->
+	<skip />
+	<!-- no translation found for weather_light_to_moderate_rain -->
+	<skip />
+	<!-- no translation found for weather_moderate_to_heavy_rain -->
+	<skip />
+	<!-- no translation found for weather_heavy_rain_to_storm -->
+	<skip />
+	<!-- no translation found for weather_storm_to_heavy -->
+	<skip />
+	<!-- no translation found for weather_heavy_to_server_storm -->
+	<skip />
+	<!-- no translation found for weather_light_to_moderate_snow -->
+	<skip />
+	<!-- no translation found for weather_moderate_snow_to_heavy_snow -->
+	<skip />
+	<!-- no translation found for weather_snow_heavy_snow_to_snow_storm -->
+	<skip />
+	<!-- no translation found for weather_dust -->
+	<skip />
+	<!-- no translation found for weather_sand -->
+	<skip />
+	<!-- no translation found for weather_sand_storm -->
+	<skip />
+	<!-- no translation found for weather_dense_foggy -->
+	<skip />
+	<!-- no translation found for weather_snow -->
+	<skip />
+	<!-- no translation found for weather_moderate_foggy -->
+	<skip />
+	<!-- no translation found for weather_haze -->
+	<skip />
+	<!-- no translation found for weather_moderate_haze -->
+	<skip />
+	<!-- no translation found for weather_heavy_haze -->
+	<skip />
+	<!-- no translation found for weather_severe_haze -->
+	<skip />
+	<!-- no translation found for weather_heavy_foggy -->
+	<skip />
+	<!-- no translation found for weather_severe_foggy -->
+	<skip />
+	<!-- no translation found for weather_unknown -->
+	<skip />
+	<!-- no translation found for air_fine -->
+	<skip />
+	<!-- no translation found for air_good -->
+	<skip />
+	<!-- no translation found for air_common -->
+	<skip />
+	<!-- no translation found for air_substandard -->
+	<skip />
+	<!-- no translation found for air_turbidity -->
+	<skip />
+	<!-- no translation found for air_bad -->
+	<skip />
+	<!-- no translation found for warning_typhoon -->
+	<skip />
+	<!-- no translation found for warning_rainstorm -->
+	<skip />
+	<!-- no translation found for warning_blizzard -->
+	<skip />
+	<!-- no translation found for warning_cold_wave -->
+	<skip />
+	<!-- no translation found for warning_gusty_winds -->
+	<skip />
+	<!-- no translation found for warning_sandstorm -->
+	<skip />
+	<!-- no translation found for warning_high_temperature -->
+	<skip />
+	<!-- no translation found for warning_drought -->
+	<skip />
+	<!-- no translation found for warning_thunder -->
+	<skip />
+	<!-- no translation found for warning_hail -->
+	<skip />
+	<!-- no translation found for warning_frost -->
+	<skip />
+	<!-- no translation found for warning_heavy_foggy -->
+	<skip />
+	<!-- no translation found for warning_haze -->
+	<skip />
+	<!-- no translation found for warning_icy_road -->
+	<skip />
+	<!-- no translation found for gd_rainstorm -->
+	<skip />
+	<!-- no translation found for gd_high_temperature -->
+	<skip />
+	<!-- no translation found for gd_hail -->
+	<skip />
+	<!-- no translation found for gd_heavy_foggy -->
+	<skip />
+	<!-- no translation found for gd_icy_road -->
+	<skip />
+	<!-- no translation found for gd_haze -->
+	<skip />
+	<!-- no translation found for gd_cold_wave -->
+	<skip />
+	<!-- no translation found for gd_thunderstorm_gusty_winds -->
+	<skip />
+	<!-- no translation found for gd_forest_fire -->
+	<skip />
+	<!-- no translation found for gd_typhoon -->
+	<skip />
+	<!-- no translation found for wind_light -->
+	<skip />
+	<!-- no translation found for wind_3_grade -->
+	<skip />
+	<!-- no translation found for wind_4_grade -->
+	<skip />
+	<!-- no translation found for wind_5_grade -->
+	<skip />
+	<!-- no translation found for wind_6_grade -->
+	<skip />
+	<!-- no translation found for wind_7_grade -->
+	<skip />
+	<!-- no translation found for wind_8_grade -->
+	<skip />
+	<!-- no translation found for wind_9_grade -->
+	<skip />
+	<!-- no translation found for wind_10_grade -->
+	<skip />
+	<!-- no translation found for wind_11_grade -->
+	<skip />
+	<!-- no translation found for wind_direction_no_wind -->
+	<skip />
+	<!-- no translation found for wind_direction_northeast -->
+	<skip />
+	<!-- no translation found for wind_direction_east -->
+	<skip />
+	<!-- no translation found for wind_direction_southeast -->
+	<skip />
+	<!-- no translation found for wind_direction_south -->
+	<skip />
+	<!-- no translation found for wind_direction_southwest -->
+	<skip />
+	<!-- no translation found for wind_direction_west -->
+	<skip />
+	<!-- no translation found for wind_direction_northwest -->
+	<skip />
+	<!-- no translation found for wind_direction_north -->
+	<skip />
+	<!-- no translation found for wind_direction_whirl_wind -->
+	<skip />
+	<!-- no translation found for city_is_too_much -->
+	<skip />
+	<!-- no translation found for update_result_suc -->
+	<skip />
+	<!-- no translation found for update_result_fail -->
+	<skip />
+	<!-- no translation found for date_overdue_tip -->
+	<skip />
+	<!-- no translation found for warnProvince -->
+	<skip />
+	<!-- no translation found for warnCity -->
+	<skip />
+	<!-- no translation found for warnCounty -->
+	<skip />
+	<!-- no translation found for warnContent -->
+	<skip />
+	<!-- no translation found for warnCategoryName -->
+	<skip />
+	<!-- no translation found for warnGradeName -->
+	<skip />
+	<!-- no translation found for warnGradeNo -->
+	<skip />
+	<!-- no translation found for warnNo -->
+	<skip />
+	<!-- no translation found for warnTime -->
+	<skip />
+	<!-- no translation found for add_city_failed -->
+	<skip />
+	<!-- no translation found for adding_city -->
+	<skip />
+	<!-- no translation found for sunny_tip -->
+	<skip />
+	<!-- no translation found for cloudy_tip -->
+	<skip />
+	<!-- no translation found for overcast_tip -->
+	<skip />
+	<!-- no translation found for shower_tip -->
+	<skip />
+	<!-- no translation found for thunder_shower_tip -->
+	<skip />
+	<!-- no translation found for thunder_shower_with_hail_tip -->
+	<skip />
+	<!-- no translation found for sleet_tip -->
+	<skip />
+	<!-- no translation found for light_rain_tip -->
+	<skip />
+	<!-- no translation found for moderate_rain_tip -->
+	<skip />
+	<!-- no translation found for heavy_rain_tip -->
+	<skip />
+	<!-- no translation found for storm_tip -->
+	<skip />
+	<!-- no translation found for heavy_storm_tip -->
+	<skip />
+	<!-- no translation found for severe_storm_tip -->
+	<skip />
+	<!-- no translation found for snow_flurry_tip -->
+	<skip />
+	<!-- no translation found for light_snow_tip -->
+	<skip />
+	<!-- no translation found for moderate_snow_tip -->
+	<skip />
+	<!-- no translation found for heavy_snow_tip -->
+	<skip />
+	<!-- no translation found for snow_storm_tip -->
+	<skip />
+	<!-- no translation found for foggy_tip -->
+	<skip />
+	<!-- no translation found for ice_rain_tip -->
+	<skip />
+	<!-- no translation found for dust_storm_tip -->
+	<skip />
+	<!-- no translation found for light_to_moderate_rain_tip -->
+	<skip />
+	<!-- no translation found for moderate_to_heavy_rain_tip -->
+	<skip />
+	<!-- no translation found for heavy_rain_to_storm_tip -->
+	<skip />
+	<!-- no translation found for storm_to_heavy_tip -->
+	<skip />
+	<!-- no translation found for heavy_to_server_storm_tip -->
+	<skip />
+	<!-- no translation found for light_to_moderate_snow_tip -->
+	<skip />
+	<!-- no translation found for moderate_snow_to_moderate_snow_tip -->
+	<skip />
+	<!-- no translation found for snow_heavy_snow_to_snow_storm_tip -->
+	<skip />
+	<!-- no translation found for dust_tip -->
+	<skip />
+	<!-- no translation found for sand_tip -->
+	<skip />
+	<!-- no translation found for sand_storm_tip -->
+	<skip />
+	<!-- no translation found for dense_foggy_tip -->
+	<skip />
+	<!-- no translation found for snow_tip -->
+	<skip />
+	<!-- no translation found for moderate_foggy_tip -->
+	<skip />
+	<!-- no translation found for haze_tip -->
+	<skip />
+	<!-- no translation found for moderate_haze_tip -->
+	<skip />
+	<!-- no translation found for heavy_haze_tip -->
+	<skip />
+	<!-- no translation found for severe_haze_tip -->
+	<skip />
+	<!-- no translation found for heavy_foggy_tip -->
+	<skip />
+	<!-- no translation found for severe_foggy_tip -->
+	<skip />
+	<!-- no translation found for unknown_tip -->
+	<skip />
+	<!---->
+	<string name="loading_data">"ডেটা লোড"</string>
+	<!-- no translation found for network_failed -->
+	<skip />
+	<!-- no translation found for service_abnormal -->
+	<skip />
+	<!-- no translation found for locate_failed -->
+	<skip />
+	<!-- no translation found for release -->
+	<skip />
+	<!-- no translation found for manual_add_city -->
+	<skip />
+	<!-- no translation found for try_again -->
+	<skip />
+	<!-- no translation found for server_innormal -->
+	<skip />
+	<!-- no translation found for no_permission -->
+	<skip />
+	<!-- no translation found for data_source_str -->
+	<skip />
+	<!-- no translation found for sunrise -->
+	<skip />
+	<!-- no translation found for sunset -->
+	<skip />
+	<!-- no translation found for txt_release -->
+	<skip />
+	<!-- no translation found for txt_early_warning -->
+	<skip />
+	<!-- no translation found for txt_locating -->
+	<skip />
+</resources>

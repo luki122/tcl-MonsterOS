@@ -1,0 +1,140 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/duoqu_popup_notify_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#cc000000"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="64dp"
+        android:paddingRight="12dp"
+        android:paddingTop="11dp" >
+
+        <ImageView
+            android:id="@+id/duoqu_popup_logo_img"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp" />
+
+        <RelativeLayout
+            android:id="@+id/duoqu_popup_title_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_toRightOf="@id/duoqu_popup_logo_img"
+            android:minWidth="174dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/duoqu_popup_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:textColor="#89ffffff"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/duoqu_popup_content_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@id/duoqu_popup_time"
+                android:ellipsize="end"
+                android:fontFamily="sans-serif"
+                android:singleLine="true"
+                android:textColor="#ddffffff"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/duoqu_popup_content_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/duoqu_popup_title_layout"
+            android:layout_below="@id/duoqu_popup_title_layout"
+            android:ellipsize="end"
+            android:minWidth="174dp"
+            android:paddingTop="1dp"
+            android:singleLine="true"
+            android:textColor="#89ffffff"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/duoqu_popup_horizontal_line"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_alignLeft="@+id/duoqu_popup_content_text"
+            android:layout_below="@+id/duoqu_popup_content_text"
+            android:layout_marginTop="11dp"
+            android:background="#26ffffff"
+            android:gravity="center"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/duoqu_popup_btn_layout"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_alignLeft="@+id/duoqu_popup_horizontal_line"
+            android:layout_below="@+id/duoqu_popup_horizontal_line"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:visibility="gone" >
+
+            <LinearLayout
+                android:id="@+id/duoqu_popup_btn_two_ll"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:gravity="center_vertical" >
+
+                <ImageView
+                    android:id="@+id/duoqu_popup_left_logo"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_gravity="center_vertical" />
+
+                <TextView
+                    android:id="@+id/duoqu_popup_btn_two"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:gravity="center_vertical"
+                    android:textColor="#ddffffff"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/duoqu_popup_btn_three_ll"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:gravity="center_vertical" >
+
+                <ImageView
+                    android:id="@+id/duoqu_popup_right_logo"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_gravity="center_vertical" />
+
+                <TextView
+                    android:id="@+id/duoqu_popup_btn_three"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:gravity="left|center_vertical"
+                    android:textColor="#ddffffff"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

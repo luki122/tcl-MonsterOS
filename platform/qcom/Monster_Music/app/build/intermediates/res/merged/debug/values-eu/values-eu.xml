@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cannot_specify_an_empty_name_for_playlist">"Erreprodukzio-zerrendaren izenak ezin du hutsik egon"</string>
+    <string name="cross_dj_saturated_storage_not_enough_free_space_to_record_your_mix">"Ez dago behar adina toki nahasketa grabatzeko."</string>
+    <string name="cross_dj_saturated_storage_your_recording_might_stop_soon_because_no_more_free_space_is_available">"Grabaketa laster geldituko da, ez dagoelako behar adina toki."</string>
+    <string name="invalid_drm_file">"Fitxategiak ez du baliozko DRM autoritaterik!"</string>
+    <string name="mobiledata_turnoff_btn">"Desgaitu"</string>
+    <string name="never_show_it_again">"Ez erakutsi berriro"</string>
+    <string name="no_error">"Ez dago errorerik"</string>
+    <string name="recording_reached_max_duration">"Grabaketa gehienezko iraupenera iritsi da. Egiaztatu hobespenak."</string>
+    <string name="recording_soon_to_reach_max_duration">"Grabaketa gehienezko iraupenera iritsiko da laster. Egiaztatu hobespenak."</string>
+    <string name="scratching_is_disabled_in_no_mix_mode">"DJ moduan scratch egin dezakezu."</string>
+    <string name="sign_up">"Erregistratu"</string>
+    <string name="the_external_memory_storage_is_not_mounted">"Kanpoko memoriaren biltegia ez dago muntatuta. Agian USB memoria-biltegia desgaitu beharko duzu."</string>
+    <string name="there_s_not_enough_space_in_your_internal_storage_try_to_do_some_clean_up">"Ez dago behar adina leku barneko biltegian (saiatu lekua egiten)"</string>
+</resources>

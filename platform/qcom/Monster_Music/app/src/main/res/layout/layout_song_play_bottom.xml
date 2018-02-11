@@ -1,0 +1,100 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_play_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#dd000000"
+            android:textSize="12sp"/>
+
+        <SeekBar
+            android:id="@+id/tv_seek_progress"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:progressDrawable="@drawable/progress_style"
+            android:thumb="@drawable/progress_position"
+            />
+
+        <TextView
+            android:id="@+id/tv_total_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#dd000000"
+            android:textSize="12sp"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+
+
+    <RelativeLayout
+        android:id="@+id/layout_play_operation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical">
+
+        <ImageButton
+            android:id="@+id/play_mode_btn"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:background="@drawable/ripple_background_circle"
+            android:padding="10dp"
+            android:src="@drawable/play_mode_btn_drawable"/>
+
+        <ImageView
+            android:id="@+id/iv_play_previous"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="66dp"
+            android:background="@drawable/ripple_background_circle"
+            android:padding="10dp"
+            android:src="@drawable/play_previous_image"/>
+
+        <cn.tcl.music.view.PlayMusicButton
+            android:id="@+id/iv_play_pause"
+            android:layout_width="63dp"
+            android:layout_height="63dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/play_pause_background"
+            android:padding="3dp"/>
+
+        <ImageView
+            android:id="@+id/iv_play_next"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="66dp"
+            android:background="@drawable/ripple_background_circle"
+            android:padding="10dp"
+            android:src="@drawable/play_next_image"/>
+
+        <ImageView
+            android:id="@+id/iv_favorite"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/ripple_background_circle"
+            android:padding="10dp"
+            android:src="@drawable/favorite_image"/>
+    </RelativeLayout>
+
+</LinearLayout>

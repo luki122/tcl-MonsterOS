@@ -1,0 +1,75 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="mst_app_name">MST</string>
+
+    <!-- Default text for a button that can be toggled on and off. -->
+    <string name="capital_on">开</string>
+    <!-- Default text for a button that can be toggled on and off. -->
+    <string name="capital_off">关</string>
+
+    <string name="ok">确定</string>
+
+    <string name="cancel">取消</string>
+
+    <string name="yes">确定</string>
+
+    <string name="no">取消</string>
+
+    <!--  Strings for possible PreferenceActivity Back/Next buttons -->
+    <string name="back_button_label">返回</string>
+    <string name="next_button_label">下一步</string>
+
+    <!-- Optional button to Skip a PreferenceActivity [CHAR LIMIT=20] -->
+    <string name="skip_button_label">跳过</string>
+    
+    
+     <string name="more_item_label">更多</string>
+    
+    
+
+
+    <string name="number_picker_increment_button" msgid="2412072272832284313">"增大"</string>
+    <string name="number_picker_decrement_button" msgid="476050778386779067">"减小"</string>
+    <string name="number_picker_increment_scroll_mode" msgid="3073101067441638428">"触摸 <xliff:g id="VALUE">%s</xliff:g> 次并按住。"</string>
+    <string name="number_picker_increment_scroll_action" msgid="9101473045891835490">"向上滑动可增大数值，向下滑动可减小数值。"</string>
+    <string name="time_picker_increment_minute_button" msgid="8865885114028614321">"增大分钟值"</string>
+    <string name="time_picker_decrement_minute_button" msgid="6246834937080684791">"减小分钟值"</string>
+    <string name="time_picker_increment_hour_button" msgid="3652056055810223139">"增大小时值"</string>
+    <string name="time_picker_decrement_hour_button" msgid="1377479863429214792">"减小小时值"</string>
+    <string name="time_picker_increment_set_pm_button" msgid="4147590696151230863">"设置下午时间"</string>
+    <string name="time_picker_decrement_set_am_button" msgid="8302140353539486752">"设置上午时间"</string>
+    <string name="date_picker_increment_month_button" msgid="5369998479067934110">"增大月份值"</string>
+    <string name="date_picker_decrement_month_button" msgid="1832698995541726019">"减小月份值"</string>
+    <string name="date_picker_increment_day_button" msgid="7130465412308173903">"增大日期值"</string>
+    <string name="date_picker_decrement_day_button" msgid="4131881521818750031">"减小日期值"</string>
+    <string name="date_picker_increment_year_button" msgid="6318697384310808899">"增大年份值"</string>
+    <string name="date_picker_decrement_year_button" msgid="4482021813491121717">"减小年份值"</string>
+    <string name="date_picker_prev_month_button" msgid="2858244643992056505">"上个月"</string>
+    <string name="date_picker_next_month_button" msgid="5559507736887605055">"下个月"</string>
+
+
+    <!-- Label for time picker -->
+    <string name="time_picker_label_hour">时</string>
+    <string name="time_picker_label_minute">分</string>
+    <string name="time_picker_label_second">秒</string>
+    <!-- Label for date picker -->
+    <string name="date_picker_label_year">年</string>
+    <string name="date_picker_label_month">月</string>
+    <string name="date_picker_label_day">日</string>
+    
+    <string name="showdown">下拉关机</string>
+    <string name="pattern_date_format">MM月dd日</string>
+    
+    <string name="msg_try_get">正在尝试获取</string>
+    <string name="permission">权限</string>
+    <string name="mst_remember_choice">记住我的选择</string>
+    <string name="permission_allow">允许</string>
+    <string name="permission_refused">拒绝</string>
+    <string name="floating_window">悬浮窗</string>
+    <string name="msg_create_shortcut">新建桌面快捷方式</string>
+    <string name="device_manager">设备管理器</string>
+    <string name="vr_service_assistant">VR助手服务</string>
+    <string name="notification_rights">通知使用权</string>
+    <string name="paid_sms">付费短信</string>
+    <string name="record_access">使用记录访问</string>
+
+</resources>

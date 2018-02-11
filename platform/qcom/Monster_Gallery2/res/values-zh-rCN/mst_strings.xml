@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mst_gallery">相册</string>
+    <string name="mst_enter_album">全部相册</string>
+    <string name="mst_select_all">全选</string>
+    <string name="mst_de_select_all">全不选</string>
+    <string name="mst_more">更多</string>
+    
+    <plurals name="mst_number_of_items_selected">
+        <item quantity="zero">已选择：%1$d</item>
+        <item quantity="one">已选择：%1$d</item>
+        <item quantity="other">已选择：%1$d</item>
+    </plurals>
+    
+    <string name="month_1">壹</string>
+    <string name="month_2">贰</string>
+    <string name="month_3">叁</string>
+    <string name="month_4">肆</string>
+    <string name="month_5">伍</string>
+    <string name="month_6">陆</string>
+    <string name="month_7">柒</string>
+    <string name="month_8">捌</string>
+    <string name="month_9">玖</string>
+    <string name="month_10">拾</string>
+    <string name="month_11">拾壹</string>
+    <string name="month_12">拾贰</string>
+    
+    <!-- From TCT BEGIN -->
+    <string name="filtershow_none">无</string>
+    <string name="filtershow_frame">边框</string>
+    <!-- <string name="edit_save_message">"覆盖原图还是保存为副本？"</string> -->
+    <string name="edit_save_message">"保存修改？"</string>
+    <string name="filtershow_save_button_overwrite">"覆盖原图"</string>
+    <string name="filtershow_save_button_copy">"保存副本"</string>
+    <string name="filtershow_save">"保存"</string>
+    <string name="filtershow_auto_edit">"自动编辑"</string>
+    
+    <string name="trim_title">"忽略修改?"</string>
+    <string name="trim_message">"图片修改未保存，确定要舍弃吗？"</string>
+    <string name="trim_discard">"忽略"</string>
+    <!-- From TCT End -->
+    
+    <string name="crop_7_5">"7:5"</string>
+    <string name="crop_4_3">"4:3"</string>
+    <string name="crop_1_1">"1:1"</string>
+    <string name="crop_9_16">"9:16"</string>
+    <string name="crop_5_7">"5:7"</string>
+    
+    <string name="mst_rotate_left">"左转"</string>
+    <string name="mst_rotate_right">"右转"</string>
+    <string name="mst_rotate_vertical">"垂直"</string>
+    <string name="mst_rotate_horizontal">"水平"</string>
+    
+    <string name="mst_cancel">"取消"</string>
+    <string name="mst_cancel_apply">"取消"</string>
+    <string name="mst_apply">"应用"</string>
+    <string name="mst_save">"保存"</string>
+    <string name="mst_reset">"重置"</string>
+    
+    <string name="mst_default_seekbar_value">"0"</string>
+      
+    <!-- STRING FOR PHOTO DETAIL DIALOG START -->
+    <string name="details_title_new">详情</string>
+    <!--  STRING FOR PHOTO DETAIL DIALOG END -->
+    
+    
+  <string name="delete_photo_selection">确定要删除这%s吗?</string>
+  <string name="delete_multi_item">%s项内容</string>
+  <string name="delete_picture_item">%s张图片</string>
+  <string name="delete_video_item">%s个视频</string>
+  <string name="empty_page_tip">暂无照片</string>
+  <string name="share_to">分享到</string>
+  
+</resources>

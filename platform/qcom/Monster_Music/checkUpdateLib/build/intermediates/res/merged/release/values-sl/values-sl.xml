@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="check_new">Poišči posodobitve</string>
+    <string name="downloaded_finish">Prenos zaključen.</string>
+    <string name="downloading">Prenašanje ...</string>
+    <string name="network_error_tip">Napaka v omrežju. Preverite omrežno povezavo in poskusite znova.</string>
+    <string name="notification_downloading">Prenašanje</string>
+    <string name="tip_network_error">Napaka v omrežju</string>
+    <string name="try_later">Kasneje</string>
+    <string name="update">Zdaj</string>
+    <string name="update_ask_tip">Namestiti morate najnovejšo različico.</string>
+    <string name="update_available">Na voljo je posodobitev.</string>
+    <string name="update_confirm">V REDU</string>
+    <string name="update_detail_prefix">Podrobnosti posodobitve:</string>
+    <string name="update_download_fail">Prenos ni bil uspešen.</string>
+    <string name="update_force_nofity_tip">Priporočamo, da aplikacijo posodobite na najnovejšo različico.</string>
+    <string name="update_no_need">To je najnovejša različica.</string>
+    <string name="update_no_updates">Posodobitve niso na voljo.</string>
+    <string name="update_no_updates_tip">Posodobitve niso na voljo.</string>
+    <string name="update_not_now">Ne zdaj</string>
+    <string name="update_notification_tips">Za boljše delovanje namestite najnovejšo različico.</string>
+    <string name="update_notification_title">Posodobi opozorilo</string>
+    <string name="update_notify_tip">Na voljo je nova različica. Posodobim zdaj?</string>
+    <string name="update_now">Posodobi</string>
+    <string name="versionDesc">Podatki o različici:</string>
+</resources>

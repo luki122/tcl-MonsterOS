@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/music_theme_color">
+
+    <RelativeLayout
+        android:id="@+id/search_relative"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/search_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingStart="@dimen/dp_20"
+            android:src="@drawable/back"/>
+
+        <MstSearchView
+            android:id="@+id/search_view"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_toRightOf="@id/search_back"/>
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/underlined_view"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_below="@id/search_relative"
+        android:background="#1c000000"/>
+
+    <ListView
+        android:id="@+id/search_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/underlined_view"
+        android:divider="#00000000"
+        android:visibility="visible" />
+
+    <ListView
+        android:id="@+id/auto_tips_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/underlined_view"
+        android:divider="#00000000"
+        android:visibility="invisible" />
+
+    <LinearLayout
+        android:id="@+id/search_pager_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="33.5dp"
+        android:layout_below="@id/underlined_view"
+        android:background="@color/music_theme_color"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:id="@+id/pager_header"
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="1dp"
+            android:paddingTop="1dp">
+
+            <TextView
+                android:id="@+id/heard_song"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:alpha="0.86"
+                android:background="@color/white"
+                android:gravity="center"
+                android:text="@string/song"
+                android:textColor="@color/black"
+                android:textSize="13sp" />
+
+            <View
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:background="@color/common_divider_color" />
+
+            <TextView
+                android:id="@+id/heard_artist"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="1dp"
+                android:layout_weight="1"
+                android:alpha="0.3"
+                android:background="@color/white"
+                android:gravity="center"
+                android:text="@string/artist"
+                android:textColor="@color/black"
+                android:textSize="13sp" />
+
+            <View
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:background="@color/common_divider_color" />
+
+            <TextView
+                android:id="@+id/heard_album"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="1dp"
+                android:layout_weight="1"
+                android:alpha="0.3"
+                android:background="@color/white"
+                android:gravity="center"
+                android:text="@string/album"
+                android:textColor="@color/black"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/common_divider_color" />
+    </LinearLayout>
+
+    <cn.tcl.music.view.CrossViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/search_pager_fragment"
+        android:visibility="gone" />
+
+    <com.github.clans.fab.FloatingActionButton
+        android:id="@+id/fab_playing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="12dp"
+        android:layout_marginRight="16dp"
+        android:src="@drawable/icon_floating_button_music"
+        app:fab_colorNormal="@color/black"
+        app:fab_colorPressed="@color/black" />
+
+</RelativeLayout>

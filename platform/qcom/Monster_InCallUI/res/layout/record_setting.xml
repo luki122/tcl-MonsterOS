@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <mst.widget.toolbar.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:layout_alignParentTop="true"
+        android:background="?android:attr/colorPrimary"
+        android:elevation="4dp" />
+
+    <RelativeLayout
+        android:id="@+id/record_history"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/listPreferredItemHeightSmall"
+        android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
+        android:paddingStart="?android:attr/listPreferredItemPaddingStart" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:includeFontPadding="false"
+            android:text="@string/record_history"
+            android:textAppearance="?android:attr/textAppearanceListItemSmall" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_alignParentBottom="true"
+            android:background="@color/item_separator_color" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/auto_record"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
+        android:paddingStart="?android:attr/listPreferredItemPaddingStart" >
+
+        <RelativeLayout
+            android:id="@+id/auto_record_line1"
+            android:layout_width="match_parent"
+            android:layout_height="?android:attr/listPreferredItemHeightSmall"
+            android:layout_alignParentTop="true" >
+
+            <TextView
+                android:id="@+id/auto_record_tv"
+                android:layout_width="143dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:ellipsize="end"
+                android:includeFontPadding="false"
+                android:singleLine="true"
+                android:text="@string/auto_record"
+                android:textAppearance="?android:attr/textAppearanceListItemSmall" />
+
+            <Switch
+                android:id="@+id/auto_record_switch"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true" />
+        </RelativeLayout>
+
+        <RadioGroup
+            android:id="@+id/auto_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/auto_record_line1"
+            android:layout_marginTop="8dp" >
+
+            <RadioButton
+                android:id="@+id/all_record"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:text="@string/record_all_contacts"
+                android:textSize="14sp" />
+
+            <RadioButton
+                android:id="@+id/select_record"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="18dp"
+                android:text="@string/record_select_contact"
+                android:textSize="14sp" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/record_contacts"
+            android:layout_width="143dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/auto_group"
+            android:layout_marginTop="12dp"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:paddingRight="6dp"
+            android:scrollbarFadeDuration="2000"
+            android:scrollbarStyle="outsideOverlay"
+            android:scrollbars="vertical"
+            android:singleLine="false"
+            android:text="@string/auto_record"
+            android:textAppearance="?android:attr/textAppearanceListItemSmall" />
+
+        <TextView
+            android:id="@+id/edit_contacts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/auto_group"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/auto_record_line1"
+            android:layout_marginTop="43dp"
+            android:gravity="right|bottom"
+            android:paddingBottom="6dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:scaleType="center"
+            android:text="@string/menu_editContact"
+            android:textAppearance="?android:attr/textAppearanceListItemSmall" />
+    </RelativeLayout>
+
+</LinearLayout>

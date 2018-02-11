@@ -1,0 +1,41 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion '23.0.1'
+
+    defaultConfig {
+        minSdkVersion 17
+        targetSdkVersion 23
+        multiDexEnabled true
+        compileOptions {
+            sourceCompatibility JavaVersion.VERSION_1_7
+            targetCompatibility JavaVersion.VERSION_1_7
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+
+    useLibrary 'org.apache.http.legacy'
+
+}
+
+dependencies {
+    compile files('libs/androidmidi.jar')
+    compile files('libs/deezer-sdk-0.10.16.jar')
+    compile files('libs/DRMMTK.jar')
+    compile files('libs/DRMQualcomm(1.03).jar')
+    compile files('libs/nineoldandroids-2.4.0.jar')
+    compile files('libs/rdio-android-sdk.jar')
+    compile files('libs/signpost-commonshttp4-1.2.1.1.jar')
+    compile files('libs/signpost-core-1.2.1.1.jar')
+    compile files('libs/SoundcloudWrapper.jar')
+    compile 'com.android.support:design:23.1.0'
+    compile 'com.android.support:support-v4:23.1.0'
+    compile 'com.android.support:recyclerview-v7:23.1.0'
+}

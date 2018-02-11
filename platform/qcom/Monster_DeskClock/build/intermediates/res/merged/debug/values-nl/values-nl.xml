@@ -1,0 +1,718 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="alarm_set">
+    <item msgid="6450913786084215050">"Alarm gaat over minder dan 1 minuut af."</item>
+    <item msgid="6002066367368421848">"Alarm gaat over <ns1:g id="DAYS">%1$s</ns1:g> af."</item>
+    <item msgid="8824719306247973774">"Alarm gaat over <ns1:g id="HOURS">%2$s</ns1:g> af."</item>
+    <item msgid="8182406852935468862">"Alarm gaat over <ns1:g id="DAYS">%1$s</ns1:g> en <ns1:g id="HOURS">%2$s</ns1:g> af."</item>
+    <item msgid="2532279224777213194">"Alarm gaat over <ns1:g id="MINUTES">%3$s</ns1:g> af."</item>
+    <item msgid="5936557894247187717">"Alarm gaat over <ns1:g id="DAYS">%1$s</ns1:g> en <ns1:g id="MINUTES">%3$s</ns1:g> af."</item>
+    <item msgid="9115697840826129603">"Alarm gaat over <ns1:g id="HOURS">%2$s</ns1:g> en <ns1:g id="MINUTES">%3$s</ns1:g> af."</item>
+    <item msgid="2332583385137381060">"Alarm gaat af over <ns1:g id="DAYS">%1$s</ns1:g>, <ns1:g id="HOURS">%2$s</ns1:g> en <ns1:g id="MINUTES">%3$s</ns1:g>."</item>
+  </string-array>
+    <string-array name="auto_silence_entries">
+    <item msgid="3024545954917711306">"1 minuut"</item>
+    <item msgid="5431906692406316549">"5 minuten"</item>
+    <item msgid="7742728812068919959">"10 minuten"</item>
+    <item msgid="2855948657259647629">"15 minuten"</item>
+    <item msgid="6330196381284475079">"20 minuten"</item>
+    <item msgid="7809240121716151904">"25 minuten"</item>
+    <item msgid="4278641338024561333">"Nooit"</item>
+  </string-array>
+    <string-array name="cities_names">
+    <item msgid="4653806289288974388">"A<ns1:g id="SEPARATOR">=</ns1:g>Abidjan"</item>
+    <item msgid="4864167603178202155">"A<ns1:g id="SEPARATOR">=</ns1:g>Accra"</item>
+    <item msgid="6478898553803167749">"A<ns1:g id="SEPARATOR">=</ns1:g>Addis Abeba"</item>
+    <item msgid="5618029992528436448">"A<ns1:g id="SEPARATOR">=</ns1:g>Algiers"</item>
+    <item msgid="2906834750114790793">"B<ns1:g id="SEPARATOR">=</ns1:g>Blantyre"</item>
+    <item msgid="8153571933836629863">"B<ns1:g id="SEPARATOR">=</ns1:g>Brazzaville"</item>
+    <item msgid="3703129580594640833">"C<ns1:g id="SEPARATOR">=</ns1:g>Caïro"</item>
+    <item msgid="2300915410194647320">"C<ns1:g id="SEPARATOR">=</ns1:g>Casablanca"</item>
+    <item msgid="1217039002304887948">"C<ns1:g id="SEPARATOR">=</ns1:g>Conakry"</item>
+    <item msgid="8775104707806220928">"D<ns1:g id="SEPARATOR">=</ns1:g>Dakar"</item>
+    <item msgid="5948764589113643811">"D<ns1:g id="SEPARATOR">=</ns1:g>Dar es Salaam"</item>
+    <item msgid="6306254507715416077">"D<ns1:g id="SEPARATOR">=</ns1:g>Djibouti"</item>
+    <item msgid="4286108029159501866">"F<ns1:g id="SEPARATOR">=</ns1:g>Freetown"</item>
+    <item msgid="4514786733035528116">"G<ns1:g id="SEPARATOR">=</ns1:g>Gaborone"</item>
+    <item msgid="7367496854968219671">"H<ns1:g id="SEPARATOR">=</ns1:g>Harare"</item>
+    <item msgid="6837746379726020288">"J<ns1:g id="SEPARATOR">=</ns1:g>Johannesburg"</item>
+    <item msgid="6284185156591171506">"K<ns1:g id="SEPARATOR">=</ns1:g>Kampala"</item>
+    <item msgid="3299518884693668985">"K<ns1:g id="SEPARATOR">=</ns1:g>Khartoem"</item>
+    <item msgid="4614879508966043969">"K<ns1:g id="SEPARATOR">=</ns1:g>Kigali"</item>
+    <item msgid="8878437043772547732">"K<ns1:g id="SEPARATOR">=</ns1:g>Kinshasa"</item>
+    <item msgid="6325601635544067909">"L<ns1:g id="SEPARATOR">=</ns1:g>Lagos"</item>
+    <item msgid="6094357506290323524">"M<ns1:g id="SEPARATOR">=</ns1:g>Maseru"</item>
+    <item msgid="7270525814400329098">"M<ns1:g id="SEPARATOR">=</ns1:g>Mogadishu"</item>
+    <item msgid="353110101402547540">"N<ns1:g id="SEPARATOR">=</ns1:g>Nairobi"</item>
+    <item msgid="1688121892646984549">"S<ns1:g id="SEPARATOR">=</ns1:g>São Tomé"</item>
+    <item msgid="3642219084651687800">"T<ns1:g id="SEPARATOR">=</ns1:g>Timboektoe"</item>
+    <item msgid="7287513493631179463">"T<ns1:g id="SEPARATOR">=</ns1:g>Tripoli"</item>
+    <item msgid="5052614613671591560">"T<ns1:g id="SEPARATOR">=</ns1:g>Tunis"</item>
+    <item msgid="7976303179193839859">"A<ns1:g id="SEPARATOR">=</ns1:g>Anchorage"</item>
+    <item msgid="193703779380497120">"M<ns1:g id="SEPARATOR">=</ns1:g>Mendoza"</item>
+    <item msgid="5448884981082519628">"A<ns1:g id="SEPARATOR">=</ns1:g>Aruba"</item>
+    <item msgid="1577938273323914773">"A<ns1:g id="SEPARATOR">=</ns1:g>Asunción"</item>
+    <item msgid="5617155978105010520">"B<ns1:g id="SEPARATOR">=</ns1:g>Barbados"</item>
+    <item msgid="3600025702357376322">"B<ns1:g id="SEPARATOR">=</ns1:g>Belize"</item>
+    <item msgid="2847679817118467051">"B<ns1:g id="SEPARATOR">=</ns1:g>Bogotá"</item>
+    <item msgid="9029003541681282929">"B<ns1:g id="SEPARATOR">=</ns1:g>Buenos Aires"</item>
+    <item msgid="2338367960332622522">"C<ns1:g id="SEPARATOR">=</ns1:g>Cancún"</item>
+    <item msgid="4339797536047170278">"C<ns1:g id="SEPARATOR">=</ns1:g>Caracas"</item>
+    <item msgid="9199080438977757863">"K<ns1:g id="SEPARATOR">=</ns1:g>Kaaimaneilanden"</item>
+    <item msgid="1993203473281589891">"C<ns1:g id="SEPARATOR">=</ns1:g>Chicago"</item>
+    <item msgid="7990342776303470263">"C<ns1:g id="SEPARATOR">=</ns1:g>Costa Rica"</item>
+    <item msgid="5676109900908808628">"C<ns1:g id="SEPARATOR">=</ns1:g>Curaçao"</item>
+    <item msgid="5519120432577564812">"D<ns1:g id="SEPARATOR">=</ns1:g>Dawson Creek"</item>
+    <item msgid="2126228972377380680">"D<ns1:g id="SEPARATOR">=</ns1:g>Denver"</item>
+    <item msgid="3298410632922319193">"D<ns1:g id="SEPARATOR">=</ns1:g>Detroit"</item>
+    <item msgid="2819032085688382805">"D<ns1:g id="SEPARATOR">=</ns1:g>Dominica"</item>
+    <item msgid="6170433208654553821">"E<ns1:g id="SEPARATOR">=</ns1:g>Edmonton"</item>
+    <item msgid="795461860173291499">"E<ns1:g id="SEPARATOR">=</ns1:g>El Salvador"</item>
+    <item msgid="7872196528637597794">"F<ns1:g id="SEPARATOR">=</ns1:g>Fortaleza"</item>
+    <item msgid="5801558418916235541">"G<ns1:g id="SEPARATOR">=</ns1:g>Grand Turk"</item>
+    <item msgid="2103759276235503048">"G<ns1:g id="SEPARATOR">=</ns1:g>Grenada"</item>
+    <item msgid="1490069759176391533">"G<ns1:g id="SEPARATOR">=</ns1:g>Guatemala"</item>
+    <item msgid="525959305652046261">"G<ns1:g id="SEPARATOR">=</ns1:g>Guyana"</item>
+    <item msgid="7565596629973190931">"H<ns1:g id="SEPARATOR">=</ns1:g>Halifax"</item>
+    <item msgid="3811169155065582644">"H<ns1:g id="SEPARATOR">=</ns1:g>Havana"</item>
+    <item msgid="3733555435078090201">"I<ns1:g id="SEPARATOR">=</ns1:g>Indianapolis"</item>
+    <item msgid="226982663848410981">"K<ns1:g id="SEPARATOR">=</ns1:g>Knox"</item>
+    <item msgid="3815293080342229459">"M<ns1:g id="SEPARATOR">=</ns1:g>Marengo"</item>
+    <item msgid="6594853515451547389">"P<ns1:g id="SEPARATOR">=</ns1:g>Petersburg"</item>
+    <item msgid="6091571889213283534">"T<ns1:g id="SEPARATOR">=</ns1:g>Tell City"</item>
+    <item msgid="3089369312058696669">"V<ns1:g id="SEPARATOR">=</ns1:g>Vevay"</item>
+    <item msgid="1334860422444068943">"V<ns1:g id="SEPARATOR">=</ns1:g>Vincennes"</item>
+    <item msgid="7775105082093691756">"W<ns1:g id="SEPARATOR">=</ns1:g>Winamac"</item>
+    <item msgid="4043335541899184547">"K<ns1:g id="SEPARATOR">=</ns1:g>Kingston"</item>
+    <item msgid="1063757593477259280">"N<ns1:g id="SEPARATOR">=</ns1:g>Nuestra Señora de La Paz"</item>
+    <item msgid="349901732062388869">"L<ns1:g id="SEPARATOR">=</ns1:g>Lima"</item>
+    <item msgid="4977592519316837842">"L<ns1:g id="SEPARATOR">=</ns1:g>Los Angeles"</item>
+    <item msgid="7713051790509638572">"L<ns1:g id="SEPARATOR">=</ns1:g>Louisville"</item>
+    <item msgid="8460620935898405225">"M<ns1:g id="SEPARATOR">=</ns1:g>Managua"</item>
+    <item msgid="8328345293081464192">"M<ns1:g id="SEPARATOR">=</ns1:g>Martinique"</item>
+    <item msgid="8010357327448619637">"M<ns1:g id="SEPARATOR">=</ns1:g>Mendoza"</item>
+    <item msgid="2046777213916219253">"M<ns1:g id="SEPARATOR">=</ns1:g>Metlakatla"</item>
+    <item msgid="2227885609632709258">"M<ns1:g id="SEPARATOR">=</ns1:g>Mexico-stad"</item>
+    <item msgid="9089629663998569289">"M<ns1:g id="SEPARATOR">=</ns1:g>Monterrey"</item>
+    <item msgid="2782276175306930748">"M<ns1:g id="SEPARATOR">=</ns1:g>Montevideo"</item>
+    <item msgid="4942386959622269480">"M<ns1:g id="SEPARATOR">=</ns1:g>Montreal"</item>
+    <item msgid="3068203952968918165">"N<ns1:g id="SEPARATOR">=</ns1:g>Nassau"</item>
+    <item msgid="4234515454127289962">"N<ns1:g id="SEPARATOR">=</ns1:g>New York"</item>
+    <item msgid="1660551302087304308">"B<ns1:g id="SEPARATOR">=</ns1:g>Beulah"</item>
+    <item msgid="415823390775449071">"C<ns1:g id="SEPARATOR">=</ns1:g>Center"</item>
+    <item msgid="6644186958433380884">"N<ns1:g id="SEPARATOR">=</ns1:g>New Salem"</item>
+    <item msgid="6408587617047971798">"P<ns1:g id="SEPARATOR">=</ns1:g>Panama"</item>
+    <item msgid="5576899364199447991">"P<ns1:g id="SEPARATOR">=</ns1:g>Phoenix"</item>
+    <item msgid="5541266909095409447">"P<ns1:g id="SEPARATOR">=</ns1:g>Port of Spain"</item>
+    <item msgid="6417519313622785932">"P<ns1:g id="SEPARATOR">=</ns1:g>Port-au-Prince"</item>
+    <item msgid="2078589249210571366">"P<ns1:g id="SEPARATOR">=</ns1:g>Puerto Rico"</item>
+    <item msgid="8522030474373927681">"S<ns1:g id="SEPARATOR">=</ns1:g>Santo Domingo"</item>
+    <item msgid="4763853453317431594">"S<ns1:g id="SEPARATOR">=</ns1:g>São Paulo"</item>
+    <item msgid="2713153284784311646">"S<ns1:g id="SEPARATOR">=</ns1:g>St. Johns"</item>
+    <item msgid="8252666620333105271">"S<ns1:g id="SEPARATOR">=</ns1:g>St. Kitts"</item>
+    <item msgid="4851597775036027515">"S<ns1:g id="SEPARATOR">=</ns1:g>St. Lucia"</item>
+    <item msgid="2395485473100271503">"S<ns1:g id="SEPARATOR">=</ns1:g>St. Thomas"</item>
+    <item msgid="4148037555658225145">"T<ns1:g id="SEPARATOR">=</ns1:g>Tijuana"</item>
+    <item msgid="3491199166042475853">"T<ns1:g id="SEPARATOR">=</ns1:g>Toronto"</item>
+    <item msgid="1506838283840737263">"V<ns1:g id="SEPARATOR">=</ns1:g>Vancouver"</item>
+    <item msgid="8935386104773857399">"W<ns1:g id="SEPARATOR">=</ns1:g>Winnipeg"</item>
+    <item msgid="1132634022412399582">"Z<ns1:g id="SEPARATOR">=</ns1:g>Zuidpool"</item>
+    <item msgid="4076962667198039206">"L<ns1:g id="SEPARATOR">=</ns1:g>Longyearbyen"</item>
+    <item msgid="3784788073896028355">"A<ns1:g id="SEPARATOR">=</ns1:g>Alma-Ata"</item>
+    <item msgid="7895695236056852523">"A<ns1:g id="SEPARATOR">=</ns1:g>Amman"</item>
+    <item msgid="1795426532295280371">"A<ns1:g id="SEPARATOR">=</ns1:g>Anadyr"</item>
+    <item msgid="7194236926158343552">"A<ns1:g id="SEPARATOR">=</ns1:g>Aqtau"</item>
+    <item msgid="4796350130854360870">"B<ns1:g id="SEPARATOR">=</ns1:g>Bagdad"</item>
+    <item msgid="4020105434451091851">"B<ns1:g id="SEPARATOR">=</ns1:g>Bahrein"</item>
+    <item msgid="3895868797052686484">"B<ns1:g id="SEPARATOR">=</ns1:g>Bakoe"</item>
+    <item msgid="228001522630057957">"B<ns1:g id="SEPARATOR">=</ns1:g>Bangkok"</item>
+    <item msgid="5555647809114820537">"B<ns1:g id="SEPARATOR">=</ns1:g>Beiroet"</item>
+    <item msgid="2960873998178478784">"C<ns1:g id="SEPARATOR">=</ns1:g>Calcutta"</item>
+    <item msgid="8765555959722950691">"D<ns1:g id="SEPARATOR">=</ns1:g>Damascus"</item>
+    <item msgid="4979709428925196546">"D<ns1:g id="SEPARATOR">=</ns1:g>Dhaka"</item>
+    <item msgid="310419600200885308">"D<ns1:g id="SEPARATOR">=</ns1:g>Dubai"</item>
+    <item msgid="1203379132329159260">"G<ns1:g id="SEPARATOR">=</ns1:g>Gaza"</item>
+    <item msgid="2359068282340162319">"H<ns1:g id="SEPARATOR">=</ns1:g>Hebron"</item>
+    <item msgid="6223396610551759129">"H<ns1:g id="SEPARATOR">=</ns1:g>Ho Chi Minhstad"</item>
+    <item msgid="4731022818651322736">"H<ns1:g id="SEPARATOR">=</ns1:g>Hongkong"</item>
+    <item msgid="8104778702069607166">"I<ns1:g id="SEPARATOR">=</ns1:g>Istanboel"</item>
+    <item msgid="758800913783999425">"J<ns1:g id="SEPARATOR">=</ns1:g>Jakarta"</item>
+    <item msgid="8956406398692698126">"J<ns1:g id="SEPARATOR">=</ns1:g>Jeruzalem"</item>
+    <item msgid="1664426577433326419">"K<ns1:g id="SEPARATOR">=</ns1:g>Kabul"</item>
+    <item msgid="7700349511508357396">"K<ns1:g id="SEPARATOR">=</ns1:g>Karachi"</item>
+    <item msgid="5273241794521591984">"K<ns1:g id="SEPARATOR">=</ns1:g>Kathmandu"</item>
+    <item msgid="4754850915168634158">"K<ns1:g id="SEPARATOR">=</ns1:g>Kuala Lumpur"</item>
+    <item msgid="5187849635785055693">"K<ns1:g id="SEPARATOR">=</ns1:g>Koeweit"</item>
+    <item msgid="2923385979252179376">"M<ns1:g id="SEPARATOR">=</ns1:g>Macau"</item>
+    <item msgid="722458682107911739">"M<ns1:g id="SEPARATOR">=</ns1:g>Manilla"</item>
+    <item msgid="6033964325069060422">"M<ns1:g id="SEPARATOR">=</ns1:g>Muscat"</item>
+    <item msgid="6077458941399984780">"P<ns1:g id="SEPARATOR">=</ns1:g>Phnom Penh"</item>
+    <item msgid="935474308903572975">"P<ns1:g id="SEPARATOR">=</ns1:g>Pyongyang"</item>
+    <item msgid="5336632319992664889">"Q<ns1:g id="SEPARATOR">=</ns1:g>Qatar"</item>
+    <item msgid="1667243110545095146">"R<ns1:g id="SEPARATOR">=</ns1:g>Rangoon"</item>
+    <item msgid="4460370766685855731">"R<ns1:g id="SEPARATOR">=</ns1:g>Riyad"</item>
+    <item msgid="4229224905931739201">"S<ns1:g id="SEPARATOR">=</ns1:g>Saigon"</item>
+    <item msgid="8705359848250215620">"S<ns1:g id="SEPARATOR">=</ns1:g>Seoel"</item>
+    <item msgid="583367295371395814">"S<ns1:g id="SEPARATOR">=</ns1:g>Shanghai"</item>
+    <item msgid="1422156732794771136">"S<ns1:g id="SEPARATOR">=</ns1:g>Singapore"</item>
+    <item msgid="1972491729911039207">"T<ns1:g id="SEPARATOR">=</ns1:g>Taipei"</item>
+    <item msgid="5563193560935461106">"T<ns1:g id="SEPARATOR">=</ns1:g>Teheran"</item>
+    <item msgid="8629402941285674273">"T<ns1:g id="SEPARATOR">=</ns1:g>Tel Aviv"</item>
+    <item msgid="8499164674454654525">"T<ns1:g id="SEPARATOR">=</ns1:g>Tokio"</item>
+    <item msgid="1705804745888992744">"U<ns1:g id="SEPARATOR">=</ns1:g>Ulaanbaatar"</item>
+    <item msgid="2028626988021468640">"B<ns1:g id="SEPARATOR">=</ns1:g>Bermuda"</item>
+    <item msgid="4527109966513690429">"C<ns1:g id="SEPARATOR">=</ns1:g>Canarische Eilanden"</item>
+    <item msgid="4886308317040330383">"K<ns1:g id="SEPARATOR">=</ns1:g>Kaapverdië"</item>
+    <item msgid="1003307362164178007">"R<ns1:g id="SEPARATOR">=</ns1:g>Reykjavik"</item>
+    <item msgid="6742010412815268657">"S<ns1:g id="SEPARATOR">=</ns1:g>Stanley"</item>
+    <item msgid="5659389449738592757">"A<ns1:g id="SEPARATOR">=</ns1:g>Adelaide"</item>
+    <item msgid="4567804576346784523">"B<ns1:g id="SEPARATOR">=</ns1:g>Brisbane"</item>
+    <item msgid="8730590400362815585">"C<ns1:g id="SEPARATOR">=</ns1:g>Canberra"</item>
+    <item msgid="6416990927714140153">"D<ns1:g id="SEPARATOR">=</ns1:g>Darwin"</item>
+    <item msgid="3073969292696516135">"M<ns1:g id="SEPARATOR">=</ns1:g>Melbourne"</item>
+    <item msgid="1719286228375722176">"N<ns1:g id="SEPARATOR">=</ns1:g>Nieuw-Zuid-Wales"</item>
+    <item msgid="3663940748056976266">"P<ns1:g id="SEPARATOR">=</ns1:g>Perth"</item>
+    <item msgid="3383881736858438153">"Q<ns1:g id="SEPARATOR">=</ns1:g>Queensland"</item>
+    <item msgid="971889339240879138">"S<ns1:g id="SEPARATOR">=</ns1:g>Sydney"</item>
+    <item msgid="5542803438162180311">"V<ns1:g id="SEPARATOR">=</ns1:g>Victoria"</item>
+    <item msgid="11828841481838883">"N<ns1:g id="SEPARATOR">=</ns1:g>Newfoundland"</item>
+    <item msgid="1734331918410561807">"S<ns1:g id="SEPARATOR">=</ns1:g>Saskatchewan"</item>
+    <item msgid="9184412695613864979">"P<ns1:g id="SEPARATOR">=</ns1:g>Paaseiland"</item>
+    <item msgid="1014282454239014527">"A<ns1:g id="SEPARATOR">=</ns1:g>Amsterdam"</item>
+    <item msgid="4928363054269791193">"A<ns1:g id="SEPARATOR">=</ns1:g>Andorra"</item>
+    <item msgid="912290900213826368">"A<ns1:g id="SEPARATOR">=</ns1:g>Athene"</item>
+    <item msgid="6097000352459209495">"B<ns1:g id="SEPARATOR">=</ns1:g>Belfast"</item>
+    <item msgid="3285885824311481790">"B<ns1:g id="SEPARATOR">=</ns1:g>Belgrado"</item>
+    <item msgid="911055049821251982">"B<ns1:g id="SEPARATOR">=</ns1:g>Berlijn"</item>
+    <item msgid="9099244516556291111">"B<ns1:g id="SEPARATOR">=</ns1:g>Bratislava"</item>
+    <item msgid="158977749726480076">"B<ns1:g id="SEPARATOR">=</ns1:g>Brussel"</item>
+    <item msgid="8875102297676173346">"B<ns1:g id="SEPARATOR">=</ns1:g>Boekarest"</item>
+    <item msgid="804451569472542912">"B<ns1:g id="SEPARATOR">=</ns1:g>Boedapest"</item>
+    <item msgid="6827506774445509939">"C<ns1:g id="SEPARATOR">=</ns1:g>Chisinau"</item>
+    <item msgid="487345893088732797">"K<ns1:g id="SEPARATOR">=</ns1:g>Kopenhagen"</item>
+    <item msgid="7760953471297773537">"D<ns1:g id="SEPARATOR">=</ns1:g>Dublin"</item>
+    <item msgid="323414429034825249">"G<ns1:g id="SEPARATOR">=</ns1:g>Gibraltar"</item>
+    <item msgid="1785566206078328830">"H<ns1:g id="SEPARATOR">=</ns1:g>Helsinki"</item>
+    <item msgid="5938185647271923359">"I<ns1:g id="SEPARATOR">=</ns1:g>Isle of Man"</item>
+    <item msgid="5974864320735263245">"I<ns1:g id="SEPARATOR">=</ns1:g>Istanboel"</item>
+    <item msgid="3567775364750772947">"K<ns1:g id="SEPARATOR">=</ns1:g>Kiev"</item>
+    <item msgid="540344101798867007">"L<ns1:g id="SEPARATOR">=</ns1:g>Lissabon"</item>
+    <item msgid="5091062403792923657">"L<ns1:g id="SEPARATOR">=</ns1:g>Londen"</item>
+    <item msgid="7075006205000490364">"L<ns1:g id="SEPARATOR">=</ns1:g>Luxemburg"</item>
+    <item msgid="4901781246584739451">"M<ns1:g id="SEPARATOR">=</ns1:g>Madrid"</item>
+    <item msgid="9047080834315777144">"M<ns1:g id="SEPARATOR">=</ns1:g>Malta"</item>
+    <item msgid="8200456520732452034">"M<ns1:g id="SEPARATOR">=</ns1:g>Minsk"</item>
+    <item msgid="5452744619736513383">"M<ns1:g id="SEPARATOR">=</ns1:g>Monaco"</item>
+    <item msgid="3513517408062322298">"M<ns1:g id="SEPARATOR">=</ns1:g>Moskou"</item>
+    <item msgid="7917103295878081674">"O<ns1:g id="SEPARATOR">=</ns1:g>Oslo"</item>
+    <item msgid="4245547231693746977">"P<ns1:g id="SEPARATOR">=</ns1:g>Parijs"</item>
+    <item msgid="3778652900196715557">"P<ns1:g id="SEPARATOR">=</ns1:g>Praag"</item>
+    <item msgid="1827175423974383675">"R<ns1:g id="SEPARATOR">=</ns1:g>Riga"</item>
+    <item msgid="2095130417232677930">"R<ns1:g id="SEPARATOR">=</ns1:g>Rome"</item>
+    <item msgid="7631654618289353520">"S<ns1:g id="SEPARATOR">=</ns1:g>San Marino"</item>
+    <item msgid="7219835179107610398">"S<ns1:g id="SEPARATOR">=</ns1:g>Sarajevo"</item>
+    <item msgid="7199868165463282240">"S<ns1:g id="SEPARATOR">=</ns1:g>Simferopol"</item>
+    <item msgid="2786395006682246794">"S<ns1:g id="SEPARATOR">=</ns1:g>Skopje"</item>
+    <item msgid="4706927178872100023">"S<ns1:g id="SEPARATOR">=</ns1:g>Sofia"</item>
+    <item msgid="1982417589953195308">"S<ns1:g id="SEPARATOR">=</ns1:g>Stockholm"</item>
+    <item msgid="1596083919400921960">"T<ns1:g id="SEPARATOR">=</ns1:g>Tallinn"</item>
+    <item msgid="3079313598974879114">"V<ns1:g id="SEPARATOR">=</ns1:g>Vaticaanstad"</item>
+    <item msgid="6516636001856910888">"W<ns1:g id="SEPARATOR">=</ns1:g>Wenen"</item>
+    <item msgid="6377314532157945456">"V<ns1:g id="SEPARATOR">=</ns1:g>Vilnius"</item>
+    <item msgid="3427175235616698721">"W<ns1:g id="SEPARATOR">=</ns1:g>Warschau"</item>
+    <item msgid="8404354243761332922">"Z<ns1:g id="SEPARATOR">=</ns1:g>Zagreb"</item>
+    <item msgid="1457280242717152391">"Z<ns1:g id="SEPARATOR">=</ns1:g>Zürich"</item>
+    <item msgid="1065940089741359291">"A<ns1:g id="SEPARATOR">=</ns1:g>Antananarivo"</item>
+    <item msgid="5176181880014090003">"M<ns1:g id="SEPARATOR">=</ns1:g>Maldiven"</item>
+    <item msgid="8281854645557426433">"M<ns1:g id="SEPARATOR">=</ns1:g>Mauritius"</item>
+    <item msgid="2686249517389816420">"A<ns1:g id="SEPARATOR">=</ns1:g>Auckland"</item>
+    <item msgid="279925671775807392">"F<ns1:g id="SEPARATOR">=</ns1:g>Fiji"</item>
+    <item msgid="7971492669765264840">"G<ns1:g id="SEPARATOR">=</ns1:g>Guam"</item>
+    <item msgid="889371273355762733">"H<ns1:g id="SEPARATOR">=</ns1:g>Honolulu"</item>
+    <item msgid="5516500578074269817">"K<ns1:g id="SEPARATOR">=</ns1:g>Kiritimati"</item>
+    <item msgid="2740704911915073056">"N<ns1:g id="SEPARATOR">=</ns1:g>Nouméa"</item>
+    <item msgid="8732832728949672807">"S<ns1:g id="SEPARATOR">=</ns1:g>Samoa"</item>
+    <item msgid="6489500698846864993">"T<ns1:g id="SEPARATOR">=</ns1:g>Tahiti"</item>
+    <item msgid="3983121625709442324">"A<ns1:g id="SEPARATOR">=</ns1:g>Antigua"</item>
+    <item msgid="2650510570709806322">"A<ns1:g id="SEPARATOR">=</ns1:g>Austin"</item>
+    <item msgid="5257283506227357911">"B<ns1:g id="SEPARATOR">=</ns1:g>Boston"</item>
+    <item msgid="6326368958641850267">"C<ns1:g id="SEPARATOR">=</ns1:g>Calgary"</item>
+    <item msgid="8830116365016232583">"C<ns1:g id="SEPARATOR">=</ns1:g>Columbus"</item>
+    <item msgid="6986556538341883811">"D<ns1:g id="SEPARATOR">=</ns1:g>Dallas"</item>
+    <item msgid="836479352500251902">"K<ns1:g id="SEPARATOR">=</ns1:g>Knoxville"</item>
+    <item msgid="8495291458467378851">"M<ns1:g id="SEPARATOR">=</ns1:g>Memphis"</item>
+    <item msgid="2788807207554683122">"M<ns1:g id="SEPARATOR">=</ns1:g>Miami"</item>
+    <item msgid="3984640407077208471">"M<ns1:g id="SEPARATOR">=</ns1:g>Minneapolis"</item>
+    <item msgid="6997305266329324161">"O<ns1:g id="SEPARATOR">=</ns1:g>Ottawa"</item>
+    <item msgid="5191741145278683016">"P<ns1:g id="SEPARATOR">=</ns1:g>Philadelphia"</item>
+    <item msgid="5898032730733441936">"P<ns1:g id="SEPARATOR">=</ns1:g>Portland"</item>
+    <item msgid="9070160716002203069">"S<ns1:g id="SEPARATOR">=</ns1:g>San Diego"</item>
+    <item msgid="1829944133410079040">"S<ns1:g id="SEPARATOR">=</ns1:g>San Francisco"</item>
+    <item msgid="8407905318529692654">"S<ns1:g id="SEPARATOR">=</ns1:g>Salt Lake City"</item>
+    <item msgid="3091392589347990898">"S<ns1:g id="SEPARATOR">=</ns1:g>San Jose"</item>
+    <item msgid="7080627414383807284">"S<ns1:g id="SEPARATOR">=</ns1:g>San Salvador"</item>
+    <item msgid="3430371213266252049">"S<ns1:g id="SEPARATOR">=</ns1:g>Seattle"</item>
+    <item msgid="9177491393818757071">"S<ns1:g id="SEPARATOR">=</ns1:g>St. Louis"</item>
+    <item msgid="6234359686676312837">"W<ns1:g id="SEPARATOR">=</ns1:g>Washington D.C."</item>
+    <item msgid="4325057056005132331">"H<ns1:g id="SEPARATOR">=</ns1:g>Houston"</item>
+    <item msgid="38148255938075867">"S<ns1:g id="SEPARATOR">=</ns1:g>San Antonio"</item>
+    <item msgid="3601481860893666763">"J<ns1:g id="SEPARATOR">=</ns1:g>Jacksonville"</item>
+    <item msgid="3987471437354665534">"B<ns1:g id="SEPARATOR">=</ns1:g>Baltimore"</item>
+    <item msgid="3389674262267006887">"N<ns1:g id="SEPARATOR">=</ns1:g>Nashville"</item>
+    <item msgid="7521690366448637309">"M<ns1:g id="SEPARATOR">=</ns1:g>Milwaukee"</item>
+    <item msgid="2231069593975740859">"O<ns1:g id="SEPARATOR">=</ns1:g>Oklahoma City"</item>
+    <item msgid="1970008262236914770">"L<ns1:g id="SEPARATOR">=</ns1:g>Las Vegas"</item>
+    <item msgid="7113811028304266017">"A<ns1:g id="SEPARATOR">=</ns1:g>Albuquerque"</item>
+    <item msgid="6481469458896644678">"T<ns1:g id="SEPARATOR">=</ns1:g>Tucson"</item>
+    <item msgid="5970857542995467466">"S<ns1:g id="SEPARATOR">=</ns1:g>Sacramento"</item>
+    <item msgid="1999267306329214429">"A<ns1:g id="SEPARATOR">=</ns1:g>Atlanta"</item>
+    <item msgid="8761847787537443648">"C<ns1:g id="SEPARATOR">=</ns1:g>Cleveland"</item>
+    <item msgid="2987455647692324208">"N<ns1:g id="SEPARATOR">=</ns1:g>New Orleans"</item>
+    <item msgid="8104109426412705845">"T<ns1:g id="SEPARATOR">=</ns1:g>Tampa"</item>
+    <item msgid="1410067233842240795">"P<ns1:g id="SEPARATOR">=</ns1:g>Pittsburgh"</item>
+    <item msgid="3339955740367374442">"C<ns1:g id="SEPARATOR">=</ns1:g>Cincinnati"</item>
+    <item msgid="6091407424772799978">"M<ns1:g id="SEPARATOR">=</ns1:g>Mountain View"</item>
+    <item msgid="150299708499753555">"R<ns1:g id="SEPARATOR">=</ns1:g>Reno"</item>
+    <item msgid="9155068631060038769">"B<ns1:g id="SEPARATOR">=</ns1:g>Black Rock City"</item>
+    <item msgid="8498761319928979900">"D<ns1:g id="SEPARATOR">=</ns1:g>Doha"</item>
+    <item msgid="8307897251088048641">"B<ns1:g id="SEPARATOR">=</ns1:g>Beijing"</item>
+    <item msgid="8605970953750147428">"M<ns1:g id="SEPARATOR">=</ns1:g>Mumbai"</item>
+    <item msgid="6668274273067049125">"D<ns1:g id="SEPARATOR">=</ns1:g>Delhi"</item>
+    <item msgid="2933410189478233292">"O<ns1:g id="SEPARATOR">=</ns1:g>Osaka"</item>
+    <item msgid="9011026093638055579">"L<ns1:g id="SEPARATOR">=</ns1:g>Lahore"</item>
+    <item msgid="1448378291805481500">"S<ns1:g id="SEPARATOR">=</ns1:g>Sana\'a"</item>
+    <item msgid="5233119846682408301">"B<ns1:g id="SEPARATOR">=</ns1:g>Barcelona"</item>
+    <item msgid="9146746514265554721">"M<ns1:g id="SEPARATOR">=</ns1:g>München"</item>
+    <item msgid="157866084892734979">"M<ns1:g id="SEPARATOR">=</ns1:g>Milaan"</item>
+    <item msgid="2787346322341414963">"F<ns1:g id="SEPARATOR">=</ns1:g>Frankfurt"</item>
+    <item msgid="8407511504088696581">"H<ns1:g id="SEPARATOR">=</ns1:g>Hanoi"</item>
+    <item msgid="5184417944073499453">"A<ns1:g id="SEPARATOR">=</ns1:g>Ankara"</item>
+    <item msgid="4028784954452197920">"B<ns1:g id="SEPARATOR">=</ns1:g>Bangalore"</item>
+    <item msgid="190152483600862776">"B<ns1:g id="SEPARATOR">=</ns1:g>Brasília"</item>
+    <item msgid="8009516135735104388">"K<ns1:g id="SEPARATOR">=</ns1:g>Kaapstad"</item>
+    <item msgid="6057191797622953016">"I<ns1:g id="SEPARATOR">=</ns1:g>Islamabad"</item>
+    <item msgid="2702029416591153210">"R<ns1:g id="SEPARATOR">=</ns1:g>Rio de Janeiro"</item>
+    <item msgid="1753927312634708098">"A<ns1:g id="SEPARATOR">=</ns1:g>Ann Arbor"</item>
+    <item msgid="4225721108475278979">"B<ns1:g id="SEPARATOR">=</ns1:g>Boulder"</item>
+    <item msgid="6393177386755796069">"C<ns1:g id="SEPARATOR">=</ns1:g>Cambridge"</item>
+    <item msgid="759409010285366934">"K<ns1:g id="SEPARATOR">=</ns1:g>Kirkland"</item>
+    <item msgid="6308007059287569663">"M<ns1:g id="SEPARATOR">=</ns1:g>Madison"</item>
+    <item msgid="6971636434858330021">"G<ns1:g id="SEPARATOR">=</ns1:g>Guangzhou"</item>
+    <item msgid="1185109514180068650">"H<ns1:g id="SEPARATOR">=</ns1:g>Haiderabad"</item>
+    <item msgid="3032295682584784261">"R<ns1:g id="SEPARATOR">=</ns1:g>Reston"</item>
+    <item msgid="7722837296297332268">"B<ns1:g id="SEPARATOR">=</ns1:g>Belo Horizonte"</item>
+    <item msgid="3593516299122577780">"S<ns1:g id="SEPARATOR">=</ns1:g>Santiago"</item>
+    <item msgid="2293331653589266583">"M<ns1:g id="SEPARATOR">=</ns1:g>Monrovia"</item>
+    <item msgid="7899128359620301710">"C<ns1:g id="SEPARATOR">=</ns1:g>Colombo"</item>
+    <item msgid="5294489752262543829">"C<ns1:g id="SEPARATOR">=</ns1:g>Chihuahua"</item>
+    <item msgid="8066356061184206341">"S<ns1:g id="SEPARATOR">=</ns1:g>Salvador"</item>
+    <item msgid="4806867741334453982">"G<ns1:g id="SEPARATOR">=</ns1:g>Gurgaon"</item>
+    <item msgid="2585780177649876827">"M<ns1:g id="SEPARATOR">=</ns1:g>Manchester"</item>
+    <item msgid="234104953526248139">"K<ns1:g id="SEPARATOR">=</ns1:g>Kiev"</item>
+    <item msgid="5245429461217350012">"S<ns1:g id="SEPARATOR">=</ns1:g>St. Petersburg"</item>
+    <item msgid="6738531308006017215">"K<ns1:g id="SEPARATOR">=</ns1:g>Krakau"</item>
+    <item msgid="8972702613339139467">"W<ns1:g id="SEPARATOR">=</ns1:g>Wroclaw"</item>
+    <item msgid="187278924459096566">"H<ns1:g id="SEPARATOR">=</ns1:g>Hamburg"</item>
+    <item msgid="6173267862207394917">"O<ns1:g id="SEPARATOR">=</ns1:g>Oulu"</item>
+    <item msgid="5639324478037405990">"H<ns1:g id="SEPARATOR">=</ns1:g>Haifa"</item>
+    <item msgid="3157180661352354058">"S<ns1:g id="SEPARATOR">=</ns1:g>San Juan"</item>
+    <item msgid="6995939579417282715">"T<ns1:g id="SEPARATOR">=</ns1:g>Tegucigalpa"</item>
+    <item msgid="1641840677391275004">"P<ns1:g id="SEPARATOR">=</ns1:g>Paramaribo"</item>
+    <item msgid="7317049454800260290">"Q<ns1:g id="SEPARATOR">=</ns1:g>Quito"</item>
+    <item msgid="4524380876433343244">"L<ns1:g id="SEPARATOR">=</ns1:g>Ljubljana"</item>
+  </string-array>
+    <string-array name="clock_style_entries">
+    <item msgid="917900462224167608">"Analoog"</item>
+    <item msgid="8483930821046925592">"Digitaal"</item>
+  </string-array>
+    <string-array name="sw_lap_number_set">
+    <item msgid="2816627565030953899">"Nr. <ns1:g id="NUMBER">%d</ns1:g>"</item>
+    <item msgid="316923361931627987">"Nr. <ns1:g id="NUMBER">%02d</ns1:g>"</item>
+  </string-array>
+    <string-array name="sw_share_strings">
+    <item msgid="842841032273927988">"Je bent wel erg snel."</item>
+    <item msgid="6332879039890727169">"Profiteer van je inspanningen."</item>
+    <item msgid="815382761274660130">"Androids staan bekend om hun snelheid, maar jij bent nog sneller."</item>
+    <item msgid="7916250650982813737">"Oef."</item>
+    <item msgid="6836603904515182333">"Mooie tijden."</item>
+    <item msgid="7508085100680861631">"Wat een wonderbaarlijke snelheid."</item>
+    <item msgid="5961245252909589573">"Laten we weer gaan tijdreizen."</item>
+    <item msgid="5211891900854545940">"Spring gewoon naar links."</item>
+    <item msgid="9071353477103826053">"Haast zit in je aard."</item>
+    <item msgid="3785193933691117181">"Lichtsnelheid."</item>
+  </string-array>
+    <string-array name="timer_notifications">
+    <item msgid="7760558912503484257">"Nog minder dan een minuut"</item>
+    <item msgid="83197792732433351">"Nog <ns1:g id="HOURS">%1$s</ns1:g>"</item>
+    <item msgid="8919698220200894252">"Nog <ns1:g id="MINUTES">%2$s</ns1:g>"</item>
+    <item msgid="8458069283817013813">"Nog <ns1:g id="HOURS">%1$s</ns1:g> en <ns1:g id="MINUTES">%2$s</ns1:g>"</item>
+  </string-array>
+    <string-array name="timezone_labels">
+    <item msgid="5495601234086197399">"Marshalleilanden"</item>
+    <item msgid="4196408495909011020">"Midway Island"</item>
+    <item msgid="1414384194857730006">"Hawaï"</item>
+    <item msgid="2687091371581931926">"Alaska"</item>
+    <item msgid="1922100269679049660">"Pacific Time"</item>
+    <item msgid="7156402158716866161">"Tijuana"</item>
+    <item msgid="1144117502254612241">"Arizona"</item>
+    <item msgid="101284182011722637">"Chihuahua"</item>
+    <item msgid="689121094232986897">"Mountain Time"</item>
+    <item msgid="5445331923942302756">"Centraal-Amerika"</item>
+    <item msgid="2749806434052452351">"Central Time"</item>
+    <item msgid="3997138870229703753">"Mexico-stad"</item>
+    <item msgid="5425567073027744888">"Saskatchewan"</item>
+    <item msgid="2877342865396629368">"Bogotá"</item>
+    <item msgid="568682398893899670">"Eastern Time"</item>
+    <item msgid="668135984541863866">"Venezuela"</item>
+    <item msgid="3737474220861486223">"Atlantic Time (Barbados)"</item>
+    <item msgid="6279116051273436870">"Atlantic Time (Canada)"</item>
+    <item msgid="8513382867172014244">"Manaus"</item>
+    <item msgid="7776299003105932407">"Santiago"</item>
+    <item msgid="8636989494746218677">"Newfoundland"</item>
+    <item msgid="4402541016410147505">"Brasilia"</item>
+    <item msgid="2251184440733164084">"Buenos Aires"</item>
+    <item msgid="6202926618569004969">"Groenland"</item>
+    <item msgid="2355275037115290628">"Montevideo"</item>
+    <item msgid="1377549694711708945">"Midatlantisch"</item>
+    <item msgid="3457671272126347981">"Azoren"</item>
+    <item msgid="3659315141063710840">"Kaapverdië"</item>
+    <item msgid="1260941741802367635">"Casablanca"</item>
+    <item msgid="8275203689687954762">"Londen, Dublin"</item>
+    <item msgid="5970179539479320905">"Amsterdam, Berlijn"</item>
+    <item msgid="5396319478750517962">"Belgrado"</item>
+    <item msgid="8688787475056663004">"Brussel"</item>
+    <item msgid="3415827874921681622">"Sarajevo"</item>
+    <item msgid="402008965928320066">"Windhoek"</item>
+    <item msgid="6436942724959275569">"West-Afrikaanse Tijd"</item>
+    <item msgid="954536568417204026">"Amman, Jordanië"</item>
+    <item msgid="8932745482008902551">"Athene, Istanbul"</item>
+    <item msgid="320025725949024510">"Beiroet, Libanon"</item>
+    <item msgid="7242083112551905970">"Caïro"</item>
+    <item msgid="7241520146011450419">"Helsinki"</item>
+    <item msgid="2717065017510546526">"Jeruzalem"</item>
+    <item msgid="8698556287741466553">"Minsk"</item>
+    <item msgid="1797598357342084506">"Harare"</item>
+    <item msgid="5169119919905066998">"Bagdad"</item>
+    <item msgid="2615788116201065182">"Moskou"</item>
+    <item msgid="9084354867885584646">"Koeweit"</item>
+    <item msgid="1351570519986178268">"Nairobi"</item>
+    <item msgid="7094569580635877460">"Teheran"</item>
+    <item msgid="3953138772617909704">"Bakoe"</item>
+    <item msgid="2868893113598800752">"Tbilisi"</item>
+    <item msgid="7088581865802476373">"Erevan"</item>
+    <item msgid="1941122257623887992">"Dubai"</item>
+    <item msgid="9194797225058249720">"Kabul"</item>
+    <item msgid="6486569254364577332">"Islamabad, Karachi"</item>
+    <item msgid="5487724896895412089">"Oeralsk"</item>
+    <item msgid="364906869710826982">"Jekaterinenburg"</item>
+    <item msgid="2106505051751383358">"Kolkata"</item>
+    <item msgid="6851586621581501447">"Sri Lanka"</item>
+    <item msgid="800438544128213134">"Kathmandu"</item>
+    <item msgid="6173621471007643021">"Astana"</item>
+    <item msgid="8645125891971581128">"Yangon"</item>
+    <item msgid="2886407505119737794">"Krasnoyarsk"</item>
+    <item msgid="3408222398188107090">"Bangkok"</item>
+    <item msgid="4441612937172851228">"Peking"</item>
+    <item msgid="4936715789028996930">"Hongkong"</item>
+    <item msgid="4261031143777385525">"Irkoetsk"</item>
+    <item msgid="3538060959338191835">"Kuala Lumpur"</item>
+    <item msgid="1438847562643099201">"Perth"</item>
+    <item msgid="3063913827688244383">"Taipei"</item>
+    <item msgid="3502757135046564209">"Seoul"</item>
+    <item msgid="6107588684519111669">"Tokio, Osaka"</item>
+    <item msgid="4350769099755608471">"Jakoetsk"</item>
+    <item msgid="2422707004533526462">"Adelaide"</item>
+    <item msgid="1292192084554134339">"Darwin"</item>
+    <item msgid="1320883699470001716">"Brisbane"</item>
+    <item msgid="5137198806146386527">"Hobart"</item>
+    <item msgid="5920063686933941174">"Sydney, Canberra"</item>
+    <item msgid="615906039696009425">"Vladivostok"</item>
+    <item msgid="7738680449356275374">"Guam"</item>
+    <item msgid="2882915026380778227">"Magadan"</item>
+    <item msgid="8255615641810148152">"Auckland"</item>
+    <item msgid="3027153773466391728">"Fiji"</item>
+    <item msgid="5911600083231840181">"Tonga"</item>
+    <item msgid="5176858645450908751">"Jakarta"</item>
+  </string-array>
+    <string-array name="volume_button_setting_entries">
+    <item msgid="7972756698723318690">"Snoozen"</item>
+    <item msgid="3450979320164769576">"Uitzetten"</item>
+    <item msgid="6302517608411378024">"Niets doen"</item>
+  </string-array>
+    <string-array name="week_start_entries">
+    <item msgid="9010198173394482639">"Zaterdag"</item>
+    <item msgid="3993530639455360921">"Zondag"</item>
+    <item msgid="8594709368683324282">"Maandag"</item>
+  </string-array>
+    <plurals formatted="false" msgid="4539186407746763655" name="Nhours_description">
+      <item quantity="other"><ns1:g id="NUMBER">%d</ns1:g> uur</item>
+      <item quantity="one">1 uur</item>
+    </plurals>
+    <plurals formatted="false" msgid="6373760365221990859" name="Nminutes_description">
+      <item quantity="other"><ns1:g id="NUMBER">%d</ns1:g> minuten</item>
+      <item quantity="one">1 minuut</item>
+    </plurals>
+    <plurals formatted="false" msgid="6456500168536594889" name="Nseconds_description">
+      <item quantity="other"><ns1:g id="NUMBER">%d</ns1:g> seconden</item>
+      <item quantity="one">1 seconde</item>
+    </plurals>
+    <plurals formatted="false" msgid="7844300009062867865" name="alarm_alert_snooze_duration">
+      <item quantity="other"><ns1:g id="NUMBER">%d</ns1:g> min.</item>
+      <item quantity="one">1 min.</item>
+    </plurals>
+    <plurals formatted="false" msgid="3212729193036041768" name="alarm_alert_snooze_set">
+      <item quantity="other">Snooze is ingesteld op <ns1:g id="MINUTES">%d</ns1:g> minuten.</item>
+      <item quantity="one">Snooze is ingesteld op 1 minuut.</item>
+    </plurals>
+    <plurals formatted="false" msgid="3591262014329613293" name="alarm_delete_confirmation">
+      <item quantity="other">Geselecteerde alarmen verwijderen?</item>
+      <item quantity="one">Geselecteerd alarm verwijderen?</item>
+    </plurals>
+    <plurals formatted="false" msgid="6579258788774360396" name="auto_silence_summary">
+      <item quantity="other"><ns1:g id="FORMATTED_NUMBER">%s</ns1:g> minuten</item>
+      <item quantity="one">1 minuut</item>
+    </plurals>
+    <plurals formatted="false" msgid="3706846447285206235" name="days">
+      <item quantity="other"><ns1:g id="NUMBER">%s</ns1:g> dagen</item>
+      <item quantity="one">1 dag</item>
+    </plurals>
+    <plurals formatted="false" msgid="3871283109767171655" name="hours">
+      <item quantity="other"><ns1:g id="NUMBER">%s</ns1:g> uur</item>
+      <item quantity="one">1 uur</item>
+    </plurals>
+    <plurals formatted="false" msgid="5484431721696058697" name="minutes">
+      <item quantity="other"><ns1:g id="NUMBER">%s</ns1:g> minuten</item>
+      <item quantity="one">1 minuut</item>
+    </plurals>
+    <plurals formatted="false" msgid="3112918131095248271" name="snooze_duration">
+      <item quantity="other"><ns1:g id="NUMBER">%s</ns1:g> minuten</item>
+      <item quantity="one">1 minuut</item>
+    </plurals>
+    <plurals formatted="false" msgid="322739253661747732" name="snooze_picker_label">
+      <item quantity="other">minuten</item>
+      <item quantity="one">minuut</item>
+    </plurals>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Navigeren naar startpositie"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Omhoog navigeren"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Meer opties"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Gereed"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Alles weergeven"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Een app selecteren"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"UIT"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"AAN"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Zoeken…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Zoekopdracht wissen"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Zoekopdracht"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Zoeken"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Zoekopdracht verzenden"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Gesproken zoekopdracht"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Delen met"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Delen met %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Samenvouwen"</string>
+    <string msgid="5976616107390962899" name="add_alarm">"Alarm toevoegen"</string>
+    <string msgid="3272183025444682500" name="alarm_alert_dismiss_now_text">"Nu negeren"</string>
+    <string msgid="4942914605480888820" name="alarm_alert_dismiss_text">"Uitzetten"</string>
+    <string msgid="2459925305288819812" name="alarm_alert_off_action_text">"Uit"</string>
+    <string msgid="4472073417593915002" name="alarm_alert_off_text">"Alarm uit"</string>
+    <string msgid="5723945586913705445" name="alarm_alert_predismiss_title">"Volgend alarm"</string>
+    <string msgid="1774416052207651584" name="alarm_alert_snooze_text">"Snoozen"</string>
+    <string msgid="6958013659168344550" name="alarm_alert_snooze_until">"Snoozen tot <ns1:g id="TIME">%s</ns1:g>"</string>
+    <string msgid="7064642998528766113" name="alarm_alert_snoozed_text">"Gesnoozed"</string>
+    <string msgid="6790780716498252583" name="alarm_alert_wake_up">"Word wakker!"</string>
+    <string msgid="740283647046258651" name="alarm_button_description">"Wekkers"</string>
+    <string msgid="8810520940995307437" name="alarm_cant_be_dismissed_still_more_than_24_hours_away">"<ns1:g id="ALARM_TIME">%s</ns1:g> alarm kan nog niet worden gesloten omdat het over meer dan 24 uur afgaat"</string>
+    <string msgid="6131529309389084785" name="alarm_deleted">"Verwijderd"</string>
+    <string msgid="5509897230565826642" name="alarm_is_dismissed">"<ns1:g id="ALARM_TIME">%s</ns1:g> alarm gesloten"</string>
+    <string msgid="5503226382620011088" name="alarm_is_set">"Alarm is ingesteld voor <ns1:g id="ALARM_TIME">%s</ns1:g>"</string>
+    <string msgid="7044644119744928846" name="alarm_is_snoozed">"<ns1:g id="ALARM_TIME">%s</ns1:g> alarm tien minuten gesnoozed"</string>
+    <string msgid="2147506334302260256" name="alarm_klaxon_service_desc">"Service geluidsweergave voor alarmen ingesteld in Klok."</string>
+    <string msgid="7589940465292950600" name="alarm_list_title">"Wekkers"</string>
+    <string msgid="6585658367289194023" name="alarm_missed_text">"<ns1:g id="ALARM_TIME">%s</ns1:g> - <ns1:g id="ALARM_LABEL">%s</ns1:g>"</string>
+    <string msgid="3828345099754063392" name="alarm_missed_title">"Alarm gemist"</string>
+    <string msgid="5404083762646377829" name="alarm_notify_snooze_label">"<ns1:g id="LABEL">%s</ns1:g> (snooze aan)"</string>
+    <string msgid="4819324081410990368" name="alarm_notify_snooze_text">"Alarm is ingesteld voor <ns1:g id="TIME">%s</ns1:g>. Raak aan om te annuleren."</string>
+    <string msgid="4891014685945904766" name="alarm_notify_text">"Alarm later herhalen of uitschakelen."</string>
+    <string msgid="7242985466344233206" name="alarm_repeat">"Herhalen"</string>
+    <string msgid="2947147071388290814" name="alarm_settings">"Alarmen"</string>
+    <string msgid="7873594221106531654" name="alarm_today">"Vandaag"</string>
+    <string msgid="131356848787643420" name="alarm_tomorrow">"Morgen"</string>
+    <string msgid="5710042601177655254" name="alarm_undo">"ongedaan maken"</string>
+    <string msgid="3476686921490362230" name="alarm_vibrate">"Trillen"</string>
+    <string msgid="8506245173912428522" name="alarm_volume_title">"Alarmvolume"</string>
+    <string msgid="1075308195332888260" name="alarms_selected">"<ns1:g id="ALARMS">%d</ns1:g> geselecteerd"</string>
+    <string msgid="6506982899651975645" name="alert">"Beltoon voor alarm"</string>
+    <string msgid="278532320068394600" name="all_timers_stopped_notif">"Tik om je timers te bekijken"</string>
+    <string msgid="1670505720837152766" name="analog_gadget">"Analoge klok"</string>
+    <string msgid="6674495003718166674" name="app_label">"Klok"</string>
+    <string msgid="4821982647348750809" name="auto_silence_never">"Nooit"</string>
+    <string msgid="2012754009554434544" name="auto_silence_title">"Stil na"</string>
+    <string msgid="6274174710735449252" name="automatic_home_clock">"Automatische klok voor thuis"</string>
+    <string msgid="6020476321040807273" name="automatic_home_clock_summary">"Voeg een klok voor thuis toe wanneer je in een andere tijdzone reist."</string>
+    <string msgid="3907838219512538763" name="button_alarms">"Alarm toevoegen"</string>
+    <string msgid="4555761857494501363" name="button_cities">"Plaatsen"</string>
+    <string msgid="6050484561842120282" name="button_menu">"Meer opties"</string>
+    <string msgid="8552462751129256730" name="cities_activity_title">"Plaatsen"</string>
+    <string msgid="1335509457349179514" name="city_added">"<ns1:g id="CITY_NAME">%s</ns1:g> toegevoegd"</string>
+    <string msgid="1783441538785676299" name="city_delete_confirmation">"Deze stad verwijderen?"</string>
+    <string msgid="3935141305276867838" name="city_deleted">"<ns1:g id="CITY_NAME">%s</ns1:g> verwijderd"</string>
+    <string msgid="2656876819515011590" name="clock_instructions">"Een klok selecteren"</string>
+    <string msgid="8317286807280600391" name="clock_settings">"Klok"</string>
+    <string msgid="2265011060429742344" name="clock_style">"Stijl"</string>
+    <string msgid="3561772046433483980" name="collapse_alarm">"Alarm samenvouwen"</string>
+    <string msgid="2194676418924016327" name="control_set_alarm">"Alarm instellen"</string>
+    <string msgid="3477418548382111184" name="custom_ringtone">"Aangepaste beltoon"</string>
+    <string msgid="971998564991636532" name="day_concat">", "</string>
+    <string msgid="3968620852217927702" name="day_picker_description">"Maandraster van dagen"</string>
+    <string msgid="5590025289805630372" name="default_label">"Alarm"</string>
+    <string msgid="4549726190682964245" name="default_ringtone_setting_title">"Standaardbeltoon instellen"</string>
+    <string msgid="5732434972457000541" name="delete">"Verwijderen"</string>
+    <string msgid="3457780990646206817" name="delete_alarm">"Alarm verwijderen"</string>
+    <string msgid="6578572637340860840" name="delete_alarm_confirm">"Dit alarm verwijderen?"</string>
+    <string msgid="6908431551612331381" name="deleted_key">"<ns1:g id="KEY">%1$s</ns1:g> verwijderd"</string>
+    <string msgid="1220848140260509437" name="deleted_message">"Verwijderd"</string>
+    <string msgid="1841309486023845685" name="description_direction_both">"Veeg naar links om te snoozen of naar rechts om te sluiten"</string>
+    <string msgid="7448141043674998679" name="description_direction_left">"Veeg naar links om de snoozestand in te schakelen"</string>
+    <string msgid="5709209043267548985" name="description_direction_right">"Veeg naar rechts om te sluiten"</string>
+    <string msgid="4207371097361657274" name="desk_clock_button_description">"Klokweergave"</string>
+    <string msgid="2326954556720571358" name="digital_gadget">"Digitale klok"</string>
+    <string msgid="5889378670229554109" name="disable_alarm">"Alarm uitschakelen"</string>
+    <string msgid="7204593078688533541" name="dismiss_alarm">"Alarm sluiten"</string>
+    <string msgid="6509722361933858451" name="done">"Gereed"</string>
+    <string msgid="7007948707597430919" name="done_label">"Gereed"</string>
+    <string msgid="1834599140632142536" name="enable_alarm">"Alarm inschakelen"</string>
+    <string msgid="4100909974923444602" name="every_day">"Elke dag"</string>
+    <string msgid="7392616528943305020" name="expand_alarm">"Alarm uitvouwen"</string>
+    <string msgid="1151743663255257668" name="gallery_button_description">"Galerij"</string>
+    <string msgid="7786263119482654015" name="help">"help"</string>
+    <string msgid="3217727306480505694" name="hide_clock">"Klok verbergen"</string>
+    <string msgid="3383859096809056157" name="home_button_description">"Launcher"</string>
+    <string msgid="4436139365695453870" name="home_label">"Thuis"</string>
+    <string msgid="9199730676287974501" name="home_time_zone">"Eigen tijdzone"</string>
+    <string msgid="807894493443834624" name="home_time_zone_title">"Eigen tijdzone"</string>
+    <string msgid="7586639618712934060" name="hour_picker_description">"Ronde schuifregelaar voor uren"</string>
+    <string msgid="3393478155635368097" name="hours_label">"u"</string>
+    <string msgid="8652842524970971830" name="hours_label_description">"uren"</string>
+    <string msgid="2782334750243998633" name="invalid_time">"Ongeldige tijd: <ns1:g id="INVALID_HOUR">%d</ns1:g>:<ns1:g id="INVALID_MINUTES">%d</ns1:g> <ns1:g id="INVALID_AMPM">%s</ns1:g>"</string>
+    <string msgid="3104567893212932487" name="invalid_timer_length">"Ongeldige timerduur"</string>
+    <string msgid="2674929164900463786" name="item_is_selected">"<ns1:g id="ITEM">%1$s</ns1:g> geselecteerd"</string>
+    <string msgid="162189613902857319" name="label">"Label"</string>
+    <string msgid="8736179296142915727" name="label_description">"Label"</string>
+    <string msgid="6523322777415268044" name="loading_ringtone">"Beltoon laden…"</string>
+    <string msgid="4772010125376647519" name="menu_alarm">"Alarm"</string>
+    <string msgid="5612760670606829805" name="menu_clock">"Klok"</string>
+    <string msgid="3241995064554071588" name="menu_desk_clock">"Bureauklok"</string>
+    <string msgid="7204602994918829751" name="menu_edit_alarm">"Alarm bewerken"</string>
+    <string msgid="4570953476186849841" name="menu_item_help">"Help"</string>
+    <string msgid="3486930302245398975" name="menu_item_night_mode">"Nachtmodus"</string>
+    <string msgid="1413723516369078665" name="menu_item_settings">"Instellingen"</string>
+    <string msgid="3120860422682721706" name="menu_item_sort_by_gmt_offset">"Sorteren op tijd"</string>
+    <string msgid="1762931290495104106" name="menu_item_sort_by_name">"Sorteren op naam"</string>
+    <string msgid="3396117705293574701" name="menu_stopwatch">"Stopwatch"</string>
+    <string msgid="6459070074762877114" name="menu_timer">"Timer"</string>
+    <string msgid="6024811202872705251" name="minute_picker_description">"Ronde schuifregelaar voor minuten"</string>
+    <string msgid="3568098128251438588" name="minutes_label">"m"</string>
+    <string msgid="965686733490357796" name="minutes_label_description">"minuten"</string>
+    <string msgid="5295473204045979335" name="missed_alarm_has_been_deleted">"Je gemiste alarm is verwijderd"</string>
+    <string msgid="6722110840279707462" name="multiple_timers_available">"Je verzoek kan niet worden voltooid. Er zijn meerdere timers beschikbaar."</string>
+    <string msgid="1626593420810117999" name="music_button_description">"Muziek"</string>
+    <string msgid="2650244835760747046" name="next_alarm_description">"Volgend alarm: <ns1:g id="ALARM_TIME">%s</ns1:g>"</string>
+    <string msgid="6136454740115613653" name="next_timer_notif">"Volgende timer: <ns1:g id="TIME_REMAINING">%s</ns1:g>"</string>
+    <string msgid="1017350187324162631" name="night_mode_summary">"Sterk gedimd scherm (voor donkere kamers)"</string>
+    <string msgid="5983813889469616299" name="night_mode_title">"Nachtmodus"</string>
+    <string msgid="990894208217576381" name="nightmode_button_description">"Dimmen"</string>
+    <string msgid="8140632482969193119" name="no_alarm_at">"Geen alarm om <ns1:g id="ALARM_TIME_HOUR">%d</ns1:g>:<ns1:g id="ALARM_TIME_MINUTES">%d</ns1:g>"</string>
+    <string msgid="4463069177414482818" name="no_alarm_scheduled_for_this_time">"Geen alarm gepland op deze tijd"</string>
+    <string msgid="6429431324842022917" name="no_alarms">"Geen alarmen"</string>
+    <string msgid="4887558279496044764" name="no_alarms_set">"Geen alarmen"</string>
+    <string msgid="6250998794542941665" name="no_alarms_with_label">"Er zijn geen alarmen die het label bevatten"</string>
+    <string msgid="1007596865203283741" name="no_city_selected">"Geen plaats geselecteerd"</string>
+    <string msgid="4986161963178722289" name="no_firing_alarms">"Geen actieve alarmen"</string>
+    <string msgid="2008482054428460626" name="no_label_specified">"Geen label opgegeven"</string>
+    <string msgid="2115420148192753534" name="no_scheduled_alarms">"Geen geplande alarmen"</string>
+    <string msgid="3326365650863016606" name="no_timer_set">"Geen timer ingesteld"</string>
+    <string msgid="2889840988069436254" name="no_upcoming_alarms">"GEEN AANKOMENDE ALARMEN"</string>
+    <string msgid="5408769235866082896" name="pick_alarm_to_dismiss">"Kiezen welk alarm je wilt sluiten"</string>
+    <string msgid="9100911171235162926" name="revert">"Terugzetten"</string>
+    <string msgid="9110746249688559579" name="ringtone">"Beltoon"</string>
+    <string msgid="7580922112921069925" name="ringtone_description">"Beltoon"</string>
+    <string msgid="7013450738357352801" name="screensaver_settings">"Instellingen voor dromen"</string>
+    <string msgid="124655952824003246" name="seconds_label">"s"</string>
+    <string msgid="3821620053141299692" name="seconds_label_description">"seconden"</string>
+    <string msgid="3973338219107019769" name="select_day">"Maand en dag selecteren"</string>
+    <string msgid="7651068754188418859" name="select_hours">"Uren selecteren"</string>
+    <string msgid="8327182090226828481" name="select_minutes">"Minuten selecteren"</string>
+    <string msgid="2603330600102539372" name="select_year">"Jaar selecteren"</string>
+    <string msgid="3607479399424246605" name="selected_cities_label">"Geselecteerde plaatsen"</string>
+    <string msgid="9148359866152726808" name="set_alarm">"Alarm instellen"</string>
+    <string msgid="5849739030579520686" name="settings">"Instellingen"</string>
+    <string msgid="8358759982675616915" name="show_clock">"Klok weergeven"</string>
+    <string msgid="8605302849408279221" name="silent_alarm_summary">"Stil"</string>
+    <string msgid="2077577763821006919" name="slash">"/"</string>
+    <string msgid="1097309861110780483" name="snooze_duration_title">"Snoozeduur"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="6598258908106423672" name="stopwatch_already_running">"Stopwatch loopt al"</string>
+    <string msgid="5713134605500796186" name="stopwatch_cant_be_reset_because_is_running">"Stopwatch kan niet opnieuw worden ingesteld omdat deze actief is"</string>
+    <string msgid="7147219965448204727" name="stopwatch_isnt_running">"Stopwatch loopt niet"</string>
+    <string msgid="5844686448815550482" name="stopwatch_lapped">"Tussentijd ingesteld door stopwatch"</string>
+    <string msgid="7585914953721021042" name="stopwatch_reset">"Stopwatch opnieuw ingesteld"</string>
+    <string msgid="8416624630388063996" name="stopwatch_service_desc">"Stopwatchservice die de melding beheert"</string>
+    <string msgid="7843882246387176304" name="stopwatch_started">"Stopwatch gestart"</string>
+    <string msgid="6927081018816192999" name="stopwatch_stopped">"Stopwatch gestopt"</string>
+    <string msgid="6992264696039004233" name="sw_lap_button">"Ronde"</string>
+    <string msgid="3535420316052647126" name="sw_notification_lap_number">"Ronde <ns1:g id="NUMBER">%d</ns1:g>"</string>
+    <string msgid="6616804728322906117" name="sw_reset_button">"Resetten"</string>
+    <string msgid="2569360966002022248" name="sw_resume_button">"Hervatten"</string>
+    <string msgid="4478648110382859382" name="sw_share_button">"Delen"</string>
+    <string msgid="614390674795945007" name="sw_share_laps">"Rondetijden:"</string>
+    <string msgid="7703563468204234405" name="sw_share_main">"Mijn tijd is <ns1:g id="TIME">%s</ns1:g>"</string>
+    <string msgid="8373422516681242270" name="sw_start_button">"Starten"</string>
+    <string msgid="8322958613123274451" name="sw_stop_button">"Stoppen"</string>
+    <string msgid="783124901663086172" name="swn_stopped">"Gestopt"</string>
+    <string msgid="3799050213771793020" name="the_city_already_added">"Deze plaats is al toegevoegd"</string>
+    <string msgid="1753597460426454543" name="the_city_you_specified_is_not_available">"De opgegeven plaats is niet beschikbaar"</string>
+    <string msgid="8067216534232296518" name="time">"Tijd"</string>
+    <string msgid="1619464909892545536" name="time_format_12_mode">"h:mm a"</string>
+    <string msgid="7998512313148074539" name="time_format_24_mode">"k:mm"</string>
+    <string msgid="6001006474735281911" name="time_picker_00_label">":00"</string>
+    <string msgid="1027250857384838129" name="time_picker_30_label">":30"</string>
+    <string msgid="6754113715199751083" name="time_picker_ampm_label">"--"</string>
+    <string msgid="7437106489606013077" name="time_picker_cancel">"Annuleren"</string>
+    <string msgid="331153175471468051" name="time_picker_set">"OK"</string>
+    <string msgid="7484926510054777041" name="time_picker_time_seperator">":"</string>
+    <string msgid="862733633862574752" name="timer_add_timer">"Timer toevoegen"</string>
+    <string msgid="1259351124772803097" name="timer_already_running">"Timer loopt al"</string>
+    <string msgid="8865820275829449054" name="timer_already_stopped">"Timer is al gestopt"</string>
+    <string msgid="3572868404230815644" name="timer_cancel">"Annuleren"</string>
+    <string msgid="7880015473706806640" name="timer_cant_be_reset_because_its_running">"De timer kan niet worden gereset omdat deze nog loopt. Stop de timer om deze te resetten."</string>
+    <string msgid="4381027137335885547" name="timer_created">"Timer gemaakt"</string>
+    <string msgid="8699122001991909302" name="timer_delete">"Verwijderen"</string>
+    <string msgid="2815524107015816453" name="timer_delete_confirmation">"Deze timer verwijderen?"</string>
+    <string msgid="9110322362460029392" name="timer_deleted">"Timer verwijderd"</string>
+    <string msgid="8794915342760383536" name="timer_descriptive_delete">"<ns1:g id="NUMBER_STRING">%s</ns1:g> verwijderen"</string>
+    <string msgid="2375990511982914051" name="timer_done">"Gereed"</string>
+    <string msgid="4933184831583137249" name="timer_notification_label">"Timer"</string>
+    <string msgid="8645224089494875062" name="timer_plus_1_min">"1 min. toevoegen"</string>
+    <string msgid="6631211310420106116" name="timer_plus_one">"1 minuut toevoegen"</string>
+    <string msgid="7848424809190171640" name="timer_reset">"Resetten"</string>
+    <string msgid="2620214305660322415" name="timer_ring_service_desc">"Geluidsweergaveservice voor timers ingesteld in Klok."</string>
+    <string msgid="6158486445614356442" name="timer_start">"Starten"</string>
+    <string msgid="6715582052946641641" name="timer_started">"Timer gestart"</string>
+    <string msgid="3361154678667736722" name="timer_stop">"Stoppen"</string>
+    <string msgid="2730331837832462008" name="timer_stopped">"Timer gestopt"</string>
+    <string msgid="9190440395938519009" name="timer_times_up">"De tijd is om"</string>
+    <string msgid="6495796785185062631" name="timer_was_reset">"Timer gereset"</string>
+    <string msgid="5570729467344408506" name="timers_in_use">"<ns1:g id="NUMBER">%d</ns1:g> timers"</string>
+    <string msgid="9140022846793903813" name="timers_max_count_reached">"Maximaal 4 timers"</string>
+    <string msgid="2393640808691864520" name="timers_stopped">"<ns1:g id="NUMBER">%d</ns1:g> timers gestopt"</string>
+    <string msgid="8768042543750036853" name="volume_button_dialog_title">"Knopeffect"</string>
+    <string msgid="6937131248843413357" name="volume_button_setting_title">"Volumeknoppen"</string>
+    <string msgid="3425804832021006835" name="weather_fetch_failure">"Weersinformatie is momenteel niet beschikbaar."</string>
+    <string msgid="4268917518596832096" name="week_start_title">"Week starten op"</string>
+    <string msgid="8648842975829470646" name="weekday_time_format_12_mode">"EEE, h:mm a"</string>
+    <string msgid="152964494051478631" name="weekday_time_format_24_mode">"EEE, k:mm"</string>
+    <string msgid="5911196322328341288" name="world_day_of_week_label">"/ <ns1:g id="LABEL">%s</ns1:g>"</string>
+    <string msgid="6963340404644587098" name="year_picker_description">"Jaarlijst"</string>
+    <string msgid="7102083421938355017" name="zero">"0"</string>
+</resources>

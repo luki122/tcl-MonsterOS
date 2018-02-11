@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/*
+ * Copyright (C) 2006-2008 Esmertec AG.
+ * Copyright (C) 2006-2008 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mst="http://schemas.android.com/apk/res/com.mst"
+    android:id="@+id/floating_action_send_button_parent"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingBottom = "12dp">
+
+    <!-- <mst.widget.FloatingActionButton
+        android:id="@+id/floating_action_send_button_sms2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="76dp"
+        android:layout_marginEnd="20dp"
+        android:background="#ffB66175"
+        mst:centerImage="@drawable/ic_send_sim2_icon"
+        mst:size="38dp" />
+
+    <mst.widget.FloatingActionButton
+        android:id="@+id/floating_action_send_button_sms1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/floating_action_send_button_sms2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="20dp"
+        android:background="#ff667BC0"
+        mst:centerImage="@drawable/ic_send_sim1_icon"
+        mst:size="38dp" /> -->
+</RelativeLayout>

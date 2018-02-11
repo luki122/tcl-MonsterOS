@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.tcl.music.view.ColoredRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                           android:layout_width="match_parent"
+                                           android:layout_height="60dp"
+                                           android:layout_marginBottom="1dp"
+                                           android:background="?android:attr/selectableItemBackground"
+                                           android:descendantFocusability="blocksDescendants"
+                                           android:scrollbars="none">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_delete"
+            android:layout_width="64dp"
+            android:layout_height="55dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/layout_content"
+            android:background="@drawable/btn_click_red_havebackground"
+            android:gravity="center"
+            android:layout_marginLeft="1px"
+            android:textColor="#FFFFFF" />
+
+        <RelativeLayout
+            android:id="@+id/layout_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <View
+                android:id="@id/indicator_current_item_view"
+                android:layout_width="4dp"
+                android:layout_height="55dp"
+                android:background="@drawable/indicator_play_drawable"
+                android:visibility="gone" />
+
+            <CheckBox
+                android:id="@+id/selected_layout"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="20dp"
+                android:button="@null"
+                android:background="@drawable/bg_checkbox"
+                android:visibility="invisible"/>
+
+            <ImageView
+                android:id="@id/artwork_image_view"
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:scaleType="fitXY"
+                android:visibility="invisible"
+                android:background="#ffffff"/>
+
+
+            <Space
+                android:id="@+id/text_spacer"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_centerInParent="true" />
+
+
+            <TextView
+                android:id="@+id/title_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/text_spacer"
+                android:layout_toRightOf="@id/artwork_image_view"
+                android:layout_marginLeft="15dp"
+                android:alpha="0.86"
+                android:ellipsize="end"
+                android:gravity="start|center"
+                android:singleLine="true"
+                android:textAlignment="gravity"
+                android:textColor="#000000"
+                android:textIsSelectable="false"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@id/subtitle_text_view"
+                android:layout_below="@id/text_spacer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/artwork_image_view"
+                android:layout_marginLeft="15dp"
+                android:alpha="0.40"
+                android:ellipsize="end"
+                android:gravity="start|top"
+                android:singleLine="true"
+                android:textAlignment="gravity"
+                android:textColor="#000000"
+                android:textIsSelectable="false"
+                android:textSize="12sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</cn.tcl.music.view.ColoredRelativeLayout>

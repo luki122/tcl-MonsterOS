@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cannot_specify_an_empty_name_for_playlist">"Nazwa listy odtwarzania nie może być pusta"</string>
+    <string name="cross_dj_saturated_storage_not_enough_free_space_to_record_your_mix">"Niewystarczająca ilość miejsca, aby nagrać miks."</string>
+    <string name="cross_dj_saturated_storage_your_recording_might_stop_soon_because_no_more_free_space_is_available">"Nagrywanie może zostać wkrótce przerwane z powodu braku dostępnego miejsca."</string>
+    <string name="invalid_drm_file">"Plik nie posiada prawidłowego upoważnienia DRM!"</string>
+    <string name="mobiledata_turnoff_btn">"Wyłącz"</string>
+    <string name="never_show_it_again">"Nie pokazuj ponownie"</string>
+    <string name="no_error">"Brak błędów"</string>
+    <string name="recording_reached_max_duration">"Maksymalny czas trwania nagrania został osiągnięty. Sprawdź preferencje."</string>
+    <string name="recording_soon_to_reach_max_duration">"Maksymalny czas trwania nagrania zostanie wkrótce osiągnięty. Sprawdź preferencje."</string>
+    <string name="scratching_is_disabled_in_no_mix_mode">"Skreczowanie możliwe wyłącznie w trybie DJ-skim."</string>
+    <string name="sign_up">"Zarejestruj się"</string>
+    <string name="the_external_memory_storage_is_not_mounted">"Pamięć zewnętrzna nie jest zainstalowana. Możliwe, że konieczne będzie wyłączenie pamięci USB."</string>
+    <string name="there_s_not_enough_space_in_your_internal_storage_try_to_do_some_clean_up">"Niewystarczająca ilość miejsca w pamięci wewnętrznej (zwolnij miejsce)"</string>
+</resources>

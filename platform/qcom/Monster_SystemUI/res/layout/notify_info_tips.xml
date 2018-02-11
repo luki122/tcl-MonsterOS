@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="190dp">
+
+        <ImageView
+            android:id="@+id/iv_close_tip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="6dp"
+            android:src="@drawable/notify_info_tips_button" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="43dp"
+            android:drawablePadding="14dp"
+            android:drawableTop="@drawable/notify_info_tip"
+            android:lineSpacingExtra="1dp"
+            android:text="@string/notify_tip"
+            android:textColor="#59000000"
+            android:textSize="13sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_alignParentBottom="true"
+            android:background="#fafafa" />
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="def_camera_enable_ts_hdr">true</bool>
+    <bool name="def_camera_support_parallax_module">false</bool>
+    <string name="def_camera_support_pano_vendor">morpho</string>
+    <bool name="def_camera_support_manual_module">false</bool>
+    <bool name="def_camera_support_slow_motion_module">false</bool>
+    <bool name="def_camera_support_micro_video_module">false</bool>
+    <bool name="def_camera_support_backfacing_count_down">true</bool>
+    <bool name="def_camera_support_frontfacing_count_down">true</bool>
+    <bool name="def_camera_support_gesture_shot">false</bool>
+    <bool name="def_camera_gesture_shot_on">false</bool>
+    <string name="def_picture_size_rear">"4266x2400,4160x3120"</string>
+    <string name="def_picture_size_front">"2560x1440,3264x2448"</string>
+    <string name="pref_camera_picturesize_default_rear">0</string>
+    <string name="pref_camera_picturesize_default_front">1</string>
+    <string name="def_video_qualities_title_rear">"4k,HD 1080p,HD 720p,SD 480p"</string>
+    <string name="def_video_qualities_rear">"QUALITY_2160P,QUALITY_1080P,QUALITY_720P,QUALITY_480P"</string>
+    <string name="pref_camera_video_quality_default_rear">1</string>
+    <string name="def_video_qualities_title_front">"4k,HD 1080p,HD 720p,SD 480p"</string>
+    <string name="def_video_qualities_front">"QUALITY_2160P,QUALITY_1080P,QUALITY_720P,QUALITY_480P"</string>
+    <string name="pref_camera_video_quality_default_front">1</string>
+    <bool name="def_camcorder_enable_front_touch_capture">true</bool>
+    <!-- def_antiband_default- default config for antibanding , this attribute could be filled with auto / 50hz/60hz/off -->
+    <string name="def_antiband_default">auto</string>
+    <!-- help tip -->
+    <bool name="def_camera_support_frontfacing_pinch_zoom">false</bool>
+    <bool name="def_camera_support_help_tip_tutorial">false</bool>
+    <bool name="def_camera_support_count_down_only_auto_mode">true</bool>
+
+    <bool name="def_camera_module_boomkey_response">true</bool>
+    <bool name="def_camera_ais_on">false</bool>
+    <bool name="def_camera_support_attention_seeker">true</bool>
+    <bool name="def_camera_attention_seeker_on">false</bool>
+    <bool name="def_camera_enable_optimize_capture">false</bool>
+    <bool name="def_camera_support_tct_eis">true</bool>
+    <bool name="def_camera_tct_eis_on">true</bool>
+    <bool name="def_camera_support_mirror_selfie">true</bool>
+    <bool name="def_camera_mirror_selfie_on">false</bool>
+
+    <bool name="def_camera_support_pose">true</bool>
+    <bool name="def_camera_pose_on">false</bool>
+    <bool name="def_camera_support_compose">false</bool>
+    <bool name="def_camera_compose_on">false</bool>
+
+    <bool name="def_camera_enable_optimize_snapshot">false</bool>
+
+    <integer name="def_camera_burst_max">10</integer>
+
+    <!-- customize for volume key down/up -->
+    <bool name="def_camera_volume_key_response">true</bool>
+    <bool name="def_camera_volume_key_follow_system">false</bool>
+    <bool name="def_camera_enable_optimize_switch">false</bool>
+    <bool name="def_antiband_menu_visible">false</bool>
+
+    <bool name="def_camera_vdf_count_timer">false</bool>
+    <bool name="def_camera_vdf_switch_camera_icons_customize">false</bool>
+    <integer name="def_skin_smoothing">50</integer>
+    <bool name="def_camera_enable_compensation_other_than_auto">true</bool>
+    <integer name="def_video_recording_boomkey_tip_customize">825</integer>
+    <bool name="def_video_recording_boomkey_tip_on">true</bool>
+    <bool name="def_video_boomkey_tizr_share_on">true</bool>
+
+    <!--Customize for VDF mode switching-->
+    <bool name="def_camera_fix_mode_switching">false</bool>
+
+    <bool name="def_camera_enable_blur">true</bool>
+    <!--Customize for instant capture pic display-->
+    <bool name="def_show_jpeg_for_instant_capture">false</bool>
+
+    <!--Customize for VDF boom key response-->
+    <bool name="def_camera_vdf_boomkey_custmize">false</bool>
+
+    <!-- Customize for VDF low battery feature -->
+    <bool name="def_camera_low_battery_feature_independent">true</bool>
+    <bool name="def_camera_vdf_picture_size_title">false</bool>
+
+    <!-- Customize for VDF night mode toast feature -->
+    <bool name="def_camera_night_mode_toast_on">true</bool>
+
+    <!-- Customize for video facebeauty support,this despend on def_camera_photo_facebeauty_support-->
+    <bool name="def_camera_video_facebeauty_support">true</bool>
+    <!-- Customize for photo facebeauty support -->
+    <bool name="def_camera_photo_facebeauty_support">true</bool>
+
+    <bool name="def_camera_vdf_review_ui_customize">false</bool>
+
+    <bool name="def_camera_mode_name_all_upper_case">true</bool>
+
+    <bool name="def_camera_continuous_picture_pano">false</bool>
+
+    <bool name="def_mtk_gesture_icon">false</bool>
+
+    <!-- def_camera_shutter_sound_on- Whether to set the default Shutter sound on,0x00 : off, 0x01: on-->
+    <bool name="def_camera_shutter_sound_on">true</bool>
+
+    <integer name="def_camera_countdown_duration_front">3</integer>
+    <integer name="def_camera_countdown_duration_rear">0</integer>
+
+    <!-- default front camera flash mode setting. -->
+    <string name="def_camera_flashmode_front">auto</string>
+
+    <bool name="def_recording_ignore_audiofocus">false</bool>
+
+    <bool name="def_camera_panorama_mute_end">false</bool>
+
+    <bool name="def_camera_show_location_prompt">false</bool>
+
+    <bool name="def_camera_enable_exposure_sidebar">true</bool>
+    <bool name="def_camera_enable_metering">true</bool>
+
+    <bool name="def_camera_support_pano_selfie">true</bool>
+
+    <bool name="def_camera_support_cancel_focus_after_moving">false</bool>
+
+    <bool name="def_camera_support_cylindrical_panorama_module">false</bool>
+
+    <bool name="def_camera_support_video_filter_module">true</bool>
+
+    <string name="def_camera_sound_forced_config">""</string>
+
+    <bool name="def_camera_support_auto_hdr">true</bool>
+
+    <bool name="def_camera_support_grid_line">true</bool>
+
+    <bool name="def_camera_support_photo_audio_record">true</bool>
+
+    <bool name="def_camera_enable_ts_hdr_auto">true</bool>
+</resources>

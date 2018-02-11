@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:minHeight="@dimen/file_list_item_minheight"
+    android:orientation="vertical"
+    android:layout_margin="2dp">
+
+    <GridView
+        android:id="@+id/pictures_grid_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:verticalSpacing="2dp"
+        android:horizontalSpacing="2dp"
+        android:numColumns="3" />
+</LinearLayout>

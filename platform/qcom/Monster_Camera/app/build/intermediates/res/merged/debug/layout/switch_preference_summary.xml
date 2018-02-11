@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/switch_preference_summary"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingEnd="@dimen/switch_pref_padding_end"
+    android:paddingStart="@dimen/switch_pref_padding_start">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/switch_summary_title_margin_top"
+        android:layout_marginTop="@dimen/switch_summary_title_margin_bottom">
+
+        <TextView
+            android:id="@+id/switch_preference_summary_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/switch_pref_text_color"
+            android:textSize="@dimen/switch_pref_text_size" />
+
+        <TextView
+            android:id="@+id/switch_preference_summary_summary"
+            android:layout_width="@dimen/switch_pref_summary_width"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/switch_preference_summary_title"
+            android:layout_marginTop="@dimen/switch_summary_summary_margin_title"
+            android:textColor="@color/switch_pref_summary_text_color"
+            android:textSize="@dimen/switch_pref_summary_text_size" />
+
+        <Switch
+            android:id="@+id/switch_preference_summary_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:checked="true"
+            android:thumb="@drawable/switch_preference_switch_thumb"
+            android:track="@drawable/switch_preference_switch_track" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/switch_pref_line_height"
+        android:id="@+id/switch_preference_summary_line"
+        android:layout_alignParentBottom="true"
+        android:background="@color/switch_pref_line_color" />
+</RelativeLayout>

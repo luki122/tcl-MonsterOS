@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2013 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<!-- This layout is shared by phone and tablet in both landscape and portrait
+ orientation. The purpose of having this layout is to eventually not manually
+ recreate views when the orientation changes, by migrating the views that do not
+ need to be recreated in onConfigurationChanged from old photo_module to this
+ layout. -->
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:splitMotionEvents="false"
+    android:layout_gravity="center">
+    <ImageView
+        android:id="@+id/review_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:clickable="true"
+        android:background="@android:color/black"
+        android:scaleType="fitCenter"/>
+    <com.android.camera.ui.CountDownView
+         android:id="@+id/count_down_view"
+         android:visibility="invisible"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent" >
+        <TextView android:id="@+id/remaining_seconds"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:textSize="160dp"
+              android:textColor="@android:color/white"
+              android:gravity="center"/>
+    </com.android.camera.ui.CountDownView>
+    <com.android.camera.ui.RotateLayout
+        android:id="@+id/burst_count_layout"
+        android:layout_width="@dimen/burst_count_height"
+        android:layout_height="@dimen/burst_count_height"
+        android:layout_marginBottom="@dimen/photo_module_burst_margin_bottom"
+        android:layout_gravity="bottom|center_horizontal"
+        >
+
+        <TextView
+            android:id="@+id/burst_count_view"
+            android:textSize="@dimen/photo_module_burst_text_size"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:background="@drawable/burst_count_circle_bg"
+            android:layout_width="wrap_content"
+            android:visibility="gone"
+            android:textColor="@color/photo_module_burst_text_color"
+            android:layout_height="wrap_content"/>
+    </com.android.camera.ui.RotateLayout>
+    <include
+        layout="@layout/gesture_toast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:visibility="gone"
+        android:background="@null"
+        android:layout_marginStart="@dimen/photo_module_gesture_toast_margin_start_end"
+        android:layout_marginEnd="@dimen/photo_module_gesture_toast_margin_start_end"
+        android:layout_marginTop="@dimen/photo_module_gesture_toast_margin_top"/>
+    <com.android.camera.ui.FaceBeautyOption
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/face_beauty"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mode_options_height"
+        android:layout_marginBottom="@dimen/photo_module_facebeauty_margin_bottom"
+        android:layout_marginStart="@dimen/photo_module_facebeauty_margin_start"
+        android:layout_marginEnd="@dimen/photo_module_facebeauty_margin_end"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="@null"
+        android:visibility="gone"
+        >
+        <com.android.camera.ui.CustomSeekBar
+            android:id="@+id/seekbar"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:visibility="invisible"
+            />
+        <com.android.camera.ui.RotateImageView
+            android:id="@+id/face_beauty_menu"
+            android:layout_width="@dimen/photo_module_facebeauty_icon_size"
+            android:layout_height="@dimen/photo_module_facebeauty_icon_size"
+            android:background="@null"
+            android:src="@drawable/ic_facebeauty"/>
+    </com.android.camera.ui.FaceBeautyOption>
+
+    <com.android.camera.ui.MT_FaceBeautyOptionFW
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/face_beauty_mt_fw"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mode_options_height"
+        android:layout_marginBottom="@dimen/photo_module_facebeauty_margin_bottom_mt_fw"
+        android:layout_marginStart="@dimen/photo_module_facebeauty_margin_start"
+        android:layout_marginEnd="@dimen/photo_module_facebeauty_margin_end"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="@null"
+        android:visibility="gone"
+        >
+        <com.android.camera.ui.MT_CustomSeekBar
+            android:id="@+id/seekbar_mt_fw"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:visibility="invisible"
+            />
+        <com.android.camera.ui.RotateImageView
+            android:id="@+id/face_beauty_menu_mt_fw"
+            android:layout_width="@dimen/photo_module_facebeauty_icon_size"
+            android:layout_height="@dimen/photo_module_facebeauty_icon_size"
+            android:background="@null"
+            android:src="@drawable/ic_facebeauty_whitening"/>
+    </com.android.camera.ui.MT_FaceBeautyOptionFW>
+
+    <com.android.camera.ui.MT_FaceBeautyOptionFS
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/face_beauty_mt_fs"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mode_options_height"
+        android:layout_marginBottom="@dimen/photo_module_facebeauty_margin_bottom_mt_fm"
+        android:layout_marginStart="@dimen/photo_module_facebeauty_margin_start"
+        android:layout_marginEnd="@dimen/photo_module_facebeauty_margin_end"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="@null"
+        android:visibility="gone"
+        >
+        <com.android.camera.ui.MT_CustomSeekBar
+            android:id="@+id/seekbar_mt_fs"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:visibility="invisible"
+            />
+        <com.android.camera.ui.RotateImageView
+            android:id="@+id/face_beauty_menu_mt_fs"
+            android:layout_width="@dimen/photo_module_facebeauty_icon_size"
+            android:layout_height="@dimen/photo_module_facebeauty_icon_size"
+            android:background="@null"
+            android:src="@drawable/ic_facebeauty_smoothing"/>
+    </com.android.camera.ui.MT_FaceBeautyOptionFS>
+
+    <com.android.camera.ui.GesturePalmOption
+        android:id="@+id/gesture_palm_option"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/gesture_icon_margin_top"
+        android:paddingEnd="@dimen/gesture_icon_margin_right"
+        android:layout_gravity="top|end"
+        android:orientation="horizontal"
+        android:gravity="end"
+        android:background="@null"
+        android:visibility="gone"
+        >
+        <com.android.camera.ui.RotateImageView
+            android:id="@+id/gesture_palm"
+            android:layout_width="@dimen/gesture_icon_width"
+            android:layout_height="@dimen/gesture_icon_height"
+            android:src="@drawable/ic_gesture" />
+    </com.android.camera.ui.GesturePalmOption>
+
+    <include layout="@layout/kid_sound_effect" />
+
+    <com.android.camera.ui.ExposureSidebar
+        android:id="@+id/exposure_sidebar"
+        android:layout_width="@dimen/exposure_sidebar_width"
+        android:layout_height="@dimen/exposure_sidebar_height"
+        android:layout_gravity="end"
+        android:layout_marginTop="@dimen/exposure_sidebar_margin_top"
+        android:layout_marginEnd="@dimen/exposure_sidebar_margin_end"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/mode_options_tip"
+        android:layout_width="@dimen/mode_options_tip_width"
+        android:layout_height="@dimen/mode_options_tip_height"
+        android:layout_gravity="top|center"
+        android:text="@string/hdr_on_toast"
+        android:background="@drawable/bg_mode_options_tip"
+        style="@style/ModeOptionsTip" />
+
+    <com.android.camera.ui.LockRotatableButton
+        android:id="@+id/aspect_ratio_selecter"
+        android:layout_width="@dimen/aspect_ratio_selecter_width"
+        android:layout_height="@dimen/aspect_ratio_selecter_height"
+        android:layout_gravity="top|left"
+        android:background="@null"
+        android:clickable="true"
+        android:src="@drawable/ic_more"
+        android:visibility="gone"
+        android:gravity = "center_horizontal"
+        android:layout_marginStart="@dimen/aspect_ratio_selecter_margin_start"
+        android:layout_marginTop="@dimen/aspect_ratio_selecter_margin_top"
+        android:layout_alignParentStart="true" />
+
+    <FrameLayout
+        android:id="@+id/aspect_ratio_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bottom_bar_switch_button_size"
+        android:layout_marginTop="@dimen/aspect_ration_margin_top"
+        android:background="@null"/>
+
+    <TextView
+        android:id="@+id/info_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/info_text_top_margin"
+        android:gravity="center"
+        android:textSize="@dimen/info_text_size"
+        android:textColor="@color/info_text_color"
+        android:drawablePadding="@dimen/info_text_drawable_padding"
+        android:singleLine="true"
+        android:visibility="gone"/>
+    <View
+        android:id="@+id/bottom_bar_lineview"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bottom_bar_lineview_height"
+        android:background="@drawable/bottom_bar_line"
+        android:layout_marginTop="@dimen/contacts_bottom_bar_lineview_margin_top"
+        android:visibility="gone"/>
+</FrameLayout>

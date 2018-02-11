@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="#FF21272B">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#FFFFFF" />
+            <corners android:radius="4dp" />
+        </shape>
+    </item>
+</ripple>

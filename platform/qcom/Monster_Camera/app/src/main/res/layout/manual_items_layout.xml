@@ -1,0 +1,45 @@
+<com.android.camera.ui.ManualGroupWrapper xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/manual_group_wrapper"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.android.camera.ui.ManualGroup
+        android:id="@+id/manual_items_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@null" >
+
+        <com.android.camera.widget.FloatingActionsMenu
+            android:id="@+id/multiple_actions"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/mode_options_height"
+            android:layout_marginStart="@dimen/multiple_actions_margin_start"
+            android:layout_marginEnd="@dimen/multiple_actions_margin_end"
+            android:layout_marginBottom="@dimen/menu_overlay_margin_horizontal"
+            android:layout_gravity="top|left"
+            android:fillViewport="true" >
+
+            <com.android.camera.ui.ManualItem
+                android:id="@+id/item_f"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <com.android.camera.ui.ManualItem
+                android:id="@+id/item_wb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <com.android.camera.ui.ManualItem
+                android:id="@+id/item_s"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <com.android.camera.ui.ManualItem
+                android:id="@+id/item_iso"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </com.android.camera.widget.FloatingActionsMenu>
+    </com.android.camera.ui.ManualGroup>
+
+</com.android.camera.ui.ManualGroupWrapper>

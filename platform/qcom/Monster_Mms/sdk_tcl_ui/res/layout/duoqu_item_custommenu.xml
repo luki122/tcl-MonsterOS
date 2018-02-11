@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:background="@drawable/duoqu_menu_select"
+    android:orientation="horizontal"
+    android:clickable="true"
+    android:gravity="center" >
+
+    <!-- android:background="@drawable/listview_item_bg_noborder" -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/duoqu_custommenu_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="@dimen/duoqu_menu_text_drawable"
+            android:layout_marginLeft="@dimen/duoqu_menu_content_text_margin_left"
+            android:gravity="center"
+            android:padding="@dimen/duoqu_menu_content_text_padding"
+            android:singleLine="true"
+            android:textColor="@color/duoqu_content_text_color"
+            android:textSize="@dimen/duoqu_menu_content_text_size" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/duoqu_bottom_index"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:gravity="bottom|right" >
+
+        <!-- As duoqu_menu_customeu_height = 61dp, duoqu_menu_customeu_view_height = 32dp
+             So set duoqu_menu_customeu_img_marginbottom = 15dp-->
+        <ImageView
+	        android:id="@+id/douqu_iv_menu_bounce"
+	        android:layout_width="@dimen/duoqu_menu_customeu_img_width"
+	        android:layout_height="@dimen/duoqu_menu_customeu_img_height"
+	        android:src="@drawable/duoqu_menu_right"
+	        android:layout_marginBottom="@dimen/duoqu_menu_customeu_img_marginbottom"
+	        android:layout_marginEnd="@dimen/duoqu_menu_customeu_img_marginend" />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/v_xian"
+        android:layout_width="@dimen/duoqu_menu_customeu_view_width"
+        android:layout_height="@dimen/duoqu_menu_customeu_view_height"
+        android:layout_gravity="center"
+        android:background="@color/duoqu_menu_divider_color" />
+
+</LinearLayout>

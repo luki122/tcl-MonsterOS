@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="40dp"
+    android:height="40dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+
+    <group
+            android:name="Phone-通话中"
+            android:translateX="-775.000000"
+            android:translateY="-838.000000">
+        <group
+                android:name="2"
+                android:translateY="-3.000000">
+            <group
+                    android:translateX="179.000000"
+                    android:translateY="834.000000">
+                <group
+                        android:name="听筒"
+                        android:translateX="615.000000"
+                        android:translateY="19.000000">
+                    <group
+                            android:name="Group-2"
+                            android:translateX="12.000000"
+                            android:translateY="15.000000">
+                        <path
+                            android:name="Page-1"
+                            android:fillType="evenOdd"
+                            android:strokeColor="@color/button_disable_color"
+                            android:strokeWidth="3"
+                            android:strokeLineCap="round"
+                            android:pathData="M14.7516835,45.284328 C14.7516835,45.284328 14.3872306,44.9230442
+14.2773665,44.8110674 C7.39818592,37.8093461 2.07506078,29.3022759
+0.00665851711,20.9916934 C-0.0165819578,20.9019007 0.0225042954,20.8078824
+0.100676802,20.7592886 L11.4441413,13.5811511 C11.5349905,13.5230499
+11.654362,13.5431212 11.7219706,13.6265756 L19.0078595,22.6956428
+C19.0659607,22.7664206 19.0701862,22.8667772 19.0205361,22.9438933
+L13.2738005,31.6971012 C13.2294324,31.7657663 13.228376,31.855559
+13.2706314,31.9263368 C15.2101546,35.1483118 17.1686928,37.7523013
+19.4462594,40.0372626 L19.4874584,40.0784616 C21.7745324,42.3539154
+24.3816911,44.3113972 27.6057788,46.2488077 C27.6765567,46.2910631
+27.7663494,46.2900067 27.8350144,46.2456385 L36.5966735,40.5041848
+C36.6727332,40.4545347 36.7730898,40.4587603 36.844924,40.5158051
+L45.9213858,47.796412 C46.0048403,47.8640207 46.0249116,47.9833922
+45.9668104,48.0742414 L38.7823345,59.407142 C38.7337408,59.4853145
+38.6397225,59.5244008 38.5499298,59.5011603 C30.2488547,57.43804
+21.7512919,52.1381553 14.7516835,45.284328" />
+                    </group>
+                    <group
+                            android:name="Page-1"
+                            android:translateX="27.824116"
+                            android:translateY="24.324116">
+                        <path
+                            android:name="Stroke-7"
+                            android:fillType="evenOdd"
+                            android:strokeColor="@color/button_disable_color"
+                            android:strokeWidth="3"
+                            android:strokeLineCap="round"
+                            android:pathData="M0,5.773 C3.986,2.195 9.239,0 15.017,0 C20.795,0 26.048,2.195 30.035,5.773" />
+                        <path
+                            android:name="Stroke-9"
+                            android:fillType="evenOdd"
+                            android:strokeColor="@color/button_disable_color"
+                            android:strokeWidth="3"
+                            android:strokeLineCap="round"
+                            android:pathData="M7,16.886 C8.978,15.111 11.565,14 14.431,14 C17.298,14 19.885,15.111
+21.862,16.886" />
+                        <path
+                            android:name="Stroke-11"
+                            android:fillType="evenOdd"
+                            android:strokeColor="@color/button_disable_color"
+                            android:strokeWidth="3"
+                            android:strokeLineCap="round"
+                            android:pathData="M30.035,5.773 C26.049,2.195 20.796,0 15.018,0 C9.239,0 3.987,2.195 0,5.773" />
+                    </group>
+                </group>
+            </group>
+        </group>
+    </group>
+</vector>

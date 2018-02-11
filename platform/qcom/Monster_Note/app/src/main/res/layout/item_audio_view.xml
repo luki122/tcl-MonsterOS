@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<cn.tcl.note.ui.LinearLayoutTouch xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_audio_touch"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <cn.tcl.note.ui.EditTextHelper
+        android:id="@+id/item_audio_edit_before"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:paddingRight="1dp"
+        android:paddingBottom="2dp"
+        android:background="@null"
+        android:textDirection="rtl" />
+
+    <LinearLayout
+        android:id="@+id/attachment_border"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shadow">
+
+        <RelativeLayout
+            android:id="@+id/audio_border"
+            android:layout_width="@dimen/editor_img_width"
+            android:layout_height="@dimen/audio_height"
+            android:paddingLeft="16dp"
+            android:background="@color/home_item_background">
+
+            <LinearLayout
+                android:id="@+id/layout_audio_record"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <FrameLayout
+                    android:id="@+id/audio_frame_circle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="12dp"
+                    android:background="@drawable/anim_circle">
+
+                    <ImageView
+                        style="@style/audio_button_style"
+                        android:id="@+id/audio_record_start_pause"
+                        android:scaleType="center"
+                        android:src="@drawable/audio_pause" />
+                </FrameLayout>
+
+                <ImageView
+                    android:id="@+id/audio_record_stop"
+                    android:src="@drawable/audio_stop"
+                    style="@style/audio_button_style" />
+                <ImageView
+                    android:id="@+id/audio_record_wave"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:scaleType="fitCenter"
+                    android:adjustViewBounds="true"
+                    android:paddingLeft="11dp"
+                    android:paddingRight="11.3dp"
+                    android:src="@drawable/animation_audio_record_wave"/>
+                <TextView
+                    android:id="@+id/audio_record_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical|right"
+                    android:fontFamily="monster-normal"
+                    android:paddingRight="16dp"
+                    android:textColor="#5C000000"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_audio_show"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/audio_show_start"
+                    style="@style/audio_button_style"
+                    android:src="@drawable/audio_start" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="20dp"
+                    android:layout_gravity="center_vertical">
+
+                    <TextView
+                        android:id="@+id/audio_show_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:singleLine="true"
+                        android:fontFamily="monster-normal"
+                        style="@style/text_14_db" />
+
+                    <TextView
+                        android:id="@+id/audio_show_time"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:fontFamily="monster-normal"
+                        style="@style/text_12_59" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_audio_play"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/audio_play_start_pause"
+                    style="@style/audio_button_style"
+                    android:src="@drawable/audio_pause" />
+
+                <ImageView
+                    android:id="@+id/audio_play_stop"
+                    style="@style/audio_button_style"
+                    android:visibility="gone"
+                    android:src="@drawable/audio_stop" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="20dp"
+                    android:layout_gravity="center_vertical">
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"/>
+                    <TextView
+                        android:id="@+id/audio_play_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:singleLine="true"
+                        android:text="Audio1230125"
+                        android:fontFamily="monster-normal"
+                        style="@style/text_14_db" />
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                    <SeekBar
+                        android:id="@+id/audio_play_seek_bar"
+                        android:layout_width="216dp"
+                        android:layout_height="28dp"
+                        android:progressDrawable="@drawable/seek_bar_ui"
+                        android:thumb="@drawable/seek_bar_thumb" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="9dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/audio_play_time"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="00:00:01"
+                            android:fontFamily="monster-normal"
+                            style="@style/text_12_59" />
+
+                        <TextView
+                            android:id="@+id/audio_play_total_time"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="/00:02:05"
+                            android:fontFamily="monster-normal"
+                            style="@style/text_12_59" />
+                    </LinearLayout>
+                    </RelativeLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/audio_lost"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:visibility="visible"
+                android:paddingLeft="1dp"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:src="@drawable/audio_lost" />
+
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/text_12_59"
+                    android:textSize="13sp"
+                    android:fontFamily="monster-normal"
+                    android:text="@string/audio_lose" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <cn.tcl.note.ui.EditTextHelper
+        android:id="@+id/item_audio_edit_after"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:paddingLeft="1dp"
+        android:background="@null"
+        android:paddingBottom="2dp"
+        android:textDirection="ltr" />
+</cn.tcl.note.ui.LinearLayoutTouch>

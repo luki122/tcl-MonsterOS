@@ -1,0 +1,29 @@
+<resources>
+
+    <style name="loading_dialog" parent="android:style/Theme.Dialog">  
+        <item name="android:windowFrame">@null</item>  
+        <item name="android:windowNoTitle">true</item>   
+        <item name="android:windowBackground">@color/transparent</item>  
+        <item name="android:windowIsFloating">true</item>  
+        <item name="android:windowContentOverlay">@null</item>  
+    </style>
+     <style name="AlertDialogTheme" parent="android:Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item> 
+        <item name="android:windowNoTitle">true</item><!--除去title-->
+        <item name="android:windowContentOverlay">@null</item> 
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>  
+        <item name="android:background">@android:color/transparent</item>  
+        <item name="android:backgroundDimAmount">0.1</item>
+	</style>
+	
+     <!-- 自定义进度条 -->  
+   <style name="ProgressBar_Blue" parent="@android:style/Widget.ProgressBar.Large">  
+       <item name="android:maxHeight">50dip</item>  
+       <item name="android:minHeight">20dip</item>  
+       <item name="android:indeterminateOnly">false</item>  
+       <item name="android:progressDrawable">@drawable/progressbar_blue</item>  
+   </style>
+</resources>

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+    <android.support.design.widget.CoordinatorLayout
+        android:id="@+id/main_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/appbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/portrait_action_bar_color"
+            android:fitsSystemWindows="true"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+            <android.support.design.widget.CollapsingToolbarLayout
+                android:id="@+id/collapsing_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/collapsing_toolbar_height_v2"
+                android:fitsSystemWindows="true"
+                app:contentScrim="?attr/colorPrimary"
+                app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+                <ImageView
+                    android:id="@+id/logo"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:fitsSystemWindows="true"
+                    android:scaleType="centerCrop"
+                    android:visibility="gone"
+                    app:layout_collapseMode="parallax"
+                    app:layout_collapseParallaxMultiplier="0.5"/>
+                <!--修改内存溢出问题-->
+                <ImageView
+                    android:id="@+id/logo_loading"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="20dp"
+                    android:fitsSystemWindows="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/default_cover_details_small"
+                    app:layout_collapseMode="parallax"
+                    app:layout_collapseParallaxMultiplier="0.5"/>
+
+                <RelativeLayout
+                    android:id="@+id/tabshadow"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/tabshadow_height"
+                    android:layout_gravity="bottom"
+                    android:alpha="0.54"
+                    android:background="@color/portrait_action_bar_color"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/update_date"
+                        style="@style/textview_white_12sp_54"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="center"
+                        android:singleLine="true"/>
+
+                </RelativeLayout>
+
+                <mst.widget.toolbar.Toolbar
+                    android:id="@+id/toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    android:background="@color/portrait_action_bar_color"
+                    app:layout_collapseMode="pin"
+                    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                    app:titleTextColor="@color/base_title_unselect_color"/>
+
+                <TextView
+                    android:id="@+id/textbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:background="@color/music_theme_color"
+                    android:gravity="center"
+                    android:text="@string/queue"
+                    android:textColor="@color/base_title_unselect_color"
+                    android:textSize="16sp"/>
+
+            </android.support.design.widget.CollapsingToolbarLayout>
+
+        </android.support.design.widget.AppBarLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerview"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/activity_right_margin"
+                android:layout_marginLeft="@dimen/activity_left_margin"
+                android:layout_marginRight="@dimen/activity_right_margin"
+                android:layout_marginStart="@dimen/activity_left_margin"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:paddingTop="48dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+
+            <FrameLayout
+                android:id="@+id/batch_operate_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/batch_status_height"
+                android:layout_gravity="top"
+                android:background="@color/music_theme_color">
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginEnd="@dimen/title_left_right_margin"
+                    android:layout_marginLeft="@dimen/title_left_right_margin"
+                    android:layout_marginRight="@dimen/title_left_right_margin"
+                    android:layout_marginStart="@dimen/title_left_right_margin">
+
+                    <ImageView
+                        android:id="@+id/network_play_all_image"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="0dp"
+                        android:background="?android:attr/actionBarItemBackground"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/picto_play_all_download_off"/>
+
+                    <TextView
+                        android:id="@+id/network_play_all"
+                        style="@style/textview_white_13sp_87"
+                        android:layout_width="wrap_content"
+                        android:layout_height="59dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_toRightOf="@id/network_play_all_image"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:gravity="center_vertical"
+                        android:text="@string/playing_all"
+                        android:textColor="@color/base_title_unselect_color"/>
+
+                    <TextView
+                        android:id="@+id/batch_operate"
+                        style="@style/textview_white_14sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:clickable="true"
+                        android:gravity="center"
+                        android:text="@string/batch_operate"
+                        android:textColor="@color/base_title_unselect_color"/>
+
+                </RelativeLayout>
+
+                <include layout="@layout/line"/>
+            </FrameLayout>
+
+            <cn.tcl.music.view.EmptyLayoutV2
+                android:id="@+id/empty_view_container"
+                style="@style/emptylayut"
+                android:layout_marginTop="20dp"/>
+
+        </FrameLayout>
+
+        <ImageButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:background="#00000000"
+            android:clickable="true"
+            android:src="@drawable/play_now_selector"
+            android:visibility="gone"
+            app:layout_anchor="@id/tabshadow"
+            app:layout_anchorGravity="top|right|end"/>
+
+    </android.support.design.widget.CoordinatorLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="@dimen/activity_left_margin"
+        android:layout_marginEnd="@dimen/activity_right_margin"
+        android:layout_marginRight="@dimen/activity_right_margin"
+        android:src="@drawable/xiami_icon"/>
+
+</FrameLayout>

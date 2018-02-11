@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" android:layout_gravity="center"
+    android:orientation="horizontal" android:background="#eeffffff"
+    android:gravity="center" android:padding="10dip">
+    <ProgressBar
+        style="@android:style/Widget.ProgressBar.Inverse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_marginRight="10dip"/>
+	<TextView android:id="@+id/tv_progress_text" android:text="充值中..." android:textSize="18sp" android:textColor="#999999" android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+</LinearLayout>

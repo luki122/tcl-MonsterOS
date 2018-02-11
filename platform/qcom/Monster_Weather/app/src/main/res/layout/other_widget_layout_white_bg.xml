@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00FFFFFF">
+
+    <RelativeLayout
+        android:id="@+id/widget_black_layout"
+        android:layout_width="140dp"
+        android:layout_height="187dp"
+        android:layout_marginTop="63dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/tcl_widget_layout_border_white_bg">
+
+        <TextView
+            android:id="@+id/widget_month"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="monster-medium"
+            android:textColor="#BF000000"
+            android:textSize="27sp" />
+
+        <ImageView
+            android:id="@+id/widget_weather_icon"
+            android:layout_width="11dp"
+            android:layout_height="11dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="12dp"
+            android:layout_marginTop="12dp"
+            android:layout_toRightOf="@+id/widget_month"
+            android:scaleType="fitEnd"
+            android:src="@drawable/tcl_widget_add_black" />
+
+        <TextView
+            android:id="@+id/widget_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/widget_month"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="0dp"
+            android:fontFamily="monster-normal"
+            android:textColor="#BF000000"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/widget_year"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/widget_date"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="0dp"
+            android:fontFamily="monster-normal"
+            android:textColor="#BF000000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/widget_air_state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="12dp"
+            android:text="@string/txt_locating"
+            android:fontFamily="monster-normal"
+            android:textColor="#BF000000"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/widget_weather_temp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/widget_air_state"
+            android:layout_marginBottom="0dp"
+            android:layout_marginLeft="12dp"
+            android:fontFamily="monster-normal"
+            android:textColor="#BF000000"
+            android:textSize="13sp" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

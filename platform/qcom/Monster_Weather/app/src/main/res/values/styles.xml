@@ -1,0 +1,109 @@
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppTheme" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:colorPrimary">@color/color_primary</item>
+        <item name="android:colorPrimaryDark">@color/color_primary_dark</item>
+
+        <item name="android:colorControlHighlight">@color/color_primary_dark</item>
+        <item name="android:colorAccent">@color/color_primary_dark</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="MainTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:colorPrimary">@color/color_primary</item>
+        <item name="android:colorPrimaryDark">@color/color_primary_dark</item>
+
+        <item name="android:colorControlHighlight">@color/color_primary_dark</item>
+        <item name="android:colorAccent">@color/color_primary_dark</item>
+    </style>
+
+    <style name="SettingTheme" parent="android:Theme.Material.Light">
+        <item name="android:colorPrimary">@color/color_primary</item>
+        <item name="android:colorPrimaryDark">@color/color_primary_dark</item>
+        <item name="android:colorControlHighlight">@color/menu_default</item>
+        <item name="android:colorAccent">@color/color_accent_color</item>
+        <item name="android:actionBarStyle">@style/actionBarStyle</item>
+    </style>
+
+    <style name="actionBarStyle" parent="android:Widget.Material.Light.ActionBar.Solid">
+        <item name="android:titleTextStyle">@style/actionTitle</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_arrow_back_white</item>
+    </style>
+
+    <style name="actionTitle" parent="android:TextAppearance.Material.Title">
+        <item name="android:textColor">@color/actionbar_text_color</item>
+    </style>
+
+    <style name="shadow_style">
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:shadowColor">#66000000</item>
+        <item name="android:shadowRadius">1</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">3</item>
+    </style>
+
+    <style name="shadow_style_date_time">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:shadowColor">#66000000</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+
+    <!--CR 638496- Neo Skunkworks - Wenjing.ni - 001 start-->
+    <style name="shadow_style_time">
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:shadowColor">#00000000</item>
+        <item name="android:shadowRadius">5</item>
+        <item name="android:shadowDx">4</item>
+        <item name="android:shadowDy">5</item>
+    </style>
+
+    <style name="shadow_style_date">
+        <item name="android:textColor">#99FFFFFF</item>
+        <item name="android:shadowColor">#66000000</item>
+        <item name="android:shadowRadius">4</item>
+        <item name="android:shadowDx">2</item>
+        <item name="android:shadowDy">0</item>
+    </style>
+    <!--CR 638496- Neo Skunkworks - Wenjing.ni - 001 end-->
+
+    <style name="shadow_style_land_date">
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:shadowColor">#14000000</item>
+        <item name="android:shadowRadius">8</item>
+        <item name="android:shadowDx">4</item>
+        <item name="android:shadowDy">4</item>
+    </style>
+
+    <style name="LocateTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:colorPrimaryDark">@color/color_primary_dark</item>
+        <item name="android:colorPrimary">@color/color_primary</item>
+        <!--Fixed PR1017896 When enter add a location interface,screen will black by tingma at 2015-06-05 begin  -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- <item name="android:windowBackground">@android:color/transparent</item>  -->
+        <!--Fixed PR1017896 When enter add a location interface,screen will black by tingma at 2015-06-05 end  -->
+        <item name="android:textAppearanceButton">@style/MyButton</item>
+        <item name="android:textCursorDrawable">@null</item>
+        <item name="android:toolbarStyle">@style/MyToolbar</item>
+    </style>
+
+    <style name="GnEmptyTheme"></style>
+
+    <style name="MyButton" parent="android:TextAppearance.Material.Button">
+        <item name="android:textSize">15sp</item>
+        <item name="android:fontFamily">"sans-serif-light"</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="AppTheme.Base" parent="Theme.AppCompat.NoActionBar"></style>
+
+    <style name="MyToolbar" parent="Widget.AppCompat.Toolbar"></style>
+
+    <style name="MstToolbar" parent="com.mst:style/ToolbarStyle.ShowBottomDivider.White">
+        <item name="android:dividerHeight">1px</item>
+    </style>
+
+</resources>

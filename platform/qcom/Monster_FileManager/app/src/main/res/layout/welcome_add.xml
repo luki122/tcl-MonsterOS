@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright (C) 2016 Tcl Corporation Limited -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_width="1080px"
+        android:layout_height="1178px"
+        android:background="@drawable/welcome_add" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="monster-normal"
+        android:text="@string/welcome_add"
+        android:textColor="#FF202020"
+        android:textSize="@dimen/category_item_name_text_size" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:alpha="0.35"
+        android:fontFamily="monster-normal"
+        android:gravity="center_horizontal"
+        android:text="@string/welcome_add_info"
+        android:textColor="#FF202020"
+        android:textSize="@dimen/category_sdcard_storage_text_size" />
+
+    <Button
+        android:id="@+id/btn_ok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:fontFamily="monster-normal"
+        android:text="@string/welcome_ok"
+        android:textSize="@dimen/drawer_list_item_text_size" />
+</LinearLayout>

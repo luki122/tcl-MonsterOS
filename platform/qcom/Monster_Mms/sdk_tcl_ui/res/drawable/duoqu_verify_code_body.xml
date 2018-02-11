@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:duoqu="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="24dp"
+    android:layout_marginRight="24dp"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/duoqu_verify_code_body_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="23dp"
+        android:textColor="#a3a3a3"
+        android:textSize="12dp" />
+    <TextView
+        android:id="@+id/duoqu_verify_code_body_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:paddingTop="4dp"
+        android:textColor="#2eab91"
+        android:textSize="20dp" />
+    <TextView
+        android:id="@+id/duoqu_verify_code_body_sms_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="30dp"
+        android:paddingTop="17dp"
+        android:textColor="#a3a3a3"
+        android:textSize="14dp" />
+    
+    <TextView
+        android:id="@+id/duoqu_verify_code_body_notice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="12dp"
+        android:paddingTop="14dp"
+        android:text="@string/tips_do_not_leak_sms_verification_code"
+        android:textColor="#a3a3a3"
+        android:textSize="14dp" />
+
+</LinearLayout>

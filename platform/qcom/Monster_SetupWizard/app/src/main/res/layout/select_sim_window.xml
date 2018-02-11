@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:gravity="center_horizontal"
+    android:background="@android:color/darker_gray"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/select_sim1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:textAlignment="center"
+        android:text="SIM 卡1"/>
+    <View
+        android:id="@+id/select_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/select_sim1"
+        android:background="@android:color/white"/>
+    <TextView
+        android:id="@+id/select_sim2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/select_line"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:textAlignment="center"
+        android:text="SIM 卡2"/>
+</LinearLayout>
+

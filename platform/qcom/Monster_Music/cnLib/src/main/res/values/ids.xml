@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="recycler_view" type="id" />
+    <item name="progress_container" type="id" />
+    <item name="recycler_container" type="id" />
+
+    <item name="item_view" type="id"/>
+    <item name="item_menu_image_button" type="id" />
+    <item name="item_recycler_parent_view" type="id"/>
+    <item name="title_text_view" type="id"/>
+    <item name="subtitle_text_view" type="id"/>
+    <item name="subtitle_bis_text_view" type="id"/>
+
+
+    <item name="media_header" type="id" />
+    <item name="media_footer" type="id" />
+    <item name="media_content" type="id" />
+    <item name="media_search_artists" type="id" />
+    <item name="media_search_albums" type="id" />
+    <item name="media_search_playlists" type="id" />
+    <item name="media_search_songs" type="id" />
+    <!-- //[BUGFIX]-Add by TCTNJ,xiaolong.zhang, 2015-07-29,PR1036981  begin -->
+    <item name="media_on_line_search_artists" type="id" />
+    <item name="media_on_line_search_albums" type="id" />
+    <item name="media_on_line_search_playlists" type="id" />
+    <item name="media_on_line_search_songs" type="id" />
+    <!-- //[BUGFIX]-Add by TCTNJ,xiaolong.zhang, 2015-07-29,PR1036981  end -->
+    <item name="sliding_up_layout" type="id" />
+    <item name="second_sliding_up_layout" type="id" />
+    <item name="sliding_up_external_container" type="id" />
+    <item name="sliding_up_content_container" type="id" />
+
+    <item name="image_loader_wrapper_id" type="id" />
+
+    <item name="loader_content" type="id"/>
+    <item name="loader_pagination" type="id"/>
+
+    <item name="analysis_global_progress_bar" type="id" />
+    <item name="analysis_track_progress_bar" type="id" />
+    <item name="analysis_global_text_view" type="id" />
+    <item name="analysis_track_text_view" type="id" />
+    <item name="analysis_stop_button" type="id" />
+
+    <item name="drag_layout" type="id" />
+    <item name="drag_up_down_imageview" type="id" />
+    <item name="queueFragment" type="id" />
+    <item name="sliding_up_queue_content_container" type="id" />
+
+</resources>

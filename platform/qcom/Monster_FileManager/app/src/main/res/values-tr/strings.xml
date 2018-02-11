@@ -1,0 +1,814 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="sort">"Sırala"</string>
+	<!---->
+	<string name="sort_by_name">"Ad"</string>
+	<!---->
+	<string name="sort_by_date">"Değiştirme tarihi"</string>
+	<!---->
+	<string name="sort_by_time">"Tarih"</string>
+	<!---->
+	<string name="sort_by_type">"Tür"</string>
+	<!---->
+	<string name="sort_by_size">"Boyut"</string>
+	<!---->
+	<string name="copy">"Kopyala"</string>
+	<!---->
+	<string name="create_folder">"Oluştur"</string>
+	<!---->
+	<string name="cut">"Kes"</string>
+	<!---->
+	<string name="delete">"Sil"</string>
+	<!---->
+	<string name="delete_confirm">"Silmeyi onayla"</string>
+	<!---->
+	<string name="deselect_all">"Tümünün seçimini kaldır"</string>
+	<!---->
+	<string name="select_all">"Tümünü seç"</string>
+	<!---->
+	<string name="show_file">"Gizli dosyaları göster"</string>
+	<!---->
+	<string name="hide_file">"Gizli dosyaları gizle"</string>
+	<!---->
+	<string name="paste">"Yapıştır"</string>
+	<!---->
+	<string name="rename">"Yeniden adlandır"</string>
+	<!---->
+	<string name="share">"Paylaş"</string>
+	<!---->
+	<string name="viewby_list">"Liste olarak görüntüle"</string>
+	<!---->
+	<string name="viewby_grid">"Kılavuza göre görüntüle"</string>
+	<!---->
+	<string name="alert_delete_message">"Sil"</string>
+	<!---->
+	<string name="multi_alert_delete_message">"Seçili öğeler silinsin mi?"</string>
+	<!---->
+	<string name="multi_alert_delete_message_cn">"Seçili öğeler silinsin mi?"</string>
+	<!-- no translation found for delete_folder_message -->
+	<skip />
+	<!---->
+	<string name="category_pictures">"Resimler"</string>
+	<!---->
+	<string name="category_vedios">"Videolar"</string>
+	<!---->
+	<string name="category_music">"Müzik"</string>
+	<!---->
+	<string name="category_download">"İndirmeler"</string>
+	<!---->
+	<string name="category_bluetooth">"Bluetooth"</string>
+	<!-- no translation found for app_name -->
+	<skip />
+	<!-- no translation found for theme_name -->
+	<skip />
+	<!---->
+	<string name="apk_name">"Dosyalar"</string>
+	<!---->
+	<string name="new_folder">"Klasör adı girişi"</string>
+	<!---->
+	<string name="confirm_rename">"Adı onayla"</string>
+	<!---->
+	<string name="warning">"Maksimum dosya sayısı"</string>
+	<!---->
+	<string name="share_warning">"100\'den fazla dosya paylaşamazsınız."</string>
+	<!---->
+	<string name="loading">"Yükleniyor…"</string>
+	<!---->
+	<string name="deleting">"Siliniyor"</string>
+	<!---->
+	<string name="alert_delete_multiple">"Seçilen dosyalar silinecektir."</string>
+	<!---->
+	<string name="name">"Ad"</string>
+	<!---->
+	<string name="size">"Boyut"</string>
+	<!---->
+	<string name="modified_time">"Değiştirildi"</string>
+	<!---->
+	<string name="msg_rename_ext">"Dosya uzantısı değiştirilecek. Dosya tanınmayabilir Devam edilsin mi?"</string>
+	<!---->
+	<string name="wait">"Lütfen bekleyin..."</string>
+	<!---->
+	<string name="done">"Tamamlandı"</string>
+	<!-- no translation found for enable -->
+	<skip />
+	<!-- no translation found for enable_cn -->
+	<skip />
+	<!---->
+	<string name="cancel">"İptal"</string>
+	<!---->
+	<string name="no">"Hayır"</string>
+	<!---->
+	<string name="ok">"TAMAM"</string>
+	<!---->
+	<string name="yes">"Evet"</string>
+	<!---->
+	<string name="details">"Ayrıntılar"</string>
+	<!---->
+	<string name="drawer_open">"Aç"</string>
+	<!---->
+	<string name="unknown">"Bilinmeyen"</string>
+	<!-- no translation found for unit_B -->
+	<skip />
+	<!-- no translation found for unit_KB -->
+	<skip />
+	<!-- no translation found for unit_MB -->
+	<skip />
+	<!-- no translation found for unit_GB -->
+	<skip />
+	<!-- no translation found for unit_TB -->
+	<skip />
+	<!---->
+	<string name="send_file">"Dosyaları paylaşma aracı"</string>
+	<!---->
+	<string name="default_search_text">"Dosyaları ara"</string>
+	<!---->
+	<string name="free_space">"Müsait"</string>
+	<!---->
+	<string name="total_space">"Toplam alan"</string>
+	<!---->
+	<string name="drawer_category">"Kategoriler"</string>
+	<!---->
+	<string name="phone_storage">"Telefon Depolama Birimi"</string>
+	<!---->
+	<string name="phone_storage_cn">"Telefon hafızası"</string>
+	<!---->
+	<string name="sd_card">"SD Kart"</string>
+	<!---->
+	<string name="draw_left_phone_storage">"Telefon hafızası"</string>
+	<!---->
+	<string name="draw_left_sd_card">"SD Kart"</string>
+	<!-- no translation found for menu_settings -->
+	<skip />
+	<!---->
+	<string name="no_search_result">"\"%1$s\" için 0 sonuç"</string>
+	<!---->
+	<string name="copy_deny">"Kopyalama izni yok"</string>
+	<!---->
+	<string name="cut_deny">"Kesme izni yok"</string>
+	<!---->
+	<string name="delete_deny">"Silme izni yok"</string>
+	<!---->
+	<string name="insufficient_memory">"Yetersiz boş alan."</string>
+	<!---->
+	<string name="insufficient_message">"Yetersiz alan nedeniyle bazı dosyalar kopyalanamadı"</string>
+	<!---->
+	<string name="invalid_empty_name">"Dosya ya da klasör adı boş olamaz"</string>
+	<!---->
+	<string name="paste_same_folder">"Kopyalanamadı: kaynak ve hedef klasör aynı."</string>
+	<!---->
+	<string name="invalid_char_prompt">"Geçersiz karakter girdiniz"</string>
+	<!---->
+	<string name="msg_unable_open_file">"Dosya biçimi desteklenmiyor."</string>
+	<!---->
+	<string name="paste_sub_folder">"Dosya alt klasöre yapıştırılamıyor"</string>
+	<!---->
+	<string name="operation_fail">"Bazı dosya işlemleri başarısız."</string>
+	<!---->
+	<string name="search_result">"\"%1$s\" için %2$d sonuç"</string>
+	<!---->
+	<string name="already_exists">"%1$s kullanılıyor"</string>
+	<!---->
+	<string name="unmounted">"%1$s çıkarıldı"</string>
+	<!---->
+	<string name="create_hidden_file">"Dosya adı \'.\' ile başlarsa, dosya gizlenir"</string>
+	<!---->
+	<string name="file_name_too_long">"Giriş adı çok uzun"</string>
+	<!---->
+	<string name="some_paste_fail">"Yapıştırma işlemleri başarısız"</string>
+	<!---->
+	<string name="delete_fail">"Silinemedi"</string>
+	<!---->
+	<string name="some_delete_fail">"Bazı silme işlemleri başarısız."</string>
+	<!---->
+	<string name="msg_unable_open_file_in_app">"Dosyayı açacak uygulama yok."</string>
+	<!---->
+	<string name="drm_forwardforbidden_title">"İletilemedi"</string>
+	<!---->
+	<string name="drm_forwardforbidden_message">"DRM dosyası iletilemiyor."</string>
+	<!---->
+	<string name="drm_no_valid_right">"Dosyada geçerli DRM yetkisi yok!"</string>
+	<!---->
+	<string name="drm_current_count">"Mevcut Sayım："</string>
+	<!---->
+	<string name="unlimited_usage">"Sınırsız kullanım"</string>
+	<!---->
+	<string name="drm_current_right">"Mevcut Kısıtlama："</string>
+	<!---->
+	<string name="not_available">"Kullanılamaz"</string>
+	<!---->
+	<string name="right_url">"Lisans Yayıncısı URL:"</string>
+	<!---->
+	<string name="use_times">"%s kez kullan"</string>
+	<!---->
+	<string name="valid_after">"Şu tarihten sonra geçerlidir:"</string>
+	<!---->
+	<string name="valid_until">"Şu tarihe kadar geçerlidir:"</string>
+	<!---->
+	<string name="drm_wifidisplay_title">"Kopyalama korumalı dosyalar"</string>
+	<!---->
+	<string name="drm_wifidisplay_message">"Kopya korumalı dosya dağıtılamıyor."</string>
+	<!---->
+	<string name="drm_wifidisplay_cancel_btn">"Wi-Fi Ekranını Kapat"</string>
+	<!---->
+	<string name="drm_wifidisplay_ok">"TAMAM"</string>
+	<!---->
+	<string name="tv_link_close_toast">"Wi-Fi Ekranı kapatıldı"</string>
+	<!---->
+	<string name="usbotg">"Harici USB hafıza"</string>
+	<!---->
+	<string name="show">"Sistem dosyalarını göster"</string>
+	<!---->
+	<string name="hide">"Sistem dosyalarını gizle"</string>
+	<!---->
+	<string name="action_menu_create_folder_button">"Klasör oluştur"</string>
+	<!---->
+	<string name="searchResult">"Arama Sonucu"</string>
+	<!---->
+	<string name="default_folder_name">"Klasör adı"</string>
+	<!---->
+	<string name="drm_protection_status">"Koruma durumu:"</string>
+	<!---->
+	<string name="drm_can_forward">"İletilebilir."</string>
+	<!---->
+	<string name="drm_can_not_forward">"İletilemez."</string>
+	<!---->
+	<string name="drm_no_license">"Kullanılabilir DRM lisansı yok."</string>
+	<!---->
+	<string name="drm_interval">"İlk kullanımdan itibaren %s geçerlidir"</string>
+	<!---->
+	<string name="drm_begin">"Başla:"</string>
+	<!---->
+	<string name="drm_no_limitation">"Sınırlama yok."</string>
+	<!---->
+	<string name="drm_end">"Bitir:"</string>
+	<!---->
+	<string name="drm_use_left">"Kalanlar:"</string>
+	<!---->
+	<string name="drm_no_crop">"%s dosyası DRM korumalı olduğundan kesilemez."</string>
+	<!---->
+	<string name="file_copy">"Dosya kopyalandı"</string>
+	<!---->
+	<string name="choice_file">"Hedef seçin"</string>
+	<!---->
+	<string name="alert_delete_single">"Seçilen dosya silinecek."</string>
+	<!---->
+	<string name="pasting">"Yapıştırılıyor"</string>
+	<!---->
+	<string name="readable">"Okunabilir："</string>
+	<!---->
+	<string name="executable">"Uygulama:"</string>
+	<!---->
+	<string name="writable">"Yazılabilir："</string>
+	<!---->
+	<string name="add_favorite">"Favori klasörüne ekle"</string>
+	<!---->
+	<string name="del_favorite">"Favori klasöründen sil"</string>
+	<!---->
+	<string name="favourite">"Sık klnlnlra ekle"</string>
+	<!---->
+	<string name="viewby_details">"Detaylara göre görüntüle"</string>
+	<!---->
+	<string name="view_by">"Görntlm"</string>
+	<!---->
+	<string name="show_hide">"Göster\\Gizle"</string>
+	<!---->
+	<string name="sort_by">"Sırala"</string>
+	<!---->
+	<string name="more">"Daha fazla"</string>
+	<!-- no translation found for used -->
+	<skip />
+	<!---->
+	<string name="category_archives">"Arşivler"</string>
+	<!---->
+	<string name="category_favorite">"Favoriler"</string>
+	<!---->
+	<string name="category_ringtones">"Zil Sesleri"</string>
+	<!---->
+	<string name="category_recordings">"Kayıtlar"</string>
+	<!---->
+	<string name="category_safebox">"Kasa"</string>
+	<!---->
+	<string name="category_apks">"APK\'lar"</string>
+	<!---->
+	<string name="search">"Arama"</string>
+	<!---->
+	<string name="sort_type">"Türe göre sırala"</string>
+	<!---->
+	<string name="sort_name">"Ada göre sırala (A-Z)"</string>
+	<!---->
+	<string name="sort_size">"Boyuta göre sırala (büyük-küçük)"</string>
+	<!---->
+	<string name="sort_time">"Saate göre sırala (yeni-eski)"</string>
+	<!---->
+	<string name="selected">"seçili"</string>
+	<!---->
+	<string name="save">"Kaydet"</string>
+	<!---->
+	<string name="category_docs">"Belgeler"</string>
+	<!---->
+	<string name="category_files">"Dosyalar"</string>
+	<!---->
+	<string name="view_as_grid">"Kareler"</string>
+	<!---->
+	<string name="view_as_list">"Liste göster"</string>
+	<!---->
+	<string name="detail_path">"Konum:"</string>
+	<!---->
+	<string name="detail_name">"Ad:"</string>
+	<!---->
+	<string name="detail_size">"Boyutu:"</string>
+	<!---->
+	<string name="detail_time">"Son değiştirilme:"</string>
+	<!---->
+	<string name="empty_msg">"(Boş Klasör)"</string>
+	<!---->
+	<string name="search_files">"Dosyaları ara"</string>
+	<!-- no translation found for search_result_count -->
+	<skip />
+	<!---->
+	<string name="drawer_settings">"Ayarlar"</string>
+	<!---->
+	<string name="search_text_empty">"Arama içeriği boş bırakılmamalıdır."</string>
+	<!---->
+	<string name="search_result_title">"Arama sonuçları"</string>
+	<!---->
+	<string name="path_not_exists">"%1$s yolu mevcut değil"</string>
+	<!---->
+	<string name="modify_hidden_file">"Dosya, adı \'.\' ile başlamazsa gizlenmez."</string>
+	<!---->
+	<string name="paste_fail">"Yapıştırılamadı"</string>
+	<!---->
+	<string name="search_empty">"Arama içeriği boş bırakılmamalıdır."</string>
+	<!---->
+	<string name="search_setting_description">"Yerel dosyalar ve klasörler"</string>
+	<!---->
+	<string name="change_mode">"Dosya ya da klasör seç"</string>
+	<!-- no translation found for drm_protectioninfo_title -->
+	<skip />
+	<!---->
+	<string name="draw_favourite">"favori"</string>
+	<!---->
+	<string name="unfavourite">"Sık klnlnlrdan kaldır"</string>
+	<!---->
+	<string name="drm_toast_license_expired">"DRM lisansı süresi doldu."</string>
+	<!-- no translation found for sdstroge -->
+	<skip />
+	<!-- no translation found for phonestorage -->
+	<skip />
+	<!-- no translation found for title_activity_main -->
+	<skip />
+	<!-- no translation found for hello_world -->
+	<skip />
+	<!-- no translation found for action_settings -->
+	<skip />
+	<!-- no translation found for unlock_video -->
+	<skip />
+	<!---->
+	<string name="readable_m">"Okunabilir"</string>
+	<!---->
+	<string name="executable_m">"Uygulama"</string>
+	<!---->
+	<string name="writable_m">"Yazılabilir"</string>
+	<!---->
+	<string name="main_recents">"Son Çalınanlar"</string>
+	<!-- no translation found for main_recents_cn -->
+	<skip />
+	<!---->
+	<string name="main_installers">"Yükleyiciler"</string>
+	<!---->
+	<string name="main_document">"Belgeler"</string>
+	<!---->
+	<string name="detail_path_m">"Konum"</string>
+	<!-- no translation found for detail_path_m_cn -->
+	<skip />
+	<!---->
+	<string name="detail_name_m">"Ad"</string>
+	<!---->
+	<string name="detail_size_m">"Boyut"</string>
+	<!---->
+	<string name="detail_time_m">"Son değiştirilme"</string>
+	<!---->
+	<string name="main_photo">"Fotoğraflar"</string>
+	<!---->
+	<string name="main_sd_storage">"SD Depolama ortamı"</string>
+	<!---->
+	<string name="main_external_storage">"Harici depolama"</string>
+	<!---->
+	<string name="main_home">"Giriş"</string>
+	<!-- no translation found for main_home_cn -->
+	<skip />
+	<!---->
+	<string name="main_nava_home">"Giriş"</string>
+	<!---->
+	<string name="menu_select">"Seç"</string>
+	<!-- no translation found for go_up -->
+	<skip />
+	<!---->
+	<string name="no_folder">"Bu klasör boş"</string>
+	<!---->
+	<string name="no_category">"Bu kategori boş."</string>
+	<!-- no translation found for no_folder_cn -->
+	<skip />
+	<!-- no translation found for no_category_cn -->
+	<skip />
+	<!---->
+	<string name="pasted">"Dosya yapıştırıldı"</string>
+	<!---->
+	<string name="deleted">"Dosya silindi"</string>
+	<!---->
+	<string name="deleted_cn">"Dosya silindi"</string>
+	<!---->
+	<string name="view_list">"Liste görünümü"</string>
+	<!---->
+	<string name="view_grid">"Izgara görünümü"</string>
+	<!---->
+	<string name="create_new_folder">"Klasör oluştur"</string>
+	<!-- no translation found for add_folder -->
+	<skip />
+	<!---->
+	<string name="detail">"Ayrıntılar"</string>
+	<!-- no translation found for menu_detail -->
+	<skip />
+	<!---->
+	<string name="migrate">"Geçir"</string>
+	<!---->
+	<string name="permission_welcome_title">"İzin gerekli"</string>
+	<!---->
+	<string name="permission_msg">"Sizin için daha iyi hizmet"</string>
+	<!---->
+	<string name="permission_setting_title">"Erişim ver"</string>
+	<!---->
+	<string name="permission_setting_content">"Cihazınızdaki uygulama ayarlarında izinleri değiştirin. Dosya Yöneticisine depolama alanı erişimi verin."</string>
+	<!---->
+	<string name="permission_exit_btn">"Çıkş"</string>
+	<!---->
+	<string name="dialog_close_btn">"Kapat"</string>
+	<!-- no translation found for dialog_close_btn_cn -->
+	<skip />
+	<!---->
+	<string name="shortcut_item">"Kısayol ekle"</string>
+	<!-- no translation found for shortcut_item_cn -->
+	<skip />
+	<!---->
+	<string name="shortcut_no_exist">"İstenen klasör mevcut değil"</string>
+	<!-- no translation found for shortcut_success -->
+	<skip />
+	<!---->
+	<string name="no_search_result_m">"\"%1$s\" için sonuç bulunamadı"</string>
+	<!---->
+	<string name="draw_left_phone_storage_m">"Telefon"</string>
+	<!---->
+	<string name="category_audio">"Ses"</string>
+	<!---->
+	<string name="usbotg_m">"Harici"</string>
+	<!-- no translation found for sd_m -->
+	<skip />
+	<!---->
+	<string name="freeof_m">"Boş"</string>
+	<!---->
+	<string name="permission_settings">"Ayarlar"</string>
+	<!---->
+	<string name="safe_first_dialog_title">"Kasa kategorisi"</string>
+	<!---->
+	<string name="safe_first_dialog_content">"Bu kategoriye taşınan dosyalar parola kimlik doğrulaması gerektirir. Menüden "Kasaya taşı" öğesine basarak bu kategoriye dosyalar ekleyin."</string>
+	<!-- no translation found for safe_first_dialog_content_cn -->
+	<skip />
+	<!---->
+	<string name="safe_storage_local">"Yerel depolama"</string>
+	<!---->
+	<string name="set_password_pass">"Parola"</string>
+	<!---->
+	<string name="set_password_first">"Parolayı ayarlayın: 4-12 basamak"</string>
+	<!-- no translation found for input_new_password_hint -->
+	<skip />
+	<!---->
+	<string name="set_password_again">"Parolayı onayla"</string>
+	<!---->
+	<string name="set_password_show">"Parola göster"</string>
+	<!---->
+	<string name="set_password_safe_question">"Güvenlik soruları"</string>
+	<!---->
+	<string name="set_password_safe_question_answer">"Yanıtla"</string>
+	<!---->
+	<string name="set_password_safe_forget_pass">"Güvenlik sorularının yanıtlarını hatırlayın. Parolanızı unutursanız, güvenlik sorularını yanıtlayarak sıfırlayabilirsiniz"</string>
+	<!---->
+	<string name="choose_safe">"Kasa seç"</string>
+	<!-- no translation found for choose_safe_cn -->
+	<skip />
+	<!---->
+	<string name="create_safe">"Kasa oluştur"</string>
+	<!---->
+	<string name="create_safe_to">"Kasa oluştur..."</string>
+	<!-- no translation found for create_safe_to_cn -->
+	<skip />
+	<!---->
+	<string name="set_password">"Parola belirle"</string>
+	<!-- no translation found for add_file_safe -->
+	<skip />
+	<!---->
+	<string name="safe_set">"Ayarlar"</string>
+	<!---->
+	<string name="safe_set_title">"Kasa ayarları"</string>
+	<!-- no translation found for safe_set_title_cn -->
+	<skip />
+	<!---->
+	<string name="update_password">"Parolayı güncelle"</string>
+	<!---->
+	<string name="modify_password">"Parolayı değiştir"</string>
+	<!---->
+	<string name="security_question">"Güvenlik sorusunu güncelle"</string>
+	<!-- no translation found for modify_security_question -->
+	<skip />
+	<!---->
+	<string name="safe_set_change_safe">"Kasayı değiştir"</string>
+	<!---->
+	<string name="safe_set_location_safe">"Kasa konumu"</string>
+	<!-- no translation found for safe_set_location_safe_cn -->
+	<skip />
+	<!---->
+	<string name="update_password_original">"Orijinal parolayı gir"</string>
+	<!---->
+	<string name="update_password_original_cn">"Orijinal parolayı gir"</string>
+	<!---->
+	<string name="destory_safe">"Kasayı imha et"</string>
+	<!-- no translation found for destory_safe_cn -->
+	<skip />
+	<!-- no translation found for destory -->
+	<skip />
+	<!---->
+	<string name="use_password">"Parolayı kullan"</string>
+	<!---->
+	<string name="input_password">"Parolayı girin"</string>
+	<!---->
+	<string name="forget_password">"Parolayı unut"</string>
+	<!-- no translation found for others -->
+	<skip />
+	<!---->
+	<string name="password_empty">"Parola boş olamaz."</string>
+	<!---->
+	<string name="password_consistent">"Parolalar birbiriyle eşleşmiyor."</string>
+	<!---->
+	<string name="password_length_error">"Parola uzunluk hatası"</string>
+	<!---->
+	<string name="answer_empty">"Yanıt boş olamaz."</string>
+	<!-- no translation found for safe_box_name_empty -->
+	<skip />
+	<!---->
+	<string name="update_success">"Güncelleme başarılı."</string>
+	<!---->
+	<string name="update_fail">"Güncelleme başarısız"</string>
+	<!---->
+	<string name="password_mistake">"Parola doğru değil. Tekrar girin."</string>
+	<!---->
+	<string name="move_safe">"Kasaya taşı"</string>
+	<!---->
+	<string name="fingerprint_check">"Bağlantılı parmak izleri, doğrulama için lütfen parmak izi sensörünü kullanın."</string>
+	<!---->
+	<string name="in_use">"Kullanımda"</string>
+	<!---->
+	<string name="created">"Oluşturuldu"</string>
+	<!---->
+	<string name="choose_files">"Dosya(lar) seç"</string>
+	<!---->
+	<string name="move_out">"Dışa taşı"</string>
+	<!---->
+	<string name="remove_to">"Şuraya taşı:"</string>
+	<!---->
+	<string name="default_location">"Varsayılan konum"</string>
+	<!---->
+	<string name="specified_location">"Belirtilen konum"</string>
+	<!-- no translation found for open_dir -->
+	<skip />
+	<!-- no translation found for default_location_cn -->
+	<skip />
+	<!-- no translation found for specified_location_cn -->
+	<skip />
+	<!-- no translation found for specified_location_content_cn -->
+	<skip />
+	<!-- no translation found for category_safe -->
+	<skip />
+	<!-- no translation found for category_safe_cn -->
+	<skip />
+	<!---->
+	<string name="add_safe_size_limited">"2,0 GB\'den büyük dosyalar eklenemiyor"</string>
+	<!-- no translation found for add_safe_drm_limited -->
+	<skip />
+	<!---->
+	<string name="fingerprint_relative_dialog">"Kasa parmak iziyle ilişkilendirilsin mi?"</string>
+	<!-- no translation found for fingerprint_relative_dialog_cn -->
+	<skip />
+	<!-- no translation found for fingerprint_relative_dialog_ok -->
+	<skip />
+	<!-- no translation found for fingerprint_relative_dialog_ok_cn -->
+	<skip />
+	<!---->
+	<string name="fingerprint_relative_dialog_cancel">"Daha sonra"</string>
+	<!-- no translation found for fingerprint_relative_dialog_cancel_cn -->
+	<skip />
+	<!---->
+	<string name="safe_location_current">"Kasa konumu:"</string>
+	<!-- no translation found for safe_location_current_cn -->
+	<skip />
+	<!---->
+	<string name="safe_location_content">"Şifrelenmiş verilere hasar vermemek için dosya klasöründe işlem yapmayın"</string>
+	<!-- no translation found for safe_location_content_cn -->
+	<skip />
+	<!---->
+	<string name="destory_safe_dialog_message">"Kasadaki dosyalar ve parola silinecek. Şimdi imha edilsin mi?"</string>
+	<!---->
+	<string name="destory_safe_dialog_checkbox">"Ayrıca dosya da kaldırılsın mı?"</string>
+	<!-- no translation found for destory_safe_dialog_checkbox_cn -->
+	<skip />
+	<!---->
+	<string name="open_safe_dialog">"Kasayı etkinleştir"</string>
+	<!-- no translation found for open_safe_dialog_cn -->
+	<skip />
+	<!---->
+	<string name="open_safe_dialog_message">"Kasanın etkinleştirilmesi dosyaları kasaya taşır. Şimdi etkinleştirilsin mi?"</string>
+	<!-- no translation found for open_safe_dialog_message_cn -->
+	<skip />
+	<!---->
+	<string name="open_safe_dialog_ok">"Hemen aç"</string>
+	<!---->
+	<string name="category_private_string">"Kasa"</string>
+	<!---->
+	<string name="opening">"Açılıyor"</string>
+	<!-- no translation found for space_clear -->
+	<skip />
+	<!-- no translation found for unselected -->
+	<skip />
+	<!-- no translation found for select -->
+	<skip />
+	<!-- no translation found for finish -->
+	<skip />
+	<!---->
+	<string name="senior_title">"Kıdemli"</string>
+	<!-- no translation found for no_files_for_add_to_safebox -->
+	<skip />
+	<!-- no translation found for finger_print_relation -->
+	<skip />
+	<!-- no translation found for duplicate_file_name_tip -->
+	<skip />
+	<!---->
+	<string name="searchview_hint">"Dosyaları ara"</string>
+	<!-- no translation found for safe_box_name_tip -->
+	<skip />
+	<!-- no translation found for toast_update_safe_box_name_sucess -->
+	<skip />
+	<!-- no translation found for toast_update_safe_box_name_fail -->
+	<skip />
+	<!-- no translation found for toast_safe_box_name_empty -->
+	<skip />
+	<!-- no translation found for cut_single_fail_tip -->
+	<skip />
+	<!-- no translation found for delete_single_fail_tip -->
+	<skip />
+	<!-- no translation found for copy_single_fail_tip -->
+	<skip />
+	<!-- no translation found for copy_multi_fail_tip -->
+	<skip />
+	<!-- no translation found for delete_multi_fail_tip -->
+	<skip />
+	<!-- no translation found for cut_multi_fail_tip -->
+	<skip />
+	<!-- no translation found for copy_all_fail_tip -->
+	<skip />
+	<!-- no translation found for delete_all_fail_tip -->
+	<skip />
+	<!-- no translation found for cut_all_fail_tip -->
+	<skip />
+	<!-- no translation found for past_multi_fail_tip -->
+	<skip />
+	<!-- no translation found for past_single_fail_tip -->
+	<skip />
+	<!-- no translation found for past_all_fail_tip -->
+	<skip />
+	<!-- no translation found for chip_encryption -->
+	<skip />
+	<!---->
+	<string name="safe_name_title">"Ad"</string>
+	<!---->
+	<string name="update_name">"Adı güncelle"</string>
+	<!-- no translation found for fingerprint_relate -->
+	<skip />
+	<!-- no translation found for insufficient_message_cn -->
+	<skip />
+	<!-- no translation found for add_success -->
+	<skip />
+	<!---->
+	<string name="pasted_cn">"Dosya yapıştırıldı"</string>
+	<!-- no translation found for no_search_result_cn -->
+	<skip />
+	<!---->
+	<string name="detail_time_cn">"Değiştirilme saati"</string>
+	<!-- no translation found for rename_limit -->
+	<skip />
+	<!-- no translation found for fingerprint_fail -->
+	<skip />
+	<!-- no translation found for answer_mistake -->
+	<skip />
+	<!-- no translation found for answer_empty_tip -->
+	<skip />
+	<!-- no translation found for new_safe -->
+	<skip />
+	<!-- no translation found for dialog_confirm -->
+	<skip />
+	<!-- no translation found for move_in_success -->
+	<skip />
+	<!-- no translation found for move_in_count -->
+	<skip />
+	<!-- no translation found for message_security_fingerprint_lockout -->
+	<skip />
+	<!-- no translation found for use_password_auth -->
+	<skip />
+	<!-- no translation found for storage_details -->
+	<skip />
+	<!---->
+	<string name="total_memory">"Toplam bellek"</string>
+	<!-- no translation found for system -->
+	<skip />
+	<!-- no translation found for category_fragment_title -->
+	<skip />
+	<!-- no translation found for storage -->
+	<skip />
+	<!-- no translation found for choice -->
+	<skip />
+	<!-- no translation found for view_tag_key -->
+	<skip />
+	<!-- no translation found for view_tag_key2 -->
+	<skip />
+	<!-- no translation found for finish_percent -->
+	<skip />
+	<!---->
+	<string name="select_pic">"Resmi seç"</string>
+	<!---->
+	<string name="brackets_double">"(%1$s)"</string>
+	<!-- no translation found for selected_pick -->
+	<skip />
+	<!-- no translation found for most_selected -->
+	<skip />
+	<!-- no translation found for finish_ready -->
+	<skip />
+	<!-- no translation found for select_pic_data -->
+	<skip />
+	<!-- no translation found for delete_determine_selected -->
+	<skip />
+	<!-- no translation found for delete_document -->
+	<skip />
+	<!-- no translation found for delete_folder -->
+	<skip />
+	<!-- no translation found for delete_folder_and -->
+	<skip />
+	<!---->
+	<string name="deselect_all_item">"Tümünün seçimini kaldır"</string>
+	<!-- no translation found for edit -->
+	<skip />
+	<!-- no translation found for storage_phone -->
+	<skip />
+	<!-- no translation found for storage_sdcard -->
+	<skip />
+	<!-- no translation found for storage_otg -->
+	<skip />
+	<!-- no translation found for storage_slash -->
+	<skip />
+	<!-- no translation found for welcome_security -->
+	<skip />
+	<!-- no translation found for welcome_security_info -->
+	<skip />
+	<!-- no translation found for welcome_convenient -->
+	<skip />
+	<!-- no translation found for welcome_convenient_info -->
+	<skip />
+	<!-- no translation found for welcome_depth -->
+	<skip />
+	<!-- no translation found for welcome_depth_info -->
+	<skip />
+	<!-- no translation found for welcome_add -->
+	<skip />
+	<!-- no translation found for welcome_add_info -->
+	<skip />
+	<!-- no translation found for welcome_dialog_title -->
+	<skip />
+	<!-- no translation found for welcome_dialog_info -->
+	<skip />
+	<!-- no translation found for welcome_dialog_verify_btn -->
+	<skip />
+	<!-- no translation found for welcome_dialog_verify_pwd -->
+	<skip />
+	<!-- no translation found for welcome_start_use -->
+	<skip />
+	<!-- no translation found for welcome_not_use -->
+	<skip />
+	<!---->
+	<string name="welcome_ok">"TAMAM"</string>
+	<!-- no translation found for encrypt_files_success -->
+	<skip />
+	<!-- no translation found for delete_direct -->
+	<skip />
+	<!---->
+	<string name="delete_file">"Bu dosya silinsin mi?"</string>
+</resources>

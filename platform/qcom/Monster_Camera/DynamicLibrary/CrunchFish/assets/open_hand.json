@@ -1,0 +1,47 @@
+{
+  "start": "find_open_hand",
+  "name": "open_hand",
+  "state": [
+    {
+      "id": "find_open_hand",
+      "transition": [
+        {
+          "to": "open_hand_found",
+          "notify": {
+            "text": "pose_found"
+          },
+          "criteria": [
+            {
+              "pose": {
+                "set_id": "the_open_hand",
+                "type": "open_hand"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "open_hand_found",
+      "transition": [
+        {
+          "to": "open_hand_found",
+          "criteria": [
+            {
+              "pose": {
+                "id": "the_open_hand",
+                "type": "open_hand"
+              }
+            }
+          ]
+        },
+        {
+          "to": "find_open_hand",
+          "notify": {
+              "text": "pose_lost"
+          }
+        }
+      ]
+    }
+  ]
+}

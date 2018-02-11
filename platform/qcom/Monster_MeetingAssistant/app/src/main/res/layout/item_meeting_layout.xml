@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/layout_common_74dp"
+    android:background="?android:attr/selectableItemBackgroundBorderless">
+
+    <RelativeLayout
+        android:id="@+id/item_content_layout_container"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_common_74dp">
+
+        <RelativeLayout
+            android:id="@+id/item_meeting_checkbox_container"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/app_background">
+
+            <CheckBox
+                android:id="@+id/item_meeting_checkbox"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_centerVertical="true" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_toRightOf="@id/item_meeting_checkbox_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <FrameLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+
+                    android:paddingTop="@dimen/layout_common_15dp"
+                    android:paddingLeft="@dimen/layout_common_18dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:fontFamily="monster-normal"
+                        android:id="@+id/item_meeting_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black_86opacity"
+                        android:textSize="@dimen/layout_common_16dp"
+                        android:maxWidth="250dp"
+                        android:maxLines="1"
+                        android:ellipsize="end"
+                        android:gravity="center_vertical" />
+
+                    <LinearLayout
+                        android:layout_marginTop="6dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/item_meeting_detail_label"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:singleLine="true"
+                            android:textSize="@dimen/font_size_13sp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerVertical="true"
+                            android:text="@string/meeting_time"
+                            android:textColor="@color/black_40opacity"
+                            android:fontFamily="monster-normal" />
+
+                        <TextView
+                            android:layout_marginLeft="@dimen/layout_common_5dp"
+                            android:id="@+id/item_meeting_detail"
+                            android:singleLine="true"
+                            android:textSize="@dimen/font_size_13sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:fontFamily="monster-normal"
+                            android:textColor="@color/black_40opacity" />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/item_meeting_voice"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/layout_common_18dp"
+        android:layout_marginTop="@dimen/layout_common_41dp"
+        android:layout_marginRight="@dimen/layout_common_15dp"
+        android:layout_alignParentRight="true"
+        android:src="@mipmap/meeting_item_voice" />
+</RelativeLayout>

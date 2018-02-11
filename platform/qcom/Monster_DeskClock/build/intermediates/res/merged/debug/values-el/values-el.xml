@@ -1,0 +1,718 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="alarm_set">
+    <item msgid="6450913786084215050">"Το ξυπνητήρι έχει οριστεί σε λιγότερο από 1 λεπτό από τώρα."</item>
+    <item msgid="6002066367368421848">"Το ξυπνητήρι έχει οριστεί σε <ns1:g id="DAYS">%1$s</ns1:g> από τώρα."</item>
+    <item msgid="8824719306247973774">"Το ξυπνητήρι έχει οριστεί σε <ns1:g id="HOURS">%2$s</ns1:g> από τώρα."</item>
+    <item msgid="8182406852935468862">"Το ξυπνητήρι έχει οριστεί σε <ns1:g id="DAYS">%1$s</ns1:g> και <ns1:g id="HOURS">%2$s</ns1:g> από τώρα."</item>
+    <item msgid="2532279224777213194">"Το ξυπνητήρι έχει οριστεί σε <ns1:g id="MINUTES">%3$s</ns1:g> από τώρα."</item>
+    <item msgid="5936557894247187717">"Το ξυπνητήρι έχει οριστεί σε <ns1:g id="DAYS">%1$s</ns1:g> και <ns1:g id="MINUTES">%3$s</ns1:g> από τώρα."</item>
+    <item msgid="9115697840826129603">"Το ξυπνητήρι έχει οριστεί σε <ns1:g id="HOURS">%2$s</ns1:g> και <ns1:g id="MINUTES">%3$s</ns1:g> από τώρα."</item>
+    <item msgid="2332583385137381060">"Το ξυπνητήρι αυτό έχει οριστεί σε <ns1:g id="DAYS">%1$s</ns1:g>, <ns1:g id="HOURS">%2$s</ns1:g> και <ns1:g id="MINUTES">%3$s</ns1:g> από τώρα."</item>
+  </string-array>
+    <string-array name="auto_silence_entries">
+    <item msgid="3024545954917711306">"1 λεπτό"</item>
+    <item msgid="5431906692406316549">"5 λεπτά"</item>
+    <item msgid="7742728812068919959">"10 λεπτά"</item>
+    <item msgid="2855948657259647629">"15 λεπτά"</item>
+    <item msgid="6330196381284475079">"20 λεπτά"</item>
+    <item msgid="7809240121716151904">"25 λεπτά"</item>
+    <item msgid="4278641338024561333">"Ποτέ"</item>
+  </string-array>
+    <string-array name="cities_names">
+    <item msgid="4653806289288974388">"Α<ns1:g id="SEPARATOR">=</ns1:g>Αμπιτζάν"</item>
+    <item msgid="4864167603178202155">"Α<ns1:g id="SEPARATOR">=</ns1:g>Άκκρα"</item>
+    <item msgid="6478898553803167749">"Α<ns1:g id="SEPARATOR">=</ns1:g>Αντίς Αμπέμπα"</item>
+    <item msgid="5618029992528436448">"Α<ns1:g id="SEPARATOR">=</ns1:g>Αλγέρι"</item>
+    <item msgid="2906834750114790793">"Μ<ns1:g id="SEPARATOR">=</ns1:g>Μπλαντάιρ"</item>
+    <item msgid="8153571933836629863">"Μ<ns1:g id="SEPARATOR">=</ns1:g>Μπραζαβίλ"</item>
+    <item msgid="3703129580594640833">"Κ<ns1:g id="SEPARATOR">=</ns1:g>Κάιρο"</item>
+    <item msgid="2300915410194647320">"Κ<ns1:g id="SEPARATOR">=</ns1:g>Καζαμπλάνκα"</item>
+    <item msgid="1217039002304887948">"Κ<ns1:g id="SEPARATOR">=</ns1:g>Κονακρί"</item>
+    <item msgid="8775104707806220928">"Ν<ns1:g id="SEPARATOR">=</ns1:g>Ντακάρ"</item>
+    <item msgid="5948764589113643811">"Ν<ns1:g id="SEPARATOR">=</ns1:g>Νταρ ες Σαλάμ"</item>
+    <item msgid="6306254507715416077">"Τ<ns1:g id="SEPARATOR">=</ns1:g>Τζιμπουτί"</item>
+    <item msgid="4286108029159501866">"Φ<ns1:g id="SEPARATOR">=</ns1:g>Φρίταουν"</item>
+    <item msgid="4514786733035528116">"Γ<ns1:g id="SEPARATOR">=</ns1:g>Γκαμπορόνε"</item>
+    <item msgid="7367496854968219671">"Χ<ns1:g id="SEPARATOR">=</ns1:g>Χαράρε"</item>
+    <item msgid="6837746379726020288">"Γ<ns1:g id="SEPARATOR">=</ns1:g>Γιοχάνεσμπουργκ"</item>
+    <item msgid="6284185156591171506">"Κ<ns1:g id="SEPARATOR">=</ns1:g>Καμπάλα"</item>
+    <item msgid="3299518884693668985">"Χ<ns1:g id="SEPARATOR">=</ns1:g>Χαρτούμ"</item>
+    <item msgid="4614879508966043969">"Κ<ns1:g id="SEPARATOR">=</ns1:g>Κιγκάλι"</item>
+    <item msgid="8878437043772547732">"Κ<ns1:g id="SEPARATOR">=</ns1:g>Κινσάσα"</item>
+    <item msgid="6325601635544067909">"Λ<ns1:g id="SEPARATOR">=</ns1:g>Λάγος"</item>
+    <item msgid="6094357506290323524">"Μ<ns1:g id="SEPARATOR">=</ns1:g>Μαζέρου"</item>
+    <item msgid="7270525814400329098">"Μ<ns1:g id="SEPARATOR">=</ns1:g>Μογκαντίσου"</item>
+    <item msgid="353110101402547540">"Ν<ns1:g id="SEPARATOR">=</ns1:g>Ναϊρόμπι"</item>
+    <item msgid="1688121892646984549">"Σ<ns1:g id="SEPARATOR">=</ns1:g>Σάο Τομέ"</item>
+    <item msgid="3642219084651687800">"Τ<ns1:g id="SEPARATOR">=</ns1:g>Τιμπουκτού"</item>
+    <item msgid="7287513493631179463">"Τ<ns1:g id="SEPARATOR">=</ns1:g>Τρίπολη"</item>
+    <item msgid="5052614613671591560">"Τ<ns1:g id="SEPARATOR">=</ns1:g>Τύνιδα"</item>
+    <item msgid="7976303179193839859">"Α<ns1:g id="SEPARATOR">=</ns1:g>Ανκορέιτζ"</item>
+    <item msgid="193703779380497120">"Μ<ns1:g id="SEPARATOR">=</ns1:g>Μεντόζα"</item>
+    <item msgid="5448884981082519628">"Α<ns1:g id="SEPARATOR">=</ns1:g>Αρούμπα"</item>
+    <item msgid="1577938273323914773">"Α<ns1:g id="SEPARATOR">=</ns1:g>Ασουνσιόν"</item>
+    <item msgid="5617155978105010520">"Μ<ns1:g id="SEPARATOR">=</ns1:g>Μπαρμπάντος"</item>
+    <item msgid="3600025702357376322">"Μ<ns1:g id="SEPARATOR">=</ns1:g>Μπελίζ"</item>
+    <item msgid="2847679817118467051">"Μ<ns1:g id="SEPARATOR">=</ns1:g>Μπογκοτά"</item>
+    <item msgid="9029003541681282929">"Μ<ns1:g id="SEPARATOR">=</ns1:g>Μπουένος Άιρες"</item>
+    <item msgid="2338367960332622522">"Κ<ns1:g id="SEPARATOR">=</ns1:g>Κανκούν"</item>
+    <item msgid="4339797536047170278">"Κ<ns1:g id="SEPARATOR">=</ns1:g>Καράκας"</item>
+    <item msgid="9199080438977757863">"Κ<ns1:g id="SEPARATOR">=</ns1:g>Κάιμαν"</item>
+    <item msgid="1993203473281589891">"Σ<ns1:g id="SEPARATOR">=</ns1:g>Σικάγο"</item>
+    <item msgid="7990342776303470263">"Κ<ns1:g id="SEPARATOR">=</ns1:g>Κόστα Ρίκα"</item>
+    <item msgid="5676109900908808628">"Κ<ns1:g id="SEPARATOR">=</ns1:g>Κουρασάο"</item>
+    <item msgid="5519120432577564812">"Ν<ns1:g id="SEPARATOR">=</ns1:g>Ντόσον Κρικ"</item>
+    <item msgid="2126228972377380680">"Ν<ns1:g id="SEPARATOR">=</ns1:g>Ντένβερ"</item>
+    <item msgid="3298410632922319193">"Ν<ns1:g id="SEPARATOR">=</ns1:g>Ντιτρόιτ"</item>
+    <item msgid="2819032085688382805">"Ν<ns1:g id="SEPARATOR">=</ns1:g>Ντομίνικα"</item>
+    <item msgid="6170433208654553821">"Ε<ns1:g id="SEPARATOR">=</ns1:g>Έντμοντον"</item>
+    <item msgid="795461860173291499">"Ε<ns1:g id="SEPARATOR">=</ns1:g>Ελ Σαλβαδόρ"</item>
+    <item msgid="7872196528637597794">"Φ<ns1:g id="SEPARATOR">=</ns1:g>Φορταλέζα"</item>
+    <item msgid="5801558418916235541">"Κ<ns1:g id="SEPARATOR">=</ns1:g>Κόκμπερν Τάουν"</item>
+    <item msgid="2103759276235503048">"Γ<ns1:g id="SEPARATOR">=</ns1:g>Γρενάδα"</item>
+    <item msgid="1490069759176391533">"Γ<ns1:g id="SEPARATOR">=</ns1:g>Γουατεμάλα"</item>
+    <item msgid="525959305652046261">"Γ<ns1:g id="SEPARATOR">=</ns1:g>Γουιάνα"</item>
+    <item msgid="7565596629973190931">"Χ<ns1:g id="SEPARATOR">=</ns1:g>Χάλιφαξ"</item>
+    <item msgid="3811169155065582644">"Α<ns1:g id="SEPARATOR">=</ns1:g>Αβάνα"</item>
+    <item msgid="3733555435078090201">"Ι<ns1:g id="SEPARATOR">=</ns1:g>Ιντιανάπολις"</item>
+    <item msgid="226982663848410981">"Ν<ns1:g id="SEPARATOR">=</ns1:g>Νοξ"</item>
+    <item msgid="3815293080342229459">"Μ<ns1:g id="SEPARATOR">=</ns1:g>Μαρένγκο"</item>
+    <item msgid="6594853515451547389">"Π<ns1:g id="SEPARATOR">=</ns1:g>Πετρούπολη"</item>
+    <item msgid="6091571889213283534">"Τ<ns1:g id="SEPARATOR">=</ns1:g>Τελ Σίτι"</item>
+    <item msgid="3089369312058696669">"Β<ns1:g id="SEPARATOR">=</ns1:g>Βεβέ"</item>
+    <item msgid="1334860422444068943">"Β<ns1:g id="SEPARATOR">=</ns1:g>Βιντσένες"</item>
+    <item msgid="7775105082093691756">"Β<ns1:g id="SEPARATOR">=</ns1:g>Βιναμάκ"</item>
+    <item msgid="4043335541899184547">"Κ<ns1:g id="SEPARATOR">=</ns1:g>Κίνγκστον"</item>
+    <item msgid="1063757593477259280">"Λ<ns1:g id="SEPARATOR">=</ns1:g>Λα Πας"</item>
+    <item msgid="349901732062388869">"Λ<ns1:g id="SEPARATOR">=</ns1:g>Λίμα"</item>
+    <item msgid="4977592519316837842">"Λ<ns1:g id="SEPARATOR">=</ns1:g>Λος Άντζελες"</item>
+    <item msgid="7713051790509638572">"Λ<ns1:g id="SEPARATOR">=</ns1:g>Λούισβιλ"</item>
+    <item msgid="8460620935898405225">"Μ<ns1:g id="SEPARATOR">=</ns1:g>Μανάγουα"</item>
+    <item msgid="8328345293081464192">"Μ<ns1:g id="SEPARATOR">=</ns1:g>Μαρτινίκα"</item>
+    <item msgid="8010357327448619637">"Μ<ns1:g id="SEPARATOR">=</ns1:g>Μεντόζα"</item>
+    <item msgid="2046777213916219253">"Μ<ns1:g id="SEPARATOR">=</ns1:g>Μετλακάτλα"</item>
+    <item msgid="2227885609632709258">"Π<ns1:g id="SEPARATOR">=</ns1:g>Πόλη Του Μεξικό"</item>
+    <item msgid="9089629663998569289">"Μ<ns1:g id="SEPARATOR">=</ns1:g>Μοντερέι"</item>
+    <item msgid="2782276175306930748">"Μ<ns1:g id="SEPARATOR">=</ns1:g>Μοντεβιδέο"</item>
+    <item msgid="4942386959622269480">"Μ<ns1:g id="SEPARATOR">=</ns1:g>Μόντρεαλ"</item>
+    <item msgid="3068203952968918165">"Ν<ns1:g id="SEPARATOR">=</ns1:g>Νασσάου-"</item>
+    <item msgid="4234515454127289962">"Ν<ns1:g id="SEPARATOR">=</ns1:g>Νέα Υόρκη"</item>
+    <item msgid="1660551302087304308">"Μ<ns1:g id="SEPARATOR">=</ns1:g>Μπεουλάχ"</item>
+    <item msgid="415823390775449071">"Κ<ns1:g id="SEPARATOR">=</ns1:g>Κέντρο"</item>
+    <item msgid="6644186958433380884">"Ν<ns1:g id="SEPARATOR">=</ns1:g>Νέο Σάλεμ"</item>
+    <item msgid="6408587617047971798">"Π<ns1:g id="SEPARATOR">=</ns1:g>Παναμάς"</item>
+    <item msgid="5576899364199447991">"Φ<ns1:g id="SEPARATOR">=</ns1:g>Φοίνιξ"</item>
+    <item msgid="5541266909095409447">"Λ<ns1:g id="SEPARATOR">=</ns1:g>Λιμάνι της Ισπανίας"</item>
+    <item msgid="6417519313622785932">"Π<ns1:g id="SEPARATOR">=</ns1:g>Πορτ-ο-Πρενς"</item>
+    <item msgid="2078589249210571366">"Π<ns1:g id="SEPARATOR">=</ns1:g>Πουέρτο Ρίκο"</item>
+    <item msgid="8522030474373927681">"Σ<ns1:g id="SEPARATOR">=</ns1:g>Σάντο Ντομίνγκο"</item>
+    <item msgid="4763853453317431594">"Σ<ns1:g id="SEPARATOR">=</ns1:g>Σάο Πάολο"</item>
+    <item msgid="2713153284784311646">"Α<ns1:g id="SEPARATOR">=</ns1:g>Άγιος Ιωάννης"</item>
+    <item msgid="8252666620333105271">"Σ<ns1:g id="SEPARATOR">=</ns1:g>Σεντ Κιτς"</item>
+    <item msgid="4851597775036027515">"Α<ns1:g id="SEPARATOR">=</ns1:g>Αγία Λουκία"</item>
+    <item msgid="2395485473100271503">"Α<ns1:g id="SEPARATOR">=</ns1:g>Άγιος Θωμάς"</item>
+    <item msgid="4148037555658225145">"Τ<ns1:g id="SEPARATOR">=</ns1:g>Τιχουάνα"</item>
+    <item msgid="3491199166042475853">"Τ<ns1:g id="SEPARATOR">=</ns1:g>Τορόντο"</item>
+    <item msgid="1506838283840737263">"Β<ns1:g id="SEPARATOR">=</ns1:g>Βανκούβερ"</item>
+    <item msgid="8935386104773857399">"Γ<ns1:g id="SEPARATOR">=</ns1:g>Γουίνιπεγκ"</item>
+    <item msgid="1132634022412399582">"Ν<ns1:g id="SEPARATOR">=</ns1:g>Νότιο Πόλο"</item>
+    <item msgid="4076962667198039206">"Λ<ns1:g id="SEPARATOR">=</ns1:g>Λονγκιαρμπίεν"</item>
+    <item msgid="3784788073896028355">"Α<ns1:g id="SEPARATOR">=</ns1:g>Αλμάτι"</item>
+    <item msgid="7895695236056852523">"Α<ns1:g id="SEPARATOR">=</ns1:g>Αμάν"</item>
+    <item msgid="1795426532295280371">"Α<ns1:g id="SEPARATOR">=</ns1:g>Ανάντιρ"</item>
+    <item msgid="7194236926158343552">"Α<ns1:g id="SEPARATOR">=</ns1:g>Ακτάου"</item>
+    <item msgid="4796350130854360870">"Β<ns1:g id="SEPARATOR">=</ns1:g>Βαγδάτη"</item>
+    <item msgid="4020105434451091851">"Μ<ns1:g id="SEPARATOR">=</ns1:g>Μπαχρέιν"</item>
+    <item msgid="3895868797052686484">"Μ<ns1:g id="SEPARATOR">=</ns1:g>Μπακού"</item>
+    <item msgid="228001522630057957">"Μ<ns1:g id="SEPARATOR">=</ns1:g>Μπανγκόκ"</item>
+    <item msgid="5555647809114820537">"Β<ns1:g id="SEPARATOR">=</ns1:g>Βηρυτός"</item>
+    <item msgid="2960873998178478784">"Κ<ns1:g id="SEPARATOR">=</ns1:g>Καλκούτα"</item>
+    <item msgid="8765555959722950691">"Δ<ns1:g id="SEPARATOR">=</ns1:g>Δαμασκός"</item>
+    <item msgid="4979709428925196546">"Ν<ns1:g id="SEPARATOR">=</ns1:g>Ντάκα"</item>
+    <item msgid="310419600200885308">"Ν<ns1:g id="SEPARATOR">=</ns1:g>Ντουμπάι"</item>
+    <item msgid="1203379132329159260">"Γ<ns1:g id="SEPARATOR">=</ns1:g>Γάζα"</item>
+    <item msgid="2359068282340162319">"Χ<ns1:g id="SEPARATOR">=</ns1:g>Χεβρώνα"</item>
+    <item msgid="6223396610551759129">"Χ<ns1:g id="SEPARATOR">=</ns1:g>Χο Τσι Μινχ"</item>
+    <item msgid="4731022818651322736">"Χ<ns1:g id="SEPARATOR">=</ns1:g>Χονγκ Κονγκ"</item>
+    <item msgid="8104778702069607166">"Κ<ns1:g id="SEPARATOR">=</ns1:g>Κωνσταντινούπολη"</item>
+    <item msgid="758800913783999425">"Τ<ns1:g id="SEPARATOR">=</ns1:g>Τζακάρτα"</item>
+    <item msgid="8956406398692698126">"Ι<ns1:g id="SEPARATOR">=</ns1:g>Ιερουσαλήμ"</item>
+    <item msgid="1664426577433326419">"Κ<ns1:g id="SEPARATOR">=</ns1:g>Καμπούλ"</item>
+    <item msgid="7700349511508357396">"Κ<ns1:g id="SEPARATOR">=</ns1:g>Καράτσι"</item>
+    <item msgid="5273241794521591984">"Κ<ns1:g id="SEPARATOR">=</ns1:g>Κατμαντού"</item>
+    <item msgid="4754850915168634158">"Κ<ns1:g id="SEPARATOR">=</ns1:g>Κουάλα Λουμπούρ"</item>
+    <item msgid="5187849635785055693">"Κ<ns1:g id="SEPARATOR">=</ns1:g>Κουβέιτ"</item>
+    <item msgid="2923385979252179376">"Μ<ns1:g id="SEPARATOR">=</ns1:g>Μακάου"</item>
+    <item msgid="722458682107911739">"Μ<ns1:g id="SEPARATOR">=</ns1:g>Μανίλα"</item>
+    <item msgid="6033964325069060422">"Μ<ns1:g id="SEPARATOR">=</ns1:g>Μουσκάτ"</item>
+    <item msgid="6077458941399984780">"Π<ns1:g id="SEPARATOR">=</ns1:g>Πνομ Πενχ"</item>
+    <item msgid="935474308903572975">"Π<ns1:g id="SEPARATOR">=</ns1:g>Πιονγκγιάνγκ"</item>
+    <item msgid="5336632319992664889">"Κ<ns1:g id="SEPARATOR">=</ns1:g>Κατάρ"</item>
+    <item msgid="1667243110545095146">"Ρ<ns1:g id="SEPARATOR">=</ns1:g>Ρανγκούν"</item>
+    <item msgid="4460370766685855731">"Ρ<ns1:g id="SEPARATOR">=</ns1:g>Ριάντ"</item>
+    <item msgid="4229224905931739201">"Σ<ns1:g id="SEPARATOR">=</ns1:g>Σαϊγκόν"</item>
+    <item msgid="8705359848250215620">"Σ<ns1:g id="SEPARATOR">=</ns1:g>Σεούλ"</item>
+    <item msgid="583367295371395814">"Σ<ns1:g id="SEPARATOR">=</ns1:g>Σαγκάη"</item>
+    <item msgid="1422156732794771136">"Σ<ns1:g id="SEPARATOR">=</ns1:g>Σιγκαπούρη"</item>
+    <item msgid="1972491729911039207">"Τ<ns1:g id="SEPARATOR">=</ns1:g>Ταϊπέι"</item>
+    <item msgid="5563193560935461106">"Τ<ns1:g id="SEPARATOR">=</ns1:g>Τεχεράνη"</item>
+    <item msgid="8629402941285674273">"Τ<ns1:g id="SEPARATOR">=</ns1:g>Τελ Αβίβ"</item>
+    <item msgid="8499164674454654525">"Τ<ns1:g id="SEPARATOR">=</ns1:g>Τόκιο"</item>
+    <item msgid="1705804745888992744">"Ο<ns1:g id="SEPARATOR">=</ns1:g>Ουλάν Μπατόρ"</item>
+    <item msgid="2028626988021468640">"Β<ns1:g id="SEPARATOR">=</ns1:g>Βερμούδα"</item>
+    <item msgid="4527109966513690429">"Κ<ns1:g id="SEPARATOR">=</ns1:g>Κανάρια"</item>
+    <item msgid="4886308317040330383">"Π<ns1:g id="SEPARATOR">=</ns1:g>Πράσινο Ακρωτήριο"</item>
+    <item msgid="1003307362164178007">"Ρ<ns1:g id="SEPARATOR">=</ns1:g>Ρέικιαβικ"</item>
+    <item msgid="6742010412815268657">"Σ<ns1:g id="SEPARATOR">=</ns1:g>Στάνλεϊ"</item>
+    <item msgid="5659389449738592757">"Α<ns1:g id="SEPARATOR">=</ns1:g>Αδελαΐδα"</item>
+    <item msgid="4567804576346784523">"Μ<ns1:g id="SEPARATOR">=</ns1:g>Μπρίσμπεϊν"</item>
+    <item msgid="8730590400362815585">"Κ<ns1:g id="SEPARATOR">=</ns1:g>Καμπέρα"</item>
+    <item msgid="6416990927714140153">"Ν<ns1:g id="SEPARATOR">=</ns1:g>Ντάργουιν"</item>
+    <item msgid="3073969292696516135">"Μ<ns1:g id="SEPARATOR">=</ns1:g>Μελβούρνη"</item>
+    <item msgid="1719286228375722176">"Ν<ns1:g id="SEPARATOR">=</ns1:g>Νέα Νότια Ουαλία"</item>
+    <item msgid="3663940748056976266">"Π<ns1:g id="SEPARATOR">=</ns1:g>Περθ"</item>
+    <item msgid="3383881736858438153">"Κ<ns1:g id="SEPARATOR">=</ns1:g>Κουίνσλαντ"</item>
+    <item msgid="971889339240879138">"Σ<ns1:g id="SEPARATOR">=</ns1:g>Σίδνεϊ"</item>
+    <item msgid="5542803438162180311">"Β<ns1:g id="SEPARATOR">=</ns1:g>Βικτόρια"</item>
+    <item msgid="11828841481838883">"Ν<ns1:g id="SEPARATOR">=</ns1:g>Νέα Γη"</item>
+    <item msgid="1734331918410561807">"Σ<ns1:g id="SEPARATOR">=</ns1:g>Σασκάτσουαν"</item>
+    <item msgid="9184412695613864979">"Ν<ns1:g id="SEPARATOR">=</ns1:g>Νησί του Πάσχα"</item>
+    <item msgid="1014282454239014527">"Α<ns1:g id="SEPARATOR">=</ns1:g>Άμστερνταμ"</item>
+    <item msgid="4928363054269791193">"Α<ns1:g id="SEPARATOR">=</ns1:g>Ανδόρα"</item>
+    <item msgid="912290900213826368">"Α<ns1:g id="SEPARATOR">=</ns1:g>Αθήνα"</item>
+    <item msgid="6097000352459209495">"Μ<ns1:g id="SEPARATOR">=</ns1:g>Μπέλφαστ"</item>
+    <item msgid="3285885824311481790">"Β<ns1:g id="SEPARATOR">=</ns1:g>Βελιγράδι"</item>
+    <item msgid="911055049821251982">"Β<ns1:g id="SEPARATOR">=</ns1:g>Βερολίνο"</item>
+    <item msgid="9099244516556291111">"Μ<ns1:g id="SEPARATOR">=</ns1:g>Μπρατισλάβα"</item>
+    <item msgid="158977749726480076">"Β<ns1:g id="SEPARATOR">=</ns1:g>Βρυξέλλες"</item>
+    <item msgid="8875102297676173346">"Β<ns1:g id="SEPARATOR">=</ns1:g>Βουκουρέστι"</item>
+    <item msgid="804451569472542912">"Β<ns1:g id="SEPARATOR">=</ns1:g>Βουδαπέστη"</item>
+    <item msgid="6827506774445509939">"Κ<ns1:g id="SEPARATOR">=</ns1:g>Κισινάου"</item>
+    <item msgid="487345893088732797">"Κ<ns1:g id="SEPARATOR">=</ns1:g>Κοπεγχάγη"</item>
+    <item msgid="7760953471297773537">"Δ<ns1:g id="SEPARATOR">=</ns1:g>Δουβλίνο"</item>
+    <item msgid="323414429034825249">"Γ<ns1:g id="SEPARATOR">=</ns1:g>Γιβραλτάρ"</item>
+    <item msgid="1785566206078328830">"Ε<ns1:g id="SEPARATOR">=</ns1:g>Ελσίνκι"</item>
+    <item msgid="5938185647271923359">"Ν<ns1:g id="SEPARATOR">=</ns1:g>Νήσος του Μαν"</item>
+    <item msgid="5974864320735263245">"Κ<ns1:g id="SEPARATOR">=</ns1:g>Κωνσταντινούπολη"</item>
+    <item msgid="3567775364750772947">"Κ<ns1:g id="SEPARATOR">=</ns1:g>Κίεβο"</item>
+    <item msgid="540344101798867007">"Λ<ns1:g id="SEPARATOR">=</ns1:g>Λισαβόνα"</item>
+    <item msgid="5091062403792923657">"Λ<ns1:g id="SEPARATOR">=</ns1:g>Λονδίνο"</item>
+    <item msgid="7075006205000490364">"Λ<ns1:g id="SEPARATOR">=</ns1:g>Λουξεμβούργο"</item>
+    <item msgid="4901781246584739451">"Μ<ns1:g id="SEPARATOR">=</ns1:g>Μαδρίτη"</item>
+    <item msgid="9047080834315777144">"Μ<ns1:g id="SEPARATOR">=</ns1:g>Μάλτα"</item>
+    <item msgid="8200456520732452034">"Μ<ns1:g id="SEPARATOR">=</ns1:g>Μινσκ"</item>
+    <item msgid="5452744619736513383">"Μ<ns1:g id="SEPARATOR">=</ns1:g>Μονακό"</item>
+    <item msgid="3513517408062322298">"Μ<ns1:g id="SEPARATOR">=</ns1:g>Μόσχα"</item>
+    <item msgid="7917103295878081674">"Ο<ns1:g id="SEPARATOR">=</ns1:g>Όσλο"</item>
+    <item msgid="4245547231693746977">"Π<ns1:g id="SEPARATOR">=</ns1:g>Παρίσι"</item>
+    <item msgid="3778652900196715557">"Π<ns1:g id="SEPARATOR">=</ns1:g>Πράγα"</item>
+    <item msgid="1827175423974383675">"Ρ<ns1:g id="SEPARATOR">=</ns1:g>Ρίγα"</item>
+    <item msgid="2095130417232677930">"Ρ<ns1:g id="SEPARATOR">=</ns1:g>Ρώμη"</item>
+    <item msgid="7631654618289353520">"Σ<ns1:g id="SEPARATOR">=</ns1:g>Σαν Μαρίνο"</item>
+    <item msgid="7219835179107610398">"Σ<ns1:g id="SEPARATOR">=</ns1:g>Σαράγεβο"</item>
+    <item msgid="7199868165463282240">"Σ<ns1:g id="SEPARATOR">=</ns1:g>Συμφερούπολη"</item>
+    <item msgid="2786395006682246794">"Σ<ns1:g id="SEPARATOR">=</ns1:g>Σκόπια"</item>
+    <item msgid="4706927178872100023">"Σ<ns1:g id="SEPARATOR">=</ns1:g>Σόφια"</item>
+    <item msgid="1982417589953195308">"Σ<ns1:g id="SEPARATOR">=</ns1:g>Στοκχόλμη"</item>
+    <item msgid="1596083919400921960">"Τ<ns1:g id="SEPARATOR">=</ns1:g>Ταλίν"</item>
+    <item msgid="3079313598974879114">"Β<ns1:g id="SEPARATOR">=</ns1:g>Βατικανό"</item>
+    <item msgid="6516636001856910888">"Β<ns1:g id="SEPARATOR">=</ns1:g>Βιέννη"</item>
+    <item msgid="6377314532157945456">"Β<ns1:g id="SEPARATOR">=</ns1:g>Βίλνιους"</item>
+    <item msgid="3427175235616698721">"Β<ns1:g id="SEPARATOR">=</ns1:g>Βαρσοβία"</item>
+    <item msgid="8404354243761332922">"Ζ<ns1:g id="SEPARATOR">=</ns1:g>Ζάγκρεμπ"</item>
+    <item msgid="1457280242717152391">"Ζ<ns1:g id="SEPARATOR">=</ns1:g>Ζυρίχη"</item>
+    <item msgid="1065940089741359291">"Α<ns1:g id="SEPARATOR">=</ns1:g>Ανταναναρίβο"</item>
+    <item msgid="5176181880014090003">"Μ<ns1:g id="SEPARATOR">=</ns1:g>Μαλδίβες"</item>
+    <item msgid="8281854645557426433">"Μ<ns1:g id="SEPARATOR">=</ns1:g>Μαυρίκιος"</item>
+    <item msgid="2686249517389816420">"Ο<ns1:g id="SEPARATOR">=</ns1:g>Όκλαντ"</item>
+    <item msgid="279925671775807392">"Φ<ns1:g id="SEPARATOR">=</ns1:g>Φίτζι"</item>
+    <item msgid="7971492669765264840">"Γ<ns1:g id="SEPARATOR">=</ns1:g>Γκουάμ"</item>
+    <item msgid="889371273355762733">"Χ<ns1:g id="SEPARATOR">=</ns1:g>Χονολουλού"</item>
+    <item msgid="5516500578074269817">"Κ<ns1:g id="SEPARATOR">=</ns1:g>Κιριτιμάτι"</item>
+    <item msgid="2740704911915073056">"Ν<ns1:g id="SEPARATOR">=</ns1:g>Νουμέα"</item>
+    <item msgid="8732832728949672807">"Σ<ns1:g id="SEPARATOR">=</ns1:g>Σαμόα"</item>
+    <item msgid="6489500698846864993">"Τ<ns1:g id="SEPARATOR">=</ns1:g>Ταϊτή"</item>
+    <item msgid="3983121625709442324">"Α<ns1:g id="SEPARATOR">=</ns1:g>Αντίγκουα"</item>
+    <item msgid="2650510570709806322">"Ω<ns1:g id="SEPARATOR">=</ns1:g>Ώστιν"</item>
+    <item msgid="5257283506227357911">"Β<ns1:g id="SEPARATOR">=</ns1:g>Βοστόνη"</item>
+    <item msgid="6326368958641850267">"Κ<ns1:g id="SEPARATOR">=</ns1:g>Κάλγκαρυ"</item>
+    <item msgid="8830116365016232583">"Κ<ns1:g id="SEPARATOR">=</ns1:g>Κολόμβος"</item>
+    <item msgid="6986556538341883811">"Ν<ns1:g id="SEPARATOR">=</ns1:g>Ντάλας"</item>
+    <item msgid="836479352500251902">"Ν<ns1:g id="SEPARATOR">=</ns1:g>Νόξβιλ"</item>
+    <item msgid="8495291458467378851">"Μ<ns1:g id="SEPARATOR">=</ns1:g>Μέμφις"</item>
+    <item msgid="2788807207554683122">"Μ<ns1:g id="SEPARATOR">=</ns1:g>Μαϊάμι"</item>
+    <item msgid="3984640407077208471">"Μ<ns1:g id="SEPARATOR">=</ns1:g>Μινεάπολις"</item>
+    <item msgid="6997305266329324161">"Ο<ns1:g id="SEPARATOR">=</ns1:g>Οττάβα"</item>
+    <item msgid="5191741145278683016">"Φ<ns1:g id="SEPARATOR">=</ns1:g>Φιλαδέλφεια"</item>
+    <item msgid="5898032730733441936">"Π<ns1:g id="SEPARATOR">=</ns1:g>Πόρτλαντ"</item>
+    <item msgid="9070160716002203069">"Σ<ns1:g id="SEPARATOR">=</ns1:g>Σαν Ντιέγκο"</item>
+    <item msgid="1829944133410079040">"Σ<ns1:g id="SEPARATOR">=</ns1:g>Σαν Φρανσίσκο"</item>
+    <item msgid="8407905318529692654">"Σ<ns1:g id="SEPARATOR">=</ns1:g>Σολτ Λέικ Σίτι"</item>
+    <item msgid="3091392589347990898">"Σ<ns1:g id="SEPARATOR">=</ns1:g>Σαν Χοσέ"</item>
+    <item msgid="7080627414383807284">"Σ<ns1:g id="SEPARATOR">=</ns1:g>Σαν Σαλβαδόρ"</item>
+    <item msgid="3430371213266252049">"Σ<ns1:g id="SEPARATOR">=</ns1:g>Σιάτλ"</item>
+    <item msgid="9177491393818757071">"Σ<ns1:g id="SEPARATOR">=</ns1:g>Σαιντ Λούις"</item>
+    <item msgid="6234359686676312837">"Ο<ns1:g id="SEPARATOR">=</ns1:g>Ουάσιγκτον"</item>
+    <item msgid="4325057056005132331">"Χ<ns1:g id="SEPARATOR">=</ns1:g>Χιούστον"</item>
+    <item msgid="38148255938075867">"Σ<ns1:g id="SEPARATOR">=</ns1:g>Σαν Αντόνιο"</item>
+    <item msgid="3601481860893666763">"Τ<ns1:g id="SEPARATOR">=</ns1:g>Τζάκσονβιλ"</item>
+    <item msgid="3987471437354665534">"Β<ns1:g id="SEPARATOR">=</ns1:g>Βαλτιμόρη"</item>
+    <item msgid="3389674262267006887">"Ν<ns1:g id="SEPARATOR">=</ns1:g>Νάσβιλ"</item>
+    <item msgid="7521690366448637309">"Μ<ns1:g id="SEPARATOR">=</ns1:g>Μιλγουόκι"</item>
+    <item msgid="2231069593975740859">"Ο<ns1:g id="SEPARATOR">=</ns1:g>Οκλαχόμα Σίτι"</item>
+    <item msgid="1970008262236914770">"Λ<ns1:g id="SEPARATOR">=</ns1:g>Λας Βέγκας"</item>
+    <item msgid="7113811028304266017">"Α<ns1:g id="SEPARATOR">=</ns1:g>Αλμπουκέρκη"</item>
+    <item msgid="6481469458896644678">"Τ<ns1:g id="SEPARATOR">=</ns1:g>Τούσον"</item>
+    <item msgid="5970857542995467466">"Σ<ns1:g id="SEPARATOR">=</ns1:g>Σακραμέντο"</item>
+    <item msgid="1999267306329214429">"Α<ns1:g id="SEPARATOR">=</ns1:g>Ατλάντα"</item>
+    <item msgid="8761847787537443648">"Κ<ns1:g id="SEPARATOR">=</ns1:g>Κλίβελαντ"</item>
+    <item msgid="2987455647692324208">"Ν<ns1:g id="SEPARATOR">=</ns1:g>Νέα Ορλεάνη"</item>
+    <item msgid="8104109426412705845">"Τ<ns1:g id="SEPARATOR">=</ns1:g>Τάμπα"</item>
+    <item msgid="1410067233842240795">"Π<ns1:g id="SEPARATOR">=</ns1:g>Πίτσμπουργκ"</item>
+    <item msgid="3339955740367374442">"Σ<ns1:g id="SEPARATOR">=</ns1:g>Σινσινάτι"</item>
+    <item msgid="6091407424772799978">"Μ<ns1:g id="SEPARATOR">=</ns1:g>Μάουντεν Βιου"</item>
+    <item msgid="150299708499753555">"Ρ<ns1:g id="SEPARATOR">=</ns1:g>Ρίνο"</item>
+    <item msgid="9155068631060038769">"Μ<ns1:g id="SEPARATOR">=</ns1:g>Μπλακ Ροκ Σίτι"</item>
+    <item msgid="8498761319928979900">"Ν<ns1:g id="SEPARATOR">=</ns1:g>Ντόχα"</item>
+    <item msgid="8307897251088048641">"Π<ns1:g id="SEPARATOR">=</ns1:g>Πεκίνο"</item>
+    <item msgid="8605970953750147428">"Β<ns1:g id="SEPARATOR">=</ns1:g>Βομβάη"</item>
+    <item msgid="6668274273067049125">"Δ<ns1:g id="SEPARATOR">=</ns1:g>Δελχί"</item>
+    <item msgid="2933410189478233292">"Ο<ns1:g id="SEPARATOR">=</ns1:g>Οζάκα"</item>
+    <item msgid="9011026093638055579">"Λ<ns1:g id="SEPARATOR">=</ns1:g>Λαχόρη"</item>
+    <item msgid="1448378291805481500">"Σ<ns1:g id="SEPARATOR">=</ns1:g>Σαναά"</item>
+    <item msgid="5233119846682408301">"Β<ns1:g id="SEPARATOR">=</ns1:g>Βαρκελώνη"</item>
+    <item msgid="9146746514265554721">"Μ<ns1:g id="SEPARATOR">=</ns1:g>Μόναχο"</item>
+    <item msgid="157866084892734979">"Μ<ns1:g id="SEPARATOR">=</ns1:g>Μιλάνο"</item>
+    <item msgid="2787346322341414963">"Φ<ns1:g id="SEPARATOR">=</ns1:g>Φρανκφούρτη"</item>
+    <item msgid="8407511504088696581">"Α<ns1:g id="SEPARATOR">=</ns1:g>Ανόι"</item>
+    <item msgid="5184417944073499453">"Α<ns1:g id="SEPARATOR">=</ns1:g>Άγκυρα"</item>
+    <item msgid="4028784954452197920">"Μ<ns1:g id="SEPARATOR">=</ns1:g>Μπανγκαλόρ"</item>
+    <item msgid="190152483600862776">"Μ<ns1:g id="SEPARATOR">=</ns1:g>Μπραζίλια"</item>
+    <item msgid="8009516135735104388">"Κ<ns1:g id="SEPARATOR">=</ns1:g>Κέιπ Τάουν"</item>
+    <item msgid="6057191797622953016">"Ι<ns1:g id="SEPARATOR">=</ns1:g>Ισλαμαμπάντ"</item>
+    <item msgid="2702029416591153210">"Ρ<ns1:g id="SEPARATOR">=</ns1:g>Ρίο Ντε Τζανέιρο"</item>
+    <item msgid="1753927312634708098">"Α<ns1:g id="SEPARATOR">=</ns1:g>Αν Άρμπορ"</item>
+    <item msgid="4225721108475278979">"Μ<ns1:g id="SEPARATOR">=</ns1:g>Μπούλντερ"</item>
+    <item msgid="6393177386755796069">"Κ<ns1:g id="SEPARATOR">=</ns1:g>Κέιμπριτζ"</item>
+    <item msgid="759409010285366934">"Κ<ns1:g id="SEPARATOR">=</ns1:g>Κίρκλαντ"</item>
+    <item msgid="6308007059287569663">"Μ<ns1:g id="SEPARATOR">=</ns1:g>Μάντισον"</item>
+    <item msgid="6971636434858330021">"Κ<ns1:g id="SEPARATOR">=</ns1:g>Κουανγκτσόου"</item>
+    <item msgid="1185109514180068650">"Χ<ns1:g id="SEPARATOR">=</ns1:g>Χαϊντεραμπάντ"</item>
+    <item msgid="3032295682584784261">"Ρ<ns1:g id="SEPARATOR">=</ns1:g>Ρέστον"</item>
+    <item msgid="7722837296297332268">"Μ<ns1:g id="SEPARATOR">=</ns1:g>Μπέλο Οριζόντε"</item>
+    <item msgid="3593516299122577780">"Σ<ns1:g id="SEPARATOR">=</ns1:g>Σαντιάγκο"</item>
+    <item msgid="2293331653589266583">"Μ<ns1:g id="SEPARATOR">=</ns1:g>Μονρόβια"</item>
+    <item msgid="7899128359620301710">"Κ<ns1:g id="SEPARATOR">=</ns1:g>Κολόμπο"</item>
+    <item msgid="5294489752262543829">"Τ<ns1:g id="SEPARATOR">=</ns1:g>Τσιουάουα"</item>
+    <item msgid="8066356061184206341">"Σ<ns1:g id="SEPARATOR">=</ns1:g>Σαλβαντόρ"</item>
+    <item msgid="4806867741334453982">"Γ<ns1:g id="SEPARATOR">=</ns1:g>Γκουργκαόν"</item>
+    <item msgid="2585780177649876827">"Μ<ns1:g id="SEPARATOR">=</ns1:g>Μάντσεστερ"</item>
+    <item msgid="234104953526248139">"Κ<ns1:g id="SEPARATOR">=</ns1:g>Κίεβο"</item>
+    <item msgid="5245429461217350012">"Α<ns1:g id="SEPARATOR">=</ns1:g>Αγία Πετρούπολη"</item>
+    <item msgid="6738531308006017215">"Κ<ns1:g id="SEPARATOR">=</ns1:g>Κρακοβία"</item>
+    <item msgid="8972702613339139467">"Β<ns1:g id="SEPARATOR">=</ns1:g>Βρότσλαβ"</item>
+    <item msgid="187278924459096566">"Α<ns1:g id="SEPARATOR">=</ns1:g>Αμβούργο"</item>
+    <item msgid="6173267862207394917">"Ο<ns1:g id="SEPARATOR">=</ns1:g>Οούλου"</item>
+    <item msgid="5639324478037405990">"Χ<ns1:g id="SEPARATOR">=</ns1:g>Χάιφα"</item>
+    <item msgid="3157180661352354058">"Σ<ns1:g id="SEPARATOR">=</ns1:g>Σαν Χουάν"</item>
+    <item msgid="6995939579417282715">"Τ<ns1:g id="SEPARATOR">=</ns1:g>Τεγκουσιγκάλπα"</item>
+    <item msgid="1641840677391275004">"Π<ns1:g id="SEPARATOR">=</ns1:g>Παραμαρίμπο"</item>
+    <item msgid="7317049454800260290">"Κ<ns1:g id="SEPARATOR">=</ns1:g>Κίτο"</item>
+    <item msgid="4524380876433343244">"Λ<ns1:g id="SEPARATOR">=</ns1:g>Λουμπλιάνα"</item>
+  </string-array>
+    <string-array name="clock_style_entries">
+    <item msgid="917900462224167608">"Αναλογικό"</item>
+    <item msgid="8483930821046925592">"Ψηφιακό"</item>
+  </string-array>
+    <string-array name="sw_lap_number_set">
+    <item msgid="2816627565030953899">"# <ns1:g id="NUMBER">%d</ns1:g>"</item>
+    <item msgid="316923361931627987">"# <ns1:g id="NUMBER">%02d</ns1:g>"</item>
+  </string-array>
+    <string-array name="sw_share_strings">
+    <item msgid="842841032273927988">"Είστε πάρα πολύ γρήγοροι."</item>
+    <item msgid="6332879039890727169">"Απολαύστε"</item>
+    <item msgid="815382761274660130">"Τα Android είναι γρήγορα, αλλά όχι τόσο όσο εσείς!"</item>
+    <item msgid="7916250650982813737">"Ουφ."</item>
+    <item msgid="6836603904515182333">"Τρελοί χρόνοι."</item>
+    <item msgid="7508085100680861631">"Απίστευτη ταχύτητα."</item>
+    <item msgid="5961245252909589573">"Ας ξανακάνουμε ένα ταξίδι στο χρόνο."</item>
+    <item msgid="5211891900854545940">"Ένα απλό άλμα προς τα αριστερά."</item>
+    <item msgid="9071353477103826053">"Έχετε μια τάση να βιάζεστε."</item>
+    <item msgid="3785193933691117181">"Ταχύτητα φωτονίου."</item>
+  </string-array>
+    <string-array name="timer_notifications">
+    <item msgid="7760558912503484257">"Απομένει λιγότερο από ένα λεπτό"</item>
+    <item msgid="83197792732433351">"Απομένουν <ns1:g id="HOURS">%1$s</ns1:g>"</item>
+    <item msgid="8919698220200894252">"Απομένουν <ns1:g id="MINUTES">%2$s</ns1:g>"</item>
+    <item msgid="8458069283817013813">"Απομένουν <ns1:g id="HOURS">%1$s</ns1:g> <ns1:g id="MINUTES">%2$s</ns1:g>"</item>
+  </string-array>
+    <string-array name="timezone_labels">
+    <item msgid="5495601234086197399">"Νήσοι Μάρσαλ"</item>
+    <item msgid="4196408495909011020">"Νήσος Μιντγουέι"</item>
+    <item msgid="1414384194857730006">"Χαβάη"</item>
+    <item msgid="2687091371581931926">"Αλάσκα"</item>
+    <item msgid="1922100269679049660">"Ώρα Ειρηνικού"</item>
+    <item msgid="7156402158716866161">"Τιχουάνα"</item>
+    <item msgid="1144117502254612241">"Αριζόνα"</item>
+    <item msgid="101284182011722637">"Τσιουάουα"</item>
+    <item msgid="689121094232986897">"Ορεινή ώρα"</item>
+    <item msgid="5445331923942302756">"Κεντρική Αμερική"</item>
+    <item msgid="2749806434052452351">"Κεντρική ώρα"</item>
+    <item msgid="3997138870229703753">"Πόλη του Μεξικού"</item>
+    <item msgid="5425567073027744888">"Σασκάτσουαν"</item>
+    <item msgid="2877342865396629368">"Μπογκοτά"</item>
+    <item msgid="568682398893899670">"Ανατολική ώρα"</item>
+    <item msgid="668135984541863866">"Βενεζουέλα"</item>
+    <item msgid="3737474220861486223">"Ώρ. Ατλ. (Μπαρμπάντ)"</item>
+    <item msgid="6279116051273436870">"Ώρα Ατλαντικού (Καναδάς)"</item>
+    <item msgid="8513382867172014244">"Μανάους"</item>
+    <item msgid="7776299003105932407">"Σαντιάγο"</item>
+    <item msgid="8636989494746218677">"Νέα Γη"</item>
+    <item msgid="4402541016410147505">"Μπραζίλια"</item>
+    <item msgid="2251184440733164084">"Μπουένος Άιρες"</item>
+    <item msgid="6202926618569004969">"Γροιλανδία"</item>
+    <item msgid="2355275037115290628">"Μοντεβιδέο"</item>
+    <item msgid="1377549694711708945">"Μεσο-Ατλαντικός"</item>
+    <item msgid="3457671272126347981">"Αζόρες"</item>
+    <item msgid="3659315141063710840">"Νήσοι Πράσινου Ακρωτηρίου"</item>
+    <item msgid="1260941741802367635">"Καζαμπλάνκα"</item>
+    <item msgid="8275203689687954762">"Λονδίνο, Δουβλίνο"</item>
+    <item msgid="5970179539479320905">"Άμστερνταμ, Βερολίνο"</item>
+    <item msgid="5396319478750517962">"Βελιγράδι"</item>
+    <item msgid="8688787475056663004">"Βρυξέλλες"</item>
+    <item msgid="3415827874921681622">"Σαράγεβο"</item>
+    <item msgid="402008965928320066">"Γουίντχοκ"</item>
+    <item msgid="6436942724959275569">"Ώρα Δ. Αφρικής"</item>
+    <item msgid="954536568417204026">"Αμμάν, Ιορδανία"</item>
+    <item msgid="8932745482008902551">"Αθήνα, Κωνσταντινούπολη"</item>
+    <item msgid="320025725949024510">"Βηρυτός, Λίβανος"</item>
+    <item msgid="7242083112551905970">"Κάιρο"</item>
+    <item msgid="7241520146011450419">"Ελσίνκι"</item>
+    <item msgid="2717065017510546526">"Ιερουσαλήμ"</item>
+    <item msgid="8698556287741466553">"Μινσκ"</item>
+    <item msgid="1797598357342084506">"Χαράρε"</item>
+    <item msgid="5169119919905066998">"Βαγδάτη"</item>
+    <item msgid="2615788116201065182">"Μόσχα"</item>
+    <item msgid="9084354867885584646">"Κουβέιτ"</item>
+    <item msgid="1351570519986178268">"Ναϊρόμπι"</item>
+    <item msgid="7094569580635877460">"Τεχεράνη"</item>
+    <item msgid="3953138772617909704">"Μπακού"</item>
+    <item msgid="2868893113598800752">"Τμπιλίσι"</item>
+    <item msgid="7088581865802476373">"Ερεβάν"</item>
+    <item msgid="1941122257623887992">"Ντουμπάι"</item>
+    <item msgid="9194797225058249720">"Καμπούλ"</item>
+    <item msgid="6486569254364577332">"Ισλαμαμπάντ, Καράτσι"</item>
+    <item msgid="5487724896895412089">"Ουράλσκ"</item>
+    <item msgid="364906869710826982">"Εκατερίνμπουργκ"</item>
+    <item msgid="2106505051751383358">"Καλκούτα"</item>
+    <item msgid="6851586621581501447">"Σρι Λάνκα"</item>
+    <item msgid="800438544128213134">"Κατμαντού"</item>
+    <item msgid="6173621471007643021">"Αστάνα"</item>
+    <item msgid="8645125891971581128">"Γιανγκόν"</item>
+    <item msgid="2886407505119737794">"Κρασνογιάρσκ"</item>
+    <item msgid="3408222398188107090">"Μπανγκόκ"</item>
+    <item msgid="4441612937172851228">"Πεκίνο"</item>
+    <item msgid="4936715789028996930">"Χονγκ Κονγκ"</item>
+    <item msgid="4261031143777385525">"Ιρκούτσκ"</item>
+    <item msgid="3538060959338191835">"Κουάλα Λουμπούρ"</item>
+    <item msgid="1438847562643099201">"Περθ"</item>
+    <item msgid="3063913827688244383">"Ταϊπέι"</item>
+    <item msgid="3502757135046564209">"Σεούλ"</item>
+    <item msgid="6107588684519111669">"Τόκιο, Οσάκα"</item>
+    <item msgid="4350769099755608471">"Γιακούτσκ"</item>
+    <item msgid="2422707004533526462">"Αδελαΐδα"</item>
+    <item msgid="1292192084554134339">"Ντάργουιν"</item>
+    <item msgid="1320883699470001716">"Μπρισμπέιν"</item>
+    <item msgid="5137198806146386527">"Χόμπαρτ"</item>
+    <item msgid="5920063686933941174">"Σύδνεϊ, Καμπέρα"</item>
+    <item msgid="615906039696009425">"Βλαδιβοστόκ"</item>
+    <item msgid="7738680449356275374">"Γκουάμ"</item>
+    <item msgid="2882915026380778227">"Μάγκανταν"</item>
+    <item msgid="8255615641810148152">"Όκλαντ"</item>
+    <item msgid="3027153773466391728">"Φίτζι"</item>
+    <item msgid="5911600083231840181">"Τόνγκα"</item>
+    <item msgid="5176858645450908751">"Τζακάρτα"</item>
+  </string-array>
+    <string-array name="volume_button_setting_entries">
+    <item msgid="7972756698723318690">"Αναβολή αφύπνισης"</item>
+    <item msgid="3450979320164769576">"Παράβλεψη"</item>
+    <item msgid="6302517608411378024">"Να μη γίνει καμία ενέργεια"</item>
+  </string-array>
+    <string-array name="week_start_entries">
+    <item msgid="9010198173394482639">"Σάββατο"</item>
+    <item msgid="3993530639455360921">"Κυριακή"</item>
+    <item msgid="8594709368683324282">"Δευτέρα"</item>
+  </string-array>
+    <plurals formatted="false" msgid="4539186407746763655" name="Nhours_description">
+      <item quantity="other"><ns1:g id="NUMBER">%d</ns1:g> ώρες</item>
+      <item quantity="one">1 ώρα</item>
+    </plurals>
+    <plurals formatted="false" msgid="6373760365221990859" name="Nminutes_description">
+      <item quantity="other"><ns1:g id="NUMBER">%d</ns1:g> λεπτά</item>
+      <item quantity="one">1 λεπτό</item>
+    </plurals>
+    <plurals formatted="false" msgid="6456500168536594889" name="Nseconds_description">
+      <item quantity="other"><ns1:g id="NUMBER">%d</ns1:g> δευτερόλεπτα</item>
+      <item quantity="one">1 δευτερόλεπτο</item>
+    </plurals>
+    <plurals formatted="false" msgid="7844300009062867865" name="alarm_alert_snooze_duration">
+      <item quantity="other"><ns1:g id="NUMBER">%d</ns1:g> λεπτά</item>
+      <item quantity="one">1 λεπτό</item>
+    </plurals>
+    <plurals formatted="false" msgid="3212729193036041768" name="alarm_alert_snooze_set">
+      <item quantity="other">Αναβολή για <ns1:g id="MINUTES">%d</ns1:g> λεπτά.</item>
+      <item quantity="one">Αναβολή για 1 λεπτό.</item>
+    </plurals>
+    <plurals formatted="false" msgid="3591262014329613293" name="alarm_delete_confirmation">
+      <item quantity="other">Διαγραφή επιλεγμένων ειδοποιήσεων;</item>
+      <item quantity="one">Διαγραφή επιλεγμένης ειδοποίησης;</item>
+    </plurals>
+    <plurals formatted="false" msgid="6579258788774360396" name="auto_silence_summary">
+      <item quantity="other"><ns1:g id="FORMATTED_NUMBER">%s</ns1:g> λεπτά</item>
+      <item quantity="one">1 λεπτό</item>
+    </plurals>
+    <plurals formatted="false" msgid="3706846447285206235" name="days">
+      <item quantity="other"><ns1:g id="NUMBER">%s</ns1:g> ημέρες</item>
+      <item quantity="one">1 ημέρα</item>
+    </plurals>
+    <plurals formatted="false" msgid="3871283109767171655" name="hours">
+      <item quantity="other"><ns1:g id="NUMBER">%s</ns1:g> ώρες</item>
+      <item quantity="one">1 ώρα</item>
+    </plurals>
+    <plurals formatted="false" msgid="5484431721696058697" name="minutes">
+      <item quantity="other"><ns1:g id="NUMBER">%s</ns1:g> λεπτά</item>
+      <item quantity="one">1 λεπτό</item>
+    </plurals>
+    <plurals formatted="false" msgid="3112918131095248271" name="snooze_duration">
+      <item quantity="other"><ns1:g id="NUMBER">%s</ns1:g> λεπτά</item>
+      <item quantity="one">1 λεπτό</item>
+    </plurals>
+    <plurals formatted="false" msgid="322739253661747732" name="snooze_picker_label">
+      <item quantity="other">λεπτά</item>
+      <item quantity="one">λεπτό</item>
+    </plurals>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Πλοήγηση στην αρχική σελίδα"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Πλοήγηση προς τα επάνω"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Περισσότερες επιλογές"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Τέλος"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Προβολή όλων"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Επιλέξτε κάποια εφαρμογή"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"ΑΠΕΝΕΡΓΟΠΟΙΗΣΗ"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"ΕΝΕΡΓΟΠΟΙΗΣΗ"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Αναζήτηση…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Διαγραφή ερωτήματος"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Ερώτημα αναζήτησης"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Αναζήτηση"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Υποβολή ερωτήματος"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Φωνητική αναζήτηση"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Κοινή χρήση με"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Κοινή χρήση με %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Σύμπτυξη"</string>
+    <string msgid="5976616107390962899" name="add_alarm">"Προσθήκη ξυπνητηριού"</string>
+    <string msgid="3272183025444682500" name="alarm_alert_dismiss_now_text">"Παράβλεψη τώρα"</string>
+    <string msgid="4942914605480888820" name="alarm_alert_dismiss_text">"Παράβλεψη"</string>
+    <string msgid="2459925305288819812" name="alarm_alert_off_action_text">"Ανεν."</string>
+    <string msgid="4472073417593915002" name="alarm_alert_off_text">"Ανεν. ειδοπ."</string>
+    <string msgid="5723945586913705445" name="alarm_alert_predismiss_title">"Επόμενο ξυπνητήρι"</string>
+    <string msgid="1774416052207651584" name="alarm_alert_snooze_text">"Αναβολή αφύπνισης"</string>
+    <string msgid="6958013659168344550" name="alarm_alert_snooze_until">"Αναβολή έως τις <ns1:g id="TIME">%s</ns1:g>"</string>
+    <string msgid="7064642998528766113" name="alarm_alert_snoozed_text">"Σε αναβολή"</string>
+    <string msgid="6790780716498252583" name="alarm_alert_wake_up">"Ξύπνα!"</string>
+    <string msgid="740283647046258651" name="alarm_button_description">"Ειδοποιήσεις"</string>
+    <string msgid="8810520940995307437" name="alarm_cant_be_dismissed_still_more_than_24_hours_away">"Δεν είναι δυνατή η παράβλεψη του ξυπνητηριού <ns1:g id="ALARM_TIME">%s</ns1:g> ακόμη, καθώς απομένουν περισσότερες από 24 ώρες γι΄αυτό"</string>
+    <string msgid="6131529309389084785" name="alarm_deleted">"Ξυπν/ρι διαγράφ."</string>
+    <string msgid="5509897230565826642" name="alarm_is_dismissed">"Έγινε παράβλεψη του ξυπνητηριού <ns1:g id="ALARM_TIME">%s</ns1:g>"</string>
+    <string msgid="5503226382620011088" name="alarm_is_set">"Το ξυπνητήρι ορίστηκε στις <ns1:g id="ALARM_TIME">%s</ns1:g>."</string>
+    <string msgid="7044644119744928846" name="alarm_is_snoozed">"Έγινε αναβολή του ξυπνητηριού <ns1:g id="ALARM_TIME">%s</ns1:g> για 10 λεπτά"</string>
+    <string msgid="2147506334302260256" name="alarm_klaxon_service_desc">"Η υπηρεσία αναπαραγωγής ήχου για ειδοποιήσεις έχει ρυθμιστεί στο Ρολόι."</string>
+    <string msgid="7589940465292950600" name="alarm_list_title">"Ειδοποιήσεις"</string>
+    <string msgid="6585658367289194023" name="alarm_missed_text">"<ns1:g id="ALARM_TIME">%s</ns1:g> - <ns1:g id="ALARM_LABEL">%s</ns1:g>"</string>
+    <string msgid="3828345099754063392" name="alarm_missed_title">"Ειδοποίηση χωρίς σχετική ενέργεια"</string>
+    <string msgid="5404083762646377829" name="alarm_notify_snooze_label">"<ns1:g id="LABEL">%s</ns1:g> (αναβολή)"</string>
+    <string msgid="4819324081410990368" name="alarm_notify_snooze_text">"Το ξυπνητήρι ρυθμίστηκε για τις <ns1:g id="TIME">%s</ns1:g>. Αγγίξτε για να ακυρώσετε."</string>
+    <string msgid="4891014685945904766" name="alarm_notify_text">"Αναβολή αφύπνισης ή παράβλεψη ξυπνητηριού."</string>
+    <string msgid="7242985466344233206" name="alarm_repeat">"Επανάληψη"</string>
+    <string msgid="2947147071388290814" name="alarm_settings">"Ξυπνητήρια"</string>
+    <string msgid="7873594221106531654" name="alarm_today">"Σήμερα"</string>
+    <string msgid="131356848787643420" name="alarm_tomorrow">"Αύριο"</string>
+    <string msgid="5710042601177655254" name="alarm_undo">"αναίρεση"</string>
+    <string msgid="3476686921490362230" name="alarm_vibrate">"Δόνηση"</string>
+    <string msgid="8506245173912428522" name="alarm_volume_title">"Ένταση ήχου ξυπνητηριού"</string>
+    <string msgid="1075308195332888260" name="alarms_selected">"<ns1:g id="ALARMS">%d</ns1:g> έχουν επιλεγεί"</string>
+    <string msgid="6506982899651975645" name="alert">"Ήχος κλήσης ξυπνητηριού"</string>
+    <string msgid="278532320068394600" name="all_timers_stopped_notif">"Αγγίξτε για να δείτε τα ξυπνητήρια σας"</string>
+    <string msgid="1670505720837152766" name="analog_gadget">"Αναλογικό ρολόι"</string>
+    <string msgid="6674495003718166674" name="app_label">"Ρολόι"</string>
+    <string msgid="4821982647348750809" name="auto_silence_never">"Ποτέ"</string>
+    <string msgid="2012754009554434544" name="auto_silence_title">"Σίγαση μετά"</string>
+    <string msgid="6274174710735449252" name="automatic_home_clock">"Αυτόματη ώρα χώρας προέλευσης"</string>
+    <string msgid="6020476321040807273" name="automatic_home_clock_summary">"Όταν ταξιδεύετε σε μια περιοχή με διαφορετική ώρα, να προστίθεται ένα ρολόι με την ώρα της χώρας προέλευσής σας"</string>
+    <string msgid="3907838219512538763" name="button_alarms">"Προσθήκη ξυπνητηριού"</string>
+    <string msgid="4555761857494501363" name="button_cities">"Πόλεις"</string>
+    <string msgid="6050484561842120282" name="button_menu">"Περισσότερες επιλογές"</string>
+    <string msgid="8552462751129256730" name="cities_activity_title">"Πόλεις"</string>
+    <string msgid="1335509457349179514" name="city_added">"Προστέθηκε η πόλη <ns1:g id="CITY_NAME">%s</ns1:g>"</string>
+    <string msgid="1783441538785676299" name="city_delete_confirmation">"Να διαγραφεί αυτή η πόλη;"</string>
+    <string msgid="3935141305276867838" name="city_deleted">"Διαγράφηκε η πόλη <ns1:g id="CITY_NAME">%s</ns1:g>"</string>
+    <string msgid="2656876819515011590" name="clock_instructions">"Επιλέξτε ένα ρολόι"</string>
+    <string msgid="8317286807280600391" name="clock_settings">"Ρολόι"</string>
+    <string msgid="2265011060429742344" name="clock_style">"Στυλ"</string>
+    <string msgid="3561772046433483980" name="collapse_alarm">"Σύμπτυξη ξυπνητηριού"</string>
+    <string msgid="2194676418924016327" name="control_set_alarm">"Ορισμός ξυπνητηριού"</string>
+    <string msgid="3477418548382111184" name="custom_ringtone">"Προσαρμοσμένος ήχος κλήσης"</string>
+    <string msgid="971998564991636532" name="day_concat">", "</string>
+    <string msgid="3968620852217927702" name="day_picker_description">"Πλέγμα ημερών του μήνα"</string>
+    <string msgid="5590025289805630372" name="default_label">"Ξυπνητήρι"</string>
+    <string msgid="4549726190682964245" name="default_ringtone_setting_title">"Ορισμός προεπιλεγμένου ήχου κλήσης"</string>
+    <string msgid="5732434972457000541" name="delete">"Διαγραφή"</string>
+    <string msgid="3457780990646206817" name="delete_alarm">"Διαγραφή ξυπνητηριού"</string>
+    <string msgid="6578572637340860840" name="delete_alarm_confirm">"Διαγραφή αυτού του ξυπνητηριού;"</string>
+    <string msgid="6908431551612331381" name="deleted_key">"<ns1:g id="KEY">%1$s</ns1:g> διαγράφηκε"</string>
+    <string msgid="1220848140260509437" name="deleted_message">"Διαγράφηκε"</string>
+    <string msgid="1841309486023845685" name="description_direction_both">"Σύρετε το δάχτυλό σας προς τα αριστερά για αναβολή ή προς τα δεξιά για απόρριψη"</string>
+    <string msgid="7448141043674998679" name="description_direction_left">"Σύρετε αριστερά για αναβολή"</string>
+    <string msgid="5709209043267548985" name="description_direction_right">"Σύρετε δεξιά για παράβλεψη"</string>
+    <string msgid="4207371097361657274" name="desk_clock_button_description">"Οθόνη ρολογιού"</string>
+    <string msgid="2326954556720571358" name="digital_gadget">"Ψηφιακό ρολόι"</string>
+    <string msgid="5889378670229554109" name="disable_alarm">"Απενεργοποίηση ξυπνητηριού"</string>
+    <string msgid="7204593078688533541" name="dismiss_alarm">"Παράβλεψη ξυπνητηριού"</string>
+    <string msgid="6509722361933858451" name="done">"Τέλος"</string>
+    <string msgid="7007948707597430919" name="done_label">"Τέλος"</string>
+    <string msgid="1834599140632142536" name="enable_alarm">"Ενεργοποίηση ξυπνητηριού"</string>
+    <string msgid="4100909974923444602" name="every_day">"Κάθε ημέρα"</string>
+    <string msgid="7392616528943305020" name="expand_alarm">"Ανάπτυξη ξυπνητηριού"</string>
+    <string msgid="1151743663255257668" name="gallery_button_description">"Συλλογή"</string>
+    <string msgid="7786263119482654015" name="help">"βοήθεια"</string>
+    <string msgid="3217727306480505694" name="hide_clock">"Απόκρυψη ρολογιού"</string>
+    <string msgid="3383859096809056157" name="home_button_description">"Εκκίνηση"</string>
+    <string msgid="4436139365695453870" name="home_label">"Οικία"</string>
+    <string msgid="9199730676287974501" name="home_time_zone">"Βασική ζώνη ώρας"</string>
+    <string msgid="807894493443834624" name="home_time_zone_title">"Βασική ζώνη ώρας"</string>
+    <string msgid="7586639618712934060" name="hour_picker_description">"Κυκλικό ρυθμιστικό ωρών"</string>
+    <string msgid="3393478155635368097" name="hours_label">"ω."</string>
+    <string msgid="8652842524970971830" name="hours_label_description">"ώρες"</string>
+    <string msgid="2782334750243998633" name="invalid_time">"Μη έγκυρη ώρα <ns1:g id="INVALID_HOUR">%d</ns1:g>:<ns1:g id="INVALID_MINUTES">%d</ns1:g> <ns1:g id="INVALID_AMPM">%s</ns1:g>"</string>
+    <string msgid="3104567893212932487" name="invalid_timer_length">"Μη έγκυρη διάρκεια αντίστροφης μέτρησης"</string>
+    <string msgid="2674929164900463786" name="item_is_selected">"Επιλέχτηκε το στοιχείο <ns1:g id="ITEM">%1$s</ns1:g>"</string>
+    <string msgid="162189613902857319" name="label">"Ετικέτα"</string>
+    <string msgid="8736179296142915727" name="label_description">"Ετικέτα"</string>
+    <string msgid="6523322777415268044" name="loading_ringtone">"Φόρτωση ήχου κλήσης"</string>
+    <string msgid="4772010125376647519" name="menu_alarm">"Ξυπνητήρι"</string>
+    <string msgid="5612760670606829805" name="menu_clock">"Ρολόι"</string>
+    <string msgid="3241995064554071588" name="menu_desk_clock">"Ρολόι γραφείου"</string>
+    <string msgid="7204602994918829751" name="menu_edit_alarm">"Επεξεργασία ξυπνητηριού"</string>
+    <string msgid="4570953476186849841" name="menu_item_help">"Βοήθεια"</string>
+    <string msgid="3486930302245398975" name="menu_item_night_mode">"Λειτουργία νύχτας"</string>
+    <string msgid="1413723516369078665" name="menu_item_settings">"Ρυθμίσεις"</string>
+    <string msgid="3120860422682721706" name="menu_item_sort_by_gmt_offset">"Ταξινόμηση κατά ώρα"</string>
+    <string msgid="1762931290495104106" name="menu_item_sort_by_name">"Ταξινόμηση κατά όνομα"</string>
+    <string msgid="3396117705293574701" name="menu_stopwatch">"Χρονόμετρο"</string>
+    <string msgid="6459070074762877114" name="menu_timer">"Χρονόμετρο"</string>
+    <string msgid="6024811202872705251" name="minute_picker_description">"Κυκλικό ρυθμιστικό λεπτών"</string>
+    <string msgid="3568098128251438588" name="minutes_label">"λ."</string>
+    <string msgid="965686733490357796" name="minutes_label_description">"λεπτά"</string>
+    <string msgid="5295473204045979335" name="missed_alarm_has_been_deleted">"Η ειδοποίηση που παραβλέψατε έχει διαγραφεί"</string>
+    <string msgid="6722110840279707462" name="multiple_timers_available">"Δεν είναι δυνατή η ολοκλήρωση του αιτήματος, διατίθενται πολλές αντίστροφες μετρήσεις"</string>
+    <string msgid="1626593420810117999" name="music_button_description">"Μουσική"</string>
+    <string msgid="2650244835760747046" name="next_alarm_description">"Επόμενο ξυπνητήρι: <ns1:g id="ALARM_TIME">%s</ns1:g>"</string>
+    <string msgid="6136454740115613653" name="next_timer_notif">"Επόμενο χρονόμετρο: <ns1:g id="TIME_REMAINING">%s</ns1:g>"</string>
+    <string msgid="1017350187324162631" name="night_mode_summary">"Πολύ χαμηλή φωτεινότητα οθόνης (για σκοτεινά δωμάτια)"</string>
+    <string msgid="5983813889469616299" name="night_mode_title">"Λειτουργία νύχτας"</string>
+    <string msgid="990894208217576381" name="nightmode_button_description">"Θάμπωμα"</string>
+    <string msgid="8140632482969193119" name="no_alarm_at">"Δεν υπάρχει ξυπνητήρι στις <ns1:g id="ALARM_TIME_HOUR">%d</ns1:g>:<ns1:g id="ALARM_TIME_MINUTES">%d</ns1:g>"</string>
+    <string msgid="4463069177414482818" name="no_alarm_scheduled_for_this_time">"Δεν προγραμματίστηκε κανένα ξυπνητήρι γι\' αυτήν την ώρα"</string>
+    <string msgid="6429431324842022917" name="no_alarms">"Δεν υπάρχουν ξυπνητήρια"</string>
+    <string msgid="4887558279496044764" name="no_alarms_set">"Χωρίς ειδοπ."</string>
+    <string msgid="6250998794542941665" name="no_alarms_with_label">"Δεν υπάρχουν ειδοποιήσεις που περιέχουν την ετικέτα"</string>
+    <string msgid="1007596865203283741" name="no_city_selected">"Δεν επιλέχτηκε πόλη"</string>
+    <string msgid="4986161963178722289" name="no_firing_alarms">"Δεν υπάρχουν ενεργοποιημένα ξυπνητήρια"</string>
+    <string msgid="2008482054428460626" name="no_label_specified">"Δεν έχει καθοριστεί ετικέτα"</string>
+    <string msgid="2115420148192753534" name="no_scheduled_alarms">"Δεν υπάρχουν προγραμματισμένα ξυπνητήρια"</string>
+    <string msgid="3326365650863016606" name="no_timer_set">"Δεν ορίστηκε αντίστροφη μέτρηση"</string>
+    <string msgid="2889840988069436254" name="no_upcoming_alarms">"ΧΩΡΙΣ ΠΡΟΣΕΧΕΙΣ ΕΙΔΟΠΟΙΗΣΕΙΣ"</string>
+    <string msgid="5408769235866082896" name="pick_alarm_to_dismiss">"Επιλέξτε τα ξυπνητήρια που θέλετε να παραβλέψετε"</string>
+    <string msgid="9100911171235162926" name="revert">"Επαναφορά"</string>
+    <string msgid="9110746249688559579" name="ringtone">"Ήχος κλήσης"</string>
+    <string msgid="7580922112921069925" name="ringtone_description">"Ήχος κλήσης"</string>
+    <string msgid="7013450738357352801" name="screensaver_settings">"Ρυθμίσεις Dream"</string>
+    <string msgid="124655952824003246" name="seconds_label">"δ."</string>
+    <string msgid="3821620053141299692" name="seconds_label_description">"δευτερόλεπτα"</string>
+    <string msgid="3973338219107019769" name="select_day">"Επιλογή μήνα και ημέρας"</string>
+    <string msgid="7651068754188418859" name="select_hours">"Επιλέξτε ώρες"</string>
+    <string msgid="8327182090226828481" name="select_minutes">"Επιλέξτε λεπτά"</string>
+    <string msgid="2603330600102539372" name="select_year">"Επιλογή έτους"</string>
+    <string msgid="3607479399424246605" name="selected_cities_label">"Επιλεγμένες πόλεις"</string>
+    <string msgid="9148359866152726808" name="set_alarm">"Ορισμός ξυπνητηριού"</string>
+    <string msgid="5849739030579520686" name="settings">"Ρυθμίσεις"</string>
+    <string msgid="8358759982675616915" name="show_clock">"Εμφάνιση ρολογιού"</string>
+    <string msgid="8605302849408279221" name="silent_alarm_summary">"Σίγαση"</string>
+    <string msgid="2077577763821006919" name="slash">"/"</string>
+    <string msgid="1097309861110780483" name="snooze_duration_title">"Διάρκεια αναβολής"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="6598258908106423672" name="stopwatch_already_running">"Το χρονόμετρο λειτουργεί ήδη"</string>
+    <string msgid="5713134605500796186" name="stopwatch_cant_be_reset_because_is_running">"Δεν είναι δυνατή η εκ νέου ρύθμιση του χρονομέτρου επειδή είναι σε λειτουργία αυτήν τη στιγμή"</string>
+    <string msgid="7147219965448204727" name="stopwatch_isnt_running">"Το χρονόμετρο δεν λειτουργεί"</string>
+    <string msgid="5844686448815550482" name="stopwatch_lapped">"Επανάληψη χρονομέτρου"</string>
+    <string msgid="7585914953721021042" name="stopwatch_reset">"Έγινε επαναφορά του χρονομέτρου"</string>
+    <string msgid="8416624630388063996" name="stopwatch_service_desc">"Υπηρεσία χρονόμετρου για την εκτέλεση της ειδοποίησης."</string>
+    <string msgid="7843882246387176304" name="stopwatch_started">"Το χρονόμετρο ξεκίνησε"</string>
+    <string msgid="6927081018816192999" name="stopwatch_stopped">"Το χρονόμετρο σταμάτησε"</string>
+    <string msgid="6992264696039004233" name="sw_lap_button">"Γύρος"</string>
+    <string msgid="3535420316052647126" name="sw_notification_lap_number">"Γύρος <ns1:g id="NUMBER">%d</ns1:g>"</string>
+    <string msgid="6616804728322906117" name="sw_reset_button">"Επαναφορά"</string>
+    <string msgid="2569360966002022248" name="sw_resume_button">"Συνέχιση"</string>
+    <string msgid="4478648110382859382" name="sw_share_button">"Κοινή χρήση"</string>
+    <string msgid="614390674795945007" name="sw_share_laps">"Χρόνοι γύρων:"</string>
+    <string msgid="7703563468204234405" name="sw_share_main">"Ο χρόνος μου είναι <ns1:g id="TIME">%s</ns1:g>"</string>
+    <string msgid="8373422516681242270" name="sw_start_button">"Εκκίνηση"</string>
+    <string msgid="8322958613123274451" name="sw_stop_button">"Διακοπή"</string>
+    <string msgid="783124901663086172" name="swn_stopped">"Διακόπηκε"</string>
+    <string msgid="3799050213771793020" name="the_city_already_added">"Αυτή η πόλη προστέθηκε ήδη"</string>
+    <string msgid="1753597460426454543" name="the_city_you_specified_is_not_available">"Η πόλη που καθορίσατε δεν είναι διαθέσιμη"</string>
+    <string msgid="8067216534232296518" name="time">"Ώρα"</string>
+    <string msgid="1619464909892545536" name="time_format_12_mode">"ω:λλ π.μ."</string>
+    <string msgid="7998512313148074539" name="time_format_24_mode">"ω:λλ"</string>
+    <string msgid="6001006474735281911" name="time_picker_00_label">":00"</string>
+    <string msgid="1027250857384838129" name="time_picker_30_label">":30"</string>
+    <string msgid="6754113715199751083" name="time_picker_ampm_label">"--"</string>
+    <string msgid="7437106489606013077" name="time_picker_cancel">"Ακύρωση"</string>
+    <string msgid="331153175471468051" name="time_picker_set">"OK"</string>
+    <string msgid="7484926510054777041" name="time_picker_time_seperator">":"</string>
+    <string msgid="862733633862574752" name="timer_add_timer">"Προσθήκη χρονόμετρου"</string>
+    <string msgid="1259351124772803097" name="timer_already_running">"Η αντίστροφη μέτρηση ξεκίνησε ήδη"</string>
+    <string msgid="8865820275829449054" name="timer_already_stopped">"Η αντίστροφη μέτρηση διακόπηκε ήδη"</string>
+    <string msgid="3572868404230815644" name="timer_cancel">"Ακύρωση"</string>
+    <string msgid="7880015473706806640" name="timer_cant_be_reset_because_its_running">"Δεν είναι δυνατή η επαναφορά της αντίστροφης μέτρησης, επειδή εξακολουθεί να λειτουργεί. Διακόψτε την αντίστροφη μέτρηση για να την επαναφέρετε."</string>
+    <string msgid="4381027137335885547" name="timer_created">"Δημιουργήθηκε αντίστροφη μέτρηση"</string>
+    <string msgid="8699122001991909302" name="timer_delete">"Διαγραφή"</string>
+    <string msgid="2815524107015816453" name="timer_delete_confirmation">"Διαγραφή αυτού του χρονόμετρου;"</string>
+    <string msgid="9110322362460029392" name="timer_deleted">"Η αντίστροφη μέτρηση διαγράφηκε"</string>
+    <string msgid="8794915342760383536" name="timer_descriptive_delete">"Διαγραφή <ns1:g id="NUMBER_STRING">%s</ns1:g>"</string>
+    <string msgid="2375990511982914051" name="timer_done">"Τέλος"</string>
+    <string msgid="4933184831583137249" name="timer_notification_label">"Χρονόμετρο"</string>
+    <string msgid="8645224089494875062" name="timer_plus_1_min">"Προσθήκη 1 λεπτού"</string>
+    <string msgid="6631211310420106116" name="timer_plus_one">"Προσθήκη 1 λεπτού"</string>
+    <string msgid="7848424809190171640" name="timer_reset">"Επαναφορά"</string>
+    <string msgid="2620214305660322415" name="timer_ring_service_desc">"Η υπηρεσία αναπαραγωγής ήχου για ξυπνητήρια έχει ρυθμιστεί στο Ρολόι."</string>
+    <string msgid="6158486445614356442" name="timer_start">"Έναρξη"</string>
+    <string msgid="6715582052946641641" name="timer_started">"Η αντίστροφη μέτρηση ξεκίνησε"</string>
+    <string msgid="3361154678667736722" name="timer_stop">"Διακοπή"</string>
+    <string msgid="2730331837832462008" name="timer_stopped">"Το χρονόμετρο διακόπηκε"</string>
+    <string msgid="9190440395938519009" name="timer_times_up">"Ο χρόνος έχει τελειώσει"</string>
+    <string msgid="6495796785185062631" name="timer_was_reset">"Επαναφορά αντίστροφης μέτρησης"</string>
+    <string msgid="5570729467344408506" name="timers_in_use">"<ns1:g id="NUMBER">%d</ns1:g> χρονόμετρα"</string>
+    <string msgid="9140022846793903813" name="timers_max_count_reached">"4 χρονόμετρα το μέγιστο"</string>
+    <string msgid="2393640808691864520" name="timers_stopped">"<ns1:g id="NUMBER">%d</ns1:g> ξυπνητήρια διακόπηκαν"</string>
+    <string msgid="8768042543750036853" name="volume_button_dialog_title">"Εφέ κουμπιού"</string>
+    <string msgid="6937131248843413357" name="volume_button_setting_title">"Κουμπιά έντασης"</string>
+    <string msgid="3425804832021006835" name="weather_fetch_failure">"Οι πληροφορίες καιρού δεν είναι διαθέσιμες αυτήν τη στιγμή."</string>
+    <string msgid="4268917518596832096" name="week_start_title">"Έναρξη εβδομάδας"</string>
+    <string msgid="8648842975829470646" name="weekday_time_format_12_mode">"ΗΗΗ, ω:λλ π.μ."</string>
+    <string msgid="152964494051478631" name="weekday_time_format_24_mode">"ΗΗΗ, ω: λλ"</string>
+    <string msgid="5911196322328341288" name="world_day_of_week_label">"/ <ns1:g id="LABEL">%s</ns1:g>"</string>
+    <string msgid="6963340404644587098" name="year_picker_description">"Λίστα ετών"</string>
+    <string msgid="7102083421938355017" name="zero">"0"</string>
+</resources>

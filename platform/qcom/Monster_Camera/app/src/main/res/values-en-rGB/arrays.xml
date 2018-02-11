@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Camera Preferences Video Quality entries -->
+
+
+    <!-- Camera Preferences Picture size dialog box entries -->
+
+    <!-- When launching the camera app first time, we will set the picture
+         size to the first one in the list that is also supported by the
+         driver -->
+
+    <!-- Camera Preferences focus mode dialog box entries -->
+
+
+
+    <!-- Camera Preferences flash mode dialog box entries -->
+
+
+
+
+
+
+
+
+
+    <!-- Videocamera Preferences flash mode dialog box entries -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Default focus mode setting.-->
+
+    <!-- Icons for exposure compensation -->
+
+    <!--  Labels for Countdown timer -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--Index of camera modes. -->
+
+    <!-- Ordered list of all camera modes. -->
+
+    <!-- An array of camera mode indices in the sequence of their appearance
+    in the mode drawer. -->
+
+    <!-- Camera modes that each supported mode is nested in in nav drawer. -->
+
+    <!-- An array of camera mode indices that should always be visible in mode drawer. -->
+
+
+
+
+
+
+
+
+    <!-- These must correspond in order to the entries in CameraProfile. -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</resources>

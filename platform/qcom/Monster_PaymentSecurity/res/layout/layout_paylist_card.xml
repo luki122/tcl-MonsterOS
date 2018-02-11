@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="116dp"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="20dp"
+        android:layout_marginBottom="22dp"
+        android:alpha="0.4"
+        android:textColor="@android:color/black"
+        android:textSize="13sp"
+        />
+
+
+    <RelativeLayout
+        android:id="@+id/rl_action"
+        android:layout_width="wrap_content"
+        android:layout_height="58dp"
+        android:layout_alignParentRight="true">
+
+        <Button
+            android:id="@+id/action"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:alpha="0.86"
+            android:padding="0dp"
+            android:text="@string/pay_app_manager"
+            android:textColor="@android:color/black"
+            android:textSize="12sp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title">
+        <ImageView
+            android:id="@+id/icon_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="25dp"
+            android:src="@drawable/ic_more"
+            android:visibility="gone"
+            tools:ignore="ContentDescription" />
+
+        <mst.widget.recycleview.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="25dp"
+            android:layout_toLeftOf="@+id/icon_more">
+
+        </mst.widget.recycleview.RecyclerView>
+    </RelativeLayout>
+
+</RelativeLayout>

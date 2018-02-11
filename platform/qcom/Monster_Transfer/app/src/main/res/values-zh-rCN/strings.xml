@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"一键换机"</string>
+	<!---->
+	<string name="new_phone">"我是新手机"</string>
+	<!---->
+	<string name="old_phone">"我是旧手机"</string>
+	<!---->
+	<string name="note_title">"选择最合适您的换机方式"</string>
+	<!---->
+	<string name="one_touch_move">"一键换机"</string>
+	<!---->
+	<string name="qq_helper">"秒传"</string>
+	<!---->
+	<string name="cloud">"网络传输"</string>
+	<!---->
+	<string name="note_activity_title">"在一键换机过程中"</string>
+	<!---->
+	<string name="note_one">"*请保持新手机WLAN热点打开；"</string>
+	<!---->
+	<string name="note_two">"*请保持两台手机之间的距离尽可能靠近；"</string>
+	<!---->
+	<string name="note_three">"*请保持两台手机的电量高于35%；"</string>
+	<!---->
+	<string name="note_four">"*新手机的同类数据将会被覆盖；"</string>
+	<!---->
+	<string name="text_cancel">"取消"</string>
+	<!---->
+	<string name="text_continue">"继续"</string>
+	<!---->
+	<string name="hot_title">"请使用旧手机，扫描下方二维码"</string>
+	<!---->
+	<string name="hot_bottom">"进入设置&gt;更多设置&gt;一键换机\n选择 “我是旧手机” 扫描二维码"</string>
+	<!---->
+	<string name="camera_permission_denied">"没有使用照相机的权限"</string>
+	<!---->
+	<string name="text_scan_top">"请扫描新手机的二维码"</string>
+	<!---->
+	<string name="text_scan_bottom">"进入设置>更多设置>一键换机"</string>
+	<!---->
+	<string name="text_scan_bottom_second">"选择 “我是新手机”来打开二维码"</string>
+	<!---->
+	<string name="text_loading">"加载中"</string>
+	<!---->
+	<string name="text_confirm">"确定"</string>
+	<!---->
+	<string name="text_connect_fail">"连接不成功，请重新扫描！"</string>
+	<!---->
+	<string name="text_setting_permission_not_granted">"没有WRITE_SETTINGS权限，不能开启wifi热点"</string>
+	<!---->
+	<string name="text_wait_for_send">"连接成功！等待数据传输…"</string>
+	<!---->
+	<string name="text_qrcode_fail">"二维码生成失败！"</string>
+	<!---->
+	<string name="text_main_page">"一键换机、QQ同步助手、云服务\n三种换机（传输数据）的方式供你选择"</string>
+	<!---->
+	<string name="one_touch_move_content">"适用于支持一键换机功能的TCL手机"</string>
+	<!---->
+	<string name="qq_helper_content">"使用QQ同步助手“秒传”功能"</string>
+	<!---->
+	<string name="cloud_content">"使用QQ同步助手，同步您的云端信息。"</string>
+	<!-- no translation found for app_picker_name -->
+	<skip />
+	<!-- no translation found for bookmark_picker_name -->
+	<skip />
+	<!-- no translation found for button_add_calendar -->
+	<skip />
+	<!-- no translation found for button_add_contact -->
+	<skip />
+	<!-- no translation found for button_book_search -->
+	<skip />
+	<!-- no translation found for button_cancel -->
+	<skip />
+	<!-- no translation found for button_custom_product_search -->
+	<skip />
+	<!-- no translation found for button_dial -->
+	<skip />
+	<!-- no translation found for button_email -->
+	<skip />
+	<!-- no translation found for button_get_directions -->
+	<skip />
+	<!-- no translation found for button_mms -->
+	<skip />
+	<!-- no translation found for button_ok -->
+	<skip />
+	<!-- no translation found for button_open_browser -->
+	<skip />
+	<!-- no translation found for button_product_search -->
+	<skip />
+	<!-- no translation found for button_search_book_contents -->
+	<skip />
+	<!-- no translation found for button_share_app -->
+	<skip />
+	<!-- no translation found for button_share_bookmark -->
+	<skip />
+	<!-- no translation found for button_share_by_email -->
+	<skip />
+	<!-- no translation found for button_share_by_sms -->
+	<skip />
+	<!-- no translation found for button_share_clipboard -->
+	<skip />
+	<!-- no translation found for button_share_contact -->
+	<skip />
+	<!-- no translation found for button_show_map -->
+	<skip />
+	<!-- no translation found for button_sms -->
+	<skip />
+	<!-- no translation found for button_web_search -->
+	<skip />
+	<!-- no translation found for button_wifi -->
+	<skip />
+	<!-- no translation found for contents_contact -->
+	<skip />
+	<!-- no translation found for contents_email -->
+	<skip />
+	<!-- no translation found for contents_location -->
+	<skip />
+	<!-- no translation found for contents_phone -->
+	<skip />
+	<!-- no translation found for contents_sms -->
+	<skip />
+	<!-- no translation found for contents_text -->
+	<skip />
+	<!-- no translation found for history_clear_text -->
+	<skip />
+	<!-- no translation found for history_clear_one_history_text -->
+	<skip />
+	<!-- no translation found for history_email_title -->
+	<skip />
+	<!-- no translation found for history_empty -->
+	<skip />
+	<!-- no translation found for history_empty_detail -->
+	<skip />
+	<!-- no translation found for history_send -->
+	<skip />
+	<!-- no translation found for history_title -->
+	<skip />
+	<!-- no translation found for menu_encode_mecard -->
+	<skip />
+	<!-- no translation found for menu_encode_vcard -->
+	<skip />
+	<!-- no translation found for menu_help -->
+	<skip />
+	<!-- no translation found for menu_history -->
+	<skip />
+	<!-- no translation found for menu_settings -->
+	<skip />
+	<!-- no translation found for menu_share -->
+	<skip />
+	<!-- no translation found for msg_bulk_mode_scanned -->
+	<skip />
+	<!-- no translation found for msg_camera_framework_bug -->
+	<skip />
+	<!-- no translation found for msg_default_format -->
+	<skip />
+	<!-- no translation found for msg_default_meta -->
+	<skip />
+	<!-- no translation found for msg_default_mms_subject -->
+	<skip />
+	<!-- no translation found for msg_default_status -->
+	<skip />
+	<!-- no translation found for msg_default_time -->
+	<skip />
+	<!-- no translation found for msg_default_type -->
+	<skip />
+	<!-- no translation found for msg_encode_contents_failed -->
+	<skip />
+	<!-- no translation found for msg_error -->
+	<skip />
+	<!-- no translation found for msg_google_books -->
+	<skip />
+	<!-- no translation found for msg_google_product -->
+	<skip />
+	<!-- no translation found for msg_intent_failed -->
+	<skip />
+	<!-- no translation found for msg_invalid_value -->
+	<skip />
+	<!-- no translation found for msg_redirect -->
+	<skip />
+	<!-- no translation found for msg_sbc_book_not_searchable -->
+	<skip />
+	<!-- no translation found for msg_sbc_failed -->
+	<skip />
+	<!-- no translation found for msg_sbc_no_page_returned -->
+	<skip />
+	<!-- no translation found for msg_sbc_page -->
+	<skip />
+	<!-- no translation found for msg_sbc_results -->
+	<skip />
+	<!-- no translation found for msg_sbc_searching_book -->
+	<skip />
+	<!-- no translation found for msg_sbc_snippet_unavailable -->
+	<skip />
+	<!-- no translation found for msg_share_explanation -->
+	<skip />
+	<!-- no translation found for msg_share_text -->
+	<skip />
+	<!-- no translation found for msg_sure -->
+	<skip />
+	<!-- no translation found for msg_unmount_usb -->
+	<skip />
+	<!-- no translation found for preferences_actions_title -->
+	<skip />
+	<!-- no translation found for preferences_auto_focus_title -->
+	<skip />
+	<!-- no translation found for preferences_auto_open_web_title -->
+	<skip />
+	<!-- no translation found for preferences_bulk_mode_summary -->
+	<skip />
+	<!-- no translation found for preferences_bulk_mode_title -->
+	<skip />
+	<!-- no translation found for preferences_copy_to_clipboard_title -->
+	<skip />
+	<!-- no translation found for preferences_custom_product_search_summary -->
+	<skip />
+	<!-- no translation found for preferences_custom_product_search_title -->
+	<skip />
+	<!-- no translation found for preferences_decode_1D_industrial_title -->
+	<skip />
+	<!-- no translation found for preferences_decode_1D_product_title -->
+	<skip />
+	<!-- no translation found for preferences_decode_Aztec_title -->
+	<skip />
+	<!-- no translation found for preferences_decode_Data_Matrix_title -->
+	<skip />
+	<!-- no translation found for preferences_decode_PDF417_title -->
+	<skip />
+	<!-- no translation found for preferences_decode_QR_title -->
+	<skip />
+	<!-- no translation found for preferences_device_bug_workarounds_title -->
+	<skip />
+	<!-- no translation found for preferences_disable_barcode_scene_mode_title -->
+	<skip />
+	<!-- no translation found for preferences_disable_continuous_focus_summary -->
+	<skip />
+	<!-- no translation found for preferences_disable_continuous_focus_title -->
+	<skip />
+	<!-- no translation found for preferences_disable_exposure_title -->
+	<skip />
+	<!-- no translation found for preferences_disable_metering_title -->
+	<skip />
+	<!-- no translation found for preferences_front_light_summary -->
+	<skip />
+	<!-- no translation found for preferences_front_light_title -->
+	<skip />
+	<!-- no translation found for preferences_front_light_auto -->
+	<skip />
+	<!-- no translation found for preferences_front_light_off -->
+	<skip />
+	<!-- no translation found for preferences_front_light_on -->
+	<skip />
+	<!-- no translation found for preferences_general_title -->
+	<skip />
+	<!-- no translation found for preferences_history_summary -->
+	<skip />
+	<!-- no translation found for preferences_history_title -->
+	<skip />
+	<!-- no translation found for preferences_invert_scan_title -->
+	<skip />
+	<!-- no translation found for preferences_invert_scan_summary -->
+	<skip />
+	<!-- no translation found for preferences_name -->
+	<skip />
+	<!-- no translation found for preferences_orientation_title -->
+	<skip />
+	<!-- no translation found for preferences_play_beep_title -->
+	<skip />
+	<!-- no translation found for preferences_remember_duplicates_summary -->
+	<skip />
+	<!-- no translation found for preferences_remember_duplicates_title -->
+	<skip />
+	<!-- no translation found for preferences_result_title -->
+	<skip />
+	<!-- no translation found for preferences_scanning_title -->
+	<skip />
+	<!-- no translation found for preferences_search_country -->
+	<skip />
+	<!-- no translation found for preferences_supplemental_summary -->
+	<skip />
+	<!-- no translation found for preferences_supplemental_title -->
+	<skip />
+	<!-- no translation found for preferences_vibrate_title -->
+	<skip />
+	<!-- no translation found for result_address_book -->
+	<skip />
+	<!-- no translation found for result_calendar -->
+	<skip />
+	<!-- no translation found for result_email_address -->
+	<skip />
+	<!-- no translation found for result_geo -->
+	<skip />
+	<!-- no translation found for result_isbn -->
+	<skip />
+	<!-- no translation found for result_product -->
+	<skip />
+	<!-- no translation found for result_sms -->
+	<skip />
+	<!-- no translation found for result_tel -->
+	<skip />
+	<!-- no translation found for result_text -->
+	<skip />
+	<!-- no translation found for result_uri -->
+	<skip />
+	<!-- no translation found for result_wifi -->
+	<skip />
+	<!-- no translation found for sbc_name -->
+	<skip />
+	<!-- no translation found for wifi_changing_network -->
+	<skip />
+	<!---->
+	<string name="write_settings_permission_denied">"写入设置权限被拒绝"</string>
+	<!---->
+	<string name="connect_success">"连接成功"</string>
+	<!---->
+	<string name="connect_failed">"连接失败"</string>
+	<!---->
+	<string name="camera_denied">"禁止访问相机"</string>
+	<string-array name="receiver_content_item">
+		<item>"系统数据"</item>
+		<item>"应用程序"</item>
+		<item>"图片"</item>
+		<item>"视频"</item>
+		<item>"音乐"</item>
+		<item>"文档"</item>
+	</string-array>
+	<!---->
+	<string name="text_receive_status">"接收中，预计还需要%d分钟"</string>
+	<!---->
+	<string name="text_disconnected">"连接已断开"</string>
+	<!---->
+	<string name="text_return">"返回"</string>
+	<!---->
+	<string name="text_battery_low">"电量低于35%"</string>
+	<!---->
+	<string name="text_cancel_confirm">"确认取消本次一键换机？"</string>
+	<!---->
+	<string name="text_wait_for_send_one">"连接成功！等待数据传输."</string>
+	<!---->
+	<string name="text_wait_for_send_two">"连接成功！等待数据传输.."</string>
+	<!---->
+	<string name="qq_note_one">"请在旧手机上"</string>
+	<!---->
+	<string name="qq_note_two">"1.打开QQ同步助手"</string>
+	<!---->
+	<string name="qq_note_three">"2.进入“秒传”"</string>
+	<!---->
+	<string name="qq_note_four">"3.选择“我是旧手机”以发送数据"</string>
+	<!---->
+	<string name="qq_text_scanning">"正在搜索旧手机..."</string>
+	<!---->
+	<string name="qq_text_click">"点击选择"</string>
+	<!---->
+	<string name="total_size">"共%1$s"</string>
+	<!---->
+	<string name="send_size">"已发送%1$s"</string>
+	<!---->
+	<string name="send_sucess">"数据发送成功！"</string>
+	<!---->
+	<string name="recover_sucess">"换机完成！开始用您的新手机~"</string>
+	<!---->
+	<string name="item_info">"%1$s, 共%2$d项"</string>
+	<!---->
+	<string name="cancel_confirm_info">"确定取消本次一键换机？"</string>
+	<!---->
+	<string name="button_send">"发送"</string>
+	<!---->
+	<string name="remaining_time">"预计用时 %1$s"</string>
+	<!---->
+	<string name="totally">"共计"</string>
+	<!---->
+	<string name="recv_size">"已接收%1$s"</string>
+	<!---->
+	<string name="recving">"正在接收中"</string>
+	<!---->
+	<string name="sending">"正在发送中"</string>
+	<!---->
+	<string name="qq_text_contact">"联系人"</string>
+	<!---->
+	<string name="qq_text_sms">"短信"</string>
+	<!---->
+	<string name="qq_text_calllog">"通话记录"</string>
+	<!---->
+	<string name="qq_text_bookmark">"书签"</string>
+	<!---->
+	<string name="qq_text_calendar">"日程"</string>
+	<!---->
+	<string name="qq_text_picture">"图片"</string>
+	<!---->
+	<string name="qq_text_video">"视频"</string>
+	<!---->
+	<string name="qq_text_music">"音乐"</string>
+	<!---->
+	<string name="qq_text_app">"软件"</string>
+	<!---->
+	<string name="qq_text_received">"数据接收完成！"</string>
+	<!---->
+	<string name="qq_text_receive_fail">"数据接收失败"</string>
+	<!---->
+	<string name="qq_permission_denied">"没有权限，无法使用"</string>
+	<!---->
+	<string name="button_text_complete">"完成"</string>
+	<!---->
+	<string name="scan_failed">"二维码解析错误"</string>
+	<!---->
+	<string name="text_rescan">"重新搜索"</string>
+	<!---->
+	<string name="text_install">"正在安装"</string>
+	<!---->
+	<string name="text_pre_install">"准备安装应用"</string>
+	<!---->
+	<string name="text_restore">"正在进行数据恢复"</string>
+	<!---->
+	<string name="text_transfering">"正在接收"</string>
+	<!---->
+	<string name="text_remain_time">"，预计剩余时间："</string>
+	<!---->
+	<string name="text_day">"天"</string>
+	<!---->
+	<string name="text_hour">"小时"</string>
+	<!---->
+	<string name="text_min">"分"</string>
+	<!---->
+	<string name="text_sec">"秒"</string>
+	<!---->
+	<string name="qq_cancel_confirm_info">"确定取消本次秒传？"</string>
+	<!---->
+	<string name="qq_start_install">"接收完成，开始安装应用程序。\n你可以退出本页面，应用程序安装将在后台自动进行..."</string>
+	<!---->
+	<string name="text_rec_status">"接收中...预计还需要%1$s"</string>
+	<!---->
+	<string name="text_send_status">"发送中...预计还需要%1$s...."</string>
+	<!---->
+	<string name="text_recovery_status">"恢复中...预计还剩下%1$s...."</string>
+	<!---->
+	<string name="calculate_size">"连接成功！正在计算数据大小......"</string>
+	<!---->
+	<string name="send_successful">"数据发送完成！"</string>
+	<!---->
+	<string name="select_all">"全选"</string>
+	<!---->
+	<string name="select_none">"全不选"</string>
+	<!---->
+	<string name="cancelled">"已取消！"</string>
+	<!---->
+	<string name="recv_successful">"数据接收完成"</string>
+	<!---->
+	<string name="text_canceling">"取消中..."</string>
+	<!---->
+	<string name="notify_connect_success">"连接成功！"</string>
+	<!---->
+	<string name="notify_sending">"正在进行数据发送"</string>
+	<!---->
+	<string name="notify_receiving">"正在进行数据接收"</string>
+	<!---->
+	<string name="notify_send_success">"数据发送完成"</string>
+	<!---->
+	<string name="notify_receive_success">"数据接收完成"</string>
+	<!---->
+	<string name="notify_installing">"正在安装应用程序"</string>
+	<!---->
+	<string name="notify_install_success">"应用程序安装完成"</string>
+	<!---->
+	<string name="sms_permission_denied">"没有权限，短信数据无法恢复"</string>
+	<!---->
+	<string name="caculate_size_info">"正在计算大小"</string>
+	<!---->
+	<string name="text_sms_permission">"恢复短信我们需要获得临时的“更改短信应用”权限"</string>
+	<!---->
+	<string name="text_sms_permission_restore">"如需正常使用短信功能，请恢复之前默认的短信应用权限"</string>
+</resources>

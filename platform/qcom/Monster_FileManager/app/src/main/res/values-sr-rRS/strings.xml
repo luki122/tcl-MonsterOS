@@ -1,0 +1,814 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="sort">"Razvrst."</string>
+	<!---->
+	<string name="sort_by_name">"Ime"</string>
+	<!---->
+	<string name="sort_by_date">"Datum je izmenjen"</string>
+	<!---->
+	<string name="sort_by_time">"Datum"</string>
+	<!---->
+	<string name="sort_by_type">"Tip"</string>
+	<!---->
+	<string name="sort_by_size">"Veličina"</string>
+	<!---->
+	<string name="copy">"Kopiraj"</string>
+	<!---->
+	<string name="create_folder">"Kreiraj"</string>
+	<!---->
+	<string name="cut">"Iseci"</string>
+	<!---->
+	<string name="delete">"Izbriši"</string>
+	<!---->
+	<string name="delete_confirm">"Potvrda brisanja"</string>
+	<!---->
+	<string name="deselect_all">"Opozovi sve izbore"</string>
+	<!---->
+	<string name="select_all">"Izaberi sve"</string>
+	<!---->
+	<string name="show_file">"Prikaži sakrivene datoteke"</string>
+	<!---->
+	<string name="hide_file">"Sakrij skrivene datoteke"</string>
+	<!---->
+	<string name="paste">"Nalepi"</string>
+	<!---->
+	<string name="rename">"Promeni ime"</string>
+	<!---->
+	<string name="share">"Deli"</string>
+	<!---->
+	<string name="viewby_list">"Vidite u listi"</string>
+	<!---->
+	<string name="viewby_grid">"Vidite po mreži"</string>
+	<!---->
+	<string name="alert_delete_message">"Izbriši"</string>
+	<!---->
+	<string name="multi_alert_delete_message">"Izbrisati izabrane stavke?"</string>
+	<!---->
+	<string name="multi_alert_delete_message_cn">"Izbrisati izabrane stavke?"</string>
+	<!-- no translation found for delete_folder_message -->
+	<skip />
+	<!---->
+	<string name="category_pictures">"Slike"</string>
+	<!---->
+	<string name="category_vedios">"Video"</string>
+	<!---->
+	<string name="category_music">"Muzika"</string>
+	<!---->
+	<string name="category_download">"Preuzimanja"</string>
+	<!---->
+	<string name="category_bluetooth">"Bluetooth"</string>
+	<!-- no translation found for app_name -->
+	<skip />
+	<!-- no translation found for theme_name -->
+	<skip />
+	<!---->
+	<string name="apk_name">"Datoteke"</string>
+	<!---->
+	<string name="new_folder">"Kreirajte novu fasciklu"</string>
+	<!---->
+	<string name="confirm_rename">"Potvrdi ime"</string>
+	<!---->
+	<string name="warning">"Maksimlani broj datoteka"</string>
+	<!---->
+	<string name="share_warning">"Nije moguće deljenje više od 100 datoteka."</string>
+	<!---->
+	<string name="loading">"Učitavanje..."</string>
+	<!---->
+	<string name="deleting">"Brisanje"</string>
+	<!---->
+	<string name="alert_delete_multiple">"Izabrana datoteke će biti izbrisana."</string>
+	<!---->
+	<string name="name">"Ime"</string>
+	<!---->
+	<string name="size">"Veličina"</string>
+	<!---->
+	<string name="modified_time">"Promenjeno"</string>
+	<!---->
+	<string name="msg_rename_ext">"Ekstenzija datoteke će biti promenjena. Datoteka možda neće biti prepoznata. Nastaviti?"</string>
+	<!---->
+	<string name="wait">"Sačekajte..."</string>
+	<!---->
+	<string name="done">"Urađeno"</string>
+	<!-- no translation found for enable -->
+	<skip />
+	<!-- no translation found for enable_cn -->
+	<skip />
+	<!---->
+	<string name="cancel">"Otkaži"</string>
+	<!---->
+	<string name="no">"Ne"</string>
+	<!---->
+	<string name="ok">"U redu"</string>
+	<!---->
+	<string name="yes">"Da"</string>
+	<!---->
+	<string name="details">"Detalji"</string>
+	<!---->
+	<string name="drawer_open">"Otvori"</string>
+	<!---->
+	<string name="unknown">"nepoznato"</string>
+	<!-- no translation found for unit_B -->
+	<skip />
+	<!-- no translation found for unit_KB -->
+	<skip />
+	<!-- no translation found for unit_MB -->
+	<skip />
+	<!-- no translation found for unit_GB -->
+	<skip />
+	<!-- no translation found for unit_TB -->
+	<skip />
+	<!---->
+	<string name="send_file">"Pošalji datoteku putem:"</string>
+	<!---->
+	<string name="default_search_text">"Pretraži datoteke"</string>
+	<!---->
+	<string name="free_space">"Dostupan"</string>
+	<!---->
+	<string name="total_space">"Ukupno"</string>
+	<!---->
+	<string name="drawer_category">"Kategorije"</string>
+	<!---->
+	<string name="phone_storage">"Memorija telefona"</string>
+	<!---->
+	<string name="phone_storage_cn">"Memorija telefona"</string>
+	<!---->
+	<string name="sd_card">"SD kartica"</string>
+	<!---->
+	<string name="draw_left_phone_storage">"Memorija telefona"</string>
+	<!---->
+	<string name="draw_left_sd_card">"SD kartica"</string>
+	<!-- no translation found for menu_settings -->
+	<skip />
+	<!---->
+	<string name="no_search_result">"0 rezultata za: \"%1$s\""</string>
+	<!---->
+	<string name="copy_deny">"Nema dozvole za kopiranje"</string>
+	<!---->
+	<string name="cut_deny">"Nema dozvole za sečenje"</string>
+	<!---->
+	<string name="delete_deny">"Nema dozvole za brisanje"</string>
+	<!---->
+	<string name="insufficient_memory">"Nedovoljno prostora."</string>
+	<!---->
+	<string name="insufficient_message">"Neke datoteke ne mogu da se kopiraju jer nema dovoljno prostora"</string>
+	<!---->
+	<string name="invalid_empty_name">"Ime datoteke ili fascikle ne može biti prazno"</string>
+	<!---->
+	<string name="paste_same_folder">"Kopiranje nije moguće: izvorna i ciljna fascikla su iste."</string>
+	<!---->
+	<string name="invalid_char_prompt">"Uneli ste nedozvoljeni znak"</string>
+	<!---->
+	<string name="msg_unable_open_file">"Format datoteke nije podržan."</string>
+	<!---->
+	<string name="paste_sub_folder">"Ne može da nalepi datoteku u podfasciklu."</string>
+	<!---->
+	<string name="operation_fail">"Neke operacije datoteka nisu uspele."</string>
+	<!---->
+	<string name="search_result">"%2$d rezultat(a) za: \"%1$s\""</string>
+	<!---->
+	<string name="already_exists">"%1$s je već u upotrebi"</string>
+	<!---->
+	<string name="unmounted">"%1$s je demontirana"</string>
+	<!---->
+	<string name="create_hidden_file">"Datoteka će biti sakrivena ako joj ime počinje sa \'.\'"</string>
+	<!---->
+	<string name="file_name_too_long">"Uneto ime je predugo"</string>
+	<!---->
+	<string name="some_paste_fail">"Neke operacije lepljenja nisu uspele."</string>
+	<!---->
+	<string name="delete_fail">"Brisanje nije moguće"</string>
+	<!---->
+	<string name="some_delete_fail">"Neke operacije brisanja nisu uspele."</string>
+	<!---->
+	<string name="msg_unable_open_file_in_app">"Nema aplikacije za otvaranje datoteke."</string>
+	<!---->
+	<string name="drm_forwardforbidden_title">"Nije prosleđeno"</string>
+	<!---->
+	<string name="drm_forwardforbidden_message">"DRM datoteka ne može da se prosledi."</string>
+	<!---->
+	<string name="drm_no_valid_right">"Datoteka nema ispravno DRM ovlašćenje."</string>
+	<!---->
+	<string name="drm_current_count">"Trenutni broj："</string>
+	<!---->
+	<string name="unlimited_usage">"Neograničena upotreba"</string>
+	<!---->
+	<string name="drm_current_right">"Trenutna ograničenja："</string>
+	<!---->
+	<string name="not_available">"Nije dostupno"</string>
+	<!---->
+	<string name="right_url">"URL izdavača licenci:"</string>
+	<!---->
+	<string name="use_times">"Korišćeno %s puta"</string>
+	<!---->
+	<string name="valid_after">"Važi posle"</string>
+	<!---->
+	<string name="valid_until">"Važi do"</string>
+	<!---->
+	<string name="drm_wifidisplay_title">"Datoteke zaštićene od kopiranja"</string>
+	<!---->
+	<string name="drm_wifidisplay_message">"Datoteke zaštićene od kopiranja ne mogu da se distribuiraju."</string>
+	<!---->
+	<string name="drm_wifidisplay_cancel_btn">"Isključite Wi-Fi prikaz"</string>
+	<!---->
+	<string name="drm_wifidisplay_ok">"U redu"</string>
+	<!---->
+	<string name="tv_link_close_toast">"Wi-Fi prikaz je zatvoren"</string>
+	<!---->
+	<string name="usbotg">"Spoljna USB memorija"</string>
+	<!---->
+	<string name="show">"Prikaži sistemske datoteke"</string>
+	<!---->
+	<string name="hide">"Sakrij sistemske datoteke"</string>
+	<!---->
+	<string name="action_menu_create_folder_button">"Nova fascikla"</string>
+	<!---->
+	<string name="searchResult">"RezultatiPretrage"</string>
+	<!---->
+	<string name="default_folder_name">"Ime fascikle"</string>
+	<!---->
+	<string name="drm_protection_status">"Status zaštite:"</string>
+	<!---->
+	<string name="drm_can_forward">"Može se proslediti."</string>
+	<!---->
+	<string name="drm_can_not_forward">"Ne može se proslediti."</string>
+	<!---->
+	<string name="drm_no_license">"Nema dostupnih DRM licenci."</string>
+	<!---->
+	<string name="drm_interval">"Važi %s posle prve upotrebe"</string>
+	<!---->
+	<string name="drm_begin">"Počni:"</string>
+	<!---->
+	<string name="drm_no_limitation">"Nema ograničenja."</string>
+	<!---->
+	<string name="drm_end">"Kraj:"</string>
+	<!---->
+	<string name="drm_use_left">"Preostalo:"</string>
+	<!---->
+	<string name="drm_no_crop">"Datoteka "%s" ne može da se iseče jer je DRM zaštićena!"</string>
+	<!---->
+	<string name="file_copy">"Datoteka je kopirana"</string>
+	<!---->
+	<string name="choice_file">"Izaberite odredište"</string>
+	<!---->
+	<string name="alert_delete_single">"Izabrana datoteka će biti izbrisana."</string>
+	<!---->
+	<string name="pasting">"Nalepljivanje"</string>
+	<!---->
+	<string name="readable">"Čitljivo:"</string>
+	<!---->
+	<string name="executable">"Aplikacija:"</string>
+	<!---->
+	<string name="writable">"Upisivo:"</string>
+	<!---->
+	<string name="add_favorite">"Dodajte u fasciklu omiljenih"</string>
+	<!---->
+	<string name="del_favorite">"Brisanje iz fascikle omiljenih"</string>
+	<!---->
+	<string name="favourite">"Dodaj u omiljene"</string>
+	<!---->
+	<string name="viewby_details">"Vidi po detaljima"</string>
+	<!---->
+	<string name="view_by">"Pregled"</string>
+	<!---->
+	<string name="show_hide">"Prikaži\\Sakrij"</string>
+	<!---->
+	<string name="sort_by">"Razv. prema"</string>
+	<!---->
+	<string name="more">"Još"</string>
+	<!-- no translation found for used -->
+	<skip />
+	<!---->
+	<string name="category_archives">"Arhive"</string>
+	<!---->
+	<string name="category_favorite">"Omiljeno"</string>
+	<!---->
+	<string name="category_ringtones">"Melodije"</string>
+	<!---->
+	<string name="category_recordings">"Snimci"</string>
+	<!---->
+	<string name="category_safebox">"Sef"</string>
+	<!---->
+	<string name="category_apks">"Aplikacije"</string>
+	<!---->
+	<string name="search">"Pretraga"</string>
+	<!---->
+	<string name="sort_type">"Razvrstaj po vrsti"</string>
+	<!---->
+	<string name="sort_name">"Razvrstaj po imenu (A-Z)"</string>
+	<!---->
+	<string name="sort_size">"Razvrstaj po veličini (veliko-malo)"</string>
+	<!---->
+	<string name="sort_time">"Razvrstaj po vremenu (novo-staro)"</string>
+	<!---->
+	<string name="selected">"Odabrano"</string>
+	<!---->
+	<string name="save">"Sačuvaj"</string>
+	<!---->
+	<string name="category_docs">"Dokumenti"</string>
+	<!---->
+	<string name="category_files">"Datoteke"</string>
+	<!---->
+	<string name="view_as_grid">"Kao mreža"</string>
+	<!---->
+	<string name="view_as_list">"Kao lista"</string>
+	<!---->
+	<string name="detail_path">"Lokacija:"</string>
+	<!---->
+	<string name="detail_name">"Ime:"</string>
+	<!---->
+	<string name="detail_size">"Veličina:"</string>
+	<!---->
+	<string name="detail_time">"Poslednje izmenjeno:"</string>
+	<!---->
+	<string name="empty_msg">"(Prazna fascikla)"</string>
+	<!---->
+	<string name="search_files">"Pretraži datoteke"</string>
+	<!-- no translation found for search_result_count -->
+	<skip />
+	<!---->
+	<string name="drawer_settings">"PODEŠAVANJA"</string>
+	<!---->
+	<string name="search_text_empty">"Sadržaji pretrage ne bi trebalo da budu prazni."</string>
+	<!---->
+	<string name="search_result_title">"Rezultati pretrage"</string>
+	<!---->
+	<string name="path_not_exists">"%1$s ne postoji"</string>
+	<!---->
+	<string name="modify_hidden_file">"Datoteka neće biti sakrivena ako joj ime ne počinje sa \'.\'."</string>
+	<!---->
+	<string name="paste_fail">"Nalepljivanje nije moguće"</string>
+	<!---->
+	<string name="search_empty">"Sadržaji pretrage ne bi trebalo da budu prazni."</string>
+	<!---->
+	<string name="search_setting_description">"Lokalne datoteke i fascikle"</string>
+	<!---->
+	<string name="change_mode">"Izaberi datoteku ili fasciklu"</string>
+	<!-- no translation found for drm_protectioninfo_title -->
+	<skip />
+	<!---->
+	<string name="draw_favourite">"omiljeni"</string>
+	<!---->
+	<string name="unfavourite">"Ukloni iz omiljenih"</string>
+	<!---->
+	<string name="drm_toast_license_expired">"DRM licenca je istekla."</string>
+	<!-- no translation found for sdstroge -->
+	<skip />
+	<!-- no translation found for phonestorage -->
+	<skip />
+	<!-- no translation found for title_activity_main -->
+	<skip />
+	<!-- no translation found for hello_world -->
+	<skip />
+	<!-- no translation found for action_settings -->
+	<skip />
+	<!-- no translation found for unlock_video -->
+	<skip />
+	<!---->
+	<string name="readable_m">"Čitljivo"</string>
+	<!---->
+	<string name="executable_m">"Aplikacija"</string>
+	<!---->
+	<string name="writable_m">"Upisivo"</string>
+	<!---->
+	<string name="main_recents">"Nedavno"</string>
+	<!-- no translation found for main_recents_cn -->
+	<skip />
+	<!---->
+	<string name="main_installers">"Program za instalaciju"</string>
+	<!---->
+	<string name="main_document">"Dokumenti"</string>
+	<!---->
+	<string name="detail_path_m">"Lokacija"</string>
+	<!-- no translation found for detail_path_m_cn -->
+	<skip />
+	<!---->
+	<string name="detail_name_m">"Ime"</string>
+	<!---->
+	<string name="detail_size_m">"Veličina"</string>
+	<!---->
+	<string name="detail_time_m">"Poslednje izmenjeno"</string>
+	<!---->
+	<string name="main_photo">"Slike"</string>
+	<!---->
+	<string name="main_sd_storage">"SD skladištenje"</string>
+	<!---->
+	<string name="main_external_storage">"Eksterna memorija"</string>
+	<!---->
+	<string name="main_home">"Početna"</string>
+	<!-- no translation found for main_home_cn -->
+	<skip />
+	<!---->
+	<string name="main_nava_home">"Početna"</string>
+	<!---->
+	<string name="menu_select">"Odaberi"</string>
+	<!-- no translation found for go_up -->
+	<skip />
+	<!---->
+	<string name="no_folder">"Ova fascikla je prazna"</string>
+	<!---->
+	<string name="no_category">"Ova katogorija je prazna."</string>
+	<!-- no translation found for no_folder_cn -->
+	<skip />
+	<!-- no translation found for no_category_cn -->
+	<skip />
+	<!---->
+	<string name="pasted">"Datoteka je nalepljena"</string>
+	<!---->
+	<string name="deleted">"Datoteka je izbrisana"</string>
+	<!---->
+	<string name="deleted_cn">"Datoteka je izbrisana"</string>
+	<!---->
+	<string name="view_list">"Pregled liste"</string>
+	<!---->
+	<string name="view_grid">"Mrežasti pregled"</string>
+	<!---->
+	<string name="create_new_folder">"Nova fascikla"</string>
+	<!-- no translation found for add_folder -->
+	<skip />
+	<!---->
+	<string name="detail">"Detalji"</string>
+	<!-- no translation found for menu_detail -->
+	<skip />
+	<!---->
+	<string name="migrate">"Migriranje"</string>
+	<!---->
+	<string name="permission_welcome_title">"Potrebna je dozvola"</string>
+	<!---->
+	<string name="permission_msg">"Bolja usluga za vas"</string>
+	<!---->
+	<string name="permission_setting_title">"Odobri pristup"</string>
+	<!---->
+	<string name="permission_setting_content">"Promenite dozvole u podešavanjima aplikacija na uređaju. Dozvolite Upravljanju datotekama pristup memoriji."</string>
+	<!---->
+	<string name="permission_exit_btn">"Izađi"</string>
+	<!---->
+	<string name="dialog_close_btn">"Zatvori"</string>
+	<!-- no translation found for dialog_close_btn_cn -->
+	<skip />
+	<!---->
+	<string name="shortcut_item">"Dodajte prečicu"</string>
+	<!-- no translation found for shortcut_item_cn -->
+	<skip />
+	<!---->
+	<string name="shortcut_no_exist">"Tražena fascikla ne postoji"</string>
+	<!-- no translation found for shortcut_success -->
+	<skip />
+	<!---->
+	<string name="no_search_result_m">"Nema pronađenih rezultata za: \„%1$s\“"</string>
+	<!---->
+	<string name="draw_left_phone_storage_m">"Telefon"</string>
+	<!---->
+	<string name="category_audio">"Audio-zapis"</string>
+	<!---->
+	<string name="usbotg_m">"Eksterno"</string>
+	<!-- no translation found for sd_m -->
+	<skip />
+	<!---->
+	<string name="freeof_m">"Slobodno"</string>
+	<!---->
+	<string name="permission_settings">"Podešavanja"</string>
+	<!---->
+	<string name="safe_first_dialog_title">"Kategorija sefa"</string>
+	<!---->
+	<string name="safe_first_dialog_content">"Za datoteke premeštene u ovu kategoriju neophodna je potvrda autentičnosti lozinke. Dodajte datoteke u ovu kategoriju tako što ćete pritisnuti „Premesti u sef“ u meniju datoteke."</string>
+	<!-- no translation found for safe_first_dialog_content_cn -->
+	<skip />
+	<!---->
+	<string name="safe_storage_local">"Lokalna memorija"</string>
+	<!---->
+	<string name="set_password_pass">"Lozinka"</string>
+	<!---->
+	<string name="set_password_first">"Postavite lozinku 4-12 cifara"</string>
+	<!-- no translation found for input_new_password_hint -->
+	<skip />
+	<!---->
+	<string name="set_password_again">"Potvrdite lozinku"</string>
+	<!---->
+	<string name="set_password_show">"Prikaži lozinku"</string>
+	<!---->
+	<string name="set_password_safe_question">"Sigurnosna pitanja"</string>
+	<!---->
+	<string name="set_password_safe_question_answer">"Odgovor"</string>
+	<!---->
+	<string name="set_password_safe_forget_pass">"Zapamtite odgovore na sigurnosna pitanja. Ako zaboravite lozinku možete da je resetujete tako što ćete odgovoriti na sigurnosna pitanja."</string>
+	<!---->
+	<string name="choose_safe">"Izaberi sef"</string>
+	<!-- no translation found for choose_safe_cn -->
+	<skip />
+	<!---->
+	<string name="create_safe">"Napravi sef"</string>
+	<!---->
+	<string name="create_safe_to">"Napravi sef:"</string>
+	<!-- no translation found for create_safe_to_cn -->
+	<skip />
+	<!---->
+	<string name="set_password">"Postavite lozinku"</string>
+	<!-- no translation found for add_file_safe -->
+	<skip />
+	<!---->
+	<string name="safe_set">"Podešavanja"</string>
+	<!---->
+	<string name="safe_set_title">"Podešavanja sefa"</string>
+	<!-- no translation found for safe_set_title_cn -->
+	<skip />
+	<!---->
+	<string name="update_password">"Ažurirajte lozinku"</string>
+	<!---->
+	<string name="modify_password">"Izmenite lozinku"</string>
+	<!---->
+	<string name="security_question">"Ažuriranje sigurnosnih pitanja"</string>
+	<!-- no translation found for modify_security_question -->
+	<skip />
+	<!---->
+	<string name="safe_set_change_safe">"Promeni sef"</string>
+	<!---->
+	<string name="safe_set_location_safe">"Lokacija sefa"</string>
+	<!-- no translation found for safe_set_location_safe_cn -->
+	<skip />
+	<!---->
+	<string name="update_password_original">"Unesite prvobitnu lozinku"</string>
+	<!---->
+	<string name="update_password_original_cn">"Unesite prvobitnu lozinku"</string>
+	<!---->
+	<string name="destory_safe">"Uništi sef"</string>
+	<!-- no translation found for destory_safe_cn -->
+	<skip />
+	<!-- no translation found for destory -->
+	<skip />
+	<!---->
+	<string name="use_password">"Upotrebi lozinku"</string>
+	<!---->
+	<string name="input_password">"Unesite lozinku"</string>
+	<!---->
+	<string name="forget_password">"Zaboravite lozinku"</string>
+	<!-- no translation found for others -->
+	<skip />
+	<!---->
+	<string name="password_empty">"Lozinka ne  može da bude prazna."</string>
+	<!---->
+	<string name="password_consistent">"Lozinke se ne podudaraju."</string>
+	<!---->
+	<string name="password_length_error">"Greška u dužini lozinke"</string>
+	<!---->
+	<string name="answer_empty">"Odgovor ne može da bude prazan."</string>
+	<!-- no translation found for safe_box_name_empty -->
+	<skip />
+	<!---->
+	<string name="update_success">"Ažuriranje je uspelo."</string>
+	<!---->
+	<string name="update_fail">"Ažuriranje nije uspelo"</string>
+	<!---->
+	<string name="password_mistake">"Lozinka nije tačna. Unesite je ponovo."</string>
+	<!---->
+	<string name="move_safe">"Premesti u sef"</string>
+	<!---->
+	<string name="fingerprint_check">"Povezani otisci prsta, koristite senzor za otisak prsta za potvrdu."</string>
+	<!---->
+	<string name="in_use">"Koristi se"</string>
+	<!---->
+	<string name="created">"Kreirano:"</string>
+	<!---->
+	<string name="choose_files">"Izabrane datoteke"</string>
+	<!---->
+	<string name="move_out">"Premesti"</string>
+	<!---->
+	<string name="remove_to">"Premesti u"</string>
+	<!---->
+	<string name="default_location">"Podrazumevana lokacija"</string>
+	<!---->
+	<string name="specified_location">"Određena lokacija"</string>
+	<!-- no translation found for open_dir -->
+	<skip />
+	<!-- no translation found for default_location_cn -->
+	<skip />
+	<!-- no translation found for specified_location_cn -->
+	<skip />
+	<!-- no translation found for specified_location_content_cn -->
+	<skip />
+	<!-- no translation found for category_safe -->
+	<skip />
+	<!-- no translation found for category_safe_cn -->
+	<skip />
+	<!---->
+	<string name="add_safe_size_limited">"Datoteke veće od 2 GB ne mogu se dodati"</string>
+	<!-- no translation found for add_safe_drm_limited -->
+	<skip />
+	<!---->
+	<string name="fingerprint_relative_dialog">"Povežite sef sa otiskom prsta?"</string>
+	<!-- no translation found for fingerprint_relative_dialog_cn -->
+	<skip />
+	<!-- no translation found for fingerprint_relative_dialog_ok -->
+	<skip />
+	<!-- no translation found for fingerprint_relative_dialog_ok_cn -->
+	<skip />
+	<!---->
+	<string name="fingerprint_relative_dialog_cancel">"Kasnije"</string>
+	<!-- no translation found for fingerprint_relative_dialog_cancel_cn -->
+	<skip />
+	<!---->
+	<string name="safe_location_current">"Lokacija sefa:"</string>
+	<!-- no translation found for safe_location_current_cn -->
+	<skip />
+	<!---->
+	<string name="safe_location_content">"Ne radite na fascikli sa datotekom da se ne bi oštetili šifrovani podaci"</string>
+	<!-- no translation found for safe_location_content_cn -->
+	<skip />
+	<!---->
+	<string name="destory_safe_dialog_message">"Sve datoteke u sefu i lozinka će biti izbrisane. Uništiti sada?"</string>
+	<!---->
+	<string name="destory_safe_dialog_checkbox">"Obrisati ovu datoteku?"</string>
+	<!-- no translation found for destory_safe_dialog_checkbox_cn -->
+	<skip />
+	<!---->
+	<string name="open_safe_dialog">"Aktiviraj sef"</string>
+	<!-- no translation found for open_safe_dialog_cn -->
+	<skip />
+	<!---->
+	<string name="open_safe_dialog_message">"Aktiviranje sefa će premestiti datoteke u sef. Aktivirati sada?"</string>
+	<!-- no translation found for open_safe_dialog_message_cn -->
+	<skip />
+	<!---->
+	<string name="open_safe_dialog_ok">"Odmah otvori"</string>
+	<!---->
+	<string name="category_private_string">"Sef"</string>
+	<!---->
+	<string name="opening">"Otvaranje..."</string>
+	<!-- no translation found for space_clear -->
+	<skip />
+	<!-- no translation found for unselected -->
+	<skip />
+	<!-- no translation found for select -->
+	<skip />
+	<!-- no translation found for finish -->
+	<skip />
+	<!---->
+	<string name="senior_title">"Stariji"</string>
+	<!-- no translation found for no_files_for_add_to_safebox -->
+	<skip />
+	<!-- no translation found for finger_print_relation -->
+	<skip />
+	<!-- no translation found for duplicate_file_name_tip -->
+	<skip />
+	<!---->
+	<string name="searchview_hint">"Pretraži datoteke"</string>
+	<!-- no translation found for safe_box_name_tip -->
+	<skip />
+	<!-- no translation found for toast_update_safe_box_name_sucess -->
+	<skip />
+	<!-- no translation found for toast_update_safe_box_name_fail -->
+	<skip />
+	<!-- no translation found for toast_safe_box_name_empty -->
+	<skip />
+	<!-- no translation found for cut_single_fail_tip -->
+	<skip />
+	<!-- no translation found for delete_single_fail_tip -->
+	<skip />
+	<!-- no translation found for copy_single_fail_tip -->
+	<skip />
+	<!-- no translation found for copy_multi_fail_tip -->
+	<skip />
+	<!-- no translation found for delete_multi_fail_tip -->
+	<skip />
+	<!-- no translation found for cut_multi_fail_tip -->
+	<skip />
+	<!-- no translation found for copy_all_fail_tip -->
+	<skip />
+	<!-- no translation found for delete_all_fail_tip -->
+	<skip />
+	<!-- no translation found for cut_all_fail_tip -->
+	<skip />
+	<!-- no translation found for past_multi_fail_tip -->
+	<skip />
+	<!-- no translation found for past_single_fail_tip -->
+	<skip />
+	<!-- no translation found for past_all_fail_tip -->
+	<skip />
+	<!-- no translation found for chip_encryption -->
+	<skip />
+	<!---->
+	<string name="safe_name_title">"Ime"</string>
+	<!---->
+	<string name="update_name">"Ažurirajte ime"</string>
+	<!-- no translation found for fingerprint_relate -->
+	<skip />
+	<!-- no translation found for insufficient_message_cn -->
+	<skip />
+	<!-- no translation found for add_success -->
+	<skip />
+	<!---->
+	<string name="pasted_cn">"Datoteka je nalepljena"</string>
+	<!-- no translation found for no_search_result_cn -->
+	<skip />
+	<!---->
+	<string name="detail_time_cn">"Vreme izmene"</string>
+	<!-- no translation found for rename_limit -->
+	<skip />
+	<!-- no translation found for fingerprint_fail -->
+	<skip />
+	<!-- no translation found for answer_mistake -->
+	<skip />
+	<!-- no translation found for answer_empty_tip -->
+	<skip />
+	<!-- no translation found for new_safe -->
+	<skip />
+	<!-- no translation found for dialog_confirm -->
+	<skip />
+	<!-- no translation found for move_in_success -->
+	<skip />
+	<!-- no translation found for move_in_count -->
+	<skip />
+	<!-- no translation found for message_security_fingerprint_lockout -->
+	<skip />
+	<!-- no translation found for use_password_auth -->
+	<skip />
+	<!-- no translation found for storage_details -->
+	<skip />
+	<!---->
+	<string name="total_memory">"Ukupna memorija"</string>
+	<!-- no translation found for system -->
+	<skip />
+	<!-- no translation found for category_fragment_title -->
+	<skip />
+	<!-- no translation found for storage -->
+	<skip />
+	<!-- no translation found for choice -->
+	<skip />
+	<!-- no translation found for view_tag_key -->
+	<skip />
+	<!-- no translation found for view_tag_key2 -->
+	<skip />
+	<!-- no translation found for finish_percent -->
+	<skip />
+	<!---->
+	<string name="select_pic">"Izaberi sliku"</string>
+	<!---->
+	<string name="brackets_double">"(%1$s)"</string>
+	<!-- no translation found for selected_pick -->
+	<skip />
+	<!-- no translation found for most_selected -->
+	<skip />
+	<!-- no translation found for finish_ready -->
+	<skip />
+	<!-- no translation found for select_pic_data -->
+	<skip />
+	<!-- no translation found for delete_determine_selected -->
+	<skip />
+	<!-- no translation found for delete_document -->
+	<skip />
+	<!-- no translation found for delete_folder -->
+	<skip />
+	<!-- no translation found for delete_folder_and -->
+	<skip />
+	<!---->
+	<string name="deselect_all_item">"Opozovi sve izbore"</string>
+	<!-- no translation found for edit -->
+	<skip />
+	<!-- no translation found for storage_phone -->
+	<skip />
+	<!-- no translation found for storage_sdcard -->
+	<skip />
+	<!-- no translation found for storage_otg -->
+	<skip />
+	<!-- no translation found for storage_slash -->
+	<skip />
+	<!-- no translation found for welcome_security -->
+	<skip />
+	<!-- no translation found for welcome_security_info -->
+	<skip />
+	<!-- no translation found for welcome_convenient -->
+	<skip />
+	<!-- no translation found for welcome_convenient_info -->
+	<skip />
+	<!-- no translation found for welcome_depth -->
+	<skip />
+	<!-- no translation found for welcome_depth_info -->
+	<skip />
+	<!-- no translation found for welcome_add -->
+	<skip />
+	<!-- no translation found for welcome_add_info -->
+	<skip />
+	<!-- no translation found for welcome_dialog_title -->
+	<skip />
+	<!-- no translation found for welcome_dialog_info -->
+	<skip />
+	<!-- no translation found for welcome_dialog_verify_btn -->
+	<skip />
+	<!-- no translation found for welcome_dialog_verify_pwd -->
+	<skip />
+	<!-- no translation found for welcome_start_use -->
+	<skip />
+	<!-- no translation found for welcome_not_use -->
+	<skip />
+	<!---->
+	<string name="welcome_ok">"VAŽI"</string>
+	<!-- no translation found for encrypt_files_success -->
+	<skip />
+	<!-- no translation found for delete_direct -->
+	<skip />
+	<!---->
+	<string name="delete_file">"Obrisati ovu datoteku?"</string>
+</resources>

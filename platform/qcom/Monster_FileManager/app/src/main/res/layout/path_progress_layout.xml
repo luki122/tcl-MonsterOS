@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp">
+
+        <LinearLayout
+            android:id="@+id/storage_info_linear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/path_icon"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:src="@drawable/as_72" />
+
+            <TextView
+                android:id="@+id/size"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:textColor="@color/text_general_color"
+                android:textSize="0dp" />
+
+        </LinearLayout>
+
+
+        <ProgressBar
+            android:id="@+id/pb_progressbar"
+            style="@style/StyleProgressBarMini"
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/shape_progressbar_bg"
+            android:max="100"
+            android:layout_marginTop="32dp"/>
+
+        <TextView
+            android:id="@+id/path_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="monster-normal"
+            android:text="@string/phone_storage_cn"
+            android:textColor="@color/first_color"
+            android:layout_alignParentTop="true"
+            android:layout_alignLeft="@+id/pb_progressbar"
+            android:gravity="left"
+            android:alpha="0.86"
+            android:textSize="12sp"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true">
+
+            <TextView
+                android:id="@+id/size_percent_front"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:text="@string/free_space"
+                android:textColor="#000000"
+                android:alpha="0.26"
+                android:fontFamily="monster-normal"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:id="@+id/size_percent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/size_percent_front"
+                android:text="18"
+                android:textColor="#000000"
+                android:alpha="0.26"
+                android:fontFamily="monster-normal"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:id="@+id/size_percent_mark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/size_percent"
+                android:textColor="#b1c8d5"
+                android:textSize="0dp" />
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+</merge>

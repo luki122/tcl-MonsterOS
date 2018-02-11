@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary_bg"
+    tools:context="cn.tcl.setupwizard.ui.WifiSetActivity">
+
+    <FrameLayout
+        android:id="@+id/wifi_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/background_wifi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitEnd"
+            android:src="@drawable/ic_bg_wifi"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="266dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="57dp"
+                android:paddingStart="26dp">
+                <ImageButton
+                    android:id="@+id/header_back"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:background="?android:attr/selectableItemBackgroundBorderless"
+                    android:src="@drawable/ic_back"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_gravity="center_vertical"
+                    android:fontFamily="monster-normal"
+                    android:textColor="#DB000000"
+                    android:textSize="17sp"
+                    android:text="@string/wifi_title" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/wifi_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/wifi_header"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/wifi_list"
+            android:layout_width="match_parent"
+            android:layout_marginRight="10dp"
+            android:layout_height="166dp"
+            android:scrollbars="vertical"
+            android:layoutAnimation="@anim/list_layout_anim"/>
+
+        <LinearLayout
+            android:id="@+id/wifi_load_progress"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:visibility="gone">
+            <ProgressBar
+                android:layout_width="150dp"
+                android:layout_height="150dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="monster-normal"
+                android:textColor="#59000000"
+                android:textSize="13sp"
+                android:text="@string/wifi_loading_prompt"/>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/wifi_goto_advance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20.5dp"
+            android:paddingStart="60dp"
+            android:paddingEnd="50dp"
+            android:paddingTop="7.5dp"
+            android:paddingBottom="7.5dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:fontFamily="monster-normal"
+                android:textColor="#DB000000"
+                android:textSize="15sp"
+                android:text="@string/wifi_advanced_setup"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_enter"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/wifi_btn_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="56dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/wifi_btn_continue"
+            style="@style/button_style"
+            android:text="@string/continue_title"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/wifi_btn_skip"
+            style="@style/button_style"
+            android:text="@string/skip_title"/>
+    </LinearLayout>
+
+</RelativeLayout>

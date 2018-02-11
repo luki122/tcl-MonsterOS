@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/mst_add_privacy_contacts_from_exist_contact"
+        android:title="@string/mst_add_privacy_contacts_from_exist_contact"/>
+    <item
+        android:id="@+id/mst_add_privacy_contacts_manual"
+        android:title="@string/mst_add_privacy_contacts_manual"/>
+
+</menu>

@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@color/background_fafafa"
+        android:layout_height="wrap_content">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#0f000000" />
+
+        <ImageView
+            android:id="@+id/img_bg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/no_data_bg" />
+
+        <RelativeLayout
+            android:id="@+id/no_data_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/text_no_data"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="105dp"
+                android:fontFamily="monster-thin"
+                android:text="@string/choose_data_pls"
+                android:textColor="@color/bule_bt_color"
+                android:textSize="40sp" />
+
+            <RelativeLayout
+                android:id="@+id/data_size_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="93dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="62dp"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/text_total"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:text="@string/total"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+
+                    />
+
+                <TextView
+                    android:id="@+id/text_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="4dp"
+                    android:layout_toRightOf="@id/text_total"
+                    android:fontFamily="monster-thin"
+                    android:textColor="@color/bule_bt_color"
+                    android:textSize="90dp"
+
+                    />
+
+                <TextView
+                    android:id="@+id/text_unit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="4dp"
+                    android:layout_toRightOf="@id/text_size"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+
+                    />
+
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/text_connect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="231dp"
+                android:text="@string/connect_sucess"
+                android:textSize="12sp" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/contact_layout"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:background="@drawable/my_ripple">
+
+
+                <RelativeLayout
+                    android:id="@+id/contact_icon_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp">
+
+                    <CheckBox
+                        android:id="@+id/check_contact"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <ImageView
+                        android:id="@+id/img_contact"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:src="@drawable/contact"
+                        android:visibility="gone" />
+
+                </RelativeLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/contact_icon_layout"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:text="@string/contacts"
+                            android:textColor="@color/text_black_db"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/recovery_contact_ing"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:text="@string/revocery_ing"
+                            android:textColor="@color/text_black_db"
+                            android:textSize="12sp"
+                            android:visibility="gone" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20dp">
+
+                        <TextView
+                            android:id="@+id/contact_info"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:text="@string/choose_data_pls"
+                            android:textColor="@color/text_gray_59"
+                            android:textSize="12sp" />
+
+                        <ProgressBar
+                            android:id="@+id/contact_progress_bar"
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:max="100"
+                            android:maxHeight="2dp"
+                            android:visibility="gone" />
+
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/contact_next_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="20dp"
+                    android:src="@com.mst:drawable/ic_next_page" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/calllog_layout"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:background="@drawable/my_ripple">
+
+                <RelativeLayout
+                    android:id="@+id/calllog_icon_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp">
+
+
+                    <CheckBox
+                        android:id="@+id/check_calllog"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <ImageView
+                        android:id="@+id/img_calllog"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:src="@drawable/record"
+                        android:visibility="gone" />
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/calllog_icon_layout"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:text="@string/call_log"
+                            android:textColor="@color/text_black_db"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/recovery_calllog_ing"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:text="@string/revocery_ing"
+                            android:textColor="@color/text_black_db"
+                            android:textSize="12sp"
+                            android:visibility="gone" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20dp">
+
+                        <TextView
+                            android:id="@+id/calllog_info"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/choose_data_pls"
+                            android:textColor="@color/text_gray_59"
+                            android:textSize="12sp" />
+
+                        <ProgressBar
+                            android:id="@+id/calllog_progress_bar"
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:max="100"
+                            android:maxHeight="2dp"
+                            android:visibility="gone" />
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/calllog_next_page"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="20dp"
+                    android:src="@com.mst:drawable/ic_next_page" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/sms_layout"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:background="@drawable/my_ripple">
+
+
+                <RelativeLayout
+                    android:id="@+id/sms_icon_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp">
+
+
+                    <CheckBox
+                        android:id="@+id/check_sms"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true" />
+
+                    <ImageView
+                        android:id="@+id/img_sms"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:src="@drawable/message"
+                        android:visibility="gone" />
+
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/sms_icon_layout"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20dp">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:text="@string/sms"
+                            android:textColor="@color/text_black_db"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/recovery_sms_ing"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:text="@string/revocery_ing"
+                            android:textColor="@color/text_black_db"
+                            android:textSize="12sp"
+                            android:visibility="gone" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20dp">
+
+                        <TextView
+                            android:id="@+id/sms_info"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/choose_data_pls"
+                            android:textColor="@color/text_gray_59"
+                            android:textSize="12sp" />
+
+
+                        <ProgressBar
+                            android:id="@+id/sms_progress_bar"
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:max="100"
+                            android:maxHeight="2dp"
+                            android:visibility="gone" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/sms_next_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="20dp"
+                    android:src="@com.mst:drawable/ic_next_page" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/app_layout"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:background="@drawable/my_ripple">
+
+                <RelativeLayout
+                    android:id="@+id/app_icon_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp">
+
+
+                    <CheckBox
+                        android:id="@+id/check_app"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true" />
+
+                    <ImageView
+                        android:id="@+id/img_app"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:src="@drawable/app_list"
+                        android:visibility="gone" />
+                </RelativeLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/app_icon_layout"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:text="@string/app_list"
+                            android:textColor="@color/text_black_db"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/recovery_app_ing"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:text="@string/revocery_ing"
+                            android:textColor="@color/text_black_db"
+                            android:textSize="12sp"
+                            android:visibility="gone" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20dp">
+
+
+                        <TextView
+                            android:id="@+id/app_info"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/choose_data_pls"
+                            android:textColor="@color/text_gray_59"
+                            android:textSize="12sp" />
+
+                        <ProgressBar
+                            android:id="@+id/app_progress_bar"
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:max="100"
+                            android:maxHeight="2dp"
+                            android:visibility="gone" />
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/app_nextpage_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="20dp"
+                    android:src="@com.mst:drawable/ic_next_page" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/start_recovery_layout"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
+        android:background="@drawable/line_bt_selector">
+
+        <TextView
+            android:id="@+id/text_start_revovery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:alpha="0.85"
+            android:text="@string/start_recovery"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

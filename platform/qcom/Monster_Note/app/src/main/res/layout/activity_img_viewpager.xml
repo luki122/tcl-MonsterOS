@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mst="http://schemas.android.com/apk/res/com.mst"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/view_pager_toolbar"
+        style="@style/toolbar_style"
+        android:background="@color/home_item_background">
+
+        <ImageView
+            android:id="@+id/view_pager_toolbar_back"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/ic_preview_back"
+            android:layout_centerVertical="true" />
+
+        <TextView
+            android:id="@+id/toolbar_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="text"
+            android:fontFamily="monster-normal"
+            android:textSize="14sp"
+            android:textColor="#DC000000"
+            android:layout_marginRight="160dp"
+            android:gravity="right"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+
+    <View style="@style/toolbar_div_line" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/img_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="456dp"
+        android:layout_weight="1"
+        android:background="@color/home_item_background"></android.support.v4.view.ViewPager>
+
+    <mst.view.menu.bottomnavigation.BottomNavigationView
+        android:id="@+id/cut_img_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#fffafafa"
+        mst:menu="@menu/img_viewpager_button"
+        />
+
+
+</LinearLayout>

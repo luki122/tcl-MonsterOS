@@ -1,0 +1,24 @@
+<animation-list
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+    <item android:drawable="@drawable/music_01" android:duration="50"></item>
+    <item android:drawable="@drawable/music_02" android:duration="50"></item>
+    <item android:drawable="@drawable/music_03" android:duration="50"></item>
+    <item android:drawable="@drawable/music_04" android:duration="50"></item>
+    <item android:drawable="@drawable/music_05" android:duration="50"></item>
+    <item android:drawable="@drawable/music_06" android:duration="50"></item>
+    <item android:drawable="@drawable/music_07" android:duration="50"></item>
+    <item android:drawable="@drawable/music_08" android:duration="50"></item>
+    <item android:drawable="@drawable/music_09" android:duration="50"></item>
+    <item android:drawable="@drawable/music_10" android:duration="50"></item>
+    <item android:drawable="@drawable/music_11" android:duration="50"></item>
+    <item android:drawable="@drawable/music_12" android:duration="50"></item>
+    <item android:drawable="@drawable/music_13" android:duration="50"></item>
+    <item android:drawable="@drawable/music_14" android:duration="50"></item>
+    <item android:drawable="@drawable/music_15" android:duration="50"></item>
+    <item android:drawable="@drawable/music_16" android:duration="50"></item>
+    <item android:drawable="@drawable/music_17" android:duration="50"></item>
+    <item android:drawable="@drawable/music_18" android:duration="50"></item>
+    <item android:drawable="@drawable/music_19" android:duration="50"></item>
+    <item android:drawable="@drawable/music_20" android:duration="50"></item>
+</animation-list>

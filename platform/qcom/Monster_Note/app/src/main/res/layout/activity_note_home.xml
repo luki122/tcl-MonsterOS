@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:mst="http://schemas.android.com/apk/res/com.mst"
+    android:background="@color/home_backgroud"
+    android:orientation="vertical"
+    tools:context="cn.tcl.note.activity.NoteHomeActivity">
+
+    <mst.view.menu.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_menu"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        mst:menu="@menu/edit_mode_menu"
+        android:layout_gravity="bottom"
+        android:visibility="gone"
+        android:background="@color/home_item_background"
+        android:layout_alignParentBottom="true" />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/note_home_recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottom_menu"></android.support.v7.widget.RecyclerView>
+
+    <mst.widget.FloatingActionButton
+        android:id="@+id/add_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        mst:centerImage="@drawable/ic_fab_add"
+        android:background="#ffd7a266"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        />
+
+</RelativeLayout>

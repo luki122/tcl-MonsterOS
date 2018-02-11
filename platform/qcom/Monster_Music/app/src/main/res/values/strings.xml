@@ -1,0 +1,1067 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--
+    this file is built by arct
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="ok">"OK"</string>
+    <string name="cancel">"Cancel"</string>
+    <string name="set">"Set"</string>
+    <string name="yes">"Yes"</string>
+    <string name="no">"No"</string>
+    <string name="the_external_memory_storage_is_not_mounted">"External memory storage is not mounted. You may have to disable USB memory storage."</string>
+    <string name="recording_duration_is_limited_to_15_seconds">"Recording duration is limited to 15 seconds"</string>
+    <string name="an_error_occurs_while_recording">"Error occurred while recording"</string>
+    <string name="cross_dj_saturated_storage_not_enough_free_space_to_record_your_mix">"Not enough space to record your mix."</string>
+    <string name="cross_dj_saturated_storage_your_recording_might_stop_soon_because_no_more_free_space_is_available">"Your recording might stop soon, because there is no more space available."</string>
+    <string name="recording_soon_to_reach_max_duration">"Recording will soon reach its maximum duration. Check your preferences."</string>
+    <string name="recording_reached_max_duration">"Recording has reached its maximum duration. Check your preferences."</string>
+    <string name="record_is_not_available_in_external_mixer_mode">"Record isn\'t available in External Mixer mode"</string>
+    <string name="no_error">"No error"</string>
+    <string name="file_too_big_to_be_loaded_into_memory">"File is too big to be loaded into memory."</string>
+    <string name="the_remote_track_is_too_long_exceed_the_20_minutes_limit">"The remote track is too long (exceeds 20 minute limit)"</string>
+    <string name="there_s_not_enough_space_in_your_internal_storage_try_to_do_some_clean_up">"There\'s not enough space in your internal storage (try to free up some space)"</string>
+    <string name="the_format_is_unknown">"The format is unknown"</string>
+    <string name="the_file_is_invalid">"The file is invalid"</string>
+    <string name="file_not_found">"File not found"</string>
+    <string name="check_your_audio_settings">"Check your audio settings"</string>
+    <string name="unspecified_error">"Unspecified error"</string>
+    <string name="track_error">"Track error"</string>
+    <string name="invalid_track">"Invalid track"</string>
+    <string name="the_format_is_not_supported_on_android">"The format isn\'t supported on Android"</string>
+    <string name="the_permission_of_storage">"Please grant permission of reading storage firstly to play musics successfully"</string>
+    <!-- //[BUGFIX]-Add by TCTNJ,xiaolong.zhang, 2015-08-12,PR900449  begin -->
+    <string name="can_not_play_in_dj_mode">"Can’t play this file in DJ mode"</string>
+    <!-- //[BUGFIX]-Add by TCTNJ,xiaolong.zhang, 2015-08-12,PR900449  end -->
+    <string name="mix_your_music">"Mix your music!"</string>
+    <string name="cannot_specify_an_empty_name_for_playlist">"Playlist name can\'t be empty"</string>
+    <string name="playlist_name_already_exists_">"Playlist name already exists"</string>
+    <string name="there_was_an_issue_during_playlist_creation">"An issue occurred during playlist creation"</string>
+    <string name="auth_no_username_password">"Fill in username and password to log in."</string>
+    <string name="auth_wrong_username_password">"Wrong username or password"</string>
+    <string name="auth_problem_during_authentification">"An issue occurred during authentication"</string>
+    <string name="never_show_it_again">"Don\'t show it again"</string>
+    <string name="dialogtitle_rdio_not_unlimited">"Get a premium account"</string>
+    <string name="dialogtitle_rdio_anonymous">"Get a premium account"</string>
+    <string name="dialogtitle_rdio_get_premium">"Get a premium account"</string>
+    <string name="rdio_anonymous_usage_description">"You can only listen to 30 second previews as a free user. Subscribe to listen to the full song."</string>
+    <string name="log_in">"Log in"</string>
+    <string name="sign_up">"Sign up"</string>
+    <string name="dialog_wifi_only_stream_title">"Wi-Fi is disabled"</string>
+    <string name="dialog_wifi_only_stream_message">"Can\'t play RADIO tracks when Wi-Fi is disabled. Turn "Stream via Wi-Fi only" off to change this setting."</string>
+    <string name="no_transition_mode">"No mix"</string>
+    <string name="manual_transition_mode">"Manual mix"</string>
+    <string name="auto_transition_mode">"Auto mix"</string>
+    <string name="crossfader_transition_mode">"Crossfade"</string>
+    <string name="the_track_cannot_be_played">"The track can\'t be played"</string>
+    <string name="scratching_is_disabled_in_no_mix_mode">"You can only scratch while in DJ mode."</string>
+    <string name="usb_connection_failure">"USB connection failed"</string>
+    <string name="no_device_detected">"No device detected"</string>
+    <string name="connection_to_device_succeed">"Connected to %s successfully"</string>
+    <string name="usb_device">"USB device"</string>
+    <string name="the_connected_device_is_unknown">"The connected device is unknown. (By now, only Mixvibes U-Mix and Pioneer DDJ-SB or WeGo2 are supported)."</string>
+    <string name="invalid_drm_file">"File has no valid DRM authority."</string>
+    <string name="drm_file_is_not_allowed">"DRM file isn\'t allowed to play in mix mode"</string>
+    <string name="unable_to_load_track">"Unable to load %s"</string>
+    <string name="record_default_name">"Record_"</string>
+    <string name="dj_mode_title">"Mode: %s"</string>
+
+    <string name="extraCharge_warning_title">"Use mobile data?"</string>
+    <string name="extracharge_warning_msg">"Deezer will use mobile data for online streaming. Extra charges may occur. Turn on \'Stream via Wi-Fi only\' in Settings if you don\'t want Deezer to use mobile data."</string>
+    <string name="extracharge_use_mobileData_btn">"Use mobile data"</string>
+
+    <string name="subsrcibe_title">"Subscribe"</string>
+    <string name="subsrcibe_before_end_msg">"Premium + free trial will end in 24 hours. Subscribe to enjoy full music experience in Deezer?"</string>
+    <string name="subsrcibe_end_msg">"Premium + free trial is end. Subscribe to enjoy full music experience in Deezer?"</string>
+    <!-- //Add by TCTNJ,huiyuan.wang, 2015-06-29,PR924933 Begin -->
+    <string name="subsrcibe_for_radio_msg">"You can only skip 5 songs in a row as a free user. Subscribe to skip as many songs as you want."</string>
+    <!-- //Add by TCTNJ,huiyuan.wang, 2015-06-29,PR924933 End -->
+    <string name="subscribe_later_btn">"Later"</string>
+
+    <string name="settings_stream_via_wifi_only_win">"To play Deezer tracks using mobile data, turn off \'Stream via Wi-Fi only\' in the settings."</string>
+    <string name="mobiledata_turnoff_btn">"Disable"</string>
+    <!-- //Add by TCTNJ,huiyuan.wang, 2015-07-04,PR1037396 Begin -->
+    <string name="decode_not_finish">"You’re in the Auto mix DJ mode. Wait for a moment for songs to load."</string>
+
+    <string name="have_not_load_finish">"“Loading music, please wait...”"</string>
+    <!-- //Add by TCTNJ,huiyuan.wang, 2015-07-04,PR1037396 End -->
+    <!-- //Add by TCTNJ,huiyuan.wang, 2015-08-05,PR1060425 Begin -->
+    <string name="record_minutes">"%d minutes"</string>
+    <!-- //Add by TCTNJ,huiyuan.wang, 2015-08-05,PR1060425 End -->
+    <!-- //Add by TCTNJ,qingjing.zhao, 2015-09-09,PR1081740 begin -->
+    <string name="record_minute">"%d minute"</string>
+    <!-- //Add by TCTNJ,qingjing.zhao, 2015-09-09,PR1081740 end -->
+
+
+    <string name="song_file_not_found">"“Files do not exist”"</string>
+
+    <string name="scenes_shuffle">"Shuffle all"</string>
+
+    <string name="my_favourite_songs">"My Favourite Songs"</string>
+
+    <string name="detail_manager">"Manager"</string>
+
+    <string name="detail_add">"Add"</string>
+
+    <string name="detail_edit">"Edit"</string>
+
+    <string name="detail_detele">"Detele"</string>
+
+    <string name="detail_download">"Download"</string>
+
+    <string name="app_name">"Music"</string>
+
+    <string name="recoverscan">"Recover"</string>
+
+    <string name="all_recover_scan">"Recover all"</string>
+
+    <string name="ignored">"Ignored"</string>
+
+    <string name="ignore">"Ignore"</string>
+
+    <string name="dialogmessage_all_recover_scan">"Recover scan all?"</string>
+
+    <string name="dialogtitle_ignore_scan">"Recover scan"</string>
+
+    <string name="dialogmessage_ignore_scan">"Ignore the folder ?"</string>
+
+    <string name="ignored_empty">"No ignored folders, you can swipe left the folder list to ignore"</string>
+
+    <string name="no_content">"No content"</string>
+
+    <string name="add_to_my_playlist">"Add to my playlist"</string>
+
+    <string name="my_favourite_music">"My Favourite"</string>
+
+    <string name="username">"User Name"</string>
+
+    <string name="shrimp_account">"Shrimp Account"</string>
+
+    <string name="shrimp_account_subtitle">"Bind shrimp account to enjoy more online"</string>
+
+    <string name="network_setting">"2G/3G/4G network setting"</string>
+
+    <string name="timed_close">"Timed Close"</string>
+
+    <string name="listen_and_download_quality">"Listen And Download Quality"</string>
+
+    <string name="dummy_button">"Hide button"</string>
+
+    <string name="dummy_content">"Hidden content"</string>
+
+    <string name="navigation_drawer_open">"“Open Drawer Navigation”"</string>
+
+    <string name="navigation_drawer_close">"“Close Drawer Navigation”"</string>
+
+    <string name="all_songs">"All songs"</string>
+
+    <string name="albums">"Albums"</string>
+
+    <string name="artists">"Artists"</string>
+
+    <string name="playlists">"playlists"</string>
+
+    <string name="playlist">"Playlists"</string>
+
+    <string name="scenes">"Scenes"</string>
+
+    <string name="folders">"Folders"</string>
+
+    <string name="loading_">"Loading…"</string>
+
+    <string name="genres">"Genres"</string>
+
+    <string name="artwork">"Artwork"</string>
+
+    <string name="menu">"Menu"</string>
+
+
+    <string name="remove">"Remove"</string>
+
+    <string name="use_as_ringtone">"Use as ringtone"</string>
+
+    <string name="go_to_artist">"Go to artist"</string>
+
+    <string name="go_to_album">"Go to album"</string>
+
+    <string name="add_to_queue">"Add to queue"</string>
+
+    <string name="add_to_playlist">"Add to playlist"</string>
+
+    <string name="please_input_song_name">"Song name can\'t be empty"</string>
+
+    <!-- no translation found for add_to_deezer_playlist -->
+    <skip/>
+
+    <string name="last_added">"Last added"</string>
+
+    <string name="songs">"Songs"</string>
+    <plurals name="number_of_songs">
+        <item quantity="one">"%d song"</item>
+        <item quantity="other">"%d songs"</item>
+    </plurals>
+    <plurals name="number_of_songs_2">
+        <item quantity="one">"(%d song)"</item>
+        <item quantity="other">"(%d songs)"</item>
+    </plurals>
+    <plurals name="number_of_songs_3">
+        <item quantity="one">"(%d song)"</item>
+        <item quantity="other">"(%d songs)"</item>
+    </plurals>
+    <plurals name="number_of_folders">
+        <item quantity="one">"%d song"</item>
+        <item quantity="other">"%d songs"</item>
+    </plurals>
+
+    <plurals name="number_of_albums">
+        <item quantity="one">"%d album"</item>
+        <item quantity="other">"%d albums"</item>
+    </plurals>
+    <plurals name="number_of_albums_2">
+        <item quantity="one">"%d album"</item>
+        <item quantity="other">"%d albums"</item>
+    </plurals>
+
+    <plurals name="number_of_folder_detail_songs">
+        <item quantity="one">"(%d song)"</item>
+        <item quantity="other">"(%d songs)"</item>
+    </plurals>
+
+    <string name="all">"All"</string>
+
+    <string name="online">"Online music"</string>
+
+    <string name="local">"Local music"</string>
+
+    <string name="i_like">"I like"</string>
+
+    <string name="today_songs">"Today songs"</string>
+
+    <string name="shuffle_all">"Shuffle playback all"</string>
+
+    <string name="all_shuffle">"Shuffle all"</string>
+
+    <string name="play_all1">"Play all"</string>
+
+    <string name="queue">"Queue"</string>
+
+    <string name="shuffle">"Shuffle playback"</string>
+
+    <string name="new_playlist">"Create playlist"</string>
+
+    <string name="issue_when_setting_ringtone">"%s set to ring failure"</string>
+
+    <string name="set_ringtone_success">"%s has been set as the default ringtone"</string>
+
+    <string name="your_email_or_username">"E-mail or username"</string>
+
+    <string name="password">"Password"</string>
+    <!-- no translation found for log_in -->
+    <skip/>
+
+    <string name="library">"Library"</string>
+
+    <string name="settings">"Settings"</string>
+
+    <string name="search_hint">"Search music"</string>
+
+    <string name="live_music">"Online music"</string>
+    <!-- -->
+    <string name="listen_now">"Recently Played"</string>
+
+    <string name="got_it">"GOT IT"</string>
+
+    <string name="to_get_access_to_online_music">"Get online music"</string>
+
+    <string name="favorite_playlist">"Collect"</string>
+
+    <string name="hide_from_library">"Hide"</string>
+
+    <string name="unhide">"Unhide"</string>
+
+    <string name="confirmation_remove">"Remove %s?"</string>
+
+    <string name="confirmation_remove_from_playlist">"Remove %s from playlist?"</string>
+
+    <string name="success_remove_library">"%s has been successfully removed from the local music"</string>
+
+    <string name="error_remove_library">"Error removing %s"</string>
+
+    <string name="success_remove_playlist">"%s has been successfully removed from the playlist"</string>
+
+    <string name="error_remove_playlist">"Error when removed %s from the list"</string>
+
+    <string name="remove_from_playlist">"Remove form playlist"</string>
+
+    <string name="remove_from_queue">"Remove form queue"</string>
+
+    <string name="live_tag">"Active tab"</string>
+
+    <string name="clear_queue">"Clear queue"</string>
+
+    <string name="save_queue">"Save queue"</string>
+
+    <string name="save_record_as">"Save queue as"</string>
+
+    <string name="name_already_exists">"File name already exists, enter a different name"</string>
+
+    <string name="issue_when_saving_file">"Can\'t save %s"</string>
+
+    <string name="success_record">"%s has been successfully recorded"</string>
+
+    <string name="my_records">"My Mix"</string>
+
+    <string name="record_your_own_sample">"Record my style"</string>
+
+    <string name="songs_removed">"Music has been removed"</string>
+
+    <string name="undo">"Revoke"</string>
+
+    <string name="your_own_samples">"Customise your own samples"</string>
+
+    <string name="signup_or_login">"Sign up or log in"</string>
+
+    <string name="not_now">"Not now"</string>
+
+    <string name="edit">"Edit"</string>
+
+    <string name="edit_name">"Rename"</string>
+
+    <string name="add_a_track">"Add a track"</string>
+
+    <string name="move_track_in_queue">"Remove a song from the list"</string>
+
+    <string name="get_premium">"Get premium"</string>
+
+    <string name="log_out">"Logout"</string>
+
+    <string name="account">"Account"</string>
+
+    <string name="equalizer">"Equalizer"</string>
+
+    <string name="drum_loops">"Cycle drums"</string>
+
+    <string name="low">"Bass"</string>
+
+    <string name="volume">"Volume"</string>
+
+    <string name="high">"High pitch"</string>
+
+    <string name="mid">"Mid"</string>
+
+    <string name="reset">"Reset"</string>
+
+    <string name="preferences_general">"Conventional"</string>
+    <string name="networking_relevance">"Network related"</string>
+    <string name="other_line">"Other"</string>
+
+    <string name="preference_arkamys_ambiance">"Play environment"</string>
+
+    <string name="try_WLAN_only">"Listen or download only in Wi-Fi"</string>
+    <string name="WLAN_only_explanation">"Allow to listen or download online music only under Wi-Fi"</string>
+
+    <string name="download_lyric_picture">"Download the lyrics and pictures"</string>
+    <string name="lyric_picture_explanation">"Automatic local network searches for missing pictures and song lyrics."</string>
+
+    <string name="listening_and_download">"Listen and download"</string>
+    <string name="listening_download_explanation">"Audition song file is automatically saved after 30 seconds"</string>
+
+    <string name="preference_show_hidden_tracks">"Show hidden music"</string>
+
+    <string name="preference_screen_locker_lyric">"Lock screen lyrics"</string>
+
+    <string name="preference_stream_via_mobile_network">"Allows the use of the mobile network"</string>
+
+    <string name="preference_dj_mode">"DJ mode"</string>
+
+    <string name="preference_analyse_bpm">"BPM analysis"</string>
+
+    <string name="preference_analyse_bpm_summary">"Start BPM Analysis"</string>
+
+    <string name="preference_record_time">"Record time"</string>
+
+    <string name="preferences_licenses">"Authorise"</string>
+
+    <string name="no_song_to_play">"No songs to play"</string>
+
+    <string name="preferences_licenses_button">"Display"</string>
+
+    <string name="preferences_version">"Version number"</string>
+    <!--<string name="preferences_version_now">"当前版本"</string>-->
+
+    <string name="title_analysis_dialog">"BPM analysis"</string>
+
+    <string name="cancel_analysis">"Cancel analysis"</string>
+
+    <string name="please_wait_">"Transmission, wait ... …"</string>
+
+    <string name="an_analysis_is_already_running_we_are_waiting_for_its_completion_">"Analysing. \nWait for analysis completion"</string>
+
+    <string name="currently_analysing">"Analysing %s"</string>
+
+    <string name="total_tracks_already_analysed">"%d songs analysis has been completed"</string>
+
+    <string name="total_tracks_currently">"%d songs"</string>
+
+    <string name="touch_to_add_songs_from_onetouch_mix">"Touch to add music"</string>
+
+    <string name="rdio_not_availlable_in_this_mode">"Radio isn\'t available in this mode"</string>
+
+    <string name="add_from_library">"Add from library"</string>
+
+    <string name="add_from_queue">"Add from queue"</string>
+
+    <string name="mode_selected">"%s mode has been selected"</string>
+
+    <string name="sign_in_with_your_rdio_account">"Radio account login"</string>
+
+    <string name="sign_in_with_your_deezer_account">"Use Deezer account login"</string>
+
+    <string name="drum_loop">"Drumming cycle"</string>
+
+    <string name="powered_by_service">"%s power"</string>
+
+    <string name="hide_track_while_pref_forcing_visibility">"Warning: the configuration "Show hidden music" is turned on"</string>
+
+    <string name="song_had_been_added_to_playlist">"Music has been added to %s"</string>
+
+    <string name="song_had_been_added_to_favouriteList">"Add to favourite list successfully."</string>
+
+    <string name="song_has_been_added_to_queue">"Added successfully."</string>
+
+    <string name="welcome_to_onetouch_mix">"Music"</string>
+
+    <string name="jbl_certified">"JBL certified"</string>
+
+    <string name="item_removed">"%s has been removed"</string>
+
+    <string name="automatic_playlist">"Automatic Playlist"</string>
+
+    <string name="see_all_artists_online">"See all artists online"</string>
+
+    <string name="see_all_albums_online">"See all albums online"</string>
+
+    <string name="see_all_playlists_online">"See all playlists online"</string>
+
+    <string name="see_all_songs_online">"See all songs online"</string>
+
+    <string name="no_results_found">"No results found"</string>
+
+    <string name="search_no_results_found">"No network, No local results"</string>
+
+    <string name="get_started">"Get started"</string>
+
+    <string name="next">"Next"</string>
+
+    <string name="tip_change_display">"Click here to switch grid view to list view."</string>
+
+
+    <string name="tip_dj_tap_switch">"Click here to switch to manual mode."</string>
+
+    <string name="tip_dj_swipe_change">"Swipe left or right to go to the previous or next song in the margin."</string>
+
+    <string name="demo_version_dialog_title">"Demo version"</string>
+
+    <string name="play_track_failed">"The track you requested can\'t play"</string>
+
+    <string name="save">"Save"</string>
+
+    <string name="name">"Name"</string>
+
+    <string name="description">"Description"</string>
+
+    <string name="title_rotate_manual_mode_dialog">"Spin out"</string>
+
+    <string name="message_rotate_manual_mode_dialog">"Data set by manually will be lost"</string>
+
+    <string name="samples">"Samples"</string>
+
+    <string name="hide_success">"Music has been hidden. \nYou can display the hidden music in the settings."</string>
+
+    <string name="hidden_playlist">"Hide list"</string>
+
+    <string name="Low_Pass">"Low_Bass"</string>
+
+    <string name="Hi_Pass">"High audio"</string>
+
+    <string name="Delay">"Delay"</string>
+
+    <string name="Echo">"Echo"</string>
+
+    <string name="Phaser">"Phaser"</string>
+
+    <string name="X_Phaser">"X moves"</string>
+
+    <string name="Flanger">"Flanger"</string>
+
+    <string name="Jet">"Jet"</string>
+
+    <string name="Cut">"Cut"</string>
+
+    <string name="Chopper">"Chopper"</string>
+
+    <string name="Crush">"Crush"</string>
+
+    <string name="Bliss">"Bliss"</string>
+
+    <string name="Bi_Filter">"Bi Filter"</string>
+
+    <string name="Brake">"Brake"</string>
+
+    <string name="Roll">"Roll"</string>
+
+    <string name="Dancefloor">"Dancefloor"</string>
+
+    <string name="Dubstep">"Electronic music"</string>
+
+    <string name="Dubstep_Drums">"Electronic drums"</string>
+
+    <string name="Essentials">"Essentials"</string>
+
+    <string name="FxShots">"FxShots"</string>
+
+    <string name="Hip_Hop_Drums">"Hip-Hop Drums"</string>
+
+    <string name="House_Drums">"House_Drums"</string>
+
+    <string name="Party_Sounds">"Party Sounds"</string>
+
+    <string name="sounds">"Sounds"</string>
+
+    <string name="Scratch">"Scratch"</string>
+
+    <string name="Space">"Space"</string>
+
+    <string name="Synths">"Sound synthesis"</string>
+
+    <string name="Vocals">"Vowel"</string>
+
+    <string name="Your_own_samples">"Your sound effect"</string>
+
+    <string name="Drum_Loops">"Cycle drums 1"</string>
+
+    <string name="Drum_Loops_2">"Cycle drums 2"</string>
+
+    <string name="no_music_in_my_genres">"No music in my genres"</string>
+
+    <string name="no_music_in_your_device">"No music in your device"</string>
+
+    <string name="no_online_music_in_your_library">"No online music"</string>
+
+    <string name="no_artists_found">"No artists found"</string>
+
+    <string name="no_albums_found">"No albums found"</string>
+
+    <string name="no_song_found">"No songs found"</string>
+
+    <string name="manual_mix_on">"Open manually mix"</string>
+
+    <string name="manual_mix_off">"Close manually mix"</string>
+
+    <string name="deezer_charts_title">"Weekly billboard"</string>
+
+    <string name="deezer_editorial_title">"Main stream"</string>
+
+    <string name="deezer_radio_title">"Radio"</string>
+
+    <string name="deezer_playlist_title">"Playlist"</string>
+
+    <string name="deezer_hearthis_title">"Preview"</string>
+
+    <string name="deezer_error_during_login">"An error occurred when logging"</string>
+
+    <string name="deezer_invalid_credentials">"Invalid password"</string>
+
+    <string name="deezer_login_cancelled">"Login cancel"</string>
+
+    <string name="deezer_login_fail">"Can\'t login"</string>
+
+    <string name="start_flow">"Start listening"</string>
+
+    <string name="tip_deezer_intr">"Deezer is free. We offer a trial period of 3 months, then a monthly charge of 9.99."</string>
+
+    <string name="hearthis_info">"Find the next song music collection."</string>
+
+    <string name="hearthis_jump">"Listen"</string>
+
+    <string name="can_not_go_pre_radio">"Can\'t go to previous radio"</string>
+
+    <string name="track_title">"Music"</string>
+
+    <string name="album_title">"Album title"</string>
+
+    <string name="artist_title">"Artist"</string>
+
+    <string name="genre_title">"Genres type"</string>
+
+    <string name="edit_file_error">"Files can\' be edited. The file is read-only attribute or no written permissions."</string>
+
+    <string name="edit_genre_error">"Can\'t edit genre"</string>
+
+    <string name="edit_genre_exist">"Genre %s already exists"</string>
+
+    <string name="reset_tips">"Reset all tips"</string>
+
+    <string name="setting_djmode_switch_reset_all">"Reset all the tips?"</string>
+
+    <string name="setting_switch_djmode">"Switching DJ mode will interrupt the music playback."</string>
+
+    <string name="swicth">"Switch"</string>
+
+    <string name="delete">"Delete"</string>
+
+    <string name="confirmation_delete">"Delete?"</string>
+
+    <string name="cancel_renew">"Cancel renew"</string>
+
+    <string name="record_sample_title">"Your new record"</string>
+
+    <string name="sample_is_full">"Your recordings are full. Delete at least one old recording to create a new one."</string>
+
+    <string name="create">"Create"</string>
+
+    <string name="select">"Select"</string>
+
+    <string name="dialog_cancel_renew_title">"Cancel Deezer subscription"</string>
+
+    <string name="dialog_cancel_renew_msg">"To cancel your subscription, log in Deezer account in computer and access to my bill. You can cancel after 48 hours."</string>
+
+    <string name="sign_out">"Quit"</string>
+
+    <string name="create_new_playlist">"Create new playlist"</string>
+
+    <string name="dialog_deezer_preview_msg">"Free users can only listen for 30 seconds. The subscription can listen to complete one."</string>
+
+    <string name="extracharge_donot_show_again_msg">"Never show this message."</string>
+
+    <string name="tip_another_deezer_intr">"After entering the pay details, you can also obtain %d day free trial. It will be charged after the free trial."</string>
+
+    <string name="tip_another_deezer_info">"After the %s of each month free trial, you can cancel your subscription at any time."</string>
+
+    <string name="deezer_continue_msg">"Continue to try for free"</string>
+
+    <string name="tip_deezer_info">"Deezer is a web-based audio streaming, log in to obtain preferential charge."</string>
+
+    <string name="tip_no_account_yet">"Not yet registered"</string>
+
+    <string name="request_deezer_tip_fail">"Can\'s load Deezer tips"</string>
+
+    <string name="success_delete_library">"%s deleted from the local music"</string>
+
+    <string name="confirmation_analyse">"Continue"</string>
+
+    <string name="confirmation_analyse_info">"BPM represents the number of blows per minute, once the analysis is completed, all the songs will appear in the song\'s BPM information"</string>
+
+    <string name="network_is_not_connect">"Wi-Fi is off or data connection isn\'t available"</string>
+
+    <string name="cricket_string">"If you are a Cricket user, login directly"</string>
+
+    <string name="deezer_download">"*Only Deezer application supports download"</string>
+
+    <string name="start_personalize_your_favorite_tracks">"Start your favourite songs"</string>
+
+    <string name="no_internet_connection">"No Internet connection"</string>
+
+    <string name="bluetooth_phone">"Bluetooth phone"</string>
+
+    <string name="artist_album_count">"%d album"</string>
+
+    <!--***************************************国内版字符串增加开始***************************************-->
+
+    <string name="version_update">"Check for updates"</string>
+    <string name="quality_download_default">"Default download quality"</string>
+
+    <string name="no_upgrade_version">"No new version can be upgraded"</string>
+    <string name="version_available">"Detects a new version"</string>
+    <string name="version_unavailable">"No new version"</string>
+    <!--听歌识别界面开始-->
+    <string name="song_recognition">"Listen and recognise"</string>
+    <string name="invalid_network">"Invalid network"</string>
+    <string name="recognition_ing">"Identifying..."</string>
+    <string name="stop_recognition">"Stop recognition"</string>
+    <string name="recognition_tips">"Identify songs playing around."</string>
+    <string name="begin_recognition">"Begin recognition"</string>
+    <string name="click_button_begin_recognize">"Click button to begin"</string>
+    <string name="recognition_failed">"No matching music"</string>
+    <string name="recognition_failed_tips">"Ensure your phone microphone is near the source."</string>
+    <string name="recognition_again">"Re-identify"</string>
+    <string name="similarity">"Similarity %s"</string>
+    <string name="download">"Download"</string>
+    <string name="add_to_play">"Add to play"</string>
+    <string name="play_next">"Play next"</string>
+    <string name="test">"test"</string>
+    <!--听歌识别界面结束-->
+
+    <!--歌手列表界面开始-->
+    <string name="sharedata">"sharedata"</string>
+    <string name="song_style_all">"All"</string>
+    <string name="song_style_chinese">"Chinese"</string>
+    <string name="song_style_european">"Europe"</string>
+    <string name="song_style_japan">"Japan"</string>
+    <string name="song_style_korean">"Korea"</string>
+    <string name="song_style_musician">"Musician"</string>
+    <string name="song_style_other">"Other"</string>
+    <string name="song_style_filter">"Filter"</string>
+    <!--歌手列表界面结束-->
+
+
+    <!-- Error View开始 -->
+    <string name="error_view_click_to_refresh">"Tap the screen to reload"</string>
+    <string name="error_view_no_data">"No content yet"</string>
+    <string name="error_view_loading">"Loading…"</string>
+    <string name="error_view_load_error_click_to_refresh">"Can\'t load content\r\n Click to reload"</string>
+    <string name="error_view_network_error_click_to_refresh">"No network available"</string>
+    <string name="tip_network_error">"No network available"</string>
+    <string name="tip_download_network_error">"No network available"</string>
+
+    <string name="loading">"Loading…"</string>
+    <string name="loading_no_more">"All have been loaded."</string>
+    <string name="error_no_valid_song">"Unfortunately, due to the requirements of the partners, the resource is temporarily unavailable."</string>
+    <!-- Error View结束 -->
+
+
+    <!--电台界面开始-->
+    <string name="radio_type_recommand">"Recommend"</string>
+    <string name="radio_type_orginal">"Original"</string>
+    <string name="radio_type_scene">"Scenes"</string>
+    <string name="radio_type_style">"Style"</string>
+    <string name="song_style_mood">"Mood"</string>
+    <!--电台界面结束-->
+
+
+    <!--搜索界面开始-->
+    <string name="search">"Search"</string>
+    <string name="search_online_hint">"Search songs, artists, albums"</string>
+    <string name="search_hot">"Popular searches"</string>
+    <string name="search_replacement">"Replace"</string>
+    <string name="song">"Song"</string>
+    <string name="album">"Album"</string>
+    <string name="song_qty">"%s songs"</string>
+    <string name="liric_not_exist">"No lyrics"</string>
+
+
+    <!--搜索界面结束-->
+
+
+    <!--播放圆圈界面开始-->
+    <string name="add_favorite">"Add favourite"</string>
+    <string name="cancel_favorite">"Cancel favourite"</string>
+    <string name="play_mode_random">"Shuffle playback"</string>
+    <string name="play_mode_single_cycle">"Single cycle"</string>
+    <string name="play_mode_listing">"Circulation list"</string>
+    <!--播放圆圈界面结束-->
+
+
+    <!--DJMix界面开始-->
+
+
+    <string name="auto_mode">"Auto Mode"</string>
+    <string name="record">"Record"</string>
+    <string name="rhythm_synchronized">"Rhythm synchronised"</string>
+    <string name="operations_area">"Operator station"</string>
+    <string name="drumbeat">"Drums"</string>
+
+
+    <!--DJMix界面结束-->
+
+
+    <!-- TCT MIE -->
+    <string name="p2refresh_head_load_more">"Load more"</string>
+    <string name="p2refresh_end_load_more">"Click load"</string>
+    <string name="p2refresh_end_click_load_more">"Click load"</string>
+    <string name="p2refresh_end_load_more_fail">"Can\'t load. Try again"</string>
+    <string name="p2refresh_release_refresh">"Release to refresh"</string>
+    <string name="p2refresh_pull_to_refresh">"Pull down to refresh"</string>
+    <string name="p2refresh_doing_head_refresh">"Refreshing …"</string>
+    <string name="p2refresh_doing_end_refresh">"Loading..."</string>
+    <string name="p2refresh_refresh_lasttime">"Last Updated:"</string>
+    <string name="cannot_requestrefresh">"No more data"</string>
+
+    <string name="now_playing">"Play now"</string>
+    <string name="num_songs">"%d"</string>
+    <string name="batch_processing">"Batch processing"</string>
+    <string name="hot_music_recommend">"Popular music recommendation"</string>
+    <string name="add_to_song_list">"Add to song list"</string>
+    <string name="favorite_song_list">"Favourite song list"</string>
+    <string name="add_to_play_queue">"Add to play queue"</string>
+    <string name="batch_operate">"Batch operation"</string>
+    <string name="singer_detail">"Singer details"</string>
+    <string name="collect_detail">"Collect detail"</string>
+    <string name="album_detail">"Album detail"</string>
+    <string name="detail">"Detail"</string>
+    <string name="unknown">"Unknown"</string>
+    <string name="song_list">"Song list"</string>
+    <string name="network_error_prompt">"The current network isn\'t available\r\nPlease check your network equipment"</string>
+    <string name="network_error_prompt2">"Check the network, and tap the screen to retry"</string>
+    <string name="loading2">"Desperately loading …"</string>
+    <string name="local_music">"My music"</string>
+    <string name="complete">"Complete"</string>
+    <string name="back_to_home">"Back to home"</string>
+    <string name="exit">"Exit"</string>
+    <string name="song_list_empty_please_add">"Song list is empty, add music"</string>
+    <!-- TCT MIE -->
+
+    <string name="latest_songs">"New song"</string>
+    <string name="rank_list">"Leaderboard"</string>
+    <string name="singer">"Singer"</string>
+    <string name="artist">"Artist"</string>
+    <string name="radio">"Radio"</string>
+    <string name="hot_recom_music">"Popular music recommendation"</string>
+    <string name="essence_music">"Essence music collection"</string>
+    <string name="latest_music_first">"Debut album"</string>
+    <string name="more">"More"</string>
+    <string name="load_fail">"Failed to load..."</string>
+
+    <string name="recommend">"Recommend"</string>
+    <string name="hotest">"Hotest"</string>
+    <string name="latest">"Latest"</string>
+
+    <string name="downloaded">"Downloaded"</string>
+    <string name="downloading">"Downloading"</string>
+    <string name="downloadmanager">"Download Manager"</string>
+    <string name="pause_alarm">"Paused. Click to continue"</string>
+    <string name="downloading_alarm">"Downloading and click to pause"</string>
+    <string name="watting_alarm">"Waiting loading"</string>
+    <string name="invalide_alarm">"Download failed. Click download again"</string>
+    <string name="song_exist_in_local">"The music has downloaded"</string>
+
+    <string name="batch_operation">"Batch operation"</string>
+    <string name="playing_all">"Play all"</string>
+    <string name="delete_downloaded">"Delete"</string>
+    <string name="addplaylist">"Add playlist"</string>
+    <string name="download_alarm">"Downloading..."</string>
+    <string name="download_have_alarm">"The song is already in the download queue"</string>
+    <string name="download_have_alarm_cancel">"Joined to downloading list. The app will be automatically downloaded when connect to Wi-Fi."</string>
+
+    <string name="download_error">"The song can\'t be downloaded"</string>
+    <string name="downloaded_notifaction">"Download completed. Click to view"</string>
+    <string name="downloading_notifaction">"song is being downloaded and click to view"</string>
+    <string name="downloading_notifaction2">"songs are being downloaded and click to view"</string>
+
+    <string name="download_select_alarm">"Select at least one music"</string>
+    <string name="download_select">"Click to select"</string>
+    <string name="download_selected">"Chosen"</string>
+    <string name="download_invalid">"Invalid address. Acquire again"</string>
+
+    <string name="set_as_play_next">"It is set to play next"</string>
+    <string name="create_song_list">"Create song list"</string>
+    <string name="new_song_list">"Create song list"</string>
+    <string name="confirmation_remove_from_favourite">"Remove %s from favourite?"</string>
+
+    <string name="turnleft_to_see_lyrics">"Left slide can view lyrics."</string>
+    <string name="getIt">"Get it"</string>
+    <string name="sure">"Sure"</string>
+    <string name="extra_warning_msg">"Watch your data usage. Currently use mobile data."</string>
+    <string name="dialog_mobile_network_title">"Mobile data remind"</string>
+    <string name="dialog_mobile_network_message">"You are using mobile data. Enable Allows the use of mobile data?"</string>
+    <string name="dialog_mobile_network_ok">"Allowed"</string>
+    <string name="dialog_mobile_network_cancel">"Stop using"</string>
+    <string name="dialog_mobile_network_allowed_toast">""Allow mobile data usage" feature is turned on. You can turn it off in Settings"</string>
+    <string name="dialog_mobile_network_ban_toast">"Networking isn\'t allowed under the operator\'s network, and you can modify this setting in the "Allow the use of operator networks" under the Settings"</string>
+
+    <string name="dialog_audition_message">"You are using mobile data. Continue online audition will consume phone traffic."</string>
+    <string name="dialog_download_message">"You\'re using mobile data. Continue downloading will consume phone traffic."</string>
+
+    <string name="dialog_audition_play">"Resume"</string>
+    <string name="dialog_audition_stop">"Stop"</string>
+    <string name="dialog_download_stop">"Stop download"</string>
+    <string name="dialog_download_continu">"Continue to download"</string>
+    <string name="start_music">"Start music service"</string>
+    <string name="service_declaration_desc">"Welcome to use TCL music services. Using mobile network will be charged. Consult your local network operator for details. Meanwhile, for better services to mobile phone users, some information (such as your device ID, location information, etc.) will be collected. We will keep confidential to the user\'s mobile phone information fully, and guarantee not disclosed or illegally fetching by a third party. Agree to the above and then start music service."</string>
+
+    <string name="permission_tips1">"Open the USB memory permissions to ensure the normal use basic functions."</string>
+    <string name="permission_tips2">"Permission to open the phone will help you to better enjoy the fun Music. The user\'s privacy is safe."</string>
+    <string name="permission_tips3">"Give the Music storage rights to ensure the normal use of the basic functions."</string>
+    <string name="my_download">"My downloads"</string>
+    <string name="song_number">"songs"</string>
+    <string name="my_favorite">"My collection"</string>
+    <string name="recent_play">"Recently Played"</string>
+    <string name="my_playlist">"My playlist"</string>
+    <string name="hidden_list">"Favourites list"</string>
+    <!-- QUALITY DOWNLOAD -->
+    <string name="default_download">"Default download quality"</string>
+    <string name="auto_download">"Auto Download"</string>
+    <string name="standard_download">"Standard quality"</string>
+    <string name="high_quality">"High quality"</string>
+    <string name="download_all">"Download All"</string>
+    <string name="expand_all">"Expand All"</string>
+    <string name="download_pause">"Paused"</string>
+    <!-- QUALITY DOWNLOAD -->
+
+    <!--设置界面开始-->
+    <string name="settings_open_WLAN">"Connect to Wi-Fi"</string>
+    <string name="settings_title">"Settings"</string>
+    <string name="dialog_title_time_close">"Timed Close"</string>
+    <string name="dialog_item_no_close">"Don\'t open"</string>
+    <string name="dialog_item_after_ten">"After 10 minutes"</string>
+    <string name="dialog_item_after_fifteen">"After 15 minutes"</string>
+    <string name="dialog_item_after_thirty">"After 30 minutes"</string>
+    <string name="dialog_item_after_forty_five">"After 45 minutes"</string>
+    <string name="dialog_item_after_sixty">"After 60 minutes"</string>
+    <string name="date_format"><xliff:g id="minute">%1$02d</xliff:g>:<xliff:g id="second">%2$02d</xliff:g> </string>
+    <string name="number_format">(<xliff:g id="number">%1$d</xliff:g>)</string>
+    <!--设置界面开始-->
+
+    <!--锁屏界面开始-->
+    <string name="screen_singer_name">"Unknown artist"</string>
+    <string name="screen_sing_name">"Unknown song"</string>
+    <!--锁屏界面结束-->
+    <!--***************************************国内版字符串增加结束***************************************-->
+
+    <string name="empty_tip1">"No songs."</string>
+    <string name="empty_tip1_2">"No songs."</string>
+    <string name="empty_tip2">"Build their own personalized music lists."</string>
+    <string name="add_songs">"Add songs"</string>
+    <string name="select_all">"Check all"</string>
+    <string name="cancle_select">"Cancel"</string>
+    <string name="cancel_select_all">"Uncheck all"</string>
+    <string name="recommend_music">"Recommend music"</string>
+    <string name="daily_recommend">"Daily recommend"</string>
+    <string name="daily_recommend_descripe">"Generated based on your interests"</string>
+    <string name="heart_radio">"Radio mood"</string>
+    <string name="heart_radio_descripe">"Different mood, different music"</string>
+    <string name="remove_from_recentplayed">"Remove"</string>
+    <string name="all_are_local_music">"All are local music. No need to download"</string>
+    <string name="download_success">"Download successfully"</string>
+    <string name="download_failed">"Download unsuccessful"</string>
+    <string name="history_search">"Search history"</string>
+    <string name="history_clear">"Clear history"</string>
+    <string name="dialog_saving_text">"Saving"</string>
+    <string name="save_success">"Successfully saved."</string>
+    <string name="male_singer">"Male singers"</string>
+    <string name="female_singer">"Female singers"</string>
+    <string name="band">"Band"</string>
+    <string name="daily_cycle">"Daily update"</string>
+    <string name="weekly_cycle">"Weekly update"</string>
+    <string name="rank_update_time">"Leaderboard update at"</string>
+
+    <string name="quantity_songs">"%d"</string>
+    <string name="quantity_albums">"%d"</string>
+    <string name="unlock">"Slide unlock"</string>
+    <string name="batch_operate_loading">"Adding..."</string>
+    <string name="success_delete_playlist">"%s playlist has been deleted"</string>
+    <string name="confirmation_remove_playlist">"Delete the “%s” playlist?"</string>
+    <string name="delete_playlist_failed">"Delete unsuccessfully"</string>
+    <string name="cancle_favorite_playlist">"Cancel favourite"</string>
+    <string name="confirmation_playlist_remove">"Confirm to remove？"</string>
+    <string name="confirmation">"confirmation"</string>
+    <string name="name_exist_playlist">"playlist name already exists"</string>
+    <string name="found">"Find Music"</string>
+    <string name="ignored_folder">"Ignored Folder"</string>
+
+    <!-- 通用        begin -->
+    <string name="batch_add_to_playlist">"Add to"</string>
+    <string name="confirm_to_delete">"Delete?"</string>
+    <string name="batch_cancel_select_all">"Cancel all"</string>
+    <string name="operating">"Operating"</string>
+    <string name="operation_failed">"Operation failed"</string>
+    <string name="share_to">"Share to"</string>
+    <!-- 通用        end -->
+
+    <!-- 歌曲模块    begin -->
+    <string name="please_select_media_items">"Please select media items"</string>
+    <string name="batch_songs_num">"Choose %d songs"</string>
+    <string name="share">"Share"</string>
+    <!-- 歌曲模块    end -->
+
+    <!-- 歌手模块 begin -->
+    <string name="alert_title_delete_artist">"Delete artist"</string>
+    <string name="alert_message_delete_artist">"Delete the “%s” artist and all related songs？"</string>
+    <string name="please_select_artist_items">"Please select artist items"</string>
+    <string name="batch_artists_num">"Choose %d artists"</string>
+    <string name="artists_removed">"Artists have been removed"</string>
+    <!-- 歌手模块 end -->
+
+    <!-- 专辑模块 begin -->
+    <string name="alert_title_delete_album">"Delete album"</string>
+    <string name="alert_message_delete_album">"Delete the “%s” album and all related songs？"</string>
+    <string name="please_select_album_items">"Please select album items"</string>
+    <string name="batch_albums_num">"Choose %d albums"</string>
+    <string name="albums_removed">"Albums have been removed"</string>
+    <!-- 专辑模块 end -->
+
+    <!-- 文件夹模块  begin -->
+    <plurals name="folder_number_of_folders">
+        <item quantity="one">"%d folder"</item>
+        <item quantity="other">"%d folders"</item>
+    </plurals>
+    <plurals name="folder_number_of_songs">
+        <item quantity="one">"%d song"</item>
+        <item quantity="other">"%d songs"</item>
+    </plurals>
+    <!-- 文件夹模块  end -->
+
+    <!-- Scenes title-->
+    <string name="scenes_1">"Run"</string>
+    <string name="scenes_2">"Study"</string>
+    <string name="scenes_3">"Work"</string>
+    <string name="scenes_4">"Driving"</string>
+    <string name="scenes_5">"Traveling"</string>
+    <string name="scenes_6">"Sleeping"</string>
+    <string name="scenes_7">"Party"</string>
+    <string name="scenes_8">"Tea time"</string>
+    <string name="scenes_9">"Club"</string>`
+    <string name="scenes_10">"Other"</string>
+
+    <!-- PlayList begin -->
+    <string name="character_exceed_limit">"Characters exceed limit!"</string>
+    <string name="playlist_name_can_not_be_empty">"Playlist name is empty!"</string>
+    <string name="rename_playlist_failed">"Rename playlist failed!"</string>
+    <string name="confirm_to_remove">"Are you sure to remove?"</string>
+    <!-- PlayList end -->
+
+    <!--Select songs-->
+    <string name="waiting_load">"Loading"</string>
+    <!-- My Fav list -->
+    <string name="check_to_remove">"Remove these songs?"</string>
+    <string name="keep_files">"Keep local files"</string>
+
+    <string name="online_search_result">"Online Search Result"</string>
+    <string name="local_search_result">"Local Search Result"</string>
+    <string name="can_not_online_search">"No network, unable to carry out online search"</string>
+
+    <!-- Live String-->
+    <string name="music_list">"Songs"</string>
+    <string name="scenes_music_header">"Radio Scene Recommend"</string>
+    <string name="pop_radio_header">"Hot Radio"</string>
+    <string name="pop_rank_header">"Hot Rank"</string>
+    <string name="pop_songs_header">"Hot Songs"</string>
+    <string name="live_new_album_title">"Debut Album"</string>
+    <string name="wechat_shared_rank_title">"Wechat Shared Rank"</string>
+    <string name="live_own_radio_title">"Private Radio"</string>
+    <string name="live_songs_play_count">"%dThousand"</string>
+    <string name="live_rank_songs_detail_name">"%s"</string>
+    <string name="live_rank_songs_detail_artist">"- %s"</string>
+    <string name="scenes_music_title">"Scenes Music"</string>
+    <string name="scenes_detail_title">"Scenes"</string>
+    <string name="gmt_publish">"Date: %s"</string>
+    <string name="recommend_title">"According to your tastes"</string>
+
+    <string name="radio_change">"Change list"</string>
+    <string name="radio_add">"Add"</string>
+    <string name="warning_dialog_title">"Warning"</string>
+    <string name="data_saver_text_warning_dialog">"Detection has been opened to Data Saver function,the online image will be displayed as the system default cover in the non WI-FI environment."</string>
+    <string name="network_play_warning_message">"Currently in non WI-FI environment,continue to play will consume your data traffic"</string>
+    <string name="network_download_warning_message">"Currently in non WI-FI environment,continue to download will consume your data traffic"</string>
+    <string name="network_warning_dialog">"Mobile Traffic Warning"</string>
+
+    <!-- account begin -->
+    <string name="tcl_login_success">TCL account login success!</string>
+    <string name="tcl_login_failed">TCL account login failed!</string>
+    <string name="xiami_bind_success">Xiami bind success!</string>
+    <string name="xiami_bind_failed">Xiami bind failed!</string>
+    <string name="vip">VIP</string>
+    <!-- account end -->
+
+    <!-- quantify begin -->
+    <string name="audition_quality">Sound quality</string>
+    <string name="download_quality">Download quality</string>
+    <string name="auto_recommend">Automatic (recommended)</string>
+    <string name="audition_high_quality">HQ</string>
+    <string name="lossless">FLAC</string>
+    <string name="auto_sub_text">Please choose the sound quality for trial based on membership and connection status</string>
+    <string name="audition_kbps"><xliff:g id="kbps">%1d</xliff:g>kbps</string>
+    <string name="download_mb">Approximately <xliff:g id="mb">%1d</xliff:g>MB per song</string>
+    <!-- quantify end -->
+
+</resources>

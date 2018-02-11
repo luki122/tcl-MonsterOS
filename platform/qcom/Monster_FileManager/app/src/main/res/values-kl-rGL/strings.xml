@@ -1,0 +1,814 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="sort">"Immikkoortitikkit"</string>
+	<!---->
+	<string name="sort_by_name">"Ateq"</string>
+	<!-- no translation found for sort_by_date -->
+	<skip />
+	<!-- no translation found for sort_by_time -->
+	<skip />
+	<!---->
+	<string name="sort_by_type">"Suunera"</string>
+	<!---->
+	<string name="sort_by_size">"Angissuseq"</string>
+	<!---->
+	<string name="copy">"Assiliuk"</string>
+	<!---->
+	<string name="create_folder">"Pilersiguk"</string>
+	<!---->
+	<string name="cut">"Kipiuk"</string>
+	<!-- no translation found for delete -->
+	<skip />
+	<!-- no translation found for delete_confirm -->
+	<skip />
+	<!---->
+	<string name="deselect_all">"Tamaasa toqqarunnaakkit"</string>
+	<!---->
+	<string name="select_all">"Tamaasa toqqakkit"</string>
+	<!---->
+	<string name="show_file">"Fil-it tarreqqasut nuisikkit"</string>
+	<!---->
+	<string name="hide_file">"Fil-it tarreqqasut tarrisikkit"</string>
+	<!---->
+	<string name="paste">"Iliuk"</string>
+	<!---->
+	<string name="rename">"Atseqqiguk"</string>
+	<!---->
+	<string name="share">"Siammarteruk"</string>
+	<!-- no translation found for viewby_list -->
+	<skip />
+	<!-- no translation found for viewby_grid -->
+	<skip />
+	<!-- no translation found for alert_delete_message -->
+	<skip />
+	<!-- no translation found for multi_alert_delete_message -->
+	<skip />
+	<!-- no translation found for multi_alert_delete_message_cn -->
+	<skip />
+	<!-- no translation found for delete_folder_message -->
+	<skip />
+	<!---->
+	<string name="category_pictures">"Assit"</string>
+	<!---->
+	<string name="category_vedios">"Video-t"</string>
+	<!---->
+	<string name="category_music">"Nipilersuutit"</string>
+	<!---->
+	<string name="category_download">"Aavaa"</string>
+	<!---->
+	<string name="category_bluetooth">"Bluetooth"</string>
+	<!-- no translation found for app_name -->
+	<skip />
+	<!-- no translation found for theme_name -->
+	<skip />
+	<!-- no translation found for apk_name -->
+	<skip />
+	<!-- no translation found for new_folder -->
+	<skip />
+	<!-- no translation found for confirm_rename -->
+	<skip />
+	<!-- no translation found for warning -->
+	<skip />
+	<!-- no translation found for share_warning -->
+	<skip />
+	<!---->
+	<string name="loading">"Immiuppaa..."</string>
+	<!---->
+	<string name="deleting">"Peerpaa"</string>
+	<!-- no translation found for alert_delete_multiple -->
+	<skip />
+	<!---->
+	<string name="name">"Ateq"</string>
+	<!---->
+	<string name="size">"Angissuseq"</string>
+	<!---->
+	<string name="modified_time">"Allanngortinneqarpoq"</string>
+	<!-- no translation found for msg_rename_ext -->
+	<skip />
+	<!---->
+	<string name="wait">"Utaqqilaarit…"</string>
+	<!---->
+	<string name="done">"Naammassivoq"</string>
+	<!-- no translation found for enable -->
+	<skip />
+	<!-- no translation found for enable_cn -->
+	<skip />
+	<!---->
+	<string name="cancel">"Sussaaruk"</string>
+	<!---->
+	<string name="no">"Naamik"</string>
+	<!---->
+	<string name="ok">"OK"</string>
+	<!---->
+	<string name="yes">"Aap"</string>
+	<!-- no translation found for details -->
+	<skip />
+	<!---->
+	<string name="drawer_open">"Ammaruk"</string>
+	<!-- no translation found for unknown -->
+	<skip />
+	<!-- no translation found for unit_B -->
+	<skip />
+	<!-- no translation found for unit_KB -->
+	<skip />
+	<!-- no translation found for unit_MB -->
+	<skip />
+	<!-- no translation found for unit_GB -->
+	<skip />
+	<!-- no translation found for unit_TB -->
+	<skip />
+	<!-- no translation found for send_file -->
+	<skip />
+	<!---->
+	<string name="default_search_text">"Fil-it ujakkit"</string>
+	<!---->
+	<string name="free_space">"Atorneqarsinnaavoq"</string>
+	<!---->
+	<string name="total_space">"Inissaq tamarmi"</string>
+	<!-- no translation found for drawer_category -->
+	<skip />
+	<!---->
+	<string name="phone_storage">"Telefon-ip toqqorsivia"</string>
+	<!---->
+	<string name="phone_storage_cn">"Telefon-ip toqqorsivia"</string>
+	<!---->
+	<string name="sd_card">"SD kort-i"</string>
+	<!---->
+	<string name="draw_left_phone_storage">"Telefon-ip toqqorsivia"</string>
+	<!---->
+	<string name="draw_left_sd_card">"SD kort-i"</string>
+	<!-- no translation found for menu_settings -->
+	<skip />
+	<!-- no translation found for no_search_result -->
+	<skip />
+	<!-- no translation found for copy_deny -->
+	<skip />
+	<!-- no translation found for cut_deny -->
+	<skip />
+	<!-- no translation found for delete_deny -->
+	<skip />
+	<!---->
+	<string name="insufficient_memory">"Inissaq naammanngilaq."</string>
+	<!-- no translation found for insufficient_message -->
+	<skip />
+	<!-- no translation found for invalid_empty_name -->
+	<skip />
+	<!-- no translation found for paste_same_folder -->
+	<skip />
+	<!-- no translation found for invalid_char_prompt -->
+	<skip />
+	<!---->
+	<string name="msg_unable_open_file">"Fil-ip suunera atugaanngilaq."</string>
+	<!-- no translation found for paste_sub_folder -->
+	<skip />
+	<!-- no translation found for operation_fail -->
+	<skip />
+	<!---->
+	<string name="search_result">"inernera(i) %2$d uuma \"%1$s\""</string>
+	<!-- no translation found for already_exists -->
+	<skip />
+	<!---->
+	<string name="unmounted">"%1$s ikkusimajunnaartinneqarsimanngilaq"</string>
+	<!-- no translation found for create_hidden_file -->
+	<skip />
+	<!-- no translation found for file_name_too_long -->
+	<skip />
+	<!---->
+	<string name="some_paste_fail">"Ikkussinerit ilai iluatsinngillat."</string>
+	<!-- no translation found for delete_fail -->
+	<skip />
+	<!-- no translation found for some_delete_fail -->
+	<skip />
+	<!-- no translation found for msg_unable_open_file_in_app -->
+	<skip />
+	<!---->
+	<string name="drm_forwardforbidden_title">"Siumuunngitsoq"</string>
+	<!---->
+	<string name="drm_forwardforbidden_message">"DRM fil-i ingerlateqqinneqarsinnaanngilaq.""</string>
+	<!-- no translation found for drm_no_valid_right -->
+	<skip />
+	<!-- no translation found for drm_current_count -->
+	<skip />
+	<!---->
+	<string name="unlimited_usage">"Atuineq killeqanngitsoq"</string>
+	<!-- no translation found for drm_current_right -->
+	<skip />
+	<!---->
+	<string name="not_available">"Atorneqarsinnaanngilaq"</string>
+	<!---->
+	<string name="right_url">"Akuersissummik Pilersitsisoq URL:"</string>
+	<!---->
+	<string name="use_times">"%s-riarlugu atoruk"</string>
+	<!---->
+	<string name="valid_after">"Atorsinnaavoq kingornatigut"</string>
+	<!---->
+	<string name="valid_until">"Atorsinnaavoq tungaanut"</string>
+	<!---->
+	<string name="drm_wifidisplay_title">"Fil-it assilineqarnissamut illersugaasut"</string>
+	<!-- no translation found for drm_wifidisplay_message -->
+	<skip />
+	<!-- no translation found for drm_wifidisplay_cancel_btn -->
+	<skip />
+	<!---->
+	<string name="drm_wifidisplay_ok">"OK"</string>
+	<!-- no translation found for tv_link_close_toast -->
+	<skip />
+	<!-- no translation found for usbotg -->
+	<skip />
+	<!-- no translation found for show -->
+	<skip />
+	<!---->
+	<string name="hide">"Toqqoruk"</string>
+	<!-- no translation found for action_menu_create_folder_button -->
+	<skip />
+	<!-- no translation found for searchResult -->
+	<skip />
+	<!---->
+	<string name="default_folder_name">"Quppersakkap aqqa"</string>
+	<!-- no translation found for drm_protection_status -->
+	<skip />
+	<!-- no translation found for drm_can_forward -->
+	<skip />
+	<!-- no translation found for drm_can_not_forward -->
+	<skip />
+	<!-- no translation found for drm_no_license -->
+	<skip />
+	<!-- no translation found for drm_interval -->
+	<skip />
+	<!-- no translation found for drm_begin -->
+	<skip />
+	<!-- no translation found for drm_no_limitation -->
+	<skip />
+	<!-- no translation found for drm_end -->
+	<skip />
+	<!-- no translation found for drm_use_left -->
+	<skip />
+	<!-- no translation found for drm_no_crop -->
+	<skip />
+	<!-- no translation found for file_copy -->
+	<skip />
+	<!-- no translation found for choice_file -->
+	<skip />
+	<!-- no translation found for alert_delete_single -->
+	<skip />
+	<!---->
+	<string name="pasting">"Ikkuppaa"</string>
+	<!-- no translation found for readable -->
+	<skip />
+	<!-- no translation found for executable -->
+	<skip />
+	<!-- no translation found for writable -->
+	<skip />
+	<!-- no translation found for add_favorite -->
+	<skip />
+	<!-- no translation found for del_favorite -->
+	<skip />
+	<!-- no translation found for favourite -->
+	<skip />
+	<!-- no translation found for viewby_details -->
+	<skip />
+	<!-- no translation found for view_by -->
+	<skip />
+	<!-- no translation found for show_hide -->
+	<skip />
+	<!---->
+	<string name="sort_by">"Immikkoortiguk aallaavigalugu"</string>
+	<!---->
+	<string name="more">"Suli"</string>
+	<!-- no translation found for used -->
+	<skip />
+	<!-- no translation found for category_archives -->
+	<skip />
+	<!---->
+	<string name="category_favorite">"Nuannarinerpaasat"</string>
+	<!---->
+	<string name="category_ringtones">"Sianertaatit"</string>
+	<!-- no translation found for category_recordings -->
+	<skip />
+	<!-- no translation found for category_safebox -->
+	<skip />
+	<!-- no translation found for category_apks -->
+	<skip />
+	<!---->
+	<string name="search">"Ujaruk"</string>
+	<!-- no translation found for sort_type -->
+	<skip />
+	<!-- no translation found for sort_name -->
+	<skip />
+	<!-- no translation found for sort_size -->
+	<skip />
+	<!-- no translation found for sort_time -->
+	<skip />
+	<!---->
+	<string name="selected">"Toqqakkat"</string>
+	<!---->
+	<string name="save">"Toqqoruk"</string>
+	<!-- no translation found for category_docs -->
+	<skip />
+	<!-- no translation found for category_files -->
+	<skip />
+	<!-- no translation found for view_as_grid -->
+	<skip />
+	<!-- no translation found for view_as_list -->
+	<skip />
+	<!---->
+	<string name="detail_path">"Sumiiffik:"</string>
+	<!---->
+	<string name="detail_name">"Ateq:"</string>
+	<!---->
+	<string name="detail_size">"Angissuseq:"</string>
+	<!-- no translation found for detail_time -->
+	<skip />
+	<!---->
+	<string name="empty_msg">"(Quppersagaq Imaqanngitsoq)"</string>
+	<!---->
+	<string name="search_files">"Fil-it ujakkit"</string>
+	<!-- no translation found for search_result_count -->
+	<skip />
+	<!-- no translation found for drawer_settings -->
+	<skip />
+	<!-- no translation found for search_text_empty -->
+	<skip />
+	<!---->
+	<string name="search_result_title">"Ujaarlernerup inernera(i)"</string>
+	<!-- no translation found for path_not_exists -->
+	<skip />
+	<!-- no translation found for modify_hidden_file -->
+	<skip />
+	<!-- no translation found for paste_fail -->
+	<skip />
+	<!-- no translation found for search_empty -->
+	<skip />
+	<!---->
+	<string name="search_setting_description">"Fil-it quppersakkallu pigisap iluaniittut"</string>
+	<!---->
+	<string name="change_mode">"Fil-i quppersagarluunniit toqqaruk"</string>
+	<!-- no translation found for drm_protectioninfo_title -->
+	<skip />
+	<!-- no translation found for draw_favourite -->
+	<skip />
+	<!-- no translation found for unfavourite -->
+	<skip />
+	<!-- no translation found for drm_toast_license_expired -->
+	<skip />
+	<!-- no translation found for sdstroge -->
+	<skip />
+	<!-- no translation found for phonestorage -->
+	<skip />
+	<!-- no translation found for title_activity_main -->
+	<skip />
+	<!-- no translation found for hello_world -->
+	<skip />
+	<!-- no translation found for action_settings -->
+	<skip />
+	<!-- no translation found for unlock_video -->
+	<skip />
+	<!-- no translation found for readable_m -->
+	<skip />
+	<!-- no translation found for executable_m -->
+	<skip />
+	<!-- no translation found for writable_m -->
+	<skip />
+	<!-- no translation found for main_recents -->
+	<skip />
+	<!-- no translation found for main_recents_cn -->
+	<skip />
+	<!-- no translation found for main_installers -->
+	<skip />
+	<!-- no translation found for main_document -->
+	<skip />
+	<!---->
+	<string name="detail_path_m">"Sumiiffik"</string>
+	<!-- no translation found for detail_path_m_cn -->
+	<skip />
+	<!---->
+	<string name="detail_name_m">"Ateq"</string>
+	<!-- no translation found for detail_size_m -->
+	<skip />
+	<!-- no translation found for detail_time_m -->
+	<skip />
+	<!---->
+	<string name="main_photo">"Assit"</string>
+	<!-- no translation found for main_sd_storage -->
+	<skip />
+	<!-- no translation found for main_external_storage -->
+	<skip />
+	<!-- no translation found for main_home -->
+	<skip />
+	<!-- no translation found for main_home_cn -->
+	<skip />
+	<!-- no translation found for main_nava_home -->
+	<skip />
+	<!---->
+	<string name="menu_select">"Toqqaruk"</string>
+	<!-- no translation found for go_up -->
+	<skip />
+	<!-- no translation found for no_folder -->
+	<skip />
+	<!-- no translation found for no_category -->
+	<skip />
+	<!-- no translation found for no_folder_cn -->
+	<skip />
+	<!-- no translation found for no_category_cn -->
+	<skip />
+	<!-- no translation found for pasted -->
+	<skip />
+	<!-- no translation found for deleted -->
+	<skip />
+	<!-- no translation found for deleted_cn -->
+	<skip />
+	<!-- no translation found for view_list -->
+	<skip />
+	<!-- no translation found for view_grid -->
+	<skip />
+	<!-- no translation found for create_new_folder -->
+	<skip />
+	<!-- no translation found for add_folder -->
+	<skip />
+	<!---->
+	<string name="detail">"Paasissutissat"</string>
+	<!-- no translation found for menu_detail -->
+	<skip />
+	<!-- no translation found for migrate -->
+	<skip />
+	<!-- no translation found for permission_welcome_title -->
+	<skip />
+	<!-- no translation found for permission_msg -->
+	<skip />
+	<!-- no translation found for permission_setting_title -->
+	<skip />
+	<!-- no translation found for permission_setting_content -->
+	<skip />
+	<!---->
+	<string name="permission_exit_btn">"Anigit"</string>
+	<!---->
+	<string name="dialog_close_btn">"Matujuk"</string>
+	<!-- no translation found for dialog_close_btn_cn -->
+	<skip />
+	<!-- no translation found for shortcut_item -->
+	<skip />
+	<!-- no translation found for shortcut_item_cn -->
+	<skip />
+	<!-- no translation found for shortcut_no_exist -->
+	<skip />
+	<!-- no translation found for shortcut_success -->
+	<skip />
+	<!-- no translation found for no_search_result_m -->
+	<skip />
+	<!---->
+	<string name="draw_left_phone_storage_m">"Telefon-i"</string>
+	<!---->
+	<string name="category_audio">"Nipi"</string>
+	<!-- no translation found for usbotg_m -->
+	<skip />
+	<!-- no translation found for sd_m -->
+	<skip />
+	<!-- no translation found for freeof_m -->
+	<skip />
+	<!---->
+	<string name="permission_settings">"Aaqqiinerit"</string>
+	<!-- no translation found for safe_first_dialog_title -->
+	<skip />
+	<!-- no translation found for safe_first_dialog_content -->
+	<skip />
+	<!-- no translation found for safe_first_dialog_content_cn -->
+	<skip />
+	<!-- no translation found for safe_storage_local -->
+	<skip />
+	<!---->
+	<string name="set_password_pass">"Isissut"</string>
+	<!-- no translation found for set_password_first -->
+	<skip />
+	<!-- no translation found for input_new_password_hint -->
+	<skip />
+	<!-- no translation found for set_password_again -->
+	<skip />
+	<!-- no translation found for set_password_show -->
+	<skip />
+	<!-- no translation found for set_password_safe_question -->
+	<skip />
+	<!-- no translation found for set_password_safe_question_answer -->
+	<skip />
+	<!-- no translation found for set_password_safe_forget_pass -->
+	<skip />
+	<!-- no translation found for choose_safe -->
+	<skip />
+	<!-- no translation found for choose_safe_cn -->
+	<skip />
+	<!-- no translation found for create_safe -->
+	<skip />
+	<!-- no translation found for create_safe_to -->
+	<skip />
+	<!-- no translation found for create_safe_to_cn -->
+	<skip />
+	<!-- no translation found for set_password -->
+	<skip />
+	<!-- no translation found for add_file_safe -->
+	<skip />
+	<!---->
+	<string name="safe_set">"Aaqqiinerit"</string>
+	<!-- no translation found for safe_set_title -->
+	<skip />
+	<!-- no translation found for safe_set_title_cn -->
+	<skip />
+	<!-- no translation found for update_password -->
+	<skip />
+	<!-- no translation found for modify_password -->
+	<skip />
+	<!-- no translation found for security_question -->
+	<skip />
+	<!-- no translation found for modify_security_question -->
+	<skip />
+	<!-- no translation found for safe_set_change_safe -->
+	<skip />
+	<!-- no translation found for safe_set_location_safe -->
+	<skip />
+	<!-- no translation found for safe_set_location_safe_cn -->
+	<skip />
+	<!-- no translation found for update_password_original -->
+	<skip />
+	<!-- no translation found for update_password_original_cn -->
+	<skip />
+	<!-- no translation found for destory_safe -->
+	<skip />
+	<!-- no translation found for destory_safe_cn -->
+	<skip />
+	<!-- no translation found for destory -->
+	<skip />
+	<!-- no translation found for use_password -->
+	<skip />
+	<!-- no translation found for input_password -->
+	<skip />
+	<!-- no translation found for forget_password -->
+	<skip />
+	<!-- no translation found for others -->
+	<skip />
+	<!-- no translation found for password_empty -->
+	<skip />
+	<!-- no translation found for password_consistent -->
+	<skip />
+	<!-- no translation found for password_length_error -->
+	<skip />
+	<!-- no translation found for answer_empty -->
+	<skip />
+	<!-- no translation found for safe_box_name_empty -->
+	<skip />
+	<!-- no translation found for update_success -->
+	<skip />
+	<!-- no translation found for update_fail -->
+	<skip />
+	<!-- no translation found for password_mistake -->
+	<skip />
+	<!-- no translation found for move_safe -->
+	<skip />
+	<!-- no translation found for fingerprint_check -->
+	<skip />
+	<!-- no translation found for in_use -->
+	<skip />
+	<!-- no translation found for created -->
+	<skip />
+	<!-- no translation found for choose_files -->
+	<skip />
+	<!-- no translation found for move_out -->
+	<skip />
+	<!---->
+	<string name="remove_to">"Uunga nuuguk"</string>
+	<!-- no translation found for default_location -->
+	<skip />
+	<!-- no translation found for specified_location -->
+	<skip />
+	<!-- no translation found for open_dir -->
+	<skip />
+	<!-- no translation found for default_location_cn -->
+	<skip />
+	<!-- no translation found for specified_location_cn -->
+	<skip />
+	<!-- no translation found for specified_location_content_cn -->
+	<skip />
+	<!-- no translation found for category_safe -->
+	<skip />
+	<!-- no translation found for category_safe_cn -->
+	<skip />
+	<!-- no translation found for add_safe_size_limited -->
+	<skip />
+	<!-- no translation found for add_safe_drm_limited -->
+	<skip />
+	<!-- no translation found for fingerprint_relative_dialog -->
+	<skip />
+	<!-- no translation found for fingerprint_relative_dialog_cn -->
+	<skip />
+	<!-- no translation found for fingerprint_relative_dialog_ok -->
+	<skip />
+	<!-- no translation found for fingerprint_relative_dialog_ok_cn -->
+	<skip />
+	<!-- no translation found for fingerprint_relative_dialog_cancel -->
+	<skip />
+	<!-- no translation found for fingerprint_relative_dialog_cancel_cn -->
+	<skip />
+	<!-- no translation found for safe_location_current -->
+	<skip />
+	<!-- no translation found for safe_location_current_cn -->
+	<skip />
+	<!-- no translation found for safe_location_content -->
+	<skip />
+	<!-- no translation found for safe_location_content_cn -->
+	<skip />
+	<!-- no translation found for destory_safe_dialog_message -->
+	<skip />
+	<!-- no translation found for destory_safe_dialog_checkbox -->
+	<skip />
+	<!-- no translation found for destory_safe_dialog_checkbox_cn -->
+	<skip />
+	<!-- no translation found for open_safe_dialog -->
+	<skip />
+	<!-- no translation found for open_safe_dialog_cn -->
+	<skip />
+	<!-- no translation found for open_safe_dialog_message -->
+	<skip />
+	<!-- no translation found for open_safe_dialog_message_cn -->
+	<skip />
+	<!-- no translation found for open_safe_dialog_ok -->
+	<skip />
+	<!-- no translation found for category_private_string -->
+	<skip />
+	<!-- no translation found for opening -->
+	<skip />
+	<!-- no translation found for space_clear -->
+	<skip />
+	<!-- no translation found for unselected -->
+	<skip />
+	<!-- no translation found for select -->
+	<skip />
+	<!-- no translation found for finish -->
+	<skip />
+	<!-- no translation found for senior_title -->
+	<skip />
+	<!-- no translation found for no_files_for_add_to_safebox -->
+	<skip />
+	<!-- no translation found for finger_print_relation -->
+	<skip />
+	<!-- no translation found for duplicate_file_name_tip -->
+	<skip />
+	<!---->
+	<string name="searchview_hint">"Fil-it ujakkit"</string>
+	<!-- no translation found for safe_box_name_tip -->
+	<skip />
+	<!-- no translation found for toast_update_safe_box_name_sucess -->
+	<skip />
+	<!-- no translation found for toast_update_safe_box_name_fail -->
+	<skip />
+	<!-- no translation found for toast_safe_box_name_empty -->
+	<skip />
+	<!-- no translation found for cut_single_fail_tip -->
+	<skip />
+	<!-- no translation found for delete_single_fail_tip -->
+	<skip />
+	<!-- no translation found for copy_single_fail_tip -->
+	<skip />
+	<!-- no translation found for copy_multi_fail_tip -->
+	<skip />
+	<!-- no translation found for delete_multi_fail_tip -->
+	<skip />
+	<!-- no translation found for cut_multi_fail_tip -->
+	<skip />
+	<!-- no translation found for copy_all_fail_tip -->
+	<skip />
+	<!-- no translation found for delete_all_fail_tip -->
+	<skip />
+	<!-- no translation found for cut_all_fail_tip -->
+	<skip />
+	<!-- no translation found for past_multi_fail_tip -->
+	<skip />
+	<!-- no translation found for past_single_fail_tip -->
+	<skip />
+	<!-- no translation found for past_all_fail_tip -->
+	<skip />
+	<!-- no translation found for chip_encryption -->
+	<skip />
+	<!---->
+	<string name="safe_name_title">"Ateq"</string>
+	<!-- no translation found for update_name -->
+	<skip />
+	<!-- no translation found for fingerprint_relate -->
+	<skip />
+	<!-- no translation found for insufficient_message_cn -->
+	<skip />
+	<!-- no translation found for add_success -->
+	<skip />
+	<!-- no translation found for pasted_cn -->
+	<skip />
+	<!-- no translation found for no_search_result_cn -->
+	<skip />
+	<!-- no translation found for detail_time_cn -->
+	<skip />
+	<!-- no translation found for rename_limit -->
+	<skip />
+	<!-- no translation found for fingerprint_fail -->
+	<skip />
+	<!-- no translation found for answer_mistake -->
+	<skip />
+	<!-- no translation found for answer_empty_tip -->
+	<skip />
+	<!-- no translation found for new_safe -->
+	<skip />
+	<!-- no translation found for dialog_confirm -->
+	<skip />
+	<!-- no translation found for move_in_success -->
+	<skip />
+	<!-- no translation found for move_in_count -->
+	<skip />
+	<!-- no translation found for message_security_fingerprint_lockout -->
+	<skip />
+	<!-- no translation found for use_password_auth -->
+	<skip />
+	<!-- no translation found for storage_details -->
+	<skip />
+	<!-- no translation found for total_memory -->
+	<skip />
+	<!-- no translation found for system -->
+	<skip />
+	<!-- no translation found for category_fragment_title -->
+	<skip />
+	<!-- no translation found for storage -->
+	<skip />
+	<!-- no translation found for choice -->
+	<skip />
+	<!-- no translation found for view_tag_key -->
+	<skip />
+	<!-- no translation found for view_tag_key2 -->
+	<skip />
+	<!-- no translation found for finish_percent -->
+	<skip />
+	<!-- no translation found for select_pic -->
+	<skip />
+	<!-- no translation found for brackets_double -->
+	<skip />
+	<!-- no translation found for selected_pick -->
+	<skip />
+	<!-- no translation found for most_selected -->
+	<skip />
+	<!-- no translation found for finish_ready -->
+	<skip />
+	<!-- no translation found for select_pic_data -->
+	<skip />
+	<!-- no translation found for delete_determine_selected -->
+	<skip />
+	<!-- no translation found for delete_document -->
+	<skip />
+	<!-- no translation found for delete_folder -->
+	<skip />
+	<!-- no translation found for delete_folder_and -->
+	<skip />
+	<!-- no translation found for deselect_all_item -->
+	<skip />
+	<!-- no translation found for edit -->
+	<skip />
+	<!-- no translation found for storage_phone -->
+	<skip />
+	<!-- no translation found for storage_sdcard -->
+	<skip />
+	<!-- no translation found for storage_otg -->
+	<skip />
+	<!-- no translation found for storage_slash -->
+	<skip />
+	<!-- no translation found for welcome_security -->
+	<skip />
+	<!-- no translation found for welcome_security_info -->
+	<skip />
+	<!-- no translation found for welcome_convenient -->
+	<skip />
+	<!-- no translation found for welcome_convenient_info -->
+	<skip />
+	<!-- no translation found for welcome_depth -->
+	<skip />
+	<!-- no translation found for welcome_depth_info -->
+	<skip />
+	<!-- no translation found for welcome_add -->
+	<skip />
+	<!-- no translation found for welcome_add_info -->
+	<skip />
+	<!-- no translation found for welcome_dialog_title -->
+	<skip />
+	<!-- no translation found for welcome_dialog_info -->
+	<skip />
+	<!-- no translation found for welcome_dialog_verify_btn -->
+	<skip />
+	<!-- no translation found for welcome_dialog_verify_pwd -->
+	<skip />
+	<!-- no translation found for welcome_start_use -->
+	<skip />
+	<!-- no translation found for welcome_not_use -->
+	<skip />
+	<!-- no translation found for welcome_ok -->
+	<skip />
+	<!-- no translation found for encrypt_files_success -->
+	<skip />
+	<!-- no translation found for delete_direct -->
+	<skip />
+	<!-- no translation found for delete_file -->
+	<skip />
+</resources>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Siirry etusivulle"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Siirry ylös"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Lisää"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Valmis"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Näytä kaikki"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Valitse sovellus"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"POIS KÄYTÖSTÄ"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"KÄYTÖSSÄ"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Haku…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Tyhjennä kysely"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Hakulauseke"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Haku"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Lähetä kysely"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Puhehaku"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Jakaminen:"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Jakaminen: %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Kutista"</string>
+    <string name="action_menu_create_folder_button">"Luo kansio"</string>
+    <string name="add_favorite">"Lisää suosikkikansioon"</string>
+    <string name="alert_delete_multiple">"A kiválasztott fájlok törlésre kerülnek!"</string>
+    <string name="alert_delete_single">"Haluatko poistaa valitun tiedoston?"</string>
+    <string name="already_exists">"%1$s on jo käytössä"</string>
+    <string name="app_name">"Tiedostonhallinta"</string>
+    <string name="cancel">"Peruuta"</string>
+    <string name="category_apks">"APK-tiedostot"</string>
+    <string name="category_archives">"Arkistotiedostot"</string>
+    <string name="category_bluetooth">"Bluetooth"</string>
+    <string name="category_docs">"Asiakirjat"</string>
+    <string name="category_download">"Lataukset"</string>
+    <string name="category_favorite">"Suosikit"</string>
+    <string name="category_music">"Musiikki"</string>
+    <string name="category_pictures">"Kuvat"</string>
+    <string name="category_recordings">"Tallenteet"</string>
+    <string name="category_ringtones">"Soittoäänet"</string>
+    <string name="category_safebox">"Safebox"</string>
+    <string name="category_vedios">"Videot"</string>
+    <string name="change_mode">"Valitse tiedosto tai kansio"</string>
+    <string name="confirm_rename">"Vahvista uudelleennimeäminen"</string>
+    <string name="copy">"Kopioi"</string>
+    <string name="copy_deny">"Ei kopiointioikeuksia"</string>
+    <string name="create_folder">"Luo"</string>
+    <string name="create_hidden_file">"Tiedosto piilotetaan, jos sen nimi alkaa pisteellä (".")."</string>
+    <string name="cut">"Leikkaa"</string>
+    <string name="cut_deny">"Ei leikkausoikeuksia"</string>
+    <string name="default_folder_name">"Kansion nimi"</string>
+    <string name="default_search_text">"Etsi tiedostoja"</string>
+    <string name="del_favorite">"Poista suosikkikansiosta"</string>
+    <string name="delete">"poista"</string>
+    <string name="delete_deny">"Ei poistamisoikeuksia"</string>
+    <string name="delete_fail">"Poisto epäonnistui"</string>
+    <string name="deleting">"Poistetaan"</string>
+    <string name="deselect_all">"Poista kaikki valinnat"</string>
+    <string name="detail_name">"Tiedostonimi:"</string>
+    <string name="detail_path">"Sijainti:"</string>
+    <string name="detail_size">"Tiedostokoko:"</string>
+    <string name="detail_time">"Muokkausaika:"</string>
+    <string name="details">"Tiedot"</string>
+    <string name="done">"Valmis"</string>
+    <string name="draw_favourite">"Suosikki"</string>
+    <string name="draw_left_phone_storage">"Puhelimen sisäinen tallennustila"</string>
+    <string name="draw_left_sd_card">"SD-kortti"</string>
+    <string name="drawer_category">"Luokka"</string>
+    <string name="drawer_open">"Avaa"</string>
+    <string name="drawer_settings">"Asetukset"</string>
+    <string name="drm_current_count">"Nykyinen määrä："</string>
+    <string name="drm_current_right">"Nykyinen rajoitus："</string>
+    <string name="drm_forwardforbidden_message">"DRM-tiedostossa ei voi siirtyä eteenpäin."</string>
+    <string name="drm_forwardforbidden_title">"Ei eteenpäin"</string>
+    <string name="drm_no_valid_right">"Tiedostolla ei ole DRM-oikeuksia!"</string>
+    <string name="drm_wifidisplay_cancel_btn">"Poista Wi-Fi-näyttö käytöstä"</string>
+    <string name="drm_wifidisplay_message">"Kopiointisuojattua tiedostoa ei voi jakaa."</string>
+    <string name="drm_wifidisplay_ok">"OK"</string>
+    <string name="drm_wifidisplay_title">"Kopiointisuojatut tiedostot"</string>
+    <string name="empty_msg">"(Tyhjä kansio)"</string>
+    <string name="executable">"Suoritettava:"</string>
+    <string name="favourite">"Lisää suosikkeihin"</string>
+    <string name="file_name_too_long">"Nimi on liian pitkä"</string>
+    <string name="free_space">"Käytettävissä"</string>
+    <string name="hide">"Piilota järjestelmätiedostot"</string>
+    <string name="hide_file">"Piilota piilotetut tiedostot"</string>
+    <string name="insufficient_memory">"Muisti ei riitä"</string>
+    <string name="invalid_char_prompt">"Annoit virheellisen merkin"</string>
+    <string name="invalid_empty_name">"Tiedoston tai kansion nimi ei voi olla tyhjä"</string>
+    <string name="loading">"Ladataan…"</string>
+    <string name="menu_settings">"Asetukset"</string>
+    <string name="modified_time">"Muokattu"</string>
+    <string name="modify_hidden_file">"Tiedostoa ei piiloteta, jos sen nimi ei ala merkillä \'.\'."</string>
+    <string name="more">"Lisää"</string>
+    <string name="msg_rename_ext">"Olet vaihtamassa tiedostotunnistetta. Tiedostoa ei tämän vuoksi ehkä tunnisteta. Haluatko varmasti jatkaa?"</string>
+    <string name="msg_unable_open_file">"Tiedostomuotoa ei tueta."</string>
+    <string name="msg_unable_open_file_in_app">"Laitteessa ei ole tiedoston avaamiseen sopivaa sovellusta"</string>
+    <string name="name">"Nimi"</string>
+    <string name="new_folder">"Anna kansion nimi"</string>
+    <string name="new_folder_name">"Uuden kansion nimi"</string>
+    <string name="no">"Ei"</string>
+    <string name="no_search_result">"0 tulosta haulla \"%1$s\""</string>
+    <string name="not_available">"Ei käytettävissä"</string>
+    <string name="ok">"OK"</string>
+    <string name="operation_fail">"Tiedostotoiminto epäonnistui."</string>
+    <string name="paste">"Liitä"</string>
+    <string name="paste_fail">"Liittäminen epäonnistui"</string>
+    <string name="paste_same_folder">"Tiedostoa ei voi liittää samaan hakemistoon"</string>
+    <string name="paste_sub_folder">"Tiedostokansiota ei voi liittää sen alikansioon"</string>
+    <string name="pasting">"Liittäminen"</string>
+    <string name="path_not_exists">"Polkua %1$s ei ole olemassa"</string>
+    <string name="phone_storage">"Puhelimen tallennustila"</string>
+    <string name="readable">"Luettavissa："</string>
+    <string name="rename">"Nimeä uudelleen"</string>
+    <string name="right_url">"Käyttöoikeuden myöntäjän URL-osoite:："</string>
+    <string name="save">"Tallenna"</string>
+    <string name="sd_card">"SD-kortti"</string>
+    <string name="search">"Haku"</string>
+    <string name="searchResult">"Hakutulos"</string>
+    <string name="search_empty">"Hakusanaehtoja ei saa jättää tyhjäksi."</string>
+    <string name="search_files">"Etsi tiedostoja"</string>
+    <string name="search_result">"%2$d tulosta hakusanoilla \"%1$s\""</string>
+    <string name="search_result_count">"löydetty"</string>
+    <string name="search_result_title">"Hakutulokset"</string>
+    <string name="search_setting_description">"Paikalliset tiedostot ja kansiot"</string>
+    <string name="search_text_empty">"Hakusanaehtoja ei saa jättää tyhjäksi."</string>
+    <string name="select_all">"Valitse kaikki"</string>
+    <string name="selected">"Valittu"</string>
+    <string name="send_file">"Lähetä tiedosto"</string>
+    <string name="share">"Jaa"</string>
+    <string name="share_warning">"Enintään 100 tiedostoa voi jakaa."</string>
+    <string name="show">"Näytä järjestelmätiedostot"</string>
+    <string name="show_file">"Näytä piilotetut tiedostot"</string>
+    <string name="show_hide">"Näytä\\Piilota"</string>
+    <string name="size">"Koko"</string>
+    <string name="some_delete_fail">"Poistotoiminto epäonnistui."</string>
+    <string name="some_paste_fail">"Kaikkien tiedostojen liittäminen ei onnistunut"</string>
+    <string name="sort">"Lajittele"</string>
+    <string name="sort_by">"Lajitteluperuste"</string>
+    <string name="sort_by_date">"Muokkauspäivä"</string>
+    <string name="sort_by_name">"Nimi"</string>
+    <string name="sort_by_size">"Koko"</string>
+    <string name="sort_by_type">"Tyyppi"</string>
+    <string name="sort_name">"Lajittele nimen mukaan"</string>
+    <string name="sort_size">"Lajittele koon mukaan (suuri - pieni)"</string>
+    <string name="sort_time">"Lajittele ajan mukaan (uusi - vanha)"</string>
+    <string name="sort_type">"Lajittele tyypin mukaan"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="total_space">"Tallennustilaa yhteensä"</string>
+    <string name="tv_link_close_toast">"Wi-Fi-näyttö on suljettu"</string>
+    <string name="unfavourite">"Poista suosikeista"</string>
+    <string name="unknown">"Tuntematon"</string>
+    <string name="unlimited_usage">"Rajoittamaton käyttö"</string>
+    <string name="unmounted">"%1$s on poistettu käytöstä"</string>
+    <string name="usbotg">"Ulkoinen USB-tallennusväline"</string>
+    <string name="use_times">"Käytä %s kertaa"</string>
+    <string name="valid_after">"Voimassaolo alkaa:"</string>
+    <string name="valid_until">"Voimassaolo päättyy:"</string>
+    <string name="view_as_grid">"Näytä ruudukkona"</string>
+    <string name="view_as_list">"Näytä luettelona"</string>
+    <string name="view_by">"Näyttöperuste"</string>
+    <string name="viewby_details">"Näytä tiedot"</string>
+    <string name="viewby_grid">"Näytä ruudukkona"</string>
+    <string name="viewby_list">"Näytä luettelon mukaan"</string>
+    <string name="wait">"Odota…"</string>
+    <string name="warning">"Varoitus"</string>
+    <string name="writable">"Kirjoituskelpoinen："</string>
+    <string name="yes">"Kyllä"</string>
+</resources>

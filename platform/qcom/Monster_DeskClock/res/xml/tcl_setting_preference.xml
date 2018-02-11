@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+            <com.android.deskclock.TCLSettingSeekBarPreference
+            android:key="my_seekbar_preference"
+           />
+    
+    <mst.preference.SwitchPreference
+        android:key="vibrate_preference"
+        android:title="@string/alarm_vibrate" >
+    </mst.preference.SwitchPreference>
+    <mst.preference.SwitchPreference
+        android:key="interference_free_preference"
+        android:summary="@string/str_interference_free_des"
+        android:title="@string/str_interference_free_alarm" >
+    </mst.preference.SwitchPreference>
+
+</PreferenceScreen>

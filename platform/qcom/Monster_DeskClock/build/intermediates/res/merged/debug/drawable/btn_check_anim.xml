@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2015 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<animated-selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false" android:state_checked="true">
+        <bitmap android:src="@drawable/checkbox_00029"
+                android:alpha="?android:attr/disabledAlpha" />
+    </item>
+    <item android:state_enabled="false">
+        <bitmap android:src="@drawable/checkbox_00000"
+                android:alpha="?android:attr/disabledAlpha" />
+    </item>
+    <item android:state_checked="true" android:id="@+id/on">
+        <bitmap android:src="@drawable/checkbox_00029" />
+    </item>
+    <item android:id="@+id/off">
+        <bitmap android:src="@drawable/checkbox_00000" 
+            android:tint="?android:attr/colorControlNormal" />
+    </item>
+    <transition android:fromId="@+id/off" android:toId="@+id/on">
+        <animation-list>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/checkbox_00000" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/checkbox_00001" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/checkbox_00002" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/checkbox_00003" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/checkbox_00004"
+                         />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/checkbox_00005"
+                         />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/checkbox_00006"
+                         />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/checkbox_00007"
+                         />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/checkbox_00008"
+                         />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/checkbox_00009"
+                         />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/checkbox_00010"
+                         />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/checkbox_00011"
+                         />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/checkbox_00012"
+                         />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/checkbox_00013"
+                         />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/checkbox_00014"
+                         />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/checkbox_00015"
+                         />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/checkbox_00016"
+                         />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/checkbox_00017"
+                         />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/checkbox_00018"
+                         />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/checkbox_00019"
+                         />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/checkbox_00020"
+                         />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/checkbox_00021"
+                         />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/checkbox_00022"
+                         />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/checkbox_00023"
+                         />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/checkbox_00024"
+                         />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/checkbox_00025"
+                         />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/checkbox_00026"
+                         />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/checkbox_00027"
+                         />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/checkbox_00028"
+                         />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/checkbox_00029"
+                         />
+            </item>
+        </animation-list>
+    </transition>
+    <transition android:fromId="@+id/on" android:toId="@+id/off">
+        <animation-list>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/checkbox_00029"
+                         />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/checkbox_00028"
+                         />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/checkbox_00027"
+                         />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/checkbox_00026"
+                         />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/checkbox_00025"
+                         />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/checkbox_00024"
+                         />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/checkbox_00023"
+                         />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/checkbox_00022"
+                         />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/checkbox_00021"
+                         />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/checkbox_00020"
+                         />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/checkbox_00019"
+                         />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/checkbox_00018"
+                         />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/checkbox_00017"
+                         />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/checkbox_00016"
+                         />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/checkbox_00015"
+                         />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/checkbox_00014"
+                         />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/checkbox_00013"
+                         />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/checkbox_00012"
+                         />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/checkbox_00011"
+                         />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/checkbox_00010"
+                         />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/checkbox_00009"
+                         />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/checkbox_00008"
+                         />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/checkbox_00007"
+                         />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/checkbox_00006"
+                         />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/checkbox_00005"
+                         />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/checkbox_00004"
+                         />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/checkbox_00003"
+                         />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/checkbox_00002"
+                         />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/checkbox_00001"
+                         />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/checkbox_00000"
+                        android:tint="?android:attr/colorControlNormal" />
+            </item>
+        </animation-list>
+    </transition>
+</animated-selector>
+
+

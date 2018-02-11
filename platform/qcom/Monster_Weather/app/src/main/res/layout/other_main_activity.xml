@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_activity_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <cn.tcl.weather.view.CustomSwipeRefreshLayout
+        android:id="@+id/swipe_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <cn.tcl.weather.view.PagerView
+            android:id="@+id/viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </cn.tcl.weather.view.CustomSwipeRefreshLayout>
+
+    <ImageView
+        android:id="@+id/iv_menu"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_gravity="end|top"
+        android:layout_marginTop="22dp"
+        android:layout_marginRight="15dp"
+        android:background="?android:attr/selectableItemBackgroundBorderless"
+        android:padding="8dp"
+        android:src="@drawable/tcl_wether_balloon"
+        android:visibility="visible" />
+
+</FrameLayout>

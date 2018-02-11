@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/picto_pause_on" android:state_pressed="true" android:state_selected="true"/>
+    <item android:drawable="@drawable/picto_pause_off" android:state_selected="true"/>
+    <item android:drawable="@drawable/picto_play_on" android:state_pressed="true"/>
+    <item android:drawable="@drawable/picto_play_off"/>
+</selector>

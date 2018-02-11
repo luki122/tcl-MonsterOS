@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/import_from_sim1_menu"
+        android:title="@string/import_from_sim1_menu"/>
+    <item
+        android:id="@+id/import_from_sim2_menu"
+        android:title="@string/import_from_sim2_menu"/>
+<!--     <item
+        android:id="@+id/export_to_sim1_menu"
+        android:title="@string/export_to_sim1_menu"/>
+    <item
+        android:id="@+id/export_to_sim2_menu"
+        android:title="@string/export_to_sim2_menu"/> -->
+
+</menu>

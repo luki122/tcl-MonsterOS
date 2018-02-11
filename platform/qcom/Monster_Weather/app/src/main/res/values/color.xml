@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <color name="transparent">#00000000</color>
+    <color name="bg_yellow">#FFCC00</color>
+    <color name="bg_menu">#FF030608</color>
+    <!-- PR845163 Menu options isn't be highlight when tap it by jielong.xing at 2014-11-25 begin -->
+    <color name="menu_default">#FF33c2e8</color>
+    <color name="menu_click">#FF1ba2db</color>
+    <!-- PR845163 Menu options isn't be highlight when tap it by jielong.xing at 2014-11-25 end -->
+    <color name="color_primary">#3f51b2</color>
+    <!-- <color name="color_primary_dark">#021636</color> -->
+    <!--status bar color  -->
+    <color name="color_primary_dark">#303f9f</color>
+    <color name="color_control_highlight">#303f9f</color>
+    <color name="color_accent_color">#ff4081</color>
+    <color name="actionbar_text_color">#ffffffff</color>
+
+    <!-- added by ting.ma at 2015-03-12 begin  -->
+    <color name="color_ripple_textview">#1A000000</color>
+    <!-- added by ting.ma at 2015-03-12 end  -->
+
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="text_color">#eceff1</color>
+    <color name="background_color">#455a64</color>
+
+    <color name="text_color_purple">#202958</color>
+    <color name="text_color_black">#37474f</color>
+    <color name="text_color_grey">#61202958</color>
+    <color name="text_color_more_grey">#77202958</color>
+    <color name="text_color_high_grey">#dd202958</color>
+    <color name="text_color_grey_val">#dd2B396B</color>
+    <color name="text_color_grey_unit">#602B396B</color>
+    <color name="daily_text_color">#FFFFFF</color>
+    <color name="daily_text_color2">#7effffff</color>
+
+    <color name="card_background_color_light">#ffffffff</color>
+    <color name="card_background_color_dark">#ffeeeeee</color>
+    <color name="divider_color">#0d000000</color>
+
+
+    <color name="text_clear">#202959</color>
+    <color name="text_sunny">#2193f0</color>
+    <color name="text_cloundy">#2193f0</color>
+    <color name="text_fog">#37474f</color>
+    <color name="text_frost">#37474f</color>
+    <color name="text_rainny">#37474f</color>
+    <color name="text_snow">#37474f</color>
+    <color name="text_storm">#ff009688</color>
+
+    <color name="background_clear">#221548</color>
+    <color name="background_sunny">#004562</color>
+    <color name="background_cloundy">#1A3652</color>
+    <color name="background_fog">#1A3652</color>
+    <color name="background_frost">#00374C</color>
+    <color name="background_rainny">#004562</color>
+    <color name="background_snow">#00374C</color>
+    <color name="background_storm">#0D0040</color>
+    <color name="background_night_cloundy">#221548</color>
+
+    <color name="text_time_widget_black">#DD000000</color>
+
+
+    <color name="clr_ff4e4e4e">#4e4e4e</color>
+    <color name="clr_ff66CCCC">#66CCCC</color>
+    <color name="clr_ff666666">#666666</color>
+    <color name="clr_b8000000">#B8000000</color>
+    <color name="clr_8A000000">#8A000000</color>
+    <color name="clr_ffffffff">#ffffff</color>
+
+    <color name="clr_4c000000">#4C000000</color>
+    <color name="clr_fff09a0f">#FFF09A0F</color>
+    <color name="clr_99000000">#99000000</color>
+    <color name="clr_4D000000">#4D000000</color>
+    <color name="clr_db000000">#DB000000</color>
+    <color name="background_scroll_view">#F7F7F7</color>
+    <color name="clr_fff7f7f7">#FFF7F7F7</color>
+
+    <!--Warning text color-->
+    <color name="clr_warning_rainstorm">#FFB95749</color>
+    <color name="clr_warning_hail">#FF8D7E9F</color>
+    <color name="clr_warning_high_temperature">#FFE5AB4C</color>
+    <color name="clr_warning_heavy_foggy">#FF9FAFB8</color>
+    <color name="clr_warning_icy_road">#FF7C8CA2</color>
+    <color name="clr_warning_dusthaze">#FF748A8D</color>
+    <color name="clr_warning_cold_wave">#FF54739D</color>
+    <color name="clr_warning_thunderstorm">#FFB47F44</color>
+    <color name="clr_warning_forest_fire">#FFCF4747</color>
+    <color name="clr_warning_typhoon">#FFD7900F</color>
+    <color name="clr_warning_haze">#FF748A8D</color>
+    <color name="clr_thunderstorm_gusty_winds">#FF748A8D</color>
+    <color name="clr_lower_temperature">#FF638AAF</color>
+    <color name="clr_dry_and_hot_wind">#FFE3B663</color>
+    <color name="clr_low_temperature">#FF636EB0</color>
+    <color name="clr_frozen">#FF6F7EA6</color>
+    <color name="clr_normal_haze">#FFAAB3B6</color>
+    <color name="clr_frost">#FF5999B7</color>
+    <color name="clr_thunder">#FFD8C342</color>
+    <color name="clr_drought">#FFA59C8A</color>
+    <color name="clr_sand_storm">#FFC59F5E</color>
+    <color name="clr_gusty_winds">#FFCF7A5B</color>
+    <color name="clr_cold">#FF5E7EB2</color>
+    <color name="clr_blizzard">#FFA69FC8</color>
+
+    <color name="clr_warning_default">#FFF09A0F</color>
+</resources>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/whole_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/file_path_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/main_filepathbrower_height"
+        android:background="@color/file_path_layout_bg"
+        android:paddingLeft="@dimen/main_filepathbrower_margin"
+        android:paddingRight="@dimen/main_filepathbrower_margin"
+        android:orientation="vertical">
+
+        <cn.tcl.filemanager.view.HorizontalListView
+            android:id="@+id/listview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:stackFromBottom="true"></cn.tcl.filemanager.view.HorizontalListView>
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/pb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_gravity="center"/>
+
+
+    <RelativeLayout
+        android:id="@+id/content_layout"
+        android:layout_marginTop="@dimen/main_filepathbrower_height"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:id="@+id/list_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/select_cancel_bar"
+            android:divider="@drawable/list_view_divider" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignTop="@+id/select_cancel_bar"
+            android:background="?android:attr/listDivider" />
+
+        <LinearLayout
+            android:id="@+id/select_cancel_bar"
+            style="@android:style/Holo.ButtonBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true">
+
+            <Button
+                android:id="@+id/select_cancel"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/cancel"
+                android:textColor="@color/title_text_color" />
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout
+        android:id="@+id/list_no_folder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/main_filepathbrower_height"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:src="@drawable/empty_icon" />
+
+        <TextView
+            android:id="@+id/list_no_folder_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="monster-normal"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="@string/no_folder_cn"
+            android:layout_marginTop ="@dimen/no_folder_margin_top"
+            android:textColor="@color/grid_time_text_color"
+            android:textSize="@dimen/no_folder_font_size" />
+    </LinearLayout>
+
+</FrameLayout>

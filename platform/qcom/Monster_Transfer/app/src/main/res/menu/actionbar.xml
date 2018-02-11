@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/select_all"
+          android:title="@string/select_all"
+          android:showAsAction="always"/>
+
+    <!--<item android:id="@+id/unselect"-->
+          <!--android:title="@string/select_none"-->
+          <!--app:showAsAction="always"/>-->
+</menu>

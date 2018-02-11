@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minHeight="?android:attr/listPreferredItemHeight"
+    android:orientation="vertical"
+    android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
+    android:paddingStart="?android:attr/listPreferredItemPaddingStart" >
+
+    <TextView
+        android:id="@+id/tv_dataplan_free"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:text="@string/dataplan_free"
+        android:textAppearance="?android:attr/textAppearanceListItemSmall" />
+
+    <!-- <RelativeLayout -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_toRightOf="@id/tv_dataplan_free" -->
+    <!-- android:layout_alignParentRight="true" -->
+    <!-- android:layout_centerVertical="true" -->
+    <!-- android:background="@com.mst:drawable/edit_text_material" > -->
+
+    <TextView
+        android:id="@+id/tv_unit_free"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:text="@string/data_unit"
+        android:textColor="@color/color_data_total_text" />
+
+    <EditText
+        android:id="@+id/edt_dataplan_total_free"
+        android:layout_width="@dimen/edt_man_correct_width"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/tv_unit_free"
+        android:ems="10"
+        android:gravity="center_vertical|right"
+        android:inputType="number|numberDecimal"
+        android:maxLength="5"
+        android:singleLine="true"
+        android:textColor="@color/color_data_total_text" >
+    </EditText>
+    <!-- android:background="@com.mst:drawable/edit_text_material" -->
+    <!-- </RelativeLayout> -->
+
+</RelativeLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="32dp"
+    android:paddingEnd="32dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="5dp">
+
+        <EditText
+            android:id="@+id/update_question_original"
+            android:layout_width="match_parent"
+            android:digits="1234567890"
+            android:inputType="numberPassword"
+            android:maxLength="12"
+            android:hint="@string/input_password"
+            android:layout_toStartOf="@+id/update_question_show_password"
+            android:paddingLeft="3dp"
+            android:password="true"
+            style="@style/rectangleEdittextStyle"
+            android:textSize="@dimen/edit_text_view_text_size"/>
+
+        <ImageView
+            android:id="@+id/update_question_show_password"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:src="@drawable/ic_eye_off"/>
+    </RelativeLayout>
+
+    <Spinner
+        android:id="@+id/update_question_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="-7dp"
+        android:entries="@array/safe_question"/>
+
+    <EditText
+        android:id='@+id/update_question_answer'
+        style="@style/rectangleEdittextStyle"
+        android:layout_marginBottom="10dp"
+        android:textSize="@dimen/edit_text_view_text_size"
+        android:hint="@string/set_password_safe_question_answer"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/set_password_safe_forget_pass"/>
+
+</LinearLayout>

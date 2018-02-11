@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/ll_ignore_empty"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/ignored_folder_empty_iv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="23dp"
+            android:layout_marginRight="23dp"
+            android:src="@drawable/ignored_empty" />
+
+        <TextView
+            android:id="@+id/ignored_folder_empty_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="57dp"
+            android:layout_marginRight="57dp"
+            android:layout_marginTop="30dp"
+            android:layout_below="@id/ignored_folder_empty_iv"
+            android:alpha="0.4"
+            android:text="@string/ignored_empty"
+            android:textColor="#000000"
+            android:gravity="center_horizontal"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_ignore"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white">
+
+        <RelativeLayout
+            android:id="@+id/ignored_and_scan_layout"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:visibility="visible">
+
+            <TextView
+                android:id="@+id/folder_and_songs_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="24dp"
+                android:alpha="0.86"
+                android:gravity="center_vertical"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/folder_recover_scan_all"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="24dp"
+                android:gravity="center_vertical"
+                android:text="@string/all_recover_scan"
+                android:textSize="15sp" />
+        </RelativeLayout>
+
+        <FrameLayout
+            android:id="@id/recycler_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <cn.tcl.music.view.ContextMenuReyclerView
+                android:id="@id/recycler_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbarStyle="insideOverlay"
+                android:scrollbars="horizontal|vertical"
+                android:theme="@android:style/Theme.DeviceDefault.Light" />
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

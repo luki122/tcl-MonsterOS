@@ -1,0 +1,44 @@
+<com.android.camera.ui.SoundGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sound_group"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:layout_marginRight="@dimen/sound_margin_right"
+    android:layout_marginBottom="@dimen/sound_margin_bottom"
+    android:visibility="gone" >
+
+    <com.android.camera.widget.SoundAction
+        android:id="@+id/sound_action"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:orientation="horizontal"
+        android:fillViewport="true" >
+
+        <com.android.camera.ui.RotateImageView
+            android:id="@+id/kid_laser"
+            style="@style/KidSoundIcon"
+            android:src="@drawable/ic_kid_laser" />
+
+        <com.android.camera.ui.RotateImageView
+            android:id="@+id/kid_harp"
+            style="@style/KidSoundIcon"
+            android:src="@drawable/ic_kid_harp" />
+
+        <com.android.camera.ui.RotateImageView
+            android:id="@+id/kid_sheep"
+            style="@style/KidSoundIcon"
+            android:src="@drawable/ic_kid_sheep" />
+
+        <com.android.camera.ui.RotateImageView
+            android:id="@+id/kid_train"
+            style="@style/KidSoundIcon"
+            android:src="@drawable/ic_kid_train" />
+
+        <com.android.camera.ui.RotateImageView
+            android:id="@+id/kid_cat"
+            style="@style/KidSoundIcon"
+            android:src="@drawable/ic_kid_cat" />
+
+    </com.android.camera.widget.SoundAction>
+</com.android.camera.ui.SoundGroup>

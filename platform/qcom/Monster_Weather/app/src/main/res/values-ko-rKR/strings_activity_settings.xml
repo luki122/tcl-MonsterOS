@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!-- no translation found for pref_header_data_sync -->
+	<skip />
+	<!---->
+	<string name="pref_title_sync_frequency">"받은편지함 확인 빈도"</string>
+	<string-array name="pref_sync_frequency_titles">
+		<item>"15분"</item>
+		<item>"30분"</item>
+		<item>"1시간"</item>
+		<item>"3시간"</item>
+		<item>"6시간"</item>
+		<item>"안함"</item>
+	</string-array>
+	<!-- no translation found for pref_sync_frequency_values -->
+	<skip />
+	<!---->
+	<string name="pref_title_system_sync_settings">"시스템 싱크 설정"</string>
+	<!-- no translation found for pref_auto_update_values -->
+	<skip />
+	<!-- no translation found for pref_temp_unit_values -->
+	<skip />
+	<!-- no translation found for pref_distance_unit_values -->
+	<skip />
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string-array name="wifi_signal">
+        <item>强</item>
+        <item>较强</item>
+        <item>一般</item>
+        <item>弱</item>
+    </string-array>
+
+   <string-array name="special_locale_codes">
+        <item>zh_CN</item>
+        <item>zh_TW</item>
+    </string-array>
+    <string-array name="special_locale_names">
+        <item>中文 (简体)</item>
+        <item>中文 (繁體)</item>
+    </string-array>
+</resources>

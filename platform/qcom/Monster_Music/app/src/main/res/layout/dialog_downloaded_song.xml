@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@id/action_play_next"
+        android:layout_width="fill_parent"
+        android:layout_height="42dp"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/base"
+        android:text="@string/play_next" />
+
+    <TextView
+        android:id="@id/action_add_to_playlist"
+        android:layout_width="fill_parent"
+        android:layout_height="42dp"
+        android:layout_marginTop="8dp"
+        android:lineSpacingExtra="5dp"
+        android:textColor="@color/base"
+        android:text="@string/add_to_playlist" />
+
+
+    <TextView
+        android:id="@id/action_add_to_queue"
+        android:layout_width="fill_parent"
+        android:layout_height="42dp"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/base"
+        android:text="@string/add_to_play_queue" />
+
+    <TextView
+        android:id="@id/action_remove"
+        android:layout_width="fill_parent"
+        android:layout_height="42dp"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/base"
+        android:text="@string/remove" />
+
+</LinearLayout>

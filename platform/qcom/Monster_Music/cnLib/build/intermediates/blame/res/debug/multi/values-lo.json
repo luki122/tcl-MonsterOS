@@ -1,0 +1,88 @@
+[
+    {
+        "outputFile": "/home/ximoon/document/git/Monster_Music/cnLib/build/intermediates/incremental/mergeDebugResources/merged.dir/values-lo/values-lo.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 62,
+                    "endOffset": 113
+                },
+                "from": {
+                    "file": "/home/ximoon/document/git/Monster_Music/cnLib/src/main/res/values-lo/strings.xml",
+                    "position": {
+                        "startLine": 148,
+                        "startColumn": 1,
+                        "startOffset": 5405,
+                        "endColumn": 59,
+                        "endOffset": 5463
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 118,
+                    "endColumn": 53,
+                    "endOffset": 167
+                },
+                "from": {
+                    "file": "/home/ximoon/document/git/Monster_Music/cnLib/src/main/res/values-lo/strings.xml",
+                    "position": {
+                        "startLine": 34,
+                        "startColumn": 1,
+                        "startOffset": 1262,
+                        "endColumn": 50,
+                        "endOffset": 1311
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/home/ximoon/document/git/Monster_Music/cnLib/build/intermediates/res/merged/debug/values-lo/values-lo.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 62,
+                    "endOffset": 113
+                },
+                "from": {
+                    "file": "/home/ximoon/document/git/Monster_Music/cnLib/src/main/res/values-lo/strings.xml",
+                    "position": {
+                        "startLine": 148,
+                        "startColumn": 1,
+                        "startOffset": 5405,
+                        "endColumn": 59,
+                        "endOffset": 5463
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 118,
+                    "endColumn": 53,
+                    "endOffset": 167
+                },
+                "from": {
+                    "file": "/home/ximoon/document/git/Monster_Music/cnLib/src/main/res/values-lo/strings.xml",
+                    "position": {
+                        "startLine": 34,
+                        "startColumn": 1,
+                        "startOffset": 1262,
+                        "endColumn": 50,
+                        "endOffset": 1311
+                    }
+                }
+            }
+        ]
+    }
+]

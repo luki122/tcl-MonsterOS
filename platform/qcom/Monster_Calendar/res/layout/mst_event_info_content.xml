@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2013 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@null"
+    android:orientation="vertical"
+    android:padding="15dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:minHeight="64dp"
+        android:orientation="vertical"
+        android:paddingBottom="11dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="11dp" >
+
+        <!-- WHAT -->
+
+        <TextView
+            android:id="@+id/event_title"
+            style="@style/TextAppearance.TextView_Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- DESCRIPTION -->
+
+        <TextView
+            android:id="@+id/event_description"
+            style="@style/TextAppearance.TextView_Summary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@string/event_info_no_description" />
+    </LinearLayout>
+
+    <!-- WHEN -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/white" >
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingBottom="11dp"
+            android:paddingLeft="15dp"
+            android:paddingTop="11dp" >
+
+            <TextView
+                android:id="@+id/begin_time"
+                style="@style/TextAppearance.TextView_Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/begin_date"
+                style="@style/TextAppearance.TextView_Summary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/mst_event_from_to" />
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingBottom="11dp"
+            android:paddingRight="15dp"
+            android:paddingTop="11dp" >
+
+            <TextView
+                android:id="@+id/end_date"
+                style="@style/TextAppearance.TextView_Summary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true" />
+
+            <TextView
+                android:id="@+id/end_time"
+                style="@style/TextAppearance.TextView_Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/end_date" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="?android:attr/colorPrimary" />
+
+        <LinearLayout
+            android:layout_width="54dp"
+            android:layout_height="match_parent"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/event_reminder"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:background="?android:attr/selectableItemBackgroundBorderless"
+                android:scaleType="center" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- REPEAT -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/white"
+        android:gravity="center_vertical"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp" >
+
+        <TextView
+            style="@style/TextAppearance.TextView_Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/event_repeat_label" />
+
+        <TextView
+            android:id="@+id/event_repeat"
+            style="@style/TextAppearance.TextView_Summary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="@string/event_no_repeat" />
+    </RelativeLayout>
+
+</LinearLayout>

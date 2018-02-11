@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="56dp">
+
+    <RadioButton
+        android:id="@+id/radiobutton"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:paddingLeft="38dp"
+        android:button="@null"
+        android:textSize="14sp"
+        android:background="@drawable/list_item_bg"
+        android:textColor="@color/rgb_333333"
+        android:gravity="center_vertical|left"/>
+    <ImageView
+        android:id="@+id/radioImage"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_centerVertical="true"
+        />
+    <!-- the divider -->
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="0.7dp"
+        android:layout_below="@id/radiobutton"
+        android:background="@color/rgb_e9e9e9"/>
+</RelativeLayout>

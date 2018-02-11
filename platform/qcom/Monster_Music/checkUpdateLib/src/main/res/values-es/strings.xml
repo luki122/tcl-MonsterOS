@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    	<string name="tip_network_error">Error de red</string>
+    	<string name="check_new">Buscar actualización</string>
+    	<string name="update_download_fail">Error al descargar</string>
+    	<string name="update_ask_tip">Debe actualizar a la última versión.</string>
+    	<string name="update_no_need">Esta es la versión más reciente.</string>
+    	<string name="downloaded_finish">Descarga completada</string>
+    	<string name="notification_downloading">Descargando</string>
+    	<string name="update_notification_tips">Para una mejor experiencia, descárguese la última versión.</string>
+    	<string name="update_notification_title">Actualizar notificación</string>
+    	<string name="update">Ahora</string>
+    	<string name="try_later">Más tarde</string>
+    	<string name="versionDesc">Información de la versión:</string>
+    	
+    	<string name="update_available">Actualización disponible</string>
+    	<string name="downloading">Descargando...</string>
+    	<string name="update_notify_tip">Hay una nueva versión disponible. ¿Desea actualizar ahora?</string>
+    	<string name="update_detail_prefix">Detalles de la actualización:</string>
+    	<string name="update_not_now">Ahora no</string>
+    	<string name="update_now">Actualizar</string>
+    	<string name="network_error_tip">Error de red. Compruebe su conexión de red e inténtelo de nuevo.</string>
+    	<string name="update_force_nofity_tip">Le recomendamos que actualice la aplicación a la versión más reciente.</string>
+    	<string name="update_no_updates">No hay actualizaciones.</string>
+    	<string name="update_no_updates_tip">No hay actualizaciones.</string>
+    	<string name="update_confirm">ACEPTAR</string>
+</resources>

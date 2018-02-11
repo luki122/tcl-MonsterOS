@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="search_location">"搜尋位置"</string>
+	<!---->
+	<string name="app_name">"天氣"</string>
+	<!---->
+	<string name="locate_connect_error">"無法連接至互聯網。"</string>
+	<!-- no translation found for date_am -->
+	<skip />
+	<!-- no translation found for date_pm -->
+	<skip />
+	<!-- no translation found for test_city_name -->
+	<skip />
+	<!-- no translation found for test_air_state -->
+	<skip />
+	<!-- no translation found for test_weather_tip -->
+	<skip />
+	<!-- no translation found for test_temp -->
+	<skip />
+	<!-- no translation found for test_weather_state -->
+	<skip />
+	<!-- no translation found for test_weather_warn -->
+	<skip />
+	<!---->
+	<string name="release_time">"發佈時間"</string>
+	<!---->
+	<string name="early_warning_information">"預警資訊"</string>
+	<!---->
+	<string name="day_weather_monday">"週一"</string>
+	<!---->
+	<string name="day_weather_tuesday">"週二"</string>
+	<!---->
+	<string name="day_weather_wednesday">"週三"</string>
+	<!---->
+	<string name="day_weather_thursday">"週四"</string>
+	<!---->
+	<string name="day_weather_friday">"週五"</string>
+	<!---->
+	<string name="day_weather_saturday">"週六"</string>
+	<!---->
+	<string name="day_weather_sunday">"週日"</string>
+	<!---->
+	<string name="day_weather_yesterday">"昨天"</string>
+	<!---->
+	<string name="day_weather_today">"今天"</string>
+	<!---->
+	<string name="refreshing">"正在重新整理......"</string>
+	<!---->
+	<string name="weather_manager">"城市管理"</string>
+	<!---->
+	<string name="system_tips">"系統提示"</string>
+	<!---->
+	<string name="confirm">"確認"</string>
+	<!---->
+	<string name="delete_city">"是否刪除城市？"</string>
+	<!---->
+	<string name="back">"返回"</string>
+	<!---->
+	<string name="now">"現在"</string>
+	<!---->
+	<string name="hot">"熱"</string>
+	<!-- no translation found for test -->
+	<skip />
+	<!---->
+	<string name="delete">"刪除"</string>
+	<!---->
+	<string name="life_index_tip">"推薦穿短袖短褲清涼夏日服裝等"</string>
+	<!---->
+	<string name="humidity_str">"濕度"</string>
+	<!---->
+	<string name="alarm">"警示"</string>
+	<!---->
+	<string name="dress_index_str">"著裝指數"</string>
+	<!---->
+	<string name="sport_index_str">"運動指數"</string>
+	<!---->
+	<string name="sunscreen_index_str">"防曬指數"</string>
+	<!---->
+	<string name="car_wash_index_str">"洗車指數"</string>
+	<!---->
+	<string name="weather_sunny">"陽光燦爛"</string>
+	<!---->
+	<string name="weather_cloudy">"陰天"</string>
+	<!---->
+	<string name="weather_overcast">"陰沉"</string>
+	<!---->
+	<string name="weather_shower">"陣雨"</string>
+	<!---->
+	<string name="weather_thunder_shower">"雷陣雨"</string>
+	<!---->
+	<string name="weather_thunder_shower_with_hail">"冰雹雷陣雨"</string>
+	<!---->
+	<string name="weather_sleet">"凍雨"</string>
+	<!---->
+	<string name="weather_light_rain">"小雨"</string>
+	<!---->
+	<string name="weather_moderate_rain">"中雨"</string>
+	<!---->
+	<string name="weather_heavy_rain">"大雨"</string>
+	<!---->
+	<string name="weather_storm">"風暴"</string>
+	<!---->
+	<string name="weather_heavy_storm">"暴風雨"</string>
+	<!---->
+	<string name="weather_severe_storm">"颶風"</string>
+	<!---->
+	<string name="weather_snow_flurry">"陣雪"</string>
+	<!---->
+	<string name="weather_light_snow">"小雪"</string>
+	<!---->
+	<string name="weather_moderate_snow">"中雪"</string>
+	<!---->
+	<string name="weather_heavy_snow">"大雪"</string>
+	<!---->
+	<string name="weather_snow_storm">"暴雪"</string>
+	<!---->
+	<string name="weather_foggy">"有霧"</string>
+	<!---->
+	<string name="weather_ice_rain">"凍雨"</string>
+	<!---->
+	<string name="weather_dust_storm">"沙塵暴"</string>
+	<!---->
+	<string name="weather_light_to_moderate_rain">"小到中雨"</string>
+	<!---->
+	<string name="weather_moderate_to_heavy_rain">"中到大雨"</string>
+	<!---->
+	<string name="weather_heavy_rain_to_storm">"大到暴雨"</string>
+	<!---->
+	<string name="weather_storm_to_heavy">"暴風雨"</string>
+	<!---->
+	<string name="weather_heavy_to_server_storm">"特大暴雨"</string>
+	<!---->
+	<string name="weather_light_to_moderate_snow">"小到中雪"</string>
+	<!---->
+	<string name="weather_moderate_snow_to_heavy_snow">"中到大雪"</string>
+	<!---->
+	<string name="weather_snow_heavy_snow_to_snow_storm">"大到暴雪"</string>
+	<!---->
+	<string name="weather_dust">"塵"</string>
+	<!---->
+	<string name="weather_sand">"沙"</string>
+	<!---->
+	<string name="weather_sand_storm">"沙塵暴"</string>
+	<!---->
+	<string name="weather_dense_foggy">"濃霧"</string>
+	<!---->
+	<string name="weather_snow">"雪"</string>
+	<!---->
+	<string name="weather_moderate_foggy">"強濃霧"</string>
+	<!---->
+	<string name="weather_haze">"陰霾"</string>
+	<!---->
+	<string name="weather_moderate_haze">"霾"</string>
+	<!---->
+	<string name="weather_heavy_haze">"霾"</string>
+	<!---->
+	<string name="weather_severe_haze">"重霾"</string>
+	<!---->
+	<string name="weather_heavy_foggy">"重霧"</string>
+	<!---->
+	<string name="weather_severe_foggy">"重霧"</string>
+	<!---->
+	<string name="weather_unknown">"未知"</string>
+	<!---->
+	<string name="air_fine">"空氣質量很好"</string>
+	<!---->
+	<string name="air_good">"空氣質量優良"</string>
+	<!---->
+	<string name="air_common">"空氣質量一般"</string>
+	<!---->
+	<string name="air_substandard">"空氣質量差"</string>
+	<!---->
+	<string name="air_turbidity">"空氣質量渾濁"</string>
+	<!---->
+	<string name="air_bad">"空氣質量糟糕"</string>
+	<!---->
+	<string name="warning_typhoon">"颱風"</string>
+	<!---->
+	<string name="warning_rainstorm">"暴雨"</string>
+	<!---->
+	<string name="warning_blizzard">"暴風雪"</string>
+	<!---->
+	<string name="warning_cold_wave">"寒流"</string>
+	<!---->
+	<string name="warning_gusty_winds">"陣陣大風"</string>
+	<!---->
+	<string name="warning_sandstorm">"沙塵暴"</string>
+	<!---->
+	<string name="warning_high_temperature">"高溫"</string>
+	<!---->
+	<string name="warning_drought">"乾旱"</string>
+	<!---->
+	<string name="warning_thunder">"雷雨"</string>
+	<!---->
+	<string name="warning_hail">"冰雹"</string>
+	<!---->
+	<string name="warning_frost">"霧"</string>
+	<!---->
+	<string name="warning_heavy_foggy">"重霧"</string>
+	<!---->
+	<string name="warning_haze">"陰霾"</string>
+	<!---->
+	<string name="warning_icy_road">"路面結冰"</string>
+	<!---->
+	<string name="gd_rainstorm">"暴雨"</string>
+	<!---->
+	<string name="gd_high_temperature">"高溫"</string>
+	<!---->
+	<string name="gd_hail">"冰雹"</string>
+	<!---->
+	<string name="gd_heavy_foggy">"重霧"</string>
+	<!---->
+	<string name="gd_icy_road">"路面結冰"</string>
+	<!---->
+	<string name="gd_haze">"陰霾"</string>
+	<!---->
+	<string name="gd_cold_wave">"寒冷"</string>
+	<!---->
+	<string name="gd_thunderstorm_gusty_winds">"雷雨"</string>
+	<!---->
+	<string name="gd_forest_fire">"森林火災"</string>
+	<!---->
+	<string name="gd_typhoon">"颱風"</string>
+	<!---->
+	<string name="wind_light">"&lt;10m/h"</string>
+	<!---->
+	<string name="wind_3_grade">"10~17m/h"</string>
+	<!---->
+	<string name="wind_4_grade">"主頁面"</string>
+	<!---->
+	<string name="wind_5_grade">"25~34m/h"</string>
+	<!---->
+	<string name="wind_6_grade">"34~43m/h"</string>
+	<!---->
+	<string name="wind_7_grade">"43~54m/h"</string>
+	<!---->
+	<string name="wind_8_grade">"54~65m/h"</string>
+	<!---->
+	<string name="wind_9_grade">"65~77m/h"</string>
+	<!---->
+	<string name="wind_10_grade">"77~89m/h"</string>
+	<!---->
+	<string name="wind_11_grade">"89~102m/h"</string>
+	<!---->
+	<string name="wind_direction_no_wind">"無風"</string>
+	<!---->
+	<string name="wind_direction_northeast">"東北"</string>
+	<!---->
+	<string name="wind_direction_east">"東"</string>
+	<!---->
+	<string name="wind_direction_southeast">"東南"</string>
+	<!---->
+	<string name="wind_direction_south">"南"</string>
+	<!---->
+	<string name="wind_direction_southwest">"西南"</string>
+	<!---->
+	<string name="wind_direction_west">"西"</string>
+	<!---->
+	<string name="wind_direction_northwest">"西北"</string>
+	<!---->
+	<string name="wind_direction_north">"北"</string>
+	<!---->
+	<string name="wind_direction_whirl_wind">"旋風"</string>
+	<!---->
+	<string name="city_is_too_much">"太多城市，請刪除後添加！"</string>
+	<!---->
+	<string name="update_result_suc">"刷新成功！"</string>
+	<!---->
+	<string name="update_result_fail">"刷新失敗！"</string>
+	<!---->
+	<string name="date_overdue_tip">"刷新失敗。\n 資料已過期"</string>
+	<!---->
+	<string name="warnProvince">"四川"</string>
+	<!---->
+	<string name="warnCity">"成都"</string>
+	<!---->
+	<string name="warnCounty">"高新"</string>
+	<!---->
+	<string name="warnContent">"與下得有點大"</string>
+	<!---->
+	<string name="warnCategoryName">"大風"</string>
+	<!---->
+	<string name="warnGradeName">"藍色"</string>
+	<!---->
+	<string name="warnGradeNo">"04"</string>
+	<!---->
+	<string name="warnNo">"05"</string>
+	<!---->
+	<string name="warnTime">"2015 年 9 月 19 日 17:00"</string>
+	<!---->
+	<string name="add_city_failed">"添加城市失敗，請檢查網路"</string>
+	<!---->
+	<string name="adding_city">"新增程式..."</string>
+	<!---->
+	<string name="sunny_tip">"晴空萬里\n外出"</string>
+	<!---->
+	<string name="cloudy_tip">"微風和煦，陽光明媚\n適合外出"</string>
+	<!---->
+	<string name="overcast_tip">"微風和煦，陽光明媚\n適合外出"</string>
+	<!---->
+	<string name="shower_tip">"陰轉晴\n雨過天晴"</string>
+	<!---->
+	<string name="thunder_shower_tip">"遠離發電設施\n避免外出活動"</string>
+	<!---->
+	<string name="thunder_shower_with_hail_tip">"遠離發電設施\n避免外出活動"</string>
+	<!---->
+	<string name="sleet_tip">"雨夾雪\n出門請帶傘"</string>
+	<!---->
+	<string name="light_rain_tip">"零星小雨\n出門請帶傘"</string>
+	<!---->
+	<string name="moderate_rain_tip">"雨\n出門請帶傘"</string>
+	<!---->
+	<string name="heavy_rain_tip">"出門\n請帶雨傘"</string>
+	<!---->
+	<string name="storm_tip">"出門\n請帶雨傘"</string>
+	<!---->
+	<string name="heavy_storm_tip">"避免戶外活動\n寒風冷雨"</string>
+	<!---->
+	<string name="severe_storm_tip">"避免戶外活動\n寒風冷雨"</string>
+	<!---->
+	<string name="snow_flurry_tip">"雪花飄飄\n需要保暖"</string>
+	<!---->
+	<string name="light_snow_tip">"雪花飄飄\n需要保暖"</string>
+	<!---->
+	<string name="moderate_snow_tip">"雪花飄飄\n需要保暖"</string>
+	<!---->
+	<string name="heavy_snow_tip">"寒冷風雪\n仍有溫暖"</string>
+	<!---->
+	<string name="snow_storm_tip">"寒冷風雪\n仍有溫暖"</string>
+	<!---->
+	<string name="foggy_tip">"清淡飲食，多喝水，\n減少外出"</string>
+	<!---->
+	<string name="ice_rain_tip">"凍雨\n減少戶外活動"</string>
+	<!---->
+	<string name="dust_storm_tip">"清淡飲食，多喝水，\n減少外出"</string>
+	<!---->
+	<string name="light_to_moderate_rain_tip">"雨\n出門請帶傘"</string>
+	<!---->
+	<string name="moderate_to_heavy_rain_tip">"出門\n請帶雨傘"</string>
+	<!---->
+	<string name="heavy_rain_to_storm_tip">"正在下雨，伴有大風。  \n避免戶外活動"</string>
+	<!---->
+	<string name="storm_to_heavy_tip">"正在下雨，伴有大風。  \n避免戶外活動"</string>
+	<!---->
+	<string name="heavy_to_server_storm_tip">"正在下雨，伴有大風。  \n避免戶外活動"</string>
+	<!---->
+	<string name="light_to_moderate_snow_tip">"雪花飄飄\n需要保暖"</string>
+	<!---->
+	<string name="moderate_snow_to_moderate_snow_tip">"寒冷風雪\n仍有溫暖"</string>
+	<!---->
+	<string name="snow_heavy_snow_to_snow_storm_tip">"寒冷風雪\n仍有溫暖"</string>
+	<!---->
+	<string name="dust_tip">"清淡飲食，多喝水，\n減少外出"</string>
+	<!---->
+	<string name="sand_tip">"清淡飲食，多喝水，\n減少外出"</string>
+	<!---->
+	<string name="sand_storm_tip">"清淡飲食，多喝水，\n減少外出"</string>
+	<!---->
+	<string name="dense_foggy_tip">"清淡飲食，多喝水，\n減少外出"</string>
+	<!---->
+	<string name="snow_tip">"清淡飲食，多喝水，\n減少外出"</string>
+	<!---->
+	<string name="moderate_foggy_tip">"清淡飲食，多喝水，\n減少外出"</string>
+	<!---->
+	<string name="haze_tip">"清淡飲食，多喝水，\n減少外出"</string>
+	<!---->
+	<string name="moderate_haze_tip">"清淡飲食，多喝水，\n減少外出"</string>
+	<!---->
+	<string name="heavy_haze_tip">"清淡飲食，多喝水，\n減少外出"</string>
+	<!---->
+	<string name="severe_haze_tip">"清淡飲食，多喝水，\n減少外出"</string>
+	<!---->
+	<string name="heavy_foggy_tip">"清淡飲食，多喝水，\n減少外出"</string>
+	<!---->
+	<string name="severe_foggy_tip">"清淡飲食，多喝水，\n減少外出"</string>
+	<!---->
+	<string name="unknown_tip">"天氣\n提醒"</string>
+	<!---->
+	<string name="loading_data">"數據正在載入"</string>
+	<!---->
+	<string name="network_failed">"沒有網絡"</string>
+	<!---->
+	<string name="service_abnormal">"伺服器資料例外情況"</string>
+	<!---->
+	<string name="locate_failed">"尋找失敗"</string>
+	<!---->
+	<string name="release">"釋放"</string>
+	<!---->
+	<string name="manual_add_city">"手動新增城市"</string>
+	<!---->
+	<string name="try_again">"按一下重試"</string>
+	<!---->
+	<string name="server_innormal">"伺服器資料例外情況"</string>
+	<!---->
+	<string name="no_permission">"無定位權限"</string>
+	<!---->
+	<string name="data_source_str">"資料來源：China Weather"</string>
+	<!---->
+	<string name="sunrise">"日出"</string>
+	<!---->
+	<string name="sunset">"黃昏"</string>
+	<!---->
+	<string name="txt_release">"釋放"</string>
+	<!---->
+	<string name="txt_early_warning">"鬧鐘"</string>
+	<!---->
+	<string name="txt_locating">"定位於..."</string>
+</resources>

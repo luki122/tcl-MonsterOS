@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minHeight="50dp">  -->
+
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"> 
+
+    <!-- android:background="@drawable/seekbar_up_text" -->
+    <!--         android:paddingBottom="5dp" -->
+    <TextView
+        android:id="@+id/seekbarvalue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableBottom="@drawable/mst_seekbar_default_value_indicator"
+        android:textColor="@color/seekbar_default_value_indicator_color"
+        android:text="@string/mst_default_seekbar_value"
+        android:textSize="13sp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginBottom="2dp"/>
+    
+    <!-- android:layout_above="@+id/seekbar" 
+    android:layout_centerHorizontal="true"-->
+
+        <!-- android:text="test" -->
+        
+        <!-- 
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="8dp"
+         -->
+    <!--//[BUGFIX]-Add by TCTNJ,jian.pan1, 2015-03-06,PR929635 Begin -->
+    <SeekBar
+        android:id="@+id/seekbar"
+        style="@style/CustomSeekBarStyle"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"/>
+            <!-- android:layout_centerInParent="true" -->
+    <!--//[BUGFIX]-Add by TCTNJ,jian.pan1, 2015-03-06,PR929635 End -->
+
+
+</merge>
+    <!-- 
+</RelativeLayout> -->

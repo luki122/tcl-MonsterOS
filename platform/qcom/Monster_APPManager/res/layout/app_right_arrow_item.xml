@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_frame2"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/right_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:scaleType="centerInside"
+        android:src="@drawable/arrow_right" />
+
+    <TextView
+        android:id="@+id/widget_text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_centerVertical="true"
+        android:layout_gravity="fill_horizontal|top"
+        android:layout_marginRight="5dp"
+        android:layout_toLeftOf="@id/right_arrow"
+        android:duplicateParentState="true"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:textAlignment="viewStart"
+        android:textAppearance="?android:attr/textAppearanceListItemSecondary"
+        android:textColor="?android:attr/textColorSecondary" />
+
+</RelativeLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="60dp">
+
+    <cn.tcl.music.view.ImageMenuButton
+        android:id="@id/item_menu_image_button"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:alpha="0.4"
+        android:background="@color/transparent"
+        android:contentDescription="@string/menu"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:src="@drawable/item_menu"/>
+    <ImageView
+        android:id="@+id/play_view"
+        android:layout_width="45dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:clickable="true"
+        android:paddingRight="10dp"
+        android:scaleType="center"
+        android:src="@drawable/ic_isplaying"
+        android:visibility="invisible"/>
+    <Space
+        android:id="@+id/text_spacer"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_centerInParent="true"/>
+
+
+    <TextView
+        android:id="@+id/title_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/text_spacer"
+        android:layout_marginLeft="32dp"
+        android:layout_toStartOf="@id/item_menu_image_button"
+        android:alpha="0.86"
+        android:ellipsize="end"
+        android:gravity="start|center"
+        android:singleLine="true"
+        android:textAlignment="gravity"
+        android:textColor="#000000"
+        android:textIsSelectable="false"
+        android:textSize="15sp"/>
+
+    <LinearLayout
+        android:id="@id/item_info_text_block"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_spacer"
+        android:layout_marginStart="32dp"
+        android:layout_toStartOf="@id/item_menu_image_button"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@id/local_storage_tag_item_view"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_marginEnd="4dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/checkbox_checked"
+            android:visibility="visible"/>
+
+        <ImageView
+            android:id="@id/favorite_tag_item_view"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_marginEnd="4dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/picto_favorite_tag"
+            android:visibility="visible"/>
+
+        <TextView
+            android:id="@id/subtitle_text_view"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:alpha="0.40"
+            android:ellipsize="end"
+            android:gravity="start|top"
+            android:singleLine="true"
+            android:textAlignment="gravity"
+            android:textColor="#000000"
+            android:textIsSelectable="false"
+            android:textSize="12sp"/>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,814 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="sort">"分類"</string>
+	<!---->
+	<string name="sort_by_name">"名字"</string>
+	<!---->
+	<string name="sort_by_date">"修訂日期"</string>
+	<!---->
+	<string name="sort_by_time">"日期"</string>
+	<!---->
+	<string name="sort_by_type">"類型"</string>
+	<!---->
+	<string name="sort_by_size">"大小"</string>
+	<!---->
+	<string name="copy">"複製"</string>
+	<!---->
+	<string name="create_folder">"建立"</string>
+	<!---->
+	<string name="cut">"剪下"</string>
+	<!---->
+	<string name="delete">"刪除"</string>
+	<!---->
+	<string name="delete_confirm">"確認刪除"</string>
+	<!---->
+	<string name="deselect_all">"取消全選"</string>
+	<!---->
+	<string name="select_all">"全部選取"</string>
+	<!---->
+	<string name="show_file">"顯示隱藏檔案"</string>
+	<!---->
+	<string name="hide_file">"不顯示隱藏檔案"</string>
+	<!---->
+	<string name="paste">"貼上"</string>
+	<!---->
+	<string name="rename">"重新命名"</string>
+	<!---->
+	<string name="share">"分享"</string>
+	<!---->
+	<string name="viewby_list">"以列表檢視"</string>
+	<!---->
+	<string name="viewby_grid">"以網格檢視"</string>
+	<!---->
+	<string name="alert_delete_message">"刪除"</string>
+	<!---->
+	<string name="multi_alert_delete_message">"刪除選取的項目？"</string>
+	<!---->
+	<string name="multi_alert_delete_message_cn">"刪除選取的項目？"</string>
+	<!---->
+	<string name="delete_folder_message">"是否刪除其中的專輯和圖片？"</string>
+	<!---->
+	<string name="category_pictures">"圖片"</string>
+	<!---->
+	<string name="category_vedios">"影片"</string>
+	<!---->
+	<string name="category_music">"音樂"</string>
+	<!---->
+	<string name="category_download">"下載"</string>
+	<!---->
+	<string name="category_bluetooth">"藍牙"</string>
+	<!---->
+	<string name="app_name">"檔案管理器"</string>
+	<!---->
+	<string name="theme_name">"檔案管理器"</string>
+	<!---->
+	<string name="apk_name">"文件管理器"</string>
+	<!---->
+	<string name="new_folder">"輸入文件夾名稱"</string>
+	<!---->
+	<string name="confirm_rename">"確認名稱"</string>
+	<!---->
+	<string name="warning">"最大檔案數量"</string>
+	<!---->
+	<string name="share_warning">"無法分享超過 100 個檔案。"</string>
+	<!---->
+	<string name="loading">"載入中..."</string>
+	<!---->
+	<string name="deleting">"刪除中"</string>
+	<!---->
+	<string name="alert_delete_multiple">"已選檔案將被刪除。"</string>
+	<!---->
+	<string name="name">"名字"</string>
+	<!---->
+	<string name="size">"大小"</string>
+	<!---->
+	<string name="modified_time">"修改日期"</string>
+	<!---->
+	<string name="msg_rename_ext">"檔案附檔名將變更。檔案可能無法被識別。是否繼續？"</string>
+	<!---->
+	<string name="wait">"請稍候…"</string>
+	<!---->
+	<string name="done">"完成"</string>
+	<!-- no translation found for enable -->
+	<skip />
+	<!---->
+	<string name="enable_cn">"開啟"</string>
+	<!---->
+	<string name="cancel">"取消"</string>
+	<!---->
+	<string name="no">"否"</string>
+	<!---->
+	<string name="ok">"確定"</string>
+	<!---->
+	<string name="yes">"是"</string>
+	<!---->
+	<string name="details">"詳細資料"</string>
+	<!---->
+	<string name="drawer_open">"開啟"</string>
+	<!---->
+	<string name="unknown">"不明"</string>
+	<!-- no translation found for unit_B -->
+	<skip />
+	<!-- no translation found for unit_KB -->
+	<skip />
+	<!-- no translation found for unit_MB -->
+	<skip />
+	<!-- no translation found for unit_GB -->
+	<skip />
+	<!-- no translation found for unit_TB -->
+	<skip />
+	<!---->
+	<string name="send_file">"傳送檔案"</string>
+	<!---->
+	<string name="default_search_text">"搜尋檔案"</string>
+	<!---->
+	<string name="free_space">"有空"</string>
+	<!---->
+	<string name="total_space">"總空間"</string>
+	<!---->
+	<string name="drawer_category">"類別"</string>
+	<!---->
+	<string name="phone_storage">"手機儲存空間"</string>
+	<!---->
+	<string name="phone_storage_cn">"手機儲存"</string>
+	<!---->
+	<string name="sd_card">"SD 卡"</string>
+	<!---->
+	<string name="draw_left_phone_storage">"手機儲存"</string>
+	<!---->
+	<string name="draw_left_sd_card">"SD 卡"</string>
+	<!---->
+	<string name="menu_settings">"設定"</string>
+	<!---->
+	<string name="no_search_result">"搜尋 \"%1$s\" 無結果"</string>
+	<!---->
+	<string name="copy_deny">"沒有權限複製"</string>
+	<!---->
+	<string name="cut_deny">"沒有權限剪下"</string>
+	<!---->
+	<string name="delete_deny">"沒有權限刪除"</string>
+	<!---->
+	<string name="insufficient_memory">"記憶體不足。"</string>
+	<!---->
+	<string name="insufficient_message">"由於空間不足無法複製一些檔案"</string>
+	<!---->
+	<string name="invalid_empty_name">"檔案或資料夾名稱不能為空"</string>
+	<!---->
+	<string name="paste_same_folder">"無法剪切至來源資料夾"</string>
+	<!---->
+	<string name="invalid_char_prompt">"輸入的字元無效"</string>
+	<!---->
+	<string name="msg_unable_open_file">"無法開啟檔案。"</string>
+	<!---->
+	<string name="paste_sub_folder">"無法貼至子資料夾"</string>
+	<!---->
+	<string name="operation_fail">"部分檔案操作失敗。"</string>
+	<!---->
+	<string name="search_result">"搜尋 \"%1$s\" 獲得 %2$d 筆結果"</string>
+	<!---->
+	<string name="already_exists">"%1$s 已存在"</string>
+	<!---->
+	<string name="unmounted">"已移除 %1$s"</string>
+	<!---->
+	<string name="create_hidden_file">"系統會隱藏名稱以 \'.\' 開頭的檔案"</string>
+	<!---->
+	<string name="file_name_too_long">"輸入的名稱過長"</string>
+	<!---->
+	<string name="some_paste_fail">"部分貼上操作失敗"</string>
+	<!---->
+	<string name="delete_fail">"無法刪除"</string>
+	<!---->
+	<string name="some_delete_fail">"部分刪除操作失敗。"</string>
+	<!---->
+	<string name="msg_unable_open_file_in_app">"沒有應用程式可打開此檔案。"</string>
+	<!---->
+	<string name="drm_forwardforbidden_title">"未轉寄"</string>
+	<!---->
+	<string name="drm_forwardforbidden_message">"DRM 檔案無法轉寄。"</string>
+	<!---->
+	<string name="drm_no_valid_right">"該文件無有效的DRM權限！"</string>
+	<!---->
+	<string name="drm_current_count">"目前的次數："</string>
+	<!---->
+	<string name="unlimited_usage">"無限使用"</string>
+	<!---->
+	<string name="drm_current_right">"目前的限制："</string>
+	<!---->
+	<string name="not_available">"無法取得"</string>
+	<!---->
+	<string name="right_url">"許可證發行網址："</string>
+	<!---->
+	<string name="use_times">"使用 %s 次"</string>
+	<!---->
+	<string name="valid_after">"後有效"</string>
+	<!---->
+	<string name="valid_until">"有效至"</string>
+	<!---->
+	<string name="drm_wifidisplay_title">"禁止複製的檔案"</string>
+	<!---->
+	<string name="drm_wifidisplay_message">"進行分配。"</string>
+	<!---->
+	<string name="drm_wifidisplay_cancel_btn">"關閉 Wi-Fi 顯示屏"</string>
+	<!---->
+	<string name="drm_wifidisplay_ok">"確定"</string>
+	<!---->
+	<string name="tv_link_close_toast">"Wi-Fi 顯示屏已經關閉"</string>
+	<!---->
+	<string name="usbotg">"外部 USB 儲存裝置"</string>
+	<!---->
+	<string name="show">"顯示系統檔案"</string>
+	<!---->
+	<string name="hide">"隱藏系統檔案"</string>
+	<!---->
+	<string name="action_menu_create_folder_button">"新增資料夾"</string>
+	<!---->
+	<string name="searchResult">"搜尋結果"</string>
+	<!---->
+	<string name="default_folder_name">"資料夾名稱"</string>
+	<!---->
+	<string name="drm_protection_status">"保護狀態："</string>
+	<!---->
+	<string name="drm_can_forward">"可轉寄。"</string>
+	<!---->
+	<string name="drm_can_not_forward">"無法轉寄。"</string>
+	<!---->
+	<string name="drm_no_license">"無可用的 DRM 授權。"</string>
+	<!---->
+	<string name="drm_interval">"在第一次使用后有效達 %s"</string>
+	<!---->
+	<string name="drm_begin">"開始："</string>
+	<!---->
+	<string name="drm_no_limitation">"無限制。"</string>
+	<!---->
+	<string name="drm_end">"結束："</string>
+	<!---->
+	<string name="drm_use_left">"剩餘次數："</string>
+	<!---->
+	<string name="drm_no_crop">"檔案“%s”受DRM保護，無法剪輯。"</string>
+	<!---->
+	<string name="file_copy">"已複製檔案"</string>
+	<!---->
+	<string name="choice_file">"選擇目的地"</string>
+	<!---->
+	<string name="alert_delete_single">"已選檔案將被刪除。"</string>
+	<!---->
+	<string name="pasting">"複製中"</string>
+	<!---->
+	<string name="readable">"可讀："</string>
+	<!---->
+	<string name="executable">"應用程式："</string>
+	<!---->
+	<string name="writable">"可寫："</string>
+	<!---->
+	<string name="add_favorite">"添加到最愛資料夾"</string>
+	<!---->
+	<string name="del_favorite">"從最愛資料夾中刪除"</string>
+	<!---->
+	<string name="favourite">"新增至我的最愛"</string>
+	<!---->
+	<string name="viewby_details">"以詳情檢視"</string>
+	<!---->
+	<string name="view_by">"檢視方式"</string>
+	<!---->
+	<string name="show_hide">"顯示/隱藏"</string>
+	<!---->
+	<string name="sort_by">"分類方式"</string>
+	<!---->
+	<string name="more">"更多"</string>
+	<!---->
+	<string name="used">"已使用"</string>
+	<!---->
+	<string name="category_archives">"歸檔"</string>
+	<!---->
+	<string name="category_favorite">"我的最愛"</string>
+	<!---->
+	<string name="category_ringtones">"鈴聲"</string>
+	<!---->
+	<string name="category_recordings">"錄製"</string>
+	<!---->
+	<string name="category_safebox">"保險箱"</string>
+	<!---->
+	<string name="category_apks">"APK"</string>
+	<!---->
+	<string name="search">"搜尋"</string>
+	<!---->
+	<string name="sort_type">"以類型排序"</string>
+	<!---->
+	<string name="sort_name">"以名字排序 (A-Z)"</string>
+	<!---->
+	<string name="sort_size">"依大小排序(大-小)"</string>
+	<!---->
+	<string name="sort_time">"依時間排序"</string>
+	<!---->
+	<string name="selected">"已選取"</string>
+	<!---->
+	<string name="save">"儲存"</string>
+	<!---->
+	<string name="category_docs">"檔案"</string>
+	<!---->
+	<string name="category_files">"檔案"</string>
+	<!---->
+	<string name="view_as_grid">"以網格檢視"</string>
+	<!---->
+	<string name="view_as_list">"清單方式檢視"</string>
+	<!---->
+	<string name="detail_path">"位置："</string>
+	<!---->
+	<string name="detail_name">"名稱："</string>
+	<!---->
+	<string name="detail_size">"大小："</string>
+	<!---->
+	<string name="detail_time">"上次修改日期︰"</string>
+	<!---->
+	<string name="empty_msg">"空目錄"</string>
+	<!---->
+	<string name="search_files">"搜尋檔案"</string>
+	<!-- no translation found for search_result_count -->
+	<skip />
+	<!---->
+	<string name="drawer_settings">"設定"</string>
+	<!---->
+	<string name="search_text_empty">"搜尋內容不得空白。"</string>
+	<!---->
+	<string name="search_result_title">"搜尋結果"</string>
+	<!---->
+	<string name="path_not_exists">"%1$s 不存在"</string>
+	<!---->
+	<string name="modify_hidden_file">"如果檔案名稱以\「.\」開頭，系統會隱藏該檔案。"</string>
+	<!---->
+	<string name="paste_fail">"無法貼上"</string>
+	<!---->
+	<string name="search_empty">"搜尋內容不得空白。"</string>
+	<!---->
+	<string name="search_setting_description">"本機檔案和資料夾"</string>
+	<!---->
+	<string name="change_mode">"選擇文件或文件夾"</string>
+	<!---->
+	<string name="drm_protectioninfo_title">"drm_protectioninfo_title"</string>
+	<!---->
+	<string name="draw_favourite">"最愛"</string>
+	<!---->
+	<string name="unfavourite">"從我的最愛中移除"</string>
+	<!---->
+	<string name="drm_toast_license_expired">"DRM 授權已過期。"</string>
+	<!-- no translation found for sdstroge -->
+	<skip />
+	<!-- no translation found for phonestorage -->
+	<skip />
+	<!-- no translation found for title_activity_main -->
+	<skip />
+	<!-- no translation found for hello_world -->
+	<skip />
+	<!-- no translation found for action_settings -->
+	<skip />
+	<!-- no translation found for unlock_video -->
+	<skip />
+	<!---->
+	<string name="readable_m">"可讀"</string>
+	<!---->
+	<string name="executable_m">"應用程式"</string>
+	<!---->
+	<string name="writable_m">"可寫"</string>
+	<!---->
+	<string name="main_recents">"最近"</string>
+	<!---->
+	<string name="main_recents_cn">"最近新增"</string>
+	<!---->
+	<string name="main_installers">"安裝器"</string>
+	<!---->
+	<string name="main_document">"文檔"</string>
+	<!---->
+	<string name="detail_path_m">"地點"</string>
+	<!-- no translation found for detail_path_m_cn -->
+	<skip />
+	<!---->
+	<string name="detail_name_m">"名字"</string>
+	<!---->
+	<string name="detail_size_m">"大小"</string>
+	<!---->
+	<string name="detail_time_m">"上次修改時間"</string>
+	<!---->
+	<string name="main_photo">"相片"</string>
+	<!---->
+	<string name="main_sd_storage">"SD儲存"</string>
+	<!---->
+	<string name="main_external_storage">"外部儲存裝置"</string>
+	<!---->
+	<string name="main_home">"主熒幕"</string>
+	<!---->
+	<string name="main_home_cn">"主熒幕"</string>
+	<!---->
+	<string name="main_nava_home">"主熒幕"</string>
+	<!---->
+	<string name="menu_select">"選取"</string>
+	<!-- no translation found for go_up -->
+	<skip />
+	<!---->
+	<string name="no_folder">"資料夾無內容"</string>
+	<!---->
+	<string name="no_category">"此分類為空白。"</string>
+	<!---->
+	<string name="no_folder_cn">"無檔案"</string>
+	<!---->
+	<string name="no_category_cn">"無檔案"</string>
+	<!---->
+	<string name="pasted">"檔案粘貼"</string>
+	<!---->
+	<string name="deleted">"檔案刪除"</string>
+	<!---->
+	<string name="deleted_cn">"檔案刪除"</string>
+	<!---->
+	<string name="view_list">"清單檢視"</string>
+	<!---->
+	<string name="view_grid">"格狀檢視"</string>
+	<!---->
+	<string name="create_new_folder">"新增資料夾"</string>
+	<!---->
+	<string name="add_folder">"新增資料夾"</string>
+	<!---->
+	<string name="detail">"詳細資料"</string>
+	<!---->
+	<string name="menu_detail">"詳細資料"</string>
+	<!---->
+	<string name="migrate">"轉移"</string>
+	<!---->
+	<string name="permission_welcome_title">"所需的權限"</string>
+	<!---->
+	<string name="permission_msg">"為您提供更好的服務"</string>
+	<!---->
+	<string name="permission_setting_title">"授予訪問權限"</string>
+	<!---->
+	<string name="permission_setting_content">"在您的裝置應用程式設定中變更權限。給予檔案管理器訪問儲存裝置的權限。"</string>
+	<!---->
+	<string name="permission_exit_btn">"退出"</string>
+	<!---->
+	<string name="dialog_close_btn">"關閉"</string>
+	<!---->
+	<string name="dialog_close_btn_cn">"確認"</string>
+	<!---->
+	<string name="shortcut_item">"新增捷徑"</string>
+	<!---->
+	<string name="shortcut_item_cn">"建立桌面捷徑"</string>
+	<!---->
+	<string name="shortcut_no_exist">"請求的資料夾不存在"</string>
+	<!-- no translation found for shortcut_success -->
+	<skip />
+	<!---->
+	<string name="no_search_result_m">"\"%1$s\"未發現結果"</string>
+	<!---->
+	<string name="draw_left_phone_storage_m">"手機"</string>
+	<!---->
+	<string name="category_audio">"音訊"</string>
+	<!---->
+	<string name="usbotg_m">"外部的"</string>
+	<!-- no translation found for sd_m -->
+	<skip />
+	<!---->
+	<string name="freeof_m">"無限制"</string>
+	<!---->
+	<string name="permission_settings">"設定"</string>
+	<!---->
+	<string name="safe_first_dialog_title">"保險箱類目"</string>
+	<!---->
+	<string name="safe_first_dialog_content">"已移動至此類目的檔案需要密碼驗證。從檔案選單中透過按壓「移動至保險箱」將檔案新增至此類目。"</string>
+	<!---->
+	<string name="safe_first_dialog_content_cn">"已加密圖像、音頻、影片和文檔，以保護您的私隱資料，請建立一個安全箱並設定密碼獲取存取權限。"</string>
+	<!---->
+	<string name="safe_storage_local">"本機儲存裝置"</string>
+	<!---->
+	<string name="set_password_pass">"密碼"</string>
+	<!---->
+	<string name="set_password_first">"設定密碼：4-12 碼數字"</string>
+	<!---->
+	<string name="input_new_password_hint">"設定新密碼4-12 碼數字"</string>
+	<!---->
+	<string name="set_password_again">"確認密碼"</string>
+	<!---->
+	<string name="set_password_show">"顯示密碼"</string>
+	<!---->
+	<string name="set_password_safe_question">"安全問題"</string>
+	<!---->
+	<string name="set_password_safe_question_answer">"答案"</string>
+	<!---->
+	<string name="set_password_safe_forget_pass">"記住安全問題的答案。如果您忘記了密碼，您可以透過回答安全問題來重設密碼。"</string>
+	<!---->
+	<string name="choose_safe">"選擇保險箱"</string>
+	<!---->
+	<string name="choose_safe_cn">"選擇保險箱"</string>
+	<!---->
+	<string name="create_safe">"創建保險箱"</string>
+	<!---->
+	<string name="create_safe_to">"創建保險箱至"</string>
+	<!---->
+	<string name="create_safe_to_cn">"創建保險箱至"</string>
+	<!---->
+	<string name="set_password">"設定密碼"</string>
+	<!---->
+	<string name="add_file_safe">"新增"</string>
+	<!---->
+	<string name="safe_set">"設定"</string>
+	<!---->
+	<string name="safe_set_title">"保險箱設定"</string>
+	<!---->
+	<string name="safe_set_title_cn">"保險箱設定"</string>
+	<!---->
+	<string name="update_password">"更新密碼"</string>
+	<!---->
+	<string name="modify_password">"修改密碼"</string>
+	<!---->
+	<string name="security_question">"更新安全問題"</string>
+	<!---->
+	<string name="modify_security_question">"修復安全問題"</string>
+	<!---->
+	<string name="safe_set_change_safe">"變更保險箱"</string>
+	<!---->
+	<string name="safe_set_location_safe">"保險箱位置"</string>
+	<!---->
+	<string name="safe_set_location_safe_cn">"保險箱位置"</string>
+	<!---->
+	<string name="update_password_original">"輸入原始密碼"</string>
+	<!---->
+	<string name="update_password_original_cn">"輸入原始密碼"</string>
+	<!---->
+	<string name="destory_safe">"銷毀保險箱"</string>
+	<!---->
+	<string name="destory_safe_cn">"銷毀保險箱"</string>
+	<!---->
+	<string name="destory">"損壞"</string>
+	<!---->
+	<string name="use_password">"使用密碼"</string>
+	<!---->
+	<string name="input_password">"輸入密碼"</string>
+	<!---->
+	<string name="forget_password">"忘記密碼"</string>
+	<!-- no translation found for others -->
+	<skip />
+	<!---->
+	<string name="password_empty">"密碼不可為空。"</string>
+	<!---->
+	<string name="password_consistent">"密碼不一致。"</string>
+	<!---->
+	<string name="password_length_error">"密碼長度錯誤"</string>
+	<!---->
+	<string name="answer_empty">"答案不可為空。"</string>
+	<!---->
+	<string name="safe_box_name_empty">"保險箱名稱不可為空。"</string>
+	<!---->
+	<string name="update_success">"更新成功。"</string>
+	<!---->
+	<string name="update_fail">"更新失敗"</string>
+	<!---->
+	<string name="password_mistake">"密碼不正確。請再次輸入。"</string>
+	<!---->
+	<string name="move_safe">"移動至保險箱"</string>
+	<!---->
+	<string name="fingerprint_check">"已連結指紋，請使用指紋傳感器以供驗證。"</string>
+	<!---->
+	<string name="in_use">"使用中"</string>
+	<!---->
+	<string name="created">"已創建"</string>
+	<!---->
+	<string name="choose_files">"選擇檔案"</string>
+	<!---->
+	<string name="move_out">"移出"</string>
+	<!---->
+	<string name="remove_to">"移至"</string>
+	<!---->
+	<string name="default_location">"默認位置"</string>
+	<!---->
+	<string name="specified_location">"具體位置"</string>
+	<!---->
+	<string name="open_dir">"開啟方向"</string>
+	<!---->
+	<string name="default_location_cn">"默認位置"</string>
+	<!---->
+	<string name="specified_location_cn">"具體位置"</string>
+	<!---->
+	<string name="specified_location_content_cn">"指出檔案位置以便移出"</string>
+	<!---->
+	<string name="category_safe">"加密檔案"</string>
+	<!---->
+	<string name="category_safe_cn">"安全模式"</string>
+	<!---->
+	<string name="add_safe_size_limited">"無法新增大於 2.0 GB 的檔案"</string>
+	<!---->
+	<string name="add_safe_drm_limited">"無法新增 DRM 檔案"</string>
+	<!---->
+	<string name="fingerprint_relative_dialog">"是否使用指紋關聯保險箱？"</string>
+	<!---->
+	<string name="fingerprint_relative_dialog_cn">"是否使用指紋關聯保險箱？"</string>
+	<!---->
+	<string name="fingerprint_relative_dialog_ok">"關係"</string>
+	<!---->
+	<string name="fingerprint_relative_dialog_ok_cn">"關聯"</string>
+	<!---->
+	<string name="fingerprint_relative_dialog_cancel">"稍後"</string>
+	<!---->
+	<string name="fingerprint_relative_dialog_cancel_cn">"稍後設定"</string>
+	<!---->
+	<string name="safe_location_current">"保險箱位置"</string>
+	<!---->
+	<string name="safe_location_current_cn">"當前保險箱位置"</string>
+	<!---->
+	<string name="safe_location_content">"不在檔案夾操作以避免對加密資料的損壞"</string>
+	<!---->
+	<string name="safe_location_content_cn">"請勿在此檔案夾操作，以避免對加密資料的損壞"</string>
+	<!---->
+	<string name="destory_safe_dialog_message">"在保險箱中的檔案並且密碼將全部被刪除。是否立即銷毀？"</string>
+	<!---->
+	<string name="destory_safe_dialog_checkbox">"是否同時移除檔案？"</string>
+	<!---->
+	<string name="destory_safe_dialog_checkbox_cn">"同時移除檔案"</string>
+	<!---->
+	<string name="open_safe_dialog">"啟用保險箱"</string>
+	<!---->
+	<string name="open_safe_dialog_cn">"啟用保險箱"</string>
+	<!---->
+	<string name="open_safe_dialog_message">"啟用保險箱會將檔案移動至保險箱。是否立即啟用？"</string>
+	<!---->
+	<string name="open_safe_dialog_message_cn">"啟用保險箱會將檔案移動至保險箱。是否立即啟用？"</string>
+	<!---->
+	<string name="open_safe_dialog_ok">"立即開啟"</string>
+	<!---->
+	<string name="category_private_string">"保險箱"</string>
+	<!---->
+	<string name="opening">"正在開啟"</string>
+	<!---->
+	<string name="space_clear">"清除空間"</string>
+	<!---->
+	<string name="unselected">"未選擇"</string>
+	<!-- no translation found for select -->
+	<skip />
+	<!---->
+	<string name="finish">"完成"</string>
+	<!---->
+	<string name="senior_title">"高級"</string>
+	<!---->
+	<string name="no_files_for_add_to_safebox">"添加檔案全面保護您的私隱資料"</string>
+	<!---->
+	<string name="finger_print_relation">"已關聯指紋"</string>
+	<!---->
+	<string name="duplicate_file_name_tip">"檔案名稱已存在"</string>
+	<!---->
+	<string name="searchview_hint">"搜尋檔案"</string>
+	<!---->
+	<string name="safe_box_name_tip">"保險箱名稱"</string>
+	<!---->
+	<string name="toast_update_safe_box_name_sucess">"保險箱名稱更新成功"</string>
+	<!---->
+	<string name="toast_update_safe_box_name_fail">"保險箱名稱更新失敗"</string>
+	<!-- no translation found for toast_safe_box_name_empty -->
+	<skip />
+	<!---->
+	<string name="cut_single_fail_tip">"剪切失敗，請再次嘗試"</string>
+	<!---->
+	<string name="delete_single_fail_tip">"刪除失敗，請再次嘗試"</string>
+	<!---->
+	<string name="copy_single_fail_tip">"複製失敗，請再次嘗試"</string>
+	<!---->
+	<string name="copy_multi_fail_tip">"無法複製一些檔案"</string>
+	<!---->
+	<string name="delete_multi_fail_tip">"無法刪除一些檔案"</string>
+	<!---->
+	<string name="cut_multi_fail_tip">"無法剪切一些檔案"</string>
+	<!---->
+	<string name="copy_all_fail_tip">"複製所有檔案失敗"</string>
+	<!---->
+	<string name="delete_all_fail_tip">"刪除所有檔案失敗"</string>
+	<!---->
+	<string name="cut_all_fail_tip">"剪切所有檔案失敗"</string>
+	<!---->
+	<string name="past_multi_fail_tip">"無法粘貼部分檔案"</string>
+	<!---->
+	<string name="past_single_fail_tip">"無法粘貼，請再次嘗試。"</string>
+	<!---->
+	<string name="past_all_fail_tip">"無法粘貼所有檔案"</string>
+	<!---->
+	<string name="chip_encryption">"加密芯片"</string>
+	<!---->
+	<string name="safe_name_title">"名稱"</string>
+	<!---->
+	<string name="update_name">"更新名稱"</string>
+	<!---->
+	<string name="fingerprint_relate">"已關聯指紋。"</string>
+	<!---->
+	<string name="insufficient_message_cn">"由於空間不足無法貼上一些檔案"</string>
+	<!---->
+	<string name="add_success">"成功新增檔案"</string>
+	<!---->
+	<string name="pasted_cn">"檔案粘貼"</string>
+	<!---->
+	<string name="no_search_result_cn">"找不到結果"</string>
+	<!---->
+	<string name="detail_time_cn">"修訂時間"</string>
+	<!---->
+	<string name="rename_limit">"最大字元 (20)"</string>
+	<!---->
+	<string name="fingerprint_fail">"指紋不匹配，請重試。"</string>
+	<!---->
+	<string name="answer_mistake">"答案不正確。請再次輸入。"</string>
+	<!---->
+	<string name="answer_empty_tip">"答案為空，請再次嘗試。"</string>
+	<!---->
+	<string name="new_safe">"新保險箱"</string>
+	<!---->
+	<string name="dialog_confirm">"確認"</string>
+	<!---->
+	<string name="move_in_success">"已移動至"</string>
+	<!---->
+	<string name="move_in_count">"檔案移動至保險箱："</string>
+	<!---->
+	<string name="message_security_fingerprint_lockout">"指紋鎖定。請 30 秒後再試。"</string>
+	<!---->
+	<string name="use_password_auth">"請輸入密碼。"</string>
+	<!---->
+	<string name="storage_details">"儲存詳細資料"</string>
+	<!---->
+	<string name="total_memory">"總記憶空間"</string>
+	<!---->
+	<string name="system">"系統"</string>
+	<!---->
+	<string name="category_fragment_title">"搜尋檔案"</string>
+	<!---->
+	<string name="storage">"儲存裝置"</string>
+	<!---->
+	<string name="choice">"選擇"</string>
+	<!-- no translation found for view_tag_key -->
+	<skip />
+	<!-- no translation found for view_tag_key2 -->
+	<skip />
+	<!---->
+	<string name="finish_percent">"確定 (%1$s)"</string>
+	<!---->
+	<string name="select_pic">"選擇圖片"</string>
+	<!---->
+	<string name="brackets_double">"（%1$s）"</string>
+	<!---->
+	<string name="selected_pick">"已選擇 %1$s 圖片"</string>
+	<!---->
+	<string name="most_selected">"選擇最多的 %1$s 圖片"</string>
+	<!---->
+	<string name="finish_ready">"完成 (%1$s/%2$s)"</string>
+	<!---->
+	<string name="select_pic_data">"選擇圖片 (%1$s)"</string>
+	<!---->
+	<string name="delete_determine_selected">"確保刪除所選"</string>
+	<!---->
+	<string name="delete_document">"檔案"</string>
+	<!---->
+	<string name="delete_folder">"資料夾"</string>
+	<!---->
+	<string name="delete_folder_and">"資料夾和"</string>
+	<!---->
+	<string name="deselect_all_item">"取消全選"</string>
+	<!---->
+	<string name="edit">"編輯"</string>
+	<!---->
+	<string name="storage_phone">"儲存裝置/手機"</string>
+	<!---->
+	<string name="storage_sdcard">"儲存裝置/SD 卡"</string>
+	<!---->
+	<string name="storage_otg">"儲存裝置/OTG"</string>
+	<!---->
+	<string name="storage_slash">"儲存裝置/"</string>
+	<!---->
+	<string name="welcome_security">"安全"</string>
+	<!---->
+	<string name="welcome_security_info">"在檔案留在手機之後，\n沒有人無法打開和使用"</string>
+	<!---->
+	<string name="welcome_convenient">"方便"</string>
+	<!---->
+	<string name="welcome_convenient_info">"在加密檔案中分類。\n檢視所有加密檔案"</string>
+	<!---->
+	<string name="welcome_depth">"深度"</string>
+	<!---->
+	<string name="welcome_depth_info">"XinDa Joanne 安全芯片\n最深度的檔案加密"</string>
+	<!---->
+	<string name="welcome_add">"新增"</string>
+	<!---->
+	<string name="welcome_add_info">"單擊選單右上角添加加密\n，或在 [更多] 加密中長按清單至編輯狀態"</string>
+	<!---->
+	<string name="welcome_dialog_title">"提示"</string>
+	<!---->
+	<string name="welcome_dialog_info">"使用加密功能之前，您需要驗證身份，否則其他裝置無法打開加密檔案。"</string>
+	<!---->
+	<string name="welcome_dialog_verify_btn">"立即驗證"</string>
+	<!---->
+	<string name="welcome_dialog_verify_pwd">"在使用加密功能之前，請設定系統安全密碼。"</string>
+	<!---->
+	<string name="welcome_start_use">"開始使用"</string>
+	<!---->
+	<string name="welcome_not_use">"暫時不用"</string>
+	<!---->
+	<string name="welcome_ok">"確定"</string>
+	<!---->
+	<string name="encrypt_files_success">"已加密 %1$s 檔案"</string>
+	<!---->
+	<string name="delete_direct">"是否刪除此資料夾？"</string>
+	<!---->
+	<string name="delete_file">"刪除該項檔案？"</string>
+</resources>

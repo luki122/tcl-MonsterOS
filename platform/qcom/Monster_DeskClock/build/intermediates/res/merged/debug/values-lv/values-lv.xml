@@ -1,0 +1,730 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="alarm_set">
+    <item msgid="6450913786084215050">"Signāls iestatīts uz tālāk norādīto laiku kopš šī brīža: mazāk nekā 1 minūte."</item>
+    <item msgid="6002066367368421848">"Signāls iestatīts uz tālāk norādīto laiku kopš šī brīža: <ns1:g id="DAYS">%1$s</ns1:g>."</item>
+    <item msgid="8824719306247973774">"Signāls iestatīts uz tālāk norādīto laiku kopš šī brīža: <ns1:g id="HOURS">%2$s</ns1:g>."</item>
+    <item msgid="8182406852935468862">"Signāls iestatīts uz tālāk norādīto laiku kopš šī brīža: <ns1:g id="DAYS">%1$s</ns1:g> un <ns1:g id="HOURS">%2$s</ns1:g>."</item>
+    <item msgid="2532279224777213194">"Signāls iestatīts uz tālāk norādīto laiku kopš šī brīža: <ns1:g id="MINUTES">%3$s</ns1:g>."</item>
+    <item msgid="5936557894247187717">"Signāls ir iestatīts uz tālāk norādīto laiku kopš šī brīža: <ns1:g id="DAYS">%1$s</ns1:g> un <ns1:g id="MINUTES">%3$s</ns1:g>."</item>
+    <item msgid="9115697840826129603">"Signāls iestatīts uz tālāk norādīto laiku kopš šī brīža: <ns1:g id="HOURS">%2$s</ns1:g> un <ns1:g id="MINUTES">%3$s</ns1:g>."</item>
+    <item msgid="2332583385137381060">"Signāls ir iestatīts uz tālāk norādīto laiku kopš šī brīža: <ns1:g id="DAYS">%1$s</ns1:g>, <ns1:g id="HOURS">%2$s</ns1:g> un <ns1:g id="MINUTES">%3$s</ns1:g>."</item>
+  </string-array>
+    <string-array name="auto_silence_entries">
+    <item msgid="3024545954917711306">"1 minūte"</item>
+    <item msgid="5431906692406316549">"5 minūtes"</item>
+    <item msgid="7742728812068919959">"10 minūtes"</item>
+    <item msgid="2855948657259647629">"15 minūtes"</item>
+    <item msgid="6330196381284475079">"20 minūtes"</item>
+    <item msgid="7809240121716151904">"25 minūtes"</item>
+    <item msgid="4278641338024561333">"Nekad"</item>
+  </string-array>
+    <string-array name="cities_names">
+    <item msgid="4653806289288974388">"A<ns1:g id="SEPARATOR">=</ns1:g>Abidžana"</item>
+    <item msgid="4864167603178202155">"A<ns1:g id="SEPARATOR">=</ns1:g>Akra"</item>
+    <item msgid="6478898553803167749">"A<ns1:g id="SEPARATOR">=</ns1:g>Adisabeba"</item>
+    <item msgid="5618029992528436448">"A<ns1:g id="SEPARATOR">=</ns1:g>Alžīra"</item>
+    <item msgid="2906834750114790793">"B<ns1:g id="SEPARATOR">=</ns1:g>Blantaira"</item>
+    <item msgid="8153571933836629863">"B<ns1:g id="SEPARATOR">=</ns1:g>Brazavila"</item>
+    <item msgid="3703129580594640833">"K<ns1:g id="SEPARATOR">=</ns1:g>Kaira"</item>
+    <item msgid="2300915410194647320">"K<ns1:g id="SEPARATOR">=</ns1:g>Kasablanka"</item>
+    <item msgid="1217039002304887948">"K<ns1:g id="SEPARATOR">=</ns1:g>Konakri"</item>
+    <item msgid="8775104707806220928">"D<ns1:g id="SEPARATOR">=</ns1:g>Dakāra"</item>
+    <item msgid="5948764589113643811">"D<ns1:g id="SEPARATOR">=</ns1:g>Dāresalāma"</item>
+    <item msgid="6306254507715416077">"D<ns1:g id="SEPARATOR">=</ns1:g>Džibutija"</item>
+    <item msgid="4286108029159501866">"F<ns1:g id="SEPARATOR">=</ns1:g>Frītauna"</item>
+    <item msgid="4514786733035528116">"G<ns1:g id="SEPARATOR">=</ns1:g>Gaborone"</item>
+    <item msgid="7367496854968219671">"H<ns1:g id="SEPARATOR">=</ns1:g>Harare"</item>
+    <item msgid="6837746379726020288">"J<ns1:g id="SEPARATOR">=</ns1:g>Johannesburga"</item>
+    <item msgid="6284185156591171506">"K<ns1:g id="SEPARATOR">=</ns1:g>Kampala"</item>
+    <item msgid="3299518884693668985">"H<ns1:g id="SEPARATOR">=</ns1:g>Hartūma"</item>
+    <item msgid="4614879508966043969">"K<ns1:g id="SEPARATOR">=</ns1:g>Kigali"</item>
+    <item msgid="8878437043772547732">"K<ns1:g id="SEPARATOR">=</ns1:g>Kinšasa"</item>
+    <item msgid="6325601635544067909">"L<ns1:g id="SEPARATOR">=</ns1:g>Lagosa"</item>
+    <item msgid="6094357506290323524">"M<ns1:g id="SEPARATOR">=</ns1:g>Maseru"</item>
+    <item msgid="7270525814400329098">"M<ns1:g id="SEPARATOR">=</ns1:g>Mogadišu"</item>
+    <item msgid="353110101402547540">"N<ns1:g id="SEPARATOR">=</ns1:g>Nairobi"</item>
+    <item msgid="1688121892646984549">"S<ns1:g id="SEPARATOR">=</ns1:g>Santome"</item>
+    <item msgid="3642219084651687800">"T<ns1:g id="SEPARATOR">=</ns1:g>Timbuktu"</item>
+    <item msgid="7287513493631179463">"T<ns1:g id="SEPARATOR">=</ns1:g>Tripole"</item>
+    <item msgid="5052614613671591560">"T<ns1:g id="SEPARATOR">=</ns1:g>Tunisa"</item>
+    <item msgid="7976303179193839859">"A<ns1:g id="SEPARATOR">=</ns1:g>Ankurāža"</item>
+    <item msgid="193703779380497120">"M<ns1:g id="SEPARATOR">=</ns1:g>Mendosa"</item>
+    <item msgid="5448884981082519628">"A<ns1:g id="SEPARATOR">=</ns1:g>Aruba"</item>
+    <item msgid="1577938273323914773">"A<ns1:g id="SEPARATOR">=</ns1:g>Asunsjona"</item>
+    <item msgid="5617155978105010520">"B<ns1:g id="SEPARATOR">=</ns1:g>Barbadosa"</item>
+    <item msgid="3600025702357376322">"B<ns1:g id="SEPARATOR">=</ns1:g>Beliza"</item>
+    <item msgid="2847679817118467051">"B<ns1:g id="SEPARATOR">=</ns1:g>Bogota"</item>
+    <item msgid="9029003541681282929">"B<ns1:g id="SEPARATOR">=</ns1:g>Buenosairesa"</item>
+    <item msgid="2338367960332622522">"K<ns1:g id="SEPARATOR">=</ns1:g>Kankūna"</item>
+    <item msgid="4339797536047170278">"K<ns1:g id="SEPARATOR">=</ns1:g>Karakasa"</item>
+    <item msgid="9199080438977757863">"K<ns1:g id="SEPARATOR">=</ns1:g>Kaimanu Salas"</item>
+    <item msgid="1993203473281589891">"Č<ns1:g id="SEPARATOR">=</ns1:g>Čikāga"</item>
+    <item msgid="7990342776303470263">"K<ns1:g id="SEPARATOR">=</ns1:g>Kostarika"</item>
+    <item msgid="5676109900908808628">"K<ns1:g id="SEPARATOR">=</ns1:g>Kirasao"</item>
+    <item msgid="5519120432577564812">"D<ns1:g id="SEPARATOR">=</ns1:g>Dousonkrīka"</item>
+    <item msgid="2126228972377380680">"D<ns1:g id="SEPARATOR">=</ns1:g>Denvera"</item>
+    <item msgid="3298410632922319193">"D<ns1:g id="SEPARATOR">=</ns1:g>Detroita"</item>
+    <item msgid="2819032085688382805">"D<ns1:g id="SEPARATOR">=</ns1:g>Dominika"</item>
+    <item msgid="6170433208654553821">"E<ns1:g id="SEPARATOR">=</ns1:g>Edmontona"</item>
+    <item msgid="795461860173291499">"S<ns1:g id="SEPARATOR">=</ns1:g>Salvadora"</item>
+    <item msgid="7872196528637597794">"F<ns1:g id="SEPARATOR">=</ns1:g>Fortaleza"</item>
+    <item msgid="5801558418916235541">"G<ns1:g id="SEPARATOR">=</ns1:g>Grandtkērka"</item>
+    <item msgid="2103759276235503048">"G<ns1:g id="SEPARATOR">=</ns1:g>Grenāda"</item>
+    <item msgid="1490069759176391533">"G<ns1:g id="SEPARATOR">=</ns1:g>Gvatemala"</item>
+    <item msgid="525959305652046261">"G<ns1:g id="SEPARATOR">=</ns1:g>Gajāna"</item>
+    <item msgid="7565596629973190931">"H<ns1:g id="SEPARATOR">=</ns1:g>Helifeksa"</item>
+    <item msgid="3811169155065582644">"H<ns1:g id="SEPARATOR">=</ns1:g>Havana"</item>
+    <item msgid="3733555435078090201">"I<ns1:g id="SEPARATOR">=</ns1:g>Indianapolisa"</item>
+    <item msgid="226982663848410981">"N<ns1:g id="SEPARATOR">=</ns1:g>Noksa"</item>
+    <item msgid="3815293080342229459">"M<ns1:g id="SEPARATOR">=</ns1:g>Marengo"</item>
+    <item msgid="6594853515451547389">"P<ns1:g id="SEPARATOR">=</ns1:g>Pītersbērga"</item>
+    <item msgid="6091571889213283534">"T<ns1:g id="SEPARATOR">=</ns1:g>Telsitija"</item>
+    <item msgid="3089369312058696669">"V<ns1:g id="SEPARATOR">=</ns1:g>Vevaja"</item>
+    <item msgid="1334860422444068943">"V<ns1:g id="SEPARATOR">=</ns1:g>Vinsensa"</item>
+    <item msgid="7775105082093691756">"V<ns1:g id="SEPARATOR">=</ns1:g>Vinamaka"</item>
+    <item msgid="4043335541899184547">"K<ns1:g id="SEPARATOR">=</ns1:g>Kingstona"</item>
+    <item msgid="1063757593477259280">"L<ns1:g id="SEPARATOR">=</ns1:g>Lapasa"</item>
+    <item msgid="349901732062388869">"L<ns1:g id="SEPARATOR">=</ns1:g>Lima"</item>
+    <item msgid="4977592519316837842">"L<ns1:g id="SEPARATOR">=</ns1:g>Losandželosa"</item>
+    <item msgid="7713051790509638572">"L<ns1:g id="SEPARATOR">=</ns1:g>Luisvila"</item>
+    <item msgid="8460620935898405225">"M<ns1:g id="SEPARATOR">=</ns1:g>Managva"</item>
+    <item msgid="8328345293081464192">"M<ns1:g id="SEPARATOR">=</ns1:g>Martinika"</item>
+    <item msgid="8010357327448619637">"M<ns1:g id="SEPARATOR">=</ns1:g>Mendosa"</item>
+    <item msgid="2046777213916219253">"M<ns1:g id="SEPARATOR">=</ns1:g>Metlakatla"</item>
+    <item msgid="2227885609632709258">"M<ns1:g id="SEPARATOR">=</ns1:g>Mehiko"</item>
+    <item msgid="9089629663998569289">"M<ns1:g id="SEPARATOR">=</ns1:g>Montereja"</item>
+    <item msgid="2782276175306930748">"M<ns1:g id="SEPARATOR">=</ns1:g>Montevideo"</item>
+    <item msgid="4942386959622269480">"M<ns1:g id="SEPARATOR">=</ns1:g>Monreāla"</item>
+    <item msgid="3068203952968918165">"N<ns1:g id="SEPARATOR">=</ns1:g>Nasava"</item>
+    <item msgid="4234515454127289962">"Ņ<ns1:g id="SEPARATOR">=</ns1:g>Ņujorka"</item>
+    <item msgid="1660551302087304308">"B<ns1:g id="SEPARATOR">=</ns1:g>Bjula"</item>
+    <item msgid="415823390775449071">"S<ns1:g id="SEPARATOR">=</ns1:g>Sentera"</item>
+    <item msgid="6644186958433380884">"Ņ<ns1:g id="SEPARATOR">=</ns1:g>Ņūseilema"</item>
+    <item msgid="6408587617047971798">"P<ns1:g id="SEPARATOR">=</ns1:g>Panama"</item>
+    <item msgid="5576899364199447991">"F<ns1:g id="SEPARATOR">=</ns1:g>Fīniksa"</item>
+    <item msgid="5541266909095409447">"P<ns1:g id="SEPARATOR">=</ns1:g>Portofspeina"</item>
+    <item msgid="6417519313622785932">"P<ns1:g id="SEPARATOR">=</ns1:g>Portoprinsa"</item>
+    <item msgid="2078589249210571366">"P<ns1:g id="SEPARATOR">=</ns1:g>Puertoriko"</item>
+    <item msgid="8522030474373927681">"S<ns1:g id="SEPARATOR">=</ns1:g>Santodomingo"</item>
+    <item msgid="4763853453317431594">"S<ns1:g id="SEPARATOR">=</ns1:g>Sanpaulu"</item>
+    <item msgid="2713153284784311646">"S<ns1:g id="SEPARATOR">=</ns1:g>Sentdžonsa"</item>
+    <item msgid="8252666620333105271">"S<ns1:g id="SEPARATOR">=</ns1:g>Sentkitsa"</item>
+    <item msgid="4851597775036027515">"S<ns1:g id="SEPARATOR">=</ns1:g>Sentlūsija"</item>
+    <item msgid="2395485473100271503">"S<ns1:g id="SEPARATOR">=</ns1:g>Senttomasa"</item>
+    <item msgid="4148037555658225145">"T<ns1:g id="SEPARATOR">=</ns1:g>Tihuana"</item>
+    <item msgid="3491199166042475853">"T<ns1:g id="SEPARATOR">=</ns1:g>Toronto"</item>
+    <item msgid="1506838283840737263">"V<ns1:g id="SEPARATOR">=</ns1:g>Vankūvera"</item>
+    <item msgid="8935386104773857399">"V<ns1:g id="SEPARATOR">=</ns1:g>Vinipega"</item>
+    <item msgid="1132634022412399582">"D<ns1:g id="SEPARATOR">=</ns1:g>Dienvidpols"</item>
+    <item msgid="4076962667198039206">"L<ns1:g id="SEPARATOR">=</ns1:g>Longjērbīene"</item>
+    <item msgid="3784788073896028355">"A<ns1:g id="SEPARATOR">=</ns1:g>Almati"</item>
+    <item msgid="7895695236056852523">"A<ns1:g id="SEPARATOR">=</ns1:g>Ammāna"</item>
+    <item msgid="1795426532295280371">"A<ns1:g id="SEPARATOR">=</ns1:g>Anadira"</item>
+    <item msgid="7194236926158343552">"A<ns1:g id="SEPARATOR">=</ns1:g>Aktau"</item>
+    <item msgid="4796350130854360870">"B<ns1:g id="SEPARATOR">=</ns1:g>Bagdāde"</item>
+    <item msgid="4020105434451091851">"B<ns1:g id="SEPARATOR">=</ns1:g>Bahreina"</item>
+    <item msgid="3895868797052686484">"B<ns1:g id="SEPARATOR">=</ns1:g>Baku"</item>
+    <item msgid="228001522630057957">"B<ns1:g id="SEPARATOR">=</ns1:g>Bangkoka"</item>
+    <item msgid="5555647809114820537">"B<ns1:g id="SEPARATOR">=</ns1:g>Beirūta"</item>
+    <item msgid="2960873998178478784">"K<ns1:g id="SEPARATOR">=</ns1:g>Kalkāta"</item>
+    <item msgid="8765555959722950691">"D<ns1:g id="SEPARATOR">=</ns1:g>Damaska"</item>
+    <item msgid="4979709428925196546">"D<ns1:g id="SEPARATOR">=</ns1:g>Daka"</item>
+    <item msgid="310419600200885308">"D<ns1:g id="SEPARATOR">=</ns1:g>Dubaija"</item>
+    <item msgid="1203379132329159260">"G<ns1:g id="SEPARATOR">=</ns1:g>Gaza"</item>
+    <item msgid="2359068282340162319">"H<ns1:g id="SEPARATOR">=</ns1:g>Hībrona"</item>
+    <item msgid="6223396610551759129">"H<ns1:g id="SEPARATOR">=</ns1:g>Hošimina"</item>
+    <item msgid="4731022818651322736">"H<ns1:g id="SEPARATOR">=</ns1:g>Honkonga"</item>
+    <item msgid="8104778702069607166">"S<ns1:g id="SEPARATOR">=</ns1:g>Stambula"</item>
+    <item msgid="758800913783999425">"D<ns1:g id="SEPARATOR">=</ns1:g>Džakarta"</item>
+    <item msgid="8956406398692698126">"J<ns1:g id="SEPARATOR">=</ns1:g>Jeruzaleme"</item>
+    <item msgid="1664426577433326419">"K<ns1:g id="SEPARATOR">=</ns1:g>Kabula"</item>
+    <item msgid="7700349511508357396">"K<ns1:g id="SEPARATOR">=</ns1:g>Karāči"</item>
+    <item msgid="5273241794521591984">"K<ns1:g id="SEPARATOR">=</ns1:g>Katmandu"</item>
+    <item msgid="4754850915168634158">"K<ns1:g id="SEPARATOR">=</ns1:g>Kualalumpura"</item>
+    <item msgid="5187849635785055693">"K<ns1:g id="SEPARATOR">=</ns1:g>Kuveita"</item>
+    <item msgid="2923385979252179376">"M<ns1:g id="SEPARATOR">=</ns1:g>Makau"</item>
+    <item msgid="722458682107911739">"M<ns1:g id="SEPARATOR">=</ns1:g>Manila"</item>
+    <item msgid="6033964325069060422">"M<ns1:g id="SEPARATOR">=</ns1:g>Maskata"</item>
+    <item msgid="6077458941399984780">"P<ns1:g id="SEPARATOR">=</ns1:g>Pnompeņa"</item>
+    <item msgid="935474308903572975">"P<ns1:g id="SEPARATOR">=</ns1:g>Phenjana"</item>
+    <item msgid="5336632319992664889">"K<ns1:g id="SEPARATOR">=</ns1:g>Katara"</item>
+    <item msgid="1667243110545095146">"R<ns1:g id="SEPARATOR">=</ns1:g>Rangūna"</item>
+    <item msgid="4460370766685855731">"R<ns1:g id="SEPARATOR">=</ns1:g>Rijāda"</item>
+    <item msgid="4229224905931739201">"S<ns1:g id="SEPARATOR">=</ns1:g>Saigona"</item>
+    <item msgid="8705359848250215620">"S<ns1:g id="SEPARATOR">=</ns1:g>Seula"</item>
+    <item msgid="583367295371395814">"Š<ns1:g id="SEPARATOR">=</ns1:g>Šanhaja"</item>
+    <item msgid="1422156732794771136">"S<ns1:g id="SEPARATOR">=</ns1:g>Singapūra"</item>
+    <item msgid="1972491729911039207">"T<ns1:g id="SEPARATOR">=</ns1:g>Taipeja"</item>
+    <item msgid="5563193560935461106">"T<ns1:g id="SEPARATOR">=</ns1:g>Teherāna"</item>
+    <item msgid="8629402941285674273">"T<ns1:g id="SEPARATOR">=</ns1:g>Telaviva"</item>
+    <item msgid="8499164674454654525">"T<ns1:g id="SEPARATOR">=</ns1:g>Tokija"</item>
+    <item msgid="1705804745888992744">"U<ns1:g id="SEPARATOR">=</ns1:g>Ulanbatora"</item>
+    <item msgid="2028626988021468640">"B<ns1:g id="SEPARATOR">=</ns1:g>Bermuda"</item>
+    <item msgid="4527109966513690429">"K<ns1:g id="SEPARATOR">=</ns1:g>Kanāriju salas"</item>
+    <item msgid="4886308317040330383">"K<ns1:g id="SEPARATOR">=</ns1:g>Kaboverde"</item>
+    <item msgid="1003307362164178007">"R<ns1:g id="SEPARATOR">=</ns1:g>Reikjavīka"</item>
+    <item msgid="6742010412815268657">"S<ns1:g id="SEPARATOR">=</ns1:g>Stenlija"</item>
+    <item msgid="5659389449738592757">"A<ns1:g id="SEPARATOR">=</ns1:g>Adelaida"</item>
+    <item msgid="4567804576346784523">"B<ns1:g id="SEPARATOR">=</ns1:g>Brisbena"</item>
+    <item msgid="8730590400362815585">"K<ns1:g id="SEPARATOR">=</ns1:g>Kanbera"</item>
+    <item msgid="6416990927714140153">"D<ns1:g id="SEPARATOR">=</ns1:g>Dārvina"</item>
+    <item msgid="3073969292696516135">"M<ns1:g id="SEPARATOR">=</ns1:g>Melburna"</item>
+    <item msgid="1719286228375722176">"J<ns1:g id="SEPARATOR">=</ns1:g>Jaundienvidvelsa"</item>
+    <item msgid="3663940748056976266">"P<ns1:g id="SEPARATOR">=</ns1:g>Pērta"</item>
+    <item msgid="3383881736858438153">"K<ns1:g id="SEPARATOR">=</ns1:g>Kvīnslenda"</item>
+    <item msgid="971889339240879138">"S<ns1:g id="SEPARATOR">=</ns1:g>Sidneja"</item>
+    <item msgid="5542803438162180311">"V<ns1:g id="SEPARATOR">=</ns1:g>Viktorija"</item>
+    <item msgid="11828841481838883">"Ņ<ns1:g id="SEPARATOR">=</ns1:g>Ņūfaundlenda"</item>
+    <item msgid="1734331918410561807">"S<ns1:g id="SEPARATOR">=</ns1:g>Saskačevana"</item>
+    <item msgid="9184412695613864979">"L<ns1:g id="SEPARATOR">=</ns1:g>Lieldienu sala"</item>
+    <item msgid="1014282454239014527">"A<ns1:g id="SEPARATOR">=</ns1:g>Amsterdama"</item>
+    <item msgid="4928363054269791193">"A<ns1:g id="SEPARATOR">=</ns1:g>Andora"</item>
+    <item msgid="912290900213826368">"A<ns1:g id="SEPARATOR">=</ns1:g>Atēnas"</item>
+    <item msgid="6097000352459209495">"B<ns1:g id="SEPARATOR">=</ns1:g>Belfāsta"</item>
+    <item msgid="3285885824311481790">"B<ns1:g id="SEPARATOR">=</ns1:g>Belgrada"</item>
+    <item msgid="911055049821251982">"B<ns1:g id="SEPARATOR">=</ns1:g>Berlīne"</item>
+    <item msgid="9099244516556291111">"B<ns1:g id="SEPARATOR">=</ns1:g>Bratislava"</item>
+    <item msgid="158977749726480076">"B<ns1:g id="SEPARATOR">=</ns1:g>Brisele"</item>
+    <item msgid="8875102297676173346">"B<ns1:g id="SEPARATOR">=</ns1:g>Bukareste"</item>
+    <item msgid="804451569472542912">"B<ns1:g id="SEPARATOR">=</ns1:g>Budapešta"</item>
+    <item msgid="6827506774445509939">"K<ns1:g id="SEPARATOR">=</ns1:g>Kišiņeva"</item>
+    <item msgid="487345893088732797">"K<ns1:g id="SEPARATOR">=</ns1:g>Kopenhāgena"</item>
+    <item msgid="7760953471297773537">"D<ns1:g id="SEPARATOR">=</ns1:g>Dublina"</item>
+    <item msgid="323414429034825249">"G<ns1:g id="SEPARATOR">=</ns1:g>Gibraltārs"</item>
+    <item msgid="1785566206078328830">"H<ns1:g id="SEPARATOR">=</ns1:g>Helsinki"</item>
+    <item msgid="5938185647271923359">"M<ns1:g id="SEPARATOR">=</ns1:g>Mena"</item>
+    <item msgid="5974864320735263245">"S<ns1:g id="SEPARATOR">=</ns1:g>Stambula"</item>
+    <item msgid="3567775364750772947">"K<ns1:g id="SEPARATOR">=</ns1:g>Kijeva"</item>
+    <item msgid="540344101798867007">"L<ns1:g id="SEPARATOR">=</ns1:g>Lisabona"</item>
+    <item msgid="5091062403792923657">"L<ns1:g id="SEPARATOR">=</ns1:g>Londona"</item>
+    <item msgid="7075006205000490364">"L<ns1:g id="SEPARATOR">=</ns1:g>Luksemburga"</item>
+    <item msgid="4901781246584739451">"M<ns1:g id="SEPARATOR">=</ns1:g>Madride"</item>
+    <item msgid="9047080834315777144">"M<ns1:g id="SEPARATOR">=</ns1:g>Malta"</item>
+    <item msgid="8200456520732452034">"M<ns1:g id="SEPARATOR">=</ns1:g>Minska"</item>
+    <item msgid="5452744619736513383">"M<ns1:g id="SEPARATOR">=</ns1:g>Monako"</item>
+    <item msgid="3513517408062322298">"M<ns1:g id="SEPARATOR">=</ns1:g>Maskava"</item>
+    <item msgid="7917103295878081674">"O<ns1:g id="SEPARATOR">=</ns1:g>Oslo"</item>
+    <item msgid="4245547231693746977">"P<ns1:g id="SEPARATOR">=</ns1:g>Parīze"</item>
+    <item msgid="3778652900196715557">"P<ns1:g id="SEPARATOR">=</ns1:g>Prāga"</item>
+    <item msgid="1827175423974383675">"R<ns1:g id="SEPARATOR">=</ns1:g>Rīga"</item>
+    <item msgid="2095130417232677930">"R<ns1:g id="SEPARATOR">=</ns1:g>Roma"</item>
+    <item msgid="7631654618289353520">"S<ns1:g id="SEPARATOR">=</ns1:g>Sanmarīno"</item>
+    <item msgid="7219835179107610398">"S<ns1:g id="SEPARATOR">=</ns1:g>Sarajeva"</item>
+    <item msgid="7199868165463282240">"S<ns1:g id="SEPARATOR">=</ns1:g>Simferopole"</item>
+    <item msgid="2786395006682246794">"S<ns1:g id="SEPARATOR">=</ns1:g>Skopje"</item>
+    <item msgid="4706927178872100023">"S<ns1:g id="SEPARATOR">=</ns1:g>Sofija"</item>
+    <item msgid="1982417589953195308">"S<ns1:g id="SEPARATOR">=</ns1:g>Stokholma"</item>
+    <item msgid="1596083919400921960">"T<ns1:g id="SEPARATOR">=</ns1:g>Tallina"</item>
+    <item msgid="3079313598974879114">"V<ns1:g id="SEPARATOR">=</ns1:g>Vatikāns"</item>
+    <item msgid="6516636001856910888">"V<ns1:g id="SEPARATOR">=</ns1:g>Vīne"</item>
+    <item msgid="6377314532157945456">"V<ns1:g id="SEPARATOR">=</ns1:g>Viļņa"</item>
+    <item msgid="3427175235616698721">"V<ns1:g id="SEPARATOR">=</ns1:g>Varšava"</item>
+    <item msgid="8404354243761332922">"Z<ns1:g id="SEPARATOR">=</ns1:g>Zagreba"</item>
+    <item msgid="1457280242717152391">"C<ns1:g id="SEPARATOR">=</ns1:g>Cīrihe"</item>
+    <item msgid="1065940089741359291">"A<ns1:g id="SEPARATOR">=</ns1:g>Antananarivu"</item>
+    <item msgid="5176181880014090003">"M<ns1:g id="SEPARATOR">=</ns1:g>Maldīvija"</item>
+    <item msgid="8281854645557426433">"M<ns1:g id="SEPARATOR">=</ns1:g>Maurīcija"</item>
+    <item msgid="2686249517389816420">"O<ns1:g id="SEPARATOR">=</ns1:g>Oklenda"</item>
+    <item msgid="279925671775807392">"F<ns1:g id="SEPARATOR">=</ns1:g>Fidži"</item>
+    <item msgid="7971492669765264840">"G<ns1:g id="SEPARATOR">=</ns1:g>Guama"</item>
+    <item msgid="889371273355762733">"H<ns1:g id="SEPARATOR">=</ns1:g>Honolulu"</item>
+    <item msgid="5516500578074269817">"K<ns1:g id="SEPARATOR">=</ns1:g>Kirisimasi"</item>
+    <item msgid="2740704911915073056">"N<ns1:g id="SEPARATOR">=</ns1:g>Numeja"</item>
+    <item msgid="8732832728949672807">"S<ns1:g id="SEPARATOR">=</ns1:g>Samoa"</item>
+    <item msgid="6489500698846864993">"T<ns1:g id="SEPARATOR">=</ns1:g>Taiti"</item>
+    <item msgid="3983121625709442324">"A<ns1:g id="SEPARATOR">=</ns1:g>Antigva"</item>
+    <item msgid="2650510570709806322">"O<ns1:g id="SEPARATOR">=</ns1:g>Ostina"</item>
+    <item msgid="5257283506227357911">"B<ns1:g id="SEPARATOR">=</ns1:g>Bostona"</item>
+    <item msgid="6326368958641850267">"K<ns1:g id="SEPARATOR">=</ns1:g>Kalgari"</item>
+    <item msgid="8830116365016232583">"K<ns1:g id="SEPARATOR">=</ns1:g>Kolumbusa"</item>
+    <item msgid="6986556538341883811">"D<ns1:g id="SEPARATOR">=</ns1:g>Dalasa"</item>
+    <item msgid="836479352500251902">"N<ns1:g id="SEPARATOR">=</ns1:g>Noksvila"</item>
+    <item msgid="8495291458467378851">"M<ns1:g id="SEPARATOR">=</ns1:g>Memfisa"</item>
+    <item msgid="2788807207554683122">"M<ns1:g id="SEPARATOR">=</ns1:g>Maiami"</item>
+    <item msgid="3984640407077208471">"M<ns1:g id="SEPARATOR">=</ns1:g>Mineapolisa"</item>
+    <item msgid="6997305266329324161">"O<ns1:g id="SEPARATOR">=</ns1:g>Otava"</item>
+    <item msgid="5191741145278683016">"F<ns1:g id="SEPARATOR">=</ns1:g>Filadelfija"</item>
+    <item msgid="5898032730733441936">"P<ns1:g id="SEPARATOR">=</ns1:g>Portlenda"</item>
+    <item msgid="9070160716002203069">"S<ns1:g id="SEPARATOR">=</ns1:g>Sandjego"</item>
+    <item msgid="1829944133410079040">"S<ns1:g id="SEPARATOR">=</ns1:g>Sanfrancisko"</item>
+    <item msgid="8407905318529692654">"S<ns1:g id="SEPARATOR">=</ns1:g>Soltleiksitija"</item>
+    <item msgid="3091392589347990898">"S<ns1:g id="SEPARATOR">=</ns1:g>Sanhosē"</item>
+    <item msgid="7080627414383807284">"S<ns1:g id="SEPARATOR">=</ns1:g>Sansalvadora"</item>
+    <item msgid="3430371213266252049">"S<ns1:g id="SEPARATOR">=</ns1:g>Sietla"</item>
+    <item msgid="9177491393818757071">"S<ns1:g id="SEPARATOR">=</ns1:g>Sentluisa"</item>
+    <item msgid="6234359686676312837">"V<ns1:g id="SEPARATOR">=</ns1:g>Vašingtona"</item>
+    <item msgid="4325057056005132331">"H<ns1:g id="SEPARATOR">=</ns1:g>Hjūstona"</item>
+    <item msgid="38148255938075867">"S<ns1:g id="SEPARATOR">=</ns1:g>Sanantonio"</item>
+    <item msgid="3601481860893666763">"D<ns1:g id="SEPARATOR">=</ns1:g>Džeksonvila"</item>
+    <item msgid="3987471437354665534">"B<ns1:g id="SEPARATOR">=</ns1:g>Baltimora"</item>
+    <item msgid="3389674262267006887">"N<ns1:g id="SEPARATOR">=</ns1:g>Nešvila"</item>
+    <item msgid="7521690366448637309">"M<ns1:g id="SEPARATOR">=</ns1:g>Milvokī"</item>
+    <item msgid="2231069593975740859">"O<ns1:g id="SEPARATOR">=</ns1:g>Oklahoma"</item>
+    <item msgid="1970008262236914770">"L<ns1:g id="SEPARATOR">=</ns1:g>Lasvegasa"</item>
+    <item msgid="7113811028304266017">"A<ns1:g id="SEPARATOR">=</ns1:g>Albukerke"</item>
+    <item msgid="6481469458896644678">"T<ns1:g id="SEPARATOR">=</ns1:g>Taksona"</item>
+    <item msgid="5970857542995467466">"S<ns1:g id="SEPARATOR">=</ns1:g>Sakramento"</item>
+    <item msgid="1999267306329214429">"A<ns1:g id="SEPARATOR">=</ns1:g>Atlanta"</item>
+    <item msgid="8761847787537443648">"K<ns1:g id="SEPARATOR">=</ns1:g>Klīvlenda"</item>
+    <item msgid="2987455647692324208">"Ņ<ns1:g id="SEPARATOR">=</ns1:g>Ņūorleāna"</item>
+    <item msgid="8104109426412705845">"T<ns1:g id="SEPARATOR">=</ns1:g>Tampa"</item>
+    <item msgid="1410067233842240795">"P<ns1:g id="SEPARATOR">=</ns1:g>Pitsburga"</item>
+    <item msgid="3339955740367374442">"S<ns1:g id="SEPARATOR">=</ns1:g>Sinsinati"</item>
+    <item msgid="6091407424772799978">"M<ns1:g id="SEPARATOR">=</ns1:g>Mauntinvjū"</item>
+    <item msgid="150299708499753555">"R<ns1:g id="SEPARATOR">=</ns1:g>Rīno"</item>
+    <item msgid="9155068631060038769">"B<ns1:g id="SEPARATOR">=</ns1:g>Blekroka"</item>
+    <item msgid="8498761319928979900">"D<ns1:g id="SEPARATOR">=</ns1:g>Doha"</item>
+    <item msgid="8307897251088048641">"P<ns1:g id="SEPARATOR">=</ns1:g>Pekina"</item>
+    <item msgid="8605970953750147428">"M<ns1:g id="SEPARATOR">=</ns1:g>Mumbaja"</item>
+    <item msgid="6668274273067049125">"D<ns1:g id="SEPARATOR">=</ns1:g>Deli"</item>
+    <item msgid="2933410189478233292">"O<ns1:g id="SEPARATOR">=</ns1:g>Osaka"</item>
+    <item msgid="9011026093638055579">"L<ns1:g id="SEPARATOR">=</ns1:g>Lahora"</item>
+    <item msgid="1448378291805481500">"S<ns1:g id="SEPARATOR">=</ns1:g>Sana"</item>
+    <item msgid="5233119846682408301">"B<ns1:g id="SEPARATOR">=</ns1:g>Barselona"</item>
+    <item msgid="9146746514265554721">"M<ns1:g id="SEPARATOR">=</ns1:g>Minhene"</item>
+    <item msgid="157866084892734979">"M<ns1:g id="SEPARATOR">=</ns1:g>Milāna"</item>
+    <item msgid="2787346322341414963">"F<ns1:g id="SEPARATOR">=</ns1:g>Frankfurte"</item>
+    <item msgid="8407511504088696581">"H<ns1:g id="SEPARATOR">=</ns1:g>Hanoja"</item>
+    <item msgid="5184417944073499453">"A<ns1:g id="SEPARATOR">=</ns1:g>Ankara"</item>
+    <item msgid="4028784954452197920">"B<ns1:g id="SEPARATOR">=</ns1:g>Bangalora"</item>
+    <item msgid="190152483600862776">"B<ns1:g id="SEPARATOR">=</ns1:g>Brazilja"</item>
+    <item msgid="8009516135735104388">"K<ns1:g id="SEPARATOR">=</ns1:g>Keiptauna"</item>
+    <item msgid="6057191797622953016">"I<ns1:g id="SEPARATOR">=</ns1:g>Islāmābāda"</item>
+    <item msgid="2702029416591153210">"R<ns1:g id="SEPARATOR">=</ns1:g>Riodežaneiro"</item>
+    <item msgid="1753927312634708098">"E<ns1:g id="SEPARATOR">=</ns1:g>Enārbora"</item>
+    <item msgid="4225721108475278979">"B<ns1:g id="SEPARATOR">=</ns1:g>Boldera"</item>
+    <item msgid="6393177386755796069">"K<ns1:g id="SEPARATOR">=</ns1:g>Kembridža"</item>
+    <item msgid="759409010285366934">"K<ns1:g id="SEPARATOR">=</ns1:g>Kērklenda"</item>
+    <item msgid="6308007059287569663">"M<ns1:g id="SEPARATOR">=</ns1:g>Medisona"</item>
+    <item msgid="6971636434858330021">"G<ns1:g id="SEPARATOR">=</ns1:g>Guangžou"</item>
+    <item msgid="1185109514180068650">"H<ns1:g id="SEPARATOR">=</ns1:g>Haidarabada"</item>
+    <item msgid="3032295682584784261">"R<ns1:g id="SEPARATOR">=</ns1:g>Restona"</item>
+    <item msgid="7722837296297332268">"B<ns1:g id="SEPARATOR">=</ns1:g>Belo Orizonte"</item>
+    <item msgid="3593516299122577780">"S<ns1:g id="SEPARATOR">=</ns1:g>Santjago"</item>
+    <item msgid="2293331653589266583">"M<ns1:g id="SEPARATOR">=</ns1:g>Monrovija"</item>
+    <item msgid="7899128359620301710">"K<ns1:g id="SEPARATOR">=</ns1:g>Kolombo"</item>
+    <item msgid="5294489752262543829">"Č<ns1:g id="SEPARATOR">=</ns1:g>Čivava"</item>
+    <item msgid="8066356061184206341">"S<ns1:g id="SEPARATOR">=</ns1:g>Salvadora"</item>
+    <item msgid="4806867741334453982">"G<ns1:g id="SEPARATOR">=</ns1:g>Gurgāona"</item>
+    <item msgid="2585780177649876827">"M<ns1:g id="SEPARATOR">=</ns1:g>Mančestera"</item>
+    <item msgid="234104953526248139">"K<ns1:g id="SEPARATOR">=</ns1:g>Kijeva"</item>
+    <item msgid="5245429461217350012">"S<ns1:g id="SEPARATOR">=</ns1:g>Sanktpēterburga"</item>
+    <item msgid="6738531308006017215">"K<ns1:g id="SEPARATOR">=</ns1:g>Krakova"</item>
+    <item msgid="8972702613339139467">"V<ns1:g id="SEPARATOR">=</ns1:g>Vroclava"</item>
+    <item msgid="187278924459096566">"H<ns1:g id="SEPARATOR">=</ns1:g>Hamburga"</item>
+    <item msgid="6173267862207394917">"O<ns1:g id="SEPARATOR">=</ns1:g>Oulu"</item>
+    <item msgid="5639324478037405990">"H<ns1:g id="SEPARATOR">=</ns1:g>Haifa"</item>
+    <item msgid="3157180661352354058">"S<ns1:g id="SEPARATOR">=</ns1:g>Sanhuana"</item>
+    <item msgid="6995939579417282715">"T<ns1:g id="SEPARATOR">=</ns1:g>Tegusigalpa"</item>
+    <item msgid="1641840677391275004">"P<ns1:g id="SEPARATOR">=</ns1:g>Paramaribo"</item>
+    <item msgid="7317049454800260290">"K<ns1:g id="SEPARATOR">=</ns1:g>Kito"</item>
+    <item msgid="4524380876433343244">"Ļ<ns1:g id="SEPARATOR">=</ns1:g>Ļubļana"</item>
+  </string-array>
+    <string-array name="clock_style_entries">
+    <item msgid="917900462224167608">"Analogais"</item>
+    <item msgid="8483930821046925592">"Digitālais"</item>
+  </string-array>
+    <string-array name="sw_lap_number_set">
+    <item msgid="2816627565030953899">"Skaits: <ns1:g id="NUMBER">%d</ns1:g>"</item>
+    <item msgid="316923361931627987">"Skaits: <ns1:g id="NUMBER">%02d</ns1:g>"</item>
+  </string-array>
+    <string-array name="sw_share_strings">
+    <item msgid="842841032273927988">"Jūs gan esat ātrs!"</item>
+    <item msgid="6332879039890727169">"Baudiet sava darba augļus!"</item>
+    <item msgid="815382761274660130">"Android ierīces ir ātras, tomēr ne tik ātras kā jūs!"</item>
+    <item msgid="7916250650982813737">"Uf."</item>
+    <item msgid="6836603904515182333">"L33t reizes."</item>
+    <item msgid="7508085100680861631">"Apbrīnojams ātrums."</item>
+    <item msgid="5961245252909589573">"Ceļosim laikā vēlreiz."</item>
+    <item msgid="5211891900854545940">"Paleciet pa kreisi."</item>
+    <item msgid="9071353477103826053">"Jums ir dažāda izpratne par steigu."</item>
+    <item msgid="3785193933691117181">"Fotonu ātrums."</item>
+  </string-array>
+    <string-array name="timer_notifications">
+    <item msgid="7760558912503484257">"Atlikušais laiks: mazāk par minūti"</item>
+    <item msgid="83197792732433351">"Atlikušais laiks: <ns1:g id="HOURS">%1$s</ns1:g>"</item>
+    <item msgid="8919698220200894252">"Atlikušais laiks: <ns1:g id="MINUTES">%2$s</ns1:g>"</item>
+    <item msgid="8458069283817013813">"Atlikušais laiks: <ns1:g id="HOURS">%1$s</ns1:g> <ns1:g id="MINUTES">%2$s</ns1:g>"</item>
+  </string-array>
+    <string-array name="timezone_labels">
+    <item msgid="5495601234086197399">"Māršala Salas"</item>
+    <item msgid="4196408495909011020">"Midveja sala"</item>
+    <item msgid="1414384194857730006">"Havajas"</item>
+    <item msgid="2687091371581931926">"Aļaska"</item>
+    <item msgid="1922100269679049660">"Klusā okeāna piekr. laiks"</item>
+    <item msgid="7156402158716866161">"Tihuana"</item>
+    <item msgid="1144117502254612241">"Arizona"</item>
+    <item msgid="101284182011722637">"Čivava"</item>
+    <item msgid="689121094232986897">"Kalnu laika josla"</item>
+    <item msgid="5445331923942302756">"Centrālamerikas laiks"</item>
+    <item msgid="2749806434052452351">"Centrālais laiks"</item>
+    <item msgid="3997138870229703753">"Mehiko"</item>
+    <item msgid="5425567073027744888">"Saskačevana"</item>
+    <item msgid="2877342865396629368">"Bogota"</item>
+    <item msgid="568682398893899670">"Austrumu laiks"</item>
+    <item msgid="668135984541863866">"Venecuēla"</item>
+    <item msgid="3737474220861486223">"Atlant. laiks (Barbadosa)"</item>
+    <item msgid="6279116051273436870">"Atlantijas laiks (Kanāda)"</item>
+    <item msgid="8513382867172014244">"Manausa"</item>
+    <item msgid="7776299003105932407">"Santjago"</item>
+    <item msgid="8636989494746218677">"Ņūfaundlenda"</item>
+    <item msgid="4402541016410147505">"Brazilja"</item>
+    <item msgid="2251184440733164084">"Buenosairesa"</item>
+    <item msgid="6202926618569004969">"Grenlande"</item>
+    <item msgid="2355275037115290628">"Montevideo"</item>
+    <item msgid="1377549694711708945">"Vidusatlantijas laiks"</item>
+    <item msgid="3457671272126347981">"Azoru salas"</item>
+    <item msgid="3659315141063710840">"Kaboverdes salas"</item>
+    <item msgid="1260941741802367635">"Kasablanka"</item>
+    <item msgid="8275203689687954762">"Londona, Dublina"</item>
+    <item msgid="5970179539479320905">"Amsterdama, Berlīne"</item>
+    <item msgid="5396319478750517962">"Belgrada"</item>
+    <item msgid="8688787475056663004">"Brisele"</item>
+    <item msgid="3415827874921681622">"Sarajeva"</item>
+    <item msgid="402008965928320066">"Vindhuka"</item>
+    <item msgid="6436942724959275569">"Rietumāfrikas laiks"</item>
+    <item msgid="954536568417204026">"Ammāna, Jordānija"</item>
+    <item msgid="8932745482008902551">"Atēnas, Stambula"</item>
+    <item msgid="320025725949024510">"Beirūta, Libāna"</item>
+    <item msgid="7242083112551905970">"Kaira"</item>
+    <item msgid="7241520146011450419">"Helsinki"</item>
+    <item msgid="2717065017510546526">"Jeruzaleme"</item>
+    <item msgid="8698556287741466553">"Minska"</item>
+    <item msgid="1797598357342084506">"Harare"</item>
+    <item msgid="5169119919905066998">"Bagdāde"</item>
+    <item msgid="2615788116201065182">"Maskava"</item>
+    <item msgid="9084354867885584646">"Kuveita"</item>
+    <item msgid="1351570519986178268">"Nairobi"</item>
+    <item msgid="7094569580635877460">"Teherāna"</item>
+    <item msgid="3953138772617909704">"Baku"</item>
+    <item msgid="2868893113598800752">"Tbilisi"</item>
+    <item msgid="7088581865802476373">"Erevāna"</item>
+    <item msgid="1941122257623887992">"Dubaija"</item>
+    <item msgid="9194797225058249720">"Kabula"</item>
+    <item msgid="6486569254364577332">"Islāmābāda, Karāči"</item>
+    <item msgid="5487724896895412089">"Uraļska"</item>
+    <item msgid="364906869710826982">"Jekaterinburga"</item>
+    <item msgid="2106505051751383358">"Kalkāta"</item>
+    <item msgid="6851586621581501447">"Šrilanka"</item>
+    <item msgid="800438544128213134">"Katmandu"</item>
+    <item msgid="6173621471007643021">"Astana"</item>
+    <item msgid="8645125891971581128">"Jangona"</item>
+    <item msgid="2886407505119737794">"Krasnojarska"</item>
+    <item msgid="3408222398188107090">"Bangkoka"</item>
+    <item msgid="4441612937172851228">"Pekina"</item>
+    <item msgid="4936715789028996930">"Honkonga"</item>
+    <item msgid="4261031143777385525">"Irkutska"</item>
+    <item msgid="3538060959338191835">"Kualalumpura"</item>
+    <item msgid="1438847562643099201">"Pērta"</item>
+    <item msgid="3063913827688244383">"Taibei"</item>
+    <item msgid="3502757135046564209">"Seula"</item>
+    <item msgid="6107588684519111669">"Tokija, Osaka"</item>
+    <item msgid="4350769099755608471">"Jakutska"</item>
+    <item msgid="2422707004533526462">"Adelaida"</item>
+    <item msgid="1292192084554134339">"Dārvina"</item>
+    <item msgid="1320883699470001716">"Brisbena"</item>
+    <item msgid="5137198806146386527">"Hobārta"</item>
+    <item msgid="5920063686933941174">"Sidneja, Kanbera"</item>
+    <item msgid="615906039696009425">"Vladivostoka"</item>
+    <item msgid="7738680449356275374">"Guama"</item>
+    <item msgid="2882915026380778227">"Magadana"</item>
+    <item msgid="8255615641810148152">"Oklenda"</item>
+    <item msgid="3027153773466391728">"Fidži"</item>
+    <item msgid="5911600083231840181">"Tonga"</item>
+    <item msgid="5176858645450908751">"Džakarta"</item>
+  </string-array>
+    <string-array name="volume_button_setting_entries">
+    <item msgid="7972756698723318690">"Snauda"</item>
+    <item msgid="3450979320164769576">"Nerādīt"</item>
+    <item msgid="6302517608411378024">"Neveikt nekādas darbības"</item>
+  </string-array>
+    <string-array name="week_start_entries">
+    <item msgid="9010198173394482639">"Sestdiena"</item>
+    <item msgid="3993530639455360921">"Svētdiena"</item>
+    <item msgid="8594709368683324282">"Pirmdiena"</item>
+  </string-array>
+    <plurals formatted="false" msgid="4539186407746763655" name="Nhours_description">
+      <item quantity="zero"><ns1:g id="NUMBER">%d</ns1:g> stundas</item>
+      <item quantity="one"><ns1:g id="NUMBER">%d</ns1:g> stunda</item>
+      <item quantity="other"><ns1:g id="NUMBER">%d</ns1:g> stundas</item>
+    </plurals>
+    <plurals formatted="false" msgid="6373760365221990859" name="Nminutes_description">
+      <item quantity="zero"><ns1:g id="NUMBER">%d</ns1:g> minūtes</item>
+      <item quantity="one"><ns1:g id="NUMBER">%d</ns1:g> minūte</item>
+      <item quantity="other"><ns1:g id="NUMBER">%d</ns1:g> minūtes</item>
+    </plurals>
+    <plurals formatted="false" msgid="6456500168536594889" name="Nseconds_description">
+      <item quantity="zero"><ns1:g id="NUMBER">%d</ns1:g> sekundes</item>
+      <item quantity="one"><ns1:g id="NUMBER">%d</ns1:g> sekunde</item>
+      <item quantity="other"><ns1:g id="NUMBER">%d</ns1:g> sekundes</item>
+    </plurals>
+    <plurals formatted="false" msgid="7844300009062867865" name="alarm_alert_snooze_duration">
+      <item quantity="zero"><ns1:g id="NUMBER">%d</ns1:g> min</item>
+      <item quantity="one"><ns1:g id="NUMBER">%d</ns1:g> min</item>
+      <item quantity="other"><ns1:g id="NUMBER">%d</ns1:g> min</item>
+    </plurals>
+    <plurals formatted="false" msgid="3212729193036041768" name="alarm_alert_snooze_set">
+      <item quantity="zero">Atlikts par <ns1:g id="MINUTES">%d</ns1:g> minūtēm.</item>
+      <item quantity="one">Atlikts par <ns1:g id="MINUTES">%d</ns1:g> minūti.</item>
+      <item quantity="other">Atlikts par <ns1:g id="MINUTES">%d</ns1:g> minūtēm.</item>
+    </plurals>
+    <plurals formatted="false" msgid="3591262014329613293" name="alarm_delete_confirmation">
+      <item quantity="zero">Vai dzēst atlasītos signālus?</item>
+      <item quantity="one">Vai dzēst atlasītos signālus?</item>
+      <item quantity="other">Vai dzēst atlasītos signālus?</item>
+    </plurals>
+    <plurals formatted="false" msgid="6579258788774360396" name="auto_silence_summary">
+      <item quantity="zero"><ns1:g id="FORMATTED_NUMBER">%s</ns1:g> minūtes</item>
+      <item quantity="one"><ns1:g id="FORMATTED_NUMBER">%s</ns1:g> minūte</item>
+      <item quantity="other"><ns1:g id="FORMATTED_NUMBER">%s</ns1:g> minūtes</item>
+    </plurals>
+    <plurals formatted="false" msgid="3706846447285206235" name="days">
+      <item quantity="zero"><ns1:g id="NUMBER">%s</ns1:g> dienas</item>
+      <item quantity="one"><ns1:g id="NUMBER">%s</ns1:g> diena</item>
+      <item quantity="other"><ns1:g id="NUMBER">%s</ns1:g> dienas</item>
+    </plurals>
+    <plurals formatted="false" msgid="3871283109767171655" name="hours">
+      <item quantity="zero"><ns1:g id="NUMBER">%s</ns1:g> stundas</item>
+      <item quantity="one"><ns1:g id="NUMBER">%s</ns1:g> stunda</item>
+      <item quantity="other"><ns1:g id="NUMBER">%s</ns1:g> stundas</item>
+    </plurals>
+    <plurals formatted="false" msgid="5484431721696058697" name="minutes">
+      <item quantity="zero"><ns1:g id="NUMBER">%s</ns1:g> minūtes</item>
+      <item quantity="one"><ns1:g id="NUMBER">%s</ns1:g> minūte</item>
+      <item quantity="other"><ns1:g id="NUMBER">%s</ns1:g> minūtes</item>
+    </plurals>
+    <plurals formatted="false" msgid="3112918131095248271" name="snooze_duration">
+      <item quantity="zero"><ns1:g id="NUMBER">%s</ns1:g> minūtes</item>
+      <item quantity="one"><ns1:g id="NUMBER">%s</ns1:g> minūte</item>
+      <item quantity="other"><ns1:g id="NUMBER">%s</ns1:g> minūtes</item>
+    </plurals>
+    <plurals formatted="false" msgid="322739253661747732" name="snooze_picker_label">
+      <item quantity="zero">minūtes</item>
+      <item quantity="one">minūte</item>
+      <item quantity="other">minūtes</item>
+    </plurals>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Pārvietoties uz sākuma ekrānu"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s: %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s: %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Pārvietoties augšup"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Vairāk opciju"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Gatavs"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Skatīt visu"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Izvēlieties lietotni"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"IZSLĒGTS"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"IESLĒGTS"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Meklējiet…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Notīrīt vaicājumu"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Meklēšanas vaicājums"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Meklēt"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Iesniegt vaicājumu"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Meklēšana ar balsi"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Kopīgot ar:"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Kopīgot ar %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Sakļaut"</string>
+    <string msgid="5976616107390962899" name="add_alarm">"Pievienot signālu"</string>
+    <string msgid="3272183025444682500" name="alarm_alert_dismiss_now_text">"Nerādīt tagad"</string>
+    <string msgid="4942914605480888820" name="alarm_alert_dismiss_text">"Noraidīt"</string>
+    <string msgid="2459925305288819812" name="alarm_alert_off_action_text">"Izsl."</string>
+    <string msgid="4472073417593915002" name="alarm_alert_off_text">"Izslēgts"</string>
+    <string msgid="5723945586913705445" name="alarm_alert_predismiss_title">"Gaidāms signāls"</string>
+    <string msgid="1774416052207651584" name="alarm_alert_snooze_text">"Snauda"</string>
+    <string msgid="6958013659168344550" name="alarm_alert_snooze_until">"Atlikts līdz: <ns1:g id="TIME">%s</ns1:g>"</string>
+    <string msgid="7064642998528766113" name="alarm_alert_snoozed_text">"Atlikts"</string>
+    <string msgid="6790780716498252583" name="alarm_alert_wake_up">"Mosties!"</string>
+    <string msgid="740283647046258651" name="alarm_button_description">"Signāli"</string>
+    <string msgid="8810520940995307437" name="alarm_cant_be_dismissed_still_more_than_24_hours_away">"Signālu plkst. <ns1:g id="ALARM_TIME">%s</ns1:g> vēl nevar atcelt. Līdz tam ir vairāk nekā 24 stundas."</string>
+    <string msgid="6131529309389084785" name="alarm_deleted">"Signāls ir izdzēsts"</string>
+    <string msgid="5509897230565826642" name="alarm_is_dismissed">"Signāls plkst. <ns1:g id="ALARM_TIME">%s</ns1:g> atcelts"</string>
+    <string msgid="5503226382620011088" name="alarm_is_set">"Signāls iestatīts uz plkst. <ns1:g id="ALARM_TIME">%s</ns1:g>"</string>
+    <string msgid="7044644119744928846" name="alarm_is_snoozed">"Signāls plkst. <ns1:g id="ALARM_TIME">%s</ns1:g> atlikts uz 10 minūtēm"</string>
+    <string msgid="2147506334302260256" name="alarm_klaxon_service_desc">"Skaņas atskaņošanas pakalpojums lietotnē Pulkstenis iestatītajiem signāliem"</string>
+    <string msgid="7589940465292950600" name="alarm_list_title">"Signāli"</string>
+    <string msgid="6585658367289194023" name="alarm_missed_text">"<ns1:g id="ALARM_TIME">%s</ns1:g> — <ns1:g id="ALARM_LABEL">%s</ns1:g>"</string>
+    <string msgid="3828345099754063392" name="alarm_missed_title">"Signāls tika nokavēts."</string>
+    <string msgid="5404083762646377829" name="alarm_notify_snooze_label">"<ns1:g id="LABEL">%s</ns1:g> (atlikts)"</string>
+    <string msgid="4819324081410990368" name="alarm_notify_snooze_text">"Signāls iestatīts uz: <ns1:g id="TIME">%s</ns1:g>. Pieskarieties, lai atceltu."</string>
+    <string msgid="4891014685945904766" name="alarm_notify_text">"Atlieciet vai noraidiet signālu."</string>
+    <string msgid="7242985466344233206" name="alarm_repeat">"Atkārtošana"</string>
+    <string msgid="2947147071388290814" name="alarm_settings">"Signāli"</string>
+    <string msgid="7873594221106531654" name="alarm_today">"Šodien"</string>
+    <string msgid="131356848787643420" name="alarm_tomorrow">"Rīt"</string>
+    <string msgid="5710042601177655254" name="alarm_undo">"atsaukt"</string>
+    <string msgid="3476686921490362230" name="alarm_vibrate">"Vibrozvans"</string>
+    <string msgid="8506245173912428522" name="alarm_volume_title">"Signāla skaļums"</string>
+    <string msgid="1075308195332888260" name="alarms_selected">"Atlasīti: <ns1:g id="ALARMS">%d</ns1:g>"</string>
+    <string msgid="6506982899651975645" name="alert">"Modinātāja signāls"</string>
+    <string msgid="278532320068394600" name="all_timers_stopped_notif">"Pieskarieties, lai skatītu savus taimerus."</string>
+    <string msgid="1670505720837152766" name="analog_gadget">"Analogais pulkstenis"</string>
+    <string msgid="6674495003718166674" name="app_label">"Pulkstenis"</string>
+    <string msgid="4821982647348750809" name="auto_silence_never">"Nekad"</string>
+    <string msgid="2012754009554434544" name="auto_silence_title">"Izslēgt skaņu pēc:"</string>
+    <string msgid="6274174710735449252" name="automatic_home_clock">"Rādīt dzīvesvietas laiku"</string>
+    <string msgid="6020476321040807273" name="automatic_home_clock_summary">"Ceļojot teritorijā, kurā ir atšķirīgs laiks, pievienot mājas laiku"</string>
+    <string msgid="3907838219512538763" name="button_alarms">"Pievienot signālu"</string>
+    <string msgid="4555761857494501363" name="button_cities">"Pilsētas"</string>
+    <string msgid="6050484561842120282" name="button_menu">"Citas opcijas"</string>
+    <string msgid="8552462751129256730" name="cities_activity_title">"Pilsētas"</string>
+    <string msgid="1335509457349179514" name="city_added">"Pilsēta <ns1:g id="CITY_NAME">%s</ns1:g> pievienota"</string>
+    <string msgid="1783441538785676299" name="city_delete_confirmation">"Vai noņemt šo pilsētu?"</string>
+    <string msgid="3935141305276867838" name="city_deleted">"Pilsēta <ns1:g id="CITY_NAME">%s</ns1:g> izdzēsta"</string>
+    <string msgid="2656876819515011590" name="clock_instructions">"Izvēlieties pulksteni"</string>
+    <string msgid="8317286807280600391" name="clock_settings">"Pulkstenis"</string>
+    <string msgid="2265011060429742344" name="clock_style">"Stils"</string>
+    <string msgid="3561772046433483980" name="collapse_alarm">"Sakļaušanas signāls"</string>
+    <string msgid="2194676418924016327" name="control_set_alarm">"Iestatīt signālu"</string>
+    <string msgid="3477418548382111184" name="custom_ringtone">"Pielāgots zvana signāls"</string>
+    <string msgid="971998564991636532" name="day_concat">", "</string>
+    <string msgid="3968620852217927702" name="day_picker_description">"Režģis ar mēneša dienām"</string>
+    <string msgid="5590025289805630372" name="default_label">"Signāls"</string>
+    <string msgid="4549726190682964245" name="default_ringtone_setting_title">"Noklusējuma zvana signāla iestatīšana"</string>
+    <string msgid="5732434972457000541" name="delete">"Dzēst"</string>
+    <string msgid="3457780990646206817" name="delete_alarm">"Dzēst signālu"</string>
+    <string msgid="6578572637340860840" name="delete_alarm_confirm">"Vai dzēst šo signālu?"</string>
+    <string msgid="6908431551612331381" name="deleted_key">"<ns1:g id="KEY">%1$s</ns1:g> tika dzēsts"</string>
+    <string msgid="1220848140260509437" name="deleted_message">"Dzēsts"</string>
+    <string msgid="1841309486023845685" name="description_direction_both">"Velciet pa kreisi, lai atliktu, vai pa labi, lai noraidītu"</string>
+    <string msgid="7448141043674998679" name="description_direction_left">"Lai atliktu, velciet pa kreisi"</string>
+    <string msgid="5709209043267548985" name="description_direction_right">"Lai nerādītu, velciet pa labi"</string>
+    <string msgid="4207371097361657274" name="desk_clock_button_description">"Pulksteņa attēlojums"</string>
+    <string msgid="2326954556720571358" name="digital_gadget">"Digitālais pulkstenis"</string>
+    <string msgid="5889378670229554109" name="disable_alarm">"Izslēgt signālu"</string>
+    <string msgid="7204593078688533541" name="dismiss_alarm">"Noraidīt signālu"</string>
+    <string msgid="6509722361933858451" name="done">"Gatavs"</string>
+    <string msgid="7007948707597430919" name="done_label">"Gatavs"</string>
+    <string msgid="1834599140632142536" name="enable_alarm">"Ieslēgt signālu"</string>
+    <string msgid="4100909974923444602" name="every_day">"Katru dienu"</string>
+    <string msgid="7392616528943305020" name="expand_alarm">"Izvēršanas signāls"</string>
+    <string msgid="1151743663255257668" name="gallery_button_description">"Galerija"</string>
+    <string msgid="7786263119482654015" name="help">"palīdzība"</string>
+    <string msgid="3217727306480505694" name="hide_clock">"Slēpt pulksteni"</string>
+    <string msgid="3383859096809056157" name="home_button_description">"Palaidējs"</string>
+    <string msgid="4436139365695453870" name="home_label">"Sākums"</string>
+    <string msgid="9199730676287974501" name="home_time_zone">"Dzīvesvietas laika josla"</string>
+    <string msgid="807894493443834624" name="home_time_zone_title">"Dzīvesvietas laika josla"</string>
+    <string msgid="7586639618712934060" name="hour_picker_description">"Stundu apļveida slīdnis"</string>
+    <string msgid="3393478155635368097" name="hours_label">"h"</string>
+    <string msgid="8652842524970971830" name="hours_label_description">"stundas"</string>
+    <string msgid="2782334750243998633" name="invalid_time">"Nederīgs laiks: <ns1:g id="INVALID_HOUR">%d</ns1:g>:<ns1:g id="INVALID_MINUTES">%d</ns1:g> <ns1:g id="INVALID_AMPM">%s</ns1:g>"</string>
+    <string msgid="3104567893212932487" name="invalid_timer_length">"Nederīgs taimera darbības ilgums"</string>
+    <string msgid="2674929164900463786" name="item_is_selected">"Atlasīts: <ns1:g id="ITEM">%1$s</ns1:g>"</string>
+    <string msgid="162189613902857319" name="label">"Iezīme"</string>
+    <string msgid="8736179296142915727" name="label_description">"Iezīme"</string>
+    <string msgid="6523322777415268044" name="loading_ringtone">"Notiek zvana signāla ielāde…"</string>
+    <string msgid="4772010125376647519" name="menu_alarm">"Signāls"</string>
+    <string msgid="5612760670606829805" name="menu_clock">"Pulkstenis"</string>
+    <string msgid="3241995064554071588" name="menu_desk_clock">"Galda pulkstenis"</string>
+    <string msgid="7204602994918829751" name="menu_edit_alarm">"Rediģēt signālu"</string>
+    <string msgid="4570953476186849841" name="menu_item_help">"Palīdzība"</string>
+    <string msgid="3486930302245398975" name="menu_item_night_mode">"Nakts režīms"</string>
+    <string msgid="1413723516369078665" name="menu_item_settings">"Iestatījumi"</string>
+    <string msgid="3120860422682721706" name="menu_item_sort_by_gmt_offset">"Kārtot pēc laika"</string>
+    <string msgid="1762931290495104106" name="menu_item_sort_by_name">"Kārtot pēc nosaukuma"</string>
+    <string msgid="3396117705293574701" name="menu_stopwatch">"Hronometrs"</string>
+    <string msgid="6459070074762877114" name="menu_timer">"Taimeris"</string>
+    <string msgid="6024811202872705251" name="minute_picker_description">"Minūšu apļveida slīdnis"</string>
+    <string msgid="3568098128251438588" name="minutes_label">"m"</string>
+    <string msgid="965686733490357796" name="minutes_label_description">"minūtes"</string>
+    <string msgid="5295473204045979335" name="missed_alarm_has_been_deleted">"Jūsu nokavētais signāls ir dzēsts."</string>
+    <string msgid="6722110840279707462" name="multiple_timers_available">"Nevar izpildīt jūsu pieprasījumu; ir pieejami vairāki taimeri."</string>
+    <string msgid="1626593420810117999" name="music_button_description">"Mūzika"</string>
+    <string msgid="2650244835760747046" name="next_alarm_description">"Nākamais signāls: <ns1:g id="ALARM_TIME">%s</ns1:g>"</string>
+    <string msgid="6136454740115613653" name="next_timer_notif">"Nākamais taimeris: <ns1:g id="TIME_REMAINING">%s</ns1:g>"</string>
+    <string msgid="1017350187324162631" name="night_mode_summary">"Ļoti aptumšots displejs (tumšās telpās)"</string>
+    <string msgid="5983813889469616299" name="night_mode_title">"Nakts režīms"</string>
+    <string msgid="990894208217576381" name="nightmode_button_description">"Aptumšot"</string>
+    <string msgid="8140632482969193119" name="no_alarm_at">"Uz laiku <ns1:g id="ALARM_TIME_HOUR">%d</ns1:g>:<ns1:g id="ALARM_TIME_MINUTES">%d</ns1:g> nav iestatīts neviens signāls."</string>
+    <string msgid="4463069177414482818" name="no_alarm_scheduled_for_this_time">"Uz šo laiku nav iestatīts neviens signāls."</string>
+    <string msgid="6429431324842022917" name="no_alarms">"Bez signāla"</string>
+    <string msgid="4887558279496044764" name="no_alarms_set">"Nav signālu"</string>
+    <string msgid="6250998794542941665" name="no_alarms_with_label">"Apzīmējums nav piešķirts nevienam signālam."</string>
+    <string msgid="1007596865203283741" name="no_city_selected">"Nav atlasīta neviena pilsēta."</string>
+    <string msgid="4986161963178722289" name="no_firing_alarms">"Nav aktīvu signālu."</string>
+    <string msgid="2008482054428460626" name="no_label_specified">"Nav norādīts neviens apzīmējums."</string>
+    <string msgid="2115420148192753534" name="no_scheduled_alarms">"Nav iestatītu signālu."</string>
+    <string msgid="3326365650863016606" name="no_timer_set">"Taimeris nav iestatīts."</string>
+    <string msgid="2889840988069436254" name="no_upcoming_alarms">"NAV GAIDĀMU SIGNĀLU"</string>
+    <string msgid="5408769235866082896" name="pick_alarm_to_dismiss">"Izvēlieties, kuru signālu atcelt."</string>
+    <string msgid="9100911171235162926" name="revert">"Atjaunot"</string>
+    <string msgid="9110746249688559579" name="ringtone">"Zvana signāls"</string>
+    <string msgid="7580922112921069925" name="ringtone_description">"Zvana signāls"</string>
+    <string msgid="7013450738357352801" name="screensaver_settings">"Ekrānsaudzētāja iestatījumi"</string>
+    <string msgid="124655952824003246" name="seconds_label">"s"</string>
+    <string msgid="3821620053141299692" name="seconds_label_description">"sekundes"</string>
+    <string msgid="3973338219107019769" name="select_day">"Atlasiet mēnesi un dienu"</string>
+    <string msgid="7651068754188418859" name="select_hours">"Atlasīt stundas"</string>
+    <string msgid="8327182090226828481" name="select_minutes">"Atlasīt minūtes"</string>
+    <string msgid="2603330600102539372" name="select_year">"Atlasiet gadu"</string>
+    <string msgid="3607479399424246605" name="selected_cities_label">"Atlasītās pilsētas"</string>
+    <string msgid="9148359866152726808" name="set_alarm">"Iestatīt signālu"</string>
+    <string msgid="5849739030579520686" name="settings">"Iestatījumi"</string>
+    <string msgid="8358759982675616915" name="show_clock">"Rādīt pulksteni"</string>
+    <string msgid="8605302849408279221" name="silent_alarm_summary">"Klusums"</string>
+    <string msgid="2077577763821006919" name="slash">"/"</string>
+    <string msgid="1097309861110780483" name="snooze_duration_title">"Snaudas ilgums"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="6598258908106423672" name="stopwatch_already_running">"Hronometrs jau darbojas."</string>
+    <string msgid="5713134605500796186" name="stopwatch_cant_be_reset_because_is_running">"Hronometru nevar atiestatīt, jo tas darbojas."</string>
+    <string msgid="7147219965448204727" name="stopwatch_isnt_running">"Hronometrs nedarbojas."</string>
+    <string msgid="5844686448815550482" name="stopwatch_lapped">"Hronometra laiks pārklāts"</string>
+    <string msgid="7585914953721021042" name="stopwatch_reset">"Hronometrs atiestatīts"</string>
+    <string msgid="8416624630388063996" name="stopwatch_service_desc">"Hronometra pakalpojums paziņojuma darbībai."</string>
+    <string msgid="7843882246387176304" name="stopwatch_started">"Hronometra darbība sākta"</string>
+    <string msgid="6927081018816192999" name="stopwatch_stopped">"Hronometra darbība pārtraukta"</string>
+    <string msgid="6992264696039004233" name="sw_lap_button">"Aplis"</string>
+    <string msgid="3535420316052647126" name="sw_notification_lap_number">"<ns1:g id="NUMBER">%d</ns1:g>. aplis"</string>
+    <string msgid="6616804728322906117" name="sw_reset_button">"Atiestatīt"</string>
+    <string msgid="2569360966002022248" name="sw_resume_button">"Atsākt"</string>
+    <string msgid="4478648110382859382" name="sw_share_button">"Kopīgot"</string>
+    <string msgid="614390674795945007" name="sw_share_laps">"Intervāla laiki:"</string>
+    <string msgid="7703563468204234405" name="sw_share_main">"Mans laiks ir: <ns1:g id="TIME">%s</ns1:g>"</string>
+    <string msgid="8373422516681242270" name="sw_start_button">"Sākt"</string>
+    <string msgid="8322958613123274451" name="sw_stop_button">"Apturēt"</string>
+    <string msgid="783124901663086172" name="swn_stopped">"Apturēts"</string>
+    <string msgid="3799050213771793020" name="the_city_already_added">"Šī pilsēta jau ir pievienota."</string>
+    <string msgid="1753597460426454543" name="the_city_you_specified_is_not_available">"Norādītā pilsēta nav pieejama."</string>
+    <string msgid="8067216534232296518" name="time">"Laiks"</string>
+    <string msgid="1619464909892545536" name="time_format_12_mode">"h:mm priekšpusdienā"</string>
+    <string msgid="7998512313148074539" name="time_format_24_mode">"k:mm"</string>
+    <string msgid="6001006474735281911" name="time_picker_00_label">":00"</string>
+    <string msgid="1027250857384838129" name="time_picker_30_label">":30"</string>
+    <string msgid="6754113715199751083" name="time_picker_ampm_label">"–"</string>
+    <string msgid="7437106489606013077" name="time_picker_cancel">"Atcelt"</string>
+    <string msgid="331153175471468051" name="time_picker_set">"Labi"</string>
+    <string msgid="7484926510054777041" name="time_picker_time_seperator">":"</string>
+    <string msgid="862733633862574752" name="timer_add_timer">"Pievienot taimeri"</string>
+    <string msgid="1259351124772803097" name="timer_already_running">"Taimeris jau darbojas."</string>
+    <string msgid="8865820275829449054" name="timer_already_stopped">"Taimeris jau ir apturēts."</string>
+    <string msgid="3572868404230815644" name="timer_cancel">"Atcelt"</string>
+    <string msgid="7880015473706806640" name="timer_cant_be_reset_because_its_running">"Taimeri nevar atiestatīt, jo tas joprojām darbojas. Apturiet taimeri, lai to atiestatītu."</string>
+    <string msgid="4381027137335885547" name="timer_created">"Taimeris iestatīts"</string>
+    <string msgid="8699122001991909302" name="timer_delete">"Dzēst"</string>
+    <string msgid="2815524107015816453" name="timer_delete_confirmation">"Vai dzēst šo taimeri?"</string>
+    <string msgid="9110322362460029392" name="timer_deleted">"Taimeris ir izdzēsts."</string>
+    <string msgid="8794915342760383536" name="timer_descriptive_delete">"Dzēst <ns1:g id="NUMBER_STRING">%s</ns1:g>"</string>
+    <string msgid="2375990511982914051" name="timer_done">"Gatavs"</string>
+    <string msgid="4933184831583137249" name="timer_notification_label">"Taimeris"</string>
+    <string msgid="8645224089494875062" name="timer_plus_1_min">"Pievienot 1 minūti"</string>
+    <string msgid="6631211310420106116" name="timer_plus_one">"Pievienot 1 minūti"</string>
+    <string msgid="7848424809190171640" name="timer_reset">"Atiestatīt"</string>
+    <string msgid="2620214305660322415" name="timer_ring_service_desc">"Skaņas atskaņošanas pakalpojums lietotnē Pulkstenis iestatītajiem taimeriem."</string>
+    <string msgid="6158486445614356442" name="timer_start">"Sākt"</string>
+    <string msgid="6715582052946641641" name="timer_started">"Taimeris ir iestatīts."</string>
+    <string msgid="3361154678667736722" name="timer_stop">"Apturēt"</string>
+    <string msgid="2730331837832462008" name="timer_stopped">"Taimeris ir apturēts."</string>
+    <string msgid="9190440395938519009" name="timer_times_up">"Laiks ir beidzies!"</string>
+    <string msgid="6495796785185062631" name="timer_was_reset">"Taimeris ir atiestatīts."</string>
+    <string msgid="5570729467344408506" name="timers_in_use">"<ns1:g id="NUMBER">%d</ns1:g> taimeri"</string>
+    <string msgid="9140022846793903813" name="timers_max_count_reached">"Ne vairāk kā 4 taimeri"</string>
+    <string msgid="2393640808691864520" name="timers_stopped">"<ns1:g id="NUMBER">%d</ns1:g> taimeri ir apturēti."</string>
+    <string msgid="8768042543750036853" name="volume_button_dialog_title">"Pogas darbība"</string>
+    <string msgid="6937131248843413357" name="volume_button_setting_title">"Skaļuma pogas"</string>
+    <string msgid="3425804832021006835" name="weather_fetch_failure">"Informācija par laikapstākļiem pašlaik nav pieejama."</string>
+    <string msgid="4268917518596832096" name="week_start_title">"Noteikt nedēļas sākumu no šīs dienas:"</string>
+    <string msgid="8648842975829470646" name="weekday_time_format_12_mode">"EEE, plkst. h:mm priekšpusdienā"</string>
+    <string msgid="152964494051478631" name="weekday_time_format_24_mode">"EEE, plkst. k:mm"</string>
+    <string msgid="5911196322328341288" name="world_day_of_week_label">"/<ns1:g id="LABEL">%s</ns1:g>"</string>
+    <string msgid="6963340404644587098" name="year_picker_description">"Gadu saraksts"</string>
+    <string msgid="7102083421938355017" name="zero">"0"</string>
+</resources>

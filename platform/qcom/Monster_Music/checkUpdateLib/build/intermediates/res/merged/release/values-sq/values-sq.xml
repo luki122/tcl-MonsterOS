@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="check_new">Kontrolloni për përditësime</string>
+    <string name="downloaded_finish">Shkarkimi përfundoi</string>
+    <string name="downloading">Duke shkarkuar...</string>
+    <string name="network_error_tip">Gabim rrjeti. Ju lutemi kontrolloni lidhjen e rrjetit tuaj dhe provoni përsëri.</string>
+    <string name="notification_downloading">Duke shkarkuar</string>
+    <string name="tip_network_error">Gabim rrjeti</string>
+    <string name="try_later">Më vonë</string>
+    <string name="update">Tani</string>
+    <string name="update_ask_tip">Ju keni nevojë të përditësoni në versionin më të fundit</string>
+    <string name="update_available">Përditësim i disponueshëm</string>
+    <string name="update_confirm">OK</string>
+    <string name="update_detail_prefix">Detaje të përditësimit:</string>
+    <string name="update_download_fail">Shkarkimi dështoi</string>
+    <string name="update_force_nofity_tip">Ju rekomandohet të përditësoni versionin e ri të këtij aplikacioni.</string>
+    <string name="update_no_need">Ky është versioni më i fundit</string>
+    <string name="update_no_updates">Nuk ka përditësime</string>
+    <string name="update_no_updates_tip">Nuk ka përditësime</string>
+    <string name="update_not_now">Jo tani</string>
+    <string name="update_notification_tips">Për përvojë më të mirë, ju lutem përditësoni në versionin më të fundit.</string>
+    <string name="update_notification_title">Njoftim përditësimi</string>
+    <string name="update_notify_tip">Version i ri është i disponueshëm. Përditëso tani?</string>
+    <string name="update_now">Përditëso</string>
+    <string name="versionDesc">Informacion versioni:</string>
+</resources>

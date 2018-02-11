@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" android:constantSize="true">
+    <item android:state_checked="false">
+        <layer-list>
+            <item
+                android:drawable="@drawable/switch_pref_switch_track_default"
+                android:gravity="center_vertical|fill_horizontal"
+                android:left="@dimen/switch_pref_switch_track_left"
+                android:right="@dimen/switch_pref_switch_track_right" />
+        </layer-list>
+    </item>
+    <item android:state_checked="true">
+        <layer-list>
+            <item
+                android:drawable="@drawable/switch_pref_switch_track_check"
+                android:gravity="center_vertical|fill_horizontal"
+                android:left="@dimen/switch_pref_switch_track_left"
+                android:right="@dimen/switch_pref_switch_track_right" />
+        </layer-list>
+    </item>
+    <item>
+        <layer-list>
+            <item
+                android:drawable="@drawable/switch_pref_switch_track_default"
+                android:gravity="center_vertical|fill_horizontal"
+                android:left="@dimen/switch_pref_switch_track_left"
+                android:right="@dimen/switch_pref_switch_track_right" />
+        </layer-list>
+    </item>
+</selector>

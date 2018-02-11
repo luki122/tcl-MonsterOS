@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cannot_specify_an_empty_name_for_playlist">"Ime liste pesama ne može da bude prazno"</string>
+    <string name="cross_dj_saturated_storage_not_enough_free_space_to_record_your_mix">"Nema dovoljno prostora da bi se sačuvao vaš miks."</string>
+    <string name="cross_dj_saturated_storage_your_recording_might_stop_soon_because_no_more_free_space_is_available">"Snimanje će se možda uskoro zaustaviti, jer nema više slobodnog prostora."</string>
+    <string name="invalid_drm_file">"Datoteka nema ispravno DRM ovlašćenje."</string>
+    <string name="mobiledata_turnoff_btn">"Deaktiviraj"</string>
+    <string name="never_show_it_again">"Ne prikazuj više"</string>
+    <string name="no_error">"Nema greške"</string>
+    <string name="recording_reached_max_duration">"Snimanje je dostiglo maksimalno trajanje. Proverite parametre."</string>
+    <string name="recording_soon_to_reach_max_duration">"Snimanje će uskoro dostići maksimalno trajanje. Proverite parametre."</string>
+    <string name="scratching_is_disabled_in_no_mix_mode">"Možete skrečovati samo dok ste u DJ režimu."</string>
+    <string name="sign_up">"Registrujte se sada"</string>
+    <string name="the_external_memory_storage_is_not_mounted">"Ekstrna memorija nije instalirana. Možda ćete morati da deaktivirate USB memoriju."</string>
+    <string name="there_s_not_enough_space_in_your_internal_storage_try_to_do_some_clean_up">"Nema dovoljno prostora u internoj memoriji (pokušajte da oslobodite nešto prostora)"</string>
+</resources>

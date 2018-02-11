@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    	<string name="tip_network_error">Network error</string>
+    	<string name="check_new">Check for update</string>
+    	<string name="update_download_fail">Download failed</string>
+    	<string name="update_ask_tip">You need to update to the latest version</string>
+    	<string name="update_no_need">This is the latest version</string>
+    	<string name="downloaded_finish">Download completed</string>
+    	<string name="notification_downloading">Downloading</string>
+    	<string name="update_notification_tips">For better experience, please update to the latest version.</string>
+    	<string name="update_notification_title">Update notification</string>
+    	<string name="update">Now</string>
+    	<string name="try_later">Later</string>
+    	<string name="versionDesc">Version Info:</string>
+    	<string name="retry">Retry</string>
+    	
+    	<string name="update_available">Update Available</string>
+    	<string name="downloading">Downloading...</string>
+    	<string name="update_notify_tip">There is a newer version available.\n Update now?</string>
+    	<string name="update_detail_prefix">Update details:</string>
+    	<string name="update_not_now">Not now</string>
+    	<string name="update_now">Update</string>
+    	<string name="network_error_tip">Network error, please check your internet connection and  try again.</string>
+    	<string name="update_force_nofity_tip">It is recommended that you update your application to the latest version.</string>
+    	<string name="update_no_updates">No updates</string>
+    	<string name="update_no_updates_tip">There are no updates available.</string>
+    	<string name="update_confirm">OK</string>
+</resources>

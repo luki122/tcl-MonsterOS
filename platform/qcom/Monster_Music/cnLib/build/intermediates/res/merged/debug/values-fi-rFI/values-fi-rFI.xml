@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cannot_specify_an_empty_name_for_playlist">"Soittolistan nimi ei voi olla tyhjä"</string>
+    <string name="cross_dj_saturated_storage_not_enough_free_space_to_record_your_mix">"Tila ei riitä miksauksesi tallennukseen."</string>
+    <string name="cross_dj_saturated_storage_your_recording_might_stop_soon_because_no_more_free_space_is_available">"Tallennus voi pysähtyä pian, koska tilaa ei enää ole."</string>
+    <string name="invalid_drm_file">"Tiedostolla ei ole DRM-oikeuksia!"</string>
+    <string name="mobiledata_turnoff_btn">"Poista käytöstä"</string>
+    <string name="never_show_it_again">"Älä näytä uudelleen"</string>
+    <string name="no_error">"Ei virhettä"</string>
+    <string name="recording_reached_max_duration">"Tallennuksen enimmäiskesto on saavutettu. Tarkista asetukset."</string>
+    <string name="recording_soon_to_reach_max_duration">"Tallennus saavuttaa pian enimmäiskeston. Tarkista asetukset."</string>
+    <string name="scratching_is_disabled_in_no_mix_mode">"Voit scratchätä vain DJ-tilassa."</string>
+    <string name="sign_up">"Rekisteröidy"</string>
+    <string name="the_external_memory_storage_is_not_mounted">"Ulkoista muistitallennustilaa ei ole otettu käyttöön. USB-muistitallennustila on ehkä poistettava käytöstä."</string>
+    <string name="there_s_not_enough_space_in_your_internal_storage_try_to_do_some_clean_up">"Sisäisessä tallennustilassa ei ole tarpeeksi tilaa (kokeile vapauttaa tilaa)"</string>
+</resources>

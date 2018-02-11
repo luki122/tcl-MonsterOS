@@ -1,0 +1,21 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory>
+        <SwitchPreference
+            android:key="wifi_auto_upgrade_key"
+            android:title="@string/wifi_auto_upgrade" />
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="software_auto_update_tip_key"
+            android:title="@string/software_auto_update_tip" />
+    </PreferenceCategory>
+
+    <PreferenceCategory>
+
+        <PreferenceScreen
+            android:key="apps_update_ignored_key"
+            android:title="@string/apps_update_ignored" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

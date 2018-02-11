@@ -1,0 +1,24 @@
+<mst.widget.SliderLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mst="http://schemas.android.com/apk/res/com.mst"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    mst:dragEdge="right"
+    mst:dragMode="same_layer"
+    mst:handleEventInParent="true" >
+
+    <FrameLayout
+        android:layout_width="120dp"
+        android:layout_height="wrap_content" >
+
+        <include layout="@layout/exchange_swipe_layout" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <include layout="@layout/cell_main_exchange" />
+    </FrameLayout>
+
+</mst.widget.SliderLayout>

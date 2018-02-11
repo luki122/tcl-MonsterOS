@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/help_tip_manual_menu_dialog"
+    android:layout_width="230dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/help_tip_no_arrow"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tip_context"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:paddingBottom="@dimen/manual_tip_menu_dialog_margin_bottom"
+        android:paddingLeft="@dimen/help_tip_dialog_context_padding_left"
+        android:paddingRight="@dimen/help_tip_dialog_context_padding_right"
+        android:paddingTop="@dimen/help_tip_dialog_context_padding_top"
+        android:text="@string/help_tip_manual_menu_context"
+        android:textColor="@color/help_tip_dialog_text_color"
+        android:textSize="@dimen/help_tip_dialog_context_text_size" />
+
+</LinearLayout>

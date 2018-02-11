@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/contact"
+        android:title="@string/contact">
+    </item>
+    <item
+        android:id="@+id/phone"
+        android:title="@string/phone">
+    </item>
+    <item
+        android:id="@+id/sms"
+        android:title="@string/sms">
+    </item>
+    <item
+        android:id="@+id/manually"
+        android:title="@string/manually">
+    </item>
+
+</menu>

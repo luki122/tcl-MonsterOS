@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Copyright (C) 2016 Tcl Corporation Limited -->
+
+    <!-- system_plateform_type for if using scmn-monster widget. default_type:0 , tcl_london_type: 1 -->
+    <integer name="def_system_plateform_type">1</integer>
+</resources>

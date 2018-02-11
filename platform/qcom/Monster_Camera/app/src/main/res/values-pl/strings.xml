@@ -1,0 +1,1068 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"Aparat"</string>
+	<!---->
+	<string name="gallery_app_name">"Galeria"</string>
+	<!---->
+	<string name="video_camera_label">"Kamera"</string>
+	<!-- no translation found for details_ms -->
+	<skip />
+	<!-- no translation found for details_hms -->
+	<skip />
+	<!---->
+	<string name="set_image">"Ustaw obraz jako"</string>
+	<!---->
+	<string name="delete">"Usuń"</string>
+	<!---->
+	<string name="share">"Udostępnij"</string>
+	<!---->
+	<string name="share_panorama">"Udostępnij widok panoramiczny"</string>
+	<!---->
+	<string name="share_as_photo">"Udostępnij jako zdjęcie"</string>
+	<!---->
+	<string name="deleted">"Usunięte"</string>
+	<!---->
+	<string name="undo">"Cofnij"</string>
+	<!---->
+	<string name="details">"Szczegóły"</string>
+	<!---->
+	<string name="close">"Zamknij"</string>
+	<!---->
+	<string name="show_on_map">"Pokaż na mapie"</string>
+	<!---->
+	<string name="rotate_left">"Obróć w lewo"</string>
+	<!---->
+	<string name="rotate_right">"Obróć w prawo"</string>
+	<!---->
+	<string name="edit">"Edytuj"</string>
+	<!---->
+	<string name="crop_action">"Przycinanie"</string>
+	<!---->
+	<string name="trim_action">"Przytnij"</string>
+	<!---->
+	<string name="set_as">"Ustaw jako"</string>
+	<!---->
+	<string name="video_err">"Nie można odtworzyć filmu wideo"</string>
+	<!---->
+	<string name="title">"Tytuł"</string>
+	<!-- no translation found for description -->
+	<skip />
+	<!---->
+	<string name="time">"Godzina"</string>
+	<!---->
+	<string name="location">"Lokalizacja"</string>
+	<!---->
+	<string name="path">"Ścieżka"</string>
+	<!---->
+	<string name="width">"Szerokość"</string>
+	<!---->
+	<string name="height">"Wysokość"</string>
+	<!---->
+	<string name="orientation">"Orientacja"</string>
+	<!---->
+	<string name="duration">"Czas trwania"</string>
+	<!---->
+	<string name="mimetype">"Typ MIME"</string>
+	<!---->
+	<string name="file_size">"Rozmiar pliku"</string>
+	<!---->
+	<string name="maker">"Producent"</string>
+	<!---->
+	<string name="model">"Model"</string>
+	<!---->
+	<string name="flash">"Lampa"</string>
+	<!---->
+	<string name="aperture">"Przesłona"</string>
+	<!---->
+	<string name="focal_length">"Ogniskowa"</string>
+	<!---->
+	<string name="white_balance">"Balans bieli"</string>
+	<!---->
+	<string name="exposure_time">"Czas ekspozycji"</string>
+	<!---->
+	<string name="iso">"ISO"</string>
+	<!-- no translation found for unit_mm -->
+	<skip />
+	<!---->
+	<string name="manual">"Ręcznie"</string>
+	<!---->
+	<string name="auto">"Automatyczna"</string>
+	<!---->
+	<string name="flash_on">"Z lampą"</string>
+	<!---->
+	<string name="flash_off">"Bez lampy"</string>
+	<!-- no translation found for unknown -->
+	<skip />
+	<!---->
+	<string name="try_to_set_local_album_available_offline">"Ten element jest przechowywany lokalnie i dostępny w trybie offline."</string>
+	<!---->
+	<string name="please_wait">"Zaczekaj"</string>
+	<!---->
+	<string name="camera_error_title">"Błąd aparatu"</string>
+	<!---->
+	<string name="cannot_connect_camera">"Nie można połączyć z aparatem."</string>
+	<!---->
+	<string name="camera_disabled">"Aparat został wyłączony z powodu zasad bezpieczeństwa."</string>
+	<!---->
+	<string name="wait">"Czekaj..."</string>
+	<!---->
+	<string name="no_storage" product="default">"Przed przystąpieniem do korzystania z aparatu włóż kartę SD."</string>
+	<!---->
+	<string name="preparing_sd" product="default">"Przygotowywanie karty SD..."</string>
+	<!---->
+	<string name="access_sd_fail" product="default">"Uzyskiwanie dostępu do karty SD nie powiodło się."</string>
+	<!---->
+	<string name="time_lapse_title">"Nagrywanie poklatkowe"</string>
+	<!-- no translation found for capturing -->
+	<skip />
+	<!---->
+	<string name="pref_camera_id_title">"Wybierz aparat"</string>
+	<!---->
+	<string name="pref_camera_id_entry_back">"Tył"</string>
+	<!---->
+	<string name="pref_camera_id_entry_front">"Przód"</string>
+	<!---->
+	<string name="pref_camera_save_location_title">"Oznaczanie GPS"</string>
+	<!-- no translation found for pref_camera_location_label -->
+	<skip />
+	<!---->
+	<string name="pref_camera_timer_title">"Odliczanie czasu"</string>
+	<!-- no translation found for pref_camera_timer_sound_default -->
+	<skip />
+	<!---->
+	<string name="pref_camera_timer_sound_title">"Dźwięk podczas odliczania"</string>
+	<!-- no translation found for setting_off -->
+	<skip />
+	<!-- no translation found for setting_on -->
+	<skip />
+	<!---->
+	<string name="pref_video_quality_title">"Jakość wideo"</string>
+	<!-- no translation found for pref_video_time_lapse_frame_interval_title -->
+	<skip />
+	<!---->
+	<string name="pref_camera_settings_category">"Ustawienia aparatu"</string>
+	<!---->
+	<string name="pref_camcorder_settings_category">"Ustawienia kamery"</string>
+	<!---->
+	<string name="pref_camera_picturesize_title">"Rozmiar"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_large">"Duży"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_medium">"Średnia"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_small">"Mały"</string>
+	<!---->
+	<string name="pref_camera_focusmode_title">"Tryb ostrości"</string>
+	<!---->
+	<string name="pref_camera_focusmode_entry_auto">"Auto"</string>
+	<!---->
+	<string name="pref_camera_focusmode_entry_infinity">"Wył."</string>
+	<!---->
+	<string name="pref_camera_focusmode_entry_macro">"Makro"</string>
+	<!---->
+	<string name="pref_camera_focusmode_label_auto">"AUTOM."</string>
+	<!---->
+	<string name="pref_camera_focusmode_label_infinity">"Wył."</string>
+	<!---->
+	<string name="pref_camera_focusmode_label_macro">"Makro"</string>
+	<!---->
+	<string name="pref_camera_flashmode_title">"Lampa błyskowa"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label">"TRYB LAMPY BŁYSKOWEJ"</string>
+	<!---->
+	<string name="pref_camera_flashmode_entry_auto">"Auto"</string>
+	<!---->
+	<string name="pref_camera_flashmode_entry_on">"Wł."</string>
+	<!---->
+	<string name="pref_camera_flashmode_entry_off">"Wył."</string>
+	<!---->
+	<string name="pref_camera_flashmode_label_auto">"LAMPA BŁYSKOWA – AUTOM."</string>
+	<!---->
+	<string name="pref_camera_flashmode_label_on">"LAMPA BŁYSKOWA – WŁ."</string>
+	<!---->
+	<string name="pref_camera_flashmode_label_off">"LAMPA BŁYSKOWA – WYŁ."</string>
+	<!---->
+	<string name="pref_camera_whitebalance_title">"Balans bieli"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label">"Balans bieli"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_auto">"Auto"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_incandescent">"Światło żarowe"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_daylight">"Światłodzienn."</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_fluorescent">"Fluorescencja"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_cloudy">"Zachmurzenie"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_auto">"AUTOM."</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_incandescent">"Światło żarowe"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_daylight">"Światłodzienn."</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_fluorescent">"Fluorescencja"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_cloudy">"Pochmurno"</string>
+	<!---->
+	<string name="pref_camera_scenemode_title">"Tryb sceny"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_auto">"Auto"</string>
+	<!-- no translation found for pref_camera_scenemode_entry_hdr_plus -->
+	<skip />
+	<!-- no translation found for pref_camera_scenemode_entry_hdr -->
+	<skip />
+	<!-- no translation found for pref_camera_scenemode_entry_turn_hdr_plus_on -->
+	<skip />
+	<!-- no translation found for pref_camera_scenemode_entry_turn_hdr_plus_off -->
+	<skip />
+	<!-- no translation found for pref_camera_scenemode_entry_turn_hdr_on -->
+	<skip />
+	<!-- no translation found for pref_camera_scenemode_entry_turn_hdr_off -->
+	<skip />
+	<!---->
+	<string name="pref_camera_scenemode_entry_action">"Akcja"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_night">"Noc"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_sunset">"Zachód słońca"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_party">"Party"</string>
+	<!-- no translation found for pref_camera_scenemode_label_auto -->
+	<skip />
+	<!-- no translation found for pref_camera_scenemode_label_action -->
+	<skip />
+	<!-- no translation found for pref_camera_scenemode_label_night -->
+	<skip />
+	<!-- no translation found for pref_camera_scenemode_label_sunset -->
+	<skip />
+	<!-- no translation found for pref_camera_scenemode_label_party -->
+	<skip />
+	<!---->
+	<string name="pref_camera_countdown_label_off">"LICZNIK WYŁ."</string>
+	<!---->
+	<string name="pref_camera_countdown_label_one">"1 sekunda"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_three">"3 sekundy"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_five">"5 sekund"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_ten">"10 sekund"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_fifteen">"15 s"</string>
+	<!---->
+	<string name="not_selectable_in_scene_mode">"Opcja niedostępna w trybie scenerii."</string>
+	<!---->
+	<string name="pref_exposure_title">"Ekspozycja"</string>
+	<!---->
+	<string name="pref_exposure_label">"Ekspozycja"</string>
+	<!-- no translation found for pref_camera_hdr_default -->
+	<skip />
+	<!-- no translation found for pref_camera_hdr_plus_default -->
+	<skip />
+	<!---->
+	<string name="pref_camera_hdr_label">"HDR"</string>
+	<!---->
+	<string name="pref_camera_id_label_back">"APARAT Z PRZODU"</string>
+	<!---->
+	<string name="pref_camera_id_label_front">"APARAT Z TYŁU"</string>
+	<!---->
+	<string name="dialog_ok">"OK"</string>
+	<!---->
+	<string name="dialog_cancel">"Anuluj"</string>
+	<!---->
+	<string name="spaceIsLow_content" product="default">"Na karcie SD kończy się miejsce. Zmień ustawienie jakości bądź usuń niektóre zdjęcia lub inne pliki."</string>
+	<!---->
+	<string name="phone_storage_low" product="default">"Kończy się wolne miejsce w pamięci telefonu. Zmień ustawienia jakości lub usuń część obrazów bądź innych plików."</string>
+	<!---->
+	<string name="video_reach_size_limit">"Osiągnięto limit rozmiaru."</string>
+	<!---->
+	<string name="video_record_start_failed">"Nie można rozpocząć nagrywania"</string>
+	<!---->
+	<string name="pano_too_fast_prompt">"Zbyt szybko"</string>
+	<!---->
+	<string name="pano_dialog_prepare_preview">"Przygotowywanie panoramy"</string>
+	<!---->
+	<string name="pano_dialog_panorama_failed">"Zapisywanie panoramy nie powiodło się."</string>
+	<!---->
+	<string name="pano_dialog_title">"Panorama"</string>
+	<!---->
+	<string name="pano_capture_indication">"Tworzenie panoramy"</string>
+	<!---->
+	<string name="pano_dialog_waiting_previous">"Oczekiwanie na poprzednią panoramę"</string>
+	<!---->
+	<string name="pano_review_saving_indication_str">"Zapisywanie..."</string>
+	<!---->
+	<string name="pano_review_rendering">"Renderowanie panoramy"</string>
+	<!---->
+	<string name="tap_to_focus">"Ustaw ostrość, klikając."</string>
+	<!---->
+	<string name="pref_video_effect_title">"Efekty"</string>
+	<!---->
+	<string name="effect_none">"Brak"</string>
+	<!---->
+	<string name="effect_goofy_face_squeeze">"Ściśnij"</string>
+	<!---->
+	<string name="effect_goofy_face_big_eyes">"Duże oczy"</string>
+	<!---->
+	<string name="effect_goofy_face_big_mouth">"Duże usta"</string>
+	<!---->
+	<string name="effect_goofy_face_small_mouth">"Małe usta"</string>
+	<!---->
+	<string name="effect_goofy_face_big_nose">"Duży nos"</string>
+	<!---->
+	<string name="effect_goofy_face_small_eyes">"Małe oczy"</string>
+	<!---->
+	<string name="effect_backdropper_space">"W kosmosie"</string>
+	<!---->
+	<string name="effect_backdropper_sunset">"Zach.słońca"</string>
+	<!---->
+	<string name="effect_backdropper_gallery">"Twoje wideo"</string>
+	<!---->
+	<string name="video_snapshot_hint">"Dotknij, aby zrobić zdjęcie w trakcie nagrywania."</string>
+	<!---->
+	<string name="video_recording_started">"Nagrywanie wideo rozpoczęte."</string>
+	<!---->
+	<string name="video_recording_stopped">"Nagrywanie wideo zakończone."</string>
+	<!---->
+	<string name="clear_effects">"Usuń efekty"</string>
+	<!---->
+	<string name="effect_silly_faces">"ZABAWNE TWARZE"</string>
+	<!---->
+	<string name="effect_background">"TŁO"</string>
+	<!-- no translation found for accessibility_shutter_button -->
+	<skip />
+	<!---->
+	<string name="accessibility_cancel_button">"Anuluj"</string>
+	<!---->
+	<string name="accessibility_menu_button">"Przycisk menu"</string>
+	<!---->
+	<string name="accessibility_check_box">"Pole wyboru %1$s"</string>
+	<!---->
+	<string name="accessibility_switch_to_camera">"Przełącz na zdjęcia"</string>
+	<!---->
+	<string name="accessibility_switch_to_video">"Przełącz na wideo"</string>
+	<!---->
+	<string name="accessibility_switch_to_panorama">"Przełącz na panoramę"</string>
+	<!-- no translation found for accessibility_switch_to_photo_sphere -->
+	<skip />
+	<!-- no translation found for accessibility_switch_to_gcam -->
+	<skip />
+	<!---->
+	<string name="accessibility_switch_to_refocus">"Przełącz na tryb zmiany ostrości"</string>
+	<!---->
+	<string name="accessibility_review_cancel">"„Anulowanie podglądu”"</string>
+	<!---->
+	<string name="accessibility_review_ok">"Przegląd gotowy"</string>
+	<!---->
+	<string name="accessibility_review_retake">"Powróć do przeglądu"</string>
+	<!---->
+	<string name="accessibility_mode_options">"Opcje"</string>
+	<!---->
+	<string name="accessibility_mode_list_hidden">"Lista trybów zamknięta"</string>
+	<!---->
+	<string name="accessibility_mode_list_shown">"Lista trybów otwarta"</string>
+	<!---->
+	<string name="media_accessibility_peek">"Nagranie wykonane"</string>
+	<!---->
+	<string name="photo_accessibility_peek">"Zdjęcia wykonane"</string>
+	<!---->
+	<string name="video_accessibility_peek">"Wideo nagrane"</string>
+	<!---->
+	<string name="accessibility_unlock_to_camera">"Odblokuj tylko aparat"</string>
+	<!---->
+	<string name="media_date_content_description">"Plik multimedialny wykonany %s"</string>
+	<!---->
+	<string name="photo_date_content_description">"Zdjęcie wykonane %s"</string>
+	<!---->
+	<string name="video_date_content_description">"Wideo nagrane %s"</string>
+	<!---->
+	<string name="panorama_date_content_description">"Panorama wykonana %s"</string>
+	<!---->
+	<string name="photosphere_date_content_description">"Fotosfera wykonana %s"</string>
+	<!---->
+	<string name="refocus_date_content_description">"Rozmycie soczewki wykonano %s"</string>
+	<!---->
+	<string name="media_processing_content_description">"Przetwarzanie plików multimedialnych"</string>
+	<!---->
+	<string name="accessibility_mode_list_toggle">"Przełącz listę trybów"</string>
+	<!---->
+	<string name="btn_mode_list_toggle">"Lista trybów"</string>
+	<!---->
+	<string name="accessibility_filmstrip_toggle">"Przełącz pasek miniatur"</string>
+	<!---->
+	<string name="btn_filmstrip_toggle">"Pasek miniatur"</string>
+	<!-- no translation found for capital_on -->
+	<skip />
+	<!---->
+	<string name="capital_off">"Wyłącz"</string>
+	<!---->
+	<string name="video_control_play">"Odtwórz plik wideo"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_off">"Wył"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_500">"0,5 sekundy"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1000">"1 sekunda"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1500">"1,5 sekundy"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_2000">"2 sekundy"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_2500">"2,5 sekundy"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_3000">"3 sekundy"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_4000">"4 sekundy"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_5000">"5 sekund"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_6000">"6 sekund"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_10000">"10 sekund"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_12000">"12 sekund"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_15000">"15 sekund"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_24000">"24 sekundy"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_30000">"0,5 minuty"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_60000">"1 minuta"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_90000">"1,5 minuty"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_120000">"2 minuty"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_150000">"2,5 minuty"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_180000">"3 minuty"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_240000">"4 minuty"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_300000">"5 min"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_360000">"6 minut"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_600000">"10 minut"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_720000">"12 minut"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_900000">"15 min"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1440000">"24 minuty"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1800000">"0,5 godziny"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_3600000">"1 godzina"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_5400000">"1,5 godziny"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_7200000">"2 godziny"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_9000000">"2,5 godziny"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_10800000">"3 godziny"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_14400000">"4 godziny"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_18000000">"5 godzin"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_21600000">"6 godz."</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_36000000">"10 godzin"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_43200000">"12 godz."</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_54000000">"15 godzin"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_86400000">"24 godziny"</string>
+	<!---->
+	<string name="time_lapse_seconds">"sekundy"</string>
+	<!---->
+	<string name="time_lapse_minutes">"minuty"</string>
+	<!---->
+	<string name="time_lapse_hours">"godzin"</string>
+	<!-- no translation found for time_lapse_interval_set -->
+	<skip />
+	<!---->
+	<string name="set_time_interval">"Ustaw przedział czasowy"</string>
+	<!---->
+	<string name="set_time_interval_help">"Funkcja odstępu poklatkowego jest wyłączona. Włącz ją, aby ustawić przedział czasowy."</string>
+	<!---->
+	<string name="set_duration">"Ustaw czas trwania (w sekundach)"</string>
+	<!---->
+	<string name="count_down_title_text">"Odliczanie czasu do zrobienia zdjęcia"</string>
+	<!---->
+	<string name="remember_location_title">"Zapamiętać lokalizacje zdjęć?"</string>
+	<!---->
+	<string name="remember_location_prompt">"Określ miejsce, w którym zostały zrobione Twoje zdjęcia i filmy wideo.\n\nInne aplikacje mogą uzyskać dostęp do tych informacji zapisanych razem ze zdjęciami."</string>
+	<!---->
+	<string name="remember_location_no">"Nie, dziękuję"</string>
+	<!---->
+	<string name="remember_location_yes">"Tak"</string>
+	<!---->
+	<string name="camera_menu_more_label">"Więcej opcji"</string>
+	<!-- no translation found for camera_menu_settings_label -->
+	<skip />
+	<!-- no translation found for create_tiny_planet -->
+	<skip />
+	<!-- no translation found for saving_tiny_planet -->
+	<skip />
+	<!-- no translation found for tiny_planet_zoom -->
+	<skip />
+	<!-- no translation found for tiny_planet_rotate -->
+	<skip />
+	<!---->
+	<string name="photo_editor">"Edytor zdjęć"</string>
+	<!---->
+	<string name="crop_save">"Zapisz"</string>
+	<!---->
+	<string name="cannot_load_image">"Nie można wczytać obrazu!"</string>
+	<!---->
+	<string name="switch_photo_filmstrip">"Widok taśmy filmowej"</string>
+	<!---->
+	<string name="setting_wallpaper">"Ustawianie tapety"</string>
+	<!---->
+	<string name="mode_settings">"Ustawienia"</string>
+	<!---->
+	<string name="mode_camera">"Auto"</string>
+	<!---->
+	<string name="mode_video">"Plik wideo"</string>
+	<!---->
+	<string name="mode_slow_motion">"Spowolnienie"</string>
+	<!---->
+	<string name="mode_photosphere">"Fotosfera"</string>
+	<!---->
+	<string name="mode_timelapse">"Zdjęcia poklatkowe"</string>
+	<!---->
+	<string name="mode_wideangle">"Szeroki kąt"</string>
+	<!---->
+	<string name="mode_panorama">"Panorama"</string>
+	<!---->
+	<string name="mode_refocus">"Rozmycie soczewki"</string>
+	<!---->
+	<string name="mode_camera_desc">"Przejdź w tryb aparatu"</string>
+	<!---->
+	<string name="mode_video_desc">"Przejdź do kamery"</string>
+	<!---->
+	<string name="mode_photosphere_desc">"Przełącz na tryb fotosfery"</string>
+	<!---->
+	<string name="mode_panorama_desc">"Przejdź w tryb panoramy"</string>
+	<!---->
+	<string name="mode_slow_motion_desc">"Przełącz na tryb spowolnienia"</string>
+	<!---->
+	<string name="mode_refocus_desc">"Przejdź do trybu rozmycia soczewki"</string>
+	<!---->
+	<string name="settings_open_desc">"Otwórz ustawienia"</string>
+	<!---->
+	<string name="settings_close_desc">"Zamknij ustawienia"</string>
+	<!---->
+	<string name="hdr_plus_off_desc">"HDR+ wył."</string>
+	<!---->
+	<string name="hdr_plus_on_desc">"HDR+ wł."</string>
+	<!---->
+	<string name="hdr_off_desc">"HDR wył."</string>
+	<!---->
+	<string name="hdr_on_desc">"HDR wł."</string>
+	<!---->
+	<string name="flash_off_desc">"LAMPA BŁYSKOWA – WYŁ."</string>
+	<!---->
+	<string name="flash_auto_desc">"LAMPA BŁYSKOWA – AUTOM."</string>
+	<!---->
+	<string name="flash_on_desc">"LAMPA BŁYSKOWA – WŁ."</string>
+	<!---->
+	<string name="hdr_plus_flash_off_desc">"Lampa błyskowa HDR+ wyłączona"</string>
+	<!---->
+	<string name="hdr_plus_flash_auto_desc">"Automatyczna lampa błyskowa HDR+"</string>
+	<!---->
+	<string name="hdr_plus_flash_on_desc">"Lampa błyskowa HDR+ włączona"</string>
+	<!---->
+	<string name="torch_on_desc">"Latarka wł."</string>
+	<!---->
+	<string name="torch_off_desc">"Latarka wył."</string>
+	<!---->
+	<string name="camera_id_back_desc">"APARAT Z TYŁU"</string>
+	<!---->
+	<string name="camera_id_front_desc">"APARAT Z PRZODU"</string>
+	<!---->
+	<string name="grid_lines_off_desc">"Siatka wył."</string>
+	<!---->
+	<string name="grid_lines_on_desc">"Siatka wł."</string>
+	<!---->
+	<string name="countdown_timer_off">"Samowyzwalcz wyłączony"</string>
+	<!---->
+	<string name="countdown_timer_duration_2s">"Samowyzwalacz ustawiony jest na 2 s"</string>
+	<!---->
+	<string name="countdown_timer_duration_3s">"Samowyzwalacz ustawiony jest na 3 s"</string>
+	<!---->
+	<string name="countdown_timer_duration_5s">"Samowyzwalacz ustawiony jest na 5 s"</string>
+	<!---->
+	<string name="countdown_timer_duration_10s">"Samowyzwalacz ustawiony jest na 10 s"</string>
+	<!---->
+	<string name="more_options_desc">"Więcej opcji"</string>
+	<!---->
+	<string name="cancel_button_description">"Anuluj"</string>
+	<!---->
+	<string name="done_button_description">"Gotowe"</string>
+	<!---->
+	<string name="retake_button_description">"Wykonaj ponownie"</string>
+	<!---->
+	<string name="share_button_description">"Udostępnij"</string>
+	<!---->
+	<string name="view_button_description">"Wyświetl"</string>
+	<!---->
+	<string name="edit_button_description">"Edytuj"</string>
+	<!---->
+	<string name="delete_button_description">"Usuń"</string>
+	<!---->
+	<string name="manual_exposure_compensation_desc">"Ręczna kompensacja ekspozycji"</string>
+	<!---->
+	<string name="exposure_compensation_desc_n2">"Kompensacja ekspozycji -2"</string>
+	<!---->
+	<string name="exposure_compensation_desc_n1">"Kompensacja ekspozycji -1"</string>
+	<!---->
+	<string name="exposure_compensation_desc_0">"Kompensacja ekspozycji 0"</string>
+	<!---->
+	<string name="exposure_compensation_desc_p1">"Kompensacja ekspozycji +1"</string>
+	<!---->
+	<string name="exposure_compensation_desc_p2">"Kompensacja ekspozycji +2"</string>
+	<!---->
+	<string name="button_change_announcement">"Przycisk służy teraz jako %s"</string>
+	<!---->
+	<string name="setting_location">"Lokalizacja"</string>
+	<!---->
+	<string name="setting_back_camera_photo">"Zdjęcie z tylnego aparatu"</string>
+	<!---->
+	<string name="setting_back_camera_video">"Wideo z tylnego aparatu"</string>
+	<!---->
+	<string name="setting_front_camera_photo">"Zdjęcie z przed. aparatu"</string>
+	<!---->
+	<string name="setting_front_camera_video">"Wideo z przed. aparatu"</string>
+	<!---->
+	<string name="setting_default_camera">"Domyślny aparat"</string>
+	<!---->
+	<string name="setting_google_help_and_feedback">"Pomoc i opinie"</string>
+	<!---->
+	<string name="processing_hdr_plus">"Przetwarzanie zdjęć HDR+…"</string>
+	<!---->
+	<string name="open_source_licenses">"Licencje open source"</string>
+	<!---->
+	<string name="pref_category_general">"Ustawienia ogólne"</string>
+	<!---->
+	<string name="pref_category_resolution_quality">"Rozdzielczość i jakość"</string>
+	<!---->
+	<string name="pref_category_about">"O"</string>
+	<!---->
+	<string name="pref_title_build_version">"Wersja"</string>
+	<!---->
+	<string name="pref_video_quality_entry_low">"Niski"</string>
+	<!---->
+	<string name="pref_video_quality_entry_high">"Wysoki"</string>
+	<!-- no translation found for pref_video_quality_entry_qcif -->
+	<skip />
+	<!-- no translation found for pref_video_quality_entry_cif -->
+	<skip />
+	<!-- no translation found for pref_video_quality_entry_480p -->
+	<skip />
+	<!-- no translation found for pref_video_quality_entry_720p -->
+	<skip />
+	<!-- no translation found for pref_video_quality_entry_1080p -->
+	<skip />
+	<!-- no translation found for pref_video_quality_entry_qvga -->
+	<skip />
+	<!-- no translation found for pref_video_quality_entry_2160p -->
+	<skip />
+	<!---->
+	<string name="setting_summary_x_megapixels">"%1$s megapikseli"</string>
+	<!---->
+	<string name="setting_summary_aspect_ratio_and_megapixels">"(%1$d:%2$d) %3$s megapikseli"</string>
+	<!---->
+	<string name="cling_text_for_refocus_editor_button">"Dotknij tutaj, aby ponownie ustawić ostrość"</string>
+	<!---->
+	<string name="pref_category_advanced">"Zaawansowane"</string>
+	<!---->
+	<string name="pref_camera_exposure_compensation">"Ręczna regulacja ekspozycji"</string>
+	<!---->
+	<string name="settings_cling_text">"Zmień rozdzielczość i jakość w ustawieniach lub wypróbuj funkcje zaawansowane."</string>
+	<!---->
+	<string name="photo_size_selection_title">"Wybierz rozmiar zdjęcia"</string>
+	<!---->
+	<string name="photo_aspect_ratio_selection_content">"Możesz to zmienić później w ustawieniach"</string>
+	<!---->
+	<string name="share_to">"Udostępnij"</string>
+	<!---->
+	<string name="edit_with">"Edytuj za pomocą"</string>
+	<!---->
+	<string name="startup_dialog_button_next">"Dalej"</string>
+	<!---->
+	<string name="confirm_button_text">"OK. Rozumiem."</string>
+	<!---->
+	<string name="full_sensor_4x3_aspect_ratio">"Pełny obraz \n(4:3)"</string>
+	<!---->
+	<string name="cropped_sensor_16x9_aspect_ratio">"Przycięty obraz \n(16:9)"</string>
+	<!-- no translation found for pref_boolean_false -->
+	<skip />
+	<!-- no translation found for pref_boolean_true -->
+	<skip />
+	<!---->
+	<string name="pref_camera_iso_s_f_entry_auto">"Auto"</string>
+	<!-- no translation found for manual_manu_title_iso -->
+	<skip />
+	<!-- no translation found for manual_manu_title_exposure -->
+	<skip />
+	<!-- no translation found for manual_manu_title_wb -->
+	<skip />
+	<!-- no translation found for manual_manu_title_focus -->
+	<skip />
+	<!---->
+	<string name="setting_group_photo">"Zdjęcie"</string>
+	<!---->
+	<string name="setting_group_video">"Plik wideo"</string>
+	<!---->
+	<string name="setting_group_general">"Ogólne"</string>
+	<!---->
+	<string name="pref_camera_size_title">"Rozmiar"</string>
+	<!---->
+	<string name="pref_rear_camera_size_title">"Rozmiar"</string>
+	<!---->
+	<string name="pref_front_camera_size_title">"Rozmiar"</string>
+	<!---->
+	<string name="pref_rear_camera_size_title_vdf">"Rozmiar zdjęcia (tył)"</string>
+	<!---->
+	<string name="pref_front_camera_size_title_vdf">"Rozmiar zdjęcia (przód)"</string>
+	<!---->
+	<string name="pref_camera_grid_title">"Siatka"</string>
+	<!---->
+	<string name="pref_camera_pose_title">"Poza"</string>
+	<!---->
+	<string name="pref_camera_compose_title">"Kompozycja"</string>
+	<!---->
+	<string name="pref_video_eis_title">"EIS"</string>
+	<!---->
+	<string name="pref_camera_face_beauty_title">"Zbliżenie twarzy"</string>
+	<!---->
+	<string name="pref_camera_mirror_selfie_title">"Lustrzane selfie"</string>
+	<!---->
+	<string name="pref_camera_attention_seeker_title">"Sygnał dźwiękowy"</string>
+	<!-- no translation found for pref_camera_ais_title -->
+	<skip />
+	<!---->
+	<string name="pref_camera_super_resolution_title">"Super rozdzielczość"</string>
+	<!---->
+	<string name="pref_camera_savepath_title">"Pamięć"</string>
+	<!---->
+	<string name="pref_camera_savepath_entry_0">"Telefon"</string>
+	<!---->
+	<string name="pref_camera_savepath_entry_1">"Karta SD"</string>
+	<!-- no translation found for pref_camera_savepath_default -->
+	<skip />
+	<!---->
+	<string name="pref_camera_sound_title">"Dźwięk migaw."</string>
+	<!---->
+	<string name="pref_visidon_mode_title">"Tryb zaawansowany"</string>
+	<!---->
+	<string name="pref_camera_gesture_detection_title">"Sterowanie gestami"</string>
+	<!---->
+	<string name="visidon_mode_face_beauty_entry">"Zbliżenie twarzy"</string>
+	<!---->
+	<string name="visidon_mode_super_resolution_entry">"Super rozdzielczość"</string>
+	<!---->
+	<string name="visidon_mode_low_light_entry">"Tryb nocny"</string>
+	<!-- no translation found for visidon_mode_hdr_entry -->
+	<skip />
+	<!---->
+	<string name="visidon_mode_off_entry">"Wył."</string>
+	<!---->
+	<string name="mode_manual">"Ręcznie"</string>
+	<!---->
+	<string name="mode_pano">"Panorama"</string>
+	<!-- no translation found for mode_parallax -->
+	<skip />
+	<!---->
+	<string name="mode_micro_video">"Mikro wideo"</string>
+	<!---->
+	<string name="mode_manual_desc">"Przejdź w tryb ręczny"</string>
+	<!---->
+	<string name="mode_pano_desc">"Przełącz na tryb pano"</string>
+	<!---->
+	<string name="mode_parallax_desc">"Przełącz na tryb fyuse"</string>
+	<!---->
+	<string name="mode_micro_video_desc">"Przejdź w tryb mikro wideo"</string>
+	<!---->
+	<string name="pref_restore_settings">"Przywróć ustawienia domyślne"</string>
+	<!---->
+	<string name="quit_dialog_title_battery_low">"Niski poziom naładowania baterii"</string>
+	<!---->
+	<string name="quit_dialog_title_storage_low">"Niewystarczająca ilość pamięci."</string>
+	<!---->
+	<string name="quit_dialog_msg">"Nagranie wideo zostanie zapisane automatycznie. Aparat zostanie wyłączony."</string>
+	<!---->
+	<string name="battery_info_dialog_tile">"Niski poziom naładowania baterii"</string>
+	<!---->
+	<string name="battery_info_dialog_msg_disable_flash">"Nie można użyć lampy błyskowej"</string>
+	<!---->
+	<string name="battery_info_dialog_msg_close_camera">"Nie można uruchomić aparatu"</string>
+	<!---->
+	<string name="battery_info_dialog_button_ok">"OK"</string>
+	<!---->
+	<string name="battery_info_dialog_button_close">"Zamknij"</string>
+	<!-- no translation found for battery_info_low_toast_message -->
+	<skip />
+	<!-- no translation found for battery_info_video_low_toast_message -->
+	<skip />
+	<!-- no translation found for battery_info_video_low_less_8 -->
+	<skip />
+	<!-- no translation found for battery_info_video_low_less_8_dialog -->
+	<skip />
+	<!-- no translation found for battery_info_video_low_cancel -->
+	<skip />
+	<!-- no translation found for battery_info_video_low_continue -->
+	<skip />
+	<!---->
+	<string name="MSG_SAVE_OUTPUT_IMAGE">"Zapisywanie panoramy..."</string>
+	<!---->
+	<string name="MSG_CANCEL_CAPTURE">"Anulowanie…"</string>
+	<!-- no translation found for save_dir_preview_img -->
+	<skip />
+	<!-- no translation found for save_dir_still_img -->
+	<skip />
+	<!---->
+	<string name="MSG_MISALIGNMENT">"O ile to możliwe, utrzymuj strzałkę na białej linii.\nWykonywanie zdjęcia zatrzymane"</string>
+	<!---->
+	<string name="MSG_MOVE_CAMERA_SLOWLY">"Poruszaj aparatem bardzo powoli podczas wykonywania panoramy"</string>
+	<!---->
+	<string name="delete_selection">"Usunąć wybrany element?"</string>
+	<!---->
+	<string name="burst_saving_hint">"Zapisywanie %d obrazów..."</string>
+	<!---->
+	<string name="micro_video_remix_hint">"Przetwarzanie..."</string>
+	<!---->
+	<string name="lowlight_off_desc">"Tryb słabego oświetlenia wyłączony"</string>
+	<!---->
+	<string name="lowlight_on_desc">"Tryb słabego oświetlenia włączony"</string>
+	<!---->
+	<string name="tizr_prompt_desc">"TiZR pozwala na przesyłanie wideo na żywo całemu światu. Zacznij już teraz."</string>
+	<!---->
+	<string name="tizr_prompt_content">"Zacznij tutaj"</string>
+	<!-- no translation found for title_activity_tizr_share_video -->
+	<skip />
+	<!---->
+	<string name="night_mode_on_toast">"Włączono tryb nocny, utrzymuj urządzenie nieruchomo podczas wykonywania zdjęć"</string>
+	<!---->
+	<string name="hdr_on_toast">"Włączono tryb HDR, utrzymuj urządzenie nieruchomo podczas wykonywania zdjęć"</string>
+	<!---->
+	<string name="micro_video_guide_title">"Mikro wideo"</string>
+	<!---->
+	<string name="micro_video_guide_description">"Zostań reżyserem i stwórz swoją własną kompilację wideo\n(po zakończeniu nagrywania naciśnij przycisk edycji, aby dodać specjalne motywy i efekty)"</string>
+	<!---->
+	<string name="micro_video_guide_checkbox">"Nie pokazuj ponownie"</string>
+	<!---->
+	<string name="micro_video_guide_button">"Rozumiem"</string>
+	<!---->
+	<string name="micro_minimum_time_tip">"Nagraj przynajmniej 3 sekundy"</string>
+	<!---->
+	<string name="micro_shutter_help_tip">"Naciśnij i przytrzymaj, aby rozpocząć nagrywanie"</string>
+	<!---->
+	<string name="permissions_needed">"Wymagane uprawnienia"</string>
+	<!---->
+	<string name="grant_access_title">"Zezwól na dostęp"</string>
+	<!-- no translation found for grant_access_msg -->
+	<skip />
+	<!---->
+	<string name="grant_access_exit">"Zakończ"</string>
+	<!---->
+	<string name="grant_access_settings">"Ustawienia"</string>
+	<!-- no translation found for location_and -->
+	<skip />
+	<!---->
+	<string name="location_msg">"Oznacz lokalizację na zdjęciach i wideo"</string>
+	<!---->
+	<string name="location_toast">"Włącz oznaczanie GPS w ustawieniach aparatu"</string>
+	<!---->
+	<string name="location_snack_setting">"Aby włączyć oznaczanie GPS, zezwól aplikacji Aparat na dostęp do lokalizacji"</string>
+	<!---->
+	<string name="aspect_ratio_and_megapixels_default">"%1$d Mpix (%2$d:%3$d)"</string>
+	<!---->
+	<string name="tips_for_panorama_preview">"Nie przestawaj przesuwać urządzenie podczas wykonywania panoramy"</string>
+	<!---->
+	<string name="tip_for_move_center">"Utrzymuj strzałkę na środkowej linii"</string>
+	<!---->
+	<string name="tip_for_move_down">"Przesuń w dół"</string>
+	<!---->
+	<string name="tip_for_move_up">"Przesuń w górę"</string>
+	<!---->
+	<string name="tip_for_move_slow">"Wolniej"</string>
+	<!---->
+	<string name="tip_for_move_right">"Przesuń w prawo"</string>
+	<!---->
+	<string name="tip_for_move_left">"Przesuń w lewo"</string>
+	<!---->
+	<string name="super_zoom_on_toast">"Włączono super zoom, utrzymuj urządzenie nieruchomo podczas wykonywania zdjęć"</string>
+	<!---->
+	<string name="help_tip_welcome_take_tour">"Tak"</string>
+	<!---->
+	<string name="help_tip_welcome_cancel_tour">"NIE"</string>
+	<!---->
+	<string name="help_tip_welcome_title">"Aparat"</string>
+	<!---->
+	<string name="help_tip_welcome_context">"Chcesz obejrzeć prezentację, aby dowiedzieć się, jak korzystać z aparatu Twojego nowego smartfona?"</string>
+	<!---->
+	<string name="help_tip_snap_context">"Dotknij tutaj, aby zrobić zdjęcie lub przytrzymaj, aby wykonać zdjęcia seryjne (maks. 10 zdjęć)"</string>
+	<!---->
+	<string name="help_tip_camera_key_context">"Naciśnij przycisk aparatu, aby wykonać zdjęcie, lub przytrzymaj ten przycisk, aby wykonać zdjęcia seryjne"</string>
+	<!---->
+	<string name="help_tip_recent_context">"Dotknij tutaj, aby zobaczyć ostatnie zdjęcia"</string>
+	<!---->
+	<string name="help_tip_startvideo_context">"Dotknij tutaj, aby rozpocząć nagrywanie wideo"</string>
+	<!---->
+	<string name="help_tip_videosnap_context">"Dotknij tutaj, aby zrobić zdjęcie podczas nagrywania"</string>
+	<!---->
+	<string name="help_tip_stopvideo_context">"Dotknij tutaj, aby zatrzymać nagrywanie i zapisać wideo"</string>
+	<!---->
+	<string name="help_tip_switch_front_context">"Dotknij tutaj, aby przejść do trybu selfie"</string>
+	<!---->
+	<string name="help_tip_gesture_tip_context">"Aby zrobić zdjęcie, skieruj wewnętrzną część dłoni w stronę aparatu."</string>
+	<!---->
+	<string name="help_tip_pinch_zoom_context">"Zsuń/rozciągnij palce na ekranie, aby przybliżyć/oddalić widok"</string>
+	<!---->
+	<string name="help_tip_quick_switch_context">"Dotknij tych ikon, aby włączyć/wyłączyć funkcję"</string>
+	<!---->
+	<string name="help_tip_settings_context">"Dotknij tutaj, aby przejść do ustawień aparatu"</string>
+	<!---->
+	<string name="help_tip_mode_context">"Przesuń w lewo lub w prawo, aby zmienić tryb aparatu"</string>
+	<!---->
+	<string name="help_tip_panorama_context">"Dotknij paska podglądu, aby zmienić kierunek"</string>
+	<!---->
+	<string name="help_tip_manual_context">"Dotknij ikony, aby zmienić opcje trybu ręcznego"</string>
+	<!---->
+	<string name="help_tip_manual_menu_context">"Dotknij, aby wyświetlić lub ukryć opcje trybu ręcznego"</string>
+	<!---->
+	<string name="help_tip_got_it_text">"Odrzuć"</string>
+	<!---->
+	<string name="help_tip_dismiss_text">"Odrzuć"</string>
+	<!---->
+	<string name="help_tip_skip_all_text">"Pomiń wszystko"</string>
+	<!---->
+	<string name="optimize_saving_hint">"Optymalizowanie zdjęcia"</string>
+	<!---->
+	<string name="wrapper_button_desc">"Przycisk rozwijania"</string>
+	<!---->
+	<string name="restore_settings_dialog_msg">"Przywrócić fabryczne ustawienia aparatu?"</string>
+	<!---->
+	<string name="restore_settings_dialog_yes">"Resetuj"</string>
+	<!---->
+	<string name="restore_settings_dialog_no">"Anuluj"</string>
+	<!---->
+	<string name="permission_title">"Aparat wymaga przydzielenia uprawnień"</string>
+	<!---->
+	<string name="permission_content">"Dotknij tutaj, aby przydzielić uprawnienia."</string>
+	<plurals name="instant_capture_photos">
+		<item quantity="one">"<xliff:g id="step_count">%1$d</xliff:g> zdjęcie"</item>
+		<item quantity="other">"Liczba zdjęć: <xliff:g id="step_count">%1$d</xliff:g>"</item>
+	</plurals>
+	<!-- no translation found for photos -->
+	<skip />
+	<!---->
+	<string name="delete_selection_burst">"To ujęcie seryjne zawiera %s zdjęć. Usunąć wszystkie?"</string>
+	<!---->
+	<string name="flash_with_superzoom_toast">"Nie można użyć lampy błyskowej przy włączonej funkcji super zoom"</string>
+	<!---->
+	<string name="battery_warning_title">"Nie można zrobić zdjęcia z funkcją wzmocnienia"</string>
+	<!---->
+	<string name="battery_warning_content">"Nie można zrobić zdjęcia przy niskim poziomie naładowania baterii"</string>
+	<!---->
+	<string name="phone_storage_low_for_alert_dialog">"Mało miejsca w pamięci telefonu. Aparat zostanie wyłączony."</string>
+	<!---->
+	<string name="sd_card_low_for_alert_dialog">"Mało miejsca na karcie SD. Aparat zostanie wyłączony."</string>
+	<!---->
+	<string name="camera_error_title_alert_dialog">"Pamięć jest pełna"</string>
+	<!---->
+	<string name="storage_low_close_alert_dialog">"Zamknij"</string>
+	<!---->
+	<string name="storage_low_phone_full_no_sdcard_alert_dialog">"Pamięć telefonu jest pełna. Zwolnij miejsce lub włóż kartę SD."</string>
+	<!---->
+	<string name="storage_low_phone_sdcard_full_alert_dialog">"Pamięć telefonu i karta SD są pełne. Zwolnij miejsce w pamięci, aby skorzystać z aparatu."</string>
+	<!---->
+	<string name="storage_low_phone_full_sdcard_ok_alert_dialog">"Pamięć telefonu jest pełna. Zapisać na karcie SD?"</string>
+	<!---->
+	<string name="storage_low_storage_full_phone_ok_alert_dialog">"Karta SD jest pełna. Zapisać w pamięci telefonu?"</string>
+	<!---->
+	<string name="storage_low_phone_full_sdcard_ok_button">"Użyj karty SD"</string>
+	<!---->
+	<string name="storage_low_storage_full_phone_ok_button">"Użyj pamięci telefonu"</string>
+	<!-- no translation found for storage_low_storage_critical_toast_message -->
+	<skip />
+	<!-- no translation found for storage_low_video_critical_toast_message -->
+	<skip />
+	<!---->
+	<string name="pref_camera_antibanding_title">"Antypasmow."</string>
+	<!---->
+	<string name="pref_camera_antibanding_entry_0">"Wył"</string>
+	<!---->
+	<string name="pref_camera_antibanding_entry_1">"50 Hz"</string>
+	<!---->
+	<string name="pref_camera_antibanding_entry_2">"60 Hz"</string>
+	<!---->
+	<string name="pref_camera_antibanding_entry_3">"Auto"</string>
+	<!---->
+	<string name="storage_warning_content">"Nie można zrobić zdjęcia przy niewystarczającej ilości pamięci"</string>
+	<!---->
+	<string name="storage_and_battery_warning_content">"Nie można zrobić zdjęcia przy niskim poziomie naładowania baterii i niewystarczającej ilości pamięci"</string>
+	<!---->
+	<string name="remote_content">"Wyświetlaj zdjęcia w urządzeniu noszonym na ciele"</string>
+	<!---->
+	<string name="boom_key_press">"Naciśnij"</string>
+	<!---->
+	<string name="boom_key">"Przycisk wzmocnienia"</string>
+	<!---->
+	<string name="location_service_dialog_title">"GPS wyłączony"</string>
+	<!---->
+	<string name="location_service_dialog_msg">"Aby oznaczyć lokalizacje, w jakich zrobione zostały zdjęcia i filmy, włącz GPS i sieć bezprzewodową w Ustawieniach położenia."</string>
+	<!---->
+	<string name="location_service_dialog_cancel">"Anuluj"</string>
+	<!---->
+	<string name="location_service__dialog_setting">"Ustawienia"</string>
+	<!---->
+	<string name="gestureshot_guide_capture">"Wykrywanie gestów: Automatyczne robienie zdjęć po wykryciu gestu:"</string>
+	<!-- no translation found for mode_filters -->
+	<skip />
+	<!-- no translation found for mode_pose -->
+	<skip />
+	<!-- no translation found for video_recording_paused -->
+	<skip />
+	<!-- no translation found for pose_final_icon -->
+	<skip />
+	<!-- no translation found for time_left -->
+	<skip />
+	<!-- no translation found for pref_camera_auto_hdr_title -->
+	<skip />
+	<!-- no translation found for pref_camera_timer_entry_0 -->
+	<skip />
+	<!-- no translation found for pref_camera_timer_unit_suffix -->
+	<skip />
+	<!-- no translation found for pref_camera_face_beauty_summary -->
+	<skip />
+	<!-- no translation found for pref_camera_mirror_selfie_summary -->
+	<skip />
+	<!-- no translation found for pref_camera_pose_summary -->
+	<skip />
+	<!-- no translation found for mode_360_photo -->
+	<skip />
+	<!-- no translation found for panorama_preview_holder_info_text -->
+	<skip />
+	<!-- no translation found for back -->
+	<skip />
+	<!-- no translation found for gallery_name -->
+	<skip />
+	<!---->
+	<string name="audio_record_on_desc">"Nagrywanie dźwięku"</string>
+	<!-- no translation found for audio_record_off_desc -->
+	<skip />
+</resources>

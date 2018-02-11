@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/help_tip_dialog"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/help_tip_no_arrow"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tip_context"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:paddingBottom="@dimen/help_tip_dialog_context_padding_bottom"
+        android:paddingLeft="@dimen/help_tip_dialog_context_padding_left"
+        android:paddingRight="@dimen/help_tip_dialog_context_padding_right"
+        android:paddingTop="@dimen/help_tip_dialog_context_padding_top"
+        android:text="@string/help_tip_videosnap_context"
+        android:textColor="@color/help_tip_dialog_text_color"
+        android:textSize="@dimen/help_tip_dialog_context_text_size" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/help_tip_dialog_line_height"
+        android:background="@drawable/bg_help_tip_view_shadow" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/help_tip_dialog_input_height"
+        android:gravity="end"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/next"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/help_tip_dialog_input_btn_margin_right"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:text="@string/help_tip_got_it_text"
+            android:textColor="@color/help_tip_dialog_text_color"
+            android:textSize="@dimen/help_tip_dialog_btn_text_size" />
+    </LinearLayout>
+
+</LinearLayout>

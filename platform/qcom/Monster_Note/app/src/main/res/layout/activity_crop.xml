@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="cn.tcl.note.activity.CropActivity"
+    android:background="@color/crop_bg_color">
+
+    <LinearLayout
+        style="@style/toolbar_style"
+        android:background="@color/crop_action_bar_color">
+
+        <Button
+            android:id="@+id/crop_cancel"
+            android:text="@string/dialog_cancel"
+            android:paddingLeft="20dp"
+            android:fontFamily="monster-normal"
+            style="@style/style_crop_button" />
+
+        <View
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/crop_ok"
+            style="@style/style_crop_button"
+            android:text="@string/dialog_ok"
+            android:paddingRight="20dp"
+            android:fontFamily="monster-normal"/>
+    </LinearLayout>
+
+    <cn.tcl.note.ui.ImgCropView
+        android:id="@+id/img_crop_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center" />
+
+</LinearLayout>

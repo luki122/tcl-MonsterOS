@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:minHeight="@dimen/file_list_item_minheight"
+    android:orientation="horizontal"
+    android:paddingEnd="30dp"
+    android:paddingStart="20dp">
+
+
+    <ImageView
+        android:id="@+id/edit_adapter_img"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginEnd="20dp"
+        android:scaleType="center" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/checkbox_arrow_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true">
+
+            <CheckBox
+                android:id="@+id/edit_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:focusable="false" />
+
+            <ImageView
+                android:id="@+id/ic_arrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/arrow" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toStartOf="@id/checkbox_arrow_layout"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/file_list_item_file_name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:alpha="0.86"
+                android:ellipsize="end"
+                android:fontFamily="monster-normal"
+                android:singleLine="true"
+                android:text="name"
+                android:textColor="@color/first_color"
+                android:textSize="@dimen/list_title_text_size" />
+
+            <RelativeLayout
+                android:id="@+id/file_download_success_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/file_list_item_layout_margin"
+                android:layout_marginTop="8dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/edit_adapter_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:alpha="0.35"
+                    android:fontFamily="monster-normal"
+                    android:text="time"
+                    android:textColor="@color/first_color"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/edit_adapter_size"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_toRightOf="@id/edit_adapter_time"
+                    android:alpha="0.35"
+                    android:fontFamily="monster-normal"
+                    android:text="size"
+                    android:textColor="@color/first_color"
+                    android:textSize="12sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/file_download_running_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical">
+
+                <ProgressBar
+                    android:id="@+id/download_progressBar"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:max="100" />
+
+                <TextView
+                    android:id="@+id/edit_adapter_current_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/download_progressBar"
+                    android:layout_marginEnd="@dimen/file_list_item_layout_margin"
+                    android:alpha="0.35"
+                    android:fontFamily="monster-normal"
+                    android:text="current size"
+                    android:textColor="@color/first_color"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/edit_adapter_percent"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/download_progressBar"
+                    android:layout_marginEnd="@dimen/file_list_item_layout_margin"
+                    android:layout_marginLeft="15dp"
+                    android:layout_toRightOf="@id/edit_adapter_current_size"
+                    android:alpha="0.35"
+                    android:fontFamily="monster-normal"
+                    android:text="percent"
+                    android:textColor="@color/first_color"
+                    android:textSize="12sp" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

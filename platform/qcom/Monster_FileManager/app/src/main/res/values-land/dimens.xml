@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<resources>
+
+    <integer name="category_gridview_numColumns">5</integer>
+
+    <dimen name="category_image_size">20dp</dimen>
+    <dimen name="category_progress_content_height">94dp</dimen>
+
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <GridView
+        android:id="@+id/pose_gridview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/gridview_margin_left"
+        android:layout_marginRight="@dimen/gridview_margin_left"
+        android:gravity="center"
+        android:horizontalSpacing="@dimen/gridview_spacing_size"
+        android:numColumns="@integer/gridview_columns_number"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="@dimen/gridview_spacing_size" />
+</FrameLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/pose_item_image"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/gridview_item_height"
+        android:scaleType="centerCrop"
+        android:background="@color/albumset_label_background"/>
+
+    <TextView
+        android:id="@+id/pose_item_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/gridview_item_text_color"
+        android:textSize="@dimen/gridview_item_text_size"
+        android:gravity="center"
+        android:background="@color/default_background"
+        android:layout_marginTop="@dimen/gridview_spacing_size"/>
+</LinearLayout>

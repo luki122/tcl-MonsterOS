@@ -1,0 +1,814 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="sort">"Kārtot"</string>
+	<!---->
+	<string name="sort_by_name">"Nosauk."</string>
+	<!---->
+	<string name="sort_by_date">"Datums pārveidots"</string>
+	<!---->
+	<string name="sort_by_time">"Datums"</string>
+	<!---->
+	<string name="sort_by_type">"Veids"</string>
+	<!---->
+	<string name="sort_by_size">"Lielums"</string>
+	<!---->
+	<string name="copy">"Kopēt"</string>
+	<!---->
+	<string name="create_folder">"Izveidot"</string>
+	<!---->
+	<string name="cut">"Izgriezt"</string>
+	<!---->
+	<string name="delete">"Izdzēst"</string>
+	<!---->
+	<string name="delete_confirm">"Apstiprināt dzēšanu"</string>
+	<!---->
+	<string name="deselect_all">"Noņemt atlasi visam"</string>
+	<!---->
+	<string name="select_all">"Atlasīt visus"</string>
+	<!---->
+	<string name="show_file">"Rādīt slēptos failus"</string>
+	<!---->
+	<string name="hide_file">"Slēpt slēptos failus"</string>
+	<!---->
+	<string name="paste">"Ielīmēt"</string>
+	<!---->
+	<string name="rename">"Pārdēvēt"</string>
+	<!---->
+	<string name="share">"Kopīgot"</string>
+	<!---->
+	<string name="viewby_list">"Skatīt pēc saraksta"</string>
+	<!---->
+	<string name="viewby_grid">"Skatīt pēc režģa"</string>
+	<!---->
+	<string name="alert_delete_message">"Dzēst"</string>
+	<!---->
+	<string name="multi_alert_delete_message">"Vai dzēst atlasītos vienumus?"</string>
+	<!---->
+	<string name="multi_alert_delete_message_cn">"Vai dzēst atlasītos vienumus?"</string>
+	<!-- no translation found for delete_folder_message -->
+	<skip />
+	<!---->
+	<string name="category_pictures">"Attēli"</string>
+	<!---->
+	<string name="category_vedios">"Video"</string>
+	<!---->
+	<string name="category_music">"Mūzika"</string>
+	<!---->
+	<string name="category_download">"Lejupielādes"</string>
+	<!---->
+	<string name="category_bluetooth">"Bluetooth"</string>
+	<!-- no translation found for app_name -->
+	<skip />
+	<!-- no translation found for theme_name -->
+	<skip />
+	<!---->
+	<string name="apk_name">"Faili"</string>
+	<!---->
+	<string name="new_folder">"Izveidot jaunu mapi"</string>
+	<!---->
+	<string name="confirm_rename">"Apstiprināt nosaukumu"</string>
+	<!---->
+	<string name="warning">"Maksimālais faila apjoms"</string>
+	<!---->
+	<string name="share_warning">"Jūs nevarat atlasīt vairāk par 100 failiem."</string>
+	<!---->
+	<string name="loading">"Notiek ielāde..."</string>
+	<!---->
+	<string name="deleting">"Dzēšana"</string>
+	<!---->
+	<string name="alert_delete_multiple">"Atlasītos Failus tiks dzēsts."</string>
+	<!---->
+	<string name="name">"Nosauk."</string>
+	<!---->
+	<string name="size">"Lielums"</string>
+	<!---->
+	<string name="modified_time">"Mainīts"</string>
+	<!---->
+	<string name="msg_rename_ext">"Faila paplašinājums tiks mainīts. Fails var netikt atpazīts. Vai turpināt?"</string>
+	<!---->
+	<string name="wait">"Lūdzu, uzgaidiet..."</string>
+	<!---->
+	<string name="done">"Gatavs"</string>
+	<!-- no translation found for enable -->
+	<skip />
+	<!-- no translation found for enable_cn -->
+	<skip />
+	<!---->
+	<string name="cancel">"Atcelt"</string>
+	<!---->
+	<string name="no">"Nē"</string>
+	<!---->
+	<string name="ok">"Labi"</string>
+	<!---->
+	<string name="yes">"Jā"</string>
+	<!---->
+	<string name="details">"Faila dati"</string>
+	<!---->
+	<string name="drawer_open">"Atvērt"</string>
+	<!---->
+	<string name="unknown">"nezināms"</string>
+	<!-- no translation found for unit_B -->
+	<skip />
+	<!-- no translation found for unit_KB -->
+	<skip />
+	<!-- no translation found for unit_MB -->
+	<skip />
+	<!-- no translation found for unit_GB -->
+	<skip />
+	<!-- no translation found for unit_TB -->
+	<skip />
+	<!---->
+	<string name="send_file">"Kopīgot failu(-us), izmantojot"</string>
+	<!---->
+	<string name="default_search_text">"Meklēt failus"</string>
+	<!---->
+	<string name="free_space">"Pieejams"</string>
+	<!---->
+	<string name="total_space">"Kopējā vieta"</string>
+	<!---->
+	<string name="drawer_category">"Kategorijas"</string>
+	<!---->
+	<string name="phone_storage">"Iekšējā atmiņa"</string>
+	<!---->
+	<string name="phone_storage_cn">"Iekšējā atmiņa"</string>
+	<!---->
+	<string name="sd_card">"SD karte"</string>
+	<!---->
+	<string name="draw_left_phone_storage">"Iekšējā atmiņa"</string>
+	<!---->
+	<string name="draw_left_sd_card">"SD karte"</string>
+	<!-- no translation found for menu_settings -->
+	<skip />
+	<!---->
+	<string name="no_search_result">"\“%1$s\” — atrasti 0 faili"</string>
+	<!---->
+	<string name="copy_deny">"Nav atļaujas kopēt."</string>
+	<!---->
+	<string name="cut_deny">"Nav atļaujas izgriezt."</string>
+	<!---->
+	<string name="delete_deny">"Nav atļaujas dzēst."</string>
+	<!---->
+	<string name="insufficient_memory">"Nepietiekama vieta."</string>
+	<!---->
+	<string name="insufficient_message">"Dažus failus neizdevās kopēt, jo nepietiek vietas"</string>
+	<!---->
+	<string name="invalid_empty_name">"Faila vai mapes nosaukums nedrīkst būt tukšs."</string>
+	<!---->
+	<string name="paste_same_folder">"Nevarēja nokopēt: avota un mērķa mape ir tā pati."</string>
+	<!---->
+	<string name="invalid_char_prompt">"Ievadīta nederīga rakstzīme."</string>
+	<!---->
+	<string name="msg_unable_open_file">"Faila formāts netiek atbalstīts."</string>
+	<!---->
+	<string name="paste_sub_folder">"Nevar ielīmēt apakšmapē."</string>
+	<!---->
+	<string name="operation_fail">"Darbības ar dažiem failiem neizdevās."</string>
+	<!---->
+	<string name="search_result">"%2$d rezultāts(-i) vaicājumam \“%1$s\”"</string>
+	<!---->
+	<string name="already_exists">"%1$s jau tiek izmantots."</string>
+	<!---->
+	<string name="unmounted">"%1$s ir atmontēts"</string>
+	<!---->
+	<string name="create_hidden_file">"Fails tiks paslēpts, ja tā nosaukums sākas ar \'.\'."</string>
+	<!---->
+	<string name="file_name_too_long">"Ievadītais nosaukums ir pārāk garš."</string>
+	<!---->
+	<string name="some_paste_fail">"Dažas ielīmēšanas darbības neizdevās."</string>
+	<!---->
+	<string name="delete_fail">"Neizdevās dzēst"</string>
+	<!---->
+	<string name="some_delete_fail">"Dažas dzēšanas darbības neizdevās."</string>
+	<!---->
+	<string name="msg_unable_open_file_in_app">"Nav lietotnes faila atvēršanai"</string>
+	<!---->
+	<string name="drm_forwardforbidden_title">"Nav pārsūtīts"</string>
+	<!---->
+	<string name="drm_forwardforbidden_message">"Nevar pārsūtīt DRM failu."</string>
+	<!---->
+	<string name="drm_no_valid_right">"Failam nav derīgas DRM pilnvaras."</string>
+	<!---->
+	<string name="drm_current_count">"Pašreizējais skaits:"</string>
+	<!---->
+	<string name="unlimited_usage">"Neierobežots lietošanas apjoms"</string>
+	<!---->
+	<string name="drm_current_right">"Pašreizējais ierobežojums:"</string>
+	<!---->
+	<string name="not_available">"Nav pieejams"</string>
+	<!---->
+	<string name="right_url">"Licenču izsniedzēja URL:"</string>
+	<!---->
+	<string name="use_times">"Lietojiet %s reizes"</string>
+	<!---->
+	<string name="valid_after">"Derīgs pēc:"</string>
+	<!---->
+	<string name="valid_until">"Derīgs līdz:"</string>
+	<!---->
+	<string name="drm_wifidisplay_title">"Pret kopēšanu aizsargāti faili"</string>
+	<!---->
+	<string name="drm_wifidisplay_message">"Pret kopēšanu aizsargātu failu nevar izplatīt."</string>
+	<!---->
+	<string name="drm_wifidisplay_cancel_btn">"Izslēgt Wi-Fi rādījumu"</string>
+	<!---->
+	<string name="drm_wifidisplay_ok">"Labi"</string>
+	<!---->
+	<string name="tv_link_close_toast">"Wi-Fi displejs ir aizvērts"</string>
+	<!---->
+	<string name="usbotg">"Ārējā USB atmiņa"</string>
+	<!---->
+	<string name="show">"Rādīt sistēmas failus"</string>
+	<!---->
+	<string name="hide">"Slēpt sistēmas failus"</string>
+	<!---->
+	<string name="action_menu_create_folder_button">"izveidot mapi"</string>
+	<!---->
+	<string name="searchResult">"Meklēšanas rezultāts"</string>
+	<!---->
+	<string name="default_folder_name">"Mapes nosaukums"</string>
+	<!---->
+	<string name="drm_protection_status">"Aizsardzības statuss:"</string>
+	<!---->
+	<string name="drm_can_forward">"Var pārsūtīt."</string>
+	<!---->
+	<string name="drm_can_not_forward">"Nevar pārsūtīt."</string>
+	<!---->
+	<string name="drm_no_license">"Nav pieejama neviena DRM licence."</string>
+	<!---->
+	<string name="drm_interval">"Pēc pirmās lietošanas derīgs: %s"</string>
+	<!---->
+	<string name="drm_begin">"Sākums:"</string>
+	<!---->
+	<string name="drm_no_limitation">"Bez ierobežojumiem."</string>
+	<!---->
+	<string name="drm_end">"Beigas:"</string>
+	<!---->
+	<string name="drm_use_left">"Atlikums:"</string>
+	<!---->
+	<string name="drm_no_crop">"Failu %s nav atļauts apgriezt, jo tam ir iestatīta DRM aizsardzība."</string>
+	<!---->
+	<string name="file_copy">"Fails nokopēts"</string>
+	<!---->
+	<string name="choice_file">"Izvēlieties mērķi"</string>
+	<!---->
+	<string name="alert_delete_single">"Atlasītos Fails tiks dzēsts."</string>
+	<!---->
+	<string name="pasting">"Ielīmēšana"</string>
+	<!---->
+	<string name="readable">"Lasāms:"</string>
+	<!---->
+	<string name="executable">"Lietojumprogramma:"</string>
+	<!---->
+	<string name="writable">"Rakstāms:"</string>
+	<!---->
+	<string name="add_favorite">"Pievienot mapei Izlase"</string>
+	<!---->
+	<string name="del_favorite">"Dzēst no mapes Izlase"</string>
+	<!---->
+	<string name="favourite">"Pievienot izlasei"</string>
+	<!---->
+	<string name="viewby_details">"Skatīt pēc datiem"</string>
+	<!---->
+	<string name="view_by">"Skatīt pēc"</string>
+	<!---->
+	<string name="show_hide">"Rādīt\\Paslēpt"</string>
+	<!---->
+	<string name="sort_by">"Kārtot pēc"</string>
+	<!---->
+	<string name="more">"Vairāk"</string>
+	<!-- no translation found for used -->
+	<skip />
+	<!---->
+	<string name="category_archives">"Arhīvi"</string>
+	<!---->
+	<string name="category_favorite">"Izlase"</string>
+	<!---->
+	<string name="category_ringtones">"Zvana signāli"</string>
+	<!---->
+	<string name="category_recordings">"Ieraksti"</string>
+	<!---->
+	<string name="category_safebox">"Safebox"</string>
+	<!---->
+	<string name="category_apks">"APK"</string>
+	<!---->
+	<string name="search">"Meklēt"</string>
+	<!---->
+	<string name="sort_type">"Kārtot pēc veida"</string>
+	<!---->
+	<string name="sort_name">"Kārtot pēc nosaukuma (A–Z)"</string>
+	<!---->
+	<string name="sort_size">"Kārtot pēc lieluma (liels-mazs)"</string>
+	<!---->
+	<string name="sort_time">"Kārtot pēc laika (jauns-vecs)"</string>
+	<!---->
+	<string name="selected">"atlasīta"</string>
+	<!---->
+	<string name="save">"Saglabāt"</string>
+	<!---->
+	<string name="category_docs">"Dokumenti"</string>
+	<!---->
+	<string name="category_files">"Faili"</string>
+	<!---->
+	<string name="view_as_grid">"Skatīt kā režģi"</string>
+	<!---->
+	<string name="view_as_list">"Skatīt kā sarakstu"</string>
+	<!---->
+	<string name="detail_path">"Atrašanās vieta:"</string>
+	<!---->
+	<string name="detail_name">"Nosauk.:"</string>
+	<!---->
+	<string name="detail_size">"Lielums:"</string>
+	<!---->
+	<string name="detail_time">"Pēd. pārv.:"</string>
+	<!---->
+	<string name="empty_msg">"(Tukša mape)"</string>
+	<!---->
+	<string name="search_files">"Meklēt failus"</string>
+	<!-- no translation found for search_result_count -->
+	<skip />
+	<!---->
+	<string name="drawer_settings">"IESTATĪJUMI"</string>
+	<!---->
+	<string name="search_text_empty">"Meklēšanas saturs nedrīkst būt tukšs."</string>
+	<!---->
+	<string name="search_result_title">"Meklēšanas rezultāts(-i)"</string>
+	<!---->
+	<string name="path_not_exists">"%1$s nepastāv"</string>
+	<!---->
+	<string name="modify_hidden_file">"Fails netiks paslēpts, ja tā nosaukums nesākas ar \'.\'."</string>
+	<!---->
+	<string name="paste_fail">"Nevarēja ielīmēt"</string>
+	<!---->
+	<string name="search_empty">"Meklēšanas saturs nedrīkst būt tukšs."</string>
+	<!---->
+	<string name="search_setting_description">"Lokālie faili un mapes"</string>
+	<!---->
+	<string name="change_mode">"Atlasīt failu vai mapi"</string>
+	<!-- no translation found for drm_protectioninfo_title -->
+	<skip />
+	<!---->
+	<string name="draw_favourite">"izlase"</string>
+	<!---->
+	<string name="unfavourite">"Noņemt no izlases"</string>
+	<!---->
+	<string name="drm_toast_license_expired">"Beidzies DRM licences derīguma termiņš."</string>
+	<!-- no translation found for sdstroge -->
+	<skip />
+	<!-- no translation found for phonestorage -->
+	<skip />
+	<!-- no translation found for title_activity_main -->
+	<skip />
+	<!-- no translation found for hello_world -->
+	<skip />
+	<!-- no translation found for action_settings -->
+	<skip />
+	<!-- no translation found for unlock_video -->
+	<skip />
+	<!---->
+	<string name="readable_m">"Lasāms"</string>
+	<!---->
+	<string name="executable_m">"Lietotne"</string>
+	<!---->
+	<string name="writable_m">"Rakstāms"</string>
+	<!---->
+	<string name="main_recents">"Jaunākais"</string>
+	<!-- no translation found for main_recents_cn -->
+	<skip />
+	<!---->
+	<string name="main_installers">"Instalētāji"</string>
+	<!---->
+	<string name="main_document">"Dokumenti"</string>
+	<!---->
+	<string name="detail_path_m">"Atrašan. vieta"</string>
+	<!-- no translation found for detail_path_m_cn -->
+	<skip />
+	<!---->
+	<string name="detail_name_m">"Nosaukums"</string>
+	<!---->
+	<string name="detail_size_m">"Lielums"</string>
+	<!---->
+	<string name="detail_time_m">"Pēd. pārv."</string>
+	<!---->
+	<string name="main_photo">"Fotoattēli"</string>
+	<!---->
+	<string name="main_sd_storage">"SD krātuve"</string>
+	<!---->
+	<string name="main_external_storage">"Ārējā krātuve"</string>
+	<!---->
+	<string name="main_home">"Sākums"</string>
+	<!-- no translation found for main_home_cn -->
+	<skip />
+	<!---->
+	<string name="main_nava_home">"Sākums"</string>
+	<!---->
+	<string name="menu_select">"Atlasīt"</string>
+	<!-- no translation found for go_up -->
+	<skip />
+	<!---->
+	<string name="no_folder">"Šī mape ir tukša."</string>
+	<!---->
+	<string name="no_category">"Šī kategorija ir tukša."</string>
+	<!-- no translation found for no_folder_cn -->
+	<skip />
+	<!-- no translation found for no_category_cn -->
+	<skip />
+	<!---->
+	<string name="pasted">"Fails ielīmēts"</string>
+	<!---->
+	<string name="deleted">"Fails izdzēsts"</string>
+	<!---->
+	<string name="deleted_cn">"Fails izdzēsts"</string>
+	<!---->
+	<string name="view_list">"Saraksta skatījums"</string>
+	<!---->
+	<string name="view_grid">"Režģa skats"</string>
+	<!---->
+	<string name="create_new_folder">"Izveidot mapi"</string>
+	<!-- no translation found for add_folder -->
+	<skip />
+	<!---->
+	<string name="detail">"Informācija"</string>
+	<!-- no translation found for menu_detail -->
+	<skip />
+	<!---->
+	<string name="migrate">"Migrēt"</string>
+	<!---->
+	<string name="permission_welcome_title">"Nepieciešama atļauja"</string>
+	<!---->
+	<string name="permission_msg">"Labāki pakalpojumi jums"</string>
+	<!---->
+	<string name="permission_setting_title">"Nodrošināt pieeju"</string>
+	<!---->
+	<string name="permission_setting_content">"Mainiet atļaujas ierīces lietotņu iestatījumos. Nodrošiniet, lai Pailu pārvaldniekam būtu piekļuve krātuvei."</string>
+	<!---->
+	<string name="permission_exit_btn">"Iziet"</string>
+	<!---->
+	<string name="dialog_close_btn">"Aizvērt"</string>
+	<!-- no translation found for dialog_close_btn_cn -->
+	<skip />
+	<!---->
+	<string name="shortcut_item">"Pievienot saīsni"</string>
+	<!-- no translation found for shortcut_item_cn -->
+	<skip />
+	<!---->
+	<string name="shortcut_no_exist">"Prasītā mape nepastāv"</string>
+	<!-- no translation found for shortcut_success -->
+	<skip />
+	<!---->
+	<string name="no_search_result_m">"Meklējot \"%1$s\", nav rezultātu"</string>
+	<!---->
+	<string name="draw_left_phone_storage_m">"Tālrunis"</string>
+	<!---->
+	<string name="category_audio">"Audio"</string>
+	<!---->
+	<string name="usbotg_m">"Ārējā"</string>
+	<!-- no translation found for sd_m -->
+	<skip />
+	<!---->
+	<string name="freeof_m">"Bezmaksas"</string>
+	<!---->
+	<string name="permission_settings">"Iestatījumi"</string>
+	<!---->
+	<string name="safe_first_dialog_title">"Seifa kategorija"</string>
+	<!---->
+	<string name="safe_first_dialog_content">"Lai pārvietotu šīs kategorijas failus, ir nepieciešama autentifikācija ar paroli. Lai pievienotu failus šai kategorijai, izvēlnē piespiediet "Pārvietot uz seifu"."</string>
+	<!-- no translation found for safe_first_dialog_content_cn -->
+	<skip />
+	<!---->
+	<string name="safe_storage_local">"Lokālā krātuve"</string>
+	<!---->
+	<string name="set_password_pass">"Parole"</string>
+	<!---->
+	<string name="set_password_first">"Iestatiet paroli: 4-12 cipari"</string>
+	<!-- no translation found for input_new_password_hint -->
+	<skip />
+	<!---->
+	<string name="set_password_again">"Apstipriniet paroli"</string>
+	<!---->
+	<string name="set_password_show">"Rādīt paroli"</string>
+	<!---->
+	<string name="set_password_safe_question">"Drošības problēmas"</string>
+	<!---->
+	<string name="set_password_safe_question_answer">"Atbildēt"</string>
+	<!---->
+	<string name="set_password_safe_forget_pass">"Iegaumējiet atbildes uz drošības jautājumiem. Ja būsiet nozaudējuši paroli, varēsiet to atiestatīt, atbildot uz drošības jautājumiem."</string>
+	<!---->
+	<string name="choose_safe">"Izvēlēties seifu"</string>
+	<!-- no translation found for choose_safe_cn -->
+	<skip />
+	<!---->
+	<string name="create_safe">"Izveidot seifu"</string>
+	<!---->
+	<string name="create_safe_to">"Izveidot seifu šim"</string>
+	<!-- no translation found for create_safe_to_cn -->
+	<skip />
+	<!---->
+	<string name="set_password">"Iestatīt paroli"</string>
+	<!-- no translation found for add_file_safe -->
+	<skip />
+	<!---->
+	<string name="safe_set">"Iestatījumi"</string>
+	<!---->
+	<string name="safe_set_title">"Seifa iestatījumi"</string>
+	<!-- no translation found for safe_set_title_cn -->
+	<skip />
+	<!---->
+	<string name="update_password">"Atjaunināt paroli"</string>
+	<!---->
+	<string name="modify_password">"Mainīt paroli"</string>
+	<!---->
+	<string name="security_question">"Drošības problēmas atjauninājums"</string>
+	<!-- no translation found for modify_security_question -->
+	<skip />
+	<!---->
+	<string name="safe_set_change_safe">"Mainīt seifu"</string>
+	<!---->
+	<string name="safe_set_location_safe">"Seifa atrašanās vieta"</string>
+	<!-- no translation found for safe_set_location_safe_cn -->
+	<skip />
+	<!---->
+	<string name="update_password_original">"Ievadiet sākotnējo paroli"</string>
+	<!---->
+	<string name="update_password_original_cn">"Ievadiet sākotnējo paroli"</string>
+	<!---->
+	<string name="destory_safe">"Iznīcināt seifu"</string>
+	<!-- no translation found for destory_safe_cn -->
+	<skip />
+	<!-- no translation found for destory -->
+	<skip />
+	<!---->
+	<string name="use_password">"Izmantot paroli"</string>
+	<!---->
+	<string name="input_password">"Ievadiet paroli"</string>
+	<!---->
+	<string name="forget_password">"Aizmirsu paroli"</string>
+	<!-- no translation found for others -->
+	<skip />
+	<!---->
+	<string name="password_empty">"Paroles lauks nedrīkst būt tukšs."</string>
+	<!---->
+	<string name="password_consistent">"Paroles nav vienādas"</string>
+	<!---->
+	<string name="password_length_error">"Paroles garuma kļūda"</string>
+	<!---->
+	<string name="answer_empty">"Atbildes lauks nedrīkst būt tukšs."</string>
+	<!-- no translation found for safe_box_name_empty -->
+	<skip />
+	<!---->
+	<string name="update_success">"Atjaunināšana izdevās."</string>
+	<!---->
+	<string name="update_fail">"Atjaunināšana neizdevās."</string>
+	<!---->
+	<string name="password_mistake">"Parole nav pareiza. Ievadiet to vēlreiz."</string>
+	<!---->
+	<string name="move_safe">"Pārvietot uz seifu"</string>
+	<!---->
+	<string name="fingerprint_check">"Pirksta nospiedums fiksēts, verifikācijai izmantojiet pirksta nospieduma sensoru."</string>
+	<!---->
+	<string name="in_use">"Tiek lietots"</string>
+	<!---->
+	<string name="created">"Izveidots"</string>
+	<!---->
+	<string name="choose_files">"Atlasiet failu(-s)"</string>
+	<!---->
+	<string name="move_out">"Iziet"</string>
+	<!---->
+	<string name="remove_to">"Pārvietot uz"</string>
+	<!---->
+	<string name="default_location">"Noklusējuma atrašanās vieta"</string>
+	<!---->
+	<string name="specified_location">"Norādītā atrašanās vieta"</string>
+	<!-- no translation found for open_dir -->
+	<skip />
+	<!-- no translation found for default_location_cn -->
+	<skip />
+	<!-- no translation found for specified_location_cn -->
+	<skip />
+	<!-- no translation found for specified_location_content_cn -->
+	<skip />
+	<!-- no translation found for category_safe -->
+	<skip />
+	<!-- no translation found for category_safe_cn -->
+	<skip />
+	<!---->
+	<string name="add_safe_size_limited">"Nevar pievienot failus, kas lielāki par 2,0 GB"</string>
+	<!-- no translation found for add_safe_drm_limited -->
+	<skip />
+	<!---->
+	<string name="fingerprint_relative_dialog">"Vai piesaistīt seifam pirkstu nospiedumu?"</string>
+	<!-- no translation found for fingerprint_relative_dialog_cn -->
+	<skip />
+	<!-- no translation found for fingerprint_relative_dialog_ok -->
+	<skip />
+	<!-- no translation found for fingerprint_relative_dialog_ok_cn -->
+	<skip />
+	<!---->
+	<string name="fingerprint_relative_dialog_cancel">"Vēlāk"</string>
+	<!-- no translation found for fingerprint_relative_dialog_cancel_cn -->
+	<skip />
+	<!---->
+	<string name="safe_location_current">"Seifa atrašanās vieta:"</string>
+	<!-- no translation found for safe_location_current_cn -->
+	<skip />
+	<!---->
+	<string name="safe_location_content">"Neizmainiet failu mapi, lai nesabojātu šifrētos datus"</string>
+	<!-- no translation found for safe_location_content_cn -->
+	<skip />
+	<!---->
+	<string name="destory_safe_dialog_message">"Seifā esošie faili un parole tiks dzēsti. Vai iznīcināt tagad?"</string>
+	<!---->
+	<string name="destory_safe_dialog_checkbox">"Vai vienlaikus noņemt failu?"</string>
+	<!-- no translation found for destory_safe_dialog_checkbox_cn -->
+	<skip />
+	<!---->
+	<string name="open_safe_dialog">"Iespējot seifu"</string>
+	<!-- no translation found for open_safe_dialog_cn -->
+	<skip />
+	<!---->
+	<string name="open_safe_dialog_message">"Iespējojot seifa funkciju, faili tiek pārvietoti uz seifu. Vai iespējot tagad?"</string>
+	<!-- no translation found for open_safe_dialog_message_cn -->
+	<skip />
+	<!---->
+	<string name="open_safe_dialog_ok">"Atvērt nekavējoties"</string>
+	<!---->
+	<string name="category_private_string">"Seifs"</string>
+	<!---->
+	<string name="opening">"Notiek atvēršana"</string>
+	<!-- no translation found for space_clear -->
+	<skip />
+	<!-- no translation found for unselected -->
+	<skip />
+	<!-- no translation found for select -->
+	<skip />
+	<!-- no translation found for finish -->
+	<skip />
+	<!---->
+	<string name="senior_title">"Vecākais"</string>
+	<!-- no translation found for no_files_for_add_to_safebox -->
+	<skip />
+	<!-- no translation found for finger_print_relation -->
+	<skip />
+	<!-- no translation found for duplicate_file_name_tip -->
+	<skip />
+	<!---->
+	<string name="searchview_hint">"Meklēt failus"</string>
+	<!-- no translation found for safe_box_name_tip -->
+	<skip />
+	<!-- no translation found for toast_update_safe_box_name_sucess -->
+	<skip />
+	<!-- no translation found for toast_update_safe_box_name_fail -->
+	<skip />
+	<!-- no translation found for toast_safe_box_name_empty -->
+	<skip />
+	<!-- no translation found for cut_single_fail_tip -->
+	<skip />
+	<!-- no translation found for delete_single_fail_tip -->
+	<skip />
+	<!-- no translation found for copy_single_fail_tip -->
+	<skip />
+	<!-- no translation found for copy_multi_fail_tip -->
+	<skip />
+	<!-- no translation found for delete_multi_fail_tip -->
+	<skip />
+	<!-- no translation found for cut_multi_fail_tip -->
+	<skip />
+	<!-- no translation found for copy_all_fail_tip -->
+	<skip />
+	<!-- no translation found for delete_all_fail_tip -->
+	<skip />
+	<!-- no translation found for cut_all_fail_tip -->
+	<skip />
+	<!-- no translation found for past_multi_fail_tip -->
+	<skip />
+	<!-- no translation found for past_single_fail_tip -->
+	<skip />
+	<!-- no translation found for past_all_fail_tip -->
+	<skip />
+	<!-- no translation found for chip_encryption -->
+	<skip />
+	<!---->
+	<string name="safe_name_title">"Nosaukums"</string>
+	<!---->
+	<string name="update_name">"Atjauniniet vārdu"</string>
+	<!-- no translation found for fingerprint_relate -->
+	<skip />
+	<!-- no translation found for insufficient_message_cn -->
+	<skip />
+	<!-- no translation found for add_success -->
+	<skip />
+	<!---->
+	<string name="pasted_cn">"Fails ielīmēts"</string>
+	<!-- no translation found for no_search_result_cn -->
+	<skip />
+	<!---->
+	<string name="detail_time_cn">"Modificēšanas laiks"</string>
+	<!-- no translation found for rename_limit -->
+	<skip />
+	<!-- no translation found for fingerprint_fail -->
+	<skip />
+	<!-- no translation found for answer_mistake -->
+	<skip />
+	<!-- no translation found for answer_empty_tip -->
+	<skip />
+	<!-- no translation found for new_safe -->
+	<skip />
+	<!-- no translation found for dialog_confirm -->
+	<skip />
+	<!-- no translation found for move_in_success -->
+	<skip />
+	<!-- no translation found for move_in_count -->
+	<skip />
+	<!-- no translation found for message_security_fingerprint_lockout -->
+	<skip />
+	<!-- no translation found for use_password_auth -->
+	<skip />
+	<!-- no translation found for storage_details -->
+	<skip />
+	<!---->
+	<string name="total_memory">"Kopējais atmiņas apjoms"</string>
+	<!-- no translation found for system -->
+	<skip />
+	<!-- no translation found for category_fragment_title -->
+	<skip />
+	<!-- no translation found for storage -->
+	<skip />
+	<!-- no translation found for choice -->
+	<skip />
+	<!-- no translation found for view_tag_key -->
+	<skip />
+	<!-- no translation found for view_tag_key2 -->
+	<skip />
+	<!-- no translation found for finish_percent -->
+	<skip />
+	<!---->
+	<string name="select_pic">"Atlasiet attēlu"</string>
+	<!---->
+	<string name="brackets_double">"(%1$s)"</string>
+	<!-- no translation found for selected_pick -->
+	<skip />
+	<!-- no translation found for most_selected -->
+	<skip />
+	<!-- no translation found for finish_ready -->
+	<skip />
+	<!-- no translation found for select_pic_data -->
+	<skip />
+	<!-- no translation found for delete_determine_selected -->
+	<skip />
+	<!-- no translation found for delete_document -->
+	<skip />
+	<!-- no translation found for delete_folder -->
+	<skip />
+	<!-- no translation found for delete_folder_and -->
+	<skip />
+	<!---->
+	<string name="deselect_all_item">"Atcelt visu atlasi"</string>
+	<!-- no translation found for edit -->
+	<skip />
+	<!-- no translation found for storage_phone -->
+	<skip />
+	<!-- no translation found for storage_sdcard -->
+	<skip />
+	<!-- no translation found for storage_otg -->
+	<skip />
+	<!-- no translation found for storage_slash -->
+	<skip />
+	<!-- no translation found for welcome_security -->
+	<skip />
+	<!-- no translation found for welcome_security_info -->
+	<skip />
+	<!-- no translation found for welcome_convenient -->
+	<skip />
+	<!-- no translation found for welcome_convenient_info -->
+	<skip />
+	<!-- no translation found for welcome_depth -->
+	<skip />
+	<!-- no translation found for welcome_depth_info -->
+	<skip />
+	<!-- no translation found for welcome_add -->
+	<skip />
+	<!-- no translation found for welcome_add_info -->
+	<skip />
+	<!-- no translation found for welcome_dialog_title -->
+	<skip />
+	<!-- no translation found for welcome_dialog_info -->
+	<skip />
+	<!-- no translation found for welcome_dialog_verify_btn -->
+	<skip />
+	<!-- no translation found for welcome_dialog_verify_pwd -->
+	<skip />
+	<!-- no translation found for welcome_start_use -->
+	<skip />
+	<!-- no translation found for welcome_not_use -->
+	<skip />
+	<!---->
+	<string name="welcome_ok">"PABEIGTS"</string>
+	<!-- no translation found for encrypt_files_success -->
+	<skip />
+	<!-- no translation found for delete_direct -->
+	<skip />
+	<!---->
+	<string name="delete_file">"Vai dzēst šo failu?"</string>
+</resources>

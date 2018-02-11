@@ -1,0 +1,85 @@
+注意事项：
+	1，test方法命名会影响执行顺序
+	2, modeOption ui 图标与资源图标对比是否相等，同理其他控件
+	3，每个case需要加入明细的注释
+	4, callback发送的消息需在TestUtil中定义操作的消息常量集，每次发送的消息从常量集选取，确保最后常量集的所有消息均被发送
+	5，每个操作ui的改变，建议从ui断言，若还包含一系列后台操作（如照相），则利用callback断言。总之，ui的改变尽量只利用Robotium本身断言
+	
+
+	
+
+解决方法：
+ 	1，若需要对CameraL的代码修改，且不想对源码造成影响，加全局宏
+ 	2，TestCase主要基于Ergo，可找VAL要case清单，将case清单号，试图test方法号与ALM defect号关联起来
+ 	3，最后一次test方法执行tearDown()，可新增一个TestCase并定义一个test方法设置test finish的状态
+ 	4，第三方进入camera，通过发送intent
+ 	
+ 	
+
+
+知识谨记：
+	1，通过反射可以访问private方法和变量
+	
+
+
+待解决问题：
+	1，PreviewScreenFunc的onZoomPinch有待完善，运行过程中可能会出现问题(已解决)
+	2， PreviewScreenFunc的onAutoFocusTouch中添加对exposure的测试
+	3，界面icon和res icon匹配 (已解决)
+	4，找出test用例执行顺序 (已解决)
+	5， 同时进行2个操作
+	6， 将代码移植至Android Studio下 (已解决)
+	7，Camera测试时不能手动触摸屏幕
+    8，Camera安装后由于权限问题不能启动
+	
+
+
+待完成功能：
+	1，CountDown倒计时(已完成)
+	2，切换前后置按钮（已完成）
+	3，segment remix and remove button(已完成)
+	4，shutter button完善
+	5，volume key
+	6，click mode name（已完成）
+	7，
+	8，点击倒计时页面的图标x（已完成）
+	9，super zoom toast and flash disable（已完成）
+	10，light/hdr toast（已完成）
+	11，low battery，storage low
+	12，click back key when recording video(contains slo-mo)
+	13，click preview screen to capture(Auto front, video snap)
+	14，micro mintime tip（已完成）
+	
+	
+shutter button
+	Auto:
+		click:
+			CountDown
+			Normal
+		longClick(连拍条件)
+	Pano:
+		click(按一次开启，再按一次结束)
+	Manual:
+		click
+	slo-mo:
+		click(按一次开启，再按一次结束)
+	Micro-video:
+		longClick
+	
+	
+	
+优化
+1，在case初始化（setUp）时，根据id获取view，此操作较为耗时,在初始化资源时完成此操作可以提高用例运行的效率
+
+
+
+
+暂不能测试的功能：
+1，
+2，boom key
+3，横竖屏切换
+4，panorama
+5，Fyuse
+	 
+	
+ 	

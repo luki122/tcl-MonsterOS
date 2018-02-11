@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@android:style/Theme.Black"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/manual_item_height"
+    android:layout_centerInParent="true"
+    android:layout_marginBottom="2dp"
+    android:layout_marginTop="2dp"
+    android:background="@android:color/transparent"
+    android:gravity="center_vertical" >
+
+    <SeekBar
+        android:id="@+id/customseekbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/custom_seekbar_padding"
+        android:paddingEnd="@dimen/custom_seekbar_padding"
+        android:gravity="center"
+        android:maxHeight="2dp"
+        android:minHeight="2dp"
+        android:progressDrawable="@drawable/seekbar_style"
+        android:thumb="@drawable/seekbar_thumb"
+        android:background="@null"/>
+
+</RelativeLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!-- add by lmx begin -->
+    <string name="mst_contactSavedNoNameError_Toast">姓名不可以为空</string>
+    <string name="mst_contactSavedNoNumberError_Toast">号码不可为空</string>
+    
+    
+    <string name="mst_contact_import">导入</string>
+    <string name="mst_sim_to_phone">从SIM卡导入</string>
+    <string name="mst_sim0_to_phone">从SIM1卡导入</string>
+    <string name="mst_sim1_to_phone">从SIM2卡导入</string>
+    <string name="mst_sd_to_phone">从内部存储器导入</string>
+    <string name="mst_sd_to_phone_subtitle">将内部存储器上的vCard文件导入手机联系人</string>
+    
+    <string name="mst_contact_export">导出</string>
+    <string name="mst_phone_to_sim">导出到SIM卡</string>
+    <string name="mst_phone_to_sim0">导出到SIM1卡</string>
+    <string name="mst_phone_to_sim1">导出到SIM2卡</string>
+    <string name="mst_phone_to_sd">导出到内部存储</string>
+    <string name="mst_delete_sim_contacts">删除SIM卡联系人(for test)</string>
+    <string name="mst_part_delete_sim_contacts">删除10条SIM卡联系人(for test)</string>
+    <string name="mst_phone_to_sd_subtitle">将手机联系人导出为内部存储上的vCard文件</string>
+    
+    <string name="sim1">SIM1卡</string>
+    <string name="sim2">SIM2卡</string>
+    
+    <!-- <string name="mst_preference_accounts">帐户</string> -->
+    <string name="mst_preference_contactio">导入/导出联系人</string>
+    <string name="mst_preference_accounts">联系人帐号组</string>
+    <string name="mst_preference_distinct">合并重复联系人</string>
+    
+    <string name="mst_header_company_entry">公司</string>
+    <string name="mst_header_title_entry">职位</string>
+    <string name="confirm_remove">确定将此号码移出黑名单吗？</string>
+    <string name="recover_black_phone">同时恢复拦截记录</string>
+    <string name="black_remove">移出黑名单</string>
+    <string name="black_remove_all">全部移出黑名单</string>
+    
+    <string name="no_contact_selected"> 请选择您要删除的联系人</string>
+    <string name="slide_contact_deleted">此联系人已删除</string>
+    <string name="can_not_add_start_contact">最多添加十位星标联系人</string>
+   
+<!-- add by lmx end -->
+</resources>

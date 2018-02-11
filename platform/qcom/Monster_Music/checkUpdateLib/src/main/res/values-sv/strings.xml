@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    	<string name="tip_network_error">Nätverksfel</string>
+    	<string name="check_new">Leta efter uppdatering</string>
+    	<string name="update_download_fail">Hämtning misslyckades</string>
+    	<string name="update_ask_tip">Du måste uppdatera till den senaste versionen</string>
+    	<string name="update_no_need">Det här är den senaste versionen</string>
+    	<string name="downloaded_finish">Hämtning klar</string>
+    	<string name="notification_downloading">Hämtar</string>
+    	<string name="update_notification_tips">Uppdatera till den senaste versionen för en bättre upplevelse.</string>
+    	<string name="update_notification_title">Uppdateringsavisering</string>
+    	<string name="update">Nu</string>
+    	<string name="try_later">Senare</string>
+    	<string name="versionDesc">Versionsinfo:</string>
+    	
+    	<string name="update_available">Uppdatering tillgänglig</string>
+    	<string name="downloading">Hämtar...</string>
+    	<string name="update_notify_tip">Ny version är tillgänglig. Uppdatera nu?</string>
+    	<string name="update_detail_prefix">Uppdateringsinformation:</string>
+    	<string name="update_not_now">Inte nu</string>
+    	<string name="update_now">Uppdatera</string>
+    	<string name="network_error_tip">Nätverksfel. Kontrollera din nätverksanslutning och försök igen.</string>
+    	<string name="update_force_nofity_tip">Du rekommenderas att uppdatera programmet till den senaste versionen.</string>
+    	<string name="update_no_updates">Inga uppdateringar</string>
+    	<string name="update_no_updates_tip">Inga uppdateringar</string>
+    	<string name="update_confirm">OK</string>
+</resources>

@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<resources>
+
+    <dimen name="popupmenu_width">160dip</dimen>
+    <!-- PR669281-Neo Skunworks-kehao.wei-001 modify begin -->
+    <dimen name="popupmenu_height">180dip</dimen>
+    <!-- PR669281-Neo Skunworks-kehao.wei-001 modify end -->
+
+    <dimen name="mini_widget_minwidth">300dp</dimen>
+    <dimen name="mini_widget_minheight">180dp</dimen>
+    <!--[FEATURE]-Add-BEGIN by TSCD.peng.du,12/17/2015,1176380,[Weather]ACC Widget DEV-->
+    <dimen name="time_weather_widget_minheight">110dp</dimen>
+    <dimen name="time_weather_widget_minwidth">256dp</dimen>
+    <dimen name="time_weather_widget_resize_minwidth">200dp</dimen>
+    <dimen name="time_weather_time_size">75sp</dimen>
+    <dimen name="time_bottom_weather_size">2dp</dimen>
+    <dimen name="week_day_size">12sp</dimen>
+    <!--[FEATURE]-Add-END by TSCD.peng.du -->
+    <dimen name="widget_miniwidth">320dp</dimen>
+    <dimen name="widget_miniheight">54dp</dimen>
+    <!-- app configuration begin -->
+    <dimen name="weather_text_size">14sp</dimen>
+    <dimen name="weather_temp_size">32sp</dimen>
+    <dimen name="weather_degree_size">36dp</dimen>
+    <dimen name="weather_unit_size">24dp</dimen>
+    <dimen name="weather_city_size">12sp</dimen>
+    <dimen name="weather_time_size">14sp</dimen>
+
+    <dimen name="timewidget_padding_top">0dp</dimen>
+    <dimen name="timewidget_padding_bottom">0dp</dimen>
+    <dimen name="timewidget_padding">0dp</dimen>
+    <dimen name="timewidget_margin">-6dp</dimen>
+
+    <dimen name="weather_info_value_size">12sp</dimen>
+    <dimen name="weather_info_key_size">12sp</dimen>
+    <dimen name="weather_info_unit_size">12sp</dimen>
+
+    <dimen name="forecast_weekly_size">16dp</dimen>
+    <dimen name="forecast_temp_size">16dp</dimen>
+
+    <dimen name="weather_city_gap">10dp</dimen>
+    <dimen name="info_forecast_gap">22dp</dimen>
+    <dimen name="high_low_gap">6dp</dimen>
+
+    <dimen name="autolocate_icon_width">10dp</dimen>
+    <dimen name="autolocate_icon_height">15dp</dimen>
+    <dimen name="forecast_icon_size">45dp</dimen>
+
+    <dimen name="weather_margin_left">44dp</dimen>
+    <dimen name="weather_margin_left2">20dp</dimen>
+    <dimen name="weather_margin_right2">20dp</dimen>
+    <dimen name="weather_margin_bottom">40dp</dimen>
+    <dimen name="weather_info_margin_bottom">56dp</dimen>
+
+    <dimen name="page_indicate_size">5dp</dimen>
+    <dimen name="logo_size">5dp</dimen>
+
+    <dimen name="forecast_item_height">70dp</dimen>
+    <!--Fixed PR1002116 by tingma at 2015-05-19 begin -->
+    <!-- <dimen name="forecast_margin_left">32dp</dimen>
+    <dimen name="forecast_margin_right">32dp</dimen> -->
+    <dimen name="forecast_margin_left">20dp</dimen>
+    <dimen name="forecast_margin_right">20dp</dimen>
+    <!--Fixed PR1002116 by tingma at 2015-05-19 end -->
+
+    <dimen name="text_city_width">144dp</dimen>
+    <!-- app configuration end -->
+
+    <!-- miniApp configuration begin -->
+    <dimen name="miniapp_widget_width">340dp</dimen>
+    <dimen name="miniapp_widget_height">170dp</dimen>
+    <dimen name="miniapp_widget_margin">10dp</dimen>
+    <dimen name="miniapp_widget_margin_start">16dp</dimen>
+    <dimen name="miniapp_widget_margin_top">5dp</dimen>
+    <dimen name="miniapp_widget_textview_margin_top">1dp</dimen>
+    <dimen name="miniapp_widget_imageview_margin_bottom">3dp</dimen>
+    <dimen name="miniapp_amplification_icon_size">48dp</dimen>
+    <dimen name="miniapp_weather_text_size">14sp</dimen>
+    <dimen name="miniapp_weather_temp_size">32sp</dimen>
+    <dimen name="miniapp_autolocate_icon_width">8dp</dimen>
+    <dimen name="miniapp_autolocate_icon_height">10dp</dimen>
+    <dimen name="miniapp_weather_city_size">13sp</dimen>
+    <dimen name="miniapp_weather_city_gap">8dp</dimen>
+    <dimen name="miniapp_weather_info_margin_left">12dp</dimen>
+    <dimen name="miniapp_weather_info_margin_top">12dp</dimen>
+    <dimen name="miniapp_weather_info_margin_bottom">12dp</dimen>
+    <dimen name="miniapp_forecast_weekly_size">14sp</dimen>
+    <dimen name="miniapp_forecast_icon_size">42dp</dimen>
+    <dimen name="miniapp_forecast_temp_size">14dp</dimen>
+
+    <dimen name="miniapp_widget_image_no_data">36dp</dimen>
+    <dimen name="miniapp_widget_image_margin_start">24dp</dimen>
+    <dimen name="miniapp_widget_setting_margin_end">17dp</dimen>
+
+    <dimen name="miniapp_weatherdes_width">210dp</dimen>
+    <dimen name="searchview_maxwidth">310dp</dimen>
+
+    <!-- miniApp configuration end -->
+
+    <dimen name="info_margin_bottom">48dp</dimen>
+
+    <!-- widget configuration begin -->
+    <dimen name="widget_width">320dip</dimen>
+    <dimen name="widget_height">84dip</dimen>
+    <!-- widget configuration end -->
+
+    <dimen name="header_footer_left_right_padding">24dp</dimen>
+    <dimen name="header_footer_top_bottom_padding">12dp</dimen>
+
+    <dimen name="floating_action_menu_translation_z">12dp</dimen>
+    <dimen name="card_margin">16dp</dimen>
+    <dimen name="content_margin">30dp</dimen>
+    <dimen name="daily_text_size">12sp</dimen>
+
+    <dimen name="little_widget_text_size">11sp</dimen>
+    <dimen name="little_widget_text_width">90dp</dimen>
+    <dimen name="little_widget_text_height">26dp</dimen>
+    <dimen name="little_widget_imageview_height">48dp</dimen>
+    <dimen name="little_widget_icon_size">36dp</dimen>
+    <dimen name="little_widget_time_size">36sp</dimen>
+
+    <!--used in layout size-->
+    <dimen name="px_1560">520dp</dimen>
+    <dimen name="px_1260">420dp</dimen>
+    <dimen name="px_1280">426.6dp</dimen>
+    <dimen name="px_1200">400dp</dimen>
+    <dimen name="px_1080">360dp</dimen>
+    <dimen name="px_1065">350dp</dimen>
+    <dimen name="px_1050">350dp</dimen>
+    <dimen name="px_1000">333.3dp</dimen>
+    <dimen name="px_990">330dp</dimen>
+    <dimen name="px_780">260dp</dimen>
+    <dimen name="px_762">254dp</dimen>
+    <dimen name="px_615">205dp</dimen>
+    <dimen name="px_600">200dp</dimen>
+    <dimen name="px_480">160dp</dimen>
+    <dimen name="px_468">156dp</dimen>
+    <dimen name="px_450">150dp</dimen>
+    <dimen name="px_300">100dp</dimen>
+    <dimen name="px_294">98dp</dimen>
+    <dimen name="px_270">90dp</dimen>
+    <dimen name="px_252">84dp</dimen>
+    <dimen name="px_195">65dp</dimen>
+    <dimen name="px_160">53.3dp</dimen>
+    <dimen name="px_150">50dp</dimen>
+    <dimen name="px_132">44dp</dimen>
+    <dimen name="px_120">40dp</dimen>
+    <dimen name="px_96">32dp</dimen>
+    <dimen name="px_100">33.3dp</dimen>
+    <dimen name="px_75">25dp</dimen>
+    <dimen name="px_66">22dp</dimen>
+    <dimen name="px_50">16.6dp</dimen>
+    <dimen name="px_40">13.3dp</dimen>
+    <dimen name="px_36">12dp</dimen>
+    <dimen name="px_30">10dp</dimen>
+    <dimen name="px_24">8dp</dimen>
+    <dimen name="px_20">6.6dp</dimen>
+    <dimen name="px_10">3.3dp</dimen>
+    <dimen name="px_200">66.6dp</dimen>
+    <dimen name="px_80">26.6dp</dimen>
+    <dimen name="px_146">48.6dp</dimen>
+    <dimen name="px_39">13dp</dimen>
+    <dimen name="px_192">64dp</dimen>
+    <dimen name="px_48">16dp</dimen>
+    <dimen name="px_140">46.6dp</dimen>
+    <dimen name="px_144">48dp</dimen>
+    <dimen name="px_72">24dp</dimen>
+    <dimen name="px_692">230.6dp</dimen>
+    <dimen name="px_852">284dp</dimen>
+    <dimen name="px_88">29.3dp</dimen>
+    <dimen name="px_102">34dp</dimen>
+    <dimen name="px_126">42dp</dimen>
+    <dimen name="px_114">38dp</dimen>
+    <dimen name="px_110">36.6dp</dimen>
+    <dimen name="px_387">129dp</dimen>
+    <dimen name="px_507">169dp</dimen>
+    <dimen name="px_123">41dp</dimen>
+    <dimen name="px_21">7dp</dimen>
+    <dimen name="px_27">9dp</dimen>
+    <dimen name="px_29">9.6dp</dimen>
+    <dimen name="px_285">95dp</dimen>
+    <dimen name="px_220">73.3dp</dimen>
+    <dimen name="px_240">80dp</dimen>
+    <dimen name="px_138">46dp</dimen>
+    <dimen name="px_63">21dp</dimen>
+    <dimen name="px_60">20dp</dimen>
+    <dimen name="px_57">19dp</dimen>
+    <dimen name="px_6">2dp</dimen>
+    <dimen name="px_3">1dp</dimen>
+    <dimen name="px_51">17dp</dimen>
+    <dimen name="px_186">62dp</dimen>
+    <dimen name="px_69">23dp</dimen>
+    <dimen name="px_141">47dp</dimen>
+    <dimen name="px_206">68.6dp</dimen>
+    <dimen name="px_161">53.6dp</dimen>
+    <dimen name="px_261">87dp</dimen>
+    <dimen name="px_713">237.6dp</dimen>
+    <dimen name="px_864">288dp</dimen>
+    <dimen name="px_108">36dp</dimen>
+    <dimen name="px_28">9.3dp</dimen>
+    <dimen name="px_15">5dp</dimen>
+    <dimen name="px_117">39dp</dimen>
+    <dimen name="px_74">24.7dp</dimen>
+    <dimen name="px_33">11dp</dimen>
+
+
+    <!--used in text size-->
+    <dimen name="tx_px_40">13.3sp</dimen>
+    <dimen name="tx_px_210">70sp</dimen>
+    <dimen name="tx_dp_80">80sp</dimen>
+    <dimen name="tx_dp_15.7">15.7sp</dimen>
+    <dimen name="tx_dp_12.7">12.7sp</dimen>
+    <dimen name="tx_px_200">66.6sp</dimen>
+    <dimen name="tx_px_300">100sp</dimen>
+    <dimen name="tx_px_75">25sp</dimen>
+    <dimen name="tx_px_60">20sp</dimen>
+    <dimen name="tx_px_50">16.6sp</dimen>
+    <dimen name="tx_px_48">16sp</dimen>
+    <dimen name="tx_px_36">12sp</dimen>
+    <dimen name="tx_dp_17">17sp</dimen>
+    <dimen name="tx_dp_20">20sp</dimen>
+    <dimen name="tx_dp_11">11sp</dimen>
+    <dimen name="tx_sp_13">13sp</dimen>
+    <dimen name="tx_sp_14">14sp</dimen>
+    <dimen name="tx_sp_70">70sp</dimen>
+    <dimen name="tx_dp_12">12sp</dimen>
+</resources>

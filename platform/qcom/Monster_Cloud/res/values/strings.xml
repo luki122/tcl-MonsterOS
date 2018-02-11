@@ -1,0 +1,172 @@
+<resources>
+
+    <string name="app_name">云服务</string>
+
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="select_all">全选</string>
+    <string name="reverse_select_all">全不选</string>
+    <string name="open">打开</string>
+
+    <!-- page loading -->
+    <string name="page_loading_network_error">网络错误</string>
+    <string name="page_loading_no_network">无网络</string>
+    <string name="page_loading_retry">重试</string>
+    <string name="page_loading_set_network">设置网络</string>
+
+    <!-- 应用备份恢复 -->
+    <string name="app_recovery_count">可恢复的应用%1$s个</string>
+    <string name="app_recommend_app">应用推荐</string>
+    <string name="app_recovery_size">共%1$s</string>
+    <string name="app_recovery_title">选择应用</string>
+    <string name="app_recovery_immediately">立即恢复(%1$s)</string>
+    <string name="app_recovery_ok_with_num">确定恢复(%1$s)</string>
+    <string name="app_being_backed_up_app_list">正在备份应用列表</string>
+    <string name="app_ok_with_num">确定(%1$s)</string>
+    <string name="app_recovery_count_and_size">共%1$s项恢复任务，共%2$s</string>
+    <string name="app_download_manager">下载管理</string>
+
+    <string name="sync_auto">Wi-Fi网络下自动备份到云端</string>
+    <string name="backup_auto_wifi">Wi-Fi网络下自动备份到云端</string>
+    <string name="backup_all_net_situation">Wi-Fi或移动数据网络下自动备份到云端</string>
+    <string name="sync_now">立即同步</string>
+    <string name="sync_data">数据同步</string>
+    <string name="recover_data">数据恢复</string>
+    <string name="contacts">联系人</string>
+    <string name="contacts_sync">联系人同步</string>
+    <string name="choose_contects_sync_type_title">选择联系人同步方式</string>
+    <string name="next_step">下一步</string>
+    <string name="local_cloud_merge">本地和云端相互合并</string>
+    <string name="contacts_base_local">本机为准,覆盖云端</string>
+    <string name="contacts_base_cloud">网络为准,覆盖本地</string>
+    <string name="contacts_local_cloud_merge_count">合并本地%1$d个和云端%2$d个联系人</string>
+    <string name="contacts_base_local_count">只保留本地%1$d个联系人</string>
+    <string name="contacts_base_cloud_count">只保留云端%1$d个联系人</string>
+
+    <string name="delete_local_contacts_warming">将删除本机%1$d个联系人,将云端数据下载至本机</string>
+    <string name="delete_cloud_contacts_warming">将删除云端%1$d个联系人，将本机数据上传至云端</string>
+    <string name="warning">提示</string>
+    <string name="sync_to_cloud">备份到云端</string>
+    <string name="download_to_local">恢复到本机</string>
+    <string name="download_to_lacal_main">从云端恢复到本机</string>
+    <string name="download_to_local_qq">从QQ同步助手恢复到本机</string>
+    <string name="download_to_local_cloud">从云端恢复到本机</string>
+    <string name="sync_ing">正在操作请保持网络畅通</string>
+    <string name="contacts_sync_time">本次联系人同步已经完成，完成时间：%1$s</string>
+    <string name="qq_login">qq_login</string>
+    <string name="qq_sdk_login">qq_sdk_login</string>
+    <string name="auto_sync_on">打开</string>
+    <string name="auto_sync_off">关闭</string>
+    <string name="never_sync">从未同步</string>
+    <string name="never_backup">从未备份</string>
+    <string name="time_sec">%1$d秒前</string>
+    <string name="time_min">%1$d分钟前</string>
+
+    <string name="last_month">最近一个月</string>
+    <string name="last_three_month">最近三个月</string>
+    <string name="last_half_a_year">最近半年</string>
+    <string name="last_year">最近一年</string>
+    <string name="all">全部</string>
+    <string name="last_month_info">最近一个月,共%1$d项</string>
+    <string name="last_three_month_info">最近三个月,共%1$d项</string>
+    <string name="last_half_a_year_info">最近半年,共%1$d项</string>
+    <string name="last_year_info">最近一年,共%1$d项</string>
+    <string name="all_info">全部,共%1$d项)</string>
+    <string name="sms">信息</string>
+    <string name="sms_choose_type_sync">选择想要备份的信息</string>
+    <string name="sms_choose_type_restore">选择想要恢复的信息</string>
+    <string name="sms_type_by_time">按时间选择</string>
+    <string name="sms_type_by_contacts">按联系人选择</string>
+    <string name="choose_sms">选择信息</string>
+    <string name="sms_sync">信息备份</string>
+    <string name="sms_restore">信息恢复</string>
+    <string name="sms_sync_time">本次信息同步已完成，完成时间：%1$s</string>
+    <string name="sms_restore_time">本次信息恢复已完成，完成时间：%1$s</string>
+    <string name="call_log_sync_time">本次通话记录同步已经完成，完成时间：%1$s</string>
+    <string name="call_log_recovery_time">本次通话记录恢复已经完成，完成时间：%1$s</string>
+    <string name="call_log_backup">通话记录备份</string>
+    <string name="call_log_recovery">通话记录恢复</string>
+    <string name="last_sync">上次同步:</string>
+    <string name="last_backup">上次备份:</string>
+
+    <string name="onekeyrecovery">一键恢复</string>
+    <string name="choose_data_pls">请选择数据</string>
+    <string name="connect_sucess">连接成功!</string>
+    <string name="start_recovery">开始恢复</string>
+    <string name="revocery_ing">正在恢复%1$d</string>
+    <string name="revocery_waitting">%1$d项等待恢复</string>
+    <string name="revocery_finish">数据恢复完成!</string>
+    <string name="revocery_cancle">取消恢复</string>
+    <string name="revocery_goon">继续恢复</string>
+    <string name="revocery_cancle_warning">取消恢复，将撤销正在恢复和未恢复的数据</string>
+    <string name="warning_title">提醒</string>
+    <string name="recovery_contact_merge">本地%1$d项和云端%2$d项合并</string>
+    <string name="loading">数据加载中</string>
+    <string name="recovery_finish_without_app">通讯数据恢复完成，应用恢复数据将在后台下载。</string>
+    <string name="recovery_finish_only_app">应用恢复数据将在后台下载。</string>
+
+    <string name="contact">联系人</string>
+    <string name="message">信息</string>
+    <string name="call_log">通话记录</string>
+    <string name="app_list">应用列表</string>
+    <string name="setting">设置</string>
+    <string name="tcl_account">TCL账号</string>
+    <string name="change_qq_helper">切换关联的QQ同步助手账号</string>
+    <string name="change_qq_id">切换同步助手账号</string>
+    <string name="cozy_hint_title">温馨提示</string>
+    <string name="cozy_hint_content">开启移动数据下支持自动同步，将耗费一定流量，是否开启</string>
+    <string name="sync_only_wifi_on">仅Wi-Fi网络条件自动同步</string>
+    <string name="sync_all_net_situation">Wi-Fi或移动数据网络下自动和云端同步</string>
+    <string name="not_login_state">未登陆</string>
+    <string name="login_state">已登陆</string>
+    <string name="save_traffic">节省流量</string>
+    <string name="already_connect">已关联</string>
+    <string name="not_connect">未关联</string>
+    <string name="qq_token_expired">QQ同步助手账号登陆已过期</string>
+    <string name="qq_relogin">请重新登陆QQ账号</string>
+
+    <string name="total">共计</string>
+    <string name="comput_time">预计用时</string>
+    <string name="recoverying">数据恢复中....</string>
+    <string name="no_network">当前无网络</string>
+    <string name="connect_network">请连接网络</string>
+
+    <string name="no_network_title">温馨提示</string>
+    <string name="no_network_msg">当前无网络，请检查网络</string>
+
+    <string name="str_left">剩余%1$s</string>
+    <string name="str_recovery_size">已成功从云端恢复%1$s数据</string>
+    <string name="str_import_qq_data">已成功注册TCL账号,\n可快速从QQ同步助手云端恢复通讯录,信息,\n通话记录,应用列表</string>
+    <string name="str_one_key_exchange">一键换机</string>
+    <string name="str_bt_import">从QQ同步助手导入数据</string>
+    <string name="str_regist">账号注册</string>
+    <string name="str_tcl_account_info">TCL账号%1$s,\n已关联QQ同步助手账号%2$s</string>
+    <string name="str_change_qq">切换QQ同步助手账号</string>
+    <string name="str_login_qq_success">已成功登录QQ同步助手账号\n开始享受完整云端服务</string>
+    <string name="str_auto_sync_head">WIFI下自动同步以下选项(4项)</string>
+    <string name="str_login_info">云服务和QQ同步助手进行深度合作，\n通讯录、信息、通话记录、应用记录自动同步，\n一键恢复云端数据等。\n登陆云服务账号，享受完整云端服务</string>
+    <string name="str_regist_tcl_account">注册TCL账号</string>
+    <string name="str_login_tcl_account">已有TCL账号</string>
+    <string name="str_finish">完成</string>
+    <string name="str_login_ing">正在登陆</string>
+    <string name="str_all_count">全部,共%1$d项</string>
+    <string name="str_net_trans">网络传输</string>
+    <string name="str_longin_regist_tcl_account">登陆/注册TCL账号</string>
+    <string name="str_cloud_no_data">云端数据\n空空如也</string>
+    <string name="str_sync_now">立即备份</string>
+    <string name="str_have_select">已选择%1$d项</string>
+    <string name="str_select_all_no">全不选</string>
+    <string name="str_select_sms_by_contact_info">%1$d个联系人,共%2$d项</string>
+
+    <string name="is_synchonizing">正在同步</string>
+    <string name="is_backing_up">正在备份</string>
+    <string name="cancel_synchronize">取消同步</string>
+    <string name="commit_cancel_synchronize">确认取消同步</string>
+    <string name="continue_synchronize">继续同步</string>
+    <string name="one_step_open">一键开启</string>
+    <string name="one_step_open_content">当前同步开关均关闭，是否一键开启</string>
+
+    <string name="use_traffic_title">流量使用提醒</string>
+    <string name="use_traffic_msg">当前使用移动数据网络，下载应用将会消耗流量</string>
+    <string name="start_sync">开始同步</string>
+</resources>

@@ -1,0 +1,14 @@
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/edit_item"
+        android:checked="true"
+        android:showAsAction="always" />
+
+    <item
+        android:id="@+id/delete_album_item"
+        android:checked="true"
+        android:showAsAction="never"/>
+
+</menu>

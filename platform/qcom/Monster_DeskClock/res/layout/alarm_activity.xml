@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (C) 2015 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ex="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/my_pull_door"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#b8000000" >
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layoutDirection="ltr"
+            android:visibility="gone" >
+
+            <android.support.v7.widget.GridLayout
+                android:id="@+id/content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                ex:columnCount="3"
+                ex:rowCount="3" >
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    ex:layout_column="0"
+                    ex:layout_columnSpan="3"
+                    ex:layout_gravity="fill_horizontal"
+                    ex:layout_row="0"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:textAppearance="@style/header_not_caps"
+                    android:textColor="@color/text_black"
+                    android:textSize="14sp"
+                    android:visibility="gone" />
+
+                <TextClock
+                    android:id="@+id/digital_clock"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    ex:layout_column="0"
+                    ex:layout_columnSpan="3"
+                    ex:layout_gravity="fill_horizontal"
+                    ex:layout_row="1"
+                    android:format12Hour="@string/main_clock_12_hours_format"
+                    android:format24Hour="@string/clock_24_hours_format"
+                    android:gravity="center"
+                    android:includeFontPadding="false"
+                    android:singleLine="true"
+                    android:textAppearance="@style/big_thin"
+                    android:textColor="@color/text_black"
+                    android:visibility="gone" />
+
+                <com.android.deskclock.widget.CircleView
+                    android:id="@+id/pulse"
+                    android:layout_width="0dip"
+                    android:layout_height="0dip"
+                    ex:layout_column="0"
+                    ex:layout_columnSpan="3"
+                    ex:layout_gravity="fill"
+                    ex:layout_row="2"
+                    android:gravity="center"
+                    android:layerType="hardware"
+                    android:visibility="gone"
+                    ex:fillColor="@color/text_black"
+                    ex:radius="@dimen/alarm_lockscreen_pulse_radius" />
+
+                <ImageView
+                    android:id="@+id/snooze"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    ex:layout_column="0"
+                    ex:layout_columnWeight="1"
+                    ex:layout_gravity="center"
+                    ex:layout_row="2"
+                    android:background="@drawable/bg_circle_accent"
+                    android:contentDescription="@string/alarm_alert_snooze_text"
+                    android:src="@drawable/ic_snooze_white_80dp"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/dismiss"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    ex:layout_column="2"
+                    ex:layout_columnWeight="1"
+                    ex:layout_gravity="center"
+                    ex:layout_row="2"
+                    android:background="@drawable/bg_circle_white"
+                    android:contentDescription="@string/alarm_alert_dismiss_text"
+                    android:src="@drawable/ic_alarm_off_white_80dp"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/alarm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    ex:layout_column="1"
+                    ex:layout_columnWeight="1"
+                    ex:layout_gravity="center"
+                    ex:layout_row="2"
+                    android:background="@android:color/transparent"
+                    android:contentDescription="@string/description_direction_both"
+                    android:paddingBottom="@dimen/alarm_lockscreen_alarm_vertical_padding"
+                    android:paddingLeft="@dimen/alarm_lockscreen_alarm_horizontal_padding"
+                    android:paddingRight="@dimen/alarm_lockscreen_alarm_horizontal_padding"
+                    android:paddingTop="@dimen/alarm_lockscreen_alarm_vertical_padding"
+                    android:src="@drawable/ic_fab_alarm"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/hint"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/alarm_lockscreen_bottom_margin"
+                    ex:layout_column="0"
+                    ex:layout_columnSpan="3"
+                    ex:layout_gravity="bottom|center_horizontal"
+                    ex:layout_row="2"
+                    android:textColor="@color/text_black"
+                    android:textSize="@dimen/bottom_text_size"
+                    android:visibility="gone" />
+            </android.support.v7.widget.GridLayout>
+
+            <LinearLayout
+                android:id="@+id/alert"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <TextView
+                    android:id="@+id/alert_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:textAppearance="@style/alarm_lockscreen_thin"
+                    android:textColor="@color/text_black"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/alert_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:textAppearance="@style/alarm_lockscreen_thin"
+                    android:textColor="@color/text_black"
+                    android:textStyle="bold"
+                    android:visibility="gone" />
+            </LinearLayout>
+        </FrameLayout>
+
+        <com.android.deskclock.view.MyHalfCircleViewNew
+            android:id="@+id/my_half_circcle"
+            android:layout_width="match_parent"
+            android:visibility="visible"
+            android:layout_height="match_parent" />
+
+
+        <TextView
+            android:id="@+id/tv_snooze"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="70dp"
+            android:textColor="@color/alert_blue"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_hint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/tv_snooze"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="8dp"
+            android:text="@string/stop_timer_hint"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/img_icon"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_above="@id/tv_hint"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="12dp"
+            android:src="@drawable/alert_alarm" />
+
+        <ImageView
+            android:id="@+id/arrow_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="260dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:alpha="0.24"
+            android:src="@drawable/alert_shape" />
+
+        <ImageView
+            android:id="@+id/arrow_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/arrow_1"
+            android:layout_centerHorizontal="true"
+            android:alpha="0.54"
+            android:src="@drawable/alert_shape" />
+
+        <ImageView
+            android:id="@+id/arrow_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/arrow_2"
+            android:layout_centerHorizontal="true"
+            android:alpha="1"
+            android:src="@drawable/alert_shape" />
+    </RelativeLayout>
+
+</FrameLayout>

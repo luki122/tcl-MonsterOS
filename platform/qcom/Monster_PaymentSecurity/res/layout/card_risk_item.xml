@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/risk_category_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="25dp"
+        android:textColor="@color/text_category_title_color"
+        android:textSize="13sp"/>
+
+    <RelativeLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="93dp">
+
+        <ImageView
+            android:id="@+id/risk_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="17dp"
+            android:src="@drawable/payment_env_risk_logo"
+            tools:ignore="ContentDescription" />
+
+        <LinearLayout
+            android:id="@+id/ll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/risk_logo"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/risk_title"
+                style="@com.mst:style/TextAppearance.Mst.Material.Subhead"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:text="@string/payment_app_env_detected_title" />
+
+            <TextView
+                android:id="@+id/risk_summary"
+                style="@com.mst:style/TextAppearance.Mst.Material.Caption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:lineSpacingExtra="5dp"
+                android:maxLines="2"
+                android:text="@string/payment_app_env_risk_detected_summary" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_suggest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/ll"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            android:text="@string/open_now"
+            android:textColor="@color/text_color_dark"
+            android:textSize="12sp" />
+
+    </RelativeLayout>
+</LinearLayout>

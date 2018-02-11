@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"TransferCN"</string>
+	<!---->
+	<string name="new_phone">"I\'m new phone"</string>
+	<!---->
+	<string name="old_phone">"I\'m old phone"</string>
+	<!---->
+	<string name="note_title">"Please choose the most suitable replacement method"</string>
+	<!---->
+	<string name="one_touch_move">"One Touch Move"</string>
+	<!---->
+	<string name="qq_helper">"QQ Helper"</string>
+	<!---->
+	<string name="cloud">"Cloud Service"</string>
+	<!---->
+	<string name="note_activity_title">"In the process of a key switch"</string>
+	<!---->
+	<string name="note_one">"*Please keep Wi-Fi open;"</string>
+	<!---->
+	<string name="note_two">"*Please keep two phone as close as possible;"</string>
+	<!---->
+	<string name="note_three">"*Please keep battery over 35%;"</string>
+	<!---->
+	<string name="note_four">"*The same kind of data will be overwritten;"</string>
+	<!---->
+	<string name="text_cancel">"cancel"</string>
+	<!---->
+	<string name="text_continue">"continue"</string>
+	<!---->
+	<string name="hot_title">"Please use the old phone to scan the two-dimensional code below"</string>
+	<!---->
+	<string name="hot_bottom">"Please go to the "Settings" - &gt; "a key switch" and choose "my old mobile phone" to scan the two-dimensional code above"</string>
+	<!---->
+	<string name="camera_permission_denied">"Camera permission denied"</string>
+	<!---->
+	<string name="text_scan_top">"Please scan the two-dimensional code of the new mobile phone"</string>
+	<!---->
+	<string name="text_scan_bottom">"Please go to the "Settings" - &gt; "a key switch"</string>
+	<!---->
+	<string name="text_scan_bottom_second">"Choose "Is my new mobile phone" to open two-dimensional code"</string>
+	<!---->
+	<string name="text_loading">"Loading"</string>
+	<!---->
+	<string name="text_confirm">"ok"</string>
+	<!---->
+	<string name="text_connect_fail">"Connect failed, please rescan!"</string>
+	<!---->
+	<string name="text_setting_permission_not_granted">"WRITE_SETTINGS permission not granted"</string>
+	<!---->
+	<string name="text_wait_for_send">"Connect successfully! Waiting for data transmission..."</string>
+	<!---->
+	<string name="text_qrcode_fail">"QR Code create failed!"</string>
+	<!---->
+	<string name="text_main_page">"One Touch Move, QQHelper and CloudService\nthree methods to choose"</string>
+	<!---->
+	<string name="one_touch_move_content">"One Touch Move"</string>
+	<!---->
+	<string name="qq_helper_content">"QQ Helper"</string>
+	<!---->
+	<string name="cloud_content">"Cloud Service"</string>
+	<!-- no translation found for app_picker_name -->
+	<skip />
+	<!-- no translation found for bookmark_picker_name -->
+	<skip />
+	<!-- no translation found for button_add_calendar -->
+	<skip />
+	<!-- no translation found for button_add_contact -->
+	<skip />
+	<!-- no translation found for button_book_search -->
+	<skip />
+	<!-- no translation found for button_cancel -->
+	<skip />
+	<!-- no translation found for button_custom_product_search -->
+	<skip />
+	<!-- no translation found for button_dial -->
+	<skip />
+	<!-- no translation found for button_email -->
+	<skip />
+	<!-- no translation found for button_get_directions -->
+	<skip />
+	<!-- no translation found for button_mms -->
+	<skip />
+	<!-- no translation found for button_ok -->
+	<skip />
+	<!-- no translation found for button_open_browser -->
+	<skip />
+	<!-- no translation found for button_product_search -->
+	<skip />
+	<!-- no translation found for button_search_book_contents -->
+	<skip />
+	<!-- no translation found for button_share_app -->
+	<skip />
+	<!-- no translation found for button_share_bookmark -->
+	<skip />
+	<!-- no translation found for button_share_by_email -->
+	<skip />
+	<!-- no translation found for button_share_by_sms -->
+	<skip />
+	<!-- no translation found for button_share_clipboard -->
+	<skip />
+	<!-- no translation found for button_share_contact -->
+	<skip />
+	<!-- no translation found for button_show_map -->
+	<skip />
+	<!-- no translation found for button_sms -->
+	<skip />
+	<!-- no translation found for button_web_search -->
+	<skip />
+	<!-- no translation found for button_wifi -->
+	<skip />
+	<!-- no translation found for contents_contact -->
+	<skip />
+	<!-- no translation found for contents_email -->
+	<skip />
+	<!-- no translation found for contents_location -->
+	<skip />
+	<!-- no translation found for contents_phone -->
+	<skip />
+	<!-- no translation found for contents_sms -->
+	<skip />
+	<!-- no translation found for contents_text -->
+	<skip />
+	<!-- no translation found for history_clear_text -->
+	<skip />
+	<!-- no translation found for history_clear_one_history_text -->
+	<skip />
+	<!-- no translation found for history_email_title -->
+	<skip />
+	<!-- no translation found for history_empty -->
+	<skip />
+	<!-- no translation found for history_empty_detail -->
+	<skip />
+	<!-- no translation found for history_send -->
+	<skip />
+	<!-- no translation found for history_title -->
+	<skip />
+	<!-- no translation found for menu_encode_mecard -->
+	<skip />
+	<!-- no translation found for menu_encode_vcard -->
+	<skip />
+	<!-- no translation found for menu_help -->
+	<skip />
+	<!-- no translation found for menu_history -->
+	<skip />
+	<!-- no translation found for menu_settings -->
+	<skip />
+	<!-- no translation found for menu_share -->
+	<skip />
+	<!-- no translation found for msg_bulk_mode_scanned -->
+	<skip />
+	<!-- no translation found for msg_camera_framework_bug -->
+	<skip />
+	<!-- no translation found for msg_default_format -->
+	<skip />
+	<!-- no translation found for msg_default_meta -->
+	<skip />
+	<!-- no translation found for msg_default_mms_subject -->
+	<skip />
+	<!-- no translation found for msg_default_status -->
+	<skip />
+	<!-- no translation found for msg_default_time -->
+	<skip />
+	<!-- no translation found for msg_default_type -->
+	<skip />
+	<!-- no translation found for msg_encode_contents_failed -->
+	<skip />
+	<!-- no translation found for msg_error -->
+	<skip />
+	<!-- no translation found for msg_google_books -->
+	<skip />
+	<!-- no translation found for msg_google_product -->
+	<skip />
+	<!-- no translation found for msg_intent_failed -->
+	<skip />
+	<!-- no translation found for msg_invalid_value -->
+	<skip />
+	<!-- no translation found for msg_redirect -->
+	<skip />
+	<!-- no translation found for msg_sbc_book_not_searchable -->
+	<skip />
+	<!-- no translation found for msg_sbc_failed -->
+	<skip />
+	<!-- no translation found for msg_sbc_no_page_returned -->
+	<skip />
+	<!-- no translation found for msg_sbc_page -->
+	<skip />
+	<!-- no translation found for msg_sbc_results -->
+	<skip />
+	<!-- no translation found for msg_sbc_searching_book -->
+	<skip />
+	<!-- no translation found for msg_sbc_snippet_unavailable -->
+	<skip />
+	<!-- no translation found for msg_share_explanation -->
+	<skip />
+	<!-- no translation found for msg_share_text -->
+	<skip />
+	<!-- no translation found for msg_sure -->
+	<skip />
+	<!-- no translation found for msg_unmount_usb -->
+	<skip />
+	<!-- no translation found for preferences_actions_title -->
+	<skip />
+	<!-- no translation found for preferences_auto_focus_title -->
+	<skip />
+	<!-- no translation found for preferences_auto_open_web_title -->
+	<skip />
+	<!-- no translation found for preferences_bulk_mode_summary -->
+	<skip />
+	<!-- no translation found for preferences_bulk_mode_title -->
+	<skip />
+	<!-- no translation found for preferences_copy_to_clipboard_title -->
+	<skip />
+	<!-- no translation found for preferences_custom_product_search_summary -->
+	<skip />
+	<!-- no translation found for preferences_custom_product_search_title -->
+	<skip />
+	<!-- no translation found for preferences_decode_1D_industrial_title -->
+	<skip />
+	<!-- no translation found for preferences_decode_1D_product_title -->
+	<skip />
+	<!-- no translation found for preferences_decode_Aztec_title -->
+	<skip />
+	<!-- no translation found for preferences_decode_Data_Matrix_title -->
+	<skip />
+	<!-- no translation found for preferences_decode_PDF417_title -->
+	<skip />
+	<!-- no translation found for preferences_decode_QR_title -->
+	<skip />
+	<!-- no translation found for preferences_device_bug_workarounds_title -->
+	<skip />
+	<!-- no translation found for preferences_disable_barcode_scene_mode_title -->
+	<skip />
+	<!-- no translation found for preferences_disable_continuous_focus_summary -->
+	<skip />
+	<!-- no translation found for preferences_disable_continuous_focus_title -->
+	<skip />
+	<!-- no translation found for preferences_disable_exposure_title -->
+	<skip />
+	<!-- no translation found for preferences_disable_metering_title -->
+	<skip />
+	<!-- no translation found for preferences_front_light_summary -->
+	<skip />
+	<!-- no translation found for preferences_front_light_title -->
+	<skip />
+	<!-- no translation found for preferences_front_light_auto -->
+	<skip />
+	<!-- no translation found for preferences_front_light_off -->
+	<skip />
+	<!-- no translation found for preferences_front_light_on -->
+	<skip />
+	<!-- no translation found for preferences_general_title -->
+	<skip />
+	<!-- no translation found for preferences_history_summary -->
+	<skip />
+	<!-- no translation found for preferences_history_title -->
+	<skip />
+	<!-- no translation found for preferences_invert_scan_title -->
+	<skip />
+	<!-- no translation found for preferences_invert_scan_summary -->
+	<skip />
+	<!-- no translation found for preferences_name -->
+	<skip />
+	<!-- no translation found for preferences_orientation_title -->
+	<skip />
+	<!-- no translation found for preferences_play_beep_title -->
+	<skip />
+	<!-- no translation found for preferences_remember_duplicates_summary -->
+	<skip />
+	<!-- no translation found for preferences_remember_duplicates_title -->
+	<skip />
+	<!-- no translation found for preferences_result_title -->
+	<skip />
+	<!-- no translation found for preferences_scanning_title -->
+	<skip />
+	<!-- no translation found for preferences_search_country -->
+	<skip />
+	<!-- no translation found for preferences_supplemental_summary -->
+	<skip />
+	<!-- no translation found for preferences_supplemental_title -->
+	<skip />
+	<!-- no translation found for preferences_vibrate_title -->
+	<skip />
+	<!-- no translation found for result_address_book -->
+	<skip />
+	<!-- no translation found for result_calendar -->
+	<skip />
+	<!-- no translation found for result_email_address -->
+	<skip />
+	<!-- no translation found for result_geo -->
+	<skip />
+	<!-- no translation found for result_isbn -->
+	<skip />
+	<!-- no translation found for result_product -->
+	<skip />
+	<!-- no translation found for result_sms -->
+	<skip />
+	<!-- no translation found for result_tel -->
+	<skip />
+	<!-- no translation found for result_text -->
+	<skip />
+	<!-- no translation found for result_uri -->
+	<skip />
+	<!-- no translation found for result_wifi -->
+	<skip />
+	<!-- no translation found for sbc_name -->
+	<skip />
+	<!-- no translation found for wifi_changing_network -->
+	<skip />
+	<!---->
+	<string name="write_settings_permission_denied">"WRITE_SETTINGS permission not granted"</string>
+	<!---->
+	<string name="connect_success">"Connect succceed"</string>
+	<!---->
+	<string name="connect_failed">"Couldn\'t connect"</string>
+	<!---->
+	<string name="camera_denied">"Camera permission denied"</string>
+	<string-array name="receiver_content_item">
+		<item>"System data"</item>
+		<item>"App data"</item>
+		<item>"picture"</item>
+		<item>"video"</item>
+		<item>"audio"</item>
+		<item>"document"</item>
+	</string-array>
+	<!---->
+	<string name="text_receive_status">"Receiving, expect to take %d minutes."</string>
+	<!---->
+	<string name="text_disconnected">"Disconnected"</string>
+	<!---->
+	<string name="text_return">"return"</string>
+	<!---->
+	<string name="text_battery_low">"Battery below 35%"</string>
+	<!---->
+	<string name="text_cancel_confirm">"Cancel transfer this time?"</string>
+	<!---->
+	<string name="text_wait_for_send_one">"Connect successfully! Waiting for data transmission."</string>
+	<!---->
+	<string name="text_wait_for_send_two">"Connect successfully! Waiting for data transmission.."</string>
+	<!---->
+	<string name="qq_note_one">"On old phone"</string>
+	<!---->
+	<string name="qq_note_two">"1.Open QQ Helper"</string>
+	<!---->
+	<string name="qq_note_three">"2.Enter transfer"</string>
+	<!---->
+	<string name="qq_note_four">"3.Select "I\'m old phone" to send data"</string>
+	<!---->
+	<string name="qq_text_scanning">"Scanning..."</string>
+	<!---->
+	<string name="qq_text_click">"Click to select"</string>
+	<!---->
+	<string name="total_size">"Total %1$s"</string>
+	<!---->
+	<string name="send_size">"%1$s sent"</string>
+	<!---->
+	<string name="send_sucess">"Data sent successfully!"</string>
+	<!---->
+	<string name="recover_sucess">"All done! Please use your new phone~"</string>
+	<!---->
+	<string name="item_info">"%1$s, %2$d items"</string>
+	<!---->
+	<string name="cancel_confirm_info">"Confirm to cancel this operation？"</string>
+	<!---->
+	<string name="button_send">"Send"</string>
+	<!---->
+	<string name="remaining_time">"Remaining time %1$s"</string>
+	<!---->
+	<string name="totally">"Totally"</string>
+	<!---->
+	<string name="recv_size">"receive %1$s"</string>
+	<!---->
+	<string name="recving">"Receiving data now"</string>
+	<!---->
+	<string name="sending">"Sending data now"</string>
+	<!---->
+	<string name="qq_text_contact">"Contact"</string>
+	<!---->
+	<string name="qq_text_sms">"Sms"</string>
+	<!---->
+	<string name="qq_text_calllog">"Call log"</string>
+	<!---->
+	<string name="qq_text_bookmark">"Bookmark"</string>
+	<!---->
+	<string name="qq_text_calendar">"Calendar"</string>
+	<!---->
+	<string name="qq_text_picture">"Picture"</string>
+	<!---->
+	<string name="qq_text_video">"Video"</string>
+	<!---->
+	<string name="qq_text_music">"Music"</string>
+	<!---->
+	<string name="qq_text_app">"App"</string>
+	<!---->
+	<string name="qq_text_received">"received"</string>
+	<!---->
+	<string name="qq_text_receive_fail">"Receive fail"</string>
+	<!---->
+	<string name="qq_permission_denied">"Permission denied"</string>
+	<!---->
+	<string name="button_text_complete">"complete"</string>
+	<!---->
+	<string name="scan_failed">"Scan failed"</string>
+	<!---->
+	<string name="text_rescan">"Rescan"</string>
+	<!---->
+	<string name="text_install">"Installing"</string>
+	<!---->
+	<string name="text_pre_install">"Prepare install app"</string>
+	<!---->
+	<string name="text_restore">"Restoring"</string>
+	<!---->
+	<string name="text_transfering">"Receiving"</string>
+	<!---->
+	<string name="text_remain_time">",remain time:"</string>
+	<!---->
+	<string name="text_day">"day"</string>
+	<!---->
+	<string name="text_hour">"h"</string>
+	<!---->
+	<string name="text_min">"m"</string>
+	<!---->
+	<string name="text_sec">"s"</string>
+	<!---->
+	<string name="qq_cancel_confirm_info">"Cancel transfer?"</string>
+	<!---->
+	<string name="qq_start_install">"Received, begin to install App.\nYou can leave this page, and App will be installed in background..."</string>
+	<!---->
+	<string name="text_rec_status">"Receiving...it may be about %1$s"</string>
+	<!---->
+	<string name="text_send_status">"Sending...it may spend about %1$s...."</string>
+	<!---->
+	<string name="text_recovery_status">"Recovering data...it may have %1$s left...."</string>
+	<!---->
+	<string name="calculate_size">"Connect succceed! Now caculating the data size ......"</string>
+	<!---->
+	<string name="send_successful">"The data is sent successfully!"</string>
+	<!---->
+	<string name="select_all">"Select all"</string>
+	<!---->
+	<string name="select_none">"Unselect"</string>
+	<!---->
+	<string name="cancelled">"Canceled!"</string>
+	<!---->
+	<string name="recv_successful">"Received successfully"</string>
+	<!---->
+	<string name="text_canceling">"Canceling..."</string>
+	<!---->
+	<string name="notify_connect_success">"Connect succeed!"</string>
+	<!---->
+	<string name="notify_sending">"Sending"</string>
+	<!---->
+	<string name="notify_receiving">"Receiving"</string>
+	<!---->
+	<string name="notify_send_success">"Send successfully"</string>
+	<!---->
+	<string name="notify_receive_success">"Receive successfully"</string>
+	<!---->
+	<string name="notify_installing">"Installing application"</string>
+	<!---->
+	<string name="notify_install_success">"Application installation complete"</string>
+	<!---->
+	<string name="sms_permission_denied">"no permission to restore sms"</string>
+	<!---->
+	<string name="caculate_size_info">"Calculating size now"</string>
+	<!---->
+	<string name="text_sms_permission">"We need to restore the temporary SMS change SMS application permissions"</string>
+	<!---->
+	<string name="text_sms_permission_restore">"For normal use of text messaging, please return to the default SMS application permissions"</string>
+</resources>

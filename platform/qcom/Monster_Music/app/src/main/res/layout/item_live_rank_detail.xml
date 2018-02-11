@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.tcl.music.view.ColoredRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_view"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:layout_marginLeft="@dimen/dp_20"
+    android:layout_marginRight="@dimen/dp_20"
+    android:layout_marginTop="@dimen/dp_8"
+    android:background="?android:attr/selectableItemBackground"
+    android:descendantFocusability="blocksDescendants"
+    android:paddingBottom="10dp"
+    android:paddingTop="10dp"
+    android:scrollbars="none">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_delete"
+            android:layout_width="64dp"
+            android:layout_height="93dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="1px"
+            android:layout_toRightOf="@+id/layout_content_live_rank"
+            android:background="@drawable/btn_click_red_havebackground"
+            android:gravity="center"
+            android:textColor="#DDFFFFFF"
+            android:visibility="gone"/>
+
+        <RelativeLayout
+            android:id="@+id/layout_content_live_rank"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/rank_num"
+                style="@style/textview_white_14sp_54"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="@dimen/dp_5"
+                android:layout_marginStart="@dimen/dp_5"
+                android:singleLine="true"
+                android:textColor="@color/base_title_unselect_color"/>
+
+            <ImageView
+                android:id="@+id/rank_trend"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginLeft="@dimen/dp_5"
+                android:layout_marginStart="@dimen/dp_5"
+                android:gravity="start|bottom"
+                android:textAlignment="gravity"
+                android:layout_marginTop="12dp"
+                android:layout_below="@id/rank_num" />
+
+            <TextView
+                android:id="@+id/rank_trend_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_toEndOf="@id/rank_trend"
+                android:layout_toRightOf="@id/rank_trend"
+                android:layout_below="@id/rank_num"
+                android:gravity="start|bottom"
+                android:textAlignment="gravity"
+                android:singleLine="true"
+                android:layout_marginTop="12dp"
+                android:text="222"
+                android:alpha="0.40"
+                android:textSize="9sp"
+                android:textColor="@color/black"
+
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="18dp"
+                android:layout_marginStart="18dp"
+                android:layout_toEndOf="@id/rank_num"
+                android:layout_toRightOf="@id/rank_num"
+                android:layout_toLeftOf="@id/item_menu_image_button"
+                android:layout_toStartOf="@id/item_menu_image_button"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/title_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/sp_15"
+                    android:alpha="0.86"
+                    android:textIsSelectable="false"
+                    />
+                <TextView
+                    android:id="@id/subtitle_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:textSize="@dimen/sp_12"
+                    android:alpha="0.40"
+                    android:textColor="@color/black"
+                    android:textIsSelectable="false"
+                    />
+                </LinearLayout>
+
+
+            <ImageView
+                android:id="@id/artwork_image_view"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_toRightOf="@id/rank_trend"
+                android:contentDescription="@string/artwork"
+                android:scaleType="fitXY"
+                android:src="@drawable/default_cover_list"
+                android:visibility="gone"/>
+
+            <cn.tcl.music.view.ImageMenuButton
+                android:id="@id/item_menu_image_button"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:paddingLeft="16dp"
+                android:paddingRight="48dp"
+                android:background="@color/transparent"
+                android:contentDescription="@string/menu"
+                android:src="@drawable/item_menu" />
+
+
+
+            <!-- [BUGFIX]-ADD by yanjia.li, 2016-06-20,BUG-2197064 begin -->
+            <ImageView
+                android:id="@id/play_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:paddingLeft="16dp"
+                android:paddingRight="48dp"
+                android:src="@drawable/music_04"
+                android:visibility="invisible"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</cn.tcl.music.view.ColoredRelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:left="@dimen/drawer_padding"
+        android:right="@dimen/drawer_padding">
+        <shape android:shape="line" >
+            <stroke android:color="#B2B2B2" />
+            <size android:height="1dp" />
+        </shape>
+    </item>
+
+</layer-list>

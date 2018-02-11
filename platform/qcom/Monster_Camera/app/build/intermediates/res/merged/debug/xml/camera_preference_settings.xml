@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.camera.settings.SwitchPreferenceSingle
+        android:defaultValue="false"
+        android:key="pref_camera_capture_sound"
+        android:title="@string/pref_camera_sound_title" />
+    <com.android.camera.settings.SwitchPreferenceSingle
+        android:defaultValue="false"
+        android:key="pref_camera_hdr_auto_key"
+        android:title="@string/pref_camera_auto_hdr_title" />
+    <com.android.camera.settings.SwitchPreferenceSingle
+        android:defaultValue="false"
+        android:key="pref_camera_grid_lines"
+        android:title="@string/pref_camera_grid_title" />
+
+    <com.android.camera.settings.SelectPreference
+        android:entries="@array/pref_countdown_duration"
+        android:entryValues="@array/pref_countdown_duration"
+        android:key="pref_camera_countdown_duration_key"
+        android:title="@string/pref_camera_timer_title" />
+
+    <com.android.camera.settings.SwitchPreferenceSummary
+        android:defaultValue="true"
+        android:key="pref_camera_facebeauty_key"
+        android:title="@string/pref_camera_face_beauty_title"
+        android:summary="@string/pref_camera_face_beauty_summary"/>
+    <com.android.camera.settings.SwitchPreferenceSummary
+        android:defaultValue="false"
+        android:key="pref_camera_mirror_key"
+        android:title="@string/pref_camera_mirror_selfie_title"
+        android:summary="@string/pref_camera_mirror_selfie_summary"/>
+    <com.android.camera.settings.SwitchPreferenceSummary
+        android:defaultValue="false"
+        android:key="pref_camera_pose"
+        android:title="@string/pref_camera_pose_title"
+        android:summary="@string/pref_camera_pose_summary"/>
+    <com.android.camera.settings.SwitchPreferenceSingle
+        android:defaultValue="false"
+        android:key="pref_camera_recordlocation_key"
+        android:title="@string/pref_camera_save_location_title" />
+</PreferenceScreen>

@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pano_frame_layout"
+    style="@style/PanoPreviewLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true"
+    android:layout_weight="1">
+
+    <include layout="@layout/mt_pano_preview_indicator"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.android.camera.ui.RotateLayout
+        android:id="@+id/on_screen_progress"
+        android:layout_centerInParent="true"
+        android:layout_height="400dip"
+        android:layout_width="400dip" >
+        <LinearLayout
+            android:id="@+id/progress_indicator"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:visibility="gone" >
+            <ImageView
+                android:id="@+id/progress_bars"
+                android:layout_width="wrap_content"
+                android:layout_height= "32dip"
+                android:layout_gravity="center_horizontal"/>
+        </LinearLayout>
+    </com.android.camera.ui.RotateLayout>
+
+</RelativeLayout>

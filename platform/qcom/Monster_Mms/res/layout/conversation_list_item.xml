@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+/*
+ * Copyright (C) 2008 Esmertec AG.
+ * Copyright (C) 2008 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+--><!--
+listPreferredItemHeight = 64dip
+-->
+<com.android.mms.ui.ConversationListItem xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mst="http://schemas.android.com/apk/res/com.mst"
+    android:id="@+id/conv_list_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:gravity="center_vertical"
+    android:minHeight="?android:attr/listPreferredItemHeightLarge"
+    android:orientation="horizontal"
+    android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
+    android:paddingStart="?android:attr/listPreferredItemPaddingStart">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ViewStub
+            android:id="@+id/checkbox_stub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/list_item_text_margin"
+            android:layout="@layout/conversation_list_item_checkbox" />
+
+        <!--
+        <CheckBox
+            android:id="@+id/list_item_check_box"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/list_item_text_margin"
+            android:clickable="false"
+            android:focusable="false"
+            android:visibility="gone" />
+            -->
+
+        <!--
+        android:layout_toEndOf="@id/list_item_check_box"
+        android:layout_marginTop="com.mst:@dimen/list_item_title_margin_top"
+        -->
+        <RelativeLayout
+            android:id="@+id/first_line_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignWithParentIfMissing="true"
+            android:layout_marginTop="@dimen/list_item_title_margin_top"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/from"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignWithParentIfMissing="true"
+                android:layout_centerVertical="true"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:maxWidth="@dimen/conversation_list_title_max_width"
+                android:textAppearance="?android:attr/textAppearanceListItem" />
+
+            <!--
+            android:layout_marginStart="20dip"
+            -->
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignWithParentIfMissing="true"
+                android:layout_centerVertical="true"
+                android:maxLines="1"
+                android:textSize="12sp" />
+
+            <ViewStub
+                android:id="@+id/unread_view_stub"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignWithParentIfMissing="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="2dip"
+                android:layout_toEndOf="@id/from"
+                android:layout_toStartOf="@id/date"
+                android:layout="@layout/conversation_list_item_unread" />
+        </RelativeLayout>
+        <!--
+        android:layout_marginTop="@dimen/list_item_summary_margin_top"
+        android:layout_toEndOf="@id/list_item_check_box"
+        android:layout_marginBottom="com.mst:@dimen/list_item_summary_margin_bottom"
+        -->
+        <RelativeLayout
+            android:id="@+id/second_line_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignWithParentIfMissing="true"
+            android:layout_marginBottom="@dimen/list_item_summary_margin_bottom"
+            android:orientation="horizontal">
+            <!--
+                android:textSize="13sp"
+                android:maxWidth="@dimen/conversation_list_summary_max_width"
+                android:layout_toStartOf="@id/sim_attach_icon_stub"
+            -->
+            <TextView
+                android:id="@+id/subject"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignWithParentIfMissing="true"
+                android:layout_centerVertical="true"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textAppearance="?android:attr/textAppearanceListItemSecondary" />
+            <!--
+                android:layout_toEndOf="@id/subject"
+            -->
+            <ViewStub
+                android:id="@+id/sim_attach_icon_stub"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignWithParentIfMissing="true"
+                android:layout_centerVertical="true"
+                android:layout="@layout/conversation_list_item_sim_attach" />
+        </RelativeLayout>
+    </RelativeLayout>
+</com.android.mms.ui.ConversationListItem>

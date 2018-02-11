@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="check_new">بررسی برای به روزرسانی</string>
+    <string name="downloaded_finish">دانلود کامل شد</string>
+    <string name="downloading">در حال دانلود...</string>
+    <string name="network_error_tip">خطای شبکه. لطفاً اتصال اینترنت خود را بررسی کرده و دوباره امتحان کنید.</string>
+    <string name="notification_downloading">در حال دانلود</string>
+    <string name="tip_network_error">خطای شبکه</string>
+    <string name="try_later">بعداً</string>
+    <string name="update">اکنون</string>
+    <string name="update_ask_tip">لازم است به جدیدترین نسخه به روزرسانی کنید</string>
+    <string name="update_available">به روزرسانی موجود است</string>
+    <string name="update_confirm">تأیید</string>
+    <string name="update_detail_prefix">جزئیات به روزرسانی:</string>
+    <string name="update_download_fail">دانلود انجام نشد</string>
+    <string name="update_force_nofity_tip">توصیه می کنیم برنامه را به جدیدترین نسخه به روزرسانی کنید.</string>
+    <string name="update_no_need">اين جدیدترین نسخه است</string>
+    <string name="update_no_updates">بدون به روزرسانی</string>
+    <string name="update_no_updates_tip">بدون به روزرسانی</string>
+    <string name="update_not_now">اکنون خیر</string>
+    <string name="update_notification_tips">برای تجربه بهتر، لطفاً به جدیدترین نسخه به روزرسانی کنید.</string>
+    <string name="update_notification_title">اعلان به روزرسانی</string>
+    <string name="update_notify_tip">نسخه جديد موجود است. به روزرسانی اکنون؟</string>
+    <string name="update_now">به روزرسانی</string>
+    <string name="versionDesc">اطلاعات نسخه:</string>
+</resources>

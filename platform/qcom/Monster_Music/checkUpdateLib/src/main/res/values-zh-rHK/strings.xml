@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="tip_network_error">"網路錯誤"</string>
+	<!---->
+	<string name="check_new">"檢查更新"</string>
+	<!---->
+	<string name="update_download_fail">"下載失敗"</string>
+	<!---->
+	<string name="update_ask_tip">"您需要更新到最新版本"</string>
+	<!---->
+	<string name="update_no_need">"已是最新版本"</string>
+	<!---->
+	<string name="downloaded_finish">"下載完成。"</string>
+	<!---->
+	<string name="notification_downloading">"下載中"</string>
+	<!---->
+	<string name="update_notification_tips">"請更新到最新版本，否則你將無法使用本應用"</string>
+	<!---->
+	<string name="update_notification_title">"更新通知"</string>
+	<!---->
+	<string name="update">"現在"</string>
+	<!---->
+	<string name="try_later">"稍後"</string>
+	<!---->
+	<string name="versionDesc">"版本資訊\n"</string>
+	<!---->
+	<string name="retry">"重試"</string>
+	<!---->
+	<string name="update_available">"更新可用"</string>
+	<!---->
+	<string name="downloading">"正在下載"</string>
+	<!---->
+	<string name="update_notify_tip">"新版本可用。是否立即更新？"</string>
+	<!---->
+	<string name="update_detail_prefix">"最新版本 V%1$s.主要更新如下："</string>
+	<!---->
+	<string name="update_not_now">"稍後再說"</string>
+	<!---->
+	<string name="update_now">"更新"</string>
+	<!---->
+	<string name="network_error_tip">"網路錯誤。請檢查您的網路並重新嘗試。"</string>
+	<!---->
+	<string name="update_force_nofity_tip">"建議您將應用程式升級到最新版本。"</string>
+	<!---->
+	<string name="update_no_updates">"無更新"</string>
+	<!---->
+	<string name="update_no_updates_tip">"無可用更新。"</string>
+	<!---->
+	<string name="update_confirm">"確認"</string>
+</resources>

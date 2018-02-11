@@ -1,0 +1,1057 @@
+<VAR_DEV>
+<TABLE_HISTORY>
+<HISTORY>2015-09-18: add def_show_voicemail_in_callforward_editbox by Fuqiang.Song for Task-528562</HISTORY>
+<HISTORY>2015-09-21: Dandan.Fang add feature_tctfw_alert_ecallinairplanemode_on for TASK568661</HISTORY>
+<HISTORY>2015-09-21: add feature_phone_ShowRoamingManagementForAll_on by Fuqiang.Song for Task-571083</HISTORY>
+<HISTORY>2015-09-22: Add def_phone_supportUnefon_enable by Jianyong.Lou for Task-528452</HISTORY>
+<HISTORY>2015-09-22: Add feature_emergencyDialer_showDefaultNum_forMexico_on by Haiping.Le for Task-528182</HISTORY>
+<HISTORY>2015-09-22: Add feature_tctfw_AutomaticSearchAfterManualSearchFailed_on by Guoan.Chen for Task-571147</HISTORY>
+<HISTORY>2015-09-22: Add def_phone_voice_mail_number by Wei,Li for Task-527312</HISTORY>
+<HISTORY>2015-09-22: Add def_Phone_isFirstReadSimVoiceMailNumber by Wei,Li for Task-527312</HISTORY>
+<HISTORY>2015-09-23: add feature_phone_Iusacell_speedDial_on by wei.li for Task-528534</HISTORY>
+<HISTORY>2015-09-23: Add def_phone_vibrateReminder_on by chuanjun.chen for FR 528479, porting FR-718677</HISTORY>
+<HISTORY>2015-09-24: Add feature_phone_preferedNetworkMode_on by bimin.yin for Task 571506</HISTORY>
+<HISTORY>2015-09-24: Add feature_phone_networkMode_on by bimin.yin for Task 571506</HISTORY>
+<HISTORY>2015-09-24: Add def_support_callforward_delay by xiao.ouyang ,porting PR-929840</HISTORY>
+<HISTORY>2014-09-25: add def_Phone_isVoiceMailNumberForOpenMarket by wei.li for Task-528519</HISTORY>
+<HISTORY>2015-09-28: Add def_phone_enable_fdn_data_roaming by chuanjun.chen for PR 528474, porting 1068834 </HISTORY>
+<HISTORY>2015-09-28: Add feature_phone_voicemailNumberEditable_on by siyan.chen for Task 528145</HISTORY>
+<HISTORY>2015-09-29: Add feature_phone_ManualRegisteFirstEhplmn_on by Yandong.Sun for Task-527275 </HISTORY>
+<HISTORY>2015-09-29: Add def_phone_Callbarring_button_show by chuanjun.chen for PR 528431 </HISTORY>
+<HISTORY>2014-10-11: Add feature_phone_ussdPermanentDisplay_on by li.yu</HISTORY>
+<HISTORY>2014-10-11: Add feature_phone_previousUssdDialogShow_on by li.yu</HISTORY>
+<HISTORY>2014-10-11: Add feature_phone_ussdPlaySilent_on by li.yu</HISTORY>
+<HISTORY>2015-09-28: Add feature_phone_ussdFailedDisplay_on by zhi-zhang</HISTORY>
+<HISTORY>2015-09-28: Add feature_phone_ussdCancelConfirmationShow_on by zhi-zhang</HISTORY>
+<HISTORY>2015-10-09: Add feature_phone_diaplayWarnMsgWhenSendUSSDOnLTE_on by zhi-zhang</HISTORY>
+<HISTORY>2014-10-11: Add feature_phone_internetCall_on by jian.yu</HISTORY>
+<HISTORY>2015-10-10: Add feature_phone_activateTTYalsoActivateVibrateMode_on by zhi-zhang</HISTORY>
+<HISTORY>2015-10-13: Add feature_phone_lteOnlyDialogForBeeline_on by Guoan.Chen</HISTORY>
+<HISTORY>2015-10-28: Add def_setting_always_ask by rain.zhang for idol4 Task528487, merged from fujun.yang for PR-998053</HISTORY>
+<HISTORY>2014-10-10: Add feature_phone_sdnmenu_on by huan_liu</HISTORY>
+<HISTORY>2015-11-05: Add def_show_mmi_code_error,def_phone_showMmiCodeComplete by TCTNB.jian.shi for task-856864, porting from PR-994585</HISTORY>
+<HISTORY>2015-11-05: Add def_phone_incomingcall_notification by caixia.chen for idol4s Task 861772, merged from PR-1027206</HISTORY>
+<HISTORY>2015-11-06: Add def_feature_call_waiting_status by zhujian.shao for Task-861473 porting from PR-957754</HISTORY>
+<HISTORY>2015-11-06: Add def_phone_is_getVm_fromPhone by zhujian.shao for Task-861447 porting from PR-1014434</HISTORY>
+<HISTORY>2015-11-06: Add feature_callwaitingstring_forTelcel_on by zhujian.shao for Task-861461 porting from PR-994644</HISTORY>
+<HISTORY>2015-11-06: Add def_phone_show_cf_error_message by jing.su for task-861445</HISTORY>
+<HISTORY>2015-11-13: Add feature_show_pin2_attemp_remaning by tongyuan.lv for idol4s Task 900991</HISTORY>
+<HISTORY>2015-11-16: add hac_enabled by huan_liu for PR-916769 </HISTORY>
+<HISTORY>2015-12-07: Add feature_fdn_particular_suscription_on by chuanjun.chen for task-527298 </HISTORY>
+<HISTORY>2015-12-09: Mod feature_phone_networkMode_on by Dandan.Fang for task-1078912 </HISTORY>
+<HISTORY>2015-12-18: Add feature_hac_dialog_enabled by NJTS.zhujian.shao Task-1190807,1176757,12/18/2015 </HISTORY>
+<HISTORY>2015-12-23: Add tct_fetch_sim_language_preferences by hengchang.zhao Defect-1176497 </HISTORY>
+<HISTORY>2015-12-24: Add def_phone_simlockTryTimes by TCTSH.shenglong-fang Task-528154</HISTORY>
+<HISTORY>2016-01-14: Add feature_phone_enableDdsChangeWhenResetNetwork_on by TCTNB.MaXiaoli Task-1376594</HISTORY>
+<HISTORY>2016-01-19: bimin.yin add feature_tctfw_DisplayOrangeF_on for Defect-1443019</HISTORY>
+<HISTORY>2016-01-21: Add feature_tctfw_DisplayO2PLUS_on by Guoan.Chen for Defect-1461187 </HISTORY>
+<HISTORY>2016-01-29: Add feature_phone_russia_show_roaming_notification by quan.zhai for Defect-1476707 </HISTORY>
+<HISTORY>2016-03-07: Add feature_emergency_dialpad_russia_letters_enable by chuanjun.chen for Defect-1539844 </HISTORY>
+<HISTORY>2016-02-24: Add def_phone_uebasecw_bynw by yali.wang for 1132363</HISTORY>
+<HISTORY>2016-02-24: Add feature_only_use_fw_ssv_ecclist_on by gang-chen for defect-1747120</HISTORY>
+<HISTORY>2016-04-22: Add def_phone_beepReminder_on by zhi-zhang@tcl.com for defect 2016/04/221918152 </HISTORY>
+<HISTORY>2016-06-12: Add def_show_mmi_code_started by shenglong-fang@tcl.com for defect-2323542 </HISTORY>
+<HISTORY>2016-08-16: Dong.Jiang move feature_tctfw_DisplayOrangeF_on from Telephony to framework for Task-2655766</HISTORY>
+<HISTORY>2016-08-23: Add def_remove_voice_from_call_forwarding by chuanjun.chen for solution 2504602 and task 2781337</HISTORY>
+<HISTORY>2016-08-23: Add def_phone_voicemail_name by jianglong.pan for task-2828198</HISTORY>
+<HISTORY>2016-09-21: Add def_algb_show_out_of_service_on by chuanjun.chen for solution 2723557 and task 2847250</HISTORY>
+</TABLE_HISTORY>
+
+<MOD>
+<NAME>ANDROID</NAME>
+<SDM_AREA>
+<DSA_TITLE>INIT DATA OF ANDROID Settings</DSA_TITLE>
+<MACRO_NAME>CUSTOM_JRDC_PARAM</MACRO_NAME>
+<C_NAME>custom_jrdc_dsc</C_NAME>
+<C_TYPE>CUSTOM_JRDC_DSC</C_TYPE>
+<IDA>CUSTOM_JRDC_INIT_RDM</IDA>
+<IS_IN_DSA>Yes</IS_IN_DSA>
+<TABLE_VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>feature_phone_sdnmenu_on</SDMID>
+<C_NAME>feature_phone_sdnmenu_on</C_NAME>
+<C_TYPE>eBOOLEAN</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Phone</FEATURE>
+<DESC>whether enable sdn menu: vaule0x01, enabled; 0x00, disabled. default value:0x01</DESC>
+<VALUE>0x01</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>feature_hac_dialog_enabled</SDMID>
+<C_NAME>feature_hac_dialog_enabled</C_NAME>
+<C_TYPE>eBOOLEAN</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Phone</FEATURE>
+<DESC>whether show dialog when clicking hac item.0x01, enabled; 0x00, disabled. default value:0x01</DESC>
+<VALUE>0x01</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_show_voicemail_in_callforward_editbox</SDMID>
+<C_NAME>def_show_voicemail_in_callforward_editbox</C_NAME>
+<C_TYPE>eBOOLEAN</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<VALUE>0x00</VALUE>
+<FEATURE>TeleService</FEATURE>
+<DESC>0x01:Voice Mail number is the default edit value for all Call Forwarding edition.0x00:Last call forward value is the call forwarding edit value.default 0x00</DESC>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>feature_phone_alert_ecallinairplanemode_on</SDMID>
+<C_NAME>feature_phone_alert_ecallinairplanemode_on</C_NAME>
+<C_TYPE>eBOOLEAN</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Phone</FEATURE>
+<DESC>whether display alert information for user when make ecc call under airplane mode is on. 0x01, means display; 0x00, means not display. Default value as 0x01.</DESC>
+<VALUE>0x01</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>feature_phone_ShowRoamingManagementForAll_on</SDMID>
+<C_NAME>feature_phone_ShowRoamingManagementForAll_on</C_NAME>
+<C_TYPE>eBOOLEAN</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Phone</FEATURE>
+<DESC>0x00: does not show roaming management in all condition;0x01: show managed roaming.default is 0x00</DESC>
+<VALUE>0x00</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_phone_supportUnefon_enable</SDMID>
+<C_NAME>def_phone_supportUnefon_enable</C_NAME>
+<C_TYPE>eBOOLEAN</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Phone</FEATURE>
+<DESC>sdm defined to controll whether networkname display as "Unefone" in the network(334050) search list when with unefone sim card . 0x01 means display "Unefone", 0x00 means keep the default value "Iusacell".</DESC>
+<VALUE>0x00</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>feature_emergencyDialer_showDefaultNum_forMexico_on</SDMID>
+<C_NAME>feature_emergencyDialer_showDefaultNum_forMexico_on</C_NAME>
+<C_TYPE>eBOOLEAN</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Phone</FEATURE>
+<DESC>whether show the default emergency number. "0x00": no , "0x01": yes. default value: "0x00"</DESC>
+<VALUE>0x00</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>feature_tctfw_AutomaticSearchAfterManualSearchFailed_on</SDMID>
+<C_NAME>feature_tctfw_AutomaticSearchAfterManualSearchFailed_on</C_NAME>
+<C_TYPE>eBOOLEAN</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Phone</FEATURE>
+<DESC>If enable Automatic search after Manual search failed(Latam Only). "0x00": no , "0x01": yes. default value: "0x00"</DESC>
+<VALUE>0x00</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_phone_voice_mail_number</SDMID>
+<C_NAME>def_phone_voice_mail_number</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,64</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Phone</FEATURE>
+<DESC>phone voice mail number,example "*86",default value:0 means dont set</DESC>
+<VALUE>"0"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_Phone_isFirstReadSimVoiceMailNumber</SDMID>
+<C_NAME>def_Phone_isFirstReadSimVoiceMailNumber</C_NAME>
+<C_TYPE>eBOOLEAN</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Phone</FEATURE>
+<DESC>For sim card voice mail number and perso voice mail number which one is
+high priority. 0x01:Sim card voice mail high priority.0x00:Perso voice mail
+number high priority.Default is:0x01 </DESC>
+<VALUE>0x01</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>feature_phone_Iusacell_speedDial_on</SDMID>
+<C_NAME>feature_phone_Iusacell_speedDial_on</C_NAME>
+<C_TYPE>eBOOLEAN</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Phone</FEATURE>
+<DESC>for Task-528534,it requires to dial to different numbers by long pressing 1. 0x01: enable this function; 0x00: disable it. default value:0x01</DESC>
+<VALUE>0x01</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_phone_vibrateReminder_on</SDMID>
+<C_NAME>def_phone_vibrateReminder_on</C_NAME>
+<C_TYPE>eBOOLEAN</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Phone</FEATURE>
+<DESC>whether enable vibrate reminder,vaule:0x01: enable, 0x00: disable, default value:0x00</DESC>
+<VALUE>0x00</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_phone_beepReminder_on</SDMID>
+<C_NAME>def_phone_beepReminder_on</C_NAME>
+<C_TYPE>eBOOLEAN</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Phone</FEATURE>
+<DESC>When call connection whether enable beep reminder,vaule:0x01: enable, 0x00: disable, default value:0x00</DESC>
+<VALUE>0x00</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>feature_phone_preferedNetworkMode_on</SDMID>
+<C_NAME>feature_phone_preferedNetworkMode_on</C_NAME>
+<C_TYPE>eBOOLEAN</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Phone</FEATURE>
+<DESC>whether display custom network mode in mobile networks setting,vaule:0x01: display, 0x00: hide
+</DESC>
+<VALUE>0x01</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>feature_phone_networkMode_on</SDMID>
+<C_NAME>feature_phone_networkMode_on</C_NAME>
+<C_TYPE>Byte</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Byte,0,64</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Phone</FEATURE>
+<DESC>defined the customized entries for network mode selection.
+0x00,operator SFR,provides four choices:"Automatic 4G/3G/2G,Only 4G,Only 3G,Only 2G";
+0x01,operator Tmobile,provides four choices:"LTE/WCDMA/GSM(auto connect),WCDMA/GSM(auto connect),WCDMA only,GSM only";
+0x02,operator VideoTron,provides three choices:"LTE/WCDMA/GSM auto,WCDMA only,WCDMA/GSM auto";
+0x03,network mode test,provides six choices:"TDS/GSM/LTE,WCDMA/GSM/LTE,CDMA/EVDO/LTE,TDSCDMA only,CDMA only,EVDO only";
+0x04,idol4s cn,provides two choices:"4G/3G/2G(auto),3G/2G(auto)";
+0x05,provides two choices:"LTE/WCDMA/GSM auto,WCDMA/GSM auto"
+0x06,provides four choices:"LTE/WCDMA/GSM auto,WCDMA only,WCDMA/GSM,GSM only"
+0x07,provides three choices:"Automatic 4G/3G/2G,Only 3G,Only 2G"
+0x08,provides five choices:"LTE/WCDMA/GSM,LTE only,WCDMA only,WCDMA/GSM,GSM only"
+0x09,operator Meteor,provides four choices:"4G/3G/2G(auto),3G/2G(auto),3G only, 2G only"
+0x0A,operator russian, provides five choices:"LTE/UMTS/GSM auto,UMTS/GSM,LTE only,UMTS only,GSM only"
+0x0B,operator UK,provides three choices:"4G/3G/2G(auto),3G/2G(auto),3G only"
+0x0C,miata customized, provides five choices:"LTE/WCDMA/GSM,LTE only,WCDMA only,WCDMA/GSM,GSM only"
+0x0D,orange operator,prividers three choices:"4G(recommended),3G,2G"
+0x0E,operator russian, removes lte only"LTE/UMTS/GSM auto,UMTS/GSM,UMTS only,GSM only";
+</DESC>
+<VALUE>0x06</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_support_callforward_delay</SDMID>
+<C_NAME>def_support_callforward_delay</C_NAME>
+<C_TYPE>eBOOLEAN</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>TeleService</FEATURE>
+<VALUE>0x00</VALUE>
+<DESC>0x00:do not support callforward delay, 0x01: support callforward delay.Defualt value is 0x00</DESC>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_Phone_isVoiceMailNumberForOpenMarket</SDMID>
+<C_NAME>def_Phone_isVoiceMailNumberForOpenMarket</C_NAME>
+<C_TYPE>eBOOLEAN</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Phone</FEATURE>
+<DESC>For perso config for T-mobile NL or open market.for T-mobile,need set voicemail number from perso and follow bug 770330,for open market,need set voicemail number to 1233 and follow bug 772556 0x00:T-mobile .0x01:open market.Default is:0x00,read from perso. if set value to 0x01, all of the perso for voicemail is diabled when mcc=204 </DESC>
+<VALUE>0x01</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_phone_enable_fdn_data_roaming</SDMID>
+<C_NAME>def_phone_enable_fdn_data_roaming</C_NAME>
+<C_TYPE>eBOOLEAN</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<VALUE>0x01</VALUE>
+<FEATURE>Phone</FEATURE>
+<DESC>whether enable "Data enabled" and "Data roaming" when open fdn and there is no "*99#" in fdn list ,default:0x00 disable,0x01:enable.</DESC>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>feature_phone_voicemailNumberEditable_on</SDMID>
+<C_NAME>feature_phone_voicemailNumberEditable_on</C_NAME>
+<C_TYPE>eBOOLEAN</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Phone</FEATURE>
+<DESC>whether Voicemail number can be editable,vaule:0x01: editable, 0x00: not editable, default value:0x01</DESC>
+<VALUE>0x01</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>feature_phone_ManualRegisteFirstEhplmn_on</SDMID>
+<C_NAME>feature_phone_ManualRegisteFirstEhplmn_on</C_NAME>
+<C_TYPE>eBOOLEAN</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>0</IS_CUSTO>
+<FEATURE>Phone</FEATURE>
+<DESC>After search the network manually,if the first ehplmn is available.The UE will always register the plmn,ignore the selection of user.ON:0x01</DESC>
+<VALUE>0x00</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_phone_callbarring_button_show</SDMID>
+<C_NAME>def_phone_callbarring_button_show</C_NAME>
+<C_TYPE>eBOOLEAN</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Phone</FEATURE>
+<DESC>whether do not show callbarring_button, default:0x01 open,0x00:close.</DESC>
+<VALUE>0x01</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>feature_phone_ussdPermanentDisplay_on</SDMID>
+<C_NAME>feature_phone_ussdpermanentdisplay_on</C_NAME>
+<C_TYPE>eBOOLEAN</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Phone</FEATURE>
+<DESC>this perso is used to control ussd information(two types,request and notification) displaying
+permanent or just show limited times, 0x01:ussd information permanent display,0x00:when display ussd
+requsting information there is 3m limit,and notification information there is 5m;Default value will
+be 0x01.</DESC>
+<VALUE>0x01</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>feature_phone_ussdFailedDisplay_on</SDMID>
+<C_NAME>feature_phone_ussdFailedDisplay_on</C_NAME>
+<C_TYPE>eBOOLEAN</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Phone</FEATURE>
+<DESC>whether display the error dialog for 5 seconds.0x01:display for 5 seconds,0x00: always display
+</DESC>
+<VALUE>0x00</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>feature_phone_previousUssdDialogShow_on</SDMID>
+<C_NAME>feature_phone_previousUssdDialogShow_on</C_NAME>
+<C_TYPE>eBOOLEAN</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Phone</FEATURE>
+<DESC>when UE receive many USSD,default behaviour is only show the last one,the previous Dialog will destory by the new Dialog,when new Dialog exit,we can not see the previous one;now we want to show Dialog one by one, new Dailog will cover on the previous one,when new Dialog exit,we can see the previous  ,value:0x01: not default behavious, 0x00: default behavious; default:0x00:</DESC>
+<VALUE>0x00</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>feature_phone_ussdPlaySilent_on</SDMID>
+<C_NAME>feature_phone_ussdPlaySilent_on</C_NAME>
+<C_TYPE>eBOOLEAN</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Phone</FEATURE>
+<DESC>This perso is used to control ussd to play with tone or silent,0x01:if system audio is silent
+or vibrator,ussd play vibrator,otherwise tone;0x00,if system audio is silent
+or vibrator,ussd play silent,otherwise tone.</DESC>
+<VALUE>0x01</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>feature_phone_ussdCancelConfirmationShow_on</SDMID>
+<C_NAME>feature_phone_ussdCancelConfirmationShow_on</C_NAME>
+<C_TYPE>eBOOLEAN</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Phone</FEATURE>
+<DESC>this perso is used to control the ussd cancel confirmation show or not show, 0x01:show the ussd cancel confirmation ,0x00:not show the ussd cancel confirmation;Default value will be 0x01</DESC>
+<VALUE>0x01</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>feature_phone_diaplayWarnMsgWhenSendUSSDOnLTE_on</SDMID>
+<C_NAME>feature_phone_diaplayWarnMsgWhenSendUSSDOnLTE_on</C_NAME>
+<C_TYPE>eBOOLEAN</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Phone</FEATURE>
+<DESC>this perso is used to display a warning message when user wants to send USSD in LTE only mode or not display, 0x01:display the warning message ,0x00:not display the warning message;Default value will be 0x01</DESC>
+<VALUE>0x01</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>feature_phone_internetCall_on</SDMID>
+<C_NAME>feature_phone_internetCall_on</C_NAME>
+<C_TYPE>eBOOLEAN</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Phone</FEATURE>
+<DESC>whether display internet call in call setting,vaule:0x01: display, 0x00: hide,default:display</DESC>
+<VALUE>0x00</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>feature_phone_activateTTYalsoActivateVibrateMode_on</SDMID>
+<C_NAME>feature_phone_activateTTYalsoActivateVibrateMode_on</C_NAME>
+<C_TYPE>eBOOLEAN</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Phone</FEATURE>
+<DESC>when activate TTY, Vibrate mode should be also activated,vaule:0x01: activate Vibrate mode, 0x00: deactivate Vibrate mode,default:activate</DESC>
+<VALUE>0x01</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_phone_ssv_voicemailNumber</SDMID>
+<C_NAME>def_phone_ssv_voicemailNumber</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,400</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Phone</FEATURE>
+<DESC>set default voice mail number for Argentina,Chile,Colombia,Costa Rica,Dominicana,Ecuador,Guatemala,Honduras,Nicaragua,Paraguay,Peru,Salvador,Uruguay,Puerto Rico,Panama,Telcel.</DESC>
+<VALUE>"*86"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_phone_ssv_DataRoamingOn</SDMID>
+<C_NAME>def_phone_ssv_DataRoamingOn</C_NAME>
+<C_TYPE>>eBOOLEAN</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Phone</FEATURE>
+<DESC>is the DataRomaing on by default in this mccmnc</DESC>
+<VALUE>0x00</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_phone_ssv_voicemailName</SDMID>
+<C_NAME>def_phone_ssv_voicemailName</C_NAME>
+<C_TYPE>Ucs2StringWLen</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Ucs2StringWLen,100</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Phone</FEATURE>
+<DESC>set voicemail display name in call settings for ssv countries.Please notice:1.the first value is the mnnmnc number, second number is voicemail name,and use comma to separate them 2.use comma to separate items 3.the max value is 300,if you want to write for more than 400,you should modify METATYPE.For example, "722310,Buzon de Voz".</DESC>
+<VALUE>0x00,()</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_default_emergency_number</SDMID>
+<C_NAME>def_default_emergency_number</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,200</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Phone</FEATURE>
+<DESC>In emergency dialer, default emergency number should be showed in input box.For Mexico value is 060</DESC>
+<VALUE>""</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>feature_phone_lteOnlyDialogForBeeline_on</SDMID>
+<C_NAME>feature_phone_lteOnlyNotificationForBeeline_on</C_NAME>
+<C_TYPE>eBOOLEAN</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<VALUE>0x00</VALUE>
+<FEATURE>Phone</FEATURE>
+<DESC>Beeline requirement:Pop up dialog to notify end-user that voice/SMS services are not available
+while LTE only
+network mode is selected . default:0x00 not enable,0x01:enable</DESC>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_network_mode_hide_gsm_only</SDMID>
+<C_NAME>def_network_mode_hide_gsm_only</C_NAME>
+<C_TYPE>eBOOLEAN</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Phone</FEATURE>
+<DESC>If the value is "0x01", will hide "GSM only" on setting of preferred network mode. If the value is "0x00", will show "GSM only".Default value is "0x00",for ID528139</DESC>
+<VALUE>0x00</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_setting_always_ask</SDMID>
+<C_NAME>def_setting_always_ask</C_NAME>
+<C_TYPE>eBOOLEAN</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Phone</FEATURE>
+<DESC>enable the default value is always ask.enable :0x01. disable :0x00. default value:0x01</DESC>
+<VALUE>0x00</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_show_mmi_code_error</SDMID>
+<C_NAME>def_show_mmi_code_error</C_NAME>
+<C_TYPE>eBOOLEAN</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Phone</FEATURE>
+<DESC>0x01 show "Connection or MMI code error" prompt when MS complete arequest of USSD to the network ,0x01(default) show the prompt</DESC>
+<VALUE>0x01</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_phone_showMmiCodeComplete</SDMID>
+<C_NAME>def_show_mmi_code_complete</C_NAME>
+<C_TYPE>eBOOLEAN</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<VALUE>0x01</VALUE>
+<FEATURE>Phone</FEATURE>
+<DESC>whether show "MMI complete" prompt when MS complete a request of USSD to the network ,default:0x01 show the prompt,0x00:not show</DESC>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_show_mmi_code_started</SDMID>
+<C_NAME>def_show_mmi_code_started</C_NAME>
+<C_TYPE>eBOOLEAN</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<VALUE>0x01</VALUE>
+<FEATURE>Phone</FEATURE>
+<DESC>whether show "MMI code started" prompt when open launch dialer app put in code "*#31#" and press call,default:0x01 show the prompt,0x00:not show</DESC>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_phone_incomingcall_notification</SDMID>
+<C_NAME>def_phone_incomingcall_notification</C_NAME>
+<C_TYPE>eBOOLEAN</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Phone</FEATURE>
+<DESC>whether show notification to notify user when incoming call ,default:0x00, full-srceen, 0x01:use notification</DESC>
+<VALUE>0x00</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_feature_call_waiting_status</SDMID>
+<C_NAME>def_feature_call_waiting_status</C_NAME>
+<C_TYPE>eBOOLEAN</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Phone</FEATURE>
+<DESC>This item defined the call waiting status option show or hide. The value 0x00 means hide this option, 0x01 means show this option, default value is 0x00.</DESC>
+<VALUE>0x00</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_phone_is_getVm_fromPhone</SDMID>
+<C_NAME>def_phone_is_getVm_fromPhone</C_NAME>
+<C_TYPE>eBOOLEAN</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Phone</FEATURE>
+<DESC>when SIM voicemail is null,whether get the voicemail from phone,default:0x00 not get from phone,0x01:get from phone</DESC>
+<VALUE>0x00</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>feature_callwaitingstring_forTelcel_on</SDMID>
+<C_NAME>feature_callwaitingstring_forTelcel_on</C_NAME>
+<C_TYPE>eBOOLEAN</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Phone</FEATURE>
+<DESC>whether change the default call waiting string. "0x00": show "Voice, Sync" , "0x01": show "Voice". default value: "0x00"</DESC>
+<VALUE>0x00</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_phone_show_cf_error_message</SDMID>
+<C_NAME>def_phone_show_cf_error_message</C_NAME>
+<C_TYPE>eBOOLEAN</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Phone</FEATURE>
+<DESC>whether show call forwarding error message,vaule:0x01:show.0x00:not show error message,default
+ value:0x01</DESC>
+<VALUE>0x01</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>feature_phone_notShowRoamingManagementInSimPin_on</SDMID>
+<C_NAME>feature_phone_notShowRoamingManagementInSimPin_on</C_NAME>
+<C_TYPE>eBOOLEAN</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Phone</FEATURE>
+<DESC>0x01 In the SIM PIN verification interface does not show roaming management,default is 0x00</DESC>
+<VALUE>0x00</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>feature_show_pin2_attemp_remaning</SDMID>
+<C_NAME>feature_show_pin2_attemp_remaning</C_NAME>
+<C_TYPE>eBOOLEAN</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Phone</FEATURE>
+<DESC>This item defined the pin2 attemp remaning show or not when editting fdn number with wrong PIN2. The value 0x01 means show attemp remaning, 0x00 means not how , default value is 0x00.</DESC>
+<VALUE>0x00</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>hac_enabled</SDMID>
+<C_NAME>hac_enabled</C_NAME>
+<C_TYPE>eBOOLEAN</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Phone</FEATURE>
+<DESC>whether enable sdn menu: vaule0x01, enabled; 0x00, disabled. default value:0x01</DESC>
+<VALUE>0x01</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>feature_fdn_particular_suscription_on</SDMID>
+<C_NAME>feature_fdn_particular_suscription_on</C_NAME>
+<C_TYPE>eBOOLEAN</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Phone</FEATURE>
+<DESC>It is for Telefonica to show the fdn management in particular suscription.vaule:0x01:show.0x00:not show.default:0x00.</DESC>
+<VALUE>0x00</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>tct_fetch_sim_language_preferences</SDMID>
+<C_NAME>tct_fetch_sim_language_preferences</C_NAME>
+<C_TYPE>eBOOLEAN</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>frameworks-res</FEATURE>
+<DESC>System will fetch the locale from SIM language preferences (EF-PL and EF-LI) at first boot. 0x00:ignore sim language 0x01(default):fetch sim language</DESC>
+<VALUE>0x01</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_phone_simlockTryTimes</SDMID>
+<C_NAME>def_phone_simlockTryTimes</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,64</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Phone</FEATURE>
+<DESC>simlock total try times, default value:10</DESC>
+<VALUE>"10"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_add_data_enabled_for_singlecard</SDMID>
+<C_NAME>def_add_data_enabled_for_singlecard</C_NAME>
+<C_TYPE>eBOOLEAN</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Phone</FEATURE>
+<DESC>If the value is "0x01", will add "Data enabled" on setting of Mobile networks. If the value is "0x00", will not add .Default value is "0x01",for ID1192600</DESC>
+<VALUE>0x01</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>feature_phone_show_search_network_switch_on</SDMID>
+<C_NAME>feature_phone_show_search_network_switch_on</C_NAME>
+<C_TYPE>eBOOLEAN</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Phone</FEATURE>
+<DESC>whether show network search switch. 0x01,enabled;0x00,disabled.default value:0x01,for task:967220</DESC>
+<VALUE>0x01</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>feature_phone_enableDdsChangeWhenResetNetwork_on</SDMID>
+<C_NAME>feature_phone_enableDdsChangeWhenResetNetwork_on</C_NAME>
+<C_TYPE>eBOOLEAN</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Phone</FEATURE>
+<DESC>whether enable SIM DDS change when reset some one slot network settings. 0x01:enable, 0x00:disable, the default value for Idol4/4S is 0x00.</DESC>
+<VALUE>0x00</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>feature_tctfw_DisplayO2PLUS_on</SDMID>
+<C_NAME>feature_tctfw_DisplayO2PLUS_on</C_NAME>
+<C_TYPE>eBOOLEAN</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Phone</FEATURE>
+<DESC>When simNumeric is 26207 and operatorNumeric is 26203,Control if operator names should use O2+. 0x00: do not enable, 0x01: enable, default:0x01</DESC>
+<VALUE>0x01</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>feature_phone_russia_show_roaming_notification</SDMID>
+<C_NAME>feature_phone_russia_show_roaming_notification</C_NAME>
+<C_TYPE>eBOOLEAN</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Phone</FEATURE>
+<DESC>Russia CTS feature for bug 1051859. 0x01,enabled;0x00,disabled.default value:0x00</DESC>
+<VALUE>0x00</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>feature_emergency_dialpad_russia_letters_enable</SDMID>
+<C_NAME>feature_emergency_dialpad_russia_letters_enable</C_NAME>
+<C_TYPE>eBOOLEAN</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Phone</FEATURE>
+<DESC>whether to add russia letters in emergency dialpad. 0x01,enabled;0x00,disabled.default value:0x00</DESC>
+<VALUE>0x01</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_phone_uebasecw_bynw</SDMID>
+<C_NAME>def_phone_uebasecw_bynw</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,64</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Phone</FEATURE>
+<DESC>Network code list for  ue terminal base cw whether change with status of ims or not. Use comma to seperate each n
+etwork codes(MCC+MNC). Default value is IT/PT/DE/ES.</DESC>
+<VALUE>"22210,26801,26202,26204,26209,21401"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>feature_phone_uebasecw_enable</SDMID>
+<C_NAME>feature_phone_uebasecw_enable</C_NAME>
+<C_TYPE>eBOOLEAN</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Phone</FEATURE>
+<DESC>whether to use callwaiting terminal base. 0x01,enabled;0x00,disabled.default value:0x00. idol4s_vodafone need set to 0x01, others 0x00</DESC>
+<VALUE>0x00</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+ <VAR>
+<SIMPLE_VAR>
+<SDMID>feature_phone_remove_call_account</SDMID>
+<C_NAME>feature_phone_remove_call_account</C_NAME>
+<C_TYPE>eBOOLEAN</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Phone</FEATURE>
+<DESC>whether remove call accounts on call settings. 0x01,remove;0x00,not remove.default value:0x00</DESC>
+<VALUE>0x00</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>feature_only_use_fw_ssv_ecclist_on</SDMID>
+<C_NAME>feature_only_use_fw_ssv_ecclist_on</C_NAME>
+<C_TYPE>eBOOLEAN</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Phone</FEATURE>
+<DESC>whether only use ssv ecclist in fw when pull sim card out. 0x01,on;0x00,off.default value:0x00</DESC>
+<VALUE>0x00</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>feature_phone_voicemailSettingReset_on</SDMID>
+<C_NAME>feature_phone_voicemailSettingReset_on</C_NAME>
+<C_TYPE>eBOOLEAN</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Phone</FEATURE>
+<DESC>whether Voicemail settings can reset to default after device reset,vaule:0x01: enabled, 0x00: disabled, default value:0x00</DESC>
+<VALUE>0x00</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_voicemailNotiClear_disable</SDMID>
+<C_NAME>def_voicemailNotiClear_disable</C_NAME>
+<C_TYPE>eBOOLEAN</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Phone</FEATURE>
+<DESC>whether Voicemail notification can not be cleared,vaule:0x01: enabled, 0x00: disabled, default value:0x00</DESC>
+<VALUE>0x00</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_remove_additional_menu_for_algb_on</SDMID>
+<C_NAME>def_remove_additional_menu_for_algb_on</C_NAME>
+<C_TYPE>eBOOLEAN</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Phone</FEATURE>
+<DESC>whether Remove additional call GSM call Settings settings screen defect 2202124,vaule:0x01: remove, 0x00: not remove, default value:0x00</DESC>
+<VALUE>0x00</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_remove_voice_from_call_forwarding</SDMID>
+<C_NAME>def_remove_voice_from_call_forwarding</C_NAME>
+<C_TYPE>eBOOLEAN</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Phone</FEATURE>
+<DESC>Remove voice from call_forwarding menu. "0x00": false, no need to remove, "0x01": true, need remove voice. default value: "0x00" </DESC>
+<VALUE>0x00</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_algb_show_out_of_service_on</SDMID>
+<C_NAME>def_algb_show_out_of_service_on</C_NAME>
+<C_TYPE>eBOOLEAN</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Phone</FEATURE>
+<DESC>This item defines whether need to show or not "out of service area" string. 0x01:enable. 0x00:disable. default value is 0x00. this SDM added for D2204289</DESC>
+<VALUE>0x00</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>feature_phone_roamingWarning_on</SDMID>
+<C_NAME>feature_phone_roamingWarning_on</C_NAME>
+<C_TYPE>eBOOLEAN</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Phone</FEATURE>
+<DESC>whether show detailed data roaming warning message string when enable data roaming.0x01:for showing detailed data roaming warning message,0x00:not show</DESC>
+<VALUE>0x01</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>feature_phone_lteOnlyDialogForBeeline_on</SDMID>
+<C_NAME>feature_phone_lteOnlyNotificationForBeeline_on</C_NAME>
+<C_TYPE>eBOOLEAN</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<VALUE>0x00</VALUE>
+<FEATURE>Phone</FEATURE>
+<DESC>Beeline requirement:Pop up dialog to notify end-user that voice/SMS services are not available while LTE only
+network mode is selected . default:0x00 not enable,0x01:enable</DESC>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_phone_voicemail_name</SDMID>
+<C_NAME>def_phone_voicemail_name</C_NAME>
+<C_TYPE>Ucs2StringWLen</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Ucs2StringWLen,600</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>framework-res</FEATURE>
+<DESC>set voicemail name,default is ""</DESC>
+<VALUE>0x00,()</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+</TABLE_VAR>
+</SDM_AREA>
+</MOD>
+</VAR_DEV>

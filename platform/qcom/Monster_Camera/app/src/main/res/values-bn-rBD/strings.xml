@@ -1,0 +1,1066 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"ক্যামেরা"</string>
+	<!---->
+	<string name="gallery_app_name">"অ্যালবাম"</string>
+	<!---->
+	<string name="video_camera_label">"ক্যামকোর্ডার"</string>
+	<!-- no translation found for details_ms -->
+	<skip />
+	<!-- no translation found for details_hms -->
+	<skip />
+	<!---->
+	<string name="set_image">"হিসেবে সেট করুন ছবি"</string>
+	<!---->
+	<string name="delete">"মুছে দিন"</string>
+	<!---->
+	<string name="share">"শেয়ার করুন"</string>
+	<!---->
+	<string name="share_panorama">"বিস্তৃত দৃশ্যাবলী শেয়ার করুন"</string>
+	<!---->
+	<string name="share_as_photo">"ছবি হিসাবে শেয়ার করুন"</string>
+	<!---->
+	<string name="deleted">"মুছে ফেলা হয়েছে"</string>
+	<!---->
+	<string name="undo">"পূর্বাবস্থা"</string>
+	<!---->
+	<string name="details">"বিস্তারিত"</string>
+	<!---->
+	<string name="close">"ঘনিষ্ঠ"</string>
+	<!---->
+	<string name="show_on_map">"মানচিত্রে দেখান"</string>
+	<!---->
+	<string name="rotate_left">"বাঁদিক দিয়ে ঘুরান"</string>
+	<!---->
+	<string name="rotate_right">"ডানদিক দিয়ে ঘুরান"</string>
+	<!---->
+	<string name="edit">"সম্পাদনা করুন"</string>
+	<!---->
+	<string name="crop_action">"ক্রপ করুন ।"</string>
+	<!---->
+	<string name="trim_action">"ছাঁটাই"</string>
+	<!---->
+	<string name="set_as">"হিসেবে সেট করুন"</string>
+	<!---->
+	<string name="video_err">"ভিডিও চালাতে পারে না"</string>
+	<!---->
+	<string name="title">"শিরোনাম"</string>
+	<!-- no translation found for description -->
+	<skip />
+	<!---->
+	<string name="time">"সময়"</string>
+	<!---->
+	<string name="location">"লোকেশন"</string>
+	<!---->
+	<string name="path">"পাথ"</string>
+	<!---->
+	<string name="width">"প্রস্থ"</string>
+	<!---->
+	<string name="height">"দৈর্ঘ্য"</string>
+	<!---->
+	<string name="orientation">"পরিচিতি"</string>
+	<!---->
+	<string name="duration">"ব্যাপ্তিকাল"</string>
+	<!---->
+	<string name="mimetype">"এমআইএমই ধরন"</string>
+	<!---->
+	<string name="file_size">"ফাইলের আয়তন"</string>
+	<!---->
+	<string name="maker">"মেকার"</string>
+	<!---->
+	<string name="model">"মডেল"</string>
+	<!---->
+	<string name="flash">"ফ্ল্যাশ"</string>
+	<!---->
+	<string name="aperture">"অ্যাপারচার"</string>
+	<!---->
+	<string name="focal_length">"ফোকাল দৈর্ঘ্য"</string>
+	<!---->
+	<string name="white_balance">"হোয়াইট ব্যালেন্স"</string>
+	<!---->
+	<string name="exposure_time">"এক্সপোজার টাইম"</string>
+	<!---->
+	<string name="iso">"আইএসও"</string>
+	<!-- no translation found for unit_mm -->
+	<skip />
+	<!---->
+	<string name="manual">"ম্যানুয়েল"</string>
+	<!---->
+	<string name="auto">"অটো"</string>
+	<!---->
+	<string name="flash_on">"ফ্ল্যাশ ফায়ারর্ড"</string>
+	<!---->
+	<string name="flash_off">"কোন ফ্ল্যাশ ছাড়া"</string>
+	<!-- no translation found for unknown -->
+	<skip />
+	<!---->
+	<string name="try_to_set_local_album_available_offline">"এই আইটেমটি স্থানীয়ভাবে সংরক্ষণ করা হয়েছে এবং অফলাইনে পাওয়া যায়।"</string>
+	<!---->
+	<string name="please_wait">"অনুগ্রহ করে অপেক্ষা করুন..."</string>
+	<!---->
+	<string name="camera_error_title">"ক্যামেরা ত্রুটি"</string>
+	<!---->
+	<string name="cannot_connect_camera">"ক্যামেরা সংযোগ করতে পারে নি."</string>
+	<!---->
+	<string name="camera_disabled">"নিরাপত্তা নীতির কারণে ক্যামেরা নিষ্ক্রিয় করা আছে।"</string>
+	<!---->
+	<string name="wait">"অনুগ্রহ করে অপেক্ষা করুন..."</string>
+	<!---->
+	<string name="no_storage" product="default">"ক্যামেরা ব্যবহার করার পূর্বে একটি এসডি কার্ড ঢোকান ."</string>
+	<!---->
+	<string name="preparing_sd" product="default">"এসডি কার্ড প্রস্তুত করা হচ্ছে\u2026"</string>
+	<!---->
+	<string name="access_sd_fail" product="default">"এসডি কার্ড প্রবেশ করা যাচ্ছে না."</string>
+	<!---->
+	<string name="time_lapse_title">"টাইম ল্যাপস রেকর্ডিং"</string>
+	<!-- no translation found for capturing -->
+	<skip />
+	<!---->
+	<string name="pref_camera_id_title">"ক্যামেরা পছন্দ করুন"</string>
+	<!---->
+	<string name="pref_camera_id_entry_back">"পেছনে"</string>
+	<!---->
+	<string name="pref_camera_id_entry_front">"সামনে"</string>
+	<!---->
+	<string name="pref_camera_save_location_title">"জিপিএস ট্যাগিং"</string>
+	<!-- no translation found for pref_camera_location_label -->
+	<skip />
+	<!---->
+	<string name="pref_camera_timer_title">"গণণা টাইমার"</string>
+	<!-- no translation found for pref_camera_timer_sound_default -->
+	<skip />
+	<!---->
+	<string name="pref_camera_timer_sound_title">"সূচনা সময় হুইসেল"</string>
+	<!-- no translation found for setting_off -->
+	<skip />
+	<!-- no translation found for setting_on -->
+	<skip />
+	<!---->
+	<string name="pref_video_quality_title">"ভিডিও এর ধরন"</string>
+	<!-- no translation found for pref_video_time_lapse_frame_interval_title -->
+	<skip />
+	<!---->
+	<string name="pref_camera_settings_category">"ক্যামেরা সেটিংস"</string>
+	<!---->
+	<string name="pref_camcorder_settings_category">"ক্যামকর্ডার সেটিং"</string>
+	<!---->
+	<string name="pref_camera_picturesize_title">"ছবি আকার"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_large">"বড়"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_medium">"মাঝারি"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_small">"ছোট"</string>
+	<!---->
+	<string name="pref_camera_focusmode_title">"ফোকাস মোড"</string>
+	<!---->
+	<string name="pref_camera_focusmode_entry_auto">"স্বয়ংক্রিয়"</string>
+	<!---->
+	<string name="pref_camera_focusmode_entry_infinity">"ইনফিনিটি"</string>
+	<!---->
+	<string name="pref_camera_focusmode_entry_macro">"ম্যাক্রো"</string>
+	<!---->
+	<string name="pref_camera_focusmode_label_auto">"অটো"</string>
+	<!---->
+	<string name="pref_camera_focusmode_label_infinity">"ইনফিনিটি"</string>
+	<!---->
+	<string name="pref_camera_focusmode_label_macro">"ম্যাক্রো"</string>
+	<!---->
+	<string name="pref_camera_flashmode_title">"ফ্ল্যাশ মোড"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label">"ফ্ল্যাশ মোড"</string>
+	<!---->
+	<string name="pref_camera_flashmode_entry_auto">"স্বয়ংক্রিয়"</string>
+	<!---->
+	<string name="pref_camera_flashmode_entry_on">"চালু করুন"</string>
+	<!---->
+	<string name="pref_camera_flashmode_entry_off">"বন্ধ করুন"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label_auto">"ফ্ল্যাশ অটো"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label_on">"ফ্ল্যাশ উপর"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label_off">"ফ্ল্যাশ বন্ধ"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_title">"হোয়াইট ব্যালেন্স"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label">"হোয়াইট ব্যালেন্স"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_auto">"স্বয়ংক্রিয়"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_incandescent">"ইনক্যানডিসেন্ট"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_daylight">"দিনের আলো"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_fluorescent">"প্রতিপ্রভ"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_cloudy">"মেঘলা"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_auto">"স্বয়ংক্রিয়"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_incandescent">"ইনক্যানডিসেন্ট"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_daylight">"দিনের আলো"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_fluorescent">"প্রতিপ্রভ"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_cloudy">"মেঘলা"</string>
+	<!---->
+	<string name="pref_camera_scenemode_title">"দৃশ্য মোড"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_auto">"স্বয়ংক্রিয়"</string>
+	<!-- no translation found for pref_camera_scenemode_entry_hdr_plus -->
+	<skip />
+	<!-- no translation found for pref_camera_scenemode_entry_hdr -->
+	<skip />
+	<!-- no translation found for pref_camera_scenemode_entry_turn_hdr_plus_on -->
+	<skip />
+	<!-- no translation found for pref_camera_scenemode_entry_turn_hdr_plus_off -->
+	<skip />
+	<!-- no translation found for pref_camera_scenemode_entry_turn_hdr_on -->
+	<skip />
+	<!-- no translation found for pref_camera_scenemode_entry_turn_hdr_off -->
+	<skip />
+	<!---->
+	<string name="pref_camera_scenemode_entry_action">"অ্যাকশন"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_night">"রাত"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_sunset">"সূর্যাস্ত"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_party">"পার্টি"</string>
+	<!-- no translation found for pref_camera_scenemode_label_auto -->
+	<skip />
+	<!-- no translation found for pref_camera_scenemode_label_action -->
+	<skip />
+	<!-- no translation found for pref_camera_scenemode_label_night -->
+	<skip />
+	<!-- no translation found for pref_camera_scenemode_label_sunset -->
+	<skip />
+	<!-- no translation found for pref_camera_scenemode_label_party -->
+	<skip />
+	<!---->
+	<string name="pref_camera_countdown_label_off">"টাইমার বন্ধ"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_one">"1 সেকেন্ড"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_three">"৩ সেকেন্ড"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_five">"৫ সেকেন্ড"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_ten">"10 সেকেন্ড"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_fifteen">"১৫ সেকেন্ড"</string>
+	<!---->
+	<string name="not_selectable_in_scene_mode">"দৃশ্য মোডে নির্বাচনযোগ্য নয়।"</string>
+	<!---->
+	<string name="pref_exposure_title">"এক্সপোজার"</string>
+	<!---->
+	<string name="pref_exposure_label">"এক্সপোজার"</string>
+	<!-- no translation found for pref_camera_hdr_default -->
+	<skip />
+	<!-- no translation found for pref_camera_hdr_plus_default -->
+	<skip />
+	<!---->
+	<string name="pref_camera_hdr_label">"HDR"</string>
+	<!---->
+	<string name="pref_camera_id_label_back">"সামনের ক্যামেরা"</string>
+	<!---->
+	<string name="pref_camera_id_label_front">"পিছনে ক্যামেরা"</string>
+	<!---->
+	<string name="dialog_ok">"ঠিক আছে"</string>
+	<!---->
+	<string name="dialog_cancel">"বাতিল করা"</string>
+	<!---->
+	<string name="spaceIsLow_content" product="default">"আপনার এসডি কার্ড স্থান চলমান আউট হয়. মানের সেটিং পরিবর্তন বা কিছু চিত্র বা মুছে দিন"</string>
+	<!-- no translation found for phone_storage_low -->
+	<skip />
+	<!---->
+	<string name="video_reach_size_limit">"আয়তন সীমায় পৌঁছে গেছে।"</string>
+	<!-- no translation found for video_record_start_failed -->
+	<skip />
+	<!---->
+	<string name="pano_too_fast_prompt">"অতি দ্রুত"</string>
+	<!---->
+	<string name="pano_dialog_prepare_preview">"বিস্তৃত দৃশ্যপট তৈরি করছে"</string>
+	<!---->
+	<string name="pano_dialog_panorama_failed">"পরিদৃশ্য সংরক্ষণ করা যায়নি."</string>
+	<!---->
+	<string name="pano_dialog_title">"বিস্তৃত দৃশ্যাবলী"</string>
+	<!---->
+	<string name="pano_capture_indication">"বিস্তৃত দৃশপটের ছবি নিচ্ছে"</string>
+	<!---->
+	<string name="pano_dialog_waiting_previous">"পূর্ববর্তী পরিদৃশ্য জন্য অপেক্ষা করা"</string>
+	<!---->
+	<string name="pano_review_saving_indication_str">"সংরক্ষণ চলছে..."</string>
+	<!---->
+	<string name="pano_review_rendering">"বিস্তৃত দৃশ্যাবলী রূপান্তরণ"</string>
+	<!---->
+	<string name="tap_to_focus">"ফোকাস করতে স্পর্শ করুন।"</string>
+	<!---->
+	<string name="pref_video_effect_title">"প্রভাব"</string>
+	<!---->
+	<string name="effect_none">"কোনটি নয়"</string>
+	<!---->
+	<string name="effect_goofy_face_squeeze">"চেপে ধরুন"</string>
+	<!---->
+	<string name="effect_goofy_face_big_eyes">"বড় চোখ"</string>
+	<!---->
+	<string name="effect_goofy_face_big_mouth">"বড় মুখ"</string>
+	<!---->
+	<string name="effect_goofy_face_small_mouth">"ছোট মুখ"</string>
+	<!---->
+	<string name="effect_goofy_face_big_nose">"বড় নাক"</string>
+	<!---->
+	<string name="effect_goofy_face_small_eyes">"ছোট চোখ"</string>
+	<!---->
+	<string name="effect_backdropper_space">"ইন স্পেস"</string>
+	<!---->
+	<string name="effect_backdropper_sunset">"সূর্যাস্ত"</string>
+	<!---->
+	<string name="effect_backdropper_gallery">"আপনার ভিডিও"</string>
+	<!---->
+	<string name="video_snapshot_hint">"রেকর্ড করার সময় ছবি তুলতে স্পর্শ করুন"</string>
+	<!---->
+	<string name="video_recording_started">"ভিডিও রেকর্ডিং করা বন্ধ করে দিয়েছে ."</string>
+	<!---->
+	<string name="video_recording_stopped">"প্রতি 2 মিনিট"</string>
+	<!---->
+	<string name="clear_effects">"প্রভাব মুছে ফেলুন"</string>
+	<!---->
+	<string name="effect_silly_faces">"বোকাটে চেহারা"</string>
+	<!---->
+	<string name="effect_background">"পটভূমি"</string>
+	<!-- no translation found for accessibility_shutter_button -->
+	<skip />
+	<!---->
+	<string name="accessibility_cancel_button">"বাতিল করা"</string>
+	<!---->
+	<string name="accessibility_menu_button">"মেনু বাটন"</string>
+	<!---->
+	<string name="accessibility_check_box">"%1$s গুলি চেক বক্স"</string>
+	<!---->
+	<string name="accessibility_switch_to_camera">"ছবির পরিবর্তন করুন"</string>
+	<!---->
+	<string name="accessibility_switch_to_video">"ভিডিওতে যান"</string>
+	<!---->
+	<string name="accessibility_switch_to_panorama">"বিস্তৃত দৃশ্য(প্যানরামা)"</string>
+	<!-- no translation found for accessibility_switch_to_photo_sphere -->
+	<skip />
+	<!-- no translation found for accessibility_switch_to_gcam -->
+	<skip />
+	<!---->
+	<string name="accessibility_switch_to_refocus">"Refocus বাছাই করুন"</string>
+	<!---->
+	<string name="accessibility_review_cancel">"পর্যালোচনা বাতিল"</string>
+	<!---->
+	<string name="accessibility_review_ok">"পর্যালোচনা সম্পন্ন"</string>
+	<!---->
+	<string name="accessibility_review_retake">"পর্যালোচনা RETAKE"</string>
+	<!---->
+	<string name="accessibility_mode_options">"অপশনগুলি"</string>
+	<!-- no translation found for accessibility_mode_list_hidden -->
+	<skip />
+	<!-- no translation found for accessibility_mode_list_shown -->
+	<skip />
+	<!-- no translation found for media_accessibility_peek -->
+	<skip />
+	<!-- no translation found for photo_accessibility_peek -->
+	<skip />
+	<!-- no translation found for video_accessibility_peek -->
+	<skip />
+	<!-- no translation found for accessibility_unlock_to_camera -->
+	<skip />
+	<!-- no translation found for media_date_content_description -->
+	<skip />
+	<!-- no translation found for photo_date_content_description -->
+	<skip />
+	<!-- no translation found for video_date_content_description -->
+	<skip />
+	<!-- no translation found for panorama_date_content_description -->
+	<skip />
+	<!-- no translation found for photosphere_date_content_description -->
+	<skip />
+	<!-- no translation found for refocus_date_content_description -->
+	<skip />
+	<!-- no translation found for media_processing_content_description -->
+	<skip />
+	<!-- no translation found for accessibility_mode_list_toggle -->
+	<skip />
+	<!-- no translation found for btn_mode_list_toggle -->
+	<skip />
+	<!-- no translation found for accessibility_filmstrip_toggle -->
+	<skip />
+	<!-- no translation found for btn_filmstrip_toggle -->
+	<skip />
+	<!-- no translation found for capital_on -->
+	<skip />
+	<!---->
+	<string name="capital_off">"বন্ধ"</string>
+	<!---->
+	<string name="video_control_play">"ভিডিও প্লে"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_off">"বন্ধ"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_500">"0.5 দ্বিতীয়"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1000">"1 সেকেন্ড"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1500">"1.5  সেকেন্ড"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_2000">"২ সেকেন্ড"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_2500">"2.5 সেকেন্ড"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_3000">"৩ সেকেন্ড"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_4000">"৪ সেকেন্ড"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_5000">"৫ সেকেন্ড"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_6000">"৬ সেকেন্ড"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_10000">"১০ সেকেন্ড"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_12000">"12 সেকেন্ডের"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_15000">"১৫ সেকেন্ড"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_24000">"24 সেকেন্ডের"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_30000">"0.5 মিনিট"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_60000">"1 মিনিট"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_90000">"1.5 মিনিট"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_120000">"২ মিনিট"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_150000">"2.5 মিনিট"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_180000">"3 মিনিট"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_240000">"4 মিনিট"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_300000">"৫ মিনিট"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_360000">"6 মিনিট"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_600000">"১০ মিনিট"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_720000">"12 মিনিট"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_900000">"১৫ মিনিট"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1440000">"24 মিনিট"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1800000">"0.5 ঘন্টা"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_3600000">"1 ঘন্টা"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_5400000">"1.5 ঘন্টা"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_7200000">"২ ঘণ্টা"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_9000000">"2.5 ঘন্টা"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_10800000">"৩ ঘণ্টা"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_14400000">"4 ঘন্টা"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_18000000">"5 ঘন্টা"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_21600000">"6 ঘন্টা"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_36000000">"10 ঘন্টা"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_43200000">"12 ঘন্টা"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_54000000">"15 ঘন্টা"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_86400000">"২৪ ঘণ্টা"</string>
+	<!---->
+	<string name="time_lapse_seconds">"ভিডিও রেকর্ডিং শুরু হয়েছে ."</string>
+	<!---->
+	<string name="time_lapse_minutes">"সেকেন্ডের"</string>
+	<!---->
+	<string name="time_lapse_hours">"ঘণ্টা"</string>
+	<!-- no translation found for time_lapse_interval_set -->
+	<skip />
+	<!---->
+	<string name="set_time_interval">"সময় ভ্রষ্টতা বৈশিষ্ট্য বন্ধ. সময়ের ব্যবধান সেট করতে এটি চালু করুন ."</string>
+	<!---->
+	<string name="set_time_interval_help">"গণণা টাইমার বন্ধ. একটি ছবি গ্রহণ করার আগে নিচে গণনা করতে এটি চালু করুন ."</string>
+	<!---->
+	<string name="set_duration">"সময় ব্যবধান সেট করুন"</string>
+	<!---->
+	<string name="count_down_title_text">"একটি ছবির নিতে নিচে বেড়ে চলেছে"</string>
+	<!---->
+	<string name="remember_location_title">"সেকেন্ডের মধ্যে সময়কাল সেট করুন"</string>
+	<!---->
+	<string name="remember_location_prompt">"তারা নেয়া হয় যেখানে অবস্থানের সঙ্গে আপনার ফটো এবং ভিডিও ট্যাগ. \ N \ n nother অ্যাপ্লিকেশান আপনার সংরক্ষিত ইমেজ বরাবর এই তথ্য ব্যবহার করতে পারবেন."</string>
+	<!---->
+	<string name="remember_location_no">"না, ধন্যবাদ ."</string>
+	<!---->
+	<string name="remember_location_yes">"হ্যা"</string>
+	<!---->
+	<string name="camera_menu_more_label">"আরও অপশন"</string>
+	<!-- no translation found for camera_menu_settings_label -->
+	<skip />
+	<!-- no translation found for create_tiny_planet -->
+	<skip />
+	<!-- no translation found for saving_tiny_planet -->
+	<skip />
+	<!-- no translation found for tiny_planet_zoom -->
+	<skip />
+	<!-- no translation found for tiny_planet_rotate -->
+	<skip />
+	<!---->
+	<string name="photo_editor">"ছবি সম্পাদক"</string>
+	<!---->
+	<string name="crop_save">"সংরক্ষণ করুন"</string>
+	<!---->
+	<string name="cannot_load_image">"ইমেজ লোড করতে পারেন !"</string>
+	<!---->
+	<string name="switch_photo_filmstrip">"ফিল্মস্ট্রিপ প্রদর্শন"</string>
+	<!---->
+	<string name="setting_wallpaper">"সেট ওয়ালপেপার"</string>
+	<!---->
+	<string name="mode_settings">"সেটিং"</string>
+	<!---->
+	<string name="mode_camera">"স্বয়ংক্রিয়"</string>
+	<!---->
+	<string name="mode_video">"ভিডিও"</string>
+	<!-- no translation found for mode_slow_motion -->
+	<skip />
+	<!-- no translation found for mode_photosphere -->
+	<skip />
+	<!-- no translation found for mode_timelapse -->
+	<skip />
+	<!---->
+	<string name="mode_wideangle">"ওয়াইড অ্যাঙ্গেল"</string>
+	<!---->
+	<string name="mode_panorama">"বিস্তৃত দৃশ্যাবলী"</string>
+	<!-- no translation found for mode_refocus -->
+	<skip />
+	<!-- no translation found for mode_camera_desc -->
+	<skip />
+	<!-- no translation found for mode_video_desc -->
+	<skip />
+	<!-- no translation found for mode_photosphere_desc -->
+	<skip />
+	<!-- no translation found for mode_panorama_desc -->
+	<skip />
+	<!-- no translation found for mode_slow_motion_desc -->
+	<skip />
+	<!-- no translation found for mode_refocus_desc -->
+	<skip />
+	<!-- no translation found for settings_open_desc -->
+	<skip />
+	<!-- no translation found for settings_close_desc -->
+	<skip />
+	<!-- no translation found for hdr_plus_off_desc -->
+	<skip />
+	<!-- no translation found for hdr_plus_on_desc -->
+	<skip />
+	<!-- no translation found for hdr_off_desc -->
+	<skip />
+	<!-- no translation found for hdr_on_desc -->
+	<skip />
+	<!---->
+	<string name="flash_off_desc">"ফ্ল্যাশ বন্ধ"</string>
+	<!---->
+	<string name="flash_auto_desc">"ফ্ল্যাশ অটো"</string>
+	<!---->
+	<string name="flash_on_desc">"ফ্ল্যাশ উপর"</string>
+	<!-- no translation found for hdr_plus_flash_off_desc -->
+	<skip />
+	<!-- no translation found for hdr_plus_flash_auto_desc -->
+	<skip />
+	<!-- no translation found for hdr_plus_flash_on_desc -->
+	<skip />
+	<!-- no translation found for torch_on_desc -->
+	<skip />
+	<!-- no translation found for torch_off_desc -->
+	<skip />
+	<!---->
+	<string name="camera_id_back_desc">"পিছনে ক্যামেরা"</string>
+	<!---->
+	<string name="camera_id_front_desc">"সামনের ক্যামেরা"</string>
+	<!-- no translation found for grid_lines_off_desc -->
+	<skip />
+	<!-- no translation found for grid_lines_on_desc -->
+	<skip />
+	<!-- no translation found for countdown_timer_off -->
+	<skip />
+	<!-- no translation found for countdown_timer_duration_2s -->
+	<skip />
+	<!-- no translation found for countdown_timer_duration_3s -->
+	<skip />
+	<!-- no translation found for countdown_timer_duration_5s -->
+	<skip />
+	<!-- no translation found for countdown_timer_duration_10s -->
+	<skip />
+	<!---->
+	<string name="more_options_desc">"আরো অপশন"</string>
+	<!---->
+	<string name="cancel_button_description">"বাতিল করা"</string>
+	<!---->
+	<string name="done_button_description">"সম্পন্ন"</string>
+	<!-- no translation found for retake_button_description -->
+	<skip />
+	<!-- no translation found for share_button_description -->
+	<skip />
+	<!---->
+	<string name="view_button_description">"দেখুন"</string>
+	<!---->
+	<string name="edit_button_description">"সম্পাদনা করুন"</string>
+	<!---->
+	<string name="delete_button_description">"মুছুন"</string>
+	<!-- no translation found for manual_exposure_compensation_desc -->
+	<skip />
+	<!-- no translation found for exposure_compensation_desc_n2 -->
+	<skip />
+	<!-- no translation found for exposure_compensation_desc_n1 -->
+	<skip />
+	<!-- no translation found for exposure_compensation_desc_0 -->
+	<skip />
+	<!-- no translation found for exposure_compensation_desc_p1 -->
+	<skip />
+	<!-- no translation found for exposure_compensation_desc_p2 -->
+	<skip />
+	<!-- no translation found for button_change_announcement -->
+	<skip />
+	<!---->
+	<string name="setting_location">"লোকেশন"</string>
+	<!-- no translation found for setting_back_camera_photo -->
+	<skip />
+	<!-- no translation found for setting_back_camera_video -->
+	<skip />
+	<!-- no translation found for setting_front_camera_photo -->
+	<skip />
+	<!-- no translation found for setting_front_camera_video -->
+	<skip />
+	<!-- no translation found for setting_default_camera -->
+	<skip />
+	<!---->
+	<string name="setting_google_help_and_feedback">"সাহায্য &amp; amp; প্রতিক্রিয়া"</string>
+	<!-- no translation found for processing_hdr_plus -->
+	<skip />
+	<!---->
+	<string name="open_source_licenses">"অপেন সোর্স লাইসেন্স"</string>
+	<!---->
+	<string name="pref_category_general">"সাধারণ সেটিং"</string>
+	<!-- no translation found for pref_category_resolution_quality -->
+	<skip />
+	<!---->
+	<string name="pref_category_about">"সম্পর্কে"</string>
+	<!---->
+	<string name="pref_title_build_version">"বিল্ড সংস্করণ"</string>
+	<!---->
+	<string name="pref_video_quality_entry_low">"নিম্ন"</string>
+	<!---->
+	<string name="pref_video_quality_entry_high">"উচ্চ"</string>
+	<!-- no translation found for pref_video_quality_entry_qcif -->
+	<skip />
+	<!-- no translation found for pref_video_quality_entry_cif -->
+	<skip />
+	<!-- no translation found for pref_video_quality_entry_480p -->
+	<skip />
+	<!-- no translation found for pref_video_quality_entry_720p -->
+	<skip />
+	<!-- no translation found for pref_video_quality_entry_1080p -->
+	<skip />
+	<!-- no translation found for pref_video_quality_entry_qvga -->
+	<skip />
+	<!-- no translation found for pref_video_quality_entry_2160p -->
+	<skip />
+	<!-- no translation found for setting_summary_x_megapixels -->
+	<skip />
+	<!-- no translation found for setting_summary_aspect_ratio_and_megapixels -->
+	<skip />
+	<!-- no translation found for cling_text_for_refocus_editor_button -->
+	<skip />
+	<!---->
+	<string name="pref_category_advanced">"উচ্চতর"</string>
+	<!-- no translation found for pref_camera_exposure_compensation -->
+	<skip />
+	<!-- no translation found for settings_cling_text -->
+	<skip />
+	<!-- no translation found for photo_size_selection_title -->
+	<skip />
+	<!-- no translation found for photo_aspect_ratio_selection_content -->
+	<skip />
+	<!---->
+	<string name="share_to">"সেয়ার"</string>
+	<!---->
+	<string name="edit_with">"সঙ্গে সম্পাদনা করুন"</string>
+	<!---->
+	<string name="startup_dialog_button_next">"পরবর্তী"</string>
+	<!-- no translation found for confirm_button_text -->
+	<skip />
+	<!-- no translation found for full_sensor_4x3_aspect_ratio -->
+	<skip />
+	<!-- no translation found for cropped_sensor_16x9_aspect_ratio -->
+	<skip />
+	<!-- no translation found for pref_boolean_false -->
+	<skip />
+	<!-- no translation found for pref_boolean_true -->
+	<skip />
+	<!---->
+	<string name="pref_camera_iso_s_f_entry_auto">"অটো"</string>
+	<!-- no translation found for manual_manu_title_iso -->
+	<skip />
+	<!-- no translation found for manual_manu_title_exposure -->
+	<skip />
+	<!-- no translation found for manual_manu_title_wb -->
+	<skip />
+	<!-- no translation found for manual_manu_title_focus -->
+	<skip />
+	<!---->
+	<string name="setting_group_photo">"ছবি"</string>
+	<!---->
+	<string name="setting_group_video">"ভিডিও"</string>
+	<!---->
+	<string name="setting_group_general">"সাধারণ"</string>
+	<!---->
+	<string name="pref_camera_size_title">"আয়তন"</string>
+	<!---->
+	<string name="pref_rear_camera_size_title">"আয়তন"</string>
+	<!---->
+	<string name="pref_front_camera_size_title">"আয়তন"</string>
+	<!-- no translation found for pref_rear_camera_size_title_vdf -->
+	<skip />
+	<!-- no translation found for pref_front_camera_size_title_vdf -->
+	<skip />
+	<!---->
+	<string name="pref_camera_grid_title">"গ্রিড"</string>
+	<!-- no translation found for pref_camera_pose_title -->
+	<skip />
+	<!-- no translation found for pref_camera_compose_title -->
+	<skip />
+	<!---->
+	<string name="pref_video_eis_title">"EIS"</string>
+	<!---->
+	<string name="pref_camera_face_beauty_title">"মুখশ্রী"</string>
+	<!-- no translation found for pref_camera_mirror_selfie_title -->
+	<skip />
+	<!-- no translation found for pref_camera_attention_seeker_title -->
+	<skip />
+	<!-- no translation found for pref_camera_ais_title -->
+	<skip />
+	<!-- no translation found for pref_camera_super_resolution_title -->
+	<skip />
+	<!---->
+	<string name="pref_camera_savepath_title">"সংগ্রহস্থল"</string>
+	<!---->
+	<string name="pref_camera_savepath_entry_0">"ফোন"</string>
+	<!---->
+	<string name="pref_camera_savepath_entry_1">"এসডি কার্ড"</string>
+	<!-- no translation found for pref_camera_savepath_default -->
+	<skip />
+	<!---->
+	<string name="pref_camera_sound_title">"শাটার শব্দ"</string>
+	<!-- no translation found for pref_visidon_mode_title -->
+	<skip />
+	<!-- no translation found for pref_camera_gesture_detection_title -->
+	<skip />
+	<!---->
+	<string name="visidon_mode_face_beauty_entry">"মুখশ্রী"</string>
+	<!-- no translation found for visidon_mode_super_resolution_entry -->
+	<skip />
+	<!---->
+	<string name="visidon_mode_low_light_entry">"অল্প আলো"</string>
+	<!-- no translation found for visidon_mode_hdr_entry -->
+	<skip />
+	<!-- no translation found for visidon_mode_off_entry -->
+	<skip />
+	<!---->
+	<string name="mode_manual">"ম্যানুয়েল"</string>
+	<!---->
+	<string name="mode_pano">"বিস্তৃত দৃশ্যাবলী"</string>
+	<!-- no translation found for mode_parallax -->
+	<skip />
+	<!-- no translation found for mode_micro_video -->
+	<skip />
+	<!-- no translation found for mode_manual_desc -->
+	<skip />
+	<!-- no translation found for mode_pano_desc -->
+	<skip />
+	<!-- no translation found for mode_parallax_desc -->
+	<skip />
+	<!-- no translation found for mode_micro_video_desc -->
+	<skip />
+	<!---->
+	<string name="pref_restore_settings">"ডিফল্ট পূর্বাবস্থায় আনুন"</string>
+	<!---->
+	<string name="quit_dialog_title_battery_low">"ব্যাটারীর চার্জ কম"</string>
+	<!-- no translation found for quit_dialog_title_storage_low -->
+	<skip />
+	<!-- no translation found for quit_dialog_msg -->
+	<skip />
+	<!---->
+	<string name="battery_info_dialog_tile">"ব্যাটারীর চার্জ কম"</string>
+	<!-- no translation found for battery_info_dialog_msg_disable_flash -->
+	<skip />
+	<!-- no translation found for battery_info_dialog_msg_close_camera -->
+	<skip />
+	<!---->
+	<string name="battery_info_dialog_button_ok">"ঠিক আছে"</string>
+	<!---->
+	<string name="battery_info_dialog_button_close">"বন্ধ করুন"</string>
+	<!-- no translation found for battery_info_low_toast_message -->
+	<skip />
+	<!-- no translation found for battery_info_video_low_toast_message -->
+	<skip />
+	<!-- no translation found for battery_info_video_low_less_8 -->
+	<skip />
+	<!-- no translation found for battery_info_video_low_less_8_dialog -->
+	<skip />
+	<!-- no translation found for battery_info_video_low_cancel -->
+	<skip />
+	<!-- no translation found for battery_info_video_low_continue -->
+	<skip />
+	<!-- no translation found for MSG_SAVE_OUTPUT_IMAGE -->
+	<skip />
+	<!-- no translation found for MSG_CANCEL_CAPTURE -->
+	<skip />
+	<!-- no translation found for save_dir_preview_img -->
+	<skip />
+	<!-- no translation found for save_dir_still_img -->
+	<skip />
+	<!-- no translation found for MSG_MISALIGNMENT -->
+	<skip />
+	<!-- no translation found for MSG_MOVE_CAMERA_SLOWLY -->
+	<skip />
+	<!---->
+	<string name="delete_selection">"নির্বাচিত আইটেম মুছে ফেলতে চান?"</string>
+	<!-- no translation found for burst_saving_hint -->
+	<skip />
+	<!-- no translation found for micro_video_remix_hint -->
+	<skip />
+	<!-- no translation found for lowlight_off_desc -->
+	<skip />
+	<!-- no translation found for lowlight_on_desc -->
+	<skip />
+	<!-- no translation found for tizr_prompt_desc -->
+	<skip />
+	<!---->
+	<string name="tizr_prompt_content">"শুরু করতে"</string>
+	<!-- no translation found for title_activity_tizr_share_video -->
+	<skip />
+	<!-- no translation found for night_mode_on_toast -->
+	<skip />
+	<!-- no translation found for hdr_on_toast -->
+	<skip />
+	<!-- no translation found for micro_video_guide_title -->
+	<skip />
+	<!-- no translation found for micro_video_guide_description -->
+	<skip />
+	<!---->
+	<string name="micro_video_guide_checkbox">"আবার দেখাবেন না"</string>
+	<!---->
+	<string name="micro_video_guide_button">"বুঝেছি"</string>
+	<!-- no translation found for micro_minimum_time_tip -->
+	<skip />
+	<!-- no translation found for micro_shutter_help_tip -->
+	<skip />
+	<!-- no translation found for permissions_needed -->
+	<skip />
+	<!---->
+	<string name="grant_access_title">"গ্রান্ট এক্সেস"</string>
+	<!-- no translation found for grant_access_msg -->
+	<skip />
+	<!---->
+	<string name="grant_access_exit">"প্রস্থান"</string>
+	<!---->
+	<string name="grant_access_settings">"সেটিং"</string>
+	<!-- no translation found for location_and -->
+	<skip />
+	<!-- no translation found for location_msg -->
+	<skip />
+	<!-- no translation found for location_toast -->
+	<skip />
+	<!-- no translation found for location_snack_setting -->
+	<skip />
+	<!-- no translation found for aspect_ratio_and_megapixels_default -->
+	<skip />
+	<!-- no translation found for tips_for_panorama_preview -->
+	<skip />
+	<!-- no translation found for tip_for_move_center -->
+	<skip />
+	<!---->
+	<string name="tip_for_move_down">"নিচের দিকে নামুন"</string>
+	<!---->
+	<string name="tip_for_move_up">"ওপরের দিকে যান"</string>
+	<!---->
+	<string name="tip_for_move_slow">"মন্দীভূত করা"</string>
+	<!-- no translation found for tip_for_move_right -->
+	<skip />
+	<!-- no translation found for tip_for_move_left -->
+	<skip />
+	<!-- no translation found for super_zoom_on_toast -->
+	<skip />
+	<!-- no translation found for help_tip_welcome_take_tour -->
+	<skip />
+	<!---->
+	<string name="help_tip_welcome_cancel_tour">"না ধন্যবাদ"</string>
+	<!---->
+	<string name="help_tip_welcome_title">"ক্যামেরা"</string>
+	<!-- no translation found for help_tip_welcome_context -->
+	<skip />
+	<!-- no translation found for help_tip_snap_context -->
+	<skip />
+	<!-- no translation found for help_tip_camera_key_context -->
+	<skip />
+	<!-- no translation found for help_tip_recent_context -->
+	<skip />
+	<!-- no translation found for help_tip_startvideo_context -->
+	<skip />
+	<!-- no translation found for help_tip_videosnap_context -->
+	<skip />
+	<!-- no translation found for help_tip_stopvideo_context -->
+	<skip />
+	<!-- no translation found for help_tip_switch_front_context -->
+	<skip />
+	<!-- no translation found for help_tip_gesture_tip_context -->
+	<skip />
+	<!-- no translation found for help_tip_pinch_zoom_context -->
+	<skip />
+	<!-- no translation found for help_tip_quick_switch_context -->
+	<skip />
+	<!-- no translation found for help_tip_settings_context -->
+	<skip />
+	<!-- no translation found for help_tip_mode_context -->
+	<skip />
+	<!-- no translation found for help_tip_panorama_context -->
+	<skip />
+	<!-- no translation found for help_tip_manual_context -->
+	<skip />
+	<!-- no translation found for help_tip_manual_menu_context -->
+	<skip />
+	<!---->
+	<string name="help_tip_got_it_text">"বুঝেছি"</string>
+	<!---->
+	<string name="help_tip_dismiss_text">"বুঝেছি"</string>
+	<!---->
+	<string name="help_tip_skip_all_text">"স্কিপ সব"</string>
+	<!-- no translation found for optimize_saving_hint -->
+	<skip />
+	<!-- no translation found for wrapper_button_desc -->
+	<skip />
+	<!---->
+	<string name="restore_settings_dialog_msg">"আপনি সমস্ত ডিফল্ট মান পুনরুদ্ধার করতে চান আপনি কি নিশ্চিত?"</string>
+	<!---->
+	<string name="restore_settings_dialog_yes">"পুনরায় সেট করুন"</string>
+	<!---->
+	<string name="restore_settings_dialog_no">"বাতিল"</string>
+	<!-- no translation found for permission_title -->
+	<skip />
+	<!-- no translation found for permission_content -->
+	<skip />
+	<!-- no translation found for instant_capture_photos -->
+	<skip />
+	<!-- no translation found for photos -->
+	<skip />
+	<!---->
+	<string name="delete_selection_burst">"এই বিস্ফোরিত ক্রম %s ছবি রয়েছে. তাদের সব মুছে?"</string>
+	<!-- no translation found for flash_with_superzoom_toast -->
+	<skip />
+	<!-- no translation found for battery_warning_title -->
+	<skip />
+	<!-- no translation found for battery_warning_content -->
+	<skip />
+	<!-- no translation found for phone_storage_low_for_alert_dialog -->
+	<skip />
+	<!-- no translation found for sd_card_low_for_alert_dialog -->
+	<skip />
+	<!-- no translation found for camera_error_title_alert_dialog -->
+	<skip />
+	<!-- no translation found for storage_low_close_alert_dialog -->
+	<skip />
+	<!-- no translation found for storage_low_phone_full_no_sdcard_alert_dialog -->
+	<skip />
+	<!-- no translation found for storage_low_phone_sdcard_full_alert_dialog -->
+	<skip />
+	<!-- no translation found for storage_low_phone_full_sdcard_ok_alert_dialog -->
+	<skip />
+	<!-- no translation found for storage_low_storage_full_phone_ok_alert_dialog -->
+	<skip />
+	<!-- no translation found for storage_low_phone_full_sdcard_ok_button -->
+	<skip />
+	<!-- no translation found for storage_low_storage_full_phone_ok_button -->
+	<skip />
+	<!-- no translation found for storage_low_storage_critical_toast_message -->
+	<skip />
+	<!-- no translation found for storage_low_video_critical_toast_message -->
+	<skip />
+	<!---->
+	<string name="pref_camera_antibanding_title">"এন্টি ব্যাণ্ড"</string>
+	<!---->
+	<string name="pref_camera_antibanding_entry_0">"বন্ধ"</string>
+	<!---->
+	<string name="pref_camera_antibanding_entry_1">"50Hz"</string>
+	<!---->
+	<string name="pref_camera_antibanding_entry_2">"60Hz"</string>
+	<!---->
+	<string name="pref_camera_antibanding_entry_3">"স্বয়ংক্রিয়"</string>
+	<!-- no translation found for storage_warning_content -->
+	<skip />
+	<!-- no translation found for storage_and_battery_warning_content -->
+	<skip />
+	<!-- no translation found for remote_content -->
+	<skip />
+	<!-- no translation found for boom_key_press -->
+	<skip />
+	<!-- no translation found for boom_key -->
+	<skip />
+	<!---->
+	<string name="location_service_dialog_title">"জিপিএস বন্ধ"</string>
+	<!---->
+	<string name="location_service_dialog_msg">"অবস্থানের সঙ্গে ফটো এবং ভিডিও ট্যাগ করতে হলে, অবস্থান সেটিংস GPS এবং বেতার নেটওয়ার্কের চালু করুন."</string>
+	<!---->
+	<string name="location_service_dialog_cancel">"বাতিল"</string>
+	<!---->
+	<string name="location_service__dialog_setting">"সেটিংস"</string>
+	<!-- no translation found for gestureshot_guide_capture -->
+	<skip />
+	<!-- no translation found for mode_filters -->
+	<skip />
+	<!-- no translation found for mode_pose -->
+	<skip />
+	<!-- no translation found for video_recording_paused -->
+	<skip />
+	<!-- no translation found for pose_final_icon -->
+	<skip />
+	<!-- no translation found for time_left -->
+	<skip />
+	<!-- no translation found for pref_camera_auto_hdr_title -->
+	<skip />
+	<!-- no translation found for pref_camera_timer_entry_0 -->
+	<skip />
+	<!-- no translation found for pref_camera_timer_unit_suffix -->
+	<skip />
+	<!-- no translation found for pref_camera_face_beauty_summary -->
+	<skip />
+	<!-- no translation found for pref_camera_mirror_selfie_summary -->
+	<skip />
+	<!-- no translation found for pref_camera_pose_summary -->
+	<skip />
+	<!-- no translation found for mode_360_photo -->
+	<skip />
+	<!-- no translation found for panorama_preview_holder_info_text -->
+	<skip />
+	<!-- no translation found for back -->
+	<skip />
+	<!-- no translation found for gallery_name -->
+	<skip />
+	<!---->
+	<string name="audio_record_on_desc">"মাইক্রোফোন"</string>
+	<!-- no translation found for audio_record_off_desc -->
+	<skip />
+</resources>

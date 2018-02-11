@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/white" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/alarm_repeat"
+            android:textColor="@color/text_normal_black"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/one_time_layout"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:background="@drawable/my_ripple" >
+
+                <RadioButton
+                    android:id="@+id/img_one_time_select"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/left_right_margin"
+                    android:theme="@style/Theme.MstActivity"
+                    android:visibility="invisible" />
+
+                <TextView
+                    android:id="@+id/text_one_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/left_right_margin"
+                    android:layout_toRightOf="@id/img_one_time_select"
+                    android:text="@string/one_time"
+                    android:textColor="@color/text_normal_black"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/every_day_layout"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:background="@drawable/my_ripple" >
+
+                <RadioButton
+                    android:id="@+id/img_ervery_day_select"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/left_right_margin"
+                    android:theme="@style/Theme.MstActivity"
+                    android:visibility="invisible" />
+
+                <TextView
+                    android:id="@+id/text_every_day"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/left_right_margin"
+                    android:layout_toRightOf="@id/img_ervery_day_select"
+                    android:text="@string/every_day"
+                    android:textColor="@color/text_normal_black"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/mon_to_fir_layout"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:background="@drawable/my_ripple" >
+
+                <RadioButton
+                    android:id="@+id/img_mon_to_fri_select"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/left_right_margin"
+                    android:theme="@style/Theme.MstActivity"
+                    android:visibility="invisible" />
+
+                <TextView
+                    android:id="@+id/text_mon_to_fri"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/left_right_margin"
+                    android:layout_toRightOf="@id/img_mon_to_fri_select"
+                    android:text="@string/mon_to_fir"
+                    android:textColor="@color/text_normal_black"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/work_day_layout"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:background="@drawable/my_ripple" >
+
+                <RadioButton
+                    android:id="@+id/img_work_day_select"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/left_right_margin"
+                    android:theme="@style/Theme.MstActivity"
+                    android:visibility="invisible" />
+
+                <TextView
+                    android:id="@+id/text_work_day"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/left_right_margin"
+                    android:layout_toRightOf="@id/img_work_day_select"
+                    android:text="@string/work_day_dec"
+                    android:textColor="@color/text_normal_black"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/no_work_day_layout"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:background="@drawable/my_ripple" >
+
+                <RadioButton
+                    android:id="@+id/img_no_work_day_select"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/left_right_margin"
+                    android:theme="@style/Theme.MstActivity"
+                    android:visibility="invisible" />
+
+                <TextView
+                    android:id="@+id/text_no_work_day"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/left_right_margin"
+                    android:layout_toRightOf="@id/img_no_work_day_select"
+                    android:text="@string/no_work_day_dec"
+                    android:textColor="@color/text_normal_black"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/custom_layout"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:background="@drawable/my_ripple" >
+
+                <RadioButton
+                    android:id="@+id/img_custom_select"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/left_right_margin"
+                    android:theme="@style/Theme.MstActivity"
+                    android:visibility="invisible" />
+
+                <TextView
+                    android:id="@+id/text_custom"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/left_right_margin"
+                    android:layout_toRightOf="@id/img_custom_select"
+                    android:text="@string/custom"
+                    android:textColor="@color/text_normal_black"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

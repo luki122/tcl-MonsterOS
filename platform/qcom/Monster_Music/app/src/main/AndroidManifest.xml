@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="cn.tcl.music">
+
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.WRITE_MEDIA_STORAGE"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INSTALL_PACKAGES"/>
+
+    <permission android:name="android.permission.MEDIA_CONTENT_CONTROL"/>
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD"/>
+    <uses-permission android:name="android.permission.FORCE_STOP_PACKAGES"/>
+
+    <application
+        android:name=".app.MusicApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/app_music"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <meta-data
+            android:name="APP_KEY"
+            android:value="rA3Iz2" />
+
+        <meta-data
+        android:name="CHANNEL"
+        android:value="china_tecent_201"/>
+
+        <meta-data
+            android:name="SERVER_DOMAIN"
+            android:value="Test" />
+
+        <activity
+            android:name=".activities.MusicMainActivity"
+            android:configChanges="orientation|keyboard"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MstActivity"
+            android:windowSoftInputMode="adjustPan|stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.MusicWelcomeActivity"
+            android:configChanges="orientation|keyboard"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MstActivity"/>
+        <activity
+            android:name=".activities.CheckPermissonActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity
+            android:name=".activities.LocalMusicActivity"
+            android:configChanges="orientation|keyboard"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MstActivity"
+            android:windowSoftInputMode="adjustPan|stateHidden">
+        </activity>
+        <activity
+            android:name=".activities.MyFavouriteMusicActivity"
+            android:configChanges="orientation|keyboard"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MstActivity"
+            android:windowSoftInputMode="adjustPan|stateHidden">
+        </activity>
+        <activity
+            android:name=".activities.RecentlyPlayActivity"
+            android:configChanges="orientation|keyboard"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MstActivity"
+            android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity
+            android:name=".activities.PlaylistDetailActivity"
+            android:configChanges="orientation|keyboard"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MstActivity"
+            android:windowSoftInputMode="adjustPan|stateHidden">
+        </activity>
+        <activity
+            android:name=".activities.ScenesDetailActivity"
+            android:configChanges="orientation|keyboard"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MstActivity"
+            android:windowSoftInputMode="adjustPan|stateHidden">
+        </activity>
+        <activity
+            android:name=".activities.SearchActivity"
+            android:configChanges="orientation|keyboard"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MstActivity"
+            android:windowSoftInputMode="adjustPan|stateHidden">
+        </activity>
+        <activity
+            android:name=".activities.LocalAlbumListActivity"
+            android:configChanges="orientation|keyboard"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MstActivity"
+            android:windowSoftInputMode="adjustPan|stateHidden">
+        </activity>
+        <activity
+            android:name=".activities.LocalAlbumDetailActivity"
+            android:configChanges="orientation|keyboard"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MstActivity"
+            android:windowSoftInputMode="adjustPan|stateHidden">
+        </activity>
+        <activity
+            android:name=".activities.live.AlbumDetailActivity"
+            android:configChanges="orientation|keyboard"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MstActivity"
+            android:windowSoftInputMode="adjustPan|stateHidden">
+        </activity>
+        <activity
+            android:name=".activities.FolderDetailActivity"
+            android:configChanges="orientation|keyboard"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MstActivity"
+            android:windowSoftInputMode="adjustPan|stateHidden">
+        </activity>
+        <activity
+            android:name=".activities.SettingsActivity"
+            android:configChanges="orientation|keyboard"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MstActivity"
+            android:windowSoftInputMode="adjustPan|stateHidden">
+        </activity>
+        <activity
+            android:name=".activities.IgnoreActivity"
+            android:configChanges="orientation|keyboard"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MstActivity">
+        </activity>
+        <activity
+            android:name=".activities.PlayingActivity"
+            android:configChanges="orientation|keyboard"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MstActivity"
+            android:windowSoftInputMode="adjustPan|stateHidden">
+        </activity>
+        <activity
+            android:name=".activities.DownloadManagerActivity"
+            android:configChanges="orientation|keyboard"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MstActivity"
+            android:windowSoftInputMode="adjustPan|stateHidden">
+        </activity>
+        <activity
+            android:name=".activities.live.FragmentContainerActivityV2"
+            android:configChanges="orientation|keyboard"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MstActivity"
+            android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity
+            android:name=".activities.live.RankDetailActivity"
+            android:configChanges="orientation|keyboard"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MstActivity"
+            android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity
+            android:name=".activities.live.NetworkBatchActivity"
+            android:configChanges="orientation|keyboard"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MstActivity"
+            android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity
+            android:name=".activities.live.HotMusicRecommendActivity"
+            android:configChanges="orientation|keyboard"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/OriginalToolbarActivityTheme"
+            android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity
+            android:name=".activities.live.SingerDetailActivity"
+            android:configChanges="orientation|keyboard"
+            android:theme="@style/Theme.MstActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activities.live.OnlinePlayListDetailActivity"
+            android:configChanges="orientation|keyboard"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MstActivity"
+            android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity
+            android:name=".activities.live.ScenesDetailActivity"
+            android:configChanges="orientation|keyboard"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MstActivity"
+            android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity
+            android:name=".activities.SelectSongsActivity"
+            android:configChanges="orientation|keyboard"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MstActivity">
+        </activity>
+        <provider
+            android:name=".database.MediaContentProvider"
+            android:authorities="cn.tcl.music.providers.MediaContentProvider"
+            android:exported="true"/>
+        <service android:name=".service.MusicPlayBackService"
+            android:exported="false"/>
+        <!-- Xiami begin -->
+        <meta-data
+            android:name="TCL_SDK_DOMAIN_VERSION"
+            android:value="TESTING" />
+
+        <!--所显示品牌Logo   TCL 或者 ALCATEL-->
+        <meta-data
+            android:name="TCL_SDK_BRAND"
+            android:value="TCL" />
+
+        <!-- 由账号平台分配的appid -->
+        <meta-data
+            android:name="TCL_APPID"
+            android:value="74683439" />
+        <!-- 由账号平台分配 -->
+        <meta-data
+            android:name="REDIRECT_URI"
+            android:value="logintest.tclclouds.com/page/rel/web/" />
+
+        <activity
+            android:name="com.tcl.account.sdk.activity.WebActivity"
+            android:alwaysRetainTaskState="true"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale"
+            android:hardwareAccelerated="false"
+            android:theme="@style/Theme.MstActivity"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="com.tcl.account.sdk.intent.web" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.xiami.sdk.account.XMLoginActivity"
+                  android:theme="@style/Theme.MstActivity"
+            android:configChanges="keyboard|orientation"
+            android:launchMode="standard"
+            android:screenOrientation="portrait" />
+        <!-- Xiami end -->
+    </application>
+
+</manifest>

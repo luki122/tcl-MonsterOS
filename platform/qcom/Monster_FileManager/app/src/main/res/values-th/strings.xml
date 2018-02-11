@@ -1,0 +1,814 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="sort">"เรียง"</string>
+	<!---->
+	<string name="sort_by_name">"ชื่อ"</string>
+	<!---->
+	<string name="sort_by_date">"วันที่แก้ไข"</string>
+	<!---->
+	<string name="sort_by_time">"วันที่"</string>
+	<!---->
+	<string name="sort_by_type">"ประเภท"</string>
+	<!---->
+	<string name="sort_by_size">"ขนาด"</string>
+	<!---->
+	<string name="copy">"คัดลอก"</string>
+	<!---->
+	<string name="create_folder">"สร้าง"</string>
+	<!---->
+	<string name="cut">"ตัด"</string>
+	<!---->
+	<string name="delete">"ลบ"</string>
+	<!---->
+	<string name="delete_confirm">"ยืนยันการลบ"</string>
+	<!---->
+	<string name="deselect_all">"ยกเลิกการเลือกทั้งหมด"</string>
+	<!---->
+	<string name="select_all">"เลือกทั้งหมด"</string>
+	<!---->
+	<string name="show_file">"แสดงไฟล์ที่ซ่อนอยู่"</string>
+	<!---->
+	<string name="hide_file">"ซ่อนไฟล์ที่ซ่อน"</string>
+	<!---->
+	<string name="paste">"วาง"</string>
+	<!---->
+	<string name="rename">"เปลี่ยนชื่อ"</string>
+	<!---->
+	<string name="share">"แบ่งปัน"</string>
+	<!---->
+	<string name="viewby_list">"ดูตามรายการ"</string>
+	<!---->
+	<string name="viewby_grid">"ดูในแบบตาราง"</string>
+	<!---->
+	<string name="alert_delete_message">"ลบ"</string>
+	<!---->
+	<string name="multi_alert_delete_message">"ลบรายการที่เลือกหรือไม่?"</string>
+	<!---->
+	<string name="multi_alert_delete_message_cn">"ลบรายการที่เลือกหรือไม่?"</string>
+	<!-- no translation found for delete_folder_message -->
+	<skip />
+	<!---->
+	<string name="category_pictures">"ภาพ"</string>
+	<!---->
+	<string name="category_vedios">"วิดีโอ"</string>
+	<!---->
+	<string name="category_music">"เพลง"</string>
+	<!---->
+	<string name="category_download">"สิ่งที่ดาวน์โหลด"</string>
+	<!---->
+	<string name="category_bluetooth">"บลูทูธ"</string>
+	<!-- no translation found for app_name -->
+	<skip />
+	<!-- no translation found for theme_name -->
+	<skip />
+	<!---->
+	<string name="apk_name">"ไฟล์"</string>
+	<!---->
+	<string name="new_folder">"โฟลเดอร์ใหม่"</string>
+	<!---->
+	<string name="confirm_rename">"ยืนยันชื่อ"</string>
+	<!---->
+	<string name="warning">"จำนวนไฟล์สูงสุด"</string>
+	<!---->
+	<string name="share_warning">"คุณไม่สามารถแชร์มากกว่า 100 ไฟล์ได้"</string>
+	<!---->
+	<string name="loading">"กำลังโหลด…"</string>
+	<!---->
+	<string name="deleting">"กำลังลบ"</string>
+	<!---->
+	<string name="alert_delete_multiple">"ไฟล์ที่เลือกจะถูกลบ."</string>
+	<!---->
+	<string name="name">"ชื่อ"</string>
+	<!---->
+	<string name="size">"ขนาด"</string>
+	<!---->
+	<string name="modified_time">"แก้ไข"</string>
+	<!---->
+	<string name="msg_rename_ext">"นามสกุลไฟล์จะถูกเปลี่ยนแปลง อาจจะไม่รู้จักไฟล์ ดำเนินการต่อหรือไม่?"</string>
+	<!---->
+	<string name="wait">"โปรดรอสักครู่..."</string>
+	<!---->
+	<string name="done">"เสร็จ"</string>
+	<!-- no translation found for enable -->
+	<skip />
+	<!-- no translation found for enable_cn -->
+	<skip />
+	<!---->
+	<string name="cancel">"ยกเลิก"</string>
+	<!---->
+	<string name="no">"ไม่"</string>
+	<!---->
+	<string name="ok">"ตกลง"</string>
+	<!---->
+	<string name="yes">"ใช่"</string>
+	<!---->
+	<string name="details">"รายละเอียด"</string>
+	<!---->
+	<string name="drawer_open">"เปิด"</string>
+	<!---->
+	<string name="unknown">"ไม่รู้จัก"</string>
+	<!-- no translation found for unit_B -->
+	<skip />
+	<!-- no translation found for unit_KB -->
+	<skip />
+	<!-- no translation found for unit_MB -->
+	<skip />
+	<!-- no translation found for unit_GB -->
+	<skip />
+	<!-- no translation found for unit_TB -->
+	<skip />
+	<!---->
+	<string name="send_file">"แบ่งปันไฟล์ทาง"</string>
+	<!---->
+	<string name="default_search_text">"ค้นหาไฟล์"</string>
+	<!---->
+	<string name="free_space">"ที่ใช้ได้"</string>
+	<!---->
+	<string name="total_space">"พื้นที่ทั้งหมด"</string>
+	<!---->
+	<string name="drawer_category">"หมวดหมู่"</string>
+	<!---->
+	<string name="phone_storage">"ที่เก็บข้อมูลในโทรศัพท์"</string>
+	<!---->
+	<string name="phone_storage_cn">"พื้นที่จัดเก็บภายในโทรศัพท์"</string>
+	<!---->
+	<string name="sd_card">"การ์ด SD"</string>
+	<!---->
+	<string name="draw_left_phone_storage">"พื้นที่จัดเก็บภายในโทรศัพท์"</string>
+	<!---->
+	<string name="draw_left_sd_card">"การ์ด SD"</string>
+	<!-- no translation found for menu_settings -->
+	<skip />
+	<!---->
+	<string name="no_search_result">"0 ผลลัพธ์สำหรับ \"%1$s\"</string>
+	<!---->
+	<string name="copy_deny">"ไม่ได้รับอนุญาตให้คัดลอก"</string>
+	<!---->
+	<string name="cut_deny">"ไม่ได้รับอนุญาตให้ตัด"</string>
+	<!---->
+	<string name="delete_deny">"ไม่ได้รับอนุญาตให้ลบ"</string>
+	<!---->
+	<string name="insufficient_memory">"พื้นที่ไม่เพียงพอ"</string>
+	<!---->
+	<string name="insufficient_message">"ไม่สามารถคัดลอกไฟล์บางไฟล์ได้เนื่องจากมีพื้นที่ว่างไม่เพียงพอ"</string>
+	<!---->
+	<string name="invalid_empty_name">"ชื่อไฟล์หรือโฟลเดอร์ไม่สามารถว่างได้"</string>
+	<!---->
+	<string name="paste_same_folder">"ไม่สามารถคัดลอก: โฟลเดอร์ต้นทางเป็นที่เดียวกับปลายทาง"</string>
+	<!---->
+	<string name="invalid_char_prompt">"คุณใส่ตัวอักษรไม่ถูกต้อง"</string>
+	<!---->
+	<string name="msg_unable_open_file">"ไม่สนับสนุนรูปแบบไฟล์"</string>
+	<!---->
+	<string name="paste_sub_folder">"ไม่สามารถวางไฟล์ลงในโฟลเดอร์ย่อยได้"</string>
+	<!---->
+	<string name="operation_fail">"คำสั่งดำเนินการกับไฟล์บางประการล้มเหลว"</string>
+	<!---->
+	<string name="search_result">"ผลลัพธ์การค้นหา"</string>
+	<!---->
+	<string name="already_exists">"มีการใช้งาน %1$s อยู่แล้ว"</string>
+	<!---->
+	<string name="unmounted">"ยกเลิกการต่อเชื่อม %1$s"</string>
+	<!---->
+	<string name="create_hidden_file">"ไฟล์จะถูกซ่อน ถ้าชื่อไฟล์ขึ้นต้นด้วย \'.\'"</string>
+	<!---->
+	<string name="file_name_too_long">"ชื่อที่ใส่ยาวเกินไป"</string>
+	<!---->
+	<string name="some_paste_fail">"การดำเนินการวางล้มเหลว"</string>
+	<!---->
+	<string name="delete_fail">"ไม่สามารถลบ"</string>
+	<!---->
+	<string name="some_delete_fail">"คำสั่งลบบางประการล้มเหลว"</string>
+	<!---->
+	<string name="msg_unable_open_file_in_app">"ไม่มีแอปพลิเคชันที่สามารถเปิดไฟล์ได้"</string>
+	<!---->
+	<string name="drm_forwardforbidden_title">"ไม่ส่งต่อ"</string>
+	<!---->
+	<string name="drm_forwardforbidden_message">"ไม่สามารถส่งต่อไฟล์ DRM"</string>
+	<!---->
+	<string name="drm_no_valid_right">"ไฟล์ไม่มีการรับรอง DRM ที่ถูกต้อง!"</string>
+	<!---->
+	<string name="drm_current_count">"จำนวนปัจจุบัน："</string>
+	<!---->
+	<string name="unlimited_usage">"การใช้แบบไม่จำกัด"</string>
+	<!---->
+	<string name="drm_current_right">"ข้อจำกัดปัจจุบัน："</string>
+	<!---->
+	<string name="not_available">"ไม่มี"</string>
+	<!---->
+	<string name="right_url">"URL ผู้ออกใบอนุญาต:："</string>
+	<!---->
+	<string name="use_times">"ใช้ %s ครั้ง"</string>
+	<!---->
+	<string name="valid_after">"ใช้ได้หลังจาก"</string>
+	<!---->
+	<string name="valid_until">"ใช้ได้จนถึง"</string>
+	<!---->
+	<string name="drm_wifidisplay_title">"ไฟล์ที่ป้องกันการคัดลอก"</string>
+	<!---->
+	<string name="drm_wifidisplay_message">"ไม่สามารถแจกจ่ายไฟล์ที่ป้องกันการคัดลอก"</string>
+	<!---->
+	<string name="drm_wifidisplay_cancel_btn">"ปิด Wi-Fi Display"</string>
+	<!---->
+	<string name="drm_wifidisplay_ok">"ตกลง"</string>
+	<!---->
+	<string name="tv_link_close_toast">"Wi-Fi Display ปิดทำงานแล้ว"</string>
+	<!---->
+	<string name="usbotg">"พื้นที่จัดเก็บ USB ภายนอก"</string>
+	<!---->
+	<string name="show">"แสดงไฟล์ระบบ"</string>
+	<!---->
+	<string name="hide">"ซ่อนไฟล์ระบบ"</string>
+	<!---->
+	<string name="action_menu_create_folder_button">"สร้างโฟลเดอร์"</string>
+	<!---->
+	<string name="searchResult">"ผลการค้นหา"</string>
+	<!---->
+	<string name="default_folder_name">"ชื่อโฟลเดอร์"</string>
+	<!---->
+	<string name="drm_protection_status">"สถานะการป้องกัน:"</string>
+	<!---->
+	<string name="drm_can_forward">"สามารถส่งต่อได้"</string>
+	<!---->
+	<string name="drm_can_not_forward">"ไม่สามารถส่งต่อได้"</string>
+	<!---->
+	<string name="drm_no_license">"ไม่มีใบอนุญาต DRM ที่ใช้ได้"</string>
+	<!---->
+	<string name="drm_interval">"มีผล %s หลังจากการใช้งานครั้งแรก"</string>
+	<!---->
+	<string name="drm_begin">"เริ่มต้น:"</string>
+	<!---->
+	<string name="drm_no_limitation">"ไม่จำกัด"</string>
+	<!---->
+	<string name="drm_end">"สิ้นสุด:"</string>
+	<!---->
+	<string name="drm_use_left">"ที่เหลือ:"</string>
+	<!---->
+	<string name="drm_no_crop">"ไม่อนุญาตให้ตัดไฟล์ "%s" เพราะไฟล์มีการป้องกันด้วย DRM."</string>
+	<!---->
+	<string name="file_copy">"คัดลอกไฟล์แล้ว"</string>
+	<!---->
+	<string name="choice_file">"เลือกปลายทาง"</string>
+	<!---->
+	<string name="alert_delete_single">"ไฟล์ที่เลือกจะถูกลบ"</string>
+	<!---->
+	<string name="pasting">"กำลังวาง"</string>
+	<!---->
+	<string name="readable">"อ่านได้:"</string>
+	<!---->
+	<string name="executable">"แอปพลิเคชัน:"</string>
+	<!---->
+	<string name="writable">"เขียนได้:"</string>
+	<!---->
+	<string name="add_favorite">"เพิ่มไปยังโฟลเดอร์รายการโปรด"</string>
+	<!---->
+	<string name="del_favorite">"ลบออกจากโฟลเดอร์รายการโปรด"</string>
+	<!---->
+	<string name="favourite">"เพิ่มในรายการโปรด"</string>
+	<!---->
+	<string name="viewby_details">"ดูในแบบรายละเอียด"</string>
+	<!---->
+	<string name="view_by">"ดูตาม"</string>
+	<!---->
+	<string name="show_hide">"แสดง\\ซ่อน"</string>
+	<!---->
+	<string name="sort_by">"ลำดับโดย"</string>
+	<!---->
+	<string name="more">"เพิ่มเติม"</string>
+	<!-- no translation found for used -->
+	<skip />
+	<!---->
+	<string name="category_archives">"ที่บันทึก"</string>
+	<!---->
+	<string name="category_favorite">"รายการโปรด"</string>
+	<!---->
+	<string name="category_ringtones">"เสียงเรียกเข้า"</string>
+	<!---->
+	<string name="category_recordings">"ข้อมูลบันทึก"</string>
+	<!---->
+	<string name="category_safebox">"กล่องนิรภัย"</string>
+	<!---->
+	<string name="category_apks">"APK"</string>
+	<!---->
+	<string name="search">"ค้นหา"</string>
+	<!---->
+	<string name="sort_type">"เรียงตามประเภท"</string>
+	<!---->
+	<string name="sort_name">"เรียงตามชื่อ (A-Z)"</string>
+	<!---->
+	<string name="sort_size">"เรียงตามขนาด (ใหญ่-เล็ก)"</string>
+	<!---->
+	<string name="sort_time">"เรียงตามเวลา (ใหม่-เก่า)"</string>
+	<!---->
+	<string name="selected">"เลือกแล้ว"</string>
+	<!---->
+	<string name="save">"บันทึก"</string>
+	<!---->
+	<string name="category_docs">"เอกสาร"</string>
+	<!---->
+	<string name="category_files">"ไฟล์"</string>
+	<!---->
+	<string name="view_as_grid">"ดูในแบบตาราง"</string>
+	<!---->
+	<string name="view_as_list">"ดูแบบรายการ"</string>
+	<!---->
+	<string name="detail_path">"ตำแหน่ง:"</string>
+	<!---->
+	<string name="detail_name">"ชื่อ:"</string>
+	<!---->
+	<string name="detail_size">"ขนาด:"</string>
+	<!---->
+	<string name="detail_time">"แก้ไขล่าสุด:"</string>
+	<!---->
+	<string name="empty_msg">"(โฟลเดอร์ว่าง)"</string>
+	<!---->
+	<string name="search_files">"ค้นหาไฟล์"</string>
+	<!-- no translation found for search_result_count -->
+	<skip />
+	<!---->
+	<string name="drawer_settings">"การตั้งค่า"</string>
+	<!---->
+	<string name="search_text_empty">"การค้นหาเนื้อหาต้องไม่เว้นว่าง"</string>
+	<!---->
+	<string name="search_result_title">"ผลการค้นหา"</string>
+	<!---->
+	<string name="path_not_exists">"ไม่พบ %1$s"</string>
+	<!---->
+	<string name="modify_hidden_file">"ไฟล์จะไม่ถูกซ่อน ถ้าชื่อไม่ได้ขึ้นต้นด้วย\'.\'"</string>
+	<!---->
+	<string name="paste_fail">"ไม่สามารถวาง"</string>
+	<!---->
+	<string name="search_empty">"การค้นหาเนื้อหาต้องไม่เว้นว่าง"</string>
+	<!---->
+	<string name="search_setting_description">"ไฟล์และโฟลเดอร์ภายในเครื่อง"</string>
+	<!---->
+	<string name="change_mode">"เลือกไฟล์หรือโฟลเดอร์"</string>
+	<!-- no translation found for drm_protectioninfo_title -->
+	<skip />
+	<!---->
+	<string name="draw_favourite">"รายการโปรด"</string>
+	<!---->
+	<string name="unfavourite">"นำออกจากรายการโปรด"</string>
+	<!---->
+	<string name="drm_toast_license_expired">"ใบอนุญาต DRM หมดอายุ"</string>
+	<!-- no translation found for sdstroge -->
+	<skip />
+	<!-- no translation found for phonestorage -->
+	<skip />
+	<!-- no translation found for title_activity_main -->
+	<skip />
+	<!-- no translation found for hello_world -->
+	<skip />
+	<!-- no translation found for action_settings -->
+	<skip />
+	<!-- no translation found for unlock_video -->
+	<skip />
+	<!---->
+	<string name="readable_m">"สามารถอ่านได้"</string>
+	<!---->
+	<string name="executable_m">"แอพลิเคชัน"</string>
+	<!---->
+	<string name="writable_m">"สามารถเขียนได้"</string>
+	<!---->
+	<string name="main_recents">"ล่าสุด"</string>
+	<!-- no translation found for main_recents_cn -->
+	<skip />
+	<!---->
+	<string name="main_installers">"ตัวติดตั้ง"</string>
+	<!---->
+	<string name="main_document">"เอกสาร"</string>
+	<!---->
+	<string name="detail_path_m">"ตำแหน่ง"</string>
+	<!-- no translation found for detail_path_m_cn -->
+	<skip />
+	<!---->
+	<string name="detail_name_m">"ชื่อ"</string>
+	<!---->
+	<string name="detail_size_m">"ขนาด"</string>
+	<!---->
+	<string name="detail_time_m">"แก้ไขล่าสุด"</string>
+	<!---->
+	<string name="main_photo">"รูปภาพ"</string>
+	<!---->
+	<string name="main_sd_storage">"ที่จัดเก็บข้อมูล SD"</string>
+	<!---->
+	<string name="main_external_storage">"ที่เก็บข้อมูลภายนอก"</string>
+	<!---->
+	<string name="main_home">"หน้าหลัก"</string>
+	<!-- no translation found for main_home_cn -->
+	<skip />
+	<!---->
+	<string name="main_nava_home">"หน้าหลัก"</string>
+	<!---->
+	<string name="menu_select">"เลือก"</string>
+	<!-- no translation found for go_up -->
+	<skip />
+	<!---->
+	<string name="no_folder">"โฟลเดอร์นี้ว่าง"</string>
+	<!---->
+	<string name="no_category">"หมวดหมู่นี้ว่าง"</string>
+	<!-- no translation found for no_folder_cn -->
+	<skip />
+	<!-- no translation found for no_category_cn -->
+	<skip />
+	<!---->
+	<string name="pasted">"วางไฟล์แล้ว"</string>
+	<!---->
+	<string name="deleted">"ลบไฟล์แล้ว"</string>
+	<!---->
+	<string name="deleted_cn">"ลบไฟล์แล้ว"</string>
+	<!---->
+	<string name="view_list">"ดูรายการ"</string>
+	<!---->
+	<string name="view_grid">"ดูตาราง"</string>
+	<!---->
+	<string name="create_new_folder">"สร้างโฟลเดอร์"</string>
+	<!-- no translation found for add_folder -->
+	<skip />
+	<!---->
+	<string name="detail">"รายละเอียด"</string>
+	<!-- no translation found for menu_detail -->
+	<skip />
+	<!---->
+	<string name="migrate">"ย้าย"</string>
+	<!---->
+	<string name="permission_welcome_title">"ต้องได้รับอนุญาต"</string>
+	<!---->
+	<string name="permission_msg">"บริการที่ดีขึ้นสำหรับคุณ"</string>
+	<!---->
+	<string name="permission_setting_title">"อนุญาตการเข้าถึง"</string>
+	<!---->
+	<string name="permission_setting_content">"เปลี่ยนการอนุญาตในการตั้งค่าแอปของอุปกรณ์ของคุณ ให้สิทธิ์ที่จัดเก็บข้อมูลเพื่อเข้าถึงตัวจัดการไฟล์"</string>
+	<!---->
+	<string name="permission_exit_btn">"ออก"</string>
+	<!---->
+	<string name="dialog_close_btn">"ปิด"</string>
+	<!-- no translation found for dialog_close_btn_cn -->
+	<skip />
+	<!---->
+	<string name="shortcut_item">"เพิ่มทางลัด"</string>
+	<!-- no translation found for shortcut_item_cn -->
+	<skip />
+	<!---->
+	<string name="shortcut_no_exist">"ไม่พบโฟลเดอร์ที่ร้องขอ"</string>
+	<!-- no translation found for shortcut_success -->
+	<skip />
+	<!---->
+	<string name="no_search_result_m">"ไม่พบผลลัพธ์สำหรับ \"%1$s\""</string>
+	<!---->
+	<string name="draw_left_phone_storage_m">"โทรศัพท์"</string>
+	<!---->
+	<string name="category_audio">"เสียง"</string>
+	<!---->
+	<string name="usbotg_m">"ภายนอก"</string>
+	<!-- no translation found for sd_m -->
+	<skip />
+	<!---->
+	<string name="freeof_m">"ฟรี"</string>
+	<!---->
+	<string name="permission_settings">"การตั้งค่า"</string>
+	<!---->
+	<string name="safe_first_dialog_title">"หมวดหมู่กล่องนิรภัย"</string>
+	<!---->
+	<string name="safe_first_dialog_content">"ไฟล์ที่ย้ายไปยังหมวดหมู่นี้ จะต้องมีการตรวจสอบสิทธิ์ด้วยรหัสผ่าน เพิ่มไฟล์ลงในหมวดหมู่นี้โดยการกด "ย้ายไปยังกล่องนิรภัย" จากเมนูไฟล์"</string>
+	<!-- no translation found for safe_first_dialog_content_cn -->
+	<skip />
+	<!---->
+	<string name="safe_storage_local">"ที่เก็บข้อมูลในเครื่อง"</string>
+	<!---->
+	<string name="set_password_pass">"รหัสผ่าน"</string>
+	<!---->
+	<string name="set_password_first">"ตั้งรหัสผ่าน: 4-12 หลัก"</string>
+	<!-- no translation found for input_new_password_hint -->
+	<skip />
+	<!---->
+	<string name="set_password_again">"ยืนยันรหัสผ่าน"</string>
+	<!---->
+	<string name="set_password_show">"แสดงรหัสผ่าน"</string>
+	<!---->
+	<string name="set_password_safe_question">"คำถามรักษาความปลอดภัย"</string>
+	<!---->
+	<string name="set_password_safe_question_answer">"คำตอบ"</string>
+	<!---->
+	<string name="set_password_safe_forget_pass">"อย่าลืมคำตอบของคำถามรักษาความปลอดภัย หากคุณลืมรหัสผ่านของคุณ คุณจะสามารถรีเซ็ตได้โดยการตอบคำถามรักษาความปลอดภัย"</string>
+	<!---->
+	<string name="choose_safe">"เลือกกล่องนิรภัย"</string>
+	<!-- no translation found for choose_safe_cn -->
+	<skip />
+	<!---->
+	<string name="create_safe">"สร้างกล่องนิรภัย"</string>
+	<!---->
+	<string name="create_safe_to">"สร้างกล่องนิรภัยลงบน"</string>
+	<!-- no translation found for create_safe_to_cn -->
+	<skip />
+	<!---->
+	<string name="set_password">"ตั้งรหัสผ่าน"</string>
+	<!-- no translation found for add_file_safe -->
+	<skip />
+	<!---->
+	<string name="safe_set">"การตั้งค่า"</string>
+	<!---->
+	<string name="safe_set_title">"การตั้งค่ากล่องนิรภัย"</string>
+	<!-- no translation found for safe_set_title_cn -->
+	<skip />
+	<!---->
+	<string name="update_password">"อัพเดตรหัสผ่าน"</string>
+	<!---->
+	<string name="modify_password">"เปลี่ยนรหัสผ่าน"</string>
+	<!---->
+	<string name="security_question">"อัพเดตคำถามรักษาความปลอดภัย"</string>
+	<!-- no translation found for modify_security_question -->
+	<skip />
+	<!---->
+	<string name="safe_set_change_safe">"เปลี่ยนกล่องนิรภัย"</string>
+	<!---->
+	<string name="safe_set_location_safe">"ตำแหน่งที่ตั้งกล่องนิรภัย"</string>
+	<!-- no translation found for safe_set_location_safe_cn -->
+	<skip />
+	<!---->
+	<string name="update_password_original">"ป้อนรหัสผ่านเดิม"</string>
+	<!---->
+	<string name="update_password_original_cn">"ป้อนรหัสผ่านเดิม"</string>
+	<!---->
+	<string name="destory_safe">"ทำลายกล่องนิรภัย"</string>
+	<!-- no translation found for destory_safe_cn -->
+	<skip />
+	<!-- no translation found for destory -->
+	<skip />
+	<!---->
+	<string name="use_password">"ใช้รหัสผ่าน"</string>
+	<!---->
+	<string name="input_password">"ป้อนรหัสผ่าน"</string>
+	<!---->
+	<string name="forget_password">"ลืมรหัสผ่าน"</string>
+	<!-- no translation found for others -->
+	<skip />
+	<!---->
+	<string name="password_empty">"ต้องไม่เว้นว่างรหัสผ่าน"</string>
+	<!---->
+	<string name="password_consistent">"รหัสผ่านไม่สอดคล้องกัน"</string>
+	<!---->
+	<string name="password_length_error">"ความยาวรหัสผ่านผิดพลาด"</string>
+	<!---->
+	<string name="answer_empty">"ต้องไม่เว้นว่างคำตอบ"</string>
+	<!-- no translation found for safe_box_name_empty -->
+	<skip />
+	<!---->
+	<string name="update_success">"อัพเดตสำเร็จ"</string>
+	<!---->
+	<string name="update_fail">"อัปเดตล้มเหลว"</string>
+	<!---->
+	<string name="password_mistake">"รหัสผ่านไม่ถูกต้อง ป้อนใหม่อีกครั้ง"</string>
+	<!---->
+	<string name="move_safe">"ย้ายไปยังกล่องนิรภัย"</string>
+	<!---->
+	<string name="fingerprint_check">"ลายนิ้วมือที่เชื่อมไว้ โปรดใช้เซ็นเซอร์ลายนิ้วมือเพื่อยืนยันตัวตน"</string>
+	<!---->
+	<string name="in_use">"กำลังใช้งาน"</string>
+	<!---->
+	<string name="created">"สร้างแล้ว"</string>
+	<!---->
+	<string name="choose_files">"เลือกไฟล์"</string>
+	<!---->
+	<string name="move_out">"ย้ายออก"</string>
+	<!---->
+	<string name="remove_to">"ย้ายไปที่"</string>
+	<!---->
+	<string name="default_location">"ตำแหน่งเริ่มต้น"</string>
+	<!---->
+	<string name="specified_location">"ตำแหน่งที่ระบุ"</string>
+	<!-- no translation found for open_dir -->
+	<skip />
+	<!-- no translation found for default_location_cn -->
+	<skip />
+	<!-- no translation found for specified_location_cn -->
+	<skip />
+	<!-- no translation found for specified_location_content_cn -->
+	<skip />
+	<!-- no translation found for category_safe -->
+	<skip />
+	<!-- no translation found for category_safe_cn -->
+	<skip />
+	<!---->
+	<string name="add_safe_size_limited">"ไม่สามารถเพิ่มไฟล์ที่ใหญ่เกิน 2.0GB ได้"</string>
+	<!-- no translation found for add_safe_drm_limited -->
+	<skip />
+	<!---->
+	<string name="fingerprint_relative_dialog">"เชื่อมโยงกล่องนิรภัยกับลายนิ้วมือหรือไม่"</string>
+	<!-- no translation found for fingerprint_relative_dialog_cn -->
+	<skip />
+	<!-- no translation found for fingerprint_relative_dialog_ok -->
+	<skip />
+	<!-- no translation found for fingerprint_relative_dialog_ok_cn -->
+	<skip />
+	<!---->
+	<string name="fingerprint_relative_dialog_cancel">"ภายหลัง"</string>
+	<!-- no translation found for fingerprint_relative_dialog_cancel_cn -->
+	<skip />
+	<!---->
+	<string name="safe_location_current">"ตำแหน่งที่ตั้งกล่องนิรภัย:"</string>
+	<!-- no translation found for safe_location_current_cn -->
+	<skip />
+	<!---->
+	<string name="safe_location_content">"อย่าใช้งานบนโฟลเดอร์ไฟล์ เพื่อหลีกเลี่ยงการเกิดความเสียหายกับข้อมูลที่เข้ารหัสไว้"</string>
+	<!-- no translation found for safe_location_content_cn -->
+	<skip />
+	<!---->
+	<string name="destory_safe_dialog_message">"ไฟล์ในกล่องนิรภัยและรหัสผ่านจะถูกลบออกทั้งหมด ทำลายทันทีหรือไม่"</string>
+	<!---->
+	<string name="destory_safe_dialog_checkbox">"ลบไฟล์ไปพร้อมกันเลยหรือไม่"</string>
+	<!-- no translation found for destory_safe_dialog_checkbox_cn -->
+	<skip />
+	<!---->
+	<string name="open_safe_dialog">"เปิดใช้งานกล่องนิรภัย"</string>
+	<!-- no translation found for open_safe_dialog_cn -->
+	<skip />
+	<!---->
+	<string name="open_safe_dialog_message">"การเปิดการใช้งานกล่องนิรภัย จะเป็นการย้ายไฟล์ไปยังกล่องนิรภัย เปิดการใช้งานทันทีหรือไม่"</string>
+	<!-- no translation found for open_safe_dialog_message_cn -->
+	<skip />
+	<!---->
+	<string name="open_safe_dialog_ok">"เปิดทันที"</string>
+	<!---->
+	<string name="category_private_string">"กล่องนิรภัย"</string>
+	<!---->
+	<string name="opening">"กำลังเปิด"</string>
+	<!-- no translation found for space_clear -->
+	<skip />
+	<!-- no translation found for unselected -->
+	<skip />
+	<!-- no translation found for select -->
+	<skip />
+	<!-- no translation found for finish -->
+	<skip />
+	<!---->
+	<string name="senior_title">"อาวุโส"</string>
+	<!-- no translation found for no_files_for_add_to_safebox -->
+	<skip />
+	<!-- no translation found for finger_print_relation -->
+	<skip />
+	<!-- no translation found for duplicate_file_name_tip -->
+	<skip />
+	<!---->
+	<string name="searchview_hint">"ค้นหาไฟล์"</string>
+	<!-- no translation found for safe_box_name_tip -->
+	<skip />
+	<!-- no translation found for toast_update_safe_box_name_sucess -->
+	<skip />
+	<!-- no translation found for toast_update_safe_box_name_fail -->
+	<skip />
+	<!-- no translation found for toast_safe_box_name_empty -->
+	<skip />
+	<!-- no translation found for cut_single_fail_tip -->
+	<skip />
+	<!-- no translation found for delete_single_fail_tip -->
+	<skip />
+	<!-- no translation found for copy_single_fail_tip -->
+	<skip />
+	<!-- no translation found for copy_multi_fail_tip -->
+	<skip />
+	<!-- no translation found for delete_multi_fail_tip -->
+	<skip />
+	<!-- no translation found for cut_multi_fail_tip -->
+	<skip />
+	<!-- no translation found for copy_all_fail_tip -->
+	<skip />
+	<!-- no translation found for delete_all_fail_tip -->
+	<skip />
+	<!-- no translation found for cut_all_fail_tip -->
+	<skip />
+	<!-- no translation found for past_multi_fail_tip -->
+	<skip />
+	<!-- no translation found for past_single_fail_tip -->
+	<skip />
+	<!-- no translation found for past_all_fail_tip -->
+	<skip />
+	<!-- no translation found for chip_encryption -->
+	<skip />
+	<!---->
+	<string name="safe_name_title">"ชื่อ"</string>
+	<!---->
+	<string name="update_name">"อัพเดตชื่อ"</string>
+	<!-- no translation found for fingerprint_relate -->
+	<skip />
+	<!-- no translation found for insufficient_message_cn -->
+	<skip />
+	<!-- no translation found for add_success -->
+	<skip />
+	<!---->
+	<string name="pasted_cn">"วางไฟล์แล้ว"</string>
+	<!-- no translation found for no_search_result_cn -->
+	<skip />
+	<!---->
+	<string name="detail_time_cn">"เวลาที่แก้ไข"</string>
+	<!-- no translation found for rename_limit -->
+	<skip />
+	<!-- no translation found for fingerprint_fail -->
+	<skip />
+	<!-- no translation found for answer_mistake -->
+	<skip />
+	<!-- no translation found for answer_empty_tip -->
+	<skip />
+	<!-- no translation found for new_safe -->
+	<skip />
+	<!-- no translation found for dialog_confirm -->
+	<skip />
+	<!-- no translation found for move_in_success -->
+	<skip />
+	<!-- no translation found for move_in_count -->
+	<skip />
+	<!-- no translation found for message_security_fingerprint_lockout -->
+	<skip />
+	<!-- no translation found for use_password_auth -->
+	<skip />
+	<!-- no translation found for storage_details -->
+	<skip />
+	<!---->
+	<string name="total_memory">"หน่วยความจำทั้งหมด"</string>
+	<!-- no translation found for system -->
+	<skip />
+	<!-- no translation found for category_fragment_title -->
+	<skip />
+	<!-- no translation found for storage -->
+	<skip />
+	<!-- no translation found for choice -->
+	<skip />
+	<!-- no translation found for view_tag_key -->
+	<skip />
+	<!-- no translation found for view_tag_key2 -->
+	<skip />
+	<!-- no translation found for finish_percent -->
+	<skip />
+	<!---->
+	<string name="select_pic">"เลือกภาพ"</string>
+	<!---->
+	<string name="brackets_double">"(%1$s)"</string>
+	<!-- no translation found for selected_pick -->
+	<skip />
+	<!-- no translation found for most_selected -->
+	<skip />
+	<!-- no translation found for finish_ready -->
+	<skip />
+	<!-- no translation found for select_pic_data -->
+	<skip />
+	<!-- no translation found for delete_determine_selected -->
+	<skip />
+	<!-- no translation found for delete_document -->
+	<skip />
+	<!-- no translation found for delete_folder -->
+	<skip />
+	<!-- no translation found for delete_folder_and -->
+	<skip />
+	<!---->
+	<string name="deselect_all_item">"ยกเลิกการเลือกทั้งหมด"</string>
+	<!-- no translation found for edit -->
+	<skip />
+	<!-- no translation found for storage_phone -->
+	<skip />
+	<!-- no translation found for storage_sdcard -->
+	<skip />
+	<!-- no translation found for storage_otg -->
+	<skip />
+	<!-- no translation found for storage_slash -->
+	<skip />
+	<!-- no translation found for welcome_security -->
+	<skip />
+	<!-- no translation found for welcome_security_info -->
+	<skip />
+	<!-- no translation found for welcome_convenient -->
+	<skip />
+	<!-- no translation found for welcome_convenient_info -->
+	<skip />
+	<!-- no translation found for welcome_depth -->
+	<skip />
+	<!-- no translation found for welcome_depth_info -->
+	<skip />
+	<!-- no translation found for welcome_add -->
+	<skip />
+	<!-- no translation found for welcome_add_info -->
+	<skip />
+	<!-- no translation found for welcome_dialog_title -->
+	<skip />
+	<!-- no translation found for welcome_dialog_info -->
+	<skip />
+	<!-- no translation found for welcome_dialog_verify_btn -->
+	<skip />
+	<!-- no translation found for welcome_dialog_verify_pwd -->
+	<skip />
+	<!-- no translation found for welcome_start_use -->
+	<skip />
+	<!-- no translation found for welcome_not_use -->
+	<skip />
+	<!---->
+	<string name="welcome_ok">"ตกลง"</string>
+	<!-- no translation found for encrypt_files_success -->
+	<skip />
+	<!-- no translation found for delete_direct -->
+	<skip />
+	<!---->
+	<string name="delete_file">"ลบไฟล์นี้หรือไม่?"</string>
+</resources>

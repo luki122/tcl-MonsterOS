@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cannot_specify_an_empty_name_for_playlist">"ชื่อเพลย์ลิสต์ต้องไม่เว้นว่าง"</string>
+    <string name="cross_dj_saturated_storage_not_enough_free_space_to_record_your_mix">"มีเนื้อที่ว่างไม่เพียงพอให้บันทึกการมิกซ์ของคุณ"</string>
+    <string name="cross_dj_saturated_storage_your_recording_might_stop_soon_because_no_more_free_space_is_available">"บันทึกเสียงของคุณใกล้หยุดลงแล้ว เนื่องจากไม่มีพื้นที่ว่างให้ใช้งาน"</string>
+    <string name="extraCharge_warning_title">"ใช้งานข้อมูลมือถือหรือไม่"</string>
+    <string name="invalid_drm_file">"ไฟล์ไม่มีการรับรอง DRM ที่ถูกต้อง!"</string>
+    <string name="mobiledata_turnoff_btn">"ปิดใช้งาน"</string>
+    <string name="never_show_it_again">"ไม่ต้องแสดงอีก"</string>
+    <string name="no_error">"ไม่มีข้อผิดพลาด"</string>
+    <string name="recording_reached_max_duration">"บันทึกเสียงถึงระยะเวลาสูงสุดแล้ว โปรดตรวจสอบการตั้งค่าของคุณ"</string>
+    <string name="recording_soon_to_reach_max_duration">"บันทึกเสียงใกล้ถึงระยะเวลาสูงสุดแล้ว โปรดตรวจสอบการตั้งค่าของคุณ"</string>
+    <string name="scratching_is_disabled_in_no_mix_mode">"คุณสามารถสแครชได้เมื่ออยู่ในโหมดดีเจเท่านั้น"</string>
+    <string name="sign_up">"ลงชื่อสมัคร"</string>
+    <string name="the_external_memory_storage_is_not_mounted">"ไม่มีการต่อเชื่อมอุปกรณ์หน่วยความจำภายนอก คุณอาจต้องปิดใช้งานอุปกรณ์หน่วยความจำ USB"</string>
+    <string name="there_s_not_enough_space_in_your_internal_storage_try_to_do_some_clean_up">"มีพื้นที่ว่างของที่เก็บข้อมูลภายในไม่เพียงพอ (พยายามเพิ่มพื้นที่ว่าง)"</string>
+</resources>

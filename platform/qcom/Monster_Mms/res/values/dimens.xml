@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2011 Google Inc.
+All Rights Reserved. -->
+<resources>
+    <dimen name="message_item_avatar_on_right_text_indent">50dip</dimen>
+    <dimen name="message_item_text_padding_left_right">12dip</dimen>
+    <!-- tangyisen delete -->
+    <!-- <dimen name="message_item_text_padding_top">5dip</dimen> -->
+    <!-- tangyisen add -->
+    <dimen name="message_item_text_padding_start">21dp</dimen>
+    <dimen name="message_item_text_padding_end">17dp</dimen>
+    <dimen name="message_item_text_padding_top">13dp</dimen>
+    <dimen name="message_item_text_padding_bottom">13dp</dimen>
+    <dimen name="message_item_text_max_width">264dp</dimen>
+    <dimen name="message_item_text_margin">9dp</dimen>
+    <dimen name="compose_message_bottom_panel">63dp</dimen>
+    <!-- tangyisen message_item_text_max_width - 17 - 21 -->
+    <dimen name="stretchy_item_text_max_width">226dp</dimen>
+
+    <dimen name="avatar_width_height">54dip</dimen>
+
+    <dimen name="input_text_height_min">61dp</dimen>
+    <dimen name="input_text_height_max">156dip</dimen>
+    <dimen name="input_text_height_adjusted">8dip</dimen>
+
+    <!-- tangyisen modify 178dip -->
+    <dimen name="mms_inline_attachment_size">238dp</dimen>
+
+    <dimen name="widget_margin_top">0dip</dimen>
+    <dimen name="widget_margin_left">0dip</dimen>
+    <dimen name="widget_margin_right">0dip</dimen>
+    <dimen name="widget_margin_bottom">0dip</dimen>
+    <dimen name="flowlayout_margin">4dp</dimen>
+    <dimen name="flowlayout_padding">2dp</dimen>
+
+    <!-- Bammer item spacing -->
+    <dimen name="banner_s_space">4dip</dimen>
+    <dimen name="banner_m_space">8dip</dimen>
+</resources>

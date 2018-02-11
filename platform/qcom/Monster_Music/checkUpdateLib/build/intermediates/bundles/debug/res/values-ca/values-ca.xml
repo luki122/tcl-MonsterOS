@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="check_new">Cercar actualització</string>
+    <string name="downloaded_finish">Baixada completada</string>
+    <string name="downloading">S\'està baixant...</string>
+    <string name="network_error_tip">Error de xarxa. Comproveu la connexió a Internet i torneu a provar-ho.</string>
+    <string name="notification_downloading">S\'està baixant...</string>
+    <string name="tip_network_error">Error de xarxa</string>
+    <string name="try_later">Més tard</string>
+    <string name="update">Ara</string>
+    <string name="update_ask_tip">Necessiteu actualitzar el telèfon a la versió més recent.</string>
+    <string name="update_available">Hi ha una actualització disponible</string>
+    <string name="update_confirm">D\'ACORD</string>
+    <string name="update_detail_prefix">Informació sobre l\'actualització:</string>
+    <string name="update_download_fail">Error en baixar</string>
+    <string name="update_force_nofity_tip">Us recomanem que actualitzeu l\'aplicació amb la versió més recent.</string>
+    <string name="update_no_need">Aquesta és la versió més recent.</string>
+    <string name="update_no_updates">No hi ha actualitzacions.</string>
+    <string name="update_no_updates_tip">No hi ha actualitzacions.</string>
+    <string name="update_not_now">Ara no</string>
+    <string name="update_notification_tips">Per tenir una experiència millor, actualitzeu el telèfon amb la versió més recent.</string>
+    <string name="update_notification_title">Notificació d\'actualització</string>
+    <string name="update_notify_tip">Hi ha una versió nova disponible. Voleu fer l\'actualització ara?</string>
+    <string name="update_now">Actualitzar</string>
+    <string name="versionDesc">Informació de la versió:</string>
+</resources>

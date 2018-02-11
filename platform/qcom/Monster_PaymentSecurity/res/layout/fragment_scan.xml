@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="?android:colorBackground"
+    tools:context=".ScanActivity">
+
+    <ImageView
+        android:id="@+id/scan_type_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="54dp"
+        android:scaleType="center"
+        android:src="@drawable/mps_wifi_security_large"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/scan_progress_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="11dp"
+        android:gravity="center"
+        android:maxLines="1"
+        android:text="@string/scan_progress_and_risk_count"
+        android:textColor="@color/text_color_dark"
+        android:textSize="14sp"
+        android:visibility="invisible" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="14dp"
+        android:layout_marginTop="81dp"
+        android:baselineAligned="false">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:id="@+id/wifi_ll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="center"
+                    android:src="@drawable/mps_wifi_security_mid"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/wifi_scan_result_pointer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="center"
+                    android:src="@drawable/mps_risk_bg"
+                    android:visibility="invisible"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:id="@+id/wifi_risk_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|end"
+                    android:paddingBottom="6dp"
+                    android:paddingRight="@dimen/point_padding"
+                    android:textColor="@android:color/white"
+                    android:textSize="10sp" />
+            </FrameLayout>
+
+            <TextView
+                style="@com.mst:style/TextAppearance.Mst.Material.Caption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:layout_marginTop="7dp"
+                android:text="@string/wifi_security" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="center"
+                    android:src="@drawable/mps_sms_security_mid"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/sms_scan_result_pointer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="center"
+                    android:src="@drawable/mps_risk_bg"
+                    android:visibility="invisible"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:id="@+id/sms_risk_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|end"
+                    android:paddingBottom="6dp"
+                    android:paddingRight="@dimen/point_padding"
+                    android:textColor="@android:color/white"
+                    android:textSize="10sp" />
+            </FrameLayout>
+
+            <TextView
+                style="@com.mst:style/TextAppearance.Mst.Material.Caption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:gravity="center_horizontal"
+                android:maxLines="1"
+                android:text="@string/payment_security" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="center"
+                    android:src="@drawable/mps_system_bug_mid"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/system_scan_result_pointer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="center"
+                    android:src="@drawable/mps_risk_bg"
+                    android:visibility="invisible"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:id="@+id/system_bug_risk_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|end"
+                    android:paddingBottom="6dp"
+                    android:paddingRight="@dimen/point_padding"
+                    android:textColor="@android:color/white"
+                    android:textSize="10sp" />
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/system_bug_tip"
+                style="@com.mst:style/TextAppearance.Mst.Material.Caption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:maxLines="1"
+                android:text="@string/system_bug" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="center"
+                    android:src="@drawable/mps_app_security_mid"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/app_scan_result_pointer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="center"
+                    android:src="@drawable/mps_risk_bg"
+                    android:visibility="invisible"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:id="@+id/app_risk_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|end"
+                    android:paddingBottom="6dp"
+                    android:paddingRight="@dimen/point_padding"
+                    android:textColor="@android:color/white"
+                    android:textSize="10sp" />
+            </FrameLayout>
+
+            <TextView
+                style="@com.mst:style/TextAppearance.Mst.Material.Caption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:gravity="center_horizontal"
+                android:maxLines="1"
+                android:text="@string/app_security" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/scanning_btn"
+        android:layout_width="319dp"
+        android:layout_height="37dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="37dp"
+        android:layout_marginTop="57dp"
+        android:gravity="center"
+        android:text="@string/start_scanning"
+        android:theme="@com.mst:style/Widget.Mst.Material.Button.Black" />
+</LinearLayout>

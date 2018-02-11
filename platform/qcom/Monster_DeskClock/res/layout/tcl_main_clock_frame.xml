@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+        <com.android.deskclock.AnalogClock
+            android:id="@+id/analog_clock"
+            android:layout_width="210dp"
+            android:layout_height="210dp"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="@dimen/bottom_text_spacing_analog"
+            android:dial="@drawable/clock_analog_dial_mipmap"
+            android:hand_hour="@drawable/clock_analog_hour_mipmap"
+            android:visibility="gone"
+            android:hand_minute="@drawable/clock_analog_minute_mipmap" />
+        
+    </RelativeLayout>
+
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        />
+</LinearLayout>

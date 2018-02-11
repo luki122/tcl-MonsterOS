@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/mst_import"
+        android:checked="true"
+        android:icon="@com.mst:drawable/ic_done" />
+<!--         android:title="@string/mst_contact_import" -->
+</menu>

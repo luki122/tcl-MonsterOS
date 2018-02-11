@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.tcl.music.view.ColoredRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="123dp"
+    android:background="?android:attr/selectableItemBackground"
+    android:scrollbars="none"
+    android:layout_marginBottom="1dp"
+    android:descendantFocusability="blocksDescendants"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/tv_delete"
+            android:layout_height="93dp"
+            android:layout_width="64dp"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/layout_content"
+            android:layout_marginLeft="1px"
+            android:background="@drawable/btn_click_red_havebackground"
+            android:textColor="#DDFFFFFF"
+            />
+        <RelativeLayout
+            android:id="@+id/layout_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <View
+                android:id="@id/indicator_current_item_view"
+                android:layout_width="4dp"
+                android:layout_height="55dp"
+                android:background="@drawable/indicator_play_drawable"
+                android:visibility="gone"/>
+
+            <CheckBox
+                android:id="@+id/selected_layout"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="20dp"
+                android:button="@null"
+                android:background="@drawable/bg_checkbox"
+                android:visibility="gone"
+                />
+
+
+            <ImageView
+                android:id="@id/artwork_image_view"
+                android:layout_width="93dp"
+                android:layout_height="93dp"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="15dp"
+                android:layout_toRightOf="@+id/selected_layout"
+                android:layout_marginLeft="20dp"
+                android:contentDescription="@string/artwork"
+                android:scaleType="fitXY"
+                android:src="@drawable/default_cover_list"/>
+
+            <Space
+                android:id="@+id/text_spacer"
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:layout_centerInParent="true"/>
+
+            <TextView
+                android:id="@+id/title_album_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="17dp"
+                android:layout_toEndOf="@id/artwork_image_view"
+                android:ellipsize="end"
+                android:gravity="start|center"
+                android:singleLine="true"
+                android:textAlignment="gravity"
+                android:textColor="#000000"
+                android:alpha="0.86"
+                android:textIsSelectable="false"
+                android:layout_marginTop="32dp"
+                android:textSize="15sp"/>
+
+            <LinearLayout
+                android:id="@id/item_info_text_block"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/title_album_text_view"
+                android:layout_alignLeft="@+id/title_album_text_view"
+                android:layout_toEndOf="@id/artwork_image_view"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                >
+
+                <TextView
+                    android:id="@+id/song_counts_textview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ellipsize="end"
+                    android:gravity="start|top"
+                    android:singleLine="true"
+                    android:textAlignment="gravity"
+                    android:textColor="#000000"
+                    android:textIsSelectable="false"
+                    android:alpha="0.40"
+                    android:textSize="12sp"/>
+                <TextView
+                    android:id="@+id/date_album_textview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:gravity="start|top"
+                    android:singleLine="true"
+                    android:textColor="#000000"
+                    android:textIsSelectable="false"
+                    android:alpha="0.40"
+                    android:layout_alignLeft="@+id/song_counts_textview"
+                    android:layout_marginTop="3dp"
+                    android:textSize="12sp"/>
+            </LinearLayout>
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+</cn.tcl.music.view.ColoredRelativeLayout>

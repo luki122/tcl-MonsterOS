@@ -1,0 +1,814 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="sort">"Rikiuoti"</string>
+	<!---->
+	<string name="sort_by_name">"Pavad."</string>
+	<!---->
+	<string name="sort_by_date">"Modifikuota pagal datą"</string>
+	<!---->
+	<string name="sort_by_time">"Data"</string>
+	<!---->
+	<string name="sort_by_type">"Tipas"</string>
+	<!---->
+	<string name="sort_by_size">"Dydis"</string>
+	<!---->
+	<string name="copy">"Kopijuoti"</string>
+	<!---->
+	<string name="create_folder">"Kurti"</string>
+	<!---->
+	<string name="cut">"Iškirpti"</string>
+	<!---->
+	<string name="delete">"Ištrinti"</string>
+	<!---->
+	<string name="delete_confirm">"Patvirtinti trynimą"</string>
+	<!---->
+	<string name="deselect_all">"Panaikinti visus žymėjim."</string>
+	<!---->
+	<string name="select_all">"Pasirinkti visus"</string>
+	<!---->
+	<string name="show_file">"Rodyti paslėptus failus"</string>
+	<!---->
+	<string name="hide_file">"Slėpti paslėptus failus"</string>
+	<!---->
+	<string name="paste">"Įklijuoti"</string>
+	<!---->
+	<string name="rename">"Pervardyti"</string>
+	<!---->
+	<string name="share">"Bendrinti"</string>
+	<!---->
+	<string name="viewby_list">"Peržiūrėti pagal sąrašą"</string>
+	<!---->
+	<string name="viewby_grid">"Peržiūrėti pagal tinklelį"</string>
+	<!---->
+	<string name="alert_delete_message">"Ištrinti"</string>
+	<!---->
+	<string name="multi_alert_delete_message">"Ištrinti pasirinktus elementus?"</string>
+	<!---->
+	<string name="multi_alert_delete_message_cn">"Ištrinti pasirinktus elementus?"</string>
+	<!-- no translation found for delete_folder_message -->
+	<skip />
+	<!---->
+	<string name="category_pictures">"Paveikslėliai"</string>
+	<!---->
+	<string name="category_vedios">"Vaizdo įr"</string>
+	<!---->
+	<string name="category_music">"Muzika"</string>
+	<!---->
+	<string name="category_download">"Atsisiuntimai"</string>
+	<!---->
+	<string name="category_bluetooth">"Bluetooth"</string>
+	<!-- no translation found for app_name -->
+	<skip />
+	<!-- no translation found for theme_name -->
+	<skip />
+	<!---->
+	<string name="apk_name">"Failai"</string>
+	<!---->
+	<string name="new_folder">"Sukurkite naują aplanką."</string>
+	<!---->
+	<string name="confirm_rename">"Patvirtinti pavadinimą"</string>
+	<!---->
+	<string name="warning">"Didžiausias failų skaičius"</string>
+	<!---->
+	<string name="share_warning">"Negalima bendrinti daugiau nei 100 failų."</string>
+	<!---->
+	<string name="loading">"Įkeliama..."</string>
+	<!---->
+	<string name="deleting">"Ištrinama"</string>
+	<!---->
+	<string name="alert_delete_multiple">"Pasirinktas failus bus ištrintas."</string>
+	<!---->
+	<string name="name">"Pavad."</string>
+	<!---->
+	<string name="size">"Dydis"</string>
+	<!---->
+	<string name="modified_time">"Pakeista"</string>
+	<!---->
+	<string name="msg_rename_ext">"Bus pakeistas failo plėtinys. Galbūt failas neatpažįstamas. Tęsti?"</string>
+	<!---->
+	<string name="wait">"Palaukite..."</string>
+	<!---->
+	<string name="done">"Atlikta"</string>
+	<!-- no translation found for enable -->
+	<skip />
+	<!-- no translation found for enable_cn -->
+	<skip />
+	<!---->
+	<string name="cancel">"Atšaukti"</string>
+	<!---->
+	<string name="no">"Ne"</string>
+	<!---->
+	<string name="ok">"Gerai"</string>
+	<!---->
+	<string name="yes">"Taip"</string>
+	<!---->
+	<string name="details">"Informacija apie failą"</string>
+	<!---->
+	<string name="drawer_open">"Atidaryti"</string>
+	<!---->
+	<string name="unknown">"Nežinoma"</string>
+	<!-- no translation found for unit_B -->
+	<skip />
+	<!-- no translation found for unit_KB -->
+	<skip />
+	<!-- no translation found for unit_MB -->
+	<skip />
+	<!-- no translation found for unit_GB -->
+	<skip />
+	<!-- no translation found for unit_TB -->
+	<skip />
+	<!---->
+	<string name="send_file">"Bendrinti failą (-us) per"</string>
+	<!---->
+	<string name="default_search_text">"Ieškoti failų"</string>
+	<!---->
+	<string name="free_space">"Pasiekiama"</string>
+	<!---->
+	<string name="total_space">"Visa vieta"</string>
+	<!---->
+	<string name="drawer_category">"Kategorijos"</string>
+	<!---->
+	<string name="phone_storage">"Vidinė atmint."</string>
+	<!---->
+	<string name="phone_storage_cn">"Vidinė atmint."</string>
+	<!---->
+	<string name="sd_card">"SD kortelė"</string>
+	<!---->
+	<string name="draw_left_phone_storage">"Vidinė atmint."</string>
+	<!---->
+	<string name="draw_left_sd_card">"SD kortelė"</string>
+	<!-- no translation found for menu_settings -->
+	<skip />
+	<!---->
+	<string name="no_search_result">"Pagal \"%1$s\" rasta 0 fail."</string>
+	<!---->
+	<string name="copy_deny">"Nėra leidimo kopijuoti."</string>
+	<!---->
+	<string name="cut_deny">"Nėra leidimo iškirpti."</string>
+	<!---->
+	<string name="delete_deny">"Nėra leidimo ištrinti."</string>
+	<!---->
+	<string name="insufficient_memory">"Nepakanka vietos."</string>
+	<!---->
+	<string name="insufficient_message">"Nepavyko nukopijuokit kai kurių failų, kadangi nepakanka atminties"</string>
+	<!---->
+	<string name="invalid_empty_name">"Failo vardo arba aplanko pavadinimo laukas negali būti tuščias."</string>
+	<!---->
+	<string name="paste_same_folder">"Nukopijuoti nepavyko: sutampa šaltinio ir paskirties aplankai."</string>
+	<!---->
+	<string name="invalid_char_prompt">"Įvedėte neleistiną simbolį."</string>
+	<!---->
+	<string name="msg_unable_open_file">"Failo formatas nepalaikomas."</string>
+	<!---->
+	<string name="paste_sub_folder">"Nepavyksta įklijuoti į antrinį aplanką."</string>
+	<!---->
+	<string name="operation_fail">"Kažkurio veiksmo su failu atlikti nepavyko."</string>
+	<!---->
+	<string name="search_result">"%2$d rezultatas (-ai), skirtas \"%1$s\"</string>
+	<!---->
+	<string name="already_exists">"%1$s jau naudojama."</string>
+	<!---->
+	<string name="unmounted">"%1$s neprijungtas"</string>
+	<!---->
+	<string name="create_hidden_file">"Failas bus paslėptas, jei jo vardas prasideda \'.\'"</string>
+	<!---->
+	<string name="file_name_too_long">"Įvestas pavadinimas yra per ilgas."</string>
+	<!---->
+	<string name="some_paste_fail">"Nepavyko atlikti kelių įklijavimo operacijų."</string>
+	<!---->
+	<string name="delete_fail">"Nepavyko ištrinti."</string>
+	<!---->
+	<string name="some_delete_fail">"Nepavyko atlikti kelių trynimo operacijų."</string>
+	<!---->
+	<string name="msg_unable_open_file_in_app">"Nėra programėlės failui atidaryti"</string>
+	<!---->
+	<string name="drm_forwardforbidden_title">"Nepersiųsta"</string>
+	<!---->
+	<string name="drm_forwardforbidden_message">"DRM failo persiųsti negalima."</string>
+	<!---->
+	<string name="drm_no_valid_right">"Nėra tinkamos failo DRM įstaigos."</string>
+	<!---->
+	<string name="drm_current_count">"Dabartinis skaičius:"</string>
+	<!---->
+	<string name="unlimited_usage">"Neribotas naudojimas"</string>
+	<!---->
+	<string name="drm_current_right">"Dabartiniai apribojimai:"</string>
+	<!---->
+	<string name="not_available">"Nepasiekiama"</string>
+	<!---->
+	<string name="right_url">"Licencijų išdavimo įstaigos URL:"</string>
+	<!---->
+	<string name="use_times">"Naudokite tiek kartų: %s"</string>
+	<!---->
+	<string name="valid_after">"Galioja po"</string>
+	<!---->
+	<string name="valid_until">"Galioja iki"</string>
+	<!---->
+	<string name="drm_wifidisplay_title">"Kopijuoti draudžiami failai"</string>
+	<!---->
+	<string name="drm_wifidisplay_message">"Kopijuoti draudžiamo failo platinti negalima."</string>
+	<!---->
+	<string name="drm_wifidisplay_cancel_btn">"Išjungti „Wi-Fi“ ekraną"</string>
+	<!---->
+	<string name="drm_wifidisplay_ok">"Gerai"</string>
+	<!---->
+	<string name="tv_link_close_toast">"„Wi-Fi“ ekranas uždarytas"</string>
+	<!---->
+	<string name="usbotg">"Išorinė USB atmintinė"</string>
+	<!---->
+	<string name="show">"Rodyti sistemos failus"</string>
+	<!---->
+	<string name="hide">"Slėpti sistemos failus"</string>
+	<!---->
+	<string name="action_menu_create_folder_button">"Kurti aplanką"</string>
+	<!---->
+	<string name="searchResult">"Paieškos rezultatai"</string>
+	<!---->
+	<string name="default_folder_name">"Aplanko pavadinimas"</string>
+	<!---->
+	<string name="drm_protection_status">"Apsaugos būsena:"</string>
+	<!---->
+	<string name="drm_can_forward">"Galima persiųsti."</string>
+	<!---->
+	<string name="drm_can_not_forward">"Persiųsti negalima."</string>
+	<!---->
+	<string name="drm_no_license">"Nėra galimos DRM licencijos."</string>
+	<!---->
+	<string name="drm_interval">"Pirmą kartą panaudojus galioja %s"</string>
+	<!---->
+	<string name="drm_begin">"Pradžia:"</string>
+	<!---->
+	<string name="drm_no_limitation">"Nėra apribojimų."</string>
+	<!---->
+	<string name="drm_end">"Pabaiga:"</string>
+	<!---->
+	<string name="drm_use_left">"Liko:"</string>
+	<!---->
+	<string name="drm_no_crop">"Failo „%s“ apkarpyti negalima, nes jis apsaugotas DRM apsauga!"</string>
+	<!---->
+	<string name="file_copy">"Failas nukopijuotas"</string>
+	<!---->
+	<string name="choice_file">"Pasirinkti vietą"</string>
+	<!---->
+	<string name="alert_delete_single">"Pasirinktas failas bus ištrintas."</string>
+	<!---->
+	<string name="pasting">"Įdedama"</string>
+	<!---->
+	<string name="readable">"Skaitoma:"</string>
+	<!---->
+	<string name="executable">"Programa:"</string>
+	<!---->
+	<string name="writable">"Rašoma:"</string>
+	<!---->
+	<string name="add_favorite">"Įtraukti į parankinių aplanką"</string>
+	<!---->
+	<string name="del_favorite">"Ištrinti iš parankinių aplanko"</string>
+	<!---->
+	<string name="favourite">"Pridėti prie mėgstamų"</string>
+	<!---->
+	<string name="viewby_details">"Peržiūrėti pagal informaciją"</string>
+	<!---->
+	<string name="view_by">"Žr. pagal"</string>
+	<!---->
+	<string name="show_hide">"Rodyti\\slėpti"</string>
+	<!---->
+	<string name="sort_by">"Rūšiuoti pagal"</string>
+	<!---->
+	<string name="more">"Daugiau"</string>
+	<!-- no translation found for used -->
+	<skip />
+	<!---->
+	<string name="category_archives">"Archyvai"</string>
+	<!---->
+	<string name="category_favorite">"Adresynas"</string>
+	<!---->
+	<string name="category_ringtones">"Skambėjimo tonai"</string>
+	<!---->
+	<string name="category_recordings">"Įrašai"</string>
+	<!---->
+	<string name="category_safebox">"„Safebox“"</string>
+	<!---->
+	<string name="category_apks">"APK"</string>
+	<!---->
+	<string name="search">"Ieškoti"</string>
+	<!---->
+	<string name="sort_type">"Rikiuoti pagal tipą"</string>
+	<!---->
+	<string name="sort_name">"Rikiuoti pagal pavadinimą (A–Z)"</string>
+	<!---->
+	<string name="sort_size">"Rikiuoti pagal dydį (nuo didžiausio iki mažiausio)"</string>
+	<!---->
+	<string name="sort_time">"Rikiuoti pagal laiką (nuo naujausio iki seniausio)"</string>
+	<!---->
+	<string name="selected">"Pasirinkta"</string>
+	<!---->
+	<string name="save">"Išsaugoti"</string>
+	<!---->
+	<string name="category_docs">"Dokumentai"</string>
+	<!---->
+	<string name="category_files">"Failai"</string>
+	<!---->
+	<string name="view_as_grid">"Peržiūrėti tinklelio rodinyje"</string>
+	<!---->
+	<string name="view_as_list">"Peržiūrėti kaip sąrašą"</string>
+	<!---->
+	<string name="detail_path">"Vieta:"</string>
+	<!---->
+	<string name="detail_name">"Pavad.:"</string>
+	<!---->
+	<string name="detail_size">"Dydis:"</string>
+	<!---->
+	<string name="detail_time">"Pakeista:"</string>
+	<!---->
+	<string name="empty_msg">"(Tuščias aplankas)"</string>
+	<!---->
+	<string name="search_files">"Ieškoti failų"</string>
+	<!-- no translation found for search_result_count -->
+	<skip />
+	<!---->
+	<string name="drawer_settings">"NUSTATYMAI"</string>
+	<!---->
+	<string name="search_text_empty">"Paieškos užklausos turinio laukas negali būti tuščias."</string>
+	<!---->
+	<string name="search_result_title">"Paieškos rezultatas (-ai)"</string>
+	<!---->
+	<string name="path_not_exists">"%1$s nėra"</string>
+	<!---->
+	<string name="modify_hidden_file">"Failas, kurio vardas prasideda ne \'.\', nebus paslėptas."</string>
+	<!---->
+	<string name="paste_fail">"Įklijuoti nepavyko"</string>
+	<!---->
+	<string name="search_empty">"Paieškos užklausos turinio laukas negali būti tuščias."</string>
+	<!---->
+	<string name="search_setting_description">"Vietiniai failai ir aplankai"</string>
+	<!---->
+	<string name="change_mode">"Pasirinkti failą arba aplanką"</string>
+	<!-- no translation found for drm_protectioninfo_title -->
+	<skip />
+	<!---->
+	<string name="draw_favourite">"mėgstamas"</string>
+	<!---->
+	<string name="unfavourite">"Pašalinti iš adresyno"</string>
+	<!---->
+	<string name="drm_toast_license_expired">"DRM licencija nebegalioja."</string>
+	<!-- no translation found for sdstroge -->
+	<skip />
+	<!-- no translation found for phonestorage -->
+	<skip />
+	<!-- no translation found for title_activity_main -->
+	<skip />
+	<!-- no translation found for hello_world -->
+	<skip />
+	<!-- no translation found for action_settings -->
+	<skip />
+	<!-- no translation found for unlock_video -->
+	<skip />
+	<!---->
+	<string name="readable_m">"Skaitoma"</string>
+	<!---->
+	<string name="executable_m">"Programa"</string>
+	<!---->
+	<string name="writable_m">"Rašoma"</string>
+	<!---->
+	<string name="main_recents">"Naujausi"</string>
+	<!-- no translation found for main_recents_cn -->
+	<skip />
+	<!---->
+	<string name="main_installers">"Diegimo programa"</string>
+	<!---->
+	<string name="main_document">"Dokumentai"</string>
+	<!---->
+	<string name="detail_path_m">"Vieta"</string>
+	<!-- no translation found for detail_path_m_cn -->
+	<skip />
+	<!---->
+	<string name="detail_name_m">"Vardas ir pavardė"</string>
+	<!---->
+	<string name="detail_size_m">"Dydis"</string>
+	<!---->
+	<string name="detail_time_m">"Paskutinį kartą keista"</string>
+	<!---->
+	<string name="main_photo">"Nuotraukos"</string>
+	<!---->
+	<string name="main_sd_storage">"SD saugykla"</string>
+	<!---->
+	<string name="main_external_storage">"Išorinė saugykla"</string>
+	<!---->
+	<string name="main_home">"Pagrindinis ekranas"</string>
+	<!-- no translation found for main_home_cn -->
+	<skip />
+	<!---->
+	<string name="main_nava_home">"Pagrindinis ekranas"</string>
+	<!---->
+	<string name="menu_select">"Pasirinkti"</string>
+	<!-- no translation found for go_up -->
+	<skip />
+	<!---->
+	<string name="no_folder">"Šis aplankas tuščias"</string>
+	<!---->
+	<string name="no_category">"Ši kategorija tuščia."</string>
+	<!-- no translation found for no_folder_cn -->
+	<skip />
+	<!-- no translation found for no_category_cn -->
+	<skip />
+	<!---->
+	<string name="pasted">"Failas įkopijuotas"</string>
+	<!---->
+	<string name="deleted">"Failas ištrintas"</string>
+	<!---->
+	<string name="deleted_cn">"Failas ištrintas"</string>
+	<!---->
+	<string name="view_list">"Sąrašo rodinys"</string>
+	<!---->
+	<string name="view_grid">"Tinklelio rodinys"</string>
+	<!---->
+	<string name="create_new_folder">"Kurti aplanką"</string>
+	<!-- no translation found for add_folder -->
+	<skip />
+	<!---->
+	<string name="detail">"Išsamiau"</string>
+	<!-- no translation found for menu_detail -->
+	<skip />
+	<!---->
+	<string name="migrate">"Perkelti"</string>
+	<!---->
+	<string name="permission_welcome_title">"Reikalingas sutikimas"</string>
+	<!---->
+	<string name="permission_msg">"Geresnės paslaugos Jums"</string>
+	<!---->
+	<string name="permission_setting_title">"Sukurkite prieigą"</string>
+	<!---->
+	<string name="permission_setting_content">"Pakeiskite sutikimų parametrus įrenginio programų nustatymuose. Sukurkite failų tvarkyklės (File Manager) prieigą prie saugyklos."</string>
+	<!---->
+	<string name="permission_exit_btn">"Išeiti"</string>
+	<!---->
+	<string name="dialog_close_btn">"Uždaryti"</string>
+	<!-- no translation found for dialog_close_btn_cn -->
+	<skip />
+	<!---->
+	<string name="shortcut_item">"Pridėti nuorodą"</string>
+	<!-- no translation found for shortcut_item_cn -->
+	<skip />
+	<!---->
+	<string name="shortcut_no_exist">"Tokio katalogo nėra"</string>
+	<!-- no translation found for shortcut_success -->
+	<skip />
+	<!---->
+	<string name="no_search_result_m">"Nerasta jokių „\%1$s\“ rezultatų"</string>
+	<!---->
+	<string name="draw_left_phone_storage_m">"Telefonas"</string>
+	<!---->
+	<string name="category_audio">"Garso įrašas"</string>
+	<!---->
+	<string name="usbotg_m">"Išorinis"</string>
+	<!-- no translation found for sd_m -->
+	<skip />
+	<!---->
+	<string name="freeof_m">"Nemokama"</string>
+	<!---->
+	<string name="permission_settings">"Nustatymai"</string>
+	<!---->
+	<string name="safe_first_dialog_title">"Saugos dėžutės kategorija"</string>
+	<!---->
+	<string name="safe_first_dialog_content">"Į šią kategoriją perkeliamiems failams reikia autentifikacijos slaptažodžiu. Pridėkite failus prie šios kategorijos failo meniu paspaudę „Move to safe box“ (perkelti į saugos dėžutę)."</string>
+	<!-- no translation found for safe_first_dialog_content_cn -->
+	<skip />
+	<!---->
+	<string name="safe_storage_local">"Vietinė saugykla"</string>
+	<!---->
+	<string name="set_password_pass">"Slaptažodis"</string>
+	<!---->
+	<string name="set_password_first">"Nustatykite slaptažodį: 4–12 skaitm."</string>
+	<!-- no translation found for input_new_password_hint -->
+	<skip />
+	<!---->
+	<string name="set_password_again">"Patvirtinkite slaptažodį"</string>
+	<!---->
+	<string name="set_password_show">"Rodyti slaptažodį"</string>
+	<!---->
+	<string name="set_password_safe_question">"Sauga"</string>
+	<!---->
+	<string name="set_password_safe_question_answer">"Atidaroma"</string>
+	<!---->
+	<string name="set_password_safe_forget_pass">"Atsiminkite saugos atsakymus. Jei pamirštumėte slaptažodį, galėsite iš naujo jį nustatyti atsakydami į saugos klausimus."</string>
+	<!---->
+	<string name="choose_safe">"Pasirinkti saugos dėžutę"</string>
+	<!-- no translation found for choose_safe_cn -->
+	<skip />
+	<!---->
+	<string name="create_safe">"Kurti saugos dėžutę"</string>
+	<!---->
+	<string name="create_safe_to">"Kurti saugos dėžutę"</string>
+	<!-- no translation found for create_safe_to_cn -->
+	<skip />
+	<!---->
+	<string name="set_password">"Nustatyti slaptažodį"</string>
+	<!-- no translation found for add_file_safe -->
+	<skip />
+	<!---->
+	<string name="safe_set">"Nustatymai"</string>
+	<!---->
+	<string name="safe_set_title">"Saugos dėžutės nustatymai"</string>
+	<!-- no translation found for safe_set_title_cn -->
+	<skip />
+	<!---->
+	<string name="update_password">"Atnaujinti slaptažodį"</string>
+	<!---->
+	<string name="modify_password">"Keisti slaptažodį"</string>
+	<!---->
+	<string name="security_question">"Atnaujinti saugą"</string>
+	<!-- no translation found for modify_security_question -->
+	<skip />
+	<!---->
+	<string name="safe_set_change_safe">"Pakeisti saugos dėžutę"</string>
+	<!---->
+	<string name="safe_set_location_safe">"Saugos dėžutės vieta"</string>
+	<!-- no translation found for safe_set_location_safe_cn -->
+	<skip />
+	<!---->
+	<string name="update_password_original">"Įveskite pradinį slaptažodį"</string>
+	<!---->
+	<string name="update_password_original_cn">"Įveskite pradinį slaptažodį"</string>
+	<!---->
+	<string name="destory_safe">"Panaikinti saugos dėžutę"</string>
+	<!-- no translation found for destory_safe_cn -->
+	<skip />
+	<!-- no translation found for destory -->
+	<skip />
+	<!---->
+	<string name="use_password">"Naudoti slaptažodį"</string>
+	<!---->
+	<string name="input_password">"Įvesti slaptažodį"</string>
+	<!---->
+	<string name="forget_password">"Pamirštas slaptažodis"</string>
+	<!-- no translation found for others -->
+	<skip />
+	<!---->
+	<string name="password_empty">"Slaptažodžio laukelis negali būti tuščias."</string>
+	<!---->
+	<string name="password_consistent">"Slaptažodžiai nesutampa."</string>
+	<!---->
+	<string name="password_length_error">"Slaptažodžio ilgio klaida"</string>
+	<!---->
+	<string name="answer_empty">"Atsakymo laukelis negali būti tuščias."</string>
+	<!-- no translation found for safe_box_name_empty -->
+	<skip />
+	<!---->
+	<string name="update_success">"Atnaujinta sėkmingai."</string>
+	<!---->
+	<string name="update_fail">"Nepavyko atnaujinti"</string>
+	<!---->
+	<string name="password_mistake">"Slaptažodis neteisingas. Įveskite dar kartą."</string>
+	<!---->
+	<string name="move_safe">"Perkelti į saugos dėžutę"</string>
+	<!---->
+	<string name="fingerprint_check">"Susieti pirštų antspaudai, patvirtinti naudokite pirštų antspaudų jutiklį."</string>
+	<!---->
+	<string name="in_use">"Naudojama"</string>
+	<!---->
+	<string name="created">"Sukurta"</string>
+	<!---->
+	<string name="choose_files">"Pasirinkite failą (-us)"</string>
+	<!---->
+	<string name="move_out">"Išsikelti"</string>
+	<!---->
+	<string name="remove_to">"Perkelti į"</string>
+	<!---->
+	<string name="default_location">"Numatytoji vieta"</string>
+	<!---->
+	<string name="specified_location">"Nurodyta vieta"</string>
+	<!-- no translation found for open_dir -->
+	<skip />
+	<!-- no translation found for default_location_cn -->
+	<skip />
+	<!-- no translation found for specified_location_cn -->
+	<skip />
+	<!-- no translation found for specified_location_content_cn -->
+	<skip />
+	<!-- no translation found for category_safe -->
+	<skip />
+	<!-- no translation found for category_safe_cn -->
+	<skip />
+	<!---->
+	<string name="add_safe_size_limited">"Neįmano pridėti didesnių nei 2.0 GB failų"</string>
+	<!-- no translation found for add_safe_drm_limited -->
+	<skip />
+	<!---->
+	<string name="fingerprint_relative_dialog">"Susieti saugos dėžutę su piršto antspaudu?"</string>
+	<!-- no translation found for fingerprint_relative_dialog_cn -->
+	<skip />
+	<!-- no translation found for fingerprint_relative_dialog_ok -->
+	<skip />
+	<!-- no translation found for fingerprint_relative_dialog_ok_cn -->
+	<skip />
+	<!---->
+	<string name="fingerprint_relative_dialog_cancel">"Vėliau"</string>
+	<!-- no translation found for fingerprint_relative_dialog_cancel_cn -->
+	<skip />
+	<!---->
+	<string name="safe_location_current">"Saugos dėžutės vieta:"</string>
+	<!-- no translation found for safe_location_current_cn -->
+	<skip />
+	<!---->
+	<string name="safe_location_content">"Nesinaudokite failo aplanku, kad nesugadintumėte šifruotų duomenų"</string>
+	<!-- no translation found for safe_location_content_cn -->
+	<skip />
+	<!---->
+	<string name="destory_safe_dialog_message">"Failai saugos dėžutėje ir slaptažodis bus ištrinti. Panaikinti dabar?"</string>
+	<!---->
+	<string name="destory_safe_dialog_checkbox">"Tuo pačiu metu pašalinti failą?"</string>
+	<!-- no translation found for destory_safe_dialog_checkbox_cn -->
+	<skip />
+	<!---->
+	<string name="open_safe_dialog">"Įjungti į saugos dėžutę"</string>
+	<!-- no translation found for open_safe_dialog_cn -->
+	<skip />
+	<!---->
+	<string name="open_safe_dialog_message">"Įjungę saugos dėžutės funkciją perkelsite failus į saugos dėžutę. Įjungti dabar?"</string>
+	<!-- no translation found for open_safe_dialog_message_cn -->
+	<skip />
+	<!---->
+	<string name="open_safe_dialog_ok">"Nedelsiant atidaryti"</string>
+	<!---->
+	<string name="category_private_string">"Saugos dėžutė"</string>
+	<!---->
+	<string name="opening">"Atidarymas"</string>
+	<!-- no translation found for space_clear -->
+	<skip />
+	<!-- no translation found for unselected -->
+	<skip />
+	<!-- no translation found for select -->
+	<skip />
+	<!-- no translation found for finish -->
+	<skip />
+	<!---->
+	<string name="senior_title">"Vyresnysis"</string>
+	<!-- no translation found for no_files_for_add_to_safebox -->
+	<skip />
+	<!-- no translation found for finger_print_relation -->
+	<skip />
+	<!-- no translation found for duplicate_file_name_tip -->
+	<skip />
+	<!---->
+	<string name="searchview_hint">"Ieškoti failų"</string>
+	<!-- no translation found for safe_box_name_tip -->
+	<skip />
+	<!-- no translation found for toast_update_safe_box_name_sucess -->
+	<skip />
+	<!-- no translation found for toast_update_safe_box_name_fail -->
+	<skip />
+	<!-- no translation found for toast_safe_box_name_empty -->
+	<skip />
+	<!-- no translation found for cut_single_fail_tip -->
+	<skip />
+	<!-- no translation found for delete_single_fail_tip -->
+	<skip />
+	<!-- no translation found for copy_single_fail_tip -->
+	<skip />
+	<!-- no translation found for copy_multi_fail_tip -->
+	<skip />
+	<!-- no translation found for delete_multi_fail_tip -->
+	<skip />
+	<!-- no translation found for cut_multi_fail_tip -->
+	<skip />
+	<!-- no translation found for copy_all_fail_tip -->
+	<skip />
+	<!-- no translation found for delete_all_fail_tip -->
+	<skip />
+	<!-- no translation found for cut_all_fail_tip -->
+	<skip />
+	<!-- no translation found for past_multi_fail_tip -->
+	<skip />
+	<!-- no translation found for past_single_fail_tip -->
+	<skip />
+	<!-- no translation found for past_all_fail_tip -->
+	<skip />
+	<!-- no translation found for chip_encryption -->
+	<skip />
+	<!---->
+	<string name="safe_name_title">"Pavadinimas"</string>
+	<!---->
+	<string name="update_name">"Atnaujinti vardą"</string>
+	<!-- no translation found for fingerprint_relate -->
+	<skip />
+	<!-- no translation found for insufficient_message_cn -->
+	<skip />
+	<!-- no translation found for add_success -->
+	<skip />
+	<!---->
+	<string name="pasted_cn">"Failas įkopijuotas"</string>
+	<!-- no translation found for no_search_result_cn -->
+	<skip />
+	<!---->
+	<string name="detail_time_cn">"Pakeistas laikas"</string>
+	<!-- no translation found for rename_limit -->
+	<skip />
+	<!-- no translation found for fingerprint_fail -->
+	<skip />
+	<!-- no translation found for answer_mistake -->
+	<skip />
+	<!-- no translation found for answer_empty_tip -->
+	<skip />
+	<!-- no translation found for new_safe -->
+	<skip />
+	<!-- no translation found for dialog_confirm -->
+	<skip />
+	<!-- no translation found for move_in_success -->
+	<skip />
+	<!-- no translation found for move_in_count -->
+	<skip />
+	<!-- no translation found for message_security_fingerprint_lockout -->
+	<skip />
+	<!-- no translation found for use_password_auth -->
+	<skip />
+	<!-- no translation found for storage_details -->
+	<skip />
+	<!---->
+	<string name="total_memory">"Iš viso atminties"</string>
+	<!-- no translation found for system -->
+	<skip />
+	<!-- no translation found for category_fragment_title -->
+	<skip />
+	<!-- no translation found for storage -->
+	<skip />
+	<!-- no translation found for choice -->
+	<skip />
+	<!-- no translation found for view_tag_key -->
+	<skip />
+	<!-- no translation found for view_tag_key2 -->
+	<skip />
+	<!-- no translation found for finish_percent -->
+	<skip />
+	<!---->
+	<string name="select_pic">"Pasirinkti paveikslėlį"</string>
+	<!---->
+	<string name="brackets_double">"(%1$s)"</string>
+	<!-- no translation found for selected_pick -->
+	<skip />
+	<!-- no translation found for most_selected -->
+	<skip />
+	<!-- no translation found for finish_ready -->
+	<skip />
+	<!-- no translation found for select_pic_data -->
+	<skip />
+	<!-- no translation found for delete_determine_selected -->
+	<skip />
+	<!-- no translation found for delete_document -->
+	<skip />
+	<!-- no translation found for delete_folder -->
+	<skip />
+	<!-- no translation found for delete_folder_and -->
+	<skip />
+	<!---->
+	<string name="deselect_all_item">"Panaikinti visus žymėjim."</string>
+	<!-- no translation found for edit -->
+	<skip />
+	<!-- no translation found for storage_phone -->
+	<skip />
+	<!-- no translation found for storage_sdcard -->
+	<skip />
+	<!-- no translation found for storage_otg -->
+	<skip />
+	<!-- no translation found for storage_slash -->
+	<skip />
+	<!-- no translation found for welcome_security -->
+	<skip />
+	<!-- no translation found for welcome_security_info -->
+	<skip />
+	<!-- no translation found for welcome_convenient -->
+	<skip />
+	<!-- no translation found for welcome_convenient_info -->
+	<skip />
+	<!-- no translation found for welcome_depth -->
+	<skip />
+	<!-- no translation found for welcome_depth_info -->
+	<skip />
+	<!-- no translation found for welcome_add -->
+	<skip />
+	<!-- no translation found for welcome_add_info -->
+	<skip />
+	<!-- no translation found for welcome_dialog_title -->
+	<skip />
+	<!-- no translation found for welcome_dialog_info -->
+	<skip />
+	<!-- no translation found for welcome_dialog_verify_btn -->
+	<skip />
+	<!-- no translation found for welcome_dialog_verify_pwd -->
+	<skip />
+	<!-- no translation found for welcome_start_use -->
+	<skip />
+	<!-- no translation found for welcome_not_use -->
+	<skip />
+	<!---->
+	<string name="welcome_ok">"UŽFIKSUOTA"</string>
+	<!-- no translation found for encrypt_files_success -->
+	<skip />
+	<!-- no translation found for delete_direct -->
+	<skip />
+	<!---->
+	<string name="delete_file">"Ar ištrinti šį failą?"</string>
+</resources>

@@ -1,0 +1,130 @@
+<resources>
+
+    <style name="MarketActivityTheme" parent="@com.mst:style/Theme.Mst.Material.Light">
+        <!-- 在这里重写你需要的样式 -->
+        <item name="android:colorPrimary">@color/white</item>
+    </style>
+
+    <style name="BackActivityTheme" parent="@com.mst:style/Theme.Mst.Material.Light">
+        <!-- 在这里重写你需要的样式 -->
+        <item name="com.mst:windowLayoutStyle">@style/WindowStyle.Light</item>
+        <item name="android:toolbarStyle">@style/ToolbarStyle</item>
+        <item name="android:colorPrimary">@color/white</item>
+    </style>
+
+    <style name="ManagerActivityTheme" parent="BackActivityTheme">
+        <item name="android:statusBarColor">?android:attr/colorPrimary</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="com.mst:actionPositiveText">@string/downloadman_select_all</item>
+        <item name="com.mst:actionNagativeText">@string/downloadman_cancel</item>
+    </style>
+
+    <style name="WindowStyle.Light" parent="com.mst:WindowStyle.Light">
+        <item name="com.mst:windowHasToolbar">true</item>
+        <item name="com.mst:hasBackIcon">true</item>
+    </style>
+
+    <style name="ToolbarStyle" parent="com.mst:ToolbarStyle">
+        <item name="android:elevation">0dp</item>
+    </style>
+
+    <style name="notification_install" parent="@android:style/Widget.ProgressBar.Small">
+        <item name="android:indeterminateDrawable">@anim/nofitication</item>
+        <item name="android:layout_width">280dp</item>
+        <item name="android:layout_height">3dp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+
+    <style name="myRatingBarSmall" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/ratingstart_small</item>
+        <item name="android:minHeight">10dp</item>
+    </style>
+
+    <style name="myRatingBarBig" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/ratingstart_big</item>
+        <item name="android:minHeight">10dp</item>
+    </style>
+
+    <declare-styleable name="SwipeToLoadLayout">
+        <attr name="refresh_enabled" format="boolean" />
+        <attr name="load_more_enabled" format="boolean" />
+
+        <attr name="swipe_style" format="enum">
+            <enum name="classic" value="0" />
+            <enum name="above" value="1" />
+            <enum name="blew" value="2" />
+            <enum name="scale" value="3" />
+        </attr>
+
+        <attr name="drag_ratio" format="float" />
+
+        <attr name="refresh_trigger_offset" format="dimension" />
+        <attr name="load_more_trigger_offset" format="dimension" />
+        <attr name="refresh_final_drag_offset" format="dimension" />
+        <attr name="load_more_final_drag_offset" format="dimension" />
+
+        <attr name="swiping_to_refresh_to_default_scrolling_duration" format="integer" />
+        <attr name="release_to_refreshing_scrolling_duration" format="integer" />
+        <attr name="refresh_complete_delay_duration" format="integer" />
+        <attr name="refresh_complete_to_default_scrolling_duration" format="integer" />
+        <attr name="default_to_refreshing_scrolling_duration" format="integer" />
+        <attr name="swiping_to_load_more_to_default_scrolling_duration" format="integer" />
+        <attr name="release_to_loading_more_scrolling_duration" format="integer" />
+        <attr name="load_more_complete_delay_duration" format="integer" />
+        <attr name="load_more_complete_to_default_scrolling_duration" format="integer" />
+        <attr name="default_to_loading_more_scrolling_duration" format="integer" />
+    </declare-styleable>
+
+    <style name="ThemeSwipeBackTransparent" parent="MarketActivityTheme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorPrimary">@android:color/transparent</item>
+        <item name="android:colorPrimaryDark">@android:color/transparent</item>
+    </style>
+
+    <!-- 上传ProgressDialog的样式 -->
+    <style name="upload_Dialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+    </style>
+
+    <style name="upload_progressDialog" parent="@style/upload_Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="picture" parent="@com.mst:style/Theme.Mst.Material.Light">
+        <item name="android:backgroundDimAmount">0.0</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:textColorLink">@color/link</item>
+        <item name="android:windowAnimationStyle">@style/anim.alpha</item>
+    </style>
+
+    <style name="anim.alpha" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@null</item>
+        <item name="android:activityOpenExitAnimation">@null</item>
+        <item name="android:activityCloseEnterAnimation">@null</item>
+        <item name="android:activityCloseExitAnimation">@null</item>
+    </style>
+
+    <style name="DetailIntroduceTitleText">
+        <item name="android:alpha">0.6</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:lines">1</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="DetailIntroduceText" parent="DetailIntroduceTitleText">
+        <item name="android:alpha">0.86</item>
+    </style>
+
+</resources>

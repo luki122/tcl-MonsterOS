@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="check_new">"检查更新"</string>
+    <string name="downloaded_finish">"下载完成"</string>
+    <string name="downloading">"下载中"</string>
+    <string name="network_error_tip">"网络出现错误，请检查您的网络并重新尝试"</string>
+    <string name="notification_downloading">"下载中"</string>
+    <string name="retry">"尝试"</string>
+    <string name="tip_network_error">"网络错误"</string>
+    <string name="try_later">"稍后"</string>
+    <string name="update">"现在"</string>
+    <string name="update_ask_tip">"你需要更新到最新版本"</string>
+    <string name="update_available">"有新版本可升级"</string>
+    <string name="update_confirm">"OK"</string>
+    <string name="update_detail_prefix">"新版本V%1$s，主要更新如下："</string>
+    <string name="update_download_fail">"下载失败"</string>
+    <string name="update_force_nofity_tip">"建议您将应用升级到最新版本"</string>
+    <string name="update_no_need">"已是最新版本"</string>
+    <string name="update_no_updates">"没有新版本"</string>
+    <string name="update_no_updates_tip">"没有新版本可升级"</string>
+    <string name="update_not_now">"暂不更新"</string>
+    <string name="update_notification_tips">"请更新到最新版本，否则你将无法使用本应用"</string>
+    <string name="update_notification_title">"更新通知"</string>
+    <string name="update_notify_tip">"有新的版本，请问是否现在更新？"</string>
+    <string name="update_now">"更新"</string>
+    <string name="versionDesc">"版本描述\n"</string>
+</resources>

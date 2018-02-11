@@ -1,0 +1,48 @@
+<cn.tcl.music.widget.ActionModeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/action_mode_bar_layout"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize">
+    <TextView
+        android:id="@+id/toolbar_cancel_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:alpha="0.86"
+        android:text="@string/cancel"
+        android:textColor="@color/black"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/toolbar_select_num_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="20dp"
+        android:alpha="0.86"
+        android:text="@string/batch_songs_num"
+        android:textColor="@color/black"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/toolbar_select_all_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="20dp"
+        android:alpha="0.86"
+        android:text="@string/select_all"
+        android:textColor="@color/black"
+        android:textSize="15sp"/>
+
+    <!--<cn.tcl.music.widget.ActionModeLayout-->
+    <!--android:id="@+id/action_mode_bar_layout"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_centerVertical="true">-->
+    <!---->
+    <!--</cn.tcl.music.widget.ActionModeLayout>-->
+</cn.tcl.music.widget.ActionModeLayout>

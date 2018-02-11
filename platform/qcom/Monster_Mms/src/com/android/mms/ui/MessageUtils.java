@@ -1,0 +1,3184 @@
+/*
+ * Copyright (c) 2013-2014, The Linux Foundation. All rights reserved.
+ * Not a Contribution.
+ *
+ * Copyright (C) 2008 Esmertec AG.
+ * Copyright (C) 2008 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+package com.android.mms.ui;
+
+import java.io.ByteArrayOutputStream;
+import java.io.DataOutputStream;
+import java.io.File;
+import java.io.InputStream;
+import java.io.IOException;
+import java.io.UnsupportedEncodingException;
+import java.text.DecimalFormat;
+import java.text.SimpleDateFormat;
+import java.util.Arrays;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Date;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Locale;
+import java.util.concurrent.ConcurrentHashMap;
+
+import android.app.Activity;
+//import android.app.AlertDialog;
+import mst.app.dialog.AlertDialog;
+import android.content.ActivityNotFoundException;
+import android.content.ClipData;
+import android.content.ClipboardManager;
+import android.content.ComponentName;
+import android.content.ContentUris;
+import android.content.ContentValues;
+import android.content.Context;
+import android.content.DialogInterface;
+import android.content.DialogInterface.OnCancelListener;
+import android.content.DialogInterface.OnClickListener;
+import android.content.Intent;
+import android.content.ContentResolver;
+import android.content.SharedPreferences;
+import android.content.pm.PackageInfo;
+import android.content.pm.PackageManager.NameNotFoundException;
+import android.content.res.Resources;
+import android.content.SharedPreferences;
+import android.content.res.TypedArray;
+import android.database.Cursor;
+import android.database.sqlite.SqliteWrapper;
+import android.graphics.BitmapFactory;
+import android.graphics.BitmapFactory.Options;
+import android.graphics.Color;
+import android.graphics.drawable.Drawable;
+import android.graphics.Typeface;
+import android.media.CamcorderProfile;
+import android.media.RingtoneManager;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
+import android.net.Uri;
+import android.os.Build;
+import android.os.Environment;
+import android.os.Handler;
+import android.os.Bundle;
+import android.os.Message;
+import android.os.Messenger;
+import android.os.StatFs;
+import android.os.SystemProperties;
+import android.os.UserHandle;
+import android.preference.PreferenceManager;
+import android.provider.ContactsContract;
+import android.provider.ContactsContract.Contacts;
+import android.provider.ContactsContract.CommonDataKinds.Phone;
+import android.provider.ContactsContract.CommonDataKinds.StructuredName;
+import android.provider.ContactsContract.Data;
+import android.provider.MediaStore;
+import android.provider.MediaStore.Audio;
+import android.provider.MediaStore.Audio.Media;
+import android.provider.Settings;
+import mst.provider.Telephony.Mms;
+import mst.provider.Telephony.Mms.Part;
+import mst.provider.Telephony.Sms;
+import mst.provider.Telephony.Threads;
+import android.telecom.PhoneAccount;
+import android.telecom.PhoneAccountHandle;
+import android.telecom.TelecomManager;
+import android.telephony.PhoneNumberUtils;
+import android.telephony.SubscriptionManager;
+import android.telephony.TelephonyManager;
+import android.text.Spannable;
+import android.text.SpannableStringBuilder;
+import android.text.style.ForegroundColorSpan;
+import android.text.style.StyleSpan;
+import android.text.style.TextAppearanceSpan;
+import android.text.TextPaint;
+import android.text.TextUtils;
+import android.os.AsyncTask;
+import android.text.format.DateUtils;
+import android.text.format.Time;
+import android.text.style.URLSpan;
+import android.util.Log;
+import android.util.TypedValue;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.ArrayAdapter;
+import android.widget.TextView;
+import android.widget.Toast;
+
+import com.android.internal.telephony.PhoneConstants;
+import com.android.mms.LogTag;
+import com.android.mms.MmsApp;
+import com.android.mms.MmsConfig;
+import com.android.mms.R;
+import com.android.mms.TempFileProvider;
+import com.android.mms.data.Contact;
+import com.android.mms.data.WorkingMessage;
+import com.android.mms.model.ContentRestriction;
+import com.android.mms.model.ContentRestrictionFactory;
+import com.android.mms.model.ImageModel;
+import com.android.mms.model.MediaModel;
+import com.android.mms.model.SlideModel;
+import com.android.mms.model.SlideshowModel;
+import com.android.mms.model.VcardModel;
+import com.android.mms.transaction.MessagingNotification;
+import com.android.mms.transaction.MmsMessageSender;
+import com.android.mms.util.AddressUtils;
+import com.android.mms.util.DownloadManager;
+//import com.android.mms.widget.MmsWidgetProvider;
+import com.google.android.mms.ContentType;
+import com.google.android.mms.MmsException;
+import com.google.android.mms.pdu.CharacterSets;
+import com.google.android.mms.pdu.EncodedStringValue;
+import com.google.android.mms.pdu.MultimediaMessagePdu;
+import com.google.android.mms.pdu.NotificationInd;
+import com.google.android.mms.pdu.PduBody;
+import com.google.android.mms.pdu.PduHeaders;
+import com.google.android.mms.pdu.PduPart;
+import com.google.android.mms.pdu.PduPersister;
+import com.google.android.mms.pdu.RetrieveConf;
+import com.google.android.mms.pdu.SendReq;
+
+//lichao add begin
+import android.provider.ContactsContract.CommonDataKinds.Note;
+import com.android.mms.ui.MailBoxMessageContent;
+import android.location.CountryDetector;
+
+import java.util.regex.Pattern;
+import java.util.regex.Matcher;
+//lichao add end
+import android.support.v4.content.FileProvider;
+
+/**
+ * An utility class for managing messages.
+ */
+public class MessageUtils {
+    interface ResizeImageResultCallback {
+        void onResizeResult(PduPart part, boolean append);
+    }
+
+    private static final int SELECT_SYSTEM = 0;
+    private static final int SELECT_EXTERNAL = 1;
+    private static final boolean DEBUG = false;
+    private static final boolean DBG_NOTE = false;//lichao add
+    public static final int SUB_INVALID = -1;  //  for single card product
+    public static final int SUB1 = 0;  // for DSDS product of slot one
+    public static final int SUB2 = 1;  // for DSDS product of slot two
+    public static final String SUBSCRIPTION_KEY = "subscription";
+    public static final int MESSAGE_READ = 1;
+    public static final int MESSAGE_SEEN = 1;
+    // add manage mode of multi select action
+    public static final int INVALID_MODE= -1;
+    public static final int FORWARD_MODE = 0;
+    public static final int SIM_MESSAGE_MODE = 1;
+    public static final Uri ICC_URI = Uri.parse("content://sms/icc");
+    public static final Uri ICC1_URI = Uri.parse("content://sms/icc1");
+    public static final Uri ICC2_URI = Uri.parse("content://sms/icc2");
+    private static final int TIMESTAMP_LENGTH = 7;  // See TS 23.040 9.2.3.11
+
+    private static boolean mCanShowDialog;
+
+    private static final String TAG = "MessageUtils";
+    private static final String PREFERRED_SIM_ICON_INDEX = "preferred_sim_icon_index";
+    private static String sLocalNumber;
+    private static String[] sNoSubjectStrings;
+    public static String MULTI_SIM_NAME = "perferred_name_sub";
+    private static final String VIEW_MODE_NAME = "current_view";
+
+    public static final Uri SEARCH_THREAD_URI = Uri.parse("content://mms-sms/search-thread");
+    // add for different search mode in SearchActivityExtend
+    public static final int SEARCH_MODE_CONTENT = 0;
+    public static final int SEARCH_MODE_NAME    = 1;
+    public static final int SEARCH_MODE_NUMBER  = 2;
+    public static final int SEARCH_MODE_BLACK   = 10;//lichao add
+    // add for different match mode in classify search
+    public static final int MATCH_BY_ADDRESS = 0;
+    public static final int MATCH_BY_THREAD_ID = 1;
+
+    public static final int PREFER_SMS_STORE_PHONE = 0;
+    public static final int PREFER_SMS_STORE_CARD = 1;
+    private static final Uri BOOKMARKS_URI = Uri.parse("content://browser/bookmarks");
+
+    // Consider oct-strean as the content type of vCard
+    public static final String OCT_STREAM = "application/oct-stream";
+    public static final String VCARD = "vcf";
+
+    // distinguish view vcard from mms but not from contacts.
+    public static final String VIEW_VCARD = "VIEW_VCARD_FROM_MMS";
+    // add for obtain mms data path
+    private static final String MMS_DATA_DATA_DIR = "/data/data";
+    private static final String MMS_DATA_DIR = "/data/phonedata";
+    private static final String MMS_DATABASE_DIR =
+            "/com.android.providers.telephony/databases/mmssms.db";
+    // the remaining space , format as MB
+    public static final long MIN_AVAILABLE_SPACE_MMS = 2 * 1024 * 1024;
+    private static final long KILOBYTE_SIZE = 1024;
+    private static final int DEFAULT_FONT_SIZE = 18;
+
+    // add for query message count from iccsms table
+    public static final Uri ICC_SMS_URI = Uri.parse("content://sms/iccsms");
+    /**
+     * Whether the LayoutDirection is RTL.
+     */
+    private static boolean isLayoutRtl = false;
+
+    private static final String EXIT_AFTER_RECORD = "exit_after_record";
+
+    // Cache of both groups of space-separated ids to their full
+    // comma-separated display names, as well as individual ids to
+    // display names.
+    // TODO: is it possible for canonical address ID keys to be
+    // re-used?  SQLite does reuse IDs on NULL id_ insert, but does
+    // anything ever delete from the mmssms.db canonical_addresses
+    // table?  Nothing that I could find.
+    private static final Map<String, String> sRecipientAddress =
+            new ConcurrentHashMap<String, String>(20 /* initial capacity */);
+
+    // When we pass a video record duration to the video recorder, use one of these values.
+    private static final int[] sVideoDuration =
+            new int[] {0, 5, 10, 15, 20, 30, 40, 50, 60, 90, 120};
+
+    /**
+     * MMS address parsing data structures
+     */
+    // allowable phone number separators
+    private static final char[] NUMERIC_CHARS_SUGAR = {
+        '-', '.', ',', '(', ')', ' ', '/', '\\', '*', '#', '+'
+    };
+
+    //begin tangyisen
+    public static final String WIDTHPLUSHEIGHT = ":";
+    //end tangyisen
+
+    // Dialog item options for number
+    private static final int DIALOG_ITEM_CALL         = 0;
+    private static final int DIALOG_ITEM_SMS          = 1;
+    //tangyisen
+    //private static final int DIALOG_ITEM_ADD_CONTACTS = 2;
+    //private static final int DIALOG_ITEM_COPY = 3;//ligy add
+    private static final int DIALOG_ITEM_CREATE_NEW_CONTACTS_OR_COPY = 2;
+    private static final int DIALOG_ITEM_ADD_CONTACTS = 3;
+    private static final int DIALOG_ITEM_COPY = 4;
+    //private static final int DIALOG_ITEM_CONTACTS_EXISTED_COPY = 2;
+
+    // Dialog item options for email
+    private static final int DIALOG_ITEM_EMAIL_TO = 0;
+    private static final int DIALOG_ITEM_EMAIL_ADD_CONTACTS = 1;
+
+    private static final String MAIL_TO_PREFIX = "mailto:";
+
+    private static HashMap numericSugarMap = new HashMap (NUMERIC_CHARS_SUGAR.length);
+
+    public static String WAPPUSH = "Browser Information"; // Wap push key
+    private static final String[] WEB_SCHEMA =
+                        new String[] { "http://", "https://", "rtsp://" };
+
+    // add for search
+    public static final String SEARCH_KEY                = "is_search";
+    public static final String SEARCH_KEY_TITLE          = "title";
+    public static final String SEARCH_KEY_MODE_POSITION  = "mode_position";
+    public static final String SEARCH_KEY_KEY_STRING     = "key_str";
+    public static final String SEARCH_KEY_DISPLAY_STRING = "display_str";
+    public static final String SEARCH_KEY_MATCH_WHOLE    = "match_whole";
+
+    public static final String MAIL_BOX_ID    = "mailbox_id";
+
+    private static final String REPLACE_QUOTES_1 = "'";
+    private static final String REPLACE_QUOTES_2 = "''";
+
+    public static final String EXTRA_KEY_NEW_MESSAGE_NEED_RELOAD = "reload";
+
+    public static final String KEY_SMS_FONTSIZE = "smsfontsize";
+    public static final int DELAY_TIME = 200;
+    public static final float FONT_SIZE_DEFAULT = 30f;
+    public static final float MAX_FONT_SIZE = 80f;
+    public static final float MIN_FONT_SIZE = 20f;
+    public static final float FONT_SIZE_STEP = 5f;
+
+    protected static final int URL_OPTION_MENU_CONNECT = 0;
+    //tangyisen
+    //protected static final int URL_OPTION_MENU_ADD_TO_LABEL = 1;
+    //protected static final int URL_OPTION_MENU_COPY_URL = 2;
+    protected static final int URL_OPTION_MENU_COPY = 1;
+
+    //for showing memory status dialog.
+    private static AlertDialog memoryStatusDialog = null;
+
+    public static final int ALL_RECIPIENTS_VALID   = 0;
+    public static final int ALL_RECIPIENTS_INVALID = -1;
+    // Indentify RECIPIENT editText is empty
+    public static final int ALL_RECIPIENTS_EMPTY   = -2;
+    // Add phone feature uri
+    private static final Uri URI_PHONE_FEATURE = Uri
+            .parse("content://com.qualcomm.qti.phonefeature.FEATURE_PROVIDER");
+    // Add keys for supporting SMSC
+    private static final String METHOD_GET_SMSC = "get_smsc";
+    private static final String METHOD_SET_SMSC = "set_smsc";
+    public static final String EXTRA_SMSC = "smsc";
+    // add for obtaining all short message count
+    public static final Uri MESSAGES_COUNT_URI = Uri.parse("content://mms-sms/messagescount");
+
+    private static final int DEFAULT_MMS_SIZE = 50;
+    private static final int MIN_MMS_SIZE = 3;
+    private static final int DECIMAL_FORMATTOR_GROUPING_SIZE = 3;
+
+    private static final String INTERNATIONAL_PREFIX_ENABLE = "international_prefix_enable";
+    private static final String INTERNATIONAL_PREFIX_NUMBER = "international_prefix_number";
+    private static final String IDP_PLUS = "+";
+    private static final String IDP_IDN = "+62";
+    private static final String IDP_ZERO = "0";
+    private static final String IDP_DEFAULT_PREFIX = "01033";
+    private static final int IDP_ENABLE = 1;
+
+    // Save the thread id for same recipient forward mms
+    public static ArrayList<Long> sSameRecipientList = new ArrayList<Long>();
+
+    private static final String PREF_SHOW_URL_WARNING = "pref_should_show_url_warning";
+    private static final boolean PREF_SHOULD_SHOW_URL_WARNING = true;
+
+    private static final String CELL_BROADCAST_PACKAGE_NAME =
+            "com.android.cellbroadcastreceiver";
+    private static final String CELL_BROADCAST_ACTIVITY_NAME =
+            "com.android.cellbroadcastreceiver.CellBroadcastListActivity";
+    private static final long COMPRESSION_FACTOR = 3;
+
+    static {
+        for (int i = 0; i < NUMERIC_CHARS_SUGAR.length; i++) {
+            numericSugarMap.put(NUMERIC_CHARS_SUGAR[i], NUMERIC_CHARS_SUGAR[i]);
+        }
+    }
+
+    private static final int OFFSET_ADDRESS_LENGTH = 0;
+    private static final int OFFSET_TOA = 1;
+    private static final int OFFSET_ADDRESS_VALUE = 2;
+
+    public static final String SMS_BOX_ID = "box_id";
+    public static final String COPY_SMS_INTO_SIM_SUCCESS = "success";
+
+    public static final int MESSAGE_REPORT_COLUMN_ID         = 0;
+    public static final int MESSAGE_REPORT_COLUMN_MESSAGE_ID = 1;
+    public static final int MESSAGE_REPORT_COLUMN_SUB_ID   = 2;
+
+    private MessageUtils() {
+        // Forbidden being instantiated.
+    }
+
+    /**
+     * cleanseMmsSubject will take a subject that's says, "<Subject: no subject>", and return
+     * a null string. Otherwise it will return the original subject string.
+     * @param context a regular context so the function can grab string resources
+     * @param subject the raw subject
+     * @return
+     */
+    public static String cleanseMmsSubject(Context context, String subject) {
+        if (TextUtils.isEmpty(subject)) {
+            return subject;
+        }
+        if (sNoSubjectStrings == null) {
+            sNoSubjectStrings =
+                    context.getResources().getStringArray(R.array.empty_subject_strings);
+
+        }
+        final int len = sNoSubjectStrings.length;
+        for (int i = 0; i < len; i++) {
+            if (subject.equalsIgnoreCase(sNoSubjectStrings[i])) {
+                return null;
+            }
+        }
+        return subject;
+    }
+
+    public static String getMessageDetails(Context context, Cursor cursor, int size) {
+        if (cursor == null || cursor.getCount() == 0) {
+            return null;
+        }
+        isLayoutRtl = (TextUtils.getLayoutDirectionFromLocale(Locale.getDefault())
+                == View.LAYOUT_DIRECTION_RTL);
+
+        if ("mms".equals(cursor.getString(MessageListAdapter.COLUMN_MSG_TYPE))) {
+            int type = cursor.getInt(MessageListAdapter.COLUMN_MMS_MESSAGE_TYPE);
+            switch (type) {
+                case PduHeaders.MESSAGE_TYPE_NOTIFICATION_IND:
+                    return getNotificationIndDetails(context, cursor);
+                case PduHeaders.MESSAGE_TYPE_RETRIEVE_CONF:
+                case PduHeaders.MESSAGE_TYPE_SEND_REQ:
+                    return getMultimediaMessageDetails(context, cursor, size);
+                default:
+                    Log.w(TAG, "No details could be retrieved.");
+                    return "";
+            }
+        } else {
+            return getTextMessageDetails(context, cursor);
+        }
+    }
+
+    private static String getNotificationIndDetails(Context context, Cursor cursor) {
+        StringBuilder details = new StringBuilder();
+        Resources res = context.getResources();
+
+        long id = cursor.getLong(MessageListAdapter.COLUMN_ID);
+        Uri uri = ContentUris.withAppendedId(Mms.CONTENT_URI, id);
+        NotificationInd nInd;
+
+        try {
+            nInd = (NotificationInd) PduPersister.getPduPersister(
+                    context).load(uri);
+        } catch (MmsException e) {
+            Log.e(TAG, "Failed to load the message: " + uri, e);
+            return context.getResources().getString(R.string.cannot_get_details);
+        }
+
+        // Message Type: Mms Notification.
+        details.append(res.getString(R.string.message_type_label));
+        details.append(res.getString(R.string.multimedia_notification));
+
+        // From: ***
+        String from = extractEncStr(context, nInd.getFrom());
+
+        // Make sure the "from" display normally for RTL.
+        if (isLayoutRtl) {
+            from = '\u202D'+from+'\u202C';
+        }
+        details.append('\n');
+        details.append(res.getString(R.string.from_label));
+        details.append(!TextUtils.isEmpty(from)? from:
+                                 res.getString(R.string.hidden_sender_address));
+
+        // Date: ***
+        details.append('\n');
+        details.append(res.getString(
+                                R.string.expire_on,
+                                formatTimeStampString(
+                                        context, nInd.getExpiry() * 1000L, true)));
+
+        // Subject: ***
+        details.append('\n');
+        details.append(res.getString(R.string.subject_label));
+
+        EncodedStringValue subject = nInd.getSubject();
+        if (subject != null) {
+            details.append(subject.getString());
+        }
+
+        // Message class: Personal/Advertisement/Infomational/Auto
+        details.append('\n');
+        details.append(res.getString(R.string.message_class_label));
+        details.append(new String(nInd.getMessageClass()));
+
+        // Message size: *** KB
+        details.append('\n');
+        details.append(res.getString(R.string.message_size_label));
+        details.append(String.valueOf((nInd.getMessageSize() + 1023) / KILOBYTE_SIZE));
+        details.append(context.getString(R.string.kilobyte));
+
+        return details.toString();
+    }
+
+    private static String getMultimediaMessageDetails(
+            Context context, Cursor cursor, int size) {
+        int type = cursor.getInt(MessageListAdapter.COLUMN_MMS_MESSAGE_TYPE);
+        if (type == PduHeaders.MESSAGE_TYPE_NOTIFICATION_IND) {
+            return getNotificationIndDetails(context, cursor);
+        }
+
+        StringBuilder details = new StringBuilder();
+        Resources res = context.getResources();
+
+        long id = cursor.getLong(MessageListAdapter.COLUMN_ID);
+        Uri uri = ContentUris.withAppendedId(Mms.CONTENT_URI, id);
+        MultimediaMessagePdu msg;
+
+        try {
+            msg = (MultimediaMessagePdu) PduPersister.getPduPersister(
+                    context).load(uri);
+        } catch (MmsException e) {
+            Log.e(TAG, "Failed to load the message: " + uri, e);
+            return context.getResources().getString(R.string.cannot_get_details);
+        }
+
+        // Message Type: Text message.
+        details.append(res.getString(R.string.message_type_label));
+        details.append(res.getString(R.string.multimedia_message));
+
+        if (msg instanceof RetrieveConf) {
+            // From: ***
+            String from = extractEncStr(context, ((RetrieveConf) msg).getFrom());
+
+            // Make sure the "from" display normally for RTL.
+            if (isLayoutRtl) {
+                from = '\u202D'+from+'\u202C';
+            }
+            details.append('\n');
+            details.append(res.getString(R.string.from_label));
+            details.append(!TextUtils.isEmpty(from)? from:
+                                  res.getString(R.string.hidden_sender_address));
+        }
+
+        // To: ***
+        details.append('\n');
+        details.append(res.getString(R.string.to_address_label));
+        EncodedStringValue[] to = msg.getTo();
+        if (to != null) {
+            details.append(EncodedStringValue.concat(to));
+        }
+        else {
+            Log.w(TAG, "recipient list is empty!");
+        }
+
+
+        // Bcc: ***
+        if (msg instanceof SendReq) {
+            EncodedStringValue[] values = ((SendReq) msg).getBcc();
+            if ((values != null) && (values.length > 0)) {
+                details.append('\n');
+                details.append(res.getString(R.string.bcc_label));
+                details.append(EncodedStringValue.concat(values));
+            }
+        }
+
+        // Date: ***
+        details.append('\n');
+        int msgBox = cursor.getInt(MessageListAdapter.COLUMN_MMS_MESSAGE_BOX);
+        if (msgBox == Mms.MESSAGE_BOX_DRAFTS) {
+            details.append(res.getString(R.string.saved_label));
+        } else if (msgBox == Mms.MESSAGE_BOX_INBOX) {
+            details.append(res.getString(R.string.received_label));
+        } else {
+            details.append(res.getString(R.string.sent_label));
+        }
+
+        details.append(MessageUtils.formatTimeStampString(
+                context, msg.getDate() * 1000L, true));
+
+        // Subject: ***
+        details.append('\n');
+        details.append(res.getString(R.string.subject_label));
+
+        EncodedStringValue subject = msg.getSubject();
+        if (subject != null) {
+            String subStr = subject.getString();
+            details.append(subStr);
+        }
+
+        // Priority: High/Normal/Low
+        details.append('\n');
+        details.append(res.getString(R.string.priority_label));
+        details.append(getPriorityDescription(context, msg.getPriority()));
+
+        // Message size: *** KB
+        details.append('\n');
+        details.append(res.getString(R.string.message_size_label));
+        details.append((size + SlideshowModel.SLIDESHOW_SLOP -1)
+                / SlideshowModel.SLIDESHOW_SLOP + 1);
+        details.append(" KB");
+
+        return details.toString();
+    }
+
+    public static String getTextMessageDetails(Context context, Cursor cursor) {
+        Log.d(TAG, "getTextMessageDetails");
+
+        StringBuilder details = new StringBuilder();
+        Resources res = context.getResources();
+
+        // Message Type: Text message.
+        details.append(res.getString(R.string.message_type_label));
+        details.append(res.getString(R.string.text_message));
+
+        // Address: ***
+        details.append('\n');
+        int smsType = cursor.getInt(cursor.getColumnIndexOrThrow(Sms.TYPE));
+        if (Sms.isOutgoingFolder(smsType)) {
+            details.append(res.getString(R.string.to_address_label));
+        } else {
+            details.append(res.getString(R.string.from_label));
+        }
+
+        String address = "";
+        if (cursor.getString(MessageListAdapter.COLUMN_SMS_ADDRESS).contains(WAPPUSH)) {
+            String[] mAddresses = cursor.getString(
+                    MessageListAdapter.COLUMN_SMS_ADDRESS).split(":");
+            address = mAddresses[context.getResources().getInteger(
+                    R.integer.wap_push_address_index)];
+        } else {
+            address = cursor.getString(cursor.getColumnIndexOrThrow(Sms.ADDRESS));
+        }
+        // Make sure the address display normally for RTL
+        if (isLayoutRtl) {
+            details.append('\u202D' + address + '\u202C');
+        } else {
+            details.append(address);
+        }
+
+        // Sent: ***
+        if (smsType == Sms.MESSAGE_TYPE_INBOX) {
+            long date_sent = cursor.getLong(cursor.getColumnIndexOrThrow(Sms.DATE_SENT));
+            if (date_sent > 0) {
+                details.append('\n');
+                details.append(res.getString(R.string.sent_label));
+                details.append(MessageUtils.formatTimeStampString(context, date_sent, true));
+            }
+        }
+
+        // Received: ***
+        details.append('\n');
+        if (smsType == Sms.MESSAGE_TYPE_DRAFT) {
+            details.append(res.getString(R.string.saved_label));
+        } else if (smsType == Sms.MESSAGE_TYPE_INBOX) {
+            details.append(res.getString(R.string.received_label));
+        } else {
+            details.append(res.getString(R.string.sent_label));
+        }
+
+        long date = cursor.getLong(cursor.getColumnIndexOrThrow(Sms.DATE));
+        details.append(MessageUtils.formatTimeStampString(context, date, true));
+
+        // Delivered: ***
+        if (smsType == Sms.MESSAGE_TYPE_SENT) {
+            // For sent messages with delivery reports, we stick the delivery time in the
+            // date_sent column (see MessageStatusReceiver).
+            long dateDelivered = cursor.getLong(cursor.getColumnIndexOrThrow(Sms.DATE_SENT));
+            if (dateDelivered > 0) {
+                details.append('\n');
+                details.append(res.getString(R.string.delivered_label));
+                details.append(MessageUtils.formatTimeStampString(context, dateDelivered, true));
+            }
+        }
+
+        // Error code: ***
+        int errorCode = cursor.getInt(cursor.getColumnIndexOrThrow(Sms.ERROR_CODE));
+        if (errorCode != 0) {
+            details.append('\n')
+                .append(res.getString(R.string.error_code_label))
+                .append(errorCode);
+        }
+
+        return details.toString();
+    }
+
+    static private String getPriorityDescription(Context context, int PriorityValue) {
+        Resources res = context.getResources();
+        switch(PriorityValue) {
+            case PduHeaders.PRIORITY_HIGH:
+                return res.getString(R.string.priority_high);
+            case PduHeaders.PRIORITY_LOW:
+                return res.getString(R.string.priority_low);
+            case PduHeaders.PRIORITY_NORMAL:
+            default:
+                return res.getString(R.string.priority_normal);
+        }
+    }
+
+    public static String convertToVcardType(String src) {
+        if (!TextUtils.isEmpty(src)) {
+            int index = src.lastIndexOf('.');
+            if (index > 0) {
+                String extension = src.substring(index + 1, src.length());
+                if (extension.toLowerCase().equals(VCARD)) {
+                    return ContentType.TEXT_VCARD.toLowerCase();
+                }
+            }
+        }
+        return "";
+    }
+
+    public static int getAttachmentType(SlideshowModel model, MultimediaMessagePdu mmp) {
+        if (model == null || mmp == null) {
+            return MessageItem.ATTACHMENT_TYPE_NOT_LOADED;
+        }
+
+        int numberOfSlides = model.size();
+        if (numberOfSlides > 1) {
+            return WorkingMessage.SLIDESHOW;
+        } else if (numberOfSlides == 1) {
+            // Only one slide in the slide-show.
+            SlideModel slide = model.get(0);
+            if (slide.hasVideo()) {
+                return WorkingMessage.VIDEO;
+            }
+
+            if (slide.hasAudio() && slide.hasImage()) {
+                return WorkingMessage.SLIDESHOW;
+            }
+
+            if (slide.hasAudio()) {
+                return WorkingMessage.AUDIO;
+            }
+
+            if (slide.hasImage()) {
+                return WorkingMessage.IMAGE;
+            }
+
+            if (slide.hasVcard()) {
+                return WorkingMessage.VCARD;
+            }
+
+            if (slide.hasText()) {
+                return WorkingMessage.TEXT;
+            }
+
+            // Handle the multimedia message only has subject
+            String subject = mmp.getSubject() != null ? mmp.getSubject().getString() : null;
+            if (!TextUtils.isEmpty(subject)) {
+                return WorkingMessage.TEXT;
+            }
+        }
+
+        return MessageItem.ATTACHMENT_TYPE_NOT_LOADED;
+    }
+
+    public static String formatTimeStampString(Context context, long when) {
+        return formatTimeStampString(context, when, false);
+    }
+
+    public static String formatTimeStampString(Context context, long when, boolean fullFormat) {
+        Time then = new Time();
+        then.set(when);
+        Time now = new Time();
+        now.setToNow();
+
+        // Basic settings for formatDateTime() we want for all cases.
+        int format_flags = DateUtils.FORMAT_NO_NOON_MIDNIGHT |
+                           DateUtils.FORMAT_ABBREV_ALL |
+                           DateUtils.FORMAT_CAP_AMPM;
+
+        // If the message is from a different year, show the date and year.
+        if (then.year != now.year) {
+            format_flags |= DateUtils.FORMAT_SHOW_YEAR | DateUtils.FORMAT_SHOW_DATE;
+        } else if (then.yearDay != now.yearDay) {
+            // If it is from a different day than today, show only the date.
+            format_flags |= DateUtils.FORMAT_SHOW_DATE;
+        } else {
+            // Otherwise, if the message is from today, show the time.
+            format_flags |= DateUtils.FORMAT_SHOW_TIME;
+        }
+        // If the caller has asked for full details, make sure to show the date
+        // and time no matter what we've determined above (but still make showing
+        // the year only happen if it is a different year from today).
+        if (fullFormat) {
+            //format_flags |= (DateUtils.FORMAT_SHOW_DATE | DateUtils.FORMAT_SHOW_TIME);
+            format_flags |= (DateUtils.FORMAT_SHOW_YEAR |DateUtils.FORMAT_SHOW_DATE | DateUtils.FORMAT_SHOW_TIME);
+        }
+
+        return DateUtils.formatDateTime(context, when, format_flags);
+    }
+
+    //tangyisen
+    //Time and Calendar month 0-11,show need add 1 by ourself
+    public static String formatTimeStampStringForItem(Context context, long when) {
+        Time then = new Time();
+        then.set(when);
+        Time now = new Time();
+        now.setToNow();
+
+        StringBuilder timeSb = new StringBuilder();
+        // If the message is from a different year, show the date and year.
+        if (then.year != now.year) {
+            timeSb.append(then.year + "-" + (then.month + 1) + "-" + then.monthDay);
+        } else if (then.yearDay != now.yearDay) {
+            timeSb.append(then.year + "-" + (then.month + 1) + "-" + then.monthDay + " ");
+            /*if (then.hour < 10) {
+                timeSb.append("0");
+            }
+            timeSb.append(then.hour + ":");
+            if (then.minute < 10) {
+                timeSb.append("0");
+            }
+            timeSb.append(then.minute);*/
+            timeSb.append(formatDateDay(context, then));
+        } else {
+            //timeSb.append(then.hour + ":" + then.minute);
+            timeSb.append(formatDateDay(context, then));
+        }
+
+        return timeSb.toString();
+    }
+
+    private static String formatDateDay(Context context, Time then) {
+        boolean is24Hr = "24".equals(Settings.System.getString(context.getContentResolver(), Settings.System.TIME_12_24));
+        String rtn = null;
+        StringBuilder timeSb = new StringBuilder();
+        if (then.hour < 10) {
+            timeSb.append("0");
+            timeSb.append(then.hour + ":");
+        } else if (then.hour > 12 && !is24Hr) {
+            int hour = then.hour - 12;
+            if (hour < 10) {
+                timeSb.append("0");
+            }
+            timeSb.append(hour + ":");
+        } else {
+            timeSb.append(then.hour + ":");
+        }
+        if (then.minute < 10) {
+            timeSb.append("0");
+        }
+        timeSb.append(then.minute);
+        if (!is24Hr) {
+            if(then.hour > 12) {
+                //timeSb.append(" PM");
+                rtn = context.getString(R.string.ic_date_string_pm, timeSb.toString());
+            } else {
+                //timeSb.append(" AM");
+                rtn = context.getString(R.string.ic_date_string_am, timeSb.toString());
+            }
+        } else {
+            rtn = timeSb.toString();
+        }
+        return rtn;
+    }
+
+    public static void selectAudio(final Activity activity, final int requestCode) {
+        // We are not only displaying default RingtonePicker to add, we could have
+        // other choices like external audio and system audio. Allow user to select
+        // an audio from particular storage (Internal or External) and return it.
+        String[] items = new String[2];
+        items[SELECT_SYSTEM] = activity.getString(R.string.system_audio_item);
+        items[SELECT_EXTERNAL] = activity.getString(R.string.external_audio_item);
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(activity,
+                android.R.layout.simple_list_item_1, android.R.id.text1, items);
+        AlertDialog.Builder builder = new AlertDialog.Builder(activity);
+        AlertDialog dialog = builder.setTitle(activity.getString(R.string.select_audio))
+                .setAdapter(adapter, new OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        Intent audioIntent = null;
+                        switch (which) {
+                            case SELECT_SYSTEM:
+                                audioIntent = new Intent(RingtoneManager.ACTION_RINGTONE_PICKER);
+                                audioIntent.putExtra(RingtoneManager.EXTRA_RINGTONE_SHOW_DEFAULT,
+                                        false);
+                                audioIntent.putExtra(RingtoneManager.EXTRA_RINGTONE_SHOW_SILENT,
+                                        false);
+                                audioIntent.putExtra(RingtoneManager.EXTRA_RINGTONE_INCLUDE_DRM,
+                                        false);
+                                audioIntent.putExtra(RingtoneManager.EXTRA_RINGTONE_TITLE,
+                                        activity.getString(R.string.select_audio));
+                                break;
+                            case SELECT_EXTERNAL:
+                                audioIntent = new Intent();
+                                audioIntent.setAction(Intent.ACTION_PICK);
+                                audioIntent.setData(MediaStore.Audio.Media.EXTERNAL_CONTENT_URI);
+                                break;
+                        }
+                        // Add try here is to avoid monkey test failure.
+                        try {
+                            activity.startActivityForResult(audioIntent, requestCode);
+                        } catch (ActivityNotFoundException ex) {
+                            Toast.makeText(activity, R.string.audio_picker_app_not_found,
+                                    Toast.LENGTH_SHORT).show();
+                        }
+                    }
+                })
+                .create();
+        dialog.show();
+    }
+
+    public static void recordSound(Activity activity, int requestCode, long sizeLimit) {
+        /*Intent intent = new Intent(Intent.ACTION_GET_CONTENT);
+        intent.setType(ContentType.AUDIO_AMR);
+        intent.setClassName("com.android.soundrecorder",
+                "com.android.soundrecorder.SoundRecorder");
+        intent.putExtra(android.provider.MediaStore.Audio.Media.EXTRA_MAX_BYTES, sizeLimit);
+        intent.putExtra(EXIT_AFTER_RECORD, true);*/
+        //Intent intent = new Intent(Media.RECORD_SOUND_ACTION);
+        //tangyisen modify record
+        Intent intent = new Intent();
+        intent.setAction("com.android.soundrecorder.recording");
+        intent.putExtra("package", "cn.tcl.fileselector");
+        intent.putExtra("mode", 1);
+        activity.startActivityForResult(intent, requestCode);
+    }
+
+    public static void recordVideo(Activity activity, int requestCode, long sizeLimit) {
+        // The video recorder can sometimes return a file that's larger than the max we
+        // say we can handle. Try to handle that overshoot by specifying an 85% limit.
+        sizeLimit *= .85F;
+
+        int durationLimit = getVideoCaptureDurationLimit(sizeLimit);
+
+        if (Log.isLoggable(LogTag.APP, Log.VERBOSE)) {
+            log("recordVideo: durationLimit: " + durationLimit +
+                    " sizeLimit: " + sizeLimit);
+        }
+
+        Intent intent = new Intent(MediaStore.ACTION_VIDEO_CAPTURE);
+        intent.putExtra(MediaStore.EXTRA_VIDEO_QUALITY, 0);
+        intent.putExtra("android.intent.extra.sizeLimit", sizeLimit);
+        intent.putExtra("android.intent.extra.durationLimit", durationLimit);
+        intent.putExtra(MediaStore.EXTRA_OUTPUT, TempFileProvider.SCRAP_CONTENT_URI);
+        activity.startActivityForResult(intent, requestCode);
+    }
+
+    public static void capturePicture(Activity activity, int requestCode) {
+        Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+        intent.putExtra(MediaStore.EXTRA_OUTPUT, TempFileProvider.SCRAP_CONTENT_URI);
+        activity.startActivityForResult(intent, requestCode);
+    }
+
+    // Public for until tests
+    public static int getVideoCaptureDurationLimit(long bytesAvailable) {
+        CamcorderProfile camcorder = CamcorderProfile.get(CamcorderProfile.QUALITY_LOW);
+        if (camcorder == null) {
+            return 0;
+        }
+        bytesAvailable *= 8;        // convert to bits
+        long seconds = bytesAvailable / (camcorder.audioBitRate + camcorder.videoBitRate);
+
+        // Find the best match for one of the fixed durations
+        for (int i = sVideoDuration.length - 1; i >= 0; i--) {
+            if (seconds >= sVideoDuration[i]) {
+                return sVideoDuration[i];
+            }
+        }
+        return 0;
+    }
+
+    public static void selectVideo(Context context, int requestCode) {
+        selectMediaByType(context, requestCode, ContentType.VIDEO_UNSPECIFIED, true);
+    }
+
+    public static void selectImage(Context context, int requestCode) {
+        selectMediaByType(context, requestCode, ContentType.IMAGE_UNSPECIFIED, false);
+    }
+
+    private static void selectMediaByType(
+            Context context, int requestCode, String contentType, boolean localFilesOnly) {
+         if (context instanceof Activity) {
+
+            Intent innerIntent = new Intent(Intent.ACTION_GET_CONTENT);
+
+            innerIntent.setType(contentType);
+            if (localFilesOnly) {
+                innerIntent.putExtra(Intent.EXTRA_LOCAL_ONLY, true);
+            }
+
+            Intent wrapperIntent = Intent.createChooser(innerIntent, null);
+
+            ((Activity) context).startActivityForResult(wrapperIntent, requestCode);
+        }
+    }
+
+    public static void viewSimpleSlideshow(Context context, SlideshowModel slideshow) {
+        if (!slideshow.isSimple()) {
+            throw new IllegalArgumentException(
+                    "viewSimpleSlideshow() called on a non-simple slideshow");
+        }
+        SlideModel slide = slideshow.get(0);
+        MediaModel mm = null;
+        if (slide.hasImage()) {
+            mm = slide.getImage();
+        } else if (slide.hasVideo()) {
+            mm = slide.getVideo();
+        } else if (slide.hasVcard()) {
+            mm = slide.getVcard();
+            String lookupUri = ((VcardModel) mm).getLookupUri();
+
+            Intent intent = new Intent(Intent.ACTION_VIEW);
+            if (!TextUtils.isEmpty(lookupUri) && lookupUri.contains("contacts")) {
+                // if the uri is from the contact, we suggest to view the contact.
+                intent.setData(Uri.parse(lookupUri));
+            } else {
+                // we need open the saved part.
+                intent.setDataAndType(mm.getUri(), ContentType.TEXT_VCARD.toLowerCase());
+                intent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
+            }
+            // distinguish view vcard from mms or contacts.
+            intent.putExtra(VIEW_VCARD, true);
+            context.startActivity(intent);
+            return;
+        }
+        //begin tangyisen add for audio
+        else if (slide.hasAudio()) {
+            /*Intent intent = new Intent(Intent.ACTION_VIEW);
+            intent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
+            intent.setData(slide.getAudio().getUri());
+            context.startActivity(intent);
+            return;*/
+            mm = slide.getAudio();
+        }
+        //end tangyisen
+
+        if (mm == null) {
+            return;
+        }
+
+        //begin tangyisen
+        /*Intent intent = new Intent(Intent.ACTION_VIEW);
+        intent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
+        intent.putExtra("SingleItemOnly", true); // So we don't see "surrounding" images in Gallery
+
+        String contentType;
+        contentType = mm.getContentType();
+        intent.setDataAndType(mm.getUri(), contentType);
+        context.startActivity(intent);*/
+        Intent intent = new Intent(Intent.ACTION_VIEW);
+        intent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
+        Uri mmUri = mm.getUri();
+        String contentType = mm.getContentType();;
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N 
+            && "file".equalsIgnoreCase(mmUri.getScheme())) {
+            Uri contentUri = FileProvider.getUriForFile(context, "com.android.mms.fileprovider", new File(mmUri.getEncodedPath()));
+            intent.setDataAndType(contentUri, contentType);
+        } else {
+            intent.setDataAndType(mmUri, contentType);
+        }
+        intent.putExtra("SingleItemOnly", true); // So we don't see "surrounding" images in Gallery
+        context.startActivity(intent);
+        //end tangyisen
+    }
+
+    public static void showErrorDialog(Activity activity,
+            String title, String message) {
+        if (activity.isFinishing()) {
+            return;
+        }
+        AlertDialog.Builder builder = new AlertDialog.Builder(activity);
+
+        builder.setIcon(R.drawable.ic_sms_mms_not_delivered);
+        builder.setTitle(title);
+        builder.setMessage(message);
+        builder.setPositiveButton(android.R.string.ok, new OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                if (which == DialogInterface.BUTTON_POSITIVE) {
+                    dialog.dismiss();
+                }
+            }
+        });
+        builder.show();
+    }
+
+    /**
+     * The quality parameter which is used to compress JPEG images.
+     */
+    public static final int IMAGE_COMPRESSION_QUALITY = 95;
+    /**
+     * The minimum quality parameter which is used to compress JPEG images.
+     */
+    public static final int MINIMUM_IMAGE_COMPRESSION_QUALITY = 50;
+
+    /**
+     * Message overhead that reduces the maximum image byte size.
+     * 5000 is a realistic overhead number that allows for user to also include
+     * a small MIDI file or a couple pages of text along with the picture.
+     */
+    public static final int MESSAGE_OVERHEAD = 5000;
+
+    public static void resizeImageAsync(final Context context,
+            final Uri imageUri, final int currentMsgSize, final Handler handler,
+            final ResizeImageResultCallback cb,
+            final boolean append) {
+
+        // Show a progress toast if the resize hasn't finished
+        // within one second.
+        // Stash the runnable for showing it away so we can cancel
+        // it later if the resize completes ahead of the deadline.
+        final Runnable showProgress = new Runnable() {
+            @Override
+            public void run() {
+                Toast.makeText(context, R.string.compressing, Toast.LENGTH_SHORT).show();
+            }
+        };
+        // Schedule it for one second from now.
+        handler.postDelayed(showProgress, 1000);
+
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                final PduPart part;
+                try {
+                    UriImage image = new UriImage(context, imageUri);
+                    int widthLimit = MmsConfig.getMaxImageWidth();
+                    int heightLimit = MmsConfig.getMaxImageHeight();
+                    // In mms_config.xml, the max width has always been declared larger than the max
+                    // height. Swap the width and height limits if necessary so we scale the picture
+                    // as little as possible.
+                    if (image.getHeight() > image.getWidth()) {
+                        int temp = widthLimit;
+                        widthLimit = heightLimit;
+                        heightLimit = temp;
+                    }
+
+                   int maxSize = MmsConfig.getMaxRestrictedMessageSize();
+                   ContentRestriction cr = ContentRestrictionFactory.getContentRestriction();
+                   int creationMode = ContentRestrictionFactory.getUsedCreationMode();
+                   switch (creationMode) {
+                   case MmsConfig.CREATIONMODE_RESTRICTED:
+                   case MmsConfig.CREATIONMODE_WARNING:
+                        maxSize = MmsConfig.getMaxRestrictedMessageSize();
+                        break;
+                   case MmsConfig.CREATIONMODE_FREE:
+                   default:
+                        maxSize = MmsConfig.getMaxMessageSize();
+                        break;
+                    }
+                    part = image.getResizedImageAsPart(
+                        widthLimit,
+                        heightLimit,
+                        MmsConfig.getMaxMessageSize() - currentMsgSize - MESSAGE_OVERHEAD);
+                } finally {
+                    // Cancel pending show of the progress toast if necessary.
+                    handler.removeCallbacks(showProgress);
+                }
+
+                handler.post(new Runnable() {
+                    @Override
+                    public void run() {
+                        cb.onResizeResult(part, append);
+                    }
+                });
+            }
+        }, "MessageUtils.resizeImageAsync").start();
+    }
+
+    public static void showDiscardDraftConfirmDialog(Context context,
+            OnClickListener listener, int validNum) {
+        // the alert icon shoud has black triangle and white exclamation mark in white background.
+        //.setIconAttribute(android.R.attr.alertDialogIcon) tangyisen delete
+        new AlertDialog.Builder(context)
+                //.setTitle(R.string.discard_message)
+                .setMessage(getDiscardMessageId(validNum))
+                .setPositiveButton(R.string.yes, listener)
+                .setNegativeButton(R.string.no, null)
+                .show();
+    }
+
+    /**
+    * Return discard message id.
+    */
+    private static int getDiscardMessageId(int validNum) {
+        int msgId = R.string.discard_message_reason;
+        // If validNum != ALL_RECIPIENTS_EMPTY, means recipient is not empty.
+        // If validNum ==  ALL_RECIPIENTS_VALID, means all of the recipients are valid.
+        // If validNum > ALL_RECIPIENTS_VALID, means there some recipients are invalid.
+        // If validNum == ALL_RECIPIENTS_INVALID, means all of the recipients are invalid.
+        if (ALL_RECIPIENTS_EMPTY != validNum) {
+            msgId = validNum > ALL_RECIPIENTS_VALID ? R.string.discard_message_reason_some_invalid
+                : R.string.discard_message_reason_all_invalid;
+        }
+        return msgId;
+    }
+
+    public static String getLocalNumber() {
+        return getLocalNumber(SubscriptionManager.getDefaultDataSubscriptionId());
+    }
+
+    public static String getLocalNumber(int subId) {
+        sLocalNumber = MmsApp.getApplication().getTelephonyManager()
+            .getLine1Number(subId);
+        return sLocalNumber;
+    }
+
+    public static boolean isLocalNumber(String number) {
+        if (number == null) {
+            return false;
+        }
+
+        // we don't use Mms.isEmailAddress() because it is too strict for comparing addresses like
+        // "foo+caf_=6505551212=tmomail.net@gmail.com", which is the 'from' address from a forwarded email
+        // message from Gmail. We don't want to treat "foo+caf_=6505551212=tmomail.net@gmail.com" and
+        // "6505551212" to be the same.
+        if (number.indexOf('@') >= 0) {
+            return false;
+        }
+
+        return PhoneNumberUtils.compare(number, getLocalNumber());
+    }
+
+    public static void handleReadReport(final Context context,
+            final Collection<Long> threadIds,
+            final int status,
+            final Runnable callback) {
+        if(DEBUG) Log.d(TAG, "handleReadReport, threadIds = "+threadIds);
+
+        StringBuilder selectionBuilder = new StringBuilder(Mms.MESSAGE_TYPE + " = "
+                + PduHeaders.MESSAGE_TYPE_RETRIEVE_CONF
+                + " AND " + Mms.READ + " = 0"
+                + " AND " + Mms.READ_REPORT + " = " + PduHeaders.VALUE_YES);
+
+        String[] selectionArgs = null;
+        if (threadIds != null && threadIds.size() > 0) {
+            String threadIdSelection = null;
+            StringBuilder buf = new StringBuilder(Mms.THREAD_ID);
+            buf.append(" in (");
+            int i = 0;
+
+            for (long threadId : threadIds) {
+                if (i > 0) {
+                    buf.append(",");
+                }
+                buf.append(threadId);
+                i++;
+            }
+            buf.append(")");
+            threadIdSelection = buf.toString();
+
+            selectionBuilder.append(" AND (" + threadIdSelection + ")");
+        }
+
+        final Cursor c = SqliteWrapper.query(context, context.getContentResolver(),
+                        Mms.Inbox.CONTENT_URI, new String[] {Mms._ID, Mms.MESSAGE_ID, /*"sub_id"*/Mms.SUBSCRIPTION_ID},
+                        selectionBuilder.toString(), null, null);
+
+        if (c == null) {
+            Log.d(TAG, "handleReadReport, cursor is null, return");
+            return;
+        }
+
+        final Map<String, String> addressMap = new HashMap<String, String>();
+        final Map<String, Integer> phoneIdMap = new HashMap<String, Integer>();
+        try {
+            if (c.getCount() == 0) {
+                if (callback != null) {
+                    callback.run();
+                }
+                return;
+            }
+
+            while (c.moveToNext()) {
+                Uri uri = ContentUris.withAppendedId(Mms.CONTENT_URI,
+                        c.getLong(MESSAGE_REPORT_COLUMN_ID));
+                addressMap.put(c.getString(MESSAGE_REPORT_COLUMN_MESSAGE_ID),
+                        AddressUtils.getFrom(context, uri));
+                phoneIdMap.put(c.getString(MESSAGE_REPORT_COLUMN_SUB_ID),
+                        c.getInt(MESSAGE_REPORT_COLUMN_SUB_ID));
+            }
+        } finally {
+            c.close();
+        }
+
+        OnClickListener positiveListener = new OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                for (final Map.Entry<String, String> entry : addressMap.entrySet()) {
+                    String mId = entry.getKey();
+                    int phoneId = phoneIdMap.get(mId);
+                    if(DEBUG) Log.d(TAG, "handleReadReport, >>>MmsMessageSender.sendReadRec()");
+                    MmsMessageSender.sendReadRec(context, entry.getValue(),
+                            mId, phoneId, status);
+                }
+
+                if (callback != null) {
+                    callback.run();
+                }
+                dialog.dismiss();
+            }
+        };
+
+        OnClickListener negativeListener = new OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                if (callback != null) {
+                    callback.run();
+                }
+                dialog.dismiss();
+            }
+        };
+
+        OnCancelListener cancelListener = new OnCancelListener() {
+            @Override
+            public void onCancel(DialogInterface dialog) {
+                if (callback != null) {
+                    callback.run();
+                }
+                dialog.dismiss();
+            }
+        };
+
+        confirmReadReportDialog(context, positiveListener,
+                                         negativeListener,
+                                         cancelListener);
+    }
+
+    private static void confirmReadReportDialog(Context context,
+            OnClickListener positiveListener, OnClickListener negativeListener,
+            OnCancelListener cancelListener) {
+        AlertDialog.Builder builder = new AlertDialog.Builder(context);
+        builder.setCancelable(true);
+        builder.setTitle(R.string.confirm);
+        builder.setMessage(R.string.message_send_read_report);
+        builder.setPositiveButton(R.string.yes, positiveListener);
+        builder.setNegativeButton(R.string.no, negativeListener);
+        builder.setOnCancelListener(cancelListener);
+        builder.show();
+    }
+
+    public static String extractEncStrFromCursor(Cursor cursor,
+            int columnRawBytes, int columnCharset) {
+        String rawBytes = cursor.getString(columnRawBytes);
+        int charset = cursor.getInt(columnCharset);
+
+        if (TextUtils.isEmpty(rawBytes)) {
+            return "";
+        } else if (charset == CharacterSets.ANY_CHARSET) {
+            return rawBytes;
+        } else {
+            return new EncodedStringValue(charset, PduPersister.getBytes(rawBytes)).getString();
+        }
+    }
+
+    private static String extractEncStr(Context context, EncodedStringValue value) {
+        if (value != null) {
+            return value.getString();
+        } else {
+            return "";
+        }
+    }
+
+    public static ArrayList<String> extractUris(URLSpan[] spans) {
+        int size = spans.length;
+        ArrayList<String> accumulator = new ArrayList<String>();
+
+        for (int i = 0; i < size; i++) {
+            accumulator.add(spans[i].getURL());
+        }
+        return accumulator;
+    }
+
+    public static String getRecipientsByIds(Context context,
+            String recipientIds, boolean allowQuery) {
+        String value = sRecipientAddress.get(recipientIds);
+        if (value != null) {
+            return value;
+        }
+        if (!TextUtils.isEmpty(recipientIds)) {
+            StringBuilder addressBuf = extractIdsToAddresses(context, recipientIds, allowQuery);
+            if (addressBuf == null) {
+                // temporary error? Don't memoize.
+                return "";
+            }
+            value = addressBuf.toString();
+        } else {
+            value = "";
+        }
+        sRecipientAddress.put(recipientIds, value);
+        return value;
+    }
+
+    private static StringBuilder extractIdsToAddresses(Context context, String recipients,
+            boolean allowQuery) {
+        StringBuilder addressBuf = new StringBuilder();
+        String[] recipientIds = recipients.split(" ");
+        boolean firstItem = true;
+        for (String recipientId : recipientIds) {
+            String value = sRecipientAddress.get(recipientId);
+
+            if (value == null) {
+                if (!allowQuery) {
+                    // when allowQuery is false, if any value from
+                    // sRecipientAddress.get() is null,
+                    // return null for the whole thing. We don't want to stick
+                    // partial result
+                    // into sRecipientAddress for multiple recipient ids.
+                    return null;
+                }
+
+                Uri uri = Uri.parse("content://mms-sms/canonical-address/" + recipientId);
+                Cursor c = SqliteWrapper.query(context, context.getContentResolver(), uri, null,
+                        null, null, null);
+                if (c != null) {
+                    try {
+                        if (c.moveToFirst()) {
+                            value = c.getString(0);
+                            sRecipientAddress.put(recipientId, value);
+                        }
+                    } finally {
+                        c.close();
+                    }
+                }
+            }
+            if (value == null) {
+                continue;
+            }
+            if (firstItem) {
+                firstItem = false;
+            } else {
+                addressBuf.append(";");
+            }
+            addressBuf.append(value);
+        }
+
+        return (addressBuf.length() == 0) ? null : addressBuf;
+    }
+
+    public static String getAddressByThreadId(Context context, long threadId) {
+        String[] projection = new String[] {
+                Threads.RECIPIENT_IDS
+        };
+
+        Uri.Builder builder = Threads.CONTENT_URI.buildUpon();
+        builder.appendQueryParameter("simple", "true");
+        Cursor cursor = SqliteWrapper.query(context, context.getContentResolver(), builder.build(),
+                projection, Threads._ID + "=" + threadId, null, null);
+
+        if (cursor != null) {
+            try {
+                if ((cursor.getCount() == 1) && cursor.moveToFirst()) {
+                    String address = getRecipientsByIds(context, cursor.getString(0),
+                            true /* allow query */);
+                    if (!TextUtils.isEmpty(address)) {
+                        return address;
+                    }
+                }
+            } finally {
+                cursor.close();
+            }
+        }
+        return null;
+    }
+
+    /**
+     * Play/view the message attachments.
+     * TOOD: We need to save the draft before launching another activity to view the attachments.
+     *       This is hacky though since we will do saveDraft twice and slow down the UI.
+     *       We should pass the slideshow in intent extra to the view activity instead of
+     *       asking it to read attachments from database.
+     * @param activity
+     * @param msgUri the MMS message URI in database
+     * @param slideshow the slideshow to save
+     * @param persister the PDU persister for updating the database
+     * @param sendReq the SendReq for updating the database
+     */
+    public static void viewMmsMessageAttachment(Activity activity, Uri msgUri,
+            SlideshowModel slideshow, AsyncDialog asyncDialog) {
+        viewMmsMessageAttachment(activity, msgUri, slideshow, 0, asyncDialog);
+    }
+
+    public static void viewMmsMessageAttachment(final Activity activity, final Uri msgUri,
+            final SlideshowModel slideshow, final int requestCode, AsyncDialog asyncDialog) {
+        boolean isSimple = (slideshow == null) ? false : slideshow.isSimple();
+        if (isSimple) {
+            // In attachment-editor mode, we only ever have one slide.
+            MessageUtils.viewSimpleSlideshow(activity, slideshow);
+        } else {
+            // The user wants to view the slideshow. We have to persist the slideshow parts
+            // in a background task. If the task takes longer than a half second, a progress dialog
+            // is displayed. Once the PDU persisting is done, another runnable on the UI thread get
+            // executed to start the SlideshowActivity.
+            asyncDialog.runAsync(new Runnable() {
+                @Override
+                public void run() {
+                    // If a slideshow was provided, save it to disk first.
+                    if (slideshow != null) {
+                        PduPersister persister = PduPersister.getPduPersister(activity);
+                        try {
+                            PduBody pb = slideshow.toPduBody();
+                            persister.updateParts(msgUri, pb, null);
+                            slideshow.sync(pb);
+                        } catch (MmsException e) {
+                            Log.e(TAG, "Unable to save message for preview");
+                            return;
+                        }
+                    }
+                }
+            }, new Runnable() {
+                @Override
+                public void run() {
+                    // Once the above background thread is complete, this runnable is run
+                    // on the UI thread to launch the slideshow activity.
+                    launchSlideshowActivity(activity, msgUri, requestCode);
+                }
+            }, R.string.building_slideshow_title);
+        }
+    }
+
+    public static void launchSlideshowActivity(Context context, Uri msgUri, int requestCode) {
+        // Launch the slideshow activity to play/view.
+        Intent intent = new Intent(context, MobilePaperShowActivity.class);
+        intent.setData(msgUri);
+        intent.setFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
+        if (requestCode > 0 && context instanceof Activity) {
+            ((Activity)context).startActivityForResult(intent, requestCode);
+        } else {
+            context.startActivity(intent);
+        }
+
+    }
+
+    public static void showSmsMessageContent(Context context, long msgId) {
+        Intent i = new Intent(context, MailBoxMessageContent.class);
+        i.setData(ContentUris.withAppendedId(Sms.CONTENT_URI, msgId));
+        context.startActivity(i);
+    }
+
+    //tangyisen begin
+    public static void showMstSmsMessageContent(Context context, String msgBody) {//, long msgId) {
+        Intent i = new Intent(context, ComposeMessageDetailActivity.class);
+        //i.setData(ContentUris.withAppendedId(Sms.CONTENT_URI, msgId));
+        i.putExtra("msgBody", msgBody);
+        context.startActivity(i);
+    }
+    //tangyisen end
+
+    /**
+     * Debugging
+     */
+    public static void writeHprofDataToFile(){
+        String filename = Environment.getExternalStorageDirectory() + "/mms_oom_hprof_data";
+        try {
+            android.os.Debug.dumpHprofData(filename);
+            Log.i(TAG, "##### written hprof data to " + filename);
+        } catch (IOException ex) {
+            Log.e(TAG, "writeHprofDataToFile: caught " + ex);
+        }
+    }
+
+    // An alias (or commonly called "nickname") is:
+    // Nickname must begin with a letter.
+    // Only letters a-z, numbers 0-9, or . are allowed in Nickname field.
+    public static boolean isAlias(String string) {
+        if (!MmsConfig.isAliasEnabled()) {
+            return false;
+        }
+
+        int len = string == null ? 0 : string.length();
+
+        if (len < MmsConfig.getAliasMinChars() || len > MmsConfig.getAliasMaxChars()) {
+            return false;
+        }
+
+        if (!Character.isLetter(string.charAt(0))) {    // Nickname begins with a letter
+            return false;
+        }
+        for (int i = 1; i < len; i++) {
+            char c = string.charAt(i);
+            if (!(Character.isLetterOrDigit(c) || c == '.')) {
+                return false;
+            }
+        }
+
+        return true;
+    }
+
+    /**
+     * Given a phone number, return the string without syntactic sugar, meaning parens,
+     * spaces, slashes, dots, dashes, etc. If the input string contains non-numeric
+     * non-punctuation characters, return null.
+     */
+    private static String parsePhoneNumberForMms(String address) {
+        StringBuilder builder = new StringBuilder();
+        int len = address.length();
+
+        for (int i = 0; i < len; i++) {
+            char c = address.charAt(i);
+
+            // accept the first '+' in the address
+            if (c == '+' && builder.length() == 0) {
+                builder.append(c);
+                continue;
+            }
+
+            if (Character.isDigit(c)) {
+                builder.append(c);
+                continue;
+            }
+
+            if (numericSugarMap.get(c) == null) {
+                return null;
+            }
+        }
+        return builder.toString();
+    }
+
+    /**
+     * Returns true if the address passed in is a valid MMS address.
+     */
+    public static boolean isValidMmsAddress(String address) {
+        String retVal = parseMmsAddress(address);
+        return (retVal != null);
+    }
+
+    /**
+     * Returns true if the address passed in is a Browser wap push MMS address.
+     */
+    public static boolean isWapPushNumber(String address) {
+        if (TextUtils.isEmpty(address)) {
+            return false;
+        } else {
+            return address.contains(WAPPUSH);
+        }
+    }
+
+    //begin tangyisen add
+    public static boolean isSpecialNumber(String address) {
+        if((address.indexOf(';') != -1) || (address.indexOf(',') != -1)){
+            return true;
+        }
+        return false;
+    }
+    //end tangyisen add
+
+    public static String getWapPushNumber(String address) {
+        String[] number = address.split(":");
+        int index = MmsApp.getApplication().getResources()
+                .getInteger(R.integer.wap_push_address_index);
+        return number[index];
+    }
+
+    /**
+     * Returns true if the address is callable.
+     */
+    public static boolean isRecipientCallable(String address) {
+        return (!Mms.isEmailAddress(address) && !isWapPushNumber(address));
+    }
+
+    /**
+     * parse the input address to be a valid MMS address.
+     * - if the address is an email address, leave it as is.
+     * - if the address can be parsed into a valid MMS phone number, return the parsed number.
+     * - if the address is a compliant alias address, leave it as is.
+     */
+    public static String parseMmsAddress(String address) {
+        // if it's a valid Email address, use that.
+        if (Mms.isEmailAddress(address)) {
+            return address;
+        }
+
+        // if we are able to parse the address to a MMS compliant phone number, take that.
+        String retVal = parsePhoneNumberForMms(address);
+        if (retVal != null && retVal.length() != 0) {
+            return retVal;
+        }
+
+        // if it's an alias compliant address, use that.
+        if (isAlias(address)) {
+            return address;
+        }
+
+        // it's not a valid MMS address, return null
+        return null;
+    }
+
+    public static void dialRecipient(Context context, String address, int subscription) {
+        if (!Mms.isEmailAddress(address)) {
+            Intent dialIntent = new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + address));
+            if (isMultiSimEnabledMms()) {
+                dialIntent.putExtra(PhoneConstants.SUBSCRIPTION_KEY, subscription);
+            }
+            context.startActivity(dialIntent);
+        }
+    }
+
+    public static void dialNumber(Context context, String number) {
+        Intent dialIntent;
+        if (isMsimIccCardActive()) {
+            dialIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("tel:"
+                    + number));
+        } else {
+            dialIntent = new Intent(Intent.ACTION_CALL, Uri.parse("tel:"
+                    + number));
+        }
+        context.startActivity(dialIntent);
+    }
+
+    /**
+     * Return whether it has card in according slot -the input subscription is 0
+     * or 1 -It is only used in DSDS
+     */
+    public static boolean hasIccCard(int subscription) {
+        boolean hasCard = false;
+        TelephonyManager telephonyManager = TelephonyManager.getDefault();
+        if (isMultiSimEnabledMms()) {
+            hasCard = telephonyManager.hasIccCard(subscription);
+        } else {
+            if (subscription == SubscriptionManager.getDefaultSubscriptionId()) {
+                hasCard = telephonyManager.hasIccCard();
+            }
+        }
+        return hasCard;
+    }
+
+    /**
+     * Return whether it has card no matter in DSDS or not
+     */
+    public static boolean hasIccCard() {
+        return TelephonyManager.getDefault().hasIccCard();
+    }
+
+    public static boolean isPhoneFeatureEnabled(Context context) {
+        return (UserHandle.myUserId() == UserHandle.USER_OWNER &&
+                context.getContentResolver().acquireProvider(URI_PHONE_FEATURE) != null);
+    }
+
+    private static Bundle callBinder(Context context, String method, Bundle extras) {
+        if (!isPhoneFeatureEnabled(context)) {
+            return null;
+        }
+        return context.getContentResolver().call(URI_PHONE_FEATURE, method, null, extras);
+    }
+
+    public static void setSmscForSub(Context context, int sub, String smsc, Message callback) {
+        if (callback != null) {
+            callback.replyTo = new Messenger(callback.getTarget());
+        }
+        log("Set: sub = " + sub + " smsc= " + smsc);
+        Bundle params = new Bundle();
+        params.putInt(PhoneConstants.SLOT_KEY, sub);
+        params.putString(EXTRA_SMSC, smsc);
+        params.putParcelable("callback", callback);
+        callBinder(context, METHOD_SET_SMSC, params);
+    }
+
+    public static void getSmscFromSub(Context context, int sub, Message callback) {
+        if (callback == null) {
+            return;
+        }
+        log("getSmscFromSub: sub = " + sub);
+        callback.replyTo = new Messenger(callback.getTarget());
+        Bundle params = new Bundle();
+        params.putInt(PhoneConstants.SLOT_KEY, sub);
+        params.putParcelable("callback", callback);
+        callBinder(context, METHOD_GET_SMSC, params);
+    }
+
+    /**
+     * Return whether the card is activated according to Subscription
+     * used for DSDS
+     */
+    public static boolean isIccCardActivated(int subscription) {
+        TelephonyManager tm = TelephonyManager.getDefault();
+        if(DEBUG) log("isIccCardActivated subscription " + tm.getSimState(subscription));
+        return (tm.getSimState(subscription) != TelephonyManager.SIM_STATE_ABSENT)
+                    && (tm.getSimState(subscription) != TelephonyManager.SIM_STATE_UNKNOWN);
+    }
+
+    //begin tangyisen
+    public static boolean isIccCardEnabled(int subscription) {
+        TelephonyManager tm = TelephonyManager.getDefault();
+        if(DEBUG) log("isIccCardActivated subscription " + tm.getSimState(subscription));
+        int simState = tm.getSimState(subscription);
+        /*return (simState != TelephonyManager.SIM_STATE_ABSENT)
+                    && (simState != TelephonyManager.SIM_STATE_UNKNOWN)
+                    && (simState != TelephonyManager.SIM_STATE_NOT_READY)
+                    && (simState != TelephonyManager.SIM_STATE_PERM_DISABLED)
+                    && (simState != TelephonyManager.SIM_STATE_CARD_IO_ERROR);*/
+        return (simState != TelephonyManager.SIM_STATE_ABSENT)
+            && (simState != TelephonyManager.SIM_STATE_UNKNOWN)
+            && (simState != TelephonyManager.SIM_STATE_NOT_READY);
+    }
+
+    public static void showView(View view) {
+        if(view != null && view.getVisibility() != View.VISIBLE) {
+            view.setVisibility(View.VISIBLE);
+        }
+    }
+    public static void hideView(View view) {
+        if(view != null && view.getVisibility() != View.GONE) {
+            view.setVisibility(View.GONE);
+        }
+    }
+    public static void invisibleView(View view) {
+        if(view != null && view.getVisibility() != View.INVISIBLE) {
+            view.setVisibility(View.INVISIBLE);
+        }
+    }
+    //end tangyisen
+
+    public static Drawable getMultiSimIcon(Context context, int subscription) {
+	    /*
+        if (context == null) {
+            // If the context is null, return 0 as no resource found.
+            return null;
+        }
+
+        final TelecomManager telecomManager = (TelecomManager) context
+                .getSystemService(Context.TELECOM_SERVICE);
+        List<PhoneAccountHandle> pHandles = telecomManager.getCallCapablePhoneAccounts();
+        PhoneAccountHandle phoneAccountHandle = null;
+        for (PhoneAccountHandle itorator : pHandles) {
+            if (String.valueOf(subscription).equals(itorator.getId())) {
+                phoneAccountHandle = itorator;
+            }
+        }
+
+        if (phoneAccountHandle == null) {
+            Log.d(TAG, "phoneAccountHandle is null");
+            return null;
+        }
+        final PhoneAccount account = telecomManager
+                .getPhoneAccount(phoneAccountHandle);
+        return account.getIcon().loadDrawable(context);
+		*/
+    	int sourceId ;
+    	if(subscription ==  PhoneConstants.SUB2) {
+    		sourceId =  R.drawable.ic_sim_icon_2;
+    	} else {
+    		sourceId = R.drawable.ic_sim_icon_1;    		
+    	}
+    	return context.getResources().getDrawable(sourceId);
+    }
+
+    //tangyisen begin
+    public static int getMultiSimIconId(int subscription) {
+        int sourceId = -1;
+        if(subscription ==  PhoneConstants.SUB2) {
+            sourceId =  R.drawable.ic_title_sim_icon_2;
+        } else if(subscription ==  PhoneConstants.SUB1){
+            sourceId = R.drawable.ic_title_sim_icon_1;
+        }
+        return sourceId;
+    }
+    //tangyisen end
+
+    private static void log(String msg) {
+        Log.d(TAG, "[MsgUtils] " + msg);
+    }
+
+    public static boolean isMailboxMode() {
+        //SharedPreferences sp = PreferenceManager.getDefaultSharedPreferences(MmsApp
+        //        .getApplication());
+        //boolean ViewMode = sp.getBoolean(VIEW_MODE_NAME, false);
+        return false;
+    }
+
+    public static void setMailboxMode(boolean mode) {
+        SharedPreferences sp = PreferenceManager.getDefaultSharedPreferences(MmsApp
+                .getApplication());
+        sp.edit().putBoolean(VIEW_MODE_NAME, mode).commit();
+    }
+
+    public static int getFontSize() {
+        SharedPreferences sp = PreferenceManager
+                .getDefaultSharedPreferences(MmsApp
+                        .getApplication());
+        int mFontSize = Integer
+                .parseInt(sp.getString(
+                        MessagingPreferenceActivity.FONT_SIZE_SETTING,
+                        Integer.toString(DEFAULT_FONT_SIZE)));
+        return mFontSize;
+    }
+
+    /**
+     * Return the sim name of subscription.
+     */
+    public static String getMultiSimName(Context context, int subscription) {
+        if (subscription >= TelephonyManager.getDefault().getPhoneCount() || subscription < 0) {
+            return null;
+        }
+        //String multiSimName = Settings.System.getString(context.getContentResolver(),
+        //        MULTI_SIM_NAME + (subscription + 1));
+        //if (multiSimName == null) {
+            if (subscription == SUB1) {
+                return context.getString(R.string.slot1);
+            } else if (subscription == SUB2) {
+                return context.getString(R.string.slot2);
+            }
+        //}
+        return context.getString(R.string.slot1);
+    }
+
+    public static long getSimThreadByPhoneId(int phoneId) {
+        switch (phoneId) {
+            case SUB1:
+                return MessagingNotification.THREAD_SIM1;
+            case SUB2:
+                return MessagingNotification.THREAD_SIM2;
+            default:
+                return MessagingNotification.THREAD_SIM;
+        }
+    }
+
+    public static String getSeparatedAddressByNameKey(Context context, String NameKey) {
+        String resultAddr = "";
+        if (TextUtils.isEmpty(NameKey)) {
+            return resultAddr;
+        }
+        Cursor c = null;
+        // Replace the ' to avoid SQL injection.
+        NameKey = NameKey.replace(REPLACE_QUOTES_1, REPLACE_QUOTES_2);
+
+        try {
+            c = context.getContentResolver().query(ContactsContract.Data.CONTENT_URI,
+                    new String[] {ContactsContract.Data.RAW_CONTACT_ID},
+                    ContactsContract.Data.MIMETYPE + " =? AND " + StructuredName.DISPLAY_NAME
+                    + " like '%" + NameKey + "%' ", new String[] {StructuredName.CONTENT_ITEM_TYPE},
+                    null);
+
+            if (c == null) {
+                return resultAddr;
+            }
+
+            StringBuilder sb = new StringBuilder();
+            while (c.moveToNext()) {
+                long raw_contact_id = c.getLong(c.getColumnIndex(ContactsContract.Data.
+                        RAW_CONTACT_ID));
+                if (sb.length() > 0) {
+                    sb.append(",");
+                }
+                sb.append(queryPhoneNumbersWithRaw(context, raw_contact_id));
+            }
+
+            resultAddr = sb.toString();
+        } finally {
+            if (c != null) {
+                c.close();
+            }
+        }
+        //if(DEBUG) Log.d(TAG, "getSeparatedAddressByNameKey return resultAddr: " + resultAddr);
+        return resultAddr;
+    }
+
+    //lichao add in 2016-11-15 begin
+    public static List<String> getNumbersListByName(Context context, String name) {
+        List<String> numbersList = new ArrayList<String>();
+        if (TextUtils.isEmpty(name)) {
+            return numbersList;
+        }
+        String number;
+        Cursor c = null;
+        // Replace the ' to avoid SQL injection.
+        name = name.replace(REPLACE_QUOTES_1, REPLACE_QUOTES_2);
+
+        try {
+            c = context.getContentResolver().query(ContactsContract.Data.CONTENT_URI,
+                    new String[] {ContactsContract.Data.RAW_CONTACT_ID},
+                    ContactsContract.Data.MIMETYPE + " =? AND " + StructuredName.DISPLAY_NAME
+                            + " like '%" + name + "%' ", new String[] {StructuredName.CONTENT_ITEM_TYPE},
+                    null);
+
+            if (c == null || c.getCount() <= 0) {
+                return numbersList;
+            }
+
+            while (c.moveToNext()) {
+                long raw_contact_id = c.getLong(c.getColumnIndex(ContactsContract.Data.
+                        RAW_CONTACT_ID));
+                number = queryPhoneNumbersWithRaw(context, raw_contact_id);
+                if (!TextUtils.isEmpty(number) && !numbersList.contains(number)) {
+                    numbersList.add(number);
+                }
+            }
+        } finally {
+            if (c != null) {
+                c.close();
+            }
+        }
+        //if(DEBUG) Log.d(TAG, "getNumbersListByName return numbersList: " + numbersList);
+        return numbersList;
+    }
+    //lichao add in 2016-11-15 end
+
+    private static String queryPhoneNumbersWithRaw(Context context, long rawContactId) {
+        Cursor c = null;
+        String addrs = "";
+        try {
+            c = context.getContentResolver().query(
+                    ContactsContract.CommonDataKinds.Phone.CONTENT_URI,
+                    new String[] {Phone.NUMBER},
+                    Phone.RAW_CONTACT_ID + " = " + rawContactId,
+                    null, null);
+
+            if (c != null) {
+                int i = 0;
+                while (c.moveToNext()) {
+                    String addrValue = c.getString(c.getColumnIndex(Phone.NUMBER));
+                    if (!TextUtils.isEmpty(addrValue)) {
+                        if (i == 0) {
+                            addrs = addrValue;
+                        } else {
+                            addrs = addrs + "," + addrValue;
+                        }
+                        i++;
+                    }
+                }
+            }
+        } finally {
+            if (c != null) {
+                c.close();
+            }
+        }
+        //if(DEBUG) Log.d(TAG, "queryPhoneNumbersWithRaw return addrs: " + addrs);
+        return addrs;
+    }
+
+    /**
+     * Return the activated card number
+     */
+    public static int getActivatedIccCardCount() {
+        TelephonyManager tm = TelephonyManager.getDefault();
+        int phoneCount = tm.getPhoneCount();
+        if(DEBUG) Log.d(TAG, "isIccCardActivated phoneCount " + phoneCount);
+        int count = 0;
+        for (int i = 0; i < phoneCount; i++) {
+            if(DEBUG) Log.d(TAG, "isIccCardActivated subscription " + tm.getSimState(i));
+            // Because the status of slot1/2 will return SIM_STATE_UNKNOWN under airplane mode.
+            // So we add check about SIM_STATE_UNKNOWN.
+            if (isIccCardActivated(i)) {
+                count++;
+            }
+        }
+        return count;
+   }
+
+    /**
+     * Decide whether the current product  is DSDS in MMS
+     */
+    public static boolean isMultiSimEnabledMms() {
+        //any diffrence with (TelephonyManager.getDefault().getPhoneCount()) > 1 ?
+        return TelephonyManager.getDefault().isMultiSimEnabled();
+    }
+
+    private static boolean isCDMAPhone(int subscription) {
+        boolean isCDMA = false;
+        int activePhone = isMultiSimEnabledMms()
+                ? TelephonyManager.getDefault().getCurrentPhoneType(subscription)
+                        : TelephonyManager.getDefault().getPhoneType();
+        if (TelephonyManager.PHONE_TYPE_CDMA == activePhone) {
+            isCDMA = true;
+        }
+        return isCDMA;
+    }
+
+    public static boolean isWebUrl(String url) {
+        for (String schema : WEB_SCHEMA) {
+            if (url.startsWith(schema)) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    private static boolean isNetworkRoaming(int subscription) {
+        return isMultiSimEnabledMms()
+                ? TelephonyManager.getDefault().isNetworkRoaming(subscription)
+                : TelephonyManager.getDefault().isNetworkRoaming();
+    }
+
+    public static boolean isCDMAInternationalRoaming(int subscription) {
+        return isCDMAPhone(subscription) && isNetworkRoaming(subscription);
+    }
+
+    private static String getUrlWithMailPrefix(Context context, String url) {
+        // If prefix string is "mailto" then translate it.
+        final String mailPrefix = "mailto:";
+        if (!TextUtils.isEmpty(url)) {
+            if (url.startsWith(mailPrefix)) {
+                url = context.getResources().getString(R.string.mail_to) +
+                        url.substring(mailPrefix.length());
+                return url;
+            }
+        }
+        return "";
+    }
+
+    public static boolean isMsimIccCardActive() {
+        if (isMultiSimEnabledMms()) {
+            if (isIccCardActivated(SUB1) && isIccCardActivated(SUB2)) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    //lichao add in 2016-11-30 begin
+    public static boolean isTwoSimCardEnabled() {
+        if (isMultiSimEnabledMms()) {
+            if (isIccCardEnabled(SUB1) && isIccCardEnabled(SUB2)) {
+                return true;
+            }
+        }
+        return false;
+    }
+    //lichao add in 2016-11-30 end
+
+    public static boolean isMobileDataDisabled(Context context) {
+        ConnectivityManager mConnService = (ConnectivityManager) context
+                .getSystemService(Context.CONNECTIVITY_SERVICE);
+        return !mConnService.getMobileDataEnabled();
+    }
+
+    public static boolean isAirplaneModeOn(Context context) {
+        return Settings.Global.getInt(context.getContentResolver(),
+                Settings.Global.AIRPLANE_MODE_ON, 0) == 1;
+    }
+
+    public static float onFontSizeScale(ArrayList<TextView> list, float scale,
+            float mFontSizeForSave) {
+        float mCurrentSize = 0;
+        if (list.size() > 0) {
+            mCurrentSize = list.get(0).getTextSize();
+        }
+        if (scale < 0.999999 || scale > 1.00001) {
+            float zoomInSize = mCurrentSize + FONT_SIZE_STEP;
+            float zoomOutSize = mCurrentSize - FONT_SIZE_STEP;
+            if (scale > 1.0 && zoomInSize <= MAX_FONT_SIZE) {
+                for (TextView view : list) {
+                    view.setTextSize(TypedValue.COMPLEX_UNIT_PX, zoomInSize);
+                    if (mFontSizeForSave != zoomInSize) {
+                        mFontSizeForSave = zoomInSize;
+                    }
+                }
+            } else if (scale < 1.0 && zoomOutSize >= MIN_FONT_SIZE) {
+                for (TextView view : list) {
+                    view.setTextSize(TypedValue.COMPLEX_UNIT_PX, zoomOutSize);
+                    if (mFontSizeForSave != zoomOutSize) {
+                        mFontSizeForSave = zoomOutSize;
+                    }
+                }
+            }
+        }
+        return mFontSizeForSave;
+    }
+
+    public static void saveTextFontSize(Context context, float value) {
+        SharedPreferences prefsms = PreferenceManager.getDefaultSharedPreferences(context);
+        prefsms.edit().putString(KEY_SMS_FONTSIZE, String.valueOf(value)).commit();
+    }
+
+    public static float getTextFontSize(Context context) {
+        SharedPreferences prefsms = PreferenceManager.
+                getDefaultSharedPreferences(context);
+        String textSize = prefsms.getString(KEY_SMS_FONTSIZE, String.valueOf(FONT_SIZE_DEFAULT));
+        float size = Float.parseFloat(textSize);
+        /* this function is a common function add this to make sure if did not save the size */
+        if (size < MIN_FONT_SIZE) {
+            return MIN_FONT_SIZE;
+        } else if (size > MAX_FONT_SIZE) {
+            return MAX_FONT_SIZE;
+        }
+        return size;
+    }
+
+    public static int getMmsDownloadStatus(int mmsStatus) {
+        if(DownloadManager.STATE_PERMANENT_FAILURE == mmsStatus) {
+            return mmsStatus;
+        } else if (!DownloadManager.getInstance().isAuto()
+                && DownloadManager.STATE_PRE_DOWNLOADING != mmsStatus) {
+            return mmsStatus & ~DownloadManager.DEFERRED_MASK;
+        }
+        return mmsStatus;
+    }
+
+    public static void markAsRead(final Context context, final Uri msgUri) {
+        new Thread(new Runnable() {
+            public void run() {
+                try {
+                    ContentValues values = new ContentValues(2);
+                    values.put(Mms.READ, MessageUtils.MESSAGE_READ);
+                    values.put(Mms.SEEN, MessageUtils.MESSAGE_SEEN);
+                    SqliteWrapper.update(context,
+                            context.getContentResolver(),
+                            msgUri, values, null, null);
+                    //MmsWidgetProvider.notifyDatasetChanged(context);
+                    MessagingNotification.blockingUpdateNewMessageIndicator(
+                            context,
+                            MessagingNotification.THREAD_NONE, false);
+                } catch (Exception e) {
+                    Log.e(TAG, "Update Read Error", e);
+                }
+            }
+        }).start();
+    }
+
+    public static boolean cancelFailedToDeliverNotification(Intent intent, Context context) {
+        if (MessagingNotification.isFailedToDeliver(intent)) {
+            // Cancel any failed message notifications
+            MessagingNotification.cancelNotification(context,
+                        MessagingNotification.MESSAGE_FAILED_NOTIFICATION_ID);
+            return true;
+        }
+        return false;
+    }
+
+    public static boolean cancelFailedDownloadNotification(Intent intent, Context context) {
+        if (MessagingNotification.isFailedToDownload(intent)) {
+            // Cancel any failed download notifications
+            MessagingNotification.cancelNotification(context,
+                        MessagingNotification.DOWNLOAD_FAILED_NOTIFICATION_ID);
+            return true;
+        }
+        return false;
+    }
+
+    /**
+     * Return the icc uri according to subscription
+     */
+    public static Uri getIccUriBySubscription(int slotId) {
+        Log.d(TAG, "getIccUriBySubscription slotId="+slotId);
+        switch (slotId) {
+            case SUB1:
+                return ICC1_URI;
+            case SUB2:
+                return ICC2_URI;
+            default:
+                return ICC_URI;
+        }
+    }
+
+    public static void onMessageContentClick(final Context context, final TextView contentText) {
+
+        //Log.d(TAG, "onMessageContentClick()" );
+
+        // Check for links. If none, do nothing; if 1, open it; if >1, ask user to pick one
+        final URLSpan[] spans = contentText.getUrls();
+        if (spans.length == 1) {
+            String url = spans[0].getURL();
+            if (isWebUrl(url)) {
+                showUrlOptions(context, url);
+            } else {
+                final String telPrefix = "tel:";
+                if (url.startsWith(telPrefix)) {
+                    url = url.substring(telPrefix.length());
+                    if (PhoneNumberUtils.isWellFormedSmsAddress(url)) {
+                        showNumberOptions(context, url);
+                    }
+                } else if (url.startsWith(MAIL_TO_PREFIX)) {
+                    url = url.substring(MAIL_TO_PREFIX.length());
+                    showEmailOptions(context, url);
+                } else {
+                    spans[0].onClick(contentText);
+                }
+            }
+        } else if (spans.length > 1) {
+            ArrayAdapter<URLSpan> adapter = new ArrayAdapter<URLSpan>(context,
+                    android.R.layout.select_dialog_item, spans) {
+
+                @Override
+                public View getView(int position, View convertView, ViewGroup parent) {
+                    View v = super.getView(position, convertView, parent);
+                    try {
+                        URLSpan span = getItem(position);
+                        String url = span.getURL();
+                        Uri uri = Uri.parse(url);
+                        TextView tv = (TextView) v;
+                        Drawable d = context.getPackageManager().getActivityIcon(
+                                new Intent(Intent.ACTION_VIEW, uri));
+                        if (d != null) {
+                            d.setBounds(0, 0, d.getIntrinsicHeight(),
+                                    d.getIntrinsicHeight());
+                            tv.setCompoundDrawablePadding(10);
+                            tv.setCompoundDrawables(d, null, null, null);
+                        }
+                        String tmpUrl = null;
+                        if (url != null) {
+                            if (url.startsWith(MAIL_TO_PREFIX)) {
+                                url = url.substring(MAIL_TO_PREFIX.length());
+                            }
+                            tmpUrl = url.replaceAll("tel:", "");
+                        }
+                        tv.setText(tmpUrl);
+                    } catch (android.content.pm.PackageManager.NameNotFoundException ex) {
+                        // it's ok if we're unable to set the drawable for this view - the user
+                        // can still use it.
+                    }
+                    return v;
+                }
+            };
+
+            AlertDialog.Builder b = new AlertDialog.Builder(context);
+            DialogInterface.OnClickListener click = new DialogInterface.OnClickListener() {
+                @Override
+                public final void onClick(DialogInterface dialog, int which) {
+                    if (which >= 0) {
+                        String url = spans[which].getURL();
+                        if (isWebUrl(url)) {
+                            showUrlOptions(context, url);
+                        } else {
+                            final String telPrefix = "tel:";
+                            if (url.startsWith(telPrefix)) {
+                                url = url.substring(telPrefix.length());
+                                if (PhoneNumberUtils.isWellFormedSmsAddress(url)) {
+                                    showNumberOptions(context, url);
+                                }
+                            } else if (url.startsWith(MAIL_TO_PREFIX)) {
+                                url = url.substring(MAIL_TO_PREFIX.length());
+                                showEmailOptions(context, url);
+                            } else {
+                                spans[0].onClick(contentText);
+                            }
+                        }
+                    }
+                    dialog.dismiss();
+                }
+            };
+
+            b.setTitle(R.string.select_link_title);
+            b.setCancelable(true);
+            b.setAdapter(adapter, click);
+            b.setNegativeButton(android.R.string.cancel, new DialogInterface.OnClickListener() {
+                @Override
+                public final void onClick(DialogInterface dialog, int which) {
+                    dialog.dismiss();
+                }
+            });
+            b.show();
+        }
+    }
+
+    //tangyisen begin
+    public static void onMessageSpansClick(final Context context, final TextView contentText, String url, final URLSpan span) {
+        if (isWebUrl(url)) {
+            showUrlOptions(context, url);
+        } else {
+            final String telPrefix = "tel:";
+            if (url.startsWith(telPrefix)) {
+                url = url.substring(telPrefix.length());
+                if (PhoneNumberUtils.isWellFormedSmsAddress(url)) {
+                    showNumberOptions(context, url);
+                }
+            } else if (url.startsWith(MAIL_TO_PREFIX)) {
+                url = url.substring(MAIL_TO_PREFIX.length());
+                showEmailOptions(context, url);
+            } else {
+                span.onClick(contentText);
+            }
+        }
+    }
+    //tangyisen end
+
+    public static int getSmsPreferStoreLocation(Context context, int subId) {
+        SharedPreferences prefsms = PreferenceManager.getDefaultSharedPreferences(context);
+        int preferStore = PREFER_SMS_STORE_PHONE;
+
+        if (isMultiSimEnabledMms()) {
+            if (subId == SUB1) {
+                preferStore = Integer.parseInt(prefsms.getString("pref_key_sms_store_card1", "0"));
+            } else {
+                preferStore = Integer.parseInt(prefsms.getString("pref_key_sms_store_card2", "0"));
+            }
+        } else {
+            preferStore = Integer.parseInt(prefsms.getString("pref_key_sms_store", "0"));
+        }
+
+        return preferStore;
+    }
+
+    public static long getStoreUnused() {
+        File path = new File(MMS_DATA_DATA_DIR);
+        StatFs stat = new StatFs(path.getPath());
+        long blockSize = stat.getBlockSize();
+        long availableBlocks = stat.getAvailableBlocks();
+        return availableBlocks * blockSize;
+    }
+
+    public static boolean isPhoneMemoryFull() {
+        long available = getStoreUnused();
+        return available < MIN_AVAILABLE_SPACE_MMS ;
+    }
+
+    /* Used for check whether have memory for save mms */
+    public static boolean isMmsMemoryFull() {
+        boolean isMemoryFull = isPhoneMemoryFull();
+        if (isMemoryFull) {
+            Log.d(TAG, "Mms emory is full ");
+            return true;
+        }
+        return false;
+    }
+
+    public static boolean isPhoneSmsCountFull(Context context) {
+        int maxSmsMessageCount = context.getResources().getInteger(R.integer.max_sms_message_count);
+        if (maxSmsMessageCount != -1) {
+            int msgCount = getSmsMessageCount(context);
+            return msgCount >= maxSmsMessageCount;
+        }
+        return false;
+    }
+
+    // Used for check whether have memory for save SMS.
+    public static boolean checkIsPhoneMessageFull(Context context) {
+        boolean isFull = isPhoneMemoryFull() || isPhoneSmsCountFull(context);
+        MessagingNotification.updateMessageFullIndicator(context, true, isFull);
+        return isFull;
+    }
+
+    // Used for check whether have memory for save MMS.
+    public static boolean checkIsPhoneMemoryFull(Context context) {
+        boolean isFull = isPhoneMemoryFull();
+        MessagingNotification.updateMessageFullIndicator(context, false, isFull);
+        return isFull;
+    }
+
+    private static String getMmsDataDir() {
+        File data_file = new File(MMS_DATA_DIR);
+        if (data_file.exists()) {
+            return MMS_DATA_DIR;
+        }
+        return MMS_DATA_DATA_DIR;
+    }
+
+    public static long getMmsUsed(Context mContext) {
+        int mmsCount = 0;
+        int smsCount = 0;
+        long mmsfileSize = 0;
+        Uri MMS_URI = Uri.parse("content://mms");
+        Uri SMS_URI = Uri.parse("content://sms");
+        Cursor cursor = SqliteWrapper.query(mContext, mContext.getContentResolver(), MMS_URI,
+                new String[] {
+                    "m_size"
+                }, null, null, null);
+
+        if (cursor != null) {
+            try {
+                mmsCount = cursor.getCount();
+                if (mmsCount > 0) {
+                    cursor.moveToPosition(-1);
+                    while (cursor.moveToNext()) {
+                        mmsfileSize += (cursor.getInt(0) == 0 ? DEFAULT_MMS_SIZE
+                                * KILOBYTE_SIZE : cursor.getInt(0));
+                    }
+                } else {
+                    return 0;
+                }
+            } finally {
+                cursor.close();
+            }
+        }
+        cursor = SqliteWrapper.query(mContext, mContext.getContentResolver(), SMS_URI,
+                new String[] {
+                    "_id"
+                }, null, null, null);
+        if (cursor != null) {
+            try {
+                smsCount = cursor.getCount();
+            } finally {
+                cursor.close();
+            }
+        }
+
+        Log.v(TAG, "mmsUsed =" + mmsfileSize);
+        long mmsMinSize = mmsCount * MIN_MMS_SIZE * KILOBYTE_SIZE;
+        return (mmsfileSize < mmsMinSize ? mmsMinSize : mmsfileSize);
+    }
+
+    public static long getStoreAll() {
+        File path = new File(getMmsDataDir());
+        StatFs stat = new StatFs(path.getPath());
+        long blockSize = stat.getBlockSize();
+        long allBlocks = stat.getBlockCount();
+        return allBlocks * blockSize;
+    }
+
+    public static long getStoreUsed() {
+        return getStoreAll() - getStoreUnused();
+    }
+
+    public static String formatMemorySize(long size) {
+        String suffix = null;
+        String kbStr = null;
+        boolean hasMb = false;
+        DecimalFormat formatter = new DecimalFormat();
+
+        // add KB or MB suffix if size is greater than 1K or 1M
+        if (size >= KILOBYTE_SIZE) {
+            suffix = " KB";
+            size /= KILOBYTE_SIZE;
+            kbStr = formatter.format(size);
+            if (size >= KILOBYTE_SIZE) {
+                suffix = " MB";
+                size /= KILOBYTE_SIZE;
+                hasMb = true;
+            }
+        }
+
+        formatter.setGroupingSize(DECIMAL_FORMATTOR_GROUPING_SIZE);
+        String result = formatter.format(size);
+
+        if (suffix != null) {
+            if (hasMb && kbStr != null) {
+                result = result + suffix + " (" + kbStr + " KB)";
+            } else {
+                result = result + suffix;
+            }
+        }
+        return result;
+    }
+
+    public static int getSmsMessageCount(Context context) {
+        int msgCount = -1;
+
+        Cursor cursor = SqliteWrapper.query(context, context.getContentResolver(),
+                MESSAGES_COUNT_URI, null, null, null, null);
+
+        if (cursor != null) {
+            try {
+                if (cursor.moveToFirst()) {
+                    msgCount = cursor.getInt(0);
+                } else {
+                    Log.d(TAG, "getSmsMessageCount returned no rows!");
+                }
+            } finally {
+                cursor.close();
+            }
+        }
+
+        Log.d(TAG, "getSmsMessageCount : msgCount = " + msgCount);
+        return msgCount;
+    }
+
+    public static void removeDialogs() {
+        mCanShowDialog = false;
+        if(memoryStatusDialog != null && memoryStatusDialog.isShowing()) {
+            memoryStatusDialog.dismiss();
+            memoryStatusDialog = null;
+        }
+    }
+
+    public static void showMemoryStatusDialog(Context context) {
+       mCanShowDialog = true;
+       new ShowDialog(context).execute();
+    }
+
+    public static void copyToClipboard(Context context, String str) {
+        ClipboardManager clipboard = (ClipboardManager) context
+                .getSystemService(Context.CLIPBOARD_SERVICE);
+        clipboard.setPrimaryClip(ClipData.newPlainText(null, str));
+        Toast.makeText(context, R.string.toast_text_copied, Toast.LENGTH_SHORT).show();
+    }
+
+    private static void showUrlOptions(final Context slideContext, final String messageUrl) {
+        final String[] texts = new String[] {
+                slideContext.getString(R.string.menu_connect_url),
+                //tangyisen
+                //slideContext.getString(R.string.menu_add_to_label),
+                //slideContext.getString(R.string.menu_copy_url, messageUrl)
+                slideContext.getString(R.string.menu_copy_to)
+        };
+        AlertDialog.Builder builder = new AlertDialog.Builder(slideContext);
+        builder.setTitle(slideContext.getString(R.string.message_options));
+        builder.setCancelable(true);
+        builder.setItems(texts, new DialogInterface.OnClickListener() {
+            @Override
+            public final void onClick(DialogInterface dialog, int which) {
+                switch (which) {
+                    case URL_OPTION_MENU_CONNECT:
+                        loadUrlDialog(slideContext, messageUrl);
+                        break;
+                    //tangyisen
+                    /*case URL_OPTION_MENU_ADD_TO_LABEL:
+                        addToLabel(slideContext, messageUrl);
+                        break;
+                    case URL_OPTION_MENU_COPY_URL:*/
+                    case URL_OPTION_MENU_COPY:
+                        copyToClipboard(slideContext, messageUrl);
+                        break;
+                }
+            }
+        });
+        builder.setOnCancelListener(new DialogInterface.OnCancelListener() {
+            @Override
+            public void onCancel(DialogInterface dialog) {
+                dialog.dismiss();
+            }
+        });
+        builder.show();
+    }
+
+    private static void loadUrlDialog(final Context context, final String urlString) {
+        AlertDialog.Builder builder = new AlertDialog.Builder(context);
+        builder.setTitle(R.string.menu_connect_url);
+        builder.setMessage(context.getString(R.string.loadurlinfo_str));
+        builder.setCancelable(true);
+        builder.setPositiveButton(R.string.yes, new OnClickListener() {
+            @Override
+            final public void onClick(DialogInterface dialog, int which) {
+                loadUrl(context, urlString);
+            }
+        });
+        builder.setNegativeButton(R.string.no, new OnClickListener() {
+            @Override
+            final public void onClick(DialogInterface dialog, int which) {
+                dialog.dismiss();
+            }
+        });
+        builder.setOnCancelListener(new DialogInterface.OnCancelListener() {
+            @Override
+            public void onCancel(DialogInterface dialog) {
+                dialog.dismiss();
+            }
+        });
+        builder.show();
+
+    }
+
+    private static void loadUrl(Context context, String url) {
+        if (!url.regionMatches(true, 0, "http://", 0, 7)
+                && !url.regionMatches(true, 0, "https://", 0, 8)
+                && !url.regionMatches(true, 0, "rtsp://", 0, 7)) {
+            url = "http://" + url;
+        }
+        url = url.replace("Http://", "http://");
+        url = url.replace("Https://", "https://");
+        url = url.replace("HTTP://", "http://");
+        url = url.replace("HTTPS://", "https://");
+        url = url.replace("Rtsp://", "rtsp://");
+        url = url.replace("RTSP://", "rtsp://");
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
+        intent.addCategory(Intent.CATEGORY_BROWSABLE);
+
+        if ((url.substring(url.length() - 4).compareToIgnoreCase(".mp4") == 0)
+                || (url.substring(url.length() - 4).compareToIgnoreCase(".3gp") == 0)) {
+            intent.setDataAndType(Uri.parse(url), "video/*");
+        }
+        try {
+            context.startActivity(intent);
+        } catch (ActivityNotFoundException e) {
+            return;
+        }
+    }
+
+    private static void addToLabel(Context context, String urlString) {
+        Intent i = new Intent(Intent.ACTION_INSERT, BOOKMARKS_URI);
+        i.putExtra("title", "");
+        i.putExtra("url", urlString);
+        i.putExtra("extend", "outside");
+        context.startActivity(i);
+    }
+
+    private static class ShowDialog extends AsyncTask<String, Void, StringBuilder> {
+        private Context mContext;
+        public ShowDialog(Context context) {
+            mContext = context;
+        }
+
+        @Override
+        protected StringBuilder doInBackground(String... params) {
+            StringBuilder memoryStatus = new StringBuilder();
+            memoryStatus.append(mContext.getString(R.string.sms_phone_used));
+            memoryStatus.append(" " + getSmsMessageCount(mContext) + "\n");
+            memoryStatus.append(mContext.getString(R.string.sms_phone_capacity));
+            memoryStatus.append(" " + mContext.getResources()
+                    .getInteger(R.integer.max_sms_message_count) + "\n\n");
+            memoryStatus.append(mContext.getString(R.string.mms_phone_used));
+            memoryStatus.append(" " + formatMemorySize(getMmsUsed(mContext)) + "\n");
+            memoryStatus.append(mContext.getString(R.string.mms_phone_capacity));
+            memoryStatus.append(" " + formatMemorySize(getStoreAll()) + "\n");
+            return memoryStatus;
+        }
+
+        @Override
+        protected void onPostExecute(StringBuilder memoryStatus) {
+            if(memoryStatus != null && !memoryStatus.toString().isEmpty()) {
+                AlertDialog.Builder builder = new AlertDialog.Builder(mContext);
+                builder.setTitle(R.string.memory_status_title);
+                builder.setCancelable(true);
+                builder.setPositiveButton(R.string.yes, null);
+                builder.setMessage(memoryStatus);
+                memoryStatusDialog = builder.create();
+                memoryStatusDialog.show();
+            }
+        }
+    }
+
+    public static void showEmailOptions(final Context context, final String address) {
+        AlertDialog.Builder builder = new AlertDialog.Builder(context).setTitle(address)
+                .setCancelable(true);
+        builder.setItems(R.array.email_options, new OnClickListener() {
+
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                switch (which) {
+                    case DIALOG_ITEM_EMAIL_TO:
+                        context.startActivity(new Intent(Intent.ACTION_VIEW, Uri
+                                .parse(MAIL_TO_PREFIX + address))
+                                .setFlags(Intent.FLAG_ACTIVITY_CLEAR_WHEN_TASK_RESET));
+                        break;
+                    case DIALOG_ITEM_EMAIL_ADD_CONTACTS:
+                        context.startActivity(ConversationList.createAddContactIntent(address));
+                        break;
+                    default:
+                        break;
+                }
+                dialog.dismiss();
+            }
+        }).show();
+    }
+
+    public static void showNumberOptions(final Context context, final String number) {
+        final Context localContext = context;
+        final String extractNumber = number;
+        //tangyisen add
+        StringBuilder title = new StringBuilder(extractNumber);
+        final String DisplayName = getContactNameByPhoneNumber(localContext,extractNumber);
+        int contentArrayId = R.array.number_options;
+        if(!TextUtils.isEmpty(DisplayName)) {
+            title.append(" (" + DisplayName + ")");
+            contentArrayId = R.array.number_existed_options;
+        }
+        AlertDialog.Builder builder = new AlertDialog.Builder(localContext);
+        //tangyisen
+        builder.setTitle(title);
+        builder.setCancelable(true);
+        builder.setItems(contentArrayId,
+                new DialogInterface.OnClickListener() {
+            public void onClick(DialogInterface dialog, int which) {
+                switch (which) {
+                    case DIALOG_ITEM_CALL:
+                        Intent dialIntent = new Intent(Intent.ACTION_CALL,
+                                Uri.parse("tel:" + extractNumber));
+                        localContext.startActivity(dialIntent);
+                        break;
+                    case DIALOG_ITEM_SMS:
+                        Intent smsIntent = new Intent(Intent.ACTION_SENDTO,
+                                Uri.parse("smsto:" + extractNumber));
+                        smsIntent.putExtra(EXTRA_KEY_NEW_MESSAGE_NEED_RELOAD, true);
+                        localContext.startActivity(smsIntent);
+                        break;
+                    //tangyisen add
+                    case DIALOG_ITEM_CREATE_NEW_CONTACTS_OR_COPY:
+                        if (!TextUtils.isEmpty(DisplayName)) {
+                            copyToClipboard(context, number);
+                        }
+                        else {
+                            Intent mAddContactIntent = ConversationList.createNewContactIntent(extractNumber);
+                            localContext.startActivity(mAddContactIntent);
+                        }
+                        break;
+                    case DIALOG_ITEM_ADD_CONTACTS:
+                        Intent intent = ConversationList
+                                .createAddContactIntent(extractNumber);
+                        localContext.startActivity(intent);
+                        break;
+					//lichao add
+                    case DIALOG_ITEM_COPY:
+                        copyToClipboard(context, number);
+                        break;
+                    default:
+                        break;
+                }
+                dialog.dismiss();
+            }
+        });
+        builder.show();
+    }
+
+    public static Intent getCellBroadcastIntent() {
+        Intent intent = new Intent(Intent.ACTION_MAIN);
+        intent.setComponent(new ComponentName(
+                CELL_BROADCAST_PACKAGE_NAME,
+                CELL_BROADCAST_ACTIVITY_NAME));
+        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        return intent;
+    }
+
+    public static String convertIdp(Context context, String number, int subscription) {
+        String convertedNumber = number;
+        if (context.getResources().getBoolean(R.bool.customize_env_phone_checkidp)) {
+            String idpPrefix = getIdpPrefixNumber(context, subscription);
+            if (number.indexOf(idpPrefix) == 0) {
+                convertedNumber = IDP_PLUS + number.substring(idpPrefix.length());
+            }
+        }
+        Log.d(TAG, "convertIdp : number = "  + number + " converted number = " + convertedNumber);
+        return convertedNumber;
+    }
+
+    public static boolean isRoaming(int subscription) {
+        return TelephonyManager.getDefault().isNetworkRoaming(subscription);
+    }
+
+    private static boolean checkIdpEnable(Context context, int subscription) {
+        if (context.getResources().getBoolean(R.bool.customize_env_phone_checkidp)
+                && Settings.System.getInt(context.getContentResolver(),
+                INTERNATIONAL_PREFIX_ENABLE + subscription, IDP_ENABLE) == IDP_ENABLE) {
+            return true;
+        }
+        return false;
+    }
+
+    private static String getIdpPrefixNumber(Context context, int subscription) {
+        String idpPrefix = Settings.System.getString(context.getContentResolver(),
+                INTERNATIONAL_PREFIX_NUMBER + subscription);
+        return TextUtils.isEmpty(idpPrefix) ? IDP_DEFAULT_PREFIX : idpPrefix;
+    }
+
+    public static String checkIdp(Context context, String number, int subscription) {
+        String checkedNumber = number;
+        boolean isCDMA = isCDMAPhone(subscription);
+        boolean isEnable = checkIdpEnable(context, subscription);
+        boolean isRoaming = isRoaming(subscription);
+        if (isEnable && isCDMA) {
+            int indexIdn = number.indexOf(IDP_IDN);
+            int indexPlus = number.indexOf(IDP_PLUS);
+
+            if ((indexIdn != -1) && (!isRoaming(subscription))) {
+                checkedNumber = number.substring(0, indexIdn) +
+                    IDP_ZERO + number.substring(indexIdn + IDP_IDN.length());
+            } else if (indexPlus != -1) {
+                 checkedNumber = number.substring(0, indexPlus)
+                      + getIdpPrefixNumber(context, subscription)
+                      + number.substring(indexPlus + IDP_PLUS.length());
+            }
+        }
+
+        Log.d(TAG, "checkIdp : number = "  + number + " sub = "  + subscription +
+            " isCDMA = "  + isCDMA  + " isEnable = " + isEnable +
+            " checked number = "  + checkedNumber);
+
+        return checkedNumber;
+    }
+
+    public static boolean isTooLargeFile(final Context ctx, final Uri uri) {
+        boolean isTooLarge = false;
+        InputStream input = null;
+
+        try {
+            input = ctx.getContentResolver().openInputStream(uri);
+            if (input.available() / COMPRESSION_FACTOR > MmsConfig
+                    .getMaxMessageSize()) {
+                isTooLarge = true;
+            }
+        } catch (Exception e) {
+            Log.e(TAG, e.getMessage(), e);
+        } finally {
+            if (input != null) {
+                try {
+                    input.close();
+                } catch (IOException e) {
+                    Log.e(TAG, e.getMessage(), e);
+                }
+            }
+        }
+        return isTooLarge;
+    }
+
+    public static String getFilePath(final Context context, final Uri uri) {
+        String path = null;
+        if (uri.toString().contains("content://")) {
+            Cursor c = SqliteWrapper.query(context, context
+                    .getContentResolver(), uri, null, null, null, null);
+            try {
+                if (c != null && c.moveToFirst()) {
+                    if (ImageModel.isMmsUri(uri)) {
+                        path = c.getString(c.getColumnIndexOrThrow(Part._DATA));
+
+                    } else if ("media".equals(uri.getAuthority())) {
+                        path = c.getString(c
+                                .getColumnIndexOrThrow(Audio.Media.DATA));
+                    }
+                } else {
+                    return null;
+                }
+            } catch (Exception e) {
+                Log.e(TAG, e.getMessage());
+            } finally {
+                if (c != null) {
+                    c.close();
+                }
+            }
+        } else if (uri.getScheme().equals("file")) {
+            path = uri.getSchemeSpecificPart();
+        }
+
+        return path;
+    }
+
+    public static boolean isCarrierSimCard(Context ctx) {
+        boolean isCarrierSimCard = false;
+        String[] carrierMccMncs = null/*ctx.getResources().getStringArray(
+                com.android.internal.R.array.
+                config_regional_carrier_operator_list)*/;
+        TelephonyManager tm = (TelephonyManager)ctx.getSystemService(
+        Context.TELEPHONY_SERVICE);
+        String simOperator = tm.getSimOperator();
+        if (DEBUG) Log.d(TAG,
+            "carrier sim card check: sim operator is " + simOperator);
+        if (simOperator != null) {
+            if (Arrays.asList(carrierMccMncs).contains(simOperator)) {
+                isCarrierSimCard = true;
+            }
+            else {
+                for(String s: Arrays.asList(carrierMccMncs)) {
+                    if (simOperator.indexOf(s) >= 0) {
+                        isCarrierSimCard = true;
+                        break;
+                    }
+                }
+            }
+        }
+        if (DEBUG) {
+            Log.d(TAG,"is home Carrier SIM Card? " + isCarrierSimCard);
+        }
+        return isCarrierSimCard;
+    }
+
+    public static boolean shouldHandleMmsViaWifi(Context ctx) {
+        if (!isCarrierSimCard(ctx)) {
+            //Not all carriers mmsc support send MMS via wifi and so
+            //this feature is only for home carrier
+            return false;
+        }
+        boolean wifiActive = false;
+        ConnectivityManager connMgr = (ConnectivityManager) ctx.getSystemService(
+                Context.CONNECTIVITY_SERVICE);
+        NetworkInfo info = connMgr == null ? null : connMgr.getNetworkInfo(
+                ConnectivityManager.TYPE_WIFI);
+        wifiActive = (info != null && info.isConnected());
+        return wifiActive;
+    }
+
+    //lichao add for contact note begin
+    //consider a Contact have the same name but diffrent number
+    public static String getNoteByNameAndNumber(Context context, String name, String number) {
+        if (TextUtils.isEmpty(name) || TextUtils.isEmpty(number)) {
+            return null;
+        }
+        return getNoteWithRaw(context, getRawContactIdByNameAndNumber(context, name, number));
+    }
+
+    public static String getNoteWithRaw(Context con, long rawContactId) {
+        if (rawContactId <= 0) {
+            return null;
+        }
+        String re = "";
+        Cursor c = con.getContentResolver().query(
+                Data.CONTENT_URI,
+                new String[]{Data.DATA1},
+                Data.MIMETYPE + " = '" + Note.CONTENT_ITEM_TYPE
+                        + "' AND " + Data.RAW_CONTACT_ID + " = '" + rawContactId + "'",
+                null, null);
+
+        if (c != null) {
+            if (c.moveToFirst()) {
+                re = c.getString(0);
+            }
+            c.close();
+        }
+
+        if (DBG_NOTE) Log.d(TAG, "getNoteWithRaw, re = " + re);
+        return re;
+    }
+
+    public static long getRawContactIdByNameAndNumber(Context context, String name, String number) {
+
+        if (TextUtils.isEmpty(name) || TextUtils.isEmpty(number)) {
+            return -1;
+        }
+
+        long rawContactId = -1;
+        ArrayList<Long> rawIdsList = getRawContactIdsListByName(context, name);
+
+        String normalizedNumber = PhoneNumberUtils.normalizeNumber(number);
+        if (DBG_NOTE) Log.d(TAG, "getNoteByNameAndNumber number: " + number);
+        if (DBG_NOTE) Log.d(TAG, "getNoteByNameAndNumber normalizedNumber: " + normalizedNumber);
+
+        for (long rawId : rawIdsList) {
+            String q_number = queryPhoneNumbersWithRaw(context, rawId);
+            String normalized_q_number = PhoneNumberUtils.normalizeNumber(q_number);
+            if (DBG_NOTE) Log.d(TAG, "getNoteByNameAndNumber q_number: " + q_number);
+            if (DBG_NOTE) Log.d(TAG, "getNoteByNameAndNumber normalized_q_number: " + normalized_q_number);
+            if (q_number != null && normalized_q_number.equals(normalizedNumber)) {
+                rawContactId = rawId;
+                break;
+            }
+        }
+        return rawContactId;
+    }
+
+    private static ArrayList<Long> getRawContactIdsListByName(Context context, String name) {
+
+        if (TextUtils.isEmpty(name)) {
+            return null;
+        }
+
+        ArrayList<Long> rawIdsList = new ArrayList<Long>();
+        Cursor c = null;
+        Uri nameUri = null;
+        // Replace the ' to avoid SQL injection.
+        name = name.replace(REPLACE_QUOTES_1, REPLACE_QUOTES_2);
+
+        try {
+            c = context.getContentResolver().query(ContactsContract.Data.CONTENT_URI,
+                    new String[]{ContactsContract.Data.RAW_CONTACT_ID},
+                    ContactsContract.Data.MIMETYPE + " =? AND " + StructuredName.DISPLAY_NAME
+                            + " like '%" + name + "%' ", new String[]{StructuredName.CONTENT_ITEM_TYPE},
+                    null);
+
+            if (c != null) {
+                while (c.moveToNext()) {
+                    long raw_id = c.getLong(c.getColumnIndex(ContactsContract.Data.
+                            RAW_CONTACT_ID));
+                    if (raw_id > 0) {
+                        rawIdsList.add(raw_id);
+                    }
+                }
+            }
+        } finally {
+            if (c != null) {
+                c.close();
+            }
+        }
+        if (DBG_NOTE) Log.d(TAG, "getRawContactIdsListByName return raw_contact_id: " + rawIdsList.toString());
+        return rawIdsList;
+    }
+    //lichao add for contact note end
+    
+    // tangyisen add for search contact name via phone number
+    public static String getContactNameByPhoneNumber(Context context, String number) {
+        String[] projection =
+            {ContactsContract.PhoneLookup.DISPLAY_NAME, ContactsContract.CommonDataKinds.Phone.NUMBER};
+        Cursor cursor =
+            context.getContentResolver().query(ContactsContract.CommonDataKinds.Phone.CONTENT_URI, projection,
+                ContactsContract.CommonDataKinds.Phone.NUMBER + " = '" + number + "'", 
+                null,
+                null);
+        if (cursor == null) {
+            Log.d(TAG, "getPeople null");
+            return null;
+        }
+        for (int i = 0; i < cursor.getCount(); i++) {
+            cursor.moveToPosition(i);
+            int nameFieldColumnIndex = cursor.getColumnIndex(ContactsContract.PhoneLookup.DISPLAY_NAME);
+            String name = cursor.getString(nameFieldColumnIndex);
+            return name;
+        }
+        return null;
+    }
+
+    //lichao add in 2016-09-22
+    public static void setMargins (Context context, View v, int l, int t, int r, int b) {
+        if (v.getLayoutParams() instanceof ViewGroup.MarginLayoutParams) {
+            ViewGroup.MarginLayoutParams p = (ViewGroup.MarginLayoutParams) v.getLayoutParams();
+            p.setMargins(dip2Px(context, l), dip2Px(context, t), dip2Px(context, r), dip2Px(context, b));
+            v.requestLayout();
+        }
+    }
+
+    /*
+    * converts dip to px
+    */
+    public static int dip2Px(Context context, float dip) {
+        return (int) (dip * context.getResources().getDisplayMetrics().density + 0.5f);
+    }
+
+    /*
+    * converts px to dip
+    */
+    public static int px2dip(Context context, float pxValue) {
+        final float scale = context.getResources().getDisplayMetrics().density;
+        return (int) (pxValue / scale + 0.5f);
+    }
+
+    //lichao move to here in 2016-11-07
+    public static boolean isNumeric(String str){
+        Pattern pattern = Pattern.compile("[0-9]*");
+        Matcher isNum = pattern.matcher(str);
+        if( !isNum.matches() ){
+            return false;
+        }
+        return true;
+    }
+
+    //begin tangyisen add checkout reject is install
+    public static final String REJECT_PACKAGENAME = "com.monster.interception";
+    public static final String ADD_TO_BLACK_ACTION = "com.monster.black.add.manually";
+    public static boolean isRejectInstalled(Context context) {
+        PackageInfo packageInfo = null;
+        try {
+            packageInfo = context.getPackageManager().getPackageInfo(REJECT_PACKAGENAME, 0);
+        } catch (NameNotFoundException e) {
+            packageInfo = null;
+            e.printStackTrace();
+        }
+        if(packageInfo != null){
+            return true;
+        }
+        return false;
+    }
+
+    public static Uri BLACK_URI = Uri.parse("content://com.android.contacts/black");
+    //return 0:no 1:phone 2:sms 3:all
+    public static BlackEntity validateIsRejectAddress(Context context, String address) {
+        ContentResolver cr = context.getContentResolver();
+        Cursor cursor = null;
+        String number= null;
+        /*if (getCurrentCountryIso(context).equals("CN")
+            && address.startsWith("+86")) {
+            number = address.substring(3).replace("-", "").replace(" ", "");
+        } else {*/
+        number = address.replace("-", "").replace(" ", "");
+        //}
+        try {
+            cursor = cr.query(BLACK_URI, new String[]{"black_name","number","reject"}, getPhoneNumberEqualString(number), null, null);
+            if(cursor == null || cursor.getCount() == 0) {
+                return null;
+            }
+            cursor.moveToFirst();
+            BlackEntity entity = new BlackEntity();
+            entity.setBlackName(cursor.getString(0));
+            entity.setNumber(cursor.getString(1));
+            entity.setReject(cursor.getInt(2));
+            return entity;
+        } catch (Exception e) {
+            return null;
+        } finally {
+            cursor.close();
+        }
+    }
+
+    public static final String getCurrentCountryIso(Context context) {
+        CountryDetector detector = (CountryDetector) context
+                .getSystemService(Context.COUNTRY_DETECTOR);
+        return detector.detectCountry().getCountryIso();
+    }
+
+    public static String getPhoneNumberEqualString(String number) {
+        return " PHONE_NUMBERS_EQUAL(number, \"" + number + "\", 0) ";
+    }
+    //end tangyisen
+
+    //lichao add in 2016-12-16
+    public static String getSeparatedBlackList(Context context) {
+        String blackList = "";
+        Cursor c = null;
+        try {
+            c = context.getContentResolver().query(BLACK_URI, new String[]{"number"}, null, null, null);
+            if (c == null) {
+                return blackList;
+            }
+            StringBuilder sb = new StringBuilder();
+            while (c.moveToNext()) {
+                String number = c.getString(c.getColumnIndex("number"));
+                if (sb.length() > 0) {
+                    sb.append(",");
+                }
+                sb.append(number);
+            }
+            blackList = sb.toString();
+        } finally {
+            if (c != null) {
+                c.close();
+            }
+        }
+        return blackList;
+    }
+
+    //lichao add in 2016-12-16
+    public static final StyleSpan STYLE_BOLD = new StyleSpan(Typeface.BOLD);
+    public static CharSequence formatSubject(Context context, String snippet, boolean hasDraft, boolean hasError) {
+        SpannableStringBuilder buf = new SpannableStringBuilder(snippet);
+        String prefix = null;
+        if (hasDraft) {
+            prefix = context.getResources().getString(R.string.has_draft);
+        }
+        else if(hasError){
+            prefix = context.getResources().getString(R.string.prefix_send_failure);
+        }
+        if (null != prefix) {
+            int length = prefix.length();
+            buf.insert(0, prefix + " ");
+            //2016-11-02: The bold font is not supported by character library
+            buf.setSpan(STYLE_BOLD, 0, 1, Spannable.SPAN_INCLUSIVE_EXCLUSIVE);
+            buf.setSpan(STYLE_BOLD, length - 1, length, Spannable.SPAN_INCLUSIVE_EXCLUSIVE);
+            buf.setSpan(new ForegroundColorSpan(
+                            context.getResources().getColor(R.color.prefix_text_color_red)),
+                    0, length, Spannable.SPAN_INCLUSIVE_EXCLUSIVE);
+        }
+        return buf;
+    }
+
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/user_profile_header"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/listview_item_header"
+        style="@style/mst_contacts_listview_header_for_star"
+        android:text="@string/mst_star_header_text"
+        android:paddingBottom="@dimen/mst_star_header_paddding_bottom" />
+
+    <GridView
+        android:id="@+id/star_contacts_gridview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:horizontalSpacing="@dimen/contact_header_item_horizontal_spacing"
+        android:numColumns="5"
+        android:paddingLeft="@dimen/contact_header_padding_left"
+        android:paddingRight="@dimen/contact_header_padding_right"
+        android:verticalSpacing="@dimen/contact_header_item_vertical_spacing" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mst_contact_header_padding_bottom" />
+</LinearLayout>

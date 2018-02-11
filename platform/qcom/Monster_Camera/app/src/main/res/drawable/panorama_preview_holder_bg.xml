@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <stroke android:color="@color/panorama_preview_border"
+        android:width="@dimen/panorama_preview_border"/>
+    <solid android:color="@color/panorama_preview_background"/>
+    <corners android:radius="@dimen/panorama_selfie_preview_radius"/>
+    <padding android:top="@dimen/panorama_preview_border"
+        android:right="@dimen/panorama_preview_border"
+        android:bottom="@dimen/panorama_preview_border"
+        android:left="@dimen/panorama_preview_border"/>
+</shape>

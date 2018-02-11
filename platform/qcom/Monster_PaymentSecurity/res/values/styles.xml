@@ -1,0 +1,39 @@
+<resources>
+
+    <style name="ToolbarStyle" parent="com.mst:style/ToolbarStyle">
+        <item name="com.mst:title">@string/app_name</item>
+    </style>
+
+    <style name="WindowLayoutStyle" parent="com.mst:WindowStyle.Light">
+        <item name="com.mst:hasBackIcon">true</item>
+    </style>
+
+    <style name="AppTheme" parent="@com.mst:style/Theme.Mst.Material.Light">
+        <item name="android:toolbarStyle">@style/ToolbarStyle</item>
+        <item name="com.mst:windowLayoutStyle">@style/WindowLayoutStyle</item>
+    </style>
+
+    <style name="style.ScanActivity" parent="@com.mst:style/Theme.Mst.Material.Light">
+        <item name="android:toolbarStyle">@style/ToolbarStyle</item>
+    </style>
+
+    <style name="Style.MstActivity" parent="@com.mst:style/Theme.Mst.Material.Light">
+        <item name="com.mst:hasBackIcon">false</item>
+        <item name="android:toolbarStyle">@style/ToolbarStyle</item>
+    </style>
+
+    <style name="Style.TransparentActivity" parent="@com.mst:style/Theme.Mst.Material.Light">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorPrimary">@android:color/transparent</item>
+        <item name="android:colorPrimaryDark">@android:color/transparent</item>
+    </style>
+
+    <style name="Style.Checkbox" parent="@style/AppTheme">
+        <item name="android:colorControlActivated">@android:color/black</item>
+    </style>
+
+
+</resources>

@@ -1,0 +1,814 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="sort">"مرتبسازي"</string>
+	<!---->
+	<string name="sort_by_name">"نام"</string>
+	<!---->
+	<string name="sort_by_date">"داده تغییر کرد"</string>
+	<!---->
+	<string name="sort_by_time">"تاریخ"</string>
+	<!---->
+	<string name="sort_by_type">"نوع"</string>
+	<!---->
+	<string name="sort_by_size">"اندازه"</string>
+	<!---->
+	<string name="copy">"کپی"</string>
+	<!---->
+	<string name="create_folder">"ايجاد"</string>
+	<!---->
+	<string name="cut">"برش"</string>
+	<!---->
+	<string name="delete">"حذف"</string>
+	<!---->
+	<string name="delete_confirm">"تأیید حذف"</string>
+	<!---->
+	<string name="deselect_all">"لغو انتخاب همه"</string>
+	<!---->
+	<string name="select_all">"انتخاب همه"</string>
+	<!---->
+	<string name="show_file">"نمايش فايل هاي مخفي"</string>
+	<!---->
+	<string name="hide_file">"مخفي کردن فايل هاي مخفي"</string>
+	<!---->
+	<string name="paste">"جايگذاري"</string>
+	<!---->
+	<string name="rename">"تغییر نام"</string>
+	<!---->
+	<string name="share">"اشتراک"</string>
+	<!---->
+	<string name="viewby_list">"مشاهده بر اساس ليست"</string>
+	<!---->
+	<string name="viewby_grid">"مشاهده بر اساس شبکه"</string>
+	<!---->
+	<string name="alert_delete_message">"حذف"</string>
+	<!---->
+	<string name="multi_alert_delete_message">"حذف موارد انتخابي؟"</string>
+	<!---->
+	<string name="multi_alert_delete_message_cn">"حذف موارد انتخابي؟"</string>
+	<!-- no translation found for delete_folder_message -->
+	<skip />
+	<!---->
+	<string name="category_pictures">"تصاویر"</string>
+	<!---->
+	<string name="category_vedios">"ویدئو ها"</string>
+	<!---->
+	<string name="category_music">"موسیقی"</string>
+	<!---->
+	<string name="category_download">"دانلودها"</string>
+	<!---->
+	<string name="category_bluetooth">"Bluetooth"</string>
+	<!-- no translation found for app_name -->
+	<skip />
+	<!-- no translation found for theme_name -->
+	<skip />
+	<!---->
+	<string name="apk_name">"فايل ها"</string>
+	<!---->
+	<string name="new_folder">"وارد کردن نام پوشه"</string>
+	<!---->
+	<string name="confirm_rename">"تأیید نام"</string>
+	<!---->
+	<string name="warning">"حداکثر تعداد فایل"</string>
+	<!---->
+	<string name="share_warning">"نمی توانید بیشتر از 100 فایل به اشتراک بگذارید."</string>
+	<!---->
+	<string name="loading">"در حال بارگیری..."</string>
+	<!---->
+	<string name="deleting">"در حال حذف"</string>
+	<!---->
+	<string name="alert_delete_multiple">"فایل های انتخاب شده حذف خواهد شد."</string>
+	<!---->
+	<string name="name">"نام"</string>
+	<!---->
+	<string name="size">"اندازه"</string>
+	<!---->
+	<string name="modified_time">"تغییر داده شد"</string>
+	<!---->
+	<string name="msg_rename_ext">"پسوند فایل تغییر می کند. ممکن است فایل شناخته نشود. ادامه می دهید؟"</string>
+	<!---->
+	<string name="wait">"لطفاً منتظر بمانید…"</string>
+	<!---->
+	<string name="done">"انجام شد"</string>
+	<!-- no translation found for enable -->
+	<skip />
+	<!-- no translation found for enable_cn -->
+	<skip />
+	<!---->
+	<string name="cancel">"لغو"</string>
+	<!---->
+	<string name="no">"خير"</string>
+	<!---->
+	<string name="ok">"تأييد"</string>
+	<!---->
+	<string name="yes">"بله"</string>
+	<!---->
+	<string name="details">"جزئیات"</string>
+	<!---->
+	<string name="drawer_open">"بازکردن"</string>
+	<!---->
+	<string name="unknown">"ناشناخته"</string>
+	<!-- no translation found for unit_B -->
+	<skip />
+	<!-- no translation found for unit_KB -->
+	<skip />
+	<!-- no translation found for unit_MB -->
+	<skip />
+	<!-- no translation found for unit_GB -->
+	<skip />
+	<!-- no translation found for unit_TB -->
+	<skip />
+	<!---->
+	<string name="send_file">"اشتراک فایل ها از طریق"</string>
+	<!---->
+	<string name="default_search_text">"جستجوي فايل ها"</string>
+	<!---->
+	<string name="free_space">"موجود"</string>
+	<!---->
+	<string name="total_space">"کل فضا"</string>
+	<!---->
+	<string name="drawer_category">"دسته ها"</string>
+	<!---->
+	<string name="phone_storage">"حافظه تلفن"</string>
+	<!---->
+	<string name="phone_storage_cn">"phtzi jgtk"</string>
+	<!---->
+	<string name="sd_card">"کارت SD"</string>
+	<!---->
+	<string name="draw_left_phone_storage">"حافظهٔ داخلی"</string>
+	<!---->
+	<string name="draw_left_sd_card">"کارت SD"</string>
+	<!-- no translation found for menu_settings -->
+	<skip />
+	<!---->
+	<string name="no_search_result">"0 نتیجه برای \"%1$s\""</string>
+	<!---->
+	<string name="copy_deny">"اجازه کپی وجود ندارد."</string>
+	<!---->
+	<string name="cut_deny">"اجازه برش وجود ندارد."</string>
+	<!---->
+	<string name="delete_deny">"اجازه حذف کردن وجود ندارد."</string>
+	<!---->
+	<string name="insufficient_memory">"فضاي ناکافي."</string>
+	<!---->
+	<string name="insufficient_message">"به دلیل فضای ناکافی نمی توانید برخی از فایل ها را کپی کنید"</string>
+	<!---->
+	<string name="invalid_empty_name">"نام فایل یا پوشه نباید خالی باشد"</string>
+	<!---->
+	<string name="paste_same_folder">"قابل کپی نیست: پوشه منبع و مقصد مشابه هستند."</string>
+	<!---->
+	<string name="invalid_char_prompt">"شما نويسه نامعتبر وارد کرده ايد."</string>
+	<!---->
+	<string name="msg_unable_open_file">"فرمت فايل پشتيباني نمي شود."</string>
+	<!---->
+	<string name="paste_sub_folder">"نمي توانيد در پوشه فرعي جايگذاري کنيد"</string>
+	<!---->
+	<string name="operation_fail">"برخی از عملكردهای فایل انجام نشد."</string>
+	<!---->
+	<string name="search_result">"%2$d نتيجه براي \"%1$s\""</string>
+	<!---->
+	<string name="already_exists">"%1$s از قبل در حال استفاده است."</string>
+	<!---->
+	<string name="unmounted">"%1$s نصب نيست"</string>
+	<!---->
+	<string name="create_hidden_file">"فايل مخفي خواهد بود اگر نام آن با \'.\' شروع شود."</string>
+	<!---->
+	<string name="file_name_too_long">"نام ورودي بسيار طولاني است."</string>
+	<!---->
+	<string name="some_paste_fail">"عملکردها جايگذاري نشدند."</string>
+	<!---->
+	<string name="delete_fail">"قابل حذف نیست"</string>
+	<!---->
+	<string name="some_delete_fail">"برخی از عملكردهای حذف انجام نشد."</string>
+	<!---->
+	<string name="msg_unable_open_file_in_app">"برنامه اي براي باز کردن فايل موجود نيست"</string>
+	<!---->
+	<string name="drm_forwardforbidden_title">"ارسال نشد"</string>
+	<!---->
+	<string name="drm_forwardforbidden_message">"فایل DRM ارسال نمی شود."</string>
+	<!---->
+	<string name="drm_no_valid_right">"فايل دارای مجوز DRM معتبر نيست."</string>
+	<!---->
+	<string name="drm_current_count">"تعداد فعلی："</string>
+	<!---->
+	<string name="unlimited_usage">"استفاده بدون محدودیت"</string>
+	<!---->
+	<string name="drm_current_right">"محدوديت فعلی："</string>
+	<!---->
+	<string name="not_available">"موجود نیست"</string>
+	<!---->
+	<string name="right_url">"آدرس دهنده مجوز："</string>
+	<!---->
+	<string name="use_times">"استفاده برای %s بار"</string>
+	<!---->
+	<string name="valid_after">"معتبر بعد از"</string>
+	<!---->
+	<string name="valid_until">"معتبر تا"</string>
+	<!---->
+	<string name="drm_wifidisplay_title">"فایل های محافظت شده در برابر کپی"</string>
+	<!---->
+	<string name="drm_wifidisplay_message">"فایل محافظت شده در برابر کپی قابل توزیع نیست."</string>
+	<!---->
+	<string name="drm_wifidisplay_cancel_btn">"خاموش کردن نمایشگر Wi-Fi"</string>
+	<!---->
+	<string name="drm_wifidisplay_ok">"تایید"</string>
+	<!---->
+	<string name="tv_link_close_toast">"نمایشگر Wi-Fi بسته شده است"</string>
+	<!---->
+	<string name="usbotg">"دستگاه ذخيره USB خارجي"</string>
+	<!---->
+	<string name="show">"نمایش فايل های سیستم"</string>
+	<!---->
+	<string name="hide">"مخفی کردن فايل های سیستم"</string>
+	<!---->
+	<string name="action_menu_create_folder_button">"ایجاد پوشه"</string>
+	<!---->
+	<string name="searchResult">"نتیجه جستجو"</string>
+	<!---->
+	<string name="default_folder_name">"نام پوشه"</string>
+	<!---->
+	<string name="drm_protection_status">"وضعيت محافظت:"</string>
+	<!---->
+	<string name="drm_can_forward">"مي تواند ارسال شود."</string>
+	<!---->
+	<string name="drm_can_not_forward">"نمي تواند ارسال شود."</string>
+	<!---->
+	<string name="drm_no_license">"مجوز DRM موجود نيست."</string>
+	<!---->
+	<string name="drm_interval">"معتبر برای %s بعد از اولين استفاده"</string>
+	<!---->
+	<string name="drm_begin">"شروع:"</string>
+	<!---->
+	<string name="drm_no_limitation">"بدون محدوديت."</string>
+	<!---->
+	<string name="drm_end">"پايان:"</string>
+	<!---->
+	<string name="drm_use_left">"باقيمانده:"</string>
+	<!---->
+	<string name="drm_no_crop">"فایل "%s" اجازه برش دادن ندارد زیرا با DRM محافظت می شود."</string>
+	<!---->
+	<string name="file_copy">"فايل کپی شد"</string>
+	<!---->
+	<string name="choice_file">"انتخاب مقصد"</string>
+	<!---->
+	<string name="alert_delete_single">"فایل انتخاب شده حذف می شود."</string>
+	<!---->
+	<string name="pasting">"جایگذاری"</string>
+	<!---->
+	<string name="readable">"قابل خواندن："</string>
+	<!---->
+	<string name="executable">"برنامه:"</string>
+	<!---->
+	<string name="writable">"قابل نوشتن："</string>
+	<!---->
+	<string name="add_favorite">"افزودن به پوشه دلخواه"</string>
+	<!---->
+	<string name="del_favorite">"حذف از پوشه دلخواه"</string>
+	<!---->
+	<string name="favourite">"افزودن به مورد علاقه ها"</string>
+	<!---->
+	<string name="viewby_details">"مشاهده بر اساس جزئیات"</string>
+	<!---->
+	<string name="view_by">"مشاهده با"</string>
+	<!---->
+	<string name="show_hide">"غيرمخفي/مخفي"</string>
+	<!---->
+	<string name="sort_by">"مرتبسازي"</string>
+	<!---->
+	<string name="more">"بیشتر"</string>
+	<!-- no translation found for used -->
+	<skip />
+	<!---->
+	<string name="category_archives">"بایگانی ها"</string>
+	<!---->
+	<string name="category_favorite">"موارد دلخواه"</string>
+	<!---->
+	<string name="category_ringtones">"آهنگ هاي زنگ"</string>
+	<!---->
+	<string name="category_recordings">"موارد ضبط شده"</string>
+	<!---->
+	<string name="category_safebox">"ص.ایمنی"</string>
+	<!---->
+	<string name="category_apks">"APK ها"</string>
+	<!---->
+	<string name="search">"جستجو"</string>
+	<!---->
+	<string name="sort_type">"ترتیب بندی بر اساس نوع"</string>
+	<!---->
+	<string name="sort_name">"مرتب سازی بر اساس نام (A-Z)"</string>
+	<!---->
+	<string name="sort_size">"مرتب سازی بر اساس اندازه (بزرگ به کوچک)"</string>
+	<!---->
+	<string name="sort_time">"مرتب سازی براساس زمان (جدید به قدیم)"</string>
+	<!---->
+	<string name="selected">"انتخاب شد"</string>
+	<!---->
+	<string name="save">"ذخیره"</string>
+	<!---->
+	<string name="category_docs">"Doc ها"</string>
+	<!---->
+	<string name="category_files">"فايل ها"</string>
+	<!---->
+	<string name="view_as_grid">"مشاهده بصورت شبکه"</string>
+	<!---->
+	<string name="view_as_list">"مشاهده مثل ليست"</string>
+	<!---->
+	<string name="detail_path">"مکان:"</string>
+	<!---->
+	<string name="detail_name">"نام:"</string>
+	<!---->
+	<string name="detail_size">"اندازه:"</string>
+	<!---->
+	<string name="detail_time">"آخرين مورد تغيير:"</string>
+	<!---->
+	<string name="empty_msg">"(پوشه خالی)"</string>
+	<!---->
+	<string name="search_files">"جستجوي فايل ها"</string>
+	<!-- no translation found for search_result_count -->
+	<skip />
+	<!---->
+	<string name="drawer_settings">"تنظیمات"</string>
+	<!---->
+	<string name="search_text_empty">"محتواي جستجو نبايد خالي باشد."</string>
+	<!---->
+	<string name="search_result_title">"جستجوی نتایج"</string>
+	<!---->
+	<string name="path_not_exists">"%1$s موجود نيست."</string>
+	<!---->
+	<string name="modify_hidden_file">"فایلی که نام آن با \'.\' آغاز نمی‌شود، مخفی نخواهند شد."</string>
+	<!---->
+	<string name="paste_fail">"قابل جایگذاری نیست"</string>
+	<!---->
+	<string name="search_empty">"محتواي جستجو نبايد خالي باشد."</string>
+	<!---->
+	<string name="search_setting_description">"پوشه ها و فايل هاي محلي"</string>
+	<!---->
+	<string name="change_mode">"انتخاب فايل يا پوشه"</string>
+	<!-- no translation found for drm_protectioninfo_title -->
+	<skip />
+	<!---->
+	<string name="draw_favourite">"مورد دلخواه"</string>
+	<!---->
+	<string name="unfavourite">"حذف از مورد علاقه ها"</string>
+	<!---->
+	<string name="drm_toast_license_expired">"مجوز DRM  منقضي شده است."</string>
+	<!-- no translation found for sdstroge -->
+	<skip />
+	<!-- no translation found for phonestorage -->
+	<skip />
+	<!-- no translation found for title_activity_main -->
+	<skip />
+	<!-- no translation found for hello_world -->
+	<skip />
+	<!-- no translation found for action_settings -->
+	<skip />
+	<!-- no translation found for unlock_video -->
+	<skip />
+	<!---->
+	<string name="readable_m">"قابل خواندن"</string>
+	<!---->
+	<string name="executable_m">"برنامه"</string>
+	<!---->
+	<string name="writable_m">"قابل نوشتن"</string>
+	<!---->
+	<string name="main_recents">"موارد اخیر"</string>
+	<!-- no translation found for main_recents_cn -->
+	<skip />
+	<!---->
+	<string name="main_installers">"نصب کننده ها"</string>
+	<!---->
+	<string name="main_document">"اسناد"</string>
+	<!---->
+	<string name="detail_path_m">"موقعیت مکانی"</string>
+	<!-- no translation found for detail_path_m_cn -->
+	<skip />
+	<!---->
+	<string name="detail_name_m">"نام"</string>
+	<!---->
+	<string name="detail_size_m">"اندازه"</string>
+	<!---->
+	<string name="detail_time_m">"آخرين مورد تغيير کرد"</string>
+	<!---->
+	<string name="main_photo">"عکس‌ها"</string>
+	<!---->
+	<string name="main_sd_storage">"مکان ذخیره SD"</string>
+	<!---->
+	<string name="main_external_storage">"حافظه خارجی"</string>
+	<!---->
+	<string name="main_home">"اصلی"</string>
+	<!-- no translation found for main_home_cn -->
+	<skip />
+	<!---->
+	<string name="main_nava_home">"اصلی"</string>
+	<!---->
+	<string name="menu_select">"انتخاب"</string>
+	<!-- no translation found for go_up -->
+	<skip />
+	<!---->
+	<string name="no_folder">"این پوشه خالی است"</string>
+	<!---->
+	<string name="no_category">"این دسته خالی است."</string>
+	<!-- no translation found for no_folder_cn -->
+	<skip />
+	<!-- no translation found for no_category_cn -->
+	<skip />
+	<!---->
+	<string name="pasted">"فايل جایگزین شد"</string>
+	<!---->
+	<string name="deleted">"فایل حذف شد"</string>
+	<!---->
+	<string name="deleted_cn">"فایل حذف شد"</string>
+	<!---->
+	<string name="view_list">"نمایش لیست"</string>
+	<!---->
+	<string name="view_grid">"نماي شبکه"</string>
+	<!---->
+	<string name="create_new_folder">"ایجاد پوشه"</string>
+	<!-- no translation found for add_folder -->
+	<skip />
+	<!---->
+	<string name="detail">"جزئیات"</string>
+	<!-- no translation found for menu_detail -->
+	<skip />
+	<!---->
+	<string name="migrate">"انتقال"</string>
+	<!---->
+	<string name="permission_welcome_title">"نیاز به مجوز است"</string>
+	<!---->
+	<string name="permission_msg">"سرویس بهتر برای شما"</string>
+	<!---->
+	<string name="permission_setting_title">"اجازه دسترسی"</string>
+	<!---->
+	<string name="permission_setting_content">"از قسمت تنظیمات برنامه دستگاه، مجوزها را تغییر دهید. به مدیر فایل اجازه دسترسی به حافظه را بدهید."</string>
+	<!---->
+	<string name="permission_exit_btn">"خروج"</string>
+	<!---->
+	<string name="dialog_close_btn">"بستن"</string>
+	<!-- no translation found for dialog_close_btn_cn -->
+	<skip />
+	<!---->
+	<string name="shortcut_item">"افزودن ميانبر"</string>
+	<!-- no translation found for shortcut_item_cn -->
+	<skip />
+	<!---->
+	<string name="shortcut_no_exist">"پوشه درخواستی وجود ندارد"</string>
+	<!-- no translation found for shortcut_success -->
+	<skip />
+	<!---->
+	<string name="no_search_result_m">"هيچ نتیجه ای برای \«%1$s\» یافت نشد"</string>
+	<!---->
+	<string name="draw_left_phone_storage_m">"تلفن"</string>
+	<!---->
+	<string name="category_audio">"صداها"</string>
+	<!---->
+	<string name="usbotg_m">"خارجی"</string>
+	<!-- no translation found for sd_m -->
+	<skip />
+	<!---->
+	<string name="freeof_m">"آزاد"</string>
+	<!---->
+	<string name="permission_settings">"تنظیمات"</string>
+	<!---->
+	<string name="safe_first_dialog_title">"دسته صندوق ایمن"</string>
+	<!---->
+	<string name="safe_first_dialog_content">"فایل هایی که به این دسته منتقل می شوند به تأیید اعتبار رمز عبور نیاز دارند. با فشار دادن "انتقال به صندوق ایمن" از منوی فایل، فایل ها را به این دسته اضافه کنید."</string>
+	<!-- no translation found for safe_first_dialog_content_cn -->
+	<skip />
+	<!---->
+	<string name="safe_storage_local">"حافظه محلی"</string>
+	<!---->
+	<string name="set_password_pass">"رمز عبور"</string>
+	<!---->
+	<string name="set_password_first">"تنظیم کردن رمز عبور: 4 تا 12 رقم"</string>
+	<!-- no translation found for input_new_password_hint -->
+	<skip />
+	<!---->
+	<string name="set_password_again">"تأیید رمز عبور"</string>
+	<!---->
+	<string name="set_password_show">"نمایش رمز عبور"</string>
+	<!---->
+	<string name="set_password_safe_question">"مشکلات امنیتی"</string>
+	<!---->
+	<string name="set_password_safe_question_answer">"پاسخ"</string>
+	<!---->
+	<string name="set_password_safe_forget_pass">"پاسخ های مشکلات امنیتی را به خاطر داشته باشید. اگر رمز عبور خود را فراموش کنید، می توانید با پاسخ به سؤال امنیتی آن را بازنشانی کنید."</string>
+	<!---->
+	<string name="choose_safe">"انتخاب صندوق ایمن"</string>
+	<!-- no translation found for choose_safe_cn -->
+	<skip />
+	<!---->
+	<string name="create_safe">"ایجاد صندوق ایمن"</string>
+	<!---->
+	<string name="create_safe_to">"ایجاد صندوق ایمن در"</string>
+	<!-- no translation found for create_safe_to_cn -->
+	<skip />
+	<!---->
+	<string name="set_password">"تنظیم رمز عبور"</string>
+	<!-- no translation found for add_file_safe -->
+	<skip />
+	<!---->
+	<string name="safe_set">"تنظیمات"</string>
+	<!---->
+	<string name="safe_set_title">"تنظیمات صندوق ایمن"</string>
+	<!-- no translation found for safe_set_title_cn -->
+	<skip />
+	<!---->
+	<string name="update_password">"به روزرسانی رمز عبور"</string>
+	<!---->
+	<string name="modify_password">"تغییر رمز عبور"</string>
+	<!---->
+	<string name="security_question">"به روزرسانی مشکلات امنيتی"</string>
+	<!-- no translation found for modify_security_question -->
+	<skip />
+	<!---->
+	<string name="safe_set_change_safe">"تغییر صندوق ایمن"</string>
+	<!---->
+	<string name="safe_set_location_safe">"محل صندوق ایمن"</string>
+	<!-- no translation found for safe_set_location_safe_cn -->
+	<skip />
+	<!---->
+	<string name="update_password_original">"وارد کردن رمز عبور اصلی"</string>
+	<!---->
+	<string name="update_password_original_cn">"وارد کردن رمز عبور اصلی"</string>
+	<!---->
+	<string name="destory_safe">"خراب کردن صندوق ایمن"</string>
+	<!-- no translation found for destory_safe_cn -->
+	<skip />
+	<!-- no translation found for destory -->
+	<skip />
+	<!---->
+	<string name="use_password">"استفاده از رمز عبور"</string>
+	<!---->
+	<string name="input_password">"وارد کردن رمز عبور"</string>
+	<!---->
+	<string name="forget_password">"فراموش کردن رمز عبور"</string>
+	<!-- no translation found for others -->
+	<skip />
+	<!---->
+	<string name="password_empty">"رمز عبور نمی تواند خالی باشد."</string>
+	<!---->
+	<string name="password_consistent">"رمزهای عبور سازگار نیستند."</string>
+	<!---->
+	<string name="password_length_error">"خطای طول رمز عبور"</string>
+	<!---->
+	<string name="answer_empty">"پاسخ نمی تواند خالی باشد."</string>
+	<!-- no translation found for safe_box_name_empty -->
+	<skip />
+	<!---->
+	<string name="update_success">"به روزرسانی شد."</string>
+	<!---->
+	<string name="update_fail">"به روزرسانی نشد"</string>
+	<!---->
+	<string name="password_mistake">"رمز عبور صحیح نیست. دوباره آن را وارد کنید."</string>
+	<!---->
+	<string name="move_safe">"انتقال به صندوق ایمن"</string>
+	<!---->
+	<string name="fingerprint_check">"اثر انگشت های مرتبط، لطفاً از حسگر اثر انگشت برای تأیید استفاده کنید."</string>
+	<!---->
+	<string name="in_use">"در حال استفاده"</string>
+	<!---->
+	<string name="created">"ايجاد شد"</string>
+	<!---->
+	<string name="choose_files">"انتخاب فایل ها"</string>
+	<!---->
+	<string name="move_out">"بیرون بردن"</string>
+	<!---->
+	<string name="remove_to">"انتقال به"</string>
+	<!---->
+	<string name="default_location">"محل پیش فرض"</string>
+	<!---->
+	<string name="specified_location">"مکان تعیین شده"</string>
+	<!-- no translation found for open_dir -->
+	<skip />
+	<!-- no translation found for default_location_cn -->
+	<skip />
+	<!-- no translation found for specified_location_cn -->
+	<skip />
+	<!-- no translation found for specified_location_content_cn -->
+	<skip />
+	<!-- no translation found for category_safe -->
+	<skip />
+	<!-- no translation found for category_safe_cn -->
+	<skip />
+	<!---->
+	<string name="add_safe_size_limited">"نمی توانید فایل های بزرگتر از 2.0 گیگابایت را اضافه کنید"</string>
+	<!-- no translation found for add_safe_drm_limited -->
+	<skip />
+	<!---->
+	<string name="fingerprint_relative_dialog">"اختصاص صندوق ايمن به اثر انگشت؟"</string>
+	<!-- no translation found for fingerprint_relative_dialog_cn -->
+	<skip />
+	<!-- no translation found for fingerprint_relative_dialog_ok -->
+	<skip />
+	<!-- no translation found for fingerprint_relative_dialog_ok_cn -->
+	<skip />
+	<!---->
+	<string name="fingerprint_relative_dialog_cancel">"بعدا"</string>
+	<!-- no translation found for fingerprint_relative_dialog_cancel_cn -->
+	<skip />
+	<!---->
+	<string name="safe_location_current">"محل صندوق ایمن:"</string>
+	<!-- no translation found for safe_location_current_cn -->
+	<skip />
+	<!---->
+	<string name="safe_location_content">"در پوشه فایل انجام ندهید تا از آسیب به داده های رمزگذاری شده اجتناب شود"</string>
+	<!-- no translation found for safe_location_content_cn -->
+	<skip />
+	<!---->
+	<string name="destory_safe_dialog_message">"فایل های موجود در صندوق ایمن و رمز عبور همگی حذف می شوند. اکنون خراب می کنید؟"</string>
+	<!---->
+	<string name="destory_safe_dialog_checkbox">"هم زمان فایل حذف شود؟"</string>
+	<!-- no translation found for destory_safe_dialog_checkbox_cn -->
+	<skip />
+	<!---->
+	<string name="open_safe_dialog">"فعال کردن صندوق ایمن"</string>
+	<!-- no translation found for open_safe_dialog_cn -->
+	<skip />
+	<!---->
+	<string name="open_safe_dialog_message">"فعال کردن صندوق ایمن، فایل ها را به صندوق ایمن انتقال می دهد. اکنون فعال شود؟"</string>
+	<!-- no translation found for open_safe_dialog_message_cn -->
+	<skip />
+	<!---->
+	<string name="open_safe_dialog_ok">"فوراً باز می شود"</string>
+	<!---->
+	<string name="category_private_string">"صندوق ایمن"</string>
+	<!---->
+	<string name="opening">"در حال باز کردن"</string>
+	<!-- no translation found for space_clear -->
+	<skip />
+	<!-- no translation found for unselected -->
+	<skip />
+	<!-- no translation found for select -->
+	<skip />
+	<!-- no translation found for finish -->
+	<skip />
+	<!---->
+	<string name="senior_title">"ارشد"</string>
+	<!-- no translation found for no_files_for_add_to_safebox -->
+	<skip />
+	<!-- no translation found for finger_print_relation -->
+	<skip />
+	<!-- no translation found for duplicate_file_name_tip -->
+	<skip />
+	<!---->
+	<string name="searchview_hint">"جستجوي فايل ها"</string>
+	<!-- no translation found for safe_box_name_tip -->
+	<skip />
+	<!-- no translation found for toast_update_safe_box_name_sucess -->
+	<skip />
+	<!-- no translation found for toast_update_safe_box_name_fail -->
+	<skip />
+	<!-- no translation found for toast_safe_box_name_empty -->
+	<skip />
+	<!-- no translation found for cut_single_fail_tip -->
+	<skip />
+	<!-- no translation found for delete_single_fail_tip -->
+	<skip />
+	<!-- no translation found for copy_single_fail_tip -->
+	<skip />
+	<!-- no translation found for copy_multi_fail_tip -->
+	<skip />
+	<!-- no translation found for delete_multi_fail_tip -->
+	<skip />
+	<!-- no translation found for cut_multi_fail_tip -->
+	<skip />
+	<!-- no translation found for copy_all_fail_tip -->
+	<skip />
+	<!-- no translation found for delete_all_fail_tip -->
+	<skip />
+	<!-- no translation found for cut_all_fail_tip -->
+	<skip />
+	<!-- no translation found for past_multi_fail_tip -->
+	<skip />
+	<!-- no translation found for past_single_fail_tip -->
+	<skip />
+	<!-- no translation found for past_all_fail_tip -->
+	<skip />
+	<!-- no translation found for chip_encryption -->
+	<skip />
+	<!---->
+	<string name="safe_name_title">"نام"</string>
+	<!---->
+	<string name="update_name">"به روزرسانی نام"</string>
+	<!-- no translation found for fingerprint_relate -->
+	<skip />
+	<!-- no translation found for insufficient_message_cn -->
+	<skip />
+	<!-- no translation found for add_success -->
+	<skip />
+	<!---->
+	<string name="pasted_cn">"فايل جایگزین شد"</string>
+	<!-- no translation found for no_search_result_cn -->
+	<skip />
+	<!---->
+	<string name="detail_time_cn">"زمان تغییر کرده"</string>
+	<!-- no translation found for rename_limit -->
+	<skip />
+	<!-- no translation found for fingerprint_fail -->
+	<skip />
+	<!-- no translation found for answer_mistake -->
+	<skip />
+	<!-- no translation found for answer_empty_tip -->
+	<skip />
+	<!-- no translation found for new_safe -->
+	<skip />
+	<!-- no translation found for dialog_confirm -->
+	<skip />
+	<!-- no translation found for move_in_success -->
+	<skip />
+	<!-- no translation found for move_in_count -->
+	<skip />
+	<!-- no translation found for message_security_fingerprint_lockout -->
+	<skip />
+	<!-- no translation found for use_password_auth -->
+	<skip />
+	<!-- no translation found for storage_details -->
+	<skip />
+	<!---->
+	<string name="total_memory">"کل حافظه"</string>
+	<!-- no translation found for system -->
+	<skip />
+	<!-- no translation found for category_fragment_title -->
+	<skip />
+	<!-- no translation found for storage -->
+	<skip />
+	<!-- no translation found for choice -->
+	<skip />
+	<!-- no translation found for view_tag_key -->
+	<skip />
+	<!-- no translation found for view_tag_key2 -->
+	<skip />
+	<!-- no translation found for finish_percent -->
+	<skip />
+	<!---->
+	<string name="select_pic">"انتخاب تصویر"</string>
+	<!---->
+	<string name="brackets_double">"(%1$s)"</string>
+	<!-- no translation found for selected_pick -->
+	<skip />
+	<!-- no translation found for most_selected -->
+	<skip />
+	<!-- no translation found for finish_ready -->
+	<skip />
+	<!-- no translation found for select_pic_data -->
+	<skip />
+	<!-- no translation found for delete_determine_selected -->
+	<skip />
+	<!-- no translation found for delete_document -->
+	<skip />
+	<!-- no translation found for delete_folder -->
+	<skip />
+	<!-- no translation found for delete_folder_and -->
+	<skip />
+	<!---->
+	<string name="deselect_all_item">"عدم انتخاب همه"</string>
+	<!-- no translation found for edit -->
+	<skip />
+	<!-- no translation found for storage_phone -->
+	<skip />
+	<!-- no translation found for storage_sdcard -->
+	<skip />
+	<!-- no translation found for storage_otg -->
+	<skip />
+	<!-- no translation found for storage_slash -->
+	<skip />
+	<!-- no translation found for welcome_security -->
+	<skip />
+	<!-- no translation found for welcome_security_info -->
+	<skip />
+	<!-- no translation found for welcome_convenient -->
+	<skip />
+	<!-- no translation found for welcome_convenient_info -->
+	<skip />
+	<!-- no translation found for welcome_depth -->
+	<skip />
+	<!-- no translation found for welcome_depth_info -->
+	<skip />
+	<!-- no translation found for welcome_add -->
+	<skip />
+	<!-- no translation found for welcome_add_info -->
+	<skip />
+	<!-- no translation found for welcome_dialog_title -->
+	<skip />
+	<!-- no translation found for welcome_dialog_info -->
+	<skip />
+	<!-- no translation found for welcome_dialog_verify_btn -->
+	<skip />
+	<!-- no translation found for welcome_dialog_verify_pwd -->
+	<skip />
+	<!-- no translation found for welcome_start_use -->
+	<skip />
+	<!-- no translation found for welcome_not_use -->
+	<skip />
+	<!---->
+	<string name="welcome_ok">"آن را دریافت کنید"</string>
+	<!-- no translation found for encrypt_files_success -->
+	<skip />
+	<!-- no translation found for delete_direct -->
+	<skip />
+	<!---->
+	<string name="delete_file">"اين فایل حذف شود؟"</string>
+</resources>

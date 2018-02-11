@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="6dp"
+    android:height="6dp"
+    android:viewportWidth="18"
+    android:viewportHeight="18">
+
+    <group
+            android:name="Phone-通话中"
+            android:translateX="-872.000000"
+            android:translateY="-890.000000">
+        <group
+                android:name="2"
+                android:translateY="-3.000000">
+            <group
+                    android:translateX="179.000000"
+                    android:translateY="834.000000">
+                <group
+                        android:name="Group-3"
+                        android:translateX="692.000000"
+                        android:translateY="56.000000">
+                    <path
+                        android:name="Rectangle-3"
+                        android:fillColor="#FFFFFF"
+                        android:fillType="evenOdd"
+                        android:strokeWidth="1"
+                        android:pathData="M3.45713561,6.21348715 C3.45713561,4.55654497 4.79345453,3.21332793
+6.45746801,3.21332793 L13.9423156,3.21332793 C16.1487725,3.21332793
+16.6777565,4.47295789 15.111132,6.03949194 L6.28346276,14.8666516
+C4.72252537,16.4274989 3.45713561,15.9028238 3.45713561,13.6979027
+L3.45713561,6.21348715 Z" />
+                </group>
+            </group>
+        </group>
+    </group>
+</vector>

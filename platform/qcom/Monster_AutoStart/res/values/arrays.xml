@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="filter_broadcast_content">
+        <item>android.intent.action.BOOT_COMPLETED</item>
+        <item>android.net.conn.CONNECTIVITY_CHANGE</item>
+        <item>android.intent.action.BATTERY_CHANGED</item>
+        <item>android.intent.action.USER_PRESENT</item>
+        <item>android.intent.action.SERVICE_STATE</item>
+        <item>android.net.wifi.WIFI_STATE_CHANGED</item>
+        <item>android.intent.action.ACTION_POWER_CONNECTED</item>
+        <item>android.intent.action.ACTION_POWER_DISCONNECTED</item>
+        <item>android.net.wifi.supplicant.STATE_CHANGE</item>
+        <item>android.intent.action.SCREEN_ON</item>
+        <item>android.intent.action.PACKAGE_ADDED</item>
+        <item>android.intent.action.PACKAGE_CHANGED</item>
+        <item>android.intent.action.BATTERY_CHANGED</item>
+        <item>android.media.AUDIO_BECOMING_NOISY</item>
+        <item>android.intent.action.MEDIA_MOUNTED</item>
+        <item>android.intent.action.PACKAGE_REMOVED</item>
+    
+　　  </string-array>
+
+    <string-array name="white_list_content">
+        <item>android.appwidget.action.APPWIDGET_UPDATE</item>
+        <item>android.appwidget.action.APPWIDGET_DELETED</item>
+        <item>android.appwidget.action.APPWIDGET_DISABLED</item>
+        <item>android.appwidget.action.APPWIDGET_ENABLED</item>
+        <item>com.iflytek.inputmethod</item>
+        <item>com.tencent.mm</item>
+        <item>jp.naver.line.andriod</item>
+        <item>com.xiaomi.channel</item>
+        <item>com.tencent.mobileqq</item>
+        <item>com.tencent.andoridqqmail</item>
+        <item>com.netease.mobimail</item>
+        <item>com.immomo.momo</item>
+        <item>com.sina.weibo</item>
+        <item>com.whatsapp</item>
+        <item>im.yixin</item>
+        <item>cn.com.fetion</item>
+        <item>com.feinno.felio</item>
+        <item>com.alibaba.android.babylon</item>
+        <item>com.alibaba.mobileim</item>
+        <item>com.sohu.inputmethod.sogou</item>
+        <item>com.baidu.input</item>
+        <item>com.google.android.inputmethod.pinyin</item>
+        <item>com.tencent.qqpinyin</item>
+        <item>com.cootek.smartinputv5</item>
+        <item>com.xinshuru.inputmethod</item>
+        <item>com.guobi.inputmethod</item>
+    </string-array>
+
+    <string-array name="black_list_content">
+        <item>android.content.SyncAdapter</item>
+        <item>baidu.intent.action.account.SHARE_SERVICE</item>
+        <item>com.baidu.android.pushservice.action</item>
+        <item>bridge_nuomi.intent</item>
+        <item>com.baidu.blink.i.intent.WAKEUP_CHECK</item>
+    </string-array>
+    
+</resources>

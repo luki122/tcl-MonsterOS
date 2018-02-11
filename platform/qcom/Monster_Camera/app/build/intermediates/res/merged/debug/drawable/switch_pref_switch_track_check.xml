@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <corners android:radius="@dimen/switch_pref_switch_track_radius" />
+    <solid android:color="@color/switch_pref_switch_track_check" />
+    <size android:height="@dimen/switch_pref_switch_track_height" />
+</shape>

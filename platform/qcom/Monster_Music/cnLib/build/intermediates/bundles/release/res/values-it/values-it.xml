@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cannot_specify_an_empty_name_for_playlist">"Il campo nome della playlist non può essere vuoto"</string>
+    <string name="cross_dj_saturated_storage_not_enough_free_space_to_record_your_mix">"Spazio insufficiente per la registrazione del mix."</string>
+    <string name="cross_dj_saturated_storage_your_recording_might_stop_soon_because_no_more_free_space_is_available">"La registrazione potrebbe interrompersi a breve poiché lo spazio in memoria è insufficiente."</string>
+    <string name="invalid_drm_file">"Il file non dispone di un\'autorizzazione DRM valida."</string>
+    <string name="mobiledata_turnoff_btn">"Disattiva"</string>
+    <string name="never_show_it_again">"Non mostrare di nuovo"</string>
+    <string name="no_error">"Nessun errore"</string>
+    <string name="recording_reached_max_duration">"La registrazione ha raggiunto la durata massima. Controllare le proprie preferenze."</string>
+    <string name="recording_soon_to_reach_max_duration">"La registrazione raggiungerà presto la durata massima. Controllare le proprie preferenze."</string>
+    <string name="scratching_is_disabled_in_no_mix_mode">"È possibile utilizzare l\'effetto graffiato solo in modalità DJ."</string>
+    <string name="sign_up">"Accedi"</string>
+    <string name="the_external_memory_storage_is_not_mounted">"La memoria di archiviazione esterna non è installata. Potrebbe essere necessario disattivare l\'archiviazione nella memoria USB."</string>
+    <string name="there_s_not_enough_space_in_your_internal_storage_try_to_do_some_clean_up">"Spazio insufficiente nella memoria interna. Provare a liberare dello spazio."</string>
+</resources>

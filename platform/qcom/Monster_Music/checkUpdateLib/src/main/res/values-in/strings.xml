@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    	<string name="tip_network_error">Kesalahan jaringan</string>
+    	<string name="check_new">Periksa pembaruan</string>
+    	<string name="update_download_fail">Gagal mengunduh</string>
+    	<string name="update_ask_tip">Anda perlu memperbarui ke versi terbaru</string>
+    	<string name="update_no_need">Ini adalah versi terbaru</string>
+    	<string name="downloaded_finish">Selesai mengunduh</string>
+    	<string name="notification_downloading">Mengunduh</string>
+    	<string name="update_notification_tips">Untuk pengalaman terbaik, perbarui ke versi terbaru.</string>
+    	<string name="update_notification_title">Perbarui pemberitahuan</string>
+    	<string name="update">Sekarang</string>
+    	<string name="try_later">Nanti</string>
+    	<string name="versionDesc">Informasi Versi:</string>
+    	
+    	<string name="update_available">Tersedia Pembaruan</string>
+    	<string name="downloading">Mengunduh...</string>
+    	<string name="update_notify_tip">Tersedia versi baru. Perbarui sekarang?</string>
+    	<string name="update_detail_prefix">Perincian pmbaruan:</string>
+    	<string name="update_not_now">Tidak sekarang</string>
+    	<string name="update_now">Perbarui</string>
+    	<string name="network_error_tip">Kesalahan .jaringan. Silakan periksa koneksi jaringan Anda dan coba lagi.</string>
+    	<string name="update_force_nofity_tip">Rekomendasikan pembaruan Anda untuk aplikasi ke versi terbaru.</string>
+    	<string name="update_no_updates">Tidak ada pembaruan</string>
+    	<string name="update_no_updates_tip">Tidak ada pembaruan</string>
+    	<string name="update_confirm">OK</string>
+</resources>

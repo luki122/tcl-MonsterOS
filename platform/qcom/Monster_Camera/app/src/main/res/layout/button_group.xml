@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<com.android.camera.widget.ButtonGroup
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/settings_dialog_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:visibility="gone"
+    android:background="@color/button_group_background">
+
+</com.android.camera.widget.ButtonGroup>

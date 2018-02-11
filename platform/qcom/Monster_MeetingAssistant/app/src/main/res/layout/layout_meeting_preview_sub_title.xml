@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="15dp"
+    android:paddingTop="@dimen/layout_common_23dp"
+    android:orientation="vertical"
+    android:background="@color/card_color">
+    <TextView
+        android:fontFamily="monster-normal"
+        android:id="@+id/meeting_preview_sub_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:textSize="@dimen/font_size_16sp"
+        android:textColor="@color/black_86opacity"
+         />
+</LinearLayout>

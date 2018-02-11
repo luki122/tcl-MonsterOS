@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!-- no translation found for pref_header_data_sync -->
+	<skip />
+	<!---->
+	<string name="pref_title_sync_frequency">"Частота синхронизации"</string>
+	<string-array name="pref_sync_frequency_titles">
+		<item>"за 15 минут"</item>
+		<item>"30 минут"</item>
+		<item>"1 час"</item>
+		<item>"за 3 часа"</item>
+		<item>"6 часов"</item>
+		<item>"Никогда"</item>
+	</string-array>
+	<!-- no translation found for pref_sync_frequency_values -->
+	<skip />
+	<!---->
+	<string name="pref_title_system_sync_settings">"Настройки синхронизации системы"</string>
+	<!-- no translation found for pref_auto_update_values -->
+	<skip />
+	<!-- no translation found for pref_temp_unit_values -->
+	<skip />
+	<!-- no translation found for pref_distance_unit_values -->
+	<skip />
+</resources>

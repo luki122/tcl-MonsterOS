@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp" >
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/list_divider"/>
+    <Button 
+        android:id="@+id/new_item_btn"
+        android:layout_height="38dp"
+        android:layout_width="wrap_content"
+        android:layout_marginStart="14dp"
+        android:text="@string/new_song_list"
+        android:background="?attr/selectableItemBackground"
+        android:textColor="@color/base_title_unselect_color"
+        android:drawableStart="@drawable/picto_new_item"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="14sp"
+        android:drawablePadding="4dp"
+        android:paddingRight="4dp"
+        android:layout_marginTop="1dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/list_divider"
+        android:layout_marginTop="38dp"/>
+
+</FrameLayout>

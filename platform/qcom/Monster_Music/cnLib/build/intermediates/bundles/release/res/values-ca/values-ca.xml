@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cannot_specify_an_empty_name_for_playlist">"El nom de la llista de reproducció no pot estar buit."</string>
+    <string name="cross_dj_saturated_storage_not_enough_free_space_to_record_your_mix">"No hi ha prou espai per gravar la vostra mescla."</string>
+    <string name="cross_dj_saturated_storage_your_recording_might_stop_soon_because_no_more_free_space_is_available">"És possible que la gravació s\'aturi aviat, ja que no queda espai disponible."</string>
+    <string name="invalid_drm_file">"El fitxer no té una autoritat DRM vàlida."</string>
+    <string name="mobiledata_turnoff_btn">"Inhabil."</string>
+    <string name="never_show_it_again">"No tornar a mostrar"</string>
+    <string name="no_error">"Cap error"</string>
+    <string name="recording_reached_max_duration">"La gravació ha assolit la durada màxima permesa. Comproveu les vostres preferències."</string>
+    <string name="recording_soon_to_reach_max_duration">"La gravació assolirà aviat la durada màxima permesa. Comproveu les vostres preferències."</string>
+    <string name="scratching_is_disabled_in_no_mix_mode">"Només podeu fer scratch en el mode DJ."</string>
+    <string name="sign_up">"Registrar-se"</string>
+    <string name="the_external_memory_storage_is_not_mounted">"L\'emmagatzematge de memòria externa no està connectat. És possible que hagueu de desactivar l\'emmagatzematge de memòria USB."</string>
+    <string name="there_s_not_enough_space_in_your_internal_storage_try_to_do_some_clean_up">"No hi ha prou espai a l\'emmagatzematge intern (proveu d\'alliberar-ne)."</string>
+</resources>

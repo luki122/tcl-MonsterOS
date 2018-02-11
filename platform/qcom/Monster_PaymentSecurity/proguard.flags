@@ -1,0 +1,35 @@
+-dontskipnonpubliclibraryclasses
+
+-keepclasseswithmembernames class * {
+    native <methods>;
+}
+-keep public class com.tencent.** {
+    <fields>;
+    <methods>;
+}
+-keep public class com.qq.** {
+    <fields>;
+    <methods>;
+}
+-keep public class tmsdk.** {
+    <fields>;
+    <methods>;
+}
+-keep public class tmsdkobf.** {
+    <fields>;
+    <methods>;
+}
+
+-keepclasseswithmembernames class *{
+    public <init>(android.context.Context, android.util.AttributeSet);
+}
+
+-keepclasseswithmembernames class *{
+    public <init>(android.context.Context, android.util.AttributeSet, int);
+}
+
+-keep class tmsdk.common.tcc.TccCryptor { *;}
+
+-keepattributes *Annotation*
+-keepattributes Signature
+

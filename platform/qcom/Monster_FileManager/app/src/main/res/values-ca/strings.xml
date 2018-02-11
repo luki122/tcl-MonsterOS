@@ -1,0 +1,814 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="sort">"Ordenar"</string>
+	<!---->
+	<string name="sort_by_name">"Nom"</string>
+	<!---->
+	<string name="sort_by_date">"Data de modificació"</string>
+	<!---->
+	<string name="sort_by_time">"Data"</string>
+	<!---->
+	<string name="sort_by_type">"Tipus"</string>
+	<!---->
+	<string name="sort_by_size">"Mida"</string>
+	<!---->
+	<string name="copy">"Copiar"</string>
+	<!---->
+	<string name="create_folder">"Crear"</string>
+	<!---->
+	<string name="cut">"Tallar"</string>
+	<!---->
+	<string name="delete">"Esborrar"</string>
+	<!---->
+	<string name="delete_confirm">"Confirmació de supressió"</string>
+	<!---->
+	<string name="deselect_all">"Anul·lar selecció de tot"</string>
+	<!---->
+	<string name="select_all">"Seleccionar-ho tot"</string>
+	<!---->
+	<string name="show_file">"Mostrar els fitxers ocults"</string>
+	<!---->
+	<string name="hide_file">"Amagar els fitxers ocults"</string>
+	<!---->
+	<string name="paste">"Enganxar"</string>
+	<!---->
+	<string name="rename">"Canviar nom"</string>
+	<!---->
+	<string name="share">"Compartir"</string>
+	<!---->
+	<string name="viewby_list">"Veure per llista"</string>
+	<!---->
+	<string name="viewby_grid">"Visualització de quadrícula"</string>
+	<!---->
+	<string name="alert_delete_message">"Supr."</string>
+	<!---->
+	<string name="multi_alert_delete_message">"Eliminar elements seleccionats?"</string>
+	<!---->
+	<string name="multi_alert_delete_message_cn">"Eliminar elements seleccionats?"</string>
+	<!-- no translation found for delete_folder_message -->
+	<skip />
+	<!---->
+	<string name="category_pictures">"Fotos"</string>
+	<!---->
+	<string name="category_vedios">"Vídeos"</string>
+	<!---->
+	<string name="category_music">"Música"</string>
+	<!---->
+	<string name="category_download">"Baixades"</string>
+	<!---->
+	<string name="category_bluetooth">"Bluetooth"</string>
+	<!-- no translation found for app_name -->
+	<skip />
+	<!-- no translation found for theme_name -->
+	<skip />
+	<!---->
+	<string name="apk_name">"Fitxers"</string>
+	<!---->
+	<string name="new_folder">"Carpeta nova"</string>
+	<!---->
+	<string name="confirm_rename">"Confirmar el nom"</string>
+	<!---->
+	<string name="warning">"Nombre màxim de fitxers"</string>
+	<!---->
+	<string name="share_warning">"No podeu compartir més de 100 fitxers."</string>
+	<!---->
+	<string name="loading">"Carregant..."</string>
+	<!---->
+	<string name="deleting">"Eliminant"</string>
+	<!---->
+	<string name="alert_delete_multiple">"Els fitxers seleccionats s\'esborraran."</string>
+	<!---->
+	<string name="name">"Nom"</string>
+	<!---->
+	<string name="size">"Mida"</string>
+	<!---->
+	<string name="modified_time">"S\'ha modificat"</string>
+	<!---->
+	<string name="msg_rename_ext">"Es canviarà l\'extensió del fitxer. És possible que no es pugui reconèixer el fitxer. Voleu continuar?"</string>
+	<!---->
+	<string name="wait">"Espereu..."</string>
+	<!---->
+	<string name="done">"Fet"</string>
+	<!-- no translation found for enable -->
+	<skip />
+	<!-- no translation found for enable_cn -->
+	<skip />
+	<!---->
+	<string name="cancel">"Anul·lar"</string>
+	<!---->
+	<string name="no">"No"</string>
+	<!---->
+	<string name="ok">"ACCEPTAR"</string>
+	<!---->
+	<string name="yes">"Sí"</string>
+	<!---->
+	<string name="details">"Editar esdeveniment"</string>
+	<!---->
+	<string name="drawer_open">"Obrir"</string>
+	<!---->
+	<string name="unknown">"Desconegut"</string>
+	<!-- no translation found for unit_B -->
+	<skip />
+	<!-- no translation found for unit_KB -->
+	<skip />
+	<!-- no translation found for unit_MB -->
+	<skip />
+	<!-- no translation found for unit_GB -->
+	<skip />
+	<!-- no translation found for unit_TB -->
+	<skip />
+	<!---->
+	<string name="send_file">"Compartir fitxers mitjançant"</string>
+	<!---->
+	<string name="default_search_text">"Buscar als fitxers"</string>
+	<!---->
+	<string name="free_space">"Disponible"</string>
+	<!---->
+	<string name="total_space">"Espai total"</string>
+	<!---->
+	<string name="drawer_category">"Categories"</string>
+	<!---->
+	<string name="phone_storage">"Emmagatzematge del telèfon"</string>
+	<!---->
+	<string name="phone_storage_cn">"Emmagatzematge del telèfon"</string>
+	<!---->
+	<string name="sd_card">"Targeta SD"</string>
+	<!---->
+	<string name="draw_left_phone_storage">"Emmagatzematge del telèfon"</string>
+	<!---->
+	<string name="draw_left_sd_card">"Targeta SD"</string>
+	<!-- no translation found for menu_settings -->
+	<skip />
+	<!---->
+	<string name="no_search_result">"0 resultats per a \"%1$s\""</string>
+	<!---->
+	<string name="copy_deny">"No teniu permís per copiar"</string>
+	<!---->
+	<string name="cut_deny">"No teniu permís per retallar"</string>
+	<!---->
+	<string name="delete_deny">"No teniu permís per eliminar"</string>
+	<!---->
+	<string name="insufficient_memory">"No hi ha prou espai."</string>
+	<!---->
+	<string name="insufficient_message">"No s\'han pogut copiar alguns fitxers perquè no hi ha prou espai."</string>
+	<!---->
+	<string name="invalid_empty_name">"El nom del fitxer o la carpeta no pot estar buit"</string>
+	<!---->
+	<string name="paste_same_folder">"No s\'ha pogut copiar: la carpeta d\'origen i de destí és la mateixa."</string>
+	<!---->
+	<string name="invalid_char_prompt">"Heu introduït un caràcter no vàlid"</string>
+	<!---->
+	<string name="msg_unable_open_file">"No s\'admet el format del fitxer."</string>
+	<!---->
+	<string name="paste_sub_folder">"o es pot enganxar a la mateixa subcarpeta"</string>
+	<!---->
+	<string name="operation_fail">"Error en alguna operació del fitxer."</string>
+	<!---->
+	<string name="search_result">"%2$d resultats per a \"%1$s\""</string>
+	<!---->
+	<string name="already_exists">"%1$s ja s\'està utilitzant"</string>
+	<!---->
+	<string name="unmounted">"%1$s s\'ha desconnectat"</string>
+	<!---->
+	<string name="create_hidden_file">"El fitxer s\'ocultarà si el seu nom comença per \'.\'"</string>
+	<!---->
+	<string name="file_name_too_long">"El nom introduït és massa llarg."</string>
+	<!---->
+	<string name="some_paste_fail">"Les operacions d\'enganxar no s\'han pogut realitzar."</string>
+	<!---->
+	<string name="delete_fail">"No s\'ha pogut esborrar."</string>
+	<!---->
+	<string name="some_delete_fail">"Algunes operacions d\'eliminació no s\'han pogut realitzar."</string>
+	<!---->
+	<string name="msg_unable_open_file_in_app">"No hi ha cap aplicació per obrir el fitxer."</string>
+	<!---->
+	<string name="drm_forwardforbidden_title">"No reenviat"</string>
+	<!---->
+	<string name="drm_forwardforbidden_message">"El fitxer DRM no es pot reenviar."</string>
+	<!---->
+	<string name="drm_no_valid_right">"El fitxer no té una autoritat DRM vàlida."</string>
+	<!---->
+	<string name="drm_current_count">"Recompte actual:"</string>
+	<!---->
+	<string name="unlimited_usage">"Ús il·limitat"</string>
+	<!---->
+	<string name="drm_current_right">"Restricció actual："</string>
+	<!---->
+	<string name="not_available">"No disponible"</string>
+	<!---->
+	<string name="right_url">"URL distribuïdora de llicències:"</string>
+	<!---->
+	<string name="use_times">"Utilitzar %s vegades:"</string>
+	<!---->
+	<string name="valid_after">"Vàlid a partir de"</string>
+	<!---->
+	<string name="valid_until">"Vàlid fins"</string>
+	<!---->
+	<string name="drm_wifidisplay_title">"Fitxers protegits contra còpia"</string>
+	<!---->
+	<string name="drm_wifidisplay_message">"El fitxer protegit contra còpia no es pot distribuir."</string>
+	<!---->
+	<string name="drm_wifidisplay_cancel_btn">"Desactivar Wi-Fi Display"</string>
+	<!---->
+	<string name="drm_wifidisplay_ok">"ACCEPTAR"</string>
+	<!---->
+	<string name="tv_link_close_toast">"Wi-Fi Display s\'ha tancat."</string>
+	<!---->
+	<string name="usbotg">"Emmagatzematge USB extern"</string>
+	<!---->
+	<string name="show">"Mostrar els fitxers del sistema"</string>
+	<!---->
+	<string name="hide">"Amagar els fitxers del sistema"</string>
+	<!---->
+	<string name="action_menu_create_folder_button">"Carpeta nova"</string>
+	<!---->
+	<string name="searchResult">"Resultats de la cerca"</string>
+	<!---->
+	<string name="default_folder_name">"Nom carpeta"</string>
+	<!---->
+	<string name="drm_protection_status">"Estat de protecció:"</string>
+	<!---->
+	<string name="drm_can_forward">"Es pot reenviar."</string>
+	<!---->
+	<string name="drm_can_not_forward">"No es pot reenviar."</string>
+	<!---->
+	<string name="drm_no_license">"No hi ha cap llicència de DRM disponible."</string>
+	<!---->
+	<string name="drm_interval">"Vàlid durant %s després del primer ús"</string>
+	<!---->
+	<string name="drm_begin">"Començar:"</string>
+	<!---->
+	<string name="drm_no_limitation">"Sense limitacions"</string>
+	<!---->
+	<string name="drm_end">"Finalitzar:"</string>
+	<!---->
+	<string name="drm_use_left">"En queden:"</string>
+	<!---->
+	<string name="drm_no_crop">"El fitxer "%s" no pot tallar-se, ja que el fitxer DRM està protegit."</string>
+	<!---->
+	<string name="file_copy">"Fitxer copiat"</string>
+	<!---->
+	<string name="choice_file">"Trieu un destí."</string>
+	<!---->
+	<string name="alert_delete_single">"Els fitxer seleccionats s\'esborraran."</string>
+	<!---->
+	<string name="pasting">"Enganxant"</string>
+	<!---->
+	<string name="readable">"Llegible："</string>
+	<!---->
+	<string name="executable">"Aplicació:"</string>
+	<!---->
+	<string name="writable">"Gravable："</string>
+	<!---->
+	<string name="add_favorite">"Afegir a la carpeta de preferits"</string>
+	<!---->
+	<string name="del_favorite">"Eliminar de la carpeta de preferits"</string>
+	<!---->
+	<string name="favourite">"Afegir a Adreces d\'interès"</string>
+	<!---->
+	<string name="viewby_details">"Visualització dels detalls"</string>
+	<!---->
+	<string name="view_by">"Veure"</string>
+	<!---->
+	<string name="show_hide">"Mostrar\\Ocultar"</string>
+	<!---->
+	<string name="sort_by">"Ordenar per"</string>
+	<!---->
+	<string name="more">"Més"</string>
+	<!-- no translation found for used -->
+	<skip />
+	<!---->
+	<string name="category_archives">"Arxius"</string>
+	<!---->
+	<string name="category_favorite">"Preferits"</string>
+	<!---->
+	<string name="category_ringtones">"Tons de trucada"</string>
+	<!---->
+	<string name="category_recordings">"Gravacions"</string>
+	<!---->
+	<string name="category_safebox">"Caixa de seguretat"</string>
+	<!---->
+	<string name="category_apks">"Fitxers APK"</string>
+	<!---->
+	<string name="search">"Cercar"</string>
+	<!---->
+	<string name="sort_type">"Ordenar per tipus"</string>
+	<!---->
+	<string name="sort_name">"Ordenar per nom (A-Z)"</string>
+	<!---->
+	<string name="sort_size">"Ordenar per mida"</string>
+	<!---->
+	<string name="sort_time">"Ordenar per hora"</string>
+	<!---->
+	<string name="selected">"seleccionat"</string>
+	<!---->
+	<string name="save">"Desar"</string>
+	<!---->
+	<string name="category_docs">"Documents"</string>
+	<!---->
+	<string name="category_files">"Fitxers"</string>
+	<!---->
+	<string name="view_as_grid">"Visualització de quadrícula"</string>
+	<!---->
+	<string name="view_as_list">"Visualització de llista"</string>
+	<!---->
+	<string name="detail_path">"Ubicació:"</string>
+	<!---->
+	<string name="detail_name">"Nom:"</string>
+	<!---->
+	<string name="detail_size">"Mida:"</string>
+	<!---->
+	<string name="detail_time">"Darrera modificació:"</string>
+	<!---->
+	<string name="empty_msg">"(Carpeta buida)"</string>
+	<!---->
+	<string name="search_files">"Buscar als fitxers"</string>
+	<!-- no translation found for search_result_count -->
+	<skip />
+	<!---->
+	<string name="drawer_settings">"Paràmetres"</string>
+	<!---->
+	<string name="search_text_empty">"El contingut de la cerca no pot estar buit."</string>
+	<!---->
+	<string name="search_result_title">"Resultats de la cerca"</string>
+	<!---->
+	<string name="path_not_exists">"%1$s no existeix."</string>
+	<!---->
+	<string name="modify_hidden_file">"El fitxer no s\'ocultarà si el seu nom comença per \'.\'."</string>
+	<!---->
+	<string name="paste_fail">"No s\'ha pogut enganxar."</string>
+	<!---->
+	<string name="search_empty">"El contingut de la cerca no pot estar buit."</string>
+	<!---->
+	<string name="search_setting_description">"Fitxers i carpetes locals"</string>
+	<!---->
+	<string name="change_mode">"Seleccioneu la carpeta o el fitxer"</string>
+	<!-- no translation found for drm_protectioninfo_title -->
+	<skip />
+	<!---->
+	<string name="draw_favourite">"preferit"</string>
+	<!---->
+	<string name="unfavourite">"Esborrar d\'Adreces d\'interès"</string>
+	<!---->
+	<string name="drm_toast_license_expired">"La llicència de DRM ha caducat."</string>
+	<!-- no translation found for sdstroge -->
+	<skip />
+	<!-- no translation found for phonestorage -->
+	<skip />
+	<!-- no translation found for title_activity_main -->
+	<skip />
+	<!-- no translation found for hello_world -->
+	<skip />
+	<!-- no translation found for action_settings -->
+	<skip />
+	<!-- no translation found for unlock_video -->
+	<skip />
+	<!---->
+	<string name="readable_m">"Llegible"</string>
+	<!---->
+	<string name="executable_m">"Aplicació"</string>
+	<!---->
+	<string name="writable_m">"Gravable"</string>
+	<!---->
+	<string name="main_recents">"Recents"</string>
+	<!-- no translation found for main_recents_cn -->
+	<skip />
+	<!---->
+	<string name="main_installers">"Instal·ladors"</string>
+	<!---->
+	<string name="main_document">"Documents"</string>
+	<!---->
+	<string name="detail_path_m">"Ubicació"</string>
+	<!-- no translation found for detail_path_m_cn -->
+	<skip />
+	<!---->
+	<string name="detail_name_m">"Nom"</string>
+	<!---->
+	<string name="detail_size_m">"Mida"</string>
+	<!---->
+	<string name="detail_time_m">"Darrera modificació"</string>
+	<!---->
+	<string name="main_photo">"Fotos"</string>
+	<!---->
+	<string name="main_sd_storage">"Emmagatzematge SD"</string>
+	<!---->
+	<string name="main_external_storage">"Emmagatzematge extern"</string>
+	<!---->
+	<string name="main_home">"Pàgina inicial"</string>
+	<!-- no translation found for main_home_cn -->
+	<skip />
+	<!---->
+	<string name="main_nava_home">"Pàgina inicial"</string>
+	<!---->
+	<string name="menu_select">"Seleccionar"</string>
+	<!-- no translation found for go_up -->
+	<skip />
+	<!---->
+	<string name="no_folder">"Aquesta carpeta és buida."</string>
+	<!---->
+	<string name="no_category">"Aquesta categoria és buida."</string>
+	<!-- no translation found for no_folder_cn -->
+	<skip />
+	<!-- no translation found for no_category_cn -->
+	<skip />
+	<!---->
+	<string name="pasted">"Fitxer enganxat"</string>
+	<!---->
+	<string name="deleted">"Fitxer suprimit"</string>
+	<!---->
+	<string name="deleted_cn">"Fitxer suprimit"</string>
+	<!---->
+	<string name="view_list">"Mostrar llista"</string>
+	<!---->
+	<string name="view_grid">"Visualització de quadrícula"</string>
+	<!---->
+	<string name="create_new_folder">"Carpeta nova"</string>
+	<!-- no translation found for add_folder -->
+	<skip />
+	<!---->
+	<string name="detail">"Detalls"</string>
+	<!-- no translation found for menu_detail -->
+	<skip />
+	<!---->
+	<string name="migrate">"Migrar"</string>
+	<!---->
+	<string name="permission_welcome_title">"Permís necessari"</string>
+	<!---->
+	<string name="permission_msg">"Un millor servei"</string>
+	<!---->
+	<string name="permission_setting_title">"Concedir accés"</string>
+	<!---->
+	<string name="permission_setting_content">"Canvieu els permisos als paràmetres de l\'aplicació, al dispositiu. Permeteu que el Gestor de fitxers accedeixi a l\'emmagatzematge."</string>
+	<!---->
+	<string name="permission_exit_btn">"Sortir"</string>
+	<!---->
+	<string name="dialog_close_btn">"Tancar"</string>
+	<!-- no translation found for dialog_close_btn_cn -->
+	<skip />
+	<!---->
+	<string name="shortcut_item">"Afegir drecera"</string>
+	<!-- no translation found for shortcut_item_cn -->
+	<skip />
+	<!---->
+	<string name="shortcut_no_exist">"La carpeta sol·licitada no existeix."</string>
+	<!-- no translation found for shortcut_success -->
+	<skip />
+	<!---->
+	<string name="no_search_result_m">"No s\'ha trobat cap resultat per a \"%1$s\"."</string>
+	<!---->
+	<string name="draw_left_phone_storage_m">"Telèfon"</string>
+	<!---->
+	<string name="category_audio">"Àudio"</string>
+	<!---->
+	<string name="usbotg_m">"Extern"</string>
+	<!-- no translation found for sd_m -->
+	<skip />
+	<!---->
+	<string name="freeof_m">"Lliure"</string>
+	<!---->
+	<string name="permission_settings">"Paràmetres"</string>
+	<!---->
+	<string name="safe_first_dialog_title">"Categoria de la caixa forta"</string>
+	<!---->
+	<string name="safe_first_dialog_content">"Els fitxers que s\'han mogut a aquesta categoria requereixen autenticació amb contrasenya. Afegiu fitxers a aquesta categoria prement "Mou a la caixa forta" al menú del fitxer."</string>
+	<!-- no translation found for safe_first_dialog_content_cn -->
+	<skip />
+	<!---->
+	<string name="safe_storage_local">"Emmagatzematge local"</string>
+	<!---->
+	<string name="set_password_pass">"Contrasenya"</string>
+	<!---->
+	<string name="set_password_first">"Definiu la contrasenya: de 4 a 12 dígits"</string>
+	<!-- no translation found for input_new_password_hint -->
+	<skip />
+	<!---->
+	<string name="set_password_again">"Confirmeu la contrasenya"</string>
+	<!---->
+	<string name="set_password_show">"Mostrar la contrasenya"</string>
+	<!---->
+	<string name="set_password_safe_question">"Motius de seguretat"</string>
+	<!---->
+	<string name="set_password_safe_question_answer">"Respondre"</string>
+	<!---->
+	<string name="set_password_safe_forget_pass">"Recordeu les respostes de les preguntes de seguretat. Si oblideu la contrasenya, podeu restablir-la responent la pregunta de seguretat."</string>
+	<!---->
+	<string name="choose_safe">"Triar la caixa forta"</string>
+	<!-- no translation found for choose_safe_cn -->
+	<skip />
+	<!---->
+	<string name="create_safe">"Crear la caixa forta"</string>
+	<!---->
+	<string name="create_safe_to">"Crear la caixa forta a"</string>
+	<!-- no translation found for create_safe_to_cn -->
+	<skip />
+	<!---->
+	<string name="set_password">"Definir la contrasenya"</string>
+	<!-- no translation found for add_file_safe -->
+	<skip />
+	<!---->
+	<string name="safe_set">"Paràmetres"</string>
+	<!---->
+	<string name="safe_set_title">"Paràmetres de la caixa forta"</string>
+	<!-- no translation found for safe_set_title_cn -->
+	<skip />
+	<!---->
+	<string name="update_password">"Actualitzar la contrasenya"</string>
+	<!---->
+	<string name="modify_password">"Modificar la contrasenya"</string>
+	<!---->
+	<string name="security_question">"Actualitzar la pregunta de seguretat"</string>
+	<!-- no translation found for modify_security_question -->
+	<skip />
+	<!---->
+	<string name="safe_set_change_safe">"Canviar la caixa forta"</string>
+	<!---->
+	<string name="safe_set_location_safe">"Ubicació de la caixa forta"</string>
+	<!-- no translation found for safe_set_location_safe_cn -->
+	<skip />
+	<!---->
+	<string name="update_password_original">"Introduïu la contrasenya original"</string>
+	<!---->
+	<string name="update_password_original_cn">"Introduïu la contrasenya original"</string>
+	<!---->
+	<string name="destory_safe">"Destrueix la caixa forta"</string>
+	<!-- no translation found for destory_safe_cn -->
+	<skip />
+	<!-- no translation found for destory -->
+	<skip />
+	<!---->
+	<string name="use_password">"Utilitzar contrasenya"</string>
+	<!---->
+	<string name="input_password">"Introduïu la contrasenya."</string>
+	<!---->
+	<string name="forget_password">"Heu oblidat la contrasenya?"</string>
+	<!-- no translation found for others -->
+	<skip />
+	<!---->
+	<string name="password_empty">"La contrasenya no pot estar buida."</string>
+	<!---->
+	<string name="password_consistent">"Les contrasenyes no coincideixen."</string>
+	<!---->
+	<string name="password_length_error">"Error de longitud de la contrasenya"</string>
+	<!---->
+	<string name="answer_empty">"La resposta no pot estar buida."</string>
+	<!-- no translation found for safe_box_name_empty -->
+	<skip />
+	<!---->
+	<string name="update_success">"S\'ha actualitzat correctament."</string>
+	<!---->
+	<string name="update_fail">"Error en actualitzar"</string>
+	<!---->
+	<string name="password_mistake">"La contrasenya no és correcta. Torneu a introduir-la."</string>
+	<!---->
+	<string name="move_safe">"Mou a la caixa forta"</string>
+	<!---->
+	<string name="fingerprint_check">"Empremtes enllaçades; utilitzeu el sensor d\'empremtes per fer la verificació."</string>
+	<!---->
+	<string name="in_use">"En ús"</string>
+	<!---->
+	<string name="created">"Data de creació"</string>
+	<!---->
+	<string name="choose_files">"Seleccionar fitxers"</string>
+	<!---->
+	<string name="move_out">"Sortir"</string>
+	<!---->
+	<string name="remove_to">"Moure a"</string>
+	<!---->
+	<string name="default_location">"Ubicació predeterminada"</string>
+	<!---->
+	<string name="specified_location">"Ubicació especificada"</string>
+	<!-- no translation found for open_dir -->
+	<skip />
+	<!-- no translation found for default_location_cn -->
+	<skip />
+	<!-- no translation found for specified_location_cn -->
+	<skip />
+	<!-- no translation found for specified_location_content_cn -->
+	<skip />
+	<!-- no translation found for category_safe -->
+	<skip />
+	<!-- no translation found for category_safe_cn -->
+	<skip />
+	<!---->
+	<string name="add_safe_size_limited">"No es poden afegir fitxers de més de 2,0 GB."</string>
+	<!-- no translation found for add_safe_drm_limited -->
+	<skip />
+	<!---->
+	<string name="fingerprint_relative_dialog">"Voleu associar la caixa forta a l\'empremta digital?"</string>
+	<!-- no translation found for fingerprint_relative_dialog_cn -->
+	<skip />
+	<!-- no translation found for fingerprint_relative_dialog_ok -->
+	<skip />
+	<!-- no translation found for fingerprint_relative_dialog_ok_cn -->
+	<skip />
+	<!---->
+	<string name="fingerprint_relative_dialog_cancel">"Més tard"</string>
+	<!-- no translation found for fingerprint_relative_dialog_cancel_cn -->
+	<skip />
+	<!---->
+	<string name="safe_location_current">"Ubicació de la caixa forta:"</string>
+	<!-- no translation found for safe_location_current_cn -->
+	<skip />
+	<!---->
+	<string name="safe_location_content">"No opereu a la carpeta de fitxers per no malmetre les dades encriptades."</string>
+	<!-- no translation found for safe_location_content_cn -->
+	<skip />
+	<!---->
+	<string name="destory_safe_dialog_message">"Se suprimiran els fitxers de la caixa forta i la contrasenya. Els voleu destruir ara?"</string>
+	<!---->
+	<string name="destory_safe_dialog_checkbox">"Voleu suprimir el fitxer alhora?"</string>
+	<!-- no translation found for destory_safe_dialog_checkbox_cn -->
+	<skip />
+	<!---->
+	<string name="open_safe_dialog">"Activar la caixa forta"</string>
+	<!-- no translation found for open_safe_dialog_cn -->
+	<skip />
+	<!---->
+	<string name="open_safe_dialog_message">"Activar la caixa forta mourà els fitxers a la caixa forta. Voleu activar-la ara?"</string>
+	<!-- no translation found for open_safe_dialog_message_cn -->
+	<skip />
+	<!---->
+	<string name="open_safe_dialog_ok">"Obrir immediatament"</string>
+	<!---->
+	<string name="category_private_string">"Caixa forta"</string>
+	<!---->
+	<string name="opening">"S\'està obrint…"</string>
+	<!-- no translation found for space_clear -->
+	<skip />
+	<!-- no translation found for unselected -->
+	<skip />
+	<!-- no translation found for select -->
+	<skip />
+	<!-- no translation found for finish -->
+	<skip />
+	<!---->
+	<string name="senior_title">"Sènior"</string>
+	<!-- no translation found for no_files_for_add_to_safebox -->
+	<skip />
+	<!-- no translation found for finger_print_relation -->
+	<skip />
+	<!-- no translation found for duplicate_file_name_tip -->
+	<skip />
+	<!---->
+	<string name="searchview_hint">"Buscar als fitxers"</string>
+	<!-- no translation found for safe_box_name_tip -->
+	<skip />
+	<!-- no translation found for toast_update_safe_box_name_sucess -->
+	<skip />
+	<!-- no translation found for toast_update_safe_box_name_fail -->
+	<skip />
+	<!-- no translation found for toast_safe_box_name_empty -->
+	<skip />
+	<!-- no translation found for cut_single_fail_tip -->
+	<skip />
+	<!-- no translation found for delete_single_fail_tip -->
+	<skip />
+	<!-- no translation found for copy_single_fail_tip -->
+	<skip />
+	<!-- no translation found for copy_multi_fail_tip -->
+	<skip />
+	<!-- no translation found for delete_multi_fail_tip -->
+	<skip />
+	<!-- no translation found for cut_multi_fail_tip -->
+	<skip />
+	<!-- no translation found for copy_all_fail_tip -->
+	<skip />
+	<!-- no translation found for delete_all_fail_tip -->
+	<skip />
+	<!-- no translation found for cut_all_fail_tip -->
+	<skip />
+	<!-- no translation found for past_multi_fail_tip -->
+	<skip />
+	<!-- no translation found for past_single_fail_tip -->
+	<skip />
+	<!-- no translation found for past_all_fail_tip -->
+	<skip />
+	<!-- no translation found for chip_encryption -->
+	<skip />
+	<!---->
+	<string name="safe_name_title">"Nom"</string>
+	<!---->
+	<string name="update_name">"Actualitzeu el nom"</string>
+	<!-- no translation found for fingerprint_relate -->
+	<skip />
+	<!-- no translation found for insufficient_message_cn -->
+	<skip />
+	<!-- no translation found for add_success -->
+	<skip />
+	<!---->
+	<string name="pasted_cn">"Fitxer enganxat"</string>
+	<!-- no translation found for no_search_result_cn -->
+	<skip />
+	<!---->
+	<string name="detail_time_cn">"Hora modificada"</string>
+	<!-- no translation found for rename_limit -->
+	<skip />
+	<!-- no translation found for fingerprint_fail -->
+	<skip />
+	<!-- no translation found for answer_mistake -->
+	<skip />
+	<!-- no translation found for answer_empty_tip -->
+	<skip />
+	<!-- no translation found for new_safe -->
+	<skip />
+	<!-- no translation found for dialog_confirm -->
+	<skip />
+	<!-- no translation found for move_in_success -->
+	<skip />
+	<!-- no translation found for move_in_count -->
+	<skip />
+	<!-- no translation found for message_security_fingerprint_lockout -->
+	<skip />
+	<!-- no translation found for use_password_auth -->
+	<skip />
+	<!-- no translation found for storage_details -->
+	<skip />
+	<!---->
+	<string name="total_memory">"Memòria total"</string>
+	<!-- no translation found for system -->
+	<skip />
+	<!-- no translation found for category_fragment_title -->
+	<skip />
+	<!-- no translation found for storage -->
+	<skip />
+	<!-- no translation found for choice -->
+	<skip />
+	<!-- no translation found for view_tag_key -->
+	<skip />
+	<!-- no translation found for view_tag_key2 -->
+	<skip />
+	<!-- no translation found for finish_percent -->
+	<skip />
+	<!---->
+	<string name="select_pic">"Seleccioneu una imatge"</string>
+	<!---->
+	<string name="brackets_double">"(%1$s)"</string>
+	<!-- no translation found for selected_pick -->
+	<skip />
+	<!-- no translation found for most_selected -->
+	<skip />
+	<!-- no translation found for finish_ready -->
+	<skip />
+	<!-- no translation found for select_pic_data -->
+	<skip />
+	<!-- no translation found for delete_determine_selected -->
+	<skip />
+	<!-- no translation found for delete_document -->
+	<skip />
+	<!-- no translation found for delete_folder -->
+	<skip />
+	<!-- no translation found for delete_folder_and -->
+	<skip />
+	<!---->
+	<string name="deselect_all_item">"Anul·lar selecció de tot"</string>
+	<!-- no translation found for edit -->
+	<skip />
+	<!-- no translation found for storage_phone -->
+	<skip />
+	<!-- no translation found for storage_sdcard -->
+	<skip />
+	<!-- no translation found for storage_otg -->
+	<skip />
+	<!-- no translation found for storage_slash -->
+	<skip />
+	<!-- no translation found for welcome_security -->
+	<skip />
+	<!-- no translation found for welcome_security_info -->
+	<skip />
+	<!-- no translation found for welcome_convenient -->
+	<skip />
+	<!-- no translation found for welcome_convenient_info -->
+	<skip />
+	<!-- no translation found for welcome_depth -->
+	<skip />
+	<!-- no translation found for welcome_depth_info -->
+	<skip />
+	<!-- no translation found for welcome_add -->
+	<skip />
+	<!-- no translation found for welcome_add_info -->
+	<skip />
+	<!-- no translation found for welcome_dialog_title -->
+	<skip />
+	<!-- no translation found for welcome_dialog_info -->
+	<skip />
+	<!-- no translation found for welcome_dialog_verify_btn -->
+	<skip />
+	<!-- no translation found for welcome_dialog_verify_pwd -->
+	<skip />
+	<!-- no translation found for welcome_start_use -->
+	<skip />
+	<!-- no translation found for welcome_not_use -->
+	<skip />
+	<!---->
+	<string name="welcome_ok">"ACCEPTAR"</string>
+	<!-- no translation found for encrypt_files_success -->
+	<skip />
+	<!-- no translation found for delete_direct -->
+	<skip />
+	<!---->
+	<string name="delete_file">"Voleu eliminar aquest fitxer?"</string>
+</resources>

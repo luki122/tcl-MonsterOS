@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="tip_network_error">Greška na mreži</string>
+    <string name="check_new">Provera ažuriranja</string>
+    <string name="update_download_fail">Preuzimanje nije uspelo</string>
+    <string name="update_ask_tip">Potrebno je ažuriranje do poslednje verzije</string>
+    <string name="update_no_need">Ovo je poslednja verzija</string>
+    <string name="downloaded_finish">Preuzimanje je završeno</string>
+    <string name="notification_downloading">Preuzimanje</string>
+    <string name="update_notification_tips">Za bolji doživljaj ažurirajte do poslednje verzije.</string>
+    <string name="update_notification_title">Ažuriranje obaveštenja</string>
+    <string name="update">Sada</string>
+    <string name="try_later">Kasnije</string>
+    <string name="versionDesc">Informacije o verziji:</string>
+    
+    <string name="update_available">Ažuriranje je dostupno</string>
+    <string name="downloading">Preuzimanje...</string>
+    <string name="update_notify_tip">Nova verzija je dostupna. Ažurirati sada?</string>
+    <string name="update_detail_prefix">Detalji ažuriranja:</string>
+    <string name="update_not_now">Ne sada</string>
+    <string name="update_now">Ažuriraj</string>
+    <string name="network_error_tip">Greška na mreži. Proverite vezu sa mrežom i pokušajte ponovo.</string>
+    <string name="update_force_nofity_tip">Preporučujemo vam da ažurirate aplikaciju na poslednju verziju.</string>
+    <string name="update_no_updates">Nema ažuriranja</string>
+    <string name="update_no_updates_tip">Nema ažuriranja</string>
+    <string name="update_confirm">U redu</string>
+
+</resources>

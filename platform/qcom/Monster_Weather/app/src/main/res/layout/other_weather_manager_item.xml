@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<cn.tcl.weather.view.SwipeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="130dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/delete"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="19dp"
+            android:id="@+id/delete"
+            android:layout_centerVertical="true"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="130dp"
+        android:id="@+id/city_item"
+        >
+
+        <cn.tcl.weather.view.TclCustomTextView
+            android:id="@+id/city_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="24dp"
+            android:text="@string/test"
+            android:textColor="#B8000000"
+            android:textSize="24dp" />
+
+        <cn.tcl.weather.view.TclCustomTextView
+            android:id="@+id/temperature"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="13dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="16dp"
+            android:text="@string/test"
+            android:textColor="#FF000000"
+            android:textSize="17dp" />
+
+        <cn.tcl.weather.view.TclCustomTextView
+            android:id="@+id/weather_state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="6dp"
+            android:layout_marginEnd="@dimen/px_60"
+            android:text="@string/test"
+            android:textColor="#FF000000"
+            android:layout_above="@id/temperature"
+            android:textSize="16dp"
+            />
+
+        <ImageView
+            android:id="@+id/location_icon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="27dp"
+            android:layout_toEndOf="@+id/city_name"
+            android:src="@drawable/ic_adrees"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+</cn.tcl.weather.view.SwipeLayout>

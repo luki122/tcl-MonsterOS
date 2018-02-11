@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/decision_number"
+        android:layout_marginLeft="@dimen/layout_common_15dp"
+        android:textSize="@dimen/font_size_16sp"
+        android:textColor="@color/black_86opacity"
+        android:layout_marginTop="17dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/layout_common_23dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_marginLeft="@dimen/layout_common_15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/ic_decision_info"
+            android:layout_gravity="top"/>
+
+        <TextView
+            android:layout_marginLeft="@dimen/layout_common_13dp"
+            android:fontFamily="monster-normal"
+            android:id="@+id/meeting_decision_topic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/font_size_14sp"
+            android:textColor="@color/black_86opacity"
+            android:text="@string/not_filled"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginLeft="@dimen/layout_common_15dp"
+        android:fontFamily="monster-normal"
+        android:id="@+id/meeting_decision_person"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/layout_common_16dp"
+        android:layout_gravity="center_vertical"
+        android:textSize="@dimen/font_size_14sp"
+        android:textColor="@color/black_86opacity"
+        android:text="@string/not_filled"
+        android:drawablePadding="@dimen/layout_common_13dp"
+        android:drawableLeft="@mipmap/ic_decision_person"/>
+
+    <TextView
+        android:layout_marginLeft="@dimen/layout_common_15dp"
+        android:fontFamily="monster-normal"
+        android:id="@+id/meeting_decision_endtime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="@dimen/layout_common_16dp"
+        android:layout_marginBottom="21dp"
+        android:textSize="@dimen/font_size_14sp"
+        android:textColor="@color/black_86opacity"
+        android:text="@string/not_filled"
+        android:drawablePadding="@dimen/layout_common_13dp"
+        android:drawableLeft="@mipmap/ic_decision_time"/>
+</LinearLayout>

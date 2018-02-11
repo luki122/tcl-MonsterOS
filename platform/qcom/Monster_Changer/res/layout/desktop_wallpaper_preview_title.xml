@@ -1,0 +1,23 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mst="http://schemas.android.com/apk/res/com.mst"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <mst.widget.toolbar.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:layout_gravity="top"
+        android:background="@color/preview_action_bar_background"
+        android:theme="@style/Theme.Wallpaper.Preview"
+        mst:navigationIcon="@com.mst:drawable/ic_toolbar_back"
+        mst:title="@string/set_wallpaper"
+        mst:titleTextColor="@color/toolbar_title_color_in_preview" />
+
+</FrameLayout>

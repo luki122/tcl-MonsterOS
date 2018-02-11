@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mst="http://schemas.android.com/apk/res/com.mst"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <!--由于使用了mst-framework.jar中控件，命名空间还必须是http://schemas.android.com/apk/res/com.mst，否则编译出错-->
+    <TextView
+        android:id="@+id/app_risk_category_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="14dp"
+        android:paddingBottom="5dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="13sp"
+        android:textColor="@color/text_category_title_color"/>
+
+    <mst.widget.SliderView
+        android:id="@com.mst:id/slider_view"
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        mst:handleEventInParent="true"
+        mst:layout="@layout/slider_layout"/>
+
+</LinearLayout>

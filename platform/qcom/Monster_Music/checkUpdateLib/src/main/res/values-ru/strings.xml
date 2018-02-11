@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    	<string name="tip_network_error">Ошибка сети</string>
+    	<string name="check_new">Поиск обновлений</string>
+    	<string name="update_download_fail">Загрузка не удалась</string>
+    	<string name="update_ask_tip">Необходимо обновить до последней версии</string>
+    	<string name="update_no_need">Данная версия является последней</string>
+    	<string name="downloaded_finish">Загрузка завершена</string>
+    	<string name="notification_downloading">Загрузка</string>
+    	<string name="update_notification_tips">Для улучшения опыта, пожалуйста, обновите до последней версии.</string>
+    	<string name="update_notification_title">Уведомление об обновлении</string>
+    	<string name="update">Сейчас</string>
+    	<string name="try_later">Позже</string>
+    	<string name="versionDesc">Информация О Версии:</string>
+    	
+    	<string name="update_available">Доступно Обновление</string>
+    	<string name="downloading">Загрузка...</string>
+    	<string name="update_notify_tip">Доступна новая версия. Обновить сейчас?</string>
+    	<string name="update_detail_prefix">Детали обновления:</string>
+    	<string name="update_not_now">Не сейчас</string>
+    	<string name="update_now">Обновить</string>
+    	<string name="network_error_tip">Ошибка сети Пожалуйста, проверьте сетевое подключение и попробуйте еще раз.</string>
+    	<string name="update_force_nofity_tip">Рекомендуем вам обновить приложение до последней версии.</string>
+    	<string name="update_no_updates">Нет обновлений</string>
+    	<string name="update_no_updates_tip">Нет обновлений</string>
+    	<string name="update_confirm">ОК</string>
+</resources>

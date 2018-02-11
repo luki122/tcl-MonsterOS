@@ -1,0 +1,92 @@
+{
+  "start": "start",
+  "name": "dragndrop",
+
+  "state": [
+    {
+      "id": "start",
+
+      "transition": [
+        {
+          "to": "selecting_hand",
+          "notify": {
+            "text": "open_hand"
+          },
+          "criteria": [
+            {
+              "pose": {
+                "set_id": "ID",
+                "type": "open_hand"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "selecting_hand",
+
+      "transition": [
+        {
+          "to": "selecting_hand",
+          "notify": {
+            "text": "open_hand"
+          },
+          "criteria": [
+            {
+              "pose": {
+                "id": "ID",
+                "type": "open_hand"
+              }
+            }
+          ]
+        },
+        {
+          "to": "dragging",
+          "notify": {
+            "text": "selected_element_at"
+          },
+          "criteria": [
+            {
+              "pose": {
+                "id": "ID",
+                "type": "closed_hand"
+              }
+            }
+          ]
+        },
+        {
+          "to": "start",
+          "notify": {
+            "text": "open_hand_detection_lost"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dragging",
+      "transition": [
+        {
+          "to": "dragging",
+          "notify": {
+            "text": "dragging_to"
+          },
+          "criteria": [
+            {
+              "pose": {
+                "id": "ID",
+                "type": "closed_hand"
+              }
+            }
+          ]
+        },
+        {
+          "to": "start",
+          "notify": {
+            "text": "dropped_at"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="@dimen/toolbar_icon_size_width"
+    android:height="@dimen/toolbar_icon_size_width"
+    android:viewportWidth="56"
+    android:viewportHeight="56">
+
+    <path
+        android:strokeColor="?attr/colorToolbarIcon"
+        android:strokeWidth="3"
+        android:strokeMiterLimit="10"
+        android:strokeLineCap="round"
+        android:pathData="M37.1,11.9l-3.2-6.2c-0.1-0.2-0.4-0.4-0.6-0.4H22.6c-0.3,0-0.5,0.1-0.6,0.4l-3.2,6.2" />
+    <path
+        android:strokeColor="#242424"
+        android:strokeWidth="3"
+        android:strokeMiterLimit="10"
+        android:strokeLineCap="round"
+        android:pathData="M 5.3 11.9 L 50.7 11.9" />
+    <path
+        android:strokeColor="?attr/colorToolbarIcon"
+        android:strokeWidth="3"
+        android:strokeMiterLimit="10"
+        android:strokeLineCap="round"
+        android:pathData="M44.4,11.9v38.5c0,0.2-0.2,0.3-0.3,0.3H12.5c-0.2,0-0.3-0.2-0.3-0.3V19.2" />
+</vector>

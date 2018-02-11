@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<mst.widget.SliderView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mst="http://schemas.android.com/apk/res/com.mst"
+    android:id="@+id/meeting_item_sliderView"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/layout_common_74dp"
+    android:layout_marginRight="@dimen/layout_common_10dp"
+    mst:handleEventInParent = "true"
+    mst:layout="@layout/item_meeting_layout"
+    android:background="@color/card_color"
+   >
+
+</mst.widget.SliderView>

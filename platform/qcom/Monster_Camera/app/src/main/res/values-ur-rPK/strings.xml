@@ -1,0 +1,1068 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"کیمرہ"</string>
+	<!---->
+	<string name="gallery_app_name">"گیلری"</string>
+	<!---->
+	<string name="video_camera_label">"کیم کارڈر"</string>
+	<!-- no translation found for details_ms -->
+	<skip />
+	<!-- no translation found for details_hms -->
+	<skip />
+	<!---->
+	<string name="set_image">"تصویر کو مرتب کریں بطور"</string>
+	<!---->
+	<string name="delete">"حذف کریں"</string>
+	<!---->
+	<string name="share">"اشتراک کریں"</string>
+	<!---->
+	<string name="share_panorama">"پینورما کا اشتراک کریں"</string>
+	<!---->
+	<string name="share_as_photo">"بطور تصویر اشتراک کریں"</string>
+	<!---->
+	<string name="deleted">"حذف کردہ"</string>
+	<!---->
+	<string name="undo">"ان ڈو کریں"</string>
+	<!---->
+	<string name="details">"تفصیلات"</string>
+	<!---->
+	<string name="close">"بند"</string>
+	<!---->
+	<string name="show_on_map">"نقشے پر دکھائیں"</string>
+	<!---->
+	<string name="rotate_left">"بائيں گھمائيں"</string>
+	<!---->
+	<string name="rotate_right">"دائيں گھمائيں"</string>
+	<!---->
+	<string name="edit">"تدوین کریں"</string>
+	<!---->
+	<string name="crop_action">"چھانٹیں"</string>
+	<!---->
+	<string name="trim_action">"تراشیں"</string>
+	<!---->
+	<string name="set_as">"متعین کریں بطور"</string>
+	<!---->
+	<string name="video_err">"ویڈیو پلے نہیں کر سکتا."</string>
+	<!---->
+	<string name="title">"عنوان"</string>
+	<!-- no translation found for description -->
+	<skip />
+	<!---->
+	<string name="time">"وقت"</string>
+	<!---->
+	<string name="location">"مقام"</string>
+	<!---->
+	<string name="path">"راستہ"</string>
+	<!---->
+	<string name="width">"چوڑائی"</string>
+	<!---->
+	<string name="height">"اونچائی"</string>
+	<!---->
+	<string name="orientation">"سمت بندی"</string>
+	<!---->
+	<string name="duration">"دورانیہ"</string>
+	<!---->
+	<string name="mimetype">"MIME کی قسم"</string>
+	<!---->
+	<string name="file_size">"فائل سائز"</string>
+	<!---->
+	<string name="maker">"بنانے والا"</string>
+	<!---->
+	<string name="model">"ماڈل"</string>
+	<!---->
+	<string name="flash">"فلیش"</string>
+	<!---->
+	<string name="aperture">"سوراخ"</string>
+	<!---->
+	<string name="focal_length">"فوکس کی لمبائ"</string>
+	<!---->
+	<string name="white_balance">"سفید توازن"</string>
+	<!---->
+	<string name="exposure_time">"ایکسپوژر کا وقت"</string>
+	<!---->
+	<string name="iso">"ISO"</string>
+	<!-- no translation found for unit_mm -->
+	<skip />
+	<!---->
+	<string name="manual">"مینوئل"</string>
+	<!---->
+	<string name="auto">"خودکار"</string>
+	<!---->
+	<string name="flash_on">"فلیش فائر کیا گیا"</string>
+	<!---->
+	<string name="flash_off">"کوئی فلیش نہيں"</string>
+	<!-- no translation found for unknown -->
+	<skip />
+	<!---->
+	<string name="try_to_set_local_album_available_offline">"یہ آئٹم مقامی طور پر محفوظ کردہ ہے اور آف لائن دستیاب ہے۔"</string>
+	<!---->
+	<string name="please_wait">"کچھ دیر انتظار کریں"</string>
+	<!---->
+	<string name="camera_error_title">"کیمرے کا نقص"</string>
+	<!---->
+	<string name="cannot_connect_camera">"کیمرہ سے مربوط نہیں ہو سکا."</string>
+	<!---->
+	<string name="camera_disabled">"حفاظتی پالیسیوں کے سبب کیمرا غیرفعال ہوگیا۔"</string>
+	<!---->
+	<string name="wait">"انتظار کررہا ہے..."</string>
+	<!---->
+	<string name="no_storage" product="default">"کیمرہ استعمال کرنے سے قبل ایک SD کارڈ داخل کریں"</string>
+	<!---->
+	<string name="preparing_sd" product="default">"SD کارڈ تیار کررہا ہے\u2026"</string>
+	<!---->
+	<string name="access_sd_fail" product="default">"کارڈ تک رسائی کرنے سے قاصرSD۔"</string>
+	<!---->
+	<string name="time_lapse_title">"ریکارڈنگ میں لگا وقت"</string>
+	<!-- no translation found for capturing -->
+	<skip />
+	<!---->
+	<string name="pref_camera_id_title">"کیمرہ چنیں"</string>
+	<!---->
+	<string name="pref_camera_id_entry_back">"واپس جائیں"</string>
+	<!---->
+	<string name="pref_camera_id_entry_front">"سامنے"</string>
+	<!---->
+	<string name="pref_camera_save_location_title">"GPS ٹیگنگ"</string>
+	<!-- no translation found for pref_camera_location_label -->
+	<skip />
+	<!---->
+	<string name="pref_camera_timer_title">"الٹی گنتی والا ٹائمر"</string>
+	<!-- no translation found for pref_camera_timer_sound_default -->
+	<skip />
+	<!---->
+	<string name="pref_camera_timer_sound_title">"الٹی گندی کے دوران بیپ کریں"</string>
+	<!-- no translation found for setting_off -->
+	<skip />
+	<!-- no translation found for setting_on -->
+	<skip />
+	<!---->
+	<string name="pref_video_quality_title">"ویڈيو کا معیار"</string>
+	<!-- no translation found for pref_video_time_lapse_frame_interval_title -->
+	<skip />
+	<!---->
+	<string name="pref_camera_settings_category">"کیمرہ سیٹنگز"</string>
+	<!---->
+	<string name="pref_camcorder_settings_category">"کیم کوڈر سیٹنگز"</string>
+	<!---->
+	<string name="pref_camera_picturesize_title">"تصویر کا سائز"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_large">"بڑا"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_medium">"متوسط"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_small">"چھوٹا"</string>
+	<!---->
+	<string name="pref_camera_focusmode_title">"مرکوزیت والا موڈ"</string>
+	<!---->
+	<string name="pref_camera_focusmode_entry_auto">"خودکار"</string>
+	<!---->
+	<string name="pref_camera_focusmode_entry_infinity">"لامحدود"</string>
+	<!---->
+	<string name="pref_camera_focusmode_entry_macro">"میکرو"</string>
+	<!---->
+	<string name="pref_camera_focusmode_label_auto">"خودکار"</string>
+	<!---->
+	<string name="pref_camera_focusmode_label_infinity">"لامحدود"</string>
+	<!---->
+	<string name="pref_camera_focusmode_label_macro">"میکرو"</string>
+	<!---->
+	<string name="pref_camera_flashmode_title">"فلیش موڈ"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label">"فلیش موڈ"</string>
+	<!---->
+	<string name="pref_camera_flashmode_entry_auto">"خودکار"</string>
+	<!---->
+	<string name="pref_camera_flashmode_entry_on">"آن"</string>
+	<!---->
+	<string name="pref_camera_flashmode_entry_off">"آف"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label_auto">"خودکار فلیش"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label_on">"فلیش آن"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label_off">"فلیش آف"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_title">"سفید توازن"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label">"سفید توازن"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_auto">"خودکار"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_incandescent">"چمکدار"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_daylight">"دن کی روشنی"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_fluorescent">"دودھیا"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_cloudy">"ابرآلود"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_auto">"خودکار"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_incandescent">"چمکدار"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_daylight">"دن کی روشنی"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_fluorescent">"دودھیا"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_cloudy">"ابرآلود"</string>
+	<!---->
+	<string name="pref_camera_scenemode_title">"منظر کا موڈ"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_auto">"خودکار"</string>
+	<!-- no translation found for pref_camera_scenemode_entry_hdr_plus -->
+	<skip />
+	<!-- no translation found for pref_camera_scenemode_entry_hdr -->
+	<skip />
+	<!-- no translation found for pref_camera_scenemode_entry_turn_hdr_plus_on -->
+	<skip />
+	<!-- no translation found for pref_camera_scenemode_entry_turn_hdr_plus_off -->
+	<skip />
+	<!-- no translation found for pref_camera_scenemode_entry_turn_hdr_on -->
+	<skip />
+	<!-- no translation found for pref_camera_scenemode_entry_turn_hdr_off -->
+	<skip />
+	<!---->
+	<string name="pref_camera_scenemode_entry_action">"کارروائی"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_night">"رات"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_sunset">"غروب آفتاب"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_party">"پارٹی"</string>
+	<!-- no translation found for pref_camera_scenemode_label_auto -->
+	<skip />
+	<!-- no translation found for pref_camera_scenemode_label_action -->
+	<skip />
+	<!-- no translation found for pref_camera_scenemode_label_night -->
+	<skip />
+	<!-- no translation found for pref_camera_scenemode_label_sunset -->
+	<skip />
+	<!-- no translation found for pref_camera_scenemode_label_party -->
+	<skip />
+	<!---->
+	<string name="pref_camera_countdown_label_off">"ٹائمر آف"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_one">"1 سیکنڈ"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_three">"3 سیکنڈ"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_five">"5 seconds"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_ten">"10 سیکنڈ"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_fifteen">"15 سیکنڈ"</string>
+	<!---->
+	<string name="not_selectable_in_scene_mode">"منظر موڈ میں قابل انتخاب نہیں۔"</string>
+	<!---->
+	<string name="pref_exposure_title">"ایکسپوژر"</string>
+	<!---->
+	<string name="pref_exposure_label">"ایکسپوژر"</string>
+	<!-- no translation found for pref_camera_hdr_default -->
+	<skip />
+	<!-- no translation found for pref_camera_hdr_plus_default -->
+	<skip />
+	<!---->
+	<string name="pref_camera_hdr_label">"ایچ ڈی آر"</string>
+	<!---->
+	<string name="pref_camera_id_label_back">"سامنے والا کیمرہ"</string>
+	<!---->
+	<string name="pref_camera_id_label_front">"پیچھے کا کیمرہ"</string>
+	<!---->
+	<string name="dialog_ok">"ٹھیک ہے"</string>
+	<!---->
+	<string name="dialog_cancel">"منسوخ"</string>
+	<!---->
+	<string name="spaceIsLow_content" product="default">"آپ کے ایس ڈی کارڈ میں جگہ نہیں ہے۔ معیار کی سیٹنگ تبدیل کریں یا کچھ تصاویر یا دیگر فائلیں حذف کریں۔"</string>
+	<!---->
+	<string name="phone_storage_low" product="default">"فون اسٹوریج میں جگہ نہیں ہے۔ معیار کی سیٹنگ تبدیل کریں یا کچھ تصاویر یا دیگر فائلیں حذف کریں۔"</string>
+	<!---->
+	<string name="video_reach_size_limit">"سائز کی حد تجاوز۔"</string>
+	<!---->
+	<string name="video_record_start_failed">"ریکارڈنگ شروع نہیں کر سکا"</string>
+	<!---->
+	<string name="pano_too_fast_prompt">"کافی تیز"</string>
+	<!---->
+	<string name="pano_dialog_prepare_preview">"پورا منظر تیار کررہا ہے"</string>
+	<!---->
+	<string name="pano_dialog_panorama_failed">"پینوراما محفوظ کرنے سے قاصر۔"</string>
+	<!---->
+	<string name="pano_dialog_title">"پورا منظر"</string>
+	<!---->
+	<string name="pano_capture_indication">"پورا منظر کیپچر کررہا ہے"</string>
+	<!---->
+	<string name="pano_dialog_waiting_previous">"پچھلے منظر کا انتظار ہے"</string>
+	<!---->
+	<string name="pano_review_saving_indication_str">"محفوظ کررہا ہے…"</string>
+	<!---->
+	<string name="pano_review_rendering">"پورا منظر رینڈرنگ کریں"</string>
+	<!---->
+	<string name="tap_to_focus">"مرکوز کرنے کے لئے چھوئیں۔"</string>
+	<!---->
+	<string name="pref_video_effect_title">"اثرات"</string>
+	<!---->
+	<string name="effect_none">"کوئی نہيں"</string>
+	<!---->
+	<string name="effect_goofy_face_squeeze">"نچوڑیں"</string>
+	<!---->
+	<string name="effect_goofy_face_big_eyes">"بڑی آنکھیں"</string>
+	<!---->
+	<string name="effect_goofy_face_big_mouth">"بڑا منہ"</string>
+	<!---->
+	<string name="effect_goofy_face_small_mouth">"چھوٹا منہ"</string>
+	<!---->
+	<string name="effect_goofy_face_big_nose">"بڑی ناک"</string>
+	<!---->
+	<string name="effect_goofy_face_small_eyes">"چھوٹی آنکھیں"</string>
+	<!---->
+	<string name="effect_backdropper_space">"خلا میں"</string>
+	<!---->
+	<string name="effect_backdropper_sunset">"غروب آفتاب"</string>
+	<!---->
+	<string name="effect_backdropper_gallery">"آپ کا ویڈیو"</string>
+	<!---->
+	<string name="video_snapshot_hint">"ریکارڈنگ کے دوران تصویر لینے کیلئے  دبائیں۔"</string>
+	<!---->
+	<string name="video_recording_started">"ویڈیو ریکارڈنگ شروع ہوگئی۔"</string>
+	<!---->
+	<string name="video_recording_stopped">"ویڈیو ریکارڈنگ رک گئی۔"</string>
+	<!---->
+	<string name="clear_effects">"اثرات مٹائیں"</string>
+	<!---->
+	<string name="effect_silly_faces">"بیوقوف چہرے"</string>
+	<!---->
+	<string name="effect_background">"پس منظر"</string>
+	<!-- no translation found for accessibility_shutter_button -->
+	<skip />
+	<!---->
+	<string name="accessibility_cancel_button">"منسوخ"</string>
+	<!---->
+	<string name="accessibility_menu_button">"مینو بٹن"</string>
+	<!---->
+	<string name="accessibility_check_box">"%1$s چیک باکس"</string>
+	<!---->
+	<string name="accessibility_switch_to_camera">"تصویر پر جائیں"</string>
+	<!---->
+	<string name="accessibility_switch_to_video">"ویڈیو پر سوئچ کریں"</string>
+	<!---->
+	<string name="accessibility_switch_to_panorama">"پورا منظر پر سوئچ کریں"</string>
+	<!-- no translation found for accessibility_switch_to_photo_sphere -->
+	<skip />
+	<!-- no translation found for accessibility_switch_to_gcam -->
+	<skip />
+	<!---->
+	<string name="accessibility_switch_to_refocus">"دوبارہ فوکس پر سوئچ کریں"</string>
+	<!---->
+	<string name="accessibility_review_cancel">"جائزہ منسوخ"</string>
+	<!---->
+	<string name="accessibility_review_ok">"نظرثانی مکمل ہوگیا"</string>
+	<!---->
+	<string name="accessibility_review_retake">"دوبارہ نظر ثانی"</string>
+	<!---->
+	<string name="accessibility_mode_options">"آپشن"</string>
+	<!---->
+	<string name="accessibility_mode_list_hidden">"موڈ فہرست بند ہوگئی"</string>
+	<!---->
+	<string name="accessibility_mode_list_shown">"موڈ فہرست کھلی ہے"</string>
+	<!---->
+	<string name="media_accessibility_peek">"کیپچر کیا گیا"</string>
+	<!---->
+	<string name="photo_accessibility_peek">"تصویریں لی گئی"</string>
+	<!---->
+	<string name="video_accessibility_peek">"لیے گئے ویڈیوز"</string>
+	<!---->
+	<string name="accessibility_unlock_to_camera">"کیمرہ پر انلاک کریں"</string>
+	<!---->
+	<string name="media_date_content_description">"میڈیا %s پر لیا گیا"</string>
+	<!---->
+	<string name="photo_date_content_description">"تصاویر %s پر لی گئی"</string>
+	<!---->
+	<string name="video_date_content_description">"ویڈیو %s پر لیا گیا"</string>
+	<!---->
+	<string name="panorama_date_content_description">"پیناروما %s پر لیا گیا"</string>
+	<!---->
+	<string name="photosphere_date_content_description">"تصویر کرہ %s پر لیا گیا"</string>
+	<!---->
+	<string name="refocus_date_content_description">"لینس دھندلاپن %s پر لیا گیا"</string>
+	<!---->
+	<string name="media_processing_content_description">"میڈیا عمل کاری"</string>
+	<!---->
+	<string name="accessibility_mode_list_toggle">"ٹوگل موڈ کی فہرست"</string>
+	<!---->
+	<string name="btn_mode_list_toggle">"موڈ فہرست"</string>
+	<!---->
+	<string name="accessibility_filmstrip_toggle">"ٹوگل فلم اسٹرپ"</string>
+	<!---->
+	<string name="btn_filmstrip_toggle">"فلم اسٹرپ"</string>
+	<!-- no translation found for capital_on -->
+	<skip />
+	<!---->
+	<string name="capital_off">"آف"</string>
+	<!---->
+	<string name="video_control_play">"ویڈیو چلائیں"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_off">"آف"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_500">"0.5 سیکنڈ"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1000">"1 سیکنڈ"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1500">"1.5 سیکنڈ"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_2000">"2 سیکنڈ"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_2500">"2.5 سیکنڈ"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_3000">"3 seconds"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_4000">"4 سیکنڈ"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_5000">"5 seconds"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_6000">"6 سیکنڈ"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_10000">"10 سیکنڈ"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_12000">"12 سیکنڈ"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_15000">"15 سیکنڈ"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_24000">"24 سیکنڈ"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_30000">"0.5 منٹ"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_60000">"1 منٹ"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_90000">"1.5 منٹ"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_120000">"2 منٹ"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_150000">"2.5 منٹ"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_180000">"3 منٹ"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_240000">"4 منٹ"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_300000">"5 منٹ"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_360000">"6 منٹ"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_600000">"10 منٹ"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_720000">"12 منٹ"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_900000">"15 منٹ"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1440000">"24 منٹ"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1800000">"0.5 گھنٹہ"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_3600000">"1 گھنٹہ"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_5400000">"1.5 گھنٹے"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_7200000">"2 گھنٹے"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_9000000">"2.5 گھنٹے"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_10800000">"3 گھنٹے"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_14400000">"4 گھنٹے"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_18000000">"5 گھنٹے"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_21600000">"6 گھنٹے"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_36000000">"10 گھنٹے"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_43200000">"12 گھنٹے"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_54000000">"15 گھنٹے"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_86400000">"24 گھنٹے"</string>
+	<!---->
+	<string name="time_lapse_seconds">"سیکنڈ"</string>
+	<!---->
+	<string name="time_lapse_minutes">"منٹ"</string>
+	<!---->
+	<string name="time_lapse_hours">"گھنٹے"</string>
+	<!-- no translation found for time_lapse_interval_set -->
+	<skip />
+	<!---->
+	<string name="set_time_interval">"وقفہ متعین کریں"</string>
+	<!---->
+	<string name="set_time_interval_help">"گزرے وقت والی خصوصیت آف ہے۔ وقفہ متعین کرنے کے لیے اسے آن کریں۔"</string>
+	<!---->
+	<string name="set_duration">"دورانیہ کو سیکنڈ میں متعین کریں"</string>
+	<!---->
+	<string name="count_down_title_text">"تصویر لینے کے لیے الٹی گنتی ہورہی ہے"</string>
+	<!---->
+	<string name="remember_location_title">"تصویر کے مقامات یاد کریں؟"</string>
+	<!---->
+	<string name="remember_location_prompt">"اپنی تصویریں اور ویڈیوز ان مقامات کے ساتھ ٹیگ کریں جہاں وہ لی گئی ہیں۔\n\n دیگر ایپس ان معلومات تک آپ کی محفوظ کردہ تصویروں کے ساتھ رسائی حاصل کرسکتے ہیں."</string>
+	<!---->
+	<string name="remember_location_no">"نہیں شکریہ"</string>
+	<!---->
+	<string name="remember_location_yes">"ہاں"</string>
+	<!---->
+	<string name="camera_menu_more_label">"مزید اختیارات"</string>
+	<!-- no translation found for camera_menu_settings_label -->
+	<skip />
+	<!-- no translation found for create_tiny_planet -->
+	<skip />
+	<!-- no translation found for saving_tiny_planet -->
+	<skip />
+	<!-- no translation found for tiny_planet_zoom -->
+	<skip />
+	<!-- no translation found for tiny_planet_rotate -->
+	<skip />
+	<!---->
+	<string name="photo_editor">"تصویر تصحیح کار"</string>
+	<!---->
+	<string name="crop_save">"محفوظ کریں"</string>
+	<!---->
+	<string name="cannot_load_image">"تصویر لوڈ نہیں کر سکا!"</string>
+	<!---->
+	<string name="switch_photo_filmstrip">"فلم پٹی وِیو"</string>
+	<!---->
+	<string name="setting_wallpaper">"وال پیپر سیٹ کررہا ہے"</string>
+	<!---->
+	<string name="mode_settings">"ترتیبات"</string>
+	<!---->
+	<string name="mode_camera">"خودکار"</string>
+	<!---->
+	<string name="mode_video">"ویڈیو"</string>
+	<!---->
+	<string name="mode_slow_motion">"Slo-mo"</string>
+	<!---->
+	<string name="mode_photosphere">"تصویر کرہ"</string>
+	<!---->
+	<string name="mode_timelapse">"وقت کا گزرنا"</string>
+	<!---->
+	<string name="mode_wideangle">"وسیع زاویہ"</string>
+	<!---->
+	<string name="mode_panorama">"پورا منظر"</string>
+	<!---->
+	<string name="mode_refocus">"لینس دھندلاپن"</string>
+	<!---->
+	<string name="mode_camera_desc">"کیمرہ موڈ پر موڈ پر سوئچ کریں"</string>
+	<!---->
+	<string name="mode_video_desc">"ویڈیو کیمرہ پر سوئچ کریں"</string>
+	<!---->
+	<string name="mode_photosphere_desc">"تصویر کرہ موڈ پر سوئچ کریں"</string>
+	<!---->
+	<string name="mode_panorama_desc">"پیناروما موڈ پر موڈ پر سوئچ کریں"</string>
+	<!---->
+	<string name="mode_slow_motion_desc">"سست رفتار موڈ پر سوئچ کریں"</string>
+	<!---->
+	<string name="mode_refocus_desc">"لینس دھندلاپن موڈ پر سوئچ کریں"</string>
+	<!---->
+	<string name="settings_open_desc">"سیٹنگز کھولیں"</string>
+	<!---->
+	<string name="settings_close_desc">"سیٹنگز بند کریں"</string>
+	<!---->
+	<string name="hdr_plus_off_desc">"HDR+ آف"</string>
+	<!---->
+	<string name="hdr_plus_on_desc">"HDR+ آن"</string>
+	<!---->
+	<string name="hdr_off_desc">"HDR آف"</string>
+	<!---->
+	<string name="hdr_on_desc">"HDR آن"</string>
+	<!---->
+	<string name="flash_off_desc">"فلیش آف"</string>
+	<!---->
+	<string name="flash_auto_desc">"خودکار فلیش"</string>
+	<!---->
+	<string name="flash_on_desc">"فلیش آن"</string>
+	<!---->
+	<string name="hdr_plus_flash_off_desc">"HDR+ فلیش آف"</string>
+	<!---->
+	<string name="hdr_plus_flash_auto_desc">"HDR+ فلیش خودکار"</string>
+	<!---->
+	<string name="hdr_plus_flash_on_desc">"HDR+ فلیش آن"</string>
+	<!---->
+	<string name="torch_on_desc">"ٹارچ آن"</string>
+	<!---->
+	<string name="torch_off_desc">"ٹارچ آف"</string>
+	<!---->
+	<string name="camera_id_back_desc">"پیچھے کا کیمرہ"</string>
+	<!---->
+	<string name="camera_id_front_desc">"سامنے والا کیمرہ"</string>
+	<!---->
+	<string name="grid_lines_off_desc">"گرڈ لائنز آف"</string>
+	<!---->
+	<string name="grid_lines_on_desc">"گرڈ لائنز آن"</string>
+	<!---->
+	<string name="countdown_timer_off">"کاؤنٹ ڈاؤن ٹائمر آف ہے"</string>
+	<!---->
+	<string name="countdown_timer_duration_2s">"کاؤنٹ ڈاؤن ٹائمر کے دورانیہ 2 سیکنڈز پر سیٹ ہے"</string>
+	<!---->
+	<string name="countdown_timer_duration_3s">"کاؤنٹ ڈاؤن ٹائمر کے دورانیہ 3 سیکنڈز پر سیٹ ہے"</string>
+	<!---->
+	<string name="countdown_timer_duration_5s">"کاؤنٹ ڈاؤن ٹائمر کے دورانیہ 5 سیکنڈز پر سیٹ ہے"</string>
+	<!---->
+	<string name="countdown_timer_duration_10s">"کاؤنٹ ڈاؤن ٹائمر کے دورانیہ 10 سیکنڈز پر سیٹ ہے"</string>
+	<!---->
+	<string name="more_options_desc">"مزید اختیارات"</string>
+	<!---->
+	<string name="cancel_button_description">"منسوخ"</string>
+	<!---->
+	<string name="done_button_description">"ہوگیا"</string>
+	<!---->
+	<string name="retake_button_description">"دوبارہ لیں"</string>
+	<!---->
+	<string name="share_button_description">"شیئر کریں"</string>
+	<!---->
+	<string name="view_button_description">"دیکھیں"</string>
+	<!---->
+	<string name="edit_button_description">"تدوین کریں"</string>
+	<!---->
+	<string name="delete_button_description">"حذف کریں"</string>
+	<!---->
+	<string name="manual_exposure_compensation_desc">"دستی نمائش معاوضہ"</string>
+	<!---->
+	<string name="exposure_compensation_desc_n2">"نمائش معاوضہ -2"</string>
+	<!---->
+	<string name="exposure_compensation_desc_n1">"نمائش معاوضہ -1"</string>
+	<!---->
+	<string name="exposure_compensation_desc_0">"نمائش معاوضہ 0"</string>
+	<!---->
+	<string name="exposure_compensation_desc_p1">"نمائش معاوضہ +1"</string>
+	<!---->
+	<string name="exposure_compensation_desc_p2">"نمائش معاوضہ +2"</string>
+	<!---->
+	<string name="button_change_announcement">"بٹن ابھی %s ہے"</string>
+	<!---->
+	<string name="setting_location">"مقام"</string>
+	<!---->
+	<string name="setting_back_camera_photo">"پیچھے کے کمیرہ کی تصویر"</string>
+	<!---->
+	<string name="setting_back_camera_video">"پیچھے کے کمیرہ کا ویڈیو"</string>
+	<!---->
+	<string name="setting_front_camera_photo">"آگے کے کمیرہ کی تصویر"</string>
+	<!---->
+	<string name="setting_front_camera_video">"آگے کے کمیرہ کا ویڈیو"</string>
+	<!---->
+	<string name="setting_default_camera">"ڈیفالٹ کیمرہ"</string>
+	<!---->
+	<string name="setting_google_help_and_feedback">"مدد اور تاثرات"</string>
+	<!---->
+	<string name="processing_hdr_plus">"HDR+ پر عمل کاری کر رہا ہے…"</string>
+	<!---->
+	<string name="open_source_licenses">"اوپن سورس لائسنسز"</string>
+	<!---->
+	<string name="pref_category_general">"عمومی سیٹنگز"</string>
+	<!---->
+	<string name="pref_category_resolution_quality">"ریزولیوشن اور کوالٹی"</string>
+	<!---->
+	<string name="pref_category_about">"بارے میں"</string>
+	<!---->
+	<string name="pref_title_build_version">"ورژن تعمیر کریں"</string>
+	<!---->
+	<string name="pref_video_quality_entry_low">"کم"</string>
+	<!---->
+	<string name="pref_video_quality_entry_high">"اعلی"</string>
+	<!-- no translation found for pref_video_quality_entry_qcif -->
+	<skip />
+	<!-- no translation found for pref_video_quality_entry_cif -->
+	<skip />
+	<!-- no translation found for pref_video_quality_entry_480p -->
+	<skip />
+	<!-- no translation found for pref_video_quality_entry_720p -->
+	<skip />
+	<!-- no translation found for pref_video_quality_entry_1080p -->
+	<skip />
+	<!-- no translation found for pref_video_quality_entry_qvga -->
+	<skip />
+	<!-- no translation found for pref_video_quality_entry_2160p -->
+	<skip />
+	<!---->
+	<string name="setting_summary_x_megapixels">"%1$s میگا پکلسز"</string>
+	<!---->
+	<string name="setting_summary_aspect_ratio_and_megapixels">"(%1$d:%2$d) %3$s میگا پکلسز"</string>
+	<!---->
+	<string name="cling_text_for_refocus_editor_button">"دوبارہ فوکس کرنے کے لیے یہاں چھوئیں"</string>
+	<!---->
+	<string name="pref_category_advanced">"ترقی یافتہ"</string>
+	<!---->
+	<string name="pref_camera_exposure_compensation">"دستی نمائش"</string>
+	<!---->
+	<string name="settings_cling_text">"سیٹنگز میں، ریزولیوشن ارو کوالٹی تبدیل کریں، یا اعلی درجے کی ویڈو کی خصوصیات آزمائیں۔"</string>
+	<!---->
+	<string name="photo_size_selection_title">"تصویر کا سائز منتخب کریں"</string>
+	<!---->
+	<string name="photo_aspect_ratio_selection_content">"آپ اسے بعد میں سیٹنگز میں تبدیل کر سکتے ہیں"</string>
+	<!---->
+	<string name="share_to">"کے ساتھ اشتراک کریں"</string>
+	<!---->
+	<string name="edit_with">"اس کے ساتھ ترمیم کریں"</string>
+	<!---->
+	<string name="startup_dialog_button_next">"اگلا"</string>
+	<!---->
+	<string name="confirm_button_text">"ٹھیک ہے۔ سمجھ آگیا۔"</string>
+	<!---->
+	<string name="full_sensor_4x3_aspect_ratio">"مکمل سینسر \n(4:3)"</string>
+	<!---->
+	<string name="cropped_sensor_16x9_aspect_ratio">"کراپ کردہ سینسر \n(16:9)"</string>
+	<!-- no translation found for pref_boolean_false -->
+	<skip />
+	<!-- no translation found for pref_boolean_true -->
+	<skip />
+	<!---->
+	<string name="pref_camera_iso_s_f_entry_auto">"خودکار"</string>
+	<!-- no translation found for manual_manu_title_iso -->
+	<skip />
+	<!-- no translation found for manual_manu_title_exposure -->
+	<skip />
+	<!-- no translation found for manual_manu_title_wb -->
+	<skip />
+	<!-- no translation found for manual_manu_title_focus -->
+	<skip />
+	<!---->
+	<string name="setting_group_photo">"تصویر"</string>
+	<!---->
+	<string name="setting_group_video">"ویڈیو"</string>
+	<!---->
+	<string name="setting_group_general">"عمومی"</string>
+	<!---->
+	<string name="pref_camera_size_title">"سائز"</string>
+	<!---->
+	<string name="pref_rear_camera_size_title">"سائز"</string>
+	<!---->
+	<string name="pref_front_camera_size_title">"سائز"</string>
+	<!---->
+	<string name="pref_rear_camera_size_title_vdf">"تصویر کی سائز (پیچھے کی)"</string>
+	<!---->
+	<string name="pref_front_camera_size_title_vdf">"تصویر کا سائز (سامنے)"</string>
+	<!---->
+	<string name="pref_camera_grid_title">"گرڈ"</string>
+	<!---->
+	<string name="pref_camera_pose_title">"انداز"</string>
+	<!---->
+	<string name="pref_camera_compose_title">"بناوٹ"</string>
+	<!---->
+	<string name="pref_video_eis_title">"EIS"</string>
+	<!---->
+	<string name="pref_camera_face_beauty_title">"چہرے کی خوبصورتی"</string>
+	<!---->
+	<string name="pref_camera_mirror_selfie_title">"مرر سیلفی"</string>
+	<!---->
+	<string name="pref_camera_attention_seeker_title">"احتیاطی آواز"</string>
+	<!-- no translation found for pref_camera_ais_title -->
+	<skip />
+	<!---->
+	<string name="pref_camera_super_resolution_title">"سوپر ریزولیوشن"</string>
+	<!---->
+	<string name="pref_camera_savepath_title">"ذخیرہ"</string>
+	<!---->
+	<string name="pref_camera_savepath_entry_0">"فون"</string>
+	<!---->
+	<string name="pref_camera_savepath_entry_1">"قابل انتقال SD کارڈ"</string>
+	<!-- no translation found for pref_camera_savepath_default -->
+	<skip />
+	<!---->
+	<string name="pref_camera_sound_title">"شٹر کی آواز"</string>
+	<!---->
+	<string name="pref_visidon_mode_title">"اعلی درجے کا موڈ"</string>
+	<!---->
+	<string name="pref_camera_gesture_detection_title">"علامت کا کنٹرول"</string>
+	<!---->
+	<string name="visidon_mode_face_beauty_entry">"چہرے کی خوبصورتی"</string>
+	<!---->
+	<string name="visidon_mode_super_resolution_entry">"سوپر ریزولیوشن"</string>
+	<!---->
+	<string name="visidon_mode_low_light_entry">"کم روشنی"</string>
+	<!-- no translation found for visidon_mode_hdr_entry -->
+	<skip />
+	<!---->
+	<string name="visidon_mode_off_entry">"آف"</string>
+	<!---->
+	<string name="mode_manual">"مینوئل"</string>
+	<!---->
+	<string name="mode_pano">"پانو"</string>
+	<!-- no translation found for mode_parallax -->
+	<skip />
+	<!---->
+	<string name="mode_micro_video">"مائیکرو-ویڈیو"</string>
+	<!---->
+	<string name="mode_manual_desc">"دستی موڈ پر سوئچ کریں"</string>
+	<!---->
+	<string name="mode_pano_desc">"پینو موڈ پر سوئچ کریں"</string>
+	<!---->
+	<string name="mode_parallax_desc">"فیوز موڈ پر سوئچ کریں"</string>
+	<!---->
+	<string name="mode_micro_video_desc">"مائکرو-ویڈیو موڈ پر سوئچ کریں"</string>
+	<!---->
+	<string name="pref_restore_settings">"فیکٹری ترتیبات میں بحال کریں"</string>
+	<!---->
+	<string name="quit_dialog_title_battery_low">"کم بیٹری"</string>
+	<!---->
+	<string name="quit_dialog_title_storage_low">"ناکافی اسٹوریج"</string>
+	<!---->
+	<string name="quit_dialog_msg">"ویڈیو ریکارڈنگ خود کار طور پر محفوظ ہو جائے گی۔ کیمرہ بند ہو جائے گا۔"</string>
+	<!---->
+	<string name="battery_info_dialog_tile">"کم بیٹری"</string>
+	<!---->
+	<string name="battery_info_dialog_msg_disable_flash">"فلیش کا استعمال کرنے سے قاصر"</string>
+	<!---->
+	<string name="battery_info_dialog_msg_close_camera">"کیمرہ کھولنے سے قاصر"</string>
+	<!---->
+	<string name="battery_info_dialog_button_ok">"ٹھیک ہے"</string>
+	<!---->
+	<string name="battery_info_dialog_button_close">"بند"</string>
+	<!-- no translation found for battery_info_low_toast_message -->
+	<skip />
+	<!-- no translation found for battery_info_video_low_toast_message -->
+	<skip />
+	<!-- no translation found for battery_info_video_low_less_8 -->
+	<skip />
+	<!-- no translation found for battery_info_video_low_less_8_dialog -->
+	<skip />
+	<!-- no translation found for battery_info_video_low_cancel -->
+	<skip />
+	<!-- no translation found for battery_info_video_low_continue -->
+	<skip />
+	<!---->
+	<string name="MSG_SAVE_OUTPUT_IMAGE">"پیناروما تصویر محفوظ کررہا ہے..."</string>
+	<!---->
+	<string name="MSG_CANCEL_CAPTURE">"منسوخ ہو رہا ہے..."</string>
+	<!-- no translation found for save_dir_preview_img -->
+	<skip />
+	<!-- no translation found for save_dir_still_img -->
+	<skip />
+	<!---->
+	<string name="MSG_MISALIGNMENT">"تیر کو جتنا ممکن ہو سفید لائن پر رکھیں۔\nکیپچر روک دیا گیا"</string>
+	<!---->
+	<string name="MSG_MOVE_CAMERA_SLOWLY">"کیپچر کرتے وقت کیمرہ کو کافی آہستہ ہلائیں"</string>
+	<!---->
+	<string name="delete_selection">"منتخب آئٹم حذف کریں؟"</string>
+	<!---->
+	<string name="burst_saving_hint">"%d تصاویر محفوظ کررہا ہے..."</string>
+	<!---->
+	<string name="micro_video_remix_hint">"عمل درآمد کر رہا ہے..."</string>
+	<!---->
+	<string name="lowlight_off_desc">"دھیمی روشنی آف"</string>
+	<!---->
+	<string name="lowlight_on_desc">"دھیمی روشنی آن"</string>
+	<!---->
+	<string name="tizr_prompt_desc">"TiZR آپ کو دنیا کو لائیو ویڈیو نشر کرنے کی اجازت دیتا ہے۔ ابھی اپنا سفر شروع کریں۔"</string>
+	<!---->
+	<string name="tizr_prompt_content">"شروع کریں"</string>
+	<!-- no translation found for title_activity_tizr_share_video -->
+	<skip />
+	<!---->
+	<string name="night_mode_on_toast">"نائٹ موڈ آن، تصویریں لیتے وقت آلہ کو مستحکم پکڑیں"</string>
+	<!---->
+	<string name="hdr_on_toast">"HDR آن، تصویریں لیتے وقت آلہ کو مستحکم پکڑیں"</string>
+	<!---->
+	<string name="micro_video_guide_title">"مائیکرو-ویڈیو"</string>
+	<!---->
+	<string name="micro_video_guide_description">"ڈائریکٹر کی کرسی پر بیٹھیں اور اپنا خود کا ویڈیو تالیف بنائیں\n(شوٹنگ کے بعد، مخصوص تھیمز اور ایفیکٹس شامل کرنے کے لیے تدوین پر کلک کریں)"</string>
+	<!---->
+	<string name="micro_video_guide_checkbox">"دوبارہ نہ دکھائیں"</string>
+	<!---->
+	<string name="micro_video_guide_button">"ہوگیا۔"</string>
+	<!---->
+	<string name="micro_minimum_time_tip">"کم از کم 3 سیکنڈز ریکارڈ کریں"</string>
+	<!---->
+	<string name="micro_shutter_help_tip">"ریکارڈنگ شروع کرنے کے لیے دبائیں اور تھامیں"</string>
+	<!---->
+	<string name="permissions_needed">"اجازتوں کی ضرورت ہے"</string>
+	<!---->
+	<string name="grant_access_title">"رسائی کی اجازت دیں"</string>
+	<!-- no translation found for grant_access_msg -->
+	<skip />
+	<!---->
+	<string name="grant_access_exit">"نکلنا"</string>
+	<!---->
+	<string name="grant_access_settings">"ترتیبات"</string>
+	<!-- no translation found for location_and -->
+	<skip />
+	<!---->
+	<string name="location_msg">"اپنی تصاویر اور ویڈیوز کو مقام کے ساتھ ٹیگ کریں"</string>
+	<!---->
+	<string name="location_toast">"کیمرہ سیٹنگز میں بعد میں GPS ٹیگنگ آن کریں"</string>
+	<!---->
+	<string name="location_snack_setting">"GPS ٹیگنگ اہل کرنے کے لیے، کیمرہ کو مقام تک رسائی کی اجازت دیں"</string>
+	<!---->
+	<string name="aspect_ratio_and_megapixels_default">"%1$d میگا پکسلز (%2$d:%3$d)"</string>
+	<!---->
+	<string name="tips_for_panorama_preview">"پیناروما لیتے وقت آلہ کو مسلسل منتقل کرتے رہیں"</string>
+	<!---->
+	<string name="tip_for_move_center">"تیر کو درمیان کی لائن میں رکھیں"</string>
+	<!---->
+	<string name="tip_for_move_down">"Move down"</string>
+	<!---->
+	<string name="tip_for_move_up">"Move up"</string>
+	<!---->
+	<string name="tip_for_move_slow">"رفتار میں کمی لائیں"</string>
+	<!---->
+	<string name="tip_for_move_right">"دائیں منتقل کریں"</string>
+	<!---->
+	<string name="tip_for_move_left">"بائیں منتقل کریں"</string>
+	<!---->
+	<string name="super_zoom_on_toast">"سوپر زوم آن، تصویریں لیتے وقت آلہ کو مستحکم پکڑیں"</string>
+	<!---->
+	<string name="help_tip_welcome_take_tour">"مہربانے کرکے"</string>
+	<!---->
+	<string name="help_tip_welcome_cancel_tour">"نہیں شکریہ"</string>
+	<!---->
+	<string name="help_tip_welcome_title">"کیمرہ"</string>
+	<!---->
+	<string name="help_tip_welcome_context">"ایک دورہ کریں اور اپنے نئے اسمارٹ فون کے کیمرہ کے استعمال کے طریقے کی کچھ امدادی مشورے حاصل کریں؟"</string>
+	<!---->
+	<string name="help_tip_snap_context">"تصویریں لینے کے لیے یہاں چھوئیں، یا 10 تصاویر تک کا برسٹ شاٹ لینے کے لیے برسٹ شاٹ لیں"</string>
+	<!---->
+	<string name="help_tip_camera_key_context">"تصاویر لینے کے لیے \"کمیرہ کلید"\ کا استعمال کریں یا برسٹ شاٹ کے لیے دیری تک دبائیں"</string>
+	<!---->
+	<string name="help_tip_recent_context">"اپنی حالیہ تصویریں دیکھنے کے لیے یہاں چھوئیں"</string>
+	<!---->
+	<string name="help_tip_startvideo_context">"ایک ویڈیو ریکارڈ کرنا شروع کرنے کے لیے یہاں چھوئیں"</string>
+	<!---->
+	<string name="help_tip_videosnap_context">"ریکارڈنگ کے وقت تصویر لینے کے لیے یہاں چھوئیں"</string>
+	<!---->
+	<string name="help_tip_stopvideo_context">"ریکارڈنگ روکنے اور ویڈیو محفوظ کرنے کے لیے یہاں چھوئیں"</string>
+	<!---->
+	<string name="help_tip_switch_front_context">"سیلفی موڈ کھولنے کے لیے یہاں چھوئیں"</string>
+	<!---->
+	<string name="help_tip_gesture_tip_context">"ایک تصویر لینے کے لیے، کیمرہ کے سامنے اپنی ہاتھ کی ہتھیلی دکھائیں۔"</string>
+	<!---->
+	<string name="help_tip_pinch_zoom_context">"ویو فائنڈر پر زوم ان/آؤٹ کرنے کے لیے ان/آؤٹ پنچ کریں"</string>
+	<!---->
+	<string name="help_tip_quick_switch_context">"فنکشن آن/آف کرنے کے لیے ان آئکنز کو چھوئیں"</string>
+	<!---->
+	<string name="help_tip_settings_context">"کیمرہ سیٹنگز پر جانے کے لیے یہاں چھوئیں"</string>
+	<!---->
+	<string name="help_tip_mode_context">"کمیرہ موڈ تبدیل کرنے کے لیے ویو فائنڈر پر بائیں یا دائیں سوائپ کریں"</string>
+	<!---->
+	<string name="help_tip_panorama_context">"ڈائریکشن سوئچ کرنے کے لیے پیش منظر بار پر چھوئیں"</string>
+	<!---->
+	<string name="help_tip_manual_context">"دستی موڈ اختیار کو تبدیل کرنے کے لیے ایک آئکن کو چھوئیں"</string>
+	<!---->
+	<string name="help_tip_manual_menu_context">"دستی موڈ کے لیے اختیارات دکھانے یا چھپانے کے لیے چھوئیں"</string>
+	<!---->
+	<string name="help_tip_got_it_text">"برخاست کریں"</string>
+	<!---->
+	<string name="help_tip_dismiss_text">"برخاست کریں"</string>
+	<!---->
+	<string name="help_tip_skip_all_text">"تمام کو اسکپ کریں"</string>
+	<!---->
+	<string name="optimize_saving_hint">"تصویر کی فروغ دینا"</string>
+	<!---->
+	<string name="wrapper_button_desc">"بڑھانے کا بٹن"</string>
+	<!---->
+	<string name="restore_settings_dialog_msg">"کیمرہ کو فیکٹری ترتیبات پر ری سیٹ کریں؟"</string>
+	<!---->
+	<string name="restore_settings_dialog_yes">"ری سیٹ"</string>
+	<!---->
+	<string name="restore_settings_dialog_no">"منسوخ"</string>
+	<!---->
+	<string name="permission_title">"کیمرے کو اجازت درکار ہے"</string>
+	<!---->
+	<string name="permission_content">"اجازتیں دینے کے لیے یہاں ٹچ کریں۔"</string>
+	<plurals name="instant_capture_photos">
+		<item quantity="one">"<xliff:g id="step_count">%1$d</xliff:g> تصویر"</item>
+		<item quantity="other">"<xliff:g id="step_count">%1$d</xliff:g> تصاویر"</item>
+	</plurals>
+	<!-- no translation found for photos -->
+	<skip />
+	<!---->
+	<string name="delete_selection_burst">"اس برسٹ تسلسل میں %s تصاویر ہیں. ان میں سے تمام کو حذف کریں؟"</string>
+	<!---->
+	<string name="flash_with_superzoom_toast">"سوپر زوم آن رہنے کی صورت میں فلیش کا استعمال کرنے سے قاصر"</string>
+	<!---->
+	<string name="battery_warning_title">"بوم تصویر نہیں لے سکتے"</string>
+	<!---->
+	<string name="battery_warning_content">"کم اسٹوریج کے ساتھ تصویر نہیں لے سکتے"</string>
+	<!---->
+	<string name="phone_storage_low_for_alert_dialog">"فون اسٹوریج میں جگہ کم ہے۔ کیمرہ بند ہو جائے گا۔"</string>
+	<!---->
+	<string name="sd_card_low_for_alert_dialog">"SD کارڈ اسٹوریج میں جگہ کم ہے۔ کیمرہ بند ہو جائے گا۔"</string>
+	<!---->
+	<string name="camera_error_title_alert_dialog">"اسٹوریج بھرگیا ہے"</string>
+	<!---->
+	<string name="storage_low_close_alert_dialog">"بند کریں"</string>
+	<!---->
+	<string name="storage_low_phone_full_no_sdcard_alert_dialog">"فون اسٹوریج بھرا ہوا ہے۔ کچھ جگہ خالی کریں یا SD کارڈ داخل کریں۔"</string>
+	<!---->
+	<string name="storage_low_phone_sdcard_full_alert_dialog">"فون اور SD اسٹوریج بھرا ہوا ہے۔ کیمرہ کا استعمال کرنے کے لیے کچھ جگہ خالی کریں۔"</string>
+	<!---->
+	<string name="storage_low_phone_full_sdcard_ok_alert_dialog">"فون اسٹوریج بھرا ہوا ہے۔ SD کارڈ میں محفوظ کریں؟"</string>
+	<!---->
+	<string name="storage_low_storage_full_phone_ok_alert_dialog">"SD کارڈ بھرا ہوا ہے۔ فون اسٹوریج پر محفوظ کریں؟"</string>
+	<!---->
+	<string name="storage_low_phone_full_sdcard_ok_button">"SD کا استعمال کریں"</string>
+	<!---->
+	<string name="storage_low_storage_full_phone_ok_button">"فون اسٹوریج کا استعمال کریں"</string>
+	<!-- no translation found for storage_low_storage_critical_toast_message -->
+	<skip />
+	<!-- no translation found for storage_low_video_critical_toast_message -->
+	<skip />
+	<!---->
+	<string name="pref_camera_antibanding_title">"بینڈنگ مخالف"</string>
+	<!---->
+	<string name="pref_camera_antibanding_entry_0">"آف"</string>
+	<!---->
+	<string name="pref_camera_antibanding_entry_1">"50Hz"</string>
+	<!---->
+	<string name="pref_camera_antibanding_entry_2">"60Hz"</string>
+	<!---->
+	<string name="pref_camera_antibanding_entry_3">"خودکار"</string>
+	<!---->
+	<string name="storage_warning_content">"کم بیٹری کے ساتھ تصویر نہیں لے سکتے"</string>
+	<!---->
+	<string name="storage_and_battery_warning_content">"کم بیٹری اور کم اسٹوریج کے ساتھ تصویر نہیں لے سکتے"</string>
+	<!---->
+	<string name="remote_content">"پہننے کے قابل ڈیوائس میں تصویریں لیں"</string>
+	<!---->
+	<string name="boom_key_press">"دبائیں"</string>
+	<!---->
+	<string name="boom_key">"بوم کلید"</string>
+	<!---->
+	<string name="location_service_dialog_title">"جی پی ایس آف"</string>
+	<!---->
+	<string name="location_service_dialog_msg">"تصویروں اور ویڈیوز کو مقام کے ساتھ ٹیگ کرنے کے لیے براہ کرم مقام کی سیٹنگز میں جی پی ایس اور وائرلیس نیٹ ورکس آن کریں۔"</string>
+	<!---->
+	<string name="location_service_dialog_cancel">"منسوخ"</string>
+	<!---->
+	<string name="location_service__dialog_setting">"ترتیبات"</string>
+	<!---->
+	<string name="gestureshot_guide_capture">"حرکت کیپچر: حرکت کی شناخت ہونے پر خود کار کیپچر کریں:"</string>
+	<!-- no translation found for mode_filters -->
+	<skip />
+	<!-- no translation found for mode_pose -->
+	<skip />
+	<!-- no translation found for video_recording_paused -->
+	<skip />
+	<!-- no translation found for pose_final_icon -->
+	<skip />
+	<!-- no translation found for time_left -->
+	<skip />
+	<!-- no translation found for pref_camera_auto_hdr_title -->
+	<skip />
+	<!-- no translation found for pref_camera_timer_entry_0 -->
+	<skip />
+	<!-- no translation found for pref_camera_timer_unit_suffix -->
+	<skip />
+	<!-- no translation found for pref_camera_face_beauty_summary -->
+	<skip />
+	<!-- no translation found for pref_camera_mirror_selfie_summary -->
+	<skip />
+	<!-- no translation found for pref_camera_pose_summary -->
+	<skip />
+	<!-- no translation found for mode_360_photo -->
+	<skip />
+	<!-- no translation found for panorama_preview_holder_info_text -->
+	<skip />
+	<!-- no translation found for back -->
+	<skip />
+	<!-- no translation found for gallery_name -->
+	<skip />
+	<!---->
+	<string name="audio_record_on_desc">"مائکروفون"</string>
+	<!-- no translation found for audio_record_off_desc -->
+	<skip />
+</resources>

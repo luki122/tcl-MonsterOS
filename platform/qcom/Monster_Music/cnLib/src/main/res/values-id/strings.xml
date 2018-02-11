@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Tue May 12 16:20:12 CST 2015
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!-- no translation found for lib_name -->
+	<skip />
+	<!---->
+	<string name="ok">"OK"</string>
+	<!---->
+	<string name="cancel">"Batal"</string>
+	<!---->
+	<string name="set">"Atur"</string>
+	<!---->
+	<string name="yes">"Ya"</string>
+	<!---->
+	<string name="no">"Tidak"</string>
+	<!---->
+	<string name="the_external_memory_storage_is_not_mounted">"Memori eksternal tidak dipasang. Anda harus menonaktifkan Memori USB."</string>
+	<!---->
+	<string name="recording_duration_is_limited_to_15_seconds">"Durasi rekaman diibatasi menjadi 15 detik"</string>
+	<!---->
+	<string name="an_error_occurs_while_recording">"Terjadi kesalahan saat merekam"</string>
+	<!---->
+	<string name="cross_dj_saturated_storage_not_enough_free_space_to_record_your_mix">"Memori tidak cukup untuk merekam campuran Anda."</string>
+	<!---->
+	<string name="cross_dj_saturated_storage_your_recording_might_stop_soon_because_no_more_free_space_is_available">"Rekaman Anda akan segera dihentikan karena memori hampir habis."</string>
+	<!---->
+	<string name="recording_soon_to_reach_max_duration">"Rekaman hampir mencapai durasi maksimal. Periksa preferensi Anda."</string>
+	<!---->
+	<string name="recording_reached_max_duration">"Rekaman telah mencapai durasi maksimal. Periksa preferensi Anda."</string>
+	<!---->
+	<string name="record_is_not_available_in_external_mixer_mode">"Rekaman tidak tersedia dalam Mode Mixer Eksternal"</string>
+	<!---->
+	<string name="no_error">"Tidak ada kesalahan"</string>
+	<!---->
+	<string name="file_too_big_to_be_loaded_into_memory">"File terlalu besar untuk dimuat ke memori."</string>
+	<!---->
+	<string name="the_remote_track_is_too_long_exceed_the_20_minutes_limit">"Trek remote terlalu panjang (melebihi batas 20 menit)"</string>
+	<!---->
+	<string name="there_s_not_enough_space_in_your_internal_storage_try_to_do_some_clean_up">"Sisa memori internal tidak cukup (cobalah mengosongkan sebagian ruang memori)"</string>
+	<!---->
+	<string name="the_format_is_unknown">"Format tidak diketahui"</string>
+	<!---->
+	<string name="the_file_is_invalid">"File tidak valid"</string>
+	<!---->
+	<string name="file_not_found">"File tidak ditemukan"</string>
+	<!---->
+	<string name="check_your_audio_settings">"Periksa pengaturan audio Anda"</string>
+	<!---->
+	<string name="unspecified_error">"Kesalahan tak diketahui"</string>
+	<!---->
+	<string name="track_error">"Kesalahan trek"</string>
+	<!---->
+	<string name="invalid_track">"Trek tidak valid"</string>
+	<!---->
+	<string name="the_format_is_not_supported_on_android">"Format tidak didukung di Android"</string>
+	<!---->
+	<string name="mix_your_music">"Campur musik Anda!"</string>
+	<!---->
+	<string name="cannot_specify_an_empty_name_for_playlist">"Nama daftar putar tidak boleh kosong"</string>
+	<!---->
+	<string name="playlist_name_already_exists_">"Nama daftar putar sudah ada"</string>
+	<!---->
+	<string name="there_was_an_issue_during_playlist_creation">"Terdapat masalah selama membuat daftar putar"</string>
+	<!---->
+	<string name="loading">"Sedang memuat..."</string>
+	<!---->
+	<string name="auth_no_username_password">"Tulis nama pengguna dan sandi untuk login."</string>
+	<!---->
+	<string name="auth_wrong_username_password">"Nama pengguna atau sandi salah"</string>
+	<!---->
+	<string name="auth_problem_during_authentification">"Terdapat masalah selama otentikasi"</string>
+	<!---->
+	<string name="never_show_it_again">"Jangan tampilkan lagi"</string>
+	<!---->
+	<string name="dialogtitle_rdio_not_unlimited">"Dapatkan akun premium."</string>
+	<!---->
+	<string name="dialogtitle_rdio_anonymous">"Dapatkan akun premium."</string>
+	<!-- no translation found for dialogtitle_rdio_get_premium -->
+	<skip />
+	<!-- no translation found for rdio_anonymous_usage_description -->
+	<skip />
+	<!---->
+	<string name="log_in">"Log masuk"</string>
+	<!-- no translation found for sign_up -->
+	<skip />
+	<!-- no translation found for dialog_wifi_only_stream_title -->
+	<skip />
+	<!-- no translation found for dialog_wifi_only_stream_message -->
+	<skip />
+	<!---->
+	<string name="no_transition_mode">"Jangan dicampur"</string>
+	<!---->
+	<string name="manual_transition_mode">"Campur manual"</string>
+	<!---->
+	<string name="auto_transition_mode">"Campur otomatis"</string>
+	<!---->
+	<string name="crossfader_transition_mode">"Crossfade"</string>
+	<!-- no translation found for the_track_cannot_be_played -->
+	<skip />
+	<!---->
+	<string name="scratching_is_disabled_in_no_mix_mode">"Menggaruk dimatikan dalam mode Jangan Dicampur"</string>
+	<!-- no translation found for usb_connection_failure -->
+	<skip />
+	<!-- no translation found for no_device_detected -->
+	<skip />
+	<!-- no translation found for connection_to_device_succeed -->
+	<skip />
+	<!-- no translation found for usb_device -->
+	<skip />
+	<!-- no translation found for the_connected_device_is_unknown -->
+	<skip />
+	<!---->
+	<string name="invalid_drm_file">"File tidak memiliki otoritas DRM yang valid!"</string>
+	<!---->
+	<string name="drm_file_is_not_allowed">"File DRM tidak boleh diputar di mode campur"</string>
+	<!---->
+	<string name="unable_to_load_track">"Tidak dapat memuat %s"</string>
+	<!---->
+	<string name="record_default_name">"Rekam_"</string>
+	<!---->
+	<string name="dj_mode_title">"Mode : %s"</string>
+</resources>

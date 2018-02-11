@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/toast_layout_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="@dimen/toast_layout_left"
+    android:layout_marginRight="@dimen/toast_layout_right"
+    android:background="@drawable/bg_indicator_background"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text_cn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingEnd="@dimen/toast_paddingEnd"
+        android:paddingStart="@dimen/toast_paddingStart"
+        android:textColor="@color/toast_textcolor"
+        android:visibility="gone" />
+</LinearLayout>

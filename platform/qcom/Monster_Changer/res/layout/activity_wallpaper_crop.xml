@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mst="http://schemas.android.com/apk/res/com.mst"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    >
+
+    <com.mst.wallpaper.widget.CropViewPager
+        android:id="@+id/wallpaper_crop_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <mst.widget.toolbar.Toolbar
+        android:id="@+id/crop_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:layout_gravity="top"
+        mst:navigationIcon="@com.mst:drawable/ic_toolbar_back"
+        mst:title="@string/wallpaper_crop_title"
+        mst:titleTextColor="#ffffff"
+        android:background="@color/preview_action_bar_background" />
+
+    <LinearLayout
+        android:id="@+id/wallpaper_crop_bottom_bar"
+        android:layout_width="match_parent"
+        android:layout_height="92dp"
+        android:layout_gravity="bottom"
+        android:gravity="center_vertical"
+        android:background="@drawable/wallpaper_crop_bottom_bar_bg" 
+        android:paddingBottom="@dimen/navigation_bar_height"
+        >
+
+        <ImageView
+            android:id="@+id/wallpaper_crop_previous"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="center"
+            android:layout_weight="1"
+            android:tint="@color/previous_btn_tint_disable"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/wallpaper_crop_previous" />
+
+        <ImageView
+            android:id="@+id/wallpaper_crop_next"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+             android:scaleType="center"
+            android:layout_weight="1"
+            android:tint="@android:color/white"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/wallpaper_crop_next" />
+    </LinearLayout>
+	<include layout="@layout/time_widget_layout"
+	    android:layout_gravity="top"
+	    />
+</FrameLayout>

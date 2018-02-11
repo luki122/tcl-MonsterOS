@@ -1,0 +1,42 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Theme.Light" parent="com.mst:style/Theme.Mst.Material.Light">
+        <item name="android:toolbarStyle">@style/ToolbarStyle</item>
+    </style>
+
+    <style name="ToolbarStyle" parent="@com.mst:style/ToolbarStyle">
+        <item name="com.mst:title">@string/notify_clean_title</item>
+    </style>
+
+    <style name="MyToolbarStyle" parent="com.mst:style/Theme.Mst.Material.Light">
+        <item name="android:toolbarStyle">@style/ToolbarStyle</item>
+        <item name="com.mst:windowLayoutStyle">@style/Style.MstActivity</item>
+    </style>
+
+    <integer name="preference_scrollbar_style">33554432</integer>
+
+    <style name="TextAppearance.Switch" parent="@android:style/TextAppearance.Material.Title" />
+
+    <!-- MstActivity的主题样式 -->
+    <style name="Theme.MstActivity" parent="@com.mst:style/Theme.Mst.Material.Light">
+        <item name="com.mst:windowLayoutStyle">@style/Style.MstActivity</item>
+        <item name="android:toolbarStyle">@style/Style.MstActivity.ToolbarStyle</item>
+    </style>
+    <!--
+        设置是否显示返回按钮，如果不在主题里面定义的话可以通过在
+        java代码中调用{@link mst.app.MstActivity.showBackIcon(boolean show)
+        来显示
+    -->
+    <style name="Style.MstActivity" parent="com.mst:WindowStyle.Light">
+        <item name="com.mst:hasBackIcon">true</item>
+    </style>
+    <!--
+        设置Toolbar的标题，如果不在主题里面设置的话可以在java
+        代码中调用{@link mst.app.MstActivity.setTitle()
+        来设置
+    -->
+    <style name="Style.MstActivity.ToolbarStyle" parent="com.mst:style/ToolbarStyle">
+        <item name="com.mst:title">MstActivityDemo</item>
+    </style>
+
+</resources>

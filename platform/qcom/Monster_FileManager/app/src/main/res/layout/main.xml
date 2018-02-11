@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mst="http://schemas.android.com/apk/res/com.mst"
+    android:fitsSystemWindows="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <mst.widget.toolbar.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        mst:layout_scrollFlags="scroll|enterAlways"
+        android:background="?android:attr/colorPrimary"
+        android:fitsSystemWindows="true"
+        android:elevation="0dp">
+
+        <!-- The actionbar custom view-->
+
+        <include layout="@layout/actionbar_custom_view" />
+
+    </mst.widget.toolbar.Toolbar>
+
+    <LinearLayout
+        android:id="@+id/file_path_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/main_filepathbrower_height"
+        android:paddingLeft="@dimen/main_filepathbrower_margin"
+        android:paddingRight="@dimen/main_filepathbrower_margin"
+        android:layout_below="@id/my_toolbar">
+
+        <cn.tcl.filemanager.view.HorizontalListView
+            android:id="@+id/listview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:stackFromBottom="true">
+        </cn.tcl.filemanager.view.HorizontalListView>
+    </LinearLayout>
+
+<RelativeLayout
+    android:id="@+id/bottom_bar"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_alignParentBottom="true"
+    android:visibility="gone">
+
+    <mst.view.menu.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_add_cancle"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:maxHeight="50dp"
+        mst:menu="@menu/encrypt_add_cancle"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone"/>
+
+    <mst.view.menu.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_paste_cancle"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:maxHeight="50dp"
+        mst:menu="@menu/paste_cancle_menu"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone"/>
+
+    <mst.view.menu.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation_view"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:maxHeight="50dp"
+        mst:menu="@menu/edit_menu"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone"/>
+
+</RelativeLayout>
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/my_toolbar"
+        android:layout_above="@id/bottom_bar"
+        android:background="@android:color/white">
+
+        <!-- The main content view -->
+
+        <RelativeLayout
+            android:id="@+id/content_frame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/shadow"
+                style="?android:attr/actionButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="7dp"
+                android:clickable="false"
+                android:src="@drawable/fm_bar_shadow" />
+
+            <FrameLayout
+                android:id="@+id/layout_main_frame"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/shadow" />
+        </RelativeLayout>
+
+    </android.support.v4.widget.DrawerLayout>
+
+    <include layout="@layout/floating_action_button" />
+
+</RelativeLayout>

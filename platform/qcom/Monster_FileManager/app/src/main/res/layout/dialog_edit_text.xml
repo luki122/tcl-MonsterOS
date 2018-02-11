@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rename_layout"
+    android:layout_width="260dp"
+    android:layout_height="58dp"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/edit_text"
+        style="@style/rectangleEdittextStyle"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginEnd="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:inputType="textCapSentences|textNoSuggestions"
+        android:textSize="@dimen/edit_text_view_text_size"
+        android:singleLine="true"
+        android:background="@com.mst:drawable/edit_text_material" />
+
+      <!--<TextView-->
+        <!--android:layout_marginEnd="17dp"-->
+        <!--android:layout_marginStart="22dp"-->
+        <!--android:layout_width="245dp"-->
+        <!--android:layout_height="1dp"-->
+        <!--android:background="#757575" />-->
+
+    <TextView
+        android:id="@+id/rename_limit"
+        android:layout_marginEnd="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:fontFamily="monster-normal"
+        android:singleLine="true"
+        android:layout_gravity="left"
+        android:textSize="12dp"
+        android:visibility="gone"
+        android:text="@string/rename_limit"/>
+
+</LinearLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!-- [BUGFIX]-Add by TCTNJ,xing.yuan, 2015-08-19,PR1069012 begin -->
+    <!--<item
+      android:id="@id/action_shuffle"
+      android:showAsAction="withText|ifRoom"
+      android:title="@string/shuffle"
+      android:visible="false"/>-->
+    <!-- [BUGFIX]-Add by TCTNJ,xing.yuan, 2015-08-19,PR1069012 end -->
+    <item
+        android:id="@id/favorite_playlist"
+        android:title="@string/favorite_playlist"
+        app:showAsAction="withText|ifRoom"/>
+    <item
+        android:id="@id/action_play_next"
+        android:title="@string/play_next"
+        app:showAsAction="withText|ifRoom"/>
+    <item
+        android:id="@id/action_add_to_playlist"
+        android:title="@string/add_to_playlist"
+        app:showAsAction="withText|ifRoom"/>
+    <item
+        android:id="@id/action_go_to_artist"
+        android:title="@string/go_to_artist"
+        app:showAsAction="withText|ifRoom"/>
+    <item
+        android:id="@id/action_go_to_album"
+        android:title="@string/go_to_album"
+        app:showAsAction="withText|ifRoom"/>
+    <item
+        android:id="@id/action_as_ringtone"
+        android:title="@string/use_as_ringtone"
+        app:showAsAction="withText|ifRoom"/>
+    <item
+        android:id="@id/action_share"
+        android:title="@string/share"
+        app:showAsAction="withText|ifRoom"/>
+    <item
+        android:id="@id/action_remove"
+        android:title="@string/delete"
+        app:showAsAction="withText|ifRoom"/>
+    <item
+        android:id="@id/action_change_hide"
+        android:title="@string/hide_from_library"
+        app:showAsAction="withText|ifRoom"
+        />
+    <item
+        android:id="@id/action_add_to_queue"
+        android:title="@string/add_to_play_queue"
+        app:showAsAction="withText|ifRoom"/>
+
+    <!--//[BUGFIX]-Modify by TCTNJ,liuqiang.song, 2015-3-16,PR937329 begin -->
+    <!--<item
+        android:id="@id/action_change_hide"
+        android:showAsAction="withText|ifRoom"
+        android:title="@string/hide_from_library"
+        />
+    &lt;!&ndash;//[BUGFIX]-Mod by TCTNJ,huiyuan.wang, 2015-06-19,PR996621 begin &ndash;&gt;
+    <item
+        android:id="@id/action_change_edit"
+        android:showAsAction="withText|ifRoom"
+        android:title="@string/edit"
+        />-->
+    <!-- [BUGFIX]-Add by TCTNJ,xiaolong.zhang, 2015-06-01,PR1009239  begin -->
+    <item
+        android:id="@id/action_change_unhide"
+        android:title="@string/unhide"
+        android:visible="false"
+        app:showAsAction="withText|ifRoom"
+        />
+    <!-- [BUGFIX]-Add by TCTNJ,xiaolong.zhang, 2015-06-01,PR1009239  end -->
+    <!--//[BUGFIX]-Modify by TCTNJ,liuqiang.song, 2015-3-16,PR937329 end -->
+    <!--//[BUGFIX]-Mod by TCTNJ,huiyuan.wang, 2015-06-19,PR996621 end -->
+</menu>

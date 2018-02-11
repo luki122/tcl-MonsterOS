@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Wed Jan 21 14:22:25 CST 2015
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"Filstyring"</string>
+	<!---->
+	<string name="new_folder">"Indtast mappenavn"</string>
+	<!---->
+	<string name="confirm_rename">"Bekræft omdøbning"</string>
+	<!---->
+	<string name="warning">"Advarsel"</string>
+	<!---->
+	<string name="share_warning">"Der må maks. være 100 filer, hvis de skal deles."</string>
+	<!---->
+	<string name="pasting">"Indsætter"</string>
+	<!---->
+	<string name="loading">"Indlæser ..."</string>
+	<!---->
+	<string name="deleting">"Sletter"</string>
+	<!---->
+	<string name="alert_delete_multiple">"De valgte filer vil blive slettet"</string>
+	<!---->
+	<string name="alert_delete_single">"Vil du slette den valgte fil?"</string>
+	<!---->
+	<string name="name">"Navn"</string>
+	<!---->
+	<string name="size">"Størrelse"</string>
+	<!---->
+	<string name="modified_time">"Ændret"</string>
+	<!---->
+	<string name="readable">"Læsbar："</string>
+	<!---->
+	<string name="executable">"Programfil:"</string>
+	<!---->
+	<string name="writable">"Skrivbar："</string>
+	<!---->
+	<string name="msg_rename_ext">"Du ændrer filtypenavnet, hvilket kan forårsage, at filen ikke genkendes. Er du sikker på, du vil gøre det?"</string>
+	<!---->
+	<string name="wait">"Vent ..."</string>
+	<!---->
+	<string name="add_favorite">"Føj til favoritmappe"</string>
+	<!---->
+	<string name="del_favorite">"Slet fra favoritmappe"</string>
+	<!---->
+	<string name="done">"Udfør"</string>
+	<!---->
+	<string name="cancel">"Annuller"</string>
+	<!---->
+	<string name="no">"Nej"</string>
+	<!---->
+	<string name="ok">"OK"</string>
+	<!---->
+	<string name="yes">"Ja"</string>
+	<!---->
+	<string name="sort_by">"Sortér efter"</string>
+	<!---->
+	<string name="copy">"Kopier"</string>
+	<!---->
+	<string name="create_folder">"Opret"</string>
+	<!---->
+	<string name="cut">"Klip"</string>
+	<!---->
+	<string name="delete">"slet"</string>
+	<!---->
+	<string name="favourite">"Føj til favoritter"</string>
+	<!---->
+	<string name="details">"Detaljer"</string>
+	<!---->
+	<string name="paste">"Indsæt"</string>
+	<!---->
+	<string name="rename">"Omdøb"</string>
+	<!---->
+	<string name="view_by">"Vis efter"</string>
+	<!---->
+	<string name="show_hide">"Vis/Skjul"</string>
+	<!---->
+	<string name="deselect_all">"Fjern markering af alle"</string>
+	<!---->
+	<string name="select_all">"Vælg alle"</string>
+	<!---->
+	<string name="share">"Del"</string>
+	<!---->
+	<string name="sort">"Sortér"</string>
+	<!---->
+	<string name="more">"Flere"</string>
+	<!---->
+	<string name="search">"Søg"</string>
+	<!---->
+	<string name="show_file">"Vis skjulte filer"</string>
+	<!---->
+	<string name="hide_file">"Skjul skjulte filer"</string>
+	<!---->
+	<string name="drawer_open">"Åbn"</string>
+	<!---->
+	<string name="viewby_list">"Vis som liste"</string>
+	<!---->
+	<string name="viewby_grid">"Vis efter gitter"</string>
+	<!---->
+	<string name="viewby_details">"Vis efter detaljer"</string>
+	<!---->
+	<string name="sort_type">"Sorter efter type"</string>
+	<!---->
+	<string name="sort_name">"Sorter"</string>
+	<!---->
+	<string name="sort_size">"Sorter efter størrelse (stor-lille)"</string>
+	<!---->
+	<string name="sort_time">"Sorter efter tids (ny-gammel)"</string>
+	<!---->
+	<string name="unknown">"Ukendt"</string>
+	<!---->
+	<string name="selected">"Valgt"</string>
+	<!---->
+	<string name="save">"Gem"</string>
+	<!---->
+	<string name="send_file">"Send fil"</string>
+	<!---->
+	<string name="empty_msg">"(Tom mappe)"</string>
+	<!---->
+	<string name="default_search_text">"Søg filer"</string>
+	<!---->
+	<string name="free_space">"Ledig"</string>
+	<!---->
+	<string name="total_space">"Plads i alt"</string>
+	<!---->
+	<string name="search_files">"Søg filer"</string>
+	<!---->
+	<string name="search_result_count">"fundet"</string>
+	<!---->
+	<string name="drawer_category">"Kategori"</string>
+	<!---->
+	<string name="phone_storage">"Telefonlager"</string>
+	<!---->
+	<string name="sd_card">"SD-kort"</string>
+	<!---->
+	<string name="drawer_settings">"Indstillinger"</string>
+	<!---->
+	<string name="menu_settings">"Indstillinger"</string>
+	<!---->
+	<string name="no_search_result">"0 resultat(er) for \"%1$s\""</string>
+	<!---->
+	<string name="category_pictures">"Billeder"</string>
+	<!---->
+	<string name="category_vedios">"Videoer"</string>
+	<!---->
+	<string name="category_music">"Musik"</string>
+	<!---->
+	<string name="category_docs">"Dokumenter"</string>
+	<!---->
+	<string name="category_apks">"APK\'er"</string>
+	<!---->
+	<string name="category_archives">"Arkiver"</string>
+	<!---->
+	<string name="category_download">"Downloads"</string>
+	<!---->
+	<string name="category_favorite">"Favoritter"</string>
+	<!---->
+	<string name="category_bluetooth">"Bluetooth"</string>
+	<!---->
+	<string name="category_ringtones">"Ringetoner"</string>
+	<!---->
+	<string name="category_recordings">"Optagelser"</string>
+	<!---->
+	<string name="category_safebox">"Sikkerhedsboks"</string>
+	<!---->
+	<string name="copy_deny">"Ingen tilladelse til kopiering"</string>
+	<!---->
+	<string name="cut_deny">"Ingen tilladelse til at klippe"</string>
+	<!---->
+	<string name="delete_deny">"Ingen tilladelse til at slette"</string>
+	<!---->
+	<string name="insufficient_memory">"Ikke nok plads."</string>
+	<!---->
+	<string name="invalid_empty_name">"Fil eller mappenavn kan ikke være tomt"</string>
+	<!---->
+	<string name="paste_same_folder">"Det er ikke muligt at indsætte i den samme mappe"</string>
+	<!---->
+	<string name="invalid_char_prompt">"Du har indtastet et ugyldigt tegn"</string>
+	<!---->
+	<string name="msg_unable_open_file">"Filformatet understøttes ikke."</string>
+	<!---->
+	<string name="search_text_empty">"Søgeindholdet må ikke være tomt."</string>
+	<!---->
+	<string name="paste_sub_folder">"Det er ikke muligt at indsætte filen i undermappen"</string>
+	<!---->
+	<string name="operation_fail">"En filhandling mislykkedes."</string>
+	<!---->
+	<string name="search_result_title">"Søgeresultat(er)"</string>
+	<!---->
+	<string name="search_result">"%2$d resultat(er) for \"%1$s\""</string>
+	<!---->
+	<string name="already_exists">"%1$s er allerede i brug"</string>
+	<!---->
+	<string name="path_not_exists">"%1$s findes ikke"</string>
+	<!---->
+	<string name="unmounted">"%1$s er ikke isat"</string>
+	<!---->
+	<string name="create_hidden_file">"Filen vil blive skjult, hvis navnet starter med \'.\'"</string>
+	<!---->
+	<string name="modify_hidden_file">"Filen skjules ikke, hvis dens navn ikke begynder med \'.\'."</string>
+	<!---->
+	<string name="file_name_too_long">"Det indtastede navn er for langt"</string>
+	<!---->
+	<string name="paste_fail">"Der kunne ikke indsættes."</string>
+	<!---->
+	<string name="delete_fail">"Sletningen blev ikke udført."</string>
+	<!---->
+	<string name="some_paste_fail">"Indsættelseshandlinger mislykkedes"</string>
+	<!---->
+	<string name="some_delete_fail">"Sletningshandlinger mislykkedes."</string>
+	<!---->
+	<string name="search_empty">"Søgeindholdet må ikke være tomt."</string>
+	<!---->
+	<string name="search_setting_description">"Lokale filer og mapper"</string>
+	<!---->
+	<string name="change_mode">"Vælg fil eller mappe"</string>
+	<!---->
+	<string name="msg_unable_open_file_in_app">"Der er ikke noget program til at åbne filen."</string>
+	<!-- no translation found for drm_protectioninfo_title -->
+	<skip />
+	<!---->
+	<string name="drm_forwardforbidden_title">"Videresend ikke"</string>
+	<!---->
+	<string name="drm_forwardforbidden_message">"DRM-filen kan ikke videresendes."</string>
+	<!---->
+	<string name="drm_no_valid_right">"Filen har ingen gyldig DRM-godkendelse!"</string>
+	<!---->
+	<string name="drm_current_count">"Aktuelt antal："</string>
+	<!---->
+	<string name="unlimited_usage">"Ubegrænset brug"</string>
+	<!---->
+	<string name="drm_current_right">"Aktuel begrænsning："</string>
+	<!---->
+	<string name="not_available">"Ikke tilgængelig"</string>
+	<!---->
+	<string name="right_url">"Webadresse for licensudsteder:："</string>
+	<!---->
+	<string name="use_times">"Brug %s gange"</string>
+	<!---->
+	<string name="valid_after">"Gyldig efter"</string>
+	<!---->
+	<string name="valid_until">"Gyldig indtil"</string>
+	<!---->
+	<string name="drm_wifidisplay_title">"Kopibeskyttede filer"</string>
+	<!---->
+	<string name="drm_wifidisplay_message">"Den kopibeskyttede fil kan ikke distribueres."</string>
+	<!---->
+	<string name="drm_wifidisplay_cancel_btn">"Deaktiver Wi-Di"</string>
+	<!---->
+	<string name="drm_wifidisplay_ok">"OK"</string>
+	<!---->
+	<string name="tv_link_close_toast">"Wi-Di er blevet lukket"</string>
+	<!---->
+	<string name="usbotg">"Eksternt USB-lager"</string>
+	<!---->
+	<string name="show">"Vis systemfiler"</string>
+	<!---->
+	<string name="hide">"Skjul systemfiler"</string>
+	<!---->
+	<string name="action_menu_create_folder_button">"Opret mappe"</string>
+	<!---->
+	<string name="draw_favourite">"favorit"</string>
+	<!---->
+	<string name="unfavourite">"Fjern fra favoritter"</string>
+	<!---->
+	<string name="new_folder_name">"Nyt mappenavn"</string>
+	<!---->
+	<string name="searchResult">"SearchResult"</string>
+	<!---->
+	<string name="view_as_grid">"Vis som gitter"</string>
+	<!---->
+	<string name="view_as_list">"view_as_list"</string>
+	<!---->
+	<string name="sort_by_name">"Navn"</string>
+	<!---->
+	<string name="sort_by_date">"Ændringsdato"</string>
+	<!---->
+	<string name="sort_by_type">"Type"</string>
+	<!---->
+	<string name="sort_by_size">"Vent ..."</string>
+	<!---->
+	<string name="detail_path">"Placering:"</string>
+	<!---->
+	<string name="detail_name">"Filnavn:"</string>
+	<!---->
+	<string name="detail_size">"Filstørrelse:"</string>
+	<!---->
+	<string name="detail_time">"Ændringstid:"</string>
+	<!---->
+	<string name="draw_left_phone_storage">"Telefonlager"</string>
+	<!---->
+	<string name="draw_left_sd_card">"SD-kort"</string>
+	<!-- no translation found for title_activity_main -->
+	<skip />
+	<!-- no translation found for hello_world -->
+	<skip />
+	<!-- no translation found for action_settings -->
+	<skip />
+	<!---->
+	<string name="default_folder_name">"Mappenavn"</string>
+</resources>

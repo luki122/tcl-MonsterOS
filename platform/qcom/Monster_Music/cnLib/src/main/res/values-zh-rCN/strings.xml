@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!-- no translation found for lib_name -->
+	<skip />
+	<!---->
+	<string name="ok">"确定"</string>
+	<!---->
+	<string name="cancel">"取消"</string>
+	<!---->
+	<string name="set">"设置"</string>
+	<!---->
+	<string name="yes">"是"</string>
+	<!---->
+	<string name="no">"否"</string>
+	<!---->
+	<string name="the_external_memory_storage_is_not_mounted">"外部存储器安装失败，无法使用USB存储器"</string>
+	<!---->
+	<string name="recording_duration_is_limited_to_15_seconds">"录音时间限制为15s"</string>
+	<!---->
+	<string name="an_error_occurs_while_recording">"录音时发生错误"</string>
+	<!---->
+	<string name="cross_dj_saturated_storage_not_enough_free_space_to_record_your_mix">"没有足够存储空间录制您的混音"</string>
+	<!---->
+	<string name="cross_dj_saturated_storage_your_recording_might_stop_soon_because_no_more_free_space_is_available">"没有更多存储空间，您的录制即将停止"</string>
+	<!---->
+	<string name="recording_soon_to_reach_max_duration">"录音时间将达到上限，请检查您的参数设置"</string>
+	<!---->
+	<string name="recording_reached_max_duration">"录音时间已达到上限，请检查您的参数设置"</string>
+	<!---->
+	<string name="record_is_not_available_in_external_mixer_mode">"在外部混音模式下，录音不可用"</string>
+	<!---->
+	<string name="no_error">"没有错误"</string>
+	<!---->
+	<string name="file_too_big_to_be_loaded_into_memory">"文件过大不能加载到存储器中。"</string>
+	<!---->
+	<string name="the_remote_track_is_too_long_exceed_the_20_minutes_limit">"远程音乐过长（超过20分钟时限）"</string>
+	<!---->
+	<string name="there_s_not_enough_space_in_your_internal_storage_try_to_do_some_clean_up">"内存空间不足（请清理内存）"</string>
+	<!---->
+	<string name="the_format_is_unknown">"未知格式"</string>
+	<!---->
+	<string name="the_file_is_invalid">"文件无效"</string>
+	<!---->
+	<string name="file_not_found">"无法查找到文件"</string>
+	<!---->
+	<string name="check_your_audio_settings">"检查音频设置"</string>
+	<!---->
+	<string name="unspecified_error">"不明类型错误"</string>
+	<!---->
+	<string name="track_error">"音频文件出错"</string>
+	<!---->
+	<string name="invalid_track">"无效音频文件"</string>
+	<!---->
+	<string name="the_format_is_not_supported_on_android">"安卓不支持的格式"</string>
+	<!---->
+	<string name="the_permission_of_storage">"请先赋予读取存储的权限，以确保音乐功能正常播放"</string>
+	<!---->
+	<string name="can_not_play_in_dj_mode">"在DJ模式下不能播放该音乐"</string>
+	<!---->
+	<string name="mix_your_music">"混合您的音乐！"</string>
+	<!---->
+	<string name="cannot_specify_an_empty_name_for_playlist">"列表名不能为空"</string>
+	<!---->
+	<string name="playlist_name_already_exists_">"列表名已存在"</string>
+	<!---->
+	<string name="there_was_an_issue_during_playlist_creation">"创建列表时出错"</string>
+	<!---->
+	<string name="loading">"加载中..."</string>
+	<!---->
+	<string name="auth_no_username_password">"请填写登录名用户和密码"</string>
+	<!---->
+	<string name="auth_wrong_username_password">"用户名或密码错误"</string>
+	<!---->
+	<string name="auth_problem_during_authentification">"认证失败"</string>
+	<!---->
+	<string name="never_show_it_again">"不再提示"</string>
+	<!---->
+	<string name="dialogtitle_rdio_not_unlimited">"获得一个付费的账户"</string>
+	<!---->
+	<string name="dialogtitle_rdio_anonymous">"获得一个付费的账户"</string>
+	<!---->
+	<string name="dialogtitle_rdio_get_premium">"获取附加费帐号"</string>
+	<!---->
+	<string name="rdio_anonymous_usage_description">"免费用户只能试听30秒，付费听整首歌。"</string>
+	<!---->
+	<string name="log_in">"登录"</string>
+	<!---->
+	<string name="sign_up">"登录"</string>
+	<!---->
+	<string name="dialog_wifi_only_stream_title">"WLAN不可用"</string>
+	<!---->
+	<string name="dialog_wifi_only_stream_message">"WLAN不可用时不能播放RADIO歌曲。请关闭“仅支持WLAN联网”。"</string>
+	<!---->
+	<string name="no_transition_mode">"无混音"</string>
+	<!---->
+	<string name="manual_transition_mode">"手动混音"</string>
+	<!---->
+	<string name="auto_transition_mode">"自动混音"</string>
+	<!---->
+	<string name="crossfader_transition_mode">"渐进渐入"</string>
+	<!---->
+	<string name="the_track_cannot_be_played">"歌曲不能播放"</string>
+	<!---->
+	<string name="scratching_is_disabled_in_no_mix_mode">"擦碟仅在DJ模式时支持"</string>
+	<!---->
+	<string name="usb_connection_failure">"USB连接失败"</string>
+	<!---->
+	<string name="no_device_detected">"没有检测到设备。"</string>
+	<!---->
+	<string name="connection_to_device_succeed">"成功连接到%s"</string>
+	<!---->
+	<string name="usb_device">"USB 设备"</string>
+	<!---->
+	<string name="the_connected_device_is_unknown">"设备不识别。（当前仅支持U-Mix和DDJ-SB 或者WeGo2）。"</string>
+	<!---->
+	<string name="invalid_drm_file">"该文件无有效的DRM权限！"</string>
+	<!---->
+	<string name="drm_file_is_not_allowed">"在混合模式下不允许播放DRM文件"</string>
+	<!---->
+	<string name="unable_to_load_track">"无法加载 %s"</string>
+	<!---->
+	<string name="record_default_name">"录音_"</string>
+	<!---->
+	<string name="dj_mode_title">"模式 ：%s"</string>
+	<!---->
+	<string name="extraCharge_warning_title">"使用移动数据？"</string>
+	<!---->
+	<string name="extracharge_warning_msg">"Deezer将使用移动数据进行在线浏览，可能产生额外费用。如果您不想Deezer使用移动数据，请开启设置/仅支持WLAN联网。"</string>
+	<!---->
+	<string name="extracharge_donot_show_again_msg">"不再显示该信息"</string>
+	<!---->
+	<string name="extracharge_use_mobileData_btn">"使用移动数据"</string>
+	<!---->
+	<string name="subsrcibe_title">"付费"</string>
+	<!---->
+	<string name="subsrcibe_before_end_msg">"免费试用期将在24小时内结束，要付费享有Deezer的完整音乐吗？"</string>
+	<!---->
+	<string name="subsrcibe_end_msg">"免费试用期已结束。付费享有Deezer完整音乐？"</string>
+	<!---->
+	<string name="subsrcibe_for_radio_msg">"免费用户每小时只可跳过5首歌，付费可以解除限制。"</string>
+	<!---->
+	<string name="subscribe_later_btn">"稍后"</string>
+	<!---->
+	<string name="settings_stream_via_wifi_only_win">"要使用移动数据播放Deezer，需先关闭设置中的“仅通过WLAN连接数据流”项目。"</string>
+	<!---->
+	<string name="mobiledata_turnoff_btn">"关闭"</string>
+	<!---->
+	<string name="decode_not_finish">"您处于自动混音模式，请稍等音乐加载。"</string>
+	<!---->
+	<string name="have_not_load_finish">"音乐加载未完成，请稍等..."</string>
+	<!---->
+	<string name="record_minutes">"%d分钟"</string>
+	<!---->
+	<string name="record_minute">"%d分钟"</string>
+	<!---->
+	<string name="song_file_not_found">"文件不存在"</string>
+</resources>

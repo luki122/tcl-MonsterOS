@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:mst="http://schemas.android.com/apk/res/com.mst"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="cn.tcl.note.activity.ShareActivity">
+
+    <View style="@style/toolbar_div_line" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/share_activity_left_right"
+            android:layout_marginRight="@dimen/share_activity_left_right"
+            android:paddingBottom="@dimen/share_activity_top_bottom"
+            android:paddingTop="@dimen/share_activity_top_bottom">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/shadow">
+            <LinearLayout
+                android:id="@+id/share_content_root"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/home_item_background"
+                android:minHeight="@dimen/share_activity_min_height"
+                android:minWidth="@dimen/share_activity_min_wight"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/share_content_add"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:paddingBottom="20dp"
+                    android:paddingTop="@dimen/share_activity_padding_top">
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="295dp"
+                    android:layout_height="1dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="#ffdcdcdc"></View>
+
+                <TextView
+                    android:layout_width="295dp"
+                    android:layout_height="53.3dp"
+                    android:layout_gravity="center_horizontal"
+                    android:fontFamily="monster-normal"
+                    android:gravity="right"
+                    android:paddingTop="7dp"
+                    android:text="@string/share_tcl_flag"
+                    android:textColor="#59000000"
+                    android:textSize="9sp" />
+
+            </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#19000000" />
+
+    <mst.view.menu.bottomnavigation.BottomNavigationView
+        android:id="@+id/share_button"
+        style="@style/toolbar_style"
+        android:background="@color/toolbar"
+        mst:menu="@menu/share_button"/>
+
+</LinearLayout>

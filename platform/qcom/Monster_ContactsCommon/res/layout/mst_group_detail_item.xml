@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mst.widget.SliderView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mst="http://schemas.android.com/apk/res/com.mst"
+    android:id="@+id/slider_view1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    mst:handleEventInParent="true"
+    mst:layout="@com.mst:layout/list_item_1_line_multiple_choice" 
+    android:textColor="@color/mst_list_main_text_color" />

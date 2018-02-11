@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"پیمایش به صفحه اصلی"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"‏%1$s‏، %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"‏%1$s‏، %2$s‏، %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"پیمایش به بالا"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"گزینه‌های بیشتر"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"تمام"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"مشاهده همه"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"انتخاب برنامه"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"خاموش"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"روشن"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"جستجو…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"پاک کردن عبارت جستجو"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"عبارت جستجو"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"جستجو"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"ارسال عبارت جستجو"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"جستجوی شفاهی"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"اشتراک‌گذاری با"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"‏اشتراک‌گذاری با %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"کوچک کردن"</string>
+    <string name="action_menu_create_folder_button">"ایجاد پوشه"</string>
+    <string name="add_favorite">"افزودن به پوشه دلخواه"</string>
+    <string name="alert_delete_multiple">"فایل های انتخاب شده حذف خواهد شد!"</string>
+    <string name="alert_delete_single">"می خواهید فایل انتخابی را حذف کنید؟"</string>
+    <string name="already_exists">"%1$s از قبل در حال استفاده است."</string>
+    <string name="app_name">"مدیر فایل"</string>
+    <string name="cancel">"لغو"</string>
+    <string name="category_apks">"APK ها"</string>
+    <string name="category_archives">"بایگانی ها"</string>
+    <string name="category_bluetooth">"Bluetooth"</string>
+    <string name="category_docs">"Doc ها"</string>
+    <string name="category_download">"دانلودها"</string>
+    <string name="category_favorite">"موارد دلخواه"</string>
+    <string name="category_music">"موسیقی"</string>
+    <string name="category_pictures">"تصاویر"</string>
+    <string name="category_recordings">"موارد ضبط شده"</string>
+    <string name="category_ringtones">"آهنگ هاي زنگ"</string>
+    <string name="category_safebox">"صندوق ایمنی"</string>
+    <string name="category_vedios">"ویدئو ها"</string>
+    <string name="change_mode">"انتخاب فايل يا پوشه"</string>
+    <string name="confirm_rename">"تاييد تغيير نام"</string>
+    <string name="copy">"کپی"</string>
+    <string name="copy_deny">"اجازه کپی وجود ندارد."</string>
+    <string name="create_folder">"ايجاد کردن"</string>
+    <string name="create_hidden_file">"فايل مخفي خواهد بود اگر نام آن با \'.\' شروع شود."</string>
+    <string name="cut">"برش"</string>
+    <string name="cut_deny">"اجازه برش وجود ندارد."</string>
+    <string name="default_folder_name">"نام پوشه"</string>
+    <string name="default_search_text">"جستجوي فايل ها"</string>
+    <string name="del_favorite">"حذف از پوشه دلخواه"</string>
+    <string name="delete">"حذف"</string>
+    <string name="delete_deny">"اجازه حذف کردن وجود ندارد."</string>
+    <string name="delete_fail">"حذف انجام نشد."</string>
+    <string name="deleting">"در حال حذف"</string>
+    <string name="deselect_all">"لغو انتخاب همه"</string>
+    <string name="detail_name">"نام فایل:"</string>
+    <string name="detail_path">"مکان:"</string>
+    <string name="detail_size">"اندازه فایل:"</string>
+    <string name="detail_time">"زمان تغییر کرده:"</string>
+    <string name="details">"جزئیات"</string>
+    <string name="done">"انجام شد"</string>
+    <string name="draw_favourite">"مورد دلخواه"</string>
+    <string name="draw_left_phone_storage">"phtzi jgtk"</string>
+    <string name="draw_left_sd_card">"کارت SD"</string>
+    <string name="drawer_category">"طبقه"</string>
+    <string name="drawer_open">"بازکردن"</string>
+    <string name="drawer_settings">"تنظیمات"</string>
+    <string name="drm_current_count">"تعداد فعلی："</string>
+    <string name="drm_current_right">"محدوديت فعلی："</string>
+    <string name="drm_forwardforbidden_message">"فایل DRM قابل ارسال نيست."</string>
+    <string name="drm_forwardforbidden_title">"ارسال نشد"</string>
+    <string name="drm_no_valid_right">"فايل دارای مجوز DRM معتبر نيست."</string>
+    <string name="drm_wifidisplay_cancel_btn">"خاموش کردن نمایشگر Wi-Fi"</string>
+    <string name="drm_wifidisplay_message">"فایل محافظت شده در برابر کپی قابل توزیع نیست."</string>
+    <string name="drm_wifidisplay_ok">"تایید"</string>
+    <string name="drm_wifidisplay_title">"فایل های محافظت شده در برابر کپی"</string>
+    <string name="empty_msg">"(پوشه خالی)"</string>
+    <string name="executable">"قابل اجرا："</string>
+    <string name="favourite">"اضافه کردن به مورد علاقه ها"</string>
+    <string name="file_name_too_long">"نام ورودي بسيار طولاني است."</string>
+    <string name="free_space">"موجود"</string>
+    <string name="hide">"مخفی کردن فايل های سیستم"</string>
+    <string name="hide_file">"مخفي کردن فايل هاي مخفي"</string>
+    <string name="insufficient_memory">"فضاي ناکافي."</string>
+    <string name="invalid_char_prompt">"شما نويسه نامعتبر وارد کرده ايد."</string>
+    <string name="invalid_empty_name">"نام فایل یا پوشه نباید خالی باشد"</string>
+    <string name="loading">"در حال بارگیری..."</string>
+    <string name="menu_settings">"تنظیمات"</string>
+    <string name="modified_time">"تغییر داده شد"</string>
+    <string name="modify_hidden_file">"فایلی که نام آن با \'.\' آغاز نمی‌شود، مخفی نخواهند شد."</string>
+    <string name="more">"بیشتر"</string>
+    <string name="msg_rename_ext">"شما در حال تغيير دادن پسوند فايل هستيد که ممکن است موجب شناخته نشدن فايل شود. مطمئنيد مي خواهيد اينکار را انجام دهيد؟"</string>
+    <string name="msg_unable_open_file">"فرمت فايل پشتيباني نمي شود."</string>
+    <string name="msg_unable_open_file_in_app">"برنامه اي براي باز کردن فايل موجود نيست"</string>
+    <string name="name">"نام"</string>
+    <string name="new_folder">"وارد کردن نام پوشه"</string>
+    <string name="new_folder_name">"نام پوشه جديد"</string>
+    <string name="no">"خير"</string>
+    <string name="no_search_result">"0 نتیجه برای \"%1$s\""</string>
+    <string name="not_available">"موجود نیست"</string>
+    <string name="ok">"تأييد"</string>
+    <string name="operation_fail">"برخی از عملكردهای فایل انجام نشد."</string>
+    <string name="paste">"جايگذاري"</string>
+    <string name="paste_fail">"جايگذاري انجام نشد."</string>
+    <string name="paste_same_folder">"نمي توانيد در فهرست مشابه جايگذاري کنيد."</string>
+    <string name="paste_sub_folder">"نمي توانيد در پوشه فرعي جايگذاري کنيد"</string>
+    <string name="pasting">"جایگذاری"</string>
+    <string name="path_not_exists">"%1$s موجود نيست."</string>
+    <string name="phone_storage">"حافظه تلفن"</string>
+    <string name="readable">"قابل خواندن："</string>
+    <string name="rename">"تغییر نام"</string>
+    <string name="right_url">"آدرس دهنده مجوز："</string>
+    <string name="save">"ذخیره"</string>
+    <string name="sd_card">"کارت SD"</string>
+    <string name="search">"جستجو"</string>
+    <string name="searchResult">"نتیجه جستجو"</string>
+    <string name="search_empty">"محتواي جستجو نبايد خالي باشد."</string>
+    <string name="search_files">"جستجوي فايل ها"</string>
+    <string name="search_result">"%2$d نتيجه براي \"%1$s\""</string>
+    <string name="search_result_count">"یافت شد"</string>
+    <string name="search_result_title">"جستجوی نتایج"</string>
+    <string name="search_setting_description">"پوشه ها و فايل هاي محلي"</string>
+    <string name="search_text_empty">"محتواي جستجو نبايد خالي باشد."</string>
+    <string name="select_all">"انتخاب همه"</string>
+    <string name="selected">"انتخاب شد"</string>
+    <string name="send_file">"ارسال فایل"</string>
+    <string name="share">"اشتراک گذاری"</string>
+    <string name="share_warning">"فایل های مورد نظر برای اشتراک نباید بیشتر از 100 عدد باشند."</string>
+    <string name="show">"نمایش فايل های سیستم"</string>
+    <string name="show_file">"نمايش فايل هاي مخفي"</string>
+    <string name="show_hide">"نمایش دادن/مخفي کردن"</string>
+    <string name="size">"اندازه"</string>
+    <string name="some_delete_fail">"برخی از عملكردهای حذف انجام نشد."</string>
+    <string name="some_paste_fail">"عملکردها جايگذاري نشدند."</string>
+    <string name="sort">"مرتب سازي"</string>
+    <string name="sort_by">"مرتب سازي بر اساس"</string>
+    <string name="sort_by_date">"داده تغییر کرد"</string>
+    <string name="sort_by_name">"نام"</string>
+    <string name="sort_by_size">"اندازه"</string>
+    <string name="sort_by_type">"نوع"</string>
+    <string name="sort_name">"مرتب سازی بر اساس نام"</string>
+    <string name="sort_size">"مرتب سازی بر اساس اندازه (بزرگ به کوچک)"</string>
+    <string name="sort_time">"مرتب سازی براساس زمان (جدید به قدیم)"</string>
+    <string name="sort_type">"ترتیب بندی بر اساس نوع"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"۹۹۹+"</string>
+    <string name="total_space">"کل فضا"</string>
+    <string name="tv_link_close_toast">"نمایشگر Wi-Fi بسته شده است"</string>
+    <string name="unfavourite">"حذف از مورد علاقه ها"</string>
+    <string name="unknown">"ناشناخته"</string>
+    <string name="unlimited_usage">"استفاده بدون محدودیت"</string>
+    <string name="unmounted">"%1$s نصب نيست"</string>
+    <string name="usbotg">"دستگاه ذخيره USB خارجي"</string>
+    <string name="use_times">"استفاده برای %s بار"</string>
+    <string name="valid_after">"معتبر بعد از"</string>
+    <string name="valid_until">"معتبر تا"</string>
+    <string name="view_as_grid">"مشاهده بصورت شبکه"</string>
+    <string name="view_as_list">"view_as_list"</string>
+    <string name="view_by">"مشاهده بر اساس"</string>
+    <string name="viewby_details">"مشاهده بر اساس جزئیات"</string>
+    <string name="viewby_grid">"مشاهده بر اساس شبکه"</string>
+    <string name="viewby_list">"مشاهده بر اساس ليست"</string>
+    <string name="wait">"لطفاً منتظر بمانید…"</string>
+    <string name="warning">"هشدار"</string>
+    <string name="writable">"قابل نوشتن："</string>
+    <string name="yes">"بله"</string>
+</resources>

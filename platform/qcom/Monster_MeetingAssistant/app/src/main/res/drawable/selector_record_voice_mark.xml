@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/ic_record_voice_mark" android:state_enabled="true"/>
+    <item android:drawable="@drawable/ic_record_voice_mark_disable" android:state_enabled="false"/>
+</selector>

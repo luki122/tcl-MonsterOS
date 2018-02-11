@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"נווט לדף הבית"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"‏%1$s‏, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"‏%1$s‏, %2$s‏, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"נווט למעלה"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"עוד אפשרויות"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"בוצע"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"ראה הכל"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"בחר אפליקציה"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"כבוי"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"פועל"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"חפש…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"מחק שאילתה"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"שאילתת חיפוש"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"חפש"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"שלח שאילתה"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"חיפוש קולי"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"שתף עם"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"‏שתף עם %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"כווץ"</string>
+    <string name="action_menu_create_folder_button">"צור תיקייה"</string>
+    <string name="add_favorite">"הוסף לספריה המועדפת"</string>
+    <string name="alert_delete_multiple">"הקבצים הנבחרים יימחקו!"</string>
+    <string name="alert_delete_single">"הקובץ שנבחר יימחק."</string>
+    <string name="already_exists">"%1$s כבר נמצא בשימוש"</string>
+    <string name="apk_name">"קבצים"</string>
+    <string name="cancel">"ביטול"</string>
+    <string name="category_apks">"קבצי APK"</string>
+    <string name="category_archives">"ארכיונים"</string>
+    <string name="category_audio">"אודיו"</string>
+    <string name="category_bluetooth">"Bluetooth"</string>
+    <string name="category_docs">"מסמכים"</string>
+    <string name="category_download">"הורדות"</string>
+    <string name="category_favorite">"מועדפים"</string>
+    <string name="category_files">"קבצים"</string>
+    <string name="category_music">"מוסיקה"</string>
+    <string name="category_pictures">"תמונות"</string>
+    <string name="category_recordings">"הקלטות"</string>
+    <string name="category_ringtones">"צלצולים"</string>
+    <string name="category_safebox">"כספת"</string>
+    <string name="category_vedios">"סרטוני וידאו"</string>
+    <string name="change_mode">"בחר קובץ או תיקייה"</string>
+    <string name="confirm_rename">"אשר שינוי שם"</string>
+    <string name="copy">"העתק"</string>
+    <string name="copy_deny">"אין רשות להעתיק"</string>
+    <string name="create_folder">"צור"</string>
+    <string name="create_hidden_file">"הקובץ יוסתר אם שמו מתחיל ב-\'.\'"</string>
+    <string name="create_new_folder">"צור תיקייה"</string>
+    <string name="cut">"גזור"</string>
+    <string name="cut_deny">"אין רשות לחתוך"</string>
+    <string name="default_folder_name">"שם תיקייה"</string>
+    <string name="default_search_text">"חפש קבצים"</string>
+    <string name="del_favorite">"מחק מהספריה המועדפת"</string>
+    <string name="delete">"מחק"</string>
+    <string name="delete_deny">"אין רשות למחוק"</string>
+    <string name="delete_fail">"המחיקה נכשלה"</string>
+    <string name="deleted">"מחיקת קובץ"</string>
+    <string name="deleted_cn">"מחיקת קובץ"</string>
+    <string name="deleting">"מוחק"</string>
+    <string name="deselect_all">"בטל בחירה"</string>
+    <string name="deselect_all_item">"בטל בחירה"</string>
+    <string name="detail">"פרטים"</string>
+    <string name="detail_name">"שם קובץ:"</string>
+    <string name="detail_name_m">"שם"</string>
+    <string name="detail_path">"‏מיקום:"</string>
+    <string name="detail_path_m">"מיקום"</string>
+    <string name="detail_size">"גודל קובץ:"</string>
+    <string name="detail_size_m">"גודל"</string>
+    <string name="detail_time">"שונה לאחרונה:"</string>
+    <string name="details">"פרטים"</string>
+    <string name="dialog_close_btn">"סגור"</string>
+    <string name="done">"בוצע"</string>
+    <string name="draw_left_phone_storage">"אחסון טלפון"</string>
+    <string name="draw_left_phone_storage_m">"טלפון"</string>
+    <string name="draw_left_sd_card">"כרטיס SD"</string>
+    <string name="drawer_open">"פתח"</string>
+    <string name="drawer_settings">"הגדרות"</string>
+    <string name="drm_begin">"התחל:"</string>
+    <string name="drm_can_forward">"ניתן להעברה."</string>
+    <string name="drm_can_not_forward">"לא ניתן להעברה."</string>
+    <string name="drm_current_count">"ספירה נוכחית："</string>
+    <string name="drm_current_right">"מגבלה נוכחית："</string>
+    <string name="drm_end">"סיים:"</string>
+    <string name="drm_forwardforbidden_message">"לא ניתן להעביר את קובץ ה-DRM."</string>
+    <string name="drm_forwardforbidden_title">"לא ניתן להעביר"</string>
+    <string name="drm_no_crop">"קובץ "%s" לא מורשה העתקה משום היותו מוגן DRM"</string>
+    <string name="drm_no_license">"אין רישיון DRM זמין."</string>
+    <string name="drm_no_limitation">"אין הגבלה."</string>
+    <string name="drm_no_valid_right">"אין לקובץ רשות DRM חוקית!"</string>
+    <string name="drm_protection_status">"מצב הגנה:"</string>
+    <string name="drm_toast_license_expired">"תוקפו של רישיון ה-DRM פג."</string>
+    <string name="drm_use_left">"נותרו:"</string>
+    <string name="drm_wifidisplay_cancel_btn">"כיבוי קישור TV"</string>
+    <string name="drm_wifidisplay_message">"לא ניתן להפיץ קובץ המוגן בזכויות יוצרים."</string>
+    <string name="drm_wifidisplay_ok">"אישור"</string>
+    <string name="drm_wifidisplay_title">"קבצים מוגני זכויות יוצרים"</string>
+    <string name="empty_msg">"(תיקייה ריקה)"</string>
+    <string name="executable">"הפעלה:"</string>
+    <string name="executable_m">"יישום"</string>
+    <string name="favourite">"הוסף למועדפים"</string>
+    <string name="file_name_too_long">"השם שהוזן ארוך מדי"</string>
+    <string name="fingerprint_relative_dialog_cancel">"אחר כך"</string>
+    <string name="free_space">"זמין"</string>
+    <string name="freeof_m">"מצב חופשי"</string>
+    <string name="hide">"הסתר"</string>
+    <string name="hide_file">"הסתר קבצים מוסתרים"</string>
+    <string name="in_use">"בשימוש"</string>
+    <string name="insufficient_memory">"אין מספיק זכרון"</string>
+    <string name="invalid_char_prompt">"הזנת תו לא חוקי"</string>
+    <string name="invalid_empty_name">"שם קובץ או תיקייה אינו יכול להיות ריק"</string>
+    <string name="loading">"טוען..."</string>
+    <string name="main_document">"מסמכים"</string>
+    <string name="main_external_storage">"אחסון חיצוני​"</string>
+    <string name="main_home">"מקומי"</string>
+    <string name="main_nava_home">"מקומי"</string>
+    <string name="main_photo">"תמונות"</string>
+    <string name="main_sd_storage">"אחסון SD​"</string>
+    <string name="menu_select">"בחר"</string>
+    <string name="modified_time">"שונה"</string>
+    <string name="modify_hidden_file">"הקובץ לא יוסתר אם שמו אינו מתחיל ב- \'.\'."</string>
+    <string name="more">"עוד"</string>
+    <string name="msg_rename_ext">"הנך משנה את סיומת הקובץ. פעולה זו עלולה לגרום לכך שהקובץ לא יזוהה. האם אתה בטוח שברצונך לעשות זאת?"</string>
+    <string name="msg_unable_open_file">"תבנית הקובץ אינה נתמכת."</string>
+    <string name="msg_unable_open_file_in_app">"אין ישום זמין לפתיחת הקובץ"</string>
+    <string name="multi_alert_delete_message">"האם למחוק את הפריטים שנבחרו?"</string>
+    <string name="multi_alert_delete_message_cn">"האם למחוק את הפריטים שנבחרו?"</string>
+    <string name="name">"שם"</string>
+    <string name="new_folder">"הכנס שם תיקייה"</string>
+    <string name="no">"לא"</string>
+    <string name="no_folder">"התיקייה ריקה"</string>
+    <string name="no_search_result">"0 תוצאות עבור ‎\"%1$s\""</string>
+    <string name="not_available">"לא זמין"</string>
+    <string name="ok">"אישור"</string>
+    <string name="operation_fail">"פעולת קובץ נכשלה."</string>
+    <string name="paste">"הדבק"</string>
+    <string name="paste_fail">"הדבקה נכשלה"</string>
+    <string name="paste_same_folder">"לא ניתן להדביק לאותה הספרייה"</string>
+    <string name="paste_sub_folder">"לא ניתן להדביק את הקובץ לתוך תיקיית משנה"</string>
+    <string name="pasting">"מדביק"</string>
+    <string name="path_not_exists">"%1$s אינו קיים"</string>
+    <string name="permission_exit_btn">"יציאה"</string>
+    <string name="permission_settings">"הגדרות"</string>
+    <string name="phone_storage">"אחסון פנימי"</string>
+    <string name="phone_storage_cn">"אחסון טלפון"</string>
+    <string name="readable">"ניתן לקריאה："</string>
+    <string name="readable_m">"ניתן לקריאה"</string>
+    <string name="remove_to">"העבר אל"</string>
+    <string name="rename">"שנה שם"</string>
+    <string name="right_url">"URL של מנפיק רשיונות："</string>
+    <string name="safe_name_title">"שם"</string>
+    <string name="safe_set">"הגדרות"</string>
+    <string name="save">"שמור"</string>
+    <string name="sd_card">"כרטיס SD"</string>
+    <string name="search">"חיפוש"</string>
+    <string name="searchResult">"Αποτέλεσμα αναζήτησης"</string>
+    <string name="search_empty">"חיפוש התוכן לא אמור להיות ריק."</string>
+    <string name="search_files">"חפש קבצים"</string>
+    <string name="search_result">"%2$d תוצאה(ות) עבור \"%1$s\""</string>
+    <string name="search_result_title">"תוצאות חיפוש"</string>
+    <string name="search_setting_description">"קבצים ותיקיות מקומיים"</string>
+    <string name="search_text_empty">"חיפוש התוכן לא אמור להיות ריק."</string>
+    <string name="searchview_hint">"חפש קבצים"</string>
+    <string name="select_all">"בחר הכל"</string>
+    <string name="selected">"נבחר"</string>
+    <string name="send_file">"שלח קובץ"</string>
+    <string name="set_password_pass">"סיסמה"</string>
+    <string name="set_password_show">"הצג סיסמה"</string>
+    <string name="share">"שתף"</string>
+    <string name="share_warning">"מספר הקבצים לשיתוף מוגבל ל-100."</string>
+    <string name="shortcut_item">"הוספת קיצור דרך"</string>
+    <string name="show_file">"הצג קבצים מוסתרים"</string>
+    <string name="show_hide">"הצג/הסתר"</string>
+    <string name="size">"גודל"</string>
+    <string name="some_delete_fail">"פעולת מחיקה נכשלה."</string>
+    <string name="some_paste_fail">"הדבקת הפעולות נכשלה"</string>
+    <string name="sort">"מיין"</string>
+    <string name="sort_by">"מיין לפי"</string>
+    <string name="sort_by_name">"שם"</string>
+    <string name="sort_by_size">"גודל"</string>
+    <string name="sort_by_time">"תאריך"</string>
+    <string name="sort_by_type">"סוג"</string>
+    <string name="sort_name">"מיין לפי שם"</string>
+    <string name="sort_size">"מיין לפי גודל"</string>
+    <string name="sort_time">"לפי הזמן"</string>
+    <string name="sort_type">"מיון לפי סוג"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"‎999+‎"</string>
+    <string name="total_space">"סך הכל שטח"</string>
+    <string name="unfavourite">"הסר מהמועדפים"</string>
+    <string name="unknown">"לא ידוע"</string>
+    <string name="unlimited_usage">"שימוש ללא הגבלה"</string>
+    <string name="unmounted">"הטעינה של %1$s בוטלה"</string>
+    <string name="usbotg">"אחסון USB חיצוני"</string>
+    <string name="use_times">"השתמש %s פעמים"</string>
+    <string name="valid_after">"תקף לאחר"</string>
+    <string name="valid_until">"תקף עד"</string>
+    <string name="view_by">"הצג לפי"</string>
+    <string name="view_grid">"תצוגת סריג"</string>
+    <string name="view_list">"תצוגת רשימה​"</string>
+    <string name="viewby_details">"תצוגת פרטים"</string>
+    <string name="viewby_grid">"תצוגת שריג"</string>
+    <string name="viewby_list">"תצוגת רשימה"</string>
+    <string name="wait">"המתן..."</string>
+    <string name="warning">"מצב אזהרה"</string>
+    <string name="welcome_ok">"הבנתי"</string>
+    <string name="writable">"ניתן לצריבה："</string>
+    <string name="writable_m">"ניתן לצריבה"</string>
+    <string name="yes">"כן"</string>
+</resources>

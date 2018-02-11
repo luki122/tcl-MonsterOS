@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.tcl.note">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MstActivity"
+        android:resizeableActivity="false"
+        android:largeHeap="true">
+        <activity
+            android:name=".activity.NoteHomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MstHomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.NoteEditorActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="cn.tcl.note.newadd" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="cn.tcl.note.view" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <service android:name=".soundrecorderserver.SoundRecorderService" />
+        <service android:name=".soundrecorderserver.PlayerService" />
+
+        <activity
+            android:name=".activity.ImgViewPager"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.CropActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.ShareActivity"/>
+        <activity
+            android:name=".activity.ThemeActivity"></activity>
+
+        <provider
+            android:name=".db.NoteContentProvider"
+            android:authorities="cn.tcl.note"
+            android:enabled="true"
+            android:exported="false"></provider>
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="cn.tcl.file"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_xml">
+            </meta-data>
+        </provider>
+    </application>
+
+</manifest>

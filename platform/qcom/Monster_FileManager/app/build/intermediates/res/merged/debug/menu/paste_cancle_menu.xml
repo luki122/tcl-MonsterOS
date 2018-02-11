@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/cancles_item"
+        android:orderInCategory="400"
+        android:icon="@com.mst:drawable/ic_close"/>
+
+    <item
+        android:id="@+id/pastes_item"
+        android:orderInCategory="400"
+        android:icon="@com.mst:drawable/ic_done"/>
+
+</menu>

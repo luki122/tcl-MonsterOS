@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cannot_specify_an_empty_name_for_playlist">"Naam voor afspeellijst mag niet leeg zijn"</string>
+    <string name="cross_dj_saturated_storage_not_enough_free_space_to_record_your_mix">"Onvoldoende ruimte om uw mix op te nemen."</string>
+    <string name="cross_dj_saturated_storage_your_recording_might_stop_soon_because_no_more_free_space_is_available">"Uw opname kan binnenkort worden gestopt, omdat er niet meer ruimte beschikbaar is."</string>
+    <string name="invalid_drm_file">"Het bestand heeft geen geldige DRM-autoriteit."</string>
+    <string name="mobiledata_turnoff_btn">"Uitschakelen"</string>
+    <string name="never_show_it_again">"Niet opnieuw weergeven"</string>
+    <string name="no_error">"Geen fout"</string>
+    <string name="recording_reached_max_duration">"Opname heeft de maximale duur bereikt. Controleer uw voorkeuren."</string>
+    <string name="recording_soon_to_reach_max_duration">"Opname heeft bijna de maximale duur bereikt. Controleer uw voorkeuren."</string>
+    <string name="scratching_is_disabled_in_no_mix_mode">"U kunt alleen scratchen in de DJ-modus."</string>
+    <string name="sign_up">"Aanmelden"</string>
+    <string name="the_external_memory_storage_is_not_mounted">"De externe geheugenopslag is niet gekoppeld. U moet USB-geheugenopslag mogelijk uitschakelen."</string>
+    <string name="there_s_not_enough_space_in_your_internal_storage_try_to_do_some_clean_up">"Er is niet voldoende ruimte in uw interne opslag beschikbaar (probeer wat ruimte vrij te maken)"</string>
+</resources>

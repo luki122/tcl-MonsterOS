@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/duoqu_bubble_body_callmessage"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp" >
+
+    <TextView
+        android:id="@+id/duoqu_call_username_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:includeFontPadding="false"
+        android:layout_marginTop="9dp"
+        android:text="@string/duoqu_calls_reminder_discern_call"
+        android:textColor="#000000"
+        android:textSize="11dp" />
+
+    <TextView
+        android:id="@+id/duoqu_call_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/duoqu_call_username_title"
+        android:includeFontPadding="false"
+        android:layout_marginTop="4dp"
+        android:textSize="20dp" />
+
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="tip_network_error">Erro de rede</string>
+    <string name="check_new">Verificar se há atualizações</string>
+    <string name="update_download_fail">Falha no download</string>
+    <string name="update_ask_tip">Você precisa atualizar para a versão mais recente</string>
+    <string name="update_no_need">Esta é a versão mais recente</string>
+    <string name="downloaded_finish">Download concluído</string>
+    <string name="notification_downloading">Baixando</string>
+    <string name="update_notification_tips">Para uma melhor experiência, atualize para versão mais recente</string>
+    <string name="update_notification_title">Atualizar notificação</string>
+    <string name="update">Agora</string>
+    <string name="try_later">Mais tarde</string>
+    <string name="versionDesc">Informações da versão:</string>
+
+</resources>

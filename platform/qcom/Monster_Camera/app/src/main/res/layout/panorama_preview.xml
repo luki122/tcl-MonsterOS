@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.camera.widget.PanoramaPreview
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/panorama_preview_holder"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:visibility="invisible">
+
+    <View
+        android:id="@+id/panorama_horizontal_axis"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/panorama_preview_line_height"
+        android:layout_gravity="center_vertical"
+        android:background="@color/panorama_preview_line"/>
+
+    <ImageView
+        android:id="@+id/panorama_live_preview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:scaleType="fitCenter"/>
+
+    <RelativeLayout
+        android:id="@+id/panorama_ltf_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/panorama_left_camera_preview"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:scaleType="fitCenter"/>
+
+        <ImageView
+            android:id="@+id/panorama_move_left_indicator"
+            android:layout_width="@dimen/panorama_preview_guide_width"
+            android:layout_height="@dimen/panorama_preview_guide_height"
+            android:layout_toEndOf="@+id/panorama_left_camera_preview"
+            android:layout_marginStart="@dimen/panorama_preview_guide_margin"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_move_right"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toEndOf="@+id/panorama_move_left_indicator"
+            android:layout_marginStart="@dimen/panorama_preview_holder_info_text_margin"
+            style="@style/PanoramaPreviewHolderInfoText"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/panorama_rtf_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toStartOf="@+id/panorama_move_right_indicator"
+            android:layout_marginEnd="@dimen/panorama_preview_holder_info_text_margin"
+            style="@style/PanoramaPreviewHolderInfoText"/>
+
+        <ImageView
+            android:id="@+id/panorama_move_right_indicator"
+            android:layout_width="@dimen/panorama_preview_guide_width"
+            android:layout_height="@dimen/panorama_preview_guide_height"
+            android:layout_toStartOf="@+id/panorama_right_camera_preview"
+            android:layout_marginEnd="@dimen/panorama_preview_guide_margin"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_move_left"/>
+
+        <ImageView
+            android:id="@+id/panorama_right_camera_preview"
+            android:layout_alignParentEnd="true"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/panorama_selfie_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/panorama_middle_camera_preview"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"/>
+    </RelativeLayout>
+
+</com.android.camera.widget.PanoramaPreview>

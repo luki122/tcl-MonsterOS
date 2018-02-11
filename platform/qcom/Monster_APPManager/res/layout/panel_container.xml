@@ -1,0 +1,56 @@
+<com.monster.appmanager.widget.panel.SlidingUpPanelLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:sothree="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/sliding_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="bottom"
+    sothree:umanoPanelHeight="108dp"
+    sothree:umanoShadowHeight="0dp"
+    sothree:umanoParallaxOffset="0dp"
+    sothree:umanoDragView="@+id/function_area"
+	sothree:umanoFadeColor="#26000000"
+    sothree:umanoOverlay="true" >
+    
+<!--     <FrameLayout 
+        android:id="@+id/main_content"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent" >
+    </FrameLayout> -->
+
+ 	<LinearLayout 
+        android:id="@+id/main_content"
+        android:orientation="vertical"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent" >
+ 	    
+	 	<include layout="@layout/activity_main"/>
+ 	</LinearLayout>
+ 
+    <com.monster.appmanager.widget.GridParent
+        android:id="@+id/function_area"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/tool_bar_height"
+        android:background="#FFFFFFFF"
+        android:animateLayoutChanges="true"
+        android:orientation="vertical" >
+
+        <View
+            android:id="@+id/anim_view"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/function_height" />
+
+        <com.monster.appmanager.widget.panel.SlidingIndicator 
+            android:id="@+id/function_open"
+            android:layout_width="match_parent"
+			android:paddingTop="7dp"
+			android:paddingBottom="16dp"
+            android:layout_height="34dp"
+            android:scaleType="center"/>
+
+        <include layout="@layout/function_item_content"
+            android:id="@+id/function_group"/>
+    </com.monster.appmanager.widget.GridParent>
+</com.monster.appmanager.widget.panel.SlidingUpPanelLayout>

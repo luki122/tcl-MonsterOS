@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="118dp"
+              android:background="@drawable/item_shape"
+              android:orientation="horizontal"
+              android:paddingBottom="14dp"
+              android:paddingLeft="16dp"
+              android:paddingRight="12dp"
+              android:paddingTop="14dp">
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/default_cover_ranking"/>
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="90dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <TextView
+            android:id="@+id/name"
+            style="@style/textview_white_14sp_87"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:singleLine="true"
+            android:textColor="@color/base_title_unselect_color"/>
+
+        <TextView
+            android:id="@+id/descrip"
+            style="@style/textview_white_12sp_54"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:ellipsize="end"
+            android:gravity="left"
+            android:maxLines="4"
+            android:singleLine="false"
+            android:textColor="@color/base_title_unselect_color"/>
+    </FrameLayout>
+
+    <ImageView
+        android:id="@id/network_play_all_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/play_btn_drawable"/>
+
+    <ImageView
+        android:id="@+id/arrow"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_gravity="center"
+        android:src="@drawable/local_details"/>
+
+</LinearLayout>

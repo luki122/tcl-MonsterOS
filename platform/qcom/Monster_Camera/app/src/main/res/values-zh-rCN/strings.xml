@@ -1,0 +1,1068 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"相机"</string>
+	<!---->
+	<string name="gallery_app_name">"相册"</string>
+	<!---->
+	<string name="video_camera_label">"摄像机"</string>
+	<!-- no translation found for details_ms -->
+	<skip />
+	<!-- no translation found for details_hms -->
+	<skip />
+	<!---->
+	<string name="set_image">"将照片设置为"</string>
+	<!---->
+	<string name="delete">"删除"</string>
+	<!---->
+	<string name="share">"分享"</string>
+	<!---->
+	<string name="share_panorama">"分享全景图"</string>
+	<!---->
+	<string name="share_as_photo">"以照片形式分享"</string>
+	<!---->
+	<string name="deleted">"已删除"</string>
+	<!---->
+	<string name="undo">"还原"</string>
+	<!---->
+	<string name="details">"详细信息"</string>
+	<!---->
+	<string name="close">"关闭"</string>
+	<!---->
+	<string name="show_on_map">"显示在地图上"</string>
+	<!---->
+	<string name="rotate_left">"向左旋转"</string>
+	<!---->
+	<string name="rotate_right">"向右旋转"</string>
+	<!---->
+	<string name="edit">"编辑"</string>
+	<!---->
+	<string name="crop_action">"修剪"</string>
+	<!---->
+	<string name="trim_action">"修剪"</string>
+	<!---->
+	<string name="set_as">"设置为"</string>
+	<!---->
+	<string name="video_err">"无法播放视频。"</string>
+	<!---->
+	<string name="title">"标题"</string>
+	<!---->
+	<string name="description">"描述"</string>
+	<!---->
+	<string name="time">"时间"</string>
+	<!---->
+	<string name="location">"地点"</string>
+	<!---->
+	<string name="path">"路径"</string>
+	<!---->
+	<string name="width">"宽度"</string>
+	<!---->
+	<string name="height">"高度"</string>
+	<!---->
+	<string name="orientation">"浏览模式"</string>
+	<!---->
+	<string name="duration">"时长"</string>
+	<!---->
+	<string name="mimetype">"MIME 类型"</string>
+	<!---->
+	<string name="file_size">"文件大小"</string>
+	<!---->
+	<string name="maker">"制造商"</string>
+	<!---->
+	<string name="model">"模型"</string>
+	<!---->
+	<string name="flash">"闪光灯"</string>
+	<!---->
+	<string name="aperture">"光圈"</string>
+	<!---->
+	<string name="focal_length">"焦距"</string>
+	<!---->
+	<string name="white_balance">"白平衡"</string>
+	<!---->
+	<string name="exposure_time">"曝光时间"</string>
+	<!---->
+	<string name="iso">"ISO 感光度"</string>
+	<!-- no translation found for unit_mm -->
+	<skip />
+	<!---->
+	<string name="manual">"手动"</string>
+	<!---->
+	<string name="auto">"自动"</string>
+	<!---->
+	<string name="flash_on">"使用了闪光灯"</string>
+	<!---->
+	<string name="flash_off">"未使用闪光灯"</string>
+	<!-- no translation found for unknown -->
+	<skip />
+	<!---->
+	<string name="try_to_set_local_album_available_offline">"该项已存储在本地，可在离线状态下使用。"</string>
+	<!---->
+	<string name="please_wait">"请稍等"</string>
+	<!---->
+	<string name="camera_error_title">"相机故障"</string>
+	<!---->
+	<string name="cannot_connect_camera">"无法连接到相机。"</string>
+	<!---->
+	<string name="camera_disabled">"由于安全政策的限制，相机已被停用。"</string>
+	<!---->
+	<string name="wait">"请等待..."</string>
+	<!---->
+	<string name="no_storage" product="default">"使用相机前请先插入 SD 卡。"</string>
+	<!---->
+	<string name="preparing_sd" product="default">"正在准备 SD 卡..."</string>
+	<!---->
+	<string name="access_sd_fail" product="default">"无法访问 SD 卡。"</string>
+	<!---->
+	<string name="time_lapse_title">"延时录制"</string>
+	<!-- no translation found for capturing -->
+	<skip />
+	<!---->
+	<string name="pref_camera_id_title">"选择摄像头"</string>
+	<!---->
+	<string name="pref_camera_id_entry_back">"主摄像头"</string>
+	<!---->
+	<string name="pref_camera_id_entry_front">"前置摄像头"</string>
+	<!---->
+	<string name="pref_camera_save_location_title">"GPS 标记"</string>
+	<!---->
+	<string name="pref_camera_location_label">"位置"</string>
+	<!---->
+	<string name="pref_camera_timer_title">"倒计时器"</string>
+	<!-- no translation found for pref_camera_timer_sound_default -->
+	<skip />
+	<!---->
+	<string name="pref_camera_timer_sound_title">"倒计时过程中发出提示音"</string>
+	<!-- no translation found for setting_off -->
+	<skip />
+	<!-- no translation found for setting_on -->
+	<skip />
+	<!---->
+	<string name="pref_video_quality_title">"视频画质"</string>
+	<!-- no translation found for pref_video_time_lapse_frame_interval_title -->
+	<skip />
+	<!---->
+	<string name="pref_camera_settings_category">"相机设置"</string>
+	<!---->
+	<string name="pref_camcorder_settings_category">"摄像机设置"</string>
+	<!---->
+	<string name="pref_camera_picturesize_title">"照片大小"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_large">"大"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_medium">"中"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_small">"小"</string>
+	<!---->
+	<string name="pref_camera_focusmode_title">"对焦方式"</string>
+	<!---->
+	<string name="pref_camera_focusmode_entry_auto">"自动"</string>
+	<!---->
+	<string name="pref_camera_focusmode_entry_infinity">"无限远"</string>
+	<!---->
+	<string name="pref_camera_focusmode_entry_macro">"微距"</string>
+	<!---->
+	<string name="pref_camera_focusmode_label_auto">"自动"</string>
+	<!---->
+	<string name="pref_camera_focusmode_label_infinity">"无限远"</string>
+	<!---->
+	<string name="pref_camera_focusmode_label_macro">"微距"</string>
+	<!---->
+	<string name="pref_camera_flashmode_title">"闪光模式"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label">"闪光灯模式"</string>
+	<!---->
+	<string name="pref_camera_flashmode_entry_auto">"自动"</string>
+	<!---->
+	<string name="pref_camera_flashmode_entry_on">"开"</string>
+	<!---->
+	<string name="pref_camera_flashmode_entry_off">"关"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label_auto">"自动闪光灯"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label_on">"打开闪光灯"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label_off">"关闭闪光灯"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_title">"白平衡"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label">"白平衡"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_auto">"自动"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_incandescent">"白炽光"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_daylight">"日光"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_fluorescent">"荧光"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_cloudy">"阴天"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_auto">"自动"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_incandescent">"白炽光"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_daylight">"日光"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_fluorescent">"荧光"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_cloudy">"多云"</string>
+	<!---->
+	<string name="pref_camera_scenemode_title">"取景模式"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_auto">"自动"</string>
+	<!-- no translation found for pref_camera_scenemode_entry_hdr_plus -->
+	<skip />
+	<!-- no translation found for pref_camera_scenemode_entry_hdr -->
+	<skip />
+	<!-- no translation found for pref_camera_scenemode_entry_turn_hdr_plus_on -->
+	<skip />
+	<!-- no translation found for pref_camera_scenemode_entry_turn_hdr_plus_off -->
+	<skip />
+	<!-- no translation found for pref_camera_scenemode_entry_turn_hdr_on -->
+	<skip />
+	<!-- no translation found for pref_camera_scenemode_entry_turn_hdr_off -->
+	<skip />
+	<!---->
+	<string name="pref_camera_scenemode_entry_action">"运动"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_night">"夜景"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_sunset">"日落"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_party">"聚会"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_auto">"无"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_action">"动作"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_night">"夜晚"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_sunset">"日落"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_party">"聚会"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_off">"关闭倒计时器"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_one">"1 秒"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_three">"3 秒"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_five">"5 秒"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_ten">"10 秒"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_fifteen">"15 秒"</string>
+	<!---->
+	<string name="not_selectable_in_scene_mode">"无法在取景模式下选择。"</string>
+	<!---->
+	<string name="pref_exposure_title">"曝光"</string>
+	<!---->
+	<string name="pref_exposure_label">"曝光"</string>
+	<!-- no translation found for pref_camera_hdr_default -->
+	<skip />
+	<!-- no translation found for pref_camera_hdr_plus_default -->
+	<skip />
+	<!---->
+	<string name="pref_camera_hdr_label">"HDR"</string>
+	<!---->
+	<string name="pref_camera_id_label_back">"前置摄像头"</string>
+	<!---->
+	<string name="pref_camera_id_label_front">"后置摄像头"</string>
+	<!---->
+	<string name="dialog_ok">"确定"</string>
+	<!---->
+	<string name="dialog_cancel">"取消"</string>
+	<!---->
+	<string name="spaceIsLow_content" product="default">"SD卡空间不足，请更改画质，或删除一些照片或其他文件。"</string>
+	<!---->
+	<string name="phone_storage_low" product="default">"储存空间不足。请更改画质设置，或删除部分图片或其他文件。"</string>
+	<!---->
+	<string name="video_reach_size_limit">"已达到大小上限。"</string>
+	<!---->
+	<string name="video_record_start_failed">"未能成功开始摄像"</string>
+	<!---->
+	<string name="pano_too_fast_prompt">"过快"</string>
+	<!---->
+	<string name="pano_dialog_prepare_preview">"正在生成全景图"</string>
+	<!---->
+	<string name="pano_dialog_panorama_failed">"无法保存全景照片。"</string>
+	<!---->
+	<string name="pano_dialog_title">"全景图"</string>
+	<!---->
+	<string name="pano_capture_indication">"正在拍摄全景照片"</string>
+	<!---->
+	<string name="pano_dialog_waiting_previous">"正在等待上一幅全景照片处理完毕"</string>
+	<!---->
+	<string name="pano_review_saving_indication_str">"正在保存..."</string>
+	<!---->
+	<string name="pano_review_rendering">"正在渲染全景图"</string>
+	<!---->
+	<string name="tap_to_focus">"触摸对焦。"</string>
+	<!---->
+	<string name="pref_video_effect_title">"效果"</string>
+	<!---->
+	<string name="effect_none">"无"</string>
+	<!---->
+	<string name="effect_goofy_face_squeeze">"面部哈哈镜"</string>
+	<!---->
+	<string name="effect_goofy_face_big_eyes">"大眼睛"</string>
+	<!---->
+	<string name="effect_goofy_face_big_mouth">"大嘴巴"</string>
+	<!---->
+	<string name="effect_goofy_face_small_mouth">"小嘴巴"</string>
+	<!---->
+	<string name="effect_goofy_face_big_nose">"大鼻子"</string>
+	<!---->
+	<string name="effect_goofy_face_small_eyes">"小眼睛"</string>
+	<!---->
+	<string name="effect_backdropper_space">"太空背景"</string>
+	<!---->
+	<string name="effect_backdropper_sunset">"日落"</string>
+	<!---->
+	<string name="effect_backdropper_gallery">"您的视频"</string>
+	<!---->
+	<string name="video_snapshot_hint">"在录制视频过程中，轻触一下即可拍一张照片。"</string>
+	<!---->
+	<string name="video_recording_started">"已开始录制视频。"</string>
+	<!---->
+	<string name="video_recording_stopped">"已停止录制视频。"</string>
+	<!---->
+	<string name="clear_effects">"清除效果"</string>
+	<!---->
+	<string name="effect_silly_faces">"趣味表情"</string>
+	<!---->
+	<string name="effect_background">"背景"</string>
+	<!---->
+	<string name="accessibility_shutter_button">"快门"</string>
+	<!---->
+	<string name="accessibility_cancel_button">"取消"</string>
+	<!---->
+	<string name="accessibility_menu_button">"菜单按钮"</string>
+	<!---->
+	<string name="accessibility_check_box">"%1$s 复选框"</string>
+	<!---->
+	<string name="accessibility_switch_to_camera">"切换到拍照模式"</string>
+	<!---->
+	<string name="accessibility_switch_to_video">"切换到视频"</string>
+	<!---->
+	<string name="accessibility_switch_to_panorama">"切换到全景模式"</string>
+	<!-- no translation found for accessibility_switch_to_photo_sphere -->
+	<skip />
+	<!-- no translation found for accessibility_switch_to_gcam -->
+	<skip />
+	<!---->
+	<string name="accessibility_switch_to_refocus">"切换为重新聚焦模式"</string>
+	<!---->
+	<string name="accessibility_review_cancel">"取消"</string>
+	<!---->
+	<string name="accessibility_review_ok">"完成"</string>
+	<!---->
+	<string name="accessibility_review_retake">"重拍"</string>
+	<!---->
+	<string name="accessibility_mode_options">"选项"</string>
+	<!---->
+	<string name="accessibility_mode_list_hidden">"模式列表已关闭"</string>
+	<!---->
+	<string name="accessibility_mode_list_shown">"模式列表已打开"</string>
+	<!---->
+	<string name="media_accessibility_peek">"已拍摄"</string>
+	<!---->
+	<string name="photo_accessibility_peek">"已拍摄照片"</string>
+	<!---->
+	<string name="video_accessibility_peek">"已拍摄视频"</string>
+	<!---->
+	<string name="accessibility_unlock_to_camera">"解锁设备并打开完整相机应用"</string>
+	<!---->
+	<string name="media_date_content_description">"媒体内容拍摄时间：%s"</string>
+	<!---->
+	<string name="photo_date_content_description">"照片拍摄时间：%s"</string>
+	<!---->
+	<string name="video_date_content_description">"视频拍摄时间：%s"</string>
+	<!---->
+	<string name="panorama_date_content_description">"全景照片拍摄时间：%s"</string>
+	<!---->
+	<string name="photosphere_date_content_description">"Photo Sphere照片拍摄时间：%s"</string>
+	<!---->
+	<string name="refocus_date_content_description">"“镜头模糊”照片拍摄时间：%s"</string>
+	<!---->
+	<string name="media_processing_content_description">"仍在处理中的媒体内容"</string>
+	<!---->
+	<string name="accessibility_mode_list_toggle">"切换模式列表"</string>
+	<!---->
+	<string name="btn_mode_list_toggle">"模式列表"</string>
+	<!---->
+	<string name="accessibility_filmstrip_toggle">"切换胶卷视图"</string>
+	<!---->
+	<string name="btn_filmstrip_toggle">"胶卷"</string>
+	<!---->
+	<string name="capital_on">"打开"</string>
+	<!---->
+	<string name="capital_off">"关闭"</string>
+	<!---->
+	<string name="video_control_play">"播放视频"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_off">"关"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_500">"0.5 秒"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1000">"1 秒"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1500">"1.5 秒"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_2000">"2 秒"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_2500">"2.5 秒"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_3000">"3 秒"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_4000">"4 秒"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_5000">"5 秒"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_6000">"6 秒"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_10000">"10 秒"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_12000">"12 秒"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_15000">"15 秒"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_24000">"24 秒"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_30000">"0.5 分钟"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_60000">"1 分钟"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_90000">"1.5 分钟"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_120000">"2 分钟"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_150000">"2.5 分钟"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_180000">"3 分钟"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_240000">"4 分钟"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_300000">"5 分钟"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_360000">"6 分钟"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_600000">"10 分钟"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_720000">"12 分钟"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_900000">"15 分钟"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1440000">"24 分钟"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1800000">"0.5 小时"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_3600000">"1 小时"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_5400000">"1.5 小时"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_7200000">"2 小时"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_9000000">"2.5 小时"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_10800000">"3 小时"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_14400000">"4 小时"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_18000000">"5 小时"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_21600000">"6小时"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_36000000">"10 小时"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_43200000">"12小时"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_54000000">"15 小时"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_86400000">"24 小时"</string>
+	<!---->
+	<string name="time_lapse_seconds">"秒"</string>
+	<!---->
+	<string name="time_lapse_minutes">"分钟"</string>
+	<!---->
+	<string name="time_lapse_hours">"小时"</string>
+	<!---->
+	<string name="time_lapse_interval_set">"完成"</string>
+	<!---->
+	<string name="set_time_interval">"设置时间间隔"</string>
+	<!---->
+	<string name="set_time_interval_help">"延时拍摄功能已关闭，要设置时间间隔，请先开启该功能。"</string>
+	<!---->
+	<string name="set_duration">"设置倒数时间（秒）"</string>
+	<!---->
+	<string name="count_down_title_text">"拍照倒计时中"</string>
+	<!---->
+	<string name="remember_location_title">"是否记住照片拍摄地点？"</string>
+	<!---->
+	<string name="remember_location_prompt">"为您的照片和视频标明拍摄地点。\n\n其他应用在查看您保存的图片时将可以访问这些信息。"</string>
+	<!---->
+	<string name="remember_location_no">"不用了"</string>
+	<!---->
+	<string name="remember_location_yes">"是"</string>
+	<!---->
+	<string name="camera_menu_more_label">"更多选项"</string>
+	<!---->
+	<string name="camera_menu_settings_label">"设置"</string>
+	<!-- no translation found for create_tiny_planet -->
+	<skip />
+	<!-- no translation found for saving_tiny_planet -->
+	<skip />
+	<!-- no translation found for tiny_planet_zoom -->
+	<skip />
+	<!-- no translation found for tiny_planet_rotate -->
+	<skip />
+	<!---->
+	<string name="photo_editor">"照片编辑器"</string>
+	<!---->
+	<string name="crop_save">"保存"</string>
+	<!---->
+	<string name="cannot_load_image">"无法加载该图片！"</string>
+	<!---->
+	<string name="switch_photo_filmstrip">"幻灯片视图"</string>
+	<!---->
+	<string name="setting_wallpaper">"正在设置壁纸"</string>
+	<!---->
+	<string name="mode_settings">"设置"</string>
+	<!---->
+	<string name="mode_camera">"相机"</string>
+	<!---->
+	<string name="mode_video">"视频"</string>
+	<!---->
+	<string name="mode_slow_motion">"慢动作"</string>
+	<!---->
+	<string name="mode_photosphere">"Photo Sphere"</string>
+	<!---->
+	<string name="mode_timelapse">"缩时拍摄"</string>
+	<!---->
+	<string name="mode_wideangle">"超广角"</string>
+	<!---->
+	<string name="mode_panorama">"全景相片"</string>
+	<!---->
+	<string name="mode_refocus">"镜头模糊"</string>
+	<!---->
+	<string name="mode_camera_desc">"切换到相机模式"</string>
+	<!---->
+	<string name="mode_video_desc">"切换到摄像机模式"</string>
+	<!---->
+	<string name="mode_photosphere_desc">"切换到Photo Sphere模式"</string>
+	<!---->
+	<string name="mode_panorama_desc">"切换到全景模式"</string>
+	<!---->
+	<string name="mode_slow_motion_desc">"切换到慢动作模式"</string>
+	<!---->
+	<string name="mode_refocus_desc">"切换到镜头模糊模式"</string>
+	<!---->
+	<string name="settings_open_desc">"打开设置"</string>
+	<!---->
+	<string name="settings_close_desc">"关闭设置"</string>
+	<!---->
+	<string name="hdr_plus_off_desc">"HDR Plus已关闭"</string>
+	<!---->
+	<string name="hdr_plus_on_desc">"HDR Plus已打开"</string>
+	<!---->
+	<string name="hdr_off_desc">"HDR已关闭"</string>
+	<!---->
+	<string name="hdr_on_desc">"HDR已打开"</string>
+	<!---->
+	<string name="flash_off_desc">"关闭闪光灯"</string>
+	<!---->
+	<string name="flash_auto_desc">"自动闪光灯"</string>
+	<!---->
+	<string name="flash_on_desc">"打开闪光灯"</string>
+	<!---->
+	<string name="hdr_plus_flash_off_desc">"HDR+关闭闪光"</string>
+	<!---->
+	<string name="hdr_plus_flash_auto_desc">"HDR+自动闪光"</string>
+	<!---->
+	<string name="hdr_plus_flash_on_desc">"HDR+开启闪光"</string>
+	<!---->
+	<string name="torch_on_desc">"手电筒已打开"</string>
+	<!---->
+	<string name="torch_off_desc">"手电筒已关闭"</string>
+	<!---->
+	<string name="camera_id_back_desc">"后置摄像头"</string>
+	<!---->
+	<string name="camera_id_front_desc">"前置摄像头"</string>
+	<!---->
+	<string name="grid_lines_off_desc">"网格线已关闭"</string>
+	<!---->
+	<string name="grid_lines_on_desc">"网格线已开启"</string>
+	<!---->
+	<string name="countdown_timer_off">"倒计时器已关闭"</string>
+	<!---->
+	<string name="countdown_timer_duration_2s">"倒计时持续时间设定为2秒"</string>
+	<!---->
+	<string name="countdown_timer_duration_3s">"倒计时器的时长已设为3秒"</string>
+	<!---->
+	<string name="countdown_timer_duration_5s">"倒计时已设置为5秒"</string>
+	<!---->
+	<string name="countdown_timer_duration_10s">"倒计时器的时长已设为10秒"</string>
+	<!---->
+	<string name="more_options_desc">"更多选项"</string>
+	<!---->
+	<string name="cancel_button_description">"取消"</string>
+	<!---->
+	<string name="done_button_description">"完成"</string>
+	<!---->
+	<string name="retake_button_description">"重新拍摄"</string>
+	<!---->
+	<string name="share_button_description">"分享"</string>
+	<!---->
+	<string name="view_button_description">"查看"</string>
+	<!---->
+	<string name="edit_button_description">"编辑"</string>
+	<!---->
+	<string name="delete_button_description">"删除"</string>
+	<!---->
+	<string name="manual_exposure_compensation_desc">"手动曝光补偿"</string>
+	<!---->
+	<string name="exposure_compensation_desc_n2">"曝光补偿-2"</string>
+	<!---->
+	<string name="exposure_compensation_desc_n1">"曝光补偿-1"</string>
+	<!---->
+	<string name="exposure_compensation_desc_0">"曝光补偿0"</string>
+	<!---->
+	<string name="exposure_compensation_desc_p1">"曝光补偿+1"</string>
+	<!---->
+	<string name="exposure_compensation_desc_p2">"曝光补偿+2"</string>
+	<!---->
+	<string name="button_change_announcement">"按钮现在是%s"</string>
+	<!---->
+	<string name="setting_location">"地点"</string>
+	<!---->
+	<string name="setting_back_camera_photo">"后置摄像头照片"</string>
+	<!---->
+	<string name="setting_back_camera_video">"后置摄像头视频"</string>
+	<!---->
+	<string name="setting_front_camera_photo">"前置摄像头照片"</string>
+	<!---->
+	<string name="setting_front_camera_video">"前置摄像头视频"</string>
+	<!---->
+	<string name="setting_default_camera">"默认相机"</string>
+	<!---->
+	<string name="setting_google_help_and_feedback">"帮助和反馈"</string>
+	<!---->
+	<string name="processing_hdr_plus">"正在处理HDR+…"</string>
+	<!---->
+	<string name="open_source_licenses">"开放源代码许可"</string>
+	<!---->
+	<string name="pref_category_general">"常规设置"</string>
+	<!---->
+	<string name="pref_category_resolution_quality">"分辨率和画质"</string>
+	<!---->
+	<string name="pref_category_about">"关于"</string>
+	<!---->
+	<string name="pref_title_build_version">"版本号"</string>
+	<!---->
+	<string name="pref_video_quality_entry_low">"低"</string>
+	<!---->
+	<string name="pref_video_quality_entry_high">"高"</string>
+	<!-- no translation found for pref_video_quality_entry_qcif -->
+	<skip />
+	<!-- no translation found for pref_video_quality_entry_cif -->
+	<skip />
+	<!-- no translation found for pref_video_quality_entry_480p -->
+	<skip />
+	<!-- no translation found for pref_video_quality_entry_720p -->
+	<skip />
+	<!-- no translation found for pref_video_quality_entry_1080p -->
+	<skip />
+	<!-- no translation found for pref_video_quality_entry_qvga -->
+	<skip />
+	<!-- no translation found for pref_video_quality_entry_2160p -->
+	<skip />
+	<!---->
+	<string name="setting_summary_x_megapixels">"%1$s百万像素"</string>
+	<!---->
+	<string name="setting_summary_aspect_ratio_and_megapixels">"(%1$d:%2$d) %3$s百万像素"</string>
+	<!---->
+	<string name="cling_text_for_refocus_editor_button">"触摸此处来重新聚焦"</string>
+	<!---->
+	<string name="pref_category_advanced">"高级设置"</string>
+	<!---->
+	<string name="pref_camera_exposure_compensation">"手动曝光"</string>
+	<!---->
+	<string name="settings_cling_text">"在“设置”中，您可以更改分辨率和画质，并尝试开启高级功能。"</string>
+	<!---->
+	<string name="photo_size_selection_title">"选择照片尺寸"</string>
+	<!---->
+	<string name="photo_aspect_ratio_selection_content">"稍后您可以在“设置”中更改照片尺寸"</string>
+	<!---->
+	<string name="share_to">"分享"</string>
+	<!---->
+	<string name="edit_with">"编辑方式"</string>
+	<!---->
+	<string name="startup_dialog_button_next">"下一步"</string>
+	<!---->
+	<string name="confirm_button_text">"知道了"</string>
+	<!---->
+	<string name="full_sensor_4x3_aspect_ratio">"全幅传感器画面\n(4:3)"</string>
+	<!---->
+	<string name="cropped_sensor_16x9_aspect_ratio">"剪裁传感器画面\n(16:9)"</string>
+	<!-- no translation found for pref_boolean_false -->
+	<skip />
+	<!-- no translation found for pref_boolean_true -->
+	<skip />
+	<!---->
+	<string name="pref_camera_iso_s_f_entry_auto">"自动"</string>
+	<!-- no translation found for manual_manu_title_iso -->
+	<skip />
+	<!-- no translation found for manual_manu_title_exposure -->
+	<skip />
+	<!-- no translation found for manual_manu_title_wb -->
+	<skip />
+	<!-- no translation found for manual_manu_title_focus -->
+	<skip />
+	<!---->
+	<string name="setting_group_photo">"照片"</string>
+	<!---->
+	<string name="setting_group_video">"视频"</string>
+	<!---->
+	<string name="setting_group_general">"基本设置"</string>
+	<!---->
+	<string name="pref_camera_size_title">"大小"</string>
+	<!---->
+	<string name="pref_rear_camera_size_title">"大小"</string>
+	<!---->
+	<string name="pref_front_camera_size_title">"大小"</string>
+	<!---->
+	<string name="pref_rear_camera_size_title_vdf">"主摄像头照片尺寸"</string>
+	<!---->
+	<string name="pref_front_camera_size_title_vdf">"尺寸(前置)"</string>
+	<!---->
+	<string name="pref_camera_grid_title">"屏幕辅助线"</string>
+	<!---->
+	<string name="pref_camera_pose_title">"Pose美姿"</string>
+	<!---->
+	<string name="pref_camera_compose_title">"构图辅助线"</string>
+	<!---->
+	<string name="pref_video_eis_title">"视频防抖"</string>
+	<!---->
+	<string name="pref_camera_face_beauty_title">"人脸美化"</string>
+	<!---->
+	<string name="pref_camera_mirror_selfie_title">"自拍镜"</string>
+	<!---->
+	<string name="pref_camera_attention_seeker_title">"吸引注意"</string>
+	<!---->
+	<string name="pref_camera_ais_title">"拍照防抖"</string>
+	<!---->
+	<string name="pref_camera_super_resolution_title">"超级分辨率"</string>
+	<!---->
+	<string name="pref_camera_savepath_title">"存储"</string>
+	<!---->
+	<string name="pref_camera_savepath_entry_0">"手机"</string>
+	<!---->
+	<string name="pref_camera_savepath_entry_1">"存储卡"</string>
+	<!-- no translation found for pref_camera_savepath_default -->
+	<skip />
+	<!---->
+	<string name="pref_camera_sound_title">"快门声"</string>
+	<!---->
+	<string name="pref_visidon_mode_title">"高级模式"</string>
+	<!---->
+	<string name="pref_camera_gesture_detection_title">"手势拍照"</string>
+	<!---->
+	<string name="visidon_mode_face_beauty_entry">"人脸美化"</string>
+	<!---->
+	<string name="visidon_mode_super_resolution_entry">"超级分辨率"</string>
+	<!---->
+	<string name="visidon_mode_low_light_entry">"夜晚场景"</string>
+	<!-- no translation found for visidon_mode_hdr_entry -->
+	<skip />
+	<!---->
+	<string name="visidon_mode_off_entry">"关闭"</string>
+	<!---->
+	<string name="mode_manual">"手动"</string>
+	<!---->
+	<string name="mode_pano">"全景图"</string>
+	<!-- no translation found for mode_parallax -->
+	<skip />
+	<!---->
+	<string name="mode_micro_video">"微视频"</string>
+	<!---->
+	<string name="mode_manual_desc">"选择手动模式"</string>
+	<!---->
+	<string name="mode_pano_desc">"切换到全景模式"</string>
+	<!---->
+	<string name="mode_parallax_desc">"切换到Fyuse模式"</string>
+	<!---->
+	<string name="mode_micro_video_desc">"切换到微视频模式"</string>
+	<!---->
+	<string name="pref_restore_settings">"还原默认"</string>
+	<!---->
+	<string name="quit_dialog_title_battery_low">"电池电量低"</string>
+	<!---->
+	<string name="quit_dialog_title_storage_low">"存储空间不足"</string>
+	<!---->
+	<string name="quit_dialog_msg">"视频将自动保存，相机应用退出。"</string>
+	<!---->
+	<string name="battery_info_dialog_tile">"低电量"</string>
+	<!---->
+	<string name="battery_info_dialog_msg_disable_flash">"无法开启闪光灯"</string>
+	<!---->
+	<string name="battery_info_dialog_msg_close_camera">"无法开启相机"</string>
+	<!---->
+	<string name="battery_info_dialog_button_ok">"确定"</string>
+	<!---->
+	<string name="battery_info_dialog_button_close">"关闭"</string>
+	<!---->
+	<string name="battery_info_low_toast_message">"电量低。闪光灯被禁用"</string>
+	<!---->
+	<string name="battery_info_video_low_toast_message">"电量低。停止录像"</string>
+	<!---->
+	<string name="battery_info_video_low_less_8">"电量低。尽快结束录像"</string>
+	<!---->
+	<string name="battery_info_video_low_less_8_dialog">"可能没有足够的电量来保存录像"</string>
+	<!---->
+	<string name="battery_info_video_low_cancel">"退出"</string>
+	<!---->
+	<string name="battery_info_video_low_continue">"继续"</string>
+	<!---->
+	<string name="MSG_SAVE_OUTPUT_IMAGE">"保存全景图片中..."</string>
+	<!---->
+	<string name="MSG_CANCEL_CAPTURE">"取消..."</string>
+	<!-- no translation found for save_dir_preview_img -->
+	<skip />
+	<!-- no translation found for save_dir_still_img -->
+	<skip />
+	<!---->
+	<string name="MSG_MISALIGNMENT">"尽可能让箭头保持在白线上。\n拍摄被取消"</string>
+	<!---->
+	<string name="MSG_MOVE_CAMERA_SLOWLY">"摄像时请缓慢的移动相机"</string>
+	<!---->
+	<string name="delete_selection">"要删除所选内容吗？"</string>
+	<!---->
+	<string name="burst_saving_hint">"正在保存第%d张相片 ..."</string>
+	<!---->
+	<string name="micro_video_remix_hint">"正在处理中 ..."</string>
+	<!---->
+	<string name="lowlight_off_desc">"低光关闭"</string>
+	<!---->
+	<string name="lowlight_on_desc">"低光开启"</string>
+	<!---->
+	<string name="tizr_prompt_desc">"TiZR让您向全世界直播。开启新的旅程！"</string>
+	<!---->
+	<string name="tizr_prompt_content">"开始"</string>
+	<!-- no translation found for title_activity_tizr_share_video -->
+	<skip />
+	<!---->
+	<string name="night_mode_on_toast">"夜间模式开启，拍摄照片时请保持设备稳定"</string>
+	<!---->
+	<string name="hdr_on_toast">"HDR已开启, 拍照时保持手机稳定"</string>
+	<!---->
+	<string name="micro_video_guide_title">"微视频"</string>
+	<!---->
+	<string name="micro_video_guide_description">"化身导演制作属于自己的视频剪辑\n(完成视频拍摄后点击编辑，可添加特色主题及效果)"</string>
+	<!---->
+	<string name="micro_video_guide_checkbox">"不再显示"</string>
+	<!---->
+	<string name="micro_video_guide_button">"知道了"</string>
+	<!---->
+	<string name="micro_minimum_time_tip">"至少录制3秒"</string>
+	<!---->
+	<string name="micro_shutter_help_tip">"按住开始录制"</string>
+	<!---->
+	<string name="permissions_needed">"所需的权限"</string>
+	<!---->
+	<string name="grant_access_title">"权限请求"</string>
+	<!---->
+	<string name="grant_access_msg">"应用需要相机，声音录制及存储权限。若要标记相片和视频的位置，亦需要位置信息权限。在设置中授予权限。"</string>
+	<!---->
+	<string name="grant_access_exit">"退出"</string>
+	<!---->
+	<string name="grant_access_settings">"设置"</string>
+	<!-- no translation found for location_and -->
+	<skip />
+	<!---->
+	<string name="location_msg">"标记相片和视频的位置"</string>
+	<!---->
+	<string name="location_toast">"在设置中开启GPS定位"</string>
+	<!---->
+	<string name="location_snack_setting">"允许相机定位当前位置"</string>
+	<!---->
+	<string name="aspect_ratio_and_megapixels_default">"%1$d00万像素 (%2$d:%3$d)"</string>
+	<!---->
+	<string name="tips_for_panorama_preview">"拍摄全景照片时请保持设备连续移动"</string>
+	<!---->
+	<string name="tip_for_move_center">"请保持箭头移动在中央轴线上"</string>
+	<!---->
+	<string name="tip_for_move_down">"下移"</string>
+	<!---->
+	<string name="tip_for_move_up">"上移"</string>
+	<!---->
+	<string name="tip_for_move_slow">"减速"</string>
+	<!---->
+	<string name="tip_for_move_right">"右移"</string>
+	<!---->
+	<string name="tip_for_move_left">"左移"</string>
+	<!---->
+	<string name="super_zoom_on_toast">"超级像素拍摄时，请保持相机稳定"</string>
+	<!---->
+	<string name="help_tip_welcome_take_tour">"是"</string>
+	<!---->
+	<string name="help_tip_welcome_cancel_tour">"不用了"</string>
+	<!---->
+	<string name="help_tip_welcome_title">"相机"</string>
+	<!---->
+	<string name="help_tip_welcome_context">"是否需要显示如何使用相机的提示?"</string>
+	<!---->
+	<string name="help_tip_snap_context">"点这里拍照，或者长按连拍10张照片"</string>
+	<!---->
+	<string name="help_tip_camera_key_context">"使用“相机键”拍照或者长按连拍"</string>
+	<!---->
+	<string name="help_tip_recent_context">"点这里显示你最近拍摄的照片"</string>
+	<!---->
+	<string name="help_tip_startvideo_context">"点击录制视频"</string>
+	<!---->
+	<string name="help_tip_videosnap_context">"点击它可录像时拍照"</string>
+	<!---->
+	<string name="help_tip_stopvideo_context">"点击停止摄像并保存"</string>
+	<!---->
+	<string name="help_tip_switch_front_context">"点击打开自拍模式"</string>
+	<!---->
+	<string name="help_tip_gesture_tip_context">"将手掌放于前置摄像正前方进行拍照"</string>
+	<!---->
+	<string name="help_tip_pinch_zoom_context">"在取景器捏大捏小来缩放视图"</string>
+	<!---->
+	<string name="help_tip_quick_switch_context">"点这个图标来开启/关闭功能"</string>
+	<!---->
+	<string name="help_tip_settings_context">"点这里进入相机设置"</string>
+	<!---->
+	<string name="help_tip_mode_context">"左右滑动取景器来切换相机模式"</string>
+	<!---->
+	<string name="help_tip_panorama_context">"点击预览条来切换方向"</string>
+	<!---->
+	<string name="help_tip_manual_context">"点这个图标改变手动模式选项"</string>
+	<!---->
+	<string name="help_tip_manual_menu_context">"点这里来显示或隐藏手动模式选项"</string>
+	<!---->
+	<string name="help_tip_got_it_text">"知道了"</string>
+	<!---->
+	<string name="help_tip_dismiss_text">"知道了"</string>
+	<!---->
+	<string name="help_tip_skip_all_text">"跳过所有"</string>
+	<!---->
+	<string name="optimize_saving_hint">"优化照片"</string>
+	<!---->
+	<string name="wrapper_button_desc">"扩展按钮"</string>
+	<!---->
+	<string name="restore_settings_dialog_msg">"将照相机重置为出厂设置？"</string>
+	<!---->
+	<string name="restore_settings_dialog_yes">"重置"</string>
+	<!---->
+	<string name="restore_settings_dialog_no">"取消"</string>
+	<!---->
+	<string name="permission_title">"相机需要权限"</string>
+	<!---->
+	<string name="permission_content">"点击这里去获取权限"</string>
+	<plurals name="instant_capture_photos">
+		<item quantity="one">"<xliff:g id="step_count">%1$d</xliff:g> 张照片"</item>
+		<item quantity="other">"<xliff:g id="step_count">%1$d</xliff:g> 张照片"</item>
+	</plurals>
+	<!-- no translation found for photos -->
+	<skip />
+	<!---->
+	<string name="delete_selection_burst">"当前序列包含%s张图片。是否删除所有？"</string>
+	<!---->
+	<string name="flash_with_superzoom_toast">"超级像素开启时不能使用闪光灯"</string>
+	<!---->
+	<string name="battery_warning_title">"不能进行熄屏快拍"</string>
+	<!---->
+	<string name="battery_warning_content">"低电量时不能拍照"</string>
+	<!---->
+	<string name="phone_storage_low_for_alert_dialog">"手机存贮空间低，退出相机."</string>
+	<!---->
+	<string name="sd_card_low_for_alert_dialog">"SD卡存贮空间低，退出相机程序"</string>
+	<!---->
+	<string name="camera_error_title_alert_dialog">"存储空间低"</string>
+	<!---->
+	<string name="storage_low_close_alert_dialog">"关闭"</string>
+	<!---->
+	<string name="storage_low_phone_full_no_sdcard_alert_dialog">"手机存储满。清理空间或插入存储卡。"</string>
+	<!---->
+	<string name="storage_low_phone_sdcard_full_alert_dialog">"手机和存储卡已满。清理空间后在使用相机。"</string>
+	<!---->
+	<string name="storage_low_phone_full_sdcard_ok_alert_dialog">"手机存储满。保存到存储卡？"</string>
+	<!---->
+	<string name="storage_low_storage_full_phone_ok_alert_dialog">"存储卡已满。保存到手机存储吗？"</string>
+	<!---->
+	<string name="storage_low_phone_full_sdcard_ok_button">"使用存储卡"</string>
+	<!---->
+	<string name="storage_low_storage_full_phone_ok_button">"使用手机存储"</string>
+	<!---->
+	<string name="storage_low_storage_critical_toast_message">"手机存储空间低，请清理空间或者选择SD卡存储"</string>
+	<!---->
+	<string name="storage_low_video_critical_toast_message">"存储空间低。停止录像。请清理空间或者使用SD卡存储"</string>
+	<!---->
+	<string name="pref_camera_antibanding_title">"抗条带效应"</string>
+	<!---->
+	<string name="pref_camera_antibanding_entry_0">"关"</string>
+	<!---->
+	<string name="pref_camera_antibanding_entry_1">"50赫兹"</string>
+	<!---->
+	<string name="pref_camera_antibanding_entry_2">"60赫兹"</string>
+	<!---->
+	<string name="pref_camera_antibanding_entry_3">"自动"</string>
+	<!---->
+	<string name="storage_warning_content">"低存储空间低时不能拍照"</string>
+	<!---->
+	<string name="storage_and_battery_warning_content">"低电量和低存储空间时不能拍照"</string>
+	<!---->
+	<string name="remote_content">"在可穿戴设备上拍照"</string>
+	<!---->
+	<string name="boom_key_press">"点击"</string>
+	<!---->
+	<string name="boom_key">"小T智键"</string>
+	<!---->
+	<string name="location_service_dialog_title">"GPS 关"</string>
+	<!---->
+	<string name="location_service_dialog_msg">"为标明照片和视频的拍摄地址，请在位置设置中开启 GPS 定位及移动网络。"</string>
+	<!---->
+	<string name="location_service_dialog_cancel">"取消"</string>
+	<!---->
+	<string name="location_service__dialog_setting">"设置"</string>
+	<!---->
+	<string name="gestureshot_guide_capture">"手势拍照:检测到手势时自动拍照:"</string>
+	<!---->
+	<string name="mode_filters">"滤镜"</string>
+	<!---->
+	<string name="mode_pose">"美姿"</string>
+	<!---->
+	<string name="video_recording_paused">"视频录制已经暂停。"</string>
+	<!---->
+	<string name="pose_final_icon">"空"</string>
+	<!---->
+	<string name="time_left">"剩余时间:"</string>
+	<!---->
+	<string name="pref_camera_auto_hdr_title">"自动 HDR"</string>
+	<!---->
+	<string name="pref_camera_timer_entry_0">"关闭"</string>
+	<!-- no translation found for pref_camera_timer_unit_suffix -->
+	<skip />
+	<!---->
+	<string name="pref_camera_face_beauty_summary">"当相机检测到人脸时，自动进行美颜处理"</string>
+	<!---->
+	<string name="pref_camera_mirror_selfie_summary">"开启后，前置摄像头所拍像将做镜像处理"</string>
+	<!---->
+	<string name="pref_camera_pose_summary">"开启后，拍照时会根据场景提供pose参考方案"</string>
+	<!---->
+	<string name="mode_360_photo">"360全景"</string>
+	<!---->
+	<string name="panorama_preview_holder_info_text">"点击切换拍摄方向"</string>
+	<!---->
+	<string name="back">"返回"</string>
+	<!---->
+	<string name="gallery_name">"图库"</string>
+	<!---->
+	<string name="audio_record_on_desc">"声音录制"</string>
+	<!---->
+	<string name="audio_record_off_desc">"无声"</string>
+</resources>

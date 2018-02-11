@@ -1,0 +1,742 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="alarm_set">
+    <item msgid="6450913786084215050">"ההתראה הוגדרה לעוד פחות מדקה מעכשיו."</item>
+    <item msgid="6002066367368421848">"ההתראה הוגדרה לעוד <ns1:g id="DAYS">%1$s</ns1:g> מעכשיו."</item>
+    <item msgid="8824719306247973774">"ההתראה הוגדרה לעוד <ns1:g id="HOURS">%2$s</ns1:g> מעכשיו."</item>
+    <item msgid="8182406852935468862">"ההתראה הוגדרה לעוד <ns1:g id="DAYS">%1$s</ns1:g> ו-<ns1:g id="HOURS">%2$s</ns1:g> מעכשיו."</item>
+    <item msgid="2532279224777213194">"הוגדרה התראה לעוד <ns1:g id="MINUTES">%3$s</ns1:g> מעכשיו."</item>
+    <item msgid="5936557894247187717">"ההתראה הוגדרה לעוד <ns1:g id="DAYS">%1$s</ns1:g> ו-<ns1:g id="MINUTES">%3$s</ns1:g> מעכשיו."</item>
+    <item msgid="9115697840826129603">"ההתראה הוגדרה לעוד <ns1:g id="HOURS">%2$s</ns1:g> ו-<ns1:g id="MINUTES">%3$s</ns1:g> מעכשיו."</item>
+    <item msgid="2332583385137381060">"ההתראה הוגדרה לעוד <ns1:g id="DAYS">%1$s</ns1:g>, <ns1:g id="HOURS">%2$s</ns1:g> ו-<ns1:g id="MINUTES">%3$s</ns1:g> מעכשיו."</item>
+  </string-array>
+    <string-array name="auto_silence_entries">
+    <item msgid="3024545954917711306">"דקה"</item>
+    <item msgid="5431906692406316549">"5 דקות"</item>
+    <item msgid="7742728812068919959">"10 דקות"</item>
+    <item msgid="2855948657259647629">"15 דקות"</item>
+    <item msgid="6330196381284475079">"20 דקות"</item>
+    <item msgid="7809240121716151904">"25 דקות"</item>
+    <item msgid="4278641338024561333">"לעולם לא"</item>
+  </string-array>
+    <string-array name="cities_names">
+    <item msgid="4653806289288974388">"א<ns1:g id="SEPARATOR">=</ns1:g>אביג\'אן"</item>
+    <item msgid="4864167603178202155">"א<ns1:g id="SEPARATOR">=</ns1:g>אקרה"</item>
+    <item msgid="6478898553803167749">"א<ns1:g id="SEPARATOR">=</ns1:g>אדיס אבבה"</item>
+    <item msgid="5618029992528436448">"א<ns1:g id="SEPARATOR">=</ns1:g>אלג\'יר"</item>
+    <item msgid="2906834750114790793">"ב<ns1:g id="SEPARATOR">=</ns1:g>בלאנטיר"</item>
+    <item msgid="8153571933836629863">"ב<ns1:g id="SEPARATOR">=</ns1:g>ברזוויל"</item>
+    <item msgid="3703129580594640833">"ק<ns1:g id="SEPARATOR">=</ns1:g>קהיר"</item>
+    <item msgid="2300915410194647320">"ק<ns1:g id="SEPARATOR">=</ns1:g>קזבלנקה"</item>
+    <item msgid="1217039002304887948">"ק<ns1:g id="SEPARATOR">=</ns1:g>קונאקרי"</item>
+    <item msgid="8775104707806220928">"ד<ns1:g id="SEPARATOR">=</ns1:g>דקר"</item>
+    <item msgid="5948764589113643811">"ד<ns1:g id="SEPARATOR">=</ns1:g>דאר א-סלאם"</item>
+    <item msgid="6306254507715416077">"ג<ns1:g id="SEPARATOR">=</ns1:g>ג\'יבוטי"</item>
+    <item msgid="4286108029159501866">"פ<ns1:g id="SEPARATOR">=</ns1:g>פריטאון"</item>
+    <item msgid="4514786733035528116">"ג<ns1:g id="SEPARATOR">=</ns1:g>גאבורון"</item>
+    <item msgid="7367496854968219671">"ה<ns1:g id="SEPARATOR">=</ns1:g>הארארה"</item>
+    <item msgid="6837746379726020288">"י<ns1:g id="SEPARATOR">=</ns1:g>יוהנסבורג"</item>
+    <item msgid="6284185156591171506">"ק<ns1:g id="SEPARATOR">=</ns1:g>קמפלה"</item>
+    <item msgid="3299518884693668985">"ח<ns1:g id="SEPARATOR">=</ns1:g>חרטום"</item>
+    <item msgid="4614879508966043969">"ק<ns1:g id="SEPARATOR">=</ns1:g>קיגאלי"</item>
+    <item msgid="8878437043772547732">"ק<ns1:g id="SEPARATOR">=</ns1:g>קינשאסה"</item>
+    <item msgid="6325601635544067909">"ל<ns1:g id="SEPARATOR">=</ns1:g>לאגוס"</item>
+    <item msgid="6094357506290323524">"מ<ns1:g id="SEPARATOR">=</ns1:g>מסרו"</item>
+    <item msgid="7270525814400329098">"מ<ns1:g id="SEPARATOR">=</ns1:g>מוגדישו"</item>
+    <item msgid="353110101402547540">"נ<ns1:g id="SEPARATOR">=</ns1:g>ניירובי"</item>
+    <item msgid="1688121892646984549">"ס<ns1:g id="SEPARATOR">=</ns1:g>סאו טומה"</item>
+    <item msgid="3642219084651687800">"ט<ns1:g id="SEPARATOR">=</ns1:g>טימבקטו"</item>
+    <item msgid="7287513493631179463">"ט<ns1:g id="SEPARATOR">=</ns1:g>טריפולי"</item>
+    <item msgid="5052614613671591560">"ט<ns1:g id="SEPARATOR">=</ns1:g>טוניס"</item>
+    <item msgid="7976303179193839859">"א<ns1:g id="SEPARATOR">=</ns1:g>אנקורג\'"</item>
+    <item msgid="193703779380497120">"מ<ns1:g id="SEPARATOR">=</ns1:g>מנדוזה"</item>
+    <item msgid="5448884981082519628">"א<ns1:g id="SEPARATOR">=</ns1:g>ארובה"</item>
+    <item msgid="1577938273323914773">"א<ns1:g id="SEPARATOR">=</ns1:g>אסונסיון"</item>
+    <item msgid="5617155978105010520">"ב<ns1:g id="SEPARATOR">=</ns1:g>ברבדוס"</item>
+    <item msgid="3600025702357376322">"ב<ns1:g id="SEPARATOR">=</ns1:g>בליז"</item>
+    <item msgid="2847679817118467051">"ב<ns1:g id="SEPARATOR">=</ns1:g>בוגוטה"</item>
+    <item msgid="9029003541681282929">"ב<ns1:g id="SEPARATOR">=</ns1:g>בואנוס איירס"</item>
+    <item msgid="2338367960332622522">"ק<ns1:g id="SEPARATOR">=</ns1:g>קנקון"</item>
+    <item msgid="4339797536047170278">"ק<ns1:g id="SEPARATOR">=</ns1:g>קראקס"</item>
+    <item msgid="9199080438977757863">"ק<ns1:g id="SEPARATOR">=</ns1:g>קיימן"</item>
+    <item msgid="1993203473281589891">"ש<ns1:g id="SEPARATOR">=</ns1:g>שיקגו"</item>
+    <item msgid="7990342776303470263">"ק<ns1:g id="SEPARATOR">=</ns1:g>קוסטה ריקה"</item>
+    <item msgid="5676109900908808628">"ק<ns1:g id="SEPARATOR">=</ns1:g>קוראסאו"</item>
+    <item msgid="5519120432577564812">"ד<ns1:g id="SEPARATOR">=</ns1:g>דוסון קריק"</item>
+    <item msgid="2126228972377380680">"ד<ns1:g id="SEPARATOR">=</ns1:g>דנבר"</item>
+    <item msgid="3298410632922319193">"ד<ns1:g id="SEPARATOR">=</ns1:g>דטרויט"</item>
+    <item msgid="2819032085688382805">"ד<ns1:g id="SEPARATOR">=</ns1:g>דומיניקה"</item>
+    <item msgid="6170433208654553821">"א<ns1:g id="SEPARATOR">=</ns1:g>אדמונטון"</item>
+    <item msgid="795461860173291499">"א<ns1:g id="SEPARATOR">=</ns1:g>אל סלבדור"</item>
+    <item msgid="7872196528637597794">"פ<ns1:g id="SEPARATOR">=</ns1:g>פורטלזה"</item>
+    <item msgid="5801558418916235541">"ג<ns1:g id="SEPARATOR">=</ns1:g>גראנד טורק"</item>
+    <item msgid="2103759276235503048">"ג<ns1:g id="SEPARATOR">=</ns1:g>גרנדה"</item>
+    <item msgid="1490069759176391533">"ג<ns1:g id="SEPARATOR">=</ns1:g>גואטמלה"</item>
+    <item msgid="525959305652046261">"ג<ns1:g id="SEPARATOR">=</ns1:g>גיאנה"</item>
+    <item msgid="7565596629973190931">"ה<ns1:g id="SEPARATOR">=</ns1:g>האליפקס"</item>
+    <item msgid="3811169155065582644">"ה<ns1:g id="SEPARATOR">=</ns1:g>הוואנה"</item>
+    <item msgid="3733555435078090201">"א<ns1:g id="SEPARATOR">=</ns1:g>אינדיאנפוליס"</item>
+    <item msgid="226982663848410981">"נ<ns1:g id="SEPARATOR">=</ns1:g>נוקס"</item>
+    <item msgid="3815293080342229459">"מ<ns1:g id="SEPARATOR">=</ns1:g>מרנגו"</item>
+    <item msgid="6594853515451547389">"פ<ns1:g id="SEPARATOR">=</ns1:g>פטרסבורג"</item>
+    <item msgid="6091571889213283534">"ט<ns1:g id="SEPARATOR">=</ns1:g>טל סיטי"</item>
+    <item msgid="3089369312058696669">"‏ו<ns1:g id="SEPARATOR">=</ns1:g>וויי (Vevay)"</item>
+    <item msgid="1334860422444068943">"ו<ns1:g id="SEPARATOR">=</ns1:g>וינסנס"</item>
+    <item msgid="7775105082093691756">"ו<ns1:g id="SEPARATOR">=</ns1:g>ווינאמאק"</item>
+    <item msgid="4043335541899184547">"ק<ns1:g id="SEPARATOR">=</ns1:g>קינגסטון"</item>
+    <item msgid="1063757593477259280">"נ<ns1:g id="SEPARATOR">=</ns1:g>נואסטרה סניורה דה לה פז"</item>
+    <item msgid="349901732062388869">"ל<ns1:g id="SEPARATOR">=</ns1:g>לימה"</item>
+    <item msgid="4977592519316837842">"ל<ns1:g id="SEPARATOR">=</ns1:g>לוס אנג\'לס"</item>
+    <item msgid="7713051790509638572">"ל<ns1:g id="SEPARATOR">=</ns1:g>לואיוויל"</item>
+    <item msgid="8460620935898405225">"מ<ns1:g id="SEPARATOR">=</ns1:g>מנאגואה"</item>
+    <item msgid="8328345293081464192">"מ<ns1:g id="SEPARATOR">=</ns1:g>מרטיניק"</item>
+    <item msgid="8010357327448619637">"מ<ns1:g id="SEPARATOR">=</ns1:g>מנדוזה"</item>
+    <item msgid="2046777213916219253">"מ<ns1:g id="SEPARATOR">=</ns1:g>מטלאקאטלה"</item>
+    <item msgid="2227885609632709258">"מ<ns1:g id="SEPARATOR">=</ns1:g>מקסיקו סיטי"</item>
+    <item msgid="9089629663998569289">"מ<ns1:g id="SEPARATOR">=</ns1:g>מונטריי"</item>
+    <item msgid="2782276175306930748">"מ<ns1:g id="SEPARATOR">=</ns1:g>מונטווידאו"</item>
+    <item msgid="4942386959622269480">"מ<ns1:g id="SEPARATOR">=</ns1:g>מונטריאול"</item>
+    <item msgid="3068203952968918165">"נ<ns1:g id="SEPARATOR">=</ns1:g>נסאו"</item>
+    <item msgid="4234515454127289962">"נ<ns1:g id="SEPARATOR">=</ns1:g>ניו יורק"</item>
+    <item msgid="1660551302087304308">"ב<ns1:g id="SEPARATOR">=</ns1:g>ביולה"</item>
+    <item msgid="415823390775449071">"ס<ns1:g id="SEPARATOR">=</ns1:g>סנטר"</item>
+    <item msgid="6644186958433380884">"נ<ns1:g id="SEPARATOR">=</ns1:g>ניו סיילם"</item>
+    <item msgid="6408587617047971798">"פ<ns1:g id="SEPARATOR">=</ns1:g>פנמה"</item>
+    <item msgid="5576899364199447991">"פ<ns1:g id="SEPARATOR">=</ns1:g>פניקס"</item>
+    <item msgid="5541266909095409447">"פ<ns1:g id="SEPARATOR">=</ns1:g>פורט אוף ספיין"</item>
+    <item msgid="6417519313622785932">"פ<ns1:g id="SEPARATOR">=</ns1:g>פורט-או-פרנס"</item>
+    <item msgid="2078589249210571366">"פ<ns1:g id="SEPARATOR">=</ns1:g>פוארטו ריקו"</item>
+    <item msgid="8522030474373927681">"ס<ns1:g id="SEPARATOR">=</ns1:g>סנטו דומינגו"</item>
+    <item msgid="4763853453317431594">"ס<ns1:g id="SEPARATOR">=</ns1:g>סאו פאולו"</item>
+    <item msgid="2713153284784311646">"ס<ns1:g id="SEPARATOR">=</ns1:g>סנט ג\'ונס"</item>
+    <item msgid="8252666620333105271">"ס<ns1:g id="SEPARATOR">=</ns1:g>סנט קיטס"</item>
+    <item msgid="4851597775036027515">"ס<ns1:g id="SEPARATOR">=</ns1:g>סנט לוסיה"</item>
+    <item msgid="2395485473100271503">"ס<ns1:g id="SEPARATOR">=</ns1:g>סנט תומס"</item>
+    <item msgid="4148037555658225145">"ט<ns1:g id="SEPARATOR">=</ns1:g>טיחואנה"</item>
+    <item msgid="3491199166042475853">"ט<ns1:g id="SEPARATOR">=</ns1:g>טורונטו"</item>
+    <item msgid="1506838283840737263">"ו<ns1:g id="SEPARATOR">=</ns1:g>ונקובר"</item>
+    <item msgid="8935386104773857399">"ו<ns1:g id="SEPARATOR">=</ns1:g>וויניפג"</item>
+    <item msgid="1132634022412399582">"ק<ns1:g id="SEPARATOR">=</ns1:g>הקוטב הדרומי"</item>
+    <item msgid="4076962667198039206">"ל<ns1:g id="SEPARATOR">=</ns1:g>לונגיירביאן"</item>
+    <item msgid="3784788073896028355">"א<ns1:g id="SEPARATOR">=</ns1:g>אלמטי"</item>
+    <item msgid="7895695236056852523">"ע<ns1:g id="SEPARATOR">=</ns1:g>עמאן"</item>
+    <item msgid="1795426532295280371">"א<ns1:g id="SEPARATOR">=</ns1:g>אנאדיר"</item>
+    <item msgid="7194236926158343552">"א<ns1:g id="SEPARATOR">=</ns1:g>אקטאו"</item>
+    <item msgid="4796350130854360870">"ב<ns1:g id="SEPARATOR">=</ns1:g>בגדד"</item>
+    <item msgid="4020105434451091851">"ב<ns1:g id="SEPARATOR">=</ns1:g>בחריין"</item>
+    <item msgid="3895868797052686484">"ב<ns1:g id="SEPARATOR">=</ns1:g>באקו"</item>
+    <item msgid="228001522630057957">"ב<ns1:g id="SEPARATOR">=</ns1:g>בנגקוק"</item>
+    <item msgid="5555647809114820537">"ב<ns1:g id="SEPARATOR">=</ns1:g>ביירות"</item>
+    <item msgid="2960873998178478784">"כ<ns1:g id="SEPARATOR">=</ns1:g>כלכותה"</item>
+    <item msgid="8765555959722950691">"ד<ns1:g id="SEPARATOR">=</ns1:g>דמשק"</item>
+    <item msgid="4979709428925196546">"ד<ns1:g id="SEPARATOR">=</ns1:g>דאקה"</item>
+    <item msgid="310419600200885308">"ד<ns1:g id="SEPARATOR">=</ns1:g>דובאי"</item>
+    <item msgid="1203379132329159260">"ע<ns1:g id="SEPARATOR">=</ns1:g>עזה"</item>
+    <item msgid="2359068282340162319">"ח<ns1:g id="SEPARATOR">=</ns1:g>חברון"</item>
+    <item msgid="6223396610551759129">"ה<ns1:g id="SEPARATOR">=</ns1:g>הו צ\'י מין"</item>
+    <item msgid="4731022818651322736">"ה<ns1:g id="SEPARATOR">=</ns1:g>הונג קונג"</item>
+    <item msgid="8104778702069607166">"א<ns1:g id="SEPARATOR">=</ns1:g>איסטנבול"</item>
+    <item msgid="758800913783999425">"ג<ns1:g id="SEPARATOR">=</ns1:g>ג\'קרטה"</item>
+    <item msgid="8956406398692698126">"י<ns1:g id="SEPARATOR">=</ns1:g>ירושלים"</item>
+    <item msgid="1664426577433326419">"ק<ns1:g id="SEPARATOR">=</ns1:g>קבול"</item>
+    <item msgid="7700349511508357396">"ק<ns1:g id="SEPARATOR">=</ns1:g>קאראצ\'י"</item>
+    <item msgid="5273241794521591984">"ק<ns1:g id="SEPARATOR">=</ns1:g>קטמנדו"</item>
+    <item msgid="4754850915168634158">"ק<ns1:g id="SEPARATOR">=</ns1:g>קואלה לומפור"</item>
+    <item msgid="5187849635785055693">"כ<ns1:g id="SEPARATOR">=</ns1:g>כוויית"</item>
+    <item msgid="2923385979252179376">"מ<ns1:g id="SEPARATOR">=</ns1:g>מקאו"</item>
+    <item msgid="722458682107911739">"מ<ns1:g id="SEPARATOR">=</ns1:g>מנילה"</item>
+    <item msgid="6033964325069060422">"מ<ns1:g id="SEPARATOR">=</ns1:g>מוסקט"</item>
+    <item msgid="6077458941399984780">"פ<ns1:g id="SEPARATOR">=</ns1:g>פנום פן"</item>
+    <item msgid="935474308903572975">"פ<ns1:g id="SEPARATOR">=</ns1:g>פיונגיאנג"</item>
+    <item msgid="5336632319992664889">"ק<ns1:g id="SEPARATOR">=</ns1:g>קטאר"</item>
+    <item msgid="1667243110545095146">"י<ns1:g id="SEPARATOR">=</ns1:g>ינגון"</item>
+    <item msgid="4460370766685855731">"ר<ns1:g id="SEPARATOR">=</ns1:g>ריאד"</item>
+    <item msgid="4229224905931739201">"ס<ns1:g id="SEPARATOR">=</ns1:g>סייגון"</item>
+    <item msgid="8705359848250215620">"ס<ns1:g id="SEPARATOR">=</ns1:g>סיאול"</item>
+    <item msgid="583367295371395814">"ש<ns1:g id="SEPARATOR">=</ns1:g>שנגחאי"</item>
+    <item msgid="1422156732794771136">"ס<ns1:g id="SEPARATOR">=</ns1:g>סינגפור"</item>
+    <item msgid="1972491729911039207">"ט<ns1:g id="SEPARATOR">=</ns1:g>טאיפיי"</item>
+    <item msgid="5563193560935461106">"ט<ns1:g id="SEPARATOR">=</ns1:g>טהרן"</item>
+    <item msgid="8629402941285674273">"ת<ns1:g id="SEPARATOR">=</ns1:g>תל אביב"</item>
+    <item msgid="8499164674454654525">"ט<ns1:g id="SEPARATOR">=</ns1:g>טוקיו"</item>
+    <item msgid="1705804745888992744">"א<ns1:g id="SEPARATOR">=</ns1:g>אולאנבאטר"</item>
+    <item msgid="2028626988021468640">"ב<ns1:g id="SEPARATOR">=</ns1:g>ברמודה"</item>
+    <item msgid="4527109966513690429">"ק<ns1:g id="SEPARATOR">=</ns1:g>קנארי"</item>
+    <item msgid="4886308317040330383">"ק<ns1:g id="SEPARATOR">=</ns1:g>קייפ ורדה"</item>
+    <item msgid="1003307362164178007">"ר<ns1:g id="SEPARATOR">=</ns1:g>רייקיאוויק"</item>
+    <item msgid="6742010412815268657">"ס<ns1:g id="SEPARATOR">=</ns1:g>סטנלי"</item>
+    <item msgid="5659389449738592757">"א<ns1:g id="SEPARATOR">=</ns1:g>אדלייד"</item>
+    <item msgid="4567804576346784523">"ב<ns1:g id="SEPARATOR">=</ns1:g>בריסביין"</item>
+    <item msgid="8730590400362815585">"ק<ns1:g id="SEPARATOR">=</ns1:g>קנברה"</item>
+    <item msgid="6416990927714140153">"ד<ns1:g id="SEPARATOR">=</ns1:g>דרווין"</item>
+    <item msgid="3073969292696516135">"מ<ns1:g id="SEPARATOR">=</ns1:g>מלבורן"</item>
+    <item msgid="1719286228375722176">"נ<ns1:g id="SEPARATOR">=</ns1:g>ניו-סאות\' ווילס"</item>
+    <item msgid="3663940748056976266">"פ<ns1:g id="SEPARATOR">=</ns1:g>פרת\'"</item>
+    <item msgid="3383881736858438153">"ק<ns1:g id="SEPARATOR">=</ns1:g>קווינסלנד"</item>
+    <item msgid="971889339240879138">"ס<ns1:g id="SEPARATOR">=</ns1:g>סידני"</item>
+    <item msgid="5542803438162180311">"ו<ns1:g id="SEPARATOR">=</ns1:g>ויקטוריה"</item>
+    <item msgid="11828841481838883">"נ<ns1:g id="SEPARATOR">=</ns1:g>ניופאונדלנד"</item>
+    <item msgid="1734331918410561807">"ס<ns1:g id="SEPARATOR">=</ns1:g>ססקצו\'אן"</item>
+    <item msgid="9184412695613864979">"א<ns1:g id="SEPARATOR">=</ns1:g>אי הפסחא"</item>
+    <item msgid="1014282454239014527">"א<ns1:g id="SEPARATOR">=</ns1:g>אמסטרדם"</item>
+    <item msgid="4928363054269791193">"א<ns1:g id="SEPARATOR">=</ns1:g>אנדורה"</item>
+    <item msgid="912290900213826368">"א<ns1:g id="SEPARATOR">=</ns1:g>אתונה"</item>
+    <item msgid="6097000352459209495">"ב<ns1:g id="SEPARATOR">=</ns1:g>בלפאסט"</item>
+    <item msgid="3285885824311481790">"ב<ns1:g id="SEPARATOR">=</ns1:g>בלגרד"</item>
+    <item msgid="911055049821251982">"ב<ns1:g id="SEPARATOR">=</ns1:g>ברלין"</item>
+    <item msgid="9099244516556291111">"ב<ns1:g id="SEPARATOR">=</ns1:g>ברטיסלאבה"</item>
+    <item msgid="158977749726480076">"ב<ns1:g id="SEPARATOR">=</ns1:g>בריסל"</item>
+    <item msgid="8875102297676173346">"ב<ns1:g id="SEPARATOR">=</ns1:g>בוקרשט"</item>
+    <item msgid="804451569472542912">"ב<ns1:g id="SEPARATOR">=</ns1:g>בודפשט"</item>
+    <item msgid="6827506774445509939">"ק<ns1:g id="SEPARATOR">=</ns1:g>קישינב"</item>
+    <item msgid="487345893088732797">"ק<ns1:g id="SEPARATOR">=</ns1:g>קופנהגן"</item>
+    <item msgid="7760953471297773537">"ד<ns1:g id="SEPARATOR">=</ns1:g>דבלין"</item>
+    <item msgid="323414429034825249">"ג<ns1:g id="SEPARATOR">=</ns1:g>גיברלטר"</item>
+    <item msgid="1785566206078328830">"ה<ns1:g id="SEPARATOR">=</ns1:g>הלסינקי"</item>
+    <item msgid="5938185647271923359">"א<ns1:g id="SEPARATOR">=</ns1:g>האי מאן"</item>
+    <item msgid="5974864320735263245">"א<ns1:g id="SEPARATOR">=</ns1:g>איסטנבול"</item>
+    <item msgid="3567775364750772947">"ק<ns1:g id="SEPARATOR">=</ns1:g>קייב"</item>
+    <item msgid="540344101798867007">"ל<ns1:g id="SEPARATOR">=</ns1:g>ליסבון"</item>
+    <item msgid="5091062403792923657">"ל<ns1:g id="SEPARATOR">=</ns1:g>לונדון"</item>
+    <item msgid="7075006205000490364">"ל<ns1:g id="SEPARATOR">=</ns1:g>לוקסמבורג"</item>
+    <item msgid="4901781246584739451">"מ<ns1:g id="SEPARATOR">=</ns1:g>מדריד"</item>
+    <item msgid="9047080834315777144">"מ<ns1:g id="SEPARATOR">=</ns1:g>מלטה"</item>
+    <item msgid="8200456520732452034">"מ<ns1:g id="SEPARATOR">=</ns1:g>מינסק"</item>
+    <item msgid="5452744619736513383">"מ<ns1:g id="SEPARATOR">=</ns1:g>מונקו"</item>
+    <item msgid="3513517408062322298">"מ<ns1:g id="SEPARATOR">=</ns1:g>מוסקבה"</item>
+    <item msgid="7917103295878081674">"א<ns1:g id="SEPARATOR">=</ns1:g>אוסלו"</item>
+    <item msgid="4245547231693746977">"פ<ns1:g id="SEPARATOR">=</ns1:g>פריז"</item>
+    <item msgid="3778652900196715557">"פ<ns1:g id="SEPARATOR">=</ns1:g>פראג"</item>
+    <item msgid="1827175423974383675">"ר<ns1:g id="SEPARATOR">=</ns1:g>ריגה"</item>
+    <item msgid="2095130417232677930">"ר<ns1:g id="SEPARATOR">=</ns1:g>רומא"</item>
+    <item msgid="7631654618289353520">"ס<ns1:g id="SEPARATOR">=</ns1:g>סן מרינו"</item>
+    <item msgid="7219835179107610398">"ס<ns1:g id="SEPARATOR">=</ns1:g>סרייבו"</item>
+    <item msgid="7199868165463282240">"ס<ns1:g id="SEPARATOR">=</ns1:g>סימפרופול"</item>
+    <item msgid="2786395006682246794">"ס<ns1:g id="SEPARATOR">=</ns1:g>סקופיה"</item>
+    <item msgid="4706927178872100023">"ס<ns1:g id="SEPARATOR">=</ns1:g>סופיה"</item>
+    <item msgid="1982417589953195308">"ש<ns1:g id="SEPARATOR">=</ns1:g>שטוקהולם"</item>
+    <item msgid="1596083919400921960">"ט<ns1:g id="SEPARATOR">=</ns1:g>טאלין"</item>
+    <item msgid="3079313598974879114">"ו<ns1:g id="SEPARATOR">=</ns1:g>ותיקן"</item>
+    <item msgid="6516636001856910888">"ו<ns1:g id="SEPARATOR">=</ns1:g>וינה"</item>
+    <item msgid="6377314532157945456">"ו<ns1:g id="SEPARATOR">=</ns1:g>וילניוס"</item>
+    <item msgid="3427175235616698721">"ו<ns1:g id="SEPARATOR">=</ns1:g>ורשה"</item>
+    <item msgid="8404354243761332922">"ז<ns1:g id="SEPARATOR">=</ns1:g>זאגרב"</item>
+    <item msgid="1457280242717152391">"צ<ns1:g id="SEPARATOR">=</ns1:g>ציריך"</item>
+    <item msgid="1065940089741359291">"א<ns1:g id="SEPARATOR">=</ns1:g>אנטננריבו"</item>
+    <item msgid="5176181880014090003">"מ<ns1:g id="SEPARATOR">=</ns1:g>האיים המלדיביים"</item>
+    <item msgid="8281854645557426433">"מ<ns1:g id="SEPARATOR">=</ns1:g>מאוריציוס"</item>
+    <item msgid="2686249517389816420">"א<ns1:g id="SEPARATOR">=</ns1:g>אוקלנד"</item>
+    <item msgid="279925671775807392">"פ<ns1:g id="SEPARATOR">=</ns1:g>פיג\'י"</item>
+    <item msgid="7971492669765264840">"ג<ns1:g id="SEPARATOR">=</ns1:g>גואם"</item>
+    <item msgid="889371273355762733">"ה<ns1:g id="SEPARATOR">=</ns1:g>הונולולו"</item>
+    <item msgid="5516500578074269817">"ק<ns1:g id="SEPARATOR">=</ns1:g>קיריטימאטי"</item>
+    <item msgid="2740704911915073056">"נ<ns1:g id="SEPARATOR">=</ns1:g>נומאה"</item>
+    <item msgid="8732832728949672807">"ס<ns1:g id="SEPARATOR">=</ns1:g>סמואה"</item>
+    <item msgid="6489500698846864993">"ט<ns1:g id="SEPARATOR">=</ns1:g>טהיטי"</item>
+    <item msgid="3983121625709442324">"א<ns1:g id="SEPARATOR">=</ns1:g>אנטיגואה"</item>
+    <item msgid="2650510570709806322">"א<ns1:g id="SEPARATOR">=</ns1:g>אוסטין"</item>
+    <item msgid="5257283506227357911">"ב<ns1:g id="SEPARATOR">=</ns1:g>בוסטון"</item>
+    <item msgid="6326368958641850267">"ק<ns1:g id="SEPARATOR">=</ns1:g>קלגרי"</item>
+    <item msgid="8830116365016232583">"ק<ns1:g id="SEPARATOR">=</ns1:g>קולומובוס"</item>
+    <item msgid="6986556538341883811">"ד<ns1:g id="SEPARATOR">=</ns1:g>דאלאס"</item>
+    <item msgid="836479352500251902">"נ<ns1:g id="SEPARATOR">=</ns1:g>נוקסוויל"</item>
+    <item msgid="8495291458467378851">"מ<ns1:g id="SEPARATOR">=</ns1:g>ממפיס"</item>
+    <item msgid="2788807207554683122">"מ<ns1:g id="SEPARATOR">=</ns1:g>מיאמי"</item>
+    <item msgid="3984640407077208471">"מ<ns1:g id="SEPARATOR">=</ns1:g>מיניאפוליס"</item>
+    <item msgid="6997305266329324161">"א<ns1:g id="SEPARATOR">=</ns1:g>אוטווה"</item>
+    <item msgid="5191741145278683016">"פ<ns1:g id="SEPARATOR">=</ns1:g>פילדלפיה"</item>
+    <item msgid="5898032730733441936">"פ<ns1:g id="SEPARATOR">=</ns1:g>פורטלנד"</item>
+    <item msgid="9070160716002203069">"ס<ns1:g id="SEPARATOR">=</ns1:g>סן דייגו"</item>
+    <item msgid="1829944133410079040">"ס<ns1:g id="SEPARATOR">=</ns1:g>סן פרנסיסקו"</item>
+    <item msgid="8407905318529692654">"ס<ns1:g id="SEPARATOR">=</ns1:g>סולט לייק סיטי"</item>
+    <item msgid="3091392589347990898">"ס<ns1:g id="SEPARATOR">=</ns1:g>סן חוזה"</item>
+    <item msgid="7080627414383807284">"ס<ns1:g id="SEPARATOR">=</ns1:g>סן סלבדור"</item>
+    <item msgid="3430371213266252049">"ס<ns1:g id="SEPARATOR">=</ns1:g>סיאטל"</item>
+    <item msgid="9177491393818757071">"ס<ns1:g id="SEPARATOR">=</ns1:g>סנט לואיס"</item>
+    <item msgid="6234359686676312837">"ו<ns1:g id="SEPARATOR">=</ns1:g>וושינגטון הבירה"</item>
+    <item msgid="4325057056005132331">"י<ns1:g id="SEPARATOR">=</ns1:g>יוסטון"</item>
+    <item msgid="38148255938075867">"ס<ns1:g id="SEPARATOR">=</ns1:g>סן אנטוניו"</item>
+    <item msgid="3601481860893666763">"ג<ns1:g id="SEPARATOR">=</ns1:g>ג\'קסונוויל"</item>
+    <item msgid="3987471437354665534">"ב<ns1:g id="SEPARATOR">=</ns1:g>בולטימור"</item>
+    <item msgid="3389674262267006887">"נ<ns1:g id="SEPARATOR">=</ns1:g>נאשוויל"</item>
+    <item msgid="7521690366448637309">"מ<ns1:g id="SEPARATOR">=</ns1:g>מילווקי"</item>
+    <item msgid="2231069593975740859">"א<ns1:g id="SEPARATOR">=</ns1:g>אוקלהומה סיטי"</item>
+    <item msgid="1970008262236914770">"ל<ns1:g id="SEPARATOR">=</ns1:g>לאס וגאס"</item>
+    <item msgid="7113811028304266017">"א<ns1:g id="SEPARATOR">=</ns1:g>אלבקרקי"</item>
+    <item msgid="6481469458896644678">"ט<ns1:g id="SEPARATOR">=</ns1:g>טוסון"</item>
+    <item msgid="5970857542995467466">"ס<ns1:g id="SEPARATOR">=</ns1:g>סקרמנטו"</item>
+    <item msgid="1999267306329214429">"א<ns1:g id="SEPARATOR">=</ns1:g>אטלנטה"</item>
+    <item msgid="8761847787537443648">"ק<ns1:g id="SEPARATOR">=</ns1:g>קליבלנד"</item>
+    <item msgid="2987455647692324208">"נ<ns1:g id="SEPARATOR">=</ns1:g>ניו אורלינס"</item>
+    <item msgid="8104109426412705845">"ט<ns1:g id="SEPARATOR">=</ns1:g>טמפה"</item>
+    <item msgid="1410067233842240795">"פ<ns1:g id="SEPARATOR">=</ns1:g>פיטסבורג"</item>
+    <item msgid="3339955740367374442">"ס<ns1:g id="SEPARATOR">=</ns1:g>סינסינטי"</item>
+    <item msgid="6091407424772799978">"מ<ns1:g id="SEPARATOR">=</ns1:g>מאונטיין ויו"</item>
+    <item msgid="150299708499753555">"ר<ns1:g id="SEPARATOR">=</ns1:g>רינו"</item>
+    <item msgid="9155068631060038769">"ב<ns1:g id="SEPARATOR">=</ns1:g>בלאק רוק סיטי"</item>
+    <item msgid="8498761319928979900">"ד<ns1:g id="SEPARATOR">=</ns1:g>דוחה"</item>
+    <item msgid="8307897251088048641">"ב<ns1:g id="SEPARATOR">=</ns1:g>בייג\'ינג"</item>
+    <item msgid="8605970953750147428">"מ<ns1:g id="SEPARATOR">=</ns1:g>מומבאי"</item>
+    <item msgid="6668274273067049125">"ד<ns1:g id="SEPARATOR">=</ns1:g>דלהי"</item>
+    <item msgid="2933410189478233292">"א<ns1:g id="SEPARATOR">=</ns1:g>אוסקה"</item>
+    <item msgid="9011026093638055579">"ל<ns1:g id="SEPARATOR">=</ns1:g>לאהור"</item>
+    <item msgid="1448378291805481500">"צ<ns1:g id="SEPARATOR">=</ns1:g>צנעא"</item>
+    <item msgid="5233119846682408301">"ב<ns1:g id="SEPARATOR">=</ns1:g>ברצלונה"</item>
+    <item msgid="9146746514265554721">"מ<ns1:g id="SEPARATOR">=</ns1:g>מינכן"</item>
+    <item msgid="157866084892734979">"מ<ns1:g id="SEPARATOR">=</ns1:g>מילנו"</item>
+    <item msgid="2787346322341414963">"פ<ns1:g id="SEPARATOR">=</ns1:g>פרנקפורט"</item>
+    <item msgid="8407511504088696581">"ה<ns1:g id="SEPARATOR">=</ns1:g>האנוי"</item>
+    <item msgid="5184417944073499453">"א<ns1:g id="SEPARATOR">=</ns1:g>אנקרה"</item>
+    <item msgid="4028784954452197920">"ב<ns1:g id="SEPARATOR">=</ns1:g>בנגלור"</item>
+    <item msgid="190152483600862776">"ב<ns1:g id="SEPARATOR">=</ns1:g>ברזיליה"</item>
+    <item msgid="8009516135735104388">"ק<ns1:g id="SEPARATOR">=</ns1:g>קייפטאון"</item>
+    <item msgid="6057191797622953016">"א<ns1:g id="SEPARATOR">=</ns1:g>איסלמבד"</item>
+    <item msgid="2702029416591153210">"ר<ns1:g id="SEPARATOR">=</ns1:g>ריו דה ז\'ניירו"</item>
+    <item msgid="1753927312634708098">"א<ns1:g id="SEPARATOR">=</ns1:g>אן ארבור"</item>
+    <item msgid="4225721108475278979">"ב<ns1:g id="SEPARATOR">=</ns1:g>בולדר"</item>
+    <item msgid="6393177386755796069">"ק<ns1:g id="SEPARATOR">=</ns1:g>קיימברידג\'"</item>
+    <item msgid="759409010285366934">"ק<ns1:g id="SEPARATOR">=</ns1:g>קירקלנד"</item>
+    <item msgid="6308007059287569663">"מ<ns1:g id="SEPARATOR">=</ns1:g>מדיסון"</item>
+    <item msgid="6971636434858330021">"ג<ns1:g id="SEPARATOR">=</ns1:g>גואנגג\'ו"</item>
+    <item msgid="1185109514180068650">"ה<ns1:g id="SEPARATOR">=</ns1:g>היידראבאד"</item>
+    <item msgid="3032295682584784261">"ר<ns1:g id="SEPARATOR">=</ns1:g>רסטון"</item>
+    <item msgid="7722837296297332268">"ב<ns1:g id="SEPARATOR">=</ns1:g>בלו הוריזונטה"</item>
+    <item msgid="3593516299122577780">"ס<ns1:g id="SEPARATOR">=</ns1:g>סנטיאגו"</item>
+    <item msgid="2293331653589266583">"מ<ns1:g id="SEPARATOR">=</ns1:g>מונרוביה"</item>
+    <item msgid="7899128359620301710">"ק<ns1:g id="SEPARATOR">=</ns1:g>קולומבו"</item>
+    <item msgid="5294489752262543829">"צ<ns1:g id="SEPARATOR">=</ns1:g>צ\'יוואווה"</item>
+    <item msgid="8066356061184206341">"ס<ns1:g id="SEPARATOR">=</ns1:g>סלבדור"</item>
+    <item msgid="4806867741334453982">"ג<ns1:g id="SEPARATOR">=</ns1:g>גורגאון"</item>
+    <item msgid="2585780177649876827">"מ<ns1:g id="SEPARATOR">=</ns1:g>מנצ\'סטר"</item>
+    <item msgid="234104953526248139">"ק<ns1:g id="SEPARATOR">=</ns1:g>קייב"</item>
+    <item msgid="5245429461217350012">"ס<ns1:g id="SEPARATOR">=</ns1:g>סנט פטרסבורג"</item>
+    <item msgid="6738531308006017215">"ק<ns1:g id="SEPARATOR">=</ns1:g>קרקוב"</item>
+    <item msgid="8972702613339139467">"ו<ns1:g id="SEPARATOR">=</ns1:g>ורוצלב"</item>
+    <item msgid="187278924459096566">"ה<ns1:g id="SEPARATOR">=</ns1:g>המבורג"</item>
+    <item msgid="6173267862207394917">"א<ns1:g id="SEPARATOR">=</ns1:g>אולו"</item>
+    <item msgid="5639324478037405990">"ח<ns1:g id="SEPARATOR">=</ns1:g>חיפה"</item>
+    <item msgid="3157180661352354058">"ס<ns1:g id="SEPARATOR">=</ns1:g>סן חואן"</item>
+    <item msgid="6995939579417282715">"ט<ns1:g id="SEPARATOR">=</ns1:g>טגוסיגלפה"</item>
+    <item msgid="1641840677391275004">"פ<ns1:g id="SEPARATOR">=</ns1:g>פרמאריבו"</item>
+    <item msgid="7317049454800260290">"ק<ns1:g id="SEPARATOR">=</ns1:g>קיטו"</item>
+    <item msgid="4524380876433343244">"ל<ns1:g id="SEPARATOR">=</ns1:g>לובליאנה"</item>
+  </string-array>
+    <string-array name="clock_style_entries">
+    <item msgid="917900462224167608">"אנלוגי"</item>
+    <item msgid="8483930821046925592">"דיגיטלי"</item>
+  </string-array>
+    <string-array name="sw_lap_number_set">
+    <item msgid="2816627565030953899">"מס\' <ns1:g id="NUMBER">%d</ns1:g>"</item>
+    <item msgid="316923361931627987">"מס\' <ns1:g id="NUMBER">%02d</ns1:g>"</item>
+  </string-array>
+    <string-array name="sw_share_strings">
+    <item msgid="842841032273927988">"אתה מהיר כשד משחת."</item>
+    <item msgid="6332879039890727169">"תיהנה מפירות עמלך."</item>
+    <item msgid="815382761274660130">"ידוע שאנדרואידים מהירים, אבל לא מהירים כמוך!"</item>
+    <item msgid="7916250650982813737">"אוף."</item>
+    <item msgid="6836603904515182333">"‏זמני L33t."</item>
+    <item msgid="7508085100680861631">"איזו מהירות עצומה."</item>
+    <item msgid="5961245252909589573">"Let\'s do the time warp again."</item>
+    <item msgid="5211891900854545940">"Just a jump to the left."</item>
+    <item msgid="9071353477103826053">"יש לך תאבון לחיפזון."</item>
+    <item msgid="3785193933691117181">"מהירות פוטונית."</item>
+  </string-array>
+    <string-array name="timer_notifications">
+    <item msgid="7760558912503484257">"נותרה פחות מדקה"</item>
+    <item msgid="83197792732433351">"נותרו <ns1:g id="HOURS">%1$s</ns1:g>"</item>
+    <item msgid="8919698220200894252">"נותרו <ns1:g id="MINUTES">%2$s</ns1:g>"</item>
+    <item msgid="8458069283817013813">"נותרו <ns1:g id="HOURS">%1$s</ns1:g> <ns1:g id="MINUTES">%2$s</ns1:g>"</item>
+  </string-array>
+    <string-array name="timezone_labels">
+    <item msgid="5495601234086197399">"איי מרשל"</item>
+    <item msgid="4196408495909011020">"האי מידוויי"</item>
+    <item msgid="1414384194857730006">"הוואי"</item>
+    <item msgid="2687091371581931926">"אלסקה"</item>
+    <item msgid="1922100269679049660">"אזור זמן פסיפי"</item>
+    <item msgid="7156402158716866161">"טיחואנה"</item>
+    <item msgid="1144117502254612241">"אריזונה"</item>
+    <item msgid="101284182011722637">"צ\'יוואווה"</item>
+    <item msgid="689121094232986897">"זמן הרים"</item>
+    <item msgid="5445331923942302756">"מרכז אמריקה"</item>
+    <item msgid="2749806434052452351">"אזור זמן מרכז"</item>
+    <item msgid="3997138870229703753">"מקסיקו סיטי"</item>
+    <item msgid="5425567073027744888">"ססקאצ\'וון"</item>
+    <item msgid="2877342865396629368">"בוגוטה"</item>
+    <item msgid="568682398893899670">"אזור זמן מזרח"</item>
+    <item msgid="668135984541863866">"ונצואלה"</item>
+    <item msgid="3737474220861486223">"אזור זמן אטלנטי (ברבדוס)"</item>
+    <item msgid="6279116051273436870">"אזור זמן אטלנטי (קנדה)"</item>
+    <item msgid="8513382867172014244">"מנאוס"</item>
+    <item msgid="7776299003105932407">"סנטיאגו"</item>
+    <item msgid="8636989494746218677">"ניופאונדלנד"</item>
+    <item msgid="4402541016410147505">"ברזיליה"</item>
+    <item msgid="2251184440733164084">"בואנוס איירס"</item>
+    <item msgid="6202926618569004969">"גרינלנד"</item>
+    <item msgid="2355275037115290628">"מונטווידאו"</item>
+    <item msgid="1377549694711708945">"מרכז-אטלנטי"</item>
+    <item msgid="3457671272126347981">"האיים האזורים"</item>
+    <item msgid="3659315141063710840">"איי כף ורדה"</item>
+    <item msgid="1260941741802367635">"קזבלנקה"</item>
+    <item msgid="8275203689687954762">"לונדון, דבלין"</item>
+    <item msgid="5970179539479320905">"אמסטרדם, ברלין"</item>
+    <item msgid="5396319478750517962">"בלגרד"</item>
+    <item msgid="8688787475056663004">"בריסל"</item>
+    <item msgid="3415827874921681622">"סרייבו"</item>
+    <item msgid="402008965928320066">"ווינדהוק"</item>
+    <item msgid="6436942724959275569">"אזור זמן מערב אפריקה"</item>
+    <item msgid="954536568417204026">"עמאן, ירדן"</item>
+    <item msgid="8932745482008902551">"אתונה, איסטנבול"</item>
+    <item msgid="320025725949024510">"ביירות, לבנון"</item>
+    <item msgid="7242083112551905970">"קהיר"</item>
+    <item msgid="7241520146011450419">"הלסינקי"</item>
+    <item msgid="2717065017510546526">"ירושלים"</item>
+    <item msgid="8698556287741466553">"מינסק"</item>
+    <item msgid="1797598357342084506">"הררה"</item>
+    <item msgid="5169119919905066998">"בגדד"</item>
+    <item msgid="2615788116201065182">"מוסקבה"</item>
+    <item msgid="9084354867885584646">"כוויית"</item>
+    <item msgid="1351570519986178268">"ניירובי"</item>
+    <item msgid="7094569580635877460">"טהרן"</item>
+    <item msgid="3953138772617909704">"באקו"</item>
+    <item msgid="2868893113598800752">"טביליסי"</item>
+    <item msgid="7088581865802476373">"ירבאן"</item>
+    <item msgid="1941122257623887992">"דובאי"</item>
+    <item msgid="9194797225058249720">"קאבול"</item>
+    <item msgid="6486569254364577332">"איסלמבאד, קאראצ\'י"</item>
+    <item msgid="5487724896895412089">"אורל"</item>
+    <item msgid="364906869710826982">"יקטרינבורג"</item>
+    <item msgid="2106505051751383358">"כלכותה"</item>
+    <item msgid="6851586621581501447">"סרי לנקה"</item>
+    <item msgid="800438544128213134">"קטמנדו"</item>
+    <item msgid="6173621471007643021">"אסטנה"</item>
+    <item msgid="8645125891971581128">"יאנגון"</item>
+    <item msgid="2886407505119737794">"קרסנויארסק"</item>
+    <item msgid="3408222398188107090">"בנגקוק"</item>
+    <item msgid="4441612937172851228">"בייג\'ינג"</item>
+    <item msgid="4936715789028996930">"הונג קונג"</item>
+    <item msgid="4261031143777385525">"אירקוטסק"</item>
+    <item msgid="3538060959338191835">"קואלה לומפור"</item>
+    <item msgid="1438847562643099201">"פרת\'"</item>
+    <item msgid="3063913827688244383">"טאיפה"</item>
+    <item msgid="3502757135046564209">"סיאול"</item>
+    <item msgid="6107588684519111669">"טוקיו, אוסקה"</item>
+    <item msgid="4350769099755608471">"יקוטסק"</item>
+    <item msgid="2422707004533526462">"אדלייד"</item>
+    <item msgid="1292192084554134339">"דארווין"</item>
+    <item msgid="1320883699470001716">"בריסביין"</item>
+    <item msgid="5137198806146386527">"הובארט"</item>
+    <item msgid="5920063686933941174">"סידני, קנברה"</item>
+    <item msgid="615906039696009425">"ולדיווסטוק"</item>
+    <item msgid="7738680449356275374">"גואם"</item>
+    <item msgid="2882915026380778227">"מגדן"</item>
+    <item msgid="8255615641810148152">"אוקלנד"</item>
+    <item msgid="3027153773466391728">"פיג\'י"</item>
+    <item msgid="5911600083231840181">"טונגה"</item>
+    <item msgid="5176858645450908751">"ג\'אקארטה"</item>
+  </string-array>
+    <string-array name="volume_button_setting_entries">
+    <item msgid="7972756698723318690">"נודניק"</item>
+    <item msgid="3450979320164769576">"דחה"</item>
+    <item msgid="6302517608411378024">"אל תעשה דבר"</item>
+  </string-array>
+    <string-array name="week_start_entries">
+    <item msgid="9010198173394482639">"שבת"</item>
+    <item msgid="3993530639455360921">"ראשון"</item>
+    <item msgid="8594709368683324282">"שני"</item>
+  </string-array>
+    <plurals formatted="false" msgid="4539186407746763655" name="Nhours_description">
+      <item quantity="two"><ns1:g id="NUMBER">%d</ns1:g> שעות</item>
+      <item quantity="many"><ns1:g id="NUMBER">%d</ns1:g> שעות</item>
+      <item quantity="other"><ns1:g id="NUMBER">%d</ns1:g> שעות</item>
+      <item quantity="one">שעה אחת</item>
+    </plurals>
+    <plurals formatted="false" msgid="6373760365221990859" name="Nminutes_description">
+      <item quantity="two"><ns1:g id="NUMBER">%d</ns1:g> דקות</item>
+      <item quantity="many"><ns1:g id="NUMBER">%d</ns1:g> דקות</item>
+      <item quantity="other"><ns1:g id="NUMBER">%d</ns1:g> דקות</item>
+      <item quantity="one">דקה אחת</item>
+    </plurals>
+    <plurals formatted="false" msgid="6456500168536594889" name="Nseconds_description">
+      <item quantity="two"><ns1:g id="NUMBER">%d</ns1:g> שניות</item>
+      <item quantity="many"><ns1:g id="NUMBER">%d</ns1:g> שניות</item>
+      <item quantity="other"><ns1:g id="NUMBER">%d</ns1:g> שניות</item>
+      <item quantity="one">שנייה אחת</item>
+    </plurals>
+    <plurals formatted="false" msgid="7844300009062867865" name="alarm_alert_snooze_duration">
+      <item quantity="two"><ns1:g id="NUMBER">%d</ns1:g> דקות</item>
+      <item quantity="many"><ns1:g id="NUMBER">%d</ns1:g> דקות</item>
+      <item quantity="other"><ns1:g id="NUMBER">%d</ns1:g> דקות</item>
+      <item quantity="one">דקה אחת</item>
+    </plurals>
+    <plurals formatted="false" msgid="3212729193036041768" name="alarm_alert_snooze_set">
+      <item quantity="two">עובר למצב נודניק למשך <ns1:g id="MINUTES">%d</ns1:g> דקות.</item>
+      <item quantity="many">עובר למצב נודניק למשך <ns1:g id="MINUTES">%d</ns1:g> דקות.</item>
+      <item quantity="other">עובר למצב נודניק למשך <ns1:g id="MINUTES">%d</ns1:g> דקות.</item>
+      <item quantity="one">עובר למצב נודניק למשך דקה אחת.</item>
+    </plurals>
+    <plurals formatted="false" msgid="3591262014329613293" name="alarm_delete_confirmation">
+      <item quantity="two">האם למחוק את ההתראות שנבחרו?</item>
+      <item quantity="many">האם למחוק את ההתראות שנבחרו?</item>
+      <item quantity="other">האם למחוק את ההתראות שנבחרו?</item>
+      <item quantity="one">האם למחוק את ההתראה שנבחרה?</item>
+    </plurals>
+    <plurals formatted="false" msgid="6579258788774360396" name="auto_silence_summary">
+      <item quantity="two"><ns1:g id="FORMATTED_NUMBER">%s</ns1:g> דקות</item>
+      <item quantity="many"><ns1:g id="FORMATTED_NUMBER">%s</ns1:g> דקות</item>
+      <item quantity="other"><ns1:g id="FORMATTED_NUMBER">%s</ns1:g> דקות</item>
+      <item quantity="one">דקה אחת</item>
+    </plurals>
+    <plurals formatted="false" msgid="3706846447285206235" name="days">
+      <item quantity="two"><ns1:g id="NUMBER">%s</ns1:g> ימים</item>
+      <item quantity="many"><ns1:g id="NUMBER">%s</ns1:g> ימים</item>
+      <item quantity="other"><ns1:g id="NUMBER">%s</ns1:g> ימים</item>
+      <item quantity="one">יום אחד</item>
+    </plurals>
+    <plurals formatted="false" msgid="3871283109767171655" name="hours">
+      <item quantity="two"><ns1:g id="NUMBER">%s</ns1:g> שעות</item>
+      <item quantity="many"><ns1:g id="NUMBER">%s</ns1:g> שעות</item>
+      <item quantity="other"><ns1:g id="NUMBER">%s</ns1:g> שעות</item>
+      <item quantity="one">שעה אחת</item>
+    </plurals>
+    <plurals formatted="false" msgid="5484431721696058697" name="minutes">
+      <item quantity="two"><ns1:g id="NUMBER">%s</ns1:g> דקות</item>
+      <item quantity="many"><ns1:g id="NUMBER">%s</ns1:g> דקות</item>
+      <item quantity="other"><ns1:g id="NUMBER">%s</ns1:g> דקות</item>
+      <item quantity="one">דקה אחת</item>
+    </plurals>
+    <plurals formatted="false" msgid="3112918131095248271" name="snooze_duration">
+      <item quantity="two"><ns1:g id="NUMBER">%s</ns1:g> דקות</item>
+      <item quantity="many"><ns1:g id="NUMBER">%s</ns1:g> דקות</item>
+      <item quantity="other"><ns1:g id="NUMBER">%s</ns1:g> דקות</item>
+      <item quantity="one">דקה אחת</item>
+    </plurals>
+    <plurals formatted="false" msgid="322739253661747732" name="snooze_picker_label">
+      <item quantity="two">דקות</item>
+      <item quantity="many">דקות</item>
+      <item quantity="other">דקות</item>
+      <item quantity="one">דקה</item>
+    </plurals>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"נווט לדף הבית"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"‏%1$s‏, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"‏%1$s‏, %2$s‏, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"נווט למעלה"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"עוד אפשרויות"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"בוצע"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"ראה הכל"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"בחר אפליקציה"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"כבוי"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"פועל"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"חפש…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"מחק שאילתה"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"שאילתת חיפוש"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"חפש"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"שלח שאילתה"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"חיפוש קולי"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"שתף עם"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"‏שתף עם %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"כווץ"</string>
+    <string msgid="5976616107390962899" name="add_alarm">"הוסף צלצול"</string>
+    <string msgid="3272183025444682500" name="alarm_alert_dismiss_now_text">"סגור כעת"</string>
+    <string msgid="4942914605480888820" name="alarm_alert_dismiss_text">"דחה"</string>
+    <string msgid="2459925305288819812" name="alarm_alert_off_action_text">"כבוי"</string>
+    <string msgid="4472073417593915002" name="alarm_alert_off_text">"ההתראה כבויה"</string>
+    <string msgid="5723945586913705445" name="alarm_alert_predismiss_title">"התראה קרובה"</string>
+    <string msgid="1774416052207651584" name="alarm_alert_snooze_text">"נודניק"</string>
+    <string msgid="6958013659168344550" name="alarm_alert_snooze_until">"מצב נמנום עד <ns1:g id="TIME">%s</ns1:g>"</string>
+    <string msgid="7064642998528766113" name="alarm_alert_snoozed_text">"מושהית"</string>
+    <string msgid="6790780716498252583" name="alarm_alert_wake_up">"תתעורר!"</string>
+    <string msgid="740283647046258651" name="alarm_button_description">"התראות"</string>
+    <string msgid="8810520940995307437" name="alarm_cant_be_dismissed_still_more_than_24_hours_away">"לא ניתן לסגור עדיין את ההתראה של <ns1:g id="ALARM_TIME">%s</ns1:g>, נותרו יותר מ-24 שעות"</string>
+    <string msgid="6131529309389084785" name="alarm_deleted">"ההתראה נמחקה"</string>
+    <string msgid="5509897230565826642" name="alarm_is_dismissed">"ההתראה של <ns1:g id="ALARM_TIME">%s</ns1:g> נסגרה"</string>
+    <string msgid="5503226382620011088" name="alarm_is_set">"הוגדרה התראה לשעה <ns1:g id="ALARM_TIME">%s</ns1:g>"</string>
+    <string msgid="7044644119744928846" name="alarm_is_snoozed">"ההתראה של <ns1:g id="ALARM_TIME">%s</ns1:g> הועברה למצב נודניק למשך עשר דקות"</string>
+    <string msgid="2147506334302260256" name="alarm_klaxon_service_desc">"‏שירות השמעת צלילים עבור התראות נקבע ב-Clock."</string>
+    <string msgid="7589940465292950600" name="alarm_list_title">"התראות"</string>
+    <string msgid="6585658367289194023" name="alarm_missed_text">"<ns1:g id="ALARM_TIME">%s</ns1:g> ‏- <ns1:g id="ALARM_LABEL">%s</ns1:g>"</string>
+    <string msgid="3828345099754063392" name="alarm_missed_title">"החמצת התראה"</string>
+    <string msgid="5404083762646377829" name="alarm_notify_snooze_label">"<ns1:g id="LABEL">%s</ns1:g> (מצב נמנום)"</string>
+    <string msgid="4819324081410990368" name="alarm_notify_snooze_text">"ההתראה מכוונת לשעה <ns1:g id="TIME">%s</ns1:g>. גע כדי לבטל."</string>
+    <string msgid="4891014685945904766" name="alarm_notify_text">"נודניק או ביטול ההתראה."</string>
+    <string msgid="7242985466344233206" name="alarm_repeat">"חוזר"</string>
+    <string msgid="2947147071388290814" name="alarm_settings">"התראות"</string>
+    <string msgid="7873594221106531654" name="alarm_today">"היום"</string>
+    <string msgid="131356848787643420" name="alarm_tomorrow">"מחר"</string>
+    <string msgid="5710042601177655254" name="alarm_undo">"בטל"</string>
+    <string msgid="3476686921490362230" name="alarm_vibrate">"רטט"</string>
+    <string msgid="8506245173912428522" name="alarm_volume_title">"עוצמת קול של התראה"</string>
+    <string msgid="1075308195332888260" name="alarms_selected">"<ns1:g id="ALARMS">%d</ns1:g> נבחרו"</string>
+    <string msgid="6506982899651975645" name="alert">"צלצול שעון מעורר"</string>
+    <string msgid="278532320068394600" name="all_timers_stopped_notif">"גע כדי לראות את הטיימרים שלך"</string>
+    <string msgid="1670505720837152766" name="analog_gadget">"שעון אנלוגי"</string>
+    <string msgid="6674495003718166674" name="app_label">"שעון"</string>
+    <string msgid="4821982647348750809" name="auto_silence_never">"לעולם לא"</string>
+    <string msgid="2012754009554434544" name="auto_silence_title">"השתק לאחר"</string>
+    <string msgid="6274174710735449252" name="automatic_home_clock">"שעון בית אוטומטי"</string>
+    <string msgid="6020476321040807273" name="automatic_home_clock_summary">"בעת שהייה באזור זמן שונה, הוסף שעון להצגת הזמן בבית"</string>
+    <string msgid="3907838219512538763" name="button_alarms">"הוסף התראה"</string>
+    <string msgid="4555761857494501363" name="button_cities">"ערים"</string>
+    <string msgid="6050484561842120282" name="button_menu">"אפשרויות נוספות"</string>
+    <string msgid="8552462751129256730" name="cities_activity_title">"ערים"</string>
+    <string msgid="1335509457349179514" name="city_added">"<ns1:g id="CITY_NAME">%s</ns1:g> נוספה"</string>
+    <string msgid="1783441538785676299" name="city_delete_confirmation">"האם להסיר את העיר הזאת?"</string>
+    <string msgid="3935141305276867838" name="city_deleted">"<ns1:g id="CITY_NAME">%s</ns1:g> נמחקה"</string>
+    <string msgid="2656876819515011590" name="clock_instructions">"בחר שעון"</string>
+    <string msgid="8317286807280600391" name="clock_settings">"שעון"</string>
+    <string msgid="2265011060429742344" name="clock_style">"סגנון"</string>
+    <string msgid="3561772046433483980" name="collapse_alarm">"כווץ התראה"</string>
+    <string msgid="2194676418924016327" name="control_set_alarm">"הגדר צלצול"</string>
+    <string msgid="3477418548382111184" name="custom_ringtone">"רינגטון בהתאמה אישית"</string>
+    <string msgid="971998564991636532" name="day_concat">", "</string>
+    <string msgid="3968620852217927702" name="day_picker_description">"בחירת ימים בחודש בתצוגת רשת"</string>
+    <string msgid="5590025289805630372" name="default_label">"התראה"</string>
+    <string msgid="4549726190682964245" name="default_ringtone_setting_title">"צליל ברירת מחדל"</string>
+    <string msgid="5732434972457000541" name="delete">"מחק"</string>
+    <string msgid="3457780990646206817" name="delete_alarm">"מחק התראה"</string>
+    <string msgid="6578572637340860840" name="delete_alarm_confirm">"למחוק צלצול זה?"</string>
+    <string msgid="6908431551612331381" name="deleted_key">"<ns1:g id="KEY">%1$s</ns1:g> נמחק"</string>
+    <string msgid="1220848140260509437" name="deleted_message">"נמחק"</string>
+    <string msgid="1841309486023845685" name="description_direction_both">"החלק שמאלה כדי להעביר למצב נודניק או ימינה כדי לסגור"</string>
+    <string msgid="7448141043674998679" name="description_direction_left">"החלק שמאלה כדי להפעיל נודניק"</string>
+    <string msgid="5709209043267548985" name="description_direction_right">"החלק ימינה כדי לבטל"</string>
+    <string msgid="4207371097361657274" name="desk_clock_button_description">"תצוגת שעון"</string>
+    <string msgid="2326954556720571358" name="digital_gadget">"שעון דיגיטלי"</string>
+    <string msgid="5889378670229554109" name="disable_alarm">"כבה את ההתראה"</string>
+    <string msgid="7204593078688533541" name="dismiss_alarm">"דחה את ההתראה"</string>
+    <string msgid="6509722361933858451" name="done">"סיום"</string>
+    <string msgid="7007948707597430919" name="done_label">"בוצע"</string>
+    <string msgid="1834599140632142536" name="enable_alarm">"הפעל התראה"</string>
+    <string msgid="4100909974923444602" name="every_day">"מדי יום"</string>
+    <string msgid="7392616528943305020" name="expand_alarm">"הרחב התראה"</string>
+    <string msgid="1151743663255257668" name="gallery_button_description">"גלריה"</string>
+    <string msgid="7786263119482654015" name="help">"עזרה"</string>
+    <string msgid="3217727306480505694" name="hide_clock">"הסתר שעון"</string>
+    <string msgid="3383859096809056157" name="home_button_description">"מפעיל"</string>
+    <string msgid="4436139365695453870" name="home_label">"מקומי"</string>
+    <string msgid="9199730676287974501" name="home_time_zone">"אזור זמן מקומי"</string>
+    <string msgid="807894493443834624" name="home_time_zone_title">"אזור זמן מקומי"</string>
+    <string msgid="7586639618712934060" name="hour_picker_description">"מחוון שעות מעגלי"</string>
+    <string msgid="3393478155635368097" name="hours_label">"ש\'"</string>
+    <string msgid="8652842524970971830" name="hours_label_description">"שעות"</string>
+    <string msgid="2782334750243998633" name="invalid_time">"‏שעה לא חוקית ‎<ns1:g id="INVALID_HOUR">%d</ns1:g>:<ns1:g id="INVALID_MINUTES">%d</ns1:g> <ns1:g id="INVALID_AMPM">%s</ns1:g>‎"</string>
+    <string msgid="3104567893212932487" name="invalid_timer_length">"משך טיימר לא חוקי"</string>
+    <string msgid="2674929164900463786" name="item_is_selected">"בחרת <ns1:g id="ITEM">%1$s</ns1:g>"</string>
+    <string msgid="162189613902857319" name="label">"תווית"</string>
+    <string msgid="8736179296142915727" name="label_description">"תווית"</string>
+    <string msgid="6523322777415268044" name="loading_ringtone">"טוען צלצול..."</string>
+    <string msgid="4772010125376647519" name="menu_alarm">"התראה"</string>
+    <string msgid="5612760670606829805" name="menu_clock">"שעון"</string>
+    <string msgid="3241995064554071588" name="menu_desk_clock">"שעון שולחני"</string>
+    <string msgid="7204602994918829751" name="menu_edit_alarm">"ערוך התראה"</string>
+    <string msgid="4570953476186849841" name="menu_item_help">"עזרה"</string>
+    <string msgid="3486930302245398975" name="menu_item_night_mode">"מצב לילה"</string>
+    <string msgid="1413723516369078665" name="menu_item_settings">"הגדרות"</string>
+    <string msgid="3120860422682721706" name="menu_item_sort_by_gmt_offset">"מיין לפי שעה"</string>
+    <string msgid="1762931290495104106" name="menu_item_sort_by_name">"מיין לפי שם"</string>
+    <string msgid="3396117705293574701" name="menu_stopwatch">"שעון עצר"</string>
+    <string msgid="6459070074762877114" name="menu_timer">"טיימר"</string>
+    <string msgid="6024811202872705251" name="minute_picker_description">"מחוון דקות מעגלי"</string>
+    <string msgid="3568098128251438588" name="minutes_label">"ד\'"</string>
+    <string msgid="965686733490357796" name="minutes_label_description">"דקות"</string>
+    <string msgid="5295473204045979335" name="missed_alarm_has_been_deleted">"ההתראה שהחמצת נמחקה"</string>
+    <string msgid="6722110840279707462" name="multiple_timers_available">"לא ניתן להשלים את הבקשה. יש מספר טיימרים זמינים"</string>
+    <string msgid="1626593420810117999" name="music_button_description">"מוזיקה"</string>
+    <string msgid="2650244835760747046" name="next_alarm_description">"ההתראה הבאה: <ns1:g id="ALARM_TIME">%s</ns1:g>"</string>
+    <string msgid="6136454740115613653" name="next_timer_notif">"הטיימר הבא: <ns1:g id="TIME_REMAINING">%s</ns1:g>"</string>
+    <string msgid="1017350187324162631" name="night_mode_summary">"תצוגה עמומה מאוד (לחדרים חשוכים)"</string>
+    <string msgid="5983813889469616299" name="night_mode_title">"מצב לילה"</string>
+    <string msgid="990894208217576381" name="nightmode_button_description">"עמעם"</string>
+    <string msgid="8140632482969193119" name="no_alarm_at">"‏אין התראה ב-‎<ns1:g id="ALARM_TIME_HOUR">%d</ns1:g>:<ns1:g id="ALARM_TIME_MINUTES">%d</ns1:g>‎"</string>
+    <string msgid="4463069177414482818" name="no_alarm_scheduled_for_this_time">"לא נקבעה התראה לשעה הזו"</string>
+    <string msgid="6429431324842022917" name="no_alarms">"ללא התראות"</string>
+    <string msgid="4887558279496044764" name="no_alarms_set">"לא הוגדרו התראות"</string>
+    <string msgid="6250998794542941665" name="no_alarms_with_label">"אין התראות הכוללות את התווית"</string>
+    <string msgid="1007596865203283741" name="no_city_selected">"לא נבחרה עיר"</string>
+    <string msgid="4986161963178722289" name="no_firing_alarms">"אין התראות הפועלות כעת"</string>
+    <string msgid="2008482054428460626" name="no_label_specified">"לא צוינה תווית"</string>
+    <string msgid="2115420148192753534" name="no_scheduled_alarms">"לא נקבעו התראות"</string>
+    <string msgid="3326365650863016606" name="no_timer_set">"לא הוגדר טיימר"</string>
+    <string msgid="2889840988069436254" name="no_upcoming_alarms">"אין התראות קרובות"</string>
+    <string msgid="5408769235866082896" name="pick_alarm_to_dismiss">"בחר איזו התראה לדחות"</string>
+    <string msgid="9100911171235162926" name="revert">"חזור למצב קודם"</string>
+    <string msgid="9110746249688559579" name="ringtone">"רינגטון"</string>
+    <string msgid="7580922112921069925" name="ringtone_description">"רינגטון"</string>
+    <string msgid="7013450738357352801" name="screensaver_settings">"הגדרות חלום בהקיץ"</string>
+    <string msgid="124655952824003246" name="seconds_label">"שנ\'"</string>
+    <string msgid="3821620053141299692" name="seconds_label_description">"שניות"</string>
+    <string msgid="3973338219107019769" name="select_day">"בחר חודש ויום"</string>
+    <string msgid="7651068754188418859" name="select_hours">"בחר שעות"</string>
+    <string msgid="8327182090226828481" name="select_minutes">"בחר דקות"</string>
+    <string msgid="2603330600102539372" name="select_year">"בחר שנה"</string>
+    <string msgid="3607479399424246605" name="selected_cities_label">"ערים נבחרות"</string>
+    <string msgid="9148359866152726808" name="set_alarm">"הגדר צלצול"</string>
+    <string msgid="5849739030579520686" name="settings">"הגדרות"</string>
+    <string msgid="8358759982675616915" name="show_clock">"הצג שעון"</string>
+    <string msgid="8605302849408279221" name="silent_alarm_summary">"שקט"</string>
+    <string msgid="2077577763821006919" name="slash">"/"</string>
+    <string msgid="1097309861110780483" name="snooze_duration_title">"משך הנדנוד"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"‎999+‎"</string>
+    <string msgid="6598258908106423672" name="stopwatch_already_running">"שעון העצר כבר פועל"</string>
+    <string msgid="5713134605500796186" name="stopwatch_cant_be_reset_because_is_running">"לא ניתן לאפס את שעון העצר מפני שהוא פועל"</string>
+    <string msgid="7147219965448204727" name="stopwatch_isnt_running">"שעון העצר אינו פועל"</string>
+    <string msgid="5844686448815550482" name="stopwatch_lapped">"שעון העצר סיים סיבוב"</string>
+    <string msgid="7585914953721021042" name="stopwatch_reset">"שעון העצר אופס"</string>
+    <string msgid="8416624630388063996" name="stopwatch_service_desc">"שירות שעון עצר להפעלת ההתראה."</string>
+    <string msgid="7843882246387176304" name="stopwatch_started">"שעון העצר הופעל"</string>
+    <string msgid="6927081018816192999" name="stopwatch_stopped">"שעון העצר הופסק"</string>
+    <string msgid="6992264696039004233" name="sw_lap_button">"הקפה"</string>
+    <string msgid="3535420316052647126" name="sw_notification_lap_number">"הקפה <ns1:g id="NUMBER">%d</ns1:g>"</string>
+    <string msgid="6616804728322906117" name="sw_reset_button">"אפס"</string>
+    <string msgid="2569360966002022248" name="sw_resume_button">"המשך"</string>
+    <string msgid="4478648110382859382" name="sw_share_button">"שתף"</string>
+    <string msgid="614390674795945007" name="sw_share_laps">"זמני הקפה:"</string>
+    <string msgid="7703563468204234405" name="sw_share_main">"הזמן שלי הוא <ns1:g id="TIME">%s</ns1:g>"</string>
+    <string msgid="8373422516681242270" name="sw_start_button">"התחל"</string>
+    <string msgid="8322958613123274451" name="sw_stop_button">"עצור"</string>
+    <string msgid="783124901663086172" name="swn_stopped">"נעצר"</string>
+    <string msgid="3799050213771793020" name="the_city_already_added">"העיר הזו כבר נוספה"</string>
+    <string msgid="1753597460426454543" name="the_city_you_specified_is_not_available">"העיר שציינת אינה זמינה"</string>
+    <string msgid="8067216534232296518" name="time">"שעה"</string>
+    <string msgid="1619464909892545536" name="time_format_12_mode">"h:mm a"</string>
+    <string msgid="7998512313148074539" name="time_format_24_mode">"k:mm"</string>
+    <string msgid="6001006474735281911" name="time_picker_00_label">"00:"</string>
+    <string msgid="1027250857384838129" name="time_picker_30_label">"30:"</string>
+    <string msgid="6754113715199751083" name="time_picker_ampm_label">"--"</string>
+    <string msgid="7437106489606013077" name="time_picker_cancel">"בטל"</string>
+    <string msgid="331153175471468051" name="time_picker_set">"אישור"</string>
+    <string msgid="7484926510054777041" name="time_picker_time_seperator">":"</string>
+    <string msgid="862733633862574752" name="timer_add_timer">"הוסף טיימר"</string>
+    <string msgid="1259351124772803097" name="timer_already_running">"הטיימר כבר פועל"</string>
+    <string msgid="8865820275829449054" name="timer_already_stopped">"הטיימר כבר הופסק"</string>
+    <string msgid="3572868404230815644" name="timer_cancel">"בטל"</string>
+    <string msgid="7880015473706806640" name="timer_cant_be_reset_because_its_running">"לא ניתן לאפס את הטיימר כי הוא עדיין פועל. הפסק את הטיימר כדי לאפס."</string>
+    <string msgid="4381027137335885547" name="timer_created">"הטיימר נוצר"</string>
+    <string msgid="8699122001991909302" name="timer_delete">"מחק"</string>
+    <string msgid="2815524107015816453" name="timer_delete_confirmation">"האם למחוק את הטיימר הזה?"</string>
+    <string msgid="9110322362460029392" name="timer_deleted">"הטיימר נמחק"</string>
+    <string msgid="8794915342760383536" name="timer_descriptive_delete">"מחק את <ns1:g id="NUMBER_STRING">%s</ns1:g>"</string>
+    <string msgid="2375990511982914051" name="timer_done">"בוצע"</string>
+    <string msgid="4933184831583137249" name="timer_notification_label">"טיימר"</string>
+    <string msgid="8645224089494875062" name="timer_plus_1_min">"הוסף דקה"</string>
+    <string msgid="6631211310420106116" name="timer_plus_one">"הוסף דקה"</string>
+    <string msgid="7848424809190171640" name="timer_reset">"אפס"</string>
+    <string msgid="2620214305660322415" name="timer_ring_service_desc">"שירות השמעת צלילים עבור טיימרים שהוגדרו ב\'שעון\'."</string>
+    <string msgid="6158486445614356442" name="timer_start">"התחל"</string>
+    <string msgid="6715582052946641641" name="timer_started">"הטיימר הופעל"</string>
+    <string msgid="3361154678667736722" name="timer_stop">"עצור"</string>
+    <string msgid="2730331837832462008" name="timer_stopped">"טיימר נעצר"</string>
+    <string msgid="9190440395938519009" name="timer_times_up">"הזמן נגמר"</string>
+    <string msgid="6495796785185062631" name="timer_was_reset">"הטיימר אופס"</string>
+    <string msgid="5570729467344408506" name="timers_in_use">"<ns1:g id="NUMBER">%d</ns1:g> טיימרים"</string>
+    <string msgid="9140022846793903813" name="timers_max_count_reached">"4 טיימרים לכל היותר"</string>
+    <string msgid="2393640808691864520" name="timers_stopped">"<ns1:g id="NUMBER">%d</ns1:g> טיימרים נעצרו"</string>
+    <string msgid="8768042543750036853" name="volume_button_dialog_title">"פעולת הלחצן"</string>
+    <string msgid="6937131248843413357" name="volume_button_setting_title">"לחצני עוצמת קול"</string>
+    <string msgid="3425804832021006835" name="weather_fetch_failure">"לא זמינים כרגע נתונים על מזג האוויר."</string>
+    <string msgid="4268917518596832096" name="week_start_title">"השבוע מתחיל ב-"</string>
+    <string msgid="8648842975829470646" name="weekday_time_format_12_mode">"‏EEE‏, h:mm a"</string>
+    <string msgid="152964494051478631" name="weekday_time_format_24_mode">"‏EEE‏, k:mm"</string>
+    <string msgid="5911196322328341288" name="world_day_of_week_label">"/ <ns1:g id="LABEL">%s</ns1:g>"</string>
+    <string msgid="6963340404644587098" name="year_picker_description">"רשימת שנים"</string>
+    <string msgid="7102083421938355017" name="zero">"0"</string>
+</resources>

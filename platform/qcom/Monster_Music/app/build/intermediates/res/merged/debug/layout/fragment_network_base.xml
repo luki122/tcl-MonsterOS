@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <ViewStub
+        android:id="@+id/stub_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <!--<ViewStub-->
+        <!--android:id="@+id/stub_fail"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout="@layout/load_fail_view"/>-->
+    <!--<android.support.v4.widget.ContentLoadingProgressBar-->
+        <!--android:id="@+id/stub_progress"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_centerInParent="true"-->
+        <!--style="?android:attr/progressBarStyleLarge"-->
+        <!--/>-->
+    <cn.tcl.music.view.EmptyLayoutV2
+        android:id="@+id/empty_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>

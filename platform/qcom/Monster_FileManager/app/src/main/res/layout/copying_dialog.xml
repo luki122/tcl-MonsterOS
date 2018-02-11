@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dp"
+    android:layout_height="140dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/copying_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/first_color"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+
+        <ProgressBar
+            android:id="@+id/copying_progress"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_width="190dp"
+            android:layout_height="3dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:progressDrawable="@drawable/progressbar_color" />
+
+        <TextView
+            android:id="@+id/copying_percent"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:alpha="0.8"
+            android:gravity="center_vertical"
+            android:textColor="@color/first_color"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/copying_cancel"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:background="@color/transparent_background"
+            android:textColor="@color/first_color"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>

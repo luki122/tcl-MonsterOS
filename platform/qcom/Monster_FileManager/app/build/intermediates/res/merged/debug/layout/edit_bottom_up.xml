@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:id="@+id/edit_bottom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/bottom_delete"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="4dp"
+            android:alpha="0.25"
+            android:background="@drawable/ic_btn_delete" />
+
+        <ImageView
+            android:id="@+id/bottom_copy"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="4dp"
+            android:layout_toRightOf="@+id/bottom_delete"
+            android:alpha="0.25"
+            android:background="@drawable/ic_btn_copy" />
+
+        <ImageView
+            android:id="@+id/bottom_cut"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="4dp"
+            android:layout_toRightOf="@+id/bottom_copy"
+            android:alpha="0.25"
+            android:background="@drawable/ic_btn_cut" />
+
+        <ImageView
+            android:id="@+id/bottom_share"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="4dp"
+            android:layout_toRightOf="@+id/bottom_cut"
+            android:alpha="0.25"
+            android:background="@drawable/ic_btn_share" />
+
+        <ImageView
+            android:id="@+id/bottom_more"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="4dp"
+            android:layout_toRightOf="@+id/bottom_share"
+            android:alpha="0.25"
+            android:background="@drawable/ic_btn_more" />
+
+        <ImageView
+            android:id="@+id/bottom_cancel"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/ic_btn_cancel"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/bottom_paste"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="4dp"
+            android:layout_toRightOf="@+id/bottom_cancel"
+            android:background="@drawable/ic_btn_paste"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+</merge>

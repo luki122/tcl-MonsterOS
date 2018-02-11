@@ -1,0 +1,1068 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"دوربين"</string>
+	<!---->
+	<string name="gallery_app_name">"گالری"</string>
+	<!---->
+	<string name="video_camera_label">"دوربین"</string>
+	<!-- no translation found for details_ms -->
+	<skip />
+	<!-- no translation found for details_hms -->
+	<skip />
+	<!---->
+	<string name="set_image">"تنظیم تصویر بعنوان"</string>
+	<!---->
+	<string name="delete">"حذف"</string>
+	<!---->
+	<string name="share">"اشتراک گذاری"</string>
+	<!---->
+	<string name="share_panorama">"اشتراک پانوراما"</string>
+	<!---->
+	<string name="share_as_photo">"اشتراک بعنوان عکس"</string>
+	<!---->
+	<string name="deleted">"حذف شد"</string>
+	<!---->
+	<string name="undo">"لغو عمل"</string>
+	<!---->
+	<string name="details">"جزئیات"</string>
+	<!---->
+	<string name="close">"بستن"</string>
+	<!---->
+	<string name="show_on_map">"نمایش در نقشه"</string>
+	<!---->
+	<string name="rotate_left">"چرخش به چپ"</string>
+	<!---->
+	<string name="rotate_right">"چرخش به راست"</string>
+	<!---->
+	<string name="edit">"ویرایش"</string>
+	<!---->
+	<string name="crop_action">"برش"</string>
+	<!---->
+	<string name="trim_action">"برش دادن"</string>
+	<!---->
+	<string name="set_as">"تنظيم به عنوان"</string>
+	<!---->
+	<string name="video_err">"نمی تواند ویدئو را پخش کنید"</string>
+	<!---->
+	<string name="title">"عنوان"</string>
+	<!-- no translation found for description -->
+	<skip />
+	<!---->
+	<string name="time">"زمان"</string>
+	<!---->
+	<string name="location">"موقعیت مکانی"</string>
+	<!---->
+	<string name="path">"مسیر"</string>
+	<!---->
+	<string name="width">"عرض"</string>
+	<!---->
+	<string name="height">"ارتفاع"</string>
+	<!---->
+	<string name="orientation">"جهت"</string>
+	<!---->
+	<string name="duration">"مدت"</string>
+	<!---->
+	<string name="mimetype">"نوع MIME"</string>
+	<!---->
+	<string name="file_size">"اندازه فایل"</string>
+	<!---->
+	<string name="maker">"سازنده"</string>
+	<!---->
+	<string name="model">"مدل"</string>
+	<!---->
+	<string name="flash">"فلاش"</string>
+	<!---->
+	<string name="aperture">"دریچه دیافراگم"</string>
+	<!---->
+	<string name="focal_length">"فاصله کانونی"</string>
+	<!---->
+	<string name="white_balance">"توازن سفیدی"</string>
+	<!---->
+	<string name="exposure_time">"زمان نوردهی"</string>
+	<!---->
+	<string name="iso">"ISO"</string>
+	<!-- no translation found for unit_mm -->
+	<skip />
+	<!---->
+	<string name="manual">"دستي"</string>
+	<!---->
+	<string name="auto">"خودکار"</string>
+	<!---->
+	<string name="flash_on">"فلاش زده شد"</string>
+	<!---->
+	<string name="flash_off">"بدون فلاش"</string>
+	<!-- no translation found for unknown -->
+	<skip />
+	<!---->
+	<string name="try_to_set_local_album_available_offline">"این مورد به صورت محلی ذخیره می شود و به طور آفلاین در دسترس است."</string>
+	<!---->
+	<string name="please_wait">"کمی صبر کنید"</string>
+	<!---->
+	<string name="camera_error_title">"خطای دوربین"</string>
+	<!---->
+	<string name="cannot_connect_camera">"اتصال به دوربین امکان‌پذیر نیست."</string>
+	<!---->
+	<string name="camera_disabled">"به دلیل خط مشی های امنیتی، دوربین غیرفعال شده است."</string>
+	<!---->
+	<string name="wait">"لطفا صبر کنید..."</string>
+	<!---->
+	<string name="no_storage" product="default">"قبل از استفاده از دوربین یک کارت SD وارد کنید."</string>
+	<!---->
+	<string name="preparing_sd" product="default">"آماده سازی کارت SD\u2026"</string>
+	<!---->
+	<string name="access_sd_fail" product="default">"دسترسی به کارت SD ممکن نیست."</string>
+	<!---->
+	<string name="time_lapse_title">"زمان سپری شده ضبط"</string>
+	<!-- no translation found for capturing -->
+	<skip />
+	<!---->
+	<string name="pref_camera_id_title">"انتخاب دوربین"</string>
+	<!---->
+	<string name="pref_camera_id_entry_back">"عقب"</string>
+	<!---->
+	<string name="pref_camera_id_entry_front">"جلو"</string>
+	<!---->
+	<string name="pref_camera_save_location_title">"برچسب گذاری GPS"</string>
+	<!-- no translation found for pref_camera_location_label -->
+	<skip />
+	<!---->
+	<string name="pref_camera_timer_title">"تایمر شمارش معکوس"</string>
+	<!-- no translation found for pref_camera_timer_sound_default -->
+	<skip />
+	<!---->
+	<string name="pref_camera_timer_sound_title">"بیپ در طول شمارش معکوس"</string>
+	<!-- no translation found for setting_off -->
+	<skip />
+	<!-- no translation found for setting_on -->
+	<skip />
+	<!---->
+	<string name="pref_video_quality_title">"كيفيت ويديو"</string>
+	<!-- no translation found for pref_video_time_lapse_frame_interval_title -->
+	<skip />
+	<!---->
+	<string name="pref_camera_settings_category">"تنظیمات دوربین"</string>
+	<!---->
+	<string name="pref_camcorder_settings_category">"تنظیمات دوربین"</string>
+	<!---->
+	<string name="pref_camera_picturesize_title">"اندازه عکس"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_large">"بزرگ"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_medium">"متوسط"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_small">"کوچک"</string>
+	<!---->
+	<string name="pref_camera_focusmode_title">"حالت وضوح"</string>
+	<!---->
+	<string name="pref_camera_focusmode_entry_auto">"خودکار"</string>
+	<!---->
+	<string name="pref_camera_focusmode_entry_infinity">"خاموش"</string>
+	<!---->
+	<string name="pref_camera_focusmode_entry_macro">"ماکرو"</string>
+	<!---->
+	<string name="pref_camera_focusmode_label_auto">"خودکار"</string>
+	<!---->
+	<string name="pref_camera_focusmode_label_infinity">"خاموش"</string>
+	<!---->
+	<string name="pref_camera_focusmode_label_macro">"ماکرو"</string>
+	<!---->
+	<string name="pref_camera_flashmode_title">"حالت فلاش"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label">"حالت فلش"</string>
+	<!---->
+	<string name="pref_camera_flashmode_entry_auto">"خودکار"</string>
+	<!---->
+	<string name="pref_camera_flashmode_entry_on">"روشن"</string>
+	<!---->
+	<string name="pref_camera_flashmode_entry_off">"خاموش"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label_auto">"فلاش خودکار"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label_on">"فلاش روشن"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label_off">"فلاش خاموش"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_title">"توازن سفیدی"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label">"توازن سفیدی"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_auto">"خودکار"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_incandescent">"پرنور"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_daylight">"روشنایی روز"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_fluorescent">"فلورسنت"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_cloudy">"ابری"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_auto">"خودکار"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_incandescent">"پرنور"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_daylight">"روشنایی روز"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_fluorescent">"فلورسنت"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_cloudy">"ابري"</string>
+	<!---->
+	<string name="pref_camera_scenemode_title">"حالت صحنه"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_auto">"خودکار"</string>
+	<!-- no translation found for pref_camera_scenemode_entry_hdr_plus -->
+	<skip />
+	<!-- no translation found for pref_camera_scenemode_entry_hdr -->
+	<skip />
+	<!-- no translation found for pref_camera_scenemode_entry_turn_hdr_plus_on -->
+	<skip />
+	<!-- no translation found for pref_camera_scenemode_entry_turn_hdr_plus_off -->
+	<skip />
+	<!-- no translation found for pref_camera_scenemode_entry_turn_hdr_on -->
+	<skip />
+	<!-- no translation found for pref_camera_scenemode_entry_turn_hdr_off -->
+	<skip />
+	<!---->
+	<string name="pref_camera_scenemode_entry_action">"عمل"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_night">"شب"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_sunset">"غروب آفتاب"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_party">"مهمانی"</string>
+	<!-- no translation found for pref_camera_scenemode_label_auto -->
+	<skip />
+	<!-- no translation found for pref_camera_scenemode_label_action -->
+	<skip />
+	<!-- no translation found for pref_camera_scenemode_label_night -->
+	<skip />
+	<!-- no translation found for pref_camera_scenemode_label_sunset -->
+	<skip />
+	<!-- no translation found for pref_camera_scenemode_label_party -->
+	<skip />
+	<!---->
+	<string name="pref_camera_countdown_label_off">"تایمر خاموش"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_one">"1 ثانیه"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_three">"3 ثانیه"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_five">"5 ثانیه"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_ten">"10 ثانیه"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_fifteen">"15 ثانیه"</string>
+	<!---->
+	<string name="not_selectable_in_scene_mode">"در حالت صحنه قابل انتخاب نیست."</string>
+	<!---->
+	<string name="pref_exposure_title">"نوردهي"</string>
+	<!---->
+	<string name="pref_exposure_label">"نوردهي"</string>
+	<!-- no translation found for pref_camera_hdr_default -->
+	<skip />
+	<!-- no translation found for pref_camera_hdr_plus_default -->
+	<skip />
+	<!---->
+	<string name="pref_camera_hdr_label">"HDR"</string>
+	<!---->
+	<string name="pref_camera_id_label_back">"دوربین جلو"</string>
+	<!---->
+	<string name="pref_camera_id_label_front">"دوربین عقب"</string>
+	<!---->
+	<string name="dialog_ok">"تأیید"</string>
+	<!---->
+	<string name="dialog_cancel">"لغو"</string>
+	<!---->
+	<string name="spaceIsLow_content" product="default">"کارت SD شما پر شده است. تنظیمات کیفیت را تغییر دهید یا برخی تصاویر یا فایل های دیگر را حذف کنید."</string>
+	<!---->
+	<string name="phone_storage_low" product="default">"فضای تلفن در حال تمام شدن است. تنظیم کیفیت را تغییر دهید یا تعدادی از تصاویر یا سایر فایل ها را حذف کنید."</string>
+	<!---->
+	<string name="video_reach_size_limit">"به حداکثر حجم مجاز رسید."</string>
+	<!---->
+	<string name="video_record_start_failed">"نمی توانید ضبط را شروع کنید"</string>
+	<!---->
+	<string name="pano_too_fast_prompt">"بسیار سریع"</string>
+	<!---->
+	<string name="pano_dialog_prepare_preview">"تهیه پانوراما"</string>
+	<!---->
+	<string name="pano_dialog_panorama_failed">"ذخیره پانوراما امکان‌پذیر نیست."</string>
+	<!---->
+	<string name="pano_dialog_title">"پانوراما"</string>
+	<!---->
+	<string name="pano_capture_indication">"گرفتن عکس پانوراما"</string>
+	<!---->
+	<string name="pano_dialog_waiting_previous">"درحال انتظار برای پانورامای قبلی"</string>
+	<!---->
+	<string name="pano_review_saving_indication_str">"در حال ذخیره..."</string>
+	<!---->
+	<string name="pano_review_rendering">"در حال تولید تصویر پانوراما"</string>
+	<!---->
+	<string name="tap_to_focus">"برای فوکوس لمس کنید."</string>
+	<!---->
+	<string name="pref_video_effect_title">"جلوه‌ها"</string>
+	<!---->
+	<string name="effect_none">"هیچکدام"</string>
+	<!---->
+	<string name="effect_goofy_face_squeeze">"فشرده کردن"</string>
+	<!---->
+	<string name="effect_goofy_face_big_eyes">"چشم هاي بزرگ"</string>
+	<!---->
+	<string name="effect_goofy_face_big_mouth">"دهان بزرگ"</string>
+	<!---->
+	<string name="effect_goofy_face_small_mouth">"دهان کوچک"</string>
+	<!---->
+	<string name="effect_goofy_face_big_nose">"بيني بزرگ"</string>
+	<!---->
+	<string name="effect_goofy_face_small_eyes">"چشم هاي کوچک"</string>
+	<!---->
+	<string name="effect_backdropper_space">"در فضا"</string>
+	<!---->
+	<string name="effect_backdropper_sunset">"غروب آفتاب"</string>
+	<!---->
+	<string name="effect_backdropper_gallery">"ويديوي شما"</string>
+	<!---->
+	<string name="video_snapshot_hint">"هنگام ضبط براي گرفتن عکس لمس کنيد."</string>
+	<!---->
+	<string name="video_recording_started">"ضبط ویدیو شروع شده است."</string>
+	<!---->
+	<string name="video_recording_stopped">"ضبط ویدیو متوقف شده است."</string>
+	<!---->
+	<string name="clear_effects">"پاک کردن جلوه‌ها"</string>
+	<!---->
+	<string name="effect_silly_faces">"چهره‌های احمقانه"</string>
+	<!---->
+	<string name="effect_background">"پس‌زمینه"</string>
+	<!-- no translation found for accessibility_shutter_button -->
+	<skip />
+	<!---->
+	<string name="accessibility_cancel_button">"لغو"</string>
+	<!---->
+	<string name="accessibility_menu_button">"دکمه منو"</string>
+	<!---->
+	<string name="accessibility_check_box">"%1$s کادر بررسی"</string>
+	<!---->
+	<string name="accessibility_switch_to_camera">"رفتن به عکس"</string>
+	<!---->
+	<string name="accessibility_switch_to_video">"رفتن به ویدیو"</string>
+	<!---->
+	<string name="accessibility_switch_to_panorama">"رفتن به پانوراما"</string>
+	<!-- no translation found for accessibility_switch_to_photo_sphere -->
+	<skip />
+	<!-- no translation found for accessibility_switch_to_gcam -->
+	<skip />
+	<!---->
+	<string name="accessibility_switch_to_refocus">"رفتن به فوکوس مجدد"</string>
+	<!---->
+	<string name="accessibility_review_cancel">"لغو بازبینی"</string>
+	<!---->
+	<string name="accessibility_review_ok">"مرور انجام شد"</string>
+	<!---->
+	<string name="accessibility_review_retake">"مرور دوباره انجام می شود"</string>
+	<!---->
+	<string name="accessibility_mode_options">"گزينه ها"</string>
+	<!---->
+	<string name="accessibility_mode_list_hidden">"لیست حالت بسته است"</string>
+	<!---->
+	<string name="accessibility_mode_list_shown">"لیست حالت باز است"</string>
+	<!---->
+	<string name="media_accessibility_peek">"ضبط شده"</string>
+	<!---->
+	<string name="photo_accessibility_peek">"عکس های گرفته شده"</string>
+	<!---->
+	<string name="video_accessibility_peek">"ویدیوهای گرفته شده"</string>
+	<!---->
+	<string name="accessibility_unlock_to_camera">"باز کردن قفل برای دوربین"</string>
+	<!---->
+	<string name="media_date_content_description">"رسانه گرفته شده در %s"</string>
+	<!---->
+	<string name="photo_date_content_description">"عکس گرفته شده در %s"</string>
+	<!---->
+	<string name="video_date_content_description">"ویدیو گرفته شده در %s"</string>
+	<!---->
+	<string name="panorama_date_content_description">"پانورامای گرفته شده در %s"</string>
+	<!---->
+	<string name="photosphere_date_content_description">"محیط عکس گرفته شده در %s"</string>
+	<!---->
+	<string name="refocus_date_content_description">"تاری لنز گرفته شده در %s"</string>
+	<!---->
+	<string name="media_processing_content_description">"پردازش رسانه"</string>
+	<!---->
+	<string name="accessibility_mode_list_toggle">"لیست حالت تغییر وضعیت"</string>
+	<!---->
+	<string name="btn_mode_list_toggle">"لیست حالت"</string>
+	<!---->
+	<string name="accessibility_filmstrip_toggle">"تغییر دادن نوار فیلم"</string>
+	<!---->
+	<string name="btn_filmstrip_toggle">"نوار فیلم"</string>
+	<!-- no translation found for capital_on -->
+	<skip />
+	<!---->
+	<string name="capital_off">"خاموش"</string>
+	<!---->
+	<string name="video_control_play">"پخش ویدیو"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_off">"خامو."</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_500">"0.5 ثانیه"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1000">"1 ثانیه"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1500">"1.5 ثانيه"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_2000">"2 ثانیه"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_2500">"2.5 ثانيه"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_3000">"3 ثانیه"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_4000">"4 ثانیه"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_5000">"5 ثانیه"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_6000">"6 ثانیه"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_10000">"10 ثانیه"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_12000">"12 ثانیه"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_15000">"15 ثانيه"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_24000">"24 ثانیه"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_30000">"0.5 دقیقه"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_60000">"1 دقيقه"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_90000">"1.5 دقیقه"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_120000">"2 دقيقه"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_150000">"2.5 دقیقه"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_180000">"3 دقیقه"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_240000">"4 دقیقه"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_300000">"5 دقيقه"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_360000">"6 دقیقه"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_600000">"10 دقيقه"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_720000">"12 دقیقه"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_900000">"15 دقيقه"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1440000">"24 دقیقه"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1800000">"0.5 ساعت"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_3600000">"1 ساعت"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_5400000">"1.5 ساعت"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_7200000">"2 ساعت"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_9000000">"2.5 ساعت"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_10800000">"3 ساعت"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_14400000">"4 ساعت"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_18000000">"5 ساعت"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_21600000">"6 ساعت"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_36000000">"10 ساعت"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_43200000">"12 ساعت"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_54000000">"15 ساعت"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_86400000">"24 ساعت"</string>
+	<!---->
+	<string name="time_lapse_seconds">"ثانيه ها"</string>
+	<!---->
+	<string name="time_lapse_minutes">"دقايق"</string>
+	<!---->
+	<string name="time_lapse_hours">"ساعت"</string>
+	<!-- no translation found for time_lapse_interval_set -->
+	<skip />
+	<!---->
+	<string name="set_time_interval">"تنظیم فاصله زمانی"</string>
+	<!---->
+	<string name="set_time_interval_help">"ویژگی مرور زمان خاموش است. برای تنظیم فاصله زمانی آن را روشن کنید."</string>
+	<!---->
+	<string name="set_duration">"مدت زمان را به ثانیه تنظیم کنید"</string>
+	<!---->
+	<string name="count_down_title_text">"شمارش معکوس برای گرفتن عکس"</string>
+	<!---->
+	<string name="remember_location_title">"مکان های عکس یادآوری شود؟"</string>
+	<!---->
+	<string name="remember_location_prompt">"عکس ها و ویدیوهای خود را با مکان هایی که در آن گرفته شده اند برچسب گذاری کنید.\n\nسایر برنامه ها می توانند به این اطلاعات که همراه تصاویر ذخیره است دسترسی داشته باشند."</string>
+	<!---->
+	<string name="remember_location_no">"خیر متشکرم"</string>
+	<!---->
+	<string name="remember_location_yes">"بله"</string>
+	<!---->
+	<string name="camera_menu_more_label">"سایر گزینه ها"</string>
+	<!-- no translation found for camera_menu_settings_label -->
+	<skip />
+	<!-- no translation found for create_tiny_planet -->
+	<skip />
+	<!-- no translation found for saving_tiny_planet -->
+	<skip />
+	<!-- no translation found for tiny_planet_zoom -->
+	<skip />
+	<!-- no translation found for tiny_planet_rotate -->
+	<skip />
+	<!---->
+	<string name="photo_editor">"ويرايشگر عکس"</string>
+	<!---->
+	<string name="crop_save">"ذخیره"</string>
+	<!---->
+	<string name="cannot_load_image">"تصوير بارگيري نمي شود!"</string>
+	<!---->
+	<string name="switch_photo_filmstrip">"نماي نوار فيلم"</string>
+	<!---->
+	<string name="setting_wallpaper">"تنظیم تصویر زمینه"</string>
+	<!---->
+	<string name="mode_settings">"تنظیمات"</string>
+	<!---->
+	<string name="mode_camera">"خودکار"</string>
+	<!---->
+	<string name="mode_video">"ويديو"</string>
+	<!---->
+	<string name="mode_slow_motion">"حرکت آهسته"</string>
+	<!---->
+	<string name="mode_photosphere">"محیط عکس"</string>
+	<!---->
+	<string name="mode_timelapse">"گذشت زمان"</string>
+	<!---->
+	<string name="mode_wideangle">"زاویه گسترده"</string>
+	<!---->
+	<string name="mode_panorama">"پانوراما"</string>
+	<!---->
+	<string name="mode_refocus">"تاری لنز"</string>
+	<!---->
+	<string name="mode_camera_desc">"تغییر به حالت دوربین"</string>
+	<!---->
+	<string name="mode_video_desc">"تغییر به دوربین ویدیو"</string>
+	<!---->
+	<string name="mode_photosphere_desc">"تغییر به حالت محیط عکس"</string>
+	<!---->
+	<string name="mode_panorama_desc">"تغییر به حالت پانوراما"</string>
+	<!---->
+	<string name="mode_slow_motion_desc">"تعويض به حالت حرکت آهسته"</string>
+	<!---->
+	<string name="mode_refocus_desc">"تغییر به حالت تاری لنز"</string>
+	<!---->
+	<string name="settings_open_desc">"باز کردن تنظیمات"</string>
+	<!---->
+	<string name="settings_close_desc">"بستن تنظیمات"</string>
+	<!---->
+	<string name="hdr_plus_off_desc">"+HDR خاموش"</string>
+	<!---->
+	<string name="hdr_plus_on_desc">"+HDR روشن"</string>
+	<!---->
+	<string name="hdr_off_desc">"HDR خاموش"</string>
+	<!---->
+	<string name="hdr_on_desc">"HDR روشن"</string>
+	<!---->
+	<string name="flash_off_desc">"فلاش خاموش"</string>
+	<!---->
+	<string name="flash_auto_desc">"فلاش خودکار"</string>
+	<!---->
+	<string name="flash_on_desc">"فلاش روشن"</string>
+	<!---->
+	<string name="hdr_plus_flash_off_desc">"HDR+ فلاش خاموش"</string>
+	<!---->
+	<string name="hdr_plus_flash_auto_desc">"HDR+ فلاش خودکار"</string>
+	<!---->
+	<string name="hdr_plus_flash_on_desc">"HDR+ فلاش روشن"</string>
+	<!---->
+	<string name="torch_on_desc">"چراغ قوه روشن"</string>
+	<!---->
+	<string name="torch_off_desc">"چراغ قوه خاموش"</string>
+	<!---->
+	<string name="camera_id_back_desc">"دوربین عقب"</string>
+	<!---->
+	<string name="camera_id_front_desc">"دوربین جلو"</string>
+	<!---->
+	<string name="grid_lines_off_desc">"خطوط شبکه خاموش"</string>
+	<!---->
+	<string name="grid_lines_on_desc">"خطوط شبکه روشن"</string>
+	<!---->
+	<string name="countdown_timer_off">"تایمر شمارش معکوس خاموش است"</string>
+	<!---->
+	<string name="countdown_timer_duration_2s">"مدت زمان تایمر شمارش معکوس بر روی 2 ثانیه تنظیم شده است"</string>
+	<!---->
+	<string name="countdown_timer_duration_3s">"مدت زمان تایمر شمارش معکوس بر روی 3 ثانیه تنظیم شده است"</string>
+	<!---->
+	<string name="countdown_timer_duration_5s">"مدت زمان تایمر شمارش معکوس بر روی 5 ثانیه تنظیم شده است"</string>
+	<!---->
+	<string name="countdown_timer_duration_10s">"مدت زمان تایمر شمارش معکوس بر روی 10 ثانیه تنظیم شده است"</string>
+	<!---->
+	<string name="more_options_desc">"گزینه‌های بیشتر"</string>
+	<!---->
+	<string name="cancel_button_description">"لغو"</string>
+	<!---->
+	<string name="done_button_description">"انجام شد"</string>
+	<!---->
+	<string name="retake_button_description">"گرفتن مجدد"</string>
+	<!---->
+	<string name="share_button_description">"اشتراک"</string>
+	<!---->
+	<string name="view_button_description">"نمایش"</string>
+	<!---->
+	<string name="edit_button_description">"ویرایش"</string>
+	<!---->
+	<string name="delete_button_description">"حذف"</string>
+	<!---->
+	<string name="manual_exposure_compensation_desc">"جبران نوردهی دستی"</string>
+	<!---->
+	<string name="exposure_compensation_desc_n2">"جبران نوردهی 2-"</string>
+	<!---->
+	<string name="exposure_compensation_desc_n1">"جبران نوردهی 1-"</string>
+	<!---->
+	<string name="exposure_compensation_desc_0">"جبران نوردهی 0"</string>
+	<!---->
+	<string name="exposure_compensation_desc_p1">"جبران نوردهی +1"</string>
+	<!---->
+	<string name="exposure_compensation_desc_p2">"جبران نوردهی +2"</string>
+	<!---->
+	<string name="button_change_announcement">"دکمه اکنون %s است"</string>
+	<!---->
+	<string name="setting_location">"موقعیت مکانی"</string>
+	<!---->
+	<string name="setting_back_camera_photo">"عکس دوربین عقب"</string>
+	<!---->
+	<string name="setting_back_camera_video">"ویدیوی دوربین عقب"</string>
+	<!---->
+	<string name="setting_front_camera_photo">"عکس دوربین جلو"</string>
+	<!---->
+	<string name="setting_front_camera_video">"ویدیوی دوربین جلو"</string>
+	<!---->
+	<string name="setting_default_camera">"دوربین پیش فرض"</string>
+	<!---->
+	<string name="setting_google_help_and_feedback">"راهنمایی و بازخورد"</string>
+	<!---->
+	<string name="processing_hdr_plus">"پردازش +HDR …"</string>
+	<!---->
+	<string name="open_source_licenses">"مجوز های متن باز (Open Source)"</string>
+	<!---->
+	<string name="pref_category_general">"تنظیمات عمومی"</string>
+	<!---->
+	<string name="pref_category_resolution_quality">"وضوح و کیفیت"</string>
+	<!---->
+	<string name="pref_category_about">"درباره"</string>
+	<!---->
+	<string name="pref_title_build_version">"نسخه ساخت"</string>
+	<!---->
+	<string name="pref_video_quality_entry_low">"کم"</string>
+	<!---->
+	<string name="pref_video_quality_entry_high">"زیاد"</string>
+	<!-- no translation found for pref_video_quality_entry_qcif -->
+	<skip />
+	<!-- no translation found for pref_video_quality_entry_cif -->
+	<skip />
+	<!-- no translation found for pref_video_quality_entry_480p -->
+	<skip />
+	<!-- no translation found for pref_video_quality_entry_720p -->
+	<skip />
+	<!-- no translation found for pref_video_quality_entry_1080p -->
+	<skip />
+	<!-- no translation found for pref_video_quality_entry_qvga -->
+	<skip />
+	<!-- no translation found for pref_video_quality_entry_2160p -->
+	<skip />
+	<!---->
+	<string name="setting_summary_x_megapixels">"%1$s مگاپیکسل"</string>
+	<!---->
+	<string name="setting_summary_aspect_ratio_and_megapixels">"(%1$d:%2$d) %3$s مگاپیکسل"</string>
+	<!---->
+	<string name="cling_text_for_refocus_editor_button">"برای فوکوس مجدد اینجا را لمس کنید"</string>
+	<!---->
+	<string name="pref_category_advanced">"پیشرفته"</string>
+	<!---->
+	<string name="pref_camera_exposure_compensation">"نوردهی دستی"</string>
+	<!---->
+	<string name="settings_cling_text">"از قسمت تنظیمات، وضوح و کیفیت را تغییر دهید، یا ویژگی های پیشرفته را امتحان کنید."</string>
+	<!---->
+	<string name="photo_size_selection_title">"انتخاب اندازه عکس"</string>
+	<!---->
+	<string name="photo_aspect_ratio_selection_content">"می توانيد اين را در فرصتی ديگر از تنظيمات تغيير دهيد"</string>
+	<!---->
+	<string name="share_to">"اشتراک با"</string>
+	<!---->
+	<string name="edit_with">"ویرایش با"</string>
+	<!---->
+	<string name="startup_dialog_button_next">"بعدی"</string>
+	<!---->
+	<string name="confirm_button_text">"تأیید. دريافت کنيد."</string>
+	<!---->
+	<string name="full_sensor_4x3_aspect_ratio">"حسگر کامل \n(4:3)"</string>
+	<!---->
+	<string name="cropped_sensor_16x9_aspect_ratio">"حسگر کراپ \n(16:9)"</string>
+	<!-- no translation found for pref_boolean_false -->
+	<skip />
+	<!-- no translation found for pref_boolean_true -->
+	<skip />
+	<!---->
+	<string name="pref_camera_iso_s_f_entry_auto">"خودکار"</string>
+	<!-- no translation found for manual_manu_title_iso -->
+	<skip />
+	<!-- no translation found for manual_manu_title_exposure -->
+	<skip />
+	<!-- no translation found for manual_manu_title_wb -->
+	<skip />
+	<!-- no translation found for manual_manu_title_focus -->
+	<skip />
+	<!---->
+	<string name="setting_group_photo">"عکس"</string>
+	<!---->
+	<string name="setting_group_video">"ويديو"</string>
+	<!---->
+	<string name="setting_group_general">"عمومي"</string>
+	<!---->
+	<string name="pref_camera_size_title">"اندازه"</string>
+	<!---->
+	<string name="pref_rear_camera_size_title">"اندازه"</string>
+	<!---->
+	<string name="pref_front_camera_size_title">"اندازه"</string>
+	<!---->
+	<string name="pref_rear_camera_size_title_vdf">"اندازه عکس (پشت)"</string>
+	<!---->
+	<string name="pref_front_camera_size_title_vdf">"اندازه عکس (جلو)"</string>
+	<!---->
+	<string name="pref_camera_grid_title">"شبکه"</string>
+	<!---->
+	<string name="pref_camera_pose_title">"وانمود کردن"</string>
+	<!---->
+	<string name="pref_camera_compose_title">"ترکیب"</string>
+	<!---->
+	<string name="pref_video_eis_title">"EIS"</string>
+	<!---->
+	<string name="pref_camera_face_beauty_title">"چهره زيبا"</string>
+	<!---->
+	<string name="pref_camera_mirror_selfie_title">"سلفی گرفته شده با آینه"</string>
+	<!---->
+	<string name="pref_camera_attention_seeker_title">"صدای توجه کردن"</string>
+	<!-- no translation found for pref_camera_ais_title -->
+	<skip />
+	<!---->
+	<string name="pref_camera_super_resolution_title">"وضوح عالی"</string>
+	<!---->
+	<string name="pref_camera_savepath_title">"حافظه"</string>
+	<!---->
+	<string name="pref_camera_savepath_entry_0">"تلفن"</string>
+	<!---->
+	<string name="pref_camera_savepath_entry_1">"کارت SD"</string>
+	<!-- no translation found for pref_camera_savepath_default -->
+	<skip />
+	<!---->
+	<string name="pref_camera_sound_title">"صداي شاتر"</string>
+	<!---->
+	<string name="pref_visidon_mode_title">"حالت پیشرفته"</string>
+	<!---->
+	<string name="pref_camera_gesture_detection_title">"کنترل حرکت"</string>
+	<!---->
+	<string name="visidon_mode_face_beauty_entry">"چهره زيبا"</string>
+	<!---->
+	<string name="visidon_mode_super_resolution_entry">"وضوح عالی"</string>
+	<!---->
+	<string name="visidon_mode_low_light_entry">"صحنه شب"</string>
+	<!-- no translation found for visidon_mode_hdr_entry -->
+	<skip />
+	<!---->
+	<string name="visidon_mode_off_entry">"خاموش"</string>
+	<!---->
+	<string name="mode_manual">"دستي"</string>
+	<!---->
+	<string name="mode_pano">"پانوراما"</string>
+	<!-- no translation found for mode_parallax -->
+	<skip />
+	<!---->
+	<string name="mode_micro_video">"میکرو ویدیو"</string>
+	<!---->
+	<string name="mode_manual_desc">"تغییر به حالت دستی"</string>
+	<!---->
+	<string name="mode_pano_desc">"تغيير به حالت pano"</string>
+	<!---->
+	<string name="mode_parallax_desc">"تغيير به حالت Fyuse"</string>
+	<!---->
+	<string name="mode_micro_video_desc">"تغییر به حالت میکرو ویدیو"</string>
+	<!---->
+	<string name="pref_restore_settings">"بازیابی پیش فرض ها"</string>
+	<!---->
+	<string name="quit_dialog_title_battery_low">"باتری ضعيف است"</string>
+	<!---->
+	<string name="quit_dialog_title_storage_low">"حافظه ناکافی"</string>
+	<!---->
+	<string name="quit_dialog_msg">"ضبط ویدیو به طور خودکار ذخیره می شود. دوربین بسته می شود."</string>
+	<!---->
+	<string name="battery_info_dialog_tile">"باتری ضعيف است"</string>
+	<!---->
+	<string name="battery_info_dialog_msg_disable_flash">"نمی توانید از فلاش استفاده کنید"</string>
+	<!---->
+	<string name="battery_info_dialog_msg_close_camera">"نمی توانید دوربین را باز کنید"</string>
+	<!---->
+	<string name="battery_info_dialog_button_ok">"تأييد"</string>
+	<!---->
+	<string name="battery_info_dialog_button_close">"بستن"</string>
+	<!-- no translation found for battery_info_low_toast_message -->
+	<skip />
+	<!-- no translation found for battery_info_video_low_toast_message -->
+	<skip />
+	<!-- no translation found for battery_info_video_low_less_8 -->
+	<skip />
+	<!-- no translation found for battery_info_video_low_less_8_dialog -->
+	<skip />
+	<!-- no translation found for battery_info_video_low_cancel -->
+	<skip />
+	<!-- no translation found for battery_info_video_low_continue -->
+	<skip />
+	<!---->
+	<string name="MSG_SAVE_OUTPUT_IMAGE">"در حال ذخیره تصویر پانوراما ..."</string>
+	<!---->
+	<string name="MSG_CANCEL_CAPTURE">"در حال لغو..."</string>
+	<!-- no translation found for save_dir_preview_img -->
+	<skip />
+	<!-- no translation found for save_dir_still_img -->
+	<skip />
+	<!---->
+	<string name="MSG_MISALIGNMENT">"تا آنجا که امکان دارد پیکان را روی خط سفید نگه دارید.\nگرفتن عکس متوقف می شود"</string>
+	<!---->
+	<string name="MSG_MOVE_CAMERA_SLOWLY">"زمان ضبط دوربین را به آرامی حرکت دهید"</string>
+	<!---->
+	<string name="delete_selection">"حذف مورد انتخابي؟"</string>
+	<!---->
+	<string name="burst_saving_hint">"در حال ذخيره %d تصوير..."</string>
+	<!---->
+	<string name="micro_video_remix_hint">"در حال پردازش..."</string>
+	<!---->
+	<string name="lowlight_off_desc">"نور کم خاموش"</string>
+	<!---->
+	<string name="lowlight_on_desc">"نور کم روشن"</string>
+	<!---->
+	<string name="tizr_prompt_desc">"با TiZR می توانید ویدیو زنده را در جهان پخش کنید. اکنون مسافرت خود را شروع کنید."</string>
+	<!---->
+	<string name="tizr_prompt_content">"شروع شد"</string>
+	<!-- no translation found for title_activity_tizr_share_video -->
+	<skip />
+	<!---->
+	<string name="night_mode_on_toast">"حالت شب روشن است، زمان گرفتن عکس دستگاه را محکم نگه دارید"</string>
+	<!---->
+	<string name="hdr_on_toast">"HDR روشن است، زمان گرفتن عکس دستگاه را محکم نگه دارید"</string>
+	<!---->
+	<string name="micro_video_guide_title">"میکرو ویدیو"</string>
+	<!---->
+	<string name="micro_video_guide_description">"در صندلی کارگردان قرار بگیرید و ویدیوی خود را تولید کنید\n(بعد از عکسبرداری، برای افزودن جلوه ها و تم های خاص روی ویرایش کلیک کنید)"</string>
+	<!---->
+	<string name="micro_video_guide_checkbox">"دوباره نشان ندهید"</string>
+	<!---->
+	<string name="micro_video_guide_button">"دريافت کنيد"</string>
+	<!---->
+	<string name="micro_minimum_time_tip">"حداقل 3 ثانیه ضبط کنید"</string>
+	<!---->
+	<string name="micro_shutter_help_tip">"برای شروع ضبط فشار دهید و نگه دارید"</string>
+	<!---->
+	<string name="permissions_needed">"نیاز به مجوز است"</string>
+	<!---->
+	<string name="grant_access_title">"اجازه دسترسی"</string>
+	<!-- no translation found for grant_access_msg -->
+	<skip />
+	<!---->
+	<string name="grant_access_exit">"خروج"</string>
+	<!---->
+	<string name="grant_access_settings">"تنظیمات"</string>
+	<!-- no translation found for location_and -->
+	<skip />
+	<!---->
+	<string name="location_msg">"برچسب گذاری عکس و ویدیوها با مکان"</string>
+	<!---->
+	<string name="location_toast">"در فرصتی دیگر از تنظیمات دوربین، برچسب گذاری GPS را روشن کنید"</string>
+	<!---->
+	<string name="location_snack_setting">"برای فعال کردن برچسب گذاری GPS، به مجوز دوربین اجازه دسترسی به مکان را بدهید"</string>
+	<!---->
+	<string name="aspect_ratio_and_megapixels_default">"%1$d مگاپیکسل (%2$d:%3$d)"</string>
+	<!---->
+	<string name="tips_for_panorama_preview">"هنگام گرفتن پانوراما، دستگاه را به طور پیوسته حرکت دهید"</string>
+	<!---->
+	<string name="tip_for_move_center">"پیکان را درون خط مرکزی نگه دارید"</string>
+	<!---->
+	<string name="tip_for_move_down">"حرکت به پایین"</string>
+	<!---->
+	<string name="tip_for_move_up">"حرکت به بالا"</string>
+	<!---->
+	<string name="tip_for_move_slow">"آهسته کردن"</string>
+	<!---->
+	<string name="tip_for_move_right">"به راست بروید"</string>
+	<!---->
+	<string name="tip_for_move_left">"به چپ بروید"</string>
+	<!---->
+	<string name="super_zoom_on_toast">"زوم سوپر روشن است، زمان گرفتن عکس دستگاه را محکم نگه دارید"</string>
+	<!---->
+	<string name="help_tip_welcome_take_tour">"بله لطفاً"</string>
+	<!---->
+	<string name="help_tip_welcome_cancel_tour">"خیر متشکرم"</string>
+	<!---->
+	<string name="help_tip_welcome_title">"دوربین"</string>
+	<!---->
+	<string name="help_tip_welcome_context">"جستجو می کنید و نکات راهنما درباره نحوه استفاده از دوربین تلفن هوشمند جدید خود را دریافت کنید؟"</string>
+	<!---->
+	<string name="help_tip_snap_context">"برای گرفتن عکس اینجا را لمس کنید، یا برای عکسبرداری متوالی تا 10 عکس فشار طولانی دهید"</string>
+	<!---->
+	<string name="help_tip_camera_key_context">"برای گرفتن عکس از \"کلید دوربین\" استفاده کنید یا برای عکسبرداری متوالی فشار طولانی دهید"</string>
+	<!---->
+	<string name="help_tip_recent_context">"برای مشاهده عکس های اخیر اینجا را لمس کنید"</string>
+	<!---->
+	<string name="help_tip_startvideo_context">"برای شروع ضبط ویدیو اینجا را لمس کنید"</string>
+	<!---->
+	<string name="help_tip_videosnap_context">"هنگام ضبط برای گرفتن عکس اینجا را لمس کنيد"</string>
+	<!---->
+	<string name="help_tip_stopvideo_context">"برای توقف ضبط و ذخیره ویدیو اینجا را لمس کنید"</string>
+	<!---->
+	<string name="help_tip_switch_front_context">"برای باز کردن حالت سلفی اینجا را لمس کنید"</string>
+	<!---->
+	<string name="help_tip_gesture_tip_context">"برای گرفتن عکس، کف دست خود را در جلوی دوربین بگیرید"</string>
+	<!---->
+	<string name="help_tip_pinch_zoom_context">"برای بزرگنمایی/کوچکنمایی، انگشتانتان را در نمایاب از هم دور یا به هم نزدیک کنید"</string>
+	<!---->
+	<string name="help_tip_quick_switch_context">"برای روشن/خاموش کردن عملکرد، این نمادها را لمس کنید"</string>
+	<!---->
+	<string name="help_tip_settings_context">"برای رفتن به تنظیمات دوربین اینجا را لمس کنید"</string>
+	<!---->
+	<string name="help_tip_mode_context">"برای تغییر حالت دوربین در نمایاب به چپ یا راست بروید"</string>
+	<!---->
+	<string name="help_tip_panorama_context">"نوار پیش نمایش را برای تغییر جهت لمس کنید"</string>
+	<!---->
+	<string name="help_tip_manual_context">"برای تغییر گزینه حالت دستی یک نماد لمس کنید"</string>
+	<!---->
+	<string name="help_tip_manual_menu_context">"برای نمایش یا پنهان کردن گزینه های حالت دستی لمس کنید"</string>
+	<!---->
+	<string name="help_tip_got_it_text">"نادیده گرفتن"</string>
+	<!---->
+	<string name="help_tip_dismiss_text">"نادیده گرفتن"</string>
+	<!---->
+	<string name="help_tip_skip_all_text">"رد شدن از همه"</string>
+	<!---->
+	<string name="optimize_saving_hint">"بهینه سازی عکس"</string>
+	<!---->
+	<string name="wrapper_button_desc">"دکمه توسعه دادن"</string>
+	<!---->
+	<string name="restore_settings_dialog_msg">"بازنشانی دوربین به تنظیمات کارخانه؟"</string>
+	<!---->
+	<string name="restore_settings_dialog_yes">"بازنشانی"</string>
+	<!---->
+	<string name="restore_settings_dialog_no">"لغو کردن"</string>
+	<!---->
+	<string name="permission_title">"دوربین نیاز به مجوز دارد"</string>
+	<!---->
+	<string name="permission_content">"برای اعطای مجوز اینجا را لمس کنید."</string>
+	<plurals name="instant_capture_photos">
+		<item quantity="one">"<xliff:g id="step_count">%1$d</xliff:g> عکس"</item>
+		<item quantity="other">"<xliff:g id="step_count">%1$d</xliff:g> عکس"</item>
+	</plurals>
+	<!-- no translation found for photos -->
+	<skip />
+	<!---->
+	<string name="delete_selection_burst">"این عکس برداری متوالی شامل %s عکس است. همه آنها حذف شود؟"</string>
+	<!---->
+	<string name="flash_with_superzoom_toast">"نمی توانید زمان روشن بودن سوپر زوم از فلش استفاده کنید."</string>
+	<!---->
+	<string name="battery_warning_title">"نمی توانید عکس Boom بگیرید"</string>
+	<!---->
+	<string name="battery_warning_content">"با باتری با شارژ کم نمی توانید عکس بگیرید"</string>
+	<!---->
+	<string name="phone_storage_low_for_alert_dialog">"حافظه تلفن کم است. دوربین بسته می شود."</string>
+	<!---->
+	<string name="sd_card_low_for_alert_dialog">"حافظه کارت SD کم است. دوربین بسته می شود."</string>
+	<!---->
+	<string name="camera_error_title_alert_dialog">"حافظه پر است."</string>
+	<!---->
+	<string name="storage_low_close_alert_dialog">"بستن"</string>
+	<!---->
+	<string name="storage_low_phone_full_no_sdcard_alert_dialog">"حافظه تلفن پر است. برای وارد کردن کارت SD فضا را پاک کنید."</string>
+	<!---->
+	<string name="storage_low_phone_sdcard_full_alert_dialog">"تلفن و حافظه SD پر است. برای استفاده از دوربین، فضا را پاک کنید."</string>
+	<!---->
+	<string name="storage_low_phone_full_sdcard_ok_alert_dialog">"حافظه تلفن پر است. ذخيره در کارت SD؟"</string>
+	<!---->
+	<string name="storage_low_storage_full_phone_ok_alert_dialog">"کارت SD پر است. ذخیره در حافظه تلفن؟"</string>
+	<!---->
+	<string name="storage_low_phone_full_sdcard_ok_button">"استفاده از SD"</string>
+	<!---->
+	<string name="storage_low_storage_full_phone_ok_button">"استفاده از حافظه تلفن"</string>
+	<!-- no translation found for storage_low_storage_critical_toast_message -->
+	<skip />
+	<!-- no translation found for storage_low_video_critical_toast_message -->
+	<skip />
+	<!---->
+	<string name="pref_camera_antibanding_title">"ضد دسته بندی"</string>
+	<!---->
+	<string name="pref_camera_antibanding_entry_0">"خامو."</string>
+	<!---->
+	<string name="pref_camera_antibanding_entry_1">"50 هرتز"</string>
+	<!---->
+	<string name="pref_camera_antibanding_entry_2">"60 هرتز"</string>
+	<!---->
+	<string name="pref_camera_antibanding_entry_3">"خودکار"</string>
+	<!---->
+	<string name="storage_warning_content">"با حافظه کم نمی توانید عکس بگیرید"</string>
+	<!---->
+	<string name="storage_and_battery_warning_content">"با باتری با شارژ کم و حافظه کم نمی توانید عکس بگیرید"</string>
+	<!---->
+	<string name="remote_content">"گرفتن عکس ها در دستگاه پوشیدنی"</string>
+	<!---->
+	<string name="boom_key_press">"فشار دادن"</string>
+	<!---->
+	<string name="boom_key">"کلید بوم (Boom)"</string>
+	<!---->
+	<string name="location_service_dialog_title">"GPS خاموش"</string>
+	<!---->
+	<string name="location_service_dialog_msg">"برای برچسب گذاری عکس ها و ویدیوها با مکان، لطفا GPS و شبکه های بی سیم را از قسمت تنظیمات مکان روشن کنید."</string>
+	<!---->
+	<string name="location_service_dialog_cancel">"لغو"</string>
+	<!---->
+	<string name="location_service__dialog_setting">"تنظیمات"</string>
+	<!---->
+	<string name="gestureshot_guide_capture">"عکسبرداری از حرکت: عکسبرداری خودکار هنگامی که حرکت رديابی می شود:"</string>
+	<!-- no translation found for mode_filters -->
+	<skip />
+	<!-- no translation found for mode_pose -->
+	<skip />
+	<!-- no translation found for video_recording_paused -->
+	<skip />
+	<!-- no translation found for pose_final_icon -->
+	<skip />
+	<!-- no translation found for time_left -->
+	<skip />
+	<!-- no translation found for pref_camera_auto_hdr_title -->
+	<skip />
+	<!-- no translation found for pref_camera_timer_entry_0 -->
+	<skip />
+	<!-- no translation found for pref_camera_timer_unit_suffix -->
+	<skip />
+	<!-- no translation found for pref_camera_face_beauty_summary -->
+	<skip />
+	<!-- no translation found for pref_camera_mirror_selfie_summary -->
+	<skip />
+	<!-- no translation found for pref_camera_pose_summary -->
+	<skip />
+	<!-- no translation found for mode_360_photo -->
+	<skip />
+	<!-- no translation found for panorama_preview_holder_info_text -->
+	<skip />
+	<!-- no translation found for back -->
+	<skip />
+	<!-- no translation found for gallery_name -->
+	<skip />
+	<!---->
+	<string name="audio_record_on_desc">"میکروفن"</string>
+	<!-- no translation found for audio_record_off_desc -->
+	<skip />
+</resources>

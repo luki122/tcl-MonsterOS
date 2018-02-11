@@ -1,0 +1,142 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.monster.appmanager.MainActivity" >
+
+    <LinearLayout
+        android:id="@+id/fullscreen_content_controls"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        android:orientation="vertical"
+        tools:ignore="UselessParent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-5dp"
+            android:layout_marginBottom="29dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+			<include layout="@com.mst:layout/list_item_2_line_with_icon" 
+			    android:layout_width="0dp"
+			    android:layout_weight="1"
+			    android:layout_height="wrap_content"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/intercept"
+                android:src="@drawable/has_intercept"
+                android:layout_marginRight="15dp"
+                android:scaleType="centerInside" />
+        </LinearLayout>
+
+        <HorizontalScrollView
+            android:id="@+id/all_virus"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:scrollbars="none"
+            android:layout_weight="1" >
+            <LinearLayout 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/virus_content"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp"
+                android:paddingRight="20dp" >
+                
+                <View
+                    android:id="@+id/left_space"
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent" />
+                
+                <FrameLayout 
+                    android:id="@+id/virus_notifycation"
+                    android:layout_width="@dimen/virus_img_width"
+                    android:layout_height="@dimen/virus_img_height"
+                    android:background="@color/virus_bg_color"
+                    android:visibility="gone"
+                    android:layout_marginLeft="10dp" >
+	                <ImageView 
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:layout_gravity="center"
+	                    android:scaleType="center"
+	                    android:src="@drawable/virus_alert"/>
+	                
+	                <ImageView 
+	                    android:id="@+id/virus_notifycation_anim"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:layout_gravity="center_horizontal"
+	                    android:layout_marginTop="66dp"
+	                    android:scaleType="center"/>
+	                
+	                <include 
+					    android:id="@+id/virus_notification_protected"
+	                    layout="@layout/ad_intercept_success"/>
+                </FrameLayout>
+                <FrameLayout 
+                    android:id="@+id/virus_banner"
+                    android:layout_width="@dimen/virus_img_width"
+                    android:layout_height="@dimen/virus_img_height"
+                    android:background="@color/virus_bg_color"
+                    android:visibility="gone"
+                    android:layout_marginLeft="10dp" >
+	                <ImageView android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:layout_gravity="center"
+	                    android:scaleType="center"
+	                    android:src="@drawable/virus_alert" />
+	                
+	                <ImageView 
+	                    android:id="@+id/virus_banner_anim"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:layout_gravity="center_horizontal"
+	                    android:layout_marginTop="70dp"
+	                    android:scaleType="center"/>
+	                
+	                <include 
+					    android:id="@+id/virus_banner_protected"
+	                    layout="@layout/ad_intercept_success"/>
+                </FrameLayout>
+                <FrameLayout 
+                    android:id="@+id/virus_alert"
+                    android:layout_width="@dimen/virus_img_width"
+                    android:layout_height="@dimen/virus_img_height"
+                    android:background="@color/virus_bg_color"
+                    android:visibility="gone"
+                    android:layout_marginLeft="10dp" >
+	                <ImageView android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:layout_gravity="center"
+	                    android:scaleType="center"
+	                    android:src="@drawable/virus_alert"/>
+	                
+	                <ImageView 
+	                    android:id="@+id/virus_alert_anim"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:layout_gravity="center"
+	                    android:scaleType="center"/>
+	                
+	                <include 
+					    android:id="@+id/virus_alert_protected"
+	                    layout="@layout/ad_intercept_success"/>
+                </FrameLayout>
+
+                <View
+                    android:id="@+id/right_space"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+        </HorizontalScrollView>
+        
+        <include layout="@layout/two_button_panel"/>
+    </LinearLayout>
+
+</FrameLayout>

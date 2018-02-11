@@ -1,0 +1,894 @@
+package mst.widget;
+
+import com.mst.R;
+
+import mst.utils.AnimationUtils;
+import mst.utils.DrawableUtils;
+import mst.utils.ViewUtil;
+import android.animation.Animator;
+import android.animation.Animator.AnimatorListener;
+import android.animation.ValueAnimator;
+import android.content.Context;
+import android.content.res.ColorStateList;
+import android.content.res.TypedArray;
+import android.graphics.Canvas;
+import android.graphics.Color;
+import android.graphics.Paint;
+import android.graphics.PorterDuff;
+import android.graphics.Typeface;
+import android.graphics.drawable.Drawable;
+import android.graphics.drawable.DrawableContainer;
+import android.text.Editable;
+import android.text.TextUtils;
+import android.text.TextWatcher;
+import android.util.AttributeSet;
+import android.util.TypedValue;
+import android.view.Gravity;
+import android.view.View;
+import android.view.ViewGroup;
+import android.view.accessibility.AccessibilityEvent;
+import android.view.accessibility.AccessibilityNodeInfo;
+import android.view.animation.AccelerateInterpolator;
+import android.widget.EditText;
+import android.widget.LinearLayout;
+import android.widget.Space;
+import android.widget.TextView;
+import android.widget.LinearLayout.LayoutParams;
+
+/**
+ * Layout which wraps an {@link android.widget.EditText} (or descendant) to show a floating label
+ * when the hint is hidden due to the user inputting text.
+ *
+ * Also supports showing an error via {@link #setErrorEnabled(boolean)} and
+ * {@link #setError(CharSequence)}.
+ */
+public class TextInputLayout extends LinearLayout {
+
+    private static final int ANIMATION_DURATION = 200;
+    private static final int INVALID_MAX_LENGTH = -1;
+
+    private EditText mEditText;
+
+    private boolean mHintEnabled;
+    private CharSequence mHint;
+
+    private Paint mTmpPaint;
+
+    private LinearLayout mIndicatorArea;
+    private int mIndicatorsAdded;
+
+    private boolean mErrorEnabled;
+    private TextView mErrorView;
+    private int mErrorTextAppearance;
+    private boolean mErrorShown;
+
+    private boolean mCounterEnabled;
+    private TextView mCounterView;
+    private int mCounterMaxLength;
+    private int mCounterTextAppearance;
+    private int mCounterOverflowTextAppearance;
+    private boolean mCounterOverflowed;
+
+    private ColorStateList mDefaultTextColor;
+    private ColorStateList mFocusedTextColor;
+
+    private final CollapsingTextHelper mCollapsingTextHelper = new CollapsingTextHelper(this);
+
+    private boolean mHintAnimationEnabled;
+    private ValueAnimator mAnimator;
+
+    private boolean mHasReconstructedEditTextBackground;
+
+    public TextInputLayout(Context context) {
+        this(context, null);
+    }
+
+    public TextInputLayout(Context context, AttributeSet attrs) {
+        this(context, attrs, 0);
+    }
+
+    public TextInputLayout(Context context, AttributeSet attrs, int defStyleAttr) {
+        // Can't call through to super(Context, AttributeSet, int) since it doesn't exist on API 10
+        super(context, attrs);
+
+
+        setOrientation(VERTICAL);
+        setWillNotDraw(false);
+        setAddStatesFromChildren(true);
+
+        mCollapsingTextHelper.setTextSizeInterpolator(AnimationUtils.FAST_OUT_SLOW_IN_INTERPOLATOR);
+        mCollapsingTextHelper.setPositionInterpolator(new AccelerateInterpolator());
+        mCollapsingTextHelper.setCollapsedTextGravity(Gravity.TOP | Gravity.START);
+
+        final TypedArray a = context.obtainStyledAttributes(attrs,
+                R.styleable.TextInputLayout, defStyleAttr, R.style.Widget_TextInputLayout);
+        mHintEnabled = a.getBoolean(R.styleable.TextInputLayout_hintEnabled, true);
+        setHint(a.getText(R.styleable.TextInputLayout_android_hint));
+        mHintAnimationEnabled = a.getBoolean(
+                R.styleable.TextInputLayout_hintAnimationEnabled, true);
+
+        if (a.hasValue(R.styleable.TextInputLayout_android_textColorHint)) {
+            mDefaultTextColor = mFocusedTextColor =
+                    a.getColorStateList(R.styleable.TextInputLayout_android_textColorHint);
+        }
+
+        final int hintAppearance = a.getResourceId(
+                R.styleable.TextInputLayout_hintTextAppearance, -1);
+        if (hintAppearance != -1) {
+            setHintTextAppearance(
+                    a.getResourceId(R.styleable.TextInputLayout_hintTextAppearance, 0));
+        }
+
+        mErrorTextAppearance = a.getResourceId(R.styleable.TextInputLayout_errorTextAppearance, 0);
+        final boolean errorEnabled = a.getBoolean(R.styleable.TextInputLayout_errorEnabled, false);
+
+        final boolean counterEnabled = a.getBoolean(
+                R.styleable.TextInputLayout_counterEnabled, false);
+        setCounterMaxLength(
+                a.getInt(R.styleable.TextInputLayout_counterMaxLength, INVALID_MAX_LENGTH));
+        mCounterTextAppearance = a.getResourceId(
+                R.styleable.TextInputLayout_counterTextAppearance, 0);
+        mCounterOverflowTextAppearance = a.getResourceId(
+                R.styleable.TextInputLayout_counterOverflowTextAppearance, 0);
+        a.recycle();
+
+        setErrorEnabled(errorEnabled);
+        setCounterEnabled(counterEnabled);
+
+        if (this.getImportantForAccessibility()
+                == View.IMPORTANT_FOR_ACCESSIBILITY_AUTO) {
+            // Make sure we're important for accessibility if we haven't been explicitly not
+        	this.setImportantForAccessibility(
+                    View.IMPORTANT_FOR_ACCESSIBILITY_YES);
+        }
+
+        this.setAccessibilityDelegate(new TextInputAccessibilityDelegate());
+    }
+
+    @Override
+    public void addView(View child, int index, ViewGroup.LayoutParams params) {
+        if (child instanceof EditText) {
+            setEditText((EditText) child);
+            super.addView(child, 0, updateEditTextMargin(params));
+        } else {
+            // Carry on adding the View...
+            super.addView(child, index, params);
+        }
+    }
+
+    /**
+     * Set the typeface to use for both the expanded and floating hint.
+     *
+     * @param typeface typeface to use, or {@code null} to use the default.
+     */
+    public void setTypeface( Typeface typeface) {
+        mCollapsingTextHelper.setTypefaces(typeface);
+    }
+
+    /**
+     * Returns the typeface used for both the expanded and floating hint.
+     */
+    
+    public Typeface getTypeface() {
+        // This could be either the collapsed or expanded
+        return mCollapsingTextHelper.getCollapsedTypeface();
+    }
+
+    private void setEditText(EditText editText) {
+        // If we already have an EditText, throw an exception
+        if (mEditText != null) {
+            throw new IllegalArgumentException("We already have an EditText, can only have one");
+        }
+        mEditText = editText;
+
+        // Use the EditText's typeface, and it's text size for our expanded text
+        mCollapsingTextHelper.setTypefaces(mEditText.getTypeface());
+        mCollapsingTextHelper.setExpandedTextSize(mEditText.getTextSize());
+        mCollapsingTextHelper.setExpandedTextGravity(mEditText.getGravity());
+
+        // Add a TextWatcher so that we know when the text input has changed
+        mEditText.addTextChangedListener(new TextWatcher() {
+            @Override
+            public void afterTextChanged(Editable s) {
+                updateLabelState(true);
+                if (mCounterEnabled) {
+                    updateCounter(s.length());
+                }
+            }
+
+            @Override
+            public void beforeTextChanged(CharSequence s, int start, int count, int after) {}
+
+            @Override
+            public void onTextChanged(CharSequence s, int start, int before, int count) {}
+        });
+
+        // Use the EditText's hint colors if we don't have one set
+        if (mDefaultTextColor == null) {
+            mDefaultTextColor = mEditText.getHintTextColors();
+        }
+
+        // If we do not have a valid hint, try and retrieve it from the EditText, if enabled
+        if (mHintEnabled && TextUtils.isEmpty(mHint)) {
+            setHint(mEditText.getHint());
+            // Clear the EditText's hint as we will display it ourselves
+            mEditText.setHint(null);
+        }
+
+        if (mCounterView != null) {
+            updateCounter(mEditText.getText().length());
+        }
+
+        if (mIndicatorArea != null) {
+            adjustIndicatorPadding();
+        }
+
+        // Update the label visibility with no animation
+        updateLabelState(false);
+    }
+
+    private LayoutParams updateEditTextMargin(ViewGroup.LayoutParams lp) {
+        // Create/update the LayoutParams so that we can add enough top margin
+        // to the EditText so make room for the label
+        LayoutParams llp = lp instanceof LayoutParams ? (LayoutParams) lp : new LayoutParams(lp);
+
+        if (mHintEnabled) {
+            if (mTmpPaint == null) {
+                mTmpPaint = new Paint();
+            }
+            mTmpPaint.setTypeface(mCollapsingTextHelper.getCollapsedTypeface());
+            mTmpPaint.setTextSize(mCollapsingTextHelper.getCollapsedTextSize());
+            llp.topMargin = (int) -mTmpPaint.ascent();
+        } else {
+            llp.topMargin = 0;
+        }
+
+        return llp;
+    }
+
+    private void updateLabelState(boolean animate) {
+        final boolean hasText = mEditText != null && !TextUtils.isEmpty(mEditText.getText());
+        final boolean isFocused = arrayContains(getDrawableState(), android.R.attr.state_focused);
+        final boolean isErrorShowing = !TextUtils.isEmpty(getError());
+
+        if (mDefaultTextColor != null) {
+            mCollapsingTextHelper.setExpandedTextColor(mDefaultTextColor.getDefaultColor());
+        }
+
+        if (mCounterOverflowed && mCounterView != null) {
+            mCollapsingTextHelper.setCollapsedTextColor(mCounterView.getCurrentTextColor());
+        } else if (isErrorShowing && mErrorView != null) {
+            mCollapsingTextHelper.setCollapsedTextColor(mErrorView.getCurrentTextColor());
+        } else if (isFocused && mFocusedTextColor != null) {
+            mCollapsingTextHelper.setCollapsedTextColor(mFocusedTextColor.getDefaultColor());
+        } else if (mDefaultTextColor != null) {
+            mCollapsingTextHelper.setCollapsedTextColor(mDefaultTextColor.getDefaultColor());
+        }
+
+        if (hasText || isFocused || isErrorShowing) {
+            // We should be showing the label so do so if it isn't already
+            collapseHint(animate);
+        } else {
+            // We should not be showing the label so hide it
+            expandHint(animate);
+        }
+    }
+
+    /**
+     * Returns the {@link android.widget.EditText} used for text input.
+     */
+    
+    public EditText getEditText() {
+        return mEditText;
+    }
+
+    /**
+     * Set the hint to be displayed in the floating label, if enabled.
+     *
+     * @see #setHintEnabled(boolean)
+     *
+     * @attr ref com.mst.R.styleable#TextInputLayout_android_hint
+     */
+    public void setHint( CharSequence hint) {
+        if (mHintEnabled) {
+            setHintInternal(hint);
+            sendAccessibilityEvent(AccessibilityEvent.TYPE_WINDOW_CONTENT_CHANGED);
+        }
+    }
+
+    private void setHintInternal(CharSequence hint) {
+        mHint = hint;
+        mCollapsingTextHelper.setText(hint);
+    }
+
+    /**
+     * Returns the hint which is displayed in the floating label, if enabled.
+     *
+     * @return the hint, or null if there isn't one set, or the hint is not enabled.
+     *
+     * @attr ref com.mst.R.styleable#TextInputLayout_android_hint
+     */
+    
+    public CharSequence getHint() {
+        return mHintEnabled ? mHint : null;
+    }
+
+    /**
+     * Sets whether the floating label functionality is enabled or not in this layout.
+     *
+     * <p>If enabled, any non-empty hint in the child EditText will be moved into the floating
+     * hint, and its existing hint will be cleared. If disabled, then any non-empty floating hint
+     * in this layout will be moved into the EditText, and this layout's hint will be cleared.</p>
+     *
+     * @see #setHint(CharSequence)
+     * @see #isHintEnabled()
+     *
+     * @attr ref com.mst.R.styleable#TextInputLayout_hintEnabled
+     */
+    public void setHintEnabled(boolean enabled) {
+        if (enabled != mHintEnabled) {
+            mHintEnabled = enabled;
+
+            final CharSequence editTextHint = mEditText.getHint();
+            if (!mHintEnabled) {
+                if (!TextUtils.isEmpty(mHint) && TextUtils.isEmpty(editTextHint)) {
+                    // If the hint is disabled, but we have a hint set, and the EditText doesn't,
+                    // pass it through...
+                    mEditText.setHint(mHint);
+                }
+                // Now clear out any set hint
+                setHintInternal(null);
+            } else {
+                if (!TextUtils.isEmpty(editTextHint)) {
+                    // If the hint is now enabled and the EditText has one set, we'll use it if
+                    // we don't already have one, and clear the EditText's
+                    if (TextUtils.isEmpty(mHint)) {
+                        setHint(editTextHint);
+                    }
+                    mEditText.setHint(null);
+                }
+            }
+
+            // Now update the EditText top margin
+            if (mEditText != null) {
+                final LayoutParams lp = updateEditTextMargin(mEditText.getLayoutParams());
+                mEditText.setLayoutParams(lp);
+            }
+        }
+    }
+
+    /**
+     * Returns whether the floating label functionality is enabled or not in this layout.
+     *
+     * @see #setHintEnabled(boolean)
+     *
+     * @attr ref com.mst.R.styleable#TextInputLayout_hintEnabled
+     */
+    public boolean isHintEnabled() {
+        return mHintEnabled;
+    }
+
+    /**
+     * Sets the hint text color, size, style from the specified TextAppearance resource.
+     *
+     * @attr ref com.mst.R.styleable#TextInputLayout_hintTextAppearance
+     */
+    public void setHintTextAppearance( int resId) {
+        mCollapsingTextHelper.setCollapsedTextAppearance(resId);
+        mFocusedTextColor = ColorStateList.valueOf(mCollapsingTextHelper.getCollapsedTextColor());
+
+        if (mEditText != null) {
+            updateLabelState(false);
+
+            // Text size might have changed so update the top margin
+            LayoutParams lp = updateEditTextMargin(mEditText.getLayoutParams());
+            mEditText.setLayoutParams(lp);
+            mEditText.requestLayout();
+        }
+    }
+
+    private void addIndicator(TextView indicator, int index) {
+        if (mIndicatorArea == null) {
+            mIndicatorArea = new LinearLayout(getContext());
+            mIndicatorArea.setOrientation(LinearLayout.HORIZONTAL);
+            addView(mIndicatorArea, LinearLayout.LayoutParams.MATCH_PARENT,
+                    LinearLayout.LayoutParams.WRAP_CONTENT);
+
+            // Add a flexible spacer in the middle so that the left/right views stay pinned
+            final Space spacer = new Space(getContext());
+            final LinearLayout.LayoutParams spacerLp = new LinearLayout.LayoutParams(0, 0, 1f);
+            mIndicatorArea.addView(spacer, spacerLp);
+
+            if (mEditText != null) {
+                adjustIndicatorPadding();
+            }
+        }
+        mIndicatorArea.setVisibility(View.VISIBLE);
+        mIndicatorArea.addView(indicator, index);
+        mIndicatorsAdded++;
+    }
+
+    private void adjustIndicatorPadding() {
+        // Add padding to the error and character counter so that they match the EditText
+    	mIndicatorArea.setPaddingRelative( mEditText.getPaddingStart(),
+                0, mEditText.getPaddingEnd(), mEditText.getPaddingBottom());
+    }
+
+    private void removeIndicator(TextView indicator) {
+        if (mIndicatorArea != null) {
+            mIndicatorArea.removeView(indicator);
+            if (--mIndicatorsAdded == 0) {
+                mIndicatorArea.setVisibility(View.GONE);
+            }
+        }
+    }
+
+    /**
+     * Whether the error functionality is enabled or not in this layout. Enabling this
+     * functionality before setting an error message via {@link #setError(CharSequence)}, will mean
+     * that this layout will not change size when an error is displayed.
+     *
+     * @attr ref com.mst.R.styleable#TextInputLayout_errorEnabled
+     */
+    public void setErrorEnabled(boolean enabled) {
+        if (mErrorEnabled != enabled) {
+            if (mErrorView != null) {
+            	mErrorView.animate().cancel();
+            }
+
+            if (enabled) {
+                mErrorView = new TextView(getContext());
+                mErrorView.setTextAppearance(getContext(), mErrorTextAppearance);
+                mErrorView.setVisibility(INVISIBLE);
+                mErrorView.setAccessibilityLiveRegion(
+                        View.ACCESSIBILITY_LIVE_REGION_POLITE);
+                addIndicator(mErrorView, 0);
+            } else {
+                mErrorShown = false;
+                updateEditTextBackground();
+                removeIndicator(mErrorView);
+                mErrorView = null;
+            }
+            mErrorEnabled = enabled;
+        }
+    }
+
+    /**
+     * Returns whether the error functionality is enabled or not in this layout.
+     *
+     * @attr ref com.mst.R.styleable#TextInputLayout_errorEnabled
+     *
+     * @see #setErrorEnabled(boolean)
+     */
+    public boolean isErrorEnabled() {
+        return mErrorEnabled;
+    }
+
+    /**
+     * Sets an error message that will be displayed below our {@link EditText}. If the
+     * {@code error} is {@code null}, the error message will be cleared.
+     * <p>
+     * If the error functionality has not been enabled via {@link #setErrorEnabled(boolean)}, then
+     * it will be automatically enabled if {@code error} is not empty.
+     *
+     * @param error Error message to display, or null to clear
+     *
+     * @see #getError()
+     */
+    public void setError( CharSequence error) {
+        if (!mErrorEnabled) {
+            if (TextUtils.isEmpty(error)) {
+                // If error isn't enabled, and the error is empty, just return
+                return;
+            }
+            // Else, we'll assume that they want to enable the error functionality
+            setErrorEnabled(true);
+        }
+
+        if (!TextUtils.isEmpty(error)) {
+            boolean animate;
+            if (TextUtils.equals(error, mErrorView.getText())) {
+                // We've been given the same error message, so only animate if needed
+                animate = !mErrorView.isShown() || mErrorView.getAlpha() < 1f;
+            } else {
+                animate = true;
+                mErrorView.setText(error);
+            }
+
+            if (animate) {
+                if (mErrorView.getAlpha() == 1f) {
+                    // If it's currently 100% show, we'll animate it from 0
+                	mErrorView.setAlpha( 0f);
+                }
+                mErrorView.animate()
+                        .alpha(1f)
+                        .setDuration(ANIMATION_DURATION)
+                        .setInterpolator(AnimationUtils.LINEAR_OUT_SLOW_IN_INTERPOLATOR)
+                        .setListener(new AnimatorListener() {
+
+							@Override
+							public void onAnimationStart(Animator animation) {
+								// TODO Auto-generated method stub
+								mErrorView.setVisibility(VISIBLE);
+							}
+
+							@Override
+							public void onAnimationEnd(Animator animation) {
+								// TODO Auto-generated method stub
+								
+							}
+
+							@Override
+							public void onAnimationCancel(Animator animation) {
+								// TODO Auto-generated method stub
+								
+							}
+
+							@Override
+							public void onAnimationRepeat(Animator animation) {
+								// TODO Auto-generated method stub
+								
+							}
+                        })
+                        .start();
+            }
+
+            // Set the EditText's background tint to the error color
+            mErrorShown = true;
+            updateEditTextBackground();
+            updateLabelState(true);
+        } else {
+            if (mErrorView.getVisibility() == VISIBLE) {
+            	mErrorView.animate()
+                        .alpha(0f)
+                        .setDuration(ANIMATION_DURATION)
+                        .setInterpolator(AnimationUtils.FAST_OUT_LINEAR_IN_INTERPOLATOR)
+                        .setListener(new AnimatorListener() {
+
+							@Override
+							public void onAnimationStart(Animator animation) {
+								// TODO Auto-generated method stub
+								
+							}
+
+							@Override
+							public void onAnimationEnd(Animator animation) {
+								// TODO Auto-generated method stub
+								mErrorView.setVisibility(INVISIBLE);
+
+                                updateLabelState(true);
+							}
+
+							@Override
+							public void onAnimationCancel(Animator animation) {
+								// TODO Auto-generated method stub
+								
+							}
+
+							@Override
+							public void onAnimationRepeat(Animator animation) {
+								// TODO Auto-generated method stub
+								
+							}
+                        }).start();
+
+                // Restore the 'original' tint, using colorControlNormal and colorControlActivated
+                mErrorShown = false;
+                updateEditTextBackground();
+            }
+        }
+    }
+
+    /**
+     * Whether the character counter functionality is enabled or not in this layout.
+     *
+     * @attr ref com.mst.R.styleable#TextInputLayout_counterEnabled
+     */
+    public void setCounterEnabled(boolean enabled) {
+        if (mCounterEnabled != enabled) {
+            if (enabled) {
+                mCounterView = new TextView(getContext());
+                mCounterView.setMaxLines(1);
+                mCounterView.setTextAppearance(getContext(), mCounterTextAppearance);
+                mCounterView.setAccessibilityLiveRegion(
+                        View.ACCESSIBILITY_LIVE_REGION_POLITE);
+                addIndicator(mCounterView, -1);
+                if (mEditText == null) {
+                    updateCounter(0);
+                } else {
+                    updateCounter(mEditText.getText().length());
+                }
+            } else {
+                removeIndicator(mCounterView);
+                mCounterView = null;
+            }
+            mCounterEnabled = enabled;
+        }
+    }
+
+    /**
+     * Returns whether the character counter functionality is enabled or not in this layout.
+     *
+     * @attr ref com.mst.R.styleable#TextInputLayout_counterEnabled
+     *
+     * @see #setCounterEnabled(boolean)
+     */
+    public boolean isCounterEnabled() {
+        return mCounterEnabled;
+    }
+
+    /**
+     * Sets the max length to display at the character counter.
+     *
+     * @param maxLength maxLength to display. Any value less than or equal to 0 will not be shown.
+     *
+     * @attr ref com.mst.R.styleable#TextInputLayout_counterMaxLength
+     */
+    public void setCounterMaxLength(int maxLength) {
+        if (mCounterMaxLength != maxLength) {
+            if (maxLength > 0) {
+                mCounterMaxLength = maxLength;
+            } else {
+                mCounterMaxLength = INVALID_MAX_LENGTH;
+            }
+            if (mCounterEnabled) {
+                updateCounter(mEditText == null ? 0 : mEditText.getText().length());
+            }
+        }
+    }
+
+    /**
+     * Returns the max length shown at the character counter.
+     *
+     * @attr ref com.mst.R.styleable#TextInputLayout_counterMaxLength
+     */
+    public int getCounterMaxLength() {
+        return mCounterMaxLength;
+    }
+
+    private void updateCounter(int length) {
+        boolean wasCounterOverflowed = mCounterOverflowed;
+        if (mCounterMaxLength == INVALID_MAX_LENGTH) {
+            mCounterView.setText(String.valueOf(length));
+            mCounterOverflowed = false;
+        } else {
+            mCounterOverflowed = length > mCounterMaxLength;
+            if (wasCounterOverflowed != mCounterOverflowed) {
+                mCounterView.setTextAppearance(getContext(), mCounterOverflowed ?
+                        mCounterOverflowTextAppearance : mCounterTextAppearance);
+            }
+            mCounterView.setText(getContext().getString(R.string.character_counter_pattern,
+                    length, mCounterMaxLength));
+        }
+        if (mEditText != null && wasCounterOverflowed != mCounterOverflowed) {
+            updateLabelState(false);
+            updateEditTextBackground();
+        }
+    }
+
+    private void updateEditTextBackground() {
+        ensureBackgroundDrawableStateWorkaround();
+
+        final Drawable editTextBackground = mEditText.getBackground();
+        if (editTextBackground == null) {
+            return;
+        }
+
+        if (mErrorShown && mErrorView != null) {
+            // Set a color filter of the error color
+            editTextBackground.setColorFilter(mErrorView.getCurrentTextColor(), PorterDuff.Mode.SRC_IN);
+        } else if (mCounterOverflowed && mCounterView != null) {
+            // Set a color filter of the counter color
+            editTextBackground.setColorFilter(mCounterView.getCurrentTextColor(), PorterDuff.Mode.SRC_IN);
+        } else {
+            // Else reset the color filter and refresh the drawable state so that the
+            // normal tint is used
+            editTextBackground.clearColorFilter();
+            mEditText.refreshDrawableState();
+        }
+    }
+
+    private void ensureBackgroundDrawableStateWorkaround() {
+        final Drawable bg = mEditText.getBackground();
+        if (bg == null) {
+            return;
+        }
+
+        if (!mHasReconstructedEditTextBackground) {
+            // This is gross. There is an issue in the platform which affects container Drawables
+            // where the first drawable retrieved from resources will propogate any changes
+            // (like color filter) to all instances from the cache. We'll try to workaround it...
+
+            final Drawable newBg = bg.getConstantState().newDrawable();
+
+            if (bg instanceof DrawableContainer) {
+                // If we have a Drawable container, we can try and set it's constant state via
+                // reflection from the new Drawable
+                mHasReconstructedEditTextBackground =
+                        DrawableUtils.setContainerConstantState(
+                                (DrawableContainer) bg, newBg.getConstantState());
+            }
+
+            if (!mHasReconstructedEditTextBackground) {
+                // If we reach here then we just need to set a brand new instance of the Drawable
+                // as the background. This has the unfortunate side-effect of wiping out any
+                // user set padding, but I'd hope that use of custom padding on an EditText
+                // is limited.
+                mEditText.setBackgroundDrawable(newBg);
+                mHasReconstructedEditTextBackground = true;
+            }
+        }
+    }
+
+    /**
+     * Returns the error message that was set to be displayed with
+     * {@link #setError(CharSequence)}, or <code>null</code> if no error was set
+     * or if error displaying is not enabled.
+     *
+     * @see #setError(CharSequence)
+     */
+    
+    public CharSequence getError() {
+        if (mErrorEnabled && mErrorView != null && mErrorView.getVisibility() == VISIBLE) {
+            return mErrorView.getText();
+        }
+        return null;
+    }
+
+    /**
+     * Returns whether any hint state changes, due to being focused or non-empty text, are
+     * animated.
+     *
+     * @see #setHintAnimationEnabled(boolean)
+     *
+     * @attr ref com.mst.R.styleable#TextInputLayout_hintAnimationEnabled
+     */
+    public boolean isHintAnimationEnabled() {
+        return mHintAnimationEnabled;
+    }
+
+    /**
+     * Set whether any hint state changes, due to being focused or non-empty text, are
+     * animated.
+     *
+     * @see #isHintAnimationEnabled()
+     *
+     * @attr ref com.mst.R.styleable#TextInputLayout_hintAnimationEnabled
+     */
+    public void setHintAnimationEnabled(boolean enabled) {
+        mHintAnimationEnabled = enabled;
+    }
+
+    @Override
+    public void draw(Canvas canvas) {
+        super.draw(canvas);
+
+        if (mHintEnabled) {
+            mCollapsingTextHelper.draw(canvas);
+        }
+    }
+
+    @Override
+    protected void onLayout(boolean changed, int left, int top, int right, int bottom) {
+        super.onLayout(changed, left, top, right, bottom);
+
+        if (mHintEnabled && mEditText != null) {
+            final int l = mEditText.getLeft() + mEditText.getCompoundPaddingLeft();
+            final int r = mEditText.getRight() - mEditText.getCompoundPaddingRight();
+
+            mCollapsingTextHelper.setExpandedBounds(l,
+                    mEditText.getTop() + mEditText.getCompoundPaddingTop(),
+                    r, mEditText.getBottom() - mEditText.getCompoundPaddingBottom());
+
+            // Set the collapsed bounds to be the the full height (minus padding) to match the
+            // EditText's editable area
+            mCollapsingTextHelper.setCollapsedBounds(l, getPaddingTop(),
+                    r, bottom - top - getPaddingBottom());
+
+            mCollapsingTextHelper.recalculate();
+        }
+    }
+
+    @Override
+    public void refreshDrawableState() {
+        super.refreshDrawableState();
+        // Drawable state has changed so see if we need to update the label
+        updateLabelState(this.isLaidOut());
+    }
+
+    private void collapseHint(boolean animate) {
+        if (mAnimator != null && mAnimator.isRunning()) {
+            mAnimator.cancel();
+        }
+        if (animate && mHintAnimationEnabled) {
+            animateToExpansionFraction(1f);
+        } else {
+            mCollapsingTextHelper.setExpansionFraction(1f);
+        }
+    }
+
+    private void expandHint(boolean animate) {
+        if (mAnimator != null && mAnimator.isRunning()) {
+            mAnimator.cancel();
+        }
+        if (animate && mHintAnimationEnabled) {
+            animateToExpansionFraction(0f);
+        } else {
+            mCollapsingTextHelper.setExpansionFraction(0f);
+        }
+    }
+
+    private void animateToExpansionFraction(final float target) {
+        if (mCollapsingTextHelper.getExpansionFraction() == target) {
+            return;
+        }
+        if (mAnimator == null) {
+            mAnimator = ViewUtil.createAnimator();
+            mAnimator.setInterpolator(AnimationUtils.LINEAR_INTERPOLATOR);
+            mAnimator.setDuration(ANIMATION_DURATION);
+            mAnimator.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
+                @Override
+                public void onAnimationUpdate(ValueAnimator animator) {
+                    mCollapsingTextHelper.setExpansionFraction((float)animator.getAnimatedValue());
+                }
+            });
+        }
+        mAnimator.setFloatValues(mCollapsingTextHelper.getExpansionFraction(), target);
+        mAnimator.start();
+    }
+
+    private int getThemeAttrColor(int attr) {
+        TypedValue tv = new TypedValue();
+        if (getContext().getTheme().resolveAttribute(attr, tv, true)) {
+            return tv.data;
+        } else {
+            return Color.MAGENTA;
+        }
+    }
+
+    private class TextInputAccessibilityDelegate extends AccessibilityDelegate {
+        @Override
+        public void onInitializeAccessibilityEvent(View host, AccessibilityEvent event) {
+            super.onInitializeAccessibilityEvent(host, event);
+            event.setClassName(TextInputLayout.class.getSimpleName());
+        }
+
+        @Override
+        public void onPopulateAccessibilityEvent(View host, AccessibilityEvent event) {
+            super.onPopulateAccessibilityEvent(host, event);
+
+            final CharSequence text = mCollapsingTextHelper.getText();
+            if (!TextUtils.isEmpty(text)) {
+                event.getText().add(text);
+            }
+        }
+
+        @Override
+        public void onInitializeAccessibilityNodeInfo(View host, AccessibilityNodeInfo info) {
+            super.onInitializeAccessibilityNodeInfo(host, info);
+            info.setClassName(TextInputLayout.class.getSimpleName());
+
+            final CharSequence text = mCollapsingTextHelper.getText();
+            if (!TextUtils.isEmpty(text)) {
+                info.setText(text);
+            }
+            if (mEditText != null) {
+                info.setLabelFor(mEditText);
+            }
+            final CharSequence error = mErrorView != null ? mErrorView.getText() : null;
+            if (!TextUtils.isEmpty(error)) {
+                info.setContentInvalid(true);
+                info.setError(error);
+            }
+        }
+    }
+
+    private static boolean arrayContains(int[] array, int value) {
+        for (int v : array) {
+            if (v == value) {
+                return true;
+            }
+        }
+        return false;
+    }
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/import_take_photo_menu_item"
+        android:title="@string/take_a_photo"/>
+
+    <item android:id="@+id/import_take_photo_from_gallery_item"
+        android:title="@string/get_pic_from_gallery"/>
+
+</menu>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:gravity="center_vertical"
+    android:minHeight="?android:listPreferredItemHeight" >
+
+    <RelativeLayout
+        android:id="@*android:attr/theme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6.0sp"
+        android:layout_marginLeft="16.0sp"
+        android:layout_marginRight="6.0sp"
+        android:layout_marginTop="6.0sp"
+        android:layout_weight="1.0" >
+
+        <TextView
+            android:id="@*android:id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:textAppearance="?android:textAppearanceMedium" />
+
+        <TextView
+            android:id="@*android:id/summary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@*android:id/title"
+            android:layout_below="@*android:id/title"
+            android:maxLines="2"
+            android:textAppearance="?android:textAppearanceSmall" />
+    </RelativeLayout>
+
+    <RadioButton
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/pre_net_radiobutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="4.0dip"
+        android:layout_marginRight="15.0dip" />
+
+</LinearLayout>

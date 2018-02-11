@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@color/music_theme_color"
+                android:descendantFocusability="blocksDescendants"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp">
+
+    <ImageView
+        android:id="@+id/network_image_view"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:contentDescription="@string/artwork"/>
+
+    <CheckBox
+        android:id="@+id/network_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:checked="false"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"/>
+
+    <Space
+        android:id="@+id/text_spacer"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:id="@+id/network_title_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="3dp"
+        android:layout_toLeftOf="@+id/network_check"
+        android:layout_toRightOf="@+id/network_image_view"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="@string/queue"
+        android:textColor="#333333"
+        android:textSize="14sp"/>
+
+
+    <TextView
+        android:id="@+id/network_subtitle_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/network_title_view"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="4dp"
+        android:layout_toLeftOf="@+id/network_check"
+        android:layout_toRightOf="@id/network_image_view"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="@string/account"
+        android:textColor="#333333"
+        android:textSize="12sp"/>
+
+</RelativeLayout>

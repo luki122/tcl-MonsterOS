@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="check_new">Bilatu eguneratzeak</string>
+    <string name="downloaded_finish">Deskarga osatu da</string>
+    <string name="downloading">Deskargatzen...</string>
+    <string name="network_error_tip">Sareko errorea. Egiaztatu sareko konexioa eta saiatu berriro.</string>
+    <string name="notification_downloading">Deskargatzen</string>
+    <string name="tip_network_error">Sareko errorea</string>
+    <string name="try_later">Geroago</string>
+    <string name="update">Orain</string>
+    <string name="update_ask_tip">Azken bertsiora eguneratu behar duzu</string>
+    <string name="update_available">Eguneratze bat erabilgarri dago</string>
+    <string name="update_confirm">ADOS</string>
+    <string name="update_detail_prefix">Eguneratzearen xehetasunak:</string>
+    <string name="update_download_fail">Ezin izan da deskargatu</string>
+    <string name="update_force_nofity_tip">Aplikazioa azken bertsiora eguneratzea komeni da.</string>
+    <string name="update_no_need">Azken bertsioa duzu</string>
+    <string name="update_no_updates">Ez dago eguneratzerik</string>
+    <string name="update_no_updates_tip">Ez dago eguneratzerik</string>
+    <string name="update_not_now">Orain ez</string>
+    <string name="update_notification_tips">Funtzionamendua hobetzeko, eguneratu azken bertsiora.</string>
+    <string name="update_notification_title">Eguneratze-jakinarazpena</string>
+    <string name="update_notify_tip">Bertsio berria erabilgarri dago. Eguneratu egin nahi duzu?</string>
+    <string name="update_now">Eguneratu</string>
+    <string name="versionDesc">Bertsioaren informazioa:</string>
+</resources>

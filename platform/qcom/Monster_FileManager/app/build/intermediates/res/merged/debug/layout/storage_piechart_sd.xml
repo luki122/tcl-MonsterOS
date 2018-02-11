@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/memory_title_sd"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/chart_memory_title_height"
+        android:alpha="0.35"
+        android:fontFamily="monster-normal"
+        android:gravity="center_horizontal"
+        android:paddingTop="@dimen/chart_title_padding_top"
+        android:textColor="@color/black"
+        android:textSize="@dimen/chart_title" />
+
+    <RelativeLayout
+        android:id="@+id/pie_chart_middle_sd"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:layout_below="@+id/memory_title_sd">
+
+        <cn.tcl.filemanager.view.PieChartView
+            android:id="@+id/pie_chart_sd"
+            android:layout_width="@dimen/chart_height_width_pie"
+            android:layout_height="@dimen/chart_height_width_pie"
+            android:layout_centerInParent="true" />
+
+        <TextView
+            android:id="@+id/available_storage_center_sd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:alpha="0.87"
+            android:background="#00000000"
+            android:fontFamily="monster-normal"
+            android:textColor="@color/black"
+            android:textSize="@dimen/chart_available_value" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/available_storage_center_sd"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:alpha="0.35"
+            android:background="#00000000"
+            android:fontFamily="monster-normal"
+            android:text="@string/freeof_m"
+            android:textColor="@color/black"
+            android:textSize="@dimen/chart_available_name" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/pie_chart_btn_sd"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/chart_memory_title_height"
+        android:layout_below="@+id/pie_chart_middle_sd"
+        android:gravity="center_vertical|center_horizontal">
+
+        <TextView
+            android:id="@+id/pie_chart_btn_one_sd"
+            android:layout_width="@dimen/chart_text_btn_width"
+            android:layout_height="@dimen/chart_text_btn_height" />
+
+        <TextView
+            android:id="@+id/pie_chart_btn_two_sd"
+            android:layout_width="@dimen/chart_text_btn_width"
+            android:layout_height="@dimen/chart_text_btn_height"
+            android:layout_marginLeft="@dimen/chart_text_left"
+            android:layout_toRightOf="@+id/pie_chart_btn_one_sd" />
+
+        <TextView
+            android:id="@+id/pie_chart_btn_three_sd"
+            android:layout_width="@dimen/chart_text_btn_width"
+            android:layout_height="@dimen/chart_text_btn_height"
+            android:layout_marginLeft="@dimen/chart_text_left"
+            android:layout_toRightOf="@+id/pie_chart_btn_two_sd" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pie_chart_btn_sd">
+
+        <TextView
+            android:id="@+id/total_storage_name_sd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/chart_margin_left"
+            android:layout_marginTop="@dimen/chart_text_total_name_top"
+            android:alpha="0.87"
+            android:fontFamily="monster-normal"
+            android:text="@string/total_memory"
+            android:textColor="@color/black"
+            android:textSize="@dimen/chart_total_name" />
+
+        <TextView
+            android:id="@+id/total_storage_value_sd"
+            android:layout_width="@dimen/chart_total_memory_width"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/chart_total_margin_left"
+            android:layout_marginTop="@dimen/chart_total_margin_top"
+            android:layout_toRightOf="@id/total_storage_name_sd"
+            android:fontFamily="monster-normal"
+            android:gravity="left"
+            android:textColor="@color/black"
+            android:textSize="@dimen/chart_total_value" />
+
+        <LinearLayout
+            android:id="@+id/storage_one_sd"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/chart_category_height"
+            android:layout_marginLeft="@dimen/chart_margin_left"
+            android:layout_marginTop="@dimen/chart_pie_margin_left"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/music_storage_sd"
+                android:layout_width="@dimen/chart_category_width"
+                android:layout_height="@dimen/chart_category_height"
+                android:gravity="bottom"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/music_storage_image_sd"
+                    android:layout_width="@dimen/chart_image_width_height"
+                    android:layout_height="@dimen/chart_image_width_height"
+                    android:layout_marginBottom="@dimen/chart_image_bottom"
+                    android:background="@color/music_color" />
+
+                <TextView
+                    android:id="@+id/music_storage_name_sd"
+                    style="@style/PieChartTextStyle"
+                    android:text="@string/category_music" />
+
+                <TextView
+                    android:id="@+id/music_storage_value_sd"
+                    style="@style/PieChartTextValueStyle" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/picture_storage_sd"
+                android:layout_width="@dimen/chart_category_width"
+                android:layout_height="@dimen/chart_category_height"
+                android:layout_marginLeft="@dimen/chart_all_margin_left"
+                android:gravity="bottom"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/picture_storage_image_sd"
+                    android:layout_width="@dimen/chart_image_width_height"
+                    android:layout_height="@dimen/chart_image_width_height"
+                    android:layout_marginBottom="@dimen/chart_image_bottom"
+                    android:background="@color/picture_color" />
+
+                <TextView
+                    android:id="@+id/picture_storage_name_sd"
+                    style="@style/PieChartTextStyle"
+                    android:text="@string/category_pictures" />
+
+                <TextView
+                    android:id="@+id/picture_storage_value_sd"
+                    style="@style/PieChartTextValueStyle" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/storage_two_sd"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/chart_category_height"
+            android:layout_below="@+id/storage_one_sd"
+            android:layout_marginLeft="@dimen/chart_margin_left"
+            android:layout_marginTop="@dimen/chart_margin_top"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/video_storage_sd"
+                android:layout_width="@dimen/chart_category_width"
+                android:layout_height="@dimen/chart_category_height"
+                android:gravity="bottom"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/video_storage_image_sd"
+                    android:layout_width="@dimen/chart_image_width_height"
+                    android:layout_height="@dimen/chart_image_width_height"
+                    android:layout_marginBottom="@dimen/chart_image_bottom"
+                    android:background="@color/video_color" />
+
+                <TextView
+                    android:id="@+id/video_storage_name_sd"
+                    style="@style/PieChartTextStyle"
+                    android:text="@string/category_vedios" />
+
+                <TextView
+                    android:id="@+id/video_storage_value_sd"
+                    style="@style/PieChartTextValueStyle" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/apk_storage_sd"
+                android:layout_width="@dimen/chart_category_width"
+                android:layout_height="@dimen/chart_category_height"
+                android:layout_marginLeft="@dimen/chart_all_margin_left"
+                android:gravity="bottom"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/apk_storage_image_sd"
+                    android:layout_width="@dimen/chart_image_width_height"
+                    android:layout_height="@dimen/chart_image_width_height"
+                    android:layout_marginBottom="@dimen/chart_image_bottom"
+                    android:background="@color/apk_color" />
+
+                <TextView
+                    android:id="@+id/apk_storage_name_sd"
+                    style="@style/PieChartTextStyle"
+                    android:text="@string/category_apks" />
+
+                <TextView
+                    android:id="@+id/apk_storage_value_sd"
+                    style="@style/PieChartTextValueStyle" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/storage_three_sd"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/chart_category_height"
+            android:layout_below="@+id/storage_two_sd"
+            android:layout_marginLeft="@dimen/chart_margin_left"
+            android:layout_marginTop="@dimen/chart_margin_top"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/system_storage_sd"
+                android:layout_width="@dimen/chart_category_width"
+                android:layout_height="@dimen/chart_category_height"
+                android:gravity="bottom"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/system_storage_image_sd"
+                    android:layout_width="@dimen/chart_image_width_height"
+                    android:layout_height="@dimen/chart_image_width_height"
+                    android:layout_marginBottom="@dimen/chart_image_bottom"
+                    android:background="@color/system_color" />
+
+                <TextView
+                    android:id="@+id/system_storage_name_sd"
+                    style="@style/PieChartTextStyle"
+                    android:text="@string/system" />
+
+                <TextView
+                    android:id="@+id/system_storage_value_sd"
+                    style="@style/PieChartTextValueStyle" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/other_storage_sd"
+                android:layout_width="@dimen/chart_category_width"
+                android:layout_height="@dimen/chart_category_height"
+                android:layout_marginLeft="@dimen/chart_all_margin_left"
+                android:gravity="bottom"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/other_storage_image_sd"
+                    android:layout_width="@dimen/chart_image_width_height"
+                    android:layout_height="@dimen/chart_image_width_height"
+                    android:layout_marginBottom="@dimen/chart_image_bottom"
+                    android:background="@color/other_color" />
+
+                <TextView
+                    android:id="@+id/other_storage_name_sd"
+                    style="@style/PieChartTextStyle"
+                    android:text="@string/others" />
+
+                <TextView
+                    android:id="@+id/other_storage_value_sd"
+                    style="@style/PieChartTextValueStyle" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/storage_four_sd"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/chart_category_height"
+            android:layout_below="@+id/storage_three_sd"
+            android:layout_marginLeft="@dimen/chart_margin_left"
+            android:layout_marginTop="@dimen/chart_margin_top"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/available_storage_sd"
+                android:layout_width="@dimen/chart_category_width"
+                android:layout_height="@dimen/chart_category_height"
+                android:gravity="bottom"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/available_storage_image_sd"
+                    android:layout_width="@dimen/chart_image_width_height"
+                    android:layout_height="@dimen/chart_image_width_height"
+                    android:layout_marginBottom="@dimen/chart_image_bottom"
+                    android:background="@color/available_color" />
+
+                <TextView
+                    android:id="@+id/available_storage_name_sd"
+                    style="@style/PieChartTextStyle"
+                    android:text="@string/free_space" />
+
+                <TextView
+                    android:id="@+id/available_storage_value_sd"
+                    style="@style/PieChartTextValueStyle" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

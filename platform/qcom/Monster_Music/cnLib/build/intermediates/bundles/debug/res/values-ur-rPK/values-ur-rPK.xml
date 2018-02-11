@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cannot_specify_an_empty_name_for_playlist">"پلے لسٹ خالی نہيں رہ سکتی"</string>
+    <string name="cross_dj_saturated_storage_not_enough_free_space_to_record_your_mix">"آپ کا مکس ریکارڈ کرنے کے لئے کافی جگہ نہیں ہے۔"</string>
+    <string name="cross_dj_saturated_storage_your_recording_might_stop_soon_because_no_more_free_space_is_available">"آپ کی ریکارڈنگ جلد ہی رک سکتی ہے، کیونکہ اب کوئی اور جگہ دستیاب نہیں ہے۔"</string>
+    <string name="invalid_drm_file">"فائل کا کوئی قابل قبول DRM اختیار نہیں ہے۔"</string>
+    <string name="mobiledata_turnoff_btn">"غیرفعال کریں"</string>
+    <string name="never_show_it_again">"اسے دوبارہ نہ دکھائیں"</string>
+    <string name="no_error">"کوئی غلطی نہیں"</string>
+    <string name="recording_reached_max_duration">"ریکارڈنگ اس کے زیادہ سے زیادہ دورانیہ تک پہنچ گئی ہے۔ اپنی ترجیحات کی جانچ کریں۔"</string>
+    <string name="recording_soon_to_reach_max_duration">"جلد ہی ریکارڈنگ کا زیادہ سے زیادہ دورانیہ پہنچ جائے گا۔ اپنی ترجیحات کی جانچ کریں۔"</string>
+    <string name="scratching_is_disabled_in_no_mix_mode">"ڈی جے موڈ میں آپ صرف اسکریچ کر سکتے ہیں۔"</string>
+    <string name="sign_up">"سائن اپ"</string>
+    <string name="the_external_memory_storage_is_not_mounted">"خارجی میموری اسٹوریج ماؤنٹ کردہ نہیں ہے۔ ہوسکتا ہے کہ آپ کو USB میموری اسٹوریج غیر فعال کرنا پڑے۔"</string>
+    <string name="there_s_not_enough_space_in_your_internal_storage_try_to_do_some_clean_up">"آپ کے اندرونی اسٹوریج میں کافی جگہ نہیں ہے (کچھ جگہ خالی کرنے کی کوشش کریں)"</string>
+</resources>

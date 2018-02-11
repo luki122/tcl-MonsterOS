@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:id="@android:id/background">
+        <color android:color="#ffb2b2b2"/>
+    </item>
+    <item android:id="@android:id/secondaryProgress">
+        <scale android:scaleWidth="100%">
+            <nine-patch
+                android:alpha="?android:attr/disabledAlpha"
+                android:src="@drawable/progress_mtrl_alpha"
+                />
+        </scale>
+    </item>
+    <item android:id="@android:id/progress">
+        <clip>
+            <color android:color="#ff1bc1b6"/>
+
+        </clip>
+    </item>
+</layer-list>

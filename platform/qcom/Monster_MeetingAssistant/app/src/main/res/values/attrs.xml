@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<resources>
+    <declare-styleable name="extensible">
+        <attr name="defaultLines" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+        <attr name="hasShadow" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="TimerView">
+        <attr name="timer_view_text_size" format="dimension"/>
+        <attr name="timer_view_text_color" format="color"/>
+        <attr name="timer_view_text_alpha" format="float"/>
+        <attr name="timer_view_total_second" format="integer"/>
+        <attr name="timer_view_interval" format="integer"/>
+        <attr name="timer_view_bookmark_icon" format="reference"/>
+        <attr name="timer_view_font" format="string"/>
+        <attr name="timer_mark_text_gap" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="BookmarkSeekBar">
+        <attr name="seek_bar_height" format="dimension"/>
+        <attr name="seek_bar_text_gap" format="dimension"/>
+        <attr name="seek_bar_text_size" format="dimension"/>
+        <attr name="seek_bar_textColor" format="color"/>
+        <attr name="seek_bar_text_alpha" format="float"/>
+        <attr name="slide_width" format="dimension"/>
+        <attr name="slide_color" format="color"/>
+        <attr name="small_round_radio" format="dimension"/>
+        <attr name="small_round_color" format="color"/>
+        <attr name="large_round_radio" format="dimension"/>
+        <attr name="large_round_color" format="color"/>
+        <attr name="large_round_alpha" format="float"/>
+        <attr name="mark_drawable_resource" format="reference"/>
+        <attr name="max" format="integer"/>
+        <attr name="seek_bar_background" format="color"/>
+        <attr name="num_text_front" format="string"/>
+        <attr name="mark_bar_gap" format="dimension"/>
+        <attr name="bar_height" format="dimension"/>
+        <attr name="bar_margin_top" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="AudioTextDeleteButton">
+        <attr name="audio_text_btn_cycle_color" format="color"/>
+        <attr name="audio_text_btn_cycle_dimension" format="dimension"/>
+        <attr name="audio_text_btn_cycle_bg_color" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="FixedEditText">
+        <attr name="fixed_text_last_line_cursor" format="reference"/>
+        <attr name="fixed_text_cursor" format="reference"/>
+        <attr name="hint_text" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="MatrixImageView">
+        <attr name="matrix_paddingTop" format="dimension"/>
+    </declare-styleable>
+
+</resources>

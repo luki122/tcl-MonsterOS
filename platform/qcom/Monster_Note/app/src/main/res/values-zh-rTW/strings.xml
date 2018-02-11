@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"備註"</string>
+	<!---->
+	<string name="audio_record">"錄音"</string>
+	<!---->
+	<string name="audio_get_app">"從音頻錄制中添加音頻"</string>
+	<!---->
+	<string name="dialog_cancel">"取消"</string>
+	<!---->
+	<string name="dialog_del_audio_msg">"刪除音頻？"</string>
+	<!---->
+	<string name="dialog_del_img_msg">"刪除相片？"</string>
+	<!---->
+	<string name="dialog_del_title">"刪除"</string>
+	<!---->
+	<string name="dialog_ok">"確定"</string>
+	<!---->
+	<string name="img_cut">"剪下"</string>
+	<!---->
+	<string name="pic_get_album">"相簿"</string>
+	<!---->
+	<string name="pic_take_camera">"相機"</string>
+	<!---->
+	<string name="toast_audio_cannot_play">"正在復制錄音檔案，請稍候再試。"</string>
+	<!---->
+	<string name="toast_audio_max">"已達到錄音數量限制"</string>
+	<!---->
+	<string name="toast_img_max">"已達到圖片數量限制"</string>
+	<!---->
+	<string name="toast_no_space">"儲存空間不足，無法添加"</string>
+	<!---->
+	<string name="toolbar_share">"預覽"</string>
+	<!---->
+	<string name="toolbar_theme">"主題"</string>
+	<!---->
+	<string name="dialog_back_msg">"未停止錄製，並且退出會停止錄製並儲存所有內容，是否立即退出？"</string>
+	<!---->
+	<string name="dialog_back_title">"提示"</string>
+	<!---->
+	<string name="dialog_battery_10">"低於 10% 電量，請停止錄製並避免錄製數據損失。"</string>
+	<!---->
+	<string name="dialog_battery_5">"低於 5% 電量，錄製已停止"</string>
+	<!---->
+	<string name="dialog_i_know">"我知道"</string>
+	<!---->
+	<string name="dialog_ignore">"略過"</string>
+	<!---->
+	<string name="dialog_space_100m">"儲存空間低於 100MB，請及時清理以避免錄製資料損失。"</string>
+	<!---->
+	<string name="dialog_space_50m_start">"儲存空間低於 50MB，且您無法開始錄制，請及時清理"</string>
+	<!---->
+	<string name="dialog_space_50m_stop">"儲存空間不足，錄製已中止。"</string>
+	<!---->
+	<string name="dialog_space_clear">"前往清理"</string>
+	<!---->
+	<string name="dialog_start_battery_10">"電量低，容易導致錄製資料丟失，是否開始錄製？"</string>
+	<!---->
+	<string name="dialog_start_battery_5">"無法開始錄製，請保持電源高於 5%"</string>
+	<!---->
+	<string name="dialog_start_record">"錄音"</string>
+	<!---->
+	<string name="dialog_stop">"停止"</string>
+	<!---->
+	<string name="share_save_album">"相片已儲存至相簿中"</string>
+	<!---->
+	<string name="notification_battery_low">"電源電量低，請停止錄製"</string>
+	<!---->
+	<string name="notification_battery_low_stop">"低電源電量，錄製已停止"</string>
+	<!---->
+	<string name="notification_pause_record">"錄製已中止"</string>
+	<!---->
+	<string name="notification_recording">"正在錄音..."</string>
+	<!---->
+	<string name="notification_space_not_enough">"儲存空間不足，請清理空間或停止錄製"</string>
+	<!---->
+	<string name="notification_space_not_enough_stop">"儲存空間不足，錄製已中止"</string>
+	<!---->
+	<string name="share_save_album_fail">"儲存相薄失敗，請再次嘗試"</string>
+	<!---->
+	<string name="share_tcl_flag">"從 TCL 的備注"</string>
+	<!---->
+	<string name="toast_audio_bad_play">"錄音檔案已損壞，無法播放。"</string>
+	<!---->
+	<string name="home_search">"搜尋"</string>
+	<!---->
+	<string name="audio_lose">"音頻已丟失"</string>
+	<!---->
+	<string name="dialog_del_note_msg">"刪除備注？"</string>
+	<!---->
+	<string name="home_all_selection">"檢查全部"</string>
+	<!---->
+	<string name="home_no_data">"無備注"</string>
+	<!---->
+	<string name="search_no_data">"無搜尋結果"</string>
+	<!---->
+	<string name="preset_note_first">"左滑刪除此備注"</string>
+	<!---->
+	<string name="preset_note_second">"從 FileManager 的備注中查看圖片和錄音，或從手機儲存中搜尋備注檔案，或直接前往檔案檢視。"</string>
+	<!---->
+	<string name="un_select_all">"取消全選"</string>
+	<!---->
+	<string name="dialog_return_title">"提醒"</string>
+	<!---->
+	<string name="home_default_line_audio">"[%1$d 音訊]"</string>
+	<!---->
+	<string name="home_default_line_img">"[%1$d 圖片]"</string>
+</resources>

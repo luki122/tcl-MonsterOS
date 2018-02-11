@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:background="@drawable/duoqu_select_dialo_bg">
+    
+    <!-- 
+    android:background="@drawable/duoqu_dialog_rectangle" 
+    android:background="@drawable/duoqu_select_dialo_bg"
+     -->
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="24dp"
+        android:text="@string/duoqu_select_destination"
+        android:textColor="@color/duoqu_ui_base_color_3011"
+        android:textSize="@dimen/dialog_title_text_size" >
+    </TextView>
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:divider="#d6d6d6"
+        android:dividerHeight="0px"
+        android:scrollbars="none" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_below="@id/list"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/sure"
+            android:layout_width="74dp"
+            android:layout_height="36dp"
+            android:layout_alignParentRight="true"
+            android:background="@color/duoqu_white2"
+            android:gravity="center"
+            android:layout_marginRight="8dp"
+            android:text="@string/duoqu_confirm"
+            android:textColor="@color/duoqu_ui_base_color_1090"
+            android:textSize="@dimen/dialog_button_text_size" />
+
+        <TextView
+            android:id="@+id/no"
+            android:layout_width="74dp"
+            android:layout_height="36dp"
+            android:layout_toLeftOf="@id/sure"
+            android:background="@color/duoqu_white2"
+            android:gravity="center"
+            android:layout_marginRight="8dp"
+            android:text="@string/duoqu_cancel"
+            android:textColor="@color/duoqu_ui_base_color_1090"
+            android:textSize="@dimen/dialog_button_text_size" />
+    </RelativeLayout>
+
+</RelativeLayout>
